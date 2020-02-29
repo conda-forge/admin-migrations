@@ -1,0 +1,84 @@
+#!/usr/bin/env bash
+
+rm -rf rerend-migrate
+mkdir -p rerend-migrate
+pushd rerend-migrate
+
+# clone countyfair
+git clone --depth=1 https://github.com/regro/cf-graph-countyfair.git
+
+# now loop
+start=`date +%s`
+tot=`wc -l < cf-graph-countyfair/names.txt`
+don=0
+for name in `cat cf-graph-countyfair/names.txt`; do
+  echo "================================================================================"
+  echo "================================================================================"
+  echo "================================================================================"
+  echo $name
+
+  git clone https://${GITHUB_TOKEN}@github.com/conda-forge/${name}-feedstock.git
+  pushd ${name}-feedstock
+
+  git remote set-url --push origin https://${GITHUB_TOKEN}@github.com/conda-forge/${name}-feedstock.git
+
+  if [[ -f ".github/workflows/webservices.yml" ]] && [[ -f ".github/workflows/main.yml" ]]; then
+    :
+  else
+    mkdir -p .github/workflows/
+    echo "\
+on: repository_dispatch
+
+jobs:
+  webservices:
+    runs-on: ubuntu-latest
+    name: webservices
+    steps:
+      - name: webservices
+        id: webservices
+        uses: conda-forge/webservices-dispatch-action@master
+        with:
+          github_token: \${{ secrets.GITHUB_TOKEN }}" > .github/workflows/webservices.yml
+
+    echo "\
+on:
+  status: {}
+  check_suite:
+    types:
+      - completed
+
+jobs:
+  regro-cf-autotick-bot-action:
+    runs-on: ubuntu-latest
+    name: regro-cf-autotick-bot-action
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: regro-cf-autotick-bot-action
+        id: regro-cf-autotick-bot-action
+        uses: regro/cf-autotick-bot-action@master
+        with:
+          github_token: \${{ secrets.GITHUB_TOKEN }}" > .github/workflows/main.yml
+
+    git add .github/workflows/webservices.yml
+    git add .github/workflows/main.yml
+    git ci -m '[ci skip] [skip ci] ***NO_CI*** added webservices and automerge action configs'
+    git push
+  fi
+  popd
+  rm -rf ${name}-feedstock
+
+  curr_time=`date +%s`
+  don=$((don + 1))
+  eta=`bc <<< "scale=1; (${curr_time} - ${start}) / ${don} * ($tot - $don)"`
+  echo "done ${don} out of ${tot} - eta ${eta}"
+
+  echo " "
+
+  if [[ ${don} == "20" ]]; then
+    break
+  fi
+done
+
+popd
+rm -rf rerend-migrate
