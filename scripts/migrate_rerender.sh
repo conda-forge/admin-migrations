@@ -12,7 +12,7 @@ start=`date +%s`
 tot=`wc -l < cf-graph-countyfair/names.txt`
 don=0
 for name in `cat cf-graph-countyfair/names.txt | sort`; do
-  if [[ `grep ${name} ~/repo/scripts/migrate_rerender_done.txt` == "${name}" ]]; then
+  if [[ `grep ${name} ~/admin-migrations/scripts/migrate_rerender_done.txt` == "${name}" ]]; then
     continue
   fi
 
@@ -69,7 +69,7 @@ jobs:
     git ci -m '[ci skip] [skip ci] ***NO_CI*** added webservices and automerge action configs'
     git push
 
-    echo ${name} >> ~/repo/scripts/migrate_rerender_done.txt
+    echo ${name} >> ~/admin-migrations/scripts/migrate_rerender_done.txt
   fi
   popd
   rm -rf ${name}-feedstock
@@ -90,7 +90,7 @@ done
 popd
 rm -rf rerend-migrate
 
-pushd ~/repo
+pushd ~/admin-migrations
 git add scripts/migrate_rerender_done.txt
 git ci -m 'added migrated repos for automerge and webservices'
 
