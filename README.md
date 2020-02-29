@@ -19,3 +19,5 @@ CircleCI is set to run once an hour on a cron job.
    is available to help test migrations.
 4. CircleCI has a `GITHUB_TOKEN` in the environment. Please do not exhaust this
    token's API requests.
+5. Rate limit commits to feedstocks to at most a few per minute in order to reduce
+   the load on our admin webservices.
