@@ -83,6 +83,9 @@ jobs:
 
   echo " "
 
+  # sleep to rate limit loads on our admin web services 
+  sleep 15
+
   # limit to XYZ per hour
   if [[ ${don} == "2" ]]; then
     break
