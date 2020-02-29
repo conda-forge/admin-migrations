@@ -1,4 +1,6 @@
 # admin-migrations
+[![CircleCI](https://circleci.com/gh/conda-forge/admin-migrations.svg?style=svg)](https://circleci.com/gh/conda-forge/admin-migrations)
+
 repo to run background admin migrations of conda-forge feedstocks
 
 ## How to Use this Repo
