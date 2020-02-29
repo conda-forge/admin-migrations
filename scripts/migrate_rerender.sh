@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cwd=`pwd`
+
 rm -rf rerend-migrate
 mkdir -p rerend-migrate
 pushd rerend-migrate
@@ -12,7 +14,7 @@ start=`date +%s`
 tot=`wc -l < cf-graph-countyfair/names.txt`
 don=0
 for name in `cat cf-graph-countyfair/names.txt | sort`; do
-  if [[ `grep ${name} ~/admin-migrations/scripts/migrate_rerender_done.txt` == "${name}" ]]; then
+  if [[ `grep ${name} ${cwd}/admin-migrations/scripts/migrate_rerender_done.txt` == "${name}" ]]; then
     continue
   fi
 
@@ -27,7 +29,7 @@ for name in `cat cf-graph-countyfair/names.txt | sort`; do
   git remote set-url --push origin https://${GITHUB_TOKEN}@github.com/conda-forge/${name}-feedstock.git
 
   if [[ -f ".github/workflows/webservices.yml" ]] && [[ -f ".github/workflows/main.yml" ]]; then
-    :
+    echo ${name} >> ${cwd}/admin-migrations/scripts/migrate_rerender_done.txt
   else
     mkdir -p .github/workflows/
     echo "\
@@ -69,7 +71,7 @@ jobs:
     git ci -m '[ci skip] [skip ci] ***NO_CI*** added webservices and automerge action configs'
     git push
 
-    echo ${name} >> ~/admin-migrations/scripts/migrate_rerender_done.txt
+    echo ${name} >> ${cwd}/admin-migrations/scripts/migrate_rerender_done.txt
   fi
   popd
   rm -rf ${name}-feedstock
@@ -90,7 +92,7 @@ done
 popd
 rm -rf rerend-migrate
 
-pushd ~/admin-migrations
+pushd ${cwd}/admin-migrations
 git add scripts/migrate_rerender_done.txt
 git ci -m 'added migrated repos for automerge and webservices'
 
