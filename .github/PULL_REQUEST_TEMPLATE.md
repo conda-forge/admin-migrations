@@ -5,3 +5,5 @@
       avoid massive rebuilds.
 - [ ] Test your migration first. The `https://github.com/conda-forge/cf-autotick-bot-test-package-feedstock`
       is available to help test migrations.
+- [ ] CircleCI has a `GITHUB_TOKEN` in the environment. Please do not exhaust this
+      token's API requests.

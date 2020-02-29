@@ -15,3 +15,5 @@ CircleCI is set to run once an hour on a cron job.
    avoid massive rebuilds.
 3. Test your migration first. The `https://github.com/conda-forge/cf-autotick-bot-test-package-feedstock`
    is available to help test migrations.
+4. CircleCI has a `GITHUB_TOKEN` in the environment. Please do not exhaust this
+   token's API requests.
