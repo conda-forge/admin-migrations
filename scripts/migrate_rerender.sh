@@ -90,7 +90,7 @@ done
 popd
 rm -rf rerend-migrate
 
-pushd ~repo
+pushd ~/repo
 git add scripts/migrate_rerender_done.txt
 git ci -m 'added migrated repos for automerge and webservices'
 
