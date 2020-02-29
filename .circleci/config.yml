@@ -11,7 +11,7 @@ jobs:
           name: migrate rerender and automerge
           command: |
             cd ..
-            ./scripts/migrate_rerender.sh
+            ./repo/scripts/migrate_rerender.sh
 
 workflows:
   version: 2

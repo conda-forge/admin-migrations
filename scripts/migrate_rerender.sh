@@ -29,7 +29,6 @@ for name in `cat cf-graph-countyfair/names.txt | sort`; do
   if [[ -f ".github/workflows/webservices.yml" ]] && [[ -f ".github/workflows/main.yml" ]]; then
     :
   else
-    echo ${name} >> ~/repo/scripts/migrate_rerender_done.txt
     mkdir -p .github/workflows/
     echo "\
 on: repository_dispatch
@@ -69,6 +68,8 @@ jobs:
     git add .github/workflows/main.yml
     git ci -m '[ci skip] [skip ci] ***NO_CI*** added webservices and automerge action configs'
     git push
+
+    echo ${name} >> ~/repo/scripts/migrate_rerender_done.txt
   fi
   popd
   rm -rf ${name}-feedstock
@@ -80,6 +81,7 @@ jobs:
 
   echo " "
 
+  # limit to XYZ per hour
   if [[ ${don} == "2" ]]; then
     break
   fi
