@@ -7,5 +7,5 @@
       is available to help test migrations.
 - [ ] CircleCI has a `GITHUB_TOKEN` in the environment. Please do not exhaust this
       token's API requests.
-- [ ] Rate limit commits to feedstocks to at most a few per minute in order to reduce
+- [ ] Rate-limit commits to feedstocks to at most a few per minute in order to reduce
       the load on our admin webservices.
