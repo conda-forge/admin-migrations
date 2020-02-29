@@ -10,6 +10,7 @@ jobs:
       - run:
           name: migrate rerender and automerge
           command: |
+            cd ..
             ./scripts/migrate_rerender.sh
 
 workflows:

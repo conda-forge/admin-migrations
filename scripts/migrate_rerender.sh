@@ -11,7 +11,11 @@ git clone --depth=1 https://github.com/regro/cf-graph-countyfair.git
 start=`date +%s`
 tot=`wc -l < cf-graph-countyfair/names.txt`
 don=0
-for name in `cat cf-graph-countyfair/names.txt`; do
+for name in `cat cf-graph-countyfair/names.txt | sort`; do
+  if [[ `grep ${name} ~/repo/scripts/migrate_rerender_done.txt` == "${name}" ]]; then
+    continue
+  fi
+
   echo "================================================================================"
   echo "================================================================================"
   echo "================================================================================"
@@ -25,6 +29,7 @@ for name in `cat cf-graph-countyfair/names.txt`; do
   if [[ -f ".github/workflows/webservices.yml" ]] && [[ -f ".github/workflows/main.yml" ]]; then
     :
   else
+    echo ${name} >> ~/repo/scripts/migrate_rerender_done.txt
     mkdir -p .github/workflows/
     echo "\
 on: repository_dispatch
@@ -75,10 +80,19 @@ jobs:
 
   echo " "
 
-  if [[ ${don} == "20" ]]; then
+  if [[ ${don} == "2" ]]; then
     break
   fi
 done
 
 popd
 rm -rf rerend-migrate
+
+pushd ~repo
+git add scripts/migrate_rerender_done.txt
+git ci -m 'added migrated repos for automerge and webservices'
+
+git remote set-url --push origin https://${GITHUB_TOKEN}@github.com/conda-forge/admin-migrations.git
+git push
+
+popd
