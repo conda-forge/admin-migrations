@@ -68,7 +68,7 @@ jobs:
 
     git add .github/workflows/webservices.yml
     git add .github/workflows/main.yml
-    git ci -m '[ci skip] [skip ci] ***NO_CI*** added webservices and automerge action configs'
+    git ci -m '[ci skip] [skip ci] [cf admin skip] ***NO_CI*** added webservices and automerge action configs'
     git push
 
     echo ${name} >> ${cwd}/admin-migrations/scripts/migrate_rerender_done.txt
@@ -83,7 +83,7 @@ jobs:
 
   echo " "
 
-  # sleep to rate limit loads on our admin web services 
+  # sleep to rate limit loads on our admin web services
   sleep 15
 
   # limit to XYZ per hour

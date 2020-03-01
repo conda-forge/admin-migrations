@@ -1,7 +1,7 @@
 ## Guidelines and Ground Rules
 
 - [ ] Don't migrate more than ~100-200 feedstocks per hour.
-- [ ] Make sure to put `[ci skip] [skip ci] ***NO_CI***` in any commits to
+- [ ] Make sure to put `[ci skip] [skip ci] [cf admin skip] ***NO_CI***` in any commits to
       avoid massive rebuilds.
 - [ ] Test your migration first. The `https://github.com/conda-forge/cf-autotick-bot-test-package-feedstock`
       is available to help test migrations.
