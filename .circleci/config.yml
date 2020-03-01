@@ -8,6 +8,11 @@ jobs:
     steps:
       - checkout
       - run:
+          name: run apt-get
+          command: |
+            sudo apt-get update
+            sudo apt-get install bc
+      - run:
           name: migrate rerender and automerge
           command: |
             cd ..
