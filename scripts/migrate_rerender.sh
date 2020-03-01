@@ -68,7 +68,7 @@ jobs:
 
     git add .github/workflows/webservices.yml
     git add .github/workflows/main.yml
-    git ci -m '[ci skip] [skip ci] [cf admin skip] ***NO_CI*** added webservices and automerge action configs'
+    git commit -m '[ci skip] [skip ci] [cf admin skip] ***NO_CI*** added webservices and automerge action configs'
     git push
 
     echo ${name} >> ${cwd}/admin-migrations/scripts/migrate_rerender_done.txt
@@ -97,7 +97,7 @@ rm -rf rerend-migrate
 
 pushd ${cwd}/admin-migrations
 git add scripts/migrate_rerender_done.txt
-git ci -m 'added migrated repos for automerge and webservices'
+git commit -m 'added migrated repos for automerge and webservices'
 
 git remote set-url --push origin https://${GITHUB_TOKEN}@github.com/conda-forge/admin-migrations.git
 git push
