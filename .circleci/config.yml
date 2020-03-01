@@ -10,8 +10,8 @@ jobs:
       - run:
           name: run apt-get
           command: |
-            sudo apt-get update
-            sudo apt-get install bc
+            sudo apt-get update -y --quiet
+            sudo apt-get install bc -y --quiet
       - run:
           name: migrate rerender and automerge
           command: |
