@@ -10,7 +10,7 @@ import requests
 
 from admin_migrations.migrators import AutomergeAndRerender
 
-MAX_MIGRATE = 2
+MAX_MIGRATE = 400
 MAX_SECONDS = 50 * 60
 
 GH = Github(os.environ['GITHUB_TOKEN'])
@@ -166,6 +166,9 @@ def main():
         repo = GH.get_repo("conda-forge/%s-feedstock" % f)
         if not repo.archived:
             run_migrators(f, migrators)
+        else:
+            print("skipping archived feedstock")
+            print(" ")
         feedstocks["feedstocks"][f] = next_num
         num_done += 1
 
