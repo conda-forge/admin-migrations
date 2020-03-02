@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-if [ ! -d miniconda ]; then
+if [ ! -d ${HOME}/miniconda ]; then
   curl -s https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh
-  bash miniconda.sh -b -p miniconda
+  bash miniconda.sh -b -p ${HOME}/miniconda
 
-  export PATH=`pwd`/miniconda/bin:$PATH
+  export PATH=${HOME}/miniconda/bin:$PATH
 
   conda config --set always_yes yes --set changeps1 no
   conda config --add channels defaults
@@ -11,7 +11,7 @@ if [ ! -d miniconda ]; then
   conda update -q conda
 fi
 
-export PATH=`pwd`/miniconda/bin:$PATH
+export PATH=${HOME}/miniconda/bin:$PATH
 
 conda config --set always_yes yes --set changeps1 no
 conda config --add channels defaults

@@ -21,6 +21,10 @@ class Migrator(object):
         ))
 
     def skip(self, feedstock):
+        """Return true if the migration should be skipped for this feedstock.
+
+        Note this method cannot depend on the feedstock contents.
+        """
         if feedstock in self._done_table["done"]:
             return True
         else:
@@ -35,10 +39,17 @@ class Migrator(object):
         Implementations should make any desired changes and then "git add"
         the resulting files.
 
-        Finally, always two boolean values.
+        Finally, always return two boolean values.
 
         The first should be True if the migration worked, False otherwise.
         The second should be True if a commit should be made, False otherwise.
+
+        By returning True for the migration working, you can mark already migrated
+        feedstocks as migrated in the migrator metadata. So for example, if you
+        are adding a file `.github/blah` to feedstocks, you can test for this file
+        and if it is there, then return `True, False`. This marks the migration
+        as done but tells the code not to make any commits (since the file is already)
+        there.
         """
         raise NotImplementedError()
 
