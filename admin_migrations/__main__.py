@@ -1,10 +1,10 @@
 import os
 import json
 import time
-
-import requests
 import tempfile
 import contextlib
+
+import requests
 
 from admin_migrations.migrators import AutomergeAndRerender
 
@@ -62,6 +62,12 @@ def _commit_data():
 
 
 def run_migrators(feedstock, migrators):
+    if len(migrators) == 0:
+        return
+
+    if all(m.skip(feedstock) for m in migrators):
+        return
+
     migrators_to_record = []
 
     with tempfile.TemporaryDirectory() as tmpdir:
@@ -145,21 +151,22 @@ def main():
         num_done += 1
 
         print("took %s seconds" % (time.time() - _start))
-        print("done %d out of %d for this round" % (
+        print("processed %d out of %d feedstocks" % (
             num_done_prev + num_done,
             len(feedstocks["feedstocks"]),
         ))
-        print("can migrate ~%d more feedstocks" % (
-            int(num_done / (time.time() - start_time) * MAX_SECONDS)
+        elapsed_time = time.time() - start_time
+        print("can migrate ~%d more feedstocks for this CI run" % (
+            int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
         ))
 
         print(" ")
 
         # sleep a bit
-        time.sleep(10)
+        time.sleep(5)
 
     if all(v == next_num for v in feedstocks["feedstocks"].values()):
-        print("completed all feedstocks - starting over!")
+        print("processed all feedstocks - starting over!")
         feedstocks["current"] = next_num
 
     with open("data/feedstocks.json", "w") as fp:
