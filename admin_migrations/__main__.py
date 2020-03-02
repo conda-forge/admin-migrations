@@ -53,6 +53,7 @@ def _load_feedstock_data():
 
 def _commit_data():
     print("\nsaving data...")
+    os.system("git stash && git pull && git stash pop")
     os.system("git add data/*.json")
     os.system("git commit -m 'data for admin migration run'")
     os.system(
