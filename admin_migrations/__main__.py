@@ -62,7 +62,7 @@ def _commit_data():
     _run_git_command(["pull"])
     _run_git_command(["stash", "pop"])
     _run_git_command(["add", "data/*.json"])
-    _run_git_command(["commit", "-m", "'[ci skip] data for admin migration run'"])
+    _run_git_command(["commit", "-m", "[ci skip] data for admin migration run"])
     _run_git_command([
         "remote",
         "set-url",
@@ -115,8 +115,8 @@ def run_migrators(feedstock, migrators):
                         _run_git_command([
                             "commit",
                             "-m",
-                            "'[ci skip] [skip ci] [cf admin skip] "
-                            "***NO_CI*** %s'" % m.message(),
+                            "[ci skip] [skip ci] [cf admin skip] "
+                            "***NO_CI*** %s" % m.message(),
                         ])
                         _run_git_command(["push"])
                     if worked:
