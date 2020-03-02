@@ -10,7 +10,7 @@ import requests
 
 from admin_migrations.migrators import AutomergeAndRerender
 
-MAX_MIGRATE = 400
+MAX_MIGRATE = 850
 MAX_SECONDS = 50 * 60
 
 GH = Github(os.environ['GITHUB_TOKEN'])
@@ -185,7 +185,7 @@ def main():
         print(" ")
 
         # sleep a bit
-        time.sleep(5)
+        time.sleep(1)
 
     if all(v == next_num for v in feedstocks["feedstocks"].values()):
         print("processed all feedstocks - starting over!")
