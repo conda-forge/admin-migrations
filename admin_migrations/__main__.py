@@ -8,7 +8,7 @@ import contextlib
 
 from admin_migrations.migrators import AutomergeAndRerender
 
-MAX_MIGRATE = 2
+MAX_MIGRATE = 20
 MAX_SECONDS = 45 * 60
 
 # https://stackoverflow.com/questions/6194499/pushd-through-os-system
@@ -52,6 +52,7 @@ def _load_feedstock_data():
 
 
 def _commit_data():
+    print("\nsaving data...")
     os.system("git add data/*.json")
     os.system("git commit -m 'data for admin migration run'")
     os.system(
@@ -83,6 +84,7 @@ def run_migrators(feedstock, migrators):
                 )
 
                 for m in migrators:
+                    print("\nmigrator %s" % m.__class__.__name__)
                     if m.skip(feedstock):
                         continue
                     try:
@@ -99,6 +101,8 @@ def run_migrators(feedstock, migrators):
                         os.system("git push")
                     if worked:
                         migrators_to_record.append(m)
+
+                    print(" ")
 
     for m in migrators_to_record:
         m.record(feedstock)
@@ -145,6 +149,9 @@ def main():
             num_done_prev + num_done,
             len(feedstocks["feedstocks"]),
         ))
+        print("can migrate ~%d more feedstocks" % (
+            int(num_done / (time.time() - start_time) * MAX_SECONDS)
+        ))
 
         print(" ")
 
@@ -152,6 +159,7 @@ def main():
         time.sleep(10)
 
     if all(v == next_num for v in feedstocks["feedstocks"].values()):
+        print("completed all feedstocks - starting over!")
         feedstocks["current"] = next_num
 
     with open("data/feedstocks.json", "w") as fp:
