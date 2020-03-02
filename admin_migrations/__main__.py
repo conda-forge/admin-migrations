@@ -46,7 +46,7 @@ def _load_feedstock_data():
     new_feedstocks = set(feedstocks) - set([k for k in blob["feedstocks"]])
     if len(new_feedstocks) > 0:
         for f in new_feedstocks:
-            blob["feedstocks"][f] = blob["current"]
+            blob["feedstocks"][f] = (blob["current"] + 1) % 2
 
     return blob
 
