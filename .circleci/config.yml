@@ -16,7 +16,7 @@ jobs:
       - run:
           name: install conda
           command: |
-            source ./scripts/miniconda
+            source ./scripts/install_miniconda.sh
 
       - run:
           name: flake8
@@ -41,7 +41,7 @@ jobs:
       - run:
           name: install conda
           command: |
-            source ./scripts/miniconda
+            source ./scripts/install_miniconda.sh
 
       - run:
           name: migrate
