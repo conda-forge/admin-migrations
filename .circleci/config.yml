@@ -1,5 +1,30 @@
 version: 2
 jobs:
+  test:
+    docker:
+      - image: circleci/python:3.7.6
+    working_directory: ~/admin-migrations
+
+    steps:
+      - checkout
+      - run:
+          name: run apt-get
+          command: |
+            sudo apt-get update -y --quiet
+            sudo apt-get install bc -y --quiet
+
+      - run:
+          name: install conda
+          command: |
+            source ./scripts/miniconda
+
+      - run:
+          name: flake8
+          command: |
+            export PATH=/opt/miniconda/bin:$PATH
+            source activate base
+            flake8 admin_migrations
+
   build:
     docker:
       - image: circleci/python:3.7.6
@@ -12,16 +37,26 @@ jobs:
           command: |
             sudo apt-get update -y --quiet
             sudo apt-get install bc -y --quiet
+
       - run:
-          name: migrate rerender and automerge
+          name: install conda
           command: |
-            git config --global user.email "conda-forge-admin@email.com"
-            git config --global user.name "conda-forge-admin"
-            cd ..
-            ./admin-migrations/scripts/migrate_rerender.sh
+            source ./scripts/miniconda
+
+      - run:
+          name: migrate
+          command: |
+            export PATH=/opt/miniconda/bin:$PATH
+            source activate base
+            run-admin-migrations
 
 workflows:
   version: 2
+
+  test_repo:
+    jobs:
+      - test
+
   hourly:
     jobs:
       - build
