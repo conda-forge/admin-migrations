@@ -3,12 +3,13 @@ import json
 import time
 import tempfile
 import contextlib
+import subprocess
 
 import requests
 
 from admin_migrations.migrators import AutomergeAndRerender
 
-MAX_MIGRATE = 200
+MAX_MIGRATE = 2
 MAX_SECONDS = 45 * 60
 
 # https://stackoverflow.com/questions/6194499/pushd-through-os-system
@@ -20,6 +21,10 @@ def pushd(new_dir):
         yield
     finally:
         os.chdir(previous_dir)
+
+
+def _run_git_command(args):
+    subprocess.run(['git'] + args, check=True)
 
 
 def _load_feedstock_data():
@@ -53,13 +58,20 @@ def _load_feedstock_data():
 
 def _commit_data():
     print("\nsaving data...")
-    os.system("git stash && git pull && git stash pop")
-    os.system("git add data/*.json")
-    os.system("git commit -m '[ci skip] data for admin migration run'")
-    os.system(
-        "git remote set-url --push origin https://%s"
-        "@github.com/conda-forge/admin-migrations.git" % os.environ["GITHUB_TOKEN"])
-    os.system("git push")
+    _run_git_command(["stash"])
+    _run_git_command(["pull"])
+    _run_git_command(["stash", "pop"])
+    _run_git_command(["add", "data/*.json"])
+    _run_git_command(["commit", "-m", "'[ci skip] data for admin migration run'"])
+    _run_git_command([
+        "remote",
+        "set-url",
+        "--push",
+        "origin",
+        "https://%s@github.com/"
+        "conda-forge/admin-migrations.git" % os.environ["GITHUB_TOKEN"],
+    ])
+    _run_git_command(["push"])
 
 
 def run_migrators(feedstock, migrators):
@@ -71,24 +83,23 @@ def run_migrators(feedstock, migrators):
 
     migrators_to_record = []
 
+    feedstock_http = "https://%s@github.com/conda-forge/%s-feedstock.git" % (
+        os.environ["GITHUB_TOKEN"],
+        feedstock,
+    )
+
     with tempfile.TemporaryDirectory() as tmpdir:
         with pushd(tmpdir):
-            os.system(
-                "git clone https://%s@github.com/"
-                "conda-forge/%s-feedstock.git" % (
-                    os.environ["GITHUB_TOKEN"],
-                    feedstock,
-                )
-            )
+            _run_git_command(["clone", feedstock_http])
 
             with pushd("%s-feedstock" % feedstock):
-                os.system(
-                    "git remote set-url --push origin https://%s"
-                    "@github.com/conda-forge/%s-feedstock.git" % (
-                        os.environ["GITHUB_TOKEN"],
-                        feedstock,
-                    )
-                )
+                _run_git_command([
+                    "remote",
+                    "set-url",
+                    "--push",
+                    "origin",
+                    feedstock_http,
+                ])
 
                 for m in migrators:
                     print("\nmigrator %s" % m.__class__.__name__)
@@ -101,11 +112,13 @@ def run_migrators(feedstock, migrators):
                         commit_me = False
 
                     if commit_me:
-                        os.system(
-                            "git commit -m '[ci skip] [skip ci] [cf admin skip] "
-                            "***NO_CI*** %s'" % m.message()
-                        )
-                        os.system("git push")
+                        _run_git_command([
+                            "commit",
+                            "-m",
+                            "'[ci skip] [skip ci] [cf admin skip] "
+                            "***NO_CI*** %s'" % m.message(),
+                        ])
+                        _run_git_command(["push"])
                     if worked:
                         migrators_to_record.append(m)
 

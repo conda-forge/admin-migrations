@@ -1,4 +1,5 @@
 import os
+import subprocess
 
 from .base import Migrator
 
@@ -52,11 +53,17 @@ class AutomergeAndRerender(Migrator):
         if not os.path.exists(".github/workflows/main.yml"):
             with open(".github/workflows/main.yml", "w") as fp:
                 fp.write(MAIN)
-            os.system("git add .github/workflows/main.yml")
+            subprocess.run(
+                ["git", "add", ".github/workflows/main.yml"],
+                check=True,
+            )
 
         if not os.path.exists(".github/workflows/webservices.yml"):
             with open(".github/workflows/webservices.yml", "w") as fp:
                 fp.write(WEBSERVICES)
-            os.system("git add .github/workflows/webservices.yml")
+            subprocess.run(
+                ["git", "add", ".github/workflows/webservices.yml"],
+                check=True,
+            )
 
         return True, True
