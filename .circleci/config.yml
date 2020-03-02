@@ -21,7 +21,7 @@ jobs:
       - run:
           name: flake8
           command: |
-            export PATH=/opt/miniconda/bin:$PATH
+            export PATH=`pwd`/miniconda/bin:$PATH
             source activate base
             flake8 admin_migrations
 
@@ -46,7 +46,7 @@ jobs:
       - run:
           name: migrate
           command: |
-            export PATH=/opt/miniconda/bin:$PATH
+            export PATH=`pwd`/miniconda/bin:$PATH
             source activate base
             run-admin-migrations
 
