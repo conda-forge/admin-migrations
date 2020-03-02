@@ -4,13 +4,16 @@ import time
 import tempfile
 import contextlib
 import subprocess
+from github import Github
 
 import requests
 
 from admin_migrations.migrators import AutomergeAndRerender
 
-MAX_MIGRATE = 400
+MAX_MIGRATE = 2
 MAX_SECONDS = 50 * 60
+
+GH = Github(os.environ['GITHUB_TOKEN'])
 
 # https://stackoverflow.com/questions/6194499/pushd-through-os-system
 @contextlib.contextmanager
@@ -160,7 +163,9 @@ def main():
         print("=" * 80)
         print("migrating %s" % f)
 
-        run_migrators(f, migrators)
+        repo = GH.get_repo("conda-forge/%s-feedstock" % f)
+        if not repo.archived:
+            run_migrators(f, migrators)
         feedstocks["feedstocks"][f] = next_num
         num_done += 1
 
