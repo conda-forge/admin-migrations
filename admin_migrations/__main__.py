@@ -9,8 +9,8 @@ import requests
 
 from admin_migrations.migrators import AutomergeAndRerender
 
-MAX_MIGRATE = 2
-MAX_SECONDS = 45 * 60
+MAX_MIGRATE = 400
+MAX_SECONDS = 50 * 60
 
 # https://stackoverflow.com/questions/6194499/pushd-through-os-system
 @contextlib.contextmanager
