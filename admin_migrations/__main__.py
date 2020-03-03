@@ -170,6 +170,9 @@ def main():
         if num_pushed >= MAX_MIGRATE:
             break
 
+        if num_done >= MAX_MIGRATE:
+            break
+
         # did we do this one?
         if feedstocks["feedstocks"][f] != current_num:
             continue
