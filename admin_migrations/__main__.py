@@ -5,6 +5,9 @@ import tempfile
 import contextlib
 import subprocess
 import requests
+import functools
+
+from requests.exceptions import RequestException
 
 from admin_migrations.migrators import AutomergeAndRerender
 
@@ -12,19 +15,24 @@ MAX_MIGRATE = 1000
 MAX_SECONDS = 50 * 60
 
 
+@functools.lru_cache(maxsize=20000)
+def _get_repo_is_archived(feedstock):
+    headers = {
+        "authorization": "Bearer %s" % os.environ['GITHUB_TOKEN'],
+        'content-type': 'application/json',
+    }
+    r = requests.get(
+        "https://api.github.com/repos/conda-forge/%s-feedstock" % feedstock,
+        headers=headers,
+    )
+    return r.json()["archived"]
+
+
 def _repo_is_archived(feedstock):
     for _ in range(10):
         try:
-            headers = {
-                "authorization": "Bearer %s" % os.environ['GITHUB_TOKEN'],
-                'content-type': 'application/json',
-            }
-            r = requests.get(
-                "https://api.github.com/repos/conda-forge/%s-feedstock" % feedstock,
-                headers=headers,
-            )
-            return r.json()["archived"]
-        except Exception:
+            return _get_repo_is_archived(feedstock)
+        except (json.JSONDecodeError, RequestException):
             pass
     return None
 
@@ -97,7 +105,7 @@ def run_migrators(feedstock, migrators):
     if all(m.skip(feedstock) for m in migrators):
         return False
 
-    pushed = False
+    made_api_call = False
 
     migrators_to_record = []
 
@@ -130,14 +138,27 @@ def run_migrators(feedstock, migrators):
                         commit_me = False
 
                     if commit_me:
-                        _run_git_command([
-                            "commit",
-                            "-m",
-                            "[ci skip] [skip ci] [cf admin skip] "
-                            "***NO_CI*** %s" % m.message(),
-                        ])
-                        _run_git_command(["push"])
-                        pushed = True
+                        made_api_call = True
+                        is_archived = _repo_is_archived(feedstock)
+                        if is_archived is not None:
+                            if not _repo_is_archived(feedstock):
+                                _run_git_command([
+                                    "commit",
+                                    "-m",
+                                    "[ci skip] [skip ci] [cf admin skip] "
+                                    "***NO_CI*** %s" % m.message(),
+                                ])
+                                _run_git_command(["push"])
+                            else:
+                                print("not pushing to archived feedstock")
+                                return made_api_call
+                        else:
+                            print(
+                                "could not get repo archived status - "
+                                "punting to next round"
+                            )
+                            return made_api_call
+
                     if worked:
                         migrators_to_record.append(m)
 
@@ -146,7 +167,7 @@ def run_migrators(feedstock, migrators):
     for m in migrators_to_record:
         m.record(feedstock)
 
-    return pushed
+    return made_api_call
 
 
 def main():
@@ -170,9 +191,6 @@ def main():
         if num_pushed >= MAX_MIGRATE:
             break
 
-        if num_done >= MAX_MIGRATE:
-            break
-
         # did we do this one?
         if feedstocks["feedstocks"][f] != current_num:
             continue
@@ -185,17 +203,9 @@ def main():
         print("=" * 80)
         print("migrating %s" % f)
 
-        is_archived = _repo_is_archived(f)
-        if is_archived is not None:
-            if not is_archived:
-                pushed = run_migrators(f, migrators)
-                if pushed:
-                    num_pushed += 1
-            else:
-                print("skipping archived feedstock")
-                print(" ")
-        else:
-            print("could not get feedstock status - punting to next round")
+        made_api_call = run_migrators(f, migrators)
+        if made_api_call:
+            num_pushed += 1
         feedstocks["feedstocks"][f] = next_num
         num_done += 1
 
