@@ -105,6 +105,13 @@ def run_migrators(feedstock, migrators):
     if all(m.skip(feedstock) for m in migrators):
         return False
 
+    print("=" * 80)
+    print("=" * 80)
+    print("=" * 80)
+    print("migrating %s" % feedstock)
+
+    _start = time.time()
+
     made_api_call = False
 
     migrators_to_record = []
@@ -164,6 +171,8 @@ def run_migrators(feedstock, migrators):
 
                     print(" ")
 
+    print("migration took %s seconds\n" % (time.time() - _start))
+
     for m in migrators_to_record:
         m.record(feedstock)
 
@@ -182,6 +191,7 @@ def main():
     num_done = 0
     num_pushed = 0
     start_time = time.time()
+    report_time = time.time()
     for f in feedstocks["feedstocks"]:
         # out of time?
         if time.time() - start_time > MAX_SECONDS:
@@ -196,32 +206,26 @@ def main():
             continue
 
         # migrate
-        _start = time.time()
-
-        print("=" * 80)
-        print("=" * 80)
-        print("=" * 80)
-        print("migrating %s" % f)
-
         made_api_call = run_migrators(f, migrators)
         if made_api_call:
             num_pushed += 1
         feedstocks["feedstocks"][f] = next_num
         num_done += 1
 
-        print("took %s seconds" % (time.time() - _start))
-        print("on %d out of %d feedstocks" % (
-            num_done_prev + num_done,
-            len(feedstocks["feedstocks"]),
-        ))
-        print("migrated %d feedstokcs" % num_done)
-        print("pushed to %d feedstocks" % num_pushed)
-        elapsed_time = time.time() - start_time
-        print("can migrate ~%d more feedstocks for this CI run" % (
-            int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
-        ))
+        if time.time() - report_time > 10:
+            report_time = time.time()
+            print("on %d out of %d feedstocks" % (
+                num_done_prev + num_done,
+                len(feedstocks["feedstocks"]),
+            ))
+            print("migrated %d feedstokcs" % num_done)
+            print("pushed to %d feedstocks" % num_pushed)
+            elapsed_time = time.time() - start_time
+            print("can migrate ~%d more feedstocks for this CI run" % (
+                int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
+            ))
 
-        print(" ")
+            print(" ")
 
     if all(v == next_num for v in feedstocks["feedstocks"].values()):
         print("processed all feedstocks - starting over!")
