@@ -4,8 +4,6 @@ import time
 import tempfile
 import contextlib
 import subprocess
-from github import Github
-
 import requests
 
 from admin_migrations.migrators import AutomergeAndRerender
@@ -13,7 +11,18 @@ from admin_migrations.migrators import AutomergeAndRerender
 MAX_MIGRATE = 1000
 MAX_SECONDS = 50 * 60
 
-GH = Github(os.environ['GITHUB_TOKEN'])
+
+def _repo_is_archived(feedstock):
+    headers = {
+        "authorization": "Bearer %s" % os.environ['GITHUB_TOKEN'],
+        'content-type': 'application/json',
+    }
+    r = requests.get(
+        "https://api.github.com/repos/conda-forge/%s-feedstock" % feedstock,
+        headers=headers,
+    )
+    return r.json()["archived"]
+
 
 # https://stackoverflow.com/questions/6194499/pushd-through-os-system
 @contextlib.contextmanager
@@ -79,10 +88,12 @@ def _commit_data():
 
 def run_migrators(feedstock, migrators):
     if len(migrators) == 0:
-        return
+        return False
 
     if all(m.skip(feedstock) for m in migrators):
-        return
+        return False
+
+    pushed = False
 
     migrators_to_record = []
 
@@ -122,6 +133,7 @@ def run_migrators(feedstock, migrators):
                             "***NO_CI*** %s" % m.message(),
                         ])
                         _run_git_command(["push"])
+                        pushed = True
                     if worked:
                         migrators_to_record.append(m)
 
@@ -129,6 +141,8 @@ def run_migrators(feedstock, migrators):
 
     for m in migrators_to_record:
         m.record(feedstock)
+
+    return pushed
 
 
 def main():
@@ -141,6 +155,7 @@ def main():
     num_done_prev = sum(v == next_num for v in feedstocks["feedstocks"].values())
 
     num_done = 0
+    num_pushed = 0
     start_time = time.time()
     for f in feedstocks["feedstocks"]:
         # out of time?
@@ -148,7 +163,7 @@ def main():
             break
 
         # did too many?
-        if num_done >= MAX_MIGRATE:
+        if num_pushed >= MAX_MIGRATE:
             break
 
         # did we do this one?
@@ -163,9 +178,10 @@ def main():
         print("=" * 80)
         print("migrating %s" % f)
 
-        repo = GH.get_repo("conda-forge/%s-feedstock" % f)
-        if not repo.archived:
-            run_migrators(f, migrators)
+        if not _repo_is_archived(f):
+            pushed = run_migrators(f, migrators)
+            if pushed:
+                num_pushed += 1
         else:
             print("skipping archived feedstock")
             print(" ")
@@ -173,10 +189,12 @@ def main():
         num_done += 1
 
         print("took %s seconds" % (time.time() - _start))
-        print("processed %d out of %d feedstocks" % (
+        print("on %d out of %d feedstocks" % (
             num_done_prev + num_done,
             len(feedstocks["feedstocks"]),
         ))
+        print("migrated %d feedstokcs" % num_done)
+        print("pushed to %d feedstocks" % num_pushed)
         elapsed_time = time.time() - start_time
         print("can migrate ~%d more feedstocks for this CI run" % (
             int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
