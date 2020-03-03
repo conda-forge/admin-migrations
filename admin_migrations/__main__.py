@@ -179,6 +179,7 @@ def run_migrators(feedstock, migrators):
 
 def main():
     migrators = [AutomergeAndRerender()]
+    print(" ")
 
     feedstocks = _load_feedstock_data()
     current_num = feedstocks["current"]
@@ -226,6 +227,9 @@ def main():
             print(" ")
 
     if all(v == next_num for v in feedstocks["feedstocks"].values()):
+        print("=" * 80)
+        print("=" * 80)
+        print("=" * 80)
         print("processed all feedstocks - starting over!")
         feedstocks["current"] = next_num
 
