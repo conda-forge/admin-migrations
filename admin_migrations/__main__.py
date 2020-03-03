@@ -13,16 +13,20 @@ MAX_SECONDS = 50 * 60
 
 
 def _repo_is_archived(feedstock):
-    headers = {
-        "authorization": "Bearer %s" % os.environ['GITHUB_TOKEN'],
-        'content-type': 'application/json',
-    }
-    r = requests.get(
-        "https://api.github.com/repos/conda-forge/%s-feedstock" % feedstock,
-        headers=headers,
-    )
-    return r.json()["archived"]
-
+    for _ in range(10):
+        try:
+            headers = {
+                "authorization": "Bearer %s" % os.environ['GITHUB_TOKEN'],
+                'content-type': 'application/json',
+            }
+            r = requests.get(
+                "https://api.github.com/repos/conda-forge/%s-feedstock" % feedstock,
+                headers=headers,
+            )
+            return r.json()["archived"]
+        except Exception:
+            pass
+    return None
 
 # https://stackoverflow.com/questions/6194499/pushd-through-os-system
 @contextlib.contextmanager
@@ -178,13 +182,17 @@ def main():
         print("=" * 80)
         print("migrating %s" % f)
 
-        if not _repo_is_archived(f):
-            pushed = run_migrators(f, migrators)
-            if pushed:
-                num_pushed += 1
+        is_archived = _repo_is_archived(f)
+        if is_archived is not None:
+            if not is_archived:
+                pushed = run_migrators(f, migrators)
+                if pushed:
+                    num_pushed += 1
+            else:
+                print("skipping archived feedstock")
+                print(" ")
         else:
-            print("skipping archived feedstock")
-            print(" ")
+            print("could not get feedstock status - punting to next round")
         feedstocks["feedstocks"][f] = next_num
         num_done += 1
 
