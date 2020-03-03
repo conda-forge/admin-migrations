@@ -159,14 +159,12 @@ def run_migrators(feedstock, migrators):
                             else:
                                 print("not pushing to archived feedstock")
                                 print(" ")
-                                return made_api_call
                         else:
                             print(
                                 "could not get repo archived status - "
                                 "punting to next round"
                             )
                             print(" ")
-                            return made_api_call
 
                     if worked:
                         migrators_to_record.append(m)
