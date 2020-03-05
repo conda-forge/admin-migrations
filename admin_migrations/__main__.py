@@ -9,9 +9,12 @@ import functools
 
 from requests.exceptions import RequestException
 
-from admin_migrations.migrators import AutomergeAndRerender
+from admin_migrations.migrators import (
+    AutomergeAndRerender,
+    AutomergeAndBotRerunLabels,
+)
 
-MAX_MIGRATE = 1000
+MAX_MIGRATE = 10
 MAX_SECONDS = 50 * 60
 
 
@@ -112,7 +115,7 @@ def run_migrators(feedstock, migrators):
 
     _start = time.time()
 
-    made_api_call = False
+    made_api_calls = False
 
     migrators_to_record = []
 
@@ -123,7 +126,7 @@ def run_migrators(feedstock, migrators):
 
     with tempfile.TemporaryDirectory() as tmpdir:
         with pushd(tmpdir):
-            _run_git_command(["clone", feedstock_http])
+            _run_git_command(["clone", "--depth=1", feedstock_http])
 
             with pushd("%s-feedstock" % feedstock):
                 _run_git_command([
@@ -139,16 +142,16 @@ def run_migrators(feedstock, migrators):
                     if m.skip(feedstock):
                         continue
                     try:
-                        worked, commit_me = m.migrate()
+                        worked, commit_me, made_api_calls = m.migrate(feedstock)
                     except Exception:
                         worked = False
                         commit_me = False
 
                     if commit_me:
-                        made_api_call = True
+                        made_api_calls = True
                         is_archived = _repo_is_archived(feedstock)
                         if is_archived is not None:
-                            if not _repo_is_archived(feedstock):
+                            if not is_archived:
                                 _run_git_command([
                                     "commit",
                                     "-m",
@@ -174,11 +177,14 @@ def run_migrators(feedstock, migrators):
     for m in migrators_to_record:
         m.record(feedstock)
 
-    return made_api_call
+    return made_api_calls
 
 
 def main():
-    migrators = [AutomergeAndRerender()]
+    migrators = [
+        AutomergeAndRerender(),
+        AutomergeAndBotRerunLabels(),
+    ]
     print(" ")
 
     feedstocks = _load_feedstock_data()
@@ -188,7 +194,7 @@ def main():
     num_done_prev = sum(v == next_num for v in feedstocks["feedstocks"].values())
 
     num_done = 0
-    num_pushed = 0
+    num_pushed_or_apied = 0
     start_time = time.time()
     report_time = time.time()
     for f in feedstocks["feedstocks"]:
@@ -197,7 +203,7 @@ def main():
             break
 
         # did too many?
-        if num_pushed >= MAX_MIGRATE:
+        if num_pushed_or_apied >= MAX_MIGRATE:
             break
 
         # did we do this one?
@@ -207,7 +213,7 @@ def main():
         # migrate
         made_api_call = run_migrators(f, migrators)
         if made_api_call:
-            num_pushed += 1
+            num_pushed_or_apied += 1
         feedstocks["feedstocks"][f] = next_num
         num_done += 1
 
@@ -218,7 +224,7 @@ def main():
                 len(feedstocks["feedstocks"]),
             ))
             print("migrated %d feedstokcs" % num_done)
-            print("pushed to %d feedstocks" % num_pushed)
+            print("pushed or made API calls for %d feedstocks" % num_pushed_or_apied)
             elapsed_time = time.time() - start_time
             print("can migrate ~%d more feedstocks for this CI run" % (
                 int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
