@@ -31,14 +31,12 @@ class AutomergeAndBotRerunLabels(Migrator):
                         target_label = l
                         break
 
-                if (
-                    target_label and
-                    (
+                if target_label:
+                    if (
                         target_label.color != label_data[1] or
                         target_label.description != label_data[2]
-                    )
-                ):
-                    target_label.edit(label_data[0], label_data[1], label_data[2])
+                    ):
+                        target_label.edit(label_data[0], label_data[1], label_data[2])
                 else:
                     repo.create_label(label_data[0], label_data[1], label_data[2])
 
