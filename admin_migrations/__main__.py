@@ -14,7 +14,7 @@ from admin_migrations.migrators import (
     AutomergeAndBotRerunLabels,
 )
 
-MAX_MIGRATE = 10
+MAX_MIGRATE = 1
 MAX_SECONDS = 50 * 60
 
 
@@ -197,7 +197,7 @@ def main():
     num_pushed_or_apied = 0
     start_time = time.time()
     report_time = time.time()
-    for f in feedstocks["feedstocks"]:
+    for f in ["cf-autotick-bot-test-package-feedstock"]:
         # out of time?
         if time.time() - start_time > MAX_SECONDS:
             break
