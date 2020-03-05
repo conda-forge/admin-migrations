@@ -45,5 +45,5 @@ class AutomergeAndBotRerunLabels(Migrator):
             # worked, commit me, made API calls
             return True, False, True
         except (github.GithubException, github.BadAttributeException) as e:
-            print("ERROR: %s", repr(e))
+            print("ERROR: %s" % repr(e))
             return False, False, True
