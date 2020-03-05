@@ -25,6 +25,14 @@ jobs:
             source activate base
             flake8 admin_migrations
 
+      - run:
+          name: test-run
+          command: |
+            export PATH=${HOME}/miniconda/bin:$PATH
+            source activate base
+            export DEBUG_ADMIN_MIGRATIONS=1
+            run-admin-migrations
+
   build:
     docker:
       - image: circleci/python:3.7.6

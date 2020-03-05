@@ -91,10 +91,9 @@ def _load_feedstock_data():
 
 def _commit_data():
     print("\nsaving data...")
-    if not DEBUG:
-        _run_git_command(["stash"])
-        _run_git_command(["pull"])
-        _run_git_command(["stash", "pop"])
+    _run_git_command(["stash"])
+    _run_git_command(["pull"])
+    _run_git_command(["stash", "pop"])
     _run_git_command(["add", "data/*.json"])
     _run_git_command(["commit", "-m", "[ci skip] data for admin migration run"])
     _run_git_command([
@@ -258,4 +257,5 @@ def main():
     with open("data/feedstocks.json", "w") as fp:
         json.dump(feedstocks, fp)
 
-    _commit_data()
+    if not DEBUG:
+        _commit_data()
