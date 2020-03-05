@@ -205,7 +205,7 @@ def main():
         feedstocks["feedstocks"]["cf-autotick-bot-test-package"] = current_num
         for m in migrators:
             if "cf-autotick-bot-test-package" in m._done_table["done"]:
-                m._done_table.remove("cf-autotick-bot-test-package")
+                m._done_table["done"].remove("cf-autotick-bot-test-package")
     else:
         all_feedstocks = list(feedstocks["feedstocks"].keys())
 
