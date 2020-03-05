@@ -7,13 +7,13 @@ GH = github.Github(os.environ['GITHUB_TOKEN'])
 
 BOT_RERUN = (
     "bot-rerun",
-    "#191970",
+    "191970",
     "Merge the PR when CI passes",
 )
 
 AUTOMERGE = (
     "automerge",
-    "#0e8a16",
+    "0e8a16",
     "Apply this label if you want the bot to retry issuing a particular pull-request",
 )
 
@@ -42,7 +42,7 @@ class AutomergeAndBotRerunLabels(Migrator):
                 else:
                     repo.create_label(label_data[0], label_data[1], label_data[2])
 
-            # worked, no commit, made API calls
+            # worked, commit me, made API calls
             return True, False, True
         except (github.GithubException, github.BadAttributeException) as e:
             print("ERROR: %s", repr(e))

@@ -193,11 +193,14 @@ def main():
 
     num_done_prev = sum(v == next_num for v in feedstocks["feedstocks"].values())
 
+    all_feedstocks = ["cf-autotick-bot-test-package"]
+    # all_feedstocks = list(feedstocks["feedstocks"].keys())
+
     num_done = 0
     num_pushed_or_apied = 0
     start_time = time.time()
     report_time = time.time()
-    for f in ["cf-autotick-bot-test-package-feedstock"]:
+    for f in all_feedstocks:
         # out of time?
         if time.time() - start_time > MAX_SECONDS:
             break
