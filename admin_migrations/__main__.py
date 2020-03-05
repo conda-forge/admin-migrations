@@ -14,7 +14,7 @@ from admin_migrations.migrators import (
     AutomergeAndBotRerunLabels,
 )
 
-DEBUG = True
+DEBUG = "DEBUG_ADMIN_MIGRATIONS" in os.environ
 
 if DEBUG:
     MAX_MIGRATE = 1
