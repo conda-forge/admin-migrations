@@ -214,9 +214,25 @@ def main():
             continue
 
         # migrate
+<<<<<<< Updated upstream
         made_api_call = run_migrators(f, migrators)
         if made_api_call:
             num_pushed_or_apied += 1
+=======
+        _start = time.time()
+
+        print("=" * 80)
+        print("=" * 80)
+        print("=" * 80)
+        print("migrating %s" % f)
+
+        repo = GH.get_repo("conda-forge/%s-feedstock" % f)
+        if not repo.archived:
+            run_migrators(f, migrators)
+        else:
+            print("skipping archived feedstock")
+            print(" ")
+>>>>>>> Stashed changes
         feedstocks["feedstocks"][f] = next_num
         num_done += 1
 
