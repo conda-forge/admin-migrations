@@ -73,6 +73,7 @@ class Migrator(object):
                 blob = json.load(fp)
 
         blob["done"].append(feedstock)
+        blob["done"] = list(set(blob["done"]))
 
         with open(fname, "w") as fp:
             json.dump(blob, fp)
