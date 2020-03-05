@@ -85,9 +85,9 @@ def _load_feedstock_data():
 
 def _commit_data():
     print("\nsaving data...")
-    _run_git_command(["stash"])
-    _run_git_command(["pull"])
-    _run_git_command(["stash", "pop"])
+    # _run_git_command(["stash"])
+    # _run_git_command(["pull"])
+    # _run_git_command(["stash", "pop"])
     _run_git_command(["add", "data/*.json"])
     _run_git_command(["commit", "-m", "[ci skip] data for admin migration run"])
     _run_git_command([
@@ -193,9 +193,14 @@ def main():
 
     num_done_prev = sum(v == next_num for v in feedstocks["feedstocks"].values())
 
-    all_feedstocks = ["cf-autotick-bot-test-package"]
-    feedstocks["feedstocks"]["cf-autotick-bot-test-package"] = current_num
-    # all_feedstocks = list(feedstocks["feedstocks"].keys())
+    if True:
+        all_feedstocks = ["cf-autotick-bot-test-package"]
+        feedstocks["feedstocks"]["cf-autotick-bot-test-package"] = current_num
+        for m in migrators:
+            if "cf-autotick-bot-test-package" in m._done_table["done"]:
+                m._done_table.remove("cf-autotick-bot-test-package")
+    else:
+        all_feedstocks = list(feedstocks["feedstocks"].keys())
 
     num_done = 0
     num_pushed_or_apied = 0
