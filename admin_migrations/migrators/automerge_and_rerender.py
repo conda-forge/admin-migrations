@@ -41,12 +41,12 @@ jobs:
 
 
 class AutomergeAndRerender(Migrator):
-    def migrate(self):
+    def migrate(self, feedstock):
         if (
             os.path.exists(".github/workflows/main.yml") and
             os.path.exists(".github/workflows/webservices.yml")
         ):
-            return True, False
+            return True, False, False
 
         os.makedirs(".github/workflows", exist_ok=True)
 
@@ -66,4 +66,4 @@ class AutomergeAndRerender(Migrator):
                 check=True,
             )
 
-        return True, True
+        return True, True, False

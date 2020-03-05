@@ -30,7 +30,7 @@ class Migrator(object):
         else:
             return False
 
-    def migrate(self):
+    def migrate(self, feedstock):
         """Migrate the feedstock.
 
         This function is invoked with the feedstock as the current
@@ -39,10 +39,12 @@ class Migrator(object):
         Implementations should make any desired changes and then "git add"
         the resulting files.
 
-        Finally, always return two boolean values.
+        Finally, always return three boolean values.
 
         The first should be True if the migration worked, False otherwise.
         The second should be True if a commit should be made, False otherwise.
+        The third should be True if the migrator made any github API calls,
+        False otherwise.
 
         By returning True for the migration working, you can mark already migrated
         feedstocks as migrated in the migrator metadata. So for example, if you
@@ -50,6 +52,12 @@ class Migrator(object):
         and if it is there, then return `True, False`. This marks the migration
         as done but tells the code not to make any commits (since the file is already)
         there.
+
+        Parameters
+        ----------
+        feedstock : str
+            The name of the feedstock without "-feedstock" (e.g., "python"
+            and not "python-feedstock").
         """
         raise NotImplementedError()
 
@@ -65,6 +73,7 @@ class Migrator(object):
                 blob = json.load(fp)
 
         blob["done"].append(feedstock)
+        blob["done"] = list(set(blob["done"]))
 
         with open(fname, "w") as fp:
             json.dump(blob, fp)
