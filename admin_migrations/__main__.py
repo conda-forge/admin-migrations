@@ -14,8 +14,14 @@ from admin_migrations.migrators import (
     AutomergeAndBotRerunLabels,
 )
 
-MAX_MIGRATE = 1
-MAX_SECONDS = 50 * 60
+DEBUG = True
+
+if DEBUG:
+    MAX_MIGRATE = 1
+    MAX_SECONDS = 50 * 60
+else:
+    MAX_MIGRATE = 1000
+    MAX_SECONDS = 50 * 60
 
 
 @functools.lru_cache(maxsize=20000)
@@ -85,9 +91,10 @@ def _load_feedstock_data():
 
 def _commit_data():
     print("\nsaving data...")
-    # _run_git_command(["stash"])
-    # _run_git_command(["pull"])
-    # _run_git_command(["stash", "pop"])
+    if not DEBUG:
+        _run_git_command(["stash"])
+        _run_git_command(["pull"])
+        _run_git_command(["stash", "pop"])
     _run_git_command(["add", "data/*.json"])
     _run_git_command(["commit", "-m", "[ci skip] data for admin migration run"])
     _run_git_command([
@@ -193,7 +200,7 @@ def main():
 
     num_done_prev = sum(v == next_num for v in feedstocks["feedstocks"].values())
 
-    if True:
+    if DEBUG:
         all_feedstocks = ["cf-autotick-bot-test-package"]
         feedstocks["feedstocks"]["cf-autotick-bot-test-package"] = current_num
         for m in migrators:
