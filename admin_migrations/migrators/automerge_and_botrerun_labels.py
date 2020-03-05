@@ -37,8 +37,10 @@ class AutomergeAndBotRerunLabels(Migrator):
                         target_label.description != label_data[2]
                     ):
                         target_label.edit(label_data[0], label_data[1], label_data[2])
+                        print("    edited:", label_data[0])
                 else:
                     repo.create_label(label_data[0], label_data[1], label_data[2])
+                    print("    created:", label_data[0])
 
             # worked, commit me, made API calls
             return True, False, True
