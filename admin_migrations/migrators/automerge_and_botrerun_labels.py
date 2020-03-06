@@ -8,7 +8,7 @@ GH = github.Github(os.environ['GITHUB_TOKEN'])
 BOT_RERUN = (
     "bot-rerun",
     "191970",
-    "Apply this label if you want the bot to retry issuing a particular pull-request",
+    "Instruct the bot to retry this PR",
 )
 
 AUTOMERGE = (
