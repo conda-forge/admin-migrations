@@ -22,6 +22,9 @@ class AutomergeAndBotRerunLabels(Migrator):
     def migrate(self, feedstock):
         try:
             repo = GH.get_repo("conda-forge/%s-feedstock" % feedstock)
+            if repo.archived:
+                return True, False, True
+
             labels = [l for l in repo.get_labels()]
 
             for label_data in [BOT_RERUN, AUTOMERGE]:
