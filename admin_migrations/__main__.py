@@ -135,48 +135,49 @@ def run_migrators(feedstock, migrators):
             _run_git_command(["clone", "--depth=1", feedstock_http])
 
             with pushd("%s-feedstock" % feedstock):
-                _run_git_command([
-                    "remote",
-                    "set-url",
-                    "--push",
-                    "origin",
-                    feedstock_http,
-                ])
+                if os.path.exists("%s-feedstock/recipe/meta.yaml" % feedstock):
+                    _run_git_command([
+                        "remote",
+                        "set-url",
+                        "--push",
+                        "origin",
+                        feedstock_http,
+                    ])
 
-                for m in migrators:
-                    print("\nmigrator %s" % m.__class__.__name__)
-                    if m.skip(feedstock):
-                        continue
-                    try:
-                        worked, commit_me, made_api_calls = m.migrate(feedstock)
-                    except Exception:
-                        worked = False
-                        commit_me = False
+                    for m in migrators:
+                        print("\nmigrator %s" % m.__class__.__name__)
+                        if m.skip(feedstock):
+                            continue
+                        try:
+                            worked, commit_me, made_api_calls = m.migrate(feedstock)
+                        except Exception:
+                            worked = False
+                            commit_me = False
 
-                    if commit_me:
-                        made_api_calls = True
-                        is_archived = _repo_is_archived(feedstock)
-                        if is_archived is not None:
-                            if not is_archived:
-                                _run_git_command([
-                                    "commit",
-                                    "-m",
-                                    "[ci skip] [skip ci] [cf admin skip] "
-                                    "***NO_CI*** %s" % m.message(),
-                                ])
-                                _run_git_command(["push"])
+                        if commit_me:
+                            made_api_calls = True
+                            is_archived = _repo_is_archived(feedstock)
+                            if is_archived is not None:
+                                if not is_archived:
+                                    _run_git_command([
+                                        "commit",
+                                        "-m",
+                                        "[ci skip] [skip ci] [cf admin skip] "
+                                        "***NO_CI*** %s" % m.message(),
+                                    ])
+                                    _run_git_command(["push"])
+                                else:
+                                    print("not pushing to archived feedstock")
                             else:
-                                print("not pushing to archived feedstock")
-                        else:
-                            print(
-                                "could not get repo archived status - "
-                                "punting to next round"
-                            )
+                                print(
+                                    "could not get repo archived status - "
+                                    "punting to next round"
+                                )
 
-                    if worked:
-                        migrators_to_record.append(m)
+                        if worked:
+                            migrators_to_record.append(m)
 
-                    print(" ")
+                        print(" ")
 
     print("migration took %s seconds\n" % (time.time() - _start))
 
