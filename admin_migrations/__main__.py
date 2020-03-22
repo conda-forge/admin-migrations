@@ -12,6 +12,7 @@ from requests.exceptions import RequestException
 from admin_migrations.migrators import (
     AutomergeAndRerender,
     AutomergeAndBotRerunLabels,
+    AppveyorDelete,
 )
 
 DEBUG = "DEBUG_ADMIN_MIGRATIONS" in os.environ
@@ -135,7 +136,7 @@ def run_migrators(feedstock, migrators):
             _run_git_command(["clone", "--depth=1", feedstock_http])
 
             with pushd("%s-feedstock" % feedstock):
-                if os.path.exists("%s-feedstock/recipe/meta.yaml" % feedstock):
+                if os.path.exists("recipe/meta.yaml"):
                     _run_git_command([
                         "remote",
                         "set-url",
@@ -191,6 +192,7 @@ def main():
     migrators = [
         AutomergeAndRerender(),
         AutomergeAndBotRerunLabels(),
+        AppveyorDelete(),
     ]
     print(" ")
 
@@ -202,10 +204,12 @@ def main():
 
     if DEBUG:
         all_feedstocks = ["cf-autotick-bot-test-package"]
-        feedstocks["feedstocks"]["cf-autotick-bot-test-package"] = current_num
+        for fs in all_feedstocks:
+            feedstocks["feedstocks"][fs] = current_num
         for m in migrators:
-            if "cf-autotick-bot-test-package" in m._done_table["done"]:
-                m._done_table["done"].remove("cf-autotick-bot-test-package")
+            for fs in all_feedstocks:
+                if fs in m._done_table["done"]:
+                    m._done_table["done"].remove(fs)
     else:
         all_feedstocks = list(feedstocks["feedstocks"].keys())
 
