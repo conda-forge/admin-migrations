@@ -133,7 +133,9 @@ def run_migrators(feedstock, migrators):
 
     with tempfile.TemporaryDirectory() as tmpdir:
         with pushd(tmpdir):
-            _run_git_command(["clone", "--depth=1", feedstock_http])
+            # use a full depth clone since some migrators rely on
+            # having all of the branches
+            _run_git_command(["clone", feedstock_http])
 
             with pushd("%s-feedstock" % feedstock):
                 if os.path.exists("recipe/meta.yaml"):
