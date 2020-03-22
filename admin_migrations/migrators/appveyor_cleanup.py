@@ -10,9 +10,12 @@ class AppveyorDelete(Migrator):
     def migrate(self, feedstock):
         deleted = False
 
+        appveyor_name = "%s-feedstock" % feedstock
+        appveyor_name = appveyor_name.replace("_", "-").replace(".", "-")
+
         r = requests.get(
             "https://ci.appveyor.com/api/projects/"
-            "conda-forge/%s-feedstock" % feedstock,
+            "conda-forge/%s" % appveyor_name,
             headers=HEADERS,
         )
 
@@ -29,7 +32,7 @@ class AppveyorDelete(Migrator):
             if not has_appveyor_yaml:
                 r = requests.delete(
                     "https://ci.appveyor.com/api/projects/"
-                    "conda-forge/%s-feedstock" % feedstock,
+                    "conda-forge/%s" % appveyor_name,
                     headers=HEADERS,
                 )
 
