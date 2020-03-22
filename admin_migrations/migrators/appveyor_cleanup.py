@@ -21,9 +21,12 @@ class AppveyorDelete(Migrator):
             # project does not exist
             deleted = True
         elif r.status_code == 200:
-            num_builds = len(r.json()['project']['builds'])
+            if os.path.exists(".appveyor.yml"):
+                has_appveyor_yaml = True
+            else:
+                has_appveyor_yaml = False
 
-            if num_builds == 0:
+            if not has_appveyor_yaml:
                 r = requests.delete(
                     "https://ci.appveyor.com/api/projects/"
                     "conda-forge/%s-feedstock" % feedstock,
@@ -36,7 +39,8 @@ class AppveyorDelete(Migrator):
                 else:
                     print("    appveyor delete call failed")
             else:
-                print("    appveyor has %d builds" % num_builds)
+                print("    appveyor # of builds:", len(r.json()['project']['builds']))
+                print("    appveyor config:", has_appveyor_yaml)
 
         # did it work, commit, made API calls
         return deleted, False, True
