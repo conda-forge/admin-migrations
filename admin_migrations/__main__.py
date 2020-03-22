@@ -260,7 +260,7 @@ def main():
         feedstocks["current"] = next_num
 
     with open("data/feedstocks.json", "w") as fp:
-        json.dump(feedstocks, fp)
+        json.dump(feedstocks, fp, indent=2)
 
     if not DEBUG:
         _commit_data()
