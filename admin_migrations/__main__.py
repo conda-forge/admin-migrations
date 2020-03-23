@@ -11,8 +11,9 @@ from requests.exceptions import RequestException
 
 from admin_migrations.migrators import (
     AutomergeAndRerender,
-    AutomergeAndBotRerunLabels,
     AppveyorDelete,
+    # these are finished so we don't run them
+    # AutomergeAndBotRerunLabels,
 )
 
 DEBUG = "DEBUG_ADMIN_MIGRATIONS" in os.environ
@@ -59,6 +60,21 @@ def pushd(new_dir):
 
 def _run_git_command(args):
     subprocess.run(['git'] + args, check=True)
+
+
+def _get_branches():
+    o = subprocess.run(
+        ["git", "branch", "-r"],
+        check=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+    )
+
+    branches = []
+    for line in o.stdout.decode("utf-8").split('\n'):
+        if len(line) > 0 and "origin/HEAD" not in line:
+            branches.append(line.strip().split("/")[1])
+    return branches
 
 
 def _load_feedstock_data():
@@ -112,9 +128,6 @@ def run_migrators(feedstock, migrators):
     if len(migrators) == 0:
         return False
 
-    if all(m.skip(feedstock) for m in migrators):
-        return False
-
     print("=" * 80)
     print("=" * 80)
     print("=" * 80)
@@ -124,6 +137,7 @@ def run_migrators(feedstock, migrators):
 
     made_api_calls = False
 
+    # this will be a set of tuples with the migrator class and the branch
     migrators_to_record = []
 
     feedstock_http = "https://%s@github.com/conda-forge/%s-feedstock.git" % (
@@ -147,45 +161,56 @@ def run_migrators(feedstock, migrators):
                         feedstock_http,
                     ])
 
+                    branches = _get_branches()
+
                     for m in migrators:
                         print("\nmigrator %s" % m.__class__.__name__)
-                        if m.skip(feedstock):
-                            continue
-                        try:
-                            worked, commit_me, made_api_calls = m.migrate(feedstock)
-                        except Exception:
-                            worked = False
-                            commit_me = False
 
-                        if commit_me:
-                            made_api_calls = True
-                            is_archived = _repo_is_archived(feedstock)
-                            if is_archived is not None:
-                                if not is_archived:
-                                    _run_git_command([
-                                        "commit",
-                                        "-m",
-                                        "[ci skip] [skip ci] [cf admin skip] "
-                                        "***NO_CI*** %s" % m.message(),
-                                    ])
-                                    _run_git_command(["push"])
+                        for branch in branches:
+                            if branch != "master" and m.master_branch_only:
+                                continue
+
+                            print("    branch:", branch)
+                            _run_git_command(["checkout", branch])
+
+                            if m.skip(feedstock, branch):
+                                continue
+                            try:
+                                worked, commit_me, made_api_calls = m.migrate(
+                                    feedstock, branch)
+                            except Exception:
+                                worked = False
+                                commit_me = False
+
+                            if commit_me:
+                                made_api_calls = True
+                                is_archived = _repo_is_archived(feedstock)
+                                if is_archived is not None:
+                                    if not is_archived:
+                                        _run_git_command([
+                                            "commit",
+                                            "-m",
+                                            "[ci skip] [skip ci] [cf admin skip] "
+                                            "***NO_CI*** %s" % m.message(),
+                                        ])
+                                        _run_git_command(["push"])
+                                    else:
+                                        print("not pushing to archived feedstock")
                                 else:
-                                    print("not pushing to archived feedstock")
-                            else:
-                                print(
-                                    "could not get repo archived status - "
-                                    "punting to next round"
-                                )
+                                    print(
+                                        "could not get repo archived status - "
+                                        "punting to next round"
+                                    )
 
-                        if worked:
-                            migrators_to_record.append(m)
+                            if worked:
+                                migrators_to_record.append((m, branch))
 
-                        print(" ")
+                            print(" ")
 
     print("migration took %s seconds\n" % (time.time() - _start))
 
-    for m in migrators_to_record:
-        m.record(feedstock)
+    for m, branch in migrators_to_record:
+        m.record(feedstock, branch)
 
     return made_api_calls
 
@@ -193,8 +218,9 @@ def run_migrators(feedstock, migrators):
 def main():
     migrators = [
         AutomergeAndRerender(),
-        AutomergeAndBotRerunLabels(),
         AppveyorDelete(),
+        # these are finished so we don't run them
+        # AutomergeAndBotRerunLabels(),
     ]
     print(" ")
 
@@ -210,8 +236,8 @@ def main():
             feedstocks["feedstocks"][fs] = current_num
         for m in migrators:
             for fs in all_feedstocks:
-                if fs in m._done_table["done"]:
-                    m._done_table["done"].remove(fs)
+                if fs in m._done_table:
+                    del m._done_table[fs]
     else:
         all_feedstocks = list(feedstocks["feedstocks"].keys())
 

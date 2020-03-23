@@ -41,7 +41,7 @@ jobs:
 
 
 class AutomergeAndRerender(Migrator):
-    def migrate(self, feedstock):
+    def migrate(self, feedstock, branch):
         if (
             os.path.exists(".github/workflows/main.yml") and
             os.path.exists(".github/workflows/webservices.yml")
