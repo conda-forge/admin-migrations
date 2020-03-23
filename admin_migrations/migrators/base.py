@@ -76,4 +76,4 @@ class Migrator(object):
         blob["done"] = list(set(blob["done"]))
 
         with open(fname, "w") as fp:
-            json.dump(blob, fp)
+            json.dump(blob, fp, indent=2)
