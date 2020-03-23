@@ -69,19 +69,20 @@ class AppveyorDelete(Migrator):
             #
             # it will miss repos with more than one branch and builds in the
             # past, but no builds now - we will have to get these by hand
-            if num_builds == 0:
-                r = requests.delete(
-                    "https://ci.appveyor.com/api/projects/"
-                    "conda-forge/%s" % appveyor_name,
-                    headers=HEADERS,
-                )
-
-                if r.status_code == 204:
-                    print("    appveyor project deleted")
-                    deleted = True
-                else:
-                    print("    appveyor delete call failed")
-            elif (not has_appveyor_yaml) and num_branches == 1:
+            # if num_builds == 0:
+            #     r = requests.delete(
+            #         "https://ci.appveyor.com/api/projects/"
+            #         "conda-forge/%s" % appveyor_name,
+            #         headers=HEADERS,
+            #     )
+            #
+            #     if r.status_code == 204:
+            #         print("    appveyor project deleted")
+            #         deleted = True
+            #     else:
+            #         print("    appveyor delete call failed")
+            # el
+            if (not has_appveyor_yaml) and num_branches == 1:
                 r = requests.get(
                     "https://ci.appveyor.com/api/projects/"
                     "conda-forge/%s/settings" % appveyor_name,
