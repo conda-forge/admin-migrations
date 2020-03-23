@@ -19,7 +19,9 @@ AUTOMERGE = (
 
 
 class AutomergeAndBotRerunLabels(Migrator):
-    def migrate(self, feedstock):
+    master_branch_only = True
+
+    def migrate(self, feedstock, branch):
         try:
             repo = GH.get_repo("conda-forge/%s-feedstock" % feedstock)
             if repo.archived:

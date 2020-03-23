@@ -3,13 +3,17 @@ import json
 
 
 class Migrator(object):
+    # set this to true if the admin migration runs for the master branch only
+    # this can be used for migrations that update CI services used by all branches
+    master_branch_only = False
+
     def __init__(self):
         self._load_done_table()
 
     def _load_done_table(self):
         fname = "data/%s.json" % self.__class__.__name__
         if not os.path.exists(fname):
-            blob = {"done": []}
+            blob = {}
         else:
             with open(fname, "r") as fp:
                 blob = json.load(fp)
@@ -17,20 +21,18 @@ class Migrator(object):
 
         print("migrator %s: done %d" % (
             self.__class__.__name__,
-            len(blob["done"]),
+            len(blob),
         ))
 
-    def skip(self, feedstock):
-        """Return true if the migration should be skipped for this feedstock.
+    def skip(self, feedstock, branch):
+        """Return true if the migration should be skipped for this feedstock
+        and branch.
 
         Note this method cannot depend on the feedstock contents.
         """
-        if feedstock in self._done_table["done"]:
-            return True
-        else:
-            return False
+        return self._done_table.get(feedstock, {}).get(branch, False)
 
-    def migrate(self, feedstock):
+    def migrate(self, feedstock, branch):
         """Migrate the feedstock.
 
         This function is invoked with the feedstock as the current
@@ -58,22 +60,25 @@ class Migrator(object):
         feedstock : str
             The name of the feedstock without "-feedstock" (e.g., "python"
             and not "python-feedstock").
+        branch : str
+            Which branch of the feedstock the migrator is being called on.
         """
         raise NotImplementedError()
 
     def message(self):
         return "admin migration %s" % self.__class__.__name__
 
-    def record(self, feedstock):
+    def record(self, feedstock, branch):
         fname = "data/%s.json" % self.__class__.__name__
         if not os.path.exists(fname):
-            blob = {"done": []}
+            blob = {}
         else:
             with open(fname, "r") as fp:
                 blob = json.load(fp)
 
-        blob["done"].append(feedstock)
-        blob["done"] = list(set(blob["done"]))
+        if feedstock not in blob:
+            blob[feedstock] = {}
+        blob[feedstock][branch] = True
 
         with open(fname, "w") as fp:
             json.dump(blob, fp, indent=2)
