@@ -22,6 +22,19 @@ def _get_num_branches():
     return num_branches
 
 
+def _get_num_builds(appveyor_name):
+    r = requests.get(
+        "https://ci.appveyor.com/api/projects/conda-forge/"
+        "%s/history?recordsNumber=10" % appveyor_name,
+        headers=HEADERS,
+    )
+
+    if r.status_code == 200:
+        return len(r.json()["builds"])
+    else:
+        return -1
+
+
 class AppveyorDelete(Migrator):
     def migrate(self, feedstock):
         deleted = False
@@ -48,7 +61,7 @@ class AppveyorDelete(Migrator):
                 has_appveyor_yaml = False
 
             num_branches = _get_num_branches()
-            num_builds = len(r.json()['project']['builds'])
+            num_builds = _get_num_builds(appveyor_name)
 
             # this logic catches cases where
             #   1. there are no builds
