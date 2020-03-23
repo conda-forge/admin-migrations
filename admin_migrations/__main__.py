@@ -73,7 +73,7 @@ def _get_branches():
     branches = []
     for line in o.stdout.decode("utf-8").split('\n'):
         if len(line) > 0 and "origin/HEAD" not in line:
-            branches.append(line.strip().split("/")[1])
+            branches.append(line.strip()[len("origin/"):])
     return branches
 
 
