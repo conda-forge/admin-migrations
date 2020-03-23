@@ -91,13 +91,14 @@ class AppveyorDelete(Migrator):
                 if r.status_code == 200:
                     settings = r.json()["settings"]
                     settings["disablePushWebhooks"] = True
-                    response = requests.put(
+                    r = requests.put(
                         "https://ci.appveyor.com/api/projects",
                         headers=HEADERS,
                         json=settings,
                     )
-                    if response.status_code == 204:
+                    if r.status_code == 204:
                         print("    appveyor disabled pushes")
+                        deleted = True
                     else:
                         print("    appveyor disable push call failed")
                 else:
