@@ -27,6 +27,8 @@ class AppveyorDelete(Migrator):
         deleted = False
 
         appveyor_name = "%s-feedstock" % feedstock
+        if appveyor_name.startswith("_"):
+            appveyor_name = appveyor_name[1:]
         appveyor_name = appveyor_name.replace("_", "-").replace(".", "-")
 
         r = requests.get(
@@ -54,7 +56,7 @@ class AppveyorDelete(Migrator):
             #
             # it will miss repos with more than one branch and builds in the
             # past, but no builds now - we will have to get these by hand
-            if ((not has_appveyor_yaml) and num_branches == 1) or num_builds == 0:
+            if num_builds == 0:
                 r = requests.delete(
                     "https://ci.appveyor.com/api/projects/"
                     "conda-forge/%s" % appveyor_name,
@@ -66,6 +68,26 @@ class AppveyorDelete(Migrator):
                     deleted = True
                 else:
                     print("    appveyor delete call failed")
+            elif (not has_appveyor_yaml) and num_branches == 1:
+                r = requests.get(
+                    "https://ci.appveyor.com/api/projects/"
+                    "conda-forge/%s/settings" % appveyor_name,
+                    headers=HEADERS,
+                )
+                if r.status_code == 200:
+                    settings = r.json()["settings"]
+                    settings["disablePushWebhooks"] = True
+                    response = requests.put(
+                        "https://ci.appveyor.com/api/projects",
+                        headers=HEADERS,
+                        json=settings,
+                    )
+                    if response.status_code == 204:
+                        print("    appveyor disabled pushes")
+                    else:
+                        print("    appveyor disable push call failed")
+                else:
+                    print("    appveyor get project settings failed")
             else:
                 print("    git # of branches:", num_branches)
                 print("    appveyor # of builds:", num_builds)
