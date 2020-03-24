@@ -959,7 +959,8 @@
   "xskillscore": {
     "bump_to_v0.0.10": true,
     "bump_v0.0.11": true,
-    "master": true
+    "master": true,
+    "bump-v0.0.15": true
   },
   "xsv": {
     "master": true
@@ -9347,7 +9348,8 @@
     "master": true
   },
   "in_place": {
-    "master": true
+    "master": true,
+    "druvus-patch-1": true
   },
   "inchi": {
     "master": true
