@@ -25975,5 +25975,299 @@
   },
   "sfml": {
     "master": true
+  },
+  "sdl2": {
+    "master": true
+  },
+  "sdl2_ttf": {
+    "master": true
+  },
+  "shellcheck": {
+    "master": true
+  },
+  "smt": {
+    "master": true
+  },
+  "sos-matlab": {
+    "master": true
+  },
+  "spacy-model-de": {
+    "master": true
+  },
+  "spacy-model-es": {
+    "master": true
+  },
+  "spacy-model-fr": {
+    "master": true
+  },
+  "spacy-model-it": {
+    "master": true
+  },
+  "spacy-model-nl": {
+    "master": true
+  },
+  "spacy-model-pt": {
+    "master": true
+  },
+  "spacy-model-xx": {
+    "master": true
+  },
+  "spdlib": {
+    "master": true
+  },
+  "swig": {
+    "master": true
+  },
+  "terraform-provider-arukas": {
+    "master": true
+  },
+  "terraform-provider-atlas": {
+    "master": true
+  },
+  "terraform-provider-bitbucket": {
+    "master": true
+  },
+  "terraform-provider-chef": {
+    "master": true
+  },
+  "terraform-provider-circonus": {
+    "master": true
+  },
+  "terraform-provider-clc": {
+    "master": true
+  },
+  "terraform-provider-cloudscale": {
+    "master": true
+  },
+  "terraform-provider-cloudstack": {
+    "master": true
+  },
+  "terraform-provider-consul": {
+    "master": true
+  },
+  "terraform-provider-dme": {
+    "master": true
+  },
+  "terraform-provider-dns": {
+    "master": true
+  },
+  "terraform-provider-dnsimple": {
+    "master": true
+  },
+  "terraform-provider-dyn": {
+    "master": true
+  },
+  "terraform-provider-external": {
+    "master": true
+  },
+  "terraform-provider-github": {
+    "master": true
+  },
+  "terraform-provider-grafana": {
+    "master": true
+  },
+  "terraform-provider-http": {
+    "master": true
+  },
+  "terraform-provider-icinga2": {
+    "master": true
+  },
+  "terraform-provider-ignition": {
+    "master": true
+  },
+  "terraform-provider-influxdb": {
+    "master": true
+  },
+  "terraform-provider-kubernetes": {
+    "master": true
+  },
+  "terraform-provider-librato": {
+    "master": true
+  },
+  "terraform-provider-logentries": {
+    "master": true
+  },
+  "terraform-provider-logicmonitor": {
+    "master": true
+  },
+  "terraform-provider-mailgun": {
+    "master": true
+  },
+  "terraform-provider-null": {
+    "master": true
+  },
+  "terraform-provider-oneandone": {
+    "master": true
+  },
+  "terraform-provider-opc": {
+    "master": true
+  },
+  "terraform-provider-ovh": {
+    "master": true
+  },
+  "terraform-provider-pagerduty": {
+    "master": true
+  },
+  "terraform-provider-panos": {
+    "master": true
+  },
+  "terraform-provider-profitbricks": {
+    "master": true
+  },
+  "terraform-provider-rabbitmq": {
+    "master": true
+  },
+  "terraform-provider-rancher": {
+    "master": true
+  },
+  "terraform-provider-rundeck": {
+    "master": true
+  },
+  "terraform-provider-softlayer": {
+    "master": true
+  },
+  "terraform-provider-statuscake": {
+    "master": true
+  },
+  "terraform-provider-template": {
+    "master": true
+  },
+  "terraform-provider-terraform": {
+    "master": true
+  },
+  "terraform-provider-triton": {
+    "master": true
+  },
+  "terraform-provider-ultradns": {
+    "master": true
+  },
+  "terraform-provider-vcd": {
+    "master": true
+  },
+  "tetgen": {
+    "master": true
+  },
+  "tierpsy": {
+    "master": true
+  },
+  "toolchain": {
+    "master": true
+  },
+  "trollius": {
+    "master": true
+  },
+  "tsl_hopscotch_map": {
+    "master": true
+  },
+  "tsl_robin_map": {
+    "master": true
+  },
+  "uriparser": {
+    "master": true
+  },
+  "utfcpp": {
+    "master": true
+  },
+  "wabt": {
+    "master": true
+  },
+  "wgrib": {
+    "master": true
+  },
+  "winpty": {
+    "master": true
+  },
+  "wofpy": {
+    "master": true
+  },
+  "xmsinterp": {
+    "master": true
+  },
+  "xmsmesher": {
+    "master": true
+  },
+  "xmsstamper": {
+    "master": true
+  },
+  "xorg-fixesproto": {
+    "master": true
+  },
+  "xorg-font-util": {
+    "master": true
+  },
+  "xorg-imake": {
+    "master": true
+  },
+  "xorg-inputproto": {
+    "master": true
+  },
+  "xorg-kbproto": {
+    "master": true
+  },
+  "xorg-libice": {
+    "master": true
+  },
+  "xorg-libsm": {
+    "master": true
+  },
+  "xorg-libxau": {
+    "master": true
+  },
+  "xorg-libxcursor": {
+    "master": true
+  },
+  "xorg-libxdmcp": {
+    "master": true
+  },
+  "xorg-libxext": {
+    "master": true
+  },
+  "xorg-libxfixes": {
+    "master": true
+  },
+  "xorg-libxi": {
+    "master": true
+  },
+  "xorg-libxinerama": {
+    "master": true
+  },
+  "xorg-libxrender": {
+    "master": true
+  },
+  "xorg-libxt": {
+    "master": true
+  },
+  "xorg-makedepend": {
+    "master": true
+  },
+  "xorg-renderproto": {
+    "master": true
+  },
+  "xorg-util-macros": {
+    "master": true
+  },
+  "xorg-xextproto": {
+    "master": true
+  },
+  "xorg-xproto": {
+    "master": true
+  },
+  "xorg-xtrans": {
+    "master": true
+  },
+  "yasm": {
+    "master": true
+  },
+  "zeromq": {
+    "master": true
+  },
+  "zetcd": {
+    "master": true
+  },
+  "cymove": {
+    "master": true
+  },
+  "dicomifier": {
+    "master": true
   }
 }
