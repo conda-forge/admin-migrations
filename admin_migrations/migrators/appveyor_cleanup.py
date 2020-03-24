@@ -2,7 +2,11 @@ import os
 import requests
 import subprocess
 
+from ruamel.yaml import YAML
+
 from .base import Migrator
+
+YAML = YAML()
 
 HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
 
@@ -28,7 +32,7 @@ CFGS = [
 ]
 
 
-def _has_appveyor_config_any_branch(curr_branch):
+def _has_appveyor_any_branch(curr_branch):
     o = subprocess.run(
         ["git", "branch", "-r"],
         check=True,
@@ -41,13 +45,19 @@ def _has_appveyor_config_any_branch(curr_branch):
         if len(line) > 0 and "origin/HEAD" not in line:
             branches.append(line.strip()[len("origin/"):])
 
-    _has_cfg = []
+    _has_app = []
     for branch in branches:
         subprocess.run(["git", "checkout", branch], check=True)
-        _has_cfg.append(any(os.path.exists(cfg) for cfg in CFGS))
+        with open("conda-forge.yml", "r") as fp:
+            cf_cfg = YAML.load(fp)
+
+        if cf_cfg.get("provider", {}).get("win", None) == "azure":
+            _has_app.append(False)
+        else:
+            _has_app.append(any(os.path.exists(cfg) for cfg in CFGS))
 
     subprocess.run(["git", "checkout", curr_branch], check=True)
-    return any(_has_cfg)
+    return any(_has_app)
 
 
 class AppveyorDelete(Migrator):
@@ -75,7 +85,7 @@ class AppveyorDelete(Migrator):
             # project does not exist
             deleted = True
         elif r.status_code == 200:
-            has_any_cfg = _has_appveyor_config_any_branch(branch)
+            has_appveyor = _has_appveyor_any_branch(branch)
             num_builds = _get_num_builds(appveyor_name)
 
             # this logic catches cases where
@@ -97,7 +107,7 @@ class AppveyorDelete(Migrator):
             #     else:
             #         print("    appveyor delete call failed")
             # el
-            if not has_any_cfg:
+            if not has_appveyor:
                 r = requests.get(
                     "https://ci.appveyor.com/api/projects/"
                     "conda-forge/%s/settings" % appveyor_name,
@@ -120,7 +130,7 @@ class AppveyorDelete(Migrator):
                     print("    appveyor get project settings failed")
             else:
                 print("    appveyor # of builds:", num_builds)
-                print("    appveyor config:", has_any_cfg)
+                print("    appveyor on:", has_appveyor)
 
         # did it work, commit, made API calls
         return deleted, False, True
