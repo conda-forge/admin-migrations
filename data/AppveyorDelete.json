@@ -24124,5 +24124,1730 @@
   },
   "sos-julia": {
     "master": true
+  },
+  "sos-notebook": {
+    "master": true
+  },
+  "sos-papermill": {
+    "master": true
+  },
+  "sos-pbs": {
+    "master": true
+  },
+  "sos-python": {
+    "master": true
+  },
+  "sos-r": {
+    "master": true
+  },
+  "sos-rmarkdown": {
+    "master": true
+  },
+  "sos-sas": {
+    "master": true
+  },
+  "sound_field_analysis": {
+    "master": true
+  },
+  "soupsieve": {
+    "master": true
+  },
+  "source-highlight": {
+    "master": true
+  },
+  "sox": {
+    "master": true
+  },
+  "spacy": {
+    "master": true
+  },
+  "spacy-lookups-data": {
+    "master": true
+  },
+  "spacy-model-en_core_web": {
+    "master": true
+  },
+  "spacy-model-en_vectors_web": {
+    "master": true
+  },
+  "spaghetti": {
+    "master": true
+  },
+  "spark-testing-base": {
+    "master": true
+  },
+  "sparkhpc": {
+    "master": true
+  },
+  "sparkmagic": {
+    "master": true
+  },
+  "sparse": {
+    "master": true
+  },
+  "sparse_dot_topn": {
+    "master": true
+  },
+  "sparsehash-c11": {
+    "master": true
+  },
+  "spdlog": {
+    "master": true
+  },
+  "speaklater": {
+    "master": true
+  },
+  "spectra": {
+    "master": true
+  },
+  "spectral": {
+    "master": true
+  },
+  "spectral-cube": {
+    "master": true
+  },
+  "spectralib": {
+    "master": true
+  },
+  "spectrum": {
+    "master": true
+  },
+  "specutils": {
+    "master": true
+  },
+  "speechrecognition": {
+    "master": true
+  },
+  "speex": {
+    "master": true
+  },
+  "spefile": {
+    "master": true
+  },
+  "speg": {
+    "master": true
+  },
+  "spenc": {
+    "master": true
+  },
+  "spglib": {
+    "master": true
+  },
+  "spglm": {
+    "master": true
+  },
+  "spherical_functions": {
+    "master": true
+  },
+  "sphinx": {
+    "master": true
+  },
+  "sphinx-argparse": {
+    "master": true
+  },
+  "sphinx-astropy": {
+    "master": true
+  },
+  "sphinx-autoapi": {
+    "master": true
+  },
+  "sphinx-autobuild": {
+    "master": true
+  },
+  "sphinx-autodoc-typehints": {
+    "master": true
+  },
+  "sphinx-automodapi": {
+    "master": true
+  },
+  "sphinx-click": {
+    "master": true
+  },
+  "sphinx-confluence": {
+    "master": true
+  },
+  "sphinx-copybutton": {
+    "master": true
+  },
+  "sphinx-gallery": {
+    "master": true
+  },
+  "sphinx-issues": {
+    "master": true
+  },
+  "sphinx-jinja": {
+    "master": true
+  },
+  "sphinx-js": {
+    "master": true
+  },
+  "sphinx-math-dollar": {
+    "master": true
+  },
+  "sphinx-nbexamples": {
+    "master": true
+  },
+  "sphinx-prompt": {
+    "master": true
+  },
+  "sphinx-pypi-upload": {
+    "master": true
+  },
+  "sphinx-releases": {
+    "master": true
+  },
+  "sphinx-testing": {
+    "master": true
+  },
+  "sphinx_bootstrap_theme": {
+    "master": true
+  },
+  "sphinx_fontawesome": {
+    "master": true
+  },
+  "sphinx_gmt": {
+    "master": true
+  },
+  "sphinx_rtd_theme": {
+    "master": true
+  },
+  "sphinxbase": {
+    "master": true
+  },
+  "sphinxcontrib-apidoc": {
+    "master": true
+  },
+  "sphinxcontrib-applehelp": {
+    "master": true
+  },
+  "sphinxcontrib-autodoc_doxygen": {
+    "master": true
+  },
+  "sphinxcontrib-autoprogram": {
+    "master": true
+  },
+  "sphinxcontrib-bibtex": {
+    "master": true
+  },
+  "sphinxcontrib-devhelp": {
+    "master": true
+  },
+  "sphinxcontrib-dotnetdomain": {
+    "master": true
+  },
+  "sphinxcontrib-doxylink": {
+    "master": true
+  },
+  "sphinxcontrib-fulltoc": {
+    "master": true
+  },
+  "sphinxcontrib-golangdomain": {
+    "master": true
+  },
+  "sphinxcontrib-htmlhelp": {
+    "master": true
+  },
+  "sphinxcontrib-httpdomain": {
+    "master": true
+  },
+  "sphinxcontrib-httpexample": {
+    "master": true
+  },
+  "sphinxcontrib-jsmath": {
+    "master": true
+  },
+  "sphinxcontrib-napoleon": {
+    "master": true
+  },
+  "sphinxcontrib-openapi": {
+    "master": true
+  },
+  "sphinxcontrib-paverutils": {
+    "master": true
+  },
+  "sphinxcontrib-programoutput": {
+    "master": true
+  },
+  "sphinxcontrib-qthelp": {
+    "master": true
+  },
+  "sphinxcontrib-redoc": {
+    "master": true
+  },
+  "sphinxcontrib-restbuilder": {
+    "master": true
+  },
+  "sphinxcontrib-serializinghtml": {
+    "master": true
+  },
+  "sphinxcontrib-spelling": {
+    "master": true
+  },
+  "sphinxcontrib-srclinks": {
+    "master": true
+  },
+  "sphinxcontrib-versioning": {
+    "master": true
+  },
+  "sphinxcontrib-websupport": {
+    "master": true
+  },
+  "sphinxdft": {
+    "master": true
+  },
+  "sphinxjp.themecore": {
+    "master": true
+  },
+  "sphinxjp.themes.impressjs": {
+    "master": true
+  },
+  "sphinxjp.themes.solarized": {
+    "master": true
+  },
+  "sphinxtesters": {
+    "master": true
+  },
+  "spiceypy": {
+    "master": true
+  },
+  "spinsfast": {
+    "master": true
+  },
+  "spint": {
+    "master": true
+  },
+  "splauncher": {
+    "master": true
+  },
+  "spleeter": {
+    "master": true
+  },
+  "spleeter-gpu": {
+    "master": true
+  },
+  "splits": {
+    "master": true
+  },
+  "splot": {
+    "master": true
+  },
+  "splunk_handler": {
+    "master": true
+  },
+  "spm1d": {
+    "master": true
+  },
+  "sporco": {
+    "master": true
+  },
+  "spotpy": {
+    "master": true
+  },
+  "spreg": {
+    "master": true
+  },
+  "sputnik": {
+    "master": true
+  },
+  "spvcm": {
+    "master": true
+  },
+  "spyder": {
+    "master": true
+  },
+  "spyder-line-profiler": {
+    "master": true
+  },
+  "spyder-memory-profiler": {
+    "master": true
+  },
+  "spyder-notebook": {
+    "master": true
+  },
+  "spyder-terminal": {
+    "master": true
+  },
+  "spyder-unittest": {
+    "master": true
+  },
+  "spylon": {
+    "master": true
+  },
+  "spylon-kernel": {
+    "master": true
+  },
+  "spyne": {
+    "master": true
+  },
+  "spyre": {
+    "master": true
+  },
+  "spython": {
+    "master": true
+  },
+  "sqlacodegen": {
+    "master": true
+  },
+  "sqlalchemy-jsonfield": {
+    "master": true
+  },
+  "sqlalchemy-migrate": {
+    "master": true
+  },
+  "sqlalchemy-redshift": {
+    "master": true
+  },
+  "sqlalchemy-utc": {
+    "master": true
+  },
+  "sqlalchemy-utils": {
+    "master": true
+  },
+  "sqlalchemy_exasol": {
+    "master": true
+  },
+  "sqlalchemy_schemadisplay": {
+    "master": true
+  },
+  "sqlitedict": {
+    "master": true
+  },
+  "sqlobject": {
+    "master": true
+  },
+  "sqlparse": {
+    "master": true
+  },
+  "sqsgenerator": {
+    "master": true
+  },
+  "squash": {
+    "master": true
+  },
+  "squashfs-tools": {
+    "master": true
+  },
+  "sre_yield": {
+    "master": true
+  },
+  "sregistry": {
+    "master": true
+  },
+  "srm": {
+    "master": true
+  },
+  "srm-ifce": {
+    "master": true
+  },
+  "srsly": {
+    "master": true
+  },
+  "srtm.py": {
+    "master": true
+  },
+  "sseclient": {
+    "master": true
+  },
+  "ssh2-python": {
+    "master": true
+  },
+  "sshpass": {
+    "master": true
+  },
+  "sshpubkeys": {
+    "master": true
+  },
+  "sshtunnel": {
+    "master": true
+  },
+  "ssl_match_hostname": {
+    "master": true
+  },
+  "sstp-client": {
+    "master": true
+  },
+  "stack": {
+    "master": true
+  },
+  "stack_data": {
+    "master": true
+  },
+  "stackprinter": {
+    "master": true
+  },
+  "standard_names": {
+    "master": true
+  },
+  "standardese": {
+    "master": true
+  },
+  "standardiser": {
+    "master": true
+  },
+  "starlette": {
+    "master": true
+  },
+  "starlink-ast": {
+    "master": true
+  },
+  "starry": {
+    "master": true
+  },
+  "start_jupyter_cm": {
+    "master": true
+  },
+  "startables": {
+    "master": true
+  },
+  "stashy": {
+    "master": true
+  },
+  "stateplane": {
+    "master": true
+  },
+  "static": {
+    "master": true
+  },
+  "static-frame": {
+    "master": true
+  },
+  "staticjinja": {
+    "master": true
+  },
+  "statistics": {
+    "master": true
+  },
+  "statmorph": {
+    "master": true
+  },
+  "statsd": {
+    "master": true
+  },
+  "statuspage": {
+    "master": true
+  },
+  "stdlib-list": {
+    "master": true
+  },
+  "stdpopsim": {
+    "master": true
+  },
+  "stefuna": {
+    "master": true
+  },
+  "stem": {
+    "master": true
+  },
+  "stempeg": {
+    "master": true
+  },
+  "stevedore": {
+    "master": true
+  },
+  "stir": {
+    "master": true
+  },
+  "stochatreat": {
+    "master": true
+  },
+  "stomp.py": {
+    "master": true
+  },
+  "stopit": {
+    "master": true
+  },
+  "storefact": {
+    "master": true
+  },
+  "straditize": {
+    "master": true
+  },
+  "streamz": {
+    "master": true
+  },
+  "streamz_ext": {
+    "master": true
+  },
+  "strec": {
+    "master": true
+  },
+  "strict-rfc3339": {
+    "master": true
+  },
+  "strictyaml": {
+    "master": true
+  },
+  "stringcase": {
+    "master": true
+  },
+  "strip-hints": {
+    "master": true
+  },
+  "struct-lmm": {
+    "master": true
+  },
+  "structlog": {
+    "master": true
+  },
+  "stsynphot": {
+    "master": true
+  },
+  "stuf": {
+    "master": true
+  },
+  "stumpy": {
+    "master": true
+  },
+  "stylist": {
+    "master": true
+  },
+  "su-exec": {
+    "master": true
+  },
+  "subprocess32": {
+    "master": true
+  },
+  "sudospawner": {
+    "master": true
+  },
+  "suds-jurko": {
+    "master": true
+  },
+  "sugartex": {
+    "master": true
+  },
+  "summa": {
+    "master": true
+  },
+  "sunpy": {
+    "master": true
+  },
+  "super_state_machine": {
+    "master": true
+  },
+  "superflore": {
+    "master": true
+  },
+  "superlance": {
+    "master": true
+  },
+  "superlu": {
+    "master": true
+  },
+  "superlu_dist": {
+    "master": true
+  },
+  "supermercado": {
+    "master": true
+  },
+  "superset": {
+    "master": true
+  },
+  "supersmoother": {
+    "master": true
+  },
+  "supervisor": {
+    "master": true
+  },
+  "surface-dynamics": {
+    "master": true
+  },
+  "surfinbh": {
+    "master": true
+  },
+  "sushy": {
+    "master": true
+  },
+  "suspect": {
+    "master": true
+  },
+  "svg42pdf": {
+    "master": true
+  },
+  "svglib": {
+    "master": true
+  },
+  "svgutils": {
+    "master": true
+  },
+  "svgwrite": {
+    "master": true
+  },
+  "swagger-django-generator": {
+    "master": true
+  },
+  "swagger-spec-validator": {
+    "master": true
+  },
+  "swagger-ui-bundle": {
+    "master": true
+  },
+  "swepy": {
+    "master": true
+  },
+  "swi-prolog": {
+    "master": true
+  },
+  "swifter": {
+    "master": true
+  },
+  "swiglpk": {
+    "master": true
+  },
+  "switch_model": {
+    "master": true
+  },
+  "sxs": {
+    "master": true
+  },
+  "sycomore": {
+    "master": true
+  },
+  "sygma": {
+    "master": true
+  },
+  "symengine": {
+    "master": true
+  },
+  "symfit": {
+    "master": true
+  },
+  "symmetrica": {
+    "master": true
+  },
+  "symopt": {
+    "master": true
+  },
+  "sympow": {
+    "master": true
+  },
+  "sympy": {
+    "master": true
+  },
+  "symstore": {
+    "master": true
+  },
+  "synphot": {
+    "master": true
+  },
+  "synthpop": {
+    "master": true
+  },
+  "sysv_ipc": {
+    "master": true
+  },
+  "tableauserverclient": {
+    "master": true
+  },
+  "tableone": {
+    "master": true
+  },
+  "tableschema": {
+    "master": true
+  },
+  "tableschema-py": {
+    "master": true
+  },
+  "tableschema-sql": {
+    "master": true
+  },
+  "tablib": {
+    "master": true
+  },
+  "tabula-py": {
+    "master": true
+  },
+  "tabulate": {
+    "master": true
+  },
+  "tabulatehelper": {
+    "master": true
+  },
+  "tabulator": {
+    "master": true
+  },
+  "tabulator-py": {
+    "master": true
+  },
+  "tachyon": {
+    "master": true
+  },
+  "tagmaps": {
+    "master": true
+  },
+  "tamkin": {
+    "master": true
+  },
+  "tapi": {
+    "master": true
+  },
+  "tar": {
+    "master": true
+  },
+  "tardis-sn": {
+    "master": true
+  },
+  "tasklogger": {
+    "master": true
+  },
+  "tatsu": {
+    "master": true
+  },
+  "tblib": {
+    "master": true
+  },
+  "tclap": {
+    "master": true
+  },
+  "tclreadline": {
+    "master": true
+  },
+  "tcsh": {
+    "master": true
+  },
+  "tectonic": {
+    "master": true
+  },
+  "teensy_loader_cli": {
+    "master": true
+  },
+  "teensytoany": {
+    "master": true
+  },
+  "telegram-send": {
+    "master": true
+  },
+  "telluric": {
+    "master": true
+  },
+  "tempdir": {
+    "master": true
+  },
+  "tempest-remap": {
+    "master": true
+  },
+  "tempita": {
+    "master": true
+  },
+  "tempora": {
+    "master": true
+  },
+  "tenacity": {
+    "master": true
+  },
+  "tensorboard": {
+    "master": true
+  },
+  "tensorboardx": {
+    "master": true
+  },
+  "tensorflow": {
+    "master": true
+  },
+  "tensorflow-estimator": {
+    "master": true
+  },
+  "tensorflow-hub": {
+    "master": true
+  },
+  "tensorflow-probability": {
+    "master": true
+  },
+  "tensorflowonspark": {
+    "master": true
+  },
+  "tensorly": {
+    "master": true
+  },
+  "termcolor": {
+    "master": true
+  },
+  "termgraph": {
+    "master": true
+  },
+  "terminado": {
+    "master": true
+  },
+  "terminaltables": {
+    "master": true
+  },
+  "terraform": {
+    "master": true
+  },
+  "terraform-provider-alicloud": {
+    "master": true
+  },
+  "terraform-provider-archive": {
+    "master": true
+  },
+  "terraform-provider-aws": {
+    "master": true
+  },
+  "terraform-provider-azurerm": {
+    "master": true
+  },
+  "terraform-provider-cloudflare": {
+    "master": true
+  },
+  "terraform-provider-cobbler": {
+    "master": true
+  },
+  "terraform-provider-datadog": {
+    "master": true
+  },
+  "terraform-provider-digitalocean": {
+    "master": true
+  },
+  "terraform-provider-docker": {
+    "master": true
+  },
+  "terraform-provider-fastly": {
+    "master": true
+  },
+  "terraform-provider-gitlab": {
+    "master": true
+  },
+  "terraform-provider-google": {
+    "master": true
+  },
+  "terraform-provider-helm": {
+    "master": true
+  },
+  "terraform-provider-heroku": {
+    "master": true
+  },
+  "terraform-provider-local": {
+    "master": true
+  },
+  "terraform-provider-mysql": {
+    "master": true
+  },
+  "terraform-provider-newrelic": {
+    "master": true
+  },
+  "terraform-provider-nomad": {
+    "master": true
+  },
+  "terraform-provider-ns1": {
+    "master": true
+  },
+  "terraform-provider-openstack": {
+    "master": true
+  },
+  "terraform-provider-opentelekomcloud": {
+    "master": true
+  },
+  "terraform-provider-opsgenie": {
+    "master": true
+  },
+  "terraform-provider-packet": {
+    "master": true
+  },
+  "terraform-provider-postgresql": {
+    "master": true
+  },
+  "terraform-provider-powerdns": {
+    "master": true
+  },
+  "terraform-provider-random": {
+    "master": true
+  },
+  "terraform-provider-scaleway": {
+    "master": true
+  },
+  "terraform-provider-spotinst": {
+    "master": true
+  },
+  "terraform-provider-tls": {
+    "master": true
+  },
+  "terraform-provider-vault": {
+    "master": true
+  },
+  "terraform-provider-vsphere": {
+    "master": true
+  },
+  "terragrunt": {
+    "master": true
+  },
+  "terrainbento": {
+    "master": true
+  },
+  "tesseract": {
+    "master": true
+  },
+  "tesserocr": {
+    "master": true
+  },
+  "testfixtures": {
+    "master": true
+  },
+  "testflo": {
+    "master": true
+  },
+  "testinfra": {
+    "master": true
+  },
+  "testpath": {
+    "master": true
+  },
+  "testtools": {
+    "master": true
+  },
+  "texext": {
+    "master": true
+  },
+  "texinfo": {
+    "master": true
+  },
+  "texlive-core": {
+    "master": true
+  },
+  "texplain": {
+    "master": true
+  },
+  "texsoup": {
+    "master": true
+  },
+  "text-unidecode": {
+    "master": true
+  },
+  "textacy": {
+    "master": true
+  },
+  "textblob": {
+    "master": true
+  },
+  "textdistance": {
+    "master": true
+  },
+  "textstat": {
+    "master": true
+  },
+  "texttable": {
+    "master": true
+  },
+  "textwrap3": {
+    "master": true
+  },
+  "tf-slim": {
+    "master": true
+  },
+  "tf2onnx": {
+    "master": true
+  },
+  "tf_object_detection": {
+    "master": true
+  },
+  "tflint": {
+    "master": true
+  },
+  "the_silver_searcher": {
+    "master": true
+  },
+  "theano": {
+    "master": true
+  },
+  "theanolm": {
+    "master": true
+  },
+  "thechopper": {
+    "master": true
+  },
+  "thermo": {
+    "master": true
+  },
+  "thermofun": {
+    "master": true
+  },
+  "thermohubclient": {
+    "master": true
+  },
+  "thinc": {
+    "master": true
+  },
+  "thinkx": {
+    "master": true
+  },
+  "thrax": {
+    "master": true
+  },
+  "threadloop": {
+    "master": true
+  },
+  "threadpoolctl": {
+    "master": true
+  },
+  "thredds_crawler": {
+    "master": true
+  },
+  "threddsclient": {
+    "master": true
+  },
+  "three.js": {
+    "master": true
+  },
+  "threedigrid": {
+    "master": true
+  },
+  "thrift": {
+    "master": true
+  },
+  "thrift-cpp": {
+    "master": true
+  },
+  "thrift_sasl": {
+    "master": true
+  },
+  "thriftpy": {
+    "master": true
+  },
+  "thriftpy2": {
+    "master": true
+  },
+  "thucyd": {
+    "master": true
+  },
+  "thunder-python": {
+    "master": true
+  },
+  "thunder-registration": {
+    "master": true
+  },
+  "tibanna": {
+    "master": true
+  },
+  "ticcltools": {
+    "master": true
+  },
+  "ticcutils": {
+    "master": true
+  },
+  "tidy-html5": {
+    "master": true
+  },
+  "tidy_headers": {
+    "master": true
+  },
+  "tidynamics": {
+    "master": true
+  },
+  "tifffile": {
+    "master": true
+  },
+  "tifffolder": {
+    "master": true
+  },
+  "tike": {
+    "master": true
+  },
+  "tikzmagic": {
+    "master": true
+  },
+  "tikzplotlib": {
+    "master": true
+  },
+  "tilepie": {
+    "master": true
+  },
+  "time": {
+    "master": true
+  },
+  "timehash": {
+    "master": true
+  },
+  "timeout-decorator": {
+    "master": true
+  },
+  "timezonefinder": {
+    "master": true
+  },
+  "timml": {
+    "master": true
+  },
+  "tini": {
+    "master": true
+  },
+  "tinyarray": {
+    "master": true
+  },
+  "tinycss": {
+    "master": true
+  },
+  "tinycss2": {
+    "master": true
+  },
+  "tinydb": {
+    "master": true
+  },
+  "tinyrpc": {
+    "master": true
+  },
+  "tinytimer": {
+    "master": true
+  },
+  "tinyxml": {
+    "master": true
+  },
+  "tinyxml2": {
+    "master": true
+  },
+  "tippecanoe": {
+    "master": true
+  },
+  "tktable": {
+    "master": true
+  },
+  "tldextract": {
+    "master": true
+  },
+  "tlsh": {
+    "master": true
+  },
+  "tlslite": {
+    "master": true
+  },
+  "tmux": {
+    "master": true
+  },
+  "toad": {
+    "master": true
+  },
+  "toast": {
+    "master": true
+  },
+  "toastedmarshmallow": {
+    "master": true
+  },
+  "tobac": {
+    "master": true
+  },
+  "tobler": {
+    "master": true
+  },
+  "tokei": {
+    "master": true
+  },
+  "tokyocabinet": {
+    "master": true
+  },
+  "toml": {
+    "master": true
+  },
+  "tomlkit": {
+    "master": true
+  },
+  "tomopy": {
+    "master": true
+  },
+  "toolwrapper": {
+    "master": true
+  },
+  "toolz": {
+    "master": true
+  },
+  "topika": {
+    "master": true
+  },
+  "topologytoolkit": {
+    "master": true
+  },
+  "toposort": {
+    "master": true
+  },
+  "torchbiggraph": {
+    "master": true
+  },
+  "torchfile": {
+    "master": true
+  },
+  "torchvision": {
+    "master": true
+  },
+  "torcpy": {
+    "master": true
+  },
+  "tornado": {
+    "master": true
+  },
+  "tornado-sqlalchemy": {
+    "master": true
+  },
+  "toro": {
+    "master": true
+  },
+  "torsiondrive": {
+    "master": true
+  },
+  "towncrier": {
+    "master": true
+  },
+  "tox": {
+    "master": true
+  },
+  "tox-conda": {
+    "master": true
+  },
+  "tox-venv": {
+    "master": true
+  },
+  "tpot": {
+    "master": true
+  },
+  "tqdm": {
+    "master": true
+  },
+  "traceback2": {
+    "master": true
+  },
+  "traces": {
+    "master": true
+  },
+  "trackpy": {
+    "master": true
+  },
+  "trafaret": {
+    "master": true
+  },
+  "traitlets": {
+    "master": true
+  },
+  "traits": {
+    "master": true
+  },
+  "traitsui": {
+    "master": true
+  },
+  "traittypes": {
+    "master": true
+  },
+  "traja": {
+    "master": true
+  },
+  "tranquilizer": {
+    "master": true
+  },
+  "transaction": {
+    "master": true
+  },
+  "transformers": {
+    "master": true
+  },
+  "transforms3d": {
+    "master": true
+  },
+  "transitions": {
+    "master": true
+  },
+  "translationstring": {
+    "master": true
+  },
+  "transonic": {
+    "master": true
+  },
+  "trash-cli": {
+    "master": true
+  },
+  "travis-encrypt": {
+    "master": true
+  },
+  "tree-format": {
+    "master": true
+  },
+  "treecorr": {
+    "master": true
+  },
+  "treelib": {
+    "master": true
+  },
+  "treq": {
+    "master": true
+  },
+  "triangle": {
+    "master": true
+  },
+  "trilinos": {
+    "master": true
+  },
+  "trimesh": {
+    "master": true
+  },
+  "trio": {
+    "master": true
+  },
+  "trio-aiohttp": {
+    "master": true
+  },
+  "trio-asyncio": {
+    "master": true
+  },
+  "trio_asyncio": {
+    "master": true
+  },
+  "triqs": {
+    "master": true
+  },
+  "trmm_rsl": {
+    "master": true
+  },
+  "trng": {
+    "master": true
+  },
+  "trollimage": {
+    "master": true
+  },
+  "trollsift": {
+    "master": true
+  },
+  "troposphere": {
+    "master": true
+  },
+  "trottersuzuki": {
+    "master": true
+  },
+  "trouve": {
+    "master": true
+  },
+  "tryingsnake": {
+    "master": true
+  },
+  "tsfresh": {
+    "master": true
+  },
+  "tskit": {
+    "master": true
+  },
+  "tslearn": {
+    "master": true
+  },
+  "tszip": {
+    "master": true
+  },
+  "ttyd": {
+    "master": true
+  },
+  "tuiview": {
+    "master": true
+  },
+  "tuna": {
+    "master": true
+  },
+  "turbodbc": {
+    "master": true
+  },
+  "turtlefsi": {
+    "master": true
+  },
+  "tvb-data": {
+    "master": true
+  },
+  "tvb-gdist": {
+    "master": true
+  },
+  "tvb-library": {
+    "master": true
+  },
+  "tweak": {
+    "master": true
+  },
+  "tweepy": {
+    "master": true
+  },
+  "twilio": {
+    "master": true
+  },
+  "twine": {
+    "master": true
+  },
+  "twisted": {
+    "master": true
+  },
+  "twofish": {
+    "master": true
+  },
+  "twython": {
+    "master": true
+  },
+  "txaio": {
+    "master": true
+  },
+  "txmongo": {
+    "master": true
+  },
+  "typechecks": {
+    "master": true
+  },
+  "typed-ast": {
+    "master": true
+  },
+  "typeguard": {
+    "master": true
+  },
+  "typescript": {
+    "master": true
+  },
+  "typesystem": {
+    "master": true
+  },
+  "typing": {
+    "master": true
+  },
+  "typing_extensions": {
+    "master": true
+  },
+  "typing_inspect": {
+    "master": true
+  },
+  "typogrify": {
+    "master": true
+  },
+  "tyssue": {
+    "master": true
+  },
+  "tzcode": {
+    "master": true
+  },
+  "tzlocal": {
+    "master": true
+  },
+  "u-msgpack-python": {
+    "master": true
+  },
+  "ua-parser": {
+    "master": true
+  },
+  "uarray": {
+    "master": true
+  },
+  "ubermag": {
+    "master": true
+  },
+  "ubermagtable": {
+    "master": true
+  },
+  "ubermagutil": {
+    "master": true
+  },
+  "ubiquerg": {
+    "master": true
+  },
+  "uchardet": {
+    "master": true
+  },
+  "ucx-split": {
+    "master": true
+  },
+  "udatetime": {
+    "master": true
+  },
+  "ufal.udpipe": {
+    "master": true
+  },
+  "ufal.udpipe-temp": {
+    "master": true
+  },
+  "uftp": {
+    "master": true
+  },
+  "uglify-js": {
+    "master": true
+  },
+  "uhd": {
+    "master": true
+  },
+  "ujson": {
+    "master": true
+  },
+  "ukbparse": {
+    "master": true
+  },
+  "ukcensusapi": {
+    "master": true
+  },
+  "ukpopulation": {
+    "master": true
+  },
+  "ukpostcodeparser": {
+    "master": true
+  },
+  "ulmo": {
+    "master": true
+  },
+  "ultranest": {
+    "master": true
+  },
+  "umalqurra": {
+    "master": true
+  },
+  "umami": {
+    "master": true
+  },
+  "umap-learn": {
+    "master": true
+  },
+  "uncertainpy": {
+    "master": true
+  },
+  "uncertainties": {
+    "master": true
+  },
+  "uncommitted": {
+    "master": true
+  },
+  "uncrustify": {
+    "master": true
+  },
+  "unicodecsv": {
+    "master": true
+  },
+  "unicodedata2": {
+    "master": true
+  },
+  "unidecode": {
+    "master": true
+  },
+  "unidiff": {
+    "master": true
+  },
+  "unittest2": {
+    "master": true
+  },
+  "unittest2pytest": {
+    "master": true
+  },
+  "universions": {
+    "master": true
+  },
+  "unixodbc": {
+    "master": true
+  },
+  "unumpy": {
+    "master": true
+  },
+  "unyt": {
+    "master": true
+  },
+  "unzip": {
+    "master": true
+  },
+  "update_checker": {
+    "master": true
+  },
+  "upf_to_json": {
+    "master": true
+  },
+  "uproot": {
+    "master": true
+  },
+  "uproot-methods": {
+    "master": true
+  },
+  "upsetplot": {
+    "master": true
+  },
+  "uqpy": {
+    "master": true
+  },
+  "urbanaccess": {
+    "master": true
+  },
+  "urbansim_defaults": {
+    "master": true
+  },
+  "urbansim_templates": {
+    "master": true
+  },
+  "urdfdom": {
+    "master": true
+  },
+  "urdfdom_headers": {
+    "master": true
+  },
+  "uritemplate": {
+    "master": true
+  },
+  "uritemplate.py": {
+    "master": true
+  },
+  "uritools": {
+    "master": true
+  },
+  "urllib3": {
+    "master": true
+  },
+  "urlobject": {
+    "master": true
+  },
+  "urlquote": {
+    "master": true
+  },
+  "ursabot": {
+    "master": true
+  },
+  "urwid": {
+    "master": true
+  },
+  "us": {
+    "master": true
+  },
+  "usaddress": {
+    "master": true
+  },
+  "usagestats": {
+    "master": true
+  },
+  "user-agents": {
+    "master": true
+  },
+  "userpath": {
+    "master": true
+  },
+  "userspacefs": {
+    "master": true
+  },
+  "usgs": {
+    "master": true
+  },
+  "usgscsm": {
+    "master": true
+  },
+  "utide": {
+    "master": true
+  },
+  "util-linux": {
+    "master": true
+  },
+  "utm": {
+    "master": true
+  },
+  "uvicorn": {
+    "master": true
+  },
+  "uvloop": {
+    "master": true
+  },
+  "uwsgi": {
+    "master": true
+  },
+  "uwsift": {
+    "master": true
+  },
+  "vacumm-data": {
+    "master": true
+  },
+  "vaex": {
+    "master": true
+  },
+  "vaex-arrow": {
+    "master": true
+  },
+  "vaex-astro": {
+    "master": true
+  },
+  "vaex-distributed": {
+    "master": true
+  },
+  "vaex-hdf5": {
+    "master": true
   }
 }
