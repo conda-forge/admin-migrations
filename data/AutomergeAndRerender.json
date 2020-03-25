@@ -7035,7 +7035,8 @@
     "master": true
   },
   "flake8-quotes": {
-    "master": true
+    "master": true,
+    "remove-old-username": true
   },
   "flake8-rst": {
     "master": true
