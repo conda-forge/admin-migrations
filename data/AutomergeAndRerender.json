@@ -5154,7 +5154,8 @@
     "master": true
   },
   "dask-jobqueue": {
-    "master": true
+    "master": true,
+    "0.7.1": true
   },
   "dask-kubernetes": {
     "master": true
