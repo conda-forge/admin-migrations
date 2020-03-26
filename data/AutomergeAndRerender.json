@@ -4418,7 +4418,8 @@
     "master": true
   },
   "conda-build": {
-    "master": true
+    "master": true,
+    "3.18": true
   },
   "conda-build-all": {
     "master": true
@@ -17399,7 +17400,8 @@
     "master": true
   },
   "python-levenshtein": {
-    "master": true
+    "master": true,
+    "peterjc-spdx": true
   },
   "python-libaio": {
     "master": true
