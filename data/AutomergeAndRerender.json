@@ -8423,7 +8423,8 @@
     "master": true
   },
   "graph-tool": {
-    "master": true
+    "master": true,
+    "count0-patch-1": true
   },
   "graphblas": {
     "master": true
@@ -28807,6 +28808,9 @@
     "master": true
   },
   "urlchecker": {
+    "master": true
+  },
+  "googlesearch": {
     "master": true
   }
 }
