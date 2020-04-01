@@ -10217,7 +10217,8 @@
   "jupyterlab": {
     "1.x": true,
     "master": true,
-    "prerelease": true
+    "prerelease": true,
+    "rc": true
   },
   "jupyterlab-dash": {
     "master": true
@@ -24709,7 +24710,8 @@
   },
   "rbdl": {
     "master": true,
-    "windows_feedstock": true
+    "windows_feedstock": true,
+    "pariterre-patch-1": true
   },
   "rclone": {
     "master": true
