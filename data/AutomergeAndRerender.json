@@ -1263,7 +1263,8 @@
     "master": true
   },
   "pangeo-dask": {
-    "master": true
+    "master": true,
+    "watch_upstream_action": true
   },
   "mbsolve": {
     "master": true
