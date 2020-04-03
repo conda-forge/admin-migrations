@@ -3353,7 +3353,8 @@
     "master": true
   },
   "brian2": {
-    "master": true
+    "master": true,
+    "rebuild-pypy-debug": true
   },
   "broot": {
     "master": true
