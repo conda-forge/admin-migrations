@@ -1264,7 +1264,8 @@
   },
   "pangeo-dask": {
     "master": true,
-    "watch_upstream_action": true
+    "watch_upstream_action": true,
+    "upgrade-dask-versions": true
   },
   "mbsolve": {
     "master": true
@@ -28922,6 +28923,18 @@
     "master": true
   },
   "iso3166": {
+    "master": true
+  },
+  "sdl_image": {
+    "master": true
+  },
+  "cmaes": {
+    "master": true
+  },
+  "ecco_v4_py": {
+    "master": true
+  },
+  "sdl": {
     "master": true
   }
 }
