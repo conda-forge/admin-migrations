@@ -451,7 +451,8 @@
     "master": true
   },
   "wrapt": {
-    "master": true
+    "master": true,
+    "1.11.x": true
   },
   "wrf-python": {
     "master": true
