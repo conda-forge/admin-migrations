@@ -4662,7 +4662,8 @@
     "v4.0.3": true
   },
   "coveralls": {
-    "master": true
+    "master": true,
+    "bump-version": true
   },
   "cowpy": {
     "master": true
