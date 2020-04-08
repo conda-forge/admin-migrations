@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if [ ! -d ${HOME}/miniconda ]; then
-  curl -s https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh
+  wget https://github.com/conda-forge/miniforge/releases/download/4.8.3-1/Miniforge3-Linux-x86_64.sh -O miniconda.sh
   bash miniconda.sh -b -p ${HOME}/miniconda
   rm -f miniconda.sh
 
