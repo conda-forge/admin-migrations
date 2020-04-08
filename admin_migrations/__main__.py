@@ -6,8 +6,11 @@ import contextlib
 import subprocess
 import requests
 import functools
+import datetime
 
 from requests.exceptions import RequestException
+import github
+import tqdm
 
 from admin_migrations.migrators import (
     AutomergeAndRerender,
@@ -77,15 +80,42 @@ def _get_branches():
     return branches
 
 
-def _load_feedstock_data():
-    r = requests.get(
-        "https://raw.githubusercontent.com/regro/"
-        "cf-graph-countyfair/master/names.txt"
-    )
-    if r.status_code != 200:
-        raise RuntimeError("could not get feedstocks!")
+def _get_all_feedstocks():
+    gh = github.Github(os.environ['GITHUB_TOKEN'], per_page=100)
+    org = gh.get_organization("conda-forge")
+    archived = set()
+    not_archived = set()
+    repos = org.get_repos(type='public')
+    for r in tqdm.tqdm(repos, total=repos.totalCount, desc='getting all feedstocks'):
+        if r.name.endswith("-feedstock"):
+            if r.archived:
+                archived.add(r.name[:len("-feedstock")])
+            else:
+                not_archived.add(r.name[:len("-feedstock")])
+    return {"active": sorted(list(not_archived)), "archived": sorted(list(archived))}
 
-    feedstocks = [f for f in r.text.split("\n") if len(f) > 0]
+
+def _load_feedstock_data():
+    curr_hour = datetime.datetime.utcnow().hour
+    if curr_hour % 2 == 0 or not os.path.exists("data/all_feedstocks.json"):
+        dt = time.time()
+        all_feedstocks = _get_all_feedstocks()
+        dt = time.time() - dt
+        print(" ")
+
+        # we run a bit less since this takes a few minutes
+        global MAX_SECONDS
+        MAX_SECONDS -= dt
+
+        with open("data/all_feedstocks.json", "w") as fp:
+            json.dump(all_feedstocks, fp, indent=2)
+    else:
+        print("using cached feedstock list")
+        print(" ")
+        with open("data/all_feedstocks.json", "r") as fp:
+            all_feedstocks = json.load(fp)
+
+    feedstocks = all_feedstocks["active"]
 
     if not os.path.exists("data/feedstocks.json"):
         blob = {
