@@ -4859,7 +4859,8 @@
   },
   "curl": {
     "master": true,
-    "v7.59.x": true
+    "v7.59.x": true,
+    "v7.64": true
   },
   "curtsies": {
     "master": true
@@ -26405,7 +26406,8 @@
     "master": true
   },
   "snorkel": {
-    "master": true
+    "master": true,
+    "vsc-upgrade-0.9.4": true
   },
   "snowballstemmer": {
     "master": true
@@ -26452,7 +26454,8 @@
   "songbird": {
     "build1": true,
     "master": true,
-    "regro-cf-autotick-bot/1.0.2": true
+    "regro-cf-autotick-bot/1.0.2": true,
+    "mortonjt-patch-1": true
   },
   "sonnet": {
     "master": true
