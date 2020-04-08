@@ -99,9 +99,12 @@ def _load_feedstock_data():
     curr_hour = datetime.datetime.utcnow().hour
     if curr_hour % 2 == 0 or not os.path.exists("data/all_feedstocks.json"):
         all_feedstocks = _get_all_feedstocks()
+        print(" ")
         with open("data/all_feedstocks.json", "w") as fp:
             json.dump(all_feedstocks, fp, indent=2)
     else:
+        print("using cached feedstock list")
+        print(" ")
         with open("data/all_feedstocks.json", "r") as fp:
             all_feedstocks = json.load(fp)
 
