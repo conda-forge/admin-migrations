@@ -98,8 +98,15 @@ def _get_all_feedstocks():
 def _load_feedstock_data():
     curr_hour = datetime.datetime.utcnow().hour
     if curr_hour % 2 == 0 or not os.path.exists("data/all_feedstocks.json"):
+        dt = time.time()
         all_feedstocks = _get_all_feedstocks()
+        dt = time.time() - dt
         print(" ")
+
+        # we run a bit less since this takes a few minutes
+        global MAX_SECONDS
+        MAX_SECONDS -= dt
+
         with open("data/all_feedstocks.json", "w") as fp:
             json.dump(all_feedstocks, fp, indent=2)
     else:
