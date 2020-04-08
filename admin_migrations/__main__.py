@@ -89,9 +89,9 @@ def _get_all_feedstocks():
     for r in tqdm.tqdm(repos, total=repos.totalCount, desc='getting all feedstocks'):
         if r.name.endswith("-feedstock"):
             if r.archived:
-                archived.add(r.name[:len("-feedstock")])
+                archived.add(r.name[:-len("-feedstock")])
             else:
-                not_archived.add(r.name[:len("-feedstock")])
+                not_archived.add(r.name[:-len("-feedstock")])
     return {"active": sorted(list(not_archived)), "archived": sorted(list(archived))}
 
 
