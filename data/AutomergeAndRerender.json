@@ -8595,7 +8595,8 @@
     "master": true
   },
   "gst-python": {
-    "master": true
+    "master": true,
+    "1.14.4-lts": true
   },
   "gstlal": {
     "master": true
@@ -24764,7 +24765,8 @@
     "master": true
   },
   "reaktoro": {
-    "master": true
+    "master": true,
+    "trigger-new-build-after-thermofun-update": true
   },
   "reaper": {
     "master": true
