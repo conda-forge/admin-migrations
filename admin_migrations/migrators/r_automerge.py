@@ -52,6 +52,10 @@ class RAutomerge(Migrator):
                 yaml = YAML()
                 cfg = yaml.load(meta_yaml)
 
+            # already done or maybe to False locally
+            if "bot" in cfg and "automerge" in cfg["bot"]:
+                return True, False, False
+
             cfg["bot"] = {"automerge": True}
 
             with open("conda-forge.yml", "w") as fp:
