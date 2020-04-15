@@ -6319,7 +6319,8 @@
   "elasticsearch": {
     "2.4.x": true,
     "5.x": true,
-    "master": true
+    "master": true,
+    "apache-2.0": true
   },
   "elasticsearch-async": {
     "master": true
