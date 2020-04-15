@@ -67,5 +67,3 @@ class RAutomerge(Migrator):
         else:
             # no migration, no commit needs to be made, no api calls
             return False, False, False
-
-        return True, True, False
