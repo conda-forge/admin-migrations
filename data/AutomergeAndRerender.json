@@ -11599,7 +11599,8 @@
     "4.x": true,
     "5.x": true,
     "6.x": true,
-    "master": true
+    "master": true,
+    "9.x": true
   },
   "llvmlite": {
     "master": true
@@ -29243,6 +29244,15 @@
     "master": true
   },
   "mf2": {
+    "master": true
+  },
+  "eland": {
+    "master": true
+  },
+  "sparse_dot_mkl": {
+    "master": true
+  },
+  "arpeggio": {
     "master": true
   }
 }
