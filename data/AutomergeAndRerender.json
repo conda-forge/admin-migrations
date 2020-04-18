@@ -15381,7 +15381,8 @@
     "master": true
   },
   "py-ubjson": {
-    "master": true
+    "master": true,
+    "expose-test-return-code": true
   },
   "py2cytoscape": {
     "master": true
