@@ -269,7 +269,10 @@ def main():
     num_done_prev = sum(v == next_num for v in feedstocks["feedstocks"].values())
 
     if DEBUG:
-        all_feedstocks = ["cf-autotick-bot-test-package"]
+        # set DEBUG_ADMIN_MIGRATIONS in your env to enable this
+        all_feedstocks = [
+            "cf-autotick-bot-test-package",
+        ]
         for fs in all_feedstocks:
             feedstocks["feedstocks"][fs] = current_num
         for m in migrators:

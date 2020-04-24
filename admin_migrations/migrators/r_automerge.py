@@ -24,11 +24,28 @@ def _has_r_team():
 
 
 def _has_cran_url():
+    stop_tokens = ["build:", "requirements:", "test:", "about:", "extra:"]
+
     with open(os.path.join("recipe", "meta.yaml"), "r") as fp:
-        meta_yaml = fp.read()
-    # this same set of slugs is used by the autotick bot
-    # https://github.com/regro/cf-scripts/blob/master/conda_forge_tick/migrators/version.py#L71
-    return "{{ cran_mirror }}" in meta_yaml or "cran.r-project.org/src/contrib" in meta_yaml
+        in_source_section = False
+        for line in fp.readlines():
+            if line.startswith("source:"):
+                in_source_section = True
+            elif any(line.startswith(t) for t in stop_tokens):
+                break
+
+            if (
+                in_source_section and
+                (
+                    # this same set of slugs is used by the autotick bot
+                    # https://github.com/regro/cf-scripts/blob/master/conda_forge_tick/migrators/version.py#L71
+                    "cran_mirror" in line
+                    or "cran.r-project.org/src/contrib" in line
+                )
+            ):
+                return True
+
+    return False
 
 
 class RAutomerge(Migrator):
@@ -36,12 +53,15 @@ class RAutomerge(Migrator):
 
         1. r-* in the name
         2. has conda-forge/r on the maintainers list
-        3. uses the {{ cran_mirror }} jinja2 variable
+        3. uses the {{ cran_mirror }} jinja2 variable or has a cran url
     """
     def migrate(self, feedstock, branch):
+        print("    r team:", _has_r_team())
+        print("    cran url:", _has_cran_url())
+
         if (
             feedstock.startswith("r-")
-            and feedstock not in ["r", "r-base"]
+            and feedstock != "r-base"
             and _has_r_team()
             and _has_cran_url()
         ):
@@ -56,6 +76,7 @@ class RAutomerge(Migrator):
 
             # already done or maybe to False locally
             if "bot" in cfg and "automerge" in cfg["bot"]:
+                print("    bot.automerge already set:", cfg["bot"]["automerge"])
                 return True, False, False
 
             cfg["bot"] = {"automerge": True}
