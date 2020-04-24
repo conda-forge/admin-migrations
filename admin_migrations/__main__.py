@@ -15,6 +15,7 @@ import tqdm
 from admin_migrations.migrators import (
     AutomergeAndRerender,
     AppveyorDelete,
+    RAutomerge,
     # these are finished so we don't run them
     # AutomergeAndBotRerunLabels,
 )
@@ -97,7 +98,10 @@ def _get_all_feedstocks():
 
 def _load_feedstock_data():
     curr_hour = datetime.datetime.utcnow().hour
-    if curr_hour % 2 == 0 or not os.path.exists("data/all_feedstocks.json"):
+    if (
+        (curr_hour % 2 == 0 or not os.path.exists("data/all_feedstocks.json"))
+        and not DEBUG
+    ):
         dt = time.time()
         all_feedstocks = _get_all_feedstocks()
         dt = time.time() - dt
@@ -252,6 +256,7 @@ def main():
     migrators = [
         AutomergeAndRerender(),
         AppveyorDelete(),
+        RAutomerge()
         # these are finished so we don't run them
         # AutomergeAndBotRerunLabels(),
     ]
@@ -264,7 +269,10 @@ def main():
     num_done_prev = sum(v == next_num for v in feedstocks["feedstocks"].values())
 
     if DEBUG:
-        all_feedstocks = ["cf-autotick-bot-test-package"]
+        # set DEBUG_ADMIN_MIGRATIONS in your env to enable this
+        all_feedstocks = [
+            "cf-autotick-bot-test-package",
+        ]
         for fs in all_feedstocks:
             feedstocks["feedstocks"][fs] = current_num
         for m in migrators:
