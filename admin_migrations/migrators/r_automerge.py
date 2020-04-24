@@ -26,7 +26,9 @@ def _has_r_team():
 def _has_cran_url():
     with open(os.path.join("recipe", "meta.yaml"), "r") as fp:
         meta_yaml = fp.read()
-    return "{{ cran_mirror }}" in meta_yaml
+    # this same set of slugs is used by the autotick bot
+    # https://github.com/regro/cf-scripts/blob/master/conda_forge_tick/migrators/version.py#L71
+    return "{{ cran_mirror }}" in meta_yaml or "cran.r-project.org/src/contrib" in meta_yaml
 
 
 class RAutomerge(Migrator):
