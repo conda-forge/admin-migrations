@@ -29305,7 +29305,8 @@
     "master": true
   },
   "rocksdb": {
-    "master": true
+    "master": true,
+    "6.2.x": true
   },
   "r-poissonreg": {
     "master": true
