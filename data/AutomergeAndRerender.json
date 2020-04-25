@@ -3761,7 +3761,16 @@
   },
   "cf-autotick-bot-test-package": {
     "master": true,
-    "rerender-live-test": true
+    "rerender-live-test": true,
+    "azure-azure": true,
+    "azure-circle": true,
+    "azure-travis": true,
+    "circle-azure": true,
+    "circle-circle": true,
+    "circle-travis": true,
+    "travis-azure": true,
+    "travis-circle": true,
+    "travis-travis": true
   },
   "cf_units": {
     "master": true
