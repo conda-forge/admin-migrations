@@ -4466,7 +4466,8 @@
     "master": true
   },
   "conda-forge-ci-setup": {
-    "master": true
+    "master": true,
+    "2.x": true
   },
   "conda-forge-pinning": {
     "master": true,
