@@ -25434,7 +25434,8 @@
   },
   "rpcq": {
     "conda_permissions": true,
-    "master": true
+    "master": true,
+    "conda_maintainers2": true
   },
   "rpdb": {
     "master": true
@@ -29473,6 +29474,9 @@
     "master": true
   },
   "m2w64-pcre2": {
+    "master": true
+  },
+  "orjson": {
     "master": true
   }
 }
