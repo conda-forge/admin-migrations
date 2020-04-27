@@ -7135,7 +7135,8 @@
     "master": true
   },
   "flask-basicauth": {
-    "master": true
+    "master": true,
+    "synapticarbors-patch-1": true
   },
   "flask-bcrypt": {
     "master": true
