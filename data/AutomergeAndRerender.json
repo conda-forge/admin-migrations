@@ -2251,7 +2251,8 @@
   "arrow-cpp": {
     "0.12.x": true,
     "0.13.x": true,
-    "master": true
+    "master": true,
+    "0.16.x": true
   },
   "artview": {
     "master": true
@@ -15475,7 +15476,8 @@
   },
   "pyarrow": {
     "develop": true,
-    "master": true
+    "master": true,
+    "0.16.x": true
   },
   "pyart_mch": {
     "master": true
