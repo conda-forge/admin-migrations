@@ -14543,7 +14543,8 @@
     "master": true
   },
   "peewee": {
-    "master": true
+    "master": true,
+    "synapticarbors-patch-1": true
   },
   "pefile": {
     "master": true
