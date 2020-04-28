@@ -3036,7 +3036,8 @@
     "master": true
   },
   "biorbd": {
-    "master": true
+    "master": true,
+    "pariterre-patch-1": true
   },
   "biorbd-viz": {
     "master": true
@@ -6687,7 +6688,8 @@
     "master": true
   },
   "ezc3d": {
-    "master": true
+    "master": true,
+    "pariterre-patch-1": true
   },
   "ezca": {
     "master": true
