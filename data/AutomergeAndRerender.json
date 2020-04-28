@@ -26639,7 +26639,8 @@
     "master": true
   },
   "spectral": {
-    "master": true
+    "master": true,
+    "update_license": true
   },
   "spectral-cube": {
     "master": true
@@ -29504,6 +29505,9 @@
     "master": true
   },
   "dask-ms": {
+    "master": true
+  },
+  "coverage-fixpaths": {
     "master": true
   }
 }
