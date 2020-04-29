@@ -16668,7 +16668,8 @@
     "master": true
   },
   "pyquil": {
-    "master": true
+    "master": true,
+    "conda_maintainer_update": true
   },
   "pyramid": {
     "master": true
