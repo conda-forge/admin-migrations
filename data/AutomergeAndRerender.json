@@ -1829,7 +1829,8 @@
   },
   "aiida-core": {
     "dev": true,
-    "master": true
+    "master": true,
+    "pin-rabbitmq": true
   },
   "aiida-crystal17": {
     "master": true
