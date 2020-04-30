@@ -29535,7 +29535,8 @@
     "master": true
   },
   "biorbd-casadi": {
-    "master": true
+    "master": true,
+    "pariterre-patch-1": true
   },
   "octokitpy": {
     "master": true
