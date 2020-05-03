@@ -27604,5 +27604,11 @@
   },
   "pyspark-flame": {
     "master": true
+  },
+  "onnx-tf": {
+    "master": true
+  },
+  "shogun": {
+    "master": true
   }
 }
