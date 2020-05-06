@@ -19,6 +19,17 @@ jobs:
             source ./scripts/install_miniconda.sh
 
       - run:
+          name: setup tokens
+          command: |
+            mkdir -p ~/.conda-smithy
+            echo ${STAGING_BINSTAR_TOKEN} > ~/.conda-smithy/anaconda.token
+            echo ${CIRCLE_TOKEN} > ~/.conda-smithy/circle.token
+            echo ${TRAVIS_TOKEN} > ~/.conda-smithy/travis.token
+            echo ${AZURE_TOKEN} > ~/.conda-smithy/azure.token
+            echo ${DRONE_TOKEN} > ~/.conda-smithy/drone.token
+            echo ${GITHUB_TOKEN} > ~/.conda-smithy/github.token
+
+      - run:
           name: flake8
           command: |
             export PATH=${HOME}/miniconda/bin:$PATH
@@ -50,6 +61,17 @@ jobs:
           name: install conda
           command: |
             source ./scripts/install_miniconda.sh
+
+      - run:
+          name: setup tokens
+          command: |
+            mkdir -p ~/.conda-smithy
+            echo ${STAGING_BINSTAR_TOKEN} > ~/.conda-smithy/anaconda.token
+            echo ${CIRCLE_TOKEN} > ~/.conda-smithy/circle.token
+            echo ${TRAVIS_TOKEN} > ~/.conda-smithy/travis.token
+            echo ${AZURE_TOKEN} > ~/.conda-smithy/azure.token
+            echo ${DRONE_TOKEN} > ~/.conda-smithy/drone.token
+            echo ${GITHUB_TOKEN} > ~/.conda-smithy/github.token
 
       - run:
           name: migrate
