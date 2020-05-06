@@ -30,7 +30,7 @@ class CFEP13TokensAndConfig(Migrator):
             # register a feedstock token
             r = requests.post(
                 "https://conda-forge.herokuapp.com/feedstock-tokens/register",
-                json={"feedstock": feedstock},
+                json={"feedstock": feedstock + "-feedstock"},
                 headers={
                     "FEEDSTOCK_TOKEN": os.environ["STAGED_RECIPES_FEEDSTOCK_TOKEN"]}
             )
