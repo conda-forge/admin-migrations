@@ -34,6 +34,8 @@ class CFEP13TokensAndConfig(Migrator):
                 headers={
                     "FEEDSTOCK_TOKEN": os.environ["STAGED_RECIPES_FEEDSTOCK_TOKEN"]}
             )
+            if r.status_code != 200:
+                print(r.status_code)
             r.raise_for_status()
             print("    registered feedstock token")
 
