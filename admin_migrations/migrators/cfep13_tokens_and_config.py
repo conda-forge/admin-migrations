@@ -35,8 +35,8 @@ class CFEP13TokensAndConfig(Migrator):
                     "FEEDSTOCK_TOKEN": os.environ["STAGED_RECIPES_FEEDSTOCK_TOKEN"]}
             )
             if r.status_code != 200:
-                print(r.status_code)
-            r.raise_for_status()
+                print("    feedstock token registration failed:", r.status_code)
+                r.raise_for_status()
             print("    registered feedstock token")
 
             # register the staging binstar token
