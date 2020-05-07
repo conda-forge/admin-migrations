@@ -2682,7 +2682,8 @@
     "master": true
   },
   "azure-mgmt": {
-    "master": true
+    "master": true,
+    "remove-from-maintainers": true
   },
   "azure-mgmt-authorization": {
     "master": true
