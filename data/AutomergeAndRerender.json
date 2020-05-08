@@ -10292,7 +10292,8 @@
     "master": true
   },
   "jupyterlab_server": {
-    "master": true
+    "master": true,
+    "1.0.x": true
   },
   "jupyternotify": {
     "master": true
@@ -11926,7 +11927,8 @@
   },
   "mapio": {
     "master": true,
-    "mhearne-usgs-patch-1": true
+    "mhearne-usgs-patch-1": true,
+    "revert-32-v0725": true
   },
   "mapkit": {
     "master": true
