@@ -16,6 +16,7 @@ from admin_migrations.migrators import (
     AutomergeAndRerender,
     AppveyorDelete,
     RAutomerge,
+    CFEP13TokensAndConfig,
     # these are finished so we don't run them
     # AutomergeAndBotRerunLabels,
 )
@@ -26,7 +27,7 @@ if DEBUG:
     MAX_MIGRATE = 1
     MAX_SECONDS = 50 * 60
 else:
-    MAX_MIGRATE = 1000
+    MAX_MIGRATE = 100
     MAX_SECONDS = 50 * 60
 
 
@@ -256,7 +257,8 @@ def main():
     migrators = [
         AutomergeAndRerender(),
         AppveyorDelete(),
-        RAutomerge()
+        RAutomerge(),
+        CFEP13TokensAndConfig(),
         # these are finished so we don't run them
         # AutomergeAndBotRerunLabels(),
     ]
