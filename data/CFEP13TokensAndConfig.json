@@ -568,5 +568,305 @@
   },
   "r-scatterpie": {
     "master": true
+  },
+  "r-scatterplot3d": {
+    "master": true
+  },
+  "r-scico": {
+    "master": true
+  },
+  "r-sciplot": {
+    "master": true
+  },
+  "r-scrime": {
+    "master": true
+  },
+  "r-scrm": {
+    "master": true
+  },
+  "r-scrt": {
+    "master": true
+  },
+  "r-sctransform": {
+    "master": true
+  },
+  "r-sda": {
+    "master": true
+  },
+  "r-sdmtools": {
+    "master": true
+  },
+  "r-seacarb": {
+    "master": true
+  },
+  "r-segmented": {
+    "master": true
+  },
+  "r-segregation": {
+    "master": true
+  },
+  "r-sel": {
+    "master": true
+  },
+  "r-selectr": {
+    "master": true
+  },
+  "r-sem": {
+    "master": true
+  },
+  "r-semtools": {
+    "master": true
+  },
+  "r-sendmailr": {
+    "master": true
+  },
+  "r-sentimentr": {
+    "master": true
+  },
+  "r-seqinr": {
+    "master": true
+  },
+  "r-seqminer": {
+    "master": true
+  },
+  "r-seriation": {
+    "master": true
+  },
+  "r-servr": {
+    "master": true
+  },
+  "r-sessioninfo": {
+    "master": true
+  },
+  "r-setrng": {
+    "master": true
+  },
+  "r-sets": {
+    "master": true
+  },
+  "r-settings": {
+    "master": true
+  },
+  "r-seurat": {
+    "master": true
+  },
+  "r-sf": {
+    "master": true
+  },
+  "r-sfsmisc": {
+    "master": true
+  },
+  "r-sgeostat": {
+    "master": true
+  },
+  "r-shades": {
+    "master": true
+  },
+  "r-shadowtext": {
+    "master": true
+  },
+  "r-shape": {
+    "master": true
+  },
+  "r-shapefiles": {
+    "master": true
+  },
+  "r-shiny": {
+    "master": true
+  },
+  "r-shiny.semantic": {
+    "master": true
+  },
+  "r-shinyace": {
+    "master": true
+  },
+  "r-shinyalert": {
+    "master": true
+  },
+  "r-shinybs": {
+    "master": true
+  },
+  "r-shinybusy": {
+    "master": true
+  },
+  "r-shinycssloaders": {
+    "master": true
+  },
+  "r-shinydashboard": {
+    "master": true
+  },
+  "r-shinydashboardplus": {
+    "master": true
+  },
+  "r-shinyeffects": {
+    "master": true
+  },
+  "r-shinyfiles": {
+    "master": true
+  },
+  "r-shinyhelper": {
+    "master": true
+  },
+  "r-shinyjqui": {
+    "master": true
+  },
+  "r-shinyjs": {
+    "master": true
+  },
+  "r-shinylp": {
+    "master": true
+  },
+  "r-shinysky": {
+    "master": true
+  },
+  "r-shinystan": {
+    "master": true
+  },
+  "r-shinytest": {
+    "master": true
+  },
+  "r-shinythemes": {
+    "master": true
+  },
+  "r-shinytree": {
+    "master": true
+  },
+  "r-shinywidgets": {
+    "master": true
+  },
+  "r-showimage": {
+    "master": true
+  },
+  "r-showtext": {
+    "master": true
+  },
+  "r-showtextdb": {
+    "master": true
+  },
+  "r-sigclust": {
+    "master": true
+  },
+  "r-sigmajs": {
+    "master": true
+  },
+  "r-signal": {
+    "master": true
+  },
+  "r-simcomp": {
+    "master": true
+  },
+  "r-simpleboot": {
+    "master": true
+  },
+  "r-sinaplot": {
+    "master": true
+  },
+  "r-sitmo": {
+    "master": true
+  },
+  "r-sizer": {
+    "master": true
+  },
+  "r-sjlabelled": {
+    "master": true
+  },
+  "r-sjmisc": {
+    "master": true
+  },
+  "r-sjplot": {
+    "master": true
+  },
+  "r-sjstats": {
+    "master": true
+  },
+  "r-skat": {
+    "master": true
+  },
+  "r-skellam": {
+    "master": true
+  },
+  "r-skimr": {
+    "master": true
+  },
+  "r-skmeans": {
+    "master": true
+  },
+  "r-skynet": {
+    "master": true
+  },
+  "r-slam": {
+    "master": true
+  },
+  "r-slim": {
+    "master": true
+  },
+  "r-slippymath": {
+    "master": true
+  },
+  "r-sm": {
+    "master": true
+  },
+  "r-smatr": {
+    "master": true
+  },
+  "r-sme": {
+    "master": true
+  },
+  "r-smoof": {
+    "master": true
+  },
+  "r-smoother": {
+    "master": true
+  },
+  "r-smoothie": {
+    "master": true
+  },
+  "r-smoothmest": {
+    "master": true
+  },
+  "r-smoothwin": {
+    "master": true
+  },
+  "r-smotefamily": {
+    "master": true
+  },
+  "r-smvar": {
+    "master": true
+  },
+  "r-sn": {
+    "master": true
+  },
+  "r-sna": {
+    "master": true
+  },
+  "r-snakecase": {
+    "master": true
+  },
+  "r-snftool": {
+    "master": true
+  },
+  "r-snow": {
+    "master": true
+  },
+  "r-snowballc": {
+    "master": true
+  },
+  "r-snowfall": {
+    "master": true
+  },
+  "r-snpassoc": {
+    "master": true
+  },
+  "r-snpls": {
+    "master": true
+  },
+  "r-sodium": {
+    "master": true
+  },
+  "r-softimpute": {
+    "master": true
+  },
+  "r-soildb": {
+    "master": true
   }
 }
