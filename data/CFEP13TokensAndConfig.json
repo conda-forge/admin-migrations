@@ -1770,5 +1770,310 @@
   },
   "r-xptr": {
     "master": true
+  },
+  "r-xtable": {
+    "master": true
+  },
+  "r-xtensor": {
+    "master": true
+  },
+  "r-xtractomatic": {
+    "master": true
+  },
+  "r-xts": {
+    "master": true
+  },
+  "r-yaimpute": {
+    "master": true
+  },
+  "r-yaml": {
+    "master": true
+  },
+  "r-yardstick": {
+    "master": true
+  },
+  "r-yarrr": {
+    "master": true
+  },
+  "r-yesno": {
+    "master": true
+  },
+  "r-zcompositions": {
+    "master": true
+  },
+  "r-zeallot": {
+    "master": true
+  },
+  "r-zip": {
+    "master": true
+  },
+  "r-zoo": {
+    "master": true
+  },
+  "r-ztable": {
+    "master": true
+  },
+  "rabbitmq-server": {
+    "master": true
+  },
+  "racket": {
+    "master": true
+  },
+  "radical.analytics": {
+    "master": true
+  },
+  "radical.entk": {
+    "master": true
+  },
+  "radical.pilot": {
+    "master": true
+  },
+  "radical.saga": {
+    "master": true
+  },
+  "radical.utils": {
+    "master": true
+  },
+  "radio-beam": {
+    "master": true
+  },
+  "radiospectra": {
+    "master": true
+  },
+  "radon": {
+    "master": true
+  },
+  "rafem": {
+    "master": true
+  },
+  "ragel": {
+    "master": true
+  },
+  "rake_nltk": {
+    "master": true
+  },
+  "ramscube": {
+    "master": true
+  },
+  "randomcolor": {
+    "master": true
+  },
+  "randspg": {
+    "master": true
+  },
+  "rang": {
+    "master": true
+  },
+  "rank_filter": {
+    "master": true
+  },
+  "rapidjson": {
+    "master": true
+  },
+  "rapidpy": {
+    "master": true
+  },
+  "rapidsim": {
+    "master": true
+  },
+  "rapidz": {
+    "master": true
+  },
+  "rasterio": {
+    "dev": true,
+    "master": true
+  },
+  "rasterstats": {
+    "master": true
+  },
+  "ratelim": {
+    "master": true
+  },
+  "ratelimiter": {
+    "master": true
+  },
+  "ratpoints": {
+    "master": true
+  },
+  "rauth": {
+    "master": true
+  },
+  "raven": {
+    "master": true
+  },
+  "raven-aiohttp": {
+    "master": true
+  },
+  "rb-activesupport": {
+    "master": true
+  },
+  "rb-addressable": {
+    "master": true
+  },
+  "rb-archive-tar-minitar": {
+    "master": true
+  },
+  "rb-aws-codedeploy-agent": {
+    "master": true
+  },
+  "rb-aws-eventstream": {
+    "master": true
+  },
+  "rb-aws-sdk-core": {
+    "master": true
+  },
+  "rb-aws-sigv4": {
+    "master": true
+  },
+  "rb-bibtex-ruby": {
+    "master": true
+  },
+  "rb-bio": {
+    "master": true
+  },
+  "rb-bond": {
+    "master": true
+  },
+  "rb-bundler": {
+    "master": true
+  },
+  "rb-citeproc": {
+    "master": true
+  },
+  "rb-citeproc-ruby": {
+    "master": true
+  },
+  "rb-coffee-script": {
+    "master": true
+  },
+  "rb-coffee-script-source": {
+    "master": true
+  },
+  "rb-colorator": {
+    "master": true
+  },
+  "rb-commonmarker": {
+    "master": true
+  },
+  "rb-concurrent-ruby": {
+    "1.0.x": true,
+    "master": true
+  },
+  "rb-cool.io": {
+    "fix-ruby-failure": true,
+    "master": true
+  },
+  "rb-csl": {
+    "master": true
+  },
+  "rb-csl-styles": {
+    "master": true
+  },
+  "rb-data_uri": {
+    "master": true
+  },
+  "rb-dig_rb": {
+    "master": true
+  },
+  "rb-dnsruby": {
+    "master": true
+  },
+  "rb-docopt": {
+    "master": true
+  },
+  "rb-dotenv": {
+    "master": true
+  },
+  "rb-em-websocket": {
+    "master": true
+  },
+  "rb-equatable": {
+    "master": true
+  },
+  "rb-ethon": {
+    "master": true
+  },
+  "rb-eventmachine": {
+    "master": true
+  },
+  "rb-execjs": {
+    "master": true
+  },
+  "rb-faraday": {
+    "master": true
+  },
+  "rb-fast_jsonapi": {
+    "master": true
+  },
+  "rb-ffi": {
+    "master": true
+  },
+  "rb-fluentd": {
+    "master": true
+  },
+  "rb-forwardable-extended": {
+    "master": true
+  },
+  "rb-gemoji": {
+    "master": true
+  },
+  "rb-github-pages": {
+    "master": true
+  },
+  "rb-github-pages-health-check": {
+    "master": true
+  },
+  "rb-gli": {
+    "master": true
+  },
+  "rb-html-pipeline": {
+    "master": true
+  },
+  "rb-html-proofer": {
+    "master": true
+  },
+  "rb-http_parser.rb": {
+    "master": true
+  },
+  "rb-i18n": {
+    "0.x": true,
+    "master": true
+  },
+  "rb-jekyll": {
+    "3.x": true,
+    "master": true
+  },
+  "rb-jekyll-avatar": {
+    "master": true
+  },
+  "rb-jekyll-coffeescript": {
+    "master": true
+  },
+  "rb-jekyll-commonmark": {
+    "master": true
+  },
+  "rb-jekyll-commonmark-ghpages": {
+    "master": true
+  },
+  "rb-jekyll-compose": {
+    "master": true
+  },
+  "rb-jekyll-default-layout": {
+    "master": true
+  },
+  "rb-jekyll-environment-variables": {
+    "master": true
+  },
+  "rb-jekyll-feed": {
+    "master": true
+  },
+  "rb-jekyll-gist": {
+    "master": true
+  },
+  "rb-jekyll-github-metadata": {
+    "master": true
+  },
+  "rb-jekyll-mentions": {
+    "master": true
   }
 }
