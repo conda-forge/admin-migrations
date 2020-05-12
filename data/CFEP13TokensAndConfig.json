@@ -3627,5 +3627,317 @@
   },
   "sh": {
     "master": true
+  },
+  "shade": {
+    "master": true
+  },
+  "shap": {
+    "master": true
+  },
+  "shapelib": {
+    "master": true
+  },
+  "shapely": {
+    "master": true
+  },
+  "sharedarray": {
+    "master": true
+  },
+  "shed": {
+    "master": true
+  },
+  "shedsidewinder": {
+    "master": true
+  },
+  "shellcheck": {
+    "master": true
+  },
+  "shellescape": {
+    "master": true
+  },
+  "shellingham": {
+    "master": true
+  },
+  "shenfun": {
+    "master": true
+  },
+  "sherlockml-dataclean": {
+    "master": true
+  },
+  "shogun": {
+    "master": true
+  },
+  "shogun-cpp": {
+    "master": true
+  },
+  "shortcutter": {
+    "master": true
+  },
+  "shortuuid": {
+    "0.4.x": true,
+    "master": true
+  },
+  "shove": {
+    "master": true
+  },
+  "shtns": {
+    "master": true
+  },
+  "shutilwhich": {
+    "master": true
+  },
+  "shutilwhich-cwdpatch": {
+    "master": true
+  },
+  "shyaml": {
+    "master": true
+  },
+  "siesta": {
+    "master": true
+  },
+  "signac": {
+    "master": true
+  },
+  "signac-dashboard": {
+    "bdice-patch-1": true,
+    "master": true,
+    "v0.2.1": true
+  },
+  "signac-flow": {
+    "master": true
+  },
+  "signxml": {
+    "master": true
+  },
+  "sigopt": {
+    "master": true
+  },
+  "silx": {
+    "master": true,
+    "rebuild-0.8.0": true
+  },
+  "simage": {
+    "master": true
+  },
+  "simanneal": {
+    "master": true
+  },
+  "simbody": {
+    "master": true
+  },
+  "simdna": {
+    "master": true
+  },
+  "simhash": {
+    "master": true
+  },
+  "simhash-py": {
+    "master": true
+  },
+  "simpeg": {
+    "beta": true,
+    "master": true
+  },
+  "simpervisor": {
+    "master": true
+  },
+  "simple-salesforce": {
+    "master": true
+  },
+  "simpleeval": {
+    "master": true
+  },
+  "simplegeneric": {
+    "master": true
+  },
+  "simpleitk": {
+    "master": true
+  },
+  "simplejson": {
+    "master": true
+  },
+  "simplekml": {
+    "master": true
+  },
+  "simplekv": {
+    "master": true
+  },
+  "simplesat": {
+    "master": true
+  },
+  "simpletal": {
+    "master": true
+  },
+  "simpletraj": {
+    "master": true
+  },
+  "simupop": {
+    "master": true,
+    "regro-cf-autotick-bot-rebuild": true
+  },
+  "singledispatch": {
+    "master": true
+  },
+  "singular": {
+    "master": true
+  },
+  "singularity": {
+    "master": true
+  },
+  "singularity-compose": {
+    "master": true
+  },
+  "sip": {
+    "4.18.x": true,
+    "master": true
+  },
+  "siphon": {
+    "master": true
+  },
+  "sisl": {
+    "master": true
+  },
+  "six": {
+    "master": true
+  },
+  "sixs": {
+    "master": true
+  },
+  "skan": {
+    "master": true
+  },
+  "skater": {
+    "master": true
+  },
+  "skein": {
+    "master": true
+  },
+  "skidl": {
+    "master": true
+  },
+  "skijumpdesign": {
+    "master": true
+  },
+  "skinnywms": {
+    "master": true
+  },
+  "sklearn-contrib-lightning": {
+    "master": true
+  },
+  "sklearn-contrib-py-earth": {
+    "master": true
+  },
+  "sknw": {
+    "master": true
+  },
+  "skopeo": {
+    "master": true
+  },
+  "skorch": {
+    "dhirschfeld-patch-1": true,
+    "master": true
+  },
+  "skrebate": {
+    "master": true
+  },
+  "skyarea": {
+    "master": true
+  },
+  "skyfield": {
+    "jochym-patch-1": true,
+    "master": true
+  },
+  "skyfield-data": {
+    "master": true
+  },
+  "sl": {
+    "master": true
+  },
+  "slackbot": {
+    "master": true
+  },
+  "slackclient": {
+    "master": true
+  },
+  "slacker": {
+    "0.9.42": true,
+    "master": true
+  },
+  "slang": {
+    "master": true
+  },
+  "slda": {
+    "master": true
+  },
+  "sleek-lvalert": {
+    "master": true
+  },
+  "sleekxmpp": {
+    "master": true
+  },
+  "slepc": {
+    "master": true
+  },
+  "slepc4py": {
+    "master": true
+  },
+  "slicedimage": {
+    "master": true
+  },
+  "slicerator": {
+    "master": true
+  },
+  "slimit": {
+    "master": true
+  },
+  "slugify": {
+    "master": true
+  },
+  "slumber": {
+    "master": true
+  },
+  "slycot": {
+    "master": true,
+    "moorepants-patch-1": true,
+    "moorepants-patch-2": true
+  },
+  "smart_open": {
+    "master": true
+  },
+  "smartypants": {
+    "master": true
+  },
+  "smdebug-rulesconfig": {
+    "master": true
+  },
+  "smesh": {
+    "master": true
+  },
+  "smif": {
+    "master": true
+  },
+  "smmap": {
+    "master": true
+  },
+  "smmap2": {
+    "master": true
+  },
+  "smokesignal": {
+    "master": true
+  },
+  "smoqe": {
+    "master": true
+  },
+  "smp": {
+    "master": true
+  },
+  "smpeg2": {
+    "master": true
+  },
+  "smt": {
+    "master": true
+  },
+  "snakebite": {
+    "master": true
   }
 }
