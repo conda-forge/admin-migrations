@@ -5416,5 +5416,295 @@
   },
   "tlsh": {
     "master": true
+  },
+  "tlslite": {
+    "master": true
+  },
+  "tmtk": {
+    "jochemb-patch-1": true,
+    "jochemb-patch-2": true,
+    "master": true
+  },
+  "tmux": {
+    "master": true
+  },
+  "toad": {
+    "master": true,
+    "regro-cf-autotick-bot/0.0.60_hda08ac": true
+  },
+  "toast": {
+    "master": true
+  },
+  "toastedmarshmallow": {
+    "master": true
+  },
+  "tobac": {
+    "master": true
+  },
+  "tobler": {
+    "master": true
+  },
+  "tokei": {
+    "master": true
+  },
+  "tokenize-rt": {
+    "asottile-patch-1": true,
+    "master": true
+  },
+  "tokyocabinet": {
+    "master": true
+  },
+  "toml": {
+    "master": true
+  },
+  "tomlkit": {
+    "master": true
+  },
+  "tomopy": {
+    "master": true
+  },
+  "toolchain": {
+    "master": true
+  },
+  "toolchain3": {
+    "master": true
+  },
+  "toolwrapper": {
+    "master": true
+  },
+  "toolz": {
+    "master": true,
+    "v0.8.x": true
+  },
+  "topika": {
+    "master": true
+  },
+  "topologytoolkit": {
+    "master": true
+  },
+  "toposort": {
+    "master": true
+  },
+  "torchbiggraph": {
+    "master": true
+  },
+  "torchfile": {
+    "master": true
+  },
+  "torcpy": {
+    "master": true
+  },
+  "tornado": {
+    "master": true,
+    "v4.x": true,
+    "v5.x": true
+  },
+  "tornado-sqlalchemy": {
+    "master": true
+  },
+  "toro": {
+    "master": true
+  },
+  "torsiondrive": {
+    "master": true
+  },
+  "towncrier": {
+    "master": true
+  },
+  "tox": {
+    "2.3": true,
+    "master": true
+  },
+  "tox-conda": {
+    "master": true
+  },
+  "tox-venv": {
+    "master": true
+  },
+  "tpot": {
+    "master": true
+  },
+  "tqdm": {
+    "master": true
+  },
+  "traceback2": {
+    "master": true
+  },
+  "traces": {
+    "master": true
+  },
+  "trackpy": {
+    "master": true
+  },
+  "trafaret": {
+    "master": true
+  },
+  "traitlets": {
+    "master": true
+  },
+  "traits": {
+    "master": true
+  },
+  "traitsui": {
+    "master": true
+  },
+  "traittypes": {
+    "master": true
+  },
+  "traja": {
+    "master": true
+  },
+  "tranquilizer": {
+    "master": true,
+    "no-py37": true,
+    "v0.3.1": true,
+    "werkzeug-fix": true
+  },
+  "transaction": {
+    "master": true
+  },
+  "transformers": {
+    "master": true
+  },
+  "transforms3d": {
+    "master": true
+  },
+  "transitions": {
+    "master": true
+  },
+  "translationstring": {
+    "master": true
+  },
+  "transonic": {
+    "master": true
+  },
+  "trash-cli": {
+    "master": true
+  },
+  "travis-encrypt": {
+    "master": true
+  },
+  "tree-format": {
+    "master": true
+  },
+  "treecorr": {
+    "master": true
+  },
+  "treelib": {
+    "master": true
+  },
+  "treq": {
+    "master": true
+  },
+  "trimesh": {
+    "master": true
+  },
+  "trio": {
+    "master": true
+  },
+  "trio-aiohttp": {
+    "master": true
+  },
+  "trio-asyncio": {
+    "master": true
+  },
+  "trio_asyncio": {
+    "master": true
+  },
+  "triqs": {
+    "master": true
+  },
+  "trmm_rsl": {
+    "master": true
+  },
+  "trng": {
+    "master": true
+  },
+  "trollimage": {
+    "master": true
+  },
+  "trollius": {
+    "master": true
+  },
+  "trollsift": {
+    "master": true
+  },
+  "troposphere": {
+    "master": true
+  },
+  "trottersuzuki": {
+    "master": true
+  },
+  "trouve": {
+    "master": true
+  },
+  "tryingsnake": {
+    "master": true
+  },
+  "tsfresh": {
+    "master": true
+  },
+  "tskit": {
+    "master": true
+  },
+  "tsl_hopscotch_map": {
+    "master": true
+  },
+  "tsl_ordered_map": {
+    "master": true
+  },
+  "tsl_robin_map": {
+    "master": true
+  },
+  "tslearn": {
+    "master": true
+  },
+  "tszip": {
+    "master": true
+  },
+  "ttyd": {
+    "master": true
+  },
+  "tuiview": {
+    "master": true
+  },
+  "tuna": {
+    "master": true
+  },
+  "turbodbc": {
+    "master": true
+  },
+  "turtlefsi": {
+    "master": true
+  },
+  "tvb-data": {
+    "master": true
+  },
+  "tvb-framework": {
+    "master": true
+  },
+  "tvb-gdist": {
+    "master": true
+  },
+  "tvb-library": {
+    "master": true
+  },
+  "tweak": {
+    "master": true
+  },
+  "tweepy": {
+    "master": true
+  },
+  "twilio": {
+    "master": true
+  },
+  "twine": {
+    "master": true
+  },
+  "twisted": {
+    "master": true
+  },
+  "twofish": {
+    "master": true
   }
 }
