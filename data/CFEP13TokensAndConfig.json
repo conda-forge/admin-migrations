@@ -4560,5 +4560,315 @@
   },
   "standardese": {
     "master": true
+  },
+  "standardiser": {
+    "master": true
+  },
+  "starlette": {
+    "master": true
+  },
+  "starlink-ast": {
+    "master": true
+  },
+  "starry": {
+    "master": true
+  },
+  "start_jupyter_cm": {
+    "master": true
+  },
+  "startables": {
+    "master": true
+  },
+  "stashy": {
+    "master": true
+  },
+  "stateplane": {
+    "master": true
+  },
+  "static": {
+    "master": true
+  },
+  "static-frame": {
+    "master": true
+  },
+  "staticjinja": {
+    "master": true
+  },
+  "statistics": {
+    "master": true
+  },
+  "statmorph": {
+    "master": true
+  },
+  "statsd": {
+    "master": true
+  },
+  "statsmodels": {
+    "master": true,
+    "rls-0.8.0": true
+  },
+  "statuspage": {
+    "master": true
+  },
+  "stdlib-list": {
+    "master": true
+  },
+  "stdpopsim": {
+    "master": true
+  },
+  "steem": {
+    "master": true
+  },
+  "steemdata": {
+    "master": true
+  },
+  "stefuna": {
+    "master": true
+  },
+  "stem": {
+    "master": true
+  },
+  "stempeg": {
+    "master": true
+  },
+  "stevedore": {
+    "master": true
+  },
+  "stingray": {
+    "master": true,
+    "matteobachetti-patch-1": true
+  },
+  "stir": {
+    "master": true
+  },
+  "stochatreat": {
+    "master": true
+  },
+  "stomp.py": {
+    "master": true
+  },
+  "stopit": {
+    "master": true
+  },
+  "storefact": {
+    "master": true
+  },
+  "straditize": {
+    "master": true
+  },
+  "streamz": {
+    "master": true
+  },
+  "streamz_ext": {
+    "master": true
+  },
+  "strec": {
+    "master": true
+  },
+  "strict-rfc3339": {
+    "master": true
+  },
+  "strictyaml": {
+    "master": true
+  },
+  "stringcase": {
+    "master": true
+  },
+  "struct-lmm": {
+    "master": true
+  },
+  "structlog": {
+    "master": true
+  },
+  "stsynphot": {
+    "master": true
+  },
+  "stuf": {
+    "master": true
+  },
+  "stumpy": {
+    "master": true
+  },
+  "stylist": {
+    "master": true
+  },
+  "su-exec": {
+    "master": true
+  },
+  "subprocess32": {
+    "master": true
+  },
+  "sudospawner": {
+    "master": true
+  },
+  "suds-jurko": {
+    "master": true
+  },
+  "sugartex": {
+    "master": true
+  },
+  "suitesparse": {
+    "master": true,
+    "v4.4.6": true,
+    "v4.5.1": true,
+    "windows": true
+  },
+  "summa": {
+    "master": true
+  },
+  "sundials": {
+    "2.7": true,
+    "3.2": true,
+    "master": true
+  },
+  "sunpy": {
+    "1.0.x": true,
+    "master": true
+  },
+  "super_state_machine": {
+    "master": true
+  },
+  "superflore": {
+    "master": true
+  },
+  "superlance": {
+    "master": true
+  },
+  "superlu": {
+    "master": true
+  },
+  "superlu_dist": {
+    "master": true
+  },
+  "supermercado": {
+    "master": true
+  },
+  "superset": {
+    "master": true,
+    "rc": true
+  },
+  "supersmoother": {
+    "master": true
+  },
+  "supervisor": {
+    "master": true
+  },
+  "surface-dynamics": {
+    "master": true
+  },
+  "surfinbh": {
+    "master": true
+  },
+  "sushy": {
+    "master": true
+  },
+  "suspect": {
+    "master": true
+  },
+  "svg2png": {
+    "master": true
+  },
+  "svg42pdf": {
+    "master": true
+  },
+  "svglib": {
+    "master": true
+  },
+  "svgutils": {
+    "master": true
+  },
+  "svgwrite": {
+    "master": true
+  },
+  "swagger-django-generator": {
+    "master": true
+  },
+  "swagger-spec-validator": {
+    "master": true
+  },
+  "swagger-ui-bundle": {
+    "master": true
+  },
+  "swepy": {
+    "master": true
+  },
+  "swi-prolog": {
+    "master": true
+  },
+  "swifter": {
+    "master": true
+  },
+  "swig": {
+    "3.0.8": true,
+    "master": true
+  },
+  "swiglpk": {
+    "master": true
+  },
+  "switch_model": {
+    "master": true
+  },
+  "sxs": {
+    "master": true
+  },
+  "sycomore": {
+    "master": true
+  },
+  "sygma": {
+    "master": true
+  },
+  "symengine": {
+    "master": true
+  },
+  "symfit": {
+    "master": true
+  },
+  "symmetrica": {
+    "master": true
+  },
+  "symopt": {
+    "master": true
+  },
+  "sympow": {
+    "master": true
+  },
+  "sympy": {
+    "master": true
+  },
+  "synphot": {
+    "master": true
+  },
+  "synthpop": {
+    "master": true
+  },
+  "sysv_ipc": {
+    "master": true
+  },
+  "tableauserverclient": {
+    "master": true
+  },
+  "tableone": {
+    "master": true
+  },
+  "tableschema": {
+    "master": true
+  },
+  "tableschema-sql": {
+    "master": true
+  },
+  "tabula-py": {
+    "master": true
+  },
+  "tabulate": {
+    "master": true
+  },
+  "tabulatehelper": {
+    "master": true
+  },
+  "tabulator": {
+    "master": true
+  },
+  "tachyon": {
+    "master": true
   }
 }
