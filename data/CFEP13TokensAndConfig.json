@@ -5173,5 +5173,248 @@
   },
   "terraform-provider-tls": {
     "master": true
+  },
+  "terraform-provider-triton": {
+    "master": true
+  },
+  "terraform-provider-ultradns": {
+    "master": true
+  },
+  "terraform-provider-vault": {
+    "master": true
+  },
+  "terraform-provider-vcd": {
+    "master": true
+  },
+  "terraform-provider-vsphere": {
+    "master": true
+  },
+  "terragrunt": {
+    "master": true
+  },
+  "terrainbento": {
+    "master": true
+  },
+  "tesseract": {
+    "master": true
+  },
+  "tesserocr": {
+    "master": true
+  },
+  "testfixtures": {
+    "master": true
+  },
+  "testflo": {
+    "master": true
+  },
+  "testinfra": {
+    "master": true
+  },
+  "testpath": {
+    "master": true
+  },
+  "testtools": {
+    "master": true
+  },
+  "tetgen": {
+    "master": true
+  },
+  "texext": {
+    "master": true
+  },
+  "texinfo": {
+    "master": true
+  },
+  "texlive-core": {
+    "master": true
+  },
+  "texplain": {
+    "master": true
+  },
+  "textblob": {
+    "master": true
+  },
+  "textdistance": {
+    "master": true
+  },
+  "textract": {
+    "master": true
+  },
+  "texttable": {
+    "williamjamir-patch-1": true
+  },
+  "textwrap3": {
+    "master": true
+  },
+  "tf-slim": {
+    "master": true
+  },
+  "tf2onnx": {
+    "master": true
+  },
+  "tf_object_detection": {
+    "master": true
+  },
+  "the_silver_searcher": {
+    "master": true
+  },
+  "theano": {
+    "master": true
+  },
+  "thechopper": {
+    "master": true
+  },
+  "thermo": {
+    "master": true
+  },
+  "thermofun": {
+    "master": true
+  },
+  "thermotools": {
+    "master": true
+  },
+  "thinc": {
+    "master": true
+  },
+  "thinkx": {
+    "master": true
+  },
+  "thrax": {
+    "master": true
+  },
+  "threadloop": {
+    "master": true
+  },
+  "thredds_crawler": {
+    "master": true
+  },
+  "threddsclient": {
+    "master": true
+  },
+  "three.js": {
+    "master": true
+  },
+  "threedigrid": {
+    "master": true
+  },
+  "thrift-cpp": {
+    "master": true
+  },
+  "thrift_sasl": {
+    "master": true
+  },
+  "thunder-python": {
+    "master": true
+  },
+  "thunder-registration": {
+    "master": true
+  },
+  "tibanna": {
+    "master": true
+  },
+  "ticcltools": {
+    "master": true
+  },
+  "ticcutils": {
+    "0.21": true,
+    "master": true,
+    "regro-cf-autotick-bot-0.22": true
+  },
+  "tidy_headers": {
+    "master": true
+  },
+  "tidynamics": {
+    "master": true
+  },
+  "tifffile": {
+    "master": true
+  },
+  "tifffolder": {
+    "master": true
+  },
+  "tika": {
+    "master": true,
+    "pmlandwehr-patch-1": true
+  },
+  "tike": {
+    "master": true
+  },
+  "tikzmagic": {
+    "master": true
+  },
+  "tikzplotlib": {
+    "master": true
+  },
+  "tiledb": {
+    "jcb/windows": true,
+    "master": true,
+    "regro-cf-autotick-bot": true,
+    "release-1.6.2": true
+  },
+  "tiledb-py": {
+    "ihn/release-0.4.2": true,
+    "master": true
+  },
+  "tilepie": {
+    "master": true
+  },
+  "time": {
+    "master": true
+  },
+  "timehash": {
+    "master": true
+  },
+  "timeout-decorator": {
+    "master": true
+  },
+  "timezonefinder": {
+    "revert-15-4.0.0": true
+  },
+  "timml": {
+    "master": true
+  },
+  "tini": {
+    "master": true
+  },
+  "tinyarray": {
+    "master": true
+  },
+  "tinycss": {
+    "master": true
+  },
+  "tinycss2": {
+    "master": true
+  },
+  "tinydb": {
+    "master": true
+  },
+  "tinyrpc": {
+    "master": true
+  },
+  "tinytimer": {
+    "master": true
+  },
+  "tinyxml": {
+    "master": true
+  },
+  "tinyxml2": {
+    "master": true
+  },
+  "tippecanoe": {
+    "master": true
+  },
+  "tk": {
+    "8.5.x": true,
+    "master": true
+  },
+  "tktable": {
+    "master": true
+  },
+  "tldextract": {
+    "master": true,
+    "v2.0.1": true
+  },
+  "tlsh": {
+    "master": true
   }
 }
