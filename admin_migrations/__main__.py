@@ -16,7 +16,8 @@ from admin_migrations.migrators import (
     AutomergeAndRerender,
     AppveyorDelete,
     RAutomerge,
-    CFEP13TokensAndConfig,
+    # CFEP13TokensAndConfig,
+    CFEP13TurnOff,
     # these are finished so we don't run them
     # AutomergeAndBotRerunLabels,
 )
@@ -260,7 +261,8 @@ def main():
         AutomergeAndRerender(),
         AppveyorDelete(),
         RAutomerge(),
-        CFEP13TokensAndConfig(),
+        CFEP13TurnOff(),
+        # CFEP13TokensAndConfig(),
         # these are finished so we don't run them
         # AutomergeAndBotRerunLabels(),
     ]
