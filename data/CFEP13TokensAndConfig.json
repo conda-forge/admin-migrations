@@ -6404,5 +6404,297 @@
   },
   "alpenglow": {
     "master": true
+  },
+  "alphalens": {
+    "master": true
+  },
+  "alphashape": {
+    "master": true
+  },
+  "alphatwirl": {
+    "master": true
+  },
+  "alps": {
+    "master": true,
+    "fix_builds": true
+  },
+  "alsa-lib": {
+    "master": true
+  },
+  "altair": {
+    "master": true,
+    "dev": true
+  },
+  "altair_data_server": {
+    "master": true
+  },
+  "altair_saver": {
+    "master": true
+  },
+  "altair_viewer": {
+    "master": true
+  },
+  "altdphi": {
+    "master": true
+  },
+  "altgraph": {
+    "master": true
+  },
+  "ambertools": {
+    "master": true
+  },
+  "ampl-mp": {
+    "master": true
+  },
+  "amplpy": {
+    "master": true
+  },
+  "amptools": {
+    "master": true
+  },
+  "amqp": {
+    "master": true
+  },
+  "anaconda-client": {
+    "master": true
+  },
+  "anaconda-project": {
+    "master": true
+  },
+  "anaconda-verify": {
+    "master": true
+  },
+  "analytics-python": {
+    "master": true
+  },
+  "andes": {
+    "master": true
+  },
+  "animatplot": {
+    "master": true
+  },
+  "aniso8601": {
+    "master": true
+  },
+  "ann": {
+    "master": true
+  },
+  "ann_visualizer": {
+    "master": true
+  },
+  "anndata": {
+    "master": true
+  },
+  "annexremote": {
+    "master": true
+  },
+  "ansi2html": {
+    "master": true
+  },
+  "ansible": {
+    "master": true
+  },
+  "ansible-kernel": {
+    "master": true
+  },
+  "ansible-lint": {
+    "master": true
+  },
+  "ansible-runner": {
+    "master": true
+  },
+  "ansimarkup": {
+    "master": true
+  },
+  "ansiwrap": {
+    "master": true
+  },
+  "antlr": {
+    "master": true,
+    "antlr2": true
+  },
+  "antlr-python-runtime": {
+    "master": true
+  },
+  "anyconfig": {
+    "master": true
+  },
+  "anyio": {
+    "master": true
+  },
+  "anyjson": {
+    "master": true
+  },
+  "anypytools": {
+    "master": true,
+    "melund-patch-1": true
+  },
+  "anyqt": {
+    "master": true
+  },
+  "aospy": {
+    "master": true
+  },
+  "apache-beam": {
+    "master": true
+  },
+  "apache-libcloud": {
+    "master": true
+  },
+  "apbs": {
+    "master": true
+  },
+  "apipkg": {
+    "master": true
+  },
+  "apispec": {
+    "master": true
+  },
+  "apistar": {
+    "master": true
+  },
+  "aplpy": {
+    "master": true
+  },
+  "aplus": {
+    "master": true
+  },
+  "appdirs": {
+    "master": true
+  },
+  "applaunchservices": {
+    "master": true
+  },
+  "applicationinsights": {
+    "master": true
+  },
+  "apply_defaults": {
+    "master": true
+  },
+  "appmode": {
+    "master": true
+  },
+  "appnope": {
+    "master": true
+  },
+  "approxposterior": {
+    "master": true
+  },
+  "appscript": {
+    "master": true
+  },
+  "apptools": {
+    "master": true
+  },
+  "apr": {
+    "master": true
+  },
+  "apscheduler": {
+    "master": true
+  },
+  "apsg": {
+    "master": true
+  },
+  "apsw": {
+    "master": true
+  },
+  "arabic_reshaper": {
+    "master": true
+  },
+  "arb": {
+    "master": true,
+    "2.12": true
+  },
+  "arch-py": {
+    "master": true
+  },
+  "arcsi": {
+    "master": true,
+    "Update-3.6.1": true
+  },
+  "arctic": {
+    "master": true
+  },
+  "argcomplete": {
+    "master": true
+  },
+  "argh": {
+    "master": true
+  },
+  "argo-models": {
+    "master": true
+  },
+  "argon2_cffi": {
+    "master": true
+  },
+  "argparse-manpage": {
+    "master": true
+  },
+  "args": {
+    "master": true
+  },
+  "argtable2": {
+    "master": true
+  },
+  "arlpy": {
+    "master": true
+  },
+  "arm_pyart": {
+    "master": true
+  },
+  "armadillo": {
+    "master": true
+  },
+  "arpack": {
+    "master": true
+  },
+  "arpackpp": {
+    "master": true
+  },
+  "array2gif": {
+    "master": true
+  },
+  "arrow": {
+    "master": true
+  },
+  "arrow-cpp": {
+    "master": true,
+    "0.12.x": true,
+    "0.13.x": true,
+    "0.16.x": true
+  },
+  "artview": {
+    "master": true
+  },
+  "aruco": {
+    "master": true
+  },
+  "arviz": {
+    "master": true
+  },
+  "arxiv-collector": {
+    "master": true
+  },
+  "asammdf": {
+    "master": true
+  },
+  "asap": {
+    "master": true
+  },
+  "asap3": {
+    "master": true,
+    "jochym-patch-1": true
+  },
+  "ascii_graph": {
+    "master": true
+  },
+  "asciidoc": {
+    "master": true
+  },
+  "asciimatics": {
+    "master": true
+  },
+  "asciinema": {
+    "master": true
   }
 }
