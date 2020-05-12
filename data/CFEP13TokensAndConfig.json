@@ -3939,5 +3939,314 @@
   },
   "snakebite": {
     "master": true
+  },
+  "snakefood": {
+    "master": true
+  },
+  "snakeviz": {
+    "master": true
+  },
+  "snap-cpp": {
+    "master": true
+  },
+  "snappy": {
+    "master": true
+  },
+  "snapshottest": {
+    "master": true
+  },
+  "snaptime": {
+    "master": true
+  },
+  "sncosmo": {
+    "master": true
+  },
+  "sniffio": {
+    "master": true
+  },
+  "snoopy-log-collator": {
+    "master": true
+  },
+  "snorkel": {
+    "master": true,
+    "vsc-upgrade-0.9.4": true
+  },
+  "snowballstemmer": {
+    "master": true
+  },
+  "snowflake-connector-python": {
+    "master": true
+  },
+  "snowflake-sqlalchemy": {
+    "master": true
+  },
+  "snuggs": {
+    "master": true
+  },
+  "snzip": {
+    "master": true
+  },
+  "soaplite": {
+    "master": true
+  },
+  "soappy": {
+    "master": true
+  },
+  "socat": {
+    "master": true
+  },
+  "social-auth-app-django": {
+    "master": true
+  },
+  "social-auth-core": {
+    "master": true
+  },
+  "soem": {
+    "master": true
+  },
+  "solid": {
+    "master": true
+  },
+  "somoclu": {
+    "master": true
+  },
+  "sompy": {
+    "master": true
+  },
+  "songbird": {
+    "build1": true,
+    "master": true,
+    "mortonjt-patch-1": true,
+    "mortonjt-patch-2": true,
+    "regro-cf-autotick-bot/1.0.2": true
+  },
+  "sonnet": {
+    "master": true
+  },
+  "soqt": {
+    "master": true,
+    "qt5.6": true
+  },
+  "sortedcollections": {
+    "master": true
+  },
+  "sortedcontainers": {
+    "master": true
+  },
+  "sortednp": {
+    "master": true
+  },
+  "sos": {
+    "master": true
+  },
+  "sos-bash": {
+    "master": true,
+    "pr/2": true
+  },
+  "sos-julia": {
+    "master": true
+  },
+  "sos-matlab": {
+    "master": true
+  },
+  "sos-notebook": {
+    "master": true
+  },
+  "sos-papermill": {
+    "master": true
+  },
+  "sos-pbs": {
+    "master": true
+  },
+  "sos-python": {
+    "master": true
+  },
+  "sos-r": {
+    "master": true
+  },
+  "sos-rmarkdown": {
+    "master": true
+  },
+  "sos-sas": {
+    "master": true
+  },
+  "sound_field_analysis": {
+    "master": true
+  },
+  "soupsieve": {
+    "master": true
+  },
+  "source-highlight": {
+    "master": true
+  },
+  "sox": {
+    "master": true
+  },
+  "spacy": {
+    "master": true
+  },
+  "spacy-lookups-data": {
+    "master": true
+  },
+  "spacy-model-de": {
+    "master": true
+  },
+  "spacy-model-en_core_web": {
+    "master": true
+  },
+  "spacy-model-en_vectors_web": {
+    "master": true
+  },
+  "spacy-model-es": {
+    "master": true
+  },
+  "spacy-model-fr": {
+    "master": true
+  },
+  "spacy-model-it": {
+    "master": true
+  },
+  "spacy-model-nl": {
+    "master": true
+  },
+  "spacy-model-pt": {
+    "master": true
+  },
+  "spacy-model-xx": {
+    "master": true
+  },
+  "spaghetti": {
+    "master": true
+  },
+  "spark-testing-base": {
+    "master": true
+  },
+  "sparkhpc": {
+    "master": true
+  },
+  "sparkmagic": {
+    "master": true
+  },
+  "sparqlwrapper": {
+    "build-py36": true,
+    "master": true
+  },
+  "sparse": {
+    "master": true
+  },
+  "sparse_dot_topn": {
+    "master": true
+  },
+  "sparsehash": {
+    "master": true
+  },
+  "sparsehash-c11": {
+    "master": true
+  },
+  "spdlib": {
+    "master": true
+  },
+  "spdlog": {
+    "master": true
+  },
+  "speaklater": {
+    "master": true
+  },
+  "speclite": {
+    "master": true
+  },
+  "spectra": {
+    "master": true
+  },
+  "spectral": {
+    "master": true
+  },
+  "spectral-cube": {
+    "master": true
+  },
+  "spectrum": {
+    "master": true
+  },
+  "specutils": {
+    "master": true
+  },
+  "speechrecognition": {
+    "master": true
+  },
+  "speex": {
+    "master": true,
+    "revert-1-master": true
+  },
+  "spefile": {
+    "master": true
+  },
+  "speg": {
+    "master": true
+  },
+  "spenc": {
+    "master": true
+  },
+  "spglib": {
+    "master": true
+  },
+  "spglm": {
+    "master": true
+  },
+  "spherical-geometry": {
+    "master": true
+  },
+  "spherical_functions": {
+    "master": true
+  },
+  "sphinx": {
+    "master": true
+  },
+  "sphinx-argparse": {
+    "master": true
+  },
+  "sphinx-astropy": {
+    "master": true
+  },
+  "sphinx-autoapi": {
+    "master": true
+  },
+  "sphinx-autobuild": {
+    "master": true
+  },
+  "sphinx-autodoc-typehints": {
+    "master": true
+  },
+  "sphinx-automodapi": {
+    "master": true
+  },
+  "sphinx-click": {
+    "master": true
+  },
+  "sphinx-confluence": {
+    "master": true
+  },
+  "sphinx-copybutton": {
+    "master": true
+  },
+  "sphinx-gallery": {
+    "master": true
+  },
+  "sphinx-issues": {
+    "master": true
+  },
+  "sphinx-jinja": {
+    "master": true
+  },
+  "sphinx-js": {
+    "master": true
+  },
+  "sphinx-math-dollar": {
+    "master": true
+  },
+  "sphinx-nbexamples": {
+    "master": true
+  },
+  "sphinx-prompt": {
+    "master": true
   }
 }
