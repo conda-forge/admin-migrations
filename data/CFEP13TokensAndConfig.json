@@ -2075,5 +2075,316 @@
   },
   "rb-jekyll-mentions": {
     "master": true
+  },
+  "rb-jekyll-optional-front-matter": {
+    "master": true
+  },
+  "rb-jekyll-paginate": {
+    "master": true
+  },
+  "rb-jekyll-readme-index": {
+    "master": true
+  },
+  "rb-jekyll-redirect-from": {
+    "master": true
+  },
+  "rb-jekyll-relative-links": {
+    "master": true
+  },
+  "rb-jekyll-remote-theme": {
+    "master": true
+  },
+  "rb-jekyll-sass-converter": {
+    "master": true
+  },
+  "rb-jekyll-scholar": {
+    "master": true
+  },
+  "rb-jekyll-seo-tag": {
+    "master": true
+  },
+  "rb-jekyll-sitemap": {
+    "master": true
+  },
+  "rb-jekyll-swiss": {
+    "master": true
+  },
+  "rb-jekyll-theme-architect": {
+    "master": true
+  },
+  "rb-jekyll-theme-cayman": {
+    "master": true
+  },
+  "rb-jekyll-theme-dinky": {
+    "master": true
+  },
+  "rb-jekyll-theme-hacker": {
+    "master": true
+  },
+  "rb-jekyll-theme-leap-day": {
+    "master": true
+  },
+  "rb-jekyll-theme-merlot": {
+    "master": true
+  },
+  "rb-jekyll-theme-midnight": {
+    "master": true
+  },
+  "rb-jekyll-theme-minimal": {
+    "master": true
+  },
+  "rb-jekyll-theme-modernist": {
+    "master": true
+  },
+  "rb-jekyll-theme-primer": {
+    "master": true
+  },
+  "rb-jekyll-theme-slate": {
+    "master": true
+  },
+  "rb-jekyll-theme-tactile": {
+    "master": true
+  },
+  "rb-jekyll-theme-time-machine": {
+    "master": true
+  },
+  "rb-jekyll-titles-from-headings": {
+    "master": true
+  },
+  "rb-jekyll-twitter-plugin": {
+    "master": true
+  },
+  "rb-jekyll-watch": {
+    "master": true
+  },
+  "rb-jemoji": {
+    "master": true
+  },
+  "rb-jmespath": {
+    "master": true
+  },
+  "rb-json": {
+    "1.x": true,
+    "master": true
+  },
+  "rb-kramdown": {
+    "1.x": true,
+    "master": true
+  },
+  "rb-kramdown-parser-gfm": {
+    "master": true
+  },
+  "rb-latex-decode": {
+    "master": true
+  },
+  "rb-liquid": {
+    "master": true
+  },
+  "rb-listen": {
+    "master": true
+  },
+  "rb-little-plugger": {
+    "master": true
+  },
+  "rb-logging": {
+    "1.x": true,
+    "master": true
+  },
+  "rb-mercenary": {
+    "master": true
+  },
+  "rb-mimemagic": {
+    "master": true
+  },
+  "rb-mini_portile2": {
+    "master": true
+  },
+  "rb-minima": {
+    "master": true
+  },
+  "rb-minitest": {
+    "master": true
+  },
+  "rb-msgpack": {
+    "master": true
+  },
+  "rb-multi_json": {
+    "master": true
+  },
+  "rb-multipart-post": {
+    "master": true
+  },
+  "rb-namae": {
+    "master": true
+  },
+  "rb-necromancer": {
+    "master": true
+  },
+  "rb-net-ssh": {
+    "master": true
+  },
+  "rb-nio4r": {
+    "master": true
+  },
+  "rb-nokogiri": {
+    "master": true
+  },
+  "rb-octokit": {
+    "master": true
+  },
+  "rb-parallel": {
+    "master": true
+  },
+  "rb-pastel": {
+    "master": true
+  },
+  "rb-pathutil": {
+    "master": true
+  },
+  "rb-pkg-config": {
+    "master": true
+  },
+  "rb-public_suffix": {
+    "master": true
+  },
+  "rb-rainbow": {
+    "master": true
+  },
+  "rb-rb-fsevent": {
+    "master": true
+  },
+  "rb-rb-inotify": {
+    "master": true
+  },
+  "rb-rouge": {
+    "2.x": true,
+    "master": true
+  },
+  "rb-ruby-enum": {
+    "master": true
+  },
+  "rb-ruby_dep": {
+    "master": true
+  },
+  "rb-rubyzip": {
+    "1.1.x": true,
+    "master": true
+  },
+  "rb-safe_yaml": {
+    "master": true
+  },
+  "rb-sass": {
+    "master": true
+  },
+  "rb-sass-listen": {
+    "master": true
+  },
+  "rb-sassc": {
+    "master": true
+  },
+  "rb-sawyer": {
+    "master": true
+  },
+  "rb-serverengine": {
+    "master": true
+  },
+  "rb-sigdump": {
+    "master": true
+  },
+  "rb-simple_pid": {
+    "master": true
+  },
+  "rb-strptime": {
+    "master": true
+  },
+  "rb-terminal-table": {
+    "master": true
+  },
+  "rb-thor": {
+    "master": true
+  },
+  "rb-thread_safe": {
+    "master": true
+  },
+  "rb-timerizer": {
+    "master": true
+  },
+  "rb-tty-color": {
+    "master": true
+  },
+  "rb-tty-cursor": {
+    "master": true
+  },
+  "rb-tty-prompt": {
+    "master": true
+  },
+  "rb-tty-reader": {
+    "master": true
+  },
+  "rb-tty-screen": {
+    "master": true
+  },
+  "rb-typhoeus": {
+    "master": true
+  },
+  "rb-tzinfo": {
+    "master": true
+  },
+  "rb-tzinfo-data": {
+    "master": true
+  },
+  "rb-unicode-display_width": {
+    "master": true
+  },
+  "rb-wisper": {
+    "master": true
+  },
+  "rb-yajl-ruby": {
+    "master": true
+  },
+  "rb-yell": {
+    "master": true
+  },
+  "rbc": {
+    "master": true
+  },
+  "rbdl": {
+    "master": true,
+    "pariterre-patch-1": true
+  },
+  "rclone": {
+    "master": true
+  },
+  "rcssmin": {
+    "master": true
+  },
+  "rdflib": {
+    "add-new-maintainer": true,
+    "enh/4.2.2": true,
+    "enh/5.0": true,
+    "master": true
+  },
+  "rdflib-jsonld": {
+    "master": true
+  },
+  "re2": {
+    "master": true
+  },
+  "re2c": {
+    "master": true
+  },
+  "reacnetgenerator": {
+    "master": true
+  },
+  "read-roi": {
+    "master": true
+  },
+  "readline": {
+    "master": true,
+    "v6_2_x": true,
+    "v7_0_x": true
+  },
+  "readme_renderer": {
+    "master": true
   }
 }
