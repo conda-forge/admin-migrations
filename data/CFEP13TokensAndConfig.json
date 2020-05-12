@@ -3307,5 +3307,325 @@
   },
   "scikit-fuzzy": {
     "master": true
+  },
+  "scikit-garden": {
+    "master": true
+  },
+  "scikit-geometry": {
+    "master": true
+  },
+  "scikit-hep-testdata": {
+    "master": true
+  },
+  "scikit-image": {
+    "0.14.x": true,
+    "master": true
+  },
+  "scikit-learn": {
+    "0.20.X": true,
+    "master": true,
+    "rc": true
+  },
+  "scikit-lego": {
+    "master": true
+  },
+  "scikit-mdr": {
+    "master": true
+  },
+  "scikit-multiflow": {
+    "master": true,
+    "regro-cf-autotick-bot-0.2.0": true
+  },
+  "scikit-optimize": {
+    "fix-license": true,
+    "master": true,
+    "v0.5.1": true
+  },
+  "scikit-plot": {
+    "master": true,
+    "reiinakano-patch-1": true
+  },
+  "scikit-procrustes": {
+    "master": true
+  },
+  "scikit-rf": {
+    "master": true
+  },
+  "scikit-sparse": {
+    "master": true
+  },
+  "scikit-surprise": {
+    "master": true
+  },
+  "scikit-time": {
+    "master": true
+  },
+  "scikit-ued": {
+    "master": true
+  },
+  "scikit-umfpack": {
+    "master": true
+  },
+  "scikit-video": {
+    "master": true
+  },
+  "scilab": {
+    "master": true
+  },
+  "sciluigi": {
+    "master": true
+  },
+  "scipy": {
+    "master": true,
+    "np111": true,
+    "np112": true,
+    "v1.2": true
+  },
+  "scipy-sugar": {
+    "master": true
+  },
+  "scisoftpy": {
+    "master": true
+  },
+  "scisweeper": {
+    "master": true
+  },
+  "scitime": {
+    "master": true
+  },
+  "scmdata": {
+    "master": true
+  },
+  "scons": {
+    "master": true
+  },
+  "scooby": {
+    "master": true
+  },
+  "scorec": {
+    "master": true
+  },
+  "scotch": {
+    "master": true,
+    "ptscotch": true
+  },
+  "scour": {
+    "master": true
+  },
+  "scp": {
+    "master": true
+  },
+  "scqubits": {
+    "master": true
+  },
+  "scramp": {
+    "master": true
+  },
+  "scrapy": {
+    "2.0.0": true,
+    "master": true
+  },
+  "scri": {
+    "master": true
+  },
+  "scripting": {
+    "master": true
+  },
+  "scripttest": {
+    "master": true
+  },
+  "scrypt": {
+    "master": true
+  },
+  "scs": {
+    "master": true
+  },
+  "scyjava": {
+    "master": true
+  },
+  "sdf": {
+    "master": true
+  },
+  "sdl2": {
+    "master": true
+  },
+  "sdl2_gfx": {
+    "bot-changes": true,
+    "master": true
+  },
+  "sdl2_image": {
+    "master": true
+  },
+  "sdl2_mixer": {
+    "master": true
+  },
+  "sdl2_net": {
+    "master": true
+  },
+  "sdl2_ttf": {
+    "master": true
+  },
+  "sdsl-lite": {
+    "master": true
+  },
+  "seaborn": {
+    "master": true
+  },
+  "seabreeze": {
+    "master": true
+  },
+  "seapy": {
+    "master": true
+  },
+  "seawater": {
+    "master": true
+  },
+  "seccomp-split": {
+    "master": true
+  },
+  "secretstorage": {
+    "2.x": true,
+    "master": true,
+    "v2.3.1": true
+  },
+  "sed": {
+    "master": true
+  },
+  "sedflux": {
+    "master": true
+  },
+  "seekpath": {
+    "master": true
+  },
+  "segno": {
+    "master": true
+  },
+  "segregation": {
+    "master": true
+  },
+  "segyio": {
+    "master": true
+  },
+  "selectors2": {
+    "master": true
+  },
+  "selectors34": {
+    "master": true
+  },
+  "selenium": {
+    "master": true
+  },
+  "selenium-requests": {
+    "master": true
+  },
+  "semantic_version": {
+    "master": true
+  },
+  "semvecpy": {
+    "master": true
+  },
+  "semver": {
+    "2.7.2": true,
+    "master": true
+  },
+  "send2trash": {
+    "master": true
+  },
+  "sendgrid": {
+    "mariusvniekerk-patch-1": true,
+    "master": true
+  },
+  "sense2vec": {
+    "master": true
+  },
+  "sensorml2iso": {
+    "master": true
+  },
+  "sentinelhub": {
+    "master": true
+  },
+  "sentinels": {
+    "master": true
+  },
+  "sentry-sdk": {
+    "master": true
+  },
+  "sep": {
+    "kbarbary-patch-1": true,
+    "master": true
+  },
+  "seqan-library": {
+    "1.4": true,
+    "master": true
+  },
+  "serialchemy": {
+    "master": true
+  },
+  "serializable": {
+    "master": true
+  },
+  "serpent": {
+    "master": true
+  },
+  "serpy": {
+    "master": true
+  },
+  "serverfiles": {
+    "master": true
+  },
+  "service_identity": {
+    "master": true
+  },
+  "setoptconf": {
+    "master": true
+  },
+  "setproctitle": {
+    "master": true
+  },
+  "setuptools": {
+    "master": true
+  },
+  "setuptools-git": {
+    "master": true
+  },
+  "setuptools-markdown": {
+    "master": true
+  },
+  "setuptools-rust": {
+    "master": true
+  },
+  "setuptools_dso": {
+    "master": true
+  },
+  "setuptools_scm": {
+    "master": true
+  },
+  "setuptools_scm_git_archive": {
+    "master": true
+  },
+  "setuptools_subversion": {
+    "master": true
+  },
+  "sexpdata": {
+    "master": true
+  },
+  "sfdmap": {
+    "master": true
+  },
+  "sfepy": {
+    "master": true
+  },
+  "sgdpy": {
+    "master": true
+  },
+  "sgp4": {
+    "jochym-patch-1": true,
+    "master": true
+  },
+  "sgpp": {
+    "master": true
+  },
+  "sh": {
+    "master": true
   }
 }
