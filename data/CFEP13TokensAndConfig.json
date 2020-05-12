@@ -7012,5 +7012,158 @@
   },
   "backports.weakref": {
     "master": true
+  },
+  "backports_abc": {
+    "master": true
+  },
+  "backtrace": {
+    "master": true
+  },
+  "backward-cpp": {
+    "master": true
+  },
+  "badapted": {
+    "master": true
+  },
+  "bagit": {
+    "master": true
+  },
+  "bake": {
+    "master": true
+  },
+  "bambi": {
+    "master": true
+  },
+  "bamnostic": {
+    "master": true
+  },
+  "bandit": {
+    "master": true,
+    "fix-1.5.1": true,
+    "release-1.6.0": true
+  },
+  "bareditor": {
+    "master": true
+  },
+  "barril": {
+    "master": true
+  },
+  "baseband": {
+    "master": true
+  },
+  "basemap": {
+    "master": true
+  },
+  "basemap-data-hires": {
+    "master": true
+  },
+  "bash": {
+    "master": true
+  },
+  "bashlex": {
+    "master": true
+  },
+  "bashplotlib": {
+    "master": true
+  },
+  "bat": {
+    "master": true
+  },
+  "batchcrop": {
+    "master": true
+  },
+  "batman": {
+    "master": true
+  },
+  "bats-core": {
+    "master": true
+  },
+  "baycomp": {
+    "master": true
+  },
+  "bayesian-optimization": {
+    "master": true
+  },
+  "bayeswave": {
+    "master": true
+  },
+  "bazel": {
+    "master": true
+  },
+  "bc": {
+    "master": true
+  },
+  "bcdp": {
+    "master": true
+  },
+  "bcolz": {
+    "master": true
+  },
+  "bcpandas": {
+    "master": true
+  },
+  "bcrypt": {
+    "master": true
+  },
+  "beakerx": {
+    "spot/ci-check": true
+  },
+  "beautifulsoup4": {
+    "master": true
+  },
+  "beautysh": {
+    "master": true
+  },
+  "begins": {
+    "master": true
+  },
+  "behave": {
+    "master": true
+  },
+  "benchmark": {
+    "master": true
+  },
+  "benchmark-4dn": {
+    "master": true
+  },
+  "beniget": {
+    "master": true
+  },
+  "benten": {
+    "master": true
+  },
+  "bertha": {
+    "regro-cf-autotick-bot/rebuild-pypy-0-1": true
+  },
+  "betamax": {
+    "master": true
+  },
+  "betamax-matchers": {
+    "master": true
+  },
+  "betfairlightweight": {
+    "master": true
+  },
+  "betse": {
+    "master": true
+  },
+  "betsee": {
+    "master": true
+  },
+  "bfg": {
+    "master": true
+  },
+  "bicycleparameters": {
+    "master": true
+  },
+  "bidict": {
+    "master": true
+  },
+  "billiard": {
+    "v3.3": true,
+    "v3.6.3.0": true
+  },
+  "binutils": {
+    "2.29.1": true
   }
 }
