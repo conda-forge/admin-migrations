@@ -78,8 +78,10 @@ def _get_branches():
     branches = []
     for line in o.stdout.decode("utf-8").split('\n'):
         if len(line) > 0 and "origin/HEAD" not in line:
-            branches.append(line.strip()[len("origin/"):])
-    return branches
+            _branch = line.strip()[len("origin/"):]
+            if line.strip()[len("origin/"):] != "master":
+                branches.append(_branch)
+    return ["master"] + branches
 
 
 def _get_all_feedstocks():
