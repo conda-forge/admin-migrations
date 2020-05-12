@@ -6044,5 +6044,86 @@
   },
   "vmd-python": {
     "master": true
+  },
+  "voila": {
+    "0.1.8x": true
+  },
+  "volk": {
+    "v2.1": true
+  },
+  "vtk": {
+    "7.1.1": true,
+    "dev": true
+  },
+  "websockets": {
+    "v5.0.1": true
+  },
+  "werkzeug": {
+    "v0.11.11": true
+  },
+  "widgetsnbextension": {
+    "2.x": true,
+    "dev": true
+  },
+  "wrapt": {
+    "1.11.x": true
+  },
+  "wrfcube": {
+    "v1.0.1-update": true
+  },
+  "wsproto": {
+    "v0.13.0": true
+  },
+  "xarray-topo": {
+    "release-0-0-11": true,
+    "release_v0.0.10": true
+  },
+  "xdg": {
+    "rebuild-1.0.5": true
+  },
+  "xenv": {
+    "0.0.4": true
+  },
+  "xerces-c": {
+    "v3.2.0": true
+  },
+  "xrviz": {
+    "deps_v014": true
+  },
+  "xskillscore": {
+    "bump_to_v0.0.10": true,
+    "bump_v0.0.11": true
+  },
+  "xvfbwrapper": {
+    "py36": true
+  },
+  "yamlloader": {
+    "v0_5_5": true
+  },
+  "z5py": {
+    "fix_lz4": true
+  },
+  "zarr": {
+    "rc": true
+  },
+  "zeroc-ice": {
+    "version_3.6": true
+  },
+  "zlib": {
+    "dual-compiler-output": true
+  },
+  "pip-tools": {
+    "v4.5.1": true
+  },
+  "rocksdb": {
+    "6.2.x": true,
+    "6.3.x": true,
+    "6.4.x": true,
+    "6.5.x": true,
+    "6.6.x": true,
+    "6.7.x": true
+  },
+  "sphinx-markdown-tables": {
+    "regro-cf-autotick-bot/0.0.14_h023131": true
   }
 }
