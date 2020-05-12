@@ -1,0 +1,17 @@
+{
+  "cf-autotick-bot-test-package": {
+    "master": true,
+    "azure-azure": true,
+    "azure-circle": true,
+    "azure-travis": true,
+    "circle-azure": true,
+    "circle-circle": true,
+    "circle-travis": true,
+    "rerender-live-test": true,
+    "test-ci-fail": true,
+    "test-ignore-linter": true,
+    "travis-azure": true,
+    "travis-circle": true,
+    "travis-travis": true
+  }
+}

@@ -7,6 +7,39 @@ from ruamel.yaml import YAML
 from .base import Migrator
 
 
+class CFEP13TurnOff(Migrator):
+    def migrate(self, feedstock, branch):
+
+        with open("conda-forge.yml", "r") as fp:
+            meta_yaml = fp.read()
+
+        if meta_yaml.strip() == "[]" or meta_yaml.strip() == "[ ]":
+            cfg = {}
+        else:
+            yaml = YAML()
+            cfg = yaml.load(meta_yaml)
+
+        if (
+            "conda_forge_output_validation" in cfg
+            and cfg["conda_forge_output_validation"]
+        ):
+            # set the param and write
+            cfg["conda_forge_output_validation"] = False
+            with open("conda-forge.yml", "w") as fp:
+                yaml.dump(cfg, fp)
+            subprocess.run(
+                ["git", "add", "conda-forge.yml"],
+                check=True,
+            )
+            print("    updated conda-forge.yml")
+
+            # migration done, make a commit, lots of API calls
+            return True, True, False
+        else:
+            # migration done, no commits, no API calls
+            return True, False, False
+
+
 class CFEP13TokensAndConfig(Migrator):
     def migrate(self, feedstock, branch):
 
@@ -49,7 +82,7 @@ class CFEP13TokensAndConfig(Migrator):
             print("    added staging binstar token")
 
         # set the param and write
-        cfg["conda_forge_output_validation"] = False
+        cfg["conda_forge_output_validation"] = True
         with open("conda-forge.yml", "w") as fp:
             yaml.dump(cfg, fp)
         subprocess.run(
