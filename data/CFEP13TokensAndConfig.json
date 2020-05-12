@@ -4248,5 +4248,317 @@
   },
   "sphinx-prompt": {
     "master": true
+  },
+  "sphinx-pypi-upload": {
+    "master": true
+  },
+  "sphinx-releases": {
+    "master": true
+  },
+  "sphinx-testing": {
+    "master": true
+  },
+  "sphinx_bootstrap_theme": {
+    "master": true
+  },
+  "sphinx_fontawesome": {
+    "master": true
+  },
+  "sphinx_gmt": {
+    "master": true
+  },
+  "sphinx_rtd_theme": {
+    "master": true
+  },
+  "sphinxbase": {
+    "master": true
+  },
+  "sphinxcontrib-apidoc": {
+    "master": true
+  },
+  "sphinxcontrib-applehelp": {
+    "master": true
+  },
+  "sphinxcontrib-autodoc_doxygen": {
+    "master": true
+  },
+  "sphinxcontrib-autoprogram": {
+    "master": true
+  },
+  "sphinxcontrib-bibtex": {
+    "master": true
+  },
+  "sphinxcontrib-devhelp": {
+    "master": true
+  },
+  "sphinxcontrib-dotnetdomain": {
+    "master": true
+  },
+  "sphinxcontrib-doxylink": {
+    "master": true
+  },
+  "sphinxcontrib-fulltoc": {
+    "master": true
+  },
+  "sphinxcontrib-golangdomain": {
+    "master": true
+  },
+  "sphinxcontrib-htmlhelp": {
+    "master": true
+  },
+  "sphinxcontrib-httpdomain": {
+    "master": true
+  },
+  "sphinxcontrib-httpexample": {
+    "master": true
+  },
+  "sphinxcontrib-jsmath": {
+    "master": true
+  },
+  "sphinxcontrib-napoleon": {
+    "master": true
+  },
+  "sphinxcontrib-openapi": {
+    "master": true
+  },
+  "sphinxcontrib-paverutils": {
+    "master": true
+  },
+  "sphinxcontrib-programoutput": {
+    "master": true
+  },
+  "sphinxcontrib-qthelp": {
+    "master": true
+  },
+  "sphinxcontrib-redoc": {
+    "master": true
+  },
+  "sphinxcontrib-restbuilder": {
+    "master": true
+  },
+  "sphinxcontrib-serializinghtml": {
+    "master": true
+  },
+  "sphinxcontrib-spelling": {
+    "master": true
+  },
+  "sphinxcontrib-srclinks": {
+    "master": true
+  },
+  "sphinxcontrib-versioning": {
+    "master": true
+  },
+  "sphinxcontrib-websupport": {
+    "master": true
+  },
+  "sphinxdft": {
+    "master": true
+  },
+  "sphinxjp.themecore": {
+    "master": true
+  },
+  "sphinxjp.themes.impressjs": {
+    "master": true
+  },
+  "sphinxjp.themes.solarized": {
+    "master": true
+  },
+  "sphinxtesters": {
+    "master": true
+  },
+  "spiceypy": {
+    "master": true
+  },
+  "spinsfast": {
+    "master": true
+  },
+  "spint": {
+    "master": true
+  },
+  "splauncher": {
+    "master": true
+  },
+  "spleeter": {
+    "master": true,
+    "regro-cf-autotick-bot/1.5.0": true
+  },
+  "spleeter-gpu": {
+    "master": true
+  },
+  "splits": {
+    "master": true
+  },
+  "splot": {
+    "master": true
+  },
+  "splunk_handler": {
+    "master": true
+  },
+  "spm1d": {
+    "master": true
+  },
+  "spooles": {
+    "looooo-patch-1": true,
+    "master": true
+  },
+  "sporco": {
+    "master": true
+  },
+  "spotpy": {
+    "master": true,
+    "revert-11-1.5.7": true
+  },
+  "spreg": {
+    "master": true
+  },
+  "sputnik": {
+    "master": true
+  },
+  "spvcm": {
+    "master": true
+  },
+  "spyder": {
+    "3.x": true,
+    "beta": true,
+    "master": true
+  },
+  "spyder-kernels": {
+    "0.x": true,
+    "master": true,
+    "v0.2.x": true
+  },
+  "spyder-line-profiler": {
+    "master": true
+  },
+  "spyder-memory-profiler": {
+    "master": true
+  },
+  "spyder-notebook": {
+    "master": true
+  },
+  "spyder-reports": {
+    "master": true
+  },
+  "spyder-terminal": {
+    "master": true
+  },
+  "spyder-unittest": {
+    "master": true
+  },
+  "spylon": {
+    "master": true
+  },
+  "spylon-kernel": {
+    "master": true
+  },
+  "spyne": {
+    "master": true
+  },
+  "spyre": {
+    "master": true
+  },
+  "spython": {
+    "add-vsoch": true,
+    "master": true
+  },
+  "sqlacodegen": {
+    "master": true
+  },
+  "sqlalchemy": {
+    "master": true,
+    "v1.2.x": true,
+    "v1.x": true
+  },
+  "sqlalchemy-jsonfield": {
+    "master": true
+  },
+  "sqlalchemy-migrate": {
+    "master": true
+  },
+  "sqlalchemy-redshift": {
+    "master": true
+  },
+  "sqlalchemy-utc": {
+    "master": true
+  },
+  "sqlalchemy-utils": {
+    "master": true
+  },
+  "sqlalchemy_exasol": {
+    "master": true
+  },
+  "sqlite": {
+    "master": true,
+    "v3_9_x": true
+  },
+  "sqlitedict": {
+    "master": true
+  },
+  "sqlobject": {
+    "master": true
+  },
+  "sqlparse": {
+    "master": true
+  },
+  "sqsgenerator": {
+    "master": true
+  },
+  "squash": {
+    "master": true
+  },
+  "squashfs-tools": {
+    "master": true
+  },
+  "sre_yield": {
+    "master": true
+  },
+  "sregistry": {
+    "master": true
+  },
+  "srm": {
+    "master": true
+  },
+  "srm-ifce": {
+    "master": true
+  },
+  "srsly": {
+    "master": true
+  },
+  "srtm.py": {
+    "master": true
+  },
+  "sseclient": {
+    "master": true
+  },
+  "ssh2-python": {
+    "master": true,
+    "revert-17-rebuild": true
+  },
+  "sshpubkeys": {
+    "master": true
+  },
+  "sshtunnel": {
+    "master": true
+  },
+  "ssl_match_hostname": {
+    "master": true
+  },
+  "sstp-client": {
+    "master": true
+  },
+  "stack": {
+    "master": true
+  },
+  "stack_data": {
+    "master": true
+  },
+  "stackprinter": {
+    "master": true
+  },
+  "standard_names": {
+    "master": true
+  },
+  "standardese": {
+    "master": true
   }
 }
