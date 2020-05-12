@@ -49,7 +49,7 @@ class CFEP13TokensAndConfig(Migrator):
             print("    added staging binstar token")
 
         # set the param and write
-        cfg["conda_forge_output_validation"] = True
+        cfg["conda_forge_output_validation"] = False
         with open("conda-forge.yml", "w") as fp:
             yaml.dump(cfg, fp)
         subprocess.run(
