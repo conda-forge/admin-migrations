@@ -87,13 +87,13 @@ workflows:
     jobs:
       - test
 
-#   hourly:
-#     jobs:
-#       - build
-#     triggers:
-#       - schedule:
-#           cron: "40 * * * *"
-#           filters:
-#             branches:
-#               only:
-#                 - master
+  hourly:
+    jobs:
+      - build
+    triggers:
+      - schedule:
+          cron: "40 * * * *"
+          filters:
+            branches:
+              only:
+                - master
