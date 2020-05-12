@@ -2998,5 +2998,314 @@
   "routes": {
     "1.13": true,
     "master": true
+  },
+  "rowan": {
+    "master": true
+  },
+  "rpaths": {
+    "master": true
+  },
+  "rpcq": {
+    "conda_maintainers2": true,
+    "conda_permissions": true,
+    "master": true
+  },
+  "rpdb": {
+    "master": true
+  },
+  "rpfits": {
+    "master": true
+  },
+  "rply": {
+    "master": true
+  },
+  "rpy2": {
+    "2.8.x": true,
+    "master": true
+  },
+  "rq": {
+    "master": true,
+    "v0.8.1": true
+  },
+  "rsa": {
+    "master": true
+  },
+  "rsgislib": {
+    "Update-KEA-GSL-Versions": true,
+    "master": true
+  },
+  "rst2pdf": {
+    "master": true
+  },
+  "rstr": {
+    "master": true
+  },
+  "rsync": {
+    "master": true
+  },
+  "rt1": {
+    "master": true
+  },
+  "rtree": {
+    "master": true
+  },
+  "ruamel": {
+    "master": true
+  },
+  "ruamel.ordereddict": {
+    "master": true
+  },
+  "ruamel.yaml": {
+    "master": true,
+    "v0.16.0": true
+  },
+  "ruamel.yaml.clib": {
+    "master": true
+  },
+  "ruamel_yaml": {
+    "master": true
+  },
+  "rubiks": {
+    "master": true
+  },
+  "ruby": {
+    "2.3": true,
+    "2.5.x": true,
+    "master": true
+  },
+  "runthis-server": {
+    "master": true
+  },
+  "runthis-sphinxext": {
+    "master": true
+  },
+  "rust": {
+    "dev": true,
+    "master": true
+  },
+  "rustpython": {
+    "master": true
+  },
+  "rvlib": {
+    "master": true
+  },
+  "rw": {
+    "master": true
+  },
+  "rx": {
+    "master": true
+  },
+  "rxcpp": {
+    "master": true
+  },
+  "s-tui": {
+    "master": true
+  },
+  "s2cloudless": {
+    "master": true
+  },
+  "s3cmd": {
+    "master": true
+  },
+  "s3contents": {
+    "master": true
+  },
+  "s3fs": {
+    "master": true
+  },
+  "s3path": {
+    "master": true
+  },
+  "s3transfer": {
+    "master": true
+  },
+  "s_gd2": {
+    "master": true
+  },
+  "sacc": {
+    "master": true
+  },
+  "sacremoses": {
+    "master": true
+  },
+  "sadisplay": {
+    "master": true
+  },
+  "safe-netrc": {
+    "master": true
+  },
+  "safety": {
+    "master": true
+  },
+  "saga-python": {
+    "master": true
+  },
+  "sage": {
+    "master": true
+  },
+  "sage-flatsurf": {
+    "master": true
+  },
+  "sagelib": {
+    "master": true
+  },
+  "sagemaker-inference-toolkit": {
+    "master": true
+  },
+  "sagemaker-python-sdk": {
+    "master": true
+  },
+  "sagemaker-pytorch-container": {
+    "master": true
+  },
+  "sagemaker-tensorflow-container": {
+    "master": true
+  },
+  "sagemaker-tensorflow-serving-container": {
+    "master": true
+  },
+  "sagemaker_containers": {
+    "master": true
+  },
+  "sagemath-db-combinatorial-designs": {
+    "master": true
+  },
+  "sagemath-db-conway-polynomials": {
+    "master": true
+  },
+  "sagemath-db-elliptic-curves": {
+    "master": true
+  },
+  "sagemath-db-graphs": {
+    "master": true
+  },
+  "sagemath-db-polytopes": {
+    "master": true
+  },
+  "sagenb": {
+    "master": true
+  },
+  "sagetex": {
+    "master": true
+  },
+  "salib": {
+    "master": true
+  },
+  "salt": {
+    "master": true
+  },
+  "sampledb": {
+    "master": true
+  },
+  "sanic": {
+    "master": true
+  },
+  "sansio-multipart": {
+    "master": true
+  },
+  "sarge": {
+    "master": true
+  },
+  "sas_kernel": {
+    "master": true
+  },
+  "sasl": {
+    "master": true
+  },
+  "sasmodels": {
+    "master": true
+  },
+  "saspy": {
+    "master": true
+  },
+  "sasview": {
+    "master": true
+  },
+  "sat-search": {
+    "master": true
+  },
+  "sat-stac": {
+    "master": true
+  },
+  "satpy": {
+    "master": true
+  },
+  "saws": {
+    "master": true
+  },
+  "scalapack": {
+    "master": true
+  },
+  "scandir": {
+    "master": true
+  },
+  "scapy": {
+    "master": true
+  },
+  "scarplet": {
+    "master": true
+  },
+  "scattertext": {
+    "master": true
+  },
+  "sccache": {
+    "master": true
+  },
+  "sceptre": {
+    "master": true
+  },
+  "schedula": {
+    "master": true
+  },
+  "schedule": {
+    "master": true
+  },
+  "schema": {
+    "master": true
+  },
+  "schema-salad": {
+    "master": true
+  },
+  "schematics": {
+    "master": true
+  },
+  "schnetpack": {
+    "master": true
+  },
+  "schwimmbad": {
+    "master": true
+  },
+  "scif": {
+    "master": true
+  },
+  "scijava-jupyter-kernel": {
+    "master": true
+  },
+  "scikit-allel": {
+    "master": true
+  },
+  "scikit-beam": {
+    "master": true
+  },
+  "scikit-bio": {
+    "master": true
+  },
+  "scikit-build": {
+    "master": true
+  },
+  "scikit-cycling": {
+    "master": true
+  },
+  "scikit-data": {
+    "master": true
+  },
+  "scikit-dsp-comm": {
+    "master": true
+  },
+  "scikit-fmm": {
+    "master": true
+  },
+  "scikit-fuzzy": {
+    "master": true
   }
 }
