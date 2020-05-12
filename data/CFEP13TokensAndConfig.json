@@ -2386,5 +2386,313 @@
   },
   "readme_renderer": {
     "master": true
+  },
+  "reaktoro": {
+    "master": true
+  },
+  "reaper": {
+    "master": true
+  },
+  "rebound": {
+    "master": true
+  },
+  "recommonmark": {
+    "master": true
+  },
+  "records": {
+    "master": true
+  },
+  "recordtype": {
+    "master": true
+  },
+  "recursive_diff": {
+    "master": true
+  },
+  "redbiom": {
+    "master": true
+  },
+  "redis-py": {
+    "master": true
+  },
+  "rednose": {
+    "master": true
+  },
+  "redpil": {
+    "master": true
+  },
+  "reducer": {
+    "master": true
+  },
+  "redux": {
+    "master": true
+  },
+  "reentry": {
+    "master": true,
+    "regro-cf-autotick-bot-1.0.3": true,
+    "regro-cf-autotick-bot-1.1.0": true,
+    "regro-cf-autotick-bot-1.2.0": true
+  },
+  "refet": {
+    "master": true
+  },
+  "refnx": {
+    "master": true
+  },
+  "reg": {
+    "master": true
+  },
+  "regex": {
+    "master": true,
+    "rebuild-old-releases": true,
+    "v2017.07.28": true
+  },
+  "region": {
+    "master": true
+  },
+  "regionmask": {
+    "master": true
+  },
+  "regions": {
+    "master": true
+  },
+  "regolith": {
+    "master": true
+  },
+  "reikna": {
+    "master": true
+  },
+  "reindent": {
+    "master": true
+  },
+  "rejected": {
+    "master": true
+  },
+  "related": {
+    "master": true
+  },
+  "remi": {
+    "master": true
+  },
+  "removestar": {
+    "master": true
+  },
+  "repackage": {
+    "master": true
+  },
+  "repeated_test": {
+    "master": true
+  },
+  "reportlab": {
+    "master": true
+  },
+  "reports": {
+    "master": true
+  },
+  "repoze.lru": {
+    "master": true
+  },
+  "repoze.who": {
+    "master": true
+  },
+  "repoze.who-friendlyform": {
+    "master": true
+  },
+  "represent": {
+    "master": true
+  },
+  "reprexpy": {
+    "master": true
+  },
+  "reproject": {
+    "master": true
+  },
+  "reprounzip": {
+    "master": true
+  },
+  "reprounzip-docker": {
+    "master": true
+  },
+  "reprounzip-qt": {
+    "master": true
+  },
+  "reprounzip-vagrant": {
+    "master": true
+  },
+  "reprozip": {
+    "master": true
+  },
+  "reprozip-jupyter": {
+    "master": true
+  },
+  "request": {
+    "master": true
+  },
+  "requests": {
+    "master": true
+  },
+  "requests-async": {
+    "master": true
+  },
+  "requests-aws4auth": {
+    "master": true
+  },
+  "requests-cache": {
+    "master": true
+  },
+  "requests-file": {
+    "master": true
+  },
+  "requests-ftp": {
+    "master": true
+  },
+  "requests-futures": {
+    "master": true
+  },
+  "requests-magpie": {
+    "master": true
+  },
+  "requests-mock": {
+    "master": true
+  },
+  "requests-negotiate-sspi": {
+    "master": true
+  },
+  "requests-oauthlib": {
+    "0.1.1": true,
+    "master": true
+  },
+  "requests-toolbelt": {
+    "master": true
+  },
+  "requests-unixsocket": {
+    "master": true
+  },
+  "requests_cache": {
+    "master": true
+  },
+  "requests_download": {
+    "master": true
+  },
+  "requests_ntlm": {
+    "master": true
+  },
+  "requests_pkcs12": {
+    "master": true
+  },
+  "requestsexceptions": {
+    "master": true
+  },
+  "requirements-detector": {
+    "master": true
+  },
+  "requirements-parser": {
+    "master": true
+  },
+  "resampy": {
+    "master": true
+  },
+  "resonance": {
+    "master": true
+  },
+  "resonate": {
+    "master": true
+  },
+  "responder": {
+    "master": true
+  },
+  "responses": {
+    "master": true
+  },
+  "restructuredtext_lint": {
+    "master": true
+  },
+  "retriever": {
+    "master": true
+  },
+  "retry": {
+    "master": true
+  },
+  "retrying": {
+    "master": true
+  },
+  "retype": {
+    "master": true
+  },
+  "reuse": {
+    "master": true
+  },
+  "rever": {
+    "master": true
+  },
+  "reverse-geocode": {
+    "master": true
+  },
+  "rfc3339": {
+    "master": true
+  },
+  "rfc3986": {
+    "master": true
+  },
+  "rfc3987": {
+    "master": true
+  },
+  "rfc5424-logging-handler": {
+    "master": true
+  },
+  "rfpimp": {
+    "master": true
+  },
+  "rhapsody": {
+    "master": true,
+    "version3": true
+  },
+  "rhash": {
+    "master": true
+  },
+  "richdem": {
+    "master": true
+  },
+  "rickshaw": {
+    "master": true
+  },
+  "rift": {
+    "0.0.14.x": true,
+    "master": true
+  },
+  "rio-cogeo": {
+    "master": true
+  },
+  "rios": {
+    "master": true
+  },
+  "rioxarray": {
+    "master": true
+  },
+  "ripgrep": {
+    "master": true
+  },
+  "ripser": {
+    "master": true
+  },
+  "riskmatrix": {
+    "master": true
+  },
+  "rjsmin": {
+    "master": true
+  },
+  "rnatools": {
+    "master": true
+  },
+  "robobrowser": {
+    "master": true
+  },
+  "robotframework": {
+    "master": true
+  },
+  "robotframework-lint": {
+    "master": true
+  },
+  "robotframework-seleniumlibrary": {
+    "master": true
   }
 }
