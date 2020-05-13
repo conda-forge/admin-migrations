@@ -3779,7 +3779,8 @@
     "travis-travis": true,
     "test-ci-fail": true,
     "test-ignore-linter": true,
-    "test-no-automerge": true
+    "test-no-automerge": true,
+    "circle-circle-v50": true
   },
   "cf_units": {
     "master": true

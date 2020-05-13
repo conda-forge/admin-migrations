@@ -12,7 +12,8 @@
     "test-ignore-linter": true,
     "travis-azure": true,
     "travis-circle": true,
-    "travis-travis": true
+    "travis-travis": true,
+    "circle-circle-v50": true
   },
   "blark": {
     "master": true
