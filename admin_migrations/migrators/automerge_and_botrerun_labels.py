@@ -27,7 +27,7 @@ class AutomergeAndBotRerunLabels(Migrator):
             if repo.archived:
                 return True, False, True
 
-            labels = [l for l in repo.get_labels()]
+            labels = [lb for lb in repo.get_labels()]
 
             for label_data in [BOT_RERUN, AUTOMERGE]:
                 target_label = None
