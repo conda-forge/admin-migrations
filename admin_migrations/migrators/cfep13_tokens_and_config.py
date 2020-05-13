@@ -1,10 +1,13 @@
 import os
 import subprocess
-import requests
 
 from ruamel.yaml import YAML
 
+from conda_smithy.feedstock_tokens import feedstock_token_exists
+
 from .base import Migrator
+
+TOKENS_REPO = "https://${GH_TOKEN}@github.com/conda-forge/feedstock-tokens.git"
 
 
 class CFEP13TurnOff(Migrator):
@@ -40,6 +43,48 @@ class CFEP13TurnOff(Migrator):
             return True, False, False
 
 
+def _register_feedstock_token(feedstock):
+    """Generate and register feedstock tokens."""
+
+    if feedstock_token_exists("conda-forge", feedstock, TOKENS_REPO):
+        print("    feedstock token already exists")
+        return
+
+    try:
+        subprocess.run(
+            ["conda-smithy", "generate-feedstock-token"],
+            check=True,
+        )
+
+        subprocess.run(
+            ["conda-smithy", "register-feedstock-token"],
+            check=True,
+        )
+    except subprocess.CalledProcessError as e:
+        print("    feedstock token registration failed")
+        raise e
+    finally:
+        # remove both paths due to change in smithy
+        try:
+            if feedstock.endswith("-feedstock"):
+                feedstock_name = feedstock[:-len("-feedstock")]
+            else:
+                feedstock_name = feedstock
+            token_path = os.path.expanduser(
+                "~/.conda-smithy/conda-forge_%s_feedstock.token" % feedstock_name
+            )
+            os.remove(token_path)
+        except Exception:
+            pass
+
+        try:
+            token_path = os.path.expanduser(
+                "~/.conda-smithy/conda-forge_%s.token" % feedstock)
+            os.remove(token_path)
+        except Exception:
+            pass
+
+
 class CFEP13TokensAndConfig(Migrator):
     def migrate(self, feedstock, branch):
 
@@ -61,15 +106,7 @@ class CFEP13TokensAndConfig(Migrator):
 
         if branch == "master":
             # register a feedstock token
-            r = requests.post(
-                "https://conda-forge.herokuapp.com/feedstock-tokens/register",
-                json={"feedstock": feedstock + "-feedstock"},
-                headers={
-                    "FEEDSTOCK_TOKEN": os.environ["STAGED_RECIPES_FEEDSTOCK_TOKEN"]}
-            )
-            if r.status_code != 200:
-                print("    feedstock token registration failed:", r.status_code)
-                r.raise_for_status()
+            _register_feedstock_token(feedstock)
             print("    registered feedstock token")
 
             # register the staging binstar token

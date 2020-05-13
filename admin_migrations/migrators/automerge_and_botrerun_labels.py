@@ -27,13 +27,13 @@ class AutomergeAndBotRerunLabels(Migrator):
             if repo.archived:
                 return True, False, True
 
-            labels = [l for l in repo.get_labels()]
+            labels = [lb for lb in repo.get_labels()]
 
             for label_data in [BOT_RERUN, AUTOMERGE]:
                 target_label = None
-                for l in labels:
-                    if l.name == label_data[0]:
-                        target_label = l
+                for lb in labels:
+                    if lb.name == label_data[0]:
+                        target_label = lb
                         break
 
                 if target_label:
