@@ -29190,7 +29190,8 @@
     "master": true
   },
   "azure-storage": {
-    "master": true
+    "master": true,
+    "remove-from-maintainers": true
   },
   "azure-storage-blob": {
     "master": true
