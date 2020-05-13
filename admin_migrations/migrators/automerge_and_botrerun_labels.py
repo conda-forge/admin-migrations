@@ -31,9 +31,9 @@ class AutomergeAndBotRerunLabels(Migrator):
 
             for label_data in [BOT_RERUN, AUTOMERGE]:
                 target_label = None
-                for l in labels:
-                    if l.name == label_data[0]:
-                        target_label = l
+                for lb in labels:
+                    if lb.name == label_data[0]:
+                        target_label = lb
                         break
 
                 if target_label:

@@ -53,6 +53,7 @@ def _repo_is_archived(feedstock):
             pass
     return None
 
+
 # https://stackoverflow.com/questions/6194499/pushd-through-os-system
 @contextlib.contextmanager
 def pushd(new_dir):
