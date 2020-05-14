@@ -30120,5 +30120,26 @@
   },
   "bcm2835": {
     "master": true
+  },
+  "azure-mgmt-dns": {
+    "master": true
+  },
+  "azure-mgmt-marketplaceordering": {
+    "master": true
+  },
+  "cfdm": {
+    "master": true
+  },
+  "azure-mgmt-containerservice": {
+    "master": true
+  },
+  "azure-mgmt-web": {
+    "master": true
+  },
+  "azure-mgmt-trafficmanager": {
+    "master": true
+  },
+  "azure-mgmt-sql": {
+    "master": true
   }
 }
