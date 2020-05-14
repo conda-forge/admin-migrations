@@ -262,7 +262,7 @@ def main():
         AutomergeAndRerender(),
         AppveyorDelete(),
         RAutomerge(),
-        CFEP13TurnOff(),
+        # CFEP13TurnOff(),
         # CFEP13TokensAndConfig(),
         # these are finished so we don't run them
         # AutomergeAndBotRerunLabels(),
