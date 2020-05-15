@@ -16,9 +16,9 @@ from admin_migrations.migrators import (
     AutomergeAndRerender,
     AppveyorDelete,
     RAutomerge,
-    # CFEP13TokensAndConfig,
-    CFEP13TurnOff,
-    # these are finished so we don't run them
+    CFEP13TokensAndConfig,
+    # these are finished or not used so we don't run them
+    # CFEP13TurnOff,
     # AutomergeAndBotRerunLabels,
 )
 
@@ -220,9 +220,10 @@ def run_migrators(feedstock, migrators):
                             try:
                                 worked, commit_me, made_api_calls = m.migrate(
                                     feedstock, branch)
-                            except Exception:
+                            except Exception as e:
                                 worked = False
                                 commit_me = False
+                                print("    ERROR:", repr(e))
 
                             if commit_me:
                                 made_api_calls = True
@@ -231,7 +232,8 @@ def run_migrators(feedstock, migrators):
                                     if not is_archived:
                                         _run_git_command([
                                             "commit",
-                                            "-m",
+                                            "--allow-empty",
+                                            "-am",
                                             "[ci skip] [skip ci] [cf admin skip] "
                                             "***NO_CI*** %s" % m.message(),
                                         ])
@@ -262,9 +264,9 @@ def main():
         AutomergeAndRerender(),
         AppveyorDelete(),
         RAutomerge(),
+        CFEP13TokensAndConfig(),
+        # these are finished or not used so we don't run them
         # CFEP13TurnOff(),
-        # CFEP13TokensAndConfig(),
-        # these are finished so we don't run them
         # AutomergeAndBotRerunLabels(),
     ]
     print(" ")
