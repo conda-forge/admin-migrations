@@ -232,7 +232,8 @@ def run_migrators(feedstock, migrators):
                                     if not is_archived:
                                         _run_git_command([
                                             "commit",
-                                            "-m",
+                                            "--allow-empty",
+                                            "-am",
                                             "[ci skip] [skip ci] [cf admin skip] "
                                             "***NO_CI*** %s" % m.message(),
                                         ])
