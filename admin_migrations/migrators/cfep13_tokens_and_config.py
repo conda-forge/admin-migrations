@@ -9,8 +9,8 @@ from conda_smithy.feedstock_tokens import feedstock_token_exists
 
 from .base import Migrator
 
-TOKENS_REPO = "https://${GH_TOKEN}@github.com/conda-forge/feedstock-tokens.git"
-OUTPUTS_REPO = "https://${GH_TOKEN}@github.com/conda-forge/feedstock-outputs.git"
+TOKENS_REPO = "https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-tokens.git"
+OUTPUTS_REPO = "https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-outputs.git"
 
 
 class CFEP13TurnOff(Migrator):
@@ -49,7 +49,7 @@ class CFEP13TurnOff(Migrator):
 def _register_feedstock_token(feedstock):
     """Generate and register feedstock tokens."""
 
-    if feedstock_token_exists("conda-forge", feedstock, TOKENS_REPO):
+    if feedstock_token_exists("conda-forge", feedstock + "-feedstock", TOKENS_REPO):
         print("    feedstock token already exists")
         return
 
@@ -216,7 +216,9 @@ class CFEP13TokensAndConfig(Migrator):
         if (
             "conda_forge_output_validation" in cfg
             and cfg["conda_forge_output_validation"]
-            and feedstock_token_exists("conda-forge", feedstock, TOKENS_REPO)
+            and feedstock_token_exists(
+                "conda-forge", feedstock + "-feedstock", TOKENS_REPO
+            )
         ):
             # migration done, no commits, no API calls
             return True, False, False

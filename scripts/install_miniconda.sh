@@ -30,8 +30,8 @@ pip install --no-deps -e .
 git config --global user.email "conda-forge-admin@email.com"
 git config --global user.name "conda-forge-admin"
 
-git clone https://${GH_TOKEN}@github.com/conda-forge/feedstock-outputs.git
+git clone https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-outputs.git
 export FEEDSTOCK_OUTPUTS_REPO=`pwd`/feedstock-outputs
 pushd feedstock-outputs
-git remote set-url --push origin https://${GH_TOKEN}@github.com/conda-forge/feedstock-outputs.git
+git remote set-url --push origin https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-outputs.git
 popd
