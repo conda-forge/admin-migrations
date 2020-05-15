@@ -1244,5 +1244,322 @@
   },
   "bfg": {
     "master": true
+  },
+  "bgen": {
+    "master": true
+  },
+  "bgen-reader": {
+    "master": true
+  },
+  "bhmm": {
+    "master": true
+  },
+  "bibtexparser": {
+    "master": true
+  },
+  "bicycleparameters": {
+    "master": true
+  },
+  "bidict": {
+    "master": true
+  },
+  "bilby": {
+    "master": true
+  },
+  "bilby_pipe": {
+    "master": true
+  },
+  "billiard": {
+    "master": true,
+    "v3.3": true,
+    "v3.6.3.0": true
+  },
+  "billingegroup": {
+    "master": true
+  },
+  "binaryen": {
+    "master": true
+  },
+  "binaryornot": {
+    "master": true
+  },
+  "binarytree": {
+    "master": true
+  },
+  "binpacking": {
+    "master": true
+  },
+  "bintrees": {
+    "master": true
+  },
+  "binutils": {
+    "master": true,
+    "2.29.1": true
+  },
+  "biom-format": {
+    "master": true
+  },
+  "biopandas": {
+    "master": true
+  },
+  "biopython": {
+    "master": true
+  },
+  "biorbd": {
+    "master": true
+  },
+  "biorbd-viz": {
+    "master": true,
+    "pariterre-patch-1": true
+  },
+  "biotite": {
+    "master": true
+  },
+  "birdy": {
+    "master": true
+  },
+  "bison": {
+    "master": true
+  },
+  "bisonpp": {
+    "master": true
+  },
+  "bitarray": {
+    "master": true
+  },
+  "bitshuffle": {
+    "master": true
+  },
+  "bitstruct": {
+    "master": true
+  },
+  "bjoern": {
+    "master": true
+  },
+  "black": {
+    "master": true
+  },
+  "blackbook": {
+    "master": true
+  },
+  "blackboxauditing": {
+    "master": true
+  },
+  "blas": {
+    "master": true
+  },
+  "blaze": {
+    "master": true
+  },
+  "bleach": {
+    "master": true
+  },
+  "blend_modes": {
+    "master": true
+  },
+  "blessings": {
+    "master": true
+  },
+  "bletchley": {
+    "master": true
+  },
+  "blinker": {
+    "master": true
+  },
+  "blis": {
+    "master": true
+  },
+  "bliss": {
+    "master": true
+  },
+  "block_tracing": {
+    "master": true
+  },
+  "blosc": {
+    "master": true
+  },
+  "blosc-hdf5-plugin": {
+    "master": true
+  },
+  "bloscpack": {
+    "master": true
+  },
+  "blpapi": {
+    "master": true
+  },
+  "bluesky": {
+    "master": true
+  },
+  "bmi-c": {
+    "master": true
+  },
+  "bmi-cxx": {
+    "master": true
+  },
+  "bmi-fortran": {
+    "master": true
+  },
+  "bmi-tester": {
+    "master": true
+  },
+  "bmipy": {
+    "master": true
+  },
+  "bokeh": {
+    "master": true,
+    "v1.4.0": true
+  },
+  "bolt-python": {
+    "master": true
+  },
+  "boltons": {
+    "master": true
+  },
+  "boltzmannclean": {
+    "master": true
+  },
+  "bonsu": {
+    "master": true
+  },
+  "bookstore": {
+    "master": true
+  },
+  "boolean.py": {
+    "master": true
+  },
+  "boolparser": {
+    "master": true
+  },
+  "boost": {
+    "master": true
+  },
+  "boost-cpp": {
+    "master": true,
+    "1.63.x": true
+  },
+  "boost-histogram": {
+    "master": true
+  },
+  "bootstrap": {
+    "master": true
+  },
+  "bootstrap_contrast": {
+    "master": true
+  },
+  "boruta_py": {
+    "master": true
+  },
+  "boto": {
+    "master": true
+  },
+  "boto3": {
+    "master": true
+  },
+  "botocore": {
+    "master": true
+  },
+  "bottle": {
+    "master": true
+  },
+  "bottleneck": {
+    "master": true,
+    "rc": true
+  },
+  "boule": {
+    "master": true
+  },
+  "bourbon": {
+    "master": true
+  },
+  "bowerstatic": {
+    "master": true
+  },
+  "bowler": {
+    "master": true
+  },
+  "bowtie-py": {
+    "master": true
+  },
+  "bqplot": {
+    "master": true
+  },
+  "bqplot-image-gl": {
+    "master": true
+  },
+  "braceexpand": {
+    "master": true
+  },
+  "brial": {
+    "master": true
+  },
+  "brian2": {
+    "master": true,
+    "rebuild-pypy-debug": true
+  },
+  "broot": {
+    "master": true
+  },
+  "brotli": {
+    "master": true
+  },
+  "brotlipy": {
+    "master": true
+  },
+  "bruco": {
+    "master": true
+  },
+  "bsddb3": {
+    "master": true
+  },
+  "bson": {
+    "master": true
+  },
+  "bth5": {
+    "master": true
+  },
+  "btk": {
+    "master": true
+  },
+  "bucketcache": {
+    "master": true
+  },
+  "build-capi": {
+    "master": true
+  },
+  "buildbot": {
+    "master": true
+  },
+  "buildbot-console-view": {
+    "master": true
+  },
+  "buildbot-grid-view": {
+    "master": true
+  },
+  "buildbot-pkg": {
+    "master": true
+  },
+  "buildbot-waterfall-view": {
+    "master": true
+  },
+  "buildbot-www": {
+    "master": true
+  },
+  "buildpy": {
+    "master": true
+  },
+  "bullet": {
+    "master": true
+  },
+  "bulwark": {
+    "master": true
+  },
+  "bump2version": {
+    "master": true
+  },
+  "bumps": {
+    "master": true
+  },
+  "bumpversion": {
+    "master": true
   }
 }
