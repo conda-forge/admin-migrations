@@ -42,6 +42,7 @@ jobs:
             export PATH=${HOME}/miniconda/bin:$PATH
             source activate base
             export DEBUG_ADMIN_MIGRATIONS=1
+            source ./scripts/clone_feedstock_outputs.sh
             run-admin-migrations
 
   build:
@@ -78,6 +79,7 @@ jobs:
           command: |
             export PATH=${HOME}/miniconda/bin:$PATH
             source activate base
+            source ./scripts/clone_feedstock_outputs.sh
             run-admin-migrations
 
 workflows:
@@ -92,7 +94,7 @@ workflows:
       - build
     triggers:
       - schedule:
-          cron: "40 * * * *"
+          cron: "50 * * * *"
           filters:
             branches:
               only:
