@@ -2433,5 +2433,450 @@
   },
   "colorcet": {
     "master": true
+  },
+  "colorclass": {
+    "master": true
+  },
+  "colored": {
+    "master": true
+  },
+  "coloredlogs": {
+    "master": true
+  },
+  "colorlog": {
+    "master": true
+  },
+  "colorlover": {
+    "master": true
+  },
+  "colormap": {
+    "master": true
+  },
+  "colormath": {
+    "master": true
+  },
+  "colorspacious": {
+    "master": true
+  },
+  "colour": {
+    "master": true
+  },
+  "colour-runner": {
+    "master": true
+  },
+  "colour-science": {
+    "master": true,
+    "0.3.14": true
+  },
+  "comet": {
+    "master": true
+  },
+  "commonmark": {
+    "master": true,
+    "commonmark0.5.4": true
+  },
+  "compaction": {
+    "master": true
+  },
+  "compas": {
+    "master": true
+  },
+  "compas_fab": {
+    "master": true,
+    "bump-build": true,
+    "release-0.4.0": true
+  },
+  "compiler-rt": {
+    "master": true
+  },
+  "compilers": {
+    "master": true
+  },
+  "compliance-checker": {
+    "master": true,
+    "rc": true
+  },
+  "compyle": {
+    "master": true
+  },
+  "comtypes": {
+    "master": true
+  },
+  "conan": {
+    "master": true,
+    "v1.19.4": true
+  },
+  "concurrentloghandler": {
+    "master": true
+  },
+  "conda": {
+    "master": true
+  },
+  "conda-bash-completion": {
+    "master": true
+  },
+  "conda-build": {
+    "master": true,
+    "3.18": true
+  },
+  "conda-build-all": {
+    "master": true
+  },
+  "conda-devenv": {
+    "master": true
+  },
+  "conda-ecosystem-user-package-isolation": {
+    "master": true
+  },
+  "conda-env": {
+    "master": true
+  },
+  "conda-exec": {
+    "master": true
+  },
+  "conda-execute": {
+    "master": true
+  },
+  "conda-forge-build-setup": {
+    "master": true
+  },
+  "conda-forge-ci-setup": {
+    "master": true,
+    "2.x": true
+  },
+  "conda-forge-pinning": {
+    "master": true,
+    "migrate_to_modern": true
+  },
+  "conda-forge-repodata-patches": {
+    "master": true
+  },
+  "conda-gitenv": {
+    "master": true
+  },
+  "conda-merge": {
+    "master": true
+  },
+  "conda-mirror": {
+    "master": true,
+    "REL/0.8.0": true
+  },
+  "conda-pack": {
+    "master": true,
+    "v002": true
+  },
+  "conda-package-handling": {
+    "master": true
+  },
+  "conda-prefix-replacement": {
+    "master": true
+  },
+  "conda-press": {
+    "master": true
+  },
+  "conda-smithy": {
+    "master": true
+  },
+  "conda-standalone": {
+    "master": true
+  },
+  "conda-tree": {
+    "master": true
+  },
+  "conda-verify": {
+    "master": true
+  },
+  "conda-workon": {
+    "master": true
+  },
+  "conda-wrappers": {
+    "master": true
+  },
+  "conda_deps": {
+    "master": true
+  },
+  "condastats": {
+    "master": true
+  },
+  "conduit": {
+    "master": true
+  },
+  "configargparse": {
+    "master": true
+  },
+  "configobj": {
+    "master": true
+  },
+  "configobj-dev": {
+    "master": true
+  },
+  "configparser": {
+    "master": true
+  },
+  "configs": {
+    "master": true
+  },
+  "configurable-http-proxy": {
+    "master": true
+  },
+  "confluence-publisher": {
+    "master": true
+  },
+  "confuse": {
+    "master": true
+  },
+  "conjure-python-client": {
+    "master": true,
+    "fo/publish-2.7": true,
+    "fo/publish-27-linux-win": true,
+    "fo/update-1.6.1": true
+  },
+  "conllu": {
+    "master": true
+  },
+  "connexion": {
+    "master": true
+  },
+  "console_bridge": {
+    "master": true
+  },
+  "constantly": {
+    "master": true
+  },
+  "construct": {
+    "master": true
+  },
+  "constructor": {
+    "master": true
+  },
+  "consul": {
+    "master": true
+  },
+  "consul-template": {
+    "master": true
+  },
+  "contact_map": {
+    "master": true
+  },
+  "container-diff": {
+    "master": true
+  },
+  "containerpilot": {
+    "master": true
+  },
+  "contextily": {
+    "master": true
+  },
+  "contextlib2": {
+    "master": true
+  },
+  "contextvars": {
+    "master": true
+  },
+  "contrib_colormaps": {
+    "master": true
+  },
+  "control": {
+    "master": true
+  },
+  "convertdate": {
+    "master": true
+  },
+  "cookiecutter": {
+    "master": true
+  },
+  "cookies": {
+    "master": true
+  },
+  "coolprop": {
+    "master": true
+  },
+  "copulae": {
+    "master": true
+  },
+  "coq": {
+    "master": true
+  },
+  "coq-jupyter": {
+    "master": true
+  },
+  "core-js": {
+    "master": true
+  },
+  "coreapi-cli": {
+    "master": true
+  },
+  "coredns": {
+    "master": true
+  },
+  "coreutils": {
+    "master": true
+  },
+  "cornac": {
+    "master": true
+  },
+  "corner": {
+    "master": true
+  },
+  "corral-pipeline": {
+    "master": true
+  },
+  "corrfunc": {
+    "master": true
+  },
+  "cothread": {
+    "master": true
+  },
+  "cotire": {
+    "master": true
+  },
+  "coursera-dl": {
+    "master": true
+  },
+  "courtana": {
+    "master": true
+  },
+  "cov-core": {
+    "master": true
+  },
+  "coverage": {
+    "master": true,
+    "v3.7.1": true,
+    "v4.0.3": true
+  },
+  "coveralls": {
+    "master": true
+  },
+  "cowpy": {
+    "master": true
+  },
+  "cp2k": {
+    "master": true
+  },
+  "cpnest": {
+    "master": true
+  },
+  "cppcheck": {
+    "master": true
+  },
+  "cppcolormap": {
+    "master": true
+  },
+  "cppheaderparser": {
+    "master": true
+  },
+  "cpplint": {
+    "master": true
+  },
+  "cpppath": {
+    "master": true
+  },
+  "cppunit": {
+    "master": true
+  },
+  "cppyy": {
+    "master": true
+  },
+  "cppyy-backend": {
+    "master": true
+  },
+  "cppyy-cling": {
+    "master": true
+  },
+  "cppzmq": {
+    "master": true
+  },
+  "cpu_features": {
+    "master": true
+  },
+  "cpulimit": {
+    "master": true
+  },
+  "cpycppyy": {
+    "master": true
+  },
+  "cquadpack": {
+    "master": true
+  },
+  "craftr": {
+    "master": true
+  },
+  "cram": {
+    "master": true
+  },
+  "crayons": {
+    "master": true
+  },
+  "crc32c": {
+    "master": true
+  },
+  "crcmod": {
+    "master": true
+  },
+  "credstash": {
+    "master": true
+  },
+  "creme": {
+    "master": true
+  },
+  "creoleparser": {
+    "master": true
+  },
+  "crick": {
+    "master": true
+  },
+  "crispy": {
+    "master": true
+  },
+  "crlibm": {
+    "master": true
+  },
+  "croaring": {
+    "master": true
+  },
+  "crochet": {
+    "master": true
+  },
+  "cromwell": {
+    "master": true
+  },
+  "croniter": {
+    "master": true
+  },
+  "crontab": {
+    "master": true
+  },
+  "crosstool-ng": {
+    "master": true,
+    "1.24.0": true
+  },
+  "cryptography": {
+    "master": true
+  },
+  "cryptography-vectors": {
+    "master": true
+  },
+  "cryptominisat": {
+    "master": true
+  },
+  "cryptopp": {
+    "master": true,
+    "5.x": true
+  },
+  "crystals": {
+    "master": true,
+    "revert-4-master": true
+  },
+  "csa": {
+    "master": true
+  },
+  "csm": {
+    "master": true
+  },
+  "csmapi": {
+    "master": true
+  },
+  "cson": {
+    "master": true
   }
 }
