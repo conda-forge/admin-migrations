@@ -1,6 +1,7 @@
 import os
 import subprocess
 import glob
+import json
 
 import conda_build
 from ruamel.yaml import YAML
@@ -174,13 +175,9 @@ def _register_feedstock_outputs(feedstock):
         )
 
         if not os.path.exists(outpth):
-            parser = YAML()
-            parser.indent(mapping=2, sequence=4, offset=2)
-            parser.width = 320
-
             os.makedirs(os.path.dirname(outpth), exist_ok=True)
             with open(outpth, "w") as fp:
-                parser.dump({"feedstocks": [feedstock]}, fp)
+                json.dump({"feedstocks": [feedstock]}, fp)
 
             subprocess.run(
                 ["git", "add", sharded_name],
