@@ -812,5 +812,437 @@
   },
   "auditwheel": {
     "master": true
+  },
+  "authlib": {
+    "master": true
+  },
+  "autobahn": {
+    "master": true
+  },
+  "autoconf": {
+    "master": true
+  },
+  "autoconf-archive": {
+    "master": true
+  },
+  "autodiff": {
+    "master": true
+  },
+  "autodocsumm": {
+    "master": true
+  },
+  "autoflake": {
+    "master": true
+  },
+  "autograd": {
+    "master": true
+  },
+  "autograd-gamma": {
+    "master": true
+  },
+  "autologging": {
+    "master": true
+  },
+  "automake": {
+    "master": true
+  },
+  "automan": {
+    "master": true
+  },
+  "automat": {
+    "master": true
+  },
+  "autopep8": {
+    "master": true
+  },
+  "autorift": {
+    "master": true
+  },
+  "autotools_clang_conda": {
+    "master": true
+  },
+  "autovizwidget": {
+    "master": true
+  },
+  "autowrap": {
+    "master": true
+  },
+  "av": {
+    "master": true
+  },
+  "avro": {
+    "master": true
+  },
+  "avrocpp": {
+    "master": true
+  },
+  "awacs": {
+    "master": true
+  },
+  "awesome-slugify": {
+    "master": true
+  },
+  "awkward": {
+    "master": true
+  },
+  "aws-amicleaner": {
+    "master": true
+  },
+  "aws-iam-authenticator": {
+    "master": true
+  },
+  "aws-parallelcluster": {
+    "master": true
+  },
+  "aws-requests-auth": {
+    "master": true
+  },
+  "aws-sam-translator": {
+    "master": true
+  },
+  "aws-sdk-cpp": {
+    "master": true,
+    "regro-cf-autotick-bot/1.7.275": true
+  },
+  "aws-xray-sdk": {
+    "master": true
+  },
+  "awscli": {
+    "master": true,
+    "v1.11.182": true,
+    "v1.14.1": true
+  },
+  "awscli-cwlogs": {
+    "master": true
+  },
+  "awscli-local": {
+    "master": true
+  },
+  "awslogs": {
+    "master": true
+  },
+  "awswrangler": {
+    "master": true
+  },
+  "axelrod": {
+    "master": true
+  },
+  "axopy": {
+    "master": true
+  },
+  "azure": {
+    "master": true
+  },
+  "azure-cli-core": {
+    "master": true
+  },
+  "azure-cli-telemetry": {
+    "master": true
+  },
+  "azure-common": {
+    "master": true
+  },
+  "azure-cosmos": {
+    "master": true
+  },
+  "azure-datalake-store": {
+    "master": true
+  },
+  "azure-devops": {
+    "master": true
+  },
+  "azure-graphrbac": {
+    "master": true
+  },
+  "azure-keyvault": {
+    "master": true
+  },
+  "azure-mgmt": {
+    "master": true,
+    "remove-from-maintainers": true
+  },
+  "azure-mgmt-authorization": {
+    "master": true
+  },
+  "azure-mgmt-common": {
+    "master": true
+  },
+  "azure-mgmt-compute": {
+    "master": true
+  },
+  "azure-mgmt-containerregistry": {
+    "master": true
+  },
+  "azure-mgmt-keyvault": {
+    "master": true
+  },
+  "azure-mgmt-msi": {
+    "master": true
+  },
+  "azure-mgmt-network": {
+    "master": true
+  },
+  "azure-mgmt-nspkg": {
+    "master": true
+  },
+  "azure-mgmt-resource": {
+    "master": true
+  },
+  "azure-mgmt-storage": {
+    "master": true
+  },
+  "azure-nspkg": {
+    "master": true
+  },
+  "azure-servicebus": {
+    "master": true
+  },
+  "azure-servicemanagement-legacy": {
+    "master": true
+  },
+  "azure-storage": {
+    "master": true,
+    "remove-from-maintainers": true
+  },
+  "azure-storage-blob": {
+    "master": true
+  },
+  "azure-storage-common": {
+    "master": true
+  },
+  "azure-storage-file": {
+    "master": true
+  },
+  "azure-storage-nspkg": {
+    "master": true
+  },
+  "azure-storage-queue": {
+    "master": true
+  },
+  "babel": {
+    "master": true
+  },
+  "backcall": {
+    "master": true
+  },
+  "backoff": {
+    "master": true
+  },
+  "backpack": {
+    "master": true
+  },
+  "backports": {
+    "master": true
+  },
+  "backports.csv": {
+    "master": true
+  },
+  "backports.functools_lru_cache": {
+    "master": true
+  },
+  "backports.lzma": {
+    "master": true
+  },
+  "backports.os": {
+    "master": true
+  },
+  "backports.shutil_get_terminal_size": {
+    "master": true
+  },
+  "backports.shutil_which": {
+    "master": true
+  },
+  "backports.ssl": {
+    "master": true
+  },
+  "backports.tempfile": {
+    "master": true
+  },
+  "backports.test.support": {
+    "master": true
+  },
+  "backports.unittest_mock": {
+    "master": true
+  },
+  "backports.weakref": {
+    "master": true
+  },
+  "backports_abc": {
+    "master": true
+  },
+  "backtrace": {
+    "master": true
+  },
+  "backward-cpp": {
+    "master": true
+  },
+  "badapted": {
+    "master": true
+  },
+  "bagit": {
+    "master": true
+  },
+  "bake": {
+    "master": true
+  },
+  "bambi": {
+    "master": true
+  },
+  "bamnostic": {
+    "master": true
+  },
+  "bandit": {
+    "master": true,
+    "fix-1.5.1": true,
+    "release-1.6.0": true
+  },
+  "bareditor": {
+    "master": true
+  },
+  "barril": {
+    "master": true
+  },
+  "baseband": {
+    "master": true
+  },
+  "basemap": {
+    "master": true
+  },
+  "basemap-data-hires": {
+    "master": true
+  },
+  "bash": {
+    "master": true
+  },
+  "bash-completion": {
+    "master": true
+  },
+  "bash_kernel": {
+    "master": true
+  },
+  "bashlex": {
+    "master": true
+  },
+  "bashplotlib": {
+    "master": true
+  },
+  "bat": {
+    "master": true
+  },
+  "batchcrop": {
+    "master": true
+  },
+  "batman": {
+    "master": true
+  },
+  "bats-core": {
+    "master": true
+  },
+  "baumwelch": {
+    "master": true
+  },
+  "baycomp": {
+    "master": true
+  },
+  "bayesian-optimization": {
+    "master": true
+  },
+  "bayespy": {
+    "master": true
+  },
+  "bayeswave": {
+    "master": true
+  },
+  "bazel": {
+    "master": true
+  },
+  "bc": {
+    "master": true
+  },
+  "bcdoc": {
+    "master": true
+  },
+  "bcdp": {
+    "master": true
+  },
+  "bcolz": {
+    "master": true
+  },
+  "bcpandas": {
+    "master": true
+  },
+  "bcrypt": {
+    "master": true
+  },
+  "bdw-gc": {
+    "master": true
+  },
+  "beaker": {
+    "master": true
+  },
+  "beakerx": {
+    "master": true,
+    "spot/ci-check": true
+  },
+  "beautifulsoup4": {
+    "master": true
+  },
+  "beautysh": {
+    "master": true
+  },
+  "beem": {
+    "master": true
+  },
+  "begins": {
+    "master": true
+  },
+  "behave": {
+    "master": true
+  },
+  "beignet": {
+    "master": true
+  },
+  "bempp-cl": {
+    "master": true
+  },
+  "benchmark": {
+    "master": true
+  },
+  "benchmark-4dn": {
+    "master": true
+  },
+  "beniget": {
+    "master": true
+  },
+  "benten": {
+    "master": true
+  },
+  "bertha": {
+    "master": true,
+    "regro-cf-autotick-bot/rebuild-pypy-0-1": true
+  },
+  "bespon": {
+    "master": true
+  },
+  "betamax": {
+    "master": true
+  },
+  "betamax-matchers": {
+    "master": true
+  },
+  "betfairlightweight": {
+    "master": true
+  },
+  "betse": {
+    "master": true
+  },
+  "betsee": {
+    "master": true
+  },
+  "better_exceptions_fork": {
+    "master": true
+  },
+  "bfg": {
+    "master": true
   }
 }
