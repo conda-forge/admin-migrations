@@ -156,7 +156,9 @@ def _register_feedstock_outputs(feedstock):
                 )
 
         for m, _, _ in metas:
-            unames.add(m.name)
+            unames.add(m.name())
+
+    print("    output names:", unames)
 
     for name in unames:
         sharded_name = _get_sharded_path(name)
@@ -172,12 +174,13 @@ def _register_feedstock_outputs(feedstock):
         )
 
         if not os.path.exists(outpth):
-            parser = YAML(typ="jinja2")
+            parser = YAML()
             parser.indent(mapping=2, sequence=4, offset=2)
             parser.width = 320
 
+            os.makedirs(os.path.dirname(outpth), exist_ok=True)
             with open(outpth, "w") as fp:
-                parser.dump({"feedstokcs": [feedstock]}, fp)
+                parser.dump({"feedstocks": [feedstock]}, fp)
 
             subprocess.run(
                 ["git", "add", sharded_name],
@@ -200,6 +203,7 @@ def _register_feedstock_outputs(feedstock):
                 check=True,
                 cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"]
             )
+            print("    added output:", name)
 
 
 class CFEP13TokensAndConfig(Migrator):

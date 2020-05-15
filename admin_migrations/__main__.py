@@ -220,9 +220,10 @@ def run_migrators(feedstock, migrators):
                             try:
                                 worked, commit_me, made_api_calls = m.migrate(
                                     feedstock, branch)
-                            except Exception:
+                            except Exception as e:
                                 worked = False
                                 commit_me = False
+                                print("    ERROR:", repr(e))
 
                             if commit_me:
                                 made_api_calls = True
