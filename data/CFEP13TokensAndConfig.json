@@ -1996,5 +1996,442 @@
   },
   "chemdataextractor": {
     "master": true
+  },
+  "chemex": {
+    "master": true
+  },
+  "chemfiles": {
+    "master": true
+  },
+  "chemfiles-lib": {
+    "master": true
+  },
+  "chemfiles-python": {
+    "master": true
+  },
+  "chemspipy": {
+    "master": true
+  },
+  "cheroot": {
+    "master": true
+  },
+  "cherrypy": {
+    "master": true,
+    "v7.1": true
+  },
+  "chest": {
+    "master": true
+  },
+  "chi2comb": {
+    "master": true
+  },
+  "chi2comb-py": {
+    "master": true
+  },
+  "child": {
+    "master": true
+  },
+  "chiscore": {
+    "master": true
+  },
+  "choicemodels": {
+    "master": true
+  },
+  "chroma-py": {
+    "master": true
+  },
+  "chrpath": {
+    "master": true
+  },
+  "cibots": {
+    "master": true
+  },
+  "ciecplib": {
+    "master": true
+  },
+  "cif2cell": {
+    "master": true
+  },
+  "cifti": {
+    "master": true
+  },
+  "cigetcert": {
+    "master": true
+  },
+  "ciocheck": {
+    "master": true
+  },
+  "circleclient": {
+    "master": true
+  },
+  "circuits": {
+    "master": true
+  },
+  "circus": {
+    "master": true
+  },
+  "cirpy": {
+    "master": true
+  },
+  "cis": {
+    "master": true,
+    "1.5.2": true,
+    "duncanwp-patch-1": true,
+    "v1.7.1": true
+  },
+  "cis_interface": {
+    "master": true
+  },
+  "ciso": {
+    "master": true
+  },
+  "ciso8601": {
+    "master": true
+  },
+  "cistern": {
+    "master": true
+  },
+  "citrination-client": {
+    "master": true,
+    "add-sdedkins": true
+  },
+  "ckan": {
+    "master": true
+  },
+  "ckanapi": {
+    "master": true
+  },
+  "clamd": {
+    "master": true
+  },
+  "clang-compiler-activation": {
+    "master": true,
+    "isuruf-patch-1": true
+  },
+  "clang-win-activation": {
+    "master": true
+  },
+  "clangdev": {
+    "master": true,
+    "5.x": true,
+    "6.x": true,
+    "8.x": true,
+    "flang": true
+  },
+  "clapack": {
+    "master": true
+  },
+  "classy_vision": {
+    "master": true
+  },
+  "clblas": {
+    "master": true
+  },
+  "clblast": {
+    "master": true
+  },
+  "clcache": {
+    "master": true
+  },
+  "cld2-cffi": {
+    "master": true
+  },
+  "clease": {
+    "master": true
+  },
+  "cleo": {
+    "master": true
+  },
+  "clfft": {
+    "master": true
+  },
+  "clhep": {
+    "master": true
+  },
+  "clhpp": {
+    "master": true
+  },
+  "cli_helpers": {
+    "master": true
+  },
+  "click": {
+    "master": true,
+    "v5.x": true
+  },
+  "click-aliases": {
+    "master": true
+  },
+  "click-completion": {
+    "master": true
+  },
+  "click-default-group": {
+    "master": true
+  },
+  "click-help-colors": {
+    "master": true
+  },
+  "click-log": {
+    "master": true
+  },
+  "click-plugins": {
+    "master": true
+  },
+  "click-repl": {
+    "master": true
+  },
+  "click-spinner": {
+    "master": true
+  },
+  "click_config_file": {
+    "master": true
+  },
+  "clickclick": {
+    "master": true
+  },
+  "clickhouse-cityhash": {
+    "master": true
+  },
+  "clickhouse-driver": {
+    "master": true
+  },
+  "clickhouse-odbc": {
+    "master": true
+  },
+  "clickhouse-sqlalchemy": {
+    "master": true
+  },
+  "cliff": {
+    "master": true
+  },
+  "clifford": {
+    "master": true
+  },
+  "cligj": {
+    "master": true
+  },
+  "clikit": {
+    "master": true
+  },
+  "climata": {
+    "master": true
+  },
+  "climlab": {
+    "master": true
+  },
+  "climpred": {
+    "master": true,
+    "v1.2.0": true
+  },
+  "clinfo": {
+    "master": true
+  },
+  "cling": {
+    "master": true
+  },
+  "cling-patches": {
+    "master": true
+  },
+  "clint": {
+    "master": true,
+    "janschulz-patch-1": true
+  },
+  "cliquer": {
+    "master": true
+  },
+  "cloog": {
+    "master": true
+  },
+  "closely": {
+    "master": true
+  },
+  "closure": {
+    "master": true
+  },
+  "cloud_sptheme": {
+    "master": true
+  },
+  "cloudant": {
+    "master": true
+  },
+  "cloudpickle": {
+    "master": true
+  },
+  "clrng": {
+    "master": true
+  },
+  "clsparse": {
+    "master": true
+  },
+  "cluster-lensing": {
+    "master": true
+  },
+  "clusterpy": {
+    "master": true
+  },
+  "clyent": {
+    "master": true
+  },
+  "cm-unicode": {
+    "master": true
+  },
+  "cmake": {
+    "master": true
+  },
+  "cmake_format": {
+    "master": true
+  },
+  "cmaps": {
+    "master": true
+  },
+  "cmapy": {
+    "master": true
+  },
+  "cmarkgfm": {
+    "master": true
+  },
+  "cmd2": {
+    "master": true
+  },
+  "cminpack": {
+    "master": true,
+    "noblas": true
+  },
+  "cmocean": {
+    "master": true
+  },
+  "cmor": {
+    "master": true
+  },
+  "cmreshandler": {
+    "master": true
+  },
+  "cmrt": {
+    "master": true
+  },
+  "cms-md5": {
+    "master": true
+  },
+  "cmt": {
+    "master": true
+  },
+  "cni": {
+    "master": true
+  },
+  "cni-plugins": {
+    "master": true
+  },
+  "cobra-component-models": {
+    "master": true
+  },
+  "coconut": {
+    "master": true
+  },
+  "codacy-coverage": {
+    "master": true
+  },
+  "codar2netcdf": {
+    "master": true
+  },
+  "code-server": {
+    "master": true
+  },
+  "codebraid": {
+    "master": true
+  },
+  "codecov": {
+    "master": true
+  },
+  "codemodel": {
+    "master": true
+  },
+  "codes-ui": {
+    "master": true
+  },
+  "codespell": {
+    "master": true
+  },
+  "coffeescript": {
+    "master": true
+  },
+  "cogapp": {
+    "master": true
+  },
+  "coin3d": {
+    "master": true
+  },
+  "coinbonmin": {
+    "master": true
+  },
+  "coincbc": {
+    "master": true
+  },
+  "coinmp": {
+    "master": true
+  },
+  "colcon-cmake": {
+    "master": true
+  },
+  "colcon-common-extensions": {
+    "master": true
+  },
+  "colcon-core": {
+    "master": true
+  },
+  "colcon-defaults": {
+    "master": true
+  },
+  "colcon-devtools": {
+    "master": true
+  },
+  "colcon-library-path": {
+    "master": true
+  },
+  "colcon-metadata": {
+    "master": true
+  },
+  "colcon-notification": {
+    "master": true
+  },
+  "colcon-output": {
+    "master": true
+  },
+  "colcon-package-information": {
+    "master": true
+  },
+  "colcon-package-selection": {
+    "master": true
+  },
+  "colcon-parallel-executor": {
+    "master": true
+  },
+  "colcon-pkg-config": {
+    "master": true
+  },
+  "colcon-powershell": {
+    "master": true
+  },
+  "colcon-python-setup-py": {
+    "master": true
+  },
+  "colcon-recursive-crawl": {
+    "master": true
+  },
+  "colcon-ros": {
+    "master": true
+  },
+  "colcon-test-result": {
+    "master": true
+  },
+  "colicoords": {
+    "master": true
+  },
+  "collectfast": {
+    "master": true
+  },
+  "colorama": {
+    "master": true
+  },
+  "colorcet": {
+    "master": true
   }
 }
