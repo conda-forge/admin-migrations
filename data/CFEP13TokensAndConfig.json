@@ -5490,5 +5490,306 @@
   },
   "fs.webdavfs": {
     "master": true
+  },
+  "fs_filepicker": {
+    "master": true
+  },
+  "fsfe-reuse": {
+    "master": true
+  },
+  "fsl-pyfeeds": {
+    "master": true
+  },
+  "fsleyes": {
+    "master": true,
+    "v0.30": true
+  },
+  "fsleyes-props": {
+    "master": true
+  },
+  "fsleyes-widgets": {
+    "master": true
+  },
+  "fslpy": {
+    "master": true
+  },
+  "fswatch": {
+    "master": true
+  },
+  "ftd2xx": {
+    "master": true
+  },
+  "ftfy": {
+    "master": true
+  },
+  "ftgl": {
+    "master": true
+  },
+  "ftputil": {
+    "master": true
+  },
+  "fts-rest": {
+    "master": true
+  },
+  "funcargparse": {
+    "master": true
+  },
+  "funcsigs": {
+    "master": true
+  },
+  "functionalplus": {
+    "master": true
+  },
+  "functools32": {
+    "master": true
+  },
+  "funcy": {
+    "master": true
+  },
+  "furl": {
+    "master": true
+  },
+  "fury": {
+    "master": true
+  },
+  "fusepy": {
+    "master": true
+  },
+  "fusepyng": {
+    "master": true
+  },
+  "fusesoc": {
+    "master": true
+  },
+  "future": {
+    "master": true
+  },
+  "future_fstrings": {
+    "master": true
+  },
+  "futures": {
+    "master": true
+  },
+  "fuzzy-rough-learn": {
+    "master": true
+  },
+  "fuzzywuzzy": {
+    "master": true
+  },
+  "fwlite": {
+    "master": true
+  },
+  "fypp": {
+    "master": true
+  },
+  "fzf": {
+    "master": true
+  },
+  "g2clib": {
+    "master": true
+  },
+  "gaitpy": {
+    "master": true
+  },
+  "gala": {
+    "master": true
+  },
+  "galario": {
+    "master": true,
+    "cuda_build": true
+  },
+  "galgebra": {
+    "master": true
+  },
+  "galpy": {
+    "master": true
+  },
+  "galsim": {
+    "master": true
+  },
+  "gama": {
+    "master": true
+  },
+  "gammapy": {
+    "master": true
+  },
+  "gap": {
+    "master": true,
+    "v4.8.3": true,
+    "v4.8.6": true
+  },
+  "garnett": {
+    "master": true
+  },
+  "gast": {
+    "master": true
+  },
+  "gatspy": {
+    "master": true
+  },
+  "gawk": {
+    "master": true,
+    "4.1.3": true
+  },
+  "gazar": {
+    "master": true
+  },
+  "gazebo": {
+    "master": true,
+    "v9.x": true
+  },
+  "gcab": {
+    "master": true
+  },
+  "gcovr": {
+    "master": true
+  },
+  "gcsfs": {
+    "master": true
+  },
+  "gct": {
+    "master": true
+  },
+  "gdal": {
+    "master": true,
+    "proj5.2.0": true,
+    "v2.2.x": true,
+    "v2.3.x": true,
+    "v2.4.x": true
+  },
+  "gdb": {
+    "master": true
+  },
+  "gdbm": {
+    "master": true
+  },
+  "gdcm": {
+    "master": true
+  },
+  "gdk-pixbuf": {
+    "master": true
+  },
+  "gdown": {
+    "master": true
+  },
+  "gdrive": {
+    "master": true
+  },
+  "geant4": {
+    "master": true
+  },
+  "geant4-data-abla": {
+    "master": true
+  },
+  "geant4-data-emlow": {
+    "master": true
+  },
+  "geant4-data-ensdfstate": {
+    "master": true
+  },
+  "geant4-data-incl": {
+    "master": true
+  },
+  "geant4-data-ndl": {
+    "master": true
+  },
+  "geant4-data-particlexs": {
+    "master": true
+  },
+  "geant4-data-photonevaporation": {
+    "master": true
+  },
+  "geant4-data-pii": {
+    "master": true
+  },
+  "geant4-data-radioactivedecay": {
+    "master": true
+  },
+  "geant4-data-realsurface": {
+    "master": true
+  },
+  "geant4-data-saiddata": {
+    "master": true
+  },
+  "geckodriver": {
+    "master": true
+  },
+  "gemmi": {
+    "master": true
+  },
+  "genesis-pyapi": {
+    "master": true
+  },
+  "gengetopt": {
+    "master": true
+  },
+  "genozip": {
+    "master": true
+  },
+  "genpy": {
+    "master": true
+  },
+  "genshi": {
+    "master": true
+  },
+  "gensim": {
+    "master": true,
+    "revert-15-next-gensim-release": true
+  },
+  "genson": {
+    "master": true
+  },
+  "genutil": {
+    "master": true,
+    "v8.0": true
+  },
+  "geoalchemy-odm2": {
+    "master": true
+  },
+  "geoalchemy2": {
+    "master": true
+  },
+  "geoana": {
+    "master": true
+  },
+  "geocoder": {
+    "master": true
+  },
+  "geocube": {
+    "master": true
+  },
+  "geographiclib": {
+    "master": true
+  },
+  "geohash2": {
+    "master": true
+  },
+  "geoip": {
+    "master": true
+  },
+  "geojson": {
+    "master": true
+  },
+  "geojsonio": {
+    "master": true
+  },
+  "geolinks": {
+    "master": true
+  },
+  "geomalgo": {
+    "master": true
+  },
+  "geometric": {
+    "master": true
+  },
+  "geometric_features": {
+    "master": true
+  },
+  "geonum": {
+    "master": true
+  },
+  "geopandas": {
+    "master": true,
+    "dev": true
   }
 }
