@@ -9809,5 +9809,288 @@
   },
   "mdf_forge": {
     "master": true
+  },
+  "mdf_toolbox": {
+    "master": true
+  },
+  "mdshare": {
+    "master": true
+  },
+  "mdsplus": {
+    "master": true
+  },
+  "mdsrv": {
+    "master": true
+  },
+  "mdsynthesis": {
+    "master": true
+  },
+  "mdtraj": {
+    "master": true
+  },
+  "mdx_gh_links": {
+    "master": true
+  },
+  "measurement": {
+    "master": true
+  },
+  "mechanicalsoup": {
+    "master": true
+  },
+  "mechanize": {
+    "master": true
+  },
+  "mechwolf": {
+    "master": true
+  },
+  "meds": {
+    "master": true
+  },
+  "megaman": {
+    "master": true
+  },
+  "megaradrp": {
+    "master": true
+  },
+  "meld3": {
+    "master": true
+  },
+  "memoized-property": {
+    "master": true
+  },
+  "memory_profiler": {
+    "master": true
+  },
+  "memprof": {
+    "master": true
+  },
+  "mendeleev": {
+    "master": true
+  },
+  "menpo": {
+    "master": true
+  },
+  "menpo3d": {
+    "master": true
+  },
+  "menpodetect": {
+    "master": true
+  },
+  "menpofit": {
+    "master": true
+  },
+  "menuinst": {
+    "master": true
+  },
+  "mercantile": {
+    "master": true
+  },
+  "mercurial": {
+    "master": true
+  },
+  "mercurial-app": {
+    "master": true
+  },
+  "mesa-dri-drivers-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-khr-devel-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-khr-devel-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libegl-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libgl-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-libgl-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libglapi-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-libglapi-cos7-ppc64le": {
+    "master": true
+  },
+  "mesalib": {
+    "master": true,
+    "newer_mesa": true
+  },
+  "mesas": {
+    "master": true
+  },
+  "meshio": {
+    "master": true,
+    "v2.x": true
+  },
+  "meshplot": {
+    "master": true
+  },
+  "meshpy": {
+    "master": true
+  },
+  "meson": {
+    "master": true
+  },
+  "message-ix": {
+    "master": true
+  },
+  "metaflow": {
+    "master": true,
+    "savingoyal-patch-1": true
+  },
+  "metafone": {
+    "master": true
+  },
+  "metaio": {
+    "master": true
+  },
+  "metakernel": {
+    "master": true
+  },
+  "metaknowledge": {
+    "master": true
+  },
+  "metanetx-assets": {
+    "master": true
+  },
+  "metanetx-sdk": {
+    "master": true
+  },
+  "metaphone": {
+    "master": true
+  },
+  "metar": {
+    "master": true
+  },
+  "metawrap": {
+    "master": true
+  },
+  "metis": {
+    "master": true
+  },
+  "metomi-isodatetime": {
+    "master": true
+  },
+  "metpy": {
+    "master": true,
+    "rc": true
+  },
+  "metsim": {
+    "master": true
+  },
+  "metview": {
+    "master": true,
+    "iainrussell-no-netcdf-c++-1": true,
+    "iainrussell-patch-url-1": true,
+    "v5.8.1": true
+  },
+  "metview-batch": {
+    "master": true
+  },
+  "mgrs": {
+    "master": true,
+    "revert-3-rebuild-pypy-0-1": true
+  },
+  "mgwr": {
+    "master": true
+  },
+  "micromagneticdata": {
+    "master": true
+  },
+  "micromagneticmodel": {
+    "master": true,
+    "0.7.4/0": true
+  },
+  "micropython": {
+    "master": true
+  },
+  "miktex": {
+    "master": true
+  },
+  "milksnake": {
+    "master": true
+  },
+  "miller": {
+    "master": true
+  },
+  "mimerender": {
+    "master": true
+  },
+  "minepy": {
+    "master": true
+  },
+  "minikube": {
+    "master": true
+  },
+  "minimalmodbus": {
+    "master": true
+  },
+  "minio": {
+    "master": true
+  },
+  "miniwdl": {
+    "master": true
+  },
+  "minuit2": {
+    "master": true
+  },
+  "misaka": {
+    "master": true
+  },
+  "missingno": {
+    "master": true
+  },
+  "mistune": {
+    "master": true
+  },
+  "mizani": {
+    "master": true
+  },
+  "mkdocs": {
+    "master": true
+  },
+  "mkdocs-bootstrap": {
+    "master": true
+  },
+  "mkdocs-bootswatch": {
+    "master": true
+  },
+  "mkdocs-macros-plugin": {
+    "master": true
+  },
+  "mkdocs-markdownextradata-plugin": {
+    "master": true
+  },
+  "mkdocs-material": {
+    "master": true
+  },
+  "mkl-service": {
+    "master": true
+  },
+  "mkl_fft": {
+    "master": true
+  },
+  "mkl_random": {
+    "master": true
+  },
+  "ml_tooling": {
+    "master": true,
+    "regro-cf-autotick-bot-0.8.0": true
+  },
+  "mlapack": {
+    "master": true
+  },
+  "mlconjug": {
+    "master": true
+  },
+  "mleap": {
+    "master": true
+  },
+  "mlpack": {
+    "master": true
   }
 }
