@@ -8961,5 +8961,312 @@
   "libpng": {
     "master": true,
     "v1.6.34": true
+  },
+  "libpostal": {
+    "master": true
+  },
+  "libprotobuf": {
+    "master": true,
+    "v3.5": true
+  },
+  "libpysal": {
+    "master": true
+  },
+  "libpython": {
+    "master": true
+  },
+  "librabbitmq": {
+    "master": true
+  },
+  "libradolan": {
+    "master": true
+  },
+  "librdkafka": {
+    "master": true
+  },
+  "librdmacm-cos6-x86_64": {
+    "master": true
+  },
+  "librdmacm-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libredwg": {
+    "master": true
+  },
+  "librosa": {
+    "master": true
+  },
+  "librsvg": {
+    "master": true,
+    "v2.44.3": true
+  },
+  "libsakura": {
+    "master": true
+  },
+  "libsass": {
+    "master": true
+  },
+  "libsdformat": {
+    "master": true,
+    "v6.2.0": true
+  },
+  "libsecret": {
+    "master": true
+  },
+  "libselinux-cos7-aarch64": {
+    "master": true
+  },
+  "libsemigroups": {
+    "master": true,
+    "0.6.x": true
+  },
+  "libsemigroups-python-bindings": {
+    "master": true
+  },
+  "libsharp": {
+    "master": true
+  },
+  "libsigcpp": {
+    "master": true
+  },
+  "libsigsegv": {
+    "master": true
+  },
+  "libsimpleitk": {
+    "master": true
+  },
+  "libsm-cos7-ppc64le": {
+    "master": true
+  },
+  "libsndfile": {
+    "master": true
+  },
+  "libsodium": {
+    "master": true
+  },
+  "libsolv": {
+    "master": true
+  },
+  "libspatialindex": {
+    "master": true,
+    "1.8.5": true
+  },
+  "libspatialite": {
+    "master": true,
+    "proj5.2.0": true
+  },
+  "libspnav": {
+    "master": true,
+    "patch_warning": true
+  },
+  "libssh": {
+    "master": true
+  },
+  "libssh2": {
+    "master": true
+  },
+  "libsvm": {
+    "master": true
+  },
+  "libtar": {
+    "master": true
+  },
+  "libtasn1": {
+    "master": true
+  },
+  "libtheora": {
+    "master": true
+  },
+  "libtiff": {
+    "master": true,
+    "v4.0.10": true
+  },
+  "libtike-cufft": {
+    "master": true
+  },
+  "libtiledb-sql": {
+    "master": true
+  },
+  "libtlx": {
+    "master": true
+  },
+  "libtool": {
+    "master": true
+  },
+  "libudev-cos6-x86_64": {
+    "master": true
+  },
+  "libudev-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libunistring": {
+    "master": true
+  },
+  "libunwind": {
+    "master": true
+  },
+  "libusb": {
+    "master": true
+  },
+  "libusb-compat": {
+    "master": true
+  },
+  "libutf8proc": {
+    "master": true
+  },
+  "libuuid": {
+    "master": true,
+    "v2.32": true
+  },
+  "libuv": {
+    "master": true
+  },
+  "libv8": {
+    "master": true
+  },
+  "libva": {
+    "master": true
+  },
+  "libva-utils": {
+    "master": true
+  },
+  "libvips": {
+    "master": true
+  },
+  "libvorbis": {
+    "master": true
+  },
+  "libwapiti": {
+    "master": true
+  },
+  "libwebp": {
+    "master": true
+  },
+  "libwebsockets": {
+    "master": true
+  },
+  "libxau-cos7-aarch64": {
+    "master": true
+  },
+  "libxc": {
+    "master": true
+  },
+  "libxcb": {
+    "master": true
+  },
+  "libxcomposite-cos7-ppc64le": {
+    "master": true
+  },
+  "libxcursor-cos7-ppc64le": {
+    "master": true
+  },
+  "libxdamage-cos7-aarch64": {
+    "master": true
+  },
+  "libxext-cos7-aarch64": {
+    "master": true
+  },
+  "libxfixes-cos7-aarch64": {
+    "master": true
+  },
+  "libxfoil": {
+    "master": true,
+    "windows": true
+  },
+  "libxkbcommon": {
+    "master": true
+  },
+  "libxkbfile": {
+    "master": true
+  },
+  "libxml2": {
+    "master": true
+  },
+  "libxmlpp": {
+    "master": true
+  },
+  "libxrender-cos7-aarch64": {
+    "master": true
+  },
+  "libxscrnsaver-cos7-ppc64le": {
+    "master": true
+  },
+  "libxshmfence-cos7-aarch64": {
+    "master": true
+  },
+  "libxshmfence-cos7-ppc64le": {
+    "master": true
+  },
+  "libxslt": {
+    "master": true
+  },
+  "libxsmm": {
+    "master": true
+  },
+  "libxt-cos7-ppc64le": {
+    "master": true
+  },
+  "libxtst-cos7-ppc64le": {
+    "master": true
+  },
+  "libxxf86vm-cos7-aarch64": {
+    "master": true
+  },
+  "libxxf86vm-cos7-ppc64le": {
+    "master": true
+  },
+  "libzip": {
+    "master": true
+  },
+  "license-expression": {
+    "master": true
+  },
+  "lief": {
+    "master": true
+  },
+  "lifelines": {
+    "master": true,
+    "CamDavidsonPilon-patch-1": true,
+    "update-req-for-scipy": true
+  },
+  "lightfm": {
+    "master": true
+  },
+  "lightgbm": {
+    "master": true
+  },
+  "lightkurve": {
+    "master": true
+  },
+  "lighttpd": {
+    "master": true
+  },
+  "ligo-common": {
+    "master": true
+  },
+  "ligo-followup-advocate": {
+    "master": true
+  },
+  "ligo-gracedb": {
+    "master": true
+  },
+  "ligo-lvalert": {
+    "master": true
+  },
+  "ligo-raven": {
+    "master": true
+  },
+  "ligo-requests": {
+    "master": true
+  },
+  "ligo-scald": {
+    "master": true,
+    "v0.7.0-1": true
+  },
+  "ligo-segments": {
+    "master": true
+  },
+  "ligo.skymap": {
+    "master": true
   }
 }
