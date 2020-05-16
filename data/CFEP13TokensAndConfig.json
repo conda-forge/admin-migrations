@@ -4481,5 +4481,309 @@
   "esmf": {
     "master": true,
     "dev": true
+  },
+  "esmlab": {
+    "master": true
+  },
+  "esmp": {
+    "master": true
+  },
+  "esmpy": {
+    "master": true
+  },
+  "espei": {
+    "master": true
+  },
+  "esprima-python": {
+    "master": true
+  },
+  "esptool": {
+    "master": true
+  },
+  "esutil": {
+    "master": true
+  },
+  "esys-escript": {
+    "master": true
+  },
+  "et-xmlfile": {
+    "master": true
+  },
+  "et_xmlfile": {
+    "master": true
+  },
+  "etcd": {
+    "master": true,
+    "3.1.x": true,
+    "3.2.x": true
+  },
+  "ete3": {
+    "master": true
+  },
+  "etelemetry": {
+    "master": true
+  },
+  "eulexistdb": {
+    "master": true
+  },
+  "eulxml": {
+    "master": true
+  },
+  "event-model": {
+    "master": true
+  },
+  "eventkit": {
+    "master": true
+  },
+  "eventlet": {
+    "master": true
+  },
+  "events": {
+    "master": true
+  },
+  "everett": {
+    "master": true,
+    "0.9": true
+  },
+  "evv4esm": {
+    "master": true
+  },
+  "exa": {
+    "master": true
+  },
+  "exec-wrappers": {
+    "master": true
+  },
+  "execnet": {
+    "master": true
+  },
+  "executing": {
+    "master": true
+  },
+  "executor": {
+    "master": true
+  },
+  "exempi": {
+    "master": true
+  },
+  "exercism": {
+    "master": true
+  },
+  "exifread": {
+    "master": true
+  },
+  "existdb": {
+    "master": true
+  },
+  "exiv2": {
+    "master": true
+  },
+  "exoplanet": {
+    "master": true
+  },
+  "expat": {
+    "master": true
+  },
+  "expat-cos7-aarch64": {
+    "master": true
+  },
+  "expiringdict": {
+    "master": true
+  },
+  "exrex": {
+    "master": true
+  },
+  "extension-helpers": {
+    "master": true
+  },
+  "extern": {
+    "master": true
+  },
+  "extinction": {
+    "master": true
+  },
+  "extra-cmake-modules": {
+    "master": true
+  },
+  "extras": {
+    "master": true
+  },
+  "ez_setup": {
+    "master": true
+  },
+  "ezc3d": {
+    "master": true
+  },
+  "ezca": {
+    "master": true
+  },
+  "ezdxf": {
+    "master": true,
+    "fix_templates": true
+  },
+  "ezget": {
+    "master": true
+  },
+  "ezodf": {
+    "master": true
+  },
+  "f2c": {
+    "master": true
+  },
+  "f90nml": {
+    "master": true
+  },
+  "fabio": {
+    "master": true
+  },
+  "fabric": {
+    "master": true
+  },
+  "fabric3": {
+    "master": true
+  },
+  "face": {
+    "master": true
+  },
+  "factory_boy": {
+    "master": true
+  },
+  "fair-research-login": {
+    "master": true
+  },
+  "fake-factory": {
+    "master": true
+  },
+  "faker": {
+    "master": true
+  },
+  "fakeredis": {
+    "master": true
+  },
+  "falcon": {
+    "master": true,
+    "v1.4.1": true
+  },
+  "falcon-apispec": {
+    "master": true
+  },
+  "falcon-auth": {
+    "master": true
+  },
+  "falcon-docs": {
+    "master": true
+  },
+  "falcon-require-https": {
+    "master": true
+  },
+  "fancycompleter": {
+    "master": true
+  },
+  "fann2": {
+    "master": true
+  },
+  "fanstatic": {
+    "master": true
+  },
+  "fast-histogram": {
+    "master": true
+  },
+  "fastapi": {
+    "master": true
+  },
+  "fastavro": {
+    "master": true
+  },
+  "fastcache": {
+    "master": true
+  },
+  "fastcluster": {
+    "master": true
+  },
+  "fastdiff": {
+    "master": true
+  },
+  "fastdtw": {
+    "master": true
+  },
+  "fasteners": {
+    "master": true
+  },
+  "fastimport": {
+    "master": true
+  },
+  "fastkml": {
+    "master": true
+  },
+  "fastnumbers": {
+    "master": true
+  },
+  "fastparquet": {
+    "master": true
+  },
+  "fastpca": {
+    "master": true
+  },
+  "fastrlock": {
+    "master": true
+  },
+  "fastscape": {
+    "master": true
+  },
+  "fastscapelib": {
+    "master": true
+  },
+  "fastscapelib-f2py": {
+    "master": true
+  },
+  "fasttext": {
+    "master": true
+  },
+  "fasttsne": {
+    "master": true,
+    "v0.2.15": true
+  },
+  "fatiando": {
+    "master": true,
+    "no-mayavi": true
+  },
+  "fault-localization": {
+    "master": true
+  },
+  "faunus": {
+    "master": true
+  },
+  "fbpca": {
+    "master": true
+  },
+  "fbprophet": {
+    "master": true
+  },
+  "fd-find": {
+    "master": true
+  },
+  "fdb": {
+    "master": true
+  },
+  "fdupes": {
+    "master": true
+  },
+  "feather-format": {
+    "master": true
+  },
+  "featherhelper": {
+    "master": true
+  },
+  "featuretools": {
+    "master": true
+  },
+  "feedfinder2": {
+    "master": true
+  },
+  "feedgenerator": {
+    "master": true
+  },
+  "feedstockrot": {
+    "master": true
   }
 }
