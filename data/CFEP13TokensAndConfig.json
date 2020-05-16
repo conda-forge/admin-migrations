@@ -5170,5 +5170,325 @@
   },
   "flask-restless": {
     "master": true
+  },
+  "flask-restplus": {
+    "master": true
+  },
+  "flask-script": {
+    "master": true
+  },
+  "flask-seasurf": {
+    "master": true
+  },
+  "flask-security": {
+    "master": true
+  },
+  "flask-silk": {
+    "master": true
+  },
+  "flask-smorest": {
+    "master": true
+  },
+  "flask-socketio": {
+    "master": true
+  },
+  "flask-sockets": {
+    "master": true
+  },
+  "flask-sqlalchemy": {
+    "master": true
+  },
+  "flask-swagger": {
+    "master": true
+  },
+  "flask-swagger-ui": {
+    "master": true
+  },
+  "flask-talisman": {
+    "master": true
+  },
+  "flask-testing": {
+    "master": true
+  },
+  "flask-turbolinks": {
+    "master": true
+  },
+  "flask-uploads": {
+    "master": true
+  },
+  "flask-user": {
+    "master": true
+  },
+  "flask-webpack": {
+    "master": true
+  },
+  "flask-wtf": {
+    "master": true
+  },
+  "flask-xml-rpc": {
+    "master": true
+  },
+  "flask_cors": {
+    "master": true
+  },
+  "flask_json": {
+    "master": true
+  },
+  "flask_table": {
+    "master": true
+  },
+  "flatbuffers": {
+    "master": true
+  },
+  "flatten_json": {
+    "master": true
+  },
+  "fletcher": {
+    "master": true
+  },
+  "flex": {
+    "master": true
+  },
+  "flex-swagger": {
+    "master": true
+  },
+  "flexx": {
+    "master": true
+  },
+  "flintqs": {
+    "master": true
+  },
+  "flit": {
+    "master": true
+  },
+  "flit_install_py2": {
+    "master": true
+  },
+  "flo": {
+    "master": true
+  },
+  "flock": {
+    "master": true
+  },
+  "flopy": {
+    "master": true
+  },
+  "flot": {
+    "master": true
+  },
+  "floweaver": {
+    "master": true
+  },
+  "flower": {
+    "master": true
+  },
+  "fltk": {
+    "master": true
+  },
+  "fludashboard": {
+    "master": true
+  },
+  "fluent-logger": {
+    "master": true
+  },
+  "flufl.enum": {
+    "master": true
+  },
+  "flufl.lock": {
+    "master": true
+  },
+  "fluiddyn": {
+    "master": true
+  },
+  "fluidfft": {
+    "master": true
+  },
+  "fluidfoam": {
+    "master": true
+  },
+  "fluidimage": {
+    "master": true
+  },
+  "fluids": {
+    "master": true
+  },
+  "fluidsim": {
+    "master": true
+  },
+  "fluidsynth": {
+    "master": true
+  },
+  "flup": {
+    "master": true
+  },
+  "fmilib": {
+    "master": true
+  },
+  "fmipp": {
+    "master": true
+  },
+  "fml": {
+    "master": true
+  },
+  "fmpy": {
+    "master": true,
+    "fmpy-base-subpackage": true
+  },
+  "fmrib-unpack": {
+    "master": true
+  },
+  "fmt": {
+    "master": true
+  },
+  "foam_ct_phantom": {
+    "master": true
+  },
+  "folium": {
+    "master": true
+  },
+  "font-ttf-dejavu-sans-mono": {
+    "master": true
+  },
+  "font-ttf-inconsolata": {
+    "master": true
+  },
+  "font-ttf-source-code-pro": {
+    "master": true
+  },
+  "font-ttf-ubuntu": {
+    "master": true
+  },
+  "fontconfig": {
+    "master": true,
+    "v2.11": true
+  },
+  "fonts-conda-ecosystem": {
+    "master": true
+  },
+  "fonts-conda-forge": {
+    "master": true
+  },
+  "fonttools": {
+    "master": true
+  },
+  "foonathan-memory": {
+    "master": true
+  },
+  "forest": {
+    "master": true
+  },
+  "forestci": {
+    "master": true
+  },
+  "formencode": {
+    "master": true
+  },
+  "formulas": {
+    "master": true
+  },
+  "fortran-magic": {
+    "master": true
+  },
+  "fortran_kernel": {
+    "master": true
+  },
+  "fortranformat": {
+    "master": true
+  },
+  "fossil": {
+    "master": true
+  },
+  "foundation-sites": {
+    "master": true
+  },
+  "fparser": {
+    "master": true
+  },
+  "fplll": {
+    "master": true
+  },
+  "fpocket": {
+    "master": true
+  },
+  "fpylll": {
+    "master": true
+  },
+  "fpyutils": {
+    "master": true
+  },
+  "fredapi": {
+    "master": true
+  },
+  "freecad": {
+    "master": true
+  },
+  "freediscovery": {
+    "master": true
+  },
+  "freegenes": {
+    "master": true,
+    "add/keoni-maintainer": true
+  },
+  "freeglut": {
+    "master": true
+  },
+  "freeimage": {
+    "master": true
+  },
+  "freetds": {
+    "master": true
+  },
+  "freetype": {
+    "master": true,
+    "v2.6.1": true,
+    "v2.8.x": true,
+    "v2.9.1": true
+  },
+  "freetype-py": {
+    "master": true
+  },
+  "freexl": {
+    "master": true
+  },
+  "freezegun": {
+    "master": true
+  },
+  "fresnel": {
+    "master": true
+  },
+  "fretbursts": {
+    "master": true,
+    "update0.7": true
+  },
+  "freud": {
+    "master": true
+  },
+  "fribidi": {
+    "master": true
+  },
+  "frosted": {
+    "master": true
+  },
+  "frozen-flask": {
+    "master": true
+  },
+  "frozendict": {
+    "master": true
+  },
+  "fs": {
+    "master": true
+  },
+  "fs-gcsfs": {
+    "master": true,
+    "relax-dependencies": true
+  },
+  "fs-s3fs": {
+    "master": true
+  },
+  "fs.sshfs": {
+    "master": true
+  },
+  "fs.webdavfs": {
+    "master": true
   }
 }
