@@ -5791,5 +5791,372 @@
   "geopandas": {
     "master": true,
     "dev": true
+  },
+  "geoplot": {
+    "master": true,
+    "0.2.1": true
+  },
+  "geopy": {
+    "master": true
+  },
+  "georaster": {
+    "master": true
+  },
+  "georasters": {
+    "master": true
+  },
+  "george": {
+    "master": true
+  },
+  "geos": {
+    "master": true,
+    "v3.6.2": true
+  },
+  "geosnap": {
+    "master": true
+  },
+  "geotext": {
+    "master": true
+  },
+  "geotiff": {
+    "master": true,
+    "v1.4.x": true
+  },
+  "geoviews": {
+    "master": true
+  },
+  "gerrychain": {
+    "master": true
+  },
+  "get-docker-secret": {
+    "master": true
+  },
+  "get_version": {
+    "master": true
+  },
+  "gettext": {
+    "master": true
+  },
+  "gevent": {
+    "master": true
+  },
+  "gevent-websocket": {
+    "master": true
+  },
+  "geventhttpclient": {
+    "master": true
+  },
+  "gf2x": {
+    "master": true
+  },
+  "gfal2": {
+    "master": true
+  },
+  "gfan": {
+    "master": true
+  },
+  "gflags": {
+    "master": true
+  },
+  "gfortran_impl_osx-64": {
+    "master": true,
+    "4.8.5": true
+  },
+  "gfortran_osx-64": {
+    "master": true
+  },
+  "ggobi": {
+    "master": true
+  },
+  "ggplot": {
+    "master": true
+  },
+  "ghc": {
+    "master": true,
+    "ghc_8.2.2": true,
+    "ghc_8.4.4": true
+  },
+  "ghc-bootstrap": {
+    "master": true,
+    "revert-3-flags": true
+  },
+  "gherkin-official": {
+    "master": true
+  },
+  "ghost.py": {
+    "master": true
+  },
+  "ghostscript": {
+    "master": true
+  },
+  "ghp-import": {
+    "master": true
+  },
+  "giac": {
+    "master": true
+  },
+  "giddy": {
+    "master": true
+  },
+  "gidgethub": {
+    "master": true
+  },
+  "giflib": {
+    "master": true
+  },
+  "ginga": {
+    "master": true
+  },
+  "gipl": {
+    "master": true
+  },
+  "girder": {
+    "master": true
+  },
+  "girder-client": {
+    "master": true
+  },
+  "git": {
+    "master": true
+  },
+  "git-annex": {
+    "master": true,
+    "rc": true
+  },
+  "git-annex-remote-googledrive": {
+    "master": true
+  },
+  "git-bash": {
+    "master": true
+  },
+  "git-crypt": {
+    "master": true
+  },
+  "git-lfs": {
+    "master": true
+  },
+  "git-secret": {
+    "master": true
+  },
+  "git-sizer": {
+    "master": true
+  },
+  "git_root": {
+    "master": true
+  },
+  "gitdb": {
+    "master": true
+  },
+  "gitdb2": {
+    "master": true
+  },
+  "gitea": {
+    "master": true
+  },
+  "github-ssh-auth": {
+    "master": true
+  },
+  "github-webhook": {
+    "master": true
+  },
+  "github3.py": {
+    "master": true
+  },
+  "gitlab-runner": {
+    "master": true
+  },
+  "gitpython": {
+    "master": true,
+    "1.x": true
+  },
+  "givaro": {
+    "master": true
+  },
+  "giza": {
+    "master": true
+  },
+  "gj2ascii": {
+    "master": true
+  },
+  "gl2ps": {
+    "master": true
+  },
+  "glances": {
+    "master": true
+  },
+  "glew": {
+    "master": true
+  },
+  "glfw": {
+    "master": true
+  },
+  "glib": {
+    "master": true
+  },
+  "glibmm": {
+    "master": true
+  },
+  "glimix-core": {
+    "master": true
+  },
+  "glm": {
+    "master": true
+  },
+  "glmnet": {
+    "master": true
+  },
+  "glmnet_py": {
+    "master": true
+  },
+  "glob2": {
+    "master": true
+  },
+  "globus-cli": {
+    "master": true,
+    "v1.1.2": true
+  },
+  "globus-nexus-client": {
+    "master": true
+  },
+  "globus-sdk": {
+    "master": true,
+    "v1.1.1": true
+  },
+  "glog": {
+    "master": true
+  },
+  "glom": {
+    "master": true
+  },
+  "glpk": {
+    "master": true
+  },
+  "glue-core": {
+    "master": true,
+    "v0.14.0": true,
+    "v0.14.1": true
+  },
+  "glue-geospatial": {
+    "master": true
+  },
+  "glue-vispy-viewers": {
+    "master": true,
+    "0.12.1": true
+  },
+  "glueviz": {
+    "master": true
+  },
+  "glymur": {
+    "master": true,
+    "regro-cf-autotick-bot-0.9.1": true
+  },
+  "gmaps": {
+    "master": true
+  },
+  "gmatelastic": {
+    "master": true
+  },
+  "gmatelastoplastic": {
+    "master": true
+  },
+  "gmatelastoplasticfinitestrainsimo": {
+    "master": true
+  },
+  "gmatelastoplasticqpot": {
+    "master": true
+  },
+  "gmatelastoplasticqpot3d": {
+    "master": true
+  },
+  "gmatnonlinearelastic": {
+    "master": true
+  },
+  "gmp": {
+    "master": true
+  },
+  "gmprocess": {
+    "master": true
+  },
+  "gmpy2": {
+    "master": true
+  },
+  "gmsh": {
+    "master": true
+  },
+  "gmt": {
+    "master": true,
+    "devel": true,
+    "v5.x": true
+  },
+  "gn": {
+    "master": true
+  },
+  "gnuastro": {
+    "master": true
+  },
+  "gnumpy": {
+    "master": true
+  },
+  "gnupg": {
+    "master": true
+  },
+  "gnupg-py": {
+    "master": true
+  },
+  "gnuplot": {
+    "master": true
+  },
+  "gnuradio": {
+    "master": true
+  },
+  "gnureadline": {
+    "master": true
+  },
+  "gnutls": {
+    "master": true
+  },
+  "go": {
+    "master": true,
+    "1.10.x": true,
+    "1.12.x": true,
+    "1.13.x": true,
+    "1.8.x": true,
+    "1.9.x": true
+  },
+  "go-archiver": {
+    "master": true
+  },
+  "go-bindata": {
+    "master": true
+  },
+  "go-bindata-assetfs": {
+    "master": true
+  },
+  "go-dep": {
+    "master": true
+  },
+  "go-glide": {
+    "master": true
+  },
+  "go-gox": {
+    "master": true
+  },
+  "go-spatial": {
+    "master": true
+  },
+  "go-terraform-docs": {
+    "master": true
+  },
+  "go-waitforit": {
+    "master": true
+  },
+  "go1.4-bootstrap": {
+    "master": true
+  },
+  "gobject-introspection": {
+    "master": true
+  },
+  "goftests": {
+    "master": true
   }
 }
