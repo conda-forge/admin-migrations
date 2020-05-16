@@ -6485,5 +6485,296 @@
   },
   "gstlal": {
     "master": true
+  },
+  "gstools": {
+    "master": true
+  },
+  "gstreamer": {
+    "master": true,
+    "backport-1.14.4": true
+  },
+  "gstreamer-orc": {
+    "master": true
+  },
+  "gsw": {
+    "master": true
+  },
+  "gtest": {
+    "master": true
+  },
+  "gtk2": {
+    "master": true
+  },
+  "guardian": {
+    "master": true
+  },
+  "gudhi": {
+    "master": true
+  },
+  "guidata": {
+    "master": true
+  },
+  "guile": {
+    "master": true
+  },
+  "guiqwt": {
+    "master": true,
+    "pin-pyqt4": true
+  },
+  "gulp": {
+    "master": true
+  },
+  "gulp-util": {
+    "master": true
+  },
+  "gulpio": {
+    "master": true
+  },
+  "gunicorn": {
+    "master": true
+  },
+  "gwcelery": {
+    "master": true
+  },
+  "gwcs": {
+    "master": true
+  },
+  "gwdatafind": {
+    "master": true
+  },
+  "gwdetchar": {
+    "master": true
+  },
+  "gwollum": {
+    "master": true
+  },
+  "gwosc": {
+    "master": true
+  },
+  "gwpy": {
+    "master": true
+  },
+  "gwsumm": {
+    "master": true
+  },
+  "gwsurrogate": {
+    "master": true
+  },
+  "gwtools": {
+    "master": true
+  },
+  "gwtrigfind": {
+    "master": true
+  },
+  "gwvet": {
+    "master": true
+  },
+  "gwyfile": {
+    "master": true
+  },
+  "h11": {
+    "master": true
+  },
+  "h2": {
+    "master": true,
+    "h2-2.6.2": true
+  },
+  "h3": {
+    "master": true
+  },
+  "h3-py": {
+    "master": true,
+    "revert-3-remove_patch": true
+  },
+  "h5io": {
+    "master": true
+  },
+  "h5netcdf": {
+    "master": true
+  },
+  "h5pickle": {
+    "master": true
+  },
+  "h5py": {
+    "master": true,
+    "dev": true
+  },
+  "h5utils": {
+    "master": true
+  },
+  "habanero": {
+    "master": true
+  },
+  "hachoir-core": {
+    "master": true
+  },
+  "hachoir-metadata": {
+    "master": true
+  },
+  "hachoir-parser": {
+    "master": true
+  },
+  "hachoir-regex": {
+    "master": true
+  },
+  "hachoir-subfile": {
+    "master": true
+  },
+  "hachoir-urwid": {
+    "master": true
+  },
+  "hachoir-wx": {
+    "master": true
+  },
+  "halide": {
+    "master": true
+  },
+  "halide-python": {
+    "master": true
+  },
+  "halideir": {
+    "master": true
+  },
+  "halotools": {
+    "master": true
+  },
+  "handlebars.js": {
+    "master": true
+  },
+  "handout": {
+    "master": true
+  },
+  "handsontable": {
+    "master": true
+  },
+  "hangar": {
+    "master": true
+  },
+  "hankel": {
+    "master": true
+  },
+  "happy": {
+    "master": true
+  },
+  "happybase": {
+    "master": true
+  },
+  "harfbuzz": {
+    "master": true
+  },
+  "harminv": {
+    "master": true
+  },
+  "hashdeep": {
+    "master": true
+  },
+  "haversine": {
+    "master": true
+  },
+  "hazm": {
+    "master": true
+  },
+  "hcc": {
+    "master": true
+  },
+  "hcephes": {
+    "master": true
+  },
+  "hdbscan": {
+    "master": true
+  },
+  "hdf4": {
+    "master": true
+  },
+  "hdf5": {
+    "master": true,
+    "1.8.18": true,
+    "1.8.19": true,
+    "1.8.20": true,
+    "v1.10.2": true
+  },
+  "hdf5-external-filter-plugins": {
+    "master": true
+  },
+  "hdf5plugin": {
+    "master": true
+  },
+  "hdf5storage": {
+    "master": true
+  },
+  "hdfeos2": {
+    "master": true
+  },
+  "hdfeos5": {
+    "master": true
+  },
+  "hdfs3": {
+    "master": true
+  },
+  "hdijupyterutils": {
+    "master": true
+  },
+  "hdmedians": {
+    "master": true,
+    "py3.7": true
+  },
+  "hdmf": {
+    "master": true
+  },
+  "healpix_cxx": {
+    "master": true
+  },
+  "healpy": {
+    "master": true
+  },
+  "heapdict": {
+    "master": true
+  },
+  "helics": {
+    "master": true
+  },
+  "heliopy": {
+    "master": true
+  },
+  "help2man": {
+    "master": true
+  },
+  "helper": {
+    "master": true
+  },
+  "helpme": {
+    "master": true
+  },
+  "hendrics": {
+    "master": true
+  },
+  "hep_ml": {
+    "master": true
+  },
+  "hepmc2": {
+    "master": true,
+    "gartung-remove-macossdk": true
+  },
+  "hepmc3": {
+    "master": true
+  },
+  "heudiconv": {
+    "master": true
+  },
+  "hexer": {
+    "master": true
+  },
+  "hexyl": {
+    "master": true
+  },
+  "hg-evolve": {
+    "master": true
+  },
+  "hg-git": {
+    "master": true
+  },
+  "hickle": {
+    "master": true,
+    "hickle_3.3.3_patch": true
   }
 }
