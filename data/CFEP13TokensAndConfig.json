@@ -10361,5 +10361,261 @@
   },
   "mpltern": {
     "master": true
+  },
+  "mplview": {
+    "master": true
+  },
+  "mpmath": {
+    "master": true
+  },
+  "mppp": {
+    "master": true,
+    "0.11_reloaded": true
+  },
+  "mputil": {
+    "master": true
+  },
+  "mr.bob": {
+    "master": true
+  },
+  "mrcfile": {
+    "master": true
+  },
+  "mrcz": {
+    "master": true,
+    "revert-9-rebuild-python38-0-1": true
+  },
+  "mrjob": {
+    "master": true
+  },
+  "msal": {
+    "master": true
+  },
+  "msal_extensions": {
+    "master": true
+  },
+  "mscorefonts": {
+    "master": true
+  },
+  "msdnet": {
+    "master": true
+  },
+  "msg-extractor": {
+    "master": true
+  },
+  "msgpack-c": {
+    "master": true
+  },
+  "msgpack-numpy": {
+    "master": true
+  },
+  "msgpack-python": {
+    "master": true
+  },
+  "mshr": {
+    "master": true
+  },
+  "msinttypes": {
+    "master": true
+  },
+  "msitools": {
+    "master": true
+  },
+  "msmbuilder": {
+    "master": true
+  },
+  "msmtools": {
+    "master": true
+  },
+  "msnoise": {
+    "master": true
+  },
+  "msprime": {
+    "master": true
+  },
+  "msrest": {
+    "master": true
+  },
+  "msrestazure": {
+    "master": true
+  },
+  "mss": {
+    "master": true
+  },
+  "msumastro": {
+    "master": true
+  },
+  "mtspec": {
+    "master": true
+  },
+  "mu_repo": {
+    "master": true
+  },
+  "multi-mechanize": {
+    "master": true
+  },
+  "multi_key_dict": {
+    "master": true
+  },
+  "multicore-tsne": {
+    "master": true
+  },
+  "multidict": {
+    "master": true
+  },
+  "multineat": {
+    "master": true
+  },
+  "multinest": {
+    "master": true
+  },
+  "multio": {
+    "master": true
+  },
+  "multiping": {
+    "master": true
+  },
+  "multipledispatch": {
+    "master": true
+  },
+  "multiprocess": {
+    "master": true
+  },
+  "multiset": {
+    "master": true
+  },
+  "multisplitby": {
+    "master": true
+  },
+  "mumps": {
+    "master": true,
+    "mumps-mpi": true
+  },
+  "munch": {
+    "master": true
+  },
+  "munge": {
+    "master": true
+  },
+  "munkres": {
+    "master": true
+  },
+  "muparser": {
+    "master": true
+  },
+  "murmurhash": {
+    "master": true,
+    "v0.28.0": true
+  },
+  "murphy": {
+    "master": true
+  },
+  "musdb": {
+    "master": true
+  },
+  "museval": {
+    "master": true
+  },
+  "mutagen": {
+    "master": true
+  },
+  "mutatest": {
+    "master": true
+  },
+  "mv_regex": {
+    "master": true
+  },
+  "mwclient": {
+    "master": true
+  },
+  "mycli": {
+    "master": true
+  },
+  "myproxyclient": {
+    "master": true
+  },
+  "mypy": {
+    "master": true
+  },
+  "mypy_extensions": {
+    "master": true
+  },
+  "mysql": {
+    "master": true
+  },
+  "mysql-connector-c": {
+    "master": true
+  },
+  "mysql-connector-cpp": {
+    "master": true
+  },
+  "mysql-connector-python": {
+    "master": true,
+    "synapticarbors-patch-1": true
+  },
+  "mysqlclient": {
+    "master": true
+  },
+  "myst-parser": {
+    "v0.8.0": true,
+    "v0.8.0-release": true,
+    "version-0.6": true,
+    "version-0.7.1": true
+  },
+  "naima": {
+    "master": true
+  },
+  "namaster": {
+    "master": true
+  },
+  "namedlist": {
+    "master": true
+  },
+  "nameparser": {
+    "master": true
+  },
+  "nano": {
+    "master": true
+  },
+  "nanoflann": {
+    "master": true
+  },
+  "nanotime": {
+    "master": true
+  },
+  "nansat": {
+    "master": true
+  },
+  "nappy": {
+    "master": true
+  },
+  "nasm": {
+    "master": true,
+    "v2.11": true
+  },
+  "natsort": {
+    "master": true
+  },
+  "nauty": {
+    "master": true
+  },
+  "nb2plots": {
+    "master": true
+  },
+  "nb_anacondacloud": {
+    "master": true,
+    "rerender": true
+  },
+  "nb_black": {
+    "master": true
+  },
+  "nb_conda": {
+    "master": true
+  },
+  "nb_conda_kernels": {
+    "master": true
+  },
+  "nbbrowserpdf": {
+    "master": true
   }
 }
