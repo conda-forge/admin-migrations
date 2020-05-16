@@ -9506,5 +9506,308 @@
   },
   "luhn": {
     "master": true
+  },
+  "luigi": {
+    "master": true
+  },
+  "lume-astra": {
+    "master": true
+  },
+  "lume-genesis": {
+    "master": true
+  },
+  "lume-impact": {
+    "master": true
+  },
+  "lumicks.pylake": {
+    "master": true
+  },
+  "lunardate": {
+    "master": true
+  },
+  "lunr": {
+    "master": true
+  },
+  "lxml": {
+    "master": true
+  },
+  "lxqt-build-tools": {
+    "master": true
+  },
+  "lynx": {
+    "master": true
+  },
+  "lyricsmaster": {
+    "master": true
+  },
+  "lz4": {
+    "master": true
+  },
+  "lz4-c": {
+    "master": true
+  },
+  "lzfse": {
+    "master": true
+  },
+  "lzip": {
+    "master": true
+  },
+  "lzo": {
+    "master": true
+  },
+  "lzop": {
+    "master": true
+  },
+  "lzstring": {
+    "master": true
+  },
+  "m2crypto": {
+    "master": true
+  },
+  "m2r": {
+    "master": true
+  },
+  "m2w64-muparser": {
+    "master": true
+  },
+  "m4": {
+    "master": true
+  },
+  "m4ri": {
+    "master": true
+  },
+  "m4rie": {
+    "master": true
+  },
+  "macfsevents": {
+    "master": true
+  },
+  "machine-learning-py": {
+    "master": true
+  },
+  "macholib": {
+    "master": true
+  },
+  "macropy3": {
+    "master": true
+  },
+  "mad": {
+    "master": true
+  },
+  "maestral": {
+    "master": true,
+    "tschoonj-patch-1": true
+  },
+  "magic-wormhole": {
+    "master": true
+  },
+  "magics": {
+    "master": true
+  },
+  "magics-metview": {
+    "master": true
+  },
+  "magics-metview-batch": {
+    "master": true
+  },
+  "magics-python": {
+    "master": true
+  },
+  "magpylib": {
+    "master": true
+  },
+  "mahotas": {
+    "master": true
+  },
+  "mailer": {
+    "master": true
+  },
+  "make": {
+    "master": true
+  },
+  "makedepf90": {
+    "master": true
+  },
+  "mako": {
+    "master": true
+  },
+  "mamba": {
+    "master": true,
+    "0_0_10": true
+  },
+  "mando": {
+    "master": true
+  },
+  "mantichora": {
+    "master": true
+  },
+  "mapbox-vector-tile": {
+    "master": true
+  },
+  "mapboxgl": {
+    "master": true
+  },
+  "mapclassify": {
+    "master": true
+  },
+  "mapio": {
+    "master": true,
+    "mhearne-usgs-patch-1": true,
+    "revert-32-v0725": true
+  },
+  "mapkit": {
+    "master": true
+  },
+  "marbles": {
+    "master": true,
+    "0.9.5": true
+  },
+  "marbles-core": {
+    "master": true
+  },
+  "marbles-mixins": {
+    "master": true,
+    "0.9.5": true
+  },
+  "markdown": {
+    "master": true,
+    "2.6.7": true
+  },
+  "markdown-checklist": {
+    "master": true
+  },
+  "markdown-kernel": {
+    "master": true
+  },
+  "markdown2": {
+    "master": true
+  },
+  "markdown_strings": {
+    "master": true
+  },
+  "markov_draftjs": {
+    "master": true
+  },
+  "markovify": {
+    "master": true
+  },
+  "markuppy": {
+    "master": true
+  },
+  "markupsafe": {
+    "master": true
+  },
+  "marray": {
+    "master": true
+  },
+  "marshmallow": {
+    "master": true,
+    "2.19.5": true,
+    "2.x": true
+  },
+  "marshmallow-enum": {
+    "master": true
+  },
+  "marshmallow-jsonapi": {
+    "master": true
+  },
+  "marshmallow-oneofschema": {
+    "master": true
+  },
+  "marshmallow-sqlalchemy": {
+    "master": true
+  },
+  "marstime": {
+    "master": true
+  },
+  "marxs": {
+    "master": true
+  },
+  "mastodon.py": {
+    "master": true
+  },
+  "matchpy": {
+    "master": true
+  },
+  "material-design-lite": {
+    "master": true
+  },
+  "mathjax": {
+    "master": true
+  },
+  "matminer": {
+    "master": true
+  },
+  "matplotcheck": {
+    "master": true
+  },
+  "matplotlib": {
+    "master": true,
+    "matplotlib_1": true,
+    "rc": true,
+    "testing": true,
+    "v2.1.x": true,
+    "v2.2.x": true
+  },
+  "matplotlib-scalebar": {
+    "master": true
+  },
+  "matplotlib-venn": {
+    "master": true
+  },
+  "matplotlib2tikz": {
+    "master": true
+  },
+  "matplotlibhelper": {
+    "master": true
+  },
+  "matrix_client": {
+    "master": true
+  },
+  "maup": {
+    "master": true
+  },
+  "maven": {
+    "master": true
+  },
+  "maxima": {
+    "master": true
+  },
+  "maxrect": {
+    "master": true
+  },
+  "maya": {
+    "master": true
+  },
+  "mayavi": {
+    "master": true
+  },
+  "mbutil": {
+    "master": true
+  },
+  "mccabe": {
+    "master": true
+  },
+  "mcerp": {
+    "master": true
+  },
+  "md-toc": {
+    "master": true
+  },
+  "mdanalysis": {
+    "master": true
+  },
+  "mdanalysisdata": {
+    "master": true
+  },
+  "mdanalysistests": {
+    "master": true
+  },
+  "mdbenchmark": {
+    "master": true,
+    "prerelease": true
+  },
+  "mdf_forge": {
+    "master": true
   }
 }
