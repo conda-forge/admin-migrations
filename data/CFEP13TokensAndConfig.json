@@ -9268,5 +9268,243 @@
   },
   "ligo.skymap": {
     "master": true
+  },
+  "ligotimegps": {
+    "master": true
+  },
+  "ligotools": {
+    "master": true
+  },
+  "liknorm": {
+    "master": true
+  },
+  "liknorm-py": {
+    "master": true
+  },
+  "lime": {
+    "master": true
+  },
+  "limix": {
+    "master": true
+  },
+  "limix-core": {
+    "master": true
+  },
+  "limix-inference": {
+    "master": true
+  },
+  "limix-legacy": {
+    "master": true
+  },
+  "limix-plot": {
+    "master": true
+  },
+  "linbox": {
+    "master": true
+  },
+  "line_profiler": {
+    "master": true
+  },
+  "linear-tsv": {
+    "master": true
+  },
+  "linecache2": {
+    "master": true
+  },
+  "linetools": {
+    "master": true
+  },
+  "link-traits": {
+    "master": true
+  },
+  "lintegrate": {
+    "master": true
+  },
+  "lintel": {
+    "master": true
+  },
+  "linux-sysroot": {
+    "master": true
+  },
+  "liquidprompt": {
+    "master": true
+  },
+  "litereval": {
+    "master": true,
+    "kiwi0fruit-patch-1": true
+  },
+  "littleutils": {
+    "master": true
+  },
+  "livereload": {
+    "master": true
+  },
+  "livvkit": {
+    "master": true
+  },
+  "livy-submit": {
+    "master": true
+  },
+  "lld": {
+    "master": true,
+    "6.x": true
+  },
+  "lldb": {
+    "master": true
+  },
+  "llvm-meta": {
+    "master": true
+  },
+  "llvm-spirv": {
+    "master": true
+  },
+  "llvmdev": {
+    "master": true,
+    "4.x": true,
+    "5.x": true,
+    "6.x": true,
+    "9.x": true
+  },
+  "llvmlite": {
+    "master": true
+  },
+  "lmdb": {
+    "master": true
+  },
+  "lmfit": {
+    "master": true,
+    "0.8.3": true,
+    "0.9.5": true,
+    "0.9.9": true
+  },
+  "lml": {
+    "master": true,
+    "williamjamir-patch-1": true
+  },
+  "lmod": {
+    "master": true
+  },
+  "localstack": {
+    "master": true,
+    "revert-14-rebuild-pypy-0-1": true
+  },
+  "localstack-client": {
+    "master": true
+  },
+  "localstack-ext": {
+    "master": true
+  },
+  "locket": {
+    "master": true
+  },
+  "lockfile": {
+    "master": true
+  },
+  "locust": {
+    "master": true
+  },
+  "lodash": {
+    "master": true
+  },
+  "log4cpp": {
+    "master": true
+  },
+  "log4cxx": {
+    "master": true
+  },
+  "logbook": {
+    "master": true
+  },
+  "logging-helpers": {
+    "master": true
+  },
+  "logging_exceptions": {
+    "master": true
+  },
+  "loghub": {
+    "master": true
+  },
+  "logilab-common": {
+    "master": true
+  },
+  "logmuse": {
+    "master": true
+  },
+  "loguru": {
+    "master": true
+  },
+  "logzero": {
+    "master": true
+  },
+  "loky": {
+    "master": true
+  },
+  "loompy": {
+    "master": true
+  },
+  "lorem": {
+    "master": true
+  },
+  "louvain": {
+    "master": true
+  },
+  "lp_solve": {
+    "master": true
+  },
+  "lpsolve55": {
+    "master": true
+  },
+  "lrcalc": {
+    "master": true
+  },
+  "lrslib": {
+    "master": true
+  },
+  "lscsoft-glue": {
+    "master": true
+  },
+  "lsof": {
+    "master": true
+  },
+  "lsst-dd-rtd-theme": {
+    "master": true
+  },
+  "lsst-documenteer": {
+    "master": true
+  },
+  "lsst-sphinx-bootstrap-theme": {
+    "master": true
+  },
+  "lsst_dashboard": {
+    "master": true
+  },
+  "lsstdesc.coord": {
+    "master": true
+  },
+  "lsstdesc.weaklensingdeblending": {
+    "master": true
+  },
+  "ltl": {
+    "master": true
+  },
+  "lua": {
+    "master": true,
+    "5.1": true,
+    "5.2": true
+  },
+  "lua-luafilesystem": {
+    "master": true
+  },
+  "lua-luaposix": {
+    "master": true
+  },
+  "luajit": {
+    "master": true
+  },
+  "luarocks": {
+    "master": true
+  },
+  "luhn": {
+    "master": true
   }
 }
