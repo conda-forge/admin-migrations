@@ -10092,5 +10092,274 @@
   },
   "mlpack": {
     "master": true
+  },
+  "mlt": {
+    "master": true
+  },
+  "mlxtend": {
+    "master": true,
+    "0.16-dlib": true,
+    "bumpversion": true,
+    "v0.10.0": true,
+    "v0.11.0": true,
+    "v0.9.1": true
+  },
+  "mmh3": {
+    "master": true
+  },
+  "mms-python-client": {
+    "master": true
+  },
+  "mmtf-python": {
+    "master": true
+  },
+  "mmvec": {
+    "master": true,
+    "fix-pandas": true,
+    "revert-2-master": true
+  },
+  "mne": {
+    "master": true,
+    "christianbrodbeck-patch-1": true,
+    "pin-traitsui": true
+  },
+  "mne-bids": {
+    "master": true
+  },
+  "mnelab": {
+    "master": true
+  },
+  "mnist": {
+    "master": true
+  },
+  "mo-future": {
+    "master": true
+  },
+  "mo_pack": {
+    "master": true
+  },
+  "moab": {
+    "master": true,
+    "vijaysm-mbpart": true,
+    "vijaysm/5.1.0": true
+  },
+  "mock": {
+    "master": true,
+    "v1.0.1": true,
+    "v1.3.0": true
+  },
+  "mockextras": {
+    "master": true
+  },
+  "mockredispy": {
+    "master": true
+  },
+  "mockupdb": {
+    "master": true
+  },
+  "mocsy": {
+    "master": true
+  },
+  "model_metadata": {
+    "master": true
+  },
+  "modepy": {
+    "master": true
+  },
+  "moderngl": {
+    "master": true
+  },
+  "modernize": {
+    "master": true
+  },
+  "modestpy": {
+    "master": true
+  },
+  "modflow2netcdf": {
+    "master": true
+  },
+  "modsecurity": {
+    "master": true
+  },
+  "modulegraph": {
+    "master": true
+  },
+  "moldyn-clustering": {
+    "master": true
+  },
+  "molecule": {
+    "master": true
+  },
+  "molmod": {
+    "master": true
+  },
+  "molpx": {
+    "master": true
+  },
+  "molvs": {
+    "master": true
+  },
+  "moment": {
+    "master": true
+  },
+  "momepy": {
+    "master": true
+  },
+  "monetdblite": {
+    "master": true
+  },
+  "mongo-tools": {
+    "master": true,
+    "3.6.x": true
+  },
+  "mongoengine": {
+    "master": true
+  },
+  "mongomock": {
+    "master": true
+  },
+  "mongoose": {
+    "master": true
+  },
+  "mongoquery": {
+    "master": true
+  },
+  "monkeytype": {
+    "master": true
+  },
+  "mono": {
+    "master": true
+  },
+  "monotonic": {
+    "master": true
+  },
+  "monty": {
+    "master": true
+  },
+  "moola": {
+    "master": true
+  },
+  "mord": {
+    "master": true
+  },
+  "mordred": {
+    "master": true,
+    "mordred": true
+  },
+  "more-itertools": {
+    "master": true
+  },
+  "more.forwarded": {
+    "master": true
+  },
+  "more.pathtool": {
+    "master": true
+  },
+  "more.static": {
+    "master": true
+  },
+  "morepath": {
+    "master": true
+  },
+  "morfessor": {
+    "master": true
+  },
+  "morphsnakes": {
+    "master": true
+  },
+  "mosestokenizer": {
+    "master": true
+  },
+  "mosfit": {
+    "master": true
+  },
+  "mosh": {
+    "master": true
+  },
+  "moto": {
+    "master": true
+  },
+  "motor": {
+    "master": true
+  },
+  "moviepy": {
+    "master": true
+  },
+  "movingpandas": {
+    "master": true,
+    "v0.2": true,
+    "v0.3": true
+  },
+  "moz-sql-parser": {
+    "master": true
+  },
+  "mpas-analysis": {
+    "master": true
+  },
+  "mpas_tools": {
+    "master": true,
+    "libnetcdf_4.6.2": true
+  },
+  "mpb": {
+    "master": true
+  },
+  "mpc": {
+    "master": true
+  },
+  "mpfi": {
+    "master": true
+  },
+  "mpfr": {
+    "master": true
+  },
+  "mpg123": {
+    "master": true
+  },
+  "mpi": {
+    "master": true
+  },
+  "mpi4py": {
+    "master": true
+  },
+  "mpi4py-fft": {
+    "master": true
+  },
+  "mpich": {
+    "master": true
+  },
+  "mpifft4py": {
+    "master": true,
+    "mikaem-bump-3": true
+  },
+  "mpiplus": {
+    "master": true
+  },
+  "mpir": {
+    "master": true,
+    "dev": true
+  },
+  "mpl-probscale": {
+    "master": true
+  },
+  "mpl-scatter-density": {
+    "master": true
+  },
+  "mplcursors": {
+    "master": true
+  },
+  "mpld3": {
+    "master": true
+  },
+  "mplexporter": {
+    "master": true
+  },
+  "mplleaflet": {
+    "master": true
+  },
+  "mplt": {
+    "master": true
+  },
+  "mpltern": {
+    "master": true
   }
 }
