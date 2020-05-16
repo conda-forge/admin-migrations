@@ -2878,5 +2878,412 @@
   },
   "cson": {
     "master": true
+  },
+  "cspice": {
+    "master": true
+  },
+  "cssmin": {
+    "master": true
+  },
+  "cssselect": {
+    "master": true
+  },
+  "cssselect2": {
+    "master": true
+  },
+  "cssutils": {
+    "master": true
+  },
+  "csvkit": {
+    "master": true
+  },
+  "ctags": {
+    "master": true
+  },
+  "ctd": {
+    "master": true
+  },
+  "ctdopts": {
+    "master": true
+  },
+  "ctds": {
+    "master": true
+  },
+  "ctk-cli": {
+    "master": true
+  },
+  "ctng-compiler-activation": {
+    "master": true
+  },
+  "ctng-compilers": {
+    "master": true,
+    "libgcc-and-libstdcxx-9": true
+  },
+  "cudatoolkit-dev": {
+    "master": true
+  },
+  "cunit": {
+    "master": true
+  },
+  "cupy": {
+    "master": true,
+    "v6": true,
+    "v7.3.0": true
+  },
+  "curio": {
+    "master": true
+  },
+  "curl": {
+    "master": true,
+    "v7.59.x": true,
+    "v7.64": true
+  },
+  "custodian": {
+    "master": true
+  },
+  "custom-inherit": {
+    "master": true
+  },
+  "cvloop": {
+    "master": true
+  },
+  "cvxopt": {
+    "master": true
+  },
+  "cvxpy": {
+    "master": true
+  },
+  "cw-eval": {
+    "master": true
+  },
+  "cwinpy": {
+    "master": true
+  },
+  "cwl_runner": {
+    "master": true
+  },
+  "cwltool": {
+    "master": true
+  },
+  "cx_freeze": {
+    "master": true
+  },
+  "cx_oracle": {
+    "master": true
+  },
+  "cxxfilt": {
+    "master": true
+  },
+  "cxxopts": {
+    "master": true
+  },
+  "cxxtest": {
+    "master": true
+  },
+  "cyan": {
+    "master": true
+  },
+  "cyarray": {
+    "master": true
+  },
+  "cyavro": {
+    "master": true,
+    "update": true
+  },
+  "cyberpandas": {
+    "master": true
+  },
+  "cybuffer": {
+    "master": true
+  },
+  "cycamore": {
+    "master": true,
+    "1.5.4": true
+  },
+  "cycler": {
+    "master": true
+  },
+  "cyclus": {
+    "master": true
+  },
+  "cyclus-build-deps": {
+    "master": true,
+    "readme-add-katy": true
+  },
+  "cyclus-d3ploy": {
+    "master": true
+  },
+  "cyflann": {
+    "master": true
+  },
+  "cygrid": {
+    "master": true
+  },
+  "cyipopt": {
+    "master": true,
+    "osx-clang": true
+  },
+  "cykdtree": {
+    "master": true
+  },
+  "cylc-flow": {
+    "master": true
+  },
+  "cylc-uiserver": {
+    "master": true
+  },
+  "cymem": {
+    "master": true
+  },
+  "cymetric": {
+    "master": true
+  },
+  "cyminmax": {
+    "master": true
+  },
+  "cymysql": {
+    "master": true
+  },
+  "cyordereddict": {
+    "master": true
+  },
+  "cypari2": {
+    "master": true
+  },
+  "cyrus-sasl": {
+    "master": true
+  },
+  "cysgp4": {
+    "master": true
+  },
+  "cysignals": {
+    "master": true
+  },
+  "cython": {
+    "master": true,
+    "0.23": true
+  },
+  "cython-blis": {
+    "master": true
+  },
+  "cython-fortran-file": {
+    "master": true
+  },
+  "cythongsl": {
+    "master": true
+  },
+  "cytominer_database": {
+    "master": true
+  },
+  "cytoolz": {
+    "master": true
+  },
+  "cyvlfeat": {
+    "master": true
+  },
+  "czmq": {
+    "master": true
+  },
+  "d2to1": {
+    "master": true
+  },
+  "d3": {
+    "master": true
+  },
+  "daetk": {
+    "master": true
+  },
+  "dagmc": {
+    "master": true
+  },
+  "dagster": {
+    "master": true
+  },
+  "dagster_pagerduty": {
+    "master": true
+  },
+  "dakota": {
+    "master": true
+  },
+  "darglint": {
+    "master": true
+  },
+  "dash": {
+    "master": true,
+    "moorepants-patch-1": true
+  },
+  "dash-bootstrap-components": {
+    "master": true
+  },
+  "dash-core-components": {
+    "master": true,
+    "moorepants-patch-1": true
+  },
+  "dash-coreui-components": {
+    "master": true
+  },
+  "dash-daq": {
+    "master": true,
+    "pr-13": true
+  },
+  "dash-html-components": {
+    "master": true
+  },
+  "dash-renderer": {
+    "master": true
+  },
+  "dash-table": {
+    "master": true
+  },
+  "dash_cytoscape": {
+    "master": true
+  },
+  "dask": {
+    "master": true
+  },
+  "dask-cloudprovider": {
+    "master": true
+  },
+  "dask-core": {
+    "master": true
+  },
+  "dask-distance": {
+    "master": true
+  },
+  "dask-drmaa": {
+    "master": true
+  },
+  "dask-funk": {
+    "master": true
+  },
+  "dask-gateway": {
+    "master": true
+  },
+  "dask-geomodeling": {
+    "master": true
+  },
+  "dask-glm": {
+    "master": true
+  },
+  "dask-image": {
+    "master": true
+  },
+  "dask-jobqueue": {
+    "master": true,
+    "0.7.1": true
+  },
+  "dask-kubernetes": {
+    "master": true
+  },
+  "dask-memusage": {
+    "master": true
+  },
+  "dask-ml": {
+    "master": true
+  },
+  "dask-mpi": {
+    "master": true
+  },
+  "dask-searchcv": {
+    "master": true
+  },
+  "dask-sphinx-theme": {
+    "master": true
+  },
+  "dask-tensorflow": {
+    "master": true
+  },
+  "dask-xgboost": {
+    "master": true
+  },
+  "dask-yarn": {
+    "master": true
+  },
+  "dask_labextension": {
+    "master": true,
+    "v0.3.1": true
+  },
+  "databases": {
+    "master": true
+  },
+  "databricks-cli": {
+    "master": true
+  },
+  "databroker": {
+    "master": true
+  },
+  "databroker-elasticsearch": {
+    "master": true
+  },
+  "datacache": {
+    "master": true
+  },
+  "dataclasses": {
+    "master": true
+  },
+  "datacompy": {
+    "master": true
+  },
+  "datacube": {
+    "master": true
+  },
+  "datadog": {
+    "master": true
+  },
+  "datadotworld-py": {
+    "master": true
+  },
+  "datajoint": {
+    "master": true,
+    "update-reqs": true
+  },
+  "datalad": {
+    "master": true,
+    "rc": true
+  },
+  "datalad-container": {
+    "master": true
+  },
+  "datamash": {
+    "master": true
+  },
+  "datamodeldict": {
+    "master": true
+  },
+  "datamountaineer-schemaregistry": {
+    "master": true
+  },
+  "datapackage": {
+    "master": true
+  },
+  "datarobot": {
+    "master": true,
+    "v2.11": true,
+    "v2.12": true,
+    "v2.13": true
+  },
+  "datashader": {
+    "master": true
+  },
+  "datashape": {
+    "master": true
+  },
+  "datatables": {
+    "master": true
+  },
+  "datefudge": {
+    "master": true
+  },
+  "dateparser": {
+    "master": true
+  },
+  "dateutils": {
+    "master": true
+  },
+  "datreant": {
+    "master": true
+  },
+  "datrie": {
+    "master": true
   }
 }
