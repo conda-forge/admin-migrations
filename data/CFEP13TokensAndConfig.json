@@ -8653,5 +8653,313 @@
   "libarchive": {
     "master": true,
     "revert-28-rebuildopenssl": true
+  },
+  "libass": {
+    "master": true
+  },
+  "libassuan": {
+    "master": true
+  },
+  "libatomic_ops": {
+    "master": true
+  },
+  "libblitz": {
+    "master": true,
+    "amir": true
+  },
+  "libbraiding": {
+    "master": true
+  },
+  "libcanberra": {
+    "master": true
+  },
+  "libcap": {
+    "master": true
+  },
+  "libcdms": {
+    "master": true
+  },
+  "libcf": {
+    "master": true
+  },
+  "libcflib": {
+    "master": true
+  },
+  "libcmaes": {
+    "master": true
+  },
+  "libcomcat": {
+    "master": true,
+    "revert-38-fionafix": true
+  },
+  "libconfig": {
+    "master": true
+  },
+  "libcroco": {
+    "master": true
+  },
+  "libctl": {
+    "master": true
+  },
+  "libcups": {
+    "master": true
+  },
+  "libcxx": {
+    "master": true,
+    "5.x": true,
+    "6.x": true
+  },
+  "libcxxwrap-julia": {
+    "master": true
+  },
+  "libdap4": {
+    "master": true
+  },
+  "libdb": {
+    "master": true
+  },
+  "libdeflate": {
+    "master": true
+  },
+  "libdiffpy": {
+    "master": true
+  },
+  "libdrm": {
+    "master": true
+  },
+  "libdrm-cos7-aarch64": {
+    "master": true
+  },
+  "libdrm-cos7-ppc64le": {
+    "master": true
+  },
+  "libdrs": {
+    "master": true,
+    "2.12": true,
+    "revert-4-3.0": true,
+    "revert-8-v3.0.1": true
+  },
+  "libdrs_f": {
+    "master": true
+  },
+  "libedit": {
+    "master": true
+  },
+  "libev": {
+    "master": true
+  },
+  "libevent": {
+    "master": true
+  },
+  "libexif": {
+    "master": true
+  },
+  "libfaketime": {
+    "master": true
+  },
+  "libffi": {
+    "master": true
+  },
+  "libflac": {
+    "master": true
+  },
+  "libflint": {
+    "master": true
+  },
+  "libframe": {
+    "master": true
+  },
+  "libgap": {
+    "master": true
+  },
+  "libgcrypt": {
+    "master": true
+  },
+  "libgd": {
+    "master": true
+  },
+  "libgdsii": {
+    "master": true
+  },
+  "libgfortran": {
+    "master": true
+  },
+  "libgit2": {
+    "master": true
+  },
+  "libglu": {
+    "master": true
+  },
+  "libglvnd-cos7-aarch64": {
+    "master": true
+  },
+  "libglvnd-cos7-ppc64le": {
+    "master": true
+  },
+  "libglvnd-glx-cos7-aarch64": {
+    "master": true
+  },
+  "libglvnd-glx-cos7-ppc64le": {
+    "master": true
+  },
+  "libgpg-error": {
+    "master": true
+  },
+  "libgpuarray": {
+    "master": true
+  },
+  "libgsasl": {
+    "master": true
+  },
+  "libgsf": {
+    "master": true
+  },
+  "libhdfs3": {
+    "master": true,
+    "backport-v2.2.31": true
+  },
+  "libhomfly": {
+    "master": true
+  },
+  "libhwloc": {
+    "master": true,
+    "1.11.x": true
+  },
+  "libibcm-cos6-x86_64": {
+    "master": true
+  },
+  "libibcm-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libibverbs-cos6-x86_64": {
+    "master": true
+  },
+  "libibverbs-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libical": {
+    "master": true
+  },
+  "libice-cos7-ppc64le": {
+    "master": true
+  },
+  "libiconv": {
+    "master": true
+  },
+  "libidn11": {
+    "master": true
+  },
+  "libidn2": {
+    "master": true
+  },
+  "libignition-cmake0": {
+    "master": true,
+    "v0.6.1": true
+  },
+  "libignition-common": {
+    "master": true
+  },
+  "libignition-fuel-tools": {
+    "master": true
+  },
+  "libignition-math4": {
+    "master": true,
+    "v4.0.0": true
+  },
+  "libignition-msgs1": {
+    "master": true,
+    "v1.0.0": true
+  },
+  "libignition-tools": {
+    "master": true,
+    "v0.2.x": true
+  },
+  "libignition-transport4": {
+    "master": true
+  },
+  "libint": {
+    "master": true
+  },
+  "libitk": {
+    "master": true,
+    "4.13": true
+  },
+  "libjpeg-turbo": {
+    "master": true
+  },
+  "libkml": {
+    "master": true
+  },
+  "libksba": {
+    "master": true
+  },
+  "liblbfgs": {
+    "master": true
+  },
+  "libmad": {
+    "master": true
+  },
+  "libmagic": {
+    "master": true
+  },
+  "libmatio": {
+    "master": true
+  },
+  "libmed": {
+    "master": true
+  },
+  "libmemcached": {
+    "master": true
+  },
+  "libmo_unpack": {
+    "master": true
+  },
+  "libnetcdf": {
+    "master": true,
+    "v4.4.x": true,
+    "v4.6.x": true
+  },
+  "libneuroml": {
+    "master": true
+  },
+  "libnl": {
+    "master": true
+  },
+  "libnl-cos6-x86_64": {
+    "master": true
+  },
+  "libnl-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libntlm": {
+    "master": true
+  },
+  "libobjcryst": {
+    "master": true
+  },
+  "libode": {
+    "master": true
+  },
+  "libogg": {
+    "master": true
+  },
+  "libopusenc": {
+    "master": true
+  },
+  "libosxunwind": {
+    "master": true
+  },
+  "libpcap": {
+    "master": true
+  },
+  "libpciaccess": {
+    "master": true
+  },
+  "libpgmath": {
+    "master": true
+  },
+  "libpng": {
+    "master": true,
+    "v1.6.34": true
   }
 }
