@@ -3285,5 +3285,436 @@
   },
   "datrie": {
     "master": true
+  },
+  "datumgrid": {
+    "master": true
+  },
+  "dave": {
+    "master": true
+  },
+  "davix": {
+    "master": true
+  },
+  "dawg": {
+    "master": true
+  },
+  "dbf": {
+    "master": true
+  },
+  "dbfread": {
+    "master": true
+  },
+  "dbt": {
+    "master": true
+  },
+  "dbus": {
+    "master": true
+  },
+  "dbus-cxx": {
+    "master": true
+  },
+  "dbxfs": {
+    "master": true
+  },
+  "dcap": {
+    "master": true
+  },
+  "dcgp-python": {
+    "master": true
+  },
+  "dcm2niix": {
+    "master": true
+  },
+  "dcmstack": {
+    "master": true
+  },
+  "dcw-gmt": {
+    "master": true
+  },
+  "ddt": {
+    "master": true
+  },
+  "dealii": {
+    "master": true
+  },
+  "deap": {
+    "master": true
+  },
+  "debtcollector": {
+    "master": true
+  },
+  "dec2": {
+    "master": true
+  },
+  "decorator": {
+    "master": true
+  },
+  "dectate": {
+    "master": true
+  },
+  "deepdiff": {
+    "master": true
+  },
+  "deepdish": {
+    "master": true
+  },
+  "deepgraph": {
+    "master": true
+  },
+  "deeplearnjs": {
+    "master": true
+  },
+  "deepmd-kit": {
+    "master": true
+  },
+  "deepsmiles": {
+    "master": true
+  },
+  "deepxde": {
+    "master": true
+  },
+  "defusedxml": {
+    "master": true
+  },
+  "deicode": {
+    "master": true
+  },
+  "deid": {
+    "master": true,
+    "fix/metadata": true
+  },
+  "delegator": {
+    "master": true
+  },
+  "delocate": {
+    "master": true
+  },
+  "demoshell": {
+    "master": true
+  },
+  "demquery": {
+    "master": true
+  },
+  "dependencies": {
+    "master": true
+  },
+  "depfinder": {
+    "master": true
+  },
+  "depi": {
+    "master": true
+  },
+  "depinfo": {
+    "master": true
+  },
+  "deprecated": {
+    "master": true
+  },
+  "deprecation": {
+    "master": true
+  },
+  "deprecation-factory": {
+    "master": true
+  },
+  "deps": {
+    "master": true
+  },
+  "des-desmeds": {
+    "master": true
+  },
+  "des-easyaccess": {
+    "master": true
+  },
+  "descartes": {
+    "master": true
+  },
+  "descarteslabs": {
+    "master": true
+  },
+  "desdeo": {
+    "master": true
+  },
+  "desdeo-vis": {
+    "master": true
+  },
+  "desktop3": {
+    "master": true
+  },
+  "desres-msys": {
+    "master": true
+  },
+  "df2gspread": {
+    "master": true
+  },
+  "dftatom": {
+    "master": true
+  },
+  "dftd4": {
+    "master": true
+  },
+  "dfviz": {
+    "master": true
+  },
+  "dialite": {
+    "master": true
+  },
+  "dials-data": {
+    "master": true
+  },
+  "dials-dependencies": {
+    "master": true
+  },
+  "dicom2nifti": {
+    "master": true
+  },
+  "dictdiffer": {
+    "master": true
+  },
+  "dictlib": {
+    "master": true
+  },
+  "dicttoxml": {
+    "master": true
+  },
+  "diff-cover": {
+    "master": true
+  },
+  "diff-match-patch": {
+    "master": true
+  },
+  "diffoscope": {
+    "master": true
+  },
+  "diffpy.pdfmorph": {
+    "master": true
+  },
+  "diffpy.structure": {
+    "master": true
+  },
+  "diffpy.utils": {
+    "master": true
+  },
+  "diffsims": {
+    "master": true
+  },
+  "digital_rf": {
+    "master": true
+  },
+  "dill": {
+    "master": true
+  },
+  "dionysus": {
+    "master": true
+  },
+  "dioptas": {
+    "master": true
+  },
+  "dipy": {
+    "master": true
+  },
+  "dirac-grid": {
+    "master": true
+  },
+  "dirent": {
+    "master": true
+  },
+  "dis3": {
+    "master": true
+  },
+  "discretisedfield": {
+    "master": true,
+    "0.7.4/0": true
+  },
+  "discretize": {
+    "master": true
+  },
+  "diskcache": {
+    "master": true
+  },
+  "distance": {
+    "master": true
+  },
+  "distarray": {
+    "master": true
+  },
+  "distgen": {
+    "master": true
+  },
+  "distributed": {
+    "master": true
+  },
+  "distro": {
+    "master": true
+  },
+  "dit": {
+    "master": true
+  },
+  "divebomb": {
+    "master": true
+  },
+  "dj-database-url": {
+    "master": true
+  },
+  "dj-static": {
+    "master": true
+  },
+  "django": {
+    "master": true,
+    "1.10.8": true,
+    "django_1.11.x": true,
+    "django_1.7.x": true,
+    "django_1.8.x": true,
+    "django_1.9.x": true,
+    "django_2.2.x": true
+  },
+  "django-admin-shortcuts": {
+    "master": true
+  },
+  "django-ajax-selects": {
+    "master": true
+  },
+  "django-allauth": {
+    "master": true
+  },
+  "django-anymail": {
+    "master": true
+  },
+  "django-appconf": {
+    "master": true
+  },
+  "django-apptemplates": {
+    "master": true
+  },
+  "django-autoslug": {
+    "master": true
+  },
+  "django-bakery": {
+    "master": true
+  },
+  "django-bootstrap3": {
+    "master": true
+  },
+  "django-bootstrap4": {
+    "master": true
+  },
+  "django-braces": {
+    "master": true
+  },
+  "django-cachalot": {
+    "master": true
+  },
+  "django-celery": {
+    "master": true
+  },
+  "django-chunked-upload": {
+    "master": true
+  },
+  "django-cleanup": {
+    "master": true
+  },
+  "django-configurations": {
+    "master": true
+  },
+  "django-controlcenter": {
+    "master": true
+  },
+  "django-cors-headers": {
+    "master": true
+  },
+  "django-crispy-forms": {
+    "master": true
+  },
+  "django-cruds-adminlte": {
+    "master": true
+  },
+  "django-daterange-filter": {
+    "master": true
+  },
+  "django-debug-toolbar": {
+    "master": true
+  },
+  "django-emailhub": {
+    "master": true
+  },
+  "django-enumfields": {
+    "master": true
+  },
+  "django-environ": {
+    "master": true
+  },
+  "django-extensions": {
+    "master": true,
+    "v1.5.0": true
+  },
+  "django-filer": {
+    "master": true
+  },
+  "django-filter": {
+    "master": true
+  },
+  "django-fixture-magic": {
+    "master": true
+  },
+  "django-foundation-formtags": {
+    "master": true
+  },
+  "django-fsm": {
+    "master": true
+  },
+  "django-grappelli": {
+    "master": true,
+    "2.10.x": true
+  },
+  "django-guardian": {
+    "master": true
+  },
+  "django-haystack": {
+    "master": true
+  },
+  "django-import-export": {
+    "master": true
+  },
+  "django-jquery": {
+    "master": true
+  },
+  "django-js-asset": {
+    "master": true
+  },
+  "django-jsoneditor": {
+    "master": true
+  },
+  "django-leaflet": {
+    "master": true
+  },
+  "django-libsass": {
+    "master": true
+  },
+  "django-makemessages-xgettext": {
+    "master": true
+  },
+  "django-material": {
+    "master": true
+  },
+  "django-model-utils": {
+    "master": true
+  },
+  "django-modelcluster": {
+    "master": true
+  },
+  "django-mptt": {
+    "master": true,
+    "0.8.x": true
+  },
+  "django-mptt-admin": {
+    "master": true
+  },
+  "django-mustache": {
+    "master": true
+  },
+  "django-nested-admin": {
+    "master": true
+  },
+  "django-nested-inline": {
+    "master": true
   }
 }
