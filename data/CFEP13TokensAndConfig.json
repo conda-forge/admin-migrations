@@ -7507,5 +7507,243 @@
   },
   "ipywe": {
     "master": true
+  },
+  "ipywebrtc": {
+    "master": true
+  },
+  "ipywidgets": {
+    "master": true,
+    "5.x": true,
+    "6.x": true,
+    "7.0.x": true,
+    "7.1.x": true,
+    "dev": true
+  },
+  "ipyxact": {
+    "master": true
+  },
+  "iris": {
+    "master": true,
+    "iris_1.13": true
+  },
+  "iris-grib": {
+    "master": true
+  },
+  "iris-sample-data": {
+    "master": true
+  },
+  "iris-ued": {
+    "master": true
+  },
+  "isce2": {
+    "master": true,
+    "v2.3.1": true
+  },
+  "isicarchive": {
+    "master": true
+  },
+  "isl": {
+    "master": true
+  },
+  "islpy": {
+    "master": true
+  },
+  "iso8601": {
+    "master": true
+  },
+  "isodate": {
+    "master": true
+  },
+  "isofit": {
+    "master": true
+  },
+  "isort": {
+    "master": true
+  },
+  "ispyb": {
+    "master": true
+  },
+  "issho": {
+    "master": true
+  },
+  "iteration_utilities": {
+    "master": true
+  },
+  "iterativewgcna": {
+    "master": true
+  },
+  "iterm2-tools": {
+    "master": true
+  },
+  "itk": {
+    "master": true
+  },
+  "itk-meshtopolydata": {
+    "master": true
+  },
+  "itkwidgets": {
+    "master": true
+  },
+  "itsdangerous": {
+    "master": true
+  },
+  "itypes": {
+    "master": true
+  },
+  "iverilog": {
+    "master": true
+  },
+  "ixmp": {
+    "master": true
+  },
+  "jack": {
+    "master": true
+  },
+  "jaeger": {
+    "master": true
+  },
+  "jaeger-client": {
+    "master": true
+  },
+  "jags": {
+    "master": true
+  },
+  "jam": {
+    "master": true
+  },
+  "jamotools": {
+    "master": true
+  },
+  "jansson": {
+    "master": true
+  },
+  "janus": {
+    "master": true
+  },
+  "jaraco.classes": {
+    "master": true
+  },
+  "jaraco.collections": {
+    "master": true
+  },
+  "jaraco.envs": {
+    "master": true
+  },
+  "jaraco.functools": {
+    "master": true
+  },
+  "jaraco.itertools": {
+    "master": true
+  },
+  "jaraco.logging": {
+    "master": true
+  },
+  "jaraco.stream": {
+    "master": true
+  },
+  "jaraco.text": {
+    "master": true
+  },
+  "jasper": {
+    "master": true
+  },
+  "java-org.apache.arrow.arrow-tools-with-dependencies": {
+    "master": true
+  },
+  "javafx-sdk": {
+    "master": true,
+    "v11": true
+  },
+  "javaobj-py3": {
+    "master": true
+  },
+  "javascripthon": {
+    "master": true
+  },
+  "jaws": {
+    "master": true
+  },
+  "jax": {
+    "master": true
+  },
+  "jaxlib": {
+    "master": true
+  },
+  "jaydebeapi": {
+    "master": true
+  },
+  "jbig": {
+    "master": true
+  },
+  "jcc": {
+    "master": true,
+    "dev": true
+  },
+  "jdatetime": {
+    "master": true
+  },
+  "jdcal": {
+    "master": true
+  },
+  "jedi": {
+    "master": true
+  },
+  "jeepney": {
+    "master": true
+  },
+  "jellyfish": {
+    "master": true
+  },
+  "jemalloc": {
+    "master": true
+  },
+  "jenkinsapi": {
+    "master": true
+  },
+  "jenkspy": {
+    "master": true
+  },
+  "jftools": {
+    "master": true
+  },
+  "jgo": {
+    "master": true
+  },
+  "jieba": {
+    "master": true
+  },
+  "jieba3k": {
+    "master": true
+  },
+  "jigsaw": {
+    "master": true
+  },
+  "jinja2": {
+    "master": true
+  },
+  "jinja2-time": {
+    "master": true
+  },
+  "jinja2_pluralize": {
+    "master": true
+  },
+  "jira": {
+    "master": true
+  },
+  "jkqtplotter": {
+    "master": true
+  },
+  "jmespath": {
+    "master": true,
+    "v0.9.2": true
+  },
+  "jmol": {
+    "master": true
+  },
+  "joblib": {
+    "master": true
+  },
+  "jobrunner": {
+    "master": true
   }
 }
