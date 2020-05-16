@@ -7151,5 +7151,361 @@
   },
   "imexam": {
     "master": true
+  },
+  "img2pdf": {
+    "master": true
+  },
+  "imgaug": {
+    "master": true
+  },
+  "imglyb": {
+    "master": true
+  },
+  "imgroi": {
+    "master": true
+  },
+  "imgurpython": {
+    "master": true
+  },
+  "imgviz": {
+    "master": true
+  },
+  "iminuit": {
+    "master": true
+  },
+  "iml": {
+    "master": true
+  },
+  "immutables": {
+    "master": true
+  },
+  "imod": {
+    "master": true
+  },
+  "impactutils": {
+    "master": true
+  },
+  "implicit": {
+    "master": true
+  },
+  "importhook": {
+    "master": true
+  },
+  "importlib_metadata": {
+    "master": true,
+    "v1.1.3": true
+  },
+  "importlib_resources": {
+    "master": true
+  },
+  "importnb": {
+    "master": true
+  },
+  "importscan": {
+    "master": true
+  },
+  "impyla": {
+    "master": true
+  },
+  "imread": {
+    "master": true
+  },
+  "imreg_dft": {
+    "master": true
+  },
+  "imutils": {
+    "master": true
+  },
+  "in_place": {
+    "master": true,
+    "druvus-patch-1": true
+  },
+  "inchi": {
+    "master": true
+  },
+  "incremental": {
+    "master": true
+  },
+  "indexed_gzip": {
+    "master": true
+  },
+  "inequality": {
+    "master": true
+  },
+  "inferno": {
+    "master": true
+  },
+  "infinity": {
+    "master": true
+  },
+  "inflect": {
+    "master": true
+  },
+  "inflection": {
+    "master": true
+  },
+  "influxdb": {
+    "master": true
+  },
+  "inifile": {
+    "master": true
+  },
+  "inkscape": {
+    "master": true
+  },
+  "inline-html": {
+    "master": true
+  },
+  "inotify-tools": {
+    "master": true
+  },
+  "inotify_simple": {
+    "master": true
+  },
+  "inspyred": {
+    "master": true
+  },
+  "instaseis": {
+    "master": true
+  },
+  "intake": {
+    "master": true
+  },
+  "intake-accumulo": {
+    "master": true
+  },
+  "intake-astro": {
+    "master": true
+  },
+  "intake-avro": {
+    "master": true
+  },
+  "intake-cmip": {
+    "master": true
+  },
+  "intake-elasticsearch": {
+    "master": true
+  },
+  "intake-esm": {
+    "master": true
+  },
+  "intake-parquet": {
+    "master": true
+  },
+  "intake-spark": {
+    "master": true
+  },
+  "intake-sql": {
+    "master": true
+  },
+  "intake-stac": {
+    "master": true
+  },
+  "intake-xarray": {
+    "master": true
+  },
+  "intel-compute-runtime": {
+    "master": true
+  },
+  "intel-gmmlib": {
+    "master": true
+  },
+  "intel-graphics-compiler": {
+    "master": true
+  },
+  "intel-hybrid-driver": {
+    "master": true
+  },
+  "intel-ipp": {
+    "master": true
+  },
+  "intel-opencl-clang": {
+    "master": true
+  },
+  "intel-vaapi-driver": {
+    "master": true
+  },
+  "intel_repack": {
+    "master": true
+  },
+  "intelhex": {
+    "master": true
+  },
+  "interlap": {
+    "master": true
+  },
+  "intern": {
+    "master": true
+  },
+  "interpolation": {
+    "master": true,
+    "release-0.1.9": true,
+    "release-2.0.0": true,
+    "release-2.1.5": true
+  },
+  "interval_tree": {
+    "master": true
+  },
+  "intervals": {
+    "master": true
+  },
+  "intervaltree": {
+    "master": true
+  },
+  "intltool": {
+    "master": true
+  },
+  "intreehooks": {
+    "master": true
+  },
+  "invoke": {
+    "master": true
+  },
+  "iolabs": {
+    "master": true
+  },
+  "ioos_qartod": {
+    "master": true
+  },
+  "ioos_qc": {
+    "master": true
+  },
+  "ioos_tools": {
+    "master": true
+  },
+  "iowait": {
+    "master": true
+  },
+  "ipaddr": {
+    "master": true
+  },
+  "ipaddress": {
+    "master": true
+  },
+  "ipdb": {
+    "master": true
+  },
+  "iperf": {
+    "master": true
+  },
+  "ipopt": {
+    "master": true
+  },
+  "iprogress": {
+    "master": true
+  },
+  "ipycache": {
+    "master": true
+  },
+  "ipycanvas": {
+    "master": true
+  },
+  "ipycytoscape": {
+    "add-npm": true
+  },
+  "ipydatawidgets": {
+    "master": true
+  },
+  "ipyevents": {
+    "master": true
+  },
+  "ipygany": {
+    "master": true
+  },
+  "ipygraphql": {
+    "master": true
+  },
+  "ipykernel": {
+    "master": true
+  },
+  "ipylab": {
+    "master": true
+  },
+  "ipyleaflet": {
+    "master": true
+  },
+  "ipymaterialui": {
+    "master": true
+  },
+  "ipymesh": {
+    "master": true
+  },
+  "ipymidicontrols": {
+    "master": true
+  },
+  "ipympl": {
+    "master": true
+  },
+  "ipynb-py-convert": {
+    "master": true
+  },
+  "ipyopt": {
+    "master": true
+  },
+  "ipyparallel": {
+    "master": true
+  },
+  "ipypivot": {
+    "master": true
+  },
+  "ipypublish": {
+    "master": true
+  },
+  "ipysankeywidget": {
+    "master": true
+  },
+  "ipyscales": {
+    "master": true
+  },
+  "ipysheet": {
+    "master": true
+  },
+  "ipyslurm": {
+    "master": true,
+    "v1.3.0": true,
+    "v1.4.0": true,
+    "v1.5.0": true
+  },
+  "ipytest": {
+    "master": true
+  },
+  "ipython": {
+    "master": true,
+    "5.x": true
+  },
+  "ipython-autotime": {
+    "master": true
+  },
+  "ipython-sql": {
+    "master": true
+  },
+  "ipython_genutils": {
+    "master": true
+  },
+  "ipython_memory_usage": {
+    "master": true
+  },
+  "ipython_unittest": {
+    "master": true
+  },
+  "ipytree": {
+    "master": true
+  },
+  "ipyvolume": {
+    "master": true,
+    "maartenbreddels-patch-1": true,
+    "revert-10-version_04": true
+  },
+  "ipyvue": {
+    "master": true
+  },
+  "ipyvuedraggable": {
+    "master": true
+  },
+  "ipyvuetify": {
+    "master": true
+  },
+  "ipywe": {
+    "master": true
   }
 }
