@@ -6158,5 +6158,332 @@
   },
   "goftests": {
     "master": true
+  },
+  "goodtables": {
+    "master": true
+  },
+  "gooey": {
+    "master": true
+  },
+  "goofit-split": {
+    "master": true
+  },
+  "google-api-core": {
+    "master": true
+  },
+  "google-api-python-client": {
+    "master": true
+  },
+  "google-auth": {
+    "master": true
+  },
+  "google-auth-httplib2": {
+    "master": true
+  },
+  "google-auth-oauthlib": {
+    "master": true,
+    "tswast-patch-1": true
+  },
+  "google-cloud-bigquery": {
+    "master": true
+  },
+  "google-cloud-bigquery-storage": {
+    "master": true
+  },
+  "google-cloud-bigtable": {
+    "master": true
+  },
+  "google-cloud-container": {
+    "master": true
+  },
+  "google-cloud-core": {
+    "master": true
+  },
+  "google-cloud-datastore": {
+    "master": true
+  },
+  "google-cloud-kms": {
+    "master": true
+  },
+  "google-cloud-language": {
+    "master": true
+  },
+  "google-cloud-monitoring": {
+    "master": true
+  },
+  "google-cloud-pubsub": {
+    "master": true
+  },
+  "google-cloud-sdk": {
+    "master": true
+  },
+  "google-cloud-spanner": {
+    "master": true
+  },
+  "google-cloud-storage": {
+    "master": true
+  },
+  "google-cloud-translate": {
+    "master": true
+  },
+  "google-cloud-vision": {
+    "master": true
+  },
+  "google-compute-engine": {
+    "master": true
+  },
+  "google-pasta": {
+    "master": true
+  },
+  "google-resumable-media": {
+    "master": true
+  },
+  "googleapis-common-protos": {
+    "master": true
+  },
+  "googlemaps": {
+    "master": true
+  },
+  "googletrans": {
+    "master": true
+  },
+  "goosebib": {
+    "master": true
+  },
+  "gooseeye": {
+    "master": true
+  },
+  "goosefem": {
+    "master": true
+  },
+  "goosehdf5": {
+    "master": true
+  },
+  "goosempl": {
+    "master": true
+  },
+  "gooseslurm": {
+    "master": true
+  },
+  "gorilla": {
+    "master": true
+  },
+  "gosu": {
+    "master": true
+  },
+  "gpaw": {
+    "master": true
+  },
+  "gperf": {
+    "master": true
+  },
+  "gperftools": {
+    "master": true
+  },
+  "gpflow": {
+    "master": true
+  },
+  "gpgme": {
+    "master": true
+  },
+  "gpi": {
+    "master": true
+  },
+  "gpi_core": {
+    "master": true
+  },
+  "gprof2dot": {
+    "master": true
+  },
+  "gpstime": {
+    "master": true
+  },
+  "gptools": {
+    "master": true
+  },
+  "gpustat": {
+    "master": true
+  },
+  "gpxpy": {
+    "master": true
+  },
+  "gpy": {
+    "master": true,
+    "revert-4-master": true
+  },
+  "gpyopt": {
+    "master": true
+  },
+  "gql": {
+    "master": true
+  },
+  "gracedb-sdk": {
+    "master": true
+  },
+  "gradle": {
+    "master": true
+  },
+  "grandalf": {
+    "master": true
+  },
+  "graph": {
+    "master": true
+  },
+  "graph-tool": {
+    "master": true
+  },
+  "graphblas": {
+    "master": true
+  },
+  "graphene": {
+    "master": true,
+    "v2.1.6": true
+  },
+  "graphene-sqlalchemy": {
+    "master": true
+  },
+  "graphene-tornado": {
+    "master": true
+  },
+  "graphicsmagick": {
+    "master": true
+  },
+  "graphite2": {
+    "master": true
+  },
+  "graphql-core": {
+    "master": true,
+    "v2.3.1": true
+  },
+  "graphql-js": {
+    "master": true
+  },
+  "graphql-relay": {
+    "master": true
+  },
+  "graphql-server-core": {
+    "master": true
+  },
+  "graphql-ws": {
+    "master": true
+  },
+  "graphtools": {
+    "master": true
+  },
+  "graphviz": {
+    "master": true
+  },
+  "grave": {
+    "master": true
+  },
+  "graypy": {
+    "master": true
+  },
+  "great-expectations": {
+    "master": true,
+    "feature/entrypoints": true
+  },
+  "greedy": {
+    "master": true
+  },
+  "green": {
+    "master": true
+  },
+  "greenlet": {
+    "master": true
+  },
+  "grequests": {
+    "master": true
+  },
+  "griddataformats": {
+    "master": true
+  },
+  "gridded": {
+    "master": true
+  },
+  "gridfill": {
+    "master": true
+  },
+  "gridgen": {
+    "master": true
+  },
+  "gridgeo": {
+    "master": true
+  },
+  "gridstack.js": {
+    "master": true
+  },
+  "gridutils": {
+    "master": true
+  },
+  "grin": {
+    "master": true
+  },
+  "grip": {
+    "master": true
+  },
+  "grove": {
+    "master": true
+  },
+  "grpc-cpp": {
+    "master": true
+  },
+  "grpc-google-iam-v1": {
+    "master": true
+  },
+  "grpcio": {
+    "master": true
+  },
+  "grpcio-gcp": {
+    "master": true
+  },
+  "grunt": {
+    "master": true
+  },
+  "gsd": {
+    "master": true
+  },
+  "gsee": {
+    "master": true
+  },
+  "gsheetsdb": {
+    "master": true
+  },
+  "gshhg-gmt": {
+    "master": true
+  },
+  "gsl": {
+    "master": true,
+    "gsl_1.x": true,
+    "v2.2": true
+  },
+  "gsl-lite": {
+    "master": true
+  },
+  "gsoap": {
+    "master": true,
+    "gsoap-2.7": true
+  },
+  "gspread": {
+    "master": true
+  },
+  "gspread-pandas": {
+    "master": true
+  },
+  "gsshapy": {
+    "master": true
+  },
+  "gsshapyorm": {
+    "master": true
+  },
+  "gst-orc": {
+    "master": true
+  },
+  "gst-python": {
+    "master": true,
+    "1.14.4-lts": true
+  },
+  "gstlal": {
+    "master": true
   }
 }
