@@ -7745,5 +7745,302 @@
   },
   "jobrunner": {
     "master": true
+  },
+  "jobs_done10": {
+    "master": true
+  },
+  "jobtastic": {
+    "master": true
+  },
+  "jom": {
+    "master": true
+  },
+  "jonga": {
+    "master": true
+  },
+  "joommf": {
+    "master": true
+  },
+  "joommfutil": {
+    "master": true,
+    "0.7.4/0": true,
+    "update-0.8": true
+  },
+  "joypy": {
+    "master": true
+  },
+  "jpeg": {
+    "master": true,
+    "v8": true
+  },
+  "jplephem": {
+    "master": true
+  },
+  "jpype1": {
+    "master": true,
+    "backport-0.6.3": true
+  },
+  "jq": {
+    "master": true
+  },
+  "jquery": {
+    "master": true
+  },
+  "jquery-mobile": {
+    "master": true
+  },
+  "jquery-ui": {
+    "master": true
+  },
+  "js-cookie": {
+    "master": true
+  },
+  "js-regex": {
+    "master": true
+  },
+  "jsanimation": {
+    "master": true
+  },
+  "jsdom": {
+    "master": true
+  },
+  "jsmin": {
+    "master": true
+  },
+  "json-c": {
+    "master": true,
+    "v0.12.x": true
+  },
+  "json-e": {
+    "master": true
+  },
+  "json-merge-patch": {
+    "master": true
+  },
+  "json-rpc": {
+    "master": true
+  },
+  "json5": {
+    "master": true
+  },
+  "json_schema_validator": {
+    "master": true
+  },
+  "json_tricks": {
+    "master": true
+  },
+  "jsonapi-client": {
+    "master": true
+  },
+  "jsonapi-requests": {
+    "master": true
+  },
+  "jsonarango": {
+    "master": true
+  },
+  "jsoncpp": {
+    "master": true
+  },
+  "jsondate": {
+    "master": true
+  },
+  "jsondiff": {
+    "master": true
+  },
+  "jsonextended": {
+    "master": true
+  },
+  "jsonfield": {
+    "master": true
+  },
+  "jsonlines": {
+    "master": true
+  },
+  "jsonnet": {
+    "master": true,
+    "v0.10.0": true,
+    "v0.11.2": true
+  },
+  "jsonpatch": {
+    "master": true
+  },
+  "jsonpath": {
+    "master": true
+  },
+  "jsonpath-ng": {
+    "master": true
+  },
+  "jsonpickle": {
+    "master": true
+  },
+  "jsonpointer": {
+    "master": true
+  },
+  "jsonref": {
+    "master": true
+  },
+  "jsonrpcclient": {
+    "master": true
+  },
+  "jsonrpcserver": {
+    "master": true
+  },
+  "jsonschema": {
+    "master": true
+  },
+  "jsontableschema": {
+    "master": true
+  },
+  "jsontableschema-pandas": {
+    "master": true
+  },
+  "jstz": {
+    "master": true
+  },
+  "judy": {
+    "master": true
+  },
+  "jug": {
+    "master": true
+  },
+  "julia": {
+    "master": true,
+    "v0.5": true
+  },
+  "juliart": {
+    "master": true
+  },
+  "jump": {
+    "master": true
+  },
+  "junit-xml": {
+    "master": true
+  },
+  "junit2html": {
+    "master": true
+  },
+  "jupyter": {
+    "master": true
+  },
+  "jupyter-archive": {
+    "master": true,
+    "fcollonval-patch-1": true
+  },
+  "jupyter-dashboards-server": {
+    "master": true
+  },
+  "jupyter-docx-bundler": {
+    "master": true
+  },
+  "jupyter-hdfscm": {
+    "master": true
+  },
+  "jupyter-kernel-singular": {
+    "master": true
+  },
+  "jupyter-panel-proxy": {
+    "master": true
+  },
+  "jupyter-repo2docker": {
+    "master": true
+  },
+  "jupyter-rsession-proxy": {
+    "master": true
+  },
+  "jupyter-server-proxy": {
+    "master": true
+  },
+  "jupyter-themer": {
+    "master": true
+  },
+  "jupyter_client": {
+    "master": true
+  },
+  "jupyter_cms": {
+    "master": true
+  },
+  "jupyter_conda": {
+    "master": true
+  },
+  "jupyter_console": {
+    "master": true
+  },
+  "jupyter_contrib_core": {
+    "master": true
+  },
+  "jupyter_contrib_nbextensions": {
+    "master": true
+  },
+  "jupyter_core": {
+    "master": true
+  },
+  "jupyter_dashboards": {
+    "master": true
+  },
+  "jupyter_dojo": {
+    "master": true
+  },
+  "jupyter_enterprise_gateway": {
+    "master": true
+  },
+  "jupyter_full_width": {
+    "master": true,
+    "revert-3-rebuild-python3801": true
+  },
+  "jupyter_highlight_selected_word": {
+    "master": true
+  },
+  "jupyter_kernel_gateway": {
+    "master": true
+  },
+  "jupyter_kernel_test": {
+    "master": true
+  },
+  "jupyter_latex_envs": {
+    "master": true
+  },
+  "jupyter_nbextensions_configurator": {
+    "master": true
+  },
+  "jupyter_paperboy": {
+    "master": true
+  },
+  "jupyter_pivottablejs": {
+    "master": true
+  },
+  "jupyter_qtconsole_colorschemes": {
+    "master": true
+  },
+  "jupyter_server": {
+    "master": true
+  },
+  "jupyter_sphinx": {
+    "master": true
+  },
+  "jupyter_telemetry": {
+    "master": true
+  },
+  "jupyterhub": {
+    "master": true
+  },
+  "jupyterhub-ldapauthenticator": {
+    "master": true
+  },
+  "jupyterhub-systemdspawner": {
+    "master": true
+  },
+  "jupyterhub-terraformspawner": {
+    "master": true
+  },
+  "jupyterhub-yarnspawner": {
+    "master": true
+  },
+  "jupyterlab": {
+    "master": true,
+    "1.2.x": true,
+    "rc": true
+  },
+  "jupyterlab-dash": {
+    "master": true
   }
 }
