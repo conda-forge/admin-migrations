@@ -11287,5 +11287,296 @@
   "ogre": {
     "master": true,
     "1.10": true
+  },
+  "ogs5py": {
+    "master": true
+  },
+  "oic": {
+    "master": true
+  },
+  "oifits": {
+    "master": true
+  },
+  "okonomiyaki": {
+    "master": true
+  },
+  "oktopus": {
+    "master": true
+  },
+  "olefile": {
+    "master": true
+  },
+  "oletools": {
+    "master": true
+  },
+  "oliver": {
+    "1.2.0": true
+  },
+  "omas": {
+    "master": true
+  },
+  "omcompiler": {
+    "master": true
+  },
+  "omegaconf": {
+    "master": true,
+    "rc": true
+  },
+  "omicron": {
+    "master": true
+  },
+  "omnifit": {
+    "master": true
+  },
+  "omniorb": {
+    "master": true
+  },
+  "omniorbpy": {
+    "master": true
+  },
+  "omnisci-pytools": {
+    "master": true
+  },
+  "omniscidb-cpu": {
+    "master": true
+  },
+  "oniguruma": {
+    "master": true
+  },
+  "onnx": {
+    "master": true,
+    "protobuf-38": true
+  },
+  "onnx-caffe2": {
+    "master": true
+  },
+  "onnx-tf": {
+    "master": true
+  },
+  "oommf": {
+    "master": true
+  },
+  "oommfc": {
+    "master": true
+  },
+  "oommfodt": {
+    "master": true,
+    "0.7.4/0": true,
+    "update-0.8": true
+  },
+  "oop-ext": {
+    "master": true,
+    "revert-2-0.2.1": true
+  },
+  "opbeat": {
+    "master": true
+  },
+  "opcua": {
+    "master": true
+  },
+  "open-fonts": {
+    "master": true
+  },
+  "openalea.deploy": {
+    "master": true
+  },
+  "openapi-codec": {
+    "master": true
+  },
+  "openapi-spec-validator": {
+    "master": true
+  },
+  "openbabel": {
+    "master": true
+  },
+  "openblas": {
+    "master": true
+  },
+  "opencamlib": {
+    "master": true
+  },
+  "opencv": {
+    "master": true,
+    "3.4.7": true,
+    "3.4.x": true,
+    "v2": true
+  },
+  "openexr": {
+    "master": true
+  },
+  "openfile": {
+    "master": true
+  },
+  "openfst": {
+    "master": true
+  },
+  "openh264": {
+    "master": true
+  },
+  "openimageio": {
+    "master": true
+  },
+  "openjdk": {
+    "master": true,
+    "7.x": true,
+    "java10": true,
+    "java8": true,
+    "java9": true
+  },
+  "openjpeg": {
+    "master": true,
+    "2.1.x": true
+  },
+  "openkim-models": {
+    "master": true
+  },
+  "openkimmodels": {
+    "master": true
+  },
+  "openldap": {
+    "master": true
+  },
+  "openlibm": {
+    "master": true,
+    "0.5.x": true
+  },
+  "openmc": {
+    "master": true
+  },
+  "openmdao": {
+    "master": true
+  },
+  "openmeeg": {
+    "master": true
+  },
+  "openmesh": {
+    "master": true
+  },
+  "openmesh-python": {
+    "master": true
+  },
+  "openmm": {
+    "master": true
+  },
+  "openmotif": {
+    "master": true,
+    "fix_package_uploads": true
+  },
+  "openmp": {
+    "master": true
+  },
+  "openmpi": {
+    "master": true
+  },
+  "openorb": {
+    "master": true
+  },
+  "openorb-data": {
+    "master": true
+  },
+  "openorb-data-bc430": {
+    "master": true
+  },
+  "openorb-data-de405": {
+    "master": true
+  },
+  "openorb-data-de430": {
+    "master": true
+  },
+  "openorb-eph-builder": {
+    "master": true
+  },
+  "openpathsampling": {
+    "master": true
+  },
+  "openpiv": {
+    "master": true,
+    "alexlib-patch-1": true,
+    "alexlib-patch-2": true
+  },
+  "openpmd-api": {
+    "master": true
+  },
+  "openpmd-beamphysics": {
+    "master": true
+  },
+  "openpyxl": {
+    "master": true,
+    "v2.4": true
+  },
+  "openquake.engine": {
+    "master": true
+  },
+  "openshift-cli": {
+    "master": true
+  },
+  "openslide": {
+    "master": true
+  },
+  "openspecfun": {
+    "master": true
+  },
+  "openssh": {
+    "master": true
+  },
+  "openssl": {
+    "master": true,
+    "1.0.2": true,
+    "1.1.1a": true
+  },
+  "openstacksdk": {
+    "master": true
+  },
+  "opentracing": {
+    "master": true
+  },
+  "opentracing_instrumentation": {
+    "master": true
+  },
+  "opentsne": {
+    "master": true
+  },
+  "openturns": {
+    "master": true
+  },
+  "openvisus": {
+    "master": true
+  },
+  "ophyd": {
+    "master": true
+  },
+  "opsdroid": {
+    "master": true
+  },
+  "opt_einsum": {
+    "master": true
+  },
+  "optimix": {
+    "master": true
+  },
+  "optlang": {
+    "master": true
+  },
+  "optpp": {
+    "master": true
+  },
+  "optuna": {
+    "master": true
+  },
+  "opty": {
+    "master": true,
+    "revert-6-compiler_migration2": true
+  },
+  "opus-tools": {
+    "master": true
+  },
+  "opusfile": {
+    "master": true
+  },
+  "opyplus": {
+    "master": true
+  },
+  "oq-engine": {
+    "master": true
   }
 }
