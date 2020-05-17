@@ -13,11 +13,12 @@ import github
 import tqdm
 
 from admin_migrations.migrators import (
-    AutomergeAndRerender,
     AppveyorDelete,
     RAutomerge,
     CFEP13TokensAndConfig,
+    CondaForgeAutomerge,
     # these are finished or not used so we don't run them
+    # AutomergeAndRerender,
     # CFEP13TurnOff,
     # AutomergeAndBotRerunLabels,
 )
@@ -261,11 +262,12 @@ def run_migrators(feedstock, migrators):
 
 def main():
     migrators = [
-        AutomergeAndRerender(),
         AppveyorDelete(),
         RAutomerge(),
         CFEP13TokensAndConfig(),
+        CondaForgeAutomerge(),
         # these are finished or not used so we don't run them
+        # AutomergeAndRerender(),
         # CFEP13TurnOff(),
         # AutomergeAndBotRerunLabels(),
     ]
