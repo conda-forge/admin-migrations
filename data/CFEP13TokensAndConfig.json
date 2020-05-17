@@ -10883,5 +10883,409 @@
   },
   "ngmix": {
     "master": true
+  },
+  "ngram": {
+    "master": true
+  },
+  "ngspice": {
+    "30": true
+  },
+  "nibabel": {
+    "master": true
+  },
+  "nidaqmx-python": {
+    "master": true
+  },
+  "nilearn": {
+    "master": true
+  },
+  "nim": {
+    "master": true
+  },
+  "nine": {
+    "master": true
+  },
+  "ninja": {
+    "master": true
+  },
+  "ninja_syntax": {
+    "master": true
+  },
+  "niondata": {
+    "master": true
+  },
+  "nionswift": {
+    "master": true
+  },
+  "nionswift-experimental": {
+    "master": true
+  },
+  "nionswift-instrumentation": {
+    "master": true
+  },
+  "nionswift-io": {
+    "master": true
+  },
+  "nionswift-usim": {
+    "master": true
+  },
+  "nionswift-video-capture": {
+    "master": true
+  },
+  "nionui": {
+    "master": true
+  },
+  "nionutils": {
+    "master": true
+  },
+  "nipy": {
+    "master": true
+  },
+  "nipype": {
+    "master": true,
+    "maint/1.3.x": true
+  },
+  "nitime": {
+    "master": true
+  },
+  "nitro": {
+    "master": true
+  },
+  "nlohmann_json": {
+    "master": true
+  },
+  "nlopt": {
+    "master": true
+  },
+  "nltk": {
+    "master": true
+  },
+  "nltk_data": {
+    "master": true
+  },
+  "nn": {
+    "master": true
+  },
+  "nnn": {
+    "master": true
+  },
+  "node2vec": {
+    "master": true
+  },
+  "nodebook": {
+    "master": true
+  },
+  "nodeenv": {
+    "master": true
+  },
+  "nodejs": {
+    "master": true,
+    "10.x": true,
+    "12.x": true,
+    "6.x": true
+  },
+  "noise": {
+    "master": true
+  },
+  "norbert": {
+    "master": true
+  },
+  "normaliz": {
+    "master": true
+  },
+  "nose": {
+    "master": true
+  },
+  "nose-cov": {
+    "master": true
+  },
+  "nose-exclude": {
+    "master": true
+  },
+  "nose-progressive": {
+    "master": true
+  },
+  "nose-timer": {
+    "master": true
+  },
+  "nose2": {
+    "master": true
+  },
+  "nose_parameterized": {
+    "master": true
+  },
+  "nose_xunitmp": {
+    "master": true
+  },
+  "nosexcover": {
+    "master": true
+  },
+  "notebook": {
+    "master": true,
+    "5.x": true
+  },
+  "notebookscripter": {
+    "master": true,
+    "6.0.0": true
+  },
+  "notedown": {
+    "master": true
+  },
+  "noteslib": {
+    "master": true
+  },
+  "nox": {
+    "master": true
+  },
+  "npctypes": {
+    "master": true
+  },
+  "npstreams": {
+    "master": true
+  },
+  "nptdms": {
+    "master": true
+  },
+  "npth": {
+    "master": true
+  },
+  "nr": {
+    "master": true
+  },
+  "nr.bundler": {
+    "master": true
+  },
+  "nr.cli": {
+    "master": true
+  },
+  "nr.config": {
+    "master": true
+  },
+  "nr.date": {
+    "master": true
+  },
+  "nr.fs": {
+    "master": true
+  },
+  "nr.parse": {
+    "master": true
+  },
+  "nr.types": {
+    "master": true,
+    "update-3.0.0": true,
+    "update-3.0.2": true,
+    "update-3.0.3": true
+  },
+  "nsis": {
+    "master": true
+  },
+  "nspr": {
+    "master": true
+  },
+  "nss": {
+    "master": true
+  },
+  "nsync": {
+    "master": true
+  },
+  "ntbtls": {
+    "master": true
+  },
+  "nteract_on_jupyter": {
+    "master": true
+  },
+  "ntl": {
+    "master": true
+  },
+  "ntlm-auth": {
+    "master": true
+  },
+  "ntplib": {
+    "master": true,
+    "iparask-patch-1": true
+  },
+  "nuitka": {
+    "master": true
+  },
+  "numactl-cos6-x86_64": {
+    "master": true
+  },
+  "numactl-devel-cos6-x86_64": {
+    "master": true
+  },
+  "numba": {
+    "master": true
+  },
+  "numba-scipy": {
+    "master": true
+  },
+  "numcodecs": {
+    "master": true
+  },
+  "numcosmo": {
+    "master": true
+  },
+  "numdifftools": {
+    "master": true
+  },
+  "numericalunits": {
+    "master": true
+  },
+  "numexpr": {
+    "master": true
+  },
+  "numina": {
+    "master": true
+  },
+  "numpy": {
+    "master": true,
+    "numpy111": true,
+    "numpy112": true,
+    "numpy113": true,
+    "numpy114": true,
+    "numpy115": true,
+    "numpy116": true,
+    "numpy117": true,
+    "numpy17": true,
+    "numpy18": true,
+    "numpy19": true
+  },
+  "numpy-indexed": {
+    "master": true
+  },
+  "numpy-stl": {
+    "master": true
+  },
+  "numpy_groupies": {
+    "master": true
+  },
+  "numpy_sugar": {
+    "master": true
+  },
+  "numpydoc": {
+    "master": true
+  },
+  "nvcc": {
+    "master": true
+  },
+  "nvidia-apex": {
+    "master": true
+  },
+  "nvidia-ml": {
+    "master": true
+  },
+  "nxviz": {
+    "master": true
+  },
+  "oath": {
+    "master": true
+  },
+  "oauth2client": {
+    "master": true
+  },
+  "oauthenticator": {
+    "master": true
+  },
+  "oauthlib": {
+    "master": true
+  },
+  "obake": {
+    "master": true
+  },
+  "objconv": {
+    "master": true
+  },
+  "objectpath": {
+    "master": true
+  },
+  "obspy": {
+    "master": true
+  },
+  "obspyck": {
+    "master": true
+  },
+  "ocaml": {
+    "master": true,
+    "4.02": true
+  },
+  "ocaml-camlp5": {
+    "master": true
+  },
+  "ocaml-findlib": {
+    "master": true
+  },
+  "ocaml-num": {
+    "master": true
+  },
+  "ocamlbuild": {
+    "master": true
+  },
+  "occt": {
+    "master": true,
+    "7.3": true
+  },
+  "oceans": {
+    "master": true
+  },
+  "oceanspy": {
+    "master": true
+  },
+  "ocgis": {
+    "master": true
+  },
+  "ocl-icd": {
+    "master": true
+  },
+  "ocl-icd-system": {
+    "master": true
+  },
+  "ocl_icd_wrapper_apple": {
+    "master": true
+  },
+  "oclgrind": {
+    "master": true
+  },
+  "oct2py": {
+    "master": true
+  },
+  "octave": {
+    "master": true
+  },
+  "octave_kernel": {
+    "master": true
+  },
+  "octomap": {
+    "master": true
+  },
+  "ocw": {
+    "master": true
+  },
+  "odenet": {
+    "master": true
+  },
+  "odfpy": {
+    "master": true
+  },
+  "odil": {
+    "master": true
+  },
+  "odm2api": {
+    "master": true
+  },
+  "odm2rest": {
+    "master": true
+  },
+  "odo": {
+    "master": true
+  },
+  "odvc": {
+    "master": true
+  },
+  "ogh": {
+    "master": true
+  },
+  "ogre": {
+    "master": true,
+    "1.10": true
   }
 }
