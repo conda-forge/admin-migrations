@@ -11838,5 +11838,253 @@
     "dev": true,
     "v0.17.x": true,
     "v0.24.2": true
+  },
+  "pandas-compat": {
+    "master": true
+  },
+  "pandas-datapackage-reader": {
+    "master": true
+  },
+  "pandas-datareader": {
+    "master": true
+  },
+  "pandas-gbq": {
+    "master": true
+  },
+  "pandas-highcharts": {
+    "master": true
+  },
+  "pandas-msgpack": {
+    "master": true
+  },
+  "pandas-plink": {
+    "master": true
+  },
+  "pandas-profiling": {
+    "master": true,
+    "pr/19": true
+  },
+  "pandas-summary": {
+    "master": true
+  },
+  "pandas-vet": {
+    "master": true
+  },
+  "pandas_flavor": {
+    "master": true
+  },
+  "pandas_market_calendars": {
+    "master": true
+  },
+  "pandas_ml": {
+    "master": true
+  },
+  "pandera": {
+    "master": true
+  },
+  "pandoc": {
+    "master": true
+  },
+  "pandoc-attributes": {
+    "master": true
+  },
+  "pandoc-attrs": {
+    "master": true
+  },
+  "pandoc-crossref": {
+    "master": true
+  },
+  "pandocfilters": {
+    "master": true
+  },
+  "pandoctools": {
+    "master": true
+  },
+  "panedr": {
+    "master": true
+  },
+  "panel": {
+    "master": true,
+    "v0.8.x": true
+  },
+  "panflute": {
+    "master": true
+  },
+  "pangaea": {
+    "master": true
+  },
+  "pangeo-dask": {
+    "watch_upstream_action": true
+  },
+  "pango": {
+    "master": true
+  },
+  "papermill": {
+    "master": true
+  },
+  "papillon": {
+    "master": true,
+    "v-0.1.1": true
+  },
+  "paprika": {
+    "master": true
+  },
+  "parabem": {
+    "master": true
+  },
+  "parallel": {
+    "master": true
+  },
+  "param": {
+    "master": true
+  },
+  "parambokeh": {
+    "master": true
+  },
+  "parameterized": {
+    "master": true
+  },
+  "paramiko": {
+    "master": true,
+    "v1.x": true
+  },
+  "paramnb": {
+    "master": true
+  },
+  "paramtools": {
+    "master": true
+  },
+  "paramz": {
+    "master": true
+  },
+  "paraview": {
+    "master": true
+  },
+  "parcel": {
+    "master": true
+  },
+  "parcels": {
+    "master": true,
+    "parcels-v2.1.5": true
+  },
+  "parfive": {
+    "master": true
+  },
+  "pari": {
+    "master": true
+  },
+  "pari-elldata": {
+    "master": true
+  },
+  "pari-galdata": {
+    "master": true
+  },
+  "pari-galpol": {
+    "master": true
+  },
+  "pari-nftables": {
+    "master": true
+  },
+  "pari-seadata": {
+    "master": true
+  },
+  "pari-seadata-big": {
+    "master": true
+  },
+  "pari-seadata-small": {
+    "master": true
+  },
+  "pari_jupyter": {
+    "master": true
+  },
+  "parmap": {
+    "master": true
+  },
+  "parmed": {
+    "master": true
+  },
+  "parmetis": {
+    "master": true
+  },
+  "parquet-cpp": {
+    "master": true
+  },
+  "parse": {
+    "master": true
+  },
+  "parse_type": {
+    "master": true
+  },
+  "parsedatetime": {
+    "master": true
+  },
+  "parsim": {
+    "master": true
+  },
+  "parsimonious": {
+    "master": true
+  },
+  "parsl": {
+    "master": true
+  },
+  "parsley": {
+    "master": true
+  },
+  "parso": {
+    "master": true
+  },
+  "parsplice": {
+    "master": true
+  },
+  "partd": {
+    "master": true
+  },
+  "particlespy": {
+    "master": true
+  },
+  "passlib": {
+    "master": true
+  },
+  "pastas": {
+    "master": true
+  },
+  "paste": {
+    "master": true
+  },
+  "pastedeploy": {
+    "master": true
+  },
+  "pastel": {
+    "master": true
+  },
+  "pastescript": {
+    "master": true
+  },
+  "patch": {
+    "master": true
+  },
+  "patch-ng": {
+    "master": true
+  },
+  "patchelf": {
+    "master": true
+  },
+  "path": {
+    "master": true
+  },
+  "path-and-address": {
+    "master": true
+  },
+  "path.py": {
+    "master": true
+  },
+  "pathlib": {
+    "master": true
+  },
+  "pathlib2": {
+    "master": true
+  },
+  "pathos": {
+    "master": true
   }
 }
