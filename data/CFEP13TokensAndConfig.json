@@ -13767,5 +13767,212 @@
   },
   "pykwalify": {
     "master": true
+  },
+  "pylama": {
+    "master": true
+  },
+  "pylandstats": {
+    "master": true
+  },
+  "pylatexenc": {
+    "master": true
+  },
+  "pylbfgs": {
+    "master": true
+  },
+  "pylbm": {
+    "master": true
+  },
+  "pyld": {
+    "master": true
+  },
+  "pyldavis": {
+    "master": true
+  },
+  "pylems": {
+    "master": true
+  },
+  "pylev": {
+    "master": true
+  },
+  "pylibmc": {
+    "master": true
+  },
+  "pylibscrypt": {
+    "master": true
+  },
+  "pylint": {
+    "master": true
+  },
+  "pylint-celery": {
+    "master": true
+  },
+  "pylint-common": {
+    "master": true
+  },
+  "pylint-django": {
+    "master": true,
+    "v0.7.2": true
+  },
+  "pylint-flask": {
+    "master": true
+  },
+  "pylint-plugin-utils": {
+    "master": true
+  },
+  "pylogit": {
+    "master": true
+  },
+  "pylons": {
+    "master": true
+  },
+  "pylops": {
+    "master": true,
+    "Rebuild": true
+  },
+  "pylru": {
+    "master": true
+  },
+  "pyluach": {
+    "master": true
+  },
+  "pymagej": {
+    "master": true
+  },
+  "pymannkendall": {
+    "master": true
+  },
+  "pymapd": {
+    "master": true
+  },
+  "pymatbridge": {
+    "master": true
+  },
+  "pymatgen": {
+    "master": true,
+    "revert-22-2020.1.10": true
+  },
+  "pymatgen-db": {
+    "master": true
+  },
+  "pymatgen-diffusion": {
+    "master": true
+  },
+  "pymatsolver": {
+    "master": true,
+    "maintainers": true
+  },
+  "pymbar": {
+    "master": true
+  },
+  "pymbolic": {
+    "master": true
+  },
+  "pymc": {
+    "master": true
+  },
+  "pymc3": {
+    "master": true,
+    "rc": true
+  },
+  "pymca": {
+    "master": true
+  },
+  "pymca-zocalo": {
+    "master": true
+  },
+  "pymcr": {
+    "master": true
+  },
+  "pymdi": {
+    "master": true
+  },
+  "pymdown-extensions": {
+    "master": true
+  },
+  "pymdwizard": {
+    "master": true
+  },
+  "pymeasure": {
+    "master": true
+  },
+  "pymedphys": {
+    "master": true,
+    "SimonBiggs-patch-1": true
+  },
+  "pymeep": {
+    "master": true,
+    "pr3": true
+  },
+  "pymemcache": {
+    "master": true
+  },
+  "pymesh2": {
+    "master": true
+  },
+  "pymiescatt": {
+    "master": true
+  },
+  "pymkl": {
+    "master": true
+  },
+  "pymks": {
+    "master": true
+  },
+  "pymodbustcp": {
+    "master": true
+  },
+  "pymodsecurity": {
+    "master": true
+  },
+  "pymonetdb": {
+    "master": true
+  },
+  "pymongo": {
+    "master": true
+  },
+  "pymor": {
+    "master": true,
+    "requirements_update": true
+  },
+  "pympler": {
+    "master": true
+  },
+  "pymsgbox": {
+    "master": true
+  },
+  "pymssql": {
+    "master": true
+  },
+  "pymt": {
+    "master": true,
+    "devel": true
+  },
+  "pymt_cem": {
+    "master": true
+  },
+  "pymt_child": {
+    "master": true
+  },
+  "pymt_ecsimplesnow": {
+    "master": true
+  },
+  "pymt_gipl": {
+    "master": true
+  },
+  "pymt_hydrotrend": {
+    "master": true
+  },
+  "pymt_landlab": {
+    "master": true
+  },
+  "pymt_permamodel": {
+    "master": true
+  },
+  "pymt_rafem": {
+    "master": true
+  },
+  "pymt_sedflux": {
+    "master": true
   }
 }
