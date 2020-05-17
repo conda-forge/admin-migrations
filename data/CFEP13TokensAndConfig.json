@@ -14430,5 +14430,201 @@
   },
   "pysoundfile": {
     "master": true
+  },
+  "pyspark": {
+    "master": true
+  },
+  "pyspark-stubs": {
+    "master": true
+  },
+  "pysparse": {
+    "master": true
+  },
+  "pyspeckit": {
+    "master": true
+  },
+  "pyspectral": {
+    "master": true
+  },
+  "pyspharm": {
+    "master": true
+  },
+  "pysqa": {
+    "master": true
+  },
+  "pystache": {
+    "master": true
+  },
+  "pystan": {
+    "master": true
+  },
+  "pysteps": {
+    "master": true
+  },
+  "pystreamer": {
+    "master": true
+  },
+  "pysurfer": {
+    "master": true
+  },
+  "pysvg-py3": {
+    "master": true
+  },
+  "pysw4": {
+    "master": true
+  },
+  "pytables": {
+    "master": true
+  },
+  "pyte": {
+    "master": true
+  },
+  "pytentiostat": {
+    "master": true
+  },
+  "pytesseract": {
+    "master": true
+  },
+  "pytest": {
+    "master": true,
+    "4.0": true,
+    "4.6": true
+  },
+  "pytest-aiohttp": {
+    "master": true
+  },
+  "pytest-arraydiff": {
+    "master": true
+  },
+  "pytest-ast-back-to-python": {
+    "master": true
+  },
+  "pytest-astropy": {
+    "master": true
+  },
+  "pytest-astropy-header": {
+    "master": true
+  },
+  "pytest-asyncio": {
+    "master": true
+  },
+  "pytest-azurepipelines": {
+    "master": true
+  },
+  "pytest-base-url": {
+    "master": true,
+    "update_to_1_4_1": true
+  },
+  "pytest-bdd": {
+    "master": true
+  },
+  "pytest-benchmark": {
+    "master": true
+  },
+  "pytest-cache": {
+    "master": true
+  },
+  "pytest-catchlog": {
+    "master": true
+  },
+  "pytest-chalice": {
+    "master": true
+  },
+  "pytest-clarity": {
+    "master": true
+  },
+  "pytest-console-scripts": {
+    "master": true
+  },
+  "pytest-cookies": {
+    "master": true
+  },
+  "pytest-cov": {
+    "master": true
+  },
+  "pytest-cpp": {
+    "master": true
+  },
+  "pytest-custom-exit-code": {
+    "master": true
+  },
+  "pytest-datadir": {
+    "master": true
+  },
+  "pytest-describe": {
+    "master": true
+  },
+  "pytest-django": {
+    "master": true
+  },
+  "pytest-django-haystack": {
+    "master": true
+  },
+  "pytest-doctestplus": {
+    "master": true
+  },
+  "pytest-env": {
+    "master": true
+  },
+  "pytest-faulthandler": {
+    "master": true
+  },
+  "pytest-fixture-config": {
+    "master": true
+  },
+  "pytest-flake8": {
+    "master": true
+  },
+  "pytest-flakes": {
+    "master": true
+  },
+  "pytest-flask": {
+    "master": true
+  },
+  "pytest-forked": {
+    "master": true
+  },
+  "pytest-freezegun": {
+    "master": true
+  },
+  "pytest-html": {
+    "master": true,
+    "update_to_1_15_1": true
+  },
+  "pytest-httpserver": {
+    "master": true
+  },
+  "pytest-icdiff": {
+    "master": true
+  },
+  "pytest-ignore-flaky": {
+    "master": true
+  },
+  "pytest-instafail": {
+    "master": true
+  },
+  "pytest-json": {
+    "master": true
+  },
+  "pytest-lazy-fixture": {
+    "master": true
+  },
+  "pytest-localserver": {
+    "master": true
+  },
+  "pytest-localstack": {
+    "master": true
+  },
+  "pytest-mccabe": {
+    "master": true
+  },
+  "pytest-metadata": {
+    "master": true
+  },
+  "pytest-mock": {
+    "master": true
+  },
+  "pytest-mpi": {
+    "master": true
   }
 }
