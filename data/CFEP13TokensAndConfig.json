@@ -15469,5 +15469,189 @@
   },
   "qrcode": {
     "master": true
+  },
+  "qscintilla2": {
+    "master": true,
+    "qt5": true
+  },
+  "qsum": {
+    "master": true
+  },
+  "qsymm": {
+    "master": true
+  },
+  "qt": {
+    "master": true,
+    "qt4": true
+  },
+  "qt.py": {
+    "master": true
+  },
+  "qt5reactor": {
+    "master": true
+  },
+  "qt_style_sheet_inspector": {
+    "master": true
+  },
+  "qtawesome": {
+    "master": true
+  },
+  "qtconsole": {
+    "master": true
+  },
+  "qtkeychain": {
+    "master": true
+  },
+  "qtlocation": {
+    "master": true
+  },
+  "qtmodern": {
+    "master": true
+  },
+  "qtpy": {
+    "master": true
+  },
+  "qtpy-uic": {
+    "master": true
+  },
+  "qtsass": {
+    "master": true
+  },
+  "qtserialport": {
+    "master": true
+  },
+  "qtwebkit": {
+    "master": true
+  },
+  "qtwirl": {
+    "master": true
+  },
+  "quandl": {
+    "master": true
+  },
+  "quantecon": {
+    "master": true
+  },
+  "quantities": {
+    "master": true
+  },
+  "quantlab": {
+    "master": true
+  },
+  "quantlab_launcher": {
+    "master": true
+  },
+  "quart": {
+    "master": true
+  },
+  "quart-cors": {
+    "master": true
+  },
+  "quart-openapi": {
+    "master": true
+  },
+  "quart-trio": {
+    "master": true
+  },
+  "quaternion": {
+    "master": true,
+    "update": true
+  },
+  "querystring_parser": {
+    "master": true
+  },
+  "quest": {
+    "master": true
+  },
+  "questplus": {
+    "master": true
+  },
+  "quickfix": {
+    "master": true
+  },
+  "quilt": {
+    "master": true
+  },
+  "qupy": {
+    "master": true
+  },
+  "qutip": {
+    "master": true,
+    "16-aug-4.2.0": true,
+    "add_maintainer-nathanshammah": true
+  },
+  "qwt": {
+    "master": true,
+    "qwt-qt4": true,
+    "qwt5": true
+  },
+  "qwtpolar": {
+    "master": true
+  },
+  "r": {
+    "master": true
+  },
+  "r-abind": {
+    "master": true
+  },
+  "r-acepack": {
+    "master": true
+  },
+  "r-ada": {
+    "master": true
+  },
+  "r-additivitytests": {
+    "master": true
+  },
+  "r-ade4": {
+    "master": true
+  },
+  "r-adegenet": {
+    "master": true
+  },
+  "r-adehabitatlt": {
+    "master": true
+  },
+  "r-adehabitatma": {
+    "master": true
+  },
+  "r-adgoftest": {
+    "master": true
+  },
+  "r-adlift": {
+    "master": true
+  },
+  "r-admisc": {
+    "master": true
+  },
+  "r-aer": {
+    "master": true
+  },
+  "r-afex": {
+    "master": true
+  },
+  "r-aggregation": {
+    "master": true
+  },
+  "r-agricolae": {
+    "master": true
+  },
+  "r-ahocorasicktrie": {
+    "master": true
+  },
+  "r-airr": {
+    "master": true
+  },
+  "r-akima": {
+    "master": true
+  },
+  "r-alabama": {
+    "master": true
+  },
+  "r-alakazam": {
+    "master": true
+  },
+  "r-aleplot": {
+    "master": true
   }
 }
