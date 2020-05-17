@@ -12786,5 +12786,252 @@
   },
   "proof": {
     "master": true
+  },
+  "properscoring": {
+    "master": true
+  },
+  "properties": {
+    "master": true
+  },
+  "property-cached": {
+    "master": true
+  },
+  "property-manager": {
+    "master": true
+  },
+  "propka": {
+    "master": true
+  },
+  "proplot": {
+    "master": true
+  },
+  "proselint": {
+    "master": true
+  },
+  "prospector": {
+    "master": true
+  },
+  "proteus": {
+    "master": true
+  },
+  "protobuf": {
+    "master": true,
+    "v3.5": true,
+    "v3.8": true
+  },
+  "protobuf3-to-dict": {
+    "master": true
+  },
+  "protoc-gen-go": {
+    "master": true
+  },
+  "prov": {
+    "master": true,
+    "enh/1.5.0": true
+  },
+  "ps2ff": {
+    "master": true
+  },
+  "pscript": {
+    "master": true
+  },
+  "pseudonetcdf": {
+    "master": true
+  },
+  "psfex": {
+    "master": true
+  },
+  "psfgen": {
+    "master": true
+  },
+  "pshell": {
+    "master": true
+  },
+  "psiturk": {
+    "master": true
+  },
+  "pspincalc": {
+    "master": true
+  },
+  "psqlodbc": {
+    "master": true
+  },
+  "psrqpy": {
+    "master": true
+  },
+  "pstdint": {
+    "master": true
+  },
+  "psutil": {
+    "master": true
+  },
+  "psy-maps": {
+    "master": true
+  },
+  "psy-reg": {
+    "master": true
+  },
+  "psy-simple": {
+    "master": true
+  },
+  "psy-strat": {
+    "master": true
+  },
+  "psychopy": {
+    "master": true
+  },
+  "psycogreen": {
+    "master": true
+  },
+  "psycopg2": {
+    "master": true
+  },
+  "psyplot": {
+    "master": true
+  },
+  "psyplot-gui": {
+    "master": true
+  },
+  "ptable": {
+    "master": true
+  },
+  "ptemcee": {
+    "master": true
+  },
+  "pthread-stubs": {
+    "master": true
+  },
+  "pthreads-win32": {
+    "master": true
+  },
+  "ptvsd": {
+    "master": true
+  },
+  "ptyprocess": {
+    "master": true
+  },
+  "pubchempy": {
+    "master": true
+  },
+  "public-wrappers": {
+    "master": true
+  },
+  "publish": {
+    "master": true
+  },
+  "pudb": {
+    "master": true
+  },
+  "pugixml": {
+    "master": true
+  },
+  "pulp": {
+    "master": true
+  },
+  "pulse": {
+    "master": true
+  },
+  "pulseaudio": {
+    "master": true
+  },
+  "pulsewaves": {
+    "master": true
+  },
+  "pure-sasl": {
+    "master": true
+  },
+  "pure_eval": {
+    "master": true
+  },
+  "puremagic": {
+    "master": true
+  },
+  "purepng": {
+    "master": true
+  },
+  "purpose": {
+    "master": true
+  },
+  "pv": {
+    "master": true
+  },
+  "pvl": {
+    "master": true
+  },
+  "pvlib-python": {
+    "master": true
+  },
+  "pweave": {
+    "master": true
+  },
+  "pwkit": {
+    "master": true
+  },
+  "px-proxy": {
+    "master": true
+  },
+  "px4tools": {
+    "master": true
+  },
+  "py": {
+    "master": true
+  },
+  "py-bash-completion": {
+    "master": true
+  },
+  "py-cpuinfo": {
+    "master": true
+  },
+  "py-fann2": {
+    "master": true
+  },
+  "py-gfm": {
+    "master": true
+  },
+  "py-lz4framed": {
+    "master": true
+  },
+  "py-mathjax": {
+    "master": true
+  },
+  "py-open-fonts": {
+    "master": true
+  },
+  "py-pandoc": {
+    "master": true
+  },
+  "py-pandoc-crossref": {
+    "master": true
+  },
+  "py-plumed": {
+    "master": true
+  },
+  "py-spy": {
+    "master": true
+  },
+  "py-ubjson": {
+    "master": true,
+    "expose-test-return-code": true
+  },
+  "py2cytoscape": {
+    "master": true
+  },
+  "py2neo": {
+    "master": true
+  },
+  "py2swagger": {
+    "master": true
+  },
+  "py2vega": {
+    "master": true
+  },
+  "py3c": {
+    "master": true
+  },
+  "py3dmol": {
+    "master": true
+  },
+  "py3nvml": {
+    "master": true
   }
 }
