@@ -14187,5 +14187,248 @@
   "pypsa": {
     "master": true,
     "patch-pandas-version": true
+  },
+  "pypubsub": {
+    "master": true
+  },
+  "pypugjs": {
+    "master": true
+  },
+  "pypy2.7": {
+    "master": true
+  },
+  "pypy3.6": {
+    "master": true
+  },
+  "pyqi": {
+    "master": true
+  },
+  "pyqmix": {
+    "master": true
+  },
+  "pyqode.core": {
+    "master": true
+  },
+  "pyqode.python": {
+    "master": true
+  },
+  "pyqode.qt": {
+    "master": true
+  },
+  "pyqstem": {
+    "master": true
+  },
+  "pyqt": {
+    "master": true,
+    "qt4": true
+  },
+  "pyqtads": {
+    "master": true
+  },
+  "pyqtgraph": {
+    "master": true
+  },
+  "pyquery": {
+    "master": true
+  },
+  "pyquil": {
+    "master": true,
+    "conda_maintainer_update": true
+  },
+  "pyramid": {
+    "master": true
+  },
+  "pyramid_beaker": {
+    "master": true
+  },
+  "pyramid_log": {
+    "master": true
+  },
+  "pyramid_mongodb2": {
+    "master": true
+  },
+  "pyramid_redis": {
+    "master": true
+  },
+  "pyramid_redis_sessions": {
+    "master": true
+  },
+  "pyranha": {
+    "master": true
+  },
+  "pyreadline": {
+    "master": true
+  },
+  "pyreadr": {
+    "master": true,
+    "ver_019": true
+  },
+  "pyreadstat": {
+    "master": true
+  },
+  "pyregion": {
+    "master": true
+  },
+  "pyremap": {
+    "master": true
+  },
+  "pyrepl": {
+    "master": true
+  },
+  "pyreportjasper": {
+    "master": true
+  },
+  "pyresample": {
+    "master": true
+  },
+  "pyresttest": {
+    "master": true
+  },
+  "pyretis": {
+    "master": true,
+    "revert-10-master": true
+  },
+  "pyrfa": {
+    "master": true
+  },
+  "pyrfc3339": {
+    "master": true
+  },
+  "pyro4": {
+    "master": true,
+    "irmen-master": true
+  },
+  "pyro5": {
+    "master": true
+  },
+  "pyrobuf": {
+    "master": true
+  },
+  "pyroma": {
+    "master": true,
+    "v2.0.2": true
+  },
+  "pyrr": {
+    "master": true
+  },
+  "pyrserve": {
+    "master": true,
+    "revert-1-rebuild": true
+  },
+  "pyrsistent": {
+    "master": true,
+    "v0.14.11": true
+  },
+  "pyrtf": {
+    "master": true
+  },
+  "pyrxp": {
+    "master": true
+  },
+  "pysal": {
+    "master": true
+  },
+  "pysbatch": {
+    "master": true
+  },
+  "pyscaffold": {
+    "master": true
+  },
+  "pyscal": {
+    "master": true
+  },
+  "pyscenarios": {
+    "master": true
+  },
+  "pyscrap": {
+    "master": true
+  },
+  "pyscreeze": {
+    "master": true
+  },
+  "pyscss": {
+    "master": true
+  },
+  "pysdl2": {
+    "master": true
+  },
+  "pyseaweed": {
+    "master": true
+  },
+  "pyseidon": {
+    "master": true
+  },
+  "pysendfile": {
+    "master": true
+  },
+  "pyserial": {
+    "master": true
+  },
+  "pysftp": {
+    "master": true
+  },
+  "pysgrid": {
+    "master": true
+  },
+  "pyshacl": {
+    "master": true
+  },
+  "pysheds": {
+    "master": true
+  },
+  "pyshp": {
+    "master": true
+  },
+  "pyside2": {
+    "master": true
+  },
+  "pysimplegui": {
+    "master": true
+  },
+  "pysimpleguiweb": {
+    "master": true
+  },
+  "pysimpleguiwx": {
+    "master": true
+  },
+  "pysingular": {
+    "master": true
+  },
+  "pysis": {
+    "master": true
+  },
+  "pyslet": {
+    "master": true
+  },
+  "pysm3": {
+    "master": true
+  },
+  "pysmbclient": {
+    "master": true
+  },
+  "pysmi": {
+    "master": true
+  },
+  "pysnmp": {
+    "master": true
+  },
+  "pysnooper": {
+    "master": true
+  },
+  "pysocks": {
+    "master": true
+  },
+  "pysolar": {
+    "master": true,
+    "v0.6": true
+  },
+  "pysolr": {
+    "master": true
+  },
+  "pysot": {
+    "master": true
+  },
+  "pysoundfile": {
+    "master": true
   }
 }
