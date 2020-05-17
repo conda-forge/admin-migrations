@@ -13974,5 +13974,218 @@
   },
   "pymt_sedflux": {
     "master": true
+  },
+  "pymultinest": {
+    "master": true
+  },
+  "pymumps": {
+    "master": true
+  },
+  "pymunk": {
+    "master": true
+  },
+  "pymvpa2": {
+    "master": true
+  },
+  "pymysql": {
+    "master": true
+  },
+  "pynac": {
+    "master": true,
+    "0.7.16": true
+  },
+  "pynacl": {
+    "master": true
+  },
+  "pynamical": {
+    "master": true
+  },
+  "pynamodb": {
+    "master": true
+  },
+  "pyncml": {
+    "master": true
+  },
+  "pynco": {
+    "master": true
+  },
+  "pyne": {
+    "master": true
+  },
+  "pynfft": {
+    "master": true
+  },
+  "pyngl": {
+    "master": true
+  },
+  "pynini": {
+    "master": true
+  },
+  "pynio": {
+    "master": true,
+    "dev": true
+  },
+  "pynmea2": {
+    "master": true
+  },
+  "pynndescent": {
+    "master": true
+  },
+  "pyntcloud": {
+    "master": true
+  },
+  "pynucos": {
+    "master": true
+  },
+  "pynumero_libraries": {
+    "master": true
+  },
+  "pynumpress": {
+    "master": true
+  },
+  "pynvim": {
+    "master": true
+  },
+  "pynvml": {
+    "master": true
+  },
+  "pynwb": {
+    "master": true
+  },
+  "pyobjc-core": {
+    "master": true
+  },
+  "pyobjc-framework-cocoa": {
+    "master": true
+  },
+  "pyobjc-framework-fsevents": {
+    "master": true,
+    "legacy": true
+  },
+  "pyobjc-framework-quartz": {
+    "master": true
+  },
+  "pyobjcryst": {
+    "master": true
+  },
+  "pyodbc": {
+    "master": true,
+    "cf_sync": true
+  },
+  "pyodeint": {
+    "master": true,
+    "pyodeint-0.9.x": true
+  },
+  "pyomeca": {
+    "master": true
+  },
+  "pyomo": {
+    "master": true,
+    "pyomo5.6.1": true
+  },
+  "pyomo.extras": {
+    "master": true
+  },
+  "pyomo.solvers": {
+    "master": true,
+    "rerender": true
+  },
+  "pyoos": {
+    "master": true
+  },
+  "pyopcode": {
+    "master": true
+  },
+  "pyopencl": {
+    "master": true
+  },
+  "pyopengl": {
+    "master": true
+  },
+  "pyopenssl": {
+    "master": true
+  },
+  "pyophidia": {
+    "master": true
+  },
+  "pyorbital": {
+    "master": true
+  },
+  "pyorgmode": {
+    "master": true
+  },
+  "pyosf": {
+    "master": true
+  },
+  "pyosreplace": {
+    "master": true
+  },
+  "pyotp": {
+    "master": true
+  },
+  "pypandoc": {
+    "master": true
+  },
+  "pyparsing": {
+    "master": true
+  },
+  "pypd": {
+    "master": true
+  },
+  "pypdb": {
+    "master": true
+  },
+  "pypdf2": {
+    "master": true
+  },
+  "pypeg2": {
+    "master": true
+  },
+  "pyperclip": {
+    "master": true
+  },
+  "pyperf": {
+    "master": true
+  },
+  "pyphen": {
+    "master": true
+  },
+  "pypif": {
+    "master": true
+  },
+  "pyplis": {
+    "master": true
+  },
+  "pypng": {
+    "master": true
+  },
+  "pypolyagamma": {
+    "master": true
+  },
+  "pyppdf": {
+    "master": true
+  },
+  "pyppeteer": {
+    "master": true
+  },
+  "pyprind": {
+    "master": true
+  },
+  "pyprism": {
+    "master": true
+  },
+  "pyprof2calltree": {
+    "master": true
+  },
+  "pyproj": {
+    "master": true,
+    "v1.9.x": true
+  },
+  "pyprojroot": {
+    "master": true
+  },
+  "pypsa": {
+    "master": true,
+    "patch-pandas-version": true
   }
 }
