@@ -1374,5 +1374,239 @@
   },
   "python-oauth2": {
     "master": true
+  },
+  "python-openid": {
+    "master": true
+  },
+  "python-openstackclient": {
+    "master": true
+  },
+  "python-packit": {
+    "master": true
+  },
+  "python-paragraph": {
+    "master": true
+  },
+  "python-patch": {
+    "master": true
+  },
+  "python-pdal": {
+    "master": true
+  },
+  "python-pdfkit": {
+    "master": true
+  },
+  "python-pegasus-wms": {
+    "master": true
+  },
+  "python-picard": {
+    "master": true
+  },
+  "python-pkcs11": {
+    "master": true
+  },
+  "python-planarity": {
+    "master": true
+  },
+  "python-pptx": {
+    "master": true
+  },
+  "python-primesieve": {
+    "master": true
+  },
+  "python-rapidjson": {
+    "master": true
+  },
+  "python-slugify": {
+    "master": true
+  },
+  "python-snap": {
+    "master": true
+  },
+  "python-snappy": {
+    "master": true
+  },
+  "python-socketio": {
+    "master": true
+  },
+  "python-sounddevice": {
+    "master": true
+  },
+  "python-spake2": {
+    "master": true,
+    "import_tests": true,
+    "spake2": true
+  },
+  "python-spams": {
+    "master": true
+  },
+  "python-stratify": {
+    "master": true
+  },
+  "python-swiftclient": {
+    "master": true
+  },
+  "python-symengine": {
+    "master": true
+  },
+  "python-telegram-bot": {
+    "master": true
+  },
+  "python-termstyle": {
+    "master": true
+  },
+  "python-ternary": {
+    "master": true
+  },
+  "python-terraform": {
+    "master": true
+  },
+  "python-twitter": {
+    "master": true
+  },
+  "python-utils": {
+    "master": true
+  },
+  "python-vagrant": {
+    "master": true
+  },
+  "python-wget": {
+    "master": true
+  },
+  "python-xapian": {
+    "master": true
+  },
+  "python-xlib": {
+    "master": true
+  },
+  "python-xxhash": {
+    "master": true
+  },
+  "python.app": {
+    "master": true
+  },
+  "python2-secrets": {
+    "master": true
+  },
+  "python3-openid": {
+    "master": true
+  },
+  "python_abi": {
+    "master": true
+  },
+  "python_http_client": {
+    "master": true
+  },
+  "pythonfmu": {
+    "master": true
+  },
+  "pythonnet": {
+    "master": true
+  },
+  "pythonocc-core": {
+    "master": true
+  },
+  "pythonqwt": {
+    "master": true
+  },
+  "pythran": {
+    "master": true
+  },
+  "pythreejs": {
+    "master": true
+  },
+  "pytide": {
+    "master": true
+  },
+  "pytim": {
+    "master": true
+  },
+  "pytimeparse": {
+    "master": true
+  },
+  "pytmatrix": {
+    "master": true
+  },
+  "pytmc": {
+    "master": true,
+    "add-maintainers": true
+  },
+  "pytoml": {
+    "master": true
+  },
+  "pytools": {
+    "master": true
+  },
+  "pytorch-cpu": {
+    "master": true
+  },
+  "pytorch-pretrained-bert": {
+    "master": true,
+    "0.1.x": true
+  },
+  "pytrackmate": {
+    "master": true
+  },
+  "pytrie": {
+    "master": true
+  },
+  "pytrilinos": {
+    "master": true
+  },
+  "pyts": {
+    "master": true
+  },
+  "pyttk": {
+    "master": true
+  },
+  "pytweening": {
+    "master": true
+  },
+  "pytypes": {
+    "master": true
+  },
+  "pytz": {
+    "master": true
+  },
+  "pytzdata": {
+    "master": true
+  },
+  "pyuca": {
+    "master": true
+  },
+  "pyugrid": {
+    "master": true
+  },
+  "pyulog": {
+    "master": true
+  },
+  "pyunfold": {
+    "master": true
+  },
+  "pyunlocbox": {
+    "master": true
+  },
+  "pyuoi": {
+    "master": true
+  },
+  "pyupgrade": {
+    "master": true
+  },
+  "pyusb": {
+    "master": true
+  },
+  "pyusid": {
+    "master": true
+  },
+  "pyutilib": {
+    "master": true,
+    "admin": true,
+    "pyutilib5.7.0": true
+  },
+  "pyutilsnrw": {
+    "master": true
+  },
+  "pyuv": {
+    "master": true
   }
 }
