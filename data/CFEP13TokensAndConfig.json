@@ -10617,5 +10617,271 @@
   },
   "nbbrowserpdf": {
     "master": true
+  },
+  "nbclean": {
+    "master": true
+  },
+  "nbcommands": {
+    "master": true
+  },
+  "nbconvert": {
+    "master": true
+  },
+  "nbconvert-utils": {
+    "master": true
+  },
+  "nbdime": {
+    "master": true
+  },
+  "nbexamples": {
+    "master": true
+  },
+  "nbfinder": {
+    "master": true
+  },
+  "nbformat": {
+    "master": true
+  },
+  "nbgitpuller": {
+    "master": true
+  },
+  "nbpresent": {
+    "master": true
+  },
+  "nbrr": {
+    "master": true
+  },
+  "nbrsessionproxy": {
+    "master": true
+  },
+  "nbserverproxy": {
+    "master": true
+  },
+  "nbsmoke": {
+    "master": true
+  },
+  "nbsphinx": {
+    "master": true,
+    "fixup-rerender": true
+  },
+  "nbstripout": {
+    "master": true
+  },
+  "nbtutor": {
+    "master": true
+  },
+  "nbval": {
+    "master": true
+  },
+  "nc_time_axis": {
+    "master": true
+  },
+  "nccl": {
+    "master": true,
+    "v2.4.6.1": true
+  },
+  "ncdu": {
+    "master": true
+  },
+  "ncempy": {
+    "master": true
+  },
+  "ncephes": {
+    "master": true
+  },
+  "ncl": {
+    "master": true,
+    "dev": true
+  },
+  "nco": {
+    "master": true
+  },
+  "ncpol2sdpa": {
+    "master": true
+  },
+  "ncurses": {
+    "master": true
+  },
+  "ncview": {
+    "master": true
+  },
+  "ncvis": {
+    "master": true
+  },
+  "nd2reader": {
+    "master": true
+  },
+  "ndarray": {
+    "master": true,
+    "initial_build": true
+  },
+  "ndarray_listener": {
+    "master": true
+  },
+  "ndcctools": {
+    "master": true
+  },
+  "ndcsv": {
+    "master": true
+  },
+  "ndcube": {
+    "master": true
+  },
+  "ndf": {
+    "master": true
+  },
+  "ndg-httpsclient": {
+    "master": true
+  },
+  "ndiff": {
+    "master": true
+  },
+  "nds2-client": {
+    "master": true
+  },
+  "nds2-client-swig": {
+    "master": true
+  },
+  "ndscope": {
+    "master": true
+  },
+  "nearpy": {
+    "master": true
+  },
+  "neo4j-connector": {
+    "master": true
+  },
+  "neo4j-python-driver": {
+    "master": true
+  },
+  "neobolt": {
+    "master": true
+  },
+  "neomodel": {
+    "master": true
+  },
+  "neotime": {
+    "master": true
+  },
+  "neovim": {
+    "master": true
+  },
+  "neptune-client": {
+    "master": true
+  },
+  "neptune-notebooks": {
+    "master": true
+  },
+  "nest-asyncio": {
+    "master": true
+  },
+  "nest-simulator": {
+    "master": true
+  },
+  "nestle": {
+    "master": true
+  },
+  "nestly": {
+    "master": true
+  },
+  "netaddr": {
+    "master": true
+  },
+  "netcdf-cxx-legacy": {
+    "master": true
+  },
+  "netcdf-cxx4": {
+    "master": true
+  },
+  "netcdf-fortran": {
+    "master": true,
+    "4.4.x": true
+  },
+  "netcdf-scm": {
+    "master": true
+  },
+  "netcdf4": {
+    "master": true,
+    "builds_with_hdf5_1.10.2": true,
+    "v1.3.x": true
+  },
+  "netgen": {
+    "master": true,
+    "looooo-zlib": true,
+    "looooo-zlib-1": true
+  },
+  "netifaces": {
+    "master": true
+  },
+  "netpbm": {
+    "master": true
+  },
+  "nettle": {
+    "master": true
+  },
+  "networkit": {
+    "master": true
+  },
+  "networkx": {
+    "master": true
+  },
+  "networkx-metis": {
+    "master": true
+  },
+  "neunorm": {
+    "master": true
+  },
+  "neurdflib": {
+    "master": true
+  },
+  "neuron": {
+    "master": true
+  },
+  "neurosynchro": {
+    "master": true
+  },
+  "neurotic": {
+    "master": true
+  },
+  "newrelic": {
+    "master": true
+  },
+  "newspaper3k": {
+    "master": true
+  },
+  "newt": {
+    "master": true
+  },
+  "nexpy": {
+    "master": true
+  },
+  "nexus": {
+    "master": true
+  },
+  "nexusformat": {
+    "master": true
+  },
+  "nfft": {
+    "master": true,
+    "nfft3.2.x": true
+  },
+  "ngboost": {
+    "master": true
+  },
+  "nghttp2": {
+    "master": true
+  },
+  "nginx": {
+    "master": true,
+    "1.14.x": true
+  },
+  "nginx-module-njs": {
+    "master": true
+  },
+  "nglview": {
+    "master": true
+  },
+  "ngmix": {
+    "master": true
   }
 }
