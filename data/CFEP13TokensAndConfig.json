@@ -13033,5 +13033,223 @@
   },
   "py3nvml": {
     "master": true
+  },
+  "py4j": {
+    "master": true
+  },
+  "py6s": {
+    "master": true
+  },
+  "py_dempster_shafer": {
+    "master": true
+  },
+  "py_entitymatching": {
+    "master": true
+  },
+  "py_gd": {
+    "master": true
+  },
+  "py_lru_cache": {
+    "master": true
+  },
+  "py_stringmatching": {
+    "master": true
+  },
+  "py_stringsimjoin": {
+    "master": true
+  },
+  "pyabel": {
+    "master": true
+  },
+  "pyaerocom": {
+    "master": true
+  },
+  "pyaes": {
+    "master": true
+  },
+  "pyagrum": {
+    "master": true
+  },
+  "pyahocorasick": {
+    "master": true
+  },
+  "pyalveo": {
+    "master": true
+  },
+  "pyam": {
+    "master": true
+  },
+  "pyamg": {
+    "master": true
+  },
+  "pyaml": {
+    "master": true
+  },
+  "pyarrow": {
+    "master": true,
+    "0.16.x": true,
+    "develop": true
+  },
+  "pyasdf": {
+    "master": true
+  },
+  "pyasn1": {
+    "master": true
+  },
+  "pyasn1-modules": {
+    "master": true
+  },
+  "pyathena": {
+    "master": true
+  },
+  "pyaudi": {
+    "master": true
+  },
+  "pyaudio": {
+    "master": true
+  },
+  "pyautogui": {
+    "master": true
+  },
+  "pyavm": {
+    "master": true
+  },
+  "pyaxiom": {
+    "master": true
+  },
+  "pybase64": {
+    "master": true
+  },
+  "pybind11": {
+    "master": true
+  },
+  "pybind11_json": {
+    "master": true
+  },
+  "pybinding": {
+    "master": true
+  },
+  "pyblake2": {
+    "master": true
+  },
+  "pybloom_live": {
+    "master": true
+  },
+  "pybroom": {
+    "master": true
+  },
+  "pybtex": {
+    "master": true
+  },
+  "pybtex-docutils": {
+    "master": true
+  },
+  "pybufr-ecmwf": {
+    "master": true
+  },
+  "pybuilder": {
+    "master": true
+  },
+  "pybv": {
+    "master": true
+  },
+  "pyca": {
+    "master": true
+  },
+  "pycairo": {
+    "master": true
+  },
+  "pycalphad": {
+    "master": true,
+    "Version-bump-0.7": true,
+    "build-on-conda": true
+  },
+  "pycalverter": {
+    "master": true
+  },
+  "pycamhd": {
+    "master": true
+  },
+  "pycandela": {
+    "master": true
+  },
+  "pycapnp": {
+    "master": true
+  },
+  "pycares": {
+    "master": true
+  },
+  "pycbc": {
+    "master": true
+  },
+  "pyccl": {
+    "master": true
+  },
+  "pychef": {
+    "master": true
+  },
+  "pychrono": {
+    "master": true
+  },
+  "pycifrw": {
+    "master": true
+  },
+  "pyclipper": {
+    "master": true
+  },
+  "pyclustering": {
+    "master": true
+  },
+  "pycoal": {
+    "master": true
+  },
+  "pycoalescence": {
+    "master": true
+  },
+  "pycoast": {
+    "master": true
+  },
+  "pycocotools": {
+    "master": true
+  },
+  "pycodestyle": {
+    "master": true,
+    "2.3.1": true
+  },
+  "pycomlink": {
+    "master": true
+  },
+  "pycompare": {
+    "master": true
+  },
+  "pycondor": {
+    "master": true
+  },
+  "pycosat": {
+    "master": true
+  },
+  "pycountry": {
+    "master": true
+  },
+  "pycovjson": {
+    "master": true
+  },
+  "pycp2k": {
+    "master": true
+  },
+  "pycparser": {
+    "master": true
+  },
+  "pycraf": {
+    "master": true
+  },
+  "pycrc": {
+    "master": true
+  },
+  "pycrlibm": {
+    "master": true
+  },
+  "pycron": {
+    "master": true
   }
 }
