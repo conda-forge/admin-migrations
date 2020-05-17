@@ -11578,5 +11578,265 @@
   },
   "oq-engine": {
     "master": true
+  },
+  "orange-canvas-core": {
+    "master": true
+  },
+  "orange-widget-base": {
+    "master": true
+  },
+  "orange3": {
+    "master": true,
+    "fix-python-louvain-version": true
+  },
+  "orange3-bioinformatics": {
+    "master": true,
+    "astaric-no-arch": true
+  },
+  "orange3-educational": {
+    "master": true
+  },
+  "orange3-geo": {
+    "master": true
+  },
+  "orange3-imageanalytics": {
+    "master": true,
+    "add-unittest": true
+  },
+  "orange3-network": {
+    "master": true
+  },
+  "orange3-singlecell": {
+    "master": true
+  },
+  "orange3-text": {
+    "master": true,
+    "PrimozGodec-remove-validate-email": true
+  },
+  "orange3-timeseries": {
+    "master": true,
+    "bump-0.2.7-license": true
+  },
+  "orc": {
+    "master": true
+  },
+  "orca": {
+    "master": true
+  },
+  "orca_test": {
+    "master": true
+  },
+  "orch": {
+    "master": true
+  },
+  "orcid": {
+    "master": true
+  },
+  "ordered-set": {
+    "master": true
+  },
+  "orderedmultidict": {
+    "master": true
+  },
+  "orderedset": {
+    "master": true
+  },
+  "orekit": {
+    "master": true,
+    "10.0": true,
+    "9.0": true,
+    "9.1": true,
+    "9.3": true
+  },
+  "orix": {
+    "master": true
+  },
+  "os-client-config": {
+    "master": true
+  },
+  "os-service-types": {
+    "master": true
+  },
+  "osc-lib": {
+    "master": true
+  },
+  "oscrypto": {
+    "master": true
+  },
+  "oset": {
+    "master": true
+  },
+  "osfclient": {
+    "master": true
+  },
+  "oslo.concurrency": {
+    "master": true
+  },
+  "oslo.config": {
+    "master": true
+  },
+  "oslo.i18n": {
+    "master": true
+  },
+  "oslo.serialization": {
+    "master": true
+  },
+  "oslo.utils": {
+    "master": true
+  },
+  "osmapi": {
+    "master": true
+  },
+  "osmnet": {
+    "master": true
+  },
+  "osmnx": {
+    "master": true
+  },
+  "osqp": {
+    "master": true
+  },
+  "oss2": {
+    "master": true
+  },
+  "ossuuid": {
+    "master": true
+  },
+  "ostaphep": {
+    "master": true
+  },
+  "otagrum": {
+    "master": true,
+    "jschueller-patch-1": true
+  },
+  "otfftw": {
+    "master": true
+  },
+  "otfmi": {
+    "master": true
+  },
+  "otmixmod": {
+    "master": true
+  },
+  "otmorris": {
+    "master": true
+  },
+  "otpmml": {
+    "master": true
+  },
+  "otpod": {
+    "master": true
+  },
+  "otrobopt": {
+    "master": true
+  },
+  "otsubsetinverse": {
+    "master": true
+  },
+  "otsvm": {
+    "master": true
+  },
+  "otwrapy": {
+    "master": true
+  },
+  "outcome": {
+    "master": true
+  },
+  "outdated": {
+    "master": true
+  },
+  "output_viewer": {
+    "master": true
+  },
+  "overly": {
+    "master": true
+  },
+  "overpy": {
+    "master": true
+  },
+  "overrides": {
+    "master": true
+  },
+  "ovito": {
+    "master": true
+  },
+  "owlready2": {
+    "master": true
+  },
+  "owlrl": {
+    "master": true
+  },
+  "owslib": {
+    "master": true
+  },
+  "oyaml": {
+    "master": true
+  },
+  "p11-kit": {
+    "master": true
+  },
+  "p4p": {
+    "master": true
+  },
+  "p7zip": {
+    "master": true
+  },
+  "p_astro": {
+    "master": true
+  },
+  "packaging": {
+    "master": true
+  },
+  "packer": {
+    "master": true
+  },
+  "packmol": {
+    "master": true
+  },
+  "padel": {
+    "master": true
+  },
+  "paegan": {
+    "master": true
+  },
+  "paegan-transport": {
+    "master": true
+  },
+  "pagmo": {
+    "master": true
+  },
+  "paho-mqtt": {
+    "master": true
+  },
+  "paintera": {
+    "master": true
+  },
+  "paintera-conversion-helper": {
+    "master": true
+  },
+  "palettable": {
+    "master": true
+  },
+  "palp": {
+    "master": true
+  },
+  "palpy": {
+    "master": true
+  },
+  "pamela": {
+    "master": true
+  },
+  "pamqp": {
+    "master": true,
+    "first-build": true
+  },
+  "pandana": {
+    "master": true
+  },
+  "pandas": {
+    "master": true,
+    "dev": true,
+    "v0.17.x": true,
+    "v0.24.2": true
   }
 }
