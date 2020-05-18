@@ -20973,7 +20973,8 @@
     "master": true
   },
   "gdcm": {
-    "master": true
+    "master": true,
+    "remove-from-maintainers": true
   },
   "gdk-pixbuf": {
     "master": true
@@ -25659,7 +25660,8 @@
     "master": true
   },
   "miktex": {
-    "master": true
+    "master": true,
+    "remove-from-maintainers": true
   },
   "milksnake": {
     "master": true

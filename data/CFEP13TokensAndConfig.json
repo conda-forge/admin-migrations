@@ -5665,7 +5665,8 @@
     "master": true
   },
   "gdcm": {
-    "master": true
+    "master": true,
+    "remove-from-maintainers": true
   },
   "gdk-pixbuf": {
     "master": true
@@ -6354,7 +6355,8 @@
   },
   "graphql-core": {
     "master": true,
-    "v2.3.1": true
+    "v2.3.1": true,
+    "2.x": true
   },
   "graphql-js": {
     "master": true
@@ -9325,7 +9327,8 @@
     "master": true
   },
   "linux-sysroot": {
-    "master": true
+    "master": true,
+    "v2.12.2": true
   },
   "liquidprompt": {
     "master": true
@@ -10010,7 +10013,8 @@
     "master": true
   },
   "miktex": {
-    "master": true
+    "master": true,
+    "remove-from-maintainers": true
   },
   "milksnake": {
     "master": true
