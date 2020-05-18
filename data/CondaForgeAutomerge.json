@@ -26894,7 +26894,8 @@
     "master": true
   },
   "numpy-indexed": {
-    "master": true
+    "master": true,
+    "remove-from-maintainers": true
   },
   "numpy-stl": {
     "master": true
@@ -27214,7 +27215,8 @@
     "2.1.x": true
   },
   "openmesh": {
-    "master": true
+    "master": true,
+    "remove-from-maintainers": true
   },
   "openlibm": {
     "master": true,
