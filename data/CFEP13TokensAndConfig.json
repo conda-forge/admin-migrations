@@ -18462,5 +18462,264 @@
   },
   "r-mapedit": {
     "master": true
+  },
+  "r-mapplots": {
+    "master": true
+  },
+  "r-mapproj": {
+    "master": true
+  },
+  "r-maps": {
+    "master": true
+  },
+  "r-maptools": {
+    "master": true
+  },
+  "r-maptpx": {
+    "master": true
+  },
+  "r-maptree": {
+    "master": true
+  },
+  "r-mapview": {
+    "master": true
+  },
+  "r-margins": {
+    "master": true
+  },
+  "r-markdown": {
+    "master": true
+  },
+  "r-markovchain": {
+    "master": true
+  },
+  "r-mass": {
+    "master": true
+  },
+  "r-matching": {
+    "master": true
+  },
+  "r-matlab": {
+    "master": true
+  },
+  "r-matlib": {
+    "master": true
+  },
+  "r-matrix": {
+    "master": true
+  },
+  "r-matrix.utils": {
+    "master": true
+  },
+  "r-matrixcalc": {
+    "master": true
+  },
+  "r-matrixeqtl": {
+    "master": true
+  },
+  "r-matrixmodels": {
+    "master": true
+  },
+  "r-matrixstats": {
+    "master": true
+  },
+  "r-matrixtests": {
+    "master": true
+  },
+  "r-maxlik": {
+    "master": true
+  },
+  "r-maxstat": {
+    "master": true
+  },
+  "r-mba": {
+    "master": true
+  },
+  "r-mbess": {
+    "master": true
+  },
+  "r-mboost": {
+    "master": true
+  },
+  "r-mc2d": {
+    "master": true
+  },
+  "r-mcbiopi": {
+    "master": true
+  },
+  "r-mcl": {
+    "master": true
+  },
+  "r-mclust": {
+    "master": true
+  },
+  "r-mcmc": {
+    "master": true
+  },
+  "r-mcmcglmm": {
+    "master": true
+  },
+  "r-mcmcpack": {
+    "master": true
+  },
+  "r-mcmcprecision": {
+    "master": true
+  },
+  "r-mco": {
+    "master": true
+  },
+  "r-mcpan": {
+    "master": true
+  },
+  "r-mda": {
+    "master": true
+  },
+  "r-mdmr": {
+    "master": true
+  },
+  "r-medicalrisk": {
+    "master": true
+  },
+  "r-mefa": {
+    "master": true
+  },
+  "r-memoise": {
+    "master": true
+  },
+  "r-memuse": {
+    "master": true
+  },
+  "r-mertools": {
+    "master": true
+  },
+  "r-mess": {
+    "master": true
+  },
+  "r-meta": {
+    "master": true
+  },
+  "r-metabma": {
+    "master": true
+  },
+  "r-metacycle": {
+    "master": true
+  },
+  "r-metafor": {
+    "master": true
+  },
+  "r-metap": {
+    "master": true
+  },
+  "r-metarnaseq": {
+    "master": true
+  },
+  "r-metr": {
+    "master": true
+  },
+  "r-metrics": {
+    "master": true
+  },
+  "r-metstat": {
+    "master": true
+  },
+  "r-mgcv": {
+    "master": true
+  },
+  "r-mglm": {
+    "master": true
+  },
+  "r-mgrs": {
+    "master": true
+  },
+  "r-mgsub": {
+    "master": true
+  },
+  "r-mhadaptive": {
+    "master": true
+  },
+  "r-mhsmm": {
+    "master": true
+  },
+  "r-mi": {
+    "master": true
+  },
+  "r-mice": {
+    "master": true
+  },
+  "r-microbenchmark": {
+    "master": true
+  },
+  "r-micropan": {
+    "master": true
+  },
+  "r-microseq": {
+    "master": true
+  },
+  "r-mime": {
+    "master": true
+  },
+  "r-minerva": {
+    "master": true
+  },
+  "r-minicran": {
+    "master": true
+  },
+  "r-miniui": {
+    "master": true
+  },
+  "r-minpack.lm": {
+    "master": true
+  },
+  "r-minqa": {
+    "master": true
+  },
+  "r-mirt": {
+    "master": true
+  },
+  "r-misc3d": {
+    "master": true
+  },
+  "r-miscf": {
+    "master": true
+  },
+  "r-misctools": {
+    "master": true
+  },
+  "r-missforest": {
+    "master": true
+  },
+  "r-missmda": {
+    "master": true
+  },
+  "r-mitml": {
+    "master": true
+  },
+  "r-mitools": {
+    "master": true
+  },
+  "r-mixomics": {
+    "master": true
+  },
+  "r-mixsmsn": {
+    "master": true
+  },
+  "r-mixsqp": {
+    "master": true
+  },
+  "r-mixtools": {
+    "master": true
+  },
+  "r-mlapi": {
+    "master": true
+  },
+  "r-mlbench": {
+    "master": true
+  },
+  "r-mlflow": {
+    "master": true,
+    "backports": true
+  },
+  "r-mlgt": {
+    "master": true
   }
 }
