@@ -7,6 +7,7 @@ import subprocess
 import requests
 import functools
 import datetime
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 from requests.exceptions import RequestException
 import github
@@ -105,7 +106,7 @@ def _get_all_feedstocks():
 def _load_feedstock_data():
     curr_hour = datetime.datetime.utcnow().hour
     if (
-        (curr_hour % 2 == 0 or not os.path.exists("data/all_feedstocks.json"))
+        (curr_hour % 2 == 1 or not os.path.exists("data/all_feedstocks.json"))
         and not DEBUG
     ):
         dt = time.time()
@@ -166,7 +167,7 @@ def _commit_data():
 
 def run_migrators(feedstock, migrators):
     if len(migrators) == 0:
-        return False
+        return False, []
 
     print("=" * 80)
     print("=" * 80)
@@ -192,7 +193,7 @@ def run_migrators(feedstock, migrators):
                 # having all of the branches
                 _run_git_command(["clone", feedstock_http])
             except subprocess.CalledProcessError:
-                return made_api_calls
+                return made_api_calls, migrators_to_record
 
             with pushd("%s-feedstock" % feedstock):
                 if os.path.exists("recipe/meta.yaml"):
@@ -254,10 +255,7 @@ def run_migrators(feedstock, migrators):
 
     print("migration took %s seconds\n" % (time.time() - _start))
 
-    for m, branch in migrators_to_record:
-        m.record(feedstock, branch)
-
-    return made_api_calls
+    return made_api_calls, migrators_to_record
 
 
 def main():
@@ -293,44 +291,72 @@ def main():
     else:
         all_feedstocks = list(feedstocks["feedstocks"].keys())
 
+    n_workers = 16
     num_done = 0
     num_pushed_or_apied = 0
     start_time = time.time()
     report_time = time.time()
-    for f in all_feedstocks:
-        # out of time?
-        if time.time() - start_time > MAX_SECONDS:
-            break
+    futs = {}
+    with ProcessPoolExecutor(max_workers=n_workers) as exec:
+        for f in all_feedstocks:
+            # did we do this one?
+            if feedstocks["feedstocks"][f] != current_num:
+                continue
 
-        # did too many?
-        if num_pushed_or_apied >= MAX_MIGRATE:
-            break
+            # migrate
+            if len(futs) >= n_workers:
+                for fut in as_completed(futs):
+                    made_api_call, migrations_to_record = fut.result()
+                    if made_api_call:
+                        num_pushed_or_apied += 1
+                    feedstocks["feedstocks"][futs[fut]] = next_num
+                    num_done += 1
 
-        # did we do this one?
-        if feedstocks["feedstocks"][f] != current_num:
-            continue
+                    for _m, _branch in migrations_to_record:
+                        _m.record(futs[fut], _branch)
 
-        # migrate
-        made_api_call = run_migrators(f, migrators)
+                    if time.time() - report_time > 10:
+                        report_time = time.time()
+                        print("on %d out of %d feedstocks" % (
+                            num_done_prev + num_done,
+                            len(feedstocks["feedstocks"]),
+                        ))
+                        print("migrated %d feedstokcs" % num_done)
+                        print(
+                            "pushed or made API calls for "
+                            "%d feedstocks" % num_pushed_or_apied)
+                        elapsed_time = time.time() - start_time
+                        print("can migrate ~%d more feedstocks for this CI run" % (
+                            int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
+                        ))
+
+                        print(" ")
+
+                    break
+
+                del futs[fut]
+
+            fut = exec.submit(run_migrators, f, migrators)
+            futs[fut] = f
+
+            # out of time?
+            if time.time() - start_time > MAX_SECONDS:
+                break
+
+            # did too many?
+            if num_pushed_or_apied >= MAX_MIGRATE:
+                break
+
+    # clean up
+    for fut in as_completed(futs):
+        made_api_call, migrations_to_record = fut.result()
         if made_api_call:
             num_pushed_or_apied += 1
-        feedstocks["feedstocks"][f] = next_num
+        feedstocks["feedstocks"][futs[fut]] = next_num
         num_done += 1
 
-        if time.time() - report_time > 10:
-            report_time = time.time()
-            print("on %d out of %d feedstocks" % (
-                num_done_prev + num_done,
-                len(feedstocks["feedstocks"]),
-            ))
-            print("migrated %d feedstokcs" % num_done)
-            print("pushed or made API calls for %d feedstocks" % num_pushed_or_apied)
-            elapsed_time = time.time() - start_time
-            print("can migrate ~%d more feedstocks for this CI run" % (
-                int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
-            ))
-
-            print(" ")
+        for _m, _branch in migrations_to_record:
+            _m.record(futs[fut], _branch)
 
     if all(v == next_num for v in feedstocks["feedstocks"].values()):
         print("=" * 80)
