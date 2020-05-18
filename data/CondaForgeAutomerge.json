@@ -3831,5 +3831,226 @@
   },
   "r-ggnetwork": {
     "master": true
+  },
+  "r-ggpage": {
+    "master": true
+  },
+  "r-ggparallel": {
+    "master": true
+  },
+  "r-ggparty": {
+    "master": true
+  },
+  "r-ggplot2": {
+    "master": true,
+    "revert-1-v2.2.0": true,
+    "v2.2.x": true
+  },
+  "r-ggplotify": {
+    "master": true
+  },
+  "r-ggpmisc": {
+    "master": true
+  },
+  "r-ggpointdensity": {
+    "master": true
+  },
+  "r-ggpubr": {
+    "master": true
+  },
+  "r-ggraph": {
+    "master": true
+  },
+  "r-ggrasp": {
+    "master": true
+  },
+  "r-ggrepel": {
+    "master": true
+  },
+  "r-ggresidpanel": {
+    "master": true
+  },
+  "r-ggridges": {
+    "master": true
+  },
+  "r-ggsci": {
+    "master": true
+  },
+  "r-ggseqlogo": {
+    "master": true
+  },
+  "r-ggsignif": {
+    "master": true
+  },
+  "r-ggsn": {
+    "master": true
+  },
+  "r-ggspectra": {
+    "master": true
+  },
+  "r-ggstance": {
+    "master": true
+  },
+  "r-ggstatsplot": {
+    "master": true
+  },
+  "r-ggtern": {
+    "master": true
+  },
+  "r-ggthemes": {
+    "master": true
+  },
+  "r-ggupset": {
+    "master": true
+  },
+  "r-ggvis": {
+    "master": true
+  },
+  "r-gh": {
+    "master": true
+  },
+  "r-giant": {
+    "master": true
+  },
+  "r-gifski": {
+    "master": true
+  },
+  "r-gistr": {
+    "master": true
+  },
+  "r-git2r": {
+    "master": true
+  },
+  "r-glasso": {
+    "master": true
+  },
+  "r-glm2": {
+    "master": true
+  },
+  "r-glmmtmb": {
+    "master": true
+  },
+  "r-glmnet": {
+    "master": true
+  },
+  "r-glmnetutils": {
+    "master": true
+  },
+  "r-globaloptions": {
+    "master": true
+  },
+  "r-globals": {
+    "master": true
+  },
+  "r-glue": {
+    "master": true
+  },
+  "r-gluedown": {
+    "master": true
+  },
+  "r-gmd": {
+    "master": true
+  },
+  "r-gmm": {
+    "master": true
+  },
+  "r-gmodels": {
+    "master": true
+  },
+  "r-gmp": {
+    "master": true
+  },
+  "r-gnm": {
+    "master": true
+  },
+  "r-goeveg": {
+    "master": true
+  },
+  "r-goftest": {
+    "master": true
+  },
+  "r-golem": {
+    "master": true
+  },
+  "r-goodpractice": {
+    "master": true
+  },
+  "r-googleauthr": {
+    "master": true
+  },
+  "r-googlepolylines": {
+    "master": true
+  },
+  "r-googlevis": {
+    "master": true
+  },
+  "r-goric": {
+    "master": true
+  },
+  "r-gower": {
+    "master": true
+  },
+  "r-gparotation": {
+    "master": true
+  },
+  "r-gpca": {
+    "master": true
+  },
+  "r-gpfit": {
+    "master": true
+  },
+  "r-gplots": {
+    "master": true
+  },
+  "r-gprofiler": {
+    "master": true
+  },
+  "r-gprofiler2": {
+    "master": true
+  },
+  "r-gpseq": {
+    "master": true
+  },
+  "r-gptk": {
+    "master": true
+  },
+  "r-graphlayouts": {
+    "master": true
+  },
+  "r-graphtweets": {
+    "master": true
+  },
+  "r-grf": {
+    "master": true
+  },
+  "r-gribr": {
+    "master": true
+  },
+  "r-gridbase": {
+    "master": true
+  },
+  "r-gridextra": {
+    "master": true
+  },
+  "r-gridgraphics": {
+    "master": true
+  },
+  "r-gridsvg": {
+    "master": true
+  },
+  "r-gridtext": {
+    "master": true
+  },
+  "r-grimport": {
+    "master": true
+  },
+  "r-grimport2": {
+    "master": true
+  },
+  "r-groupedstats": {
+    "master": true
+  },
+  "r-grplasso": {
+    "master": true
   }
 }
