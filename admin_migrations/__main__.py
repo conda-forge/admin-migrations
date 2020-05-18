@@ -15,7 +15,7 @@ import tqdm
 from admin_migrations.migrators import (
     AppveyorDelete,
     RAutomerge,
-    CFEP13TokensAndConfig,
+    # CFEP13TokensAndConfig,
     CondaForgeAutomerge,
     # these are finished or not used so we don't run them
     # AutomergeAndRerender,
@@ -264,7 +264,7 @@ def main():
     migrators = [
         AppveyorDelete(),
         RAutomerge(),
-        CFEP13TokensAndConfig(),
+        # CFEP13TokensAndConfig(),
         CondaForgeAutomerge(),
         # these are finished or not used so we don't run them
         # AutomergeAndRerender(),
