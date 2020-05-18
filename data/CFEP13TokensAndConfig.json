@@ -3742,7 +3742,8 @@
     "master": true
   },
   "django-rest-hooks": {
-    "master": true
+    "master": true,
+    "remove-from-maintainers": true
   },
   "django-rest-swagger": {
     "master": true
@@ -17660,6 +17661,39 @@
     "master": true
   },
   "r-grplasso": {
+    "master": true
+  },
+  "braggedgemodeling": {
+    "master": true
+  },
+  "brain-isotopic-distribution": {
+    "master": true
+  },
+  "brainbox-ibl": {
+    "master": true
+  },
+  "branca": {
+    "master": true
+  },
+  "bravado": {
+    "master": true
+  },
+  "bravado-core": {
+    "master": true
+  },
+  "breathe": {
+    "master": true
+  },
+  "brent-search": {
+    "master": true
+  },
+  "brent_search": {
+    "master": true
+  },
+  "brewer2mpl": {
+    "master": true
+  },
+  "buildbot-worker": {
     "master": true
   }
 }

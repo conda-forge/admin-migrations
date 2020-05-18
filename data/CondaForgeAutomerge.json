@@ -18949,7 +18949,8 @@
     "master": true
   },
   "django-rest-hooks": {
-    "master": true
+    "master": true,
+    "remove-from-maintainers": true
   },
   "django-rest-polymorphic": {
     "master": true
