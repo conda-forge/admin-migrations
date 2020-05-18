@@ -29,7 +29,7 @@ if DEBUG:
     MAX_MIGRATE = 1
     MAX_SECONDS = 50 * 60
 else:
-    MAX_MIGRATE = 1000
+    MAX_MIGRATE = 2000
     MAX_SECONDS = 50 * 60
 
 
