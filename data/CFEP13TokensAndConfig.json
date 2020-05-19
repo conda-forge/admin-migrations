@@ -22607,5 +22607,212 @@
   },
   "rocr-runtime": {
     "master": true
+  },
+  "roct-thunk-interface": {
+    "master": true
+  },
+  "rollbar": {
+    "master": true
+  },
+  "root": {
+    "master": true,
+    "6.18": true,
+    "6.20.2": true
+  },
+  "root5": {
+    "master": true
+  },
+  "root_numpy": {
+    "master": true
+  },
+  "root_pandas": {
+    "master": true
+  },
+  "rope": {
+    "master": true
+  },
+  "ros-actionlib": {
+    "master": true
+  },
+  "ros-actionlib-msgs": {
+    "master": true
+  },
+  "ros-catkin": {
+    "master": true
+  },
+  "ros-class-loader": {
+    "master": true
+  },
+  "ros-cmake-modules": {
+    "master": true
+  },
+  "ros-comm": {
+    "master": true
+  },
+  "ros-common-msgs": {
+    "master": true
+  },
+  "ros-conda-base": {
+    "master": true,
+    "revert-3-patch-1": true
+  },
+  "ros-conda-mutex": {
+    "master": true
+  },
+  "ros-core": {
+    "master": true
+  },
+  "ros-cpp-common": {
+    "master": true
+  },
+  "ros-diagnostic-msgs": {
+    "master": true
+  },
+  "ros-dynamic-reconfigure": {
+    "master": true
+  },
+  "ros-environment": {
+    "master": true
+  },
+  "ros-gencpp": {
+    "master": true
+  },
+  "ros-geneus": {
+    "master": true
+  },
+  "ros-genlisp": {
+    "master": true
+  },
+  "ros-genmsg": {
+    "master": true
+  },
+  "ros-gennodejs": {
+    "master": true
+  },
+  "ros-genpy": {
+    "master": true
+  },
+  "ros-geometry-msgs": {
+    "master": true
+  },
+  "ros-message-filters": {
+    "master": true
+  },
+  "ros-message-generation": {
+    "master": true
+  },
+  "ros-message-runtime": {
+    "master": true
+  },
+  "ros-mk": {
+    "master": true
+  },
+  "ros-nav-msgs": {
+    "master": true
+  },
+  "ros-pluginlib": {
+    "master": true
+  },
+  "ros-ros": {
+    "master": true
+  },
+  "ros-rosbag": {
+    "master": true
+  },
+  "ros-rosbag-migration-rule": {
+    "master": true
+  },
+  "ros-rosbag-storage": {
+    "master": true
+  },
+  "ros-rosbash": {
+    "master": true
+  },
+  "ros-rosboost-cfg": {
+    "master": true
+  },
+  "ros-rosbuild": {
+    "master": true
+  },
+  "ros-rosclean": {
+    "master": true
+  },
+  "ros-rosconsole": {
+    "master": true
+  },
+  "ros-rosconsole-bridge": {
+    "master": true
+  },
+  "ros-roscpp": {
+    "master": true
+  },
+  "ros-roscpp-core": {
+    "master": true
+  },
+  "ros-roscpp-serialization": {
+    "master": true
+  },
+  "ros-roscpp-traits": {
+    "master": true
+  },
+  "ros-roscreate": {
+    "master": true
+  },
+  "ros-rosgraph": {
+    "master": true
+  },
+  "ros-rosgraph-msgs": {
+    "master": true
+  },
+  "ros-roslang": {
+    "master": true
+  },
+  "ros-roslaunch": {
+    "master": true
+  },
+  "ros-roslib": {
+    "master": true
+  },
+  "ros-roslisp": {
+    "master": true
+  },
+  "ros-roslz4": {
+    "master": true
+  },
+  "ros-rosmake": {
+    "master": true
+  },
+  "ros-rosmaster": {
+    "master": true
+  },
+  "ros-rosmsg": {
+    "master": true
+  },
+  "ros-rosnode": {
+    "master": true
+  },
+  "ros-rosout": {
+    "master": true
+  },
+  "ros-rospack": {
+    "master": true
+  },
+  "ros-rosparam": {
+    "master": true
+  },
+  "ros-rospy": {
+    "master": true
+  },
+  "ros-rosservice": {
+    "master": true
+  },
+  "ros-rostest": {
+    "master": true
+  },
+  "ros-rostime": {
+    "master": true
+  },
+  "ros-rostopic": {
+    "master": true
   }
 }
