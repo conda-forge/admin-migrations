@@ -23411,5 +23411,217 @@
   },
   "sense2vec": {
     "master": true
+  },
+  "sensorml2iso": {
+    "master": true
+  },
+  "sentinelhub": {
+    "master": true
+  },
+  "sentinels": {
+    "master": true
+  },
+  "sentry-sdk": {
+    "master": true
+  },
+  "sep": {
+    "master": true,
+    "kbarbary-patch-1": true
+  },
+  "seqan-library": {
+    "master": true,
+    "1.4": true
+  },
+  "serialchemy": {
+    "master": true
+  },
+  "serializable": {
+    "master": true
+  },
+  "serpent": {
+    "master": true
+  },
+  "serpy": {
+    "master": true
+  },
+  "serverfiles": {
+    "master": true
+  },
+  "service_identity": {
+    "master": true
+  },
+  "setoptconf": {
+    "master": true
+  },
+  "setproctitle": {
+    "master": true
+  },
+  "setuptools": {
+    "master": true
+  },
+  "setuptools-git": {
+    "master": true
+  },
+  "setuptools-markdown": {
+    "master": true
+  },
+  "setuptools-rust": {
+    "master": true
+  },
+  "setuptools_dso": {
+    "master": true
+  },
+  "setuptools_scm": {
+    "master": true
+  },
+  "setuptools_scm_git_archive": {
+    "master": true
+  },
+  "setuptools_subversion": {
+    "master": true
+  },
+  "sexpdata": {
+    "master": true
+  },
+  "sfdmap": {
+    "master": true
+  },
+  "sfepy": {
+    "master": true
+  },
+  "sgdpy": {
+    "master": true
+  },
+  "sgp4": {
+    "master": true,
+    "jochym-patch-1": true
+  },
+  "sgpp": {
+    "master": true
+  },
+  "sh": {
+    "master": true
+  },
+  "shade": {
+    "master": true
+  },
+  "shap": {
+    "master": true
+  },
+  "shapelib": {
+    "master": true
+  },
+  "shapely": {
+    "master": true
+  },
+  "sharedarray": {
+    "master": true
+  },
+  "shed": {
+    "master": true
+  },
+  "shedsidewinder": {
+    "master": true
+  },
+  "shellcheck": {
+    "master": true
+  },
+  "shellescape": {
+    "master": true
+  },
+  "shellingham": {
+    "master": true
+  },
+  "shenfun": {
+    "master": true
+  },
+  "sherlockml-dataclean": {
+    "master": true
+  },
+  "shogun": {
+    "master": true
+  },
+  "shogun-cpp": {
+    "master": true,
+    "arm": true
+  },
+  "shortcutter": {
+    "master": true
+  },
+  "shortuuid": {
+    "master": true,
+    "0.4.x": true
+  },
+  "shove": {
+    "master": true
+  },
+  "shtns": {
+    "master": true
+  },
+  "shutilwhich": {
+    "master": true
+  },
+  "shutilwhich-cwdpatch": {
+    "master": true
+  },
+  "shyaml": {
+    "master": true
+  },
+  "siesta": {
+    "master": true,
+    "jj-4.0": true,
+    "jj-4.1-fixes": true
+  },
+  "signac": {
+    "master": true
+  },
+  "signac-dashboard": {
+    "master": true,
+    "bdice-patch-1": true,
+    "v0.2.1": true
+  },
+  "signac-flow": {
+    "master": true
+  },
+  "signxml": {
+    "master": true
+  },
+  "sigopt": {
+    "master": true
+  },
+  "silx": {
+    "master": true,
+    "rebuild-0.8.0": true
+  },
+  "simage": {
+    "master": true
+  },
+  "simanneal": {
+    "master": true
+  },
+  "simbody": {
+    "master": true
+  },
+  "simdna": {
+    "master": true
+  },
+  "simhash": {
+    "master": true
+  },
+  "simhash-py": {
+    "master": true
+  },
+  "simpeg": {
+    "master": true,
+    "beta": true
+  },
+  "simpervisor": {
+    "master": true
+  },
+  "simple-salesforce": {
+    "master": true
+  },
+  "simpleeval": {
+    "master": true
   }
 }
