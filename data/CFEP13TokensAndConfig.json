@@ -22437,5 +22437,175 @@
   },
   "requests-unixsocket": {
     "master": true
+  },
+  "requests_cache": {
+    "master": true
+  },
+  "requests_download": {
+    "master": true
+  },
+  "requests_ntlm": {
+    "master": true
+  },
+  "requests_pkcs12": {
+    "master": true
+  },
+  "requestsexceptions": {
+    "master": true
+  },
+  "requirements-detector": {
+    "master": true
+  },
+  "requirements-parser": {
+    "master": true
+  },
+  "resampy": {
+    "master": true
+  },
+  "resonance": {
+    "master": true
+  },
+  "resonate": {
+    "master": true
+  },
+  "responder": {
+    "master": true
+  },
+  "responses": {
+    "master": true
+  },
+  "restructuredtext_lint": {
+    "master": true
+  },
+  "retriever": {
+    "master": true
+  },
+  "retry": {
+    "master": true
+  },
+  "retrying": {
+    "master": true
+  },
+  "retype": {
+    "master": true
+  },
+  "reuse": {
+    "master": true
+  },
+  "rever": {
+    "master": true
+  },
+  "reverse-geocode": {
+    "master": true
+  },
+  "rfc3339": {
+    "master": true
+  },
+  "rfc3986": {
+    "master": true
+  },
+  "rfc3987": {
+    "master": true
+  },
+  "rfc5424-logging-handler": {
+    "master": true
+  },
+  "rfpimp": {
+    "master": true
+  },
+  "rhapsody": {
+    "master": true,
+    "version3": true
+  },
+  "rhash": {
+    "master": true
+  },
+  "richdem": {
+    "master": true
+  },
+  "rickshaw": {
+    "master": true
+  },
+  "rift": {
+    "master": true,
+    "0.0.14.x": true
+  },
+  "rio-cogeo": {
+    "master": true
+  },
+  "rios": {
+    "master": true
+  },
+  "rioxarray": {
+    "master": true
+  },
+  "ripgrep": {
+    "master": true
+  },
+  "ripser": {
+    "master": true
+  },
+  "rise": {
+    "master": true
+  },
+  "riskmatrix": {
+    "master": true
+  },
+  "rjsmin": {
+    "master": true
+  },
+  "rnatools": {
+    "master": true
+  },
+  "robobrowser": {
+    "master": true
+  },
+  "robotframework": {
+    "master": true
+  },
+  "robotframework-lint": {
+    "master": true
+  },
+  "robotframework-seleniumlibrary": {
+    "master": true
+  },
+  "robotframework-sshlibrary": {
+    "master": true
+  },
+  "robotstatuschecker": {
+    "master": true
+  },
+  "rockhound": {
+    "master": true
+  },
+  "rockpool": {
+    "master": true
+  },
+  "rocm-bandwidth-test": {
+    "master": true
+  },
+  "rocm-cmake": {
+    "master": true
+  },
+  "rocm-comgr": {
+    "master": true
+  },
+  "rocm-device-libs": {
+    "master": true
+  },
+  "rocm-opencl-driver": {
+    "master": true
+  },
+  "rocm-opencl-runtime": {
+    "master": true
+  },
+  "rocm-smi": {
+    "master": true
+  },
+  "rocminfo": {
+    "master": true
+  },
+  "rocr-runtime": {
+    "master": true
   }
 }
