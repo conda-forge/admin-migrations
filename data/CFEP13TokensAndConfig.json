@@ -22814,5 +22814,192 @@
   },
   "ros-rostopic": {
     "master": true
+  },
+  "ros-rosunit": {
+    "master": true
+  },
+  "ros-roswtf": {
+    "master": true
+  },
+  "ros-sensor-msgs": {
+    "master": true
+  },
+  "ros-shape-msgs": {
+    "master": true
+  },
+  "ros-std-msgs": {
+    "master": true
+  },
+  "ros-std-srvs": {
+    "master": true
+  },
+  "ros-stereo-msgs": {
+    "master": true
+  },
+  "ros-topic-tools": {
+    "master": true
+  },
+  "ros-trajectory-msgs": {
+    "master": true
+  },
+  "ros-visualization-msgs": {
+    "master": true
+  },
+  "ros-xmlrpcpp": {
+    "master": true
+  },
+  "rosdep": {
+    "master": true
+  },
+  "rosdistro": {
+    "master": true
+  },
+  "rosinstall": {
+    "master": true
+  },
+  "rosinstall_generator": {
+    "master": true
+  },
+  "roslibpy": {
+    "master": true
+  },
+  "rospkg": {
+    "master": true
+  },
+  "rotamerconvolvemd": {
+    "master": true
+  },
+  "routes": {
+    "master": true,
+    "1.13": true
+  },
+  "rowan": {
+    "master": true
+  },
+  "rpaths": {
+    "master": true
+  },
+  "rpcq": {
+    "master": true,
+    "conda_maintainers2": true,
+    "conda_permissions": true
+  },
+  "rpdb": {
+    "master": true
+  },
+  "rpfits": {
+    "master": true
+  },
+  "rply": {
+    "master": true
+  },
+  "rpy2": {
+    "master": true,
+    "2.8.x": true
+  },
+  "rq": {
+    "master": true,
+    "v0.8.1": true
+  },
+  "rsa": {
+    "master": true
+  },
+  "rsgislib": {
+    "master": true,
+    "Update-KEA-GSL-Versions": true
+  },
+  "rst2pdf": {
+    "master": true
+  },
+  "rstr": {
+    "master": true
+  },
+  "rsync": {
+    "master": true
+  },
+  "rt1": {
+    "master": true
+  },
+  "rtree": {
+    "master": true
+  },
+  "ruamel": {
+    "master": true
+  },
+  "ruamel.ordereddict": {
+    "master": true
+  },
+  "ruamel.yaml": {
+    "master": true,
+    "v0.16.0": true
+  },
+  "ruamel.yaml.clib": {
+    "master": true
+  },
+  "ruamel_yaml": {
+    "master": true
+  },
+  "rubiks": {
+    "master": true
+  },
+  "ruby": {
+    "master": true,
+    "2.3": true,
+    "2.5.x": true
+  },
+  "runthis-server": {
+    "master": true
+  },
+  "runthis-sphinxext": {
+    "master": true
+  },
+  "rust": {
+    "master": true,
+    "dev": true
+  },
+  "rustpython": {
+    "master": true
+  },
+  "rvlib": {
+    "master": true
+  },
+  "rw": {
+    "master": true
+  },
+  "rx": {
+    "master": true
+  },
+  "rxcpp": {
+    "master": true
+  },
+  "s-tui": {
+    "master": true
+  },
+  "s2cloudless": {
+    "master": true
+  },
+  "s3cmd": {
+    "master": true
+  },
+  "s3contents": {
+    "master": true
+  },
+  "s3fs": {
+    "master": true
+  },
+  "s3path": {
+    "master": true
+  },
+  "s3transfer": {
+    "master": true
+  },
+  "s_gd2": {
+    "master": true
+  },
+  "sacc": {
+    "master": true
+  },
+  "sacremoses": {
+    "master": true
   }
 }
