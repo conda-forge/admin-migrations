@@ -23623,5 +23623,216 @@
   },
   "simpleeval": {
     "master": true
+  },
+  "simplegeneric": {
+    "master": true
+  },
+  "simpleitk": {
+    "master": true
+  },
+  "simplejson": {
+    "master": true
+  },
+  "simplekml": {
+    "master": true
+  },
+  "simplekv": {
+    "master": true
+  },
+  "simplesat": {
+    "master": true
+  },
+  "simpletal": {
+    "master": true
+  },
+  "simpletraj": {
+    "master": true
+  },
+  "simupop": {
+    "master": true,
+    "regro-cf-autotick-bot-rebuild": true
+  },
+  "singledispatch": {
+    "master": true
+  },
+  "singular": {
+    "master": true
+  },
+  "singularity": {
+    "master": true
+  },
+  "singularity-compose": {
+    "master": true
+  },
+  "sip": {
+    "master": true,
+    "4.18.x": true
+  },
+  "siphon": {
+    "master": true
+  },
+  "sisl": {
+    "master": true
+  },
+  "six": {
+    "master": true
+  },
+  "sixs": {
+    "master": true
+  },
+  "skan": {
+    "master": true
+  },
+  "skater": {
+    "master": true
+  },
+  "skein": {
+    "master": true
+  },
+  "skidl": {
+    "master": true
+  },
+  "skijumpdesign": {
+    "master": true
+  },
+  "skinnywms": {
+    "master": true
+  },
+  "sklearn-contrib-lightning": {
+    "master": true
+  },
+  "sklearn-contrib-py-earth": {
+    "master": true
+  },
+  "sknw": {
+    "master": true
+  },
+  "skopeo": {
+    "master": true
+  },
+  "skorch": {
+    "master": true,
+    "dhirschfeld-patch-1": true
+  },
+  "skrebate": {
+    "master": true
+  },
+  "skyarea": {
+    "master": true
+  },
+  "skyfield": {
+    "master": true,
+    "jochym-patch-1": true
+  },
+  "skyfield-data": {
+    "master": true
+  },
+  "sl": {
+    "master": true
+  },
+  "slackbot": {
+    "master": true
+  },
+  "slackclient": {
+    "master": true
+  },
+  "slacker": {
+    "master": true,
+    "0.9.42": true
+  },
+  "slang": {
+    "master": true
+  },
+  "slda": {
+    "master": true
+  },
+  "sleek-lvalert": {
+    "master": true
+  },
+  "sleekxmpp": {
+    "master": true
+  },
+  "slepc": {
+    "master": true
+  },
+  "slepc4py": {
+    "master": true
+  },
+  "slicedimage": {
+    "master": true
+  },
+  "slicerator": {
+    "master": true
+  },
+  "slimit": {
+    "master": true
+  },
+  "slugify": {
+    "master": true
+  },
+  "slumber": {
+    "master": true
+  },
+  "slycot": {
+    "master": true,
+    "moorepants-patch-1": true,
+    "moorepants-patch-2": true
+  },
+  "smart_open": {
+    "master": true
+  },
+  "smartypants": {
+    "master": true
+  },
+  "smdebug-rulesconfig": {
+    "master": true
+  },
+  "smesh": {
+    "master": true
+  },
+  "smif": {
+    "master": true
+  },
+  "smmap": {
+    "master": true
+  },
+  "smmap2": {
+    "master": true
+  },
+  "smokesignal": {
+    "master": true
+  },
+  "smoqe": {
+    "master": true
+  },
+  "smp": {
+    "master": true
+  },
+  "smpeg2": {
+    "master": true
+  },
+  "smt": {
+    "master": true
+  },
+  "snakebite": {
+    "master": true
+  },
+  "snakefood": {
+    "master": true
+  },
+  "snakeviz": {
+    "master": true
+  },
+  "snap-cpp": {
+    "master": true
+  },
+  "snappy": {
+    "master": true
+  },
+  "snapshottest": {
+    "master": true
+  },
+  "snaptime": {
+    "master": true
   }
 }
