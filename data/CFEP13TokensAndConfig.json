@@ -22081,5 +22081,173 @@
   },
   "rb-multipart-post": {
     "master": true
+  },
+  "rb-namae": {
+    "master": true
+  },
+  "rb-necromancer": {
+    "master": true
+  },
+  "rb-net-ssh": {
+    "master": true
+  },
+  "rb-nio4r": {
+    "master": true
+  },
+  "rb-nokogiri": {
+    "master": true
+  },
+  "rb-octokit": {
+    "master": true
+  },
+  "rb-parallel": {
+    "master": true
+  },
+  "rb-pastel": {
+    "master": true
+  },
+  "rb-pathutil": {
+    "master": true
+  },
+  "rb-pkg-config": {
+    "master": true
+  },
+  "rb-public_suffix": {
+    "master": true
+  },
+  "rb-rainbow": {
+    "master": true
+  },
+  "rb-rb-fsevent": {
+    "master": true
+  },
+  "rb-rb-inotify": {
+    "master": true
+  },
+  "rb-rouge": {
+    "master": true,
+    "2.x": true
+  },
+  "rb-ruby-enum": {
+    "master": true
+  },
+  "rb-ruby_dep": {
+    "master": true
+  },
+  "rb-rubyzip": {
+    "master": true,
+    "1.1.x": true
+  },
+  "rb-safe_yaml": {
+    "master": true
+  },
+  "rb-sass": {
+    "master": true
+  },
+  "rb-sass-listen": {
+    "master": true
+  },
+  "rb-sassc": {
+    "master": true
+  },
+  "rb-sawyer": {
+    "master": true
+  },
+  "rb-serverengine": {
+    "master": true
+  },
+  "rb-sigdump": {
+    "master": true
+  },
+  "rb-simple_pid": {
+    "master": true
+  },
+  "rb-strptime": {
+    "master": true
+  },
+  "rb-terminal-table": {
+    "master": true
+  },
+  "rb-thor": {
+    "master": true
+  },
+  "rb-thread_safe": {
+    "master": true
+  },
+  "rb-timerizer": {
+    "master": true
+  },
+  "rb-tty-color": {
+    "master": true
+  },
+  "rb-tty-cursor": {
+    "master": true
+  },
+  "rb-tty-prompt": {
+    "master": true
+  },
+  "rb-tty-reader": {
+    "master": true
+  },
+  "rb-tty-screen": {
+    "master": true
+  },
+  "rb-typhoeus": {
+    "master": true
+  },
+  "rb-tzinfo": {
+    "master": true
+  },
+  "rb-tzinfo-data": {
+    "master": true
+  },
+  "rb-unicode-display_width": {
+    "master": true
+  },
+  "rb-wisper": {
+    "master": true
+  },
+  "rb-yajl-ruby": {
+    "master": true
+  },
+  "rb-yell": {
+    "master": true
+  },
+  "rbc": {
+    "master": true
+  },
+  "rbdl": {
+    "master": true,
+    "pariterre-patch-1": true
+  },
+  "rclone": {
+    "master": true
+  },
+  "rcssmin": {
+    "master": true
+  },
+  "rdflib": {
+    "master": true,
+    "add-new-maintainer": true,
+    "enh/4.2.2": true,
+    "enh/5.0": true
+  },
+  "rdflib-jsonld": {
+    "master": true
+  },
+  "rdkit": {
+    "master": true
+  },
+  "re2": {
+    "master": true
+  },
+  "re2c": {
+    "master": true
+  },
+  "reacnetgenerator": {
+    "master": true
+  },
+  "read-roi": {
+    "master": true
   }
 }
