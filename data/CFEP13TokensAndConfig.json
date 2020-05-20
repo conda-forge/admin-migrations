@@ -27067,5 +27067,183 @@
   },
   "yappi": {
     "master": true
+  },
+  "yapsy": {
+    "master": true
+  },
+  "yarg": {
+    "master": true
+  },
+  "yarl": {
+    "master": true
+  },
+  "yarn": {
+    "master": true
+  },
+  "yarn-api-client": {
+    "master": true
+  },
+  "yasm": {
+    "master": true
+  },
+  "yattag": {
+    "master": true
+  },
+  "yeadon": {
+    "master": true
+  },
+  "yews": {
+    "master": true
+  },
+  "yggdrasil": {
+    "master": true
+  },
+  "yodapy": {
+    "master": true
+  },
+  "yodatools": {
+    "master": true
+  },
+  "youtube-dl": {
+    "master": true
+  },
+  "yq": {
+    "master": true
+  },
+  "yt": {
+    "master": true
+  },
+  "yt_astro_analysis": {
+    "master": true
+  },
+  "z5py": {
+    "master": true,
+    "fix_lz4": true
+  },
+  "zaber-motion": {
+    "master": true
+  },
+  "zappy": {
+    "master": true
+  },
+  "zarr": {
+    "master": true,
+    "rc": true
+  },
+  "zbar": {
+    "master": true
+  },
+  "zbarlight": {
+    "master": true
+  },
+  "zc.lockfile": {
+    "master": true
+  },
+  "zconfig": {
+    "master": true
+  },
+  "zdaemon": {
+    "master": true
+  },
+  "zeep": {
+    "master": true
+  },
+  "zeo": {
+    "master": true
+  },
+  "zeroc-ice": {
+    "master": true,
+    "version_3.6": true
+  },
+  "zeroconf": {
+    "master": true
+  },
+  "zeromq": {
+    "master": true
+  },
+  "zetcd": {
+    "master": true
+  },
+  "zfit": {
+    "master": true
+  },
+  "zfit-physics": {
+    "master": true
+  },
+  "zfpy": {
+    "master": true
+  },
+  "zict": {
+    "master": true
+  },
+  "zip": {
+    "master": true
+  },
+  "zipfile2": {
+    "master": true
+  },
+  "zipp": {
+    "master": true
+  },
+  "zlib": {
+    "master": true,
+    "dual-compiler-output": true
+  },
+  "zmesh": {
+    "master": true
+  },
+  "zn_poly": {
+    "master": true
+  },
+  "zocalo": {
+    "master": true
+  },
+  "zocalo-dls": {
+    "master": true
+  },
+  "zodb": {
+    "master": true
+  },
+  "zodbpickle": {
+    "master": true
+  },
+  "zodburi": {
+    "master": true
+  },
+  "zoltan": {
+    "master": true
+  },
+  "zookeeper-c": {
+    "master": true
+  },
+  "zope.deferredimport": {
+    "master": true
+  },
+  "zope.deprecation": {
+    "master": true
+  },
+  "zope.hookable": {
+    "master": true
+  },
+  "zope.interface": {
+    "master": true
+  },
+  "zope.proxy": {
+    "master": true
+  },
+  "zopfli": {
+    "master": true
+  },
+  "zsh": {
+    "master": true
+  },
+  "zstandard": {
+    "master": true
+  },
+  "zstd": {
+    "master": true
+  },
+  "zwatershed": {
+    "master": true
   }
 }
