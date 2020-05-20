@@ -26906,5 +26906,166 @@
   },
   "xorg-xineramaproto": {
     "master": true
+  },
+  "xorg-xproto": {
+    "master": true
+  },
+  "xorg-xproxymanagementprotocol": {
+    "master": true
+  },
+  "xorg-xtrans": {
+    "master": true
+  },
+  "xpa": {
+    "master": true
+  },
+  "xpdacq": {
+    "master": true
+  },
+  "xpdan": {
+    "master": true
+  },
+  "xpdconf": {
+    "master": true
+  },
+  "xpdsim": {
+    "master": true
+  },
+  "xpdtools": {
+    "master": true
+  },
+  "xpdview": {
+    "master": true
+  },
+  "xplot": {
+    "master": true
+  },
+  "xproperty": {
+    "master": true
+  },
+  "xray-vision": {
+    "master": true
+  },
+  "xraylib": {
+    "master": true
+  },
+  "xrayutilities": {
+    "master": true
+  },
+  "xrft": {
+    "master": true
+  },
+  "xrootd": {
+    "master": true
+  },
+  "xrviz": {
+    "master": true,
+    "deps_v014": true
+  },
+  "xsgen": {
+    "master": true
+  },
+  "xsimd": {
+    "master": true
+  },
+  "xskillscore": {
+    "master": true,
+    "bump_to_v0.0.10": true,
+    "bump_v0.0.11": true
+  },
+  "xsv": {
+    "master": true
+  },
+  "xtensor": {
+    "master": true
+  },
+  "xtensor-blas": {
+    "master": true
+  },
+  "xtensor-fftw": {
+    "master": true
+  },
+  "xtensor-io": {
+    "master": true
+  },
+  "xtensor-julia": {
+    "master": true
+  },
+  "xtensor-python": {
+    "master": true
+  },
+  "xtensor-r": {
+    "master": true
+  },
+  "xtl": {
+    "master": true
+  },
+  "xvfbwrapper": {
+    "master": true,
+    "py36": true
+  },
+  "xwebrtc": {
+    "master": true
+  },
+  "xwidgets": {
+    "master": true
+  },
+  "xxhash": {
+    "master": true
+  },
+  "xz": {
+    "master": true
+  },
+  "yaafe": {
+    "master": true
+  },
+  "yacman": {
+    "master": true
+  },
+  "yacron": {
+    "master": true
+  },
+  "yacs": {
+    "master": true
+  },
+  "yaehmop": {
+    "master": true
+  },
+  "yaff": {
+    "master": true
+  },
+  "yagmail": {
+    "master": true
+  },
+  "yail": {
+    "master": true
+  },
+  "yajl": {
+    "master": true
+  },
+  "yaml": {
+    "master": true
+  },
+  "yaml-cpp": {
+    "master": true
+  },
+  "yaml2ncml": {
+    "master": true
+  },
+  "yamllint": {
+    "master": true
+  },
+  "yamlloader": {
+    "master": true,
+    "v0_5_5": true
+  },
+  "yamlordereddictloader": {
+    "master": true
+  },
+  "yapf": {
+    "master": true
+  },
+  "yappi": {
+    "master": true
   }
 }
