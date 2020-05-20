@@ -26570,5 +26570,176 @@
   },
   "xattr": {
     "master": true
+  },
+  "xbpch": {
+    "master": true
+  },
+  "xcb-proto": {
+    "master": true
+  },
+  "xcb-util": {
+    "master": true
+  },
+  "xcb-util-keysyms": {
+    "master": true
+  },
+  "xcb-util-wm": {
+    "master": true
+  },
+  "xclim": {
+    "master": true
+  },
+  "xcube": {
+    "master": true
+  },
+  "xdesign": {
+    "master": true
+  },
+  "xdg": {
+    "master": true,
+    "rebuild-1.0.5": true
+  },
+  "xdrfile": {
+    "master": true
+  },
+  "xenon": {
+    "master": true
+  },
+  "xenv": {
+    "master": true,
+    "0.0.4": true
+  },
+  "xerces-c": {
+    "master": true,
+    "v3.2.0": true
+  },
+  "xerces-c28": {
+    "master": true
+  },
+  "xesmf": {
+    "master": true
+  },
+  "xeus": {
+    "master": true
+  },
+  "xeus-cling": {
+    "master": true
+  },
+  "xeus-python": {
+    "master": true
+  },
+  "xfig": {
+    "master": true
+  },
+  "xframe": {
+    "master": true
+  },
+  "xgboost": {
+    "master": true
+  },
+  "xgcm": {
+    "master": true
+  },
+  "xgeo": {
+    "master": true
+  },
+  "xhistogram": {
+    "master": true
+  },
+  "xhtml2pdf": {
+    "master": true
+  },
+  "xhyve": {
+    "master": true
+  },
+  "xkeyboard-config": {
+    "master": true
+  },
+  "xlayers": {
+    "master": true
+  },
+  "xleaflet": {
+    "master": true
+  },
+  "xlntpyarrow": {
+    "master": true
+  },
+  "xlrd": {
+    "master": true
+  },
+  "xlsxwriter": {
+    "master": true
+  },
+  "xlwings": {
+    "master": true
+  },
+  "xlwt": {
+    "master": true
+  },
+  "xmitgcm": {
+    "master": true
+  },
+  "xmle": {
+    "master": true
+  },
+  "xmlrunner": {
+    "master": true
+  },
+  "xmlschema": {
+    "master": true
+  },
+  "xmltodict": {
+    "master": true
+  },
+  "xmscore": {
+    "master": true
+  },
+  "xmsgrid": {
+    "master": true
+  },
+  "xmsinterp": {
+    "master": true
+  },
+  "xmsmesher": {
+    "master": true
+  },
+  "xmsstamper": {
+    "master": true
+  },
+  "xnat": {
+    "master": true
+  },
+  "xnumpy": {
+    "master": true
+  },
+  "xo": {
+    "master": true
+  },
+  "xonsh": {
+    "master": true
+  },
+  "xontrib-kitty": {
+    "master": true
+  },
+  "xontrib-readable-traceback": {
+    "master": true
+  },
+  "xontrib-ssh-agent": {
+    "master": true
+  },
+  "xopen": {
+    "master": true
+  },
+  "xopt": {
+    "master": true
+  },
+  "xorg-applewmproto": {
+    "master": true
+  },
+  "xorg-bigreqsproto": {
+    "master": true
+  },
+  "xorg-cf-files": {
+    "master": true
   }
 }
