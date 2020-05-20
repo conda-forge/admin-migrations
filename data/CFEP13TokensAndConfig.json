@@ -24239,5 +24239,157 @@
   },
   "sphinxjp.themes.solarized": {
     "master": true
+  },
+  "sphinxtesters": {
+    "master": true
+  },
+  "spiceypy": {
+    "master": true
+  },
+  "spinsfast": {
+    "master": true
+  },
+  "spint": {
+    "master": true
+  },
+  "splauncher": {
+    "master": true
+  },
+  "spleeter": {
+    "master": true,
+    "regro-cf-autotick-bot/1.5.0": true
+  },
+  "spleeter-gpu": {
+    "master": true
+  },
+  "splits": {
+    "master": true
+  },
+  "splot": {
+    "master": true
+  },
+  "splunk_handler": {
+    "master": true
+  },
+  "spm1d": {
+    "master": true
+  },
+  "spooles": {
+    "master": true,
+    "looooo-patch-1": true
+  },
+  "sporco": {
+    "master": true
+  },
+  "spotpy": {
+    "master": true,
+    "revert-11-1.5.7": true
+  },
+  "spreg": {
+    "master": true
+  },
+  "sputnik": {
+    "master": true
+  },
+  "spvcm": {
+    "master": true
+  },
+  "spyder": {
+    "master": true,
+    "3.x": true,
+    "beta": true
+  },
+  "spyder-kernels": {
+    "master": true,
+    "0.x": true,
+    "v0.2.x": true
+  },
+  "spyder-line-profiler": {
+    "master": true
+  },
+  "spyder-memory-profiler": {
+    "master": true
+  },
+  "spyder-notebook": {
+    "master": true
+  },
+  "spyder-reports": {
+    "master": true
+  },
+  "spyder-terminal": {
+    "master": true
+  },
+  "spyder-unittest": {
+    "master": true
+  },
+  "spylon": {
+    "master": true
+  },
+  "spylon-kernel": {
+    "master": true
+  },
+  "spyne": {
+    "master": true
+  },
+  "spyre": {
+    "master": true
+  },
+  "spython": {
+    "master": true,
+    "add-vsoch": true
+  },
+  "sqlacodegen": {
+    "master": true
+  },
+  "sqlalchemy": {
+    "master": true,
+    "v1.2.x": true,
+    "v1.x": true
+  },
+  "sqlalchemy-jsonfield": {
+    "master": true
+  },
+  "sqlalchemy-migrate": {
+    "master": true
+  },
+  "sqlalchemy-redshift": {
+    "master": true
+  },
+  "sqlalchemy-utc": {
+    "master": true
+  },
+  "sqlalchemy-utils": {
+    "master": true
+  },
+  "sqlalchemy_exasol": {
+    "master": true
+  },
+  "sqlite": {
+    "master": true,
+    "v3_9_x": true
+  },
+  "sqlitedict": {
+    "master": true
+  },
+  "sqlobject": {
+    "master": true
+  },
+  "sqlparse": {
+    "master": true
+  },
+  "sqsgenerator": {
+    "master": true
+  },
+  "squash": {
+    "master": true
+  },
+  "squashfs-tools": {
+    "master": true
+  },
+  "sre_yield": {
+    "master": true
+  },
+  "sregistry": {
+    "master": true
   }
 }
