@@ -25311,5 +25311,183 @@
   },
   "tinycss2": {
     "master": true
+  },
+  "tinydb": {
+    "master": true
+  },
+  "tinyrpc": {
+    "master": true
+  },
+  "tinytimer": {
+    "master": true
+  },
+  "tinyxml": {
+    "master": true
+  },
+  "tinyxml2": {
+    "master": true
+  },
+  "tippecanoe": {
+    "master": true
+  },
+  "tk": {
+    "master": true,
+    "8.5.x": true
+  },
+  "tktable": {
+    "master": true
+  },
+  "tldextract": {
+    "master": true,
+    "v2.0.1": true
+  },
+  "tlsh": {
+    "master": true
+  },
+  "tlslite": {
+    "master": true
+  },
+  "tmtk": {
+    "master": true,
+    "jochemb-patch-1": true,
+    "jochemb-patch-2": true
+  },
+  "tmux": {
+    "master": true
+  },
+  "toad": {
+    "master": true,
+    "regro-cf-autotick-bot/0.0.60_hda08ac": true
+  },
+  "toast": {
+    "master": true
+  },
+  "toastedmarshmallow": {
+    "master": true
+  },
+  "tobac": {
+    "master": true
+  },
+  "tobler": {
+    "master": true
+  },
+  "tokei": {
+    "master": true
+  },
+  "tokenize-rt": {
+    "master": true,
+    "asottile-patch-1": true
+  },
+  "tokyocabinet": {
+    "master": true
+  },
+  "toml": {
+    "master": true
+  },
+  "tomlkit": {
+    "master": true
+  },
+  "tomopy": {
+    "master": true
+  },
+  "toolchain": {
+    "master": true
+  },
+  "toolchain3": {
+    "master": true
+  },
+  "toolwrapper": {
+    "master": true
+  },
+  "toolz": {
+    "master": true,
+    "v0.8.x": true
+  },
+  "topika": {
+    "master": true
+  },
+  "topologytoolkit": {
+    "master": true
+  },
+  "toposort": {
+    "master": true
+  },
+  "torchbiggraph": {
+    "master": true
+  },
+  "torchfile": {
+    "master": true
+  },
+  "torcpy": {
+    "master": true
+  },
+  "tornado": {
+    "master": true,
+    "v4.x": true,
+    "v5.x": true
+  },
+  "tornado-sqlalchemy": {
+    "master": true
+  },
+  "toro": {
+    "master": true
+  },
+  "torsiondrive": {
+    "master": true
+  },
+  "towncrier": {
+    "master": true
+  },
+  "tox": {
+    "master": true,
+    "2.3": true
+  },
+  "tox-conda": {
+    "master": true
+  },
+  "tox-venv": {
+    "master": true
+  },
+  "tpot": {
+    "master": true
+  },
+  "tqdm": {
+    "master": true
+  },
+  "traceback2": {
+    "master": true
+  },
+  "traces": {
+    "master": true
+  },
+  "trackpy": {
+    "master": true
+  },
+  "trafaret": {
+    "master": true
+  },
+  "traitlets": {
+    "master": true
+  },
+  "traits": {
+    "master": true
+  },
+  "traitsui": {
+    "master": true
+  },
+  "traittypes": {
+    "master": true
+  },
+  "traja": {
+    "master": true
+  },
+  "tranquilizer": {
+    "master": true,
+    "no-py37": true,
+    "v0.3.1": true,
+    "werkzeug-fix": true
+  },
+  "transaction": {
+    "master": true
   }
 }
