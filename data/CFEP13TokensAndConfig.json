@@ -25886,5 +25886,167 @@
   },
   "usagestats": {
     "master": true
+  },
+  "user-agents": {
+    "master": true
+  },
+  "userpath": {
+    "master": true
+  },
+  "userspacefs": {
+    "master": true
+  },
+  "usgs": {
+    "master": true
+  },
+  "usgscsm": {
+    "master": true
+  },
+  "utfcpp": {
+    "master": true
+  },
+  "utide": {
+    "master": true
+  },
+  "util-linux": {
+    "master": true
+  },
+  "utm": {
+    "master": true
+  },
+  "uvicorn": {
+    "master": true,
+    "v0.10.9": true
+  },
+  "uvloop": {
+    "master": true
+  },
+  "uwsgi": {
+    "master": true
+  },
+  "uwsift": {
+    "master": true
+  },
+  "vacumm-data": {
+    "master": true
+  },
+  "vaex": {
+    "master": true
+  },
+  "vaex-arrow": {
+    "master": true
+  },
+  "vaex-astro": {
+    "master": true
+  },
+  "vaex-core": {
+    "master": true,
+    "update_to_0.1.4": true,
+    "update_to_0.1.6": true
+  },
+  "vaex-distributed": {
+    "master": true
+  },
+  "vaex-hdf5": {
+    "master": true
+  },
+  "vaex-jupyter": {
+    "master": true
+  },
+  "vaex-ml": {
+    "master": true
+  },
+  "vaex-server": {
+    "master": true
+  },
+  "vaex-ui": {
+    "master": true
+  },
+  "vaex-viz": {
+    "master": true
+  },
+  "valgrind": {
+    "master": true
+  },
+  "validate_email": {
+    "master": true
+  },
+  "validators": {
+    "master": true
+  },
+  "valideer": {
+    "master": true
+  },
+  "validictory": {
+    "master": true
+  },
+  "validobj": {
+    "master": true
+  },
+  "varlink": {
+    "master": true
+  },
+  "vault": {
+    "master": true
+  },
+  "vc": {
+    "master": true
+  },
+  "vcrpy": {
+    "master": true
+  },
+  "vcsh": {
+    "master": true
+  },
+  "vcstool": {
+    "master": true
+  },
+  "vcstools": {
+    "master": true
+  },
+  "vcversioner": {
+    "master": true
+  },
+  "vdm": {
+    "master": true
+  },
+  "vdom": {
+    "master": true
+  },
+  "vdt": {
+    "master": true
+  },
+  "vectormath": {
+    "master": true
+  },
+  "vega": {
+    "master": true
+  },
+  "vega-cli": {
+    "master": true
+  },
+  "vega-lite-cli": {
+    "master": true
+  },
+  "vega3": {
+    "master": true
+  },
+  "vega_datasets": {
+    "master": true
+  },
+  "velocypack": {
+    "master": true
+  },
+  "venusian": {
+    "master": true
+  },
+  "venv-pack": {
+    "master": true
+  },
+  "veracitools": {
+    "master": true
+  },
+  "verboselogs": {
+    "master": true
   }
 }
