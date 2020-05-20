@@ -24756,5 +24756,209 @@
   },
   "tagmaps": {
     "master": true
+  },
+  "tamkin": {
+    "master": true
+  },
+  "tangelo": {
+    "master": true
+  },
+  "tapi": {
+    "master": true
+  },
+  "tar": {
+    "master": true
+  },
+  "tardis-sn": {
+    "master": true
+  },
+  "tasklogger": {
+    "master": true
+  },
+  "tatsu": {
+    "master": true
+  },
+  "tbb": {
+    "master": true,
+    "2019.8": true
+  },
+  "tblib": {
+    "master": true
+  },
+  "tclap": {
+    "master": true
+  },
+  "tclreadline": {
+    "master": true
+  },
+  "tcsh": {
+    "master": true
+  },
+  "tectonic": {
+    "master": true
+  },
+  "teensy_loader_cli": {
+    "master": true
+  },
+  "teensytoany": {
+    "master": true
+  },
+  "telluric": {
+    "master": true
+  },
+  "tempdir": {
+    "master": true
+  },
+  "tempest-remap": {
+    "master": true,
+    "2.0.2": true
+  },
+  "tempita": {
+    "master": true
+  },
+  "tempora": {
+    "master": true
+  },
+  "tenacity": {
+    "master": true,
+    "4.12.0": true
+  },
+  "tensorboard": {
+    "master": true
+  },
+  "tensorboardx": {
+    "master": true
+  },
+  "tensorflow": {
+    "master": true
+  },
+  "tensorflow-estimator": {
+    "master": true
+  },
+  "tensorflow-hub": {
+    "master": true
+  },
+  "tensorflow-probability": {
+    "master": true
+  },
+  "tensorflowonspark": {
+    "master": true
+  },
+  "tensorly": {
+    "master": true
+  },
+  "termcolor": {
+    "master": true
+  },
+  "termgraph": {
+    "master": true
+  },
+  "terminado": {
+    "master": true
+  },
+  "terminaltables": {
+    "master": true
+  },
+  "terraform": {
+    "master": true
+  },
+  "terraform-provider-alicloud": {
+    "master": true
+  },
+  "terraform-provider-archive": {
+    "master": true
+  },
+  "terraform-provider-arukas": {
+    "master": true
+  },
+  "terraform-provider-atlas": {
+    "master": true
+  },
+  "terraform-provider-aws": {
+    "master": true
+  },
+  "terraform-provider-azurerm": {
+    "master": true
+  },
+  "terraform-provider-bitbucket": {
+    "master": true
+  },
+  "terraform-provider-chef": {
+    "master": true
+  },
+  "terraform-provider-circonus": {
+    "master": true
+  },
+  "terraform-provider-clc": {
+    "master": true
+  },
+  "terraform-provider-cloudflare": {
+    "master": true
+  },
+  "terraform-provider-cloudscale": {
+    "master": true
+  },
+  "terraform-provider-cloudstack": {
+    "master": true
+  },
+  "terraform-provider-cobbler": {
+    "master": true
+  },
+  "terraform-provider-consul": {
+    "master": true
+  },
+  "terraform-provider-datadog": {
+    "master": true
+  },
+  "terraform-provider-digitalocean": {
+    "master": true
+  },
+  "terraform-provider-dme": {
+    "master": true
+  },
+  "terraform-provider-dns": {
+    "master": true
+  },
+  "terraform-provider-dnsimple": {
+    "master": true
+  },
+  "terraform-provider-docker": {
+    "master": true
+  },
+  "terraform-provider-dyn": {
+    "master": true
+  },
+  "terraform-provider-external": {
+    "master": true
+  },
+  "terraform-provider-fastly": {
+    "master": true
+  },
+  "terraform-provider-github": {
+    "master": true
+  },
+  "terraform-provider-gitlab": {
+    "master": true
+  },
+  "terraform-provider-google": {
+    "master": true
+  },
+  "terraform-provider-grafana": {
+    "master": true
+  },
+  "terraform-provider-helm": {
+    "master": true
+  },
+  "terraform-provider-heroku": {
+    "master": true
+  },
+  "terraform-provider-http": {
+    "master": true
+  },
+  "terraform-provider-icinga2": {
+    "master": true
+  },
+  "terraform-provider-ignition": {
+    "master": true
   }
 }
