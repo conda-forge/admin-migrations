@@ -24960,5 +24960,173 @@
   },
   "terraform-provider-ignition": {
     "master": true
+  },
+  "terraform-provider-influxdb": {
+    "master": true
+  },
+  "terraform-provider-kubernetes": {
+    "master": true
+  },
+  "terraform-provider-librato": {
+    "master": true
+  },
+  "terraform-provider-local": {
+    "master": true
+  },
+  "terraform-provider-logentries": {
+    "master": true
+  },
+  "terraform-provider-logicmonitor": {
+    "master": true
+  },
+  "terraform-provider-mailgun": {
+    "master": true
+  },
+  "terraform-provider-mysql": {
+    "master": true
+  },
+  "terraform-provider-newrelic": {
+    "master": true
+  },
+  "terraform-provider-nomad": {
+    "master": true
+  },
+  "terraform-provider-ns1": {
+    "master": true
+  },
+  "terraform-provider-null": {
+    "master": true
+  },
+  "terraform-provider-oneandone": {
+    "master": true
+  },
+  "terraform-provider-opc": {
+    "master": true
+  },
+  "terraform-provider-openstack": {
+    "master": true
+  },
+  "terraform-provider-opentelekomcloud": {
+    "master": true
+  },
+  "terraform-provider-opsgenie": {
+    "master": true
+  },
+  "terraform-provider-ovh": {
+    "master": true
+  },
+  "terraform-provider-packet": {
+    "master": true
+  },
+  "terraform-provider-pagerduty": {
+    "master": true
+  },
+  "terraform-provider-panos": {
+    "master": true
+  },
+  "terraform-provider-postgresql": {
+    "master": true
+  },
+  "terraform-provider-powerdns": {
+    "master": true
+  },
+  "terraform-provider-profitbricks": {
+    "master": true
+  },
+  "terraform-provider-rabbitmq": {
+    "master": true
+  },
+  "terraform-provider-rancher": {
+    "master": true
+  },
+  "terraform-provider-random": {
+    "master": true
+  },
+  "terraform-provider-rundeck": {
+    "master": true
+  },
+  "terraform-provider-scaleway": {
+    "master": true
+  },
+  "terraform-provider-softlayer": {
+    "master": true
+  },
+  "terraform-provider-spotinst": {
+    "master": true
+  },
+  "terraform-provider-statuscake": {
+    "master": true
+  },
+  "terraform-provider-template": {
+    "master": true
+  },
+  "terraform-provider-terraform": {
+    "master": true
+  },
+  "terraform-provider-tls": {
+    "master": true
+  },
+  "terraform-provider-triton": {
+    "master": true
+  },
+  "terraform-provider-ultradns": {
+    "master": true
+  },
+  "terraform-provider-vault": {
+    "master": true
+  },
+  "terraform-provider-vcd": {
+    "master": true
+  },
+  "terraform-provider-vsphere": {
+    "master": true
+  },
+  "terragrunt": {
+    "master": true
+  },
+  "terrainbento": {
+    "master": true
+  },
+  "tesseract": {
+    "master": true
+  },
+  "tesserocr": {
+    "master": true
+  },
+  "testfixtures": {
+    "master": true
+  },
+  "testflo": {
+    "master": true
+  },
+  "testinfra": {
+    "master": true
+  },
+  "testpath": {
+    "master": true
+  },
+  "testtools": {
+    "master": true
+  },
+  "tetgen": {
+    "master": true
+  },
+  "texext": {
+    "master": true
+  },
+  "texinfo": {
+    "master": true
+  },
+  "texlive-core": {
+    "master": true
+  },
+  "texplain": {
+    "master": true
+  },
+  "texsoup": {
+    "master": true
+  },
+  "text-unidecode": {
+    "master": true
   }
 }
