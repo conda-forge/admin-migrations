@@ -26741,5 +26741,170 @@
   },
   "xorg-cf-files": {
     "master": true
+  },
+  "xorg-compositeproto": {
+    "master": true
+  },
+  "xorg-damageproto": {
+    "master": true
+  },
+  "xorg-dmxproto": {
+    "master": true
+  },
+  "xorg-evieext": {
+    "master": true
+  },
+  "xorg-fixesproto": {
+    "master": true
+  },
+  "xorg-font-util": {
+    "master": true
+  },
+  "xorg-fontcacheproto": {
+    "master": true
+  },
+  "xorg-fontsproto": {
+    "master": true
+  },
+  "xorg-gccmakedep": {
+    "master": true
+  },
+  "xorg-glproto": {
+    "master": true
+  },
+  "xorg-imake": {
+    "master": true
+  },
+  "xorg-inputproto": {
+    "master": true
+  },
+  "xorg-kbproto": {
+    "master": true
+  },
+  "xorg-libice": {
+    "master": true
+  },
+  "xorg-libsm": {
+    "master": true
+  },
+  "xorg-libx11": {
+    "master": true
+  },
+  "xorg-libxau": {
+    "master": true
+  },
+  "xorg-libxaw": {
+    "master": true
+  },
+  "xorg-libxaw3d": {
+    "master": true
+  },
+  "xorg-libxcursor": {
+    "master": true
+  },
+  "xorg-libxdmcp": {
+    "master": true
+  },
+  "xorg-libxext": {
+    "master": true
+  },
+  "xorg-libxfixes": {
+    "master": true
+  },
+  "xorg-libxft": {
+    "master": true
+  },
+  "xorg-libxi": {
+    "master": true
+  },
+  "xorg-libxinerama": {
+    "master": true
+  },
+  "xorg-libxmu": {
+    "master": true
+  },
+  "xorg-libxp": {
+    "master": true
+  },
+  "xorg-libxpm": {
+    "master": true
+  },
+  "xorg-libxrandr": {
+    "master": true
+  },
+  "xorg-libxrender": {
+    "master": true
+  },
+  "xorg-libxt": {
+    "master": true
+  },
+  "xorg-libxtst": {
+    "master": true
+  },
+  "xorg-makedepend": {
+    "master": true
+  },
+  "xorg-presentproto": {
+    "master": true
+  },
+  "xorg-printproto": {
+    "master": true
+  },
+  "xorg-randrproto": {
+    "master": true
+  },
+  "xorg-recordproto": {
+    "master": true
+  },
+  "xorg-renderproto": {
+    "master": true
+  },
+  "xorg-resourceproto": {
+    "master": true
+  },
+  "xorg-scrnsaverproto": {
+    "master": true
+  },
+  "xorg-trapproto": {
+    "master": true
+  },
+  "xorg-util-macros": {
+    "master": true
+  },
+  "xorg-videoproto": {
+    "master": true
+  },
+  "xorg-windowswmproto": {
+    "master": true
+  },
+  "xorg-xbitmaps": {
+    "master": true
+  },
+  "xorg-xcmiscproto": {
+    "master": true
+  },
+  "xorg-xextproto": {
+    "master": true
+  },
+  "xorg-xf86bigfontproto": {
+    "master": true
+  },
+  "xorg-xf86dgaproto": {
+    "master": true
+  },
+  "xorg-xf86driproto": {
+    "master": true
+  },
+  "xorg-xf86miscproto": {
+    "master": true
+  },
+  "xorg-xf86rushproto": {
+    "master": true
+  },
+  "xorg-xf86vidmodeproto": {
+    "master": true
+  },
+  "xorg-xineramaproto": {
+    "master": true
   }
 }
