@@ -25681,5 +25681,210 @@
   },
   "tzcode": {
     "master": true
+  },
+  "tzlocal": {
+    "master": true
+  },
+  "u-msgpack-python": {
+    "master": true
+  },
+  "u3d": {
+    "master": true
+  },
+  "ua-parser": {
+    "master": true
+  },
+  "uarray": {
+    "master": true,
+    "architectures": true,
+    "rebuild-python3801": true
+  },
+  "uavro": {
+    "master": true
+  },
+  "ubermag": {
+    "master": true
+  },
+  "ubermagtable": {
+    "master": true
+  },
+  "ubermagutil": {
+    "master": true
+  },
+  "ubiquerg": {
+    "master": true
+  },
+  "uchardet": {
+    "master": true
+  },
+  "ucx-split": {
+    "master": true,
+    "rc": true
+  },
+  "udatetime": {
+    "master": true
+  },
+  "udunits2": {
+    "master": true,
+    "v2.2.25": true
+  },
+  "ufal.udpipe": {
+    "master": true
+  },
+  "ufal.udpipe-temp": {
+    "master": true
+  },
+  "uftp": {
+    "master": true
+  },
+  "uglify-js": {
+    "master": true
+  },
+  "uhd": {
+    "master": true
+  },
+  "ujson": {
+    "master": true,
+    "stable-1.3.5": true
+  },
+  "ukbparse": {
+    "master": true
+  },
+  "ukcensusapi": {
+    "master": true
+  },
+  "ukpopulation": {
+    "master": true
+  },
+  "ukpostcodeparser": {
+    "master": true
+  },
+  "ulmo": {
+    "master": true
+  },
+  "umalqurra": {
+    "master": true
+  },
+  "umami": {
+    "master": true
+  },
+  "umap-learn": {
+    "master": true
+  },
+  "uncertainpy": {
+    "master": true
+  },
+  "uncertainties": {
+    "master": true
+  },
+  "uncommitted": {
+    "master": true
+  },
+  "uncrustify": {
+    "master": true
+  },
+  "unicodecsv": {
+    "master": true
+  },
+  "unicodedata2": {
+    "master": true
+  },
+  "unidecode": {
+    "master": true
+  },
+  "unidiff": {
+    "master": true
+  },
+  "unittest2": {
+    "master": true
+  },
+  "unittest2pytest": {
+    "master": true
+  },
+  "universions": {
+    "master": true
+  },
+  "unixodbc": {
+    "master": true
+  },
+  "unumpy": {
+    "master": true
+  },
+  "unyt": {
+    "master": true
+  },
+  "unzip": {
+    "master": true
+  },
+  "update_checker": {
+    "master": true
+  },
+  "upf_to_json": {
+    "master": true
+  },
+  "uproot": {
+    "master": true
+  },
+  "uproot-methods": {
+    "master": true
+  },
+  "upsetplot": {
+    "master": true
+  },
+  "uqpy": {
+    "master": true
+  },
+  "urbanaccess": {
+    "master": true
+  },
+  "urbansim_defaults": {
+    "master": true
+  },
+  "urbansim_templates": {
+    "master": true
+  },
+  "urdfdom": {
+    "master": true,
+    "backport_cmake_fix": true
+  },
+  "urdfdom_headers": {
+    "master": true
+  },
+  "uriparser": {
+    "master": true
+  },
+  "uritemplate": {
+    "master": true
+  },
+  "uritemplate.py": {
+    "master": true
+  },
+  "uritools": {
+    "master": true
+  },
+  "urllib3": {
+    "master": true,
+    "v1.24.x": true
+  },
+  "urlobject": {
+    "master": true
+  },
+  "urlquote": {
+    "master": true
+  },
+  "ursabot": {
+    "master": true
+  },
+  "urwid": {
+    "master": true
+  },
+  "us": {
+    "master": true
+  },
+  "usaddress": {
+    "master": true
+  },
+  "usagestats": {
+    "master": true
   }
 }
