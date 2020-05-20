@@ -24391,5 +24391,176 @@
   },
   "sregistry": {
     "master": true
+  },
+  "srm": {
+    "master": true
+  },
+  "srm-ifce": {
+    "master": true
+  },
+  "srsly": {
+    "master": true
+  },
+  "srtm.py": {
+    "master": true
+  },
+  "sseclient": {
+    "master": true
+  },
+  "ssh2-python": {
+    "master": true,
+    "revert-17-rebuild": true
+  },
+  "sshpubkeys": {
+    "master": true
+  },
+  "sshtunnel": {
+    "master": true
+  },
+  "ssl_match_hostname": {
+    "master": true
+  },
+  "sstp-client": {
+    "master": true
+  },
+  "stack": {
+    "master": true
+  },
+  "stack_data": {
+    "master": true
+  },
+  "stackprinter": {
+    "master": true
+  },
+  "standard_names": {
+    "master": true
+  },
+  "standardese": {
+    "master": true
+  },
+  "standardiser": {
+    "master": true
+  },
+  "starlette": {
+    "master": true
+  },
+  "starlink-ast": {
+    "master": true
+  },
+  "starry": {
+    "master": true
+  },
+  "start_jupyter_cm": {
+    "master": true
+  },
+  "startables": {
+    "master": true
+  },
+  "stashy": {
+    "master": true
+  },
+  "stateplane": {
+    "master": true
+  },
+  "static": {
+    "master": true
+  },
+  "static-frame": {
+    "master": true
+  },
+  "staticjinja": {
+    "master": true
+  },
+  "statistics": {
+    "master": true
+  },
+  "statmorph": {
+    "master": true
+  },
+  "statsd": {
+    "master": true
+  },
+  "statsmodels": {
+    "master": true,
+    "rls-0.8.0": true
+  },
+  "statuspage": {
+    "master": true
+  },
+  "stdlib-list": {
+    "master": true
+  },
+  "stdpopsim": {
+    "master": true
+  },
+  "steem": {
+    "master": true
+  },
+  "steemdata": {
+    "master": true
+  },
+  "stefuna": {
+    "master": true
+  },
+  "stem": {
+    "master": true
+  },
+  "stempeg": {
+    "master": true
+  },
+  "stevedore": {
+    "master": true
+  },
+  "stingray": {
+    "master": true,
+    "matteobachetti-patch-1": true
+  },
+  "stir": {
+    "master": true
+  },
+  "stochatreat": {
+    "master": true
+  },
+  "stomp.py": {
+    "master": true
+  },
+  "stopit": {
+    "master": true
+  },
+  "storefact": {
+    "master": true
+  },
+  "straditize": {
+    "master": true
+  },
+  "streamz": {
+    "master": true
+  },
+  "streamz_ext": {
+    "master": true
+  },
+  "strec": {
+    "master": true
+  },
+  "strict-rfc3339": {
+    "master": true
+  },
+  "strictyaml": {
+    "master": true
+  },
+  "stringcase": {
+    "master": true
+  },
+  "struct-lmm": {
+    "master": true
+  },
+  "structlog": {
+    "master": true
+  },
+  "stsynphot": {
+    "master": true
+  },
+  "stuf": {
+    "master": true
   }
 }
