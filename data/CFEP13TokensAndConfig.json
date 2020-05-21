@@ -10569,7 +10569,8 @@
     "v0.8.0": true,
     "v0.8.0-release": true,
     "version-0.6": true,
-    "version-0.7.1": true
+    "version-0.7.1": true,
+    "master": true
   },
   "naima": {
     "master": true
@@ -10897,7 +10898,8 @@
     "master": true
   },
   "ngspice": {
-    "30": true
+    "30": true,
+    "master": true
   },
   "nibabel": {
     "master": true
@@ -11320,7 +11322,8 @@
     "master": true
   },
   "oliver": {
-    "1.2.0": true
+    "1.2.0": true,
+    "master": true
   },
   "omas": {
     "master": true
@@ -28253,6 +28256,159 @@
     "master": true
   },
   "mbuild": {
+    "master": true
+  },
+  "meautility": {
+    "master": true
+  },
+  "mesa-libegl-cos7-aarch64": {
+    "master": true
+  },
+  "metanetx-post": {
+    "master": true
+  },
+  "metric-learn": {
+    "master": true
+  },
+  "micromagnetictests": {
+    "master": true
+  },
+  "mistletoe-ebp": {
+    "master": true
+  },
+  "mms-python-adapter": {
+    "master": true
+  },
+  "model_bakery": {
+    "master": true
+  },
+  "modflow6": {
+    "master": true
+  },
+  "monet": {
+    "master": true
+  },
+  "monetio": {
+    "master": true
+  },
+  "mosdef_cassandra": {
+    "master": true
+  },
+  "mtcnn": {
+    "master": true
+  },
+  "multi_rake": {
+    "master": true
+  },
+  "mupdf": {
+    "master": true
+  },
+  "museotoolbox": {
+    "master": true
+  },
+  "napari": {
+    "master": true
+  },
+  "nbclient": {
+    "master": true
+  },
+  "nbin": {
+    "master": true
+  },
+  "nbresuse": {
+    "master": true
+  },
+  "nccmp": {
+    "master": true
+  },
+  "neper": {
+    "master": true
+  },
+  "neuralcoref": {
+    "master": true
+  },
+  "neurodocker": {
+    "master": true
+  },
+  "neurofire": {
+    "master": true
+  },
+  "nevergrad": {
+    "master": true
+  },
+  "nionswift-tool": {
+    "master": true
+  },
+  "nionui-tool": {
+    "master": true
+  },
+  "nix": {
+    "master": true
+  },
+  "nmslib": {
+    "master": true
+  },
+  "nomkl": {
+    "master": true
+  },
+  "nspr-cos7-aarch64": {
+    "master": true
+  },
+  "nss-cos7-aarch64": {
+    "master": true
+  },
+  "nss-softokn-cos7-aarch64": {
+    "master": true
+  },
+  "nss-softokn-freebl-cos7-aarch64": {
+    "master": true
+  },
+  "nss-util-cos7-aarch64": {
+    "master": true
+  },
+  "nteract-scrapbook": {
+    "master": true
+  },
+  "numpoly": {
+    "master": true
+  },
+  "objgraph": {
+    "master": true
+  },
+  "obsplus": {
+    "master": true
+  },
+  "od": {
+    "master": true
+  },
+  "oddt": {
+    "master": true
+  },
+  "ompl": {
+    "master": true
+  },
+  "openal-soft": {
+    "master": true
+  },
+  "openglider": {
+    "master": true
+  },
+  "openpathsampling-cli": {
+    "master": true
+  },
+  "openpmd-viewer": {
+    "master": true
+  },
+  "opensesame": {
+    "master": true
+  },
+  "opensource": {
+    "master": true
+  },
+  "orator": {
+    "master": true
+  },
+  "orbit2-cos7-aarch64": {
     "master": true
   }
 }
