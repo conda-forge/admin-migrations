@@ -25750,7 +25750,8 @@
     "master": true
   },
   "uhd": {
-    "master": true
+    "master": true,
+    "boost170": true
   },
   "ujson": {
     "master": true,
@@ -28840,6 +28841,156 @@
     "master": true
   },
   "rocketpy": {
+    "master": true
+  },
+  "roifile": {
+    "master": true
+  },
+  "romspline": {
+    "master": true
+  },
+  "ruamel.yaml.jinja2": {
+    "master": true
+  },
+  "ruptures": {
+    "master": true
+  },
+  "sagemaker-chainer-container": {
+    "master": true
+  },
+  "sagemaker-mxnet-serving-container": {
+    "master": true
+  },
+  "sagemaker-pytorch-serving-container": {
+    "master": true
+  },
+  "sagemaker_mxnet_container": {
+    "master": true
+  },
+  "sagemaker_pyspark": {
+    "master": true
+  },
+  "scheil": {
+    "master": true
+  },
+  "scikit-learn-extra": {
+    "master": true
+  },
+  "scikits-bootstrap": {
+    "master": true
+  },
+  "sdl": {
+    "master": true
+  },
+  "sdl_image": {
+    "master": true
+  },
+  "sdnotify": {
+    "master": true
+  },
+  "segtok": {
+    "master": true
+  },
+  "seqeval": {
+    "master": true
+  },
+  "setuptools-lint": {
+    "master": true
+  },
+  "sfml": {
+    "master": true
+  },
+  "sharppy": {
+    "master": true
+  },
+  "sigtools": {
+    "master": true
+  },
+  "sklearn-crfsuite": {
+    "master": true
+  },
+  "slim": {
+    "master": true
+  },
+  "spectate": {
+    "master": true
+  },
+  "spectralib": {
+    "master": true
+  },
+  "spinners": {
+    "master": true
+  },
+  "spyrmsd": {
+    "master": true
+  },
+  "sqlalchemy_schemadisplay": {
+    "master": true
+  },
+  "sqlitecpp": {
+    "master": true
+  },
+  "squarify": {
+    "master": true
+  },
+  "sshpass": {
+    "master": true
+  },
+  "stglib": {
+    "master": true
+  },
+  "strip-hints": {
+    "master": true
+  },
+  "synbiochem-py": {
+    "master": true
+  },
+  "tangled-up-in-unicode": {
+    "master": true
+  },
+  "telegram-send": {
+    "master": true
+  },
+  "terraform-provider-credstash": {
+    "master": true
+  },
+  "terraform-provider-keycloak": {
+    "master": true
+  },
+  "textstat": {
+    "master": true
+  },
+  "tflint": {
+    "master": true
+  },
+  "thermohubclient": {
+    "master": true
+  },
+  "threadpoolctl": {
+    "master": true
+  },
+  "timechart": {
+    "master": true
+  },
+  "triqs_cthyb": {
+    "master": true
+  },
+  "triqs_dft_tools": {
+    "master": true
+  },
+  "triqs_tprf": {
+    "master": true
+  },
+  "typedpy": {
+    "master": true
+  },
+  "typhos": {
+    "master": true
+  },
+  "ultranest": {
+    "master": true
+  },
+  "umock-c": {
     "master": true
   }
 }
