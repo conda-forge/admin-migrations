@@ -26184,7 +26184,8 @@
   },
   "volk": {
     "master": true,
-    "v2.1": true
+    "v2.1": true,
+    "boost170": true
   },
   "voluptuous": {
     "master": true
@@ -28991,6 +28992,174 @@
     "master": true
   },
   "umock-c": {
+    "master": true
+  },
+  "unittest-xml-reporting": {
+    "master": true
+  },
+  "untokenize": {
+    "master": true
+  },
+  "urlchecker": {
+    "master": true
+  },
+  "valerius": {
+    "master": true
+  },
+  "vcrpy-unittest": {
+    "master": true
+  },
+  "vegasflow": {
+    "master": true
+  },
+  "visions": {
+    "master": true
+  },
+  "vtkplotter": {
+    "master": true
+  },
+  "w3lib": {
+    "master": true
+  },
+  "wdl-packager": {
+    "master": true
+  },
+  "whois": {
+    "master": true
+  },
+  "win10toast": {
+    "master": true
+  },
+  "woops": {
+    "master": true
+  },
+  "wulffpack": {
+    "master": true
+  },
+  "xarrayutils": {
+    "master": true
+  },
+  "xbyak": {
+    "master": true
+  },
+  "xcube_geodb": {
+    "master": true
+  },
+  "xdoctest": {
+    "master": true
+  },
+  "xlutils": {
+    "master": true
+  },
+  "xorg-x11-proto-devel-cos7-aarch64": {
+    "master": true
+  },
+  "xpublish": {
+    "master": true
+  },
+  "xrftomo": {
+    "master": true
+  },
+  "xtb": {
+    "master": true
+  },
+  "yamale": {
+    "master": true
+  },
+  "yaqc": {
+    "master": true
+  },
+  "yaqd-core": {
+    "master": true
+  },
+  "ytop": {
+    "master": true
+  },
+  "zchunk": {
+    "master": true
+  },
+  "zmqpp": {
+    "master": true
+  },
+  "py-applescript": {
+    "master": true
+  },
+  "automap": {
+    "master": true
+  },
+  "xorg-libxcomposite": {
+    "master": true
+  },
+  "xorg-libxscrnsaver": {
+    "master": true
+  },
+  "xorg-libxdamage": {
+    "master": true
+  },
+  "ndindex": {
+    "master": true
+  },
+  "pysimpleguiqt": {
+    "master": true
+  },
+  "legacy-api-wrap": {
+    "master": true
+  },
+  "castorapi": {
+    "master": true
+  },
+  "array_split": {
+    "master": true
+  },
+  "openscenegraph": {
+    "master": true
+  },
+  "blist": {
+    "master": true
+  },
+  "collada-dom": {
+    "master": true
+  },
+  "pentapy": {
+    "master": true
+  },
+  "pynput": {
+    "master": true
+  },
+  "anaflow": {
+    "master": true
+  },
+  "plotly-orca": {
+    "master": true
+  },
+  "coxeter": {
+    "master": true
+  },
+  "fvcore": {
+    "master": true
+  },
+  "kitemmodels": {
+    "master": true
+  },
+  "mplhep": {
+    "master": true
+  },
+  "geomatics": {
+    "master": true
+  },
+  "qtpyinheritance": {
+    "master": true
+  },
+  "r-tidybf": {
+    "master": true
+  },
+  "openfast": {
+    "master": true
+  },
+  "schemaorg": {
+    "master": true
+  },
+  "floris": {
     "master": true
   }
 }
