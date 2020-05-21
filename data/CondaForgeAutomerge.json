@@ -29786,5 +29786,57 @@
   },
   "abinit": {
     "master": true
+  },
+  "cf-python": {
+    "master": true
+  },
+  "cub": {
+    "master": true
+  },
+  "flask_rdf": {
+    "master": true
+  },
+  "tornado_sqlalchemy_login": {
+    "master": true
+  },
+  "iota": {
+    "master": true
+  },
+  "mkdocs-material-extensions": {
+    "master": true
+  },
+  "oslo.log": {
+    "master": true
+  },
+  "python-magnumclient": {
+    "master": true
+  },
+  "dolo": {
+    "master": true
+  },
+  "python-qinlingclient": {
+    "master": true
+  },
+  "simdjson": {
+    "master": true
+  },
+  "doctest": {
+    "master": true
+  },
+  "dowhy": {
+    "master": true
+  },
+  "thrust": {
+    "master": true,
+    "update-1.9.9": true
+  },
+  "boututils": {
+    "master": true
+  },
+  "r_clang_activation": {
+    "master": true
+  },
+  "sidecar": {
+    "master": true
   }
 }
