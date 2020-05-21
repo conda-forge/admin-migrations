@@ -15217,7 +15217,8 @@
     "master": true
   },
   "pytmc": {
-    "add-maintainers": true
+    "add-maintainers": true,
+    "master": true
   },
   "pytoml": {
     "master": true
@@ -28569,6 +28570,135 @@
     "master": true
   },
   "pynetdicom": {
+    "master": true
+  },
+  "pynrrd": {
+    "master": true
+  },
+  "pyod": {
+    "master": true
+  },
+  "pypy-meta": {
+    "master": true
+  },
+  "pypyodbc": {
+    "master": true
+  },
+  "pyrad_arm": {
+    "master": true
+  },
+  "pyrad_mch": {
+    "master": true
+  },
+  "pyspellchecker": {
+    "master": true
+  },
+  "pystac": {
+    "master": true
+  },
+  "pytest-bandit": {
+    "master": true
+  },
+  "pytest-black": {
+    "master": true
+  },
+  "pytest-codestyle": {
+    "master": true
+  },
+  "pytest-flask-sqlalchemy": {
+    "master": true
+  },
+  "pytest-json-report": {
+    "master": true
+  },
+  "pytest-monitor": {
+    "master": true
+  },
+  "pytest-mypy": {
+    "master": true
+  },
+  "pytest-ordering": {
+    "master": true
+  },
+  "pytest-tldr": {
+    "master": true
+  },
+  "python-javapackages-cos7-aarch64": {
+    "master": true
+  },
+  "python-keycloak": {
+    "master": true
+  },
+  "python_abi": {
+    "master": true
+  },
+  "pythonfmu": {
+    "master": true
+  },
+  "pythonocc-core": {
+    "master": true
+  },
+  "qdatamatrix": {
+    "master": true
+  },
+  "qe": {
+    "master": true
+  },
+  "qnotifications": {
+    "master": true
+  },
+  "qtpynodeeditor": {
+    "master": true
+  },
+  "qubekit": {
+    "master": true
+  },
+  "quickff": {
+    "master": true
+  },
+  "qurro": {
+    "master": true
+  },
+  "qvina": {
+    "master": true
+  },
+  "r-adephylo": {
+    "master": true
+  },
+  "r-alphavantager": {
+    "master": true
+  },
+  "r-botor": {
+    "master": true
+  },
+  "r-colourvalues": {
+    "master": true
+  },
+  "r-disk.frame": {
+    "master": true
+  },
+  "r-exactextractr": {
+    "master": true
+  },
+  "r-fastghquad": {
+    "master": true
+  },
+  "r-float": {
+    "master": true
+  },
+  "r-geojsonsf": {
+    "master": true
+  },
+  "r-gluedown": {
+    "master": true
+  },
+  "r-googlepolylines": {
+    "master": true
+  },
+  "r-gpfit": {
+    "master": true
+  },
+  "r-gt": {
     "master": true
   }
 }
