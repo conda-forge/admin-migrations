@@ -6109,7 +6109,8 @@
     "master": true
   },
   "gnuradio": {
-    "master": true
+    "master": true,
+    "boost170": true
   },
   "gnureadline": {
     "master": true
@@ -7404,7 +7405,8 @@
     "master": true
   },
   "ipycytoscape": {
-    "add-npm": true
+    "add-npm": true,
+    "master": true
   },
   "ipydatawidgets": {
     "master": true
@@ -27936,6 +27938,162 @@
     "master": true
   },
   "gbquality": {
+    "master": true
+  },
+  "gconf2-cos7-aarch64": {
+    "master": true
+  },
+  "geehydro": {
+    "master": true
+  },
+  "geemap": {
+    "master": true
+  },
+  "gfal2-util": {
+    "master": true
+  },
+  "gh": {
+    "master": true
+  },
+  "gifsicle": {
+    "master": true
+  },
+  "go-sops": {
+    "master": true
+  },
+  "google-cloud-cpp": {
+    "master": true
+  },
+  "google-cloud-cpp-common": {
+    "master": true
+  },
+  "googleapis-cpp": {
+    "master": true
+  },
+  "googlesearch": {
+    "master": true
+  },
+  "gpytorch": {
+    "master": true
+  },
+  "graphene-django": {
+    "master": true
+  },
+  "graphene-mongo": {
+    "master": true
+  },
+  "grayskull": {
+    "master": true
+  },
+  "gstlal-burst": {
+    "master": true
+  },
+  "gstlal-calibration": {
+    "master": true
+  },
+  "gstlal-inspiral": {
+    "master": true
+  },
+  "gstlal-ugly": {
+    "master": true
+  },
+  "gtk3": {
+    "master": true
+  },
+  "gtkmm": {
+    "master": true
+  },
+  "gtkmm24-cos7-ppc64le": {
+    "master": true
+  },
+  "gts": {
+    "master": true
+  },
+  "gym": {
+    "master": true
+  },
+  "halo": {
+    "master": true
+  },
+  "hammer": {
+    "master": true
+  },
+  "happi": {
+    "master": true
+  },
+  "harmonica": {
+    "master": true
+  },
+  "hiphive": {
+    "master": true
+  },
+  "hiplot": {
+    "master": true
+  },
+  "hs-process": {
+    "master": true
+  },
+  "htmap": {
+    "master": true
+  },
+  "hurry.filesize": {
+    "master": true
+  },
+  "hydra": {
+    "master": true
+  },
+  "hydra-core": {
+    "master": true
+  },
+  "indicators": {
+    "master": true
+  },
+  "infomap": {
+    "master": true
+  },
+  "inquirer": {
+    "master": true
+  },
+  "instapush": {
+    "master": true
+  },
+  "intake-geopandas": {
+    "master": true
+  },
+  "intbitset": {
+    "master": true
+  },
+  "is-number": {
+    "master": true
+  },
+  "isitgr": {
+    "master": true
+  },
+  "iso3166": {
+    "master": true
+  },
+  "j2cli": {
+    "master": true
+  },
+  "jacqq": {
+    "master": true
+  },
+  "java-1.7.0-openjdk-cos7-aarch64": {
+    "master": true
+  },
+  "java-1.7.0-openjdk-headless-cos7-aarch64": {
+    "master": true
+  },
+  "javabridge": {
+    "master": true
+  },
+  "javapackages-tools-cos7-aarch64": {
+    "master": true
+  },
+  "jbig2dec": {
+    "master": true
+  },
+  "jep": {
     "master": true
   }
 }
