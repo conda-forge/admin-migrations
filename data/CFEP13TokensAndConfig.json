@@ -11928,7 +11928,8 @@
     "master": true
   },
   "pangeo-dask": {
-    "watch_upstream_action": true
+    "watch_upstream_action": true,
+    "master": true
   },
   "pango": {
     "master": true
@@ -28409,6 +28410,165 @@
     "master": true
   },
   "orbit2-cos7-aarch64": {
+    "master": true
+  },
+  "orocos-kdl": {
+    "master": true
+  },
+  "orographic_precipitation": {
+    "master": true
+  },
+  "p11-kit-cos7-aarch64": {
+    "master": true
+  },
+  "p11-kit-trust-cos7-aarch64": {
+    "master": true
+  },
+  "pandas_schema": {
+    "master": true
+  },
+  "pandoc-plot": {
+    "master": true
+  },
+  "pangeo-notebook": {
+    "master": true
+  },
+  "pangomm": {
+    "master": true
+  },
+  "parson": {
+    "master": true
+  },
+  "pcdsdevices": {
+    "master": true
+  },
+  "pcdsutils": {
+    "master": true
+  },
+  "pcdswidgets": {
+    "master": true
+  },
+  "pciutils-libs-cos7-ppc64le": {
+    "master": true
+  },
+  "pcraster": {
+    "master": true
+  },
+  "pebble": {
+    "master": true
+  },
+  "pfapack": {
+    "master": true
+  },
+  "phono3py": {
+    "master": true
+  },
+  "pikepdf": {
+    "master": true
+  },
+  "platformio": {
+    "master": true
+  },
+  "poetry-core": {
+    "master": true
+  },
+  "pop-tools": {
+    "master": true
+  },
+  "pre-commit-mirror-maker": {
+    "master": true
+  },
+  "proj-data": {
+    "master": true
+  },
+  "protego": {
+    "master": true
+  },
+  "psdm_qs_cli": {
+    "master": true
+  },
+  "pseudorandom": {
+    "master": true
+  },
+  "ptvpy": {
+    "master": true
+  },
+  "pwtools": {
+    "master": true
+  },
+  "py2app": {
+    "master": true
+  },
+  "pyart_mch": {
+    "master": true
+  },
+  "pybigquery": {
+    "master": true
+  },
+  "pybox2d": {
+    "master": true
+  },
+  "pycollada": {
+    "master": true
+  },
+  "pydata-sphinx-theme": {
+    "master": true
+  },
+  "pydeck": {
+    "master": true
+  },
+  "pyepr": {
+    "master": true
+  },
+  "pyerf": {
+    "master": true
+  },
+  "pyftdi": {
+    "master": true
+  },
+  "pygacode": {
+    "master": true
+  },
+  "pygaze": {
+    "master": true
+  },
+  "pyglmnet": {
+    "master": true
+  },
+  "pygments_pytest": {
+    "master": true
+  },
+  "pygtrie": {
+    "master": true
+  },
+  "pyjsparser": {
+    "master": true
+  },
+  "pylammpsmpi": {
+    "master": true
+  },
+  "pylibtiff": {
+    "master": true
+  },
+  "pymap3d": {
+    "master": true
+  },
+  "pymatnest": {
+    "master": true
+  },
+  "pymodm": {
+    "master": true
+  },
+  "pymorphy2": {
+    "master": true
+  },
+  "pymorphy2-dicts": {
+    "master": true
+  },
+  "pymorphy2-dicts-ru": {
+    "master": true
+  },
+  "pynetdicom": {
     "master": true
   }
 }
