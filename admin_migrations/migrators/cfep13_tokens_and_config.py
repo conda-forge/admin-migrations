@@ -14,17 +14,33 @@ TOKENS_REPO = "https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-tokens.g
 OUTPUTS_REPO = "https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-outputs.git"
 
 
-class CFEP13TurnOff(Migrator):
-    def migrate(self, feedstock, branch):
-
+def _read_conda_forge_yaml(yaml):
+    if os.path.exists("conda-forge.yml"):
         with open("conda-forge.yml", "r") as fp:
             meta_yaml = fp.read()
 
-        if meta_yaml.strip() == "[]" or meta_yaml.strip() == "[ ]":
+        if (
+            meta_yaml is None
+            or meta_yaml.strip() == "[]"
+            or meta_yaml.strip() == "[ ]"
+            or len(meta_yaml) == 0
+            or len(meta_yaml.strip()) == 0
+        ):
             cfg = {}
         else:
-            yaml = YAML()
             cfg = yaml.load(meta_yaml)
+    else:
+        meta_yaml = ""
+        cfg = {}
+
+    return cfg
+
+
+class CFEP13TurnOff(Migrator):
+    def migrate(self, feedstock, branch):
+
+        yaml = YAML()
+        cfg = _read_conda_forge_yaml(yaml)
 
         if (
             "conda_forge_output_validation" in cfg
@@ -205,14 +221,9 @@ def _register_feedstock_outputs(feedstock):
 
 class CFEP13TokensAndConfig(Migrator):
     def migrate(self, feedstock, branch):
-        with open("conda-forge.yml", "r") as fp:
-            meta_yaml = fp.read()
 
         yaml = YAML()
-        if meta_yaml.strip() == "[]" or meta_yaml.strip() == "[ ]":
-            cfg = {}
-        else:
-            cfg = yaml.load(meta_yaml)
+        cfg = _read_conda_forge_yaml(yaml)
 
         if (
             "conda_forge_output_validation" in cfg
