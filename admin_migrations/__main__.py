@@ -13,6 +13,7 @@ import github
 import tqdm
 
 from admin_migrations.migrators import (
+    RecipeLocation,
     AppveyorDelete,
     RAutomerge,
     CFEP13TokensAndConfig,
@@ -262,6 +263,7 @@ def run_migrators(feedstock, migrators):
 
 def main():
     migrators = [
+        RecipeLocation(),
         AppveyorDelete(),
         RAutomerge(),
         CFEP13TokensAndConfig(),
