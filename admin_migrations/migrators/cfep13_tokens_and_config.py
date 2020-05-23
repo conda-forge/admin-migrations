@@ -115,6 +115,14 @@ def _get_sharded_path(output):
 def _register_feedstock_outputs(feedstock):
     unames = set()
 
+    # this is a common way in which feedstocks are wrong
+    if os.path.exists("recipe/meta.yaml"):
+        recipe_loc = "recipe"
+    elif os.path.exists("recipe/recipe/meta.yaml"):
+        recipe_loc = "recipe/recipe"
+    else:
+        raise RuntimeError("could not find recipe location!")
+
     cbcs = sorted(glob.glob(os.path.join(".ci_support", "*.yaml")))
     for cbc_fname in cbcs:
         # we need to extract the platform (e.g., osx, linux) and arch (e.g., 64, aarm64)
@@ -155,13 +163,13 @@ def _register_feedstock_outputs(feedstock):
                     arch=arch,
                 )
         cbc, _ = conda_build.variants.get_package_combined_spec(
-            "recipe",
+            recipe_loc,
             config=config
         )
 
         # now we render the meta.yaml into an actual recipe
         metas = conda_build.api.render(
-                    "recipe",
+                    recipe_loc,
                     platform=platform,
                     arch=arch,
                     ignore_system_variants=True,
