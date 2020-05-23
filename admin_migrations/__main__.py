@@ -192,10 +192,14 @@ def run_migrators(feedstock, migrators):
                 # having all of the branches
                 _run_git_command(["clone", "--quiet", feedstock_http])
             except subprocess.CalledProcessError:
+                print("    clone failed!")
                 return made_api_calls
 
             with pushd("%s-feedstock" % feedstock):
-                if os.path.exists("recipe/meta.yaml"):
+                if (
+                    os.path.exists("recipe/meta.yaml")
+                    or os.path.exists("recipe/recipe/meta.yaml")
+                ):
                     _run_git_command([
                         "remote",
                         "set-url",
