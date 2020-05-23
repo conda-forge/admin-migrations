@@ -193,7 +193,7 @@ def _register_feedstock_outputs(feedstock):
         )
 
         subprocess.run(
-            ["git", "pull"],
+            ["git", "pull", "--quiet"],
             check=True,
             cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"]
         )
@@ -220,7 +220,7 @@ def _register_feedstock_outputs(feedstock):
             )
 
             subprocess.run(
-                ["git", "push"],
+                ["git", "push", "--quiet"],
                 check=True,
                 cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"]
             )

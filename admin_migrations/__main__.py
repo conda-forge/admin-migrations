@@ -149,7 +149,7 @@ def _load_feedstock_data():
 def _commit_data():
     print("\nsaving data...")
     _run_git_command(["stash"])
-    _run_git_command(["pull"])
+    _run_git_command(["pull", "--quiet"])
     _run_git_command(["stash", "pop"])
     _run_git_command(["add", "data/*.json"])
     _run_git_command(["commit", "-m", "[ci skip] data for admin migration run"])
@@ -161,7 +161,7 @@ def _commit_data():
         "https://%s@github.com/"
         "conda-forge/admin-migrations.git" % os.environ["GITHUB_TOKEN"],
     ])
-    _run_git_command(["push"])
+    _run_git_command(["push", "--quiet"])
 
 
 def run_migrators(feedstock, migrators):
@@ -190,7 +190,7 @@ def run_migrators(feedstock, migrators):
             try:
                 # use a full depth clone since some migrators rely on
                 # having all of the branches
-                _run_git_command(["clone", feedstock_http])
+                _run_git_command(["clone", "--quiet", feedstock_http])
             except subprocess.CalledProcessError:
                 return made_api_calls
 
@@ -238,7 +238,7 @@ def run_migrators(feedstock, migrators):
                                             "[ci skip] [skip ci] [cf admin skip] "
                                             "***NO_CI*** %s" % m.message(),
                                         ])
-                                        _run_git_command(["push"])
+                                        _run_git_command(["push", "--quiet"])
                                     else:
                                         print("not pushing to archived feedstock")
                                 else:
