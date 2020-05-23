@@ -95,10 +95,17 @@ def _get_all_feedstocks():
     repos = org.get_repos(type='public')
     for r in tqdm.tqdm(repos, total=repos.totalCount, desc='getting all feedstocks'):
         if r.name.endswith("-feedstock"):
-            if r.archived:
-                archived.add(r.name[:-len("-feedstock")])
+            # special casing for weird renaming in the api
+            if r.name == "numpy-sugar-feedstock":
+                name = "numpy_sugar-feedstock"
             else:
-                not_archived.add(r.name[:-len("-feedstock")])
+                name = r.name
+
+            if r.archived:
+                archived.add(name[:-len("-feedstock")])
+            else:
+                not_archived.add(name[:-len("-feedstock")])
+
     return {"active": sorted(list(not_archived)), "archived": sorted(list(archived))}
 
 
