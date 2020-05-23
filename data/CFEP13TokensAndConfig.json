@@ -29870,5 +29870,14 @@
   "sbcl": {
     "master": true,
     "osx": true
+  },
+  "catkin_tools": {
+    "master": true
+  },
+  "omniscidb-cuda": {
+    "master": true
+  },
+  "osrf_pycommon": {
+    "master": true
   }
 }
