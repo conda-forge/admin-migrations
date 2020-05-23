@@ -685,7 +685,8 @@
     "master": true
   },
   "astroscrappy": {
-    "master": true
+    "master": true,
+    "rerender-pre-py38": true
   },
   "astrowidgets": {
     "master": true
