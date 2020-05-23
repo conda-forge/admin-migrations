@@ -9,7 +9,12 @@ from .base import Migrator
 def _has_r_team():
     yaml = YAML()
 
-    with open(os.path.join("recipe", "meta.yaml"), "r") as fp:
+    if os.path.exists(os.path.join("recipe", "meta.yaml")):
+        meta_loc = os.path.join("recipe", "meta.yaml")
+    elif os.path.exists(os.path.join("recipe", "recipe", "meta.yaml")):
+        meta_loc = os.path.join("recipe", "recipe", "meta.yaml")
+
+    with open(meta_loc, "r") as fp:
         keep_lines = []
         skip = True
         for line in fp.readlines():
@@ -26,7 +31,12 @@ def _has_r_team():
 def _has_cran_url():
     stop_tokens = ["build:", "requirements:", "test:", "about:", "extra:"]
 
-    with open(os.path.join("recipe", "meta.yaml"), "r") as fp:
+    if os.path.exists(os.path.join("recipe", "meta.yaml")):
+        meta_loc = os.path.join("recipe", "meta.yaml")
+    elif os.path.exists(os.path.join("recipe", "recipe", "meta.yaml")):
+        meta_loc = os.path.join("recipe", "recipe", "meta.yaml")
+
+    with open(meta_loc, "r") as fp:
         in_source_section = False
         for line in fp.readlines():
             if line.startswith("source:"):

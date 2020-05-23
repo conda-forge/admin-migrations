@@ -149,7 +149,7 @@ def _load_feedstock_data():
 def _commit_data():
     print("\nsaving data...")
     _run_git_command(["stash"])
-    _run_git_command(["pull"])
+    _run_git_command(["pull", "--quiet"])
     _run_git_command(["stash", "pop"])
     _run_git_command(["add", "data/*.json"])
     _run_git_command(["commit", "-m", "[ci skip] data for admin migration run"])
@@ -161,7 +161,7 @@ def _commit_data():
         "https://%s@github.com/"
         "conda-forge/admin-migrations.git" % os.environ["GITHUB_TOKEN"],
     ])
-    _run_git_command(["push"])
+    _run_git_command(["push", "--quiet"])
 
 
 def run_migrators(feedstock, migrators):
@@ -190,12 +190,16 @@ def run_migrators(feedstock, migrators):
             try:
                 # use a full depth clone since some migrators rely on
                 # having all of the branches
-                _run_git_command(["clone", feedstock_http])
+                _run_git_command(["clone", "--quiet", feedstock_http])
             except subprocess.CalledProcessError:
+                print("    clone failed!")
                 return made_api_calls
 
             with pushd("%s-feedstock" % feedstock):
-                if os.path.exists("recipe/meta.yaml"):
+                if (
+                    os.path.exists("recipe/meta.yaml")
+                    or os.path.exists("recipe/recipe/meta.yaml")
+                ):
                     _run_git_command([
                         "remote",
                         "set-url",
@@ -238,7 +242,7 @@ def run_migrators(feedstock, migrators):
                                             "[ci skip] [skip ci] [cf admin skip] "
                                             "***NO_CI*** %s" % m.message(),
                                         ])
-                                        _run_git_command(["push"])
+                                        _run_git_command(["push", "--quiet"])
                                     else:
                                         print("not pushing to archived feedstock")
                                 else:
