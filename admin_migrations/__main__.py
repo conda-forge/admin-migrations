@@ -27,7 +27,7 @@ from admin_migrations.migrators import (
 
 def _assert_circle_at_0():
     yaml = ruamel.yaml.YAML()
-    with open(".circle/config.yml", "r") as fp:
+    with open(".circleci/config.yml", "r") as fp:
         _cc_cfg = yaml.load(fp.read())
     ctab = _cc_cfg["workflows"]["hourly"]["triggers"][0]["schedule"]["cron"]
     assert ctab == "00 * * * *", "Wrong cron tab %s for circle!" % ctab
