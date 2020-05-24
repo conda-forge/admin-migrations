@@ -11,6 +11,7 @@ import datetime
 from requests.exceptions import RequestException
 import github
 import tqdm
+import ruamel.yaml
 
 from admin_migrations.migrators import (
     AppveyorDelete,
@@ -23,6 +24,17 @@ from admin_migrations.migrators import (
     # AutomergeAndBotRerunLabels,
 )
 
+
+def _assert_circle_at_0():
+    yaml = ruamel.yaml.YAML()
+    with open(".circle/config.yml", "r") as fp:
+        _cc_cfg = yaml.load(fp.read())
+    ctab = _cc_cfg["workflows"]["hourly"]["triggers"][0]["schedule"]["cron"]
+    assert ctab == "00 * * * *", "Wrong cron tab %s for circle!" % ctab
+
+
+_assert_circle_at_0()
+
 DEBUG = "DEBUG_ADMIN_MIGRATIONS" in os.environ
 
 if DEBUG:
@@ -30,7 +42,7 @@ if DEBUG:
     MAX_SECONDS = 50 * 60
 else:
     MAX_MIGRATE = 1000
-    MAX_SECONDS = 50 * 60
+    MAX_SECONDS = min(50, max(60 - datetime.datetime.now().minute - 6, 0)) * 60
 
 
 @functools.lru_cache(maxsize=20000)
