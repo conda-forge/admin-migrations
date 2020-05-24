@@ -29903,6 +29903,8 @@
     "master": true
   },
   "ros-cv-bridge": {
-    "master": true
+    "master": true,
+    "add-console-bridge": true,
+    "add-console-bridge-1": true
   }
 }
