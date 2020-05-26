@@ -25288,7 +25288,8 @@
     "master": true,
     "jcb/windows": true,
     "regro-cf-autotick-bot": true,
-    "release-1.6.2": true
+    "release-1.6.2": true,
+    "release-1.7.x": true
   },
   "tiledb-py": {
     "master": true,
@@ -29918,6 +29919,9 @@
     "master": true
   },
   "rapids": {
+    "master": true
+  },
+  "r-scorecard": {
     "master": true
   }
 }
