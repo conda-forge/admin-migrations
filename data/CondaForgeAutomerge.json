@@ -8207,7 +8207,8 @@
     "master": true
   },
   "rapidfuzz": {
-    "master": true
+    "master": true,
+    "test": true
   },
   "rapidjson": {
     "master": true
@@ -29926,6 +29927,9 @@
     "master": true
   },
   "r-scorecard": {
+    "master": true
+  },
+  "jupyterhub-idle-culler": {
     "master": true
   }
 }

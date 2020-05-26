@@ -28825,7 +28825,8 @@
     "master": true
   },
   "rapidfuzz": {
-    "master": true
+    "master": true,
+    "test": true
   },
   "rarfile": {
     "master": true
@@ -29923,6 +29924,9 @@
     "master": true
   },
   "r-scorecard": {
+    "master": true
+  },
+  "jupyterhub-idle-culler": {
     "master": true
   }
 }
