@@ -1877,7 +1877,8 @@
     "master": true,
     "rerender-live-test": true,
     "test-ci-fail": true,
-    "test-ignore-linter": true
+    "test-ignore-linter": true,
+    "azure-azure-v11": true
   },
   "cf_units": {
     "master": true
