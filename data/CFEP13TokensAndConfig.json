@@ -51,7 +51,8 @@
     "master": true
   },
   "adal": {
-    "master": true
+    "master": true,
+    "replace-maintainer": true
   },
   "adaptive": {
     "master": true
