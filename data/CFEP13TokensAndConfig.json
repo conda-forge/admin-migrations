@@ -29994,7 +29994,8 @@
     "master": true
   },
   "sourmash-minimal": {
-    "master": true
+    "master": true,
+    "py27_support": true
   },
   "screed": {
     "master": true
