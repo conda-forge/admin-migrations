@@ -14783,7 +14783,8 @@
     "master": true
   },
   "wflow": {
-    "master": true
+    "master": true,
+    "patch-release": true
   },
   "importlab": {
     "master": true
@@ -30092,6 +30093,9 @@
     "master": true
   },
   "pyslim": {
+    "master": true
+  },
+  "exiftool": {
     "master": true
   }
 }

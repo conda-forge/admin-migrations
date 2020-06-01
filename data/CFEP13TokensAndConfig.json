@@ -27327,7 +27327,8 @@
     "master": true
   },
   "wflow": {
-    "master": true
+    "master": true,
+    "patch-release": true
   },
   "r-unmarked": {
     "master": true
@@ -30089,6 +30090,9 @@
     "master": true
   },
   "pyslim": {
+    "master": true
+  },
+  "exiftool": {
     "master": true
   }
 }
