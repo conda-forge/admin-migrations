@@ -30111,5 +30111,26 @@
   },
   "pydrift": {
     "master": true
+  },
+  "pytorch_spline_conv": {
+    "master": true
+  },
+  "argo-workflows-dsl": {
+    "master": true
+  },
+  "argo-workflows": {
+    "master": true
+  },
+  "pytorch_scatter": {
+    "master": true
+  },
+  "conda-lock": {
+    "master": true
+  },
+  "biorbd-optim": {
+    "master": true
+  },
+  "pytorch_sparse": {
+    "master": true
   }
 }
