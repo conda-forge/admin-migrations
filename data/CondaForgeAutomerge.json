@@ -16967,7 +16967,17 @@
     "test-ci-fail": true,
     "test-ignore-linter": true,
     "azure-azure-v11": true,
-    "azure-azure-v14": true
+    "azure-azure-v14": true,
+    "azure-azure-v20": true,
+    "azure-azure-v21": true,
+    "azure-circle-v21": true,
+    "azure-travis-v21": true,
+    "circle-azure-v21": true,
+    "circle-circle-v21": true,
+    "circle-travis-v21": true,
+    "travis-azure-v21": true,
+    "travis-circle-v21": true,
+    "travis-travis-v21": true
   },
   "certifi": {
     "master": true
