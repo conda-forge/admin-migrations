@@ -15,6 +15,7 @@ import ruamel.yaml
 
 from admin_migrations.migrators import (
     AppveyorDelete,
+    AppveyorForceDelete,
     RAutomerge,
     CFEP13TokensAndConfig,
     CondaForgeAutomerge,
@@ -286,6 +287,7 @@ def run_migrators(feedstock, migrators):
 def main():
     migrators = [
         AppveyorDelete(),
+        AppveyorForceDelete(),
         RAutomerge(),
         CFEP13TokensAndConfig(),
         CondaForgeAutomerge(),
