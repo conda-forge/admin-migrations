@@ -140,7 +140,7 @@ class AppveyorForceDelete(Migrator):
     master_branch_only = True
 
     def migrate(self, feedstock, branch):
-        if feedstock != "python":
+        if feedstock == "python":
             return True, False, False
         else:
             deleted = False
