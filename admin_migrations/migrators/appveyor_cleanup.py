@@ -134,3 +134,53 @@ class AppveyorDelete(Migrator):
 
         # did it work, commit, made API calls
         return deleted, False, True
+
+
+class AppveyorForceDelete(Migrator):
+    master_branch_only = True
+
+    def migrate(self, feedstock, branch):
+        if feedstock == "python":
+            return True, False, False
+        else:
+            deleted = False
+
+            appveyor_name = "%s-feedstock" % feedstock
+            if appveyor_name.startswith("_"):
+                appveyor_name = appveyor_name[1:]
+            appveyor_name = appveyor_name.replace("_", "-").replace(".", "-")
+
+            r = requests.get(
+                "https://ci.appveyor.com/api/projects/"
+                "conda-forge/%s" % appveyor_name,
+                headers=HEADERS,
+            )
+
+            if r.status_code == 404:
+                print("    appveyor project not found")
+                # project does not exist
+                deleted = True
+            elif r.status_code == 200:
+                r = requests.get(
+                    "https://ci.appveyor.com/api/projects/"
+                    "conda-forge/%s/settings" % appveyor_name,
+                    headers=HEADERS,
+                )
+                if r.status_code == 200:
+                    settings = r.json()["settings"]
+                    settings["disablePushWebhooks"] = True
+                    r = requests.put(
+                        "https://ci.appveyor.com/api/projects",
+                        headers=HEADERS,
+                        json=settings,
+                    )
+                    if r.status_code == 204:
+                        print("    appveyor disabled pushes")
+                        deleted = True
+                    else:
+                        print("    appveyor disable push call failed")
+                else:
+                    print("    appveyor get project settings failed")
+
+            # did it work, commit, made API calls
+            return deleted, False, True
