@@ -135,7 +135,8 @@
   "aiida-core": {
     "master": true,
     "dev": true,
-    "pin-rabbitmq": true
+    "pin-rabbitmq": true,
+    "chrisjsewell-patch-1": true
   },
   "aiida-crystal17": {
     "master": true
