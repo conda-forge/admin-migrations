@@ -14492,7 +14492,8 @@
     "master": true
   },
   "jupyterlab_commands": {
-    "master": true
+    "master": true,
+    "upgrade": true
   },
   "google-cloud-phishing-protection": {
     "master": true
@@ -30236,6 +30237,9 @@
     "master": true
   },
   "h2o-py": {
+    "master": true
+  },
+  "r-ggtext": {
     "master": true
   }
 }

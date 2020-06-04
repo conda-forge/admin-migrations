@@ -29590,7 +29590,8 @@
     "master": true
   },
   "jupyterlab_commands": {
-    "master": true
+    "master": true,
+    "upgrade": true
   },
   "google-cloud-os-login": {
     "master": true
@@ -30233,6 +30234,9 @@
     "master": true
   },
   "h2o-py": {
+    "master": true
+  },
+  "r-ggtext": {
     "master": true
   }
 }
