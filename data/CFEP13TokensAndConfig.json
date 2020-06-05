@@ -30133,7 +30133,8 @@
     "master": true
   },
   "pytorch_sparse": {
-    "master": true
+    "master": true,
+    "revert-7-master": true
   },
   "subversion": {
     "master": true
