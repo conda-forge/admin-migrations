@@ -11652,7 +11652,8 @@
   },
   "orange3-text": {
     "master": true,
-    "PrimozGodec-remove-validate-email": true
+    "PrimozGodec-remove-validate-email": true,
+    "skip-version-for-docutils": true
   },
   "orange3-timeseries": {
     "master": true,
