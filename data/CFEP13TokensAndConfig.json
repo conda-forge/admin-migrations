@@ -23638,7 +23638,8 @@
     "master": true
   },
   "simbody": {
-    "master": true
+    "master": true,
+    "cmake_osx_vars": true
   },
   "simdna": {
     "master": true
