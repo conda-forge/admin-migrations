@@ -10566,7 +10566,8 @@
     "master": true
   },
   "spaghetti": {
-    "master": true
+    "master": true,
+    "jGaboardi-patch-1": true
   },
   "spark-testing-base": {
     "master": true
@@ -30497,6 +30498,12 @@
     "master": true
   },
   "r-rclone": {
+    "master": true
+  },
+  "r-sos": {
+    "master": true
+  },
+  "r-sinew": {
     "master": true
   }
 }
