@@ -7173,7 +7173,8 @@
   "imbalanced-learn": {
     "master": true,
     "is/too_strict_sklearn": true,
-    "release_033": true
+    "release_033": true,
+    "glemaitre-patch-1": true
   },
   "imexam": {
     "master": true
