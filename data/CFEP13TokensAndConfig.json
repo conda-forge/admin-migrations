@@ -8291,7 +8291,8 @@
     "master": true
   },
   "kiwipy": {
-    "master": true
+    "master": true,
+    "release/0.5.5": true
   },
   "kiwisolver": {
     "master": true
@@ -12530,7 +12531,8 @@
   "plumpy": {
     "master": true,
     "v0.12.0": true,
-    "v0.12.1": true
+    "v0.12.1": true,
+    "sphuber-patch-1": true
   },
   "ply": {
     "master": true
