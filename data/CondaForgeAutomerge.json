@@ -16918,7 +16918,8 @@
   "cdms2": {
     "master": true,
     "condamaster": true,
-    "revert-6-v3.0.5": true
+    "revert-6-v3.0.5": true,
+    "dev": true
   },
   "cdutil": {
     "master": true
@@ -16931,7 +16932,8 @@
   },
   "cdtime": {
     "master": true,
-    "netcdf-15": true
+    "netcdf-15": true,
+    "dev": true
   },
   "celery-eternal": {
     "master": true
