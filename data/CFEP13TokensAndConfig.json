@@ -2022,7 +2022,8 @@
     "master": true
   },
   "chemex": {
-    "master": true
+    "master": true,
+    "regro-cf-autotick-bot-2018.10.3_h8e8d77": true
   },
   "chemfiles": {
     "master": true
@@ -5768,7 +5769,8 @@
   },
   "genutil": {
     "master": true,
-    "v8.0": true
+    "v8.0": true,
+    "dev": true
   },
   "geoalchemy-odm2": {
     "master": true
