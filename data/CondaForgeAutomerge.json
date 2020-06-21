@@ -1784,7 +1784,9 @@
   "qgis": {
     "master": true,
     "LTR": true,
-    "qgis-2.x": true
+    "qgis-2.x": true,
+    "update-stable-version-to-3.14.0": true,
+    "update_ltr_3.10.7": true
   },
   "qgrid": {
     "master": true
