@@ -11393,7 +11393,8 @@
   },
   "onnx": {
     "master": true,
-    "protobuf-38": true
+    "protobuf-38": true,
+    "v1.3.0": true
   },
   "onnx-caffe2": {
     "master": true
