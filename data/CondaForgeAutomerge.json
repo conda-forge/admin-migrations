@@ -30585,7 +30585,8 @@
     "master": true
   },
   "deepforest": {
-    "master": true
+    "master": true,
+    "tensorflow_install": true
   },
   "tsne": {
     "master": true
@@ -30690,6 +30691,9 @@
     "master": true
   },
   "match-series": {
+    "master": true
+  },
+  "aodhclient": {
     "master": true
   }
 }
