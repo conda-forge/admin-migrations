@@ -30592,7 +30592,8 @@
   "deepforest": {
     "master": true,
     "tensorflow_install": true,
-    "update_feedstock": true
+    "update_feedstock": true,
+    "windows": true
   },
   "tsne": {
     "master": true
