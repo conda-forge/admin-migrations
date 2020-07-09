@@ -31086,5 +31086,11 @@
   },
   "log-to-json": {
     "master": true
+  },
+  "daiquiri": {
+    "master": true
+  },
+  "git-pull-request": {
+    "master": true
   }
 }
