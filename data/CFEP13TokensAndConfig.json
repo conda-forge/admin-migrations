@@ -31105,7 +31105,8 @@
     "master": true
   },
   "esmtools": {
-    "master": true
+    "master": true,
+    "v1.1.2": true
   },
   "r-widgetframe": {
     "master": true
@@ -31115,5 +31116,15 @@
   },
   "forcebalance": {
     "master": true
+  },
+  "python-manilaclient": {
+    "master": true
+  },
+  "nlohmann_fifo_map": {
+    "master": true
+  },
+  "sentencepiece": {
+    "master": true,
+    "v0.1.91": true
   }
 }

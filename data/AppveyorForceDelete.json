@@ -30220,5 +30220,14 @@
   },
   "forcebalance": {
     "master": true
+  },
+  "python-manilaclient": {
+    "master": true
+  },
+  "nlohmann_fifo_map": {
+    "master": true
+  },
+  "sentencepiece": {
+    "master": true
   }
 }
