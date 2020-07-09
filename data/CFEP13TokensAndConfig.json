@@ -26445,7 +26445,8 @@
     "master": true
   },
   "wfdb": {
-    "master": true
+    "master": true,
+    "pr-12": true
   },
   "wget": {
     "master": true
@@ -31088,6 +31089,9 @@
     "master": true
   },
   "git-pull-request": {
+    "master": true
+  },
+  "py4dstem": {
     "master": true
   }
 }
