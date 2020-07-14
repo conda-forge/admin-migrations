@@ -14558,7 +14558,8 @@
   "pytest": {
     "master": true,
     "4.0": true,
-    "4.6": true
+    "4.6": true,
+    "rc": true
   },
   "pytest-aiohttp": {
     "master": true
