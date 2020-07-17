@@ -24873,7 +24873,9 @@
     "master": true
   },
   "teensy_loader_cli": {
-    "master": true
+    "master": true,
+    "new_patches": true,
+    "rebuild_osx": true
   },
   "teensytoany": {
     "master": true
