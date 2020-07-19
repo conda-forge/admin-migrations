@@ -1,5 +1,5 @@
 {
-  "current": 1,
+  "current": 0,
   "feedstocks": {
     "2dfatmic": 0,
     "4ti2": 0,
@@ -10128,14 +10128,14 @@
     "boa": 0,
     "mir_eval": 0,
     "rt-eqcorrscan": 0,
-    "robustness": 1,
-    "cox": 1,
-    "r-coveffectsplot": 1,
-    "flask-restful-swagger": 1,
-    "timm": 1,
-    "pygeoogc": 1,
-    "django-timezone-field": 1,
-    "django-celery-beat": 1,
-    "django-celery-results": 1
+    "robustness": 0,
+    "cox": 0,
+    "r-coveffectsplot": 0,
+    "flask-restful-swagger": 0,
+    "timm": 0,
+    "pygeoogc": 0,
+    "django-timezone-field": 0,
+    "django-celery-beat": 0,
+    "django-celery-results": 0
   }
 }
