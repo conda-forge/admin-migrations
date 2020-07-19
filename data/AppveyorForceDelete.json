@@ -30385,5 +30385,8 @@
   },
   "django-celery-beat": {
     "master": true
+  },
+  "django-celery-results": {
+    "master": true
   }
 }
