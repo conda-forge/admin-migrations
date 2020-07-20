@@ -18257,7 +18257,8 @@
     "master": true
   },
   "cylc-uiserver": {
-    "master": true
+    "master": true,
+    "specify-rx-version": true
   },
   "cymem": {
     "master": true
