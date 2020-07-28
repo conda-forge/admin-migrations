@@ -31493,7 +31493,8 @@
     "master": true
   },
   "dataprep": {
-    "master": true
+    "master": true,
+    "justfile": true
   },
   "robotframework-pythonlibcore": {
     "master": true
