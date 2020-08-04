@@ -5960,7 +5960,8 @@
   },
   "git-annex": {
     "master": true,
-    "rc": true
+    "rc": true,
+    "is-reinstate-standalone-build": true
   },
   "git-annex-remote-googledrive": {
     "master": true

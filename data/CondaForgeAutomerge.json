@@ -21328,7 +21328,8 @@
   },
   "git-annex": {
     "master": true,
-    "rc": true
+    "rc": true,
+    "is-reinstate-standalone-build": true
   },
   "git-crypt": {
     "master": true
