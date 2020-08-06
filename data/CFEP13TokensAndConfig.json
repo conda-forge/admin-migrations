@@ -13982,7 +13982,8 @@
     "master": true,
     "pr3": true,
     "1.15": true,
-    "libctl_mpb_update": true
+    "libctl_mpb_update": true,
+    "enable_macos_build": true
   },
   "pymemcache": {
     "master": true
