@@ -21615,7 +21615,8 @@
     "master": true
   },
   "google-cloud-datastore": {
-    "master": true
+    "master": true,
+    "bump-dependencies": true
   },
   "google-cloud-kms": {
     "master": true
