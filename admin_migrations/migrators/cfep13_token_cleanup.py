@@ -232,17 +232,15 @@ class CFEP13TokenCleanup(Migrator):
         # cleanup conda-forge.yml
         yaml = YAML()
         cfg = _read_conda_forge_yaml(yaml)
-        commit_travis = _cleanup_cfgy(cfg, "travis", "BINSTAR_TOKEN")
-        commit_appveyor = _cleanup_cfgy(cfg, "appveyor", "BINSTAR_TOKEN")
-        commit = commit_travis or commit_appveyor
-        if commit:
-            with open("conda-forge.yml", "w") as fp:
-                yaml.dump(cfg, fp)
-            subprocess.run(
-                ["git", "add", "conda-forge.yml"],
-                check=True,
-            )
-            print("    updated conda-forge.yml")
+        _cleanup_cfgy(cfg, "travis", "BINSTAR_TOKEN")
+        _cleanup_cfgy(cfg, "appveyor", "BINSTAR_TOKEN")
+        with open("conda-forge.yml", "w") as fp:
+            yaml.dump(cfg, fp)
+        subprocess.run(
+            ["git", "add", "conda-forge.yml"],
+            check=True,
+        )
+        print("    updated conda-forge.yml")
 
         # migration done, make a commit, lots of API calls
-        return True, commit, True
+        return True, True, True
