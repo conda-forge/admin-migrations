@@ -6,3 +6,4 @@ from .r_automerge import RAutomerge
 from .cfep13_tokens_and_config import CFEP13TokensAndConfig, CFEP13TurnOff
 from .conda_forge_automerge import CondaForgeAutomerge
 from .teams_cleanup import TeamsCleanup
+from .cfep13_token_cleanup import CFEP13TokenCleanup
