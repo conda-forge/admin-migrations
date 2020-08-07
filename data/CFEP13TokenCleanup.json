@@ -2458,5 +2458,798 @@
   },
   "cmake_format": {
     "master": true
+  },
+  "cmakelint": {
+    "master": true
+  },
+  "cmaps": {
+    "master": true
+  },
+  "cmapy": {
+    "master": true
+  },
+  "cmarkgfm": {
+    "master": true
+  },
+  "cmd2": {
+    "master": true
+  },
+  "cmdline_provenance": {
+    "master": true
+  },
+  "cminpack": {
+    "master": true,
+    "noblas": true
+  },
+  "cmip6_preprocessing": {
+    "master": true
+  },
+  "cmocean": {
+    "master": true
+  },
+  "cmor": {
+    "master": true
+  },
+  "cmreshandler": {
+    "master": true
+  },
+  "cmrt": {
+    "master": true
+  },
+  "cms-md5": {
+    "master": true
+  },
+  "cmt": {
+    "master": true
+  },
+  "cni": {
+    "master": true
+  },
+  "cni-plugins": {
+    "master": true
+  },
+  "cobra-component-models": {
+    "master": true
+  },
+  "cockroachdb-python": {
+    "master": true
+  },
+  "coconut": {
+    "master": true
+  },
+  "codacy-coverage": {
+    "master": true
+  },
+  "codar2netcdf": {
+    "master": true
+  },
+  "code-server": {
+    "master": true
+  },
+  "codebraid": {
+    "master": true
+  },
+  "codecov": {
+    "master": true
+  },
+  "codemodel": {
+    "master": true
+  },
+  "codes-ui": {
+    "master": true
+  },
+  "codespell": {
+    "master": true
+  },
+  "coffeescript": {
+    "master": true
+  },
+  "cogapp": {
+    "master": true
+  },
+  "coin3d": {
+    "master": true
+  },
+  "coinbonmin": {
+    "master": true
+  },
+  "coincbc": {
+    "master": true
+  },
+  "coinmp": {
+    "master": true
+  },
+  "colcon-cmake": {
+    "master": true
+  },
+  "colcon-common-extensions": {
+    "master": true
+  },
+  "colcon-core": {
+    "master": true
+  },
+  "colcon-defaults": {
+    "master": true
+  },
+  "colcon-devtools": {
+    "master": true
+  },
+  "colcon-library-path": {
+    "master": true
+  },
+  "colcon-metadata": {
+    "master": true
+  },
+  "colcon-notification": {
+    "master": true
+  },
+  "colcon-output": {
+    "master": true
+  },
+  "colcon-package-information": {
+    "master": true
+  },
+  "colcon-package-selection": {
+    "master": true
+  },
+  "colcon-parallel-executor": {
+    "master": true
+  },
+  "colcon-pkg-config": {
+    "master": true
+  },
+  "colcon-powershell": {
+    "master": true
+  },
+  "colcon-python-setup-py": {
+    "master": true
+  },
+  "colcon-recursive-crawl": {
+    "master": true
+  },
+  "colcon-ros": {
+    "master": true
+  },
+  "colcon-test-result": {
+    "master": true
+  },
+  "colicoords": {
+    "master": true
+  },
+  "collectfast": {
+    "master": true
+  },
+  "colorama": {
+    "master": true
+  },
+  "colorcet": {
+    "master": true
+  },
+  "colorclass": {
+    "master": true
+  },
+  "colored": {
+    "master": true
+  },
+  "coloredlogs": {
+    "master": true
+  },
+  "colorlog": {
+    "master": true
+  },
+  "colorlover": {
+    "master": true
+  },
+  "colormap": {
+    "master": true
+  },
+  "colormath": {
+    "master": true
+  },
+  "colorspacious": {
+    "master": true
+  },
+  "colour": {
+    "master": true
+  },
+  "colour-runner": {
+    "master": true
+  },
+  "colour-science": {
+    "master": true,
+    "0.3.14": true
+  },
+  "comet": {
+    "master": true
+  },
+  "commonmark": {
+    "master": true,
+    "commonmark0.5.4": true
+  },
+  "compaction": {
+    "master": true
+  },
+  "compas": {
+    "master": true
+  },
+  "compas_fab": {
+    "master": true,
+    "bump-build": true,
+    "release-0.4.0": true
+  },
+  "compiler-rt": {
+    "master": true
+  },
+  "compilers": {
+    "master": true
+  },
+  "compliance-checker": {
+    "master": true,
+    "rc": true
+  },
+  "compyle": {
+    "master": true
+  },
+  "comtypes": {
+    "master": true
+  },
+  "conan": {
+    "master": true,
+    "v1.19.4": true
+  },
+  "concurrentloghandler": {
+    "master": true
+  },
+  "conda": {
+    "master": true
+  },
+  "conda-bash-completion": {
+    "master": true
+  },
+  "conda-build": {
+    "master": true,
+    "3.18": true
+  },
+  "conda-build-all": {
+    "master": true
+  },
+  "conda-devenv": {
+    "master": true
+  },
+  "conda-ecosystem-user-package-isolation": {
+    "master": true
+  },
+  "conda-env": {
+    "master": true
+  },
+  "conda-exec": {
+    "master": true
+  },
+  "conda-execute": {
+    "master": true
+  },
+  "conda-forge-build-setup": {
+    "master": true
+  },
+  "conda-forge-ci-setup": {
+    "master": true,
+    "2.x": true
+  },
+  "conda-forge-pinning": {
+    "master": true,
+    "migrate_to_modern": true
+  },
+  "conda-forge-repodata-patches": {
+    "master": true
+  },
+  "conda-gitenv": {
+    "master": true
+  },
+  "conda-merge": {
+    "master": true
+  },
+  "conda-mirror": {
+    "master": true,
+    "REL/0.8.0": true
+  },
+  "conda-pack": {
+    "master": true,
+    "v002": true
+  },
+  "conda-package-handling": {
+    "master": true
+  },
+  "conda-prefix-replacement": {
+    "master": true
+  },
+  "conda-press": {
+    "master": true
+  },
+  "conda-smithy": {
+    "master": true
+  },
+  "conda-standalone": {
+    "master": true
+  },
+  "conda-tree": {
+    "master": true
+  },
+  "conda-verify": {
+    "master": true
+  },
+  "conda-workon": {
+    "master": true
+  },
+  "conda-wrappers": {
+    "master": true
+  },
+  "conda_deps": {
+    "master": true
+  },
+  "condastats": {
+    "master": true
+  },
+  "conduit": {
+    "master": true
+  },
+  "configargparse": {
+    "master": true
+  },
+  "configobj": {
+    "master": true
+  },
+  "configobj-dev": {
+    "master": true
+  },
+  "configparser": {
+    "master": true
+  },
+  "configs": {
+    "master": true
+  },
+  "configurable-http-proxy": {
+    "master": true
+  },
+  "confluence-publisher": {
+    "master": true
+  },
+  "confuse": {
+    "master": true
+  },
+  "conjure-python-client": {
+    "master": true,
+    "fo/publish-2.7": true,
+    "fo/publish-27-linux-win": true,
+    "fo/update-1.6.1": true
+  },
+  "conllu": {
+    "master": true
+  },
+  "connexion": {
+    "master": true
+  },
+  "console_bridge": {
+    "master": true
+  },
+  "constantly": {
+    "master": true
+  },
+  "construct": {
+    "master": true
+  },
+  "constructor": {
+    "master": true
+  },
+  "consul": {
+    "master": true
+  },
+  "consul-template": {
+    "master": true
+  },
+  "contact_map": {
+    "master": true
+  },
+  "container-diff": {
+    "master": true
+  },
+  "containerpilot": {
+    "master": true
+  },
+  "contexter": {
+    "master": true
+  },
+  "contextily": {
+    "master": true
+  },
+  "contextlib2": {
+    "master": true
+  },
+  "contextvars": {
+    "master": true
+  },
+  "contrib_colormaps": {
+    "master": true
+  },
+  "control": {
+    "master": true
+  },
+  "convertdate": {
+    "master": true
+  },
+  "cookiecutter": {
+    "master": true
+  },
+  "cookies": {
+    "master": true
+  },
+  "coolprop": {
+    "master": true
+  },
+  "copulae": {
+    "master": true
+  },
+  "copy-jdk-configs-cos7-aarch64": {
+    "master": true
+  },
+  "coq": {
+    "master": true
+  },
+  "coq-jupyter": {
+    "master": true
+  },
+  "core-js": {
+    "master": true
+  },
+  "coreapi-cli": {
+    "master": true
+  },
+  "coredns": {
+    "master": true
+  },
+  "coreutils": {
+    "master": true
+  },
+  "cornac": {
+    "master": true
+  },
+  "corner": {
+    "master": true
+  },
+  "corral-pipeline": {
+    "master": true
+  },
+  "corrfunc": {
+    "master": true
+  },
+  "cosmosis-standalone": {
+    "master": true
+  },
+  "cothread": {
+    "master": true
+  },
+  "cotire": {
+    "master": true
+  },
+  "coursera-dl": {
+    "master": true
+  },
+  "courtana": {
+    "master": true
+  },
+  "cov-core": {
+    "master": true
+  },
+  "coverage": {
+    "master": true,
+    "v3.7.1": true,
+    "v4.0.3": true
+  },
+  "coveralls": {
+    "master": true
+  },
+  "cowpy": {
+    "master": true
+  },
+  "cp2k": {
+    "master": true
+  },
+  "cpnest": {
+    "master": true
+  },
+  "cppcheck": {
+    "master": true
+  },
+  "cppcolormap": {
+    "master": true
+  },
+  "cppheaderparser": {
+    "master": true
+  },
+  "cpplint": {
+    "master": true
+  },
+  "cpppath": {
+    "master": true
+  },
+  "cppunit": {
+    "master": true
+  },
+  "cpputest": {
+    "master": true
+  },
+  "cppy": {
+    "master": true
+  },
+  "cppyy": {
+    "master": true
+  },
+  "cppyy-backend": {
+    "master": true
+  },
+  "cppyy-cling": {
+    "master": true
+  },
+  "cppzmq": {
+    "master": true
+  },
+  "cpu_features": {
+    "master": true
+  },
+  "cpulimit": {
+    "master": true
+  },
+  "cpycppyy": {
+    "master": true
+  },
+  "cquadpack": {
+    "master": true
+  },
+  "craftr": {
+    "master": true
+  },
+  "cram": {
+    "master": true
+  },
+  "crayons": {
+    "master": true
+  },
+  "crc32c": {
+    "master": true
+  },
+  "crcmod": {
+    "master": true
+  },
+  "credstash": {
+    "master": true
+  },
+  "creme": {
+    "master": true
+  },
+  "creoleparser": {
+    "master": true
+  },
+  "crick": {
+    "master": true
+  },
+  "crispy": {
+    "master": true
+  },
+  "crlibm": {
+    "master": true
+  },
+  "croaring": {
+    "master": true
+  },
+  "crochet": {
+    "master": true
+  },
+  "cromwell": {
+    "master": true
+  },
+  "croniter": {
+    "master": true
+  },
+  "crontab": {
+    "master": true
+  },
+  "crosstool-ng": {
+    "master": true,
+    "1.24.0": true
+  },
+  "cryptography": {
+    "master": true
+  },
+  "cryptography-vectors": {
+    "master": true
+  },
+  "cryptominisat": {
+    "master": true
+  },
+  "cryptopp": {
+    "master": true,
+    "5.x": true
+  },
+  "crystals": {
+    "master": true,
+    "revert-4-master": true
+  },
+  "csa": {
+    "master": true
+  },
+  "csm": {
+    "master": true
+  },
+  "csmapi": {
+    "master": true
+  },
+  "cson": {
+    "master": true
+  },
+  "cspice": {
+    "master": true
+  },
+  "cssmin": {
+    "master": true
+  },
+  "cssselect": {
+    "master": true
+  },
+  "cssselect2": {
+    "master": true
+  },
+  "cssutils": {
+    "master": true
+  },
+  "csvkit": {
+    "master": true
+  },
+  "ctags": {
+    "master": true
+  },
+  "ctd": {
+    "master": true
+  },
+  "ctdopts": {
+    "master": true
+  },
+  "ctds": {
+    "master": true
+  },
+  "ctk-cli": {
+    "master": true
+  },
+  "ctng-compiler-activation": {
+    "master": true
+  },
+  "ctng-compilers": {
+    "master": true,
+    "libgcc-and-libstdcxx-9": true
+  },
+  "cudatoolkit-dev": {
+    "master": true
+  },
+  "cunit": {
+    "master": true
+  },
+  "cupy": {
+    "master": true,
+    "v6": true
+  },
+  "curio": {
+    "master": true
+  },
+  "curl": {
+    "master": true,
+    "v7.59.x": true,
+    "v7.64": true
+  },
+  "cursor": {
+    "master": true
+  },
+  "curtsies": {
+    "master": true
+  },
+  "custodian": {
+    "master": true
+  },
+  "custom-inherit": {
+    "master": true
+  },
+  "cvloop": {
+    "master": true
+  },
+  "cvxopt": {
+    "master": true
+  },
+  "cvxpy": {
+    "master": true
+  },
+  "cw-eval": {
+    "master": true
+  },
+  "cwinpy": {
+    "master": true
+  },
+  "cwl_runner": {
+    "master": true
+  },
+  "cwltool": {
+    "master": true
+  },
+  "cx_freeze": {
+    "master": true
+  },
+  "cx_oracle": {
+    "master": true
+  },
+  "cxxfilt": {
+    "master": true
+  },
+  "cxxopts": {
+    "master": true
+  },
+  "cxxtest": {
+    "master": true
+  },
+  "cyan": {
+    "master": true
+  },
+  "cyarray": {
+    "master": true
+  },
+  "cyavro": {
+    "master": true,
+    "update": true
+  },
+  "cyberpandas": {
+    "master": true
+  },
+  "cybuffer": {
+    "master": true
+  },
+  "cycamore": {
+    "master": true,
+    "1.5.4": true
+  },
+  "cycler": {
+    "master": true
+  },
+  "cyclonedds": {
+    "master": true
+  },
+  "cyclus": {
+    "master": true
+  },
+  "cyclus-build-deps": {
+    "master": true,
+    "readme-add-katy": true
+  },
+  "cyclus-d3ploy": {
+    "master": true
+  },
+  "cyflann": {
+    "master": true
+  },
+  "cygrid": {
+    "master": true
+  },
+  "cyipopt": {
+    "master": true,
+    "osx-clang": true
+  },
+  "cykdtree": {
+    "master": true
+  },
+  "cylc": {
+    "master": true
+  },
+  "cylc-flow": {
+    "master": true
+  },
+  "cylc-ui": {
+    "master": true
+  },
+  "cylc-uiserver": {
+    "master": true
   }
 }
