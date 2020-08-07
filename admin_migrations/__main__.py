@@ -17,6 +17,7 @@ from admin_migrations.migrators import (
     AppveyorForceDelete,
     RAutomerge,
     TeamsCleanup,
+    CFEP13TokenCleanup,
     # these are finished or not used so we don't run them
     # CondaForgeAutomerge,
     # CFEP13TokensAndConfig,
@@ -290,6 +291,7 @@ def main():
         AppveyorForceDelete(),
         RAutomerge(),
         TeamsCleanup(),
+        CFEP13TokenCleanup(),
         # these are finished or not used so we don't run them
         # CondaForgeAutomerge(),
         # CFEP13TokensAndConfig(),
