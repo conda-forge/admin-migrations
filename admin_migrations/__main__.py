@@ -16,9 +16,10 @@ import ruamel.yaml
 from admin_migrations.migrators import (
     AppveyorForceDelete,
     RAutomerge,
-    CFEP13TokensAndConfig,
-    CondaForgeAutomerge,
+    TeamsCleanup,
     # these are finished or not used so we don't run them
+    # CondaForgeAutomerge,
+    # CFEP13TokensAndConfig,
     # AppveyorDelete,
     # AutomergeAndRerender,
     # CFEP13TurnOff,
@@ -288,9 +289,10 @@ def main():
     migrators = [
         AppveyorForceDelete(),
         RAutomerge(),
-        CFEP13TokensAndConfig(),
-        CondaForgeAutomerge(),
+        TeamsCleanup(),
         # these are finished or not used so we don't run them
+        # CondaForgeAutomerge(),
+        # CFEP13TokensAndConfig(),
         # AppveyorDelete(),
         # AutomergeAndRerender(),
         # CFEP13TurnOff(),
