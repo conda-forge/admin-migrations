@@ -1,5 +1,2894 @@
 {
   "cf-autotick-bot-test-package": {
     "master": true
+  },
+  "2dfatmic": {
+    "master": true
+  },
+  "4ti2": {
+    "master": true
+  },
+  "7za": {
+    "master": true
+  },
+  "_go_select": {
+    "master": true
+  },
+  "_libarchive_static_for_cph": {
+    "master": true
+  },
+  "_libgcc_mutex": {
+    "master": true
+  },
+  "_openmp_mutex": {
+    "master": true
+  },
+  "_r-mutex": {
+    "master": true
+  },
+  "ablog": {
+    "master": true
+  },
+  "abseil-cpp": {
+    "master": true
+  },
+  "absl-py": {
+    "master": true
+  },
+  "abydos": {
+    "master": true
+  },
+  "academic": {
+    "master": true
+  },
+  "accimage": {
+    "master": true
+  },
+  "acpype": {
+    "master": true
+  },
+  "act-atmos": {
+    "master": true
+  },
+  "ad3-cpp": {
+    "master": true
+  },
+  "adal": {
+    "master": true
+  },
+  "adaptive": {
+    "master": true
+  },
+  "adaptive-scheduler": {
+    "master": true
+  },
+  "addict": {
+    "master": true
+  },
+  "adept": {
+    "master": true
+  },
+  "adios": {
+    "master": true
+  },
+  "adios-python": {
+    "master": true
+  },
+  "adios2": {
+    "master": true
+  },
+  "adjusttext": {
+    "master": true
+  },
+  "ads": {
+    "master": true
+  },
+  "adtk": {
+    "master": true
+  },
+  "advbumpversion": {
+    "master": true
+  },
+  "aenum": {
+    "master": true
+  },
+  "affine": {
+    "master": true
+  },
+  "aflow": {
+    "master": true
+  },
+  "afterimage": {
+    "master": true
+  },
+  "agate": {
+    "master": true
+  },
+  "agate-dbf": {
+    "master": true
+  },
+  "agate-excel": {
+    "master": true
+  },
+  "agate-lookup": {
+    "master": true
+  },
+  "agate-remote": {
+    "master": true
+  },
+  "agate-sql": {
+    "master": true
+  },
+  "agate-stats": {
+    "master": true
+  },
+  "agg-regrid": {
+    "master": true
+  },
+  "aggdraw": {
+    "master": true
+  },
+  "aghast": {
+    "master": true
+  },
+  "ago": {
+    "master": true
+  },
+  "aha": {
+    "master": true
+  },
+  "aiida-core": {
+    "master": true
+  },
+  "aiida-crystal17": {
+    "master": true
+  },
+  "aio-pika": {
+    "master": true
+  },
+  "aiobotocore": {
+    "master": true
+  },
+  "aiochclient": {
+    "master": true
+  },
+  "aiocontextvars": {
+    "master": true
+  },
+  "aiodns": {
+    "master": true
+  },
+  "aioeasywebdav": {
+    "master": true
+  },
+  "aiofiles": {
+    "master": true
+  },
+  "aioftp": {
+    "master": true
+  },
+  "aiohttp": {
+    "master": true
+  },
+  "aiohttp-cors": {
+    "master": true
+  },
+  "aiohttp-debugtoolbar": {
+    "master": true
+  },
+  "aiohttp-graphql": {
+    "master": true
+  },
+  "aiohttp-jinja2": {
+    "master": true
+  },
+  "aiohttp-security": {
+    "master": true
+  },
+  "aiohttp-session": {
+    "master": true
+  },
+  "aioitertools": {
+    "master": true
+  },
+  "aiomcache": {
+    "master": true
+  },
+  "aiomysql": {
+    "master": true
+  },
+  "aionotify": {
+    "master": true
+  },
+  "aiopeewee": {
+    "master": true
+  },
+  "aioredis": {
+    "master": true
+  },
+  "aiormq": {
+    "master": true
+  },
+  "aiorun": {
+    "master": true
+  },
+  "aioserial": {
+    "master": true
+  },
+  "aioslacker": {
+    "master": true
+  },
+  "aiosmtplib": {
+    "master": true
+  },
+  "aiosqlite": {
+    "master": true
+  },
+  "aiozmq": {
+    "master": true
+  },
+  "aipy": {
+    "master": true
+  },
+  "airflow": {
+    "master": true
+  },
+  "alabaster": {
+    "master": true
+  },
+  "albumentations": {
+    "master": true
+  },
+  "alchemical-analysis": {
+    "master": true
+  },
+  "aldjemy": {
+    "master": true
+  },
+  "ale": {
+    "master": true
+  },
+  "alembic": {
+    "master": true
+  },
+  "alex": {
+    "master": true
+  },
+  "algopy": {
+    "master": true
+  },
+  "alive-progress": {
+    "master": true
+  },
+  "aliyun-python-sdk-core": {
+    "master": true
+  },
+  "aliyun-python-sdk-kms": {
+    "master": true
+  },
+  "allantools": {
+    "master": true
+  },
+  "allennlp": {
+    "master": true
+  },
+  "allensdk": {
+    "master": true
+  },
+  "allthekernels": {
+    "master": true
+  },
+  "alm": {
+    "master": true
+  },
+  "almosthere": {
+    "master": true
+  },
+  "aloe": {
+    "master": true
+  },
+  "alpenglow": {
+    "master": true
+  },
+  "alphalens": {
+    "master": true
+  },
+  "alphashape": {
+    "master": true
+  },
+  "alphatwirl": {
+    "master": true
+  },
+  "alps": {
+    "master": true
+  },
+  "alsa-lib": {
+    "master": true
+  },
+  "altair": {
+    "master": true
+  },
+  "altair_data_server": {
+    "master": true
+  },
+  "altair_saver": {
+    "master": true
+  },
+  "altair_viewer": {
+    "master": true
+  },
+  "altdphi": {
+    "master": true
+  },
+  "altgraph": {
+    "master": true
+  },
+  "ambertools": {
+    "master": true
+  },
+  "ampl-mp": {
+    "master": true
+  },
+  "amplpy": {
+    "master": true
+  },
+  "amptools": {
+    "master": true
+  },
+  "amqp": {
+    "master": true
+  },
+  "anaconda-client": {
+    "master": true
+  },
+  "anaconda-project": {
+    "master": true
+  },
+  "anaconda-verify": {
+    "master": true
+  },
+  "analytics-python": {
+    "master": true
+  },
+  "andes": {
+    "master": true
+  },
+  "animatplot": {
+    "master": true
+  },
+  "aniso8601": {
+    "master": true
+  },
+  "ann": {
+    "master": true
+  },
+  "ann_visualizer": {
+    "master": true
+  },
+  "anndata": {
+    "master": true
+  },
+  "annexremote": {
+    "master": true
+  },
+  "ansi2html": {
+    "master": true
+  },
+  "ansible": {
+    "master": true
+  },
+  "ansible-kernel": {
+    "master": true
+  },
+  "ansible-lint": {
+    "master": true
+  },
+  "ansible-runner": {
+    "master": true
+  },
+  "ansible-vault": {
+    "master": true
+  },
+  "ansimarkup": {
+    "master": true
+  },
+  "ansiwrap": {
+    "master": true
+  },
+  "antlr": {
+    "master": true
+  },
+  "antlr-python-runtime": {
+    "master": true
+  },
+  "anyconfig": {
+    "master": true
+  },
+  "anyio": {
+    "master": true
+  },
+  "anyjson": {
+    "master": true
+  },
+  "anypytools": {
+    "master": true
+  },
+  "anyqt": {
+    "master": true
+  },
+  "aospy": {
+    "master": true
+  },
+  "apache-beam": {
+    "master": true
+  },
+  "apache-libcloud": {
+    "master": true
+  },
+  "apbs": {
+    "master": true
+  },
+  "apipkg": {
+    "master": true
+  },
+  "apispec": {
+    "master": true
+  },
+  "apistar": {
+    "master": true
+  },
+  "aplpy": {
+    "master": true
+  },
+  "aplus": {
+    "master": true
+  },
+  "appdirs": {
+    "master": true
+  },
+  "applaunchservices": {
+    "master": true
+  },
+  "applicationinsights": {
+    "master": true
+  },
+  "apply_defaults": {
+    "master": true
+  },
+  "appmode": {
+    "master": true
+  },
+  "appnope": {
+    "master": true
+  },
+  "approxposterior": {
+    "master": true
+  },
+  "appscript": {
+    "master": true
+  },
+  "apptools": {
+    "master": true
+  },
+  "apr": {
+    "master": true
+  },
+  "apscheduler": {
+    "master": true
+  },
+  "apsg": {
+    "master": true
+  },
+  "apsw": {
+    "master": true
+  },
+  "arabic_reshaper": {
+    "master": true
+  },
+  "arb": {
+    "master": true
+  },
+  "arch-py": {
+    "master": true
+  },
+  "arcsi": {
+    "master": true
+  },
+  "arctic": {
+    "master": true
+  },
+  "argcomplete": {
+    "master": true
+  },
+  "argh": {
+    "master": true
+  },
+  "argo-models": {
+    "master": true
+  },
+  "argon2_cffi": {
+    "master": true
+  },
+  "argparse-manpage": {
+    "master": true
+  },
+  "args": {
+    "master": true
+  },
+  "argtable2": {
+    "master": true
+  },
+  "argutils": {
+    "master": true
+  },
+  "arlpy": {
+    "master": true
+  },
+  "arm_pyart": {
+    "master": true
+  },
+  "armadillo": {
+    "master": true
+  },
+  "arpack": {
+    "master": true
+  },
+  "arpackpp": {
+    "master": true
+  },
+  "array2gif": {
+    "master": true
+  },
+  "arrow": {
+    "master": true
+  },
+  "arrow-cpp": {
+    "master": true
+  },
+  "artview": {
+    "master": true
+  },
+  "aruco": {
+    "master": true
+  },
+  "arviz": {
+    "master": true
+  },
+  "arxiv-collector": {
+    "master": true
+  },
+  "asammdf": {
+    "master": true
+  },
+  "asap": {
+    "master": true
+  },
+  "asap3": {
+    "master": true
+  },
+  "ascii_graph": {
+    "master": true
+  },
+  "asciidoc": {
+    "master": true
+  },
+  "asciimatics": {
+    "master": true
+  },
+  "asciinema": {
+    "master": true
+  },
+  "asciitree": {
+    "master": true
+  },
+  "asdf": {
+    "master": true
+  },
+  "ase": {
+    "master": true
+  },
+  "ase-notebook": {
+    "master": true
+  },
+  "asgiref": {
+    "master": true
+  },
+  "asio": {
+    "master": true
+  },
+  "asks": {
+    "master": true
+  },
+  "asn1": {
+    "master": true
+  },
+  "asn1crypto": {
+    "master": true
+  },
+  "aspy.yaml": {
+    "master": true
+  },
+  "assembly_stats": {
+    "master": true
+  },
+  "assertpy": {
+    "master": true
+  },
+  "assetid": {
+    "master": true
+  },
+  "assimp": {
+    "master": true
+  },
+  "assimulo": {
+    "master": true
+  },
+  "astcheck": {
+    "master": true
+  },
+  "asteval": {
+    "master": true
+  },
+  "astor": {
+    "master": true
+  },
+  "astral": {
+    "master": true
+  },
+  "astro-gala": {
+    "master": true
+  },
+  "astrocats": {
+    "master": true
+  },
+  "astroid": {
+    "master": true
+  },
+  "astromatic-psfex": {
+    "master": true
+  },
+  "astromatic-scamp": {
+    "master": true
+  },
+  "astromatic-skymaker": {
+    "master": true
+  },
+  "astromatic-source-extractor": {
+    "master": true
+  },
+  "astromatic-stiff": {
+    "master": true
+  },
+  "astromatic-swarp": {
+    "master": true
+  },
+  "astrometry": {
+    "master": true
+  },
+  "astroml": {
+    "master": true
+  },
+  "astroplan": {
+    "master": true
+  },
+  "astropy": {
+    "master": true
+  },
+  "astropy-healpix": {
+    "master": true
+  },
+  "astropy-helpers": {
+    "master": true
+  },
+  "astropy-sphinx-theme": {
+    "master": true
+  },
+  "astroquery": {
+    "master": true
+  },
+  "astroscrappy": {
+    "master": true
+  },
+  "astrowidgets": {
+    "master": true
+  },
+  "asttokens": {
+    "master": true
+  },
+  "astunparse": {
+    "master": true
+  },
+  "asv": {
+    "master": true
+  },
+  "async-timeout": {
+    "master": true
+  },
+  "async_generator": {
+    "master": true
+  },
+  "async_timeout": {
+    "master": true
+  },
+  "asyncio-helpers": {
+    "master": true
+  },
+  "asyncpg": {
+    "master": true
+  },
+  "asyncpgsa": {
+    "master": true
+  },
+  "asyncqt": {
+    "master": true
+  },
+  "asyncssh": {
+    "master": true
+  },
+  "asynctest": {
+    "master": true
+  },
+  "at-spi2-atk": {
+    "master": true
+  },
+  "at-spi2-core": {
+    "master": true
+  },
+  "atari_py": {
+    "master": true
+  },
+  "atdict": {
+    "master": true
+  },
+  "atk": {
+    "master": true
+  },
+  "atkmm": {
+    "master": true
+  },
+  "atlantis": {
+    "master": true
+  },
+  "atlasclient": {
+    "master": true
+  },
+  "atlite": {
+    "master": true
+  },
+  "atom": {
+    "master": true
+  },
+  "atomap": {
+    "master": true
+  },
+  "atomate": {
+    "master": true
+  },
+  "atomic-hpc": {
+    "master": true
+  },
+  "atomicrex": {
+    "master": true
+  },
+  "atomicwrites": {
+    "master": true
+  },
+  "atomium": {
+    "master": true
+  },
+  "atomman": {
+    "master": true
+  },
+  "atomsk": {
+    "master": true
+  },
+  "atpbar": {
+    "master": true
+  },
+  "atpublic": {
+    "master": true
+  },
+  "attica": {
+    "master": true
+  },
+  "attr": {
+    "master": true
+  },
+  "attrdict": {
+    "master": true
+  },
+  "attrs": {
+    "master": true
+  },
+  "attrs-sqlalchemy": {
+    "master": true
+  },
+  "attune": {
+    "master": true
+  },
+  "aubio": {
+    "master": true
+  },
+  "audi": {
+    "master": true
+  },
+  "audiogrep": {
+    "master": true
+  },
+  "audioread": {
+    "master": true
+  },
+  "auditwheel": {
+    "master": true
+  },
+  "authlib": {
+    "master": true
+  },
+  "autobahn": {
+    "master": true
+  },
+  "autoconf": {
+    "master": true
+  },
+  "autoconf-archive": {
+    "master": true
+  },
+  "autodiff": {
+    "master": true
+  },
+  "autodocsumm": {
+    "master": true
+  },
+  "autoflake": {
+    "master": true
+  },
+  "autograd": {
+    "master": true
+  },
+  "autograd-gamma": {
+    "master": true
+  },
+  "autologging": {
+    "master": true
+  },
+  "automake": {
+    "master": true
+  },
+  "automan": {
+    "master": true
+  },
+  "automat": {
+    "master": true
+  },
+  "autopep8": {
+    "master": true
+  },
+  "autoray": {
+    "master": true
+  },
+  "autorift": {
+    "master": true
+  },
+  "autotools_clang_conda": {
+    "master": true
+  },
+  "autowrap": {
+    "master": true
+  },
+  "av": {
+    "master": true
+  },
+  "avahi": {
+    "master": true
+  },
+  "avro": {
+    "master": true
+  },
+  "avrocpp": {
+    "master": true
+  },
+  "awacs": {
+    "master": true
+  },
+  "awesome-slugify": {
+    "master": true
+  },
+  "awkward": {
+    "master": true
+  },
+  "aws-amicleaner": {
+    "master": true
+  },
+  "aws-iam-authenticator": {
+    "master": true
+  },
+  "aws-parallelcluster": {
+    "master": true
+  },
+  "aws-requests-auth": {
+    "master": true
+  },
+  "aws-sam-translator": {
+    "master": true
+  },
+  "aws-sdk-cpp": {
+    "master": true
+  },
+  "aws-xray-sdk": {
+    "master": true
+  },
+  "awscli": {
+    "master": true
+  },
+  "awscli-cwlogs": {
+    "master": true
+  },
+  "awscli-local": {
+    "master": true
+  },
+  "awslogs": {
+    "master": true
+  },
+  "awswrangler": {
+    "master": true
+  },
+  "axelrod": {
+    "master": true
+  },
+  "axopy": {
+    "master": true
+  },
+  "azure": {
+    "master": true
+  },
+  "azure-c-shared-utility": {
+    "master": true
+  },
+  "azure-cli-core": {
+    "master": true
+  },
+  "azure-cli-telemetry": {
+    "master": true
+  },
+  "azure-common": {
+    "master": true
+  },
+  "azure-cosmos": {
+    "master": true
+  },
+  "azure-datalake-store": {
+    "master": true
+  },
+  "azure-devops": {
+    "master": true
+  },
+  "azure-graphrbac": {
+    "master": true
+  },
+  "azure-iot-sdk-c": {
+    "master": true
+  },
+  "azure-keyvault": {
+    "master": true
+  },
+  "azure-macro-utils-c": {
+    "master": true
+  },
+  "azure-mgmt": {
+    "master": true
+  },
+  "azure-mgmt-authorization": {
+    "master": true
+  },
+  "azure-mgmt-common": {
+    "master": true
+  },
+  "azure-mgmt-compute": {
+    "master": true
+  },
+  "azure-mgmt-containerregistry": {
+    "master": true
+  },
+  "azure-mgmt-keyvault": {
+    "master": true
+  },
+  "azure-mgmt-msi": {
+    "master": true
+  },
+  "azure-mgmt-network": {
+    "master": true
+  },
+  "azure-mgmt-nspkg": {
+    "master": true
+  },
+  "azure-mgmt-resource": {
+    "master": true
+  },
+  "azure-mgmt-storage": {
+    "master": true
+  },
+  "azure-nspkg": {
+    "master": true
+  },
+  "azure-servicebus": {
+    "master": true
+  },
+  "azure-servicemanagement-legacy": {
+    "master": true
+  },
+  "azure-storage": {
+    "master": true
+  },
+  "azure-storage-blob": {
+    "master": true
+  },
+  "azure-storage-common": {
+    "master": true
+  },
+  "azure-storage-file": {
+    "master": true
+  },
+  "azure-storage-nspkg": {
+    "master": true
+  },
+  "azure-storage-queue": {
+    "master": true
+  },
+  "azure-uamqp-c": {
+    "master": true
+  },
+  "azure-uhttp-c": {
+    "master": true
+  },
+  "azure-umqtt-c": {
+    "master": true
+  },
+  "babel": {
+    "master": true
+  },
+  "backcall": {
+    "master": true
+  },
+  "backoff": {
+    "master": true
+  },
+  "backpack": {
+    "master": true
+  },
+  "backports": {
+    "master": true
+  },
+  "backports.csv": {
+    "master": true
+  },
+  "backports.functools_lru_cache": {
+    "master": true
+  },
+  "backports.lzma": {
+    "master": true
+  },
+  "backports.os": {
+    "master": true
+  },
+  "backports.shutil_get_terminal_size": {
+    "master": true
+  },
+  "backports.shutil_which": {
+    "master": true
+  },
+  "backports.ssl": {
+    "master": true
+  },
+  "backports.tempfile": {
+    "master": true
+  },
+  "backports.test.support": {
+    "master": true
+  },
+  "backports.unittest_mock": {
+    "master": true
+  },
+  "backports.weakref": {
+    "master": true
+  },
+  "backports_abc": {
+    "master": true
+  },
+  "backtrace": {
+    "master": true
+  },
+  "backward-cpp": {
+    "master": true
+  },
+  "badapted": {
+    "master": true
+  },
+  "bagit": {
+    "master": true
+  },
+  "bake": {
+    "master": true
+  },
+  "bambi": {
+    "master": true
+  },
+  "bamnostic": {
+    "master": true
+  },
+  "bandit": {
+    "master": true
+  },
+  "bareditor": {
+    "master": true
+  },
+  "barnaba": {
+    "master": true
+  },
+  "barril": {
+    "master": true
+  },
+  "baseband": {
+    "master": true
+  },
+  "basemap": {
+    "master": true
+  },
+  "basemap-data-hires": {
+    "master": true
+  },
+  "bash": {
+    "master": true
+  },
+  "bash-completion": {
+    "master": true
+  },
+  "bash_kernel": {
+    "master": true
+  },
+  "bashlex": {
+    "master": true
+  },
+  "bashplotlib": {
+    "master": true
+  },
+  "basictools": {
+    "master": true
+  },
+  "bat": {
+    "master": true
+  },
+  "batchcrop": {
+    "master": true
+  },
+  "batman": {
+    "master": true
+  },
+  "bats-core": {
+    "master": true
+  },
+  "baumwelch": {
+    "master": true
+  },
+  "baycomp": {
+    "master": true
+  },
+  "bayesian-optimization": {
+    "master": true
+  },
+  "bayespy": {
+    "master": true
+  },
+  "bayeswave": {
+    "master": true
+  },
+  "bazel": {
+    "master": true
+  },
+  "bc": {
+    "master": true
+  },
+  "bcdoc": {
+    "master": true
+  },
+  "bcdp": {
+    "master": true
+  },
+  "bcolz": {
+    "master": true
+  },
+  "bcpandas": {
+    "master": true
+  },
+  "bcrypt": {
+    "master": true
+  },
+  "bdw-gc": {
+    "master": true
+  },
+  "beaker": {
+    "master": true
+  },
+  "beakerx": {
+    "master": true
+  },
+  "beautifulsoup4": {
+    "master": true
+  },
+  "beautysh": {
+    "master": true
+  },
+  "beem": {
+    "master": true
+  },
+  "begins": {
+    "master": true
+  },
+  "behave": {
+    "master": true
+  },
+  "beignet": {
+    "master": true
+  },
+  "bempp-cl": {
+    "master": true
+  },
+  "benchmark": {
+    "master": true
+  },
+  "benchmark-4dn": {
+    "master": true
+  },
+  "beniget": {
+    "master": true
+  },
+  "benten": {
+    "master": true
+  },
+  "bertha": {
+    "master": true
+  },
+  "bespon": {
+    "master": true
+  },
+  "betamax": {
+    "master": true
+  },
+  "betamax-matchers": {
+    "master": true
+  },
+  "betfairlightweight": {
+    "master": true
+  },
+  "betse": {
+    "master": true
+  },
+  "betsee": {
+    "master": true
+  },
+  "better_exceptions_fork": {
+    "master": true
+  },
+  "bgen": {
+    "master": true
+  },
+  "bgen-reader": {
+    "master": true
+  },
+  "bhmm": {
+    "master": true
+  },
+  "bibtexparser": {
+    "master": true
+  },
+  "bicycleparameters": {
+    "master": true
+  },
+  "bidict": {
+    "master": true
+  },
+  "bilby": {
+    "master": true
+  },
+  "bilby_pipe": {
+    "master": true
+  },
+  "billiard": {
+    "master": true
+  },
+  "billingegroup": {
+    "master": true
+  },
+  "binaryen": {
+    "master": true
+  },
+  "binaryornot": {
+    "master": true
+  },
+  "binarytree": {
+    "master": true
+  },
+  "binpacking": {
+    "master": true
+  },
+  "bintrees": {
+    "master": true
+  },
+  "binutils": {
+    "master": true
+  },
+  "biom-format": {
+    "master": true
+  },
+  "biopandas": {
+    "master": true
+  },
+  "biopython": {
+    "master": true
+  },
+  "biorbd": {
+    "master": true
+  },
+  "biorbd-viz": {
+    "master": true
+  },
+  "biotite": {
+    "master": true
+  },
+  "birdy": {
+    "master": true
+  },
+  "bison": {
+    "master": true
+  },
+  "bisonpp": {
+    "master": true
+  },
+  "bitarray": {
+    "master": true
+  },
+  "bitshuffle": {
+    "master": true
+  },
+  "bitstruct": {
+    "master": true
+  },
+  "bjoern": {
+    "master": true
+  },
+  "black": {
+    "master": true
+  },
+  "blackbook": {
+    "master": true
+  },
+  "blackboxauditing": {
+    "master": true
+  },
+  "blark": {
+    "master": true
+  },
+  "blas": {
+    "master": true
+  },
+  "blaze": {
+    "master": true
+  },
+  "bleach": {
+    "master": true
+  },
+  "blend_modes": {
+    "master": true
+  },
+  "blessings": {
+    "master": true
+  },
+  "bletchley": {
+    "master": true
+  },
+  "blinker": {
+    "master": true
+  },
+  "blis": {
+    "master": true
+  },
+  "bliss": {
+    "master": true
+  },
+  "block_tracing": {
+    "master": true
+  },
+  "blocked-matrix-utils": {
+    "master": true
+  },
+  "blosc": {
+    "master": true
+  },
+  "blosc-hdf5-plugin": {
+    "master": true
+  },
+  "bloscpack": {
+    "master": true
+  },
+  "blpapi": {
+    "master": true
+  },
+  "bluesky": {
+    "master": true
+  },
+  "bmi-c": {
+    "master": true
+  },
+  "bmi-cxx": {
+    "master": true
+  },
+  "bmi-fortran": {
+    "master": true
+  },
+  "bmi-tester": {
+    "master": true
+  },
+  "bmipy": {
+    "master": true
+  },
+  "bokeh": {
+    "master": true
+  },
+  "bolt-python": {
+    "master": true
+  },
+  "boltons": {
+    "master": true
+  },
+  "boltzmannclean": {
+    "master": true
+  },
+  "bonsu": {
+    "master": true
+  },
+  "bookstore": {
+    "master": true
+  },
+  "boolean.py": {
+    "master": true
+  },
+  "boolparser": {
+    "master": true
+  },
+  "boost": {
+    "master": true
+  },
+  "boost-cpp": {
+    "master": true
+  },
+  "boost-histogram": {
+    "master": true
+  },
+  "bootstrap": {
+    "master": true
+  },
+  "bootstrap_contrast": {
+    "master": true
+  },
+  "boruta_py": {
+    "master": true
+  },
+  "boto": {
+    "master": true
+  },
+  "boto3": {
+    "master": true
+  },
+  "botocore": {
+    "master": true
+  },
+  "botor": {
+    "master": true
+  },
+  "bottle": {
+    "master": true
+  },
+  "bottleneck": {
+    "master": true
+  },
+  "boule": {
+    "master": true
+  },
+  "bourbon": {
+    "master": true
+  },
+  "bowerstatic": {
+    "master": true
+  },
+  "bowler": {
+    "master": true
+  },
+  "bowtie-py": {
+    "master": true
+  },
+  "box2d-py": {
+    "master": true
+  },
+  "bpython": {
+    "master": true
+  },
+  "bqplot": {
+    "master": true
+  },
+  "bqplot-image-gl": {
+    "master": true
+  },
+  "braceexpand": {
+    "master": true
+  },
+  "braggedgemodeling": {
+    "master": true
+  },
+  "brain-isotopic-distribution": {
+    "master": true
+  },
+  "branca": {
+    "master": true
+  },
+  "bravado": {
+    "master": true
+  },
+  "bravado-core": {
+    "master": true
+  },
+  "breathe": {
+    "master": true
+  },
+  "brent-search": {
+    "master": true
+  },
+  "brent_search": {
+    "master": true
+  },
+  "brewer2mpl": {
+    "master": true
+  },
+  "brial": {
+    "master": true
+  },
+  "brian2": {
+    "master": true
+  },
+  "broot": {
+    "master": true
+  },
+  "brotli": {
+    "master": true
+  },
+  "brotlipy": {
+    "master": true
+  },
+  "bruco": {
+    "master": true
+  },
+  "bsddb3": {
+    "master": true
+  },
+  "bson": {
+    "master": true
+  },
+  "bth5": {
+    "master": true
+  },
+  "btk": {
+    "master": true
+  },
+  "bucketcache": {
+    "master": true
+  },
+  "bugsnag": {
+    "master": true
+  },
+  "build-capi": {
+    "master": true
+  },
+  "buildbot": {
+    "master": true
+  },
+  "buildbot-console-view": {
+    "master": true
+  },
+  "buildbot-grid-view": {
+    "master": true
+  },
+  "buildbot-pkg": {
+    "master": true
+  },
+  "buildbot-waterfall-view": {
+    "master": true
+  },
+  "buildbot-worker": {
+    "master": true
+  },
+  "buildbot-www": {
+    "master": true
+  },
+  "buildpy": {
+    "master": true
+  },
+  "bullet": {
+    "master": true
+  },
+  "bulwark": {
+    "master": true
+  },
+  "bump2version": {
+    "master": true
+  },
+  "bumps": {
+    "master": true
+  },
+  "bumpversion": {
+    "master": true
+  },
+  "bunch": {
+    "master": true
+  },
+  "bw2speedups": {
+    "master": true
+  },
+  "bwidget": {
+    "master": true
+  },
+  "bxa": {
+    "master": true
+  },
+  "byexample": {
+    "master": true
+  },
+  "byobu": {
+    "master": true
+  },
+  "bytecode": {
+    "master": true
+  },
+  "bz2file": {
+    "master": true
+  },
+  "bzip2": {
+    "master": true
+  },
+  "c-ares": {
+    "master": true
+  },
+  "c-progressbar": {
+    "master": true
+  },
+  "c99-to-c89": {
+    "master": true
+  },
+  "ca-certificates": {
+    "master": true
+  },
+  "ca-certificates-cos7-aarch64": {
+    "master": true
+  },
+  "ca-policy-lcg": {
+    "master": true
+  },
+  "cabal": {
+    "master": true
+  },
+  "cabextract": {
+    "master": true
+  },
+  "cachecontrol": {
+    "master": true
+  },
+  "cached-property": {
+    "master": true
+  },
+  "cachetools": {
+    "master": true
+  },
+  "cachey": {
+    "master": true
+  },
+  "cachy": {
+    "master": true
+  },
+  "cadabra2": {
+    "master": true
+  },
+  "cadquery": {
+    "master": true
+  },
+  "caffe": {
+    "master": true
+  },
+  "caiman": {
+    "master": true
+  },
+  "cairo": {
+    "master": true
+  },
+  "cairocffi": {
+    "master": true
+  },
+  "cairomm": {
+    "master": true
+  },
+  "cairosvg": {
+    "master": true
+  },
+  "calamari_ocr": {
+    "master": true
+  },
+  "calculix": {
+    "master": true
+  },
+  "calliope": {
+    "master": true
+  },
+  "calysto_bash": {
+    "master": true
+  },
+  "camb": {
+    "master": true
+  },
+  "camelot-py": {
+    "master": true
+  },
+  "caniusepython3": {
+    "master": true
+  },
+  "canmatrix": {
+    "master": true
+  },
+  "cantools": {
+    "master": true
+  },
+  "capnproto": {
+    "master": true
+  },
+  "caproto": {
+    "master": true
+  },
+  "capstone": {
+    "master": true
+  },
+  "capturer": {
+    "master": true
+  },
+  "capytaine": {
+    "master": true
+  },
+  "cartopy": {
+    "master": true
+  },
+  "cartopy_offlinedata": {
+    "master": true
+  },
+  "casacore": {
+    "master": true
+  },
+  "casadi": {
+    "master": true
+  },
+  "case": {
+    "master": true
+  },
+  "cassandra": {
+    "master": true
+  },
+  "cassandra-driver": {
+    "master": true
+  },
+  "cassowary": {
+    "master": true
+  },
+  "catalogue": {
+    "master": true
+  },
+  "catalystcoop.pudl": {
+    "master": true
+  },
+  "catboost": {
+    "master": true
+  },
+  "catch2": {
+    "master": true
+  },
+  "category_encoders": {
+    "master": true
+  },
+  "catimg": {
+    "master": true
+  },
+  "catkin_pkg": {
+    "master": true
+  },
+  "catkin_tools": {
+    "master": true
+  },
+  "catlearn": {
+    "master": true
+  },
+  "cattrs": {
+    "master": true
+  },
+  "catzzz": {
+    "master": true
+  },
+  "cbsyst": {
+    "master": true
+  },
+  "cc-plugin-glider": {
+    "master": true
+  },
+  "cc-plugin-ncei": {
+    "master": true
+  },
+  "cc-plugin-ugrid": {
+    "master": true
+  },
+  "ccache": {
+    "master": true
+  },
+  "ccache-toolchain": {
+    "master": true
+  },
+  "ccdproc": {
+    "master": true
+  },
+  "ccfits": {
+    "master": true
+  },
+  "cchardet": {
+    "master": true
+  },
+  "cclib": {
+    "master": true
+  },
+  "cctools-and-ld64": {
+    "master": true
+  },
+  "cdat_info": {
+    "master": true
+  },
+  "cdcs": {
+    "master": true
+  },
+  "cddlib": {
+    "master": true
+  },
+  "cdecimal": {
+    "master": true
+  },
+  "cdflib": {
+    "master": true
+  },
+  "cdms2": {
+    "master": true
+  },
+  "cdo": {
+    "master": true
+  },
+  "cdp": {
+    "master": true
+  },
+  "cdsapi": {
+    "master": true
+  },
+  "cdtime": {
+    "master": true
+  },
+  "cdutil": {
+    "master": true
+  },
+  "celerite": {
+    "master": true
+  },
+  "celery": {
+    "master": true
+  },
+  "celery-eternal": {
+    "master": true
+  },
+  "celery-redbeat": {
+    "master": true
+  },
+  "celery-singleton": {
+    "master": true
+  },
+  "celiagg": {
+    "master": true
+  },
+  "cell_tree2d": {
+    "master": true
+  },
+  "cem": {
+    "master": true
+  },
+  "cement": {
+    "master": true
+  },
+  "cenpy": {
+    "master": true
+  },
+  "census": {
+    "master": true
+  },
+  "centrally-managed-conda": {
+    "master": true
+  },
+  "cerberus": {
+    "master": true
+  },
+  "cereal": {
+    "master": true
+  },
+  "ceres-solver": {
+    "master": true
+  },
+  "certifi": {
+    "master": true
+  },
+  "certipy": {
+    "master": true
+  },
+  "cesium": {
+    "master": true
+  },
+  "cf_units": {
+    "master": true
+  },
+  "cfanalytics": {
+    "master": true
+  },
+  "cfchecker": {
+    "master": true
+  },
+  "cffi": {
+    "master": true
+  },
+  "cfflib": {
+    "master": true
+  },
+  "cfgrib": {
+    "master": true
+  },
+  "cfgv": {
+    "master": true
+  },
+  "cfitsio": {
+    "master": true
+  },
+  "cfn-flip": {
+    "master": true
+  },
+  "cfn-lint": {
+    "master": true
+  },
+  "cfncluster": {
+    "master": true
+  },
+  "cfortran-cfitsio": {
+    "master": true
+  },
+  "cftime": {
+    "master": true
+  },
+  "cfunits": {
+    "master": true
+  },
+  "cgal": {
+    "master": true
+  },
+  "cgal-cpp": {
+    "master": true
+  },
+  "cgen": {
+    "master": true
+  },
+  "cgns": {
+    "master": true
+  },
+  "cgroupspy": {
+    "master": true
+  },
+  "cgsi-gsoap": {
+    "master": true
+  },
+  "cgsn_parsers": {
+    "master": true
+  },
+  "cgsn_processing": {
+    "master": true
+  },
+  "chai": {
+    "master": true
+  },
+  "chainer": {
+    "master": true
+  },
+  "chainmap": {
+    "master": true
+  },
+  "chalice": {
+    "master": true
+  },
+  "chalk": {
+    "master": true
+  },
+  "champ": {
+    "master": true
+  },
+  "channelarchiver": {
+    "master": true
+  },
+  "chaospy": {
+    "master": true
+  },
+  "chardet": {
+    "master": true
+  },
+  "charls": {
+    "master": true
+  },
+  "chart-studio": {
+    "master": true
+  },
+  "chart.js": {
+    "master": true
+  },
+  "chartify": {
+    "master": true
+  },
+  "chartkick": {
+    "master": true
+  },
+  "chealpix": {
+    "master": true
+  },
+  "cheat": {
+    "master": true
+  },
+  "check": {
+    "master": true
+  },
+  "check-manifest": {
+    "master": true
+  },
+  "chembl_webresource_client": {
+    "master": true
+  },
+  "chemdataextractor": {
+    "master": true
+  },
+  "chemex": {
+    "master": true
+  },
+  "chemfiles": {
+    "master": true
+  },
+  "chemfiles-lib": {
+    "master": true
+  },
+  "chemfiles-python": {
+    "master": true
+  },
+  "chemspipy": {
+    "master": true
+  },
+  "cheroot": {
+    "master": true
+  },
+  "cherrypy": {
+    "master": true
+  },
+  "chest": {
+    "master": true
+  },
+  "chi2comb": {
+    "master": true
+  },
+  "chi2comb-py": {
+    "master": true
+  },
+  "child": {
+    "master": true
+  },
+  "chiscore": {
+    "master": true
+  },
+  "chkconfig-cos7-aarch64": {
+    "master": true
+  },
+  "choicemodels": {
+    "master": true
+  },
+  "chroma-py": {
+    "master": true
+  },
+  "chrpath": {
+    "master": true
+  },
+  "chunky3d": {
+    "master": true
+  },
+  "cibots": {
+    "master": true
+  },
+  "ciecplib": {
+    "master": true
+  },
+  "cif2cell": {
+    "master": true
+  },
+  "cifti": {
+    "master": true
+  },
+  "cigetcert": {
+    "master": true
+  },
+  "ciocheck": {
+    "master": true
+  },
+  "circleclient": {
+    "master": true
+  },
+  "circuits": {
+    "master": true
+  },
+  "circus": {
+    "master": true
+  },
+  "cirpy": {
+    "master": true
+  },
+  "cis": {
+    "master": true
+  },
+  "cis_interface": {
+    "master": true
+  },
+  "ciso": {
+    "master": true
+  },
+  "ciso8601": {
+    "master": true
+  },
+  "cistern": {
+    "master": true
+  },
+  "citrination-client": {
+    "master": true
+  },
+  "ckan": {
+    "master": true
+  },
+  "ckanapi": {
+    "master": true
+  },
+  "clamd": {
+    "master": true
+  },
+  "clang-compiler-activation": {
+    "master": true
+  },
+  "clang-win-activation": {
+    "master": true
+  },
+  "clangdev": {
+    "master": true
+  },
+  "clapack": {
+    "master": true
+  },
+  "classy_vision": {
+    "master": true
+  },
+  "clblas": {
+    "master": true
+  },
+  "clblast": {
+    "master": true
+  },
+  "clcache": {
+    "master": true
+  },
+  "cld2-cffi": {
+    "master": true
+  },
+  "cleanlab": {
+    "master": true
+  },
+  "clease": {
+    "master": true
+  },
+  "cleo": {
+    "master": true
+  },
+  "clfft": {
+    "master": true
+  },
+  "clhep": {
+    "master": true
+  },
+  "clhpp": {
+    "master": true
+  },
+  "cli_helpers": {
+    "master": true
+  },
+  "click": {
+    "master": true
+  },
+  "click-aliases": {
+    "master": true
+  },
+  "click-completion": {
+    "master": true
+  },
+  "click-default-group": {
+    "master": true
+  },
+  "click-didyoumean": {
+    "master": true
+  },
+  "click-help-colors": {
+    "master": true
+  },
+  "click-log": {
+    "master": true
+  },
+  "click-plugins": {
+    "master": true
+  },
+  "click-repl": {
+    "master": true
+  },
+  "click-shell": {
+    "master": true
+  },
+  "click-spinner": {
+    "master": true
+  },
+  "click_config_file": {
+    "master": true
+  },
+  "clickclick": {
+    "master": true
+  },
+  "clickhouse-cityhash": {
+    "master": true
+  },
+  "clickhouse-driver": {
+    "master": true
+  },
+  "clickhouse-odbc": {
+    "master": true
+  },
+  "clickhouse-sqlalchemy": {
+    "master": true
+  },
+  "cliff": {
+    "master": true
+  },
+  "clifford": {
+    "master": true
+  },
+  "cligj": {
+    "master": true
+  },
+  "clikit": {
+    "master": true
+  },
+  "climata": {
+    "master": true
+  },
+  "climlab": {
+    "master": true
+  },
+  "climpred": {
+    "master": true
+  },
+  "clinfo": {
+    "master": true
+  },
+  "cling": {
+    "master": true
+  },
+  "cling-patches": {
+    "master": true
+  },
+  "clingo": {
+    "master": true
+  },
+  "clint": {
+    "master": true
+  },
+  "cliquer": {
+    "master": true
+  },
+  "clize": {
+    "master": true
+  },
+  "cloog": {
+    "master": true
+  },
+  "closely": {
+    "master": true
+  },
+  "closure": {
+    "master": true
+  },
+  "cloud_sptheme": {
+    "master": true
+  },
+  "cloudant": {
+    "master": true
+  },
+  "cloudpickle": {
+    "master": true
+  },
+  "clrng": {
+    "master": true
+  },
+  "clsparse": {
+    "master": true
+  },
+  "cluster-lensing": {
+    "master": true
+  },
+  "clusterpy": {
+    "master": true
+  },
+  "clyent": {
+    "master": true
+  },
+  "cm-unicode": {
+    "master": true
+  },
+  "cma": {
+    "master": true
+  },
+  "cmaes": {
+    "master": true
+  },
+  "cmake": {
+    "master": true
+  },
+  "cmake-format": {
+    "master": true
+  },
+  "cmake_format": {
+    "master": true
+  },
+  "cmakelint": {
+    "master": true
+  },
+  "cmaps": {
+    "master": true
+  },
+  "cmapy": {
+    "master": true
+  },
+  "cmarkgfm": {
+    "master": true
+  },
+  "cmd2": {
+    "master": true
+  },
+  "cmdline_provenance": {
+    "master": true
+  },
+  "cminpack": {
+    "master": true
+  },
+  "cmip6_preprocessing": {
+    "master": true
+  },
+  "cmocean": {
+    "master": true
+  },
+  "cmor": {
+    "master": true
+  },
+  "cmreshandler": {
+    "master": true
+  },
+  "cmrt": {
+    "master": true
+  },
+  "cms-md5": {
+    "master": true
+  },
+  "cmt": {
+    "master": true
+  },
+  "cni": {
+    "master": true
+  },
+  "cni-plugins": {
+    "master": true
+  },
+  "cobra-component-models": {
+    "master": true
+  },
+  "cockroachdb-python": {
+    "master": true
+  },
+  "coconut": {
+    "master": true
+  },
+  "codacy-coverage": {
+    "master": true
+  },
+  "codar2netcdf": {
+    "master": true
+  },
+  "code-server": {
+    "master": true
+  },
+  "codebraid": {
+    "master": true
+  },
+  "codecov": {
+    "master": true
+  },
+  "codemodel": {
+    "master": true
+  },
+  "codes-ui": {
+    "master": true
+  },
+  "codespell": {
+    "master": true
+  },
+  "cogapp": {
+    "master": true
+  },
+  "coin3d": {
+    "master": true
+  },
+  "coinbonmin": {
+    "master": true
+  },
+  "coincbc": {
+    "master": true
+  },
+  "coinmp": {
+    "master": true
+  },
+  "colcon-cmake": {
+    "master": true
+  },
+  "colcon-common-extensions": {
+    "master": true
+  },
+  "colcon-core": {
+    "master": true
+  },
+  "colcon-defaults": {
+    "master": true
+  },
+  "colcon-devtools": {
+    "master": true
+  },
+  "colcon-library-path": {
+    "master": true
+  },
+  "colcon-metadata": {
+    "master": true
+  },
+  "colcon-notification": {
+    "master": true
+  },
+  "colcon-output": {
+    "master": true
+  },
+  "colcon-package-information": {
+    "master": true
+  },
+  "colcon-package-selection": {
+    "master": true
+  },
+  "colcon-parallel-executor": {
+    "master": true
+  },
+  "colcon-pkg-config": {
+    "master": true
+  },
+  "colcon-powershell": {
+    "master": true
+  },
+  "colcon-python-setup-py": {
+    "master": true
+  },
+  "colcon-recursive-crawl": {
+    "master": true
+  },
+  "colcon-ros": {
+    "master": true
+  },
+  "colcon-test-result": {
+    "master": true
+  },
+  "colicoords": {
+    "master": true
+  },
+  "collectfast": {
+    "master": true
+  },
+  "colorama": {
+    "master": true
+  },
+  "colorcet": {
+    "master": true
+  },
+  "colorclass": {
+    "master": true
+  },
+  "colored": {
+    "master": true
+  },
+  "coloredlogs": {
+    "master": true
+  },
+  "colorlog": {
+    "master": true
+  },
+  "colorlover": {
+    "master": true
+  },
+  "colormap": {
+    "master": true
+  },
+  "colormath": {
+    "master": true
+  },
+  "colorspacious": {
+    "master": true
+  },
+  "colour": {
+    "master": true
+  },
+  "colour-runner": {
+    "master": true
+  },
+  "colour-science": {
+    "master": true
+  },
+  "comet": {
+    "master": true
+  },
+  "commonmark": {
+    "master": true
+  },
+  "compaction": {
+    "master": true
+  },
+  "compas": {
+    "master": true
+  },
+  "compas_fab": {
+    "master": true
+  },
+  "compiler-rt": {
+    "master": true
+  },
+  "compilers": {
+    "master": true
+  },
+  "compliance-checker": {
+    "master": true
+  },
+  "compyle": {
+    "master": true
+  },
+  "comtypes": {
+    "master": true
+  },
+  "conan": {
+    "master": true
+  },
+  "concurrentloghandler": {
+    "master": true
+  },
+  "conda": {
+    "master": true
+  },
+  "conda-bash-completion": {
+    "master": true
+  },
+  "conda-build": {
+    "master": true
+  },
+  "conda-build-all": {
+    "master": true
+  },
+  "conda-devenv": {
+    "master": true
+  },
+  "conda-ecosystem-user-package-isolation": {
+    "master": true
+  },
+  "conda-env": {
+    "master": true
+  },
+  "conda-exec": {
+    "master": true
+  },
+  "conda-execute": {
+    "master": true
+  },
+  "conda-forge-build-setup": {
+    "master": true
+  },
+  "conda-forge-ci-setup": {
+    "master": true
+  },
+  "conda-forge-pinning": {
+    "master": true
+  },
+  "conda-forge-repodata-patches": {
+    "master": true
+  },
+  "conda-gitenv": {
+    "master": true
+  },
+  "conda-merge": {
+    "master": true
+  },
+  "conda-mirror": {
+    "master": true
+  },
+  "conda-pack": {
+    "master": true
+  },
+  "conda-package-handling": {
+    "master": true
+  },
+  "conda-prefix-replacement": {
+    "master": true
+  },
+  "conda-press": {
+    "master": true
+  },
+  "conda-smithy": {
+    "master": true
+  },
+  "conda-standalone": {
+    "master": true
+  },
+  "conda-tree": {
+    "master": true
+  },
+  "conda-verify": {
+    "master": true
+  },
+  "conda-workon": {
+    "master": true
+  },
+  "conda-wrappers": {
+    "master": true
+  },
+  "conda_deps": {
+    "master": true
+  },
+  "condastats": {
+    "master": true
+  },
+  "conduit": {
+    "master": true
+  },
+  "configargparse": {
+    "master": true
+  },
+  "configobj": {
+    "master": true
+  },
+  "configobj-dev": {
+    "master": true
+  },
+  "configparser": {
+    "master": true
+  },
+  "configs": {
+    "master": true
+  },
+  "configurable-http-proxy": {
+    "master": true
+  },
+  "confluence-publisher": {
+    "master": true
+  },
+  "confuse": {
+    "master": true
+  },
+  "conjure-python-client": {
+    "master": true
+  },
+  "conllu": {
+    "master": true
+  },
+  "connexion": {
+    "master": true
+  },
+  "console_bridge": {
+    "master": true
+  },
+  "constantly": {
+    "master": true
+  },
+  "construct": {
+    "master": true
+  },
+  "constructor": {
+    "master": true
+  },
+  "consul": {
+    "master": true
+  },
+  "consul-template": {
+    "master": true
+  },
+  "contact_map": {
+    "master": true
+  },
+  "container-diff": {
+    "master": true
+  },
+  "containerpilot": {
+    "master": true
+  },
+  "contexter": {
+    "master": true
+  },
+  "contextily": {
+    "master": true
+  },
+  "contextlib2": {
+    "master": true
+  },
+  "contextvars": {
+    "master": true
+  },
+  "contrib_colormaps": {
+    "master": true
+  },
+  "control": {
+    "master": true
+  },
+  "convertdate": {
+    "master": true
+  },
+  "cookiecutter": {
+    "master": true
+  },
+  "cookies": {
+    "master": true
+  },
+  "coolprop": {
+    "master": true
+  },
+  "copulae": {
+    "master": true
+  },
+  "copy-jdk-configs-cos7-aarch64": {
+    "master": true
+  },
+  "coq": {
+    "master": true
+  },
+  "coq-jupyter": {
+    "master": true
+  },
+  "coreapi-cli": {
+    "master": true
+  },
+  "coredns": {
+    "master": true
+  },
+  "coreutils": {
+    "master": true
+  },
+  "cornac": {
+    "master": true
+  },
+  "corner": {
+    "master": true
+  },
+  "corral-pipeline": {
+    "master": true
+  },
+  "corrfunc": {
+    "master": true
+  },
+  "cosmosis-standalone": {
+    "master": true
+  },
+  "cothread": {
+    "master": true
+  },
+  "cotire": {
+    "master": true
+  },
+  "coursera-dl": {
+    "master": true
+  },
+  "courtana": {
+    "master": true
+  },
+  "cov-core": {
+    "master": true
+  },
+  "coverage": {
+    "master": true
+  },
+  "coveralls": {
+    "master": true
+  },
+  "cowpy": {
+    "master": true
+  },
+  "cp2k": {
+    "master": true
+  },
+  "cpnest": {
+    "master": true
+  },
+  "cppcheck": {
+    "master": true
+  },
+  "cppcolormap": {
+    "master": true
+  },
+  "cppheaderparser": {
+    "master": true
+  },
+  "cpplint": {
+    "master": true
+  },
+  "cpppath": {
+    "master": true
+  },
+  "cppunit": {
+    "master": true
+  },
+  "cpputest": {
+    "master": true
+  },
+  "cppy": {
+    "master": true
+  },
+  "cppyy": {
+    "master": true
+  },
+  "cppyy-backend": {
+    "master": true
+  },
+  "cppyy-cling": {
+    "master": true
+  },
+  "cppzmq": {
+    "master": true
+  },
+  "cpu_features": {
+    "master": true
+  },
+  "cpulimit": {
+    "master": true
+  },
+  "cpycppyy": {
+    "master": true
+  },
+  "cquadpack": {
+    "master": true
+  },
+  "craftr": {
+    "master": true
+  },
+  "cram": {
+    "master": true
+  },
+  "crayons": {
+    "master": true
   }
 }
