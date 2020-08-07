@@ -200,15 +200,26 @@ class CFEP13TokenCleanup(Migrator):
             )
             print("    putting cf-staging binstar token in BINSTAR_TOKEN")
 
-            # remove STAGING_BINSTAR_TOKEN from travis, circle and drone
-            _delete_token_in_circle(user, project, "STAGING_BINSTAR_TOKEN")
-            print("    deleted STAGING_BINSTAR_TOKEN from circle")
+            # put the staging token into STAGING_BINSTAR_TOKEN
+            subprocess.run(
+                "conda smithy update-binstar-token "
+                "--without-appveyor --without-azure "
+                "--token_name STAGING_BINSTAR_TOKEN",
+                shell=True,
+                check=True
+            )
+            print("    putting cf-staging binstar token in STAGING_BINSTAR_TOKEN")
 
-            _delete_token_in_drone(user, project, "STAGING_BINSTAR_TOKEN")
-            print("    deleted STAGING_BINSTAR_TOKEN from drone")
-
-            _delete_token_in_travis(user, project, "STAGING_BINSTAR_TOKEN")
-            print("    deleted STAGING_BINSTAR_TOKEN from travis")
+            # needs a change in smithy so cannot do this
+            # # remove STAGING_BINSTAR_TOKEN from travis, circle and drone
+            # _delete_token_in_circle(user, project, "STAGING_BINSTAR_TOKEN")
+            # print("    deleted STAGING_BINSTAR_TOKEN from circle")
+            #
+            # _delete_token_in_drone(user, project, "STAGING_BINSTAR_TOKEN")
+            # print("    deleted STAGING_BINSTAR_TOKEN from drone")
+            #
+            # _delete_token_in_travis(user, project, "STAGING_BINSTAR_TOKEN")
+            # print("    deleted STAGING_BINSTAR_TOKEN from travis")
 
             # remove BINSTAR_TOKEN and STAGING_BINSTAR_TOKEN from azure
             _delete_tokens_in_azure(
@@ -216,7 +227,7 @@ class CFEP13TokenCleanup(Migrator):
                 project,
                 ["BINSTAR_TOKEN", "STAGING_BINSTAR_TOKEN"],
             )
-            print("    deleted STAGING_BINSTAR_TOKEN from azure")
+            print("    deleted BINSTAR_TOKEN and STAGING_BINSTAR_TOKEN from azure")
 
         # cleanup conda-forge.yml
         yaml = YAML()
