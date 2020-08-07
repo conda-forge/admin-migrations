@@ -44,7 +44,7 @@ if DEBUG:
     MAX_MIGRATE = 1
     MAX_SECONDS = 50 * 60
 else:
-    MAX_MIGRATE = 1000
+    MAX_MIGRATE = 500
     MAX_SECONDS = min(50, max(60 - datetime.datetime.now().minute - 6, 0)) * 60
 
 
