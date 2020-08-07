@@ -1638,5 +1638,825 @@
   },
   "bucketcache": {
     "master": true
+  },
+  "bugsnag": {
+    "master": true
+  },
+  "build-capi": {
+    "master": true
+  },
+  "buildbot": {
+    "master": true
+  },
+  "buildbot-console-view": {
+    "master": true
+  },
+  "buildbot-grid-view": {
+    "master": true
+  },
+  "buildbot-pkg": {
+    "master": true
+  },
+  "buildbot-waterfall-view": {
+    "master": true
+  },
+  "buildbot-worker": {
+    "master": true
+  },
+  "buildbot-www": {
+    "master": true
+  },
+  "buildpy": {
+    "master": true
+  },
+  "bullet": {
+    "master": true
+  },
+  "bulwark": {
+    "master": true
+  },
+  "bump2version": {
+    "master": true
+  },
+  "bumps": {
+    "master": true
+  },
+  "bumpversion": {
+    "master": true
+  },
+  "bunch": {
+    "master": true
+  },
+  "bw2speedups": {
+    "master": true
+  },
+  "bwidget": {
+    "master": true,
+    "rerender": true,
+    "test_not_sourcing": true
+  },
+  "bxa": {
+    "master": true
+  },
+  "byexample": {
+    "master": true
+  },
+  "byobu": {
+    "master": true
+  },
+  "bytecode": {
+    "master": true
+  },
+  "bz2file": {
+    "master": true
+  },
+  "bzip2": {
+    "master": true
+  },
+  "c-ares": {
+    "master": true
+  },
+  "c-progressbar": {
+    "master": true
+  },
+  "c3": {
+    "master": true
+  },
+  "c99-to-c89": {
+    "master": true
+  },
+  "ca-certificates": {
+    "master": true
+  },
+  "ca-certificates-cos7-aarch64": {
+    "master": true
+  },
+  "ca-policy-lcg": {
+    "master": true
+  },
+  "cabal": {
+    "master": true
+  },
+  "cabextract": {
+    "master": true
+  },
+  "cachecontrol": {
+    "master": true,
+    "0.11.7": true
+  },
+  "cached-property": {
+    "master": true
+  },
+  "cachetools": {
+    "master": true
+  },
+  "cachey": {
+    "master": true
+  },
+  "cachy": {
+    "master": true
+  },
+  "cadabra2": {
+    "master": true
+  },
+  "cadquery": {
+    "master": true
+  },
+  "caffe": {
+    "master": true
+  },
+  "caiman": {
+    "master": true,
+    "master_with_env_management_and_holoviews": true
+  },
+  "cairo": {
+    "master": true,
+    "dev": true,
+    "v1.14": true
+  },
+  "cairocffi": {
+    "master": true
+  },
+  "cairomm": {
+    "master": true
+  },
+  "cairosvg": {
+    "master": true
+  },
+  "calamari_ocr": {
+    "master": true
+  },
+  "calculix": {
+    "master": true
+  },
+  "calliope": {
+    "master": true
+  },
+  "calysto_bash": {
+    "master": true
+  },
+  "camb": {
+    "master": true
+  },
+  "camelot-py": {
+    "master": true
+  },
+  "caniusepython3": {
+    "master": true
+  },
+  "canmatrix": {
+    "master": true
+  },
+  "cantools": {
+    "master": true
+  },
+  "capnproto": {
+    "master": true
+  },
+  "caproto": {
+    "master": true
+  },
+  "capstone": {
+    "master": true
+  },
+  "capturer": {
+    "master": true
+  },
+  "capytaine": {
+    "master": true
+  },
+  "cartopy": {
+    "master": true,
+    "dev": true,
+    "proj5.2.0": true,
+    "v0.16.0": true
+  },
+  "cartopy_offlinedata": {
+    "master": true
+  },
+  "casacore": {
+    "master": true
+  },
+  "casadi": {
+    "master": true,
+    "mac_ipopt_fix": true,
+    "update_openblas_pin": true
+  },
+  "case": {
+    "master": true
+  },
+  "cassandra": {
+    "master": true
+  },
+  "cassandra-driver": {
+    "master": true,
+    "revert-23-fixes": true
+  },
+  "cassowary": {
+    "master": true
+  },
+  "catalogue": {
+    "master": true
+  },
+  "catalystcoop.pudl": {
+    "master": true
+  },
+  "catboost": {
+    "master": true
+  },
+  "catch2": {
+    "master": true
+  },
+  "category_encoders": {
+    "master": true
+  },
+  "catimg": {
+    "master": true
+  },
+  "catkin_pkg": {
+    "master": true
+  },
+  "catkin_tools": {
+    "master": true
+  },
+  "catlearn": {
+    "master": true
+  },
+  "cattrs": {
+    "master": true
+  },
+  "catzzz": {
+    "master": true
+  },
+  "cbsyst": {
+    "master": true
+  },
+  "cc-plugin-glider": {
+    "master": true
+  },
+  "cc-plugin-ncei": {
+    "master": true
+  },
+  "cc-plugin-ugrid": {
+    "master": true
+  },
+  "ccache": {
+    "master": true
+  },
+  "ccache-toolchain": {
+    "master": true
+  },
+  "ccdproc": {
+    "master": true
+  },
+  "ccfits": {
+    "master": true
+  },
+  "cchardet": {
+    "master": true,
+    "v1.x": true
+  },
+  "cclib": {
+    "master": true
+  },
+  "cctools-and-ld64": {
+    "master": true
+  },
+  "cdat_info": {
+    "master": true,
+    "conda": true,
+    "dev": true
+  },
+  "cdcs": {
+    "master": true
+  },
+  "cddlib": {
+    "master": true
+  },
+  "cdecimal": {
+    "master": true
+  },
+  "cdflib": {
+    "master": true
+  },
+  "cdms2": {
+    "master": true,
+    "condamaster": true,
+    "dev": true,
+    "revert-6-v3.0.5": true
+  },
+  "cdo": {
+    "master": true,
+    "dev": true
+  },
+  "cdp": {
+    "master": true
+  },
+  "cdsapi": {
+    "master": true
+  },
+  "cdtime": {
+    "master": true,
+    "dev": true,
+    "netcdf-15": true
+  },
+  "cdutil": {
+    "master": true,
+    "dev": true
+  },
+  "celerite": {
+    "master": true
+  },
+  "celery": {
+    "master": true
+  },
+  "celery-eternal": {
+    "master": true
+  },
+  "celery-redbeat": {
+    "master": true
+  },
+  "celery-singleton": {
+    "master": true
+  },
+  "celiagg": {
+    "master": true
+  },
+  "cell_tree2d": {
+    "master": true
+  },
+  "cem": {
+    "master": true
+  },
+  "cement": {
+    "master": true
+  },
+  "cenpy": {
+    "master": true
+  },
+  "census": {
+    "master": true
+  },
+  "centrally-managed-conda": {
+    "master": true
+  },
+  "cerberus": {
+    "master": true
+  },
+  "cereal": {
+    "master": true
+  },
+  "ceres-solver": {
+    "master": true
+  },
+  "certifi": {
+    "master": true
+  },
+  "certipy": {
+    "master": true
+  },
+  "cesium": {
+    "master": true
+  },
+  "cf_units": {
+    "master": true
+  },
+  "cfanalytics": {
+    "master": true
+  },
+  "cfchecker": {
+    "master": true
+  },
+  "cffi": {
+    "master": true
+  },
+  "cfflib": {
+    "master": true
+  },
+  "cfgrib": {
+    "master": true
+  },
+  "cfgv": {
+    "master": true
+  },
+  "cfitsio": {
+    "master": true
+  },
+  "cfn-flip": {
+    "master": true
+  },
+  "cfn-lint": {
+    "master": true
+  },
+  "cfncluster": {
+    "master": true
+  },
+  "cfortran-cfitsio": {
+    "master": true
+  },
+  "cftime": {
+    "master": true
+  },
+  "cfunits": {
+    "master": true
+  },
+  "cgal": {
+    "master": true
+  },
+  "cgal-cpp": {
+    "master": true
+  },
+  "cgen": {
+    "master": true
+  },
+  "cgns": {
+    "master": true
+  },
+  "cgroupspy": {
+    "master": true
+  },
+  "cgsi-gsoap": {
+    "master": true
+  },
+  "cgsn_parsers": {
+    "master": true
+  },
+  "cgsn_processing": {
+    "master": true
+  },
+  "chai": {
+    "master": true
+  },
+  "chainer": {
+    "master": true
+  },
+  "chainmap": {
+    "master": true
+  },
+  "chalice": {
+    "master": true
+  },
+  "chalk": {
+    "master": true
+  },
+  "champ": {
+    "master": true
+  },
+  "channelarchiver": {
+    "master": true
+  },
+  "chaospy": {
+    "master": true
+  },
+  "chardet": {
+    "master": true
+  },
+  "charls": {
+    "master": true
+  },
+  "chart-studio": {
+    "master": true
+  },
+  "chart.js": {
+    "master": true
+  },
+  "chartify": {
+    "master": true,
+    "revert-8-3.0.1_h54e3d4": true
+  },
+  "chartkick": {
+    "master": true
+  },
+  "chealpix": {
+    "master": true
+  },
+  "cheat": {
+    "master": true
+  },
+  "check": {
+    "master": true
+  },
+  "check-manifest": {
+    "master": true
+  },
+  "chembl_webresource_client": {
+    "master": true
+  },
+  "chemdataextractor": {
+    "master": true
+  },
+  "chemex": {
+    "master": true
+  },
+  "chemfiles": {
+    "master": true
+  },
+  "chemfiles-lib": {
+    "master": true
+  },
+  "chemfiles-python": {
+    "master": true
+  },
+  "chemspipy": {
+    "master": true
+  },
+  "cheroot": {
+    "master": true
+  },
+  "cherrypy": {
+    "master": true,
+    "v7.1": true
+  },
+  "chest": {
+    "master": true
+  },
+  "chi2comb": {
+    "master": true
+  },
+  "chi2comb-py": {
+    "master": true
+  },
+  "child": {
+    "master": true
+  },
+  "chiscore": {
+    "master": true
+  },
+  "chkconfig-cos7-aarch64": {
+    "master": true
+  },
+  "choicemodels": {
+    "master": true
+  },
+  "chroma-py": {
+    "master": true
+  },
+  "chrpath": {
+    "master": true
+  },
+  "chunky3d": {
+    "master": true
+  },
+  "cibots": {
+    "master": true
+  },
+  "ciecplib": {
+    "master": true
+  },
+  "cif2cell": {
+    "master": true
+  },
+  "cifti": {
+    "master": true
+  },
+  "cigetcert": {
+    "master": true
+  },
+  "ciocheck": {
+    "master": true
+  },
+  "circleclient": {
+    "master": true
+  },
+  "circuits": {
+    "master": true
+  },
+  "circus": {
+    "master": true
+  },
+  "cirpy": {
+    "master": true
+  },
+  "cis": {
+    "master": true,
+    "1.5.2": true,
+    "duncanwp-patch-1": true,
+    "v1.7.1": true
+  },
+  "cis_interface": {
+    "master": true
+  },
+  "ciso": {
+    "master": true
+  },
+  "ciso8601": {
+    "master": true
+  },
+  "cistern": {
+    "master": true
+  },
+  "citrination-client": {
+    "master": true,
+    "add-sdedkins": true
+  },
+  "ckan": {
+    "master": true
+  },
+  "ckanapi": {
+    "master": true
+  },
+  "clamd": {
+    "master": true
+  },
+  "clang-compiler-activation": {
+    "master": true,
+    "isuruf-patch-1": true
+  },
+  "clang-win-activation": {
+    "master": true
+  },
+  "clangdev": {
+    "master": true,
+    "5.x": true,
+    "6.x": true,
+    "8.x": true,
+    "flang": true
+  },
+  "clapack": {
+    "master": true
+  },
+  "classy_vision": {
+    "master": true
+  },
+  "clblas": {
+    "master": true
+  },
+  "clblast": {
+    "master": true
+  },
+  "clcache": {
+    "master": true
+  },
+  "cld2-cffi": {
+    "master": true
+  },
+  "cleanlab": {
+    "master": true
+  },
+  "clease": {
+    "master": true
+  },
+  "cleo": {
+    "master": true
+  },
+  "clfft": {
+    "master": true
+  },
+  "clhep": {
+    "master": true
+  },
+  "clhpp": {
+    "master": true
+  },
+  "cli_helpers": {
+    "master": true
+  },
+  "click": {
+    "master": true,
+    "v5.x": true
+  },
+  "click-aliases": {
+    "master": true
+  },
+  "click-completion": {
+    "master": true
+  },
+  "click-default-group": {
+    "master": true
+  },
+  "click-didyoumean": {
+    "master": true
+  },
+  "click-help-colors": {
+    "master": true
+  },
+  "click-log": {
+    "master": true
+  },
+  "click-plugins": {
+    "master": true
+  },
+  "click-repl": {
+    "master": true
+  },
+  "click-shell": {
+    "master": true
+  },
+  "click-spinner": {
+    "master": true
+  },
+  "click_config_file": {
+    "master": true
+  },
+  "clickclick": {
+    "master": true
+  },
+  "clickhouse-cityhash": {
+    "master": true
+  },
+  "clickhouse-driver": {
+    "master": true
+  },
+  "clickhouse-odbc": {
+    "master": true
+  },
+  "clickhouse-sqlalchemy": {
+    "master": true
+  },
+  "cliff": {
+    "master": true
+  },
+  "clifford": {
+    "master": true
+  },
+  "cligj": {
+    "master": true
+  },
+  "clikit": {
+    "master": true
+  },
+  "climata": {
+    "master": true
+  },
+  "climlab": {
+    "master": true
+  },
+  "climpred": {
+    "master": true,
+    "v1.2.0": true,
+    "v2.1.0.post1": true
+  },
+  "clinfo": {
+    "master": true
+  },
+  "cling": {
+    "master": true
+  },
+  "cling-patches": {
+    "master": true
+  },
+  "clingo": {
+    "master": true
+  },
+  "clint": {
+    "master": true,
+    "janschulz-patch-1": true
+  },
+  "cliquer": {
+    "master": true
+  },
+  "clize": {
+    "master": true
+  },
+  "cloog": {
+    "master": true
+  },
+  "closely": {
+    "master": true
+  },
+  "closure": {
+    "master": true
+  },
+  "cloud_sptheme": {
+    "master": true
+  },
+  "cloudant": {
+    "master": true
+  },
+  "cloudpickle": {
+    "master": true
+  },
+  "clrng": {
+    "master": true
+  },
+  "clsparse": {
+    "master": true
+  },
+  "cluster-lensing": {
+    "master": true
+  },
+  "clusterpy": {
+    "master": true
+  },
+  "clyent": {
+    "master": true
+  },
+  "cm-unicode": {
+    "master": true
+  },
+  "cma": {
+    "master": true
+  },
+  "cmaes": {
+    "master": true
+  },
+  "cmake": {
+    "master": true
+  },
+  "cmake-format": {
+    "master": true
+  },
+  "cmake_format": {
+    "master": true
   }
 }
