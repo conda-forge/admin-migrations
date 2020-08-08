@@ -10408,5 +10408,799 @@
   },
   "marstime": {
     "master": true
+  },
+  "marxs": {
+    "master": true
+  },
+  "mastodon.py": {
+    "master": true
+  },
+  "matchpy": {
+    "master": true
+  },
+  "material-design-lite": {
+    "master": true
+  },
+  "mathjax": {
+    "master": true
+  },
+  "matminer": {
+    "master": true
+  },
+  "matplotcheck": {
+    "master": true
+  },
+  "matplotlib": {
+    "master": true,
+    "matplotlib_1": true,
+    "rc": true,
+    "testing": true,
+    "v2.1.x": true,
+    "v2.2.x": true
+  },
+  "matplotlib-scalebar": {
+    "master": true
+  },
+  "matplotlib-venn": {
+    "master": true
+  },
+  "matplotlib2tikz": {
+    "master": true
+  },
+  "matplotlibhelper": {
+    "master": true
+  },
+  "matrix_client": {
+    "master": true
+  },
+  "maturin": {
+    "master": true
+  },
+  "maup": {
+    "master": true
+  },
+  "maven": {
+    "master": true
+  },
+  "maxima": {
+    "master": true
+  },
+  "maxrect": {
+    "master": true
+  },
+  "maya": {
+    "master": true
+  },
+  "mayavi": {
+    "master": true
+  },
+  "mbsolve": {
+    "master": true
+  },
+  "mbuild": {
+    "master": true
+  },
+  "mbutil": {
+    "master": true
+  },
+  "mccabe": {
+    "master": true
+  },
+  "mcerp": {
+    "master": true
+  },
+  "md-toc": {
+    "master": true
+  },
+  "mdanalysis": {
+    "master": true
+  },
+  "mdanalysisdata": {
+    "master": true
+  },
+  "mdanalysistests": {
+    "master": true
+  },
+  "mdbenchmark": {
+    "master": true,
+    "prerelease": true
+  },
+  "mdf_forge": {
+    "master": true
+  },
+  "mdf_toolbox": {
+    "master": true
+  },
+  "mdshare": {
+    "master": true
+  },
+  "mdsplus": {
+    "master": true
+  },
+  "mdsrv": {
+    "master": true
+  },
+  "mdsynthesis": {
+    "master": true
+  },
+  "mdtraj": {
+    "master": true
+  },
+  "mdx_gh_links": {
+    "master": true
+  },
+  "measurement": {
+    "master": true
+  },
+  "meautility": {
+    "master": true
+  },
+  "mechanicalsoup": {
+    "master": true
+  },
+  "mechanize": {
+    "master": true
+  },
+  "mechwolf": {
+    "master": true
+  },
+  "meds": {
+    "master": true
+  },
+  "megaman": {
+    "master": true
+  },
+  "megaradrp": {
+    "master": true
+  },
+  "meld3": {
+    "master": true
+  },
+  "memoized-property": {
+    "master": true
+  },
+  "memory_profiler": {
+    "master": true
+  },
+  "memprof": {
+    "master": true
+  },
+  "mendeleev": {
+    "master": true
+  },
+  "menpo": {
+    "master": true
+  },
+  "menpo3d": {
+    "master": true
+  },
+  "menpodetect": {
+    "master": true
+  },
+  "menpofit": {
+    "master": true
+  },
+  "menuinst": {
+    "master": true
+  },
+  "mercantile": {
+    "master": true
+  },
+  "mercurial": {
+    "master": true
+  },
+  "mercurial-app": {
+    "master": true
+  },
+  "mesa-dri-drivers-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-khr-devel-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-khr-devel-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libegl-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-libegl-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libgl-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-libgl-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libglapi-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-libglapi-cos7-ppc64le": {
+    "master": true
+  },
+  "mesalib": {
+    "master": true,
+    "newer_mesa": true
+  },
+  "mesas": {
+    "master": true
+  },
+  "meshio": {
+    "master": true,
+    "v2.x": true
+  },
+  "meshplot": {
+    "master": true
+  },
+  "meshpy": {
+    "master": true
+  },
+  "meson": {
+    "master": true
+  },
+  "message-ix": {
+    "master": true
+  },
+  "metaflow": {
+    "master": true,
+    "savingoyal-patch-1": true
+  },
+  "metafone": {
+    "master": true
+  },
+  "metaio": {
+    "master": true
+  },
+  "metakernel": {
+    "master": true
+  },
+  "metaknowledge": {
+    "master": true
+  },
+  "metanetx-assets": {
+    "master": true
+  },
+  "metanetx-post": {
+    "master": true
+  },
+  "metanetx-sdk": {
+    "master": true
+  },
+  "metaphone": {
+    "master": true
+  },
+  "metar": {
+    "master": true
+  },
+  "metawrap": {
+    "master": true
+  },
+  "metis": {
+    "master": true
+  },
+  "metomi-isodatetime": {
+    "master": true
+  },
+  "metpy": {
+    "master": true,
+    "rc": true
+  },
+  "metric-learn": {
+    "master": true
+  },
+  "metsim": {
+    "master": true
+  },
+  "metview": {
+    "master": true,
+    "iainrussell-no-netcdf-c++-1": true,
+    "iainrussell-patch-url-1": true,
+    "v5.8.1": true
+  },
+  "metview-batch": {
+    "master": true
+  },
+  "mgrs": {
+    "master": true,
+    "revert-3-rebuild-pypy-0-1": true
+  },
+  "mgwr": {
+    "master": true
+  },
+  "micromagneticdata": {
+    "master": true
+  },
+  "micromagneticmodel": {
+    "master": true,
+    "0.7.4/0": true
+  },
+  "micromagnetictests": {
+    "master": true
+  },
+  "micropython": {
+    "master": true
+  },
+  "miktex": {
+    "master": true
+  },
+  "milksnake": {
+    "master": true
+  },
+  "miller": {
+    "master": true
+  },
+  "mimerender": {
+    "master": true
+  },
+  "minepy": {
+    "master": true
+  },
+  "minikube": {
+    "master": true
+  },
+  "minimalmodbus": {
+    "master": true
+  },
+  "minio": {
+    "master": true
+  },
+  "miniwdl": {
+    "master": true
+  },
+  "minuit2": {
+    "master": true
+  },
+  "misaka": {
+    "master": true
+  },
+  "missingno": {
+    "master": true
+  },
+  "mistletoe-ebp": {
+    "master": true
+  },
+  "mistune": {
+    "master": true
+  },
+  "mizani": {
+    "master": true
+  },
+  "mkdocs": {
+    "master": true
+  },
+  "mkdocs-bootstrap": {
+    "master": true
+  },
+  "mkdocs-bootswatch": {
+    "master": true
+  },
+  "mkdocs-macros-plugin": {
+    "master": true
+  },
+  "mkdocs-markdownextradata-plugin": {
+    "master": true
+  },
+  "mkdocs-material": {
+    "master": true
+  },
+  "mkl-service": {
+    "master": true
+  },
+  "mkl_fft": {
+    "master": true
+  },
+  "mkl_random": {
+    "master": true
+  },
+  "ml_tooling": {
+    "master": true
+  },
+  "mlapack": {
+    "master": true
+  },
+  "mlconjug": {
+    "master": true
+  },
+  "mleap": {
+    "master": true
+  },
+  "mlflow": {
+    "master": true
+  },
+  "mlpack": {
+    "master": true
+  },
+  "mlt": {
+    "master": true
+  },
+  "mlxtend": {
+    "master": true,
+    "0.16-dlib": true,
+    "bumpversion": true,
+    "v0.10.0": true,
+    "v0.11.0": true,
+    "v0.9.1": true
+  },
+  "mmh3": {
+    "master": true
+  },
+  "mms-python-adapter": {
+    "master": true
+  },
+  "mms-python-client": {
+    "master": true
+  },
+  "mmtf-python": {
+    "master": true
+  },
+  "mmvec": {
+    "master": true,
+    "fix-pandas": true,
+    "revert-2-master": true
+  },
+  "mne": {
+    "master": true,
+    "christianbrodbeck-patch-1": true,
+    "pin-traitsui": true
+  },
+  "mne-bids": {
+    "master": true
+  },
+  "mnelab": {
+    "master": true
+  },
+  "mnist": {
+    "master": true
+  },
+  "mo-future": {
+    "master": true
+  },
+  "mo_pack": {
+    "master": true
+  },
+  "moab": {
+    "master": true
+  },
+  "mock": {
+    "master": true,
+    "v1.0.1": true,
+    "v1.3.0": true
+  },
+  "mockextras": {
+    "master": true
+  },
+  "mockredispy": {
+    "master": true
+  },
+  "mockupdb": {
+    "master": true
+  },
+  "mocsy": {
+    "master": true
+  },
+  "model_bakery": {
+    "master": true
+  },
+  "model_metadata": {
+    "master": true
+  },
+  "modepy": {
+    "master": true
+  },
+  "moderngl": {
+    "master": true
+  },
+  "modernize": {
+    "master": true
+  },
+  "modestpy": {
+    "master": true
+  },
+  "modflow2netcdf": {
+    "master": true
+  },
+  "modflow6": {
+    "master": true
+  },
+  "modsecurity": {
+    "master": true
+  },
+  "modulegraph": {
+    "master": true
+  },
+  "moldyn-clustering": {
+    "master": true
+  },
+  "molecule": {
+    "master": true
+  },
+  "molmod": {
+    "master": true
+  },
+  "molpx": {
+    "master": true
+  },
+  "molvs": {
+    "master": true
+  },
+  "moment": {
+    "master": true
+  },
+  "momepy": {
+    "master": true
+  },
+  "monet": {
+    "master": true
+  },
+  "monetdblite": {
+    "master": true
+  },
+  "monetio": {
+    "master": true
+  },
+  "mongo-tools": {
+    "master": true,
+    "3.6.x": true
+  },
+  "mongoengine": {
+    "master": true
+  },
+  "mongomock": {
+    "master": true
+  },
+  "mongoose": {
+    "master": true
+  },
+  "mongoquery": {
+    "master": true
+  },
+  "monkeytype": {
+    "master": true
+  },
+  "mono": {
+    "master": true
+  },
+  "monotonic": {
+    "master": true
+  },
+  "monty": {
+    "master": true
+  },
+  "moola": {
+    "master": true
+  },
+  "mord": {
+    "master": true
+  },
+  "mordred": {
+    "master": true,
+    "mordred": true
+  },
+  "more-itertools": {
+    "master": true
+  },
+  "more.forwarded": {
+    "master": true
+  },
+  "more.pathtool": {
+    "master": true
+  },
+  "more.static": {
+    "master": true
+  },
+  "morepath": {
+    "master": true
+  },
+  "morfessor": {
+    "master": true
+  },
+  "morphsnakes": {
+    "master": true
+  },
+  "mosdef_cassandra": {
+    "master": true
+  },
+  "mosestokenizer": {
+    "master": true
+  },
+  "mosfit": {
+    "master": true
+  },
+  "mosh": {
+    "master": true
+  },
+  "moto": {
+    "master": true
+  },
+  "motor": {
+    "master": true
+  },
+  "moviepy": {
+    "master": true
+  },
+  "movingpandas": {
+    "master": true,
+    "v0.2": true,
+    "v0.3": true
+  },
+  "moz-sql-parser": {
+    "master": true
+  },
+  "mpas-analysis": {
+    "master": true
+  },
+  "mpas_tools": {
+    "master": true,
+    "libnetcdf_4.6.2": true
+  },
+  "mpb": {
+    "master": true
+  },
+  "mpc": {
+    "master": true
+  },
+  "mpfi": {
+    "master": true
+  },
+  "mpfr": {
+    "master": true
+  },
+  "mpg123": {
+    "master": true
+  },
+  "mpi": {
+    "master": true
+  },
+  "mpi4py": {
+    "master": true
+  },
+  "mpi4py-fft": {
+    "master": true
+  },
+  "mpich": {
+    "master": true
+  },
+  "mpifft4py": {
+    "master": true,
+    "mikaem-bump-3": true
+  },
+  "mpiplus": {
+    "master": true
+  },
+  "mpir": {
+    "master": true,
+    "dev": true
+  },
+  "mpl-probscale": {
+    "master": true
+  },
+  "mpl-scatter-density": {
+    "master": true
+  },
+  "mplcursors": {
+    "master": true
+  },
+  "mpld3": {
+    "master": true
+  },
+  "mplexporter": {
+    "master": true
+  },
+  "mplleaflet": {
+    "master": true
+  },
+  "mplt": {
+    "master": true
+  },
+  "mpltern": {
+    "master": true
+  },
+  "mplview": {
+    "master": true
+  },
+  "mpmath": {
+    "master": true
+  },
+  "mppp": {
+    "master": true,
+    "0.11_reloaded": true
+  },
+  "mputil": {
+    "master": true
+  },
+  "mr.bob": {
+    "master": true
+  },
+  "mrcfile": {
+    "master": true
+  },
+  "mrcz": {
+    "master": true,
+    "revert-9-rebuild-python38-0-1": true
+  },
+  "mrjob": {
+    "master": true
+  },
+  "msal": {
+    "master": true
+  },
+  "msal_extensions": {
+    "master": true
+  },
+  "mscorefonts": {
+    "master": true
+  },
+  "msdnet": {
+    "master": true
+  },
+  "msg-extractor": {
+    "master": true
+  },
+  "msgpack-c": {
+    "master": true
+  },
+  "msgpack-numpy": {
+    "master": true
+  },
+  "msgpack-python": {
+    "master": true
+  },
+  "mshr": {
+    "master": true
+  },
+  "msinttypes": {
+    "master": true
+  },
+  "msitools": {
+    "master": true
+  },
+  "msmbuilder": {
+    "master": true
+  },
+  "msmtools": {
+    "master": true
+  },
+  "msnoise": {
+    "master": true
+  },
+  "msprime": {
+    "master": true
+  },
+  "msrest": {
+    "master": true
+  },
+  "msrestazure": {
+    "master": true
+  },
+  "mss": {
+    "master": true
+  },
+  "msumastro": {
+    "master": true
+  },
+  "mtcnn": {
+    "master": true
+  },
+  "mtspec": {
+    "master": true
+  },
+  "mu_repo": {
+    "master": true
+  },
+  "multi-mechanize": {
+    "master": true
+  },
+  "multi_key_dict": {
+    "master": true
+  },
+  "multi_rake": {
+    "master": true
+  },
+  "multicore-tsne": {
+    "master": true
+  },
+  "multidict": {
+    "master": true
   }
 }
