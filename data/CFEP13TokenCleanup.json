@@ -5666,5 +5666,780 @@
   },
   "fluidsynth": {
     "master": true
+  },
+  "flup": {
+    "master": true
+  },
+  "fmilib": {
+    "master": true
+  },
+  "fmipp": {
+    "master": true
+  },
+  "fml": {
+    "master": true
+  },
+  "fmpy": {
+    "master": true,
+    "fmpy-base-subpackage": true
+  },
+  "fmrib-unpack": {
+    "master": true
+  },
+  "fmt": {
+    "master": true
+  },
+  "foam_ct_phantom": {
+    "master": true
+  },
+  "folium": {
+    "master": true
+  },
+  "font-ttf-dejavu-sans-mono": {
+    "master": true
+  },
+  "font-ttf-inconsolata": {
+    "master": true
+  },
+  "font-ttf-source-code-pro": {
+    "master": true
+  },
+  "font-ttf-ubuntu": {
+    "master": true
+  },
+  "fontconfig": {
+    "master": true,
+    "v2.11": true
+  },
+  "fonts-conda-ecosystem": {
+    "master": true
+  },
+  "fonts-conda-forge": {
+    "master": true
+  },
+  "fonttools": {
+    "master": true
+  },
+  "foonathan-memory": {
+    "master": true
+  },
+  "forest": {
+    "master": true
+  },
+  "forestci": {
+    "master": true
+  },
+  "formencode": {
+    "master": true
+  },
+  "formulas": {
+    "master": true
+  },
+  "fortran-magic": {
+    "master": true
+  },
+  "fortran_kernel": {
+    "master": true
+  },
+  "fortranformat": {
+    "master": true
+  },
+  "fossil": {
+    "master": true
+  },
+  "foundation-sites": {
+    "master": true
+  },
+  "fox": {
+    "master": true
+  },
+  "fparser": {
+    "master": true
+  },
+  "fplll": {
+    "master": true
+  },
+  "fpocket": {
+    "master": true
+  },
+  "fpylll": {
+    "master": true
+  },
+  "fpyutils": {
+    "master": true
+  },
+  "fredapi": {
+    "master": true
+  },
+  "freecad": {
+    "master": true
+  },
+  "freediscovery": {
+    "master": true
+  },
+  "freegenes": {
+    "master": true,
+    "add/keoni-maintainer": true
+  },
+  "freeglut": {
+    "master": true
+  },
+  "freeimage": {
+    "master": true
+  },
+  "freetds": {
+    "master": true
+  },
+  "freetype": {
+    "master": true,
+    "v2.6.1": true,
+    "v2.8.x": true,
+    "v2.9.1": true
+  },
+  "freetype-py": {
+    "master": true
+  },
+  "freexl": {
+    "master": true
+  },
+  "freezegun": {
+    "master": true
+  },
+  "fresnel": {
+    "master": true
+  },
+  "fretbursts": {
+    "master": true,
+    "update0.7": true
+  },
+  "freud": {
+    "master": true
+  },
+  "fribidi": {
+    "master": true
+  },
+  "frosted": {
+    "master": true
+  },
+  "frozen-flask": {
+    "master": true
+  },
+  "frozendict": {
+    "master": true
+  },
+  "fs": {
+    "master": true
+  },
+  "fs-gcsfs": {
+    "master": true,
+    "relax-dependencies": true
+  },
+  "fs-s3fs": {
+    "master": true
+  },
+  "fs.sshfs": {
+    "master": true
+  },
+  "fs.webdavfs": {
+    "master": true
+  },
+  "fs_filepicker": {
+    "master": true
+  },
+  "fsfe-reuse": {
+    "master": true
+  },
+  "fsl-pyfeeds": {
+    "master": true
+  },
+  "fsleyes": {
+    "master": true,
+    "v0.30": true
+  },
+  "fsleyes-props": {
+    "master": true
+  },
+  "fsleyes-widgets": {
+    "master": true
+  },
+  "fslpy": {
+    "master": true
+  },
+  "fswatch": {
+    "master": true
+  },
+  "ftd2xx": {
+    "master": true
+  },
+  "ftfy": {
+    "master": true
+  },
+  "ftgl": {
+    "master": true
+  },
+  "ftputil": {
+    "master": true
+  },
+  "fts-rest": {
+    "master": true
+  },
+  "func_timeout": {
+    "master": true
+  },
+  "funcargparse": {
+    "master": true
+  },
+  "funcparserlib": {
+    "master": true
+  },
+  "funcsigs": {
+    "master": true
+  },
+  "functionalplus": {
+    "master": true
+  },
+  "functools32": {
+    "master": true
+  },
+  "funcy": {
+    "master": true
+  },
+  "furl": {
+    "master": true
+  },
+  "fury": {
+    "master": true
+  },
+  "fusepy": {
+    "master": true
+  },
+  "fusepyng": {
+    "master": true
+  },
+  "fusesoc": {
+    "master": true
+  },
+  "future": {
+    "master": true
+  },
+  "future_fstrings": {
+    "master": true
+  },
+  "futures": {
+    "master": true
+  },
+  "fuzzy-rough-learn": {
+    "master": true
+  },
+  "fuzzywuzzy": {
+    "master": true
+  },
+  "fwlite": {
+    "master": true
+  },
+  "fypp": {
+    "master": true
+  },
+  "fzf": {
+    "master": true
+  },
+  "g2clib": {
+    "master": true
+  },
+  "g2o": {
+    "master": true
+  },
+  "gaitpy": {
+    "master": true
+  },
+  "gala": {
+    "master": true
+  },
+  "galario": {
+    "master": true,
+    "cuda_build": true
+  },
+  "galgebra": {
+    "master": true
+  },
+  "galpy": {
+    "master": true
+  },
+  "galsim": {
+    "master": true
+  },
+  "gama": {
+    "master": true
+  },
+  "gammapy": {
+    "master": true
+  },
+  "gap": {
+    "master": true,
+    "v4.8.3": true,
+    "v4.8.6": true
+  },
+  "garnett": {
+    "master": true
+  },
+  "gast": {
+    "master": true
+  },
+  "gatspy": {
+    "master": true
+  },
+  "gawk": {
+    "master": true,
+    "4.1.3": true
+  },
+  "gazar": {
+    "master": true
+  },
+  "gazebo": {
+    "master": true,
+    "v9.x": true
+  },
+  "gbquality": {
+    "master": true
+  },
+  "gcab": {
+    "master": true
+  },
+  "gconf2-cos7-aarch64": {
+    "master": true
+  },
+  "gcovr": {
+    "master": true
+  },
+  "gcsfs": {
+    "master": true
+  },
+  "gct": {
+    "master": true
+  },
+  "gdal": {
+    "master": true,
+    "proj5.2.0": true,
+    "v2.2.x": true,
+    "v2.3.x": true,
+    "v2.4.x": true
+  },
+  "gdb": {
+    "master": true,
+    "testing": true
+  },
+  "gdbm": {
+    "master": true
+  },
+  "gdcm": {
+    "master": true,
+    "remove-from-maintainers": true
+  },
+  "gdk-pixbuf": {
+    "master": true
+  },
+  "gdown": {
+    "master": true
+  },
+  "gdrive": {
+    "master": true
+  },
+  "geant4": {
+    "master": true
+  },
+  "geant4-data-abla": {
+    "master": true
+  },
+  "geant4-data-emlow": {
+    "master": true
+  },
+  "geant4-data-ensdfstate": {
+    "master": true
+  },
+  "geant4-data-incl": {
+    "master": true
+  },
+  "geant4-data-ndl": {
+    "master": true
+  },
+  "geant4-data-particlexs": {
+    "master": true
+  },
+  "geant4-data-photonevaporation": {
+    "master": true
+  },
+  "geant4-data-pii": {
+    "master": true
+  },
+  "geant4-data-radioactivedecay": {
+    "master": true
+  },
+  "geant4-data-realsurface": {
+    "master": true
+  },
+  "geant4-data-saiddata": {
+    "master": true
+  },
+  "geckodriver": {
+    "master": true
+  },
+  "geehydro": {
+    "master": true
+  },
+  "geemap": {
+    "master": true
+  },
+  "gemmi": {
+    "master": true
+  },
+  "genesis-pyapi": {
+    "master": true
+  },
+  "gengetopt": {
+    "master": true
+  },
+  "genozip": {
+    "master": true
+  },
+  "genpy": {
+    "master": true
+  },
+  "genshi": {
+    "master": true
+  },
+  "gensim": {
+    "master": true,
+    "revert-15-next-gensim-release": true
+  },
+  "genson": {
+    "master": true
+  },
+  "genutil": {
+    "master": true,
+    "dev": true,
+    "v8.0": true
+  },
+  "geoalchemy-odm2": {
+    "master": true
+  },
+  "geoalchemy2": {
+    "master": true
+  },
+  "geoana": {
+    "master": true
+  },
+  "geocoder": {
+    "master": true
+  },
+  "geocube": {
+    "master": true
+  },
+  "geographiclib": {
+    "master": true
+  },
+  "geohash2": {
+    "master": true
+  },
+  "geoip": {
+    "master": true
+  },
+  "geojson": {
+    "master": true
+  },
+  "geojsonio": {
+    "master": true
+  },
+  "geolinks": {
+    "master": true
+  },
+  "geomalgo": {
+    "master": true
+  },
+  "geometric": {
+    "master": true
+  },
+  "geometric_features": {
+    "master": true
+  },
+  "geonum": {
+    "master": true
+  },
+  "geopandas": {
+    "master": true,
+    "dev": true
+  },
+  "geoplot": {
+    "master": true,
+    "0.2.1": true
+  },
+  "geopy": {
+    "master": true
+  },
+  "georaster": {
+    "master": true
+  },
+  "georasters": {
+    "master": true
+  },
+  "george": {
+    "master": true
+  },
+  "geos": {
+    "master": true,
+    "v3.6.2": true
+  },
+  "geosnap": {
+    "master": true
+  },
+  "geotext": {
+    "master": true
+  },
+  "geotiff": {
+    "master": true,
+    "v1.4.x": true
+  },
+  "geoviews": {
+    "master": true
+  },
+  "gerrychain": {
+    "master": true
+  },
+  "get-docker-secret": {
+    "master": true
+  },
+  "get_version": {
+    "master": true
+  },
+  "gettext": {
+    "master": true
+  },
+  "gevent": {
+    "master": true
+  },
+  "gevent-websocket": {
+    "master": true
+  },
+  "geventhttpclient": {
+    "master": true
+  },
+  "gf2x": {
+    "master": true
+  },
+  "gfal2": {
+    "master": true
+  },
+  "gfal2-util": {
+    "master": true
+  },
+  "gfan": {
+    "master": true
+  },
+  "gflags": {
+    "master": true
+  },
+  "gfortran_impl_osx-64": {
+    "master": true,
+    "4.8.5": true
+  },
+  "gfortran_osx-64": {
+    "master": true
+  },
+  "ggobi": {
+    "master": true
+  },
+  "ggplot": {
+    "master": true
+  },
+  "gh": {
+    "master": true
+  },
+  "ghc": {
+    "master": true,
+    "ghc_8.2.2": true,
+    "ghc_8.4.4": true
+  },
+  "ghc-bootstrap": {
+    "master": true,
+    "revert-3-flags": true
+  },
+  "gherkin-official": {
+    "master": true
+  },
+  "ghost.py": {
+    "master": true
+  },
+  "ghostscript": {
+    "master": true
+  },
+  "ghp-import": {
+    "master": true
+  },
+  "giac": {
+    "master": true
+  },
+  "giddy": {
+    "master": true
+  },
+  "gidgethub": {
+    "master": true
+  },
+  "giflib": {
+    "master": true
+  },
+  "gifsicle": {
+    "master": true
+  },
+  "ginga": {
+    "master": true
+  },
+  "gipl": {
+    "master": true
+  },
+  "girder": {
+    "master": true
+  },
+  "girder-client": {
+    "master": true
+  },
+  "git": {
+    "master": true
+  },
+  "git-annex": {
+    "master": true,
+    "is-reinstate-standalone-build": true,
+    "rc": true
+  },
+  "git-annex-remote-googledrive": {
+    "master": true
+  },
+  "git-bash": {
+    "master": true
+  },
+  "git-crypt": {
+    "master": true
+  },
+  "git-lfs": {
+    "master": true
+  },
+  "git-secret": {
+    "master": true
+  },
+  "git-sizer": {
+    "master": true
+  },
+  "git_root": {
+    "master": true
+  },
+  "gitdb": {
+    "master": true
+  },
+  "gitdb2": {
+    "master": true
+  },
+  "gitea": {
+    "master": true
+  },
+  "github-ssh-auth": {
+    "master": true
+  },
+  "github-webhook": {
+    "master": true
+  },
+  "github3.py": {
+    "master": true
+  },
+  "gitlab-runner": {
+    "master": true
+  },
+  "gitpython": {
+    "master": true,
+    "1.x": true
+  },
+  "givaro": {
+    "master": true
+  },
+  "giza": {
+    "master": true
+  },
+  "gj2ascii": {
+    "master": true
+  },
+  "gl2ps": {
+    "master": true
+  },
+  "glances": {
+    "master": true
+  },
+  "glew": {
+    "master": true
+  },
+  "glfw": {
+    "master": true
+  },
+  "glib": {
+    "master": true
+  },
+  "glibmm": {
+    "master": true
+  },
+  "glimix-core": {
+    "master": true
+  },
+  "glm": {
+    "master": true
+  },
+  "glmnet": {
+    "master": true
+  },
+  "glmnet_py": {
+    "master": true
+  },
+  "glob2": {
+    "master": true
+  },
+  "globus-cli": {
+    "master": true,
+    "v1.1.2": true
+  },
+  "globus-nexus-client": {
+    "master": true
+  },
+  "globus-sdk": {
+    "master": true,
+    "v1.1.1": true
+  },
+  "glog": {
+    "master": true
+  },
+  "glom": {
+    "master": true
+  },
+  "glpk": {
+    "master": true
+  },
+  "glue-core": {
+    "master": true,
+    "v0.14.0": true,
+    "v0.14.1": true
+  },
+  "glue-geospatial": {
+    "master": true
+  },
+  "glue-vispy-viewers": {
+    "master": true,
+    "0.12.1": true
+  },
+  "glueviz": {
+    "master": true
+  },
+  "glymur": {
+    "master": true,
+    "regro-cf-autotick-bot-0.9.1": true
+  },
+  "gmaps": {
+    "master": true
+  },
+  "gmatelastic": {
+    "master": true
   }
 }
