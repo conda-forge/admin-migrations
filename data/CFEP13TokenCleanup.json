@@ -4850,5 +4850,821 @@
   },
   "evv4esm": {
     "master": true
+  },
+  "exa": {
+    "master": true
+  },
+  "exchangelib": {
+    "master": true
+  },
+  "exec-wrappers": {
+    "master": true
+  },
+  "execnet": {
+    "master": true
+  },
+  "executing": {
+    "master": true
+  },
+  "executor": {
+    "master": true
+  },
+  "exempi": {
+    "master": true
+  },
+  "exercism": {
+    "master": true
+  },
+  "exifread": {
+    "master": true
+  },
+  "existdb": {
+    "master": true
+  },
+  "exiv2": {
+    "master": true
+  },
+  "exoplanet": {
+    "master": true
+  },
+  "expat": {
+    "master": true
+  },
+  "expat-cos7-aarch64": {
+    "master": true
+  },
+  "expiringdict": {
+    "master": true
+  },
+  "exrex": {
+    "master": true
+  },
+  "extension-helpers": {
+    "master": true
+  },
+  "extern": {
+    "master": true
+  },
+  "extinction": {
+    "master": true
+  },
+  "extra-cmake-modules": {
+    "master": true
+  },
+  "extras": {
+    "master": true
+  },
+  "ez_setup": {
+    "master": true
+  },
+  "ezc3d": {
+    "master": true
+  },
+  "ezca": {
+    "master": true
+  },
+  "ezdxf": {
+    "master": true,
+    "fix_templates": true
+  },
+  "ezget": {
+    "master": true
+  },
+  "ezodf": {
+    "master": true
+  },
+  "f2c": {
+    "master": true
+  },
+  "f90nml": {
+    "master": true
+  },
+  "fabio": {
+    "master": true
+  },
+  "fabric": {
+    "master": true
+  },
+  "fabric3": {
+    "master": true
+  },
+  "face": {
+    "master": true
+  },
+  "factory_boy": {
+    "master": true
+  },
+  "fair-research-login": {
+    "master": true
+  },
+  "fairlearn": {
+    "master": true
+  },
+  "fake-factory": {
+    "master": true
+  },
+  "faker": {
+    "master": true
+  },
+  "fakeredis": {
+    "master": true
+  },
+  "falcon": {
+    "master": true,
+    "v1.4.1": true
+  },
+  "falcon-apispec": {
+    "master": true
+  },
+  "falcon-auth": {
+    "master": true
+  },
+  "falcon-docs": {
+    "master": true
+  },
+  "falcon-require-https": {
+    "master": true
+  },
+  "fancycompleter": {
+    "master": true
+  },
+  "fann2": {
+    "master": true
+  },
+  "fanstatic": {
+    "master": true
+  },
+  "fast-cdr": {
+    "master": true
+  },
+  "fast-histogram": {
+    "master": true
+  },
+  "fast-rtps": {
+    "master": true
+  },
+  "fast_dp": {
+    "master": true
+  },
+  "fastapi": {
+    "master": true
+  },
+  "fastavro": {
+    "master": true
+  },
+  "fastbpe": {
+    "master": true
+  },
+  "fastcache": {
+    "master": true
+  },
+  "fastcluster": {
+    "master": true
+  },
+  "fastdiff": {
+    "master": true
+  },
+  "fastdtw": {
+    "master": true
+  },
+  "fasteners": {
+    "master": true
+  },
+  "fastimport": {
+    "master": true
+  },
+  "fastkml": {
+    "master": true
+  },
+  "fastnumbers": {
+    "master": true
+  },
+  "fastparquet": {
+    "master": true
+  },
+  "fastpca": {
+    "master": true
+  },
+  "fastprogress": {
+    "master": true
+  },
+  "fastrlock": {
+    "master": true
+  },
+  "fastscape": {
+    "master": true
+  },
+  "fastscapelib": {
+    "master": true
+  },
+  "fastscapelib-f2py": {
+    "master": true
+  },
+  "fasttext": {
+    "master": true
+  },
+  "fasttsne": {
+    "master": true,
+    "v0.2.15": true
+  },
+  "fatiando": {
+    "master": true,
+    "no-mayavi": true
+  },
+  "fault-localization": {
+    "master": true
+  },
+  "faunus": {
+    "master": true
+  },
+  "fbpca": {
+    "master": true
+  },
+  "fbprophet": {
+    "master": true
+  },
+  "fcl": {
+    "master": true
+  },
+  "fd-find": {
+    "master": true
+  },
+  "fdb": {
+    "master": true
+  },
+  "fdupes": {
+    "master": true
+  },
+  "feather-format": {
+    "master": true
+  },
+  "featherhelper": {
+    "master": true
+  },
+  "featuretools": {
+    "master": true
+  },
+  "feedfinder2": {
+    "master": true
+  },
+  "feedgenerator": {
+    "master": true
+  },
+  "feedstockrot": {
+    "master": true
+  },
+  "feets": {
+    "master": true
+  },
+  "fenics": {
+    "master": true,
+    "dev": true
+  },
+  "fermipy": {
+    "master": true
+  },
+  "ferret_datasets": {
+    "master": true
+  },
+  "fflas-ffpack": {
+    "master": true
+  },
+  "ffmpeg": {
+    "master": true,
+    "v2.8.6": true,
+    "v3.2.4": true,
+    "v3.4.1": true,
+    "v3.4.2": true
+  },
+  "ffmpeg-python": {
+    "master": true
+  },
+  "ffnvcodec-headers": {
+    "master": true
+  },
+  "ffpyplayer": {
+    "master": true
+  },
+  "fftw": {
+    "master": true
+  },
+  "ffx": {
+    "master": true
+  },
+  "fig2dev": {
+    "master": true
+  },
+  "file": {
+    "master": true
+  },
+  "filebutler": {
+    "master": true
+  },
+  "filechunkio": {
+    "master": true
+  },
+  "fileinspector": {
+    "master": true
+  },
+  "filelock": {
+    "master": true
+  },
+  "filesdb": {
+    "master": true
+  },
+  "filesystem-spec": {
+    "master": true
+  },
+  "filetype": {
+    "master": true
+  },
+  "filterpy": {
+    "master": true
+  },
+  "findspark": {
+    "master": true
+  },
+  "findutils": {
+    "master": true
+  },
+  "finitediff": {
+    "master": true
+  },
+  "finmind": {
+    "master": true
+  },
+  "fiona": {
+    "master": true,
+    "dev": true
+  },
+  "fipy": {
+    "master": true
+  },
+  "fire": {
+    "master": true
+  },
+  "firecrown": {
+    "master": true
+  },
+  "firefox": {
+    "master": true,
+    "68": true,
+    "69": true,
+    "70": true,
+    "78": true,
+    "add-gtk3": true
+  },
+  "firelight": {
+    "master": true
+  },
+  "fireworks": {
+    "master": true
+  },
+  "fiscalyear": {
+    "master": true
+  },
+  "fish": {
+    "master": true
+  },
+  "fisher": {
+    "master": true
+  },
+  "fissix": {
+    "master": true
+  },
+  "fisspy": {
+    "master": true
+  },
+  "fisx": {
+    "master": true
+  },
+  "fit-sne": {
+    "master": true
+  },
+  "fitsio": {
+    "master": true
+  },
+  "fitstools": {
+    "master": true
+  },
+  "fixie": {
+    "master": true
+  },
+  "fixie-batch": {
+    "master": true
+  },
+  "fixie-creds": {
+    "master": true
+  },
+  "fixie-data": {
+    "master": true
+  },
+  "fixtures": {
+    "master": true
+  },
+  "flake8": {
+    "master": true
+  },
+  "flake8-black": {
+    "master": true
+  },
+  "flake8-blind-except": {
+    "master": true
+  },
+  "flake8-bugbear": {
+    "master": true
+  },
+  "flake8-builtins": {
+    "master": true
+  },
+  "flake8-colors": {
+    "master": true
+  },
+  "flake8-comprehensions": {
+    "master": true
+  },
+  "flake8-copyright": {
+    "master": true
+  },
+  "flake8-docstrings": {
+    "master": true
+  },
+  "flake8-import-order": {
+    "master": true
+  },
+  "flake8-isort": {
+    "master": true
+  },
+  "flake8-mutable": {
+    "master": true
+  },
+  "flake8-nb": {
+    "master": true
+  },
+  "flake8-pep3101": {
+    "master": true
+  },
+  "flake8-polyfill": {
+    "master": true
+  },
+  "flake8-print": {
+    "master": true
+  },
+  "flake8-pyi": {
+    "master": true
+  },
+  "flake8-quotes": {
+    "master": true
+  },
+  "flake8-rst": {
+    "master": true
+  },
+  "flake8-rst-docstrings": {
+    "master": true
+  },
+  "flake8-self": {
+    "master": true
+  },
+  "flake8-sfs": {
+    "master": true
+  },
+  "flaky": {
+    "master": true
+  },
+  "flammkuchen": {
+    "master": true
+  },
+  "flang": {
+    "master": true
+  },
+  "flang-meta": {
+    "master": true
+  },
+  "flann": {
+    "master": true
+  },
+  "flasgger": {
+    "master": true
+  },
+  "flask": {
+    "master": true,
+    "v0.11.1": true,
+    "v0.12.4": true
+  },
+  "flask-admin": {
+    "master": true
+  },
+  "flask-allows": {
+    "master": true
+  },
+  "flask-apispec": {
+    "master": true
+  },
+  "flask-appbuilder": {
+    "master": true
+  },
+  "flask-apscheduler": {
+    "master": true
+  },
+  "flask-assets": {
+    "master": true
+  },
+  "flask-autoindex": {
+    "master": true
+  },
+  "flask-babel": {
+    "master": true,
+    "0.9": true
+  },
+  "flask-babelex": {
+    "master": true
+  },
+  "flask-basicauth": {
+    "master": true,
+    "synapticarbors-patch-1": true
+  },
+  "flask-bcrypt": {
+    "master": true
+  },
+  "flask-bootstrap": {
+    "master": true
+  },
+  "flask-bower": {
+    "master": true
+  },
+  "flask-cache": {
+    "master": true
+  },
+  "flask-caching": {
+    "master": true
+  },
+  "flask-celery-helper": {
+    "master": true
+  },
+  "flask-compress": {
+    "master": true
+  },
+  "flask-cors": {
+    "master": true
+  },
+  "flask-couchdb": {
+    "master": true
+  },
+  "flask-creole": {
+    "master": true
+  },
+  "flask-dance": {
+    "master": true
+  },
+  "flask-debugtoolbar": {
+    "master": true
+  },
+  "flask-dramatiq": {
+    "master": true
+  },
+  "flask-excel": {
+    "master": true
+  },
+  "flask-flatpages": {
+    "master": true
+  },
+  "flask-genshi": {
+    "master": true
+  },
+  "flask-graphql": {
+    "master": true
+  },
+  "flask-httpauth": {
+    "master": true
+  },
+  "flask-jsonpify": {
+    "master": true
+  },
+  "flask-jwt-extended": {
+    "master": true
+  },
+  "flask-ldap3-login": {
+    "master": true
+  },
+  "flask-login": {
+    "master": true,
+    "v0.2.x": true,
+    "v0.3.x": true
+  },
+  "flask-mail": {
+    "master": true
+  },
+  "flask-markdown": {
+    "master": true
+  },
+  "flask-marshmallow": {
+    "master": true
+  },
+  "flask-migrate": {
+    "master": true
+  },
+  "flask-moment": {
+    "master": true
+  },
+  "flask-mqtt": {
+    "master": true
+  },
+  "flask-nav": {
+    "master": true
+  },
+  "flask-oauthlib": {
+    "master": true
+  },
+  "flask-oidc": {
+    "master": true
+  },
+  "flask-oldsessions": {
+    "master": true
+  },
+  "flask-openid": {
+    "master": true
+  },
+  "flask-paginate": {
+    "master": true
+  },
+  "flask-potion": {
+    "master": true
+  },
+  "flask-principal": {
+    "master": true
+  },
+  "flask-redis": {
+    "master": true
+  },
+  "flask-redis-helper": {
+    "master": true
+  },
+  "flask-rest-jsonapi": {
+    "master": true
+  },
+  "flask-restalchemy": {
+    "master": true
+  },
+  "flask-restful": {
+    "master": true
+  },
+  "flask-restless": {
+    "master": true
+  },
+  "flask-restplus": {
+    "master": true
+  },
+  "flask-restx": {
+    "master": true
+  },
+  "flask-script": {
+    "master": true
+  },
+  "flask-seasurf": {
+    "master": true
+  },
+  "flask-security": {
+    "master": true
+  },
+  "flask-silk": {
+    "master": true
+  },
+  "flask-simpleldap": {
+    "master": true
+  },
+  "flask-smorest": {
+    "master": true
+  },
+  "flask-socketio": {
+    "master": true
+  },
+  "flask-sockets": {
+    "master": true
+  },
+  "flask-sqlalchemy": {
+    "master": true
+  },
+  "flask-swagger": {
+    "master": true
+  },
+  "flask-swagger-ui": {
+    "master": true
+  },
+  "flask-talisman": {
+    "master": true
+  },
+  "flask-testing": {
+    "master": true
+  },
+  "flask-turbolinks": {
+    "master": true
+  },
+  "flask-uploads": {
+    "master": true
+  },
+  "flask-user": {
+    "master": true
+  },
+  "flask-webpack": {
+    "master": true
+  },
+  "flask-wtf": {
+    "master": true
+  },
+  "flask-xml-rpc": {
+    "master": true
+  },
+  "flask_cors": {
+    "master": true
+  },
+  "flask_json": {
+    "master": true
+  },
+  "flask_table": {
+    "master": true
+  },
+  "flatbuffers": {
+    "master": true
+  },
+  "flatdict": {
+    "master": true
+  },
+  "flatten_json": {
+    "master": true
+  },
+  "fletcher": {
+    "master": true
+  },
+  "flex": {
+    "master": true
+  },
+  "flex-swagger": {
+    "master": true
+  },
+  "flexx": {
+    "master": true
+  },
+  "flintqs": {
+    "master": true
+  },
+  "flit": {
+    "master": true
+  },
+  "flit_install_py2": {
+    "master": true
+  },
+  "flo": {
+    "master": true
+  },
+  "flock": {
+    "master": true
+  },
+  "flopy": {
+    "master": true
+  },
+  "flot": {
+    "master": true
+  },
+  "floweaver": {
+    "master": true
+  },
+  "flower": {
+    "master": true
+  },
+  "fltk": {
+    "master": true
+  },
+  "fludashboard": {
+    "master": true
+  },
+  "fluent-logger": {
+    "master": true
+  },
+  "flufl.enum": {
+    "master": true
+  },
+  "flufl.lock": {
+    "master": true
+  },
+  "fluiddyn": {
+    "master": true
+  },
+  "fluidfft": {
+    "master": true
+  },
+  "fluidfoam": {
+    "master": true
+  },
+  "fluidimage": {
+    "master": true
+  },
+  "fluids": {
+    "master": true
+  },
+  "fluidsim": {
+    "master": true
+  },
+  "fluidsynth": {
+    "master": true
   }
 }
