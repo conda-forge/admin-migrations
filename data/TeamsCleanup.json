@@ -6691,5 +6691,761 @@
   },
   "django-wagtail-feeds": {
     "master": true
+  },
+  "django-webpack-loader": {
+    "master": true
+  },
+  "django-widget-tweaks": {
+    "master": true
+  },
+  "django_compressor": {
+    "master": true
+  },
+  "django_coverage_plugin": {
+    "master": true
+  },
+  "django_polymorphic": {
+    "master": true
+  },
+  "djangocms-admin-style": {
+    "master": true
+  },
+  "djangorestframework": {
+    "master": true
+  },
+  "djangorestframework-csv": {
+    "master": true
+  },
+  "djangorestframework-filters": {
+    "master": true
+  },
+  "djangorestframework-gis": {
+    "master": true
+  },
+  "djangorestframework-jwt": {
+    "master": true
+  },
+  "djangorestframework-xml": {
+    "master": true
+  },
+  "djangorestframework-yaml": {
+    "master": true
+  },
+  "djangorestframework_simplejwt": {
+    "master": true
+  },
+  "dlfcn-win32": {
+    "master": true
+  },
+  "dlib": {
+    "master": true
+  },
+  "dlib-cpp": {
+    "master": true
+  },
+  "dlpack": {
+    "master": true
+  },
+  "dm-sonnet": {
+    "master": true
+  },
+  "dmd": {
+    "master": true
+  },
+  "dmf-chip": {
+    "master": true
+  },
+  "dmlc": {
+    "master": true
+  },
+  "dnest4": {
+    "master": true
+  },
+  "dnslib": {
+    "master": true
+  },
+  "dnspython": {
+    "master": true
+  },
+  "doc2dash": {
+    "master": true
+  },
+  "doc8": {
+    "master": true
+  },
+  "docformatter": {
+    "master": true
+  },
+  "docker": {
+    "master": true
+  },
+  "docker-compose": {
+    "master": true
+  },
+  "docker-map": {
+    "master": true
+  },
+  "docker-py": {
+    "master": true
+  },
+  "docker-pycreds": {
+    "master": true
+  },
+  "dockermake": {
+    "master": true
+  },
+  "dockerpty": {
+    "master": true
+  },
+  "dockerspawner": {
+    "master": true
+  },
+  "doconce": {
+    "master": true
+  },
+  "docopt": {
+    "master": true
+  },
+  "docopt.cpp": {
+    "master": true
+  },
+  "docrep": {
+    "master": true
+  },
+  "docstring-coverage": {
+    "master": true
+  },
+  "doct": {
+    "master": true
+  },
+  "doctr": {
+    "master": true
+  },
+  "docutils": {
+    "master": true
+  },
+  "docx2txt": {
+    "master": true
+  },
+  "docxtpl": {
+    "master": true
+  },
+  "dodgy": {
+    "master": true
+  },
+  "doepipeline": {
+    "master": true
+  },
+  "dogpile.cache": {
+    "master": true
+  },
+  "doit": {
+    "master": true
+  },
+  "dolfin-adjoint": {
+    "master": true
+  },
+  "dolfyn": {
+    "master": true
+  },
+  "dominate": {
+    "master": true
+  },
+  "domovoi": {
+    "master": true
+  },
+  "donfig": {
+    "master": true
+  },
+  "doppel-cli": {
+    "master": true
+  },
+  "doppyo": {
+    "master": true
+  },
+  "dos2unix": {
+    "master": true
+  },
+  "dose": {
+    "master": true
+  },
+  "dotmap": {
+    "master": true
+  },
+  "double-conversion": {
+    "master": true
+  },
+  "doublemetaphone": {
+    "master": true
+  },
+  "doxygen": {
+    "master": true
+  },
+  "doxyrest": {
+    "master": true
+  },
+  "dparse": {
+    "master": true
+  },
+  "dpath": {
+    "master": true
+  },
+  "dpdata": {
+    "master": true
+  },
+  "dpgen": {
+    "master": true
+  },
+  "dpkt": {
+    "master": true
+  },
+  "dqsegdb": {
+    "master": true
+  },
+  "dqsegdb2": {
+    "master": true
+  },
+  "draco": {
+    "master": true
+  },
+  "draftjs_exporter": {
+    "master": true
+  },
+  "dramatiq": {
+    "master": true
+  },
+  "drf-haystack": {
+    "master": true
+  },
+  "drms": {
+    "master": true
+  },
+  "dropbox": {
+    "master": true
+  },
+  "ds-lime": {
+    "master": true
+  },
+  "dsc": {
+    "master": true
+  },
+  "dscribe": {
+    "master": true
+  },
+  "dsdp": {
+    "master": true
+  },
+  "dsfmt": {
+    "master": true
+  },
+  "dsub": {
+    "master": true
+  },
+  "dtale": {
+    "master": true
+  },
+  "dtool": {
+    "master": true
+  },
+  "dtool_cli": {
+    "master": true
+  },
+  "dtool_config": {
+    "master": true
+  },
+  "dtool_create": {
+    "master": true
+  },
+  "dtool_http": {
+    "master": true
+  },
+  "dtool_info": {
+    "master": true
+  },
+  "dtool_s3": {
+    "master": true
+  },
+  "dtool_symlink": {
+    "master": true
+  },
+  "dtoolcore": {
+    "master": true
+  },
+  "dukpy": {
+    "master": true
+  },
+  "dulwich": {
+    "master": true
+  },
+  "dummydata": {
+    "master": true
+  },
+  "dust_extinction": {
+    "master": true
+  },
+  "dustmaps": {
+    "master": true
+  },
+  "dvc": {
+    "master": true
+  },
+  "dxchange": {
+    "master": true
+  },
+  "dxfgrabber": {
+    "master": true
+  },
+  "dxfile": {
+    "master": true
+  },
+  "dye-score": {
+    "master": true
+  },
+  "dynamicisttoolkit": {
+    "master": true
+  },
+  "dynaphopy": {
+    "master": true
+  },
+  "dynasor": {
+    "master": true
+  },
+  "dynesty": {
+    "master": true
+  },
+  "e-antic": {
+    "master": true
+  },
+  "e3sm_to_cmip": {
+    "master": true
+  },
+  "earthengine-api": {
+    "master": true
+  },
+  "earthpy": {
+    "master": true
+  },
+  "earthsim": {
+    "master": true
+  },
+  "easy-thumbnails": {
+    "master": true
+  },
+  "easyargs": {
+    "master": true
+  },
+  "easybuild": {
+    "master": true
+  },
+  "easybuild-easyblocks": {
+    "master": true
+  },
+  "easybuild-easyconfigs": {
+    "master": true
+  },
+  "easybuild-framework": {
+    "master": true
+  },
+  "easydev": {
+    "master": true
+  },
+  "easydict": {
+    "master": true
+  },
+  "easygui": {
+    "master": true
+  },
+  "easyprocess": {
+    "master": true
+  },
+  "easytest": {
+    "master": true
+  },
+  "easywatch": {
+    "master": true
+  },
+  "ebooklib": {
+    "master": true
+  },
+  "ecco_v4_py": {
+    "master": true
+  },
+  "eccodes": {
+    "master": true
+  },
+  "ecdsa": {
+    "master": true
+  },
+  "ecell4": {
+    "master": true
+  },
+  "ecell4_base": {
+    "master": true
+  },
+  "ecflow": {
+    "master": true
+  },
+  "echopype": {
+    "master": true
+  },
+  "ecl": {
+    "master": true
+  },
+  "eclib": {
+    "master": true
+  },
+  "ecm": {
+    "master": true
+  },
+  "ecmwf-api-client": {
+    "master": true
+  },
+  "econ-ark": {
+    "master": true
+  },
+  "econtools": {
+    "master": true
+  },
+  "ecos": {
+    "master": true
+  },
+  "ecsimplesnow": {
+    "master": true
+  },
+  "edalize": {
+    "master": true
+  },
+  "edffile": {
+    "master": true
+  },
+  "edit_distance": {
+    "master": true
+  },
+  "editdistance": {
+    "master": true
+  },
+  "editline": {
+    "master": true
+  },
+  "edn_format": {
+    "master": true
+  },
+  "eelbrain": {
+    "master": true
+  },
+  "effect": {
+    "master": true
+  },
+  "egal": {
+    "master": true
+  },
+  "eigen": {
+    "master": true
+  },
+  "eigenpy": {
+    "master": true
+  },
+  "eight": {
+    "master": true
+  },
+  "eikon": {
+    "master": true
+  },
+  "einops": {
+    "master": true
+  },
+  "einsteinpy": {
+    "master": true
+  },
+  "ejplugins": {
+    "master": true
+  },
+  "elastic": {
+    "master": true
+  },
+  "elasticconstants": {
+    "master": true
+  },
+  "elasticsearch": {
+    "master": true
+  },
+  "elasticsearch-async": {
+    "master": true
+  },
+  "elasticsearch-dsl": {
+    "master": true
+  },
+  "electron": {
+    "master": true
+  },
+  "elektronn": {
+    "master": true
+  },
+  "elektronn2": {
+    "master": true
+  },
+  "elementpath": {
+    "master": true
+  },
+  "elephas": {
+    "master": true
+  },
+  "elevation": {
+    "master": true
+  },
+  "elfi": {
+    "master": true
+  },
+  "elfutils": {
+    "master": true
+  },
+  "elfx86exts": {
+    "master": true
+  },
+  "eli5": {
+    "master": true
+  },
+  "eliot": {
+    "master": true
+  },
+  "eliot-tree": {
+    "master": true
+  },
+  "elixir": {
+    "master": true
+  },
+  "elm": {
+    "master": true
+  },
+  "emacs": {
+    "master": true
+  },
+  "email_validator": {
+    "master": true
+  },
+  "embree": {
+    "master": true
+  },
+  "embree3": {
+    "master": true
+  },
+  "emcee": {
+    "master": true
+  },
+  "emg3d": {
+    "master": true
+  },
+  "emoji": {
+    "master": true
+  },
+  "empath": {
+    "master": true
+  },
+  "emperor": {
+    "master": true
+  },
+  "empy": {
+    "master": true
+  },
+  "empymod": {
+    "master": true
+  },
+  "empyrical": {
+    "master": true
+  },
+  "empyrical-dist": {
+    "master": true
+  },
+  "enaml": {
+    "master": true
+  },
+  "engarde": {
+    "master": true
+  },
+  "enlopy": {
+    "master": true
+  },
+  "ensmallen": {
+    "master": true
+  },
+  "entropy": {
+    "master": true
+  },
+  "entrypoints": {
+    "master": true
+  },
+  "entsoe-py": {
+    "master": true
+  },
+  "entwine": {
+    "master": true
+  },
+  "enum-compat": {
+    "master": true
+  },
+  "enum34": {
+    "master": true
+  },
+  "environment-modules": {
+    "master": true
+  },
+  "environs": {
+    "master": true
+  },
+  "envisage": {
+    "master": true
+  },
+  "envs": {
+    "master": true
+  },
+  "eo-learn": {
+    "master": true
+  },
+  "eo-learn-core": {
+    "master": true
+  },
+  "eo-learn-coregistration": {
+    "master": true
+  },
+  "eo-learn-features": {
+    "master": true
+  },
+  "eo-learn-geometry": {
+    "master": true
+  },
+  "eo-learn-io": {
+    "master": true
+  },
+  "eo-learn-mask": {
+    "master": true
+  },
+  "eo-learn-ml-tools": {
+    "master": true
+  },
+  "eo-learn-visualization": {
+    "master": true
+  },
+  "eofs": {
+    "master": true
+  },
+  "eonr": {
+    "master": true
+  },
+  "epc": {
+    "master": true
+  },
+  "ephem": {
+    "master": true
+  },
+  "ephyviewer": {
+    "master": true
+  },
+  "epic2cf": {
+    "master": true
+  },
+  "epics-base": {
+    "master": true
+  },
+  "epics-pypdb": {
+    "master": true
+  },
+  "epicscorelibs": {
+    "master": true
+  },
+  "epoxy": {
+    "master": true
+  },
+  "epysurv": {
+    "master": true
+  },
+  "eqcorrscan": {
+    "master": true
+  },
+  "erddapy": {
+    "master": true
+  },
+  "erlang": {
+    "master": true
+  },
+  "escapism": {
+    "master": true
+  },
+  "esda": {
+    "master": true
+  },
+  "esgf-pyclient": {
+    "master": true
+  },
+  "esmcol-validator": {
+    "master": true
+  },
+  "esmf": {
+    "master": true
+  },
+  "esmlab": {
+    "master": true
+  },
+  "esmp": {
+    "master": true
+  },
+  "esmpy": {
+    "master": true
+  },
+  "espei": {
+    "master": true
+  },
+  "esprima-python": {
+    "master": true
+  },
+  "esptool": {
+    "master": true
+  },
+  "esutil": {
+    "master": true
+  },
+  "esys-escript": {
+    "master": true
+  },
+  "et-xmlfile": {
+    "master": true
+  },
+  "et_xmlfile": {
+    "master": true
+  },
+  "etcd": {
+    "master": true
+  },
+  "ete3": {
+    "master": true
+  },
+  "etelemetry": {
+    "master": true
+  },
+  "eulexistdb": {
+    "master": true
+  },
+  "eulxml": {
+    "master": true
+  },
+  "event-model": {
+    "master": true
+  },
+  "eventkit": {
+    "master": true
+  },
+  "eventlet": {
+    "master": true
+  },
+  "events": {
+    "master": true
+  },
+  "everett": {
+    "master": true
+  },
+  "evolutionary_keras": {
+    "master": true
+  },
+  "evv4esm": {
+    "master": true
   }
 }
