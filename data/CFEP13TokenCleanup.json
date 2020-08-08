@@ -19581,5 +19581,742 @@
   },
   "r-lsr": {
     "master": true
+  },
+  "r-lubridate": {
+    "master": true
+  },
+  "r-lwgeom": {
+    "master": true
+  },
+  "r-magic": {
+    "master": true
+  },
+  "r-magicaxis": {
+    "master": true
+  },
+  "r-magick": {
+    "master": true
+  },
+  "r-magrittr": {
+    "master": true
+  },
+  "r-maldiquant": {
+    "master": true
+  },
+  "r-maldiquantforeign": {
+    "master": true
+  },
+  "r-maldirppa": {
+    "master": true
+  },
+  "r-manipulate": {
+    "master": true
+  },
+  "r-manipulatewidget": {
+    "master": true
+  },
+  "r-mapdata": {
+    "master": true
+  },
+  "r-mapdeck": {
+    "master": true
+  },
+  "r-mapedit": {
+    "master": true
+  },
+  "r-mapplots": {
+    "master": true
+  },
+  "r-mapproj": {
+    "master": true
+  },
+  "r-maps": {
+    "master": true
+  },
+  "r-maptools": {
+    "master": true
+  },
+  "r-maptpx": {
+    "master": true
+  },
+  "r-maptree": {
+    "master": true
+  },
+  "r-mapview": {
+    "master": true
+  },
+  "r-margins": {
+    "master": true
+  },
+  "r-markdown": {
+    "master": true
+  },
+  "r-markovchain": {
+    "master": true
+  },
+  "r-mass": {
+    "master": true
+  },
+  "r-matching": {
+    "master": true
+  },
+  "r-matlab": {
+    "master": true
+  },
+  "r-matlib": {
+    "master": true
+  },
+  "r-matrix": {
+    "master": true
+  },
+  "r-matrix.utils": {
+    "master": true
+  },
+  "r-matrixcalc": {
+    "master": true
+  },
+  "r-matrixeqtl": {
+    "master": true
+  },
+  "r-matrixmodels": {
+    "master": true
+  },
+  "r-matrixstats": {
+    "master": true
+  },
+  "r-matrixtests": {
+    "master": true
+  },
+  "r-maxlik": {
+    "master": true
+  },
+  "r-maxstat": {
+    "master": true
+  },
+  "r-mba": {
+    "master": true
+  },
+  "r-mbess": {
+    "master": true
+  },
+  "r-mboost": {
+    "master": true
+  },
+  "r-mc2d": {
+    "master": true
+  },
+  "r-mcbiopi": {
+    "master": true
+  },
+  "r-mcl": {
+    "master": true
+  },
+  "r-mclust": {
+    "master": true
+  },
+  "r-mcmc": {
+    "master": true
+  },
+  "r-mcmcglmm": {
+    "master": true
+  },
+  "r-mcmcpack": {
+    "master": true
+  },
+  "r-mcmcprecision": {
+    "master": true
+  },
+  "r-mco": {
+    "master": true
+  },
+  "r-mcpan": {
+    "master": true
+  },
+  "r-mda": {
+    "master": true
+  },
+  "r-mdmr": {
+    "master": true
+  },
+  "r-medicalrisk": {
+    "master": true
+  },
+  "r-mefa": {
+    "master": true
+  },
+  "r-memoise": {
+    "master": true
+  },
+  "r-memuse": {
+    "master": true
+  },
+  "r-mertools": {
+    "master": true
+  },
+  "r-mess": {
+    "master": true
+  },
+  "r-meta": {
+    "master": true
+  },
+  "r-metabma": {
+    "master": true
+  },
+  "r-metacycle": {
+    "master": true
+  },
+  "r-metafor": {
+    "master": true
+  },
+  "r-metap": {
+    "master": true
+  },
+  "r-metaplus": {
+    "master": true
+  },
+  "r-metarnaseq": {
+    "master": true
+  },
+  "r-metr": {
+    "master": true
+  },
+  "r-metrics": {
+    "master": true
+  },
+  "r-metstat": {
+    "master": true
+  },
+  "r-mgcv": {
+    "master": true
+  },
+  "r-mglm": {
+    "master": true
+  },
+  "r-mgrs": {
+    "master": true
+  },
+  "r-mgsub": {
+    "master": true
+  },
+  "r-mhadaptive": {
+    "master": true
+  },
+  "r-mhsmm": {
+    "master": true
+  },
+  "r-mi": {
+    "master": true
+  },
+  "r-mice": {
+    "master": true
+  },
+  "r-microbenchmark": {
+    "master": true
+  },
+  "r-micropan": {
+    "master": true
+  },
+  "r-microseq": {
+    "master": true
+  },
+  "r-mime": {
+    "master": true
+  },
+  "r-minerva": {
+    "master": true
+  },
+  "r-minicran": {
+    "master": true
+  },
+  "r-miniui": {
+    "master": true
+  },
+  "r-minpack.lm": {
+    "master": true
+  },
+  "r-minqa": {
+    "master": true
+  },
+  "r-mirt": {
+    "master": true
+  },
+  "r-misc3d": {
+    "master": true
+  },
+  "r-miscf": {
+    "master": true
+  },
+  "r-misctools": {
+    "master": true
+  },
+  "r-missforest": {
+    "master": true
+  },
+  "r-missmda": {
+    "master": true
+  },
+  "r-mitml": {
+    "master": true
+  },
+  "r-mitools": {
+    "master": true
+  },
+  "r-mixomics": {
+    "master": true
+  },
+  "r-mixsmsn": {
+    "master": true
+  },
+  "r-mixsqp": {
+    "master": true
+  },
+  "r-mixtools": {
+    "master": true
+  },
+  "r-mlapi": {
+    "master": true
+  },
+  "r-mlbench": {
+    "master": true
+  },
+  "r-mlflow": {
+    "master": true,
+    "backports": true
+  },
+  "r-mlgt": {
+    "master": true
+  },
+  "r-mlmetrics": {
+    "master": true
+  },
+  "r-mlmrev": {
+    "master": true
+  },
+  "r-mlogit": {
+    "master": true
+  },
+  "r-mlr": {
+    "master": true
+  },
+  "r-mlrmbo": {
+    "master": true
+  },
+  "r-mmod": {
+    "master": true
+  },
+  "r-mnormt": {
+    "master": true
+  },
+  "r-mockery": {
+    "master": true
+  },
+  "r-modeest": {
+    "master": true
+  },
+  "r-modeldb": {
+    "master": true
+  },
+  "r-modelmetrics": {
+    "master": true
+  },
+  "r-modelr": {
+    "master": true
+  },
+  "r-modeltools": {
+    "master": true
+  },
+  "r-modes": {
+    "master": true
+  },
+  "r-moments": {
+    "master": true
+  },
+  "r-momr": {
+    "master": true
+  },
+  "r-mongolite": {
+    "master": true
+  },
+  "r-moonbook": {
+    "master": true
+  },
+  "r-mosaiccore": {
+    "master": true
+  },
+  "r-mosaicdata": {
+    "master": true
+  },
+  "r-mpm": {
+    "master": true
+  },
+  "r-mpmi": {
+    "master": true
+  },
+  "r-mpoly": {
+    "master": true
+  },
+  "r-mppa": {
+    "master": true
+  },
+  "r-mqtl": {
+    "master": true
+  },
+  "r-mratios": {
+    "master": true
+  },
+  "r-mrmre": {
+    "master": true
+  },
+  "r-msgps": {
+    "master": true
+  },
+  "r-msigdbr": {
+    "master": true
+  },
+  "r-msm": {
+    "master": true
+  },
+  "r-multbxxc": {
+    "master": true
+  },
+  "r-multcomp": {
+    "master": true
+  },
+  "r-multcompview": {
+    "master": true
+  },
+  "r-multicool": {
+    "master": true
+  },
+  "r-multimode": {
+    "master": true
+  },
+  "r-multinet": {
+    "master": true
+  },
+  "r-multipanelfigure": {
+    "master": true,
+    "updated_rsvg": true
+  },
+  "r-multiroc": {
+    "master": true
+  },
+  "r-multitaper": {
+    "master": true
+  },
+  "r-multiway": {
+    "master": true
+  },
+  "r-mumin": {
+    "master": true
+  },
+  "r-munsell": {
+    "master": true
+  },
+  "r-mustat": {
+    "master": true
+  },
+  "r-mvnfast": {
+    "master": true
+  },
+  "r-mvnormtest": {
+    "master": true
+  },
+  "r-mvoutlier": {
+    "master": true
+  },
+  "r-mvr": {
+    "master": true
+  },
+  "r-mvtnorm": {
+    "master": true
+  },
+  "r-mxmmod": {
+    "master": true
+  },
+  "r-n1qn1": {
+    "master": true
+  },
+  "r-nada": {
+    "master": true
+  },
+  "r-naivebayes": {
+    "master": true
+  },
+  "r-nam": {
+    "master": true
+  },
+  "r-naniar": {
+    "master": true
+  },
+  "r-nardl": {
+    "master": true
+  },
+  "r-narray": {
+    "master": true
+  },
+  "r-natserv": {
+    "master": true
+  },
+  "r-naturalsort": {
+    "master": true
+  },
+  "r-nbclust": {
+    "master": true
+  },
+  "r-ncbit": {
+    "master": true
+  },
+  "r-ncdf4": {
+    "master": true
+  },
+  "r-ncdunnett": {
+    "master": true
+  },
+  "r-ncmeta": {
+    "master": true
+  },
+  "r-ncmisc": {
+    "master": true
+  },
+  "r-neldermead": {
+    "master": true
+  },
+  "r-netrankr": {
+    "master": true
+  },
+  "r-network": {
+    "master": true
+  },
+  "r-networkd3": {
+    "master": true
+  },
+  "r-networkdynamic": {
+    "master": true
+  },
+  "r-neuralnet": {
+    "master": true
+  },
+  "r-nhmmfdr": {
+    "master": true
+  },
+  "r-nistunits": {
+    "master": true
+  },
+  "r-nleqslv": {
+    "master": true
+  },
+  "r-nlme": {
+    "master": true
+  },
+  "r-nlmixr": {
+    "master": true
+  },
+  "r-nloptr": {
+    "master": true
+  },
+  "r-nlp": {
+    "master": true
+  },
+  "r-nls2": {
+    "master": true
+  },
+  "r-nmf": {
+    "master": true
+  },
+  "r-nnet": {
+    "master": true
+  },
+  "r-nnlasso": {
+    "master": true
+  },
+  "r-nnls": {
+    "master": true
+  },
+  "r-nntensor": {
+    "master": true
+  },
+  "r-nodiv": {
+    "master": true
+  },
+  "r-nomclust": {
+    "master": true
+  },
+  "r-nor1mix": {
+    "master": true
+  },
+  "r-norm": {
+    "master": true
+  },
+  "r-nortest": {
+    "master": true
+  },
+  "r-nozzle.r1": {
+    "master": true
+  },
+  "r-nparcomp": {
+    "master": true
+  },
+  "r-npsurv": {
+    "master": true
+  },
+  "r-nsprcomp": {
+    "master": true
+  },
+  "r-numbers": {
+    "master": true
+  },
+  "r-numderiv": {
+    "master": true
+  },
+  "r-nycflights13": {
+    "master": true
+  },
+  "r-oai": {
+    "master": true
+  },
+  "r-obistools": {
+    "master": true
+  },
+  "r-objectproperties": {
+    "master": true
+  },
+  "r-objectsignals": {
+    "master": true
+  },
+  "r-oce": {
+    "master": true
+  },
+  "r-oceanview": {
+    "master": true
+  },
+  "r-odbc": {
+    "master": true
+  },
+  "r-officer": {
+    "master": true
+  },
+  "r-onehot": {
+    "master": true
+  },
+  "r-ontologyindex": {
+    "master": true
+  },
+  "r-ontologysimilarity": {
+    "master": true
+  },
+  "r-oompabase": {
+    "master": true
+  },
+  "r-oompadata": {
+    "master": true
+  },
+  "r-opencpu": {
+    "master": true
+  },
+  "r-openimager": {
+    "master": true
+  },
+  "r-openmx": {
+    "master": true
+  },
+  "r-openssl": {
+    "master": true
+  },
+  "r-openxlsx": {
+    "master": true
+  },
+  "r-operator.tools": {
+    "master": true
+  },
+  "r-optextras": {
+    "master": true
+  },
+  "r-optimalcutpoints": {
+    "master": true
+  },
+  "r-optimbase": {
+    "master": true
+  },
+  "r-optimr": {
+    "master": true
+  },
+  "r-optimsimplex": {
+    "master": true
+  },
+  "r-optimx": {
+    "master": true
+  },
+  "r-optparse": {
+    "master": true
+  },
+  "r-orcme": {
+    "master": true
+  },
+  "r-ordinal": {
+    "master": true
+  },
+  "r-ore": {
+    "master": true
+  },
+  "r-orgmassspecr": {
+    "master": true
+  },
+  "r-oriclust": {
+    "master": true
+  },
+  "r-origami": {
+    "master": true
+  },
+  "r-orthopolynom": {
+    "master": true
+  },
+  "r-osmar": {
+    "master": true
+  },
+  "r-osmdata": {
+    "master": true
+  },
+  "r-outliers": {
+    "master": true
+  },
+  "r-pack": {
+    "master": true
+  },
+  "r-packrat": {
+    "master": true
+  },
+  "r-paco": {
+    "master": true
+  },
+  "r-padr": {
+    "master": true
+  },
+  "r-paintmap": {
+    "master": true
+  },
+  "r-pairsd3": {
+    "master": true
+  },
+  "r-pairwisecomparisons": {
+    "master": true
+  },
+  "r-pak": {
+    "master": true
+  },
+  "r-paletteer": {
+    "master": true
+  },
+  "r-palr": {
+    "master": true
+  },
+  "r-pals": {
+    "master": true
+  },
+  "r-pamr": {
+    "master": true
+  },
+  "r-pan": {
+    "master": true
   }
 }
