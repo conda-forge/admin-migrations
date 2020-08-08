@@ -253,17 +253,18 @@ def run_migrators(feedstock, migrators):
                                 print("    ERROR:", repr(e))
 
                             if commit_me:
+                                _run_git_command([
+                                    "commit",
+                                    "--allow-empty",
+                                    "-am",
+                                    "[ci skip] [skip ci] [cf admin skip] "
+                                    "***NO_CI*** %s" % m.message(),
+                                ])
+
                                 made_api_calls = True
                                 is_archived = _repo_is_archived(feedstock)
                                 if is_archived is not None:
                                     if not is_archived:
-                                        _run_git_command([
-                                            "commit",
-                                            "--allow-empty",
-                                            "-am",
-                                            "[ci skip] [skip ci] [cf admin skip] "
-                                            "***NO_CI*** %s" % m.message(),
-                                        ])
                                         _run_git_command(["push", "--quiet"])
                                     else:
                                         print("not pushing to archived feedstock")
