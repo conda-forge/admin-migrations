@@ -16531,5 +16531,701 @@
   },
   "pyexcel-ods3": {
     "master": true
+  },
+  "pyexcel-webio": {
+    "master": true
+  },
+  "pyexcel-xls": {
+    "master": true
+  },
+  "pyexcel-xlsx": {
+    "master": true
+  },
+  "pyexodus": {
+    "master": true
+  },
+  "pyexpander": {
+    "master": true
+  },
+  "pyface": {
+    "master": true
+  },
+  "pyfai": {
+    "master": true
+  },
+  "pyfakefs": {
+    "master": true
+  },
+  "pyferret": {
+    "master": true
+  },
+  "pyfftw": {
+    "master": true
+  },
+  "pyfiglet": {
+    "master": true
+  },
+  "pyfileindex": {
+    "master": true
+  },
+  "pyfim": {
+    "master": true
+  },
+  "pyfinance": {
+    "master": true
+  },
+  "pyfirmata": {
+    "master": true
+  },
+  "pyfive": {
+    "master": true
+  },
+  "pyfizi": {
+    "master": true
+  },
+  "pyflakes": {
+    "master": true
+  },
+  "pyflame": {
+    "master": true
+  },
+  "pyflann": {
+    "master": true
+  },
+  "pyflow": {
+    "master": true
+  },
+  "pyfmi": {
+    "master": true
+  },
+  "pyfmmlib": {
+    "master": true
+  },
+  "pyfolio": {
+    "master": true
+  },
+  "pyfor": {
+    "master": true
+  },
+  "pyfpgrowth": {
+    "master": true
+  },
+  "pyftdi": {
+    "master": true
+  },
+  "pyftpdlib": {
+    "master": true
+  },
+  "pygacode": {
+    "master": true
+  },
+  "pygal": {
+    "master": true
+  },
+  "pygam": {
+    "master": true
+  },
+  "pygaze": {
+    "master": true
+  },
+  "pygc": {
+    "master": true
+  },
+  "pygcn": {
+    "master": true
+  },
+  "pygdp": {
+    "master": true
+  },
+  "pygelf": {
+    "master": true
+  },
+  "pygeoapi": {
+    "master": true
+  },
+  "pygeobase": {
+    "master": true
+  },
+  "pygeogrids": {
+    "master": true
+  },
+  "pygeohash": {
+    "master": true
+  },
+  "pygeoif": {
+    "master": true
+  },
+  "pygeoip": {
+    "master": true
+  },
+  "pygeometa": {
+    "master": true
+  },
+  "pygeos": {
+    "master": true
+  },
+  "pygff": {
+    "master": true
+  },
+  "pygit2": {
+    "master": true
+  },
+  "pygithub": {
+    "master": true
+  },
+  "pyglet": {
+    "master": true
+  },
+  "pyglfw": {
+    "master": true
+  },
+  "pyglmnet": {
+    "master": true
+  },
+  "pygls": {
+    "master": true
+  },
+  "pygments": {
+    "master": true
+  },
+  "pygments-cache": {
+    "master": true
+  },
+  "pygments_anyscript": {
+    "master": true
+  },
+  "pygments_pytest": {
+    "master": true
+  },
+  "pygmo": {
+    "master": true
+  },
+  "pygmo_plugins_nonfree": {
+    "master": true
+  },
+  "pygobject": {
+    "master": true
+  },
+  "pygpu": {
+    "master": true
+  },
+  "pygram11": {
+    "master": true
+  },
+  "pygrametl": {
+    "master": true
+  },
+  "pygraphml": {
+    "master": true
+  },
+  "pygraphviz": {
+    "master": true
+  },
+  "pygrib": {
+    "master": true
+  },
+  "pygridgen": {
+    "master": true
+  },
+  "pygridtools": {
+    "master": true
+  },
+  "pygsi": {
+    "master": true
+  },
+  "pygslodeiv2": {
+    "master": true
+  },
+  "pygsp": {
+    "master": true
+  },
+  "pygtail": {
+    "master": true
+  },
+  "pygtrie": {
+    "master": true
+  },
+  "pygypsy": {
+    "master": true
+  },
+  "pyhamcrest": {
+    "master": true
+  },
+  "pyhdb": {
+    "master": true
+  },
+  "pyhdf": {
+    "master": true
+  },
+  "pyhmc": {
+    "master": true
+  },
+  "pyhocon": {
+    "master": true
+  },
+  "pyhrf": {
+    "master": true
+  },
+  "pyhull": {
+    "master": true
+  },
+  "pyhum": {
+    "master": true
+  },
+  "pyicu": {
+    "master": true
+  },
+  "pyigrf": {
+    "master": true
+  },
+  "pyimagej": {
+    "master": true
+  },
+  "pyimgur": {
+    "master": true
+  },
+  "pyinotify": {
+    "master": true
+  },
+  "pyinstaller": {
+    "master": true
+  },
+  "pyinstrument": {
+    "master": true
+  },
+  "pyinstrument_cext": {
+    "master": true
+  },
+  "pyinterp": {
+    "master": true
+  },
+  "pyinterval": {
+    "master": true
+  },
+  "pyiron": {
+    "master": true
+  },
+  "pyisemail": {
+    "master": true
+  },
+  "pyjanitor": {
+    "master": true
+  },
+  "pyjks": {
+    "master": true
+  },
+  "pyjnius": {
+    "master": true
+  },
+  "pyjokes": {
+    "master": true
+  },
+  "pyjsparser": {
+    "master": true
+  },
+  "pyjwkest": {
+    "master": true
+  },
+  "pyjwt": {
+    "master": true
+  },
+  "pykafka": {
+    "master": true
+  },
+  "pykalman": {
+    "master": true
+  },
+  "pykdtree": {
+    "master": true
+  },
+  "pyke": {
+    "master": true
+  },
+  "pykep": {
+    "master": true
+  },
+  "pykerberos": {
+    "master": true
+  },
+  "pykicad": {
+    "master": true
+  },
+  "pykml": {
+    "master": true
+  },
+  "pykrige": {
+    "master": true
+  },
+  "pykriging": {
+    "master": true
+  },
+  "pykwalify": {
+    "master": true
+  },
+  "pylama": {
+    "master": true
+  },
+  "pylammpsmpi": {
+    "master": true
+  },
+  "pylandstats": {
+    "master": true
+  },
+  "pylatexenc": {
+    "master": true
+  },
+  "pylbfgs": {
+    "master": true
+  },
+  "pylbm": {
+    "master": true
+  },
+  "pyld": {
+    "master": true
+  },
+  "pyldavis": {
+    "master": true
+  },
+  "pylems": {
+    "master": true
+  },
+  "pylev": {
+    "master": true
+  },
+  "pylibmc": {
+    "master": true
+  },
+  "pylibscrypt": {
+    "master": true
+  },
+  "pylibtiff": {
+    "master": true
+  },
+  "pylint": {
+    "master": true
+  },
+  "pylint-celery": {
+    "master": true
+  },
+  "pylint-common": {
+    "master": true
+  },
+  "pylint-django": {
+    "master": true
+  },
+  "pylint-flask": {
+    "master": true
+  },
+  "pylint-plugin-utils": {
+    "master": true
+  },
+  "pylogit": {
+    "master": true
+  },
+  "pylons": {
+    "master": true
+  },
+  "pylops": {
+    "master": true
+  },
+  "pylru": {
+    "master": true
+  },
+  "pyluach": {
+    "master": true
+  },
+  "pymagej": {
+    "master": true
+  },
+  "pymannkendall": {
+    "master": true
+  },
+  "pymap3d": {
+    "master": true
+  },
+  "pymapd": {
+    "master": true
+  },
+  "pymatbridge": {
+    "master": true
+  },
+  "pymatgen": {
+    "master": true
+  },
+  "pymatgen-db": {
+    "master": true
+  },
+  "pymatgen-diffusion": {
+    "master": true
+  },
+  "pymatnest": {
+    "master": true
+  },
+  "pymatsolver": {
+    "master": true
+  },
+  "pymbar": {
+    "master": true
+  },
+  "pymbolic": {
+    "master": true
+  },
+  "pymc": {
+    "master": true
+  },
+  "pymc3": {
+    "master": true
+  },
+  "pymca": {
+    "master": true
+  },
+  "pymca-zocalo": {
+    "master": true
+  },
+  "pymcr": {
+    "master": true
+  },
+  "pymdi": {
+    "master": true
+  },
+  "pymdown-extensions": {
+    "master": true
+  },
+  "pymdwizard": {
+    "master": true
+  },
+  "pymeasure": {
+    "master": true
+  },
+  "pymedphys": {
+    "master": true
+  },
+  "pymeep": {
+    "master": true
+  },
+  "pymemcache": {
+    "master": true
+  },
+  "pymesh2": {
+    "master": true
+  },
+  "pymiescatt": {
+    "master": true
+  },
+  "pymkl": {
+    "master": true
+  },
+  "pymks": {
+    "master": true
+  },
+  "pymodbustcp": {
+    "master": true
+  },
+  "pymodm": {
+    "master": true
+  },
+  "pymodsecurity": {
+    "master": true
+  },
+  "pymonetdb": {
+    "master": true
+  },
+  "pymongo": {
+    "master": true
+  },
+  "pymor": {
+    "master": true
+  },
+  "pymorphy2": {
+    "master": true
+  },
+  "pymorphy2-dicts": {
+    "master": true
+  },
+  "pymorphy2-dicts-ru": {
+    "master": true
+  },
+  "pympler": {
+    "master": true
+  },
+  "pymsgbox": {
+    "master": true
+  },
+  "pymssql": {
+    "master": true
+  },
+  "pymt": {
+    "master": true
+  },
+  "pymt_cem": {
+    "master": true
+  },
+  "pymt_child": {
+    "master": true
+  },
+  "pymt_ecsimplesnow": {
+    "master": true
+  },
+  "pymt_gipl": {
+    "master": true
+  },
+  "pymt_hydrotrend": {
+    "master": true
+  },
+  "pymt_landlab": {
+    "master": true
+  },
+  "pymt_permamodel": {
+    "master": true
+  },
+  "pymt_rafem": {
+    "master": true
+  },
+  "pymt_sedflux": {
+    "master": true
+  },
+  "pymultinest": {
+    "master": true
+  },
+  "pymumps": {
+    "master": true
+  },
+  "pymunk": {
+    "master": true
+  },
+  "pymvpa2": {
+    "master": true
+  },
+  "pymysql": {
+    "master": true
+  },
+  "pynac": {
+    "master": true
+  },
+  "pynacl": {
+    "master": true
+  },
+  "pynamical": {
+    "master": true
+  },
+  "pynamodb": {
+    "master": true
+  },
+  "pyncml": {
+    "master": true
+  },
+  "pynco": {
+    "master": true
+  },
+  "pyne": {
+    "master": true
+  },
+  "pynetdicom": {
+    "master": true
+  },
+  "pynfft": {
+    "master": true
+  },
+  "pyngl": {
+    "master": true
+  },
+  "pynini": {
+    "master": true
+  },
+  "pynio": {
+    "master": true
+  },
+  "pynmea2": {
+    "master": true
+  },
+  "pynndescent": {
+    "master": true
+  },
+  "pynrrd": {
+    "master": true
+  },
+  "pyntcloud": {
+    "master": true
+  },
+  "pynucos": {
+    "master": true
+  },
+  "pynumero_libraries": {
+    "master": true
+  },
+  "pynumpress": {
+    "master": true
+  },
+  "pynvim": {
+    "master": true
+  },
+  "pynvml": {
+    "master": true
+  },
+  "pynwb": {
+    "master": true
+  },
+  "pyobjc-core": {
+    "master": true
+  },
+  "pyobjc-framework-cocoa": {
+    "master": true
+  },
+  "pyobjc-framework-fsevents": {
+    "master": true
+  },
+  "pyobjc-framework-quartz": {
+    "master": true
+  },
+  "pyobjcryst": {
+    "master": true
+  },
+  "pyod": {
+    "master": true
+  },
+  "pyodbc": {
+    "master": true
+  },
+  "pyodeint": {
+    "master": true
+  },
+  "pyomeca": {
+    "master": true
+  },
+  "pyomo": {
+    "master": true
+  },
+  "pyomo.solvers": {
+    "master": true
+  },
+  "pyoos": {
+    "master": true
+  },
+  "pyopcode": {
+    "master": true
+  },
+  "pyopencl": {
+    "master": true
+  },
+  "pyopengl": {
+    "master": true
+  },
+  "pyopenssl": {
+    "master": true
+  },
+  "pyophidia": {
+    "master": true
+  },
+  "pyorbital": {
+    "master": true
+  },
+  "pyorgmode": {
+    "master": true
+  },
+  "pyosf": {
+    "master": true
+  },
+  "pyosreplace": {
+    "master": true
   }
 }
