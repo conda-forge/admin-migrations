@@ -16734,5 +16734,741 @@
   },
   "r-ada": {
     "master": true
+  },
+  "r-additivitytests": {
+    "master": true
+  },
+  "r-ade4": {
+    "master": true
+  },
+  "r-adegenet": {
+    "master": true
+  },
+  "r-adehabitatlt": {
+    "master": true
+  },
+  "r-adehabitatma": {
+    "master": true
+  },
+  "r-adephylo": {
+    "master": true
+  },
+  "r-adgoftest": {
+    "master": true
+  },
+  "r-adlift": {
+    "master": true
+  },
+  "r-admisc": {
+    "master": true
+  },
+  "r-aer": {
+    "master": true
+  },
+  "r-afex": {
+    "master": true
+  },
+  "r-aggregation": {
+    "master": true
+  },
+  "r-agricolae": {
+    "master": true
+  },
+  "r-ahocorasicktrie": {
+    "master": true
+  },
+  "r-airr": {
+    "master": true
+  },
+  "r-akima": {
+    "master": true
+  },
+  "r-alabama": {
+    "master": true
+  },
+  "r-alakazam": {
+    "master": true
+  },
+  "r-aleplot": {
+    "master": true
+  },
+  "r-algdesign": {
+    "master": true
+  },
+  "r-alluvial": {
+    "master": true
+  },
+  "r-alphavantager": {
+    "master": true
+  },
+  "r-als": {
+    "master": true
+  },
+  "r-amap": {
+    "master": true
+  },
+  "r-ampliconduo": {
+    "master": true
+  },
+  "r-animation": {
+    "master": true
+  },
+  "r-anom": {
+    "master": true
+  },
+  "r-anomalydetection": {
+    "master": true
+  },
+  "r-anytime": {
+    "master": true
+  },
+  "r-aod": {
+    "master": true
+  },
+  "r-apatables": {
+    "master": true
+  },
+  "r-apcluster": {
+    "master": true
+  },
+  "r-ape": {
+    "master": true
+  },
+  "r-aplpack": {
+    "master": true
+  },
+  "r-aptreeshape": {
+    "master": true
+  },
+  "r-aqp": {
+    "master": true
+  },
+  "r-argonr": {
+    "master": true
+  },
+  "r-argparse": {
+    "master": true
+  },
+  "r-argparser": {
+    "master": true
+  },
+  "r-argumentcheck": {
+    "master": true
+  },
+  "r-arm": {
+    "master": true
+  },
+  "r-aroma.apd": {
+    "master": true
+  },
+  "r-arrapply": {
+    "master": true
+  },
+  "r-arrayhelpers": {
+    "master": true
+  },
+  "r-arrow": {
+    "master": true
+  },
+  "r-arsenal": {
+    "master": true
+  },
+  "r-arules": {
+    "master": true
+  },
+  "r-asbio": {
+    "master": true
+  },
+  "r-ascii": {
+    "master": true
+  },
+  "r-ash": {
+    "master": true
+  },
+  "r-ashr": {
+    "master": true
+  },
+  "r-asioheaders": {
+    "master": true
+  },
+  "r-askpass": {
+    "master": true
+  },
+  "r-assertive": {
+    "master": true
+  },
+  "r-assertive.base": {
+    "master": true
+  },
+  "r-assertive.code": {
+    "master": true
+  },
+  "r-assertive.data": {
+    "master": true
+  },
+  "r-assertive.data.uk": {
+    "master": true
+  },
+  "r-assertive.data.us": {
+    "master": true
+  },
+  "r-assertive.datetimes": {
+    "master": true
+  },
+  "r-assertive.files": {
+    "master": true
+  },
+  "r-assertive.matrices": {
+    "master": true
+  },
+  "r-assertive.models": {
+    "master": true
+  },
+  "r-assertive.numbers": {
+    "master": true,
+    "rerender": true
+  },
+  "r-assertive.properties": {
+    "master": true
+  },
+  "r-assertive.reflection": {
+    "master": true
+  },
+  "r-assertive.sets": {
+    "master": true
+  },
+  "r-assertive.strings": {
+    "master": true
+  },
+  "r-assertive.types": {
+    "master": true
+  },
+  "r-assertr": {
+    "master": true
+  },
+  "r-assertthat": {
+    "master": true
+  },
+  "r-assotester": {
+    "master": true
+  },
+  "r-attempt": {
+    "master": true
+  },
+  "r-auc": {
+    "master": true
+  },
+  "r-automap": {
+    "master": true
+  },
+  "r-autoplotly": {
+    "master": true
+  },
+  "r-autoshiny": {
+    "master": true
+  },
+  "r-aws": {
+    "master": true
+  },
+  "r-aws.ec2metadata": {
+    "master": true
+  },
+  "r-aws.s3": {
+    "master": true,
+    "dev": true
+  },
+  "r-aws.signature": {
+    "master": true
+  },
+  "r-awsmethods": {
+    "master": true
+  },
+  "r-backports": {
+    "master": true
+  },
+  "r-barcoder": {
+    "master": true
+  },
+  "r-base": {
+    "master": true,
+    "3.5.x": true,
+    "3.6.x": true
+  },
+  "r-base64": {
+    "master": true
+  },
+  "r-base64enc": {
+    "master": true
+  },
+  "r-base64url": {
+    "master": true
+  },
+  "r-baseline": {
+    "master": true
+  },
+  "r-basictrendline": {
+    "master": true
+  },
+  "r-basix": {
+    "master": true
+  },
+  "r-batch": {
+    "master": true
+  },
+  "r-batchjobs": {
+    "master": true
+  },
+  "r-batchtools": {
+    "master": true
+  },
+  "r-bayesfactor": {
+    "master": true
+  },
+  "r-bayesm": {
+    "master": true
+  },
+  "r-bayesplot": {
+    "master": true
+  },
+  "r-bayestestr": {
+    "master": true
+  },
+  "r-bazar": {
+    "master": true
+  },
+  "r-bb": {
+    "master": true
+  },
+  "r-bbmisc": {
+    "master": true
+  },
+  "r-bbmle": {
+    "master": true
+  },
+  "r-bc3net": {
+    "master": true
+  },
+  "r-bcrocsurface": {
+    "master": true
+  },
+  "r-bdgraph": {
+    "master": true
+  },
+  "r-bdsmatrix": {
+    "master": true
+  },
+  "r-beanplot": {
+    "master": true
+  },
+  "r-bedr": {
+    "master": true
+  },
+  "r-beeswarm": {
+    "master": true
+  },
+  "r-bench": {
+    "master": true
+  },
+  "r-benchmarkme": {
+    "master": true
+  },
+  "r-benchmarkmedata": {
+    "master": true
+  },
+  "r-bestglm": {
+    "master": true
+  },
+  "r-betareg": {
+    "master": true
+  },
+  "r-bezier": {
+    "master": true
+  },
+  "r-bfa": {
+    "master": true
+  },
+  "r-bglr": {
+    "master": true
+  },
+  "r-bgmm": {
+    "master": true
+  },
+  "r-bh": {
+    "master": true
+  },
+  "r-biasedurn": {
+    "master": true
+  },
+  "r-bibitr": {
+    "master": true
+  },
+  "r-bibtex": {
+    "master": true
+  },
+  "r-biclust": {
+    "master": true
+  },
+  "r-biganalytics": {
+    "master": true
+  },
+  "r-bigassertr": {
+    "master": true
+  },
+  "r-biglm": {
+    "master": true
+  },
+  "r-bigmemory": {
+    "master": true
+  },
+  "r-bigmemory.sri": {
+    "master": true
+  },
+  "r-bigreadr": {
+    "master": true
+  },
+  "r-bigrquery": {
+    "master": true
+  },
+  "r-bigstep": {
+    "master": true
+  },
+  "r-billboarder": {
+    "master": true
+  },
+  "r-bindr": {
+    "master": true
+  },
+  "r-bindrcpp": {
+    "master": true
+  },
+  "r-binhf": {
+    "master": true
+  },
+  "r-binom": {
+    "master": true
+  },
+  "r-bio3d": {
+    "master": true
+  },
+  "r-biocmanager": {
+    "master": true
+  },
+  "r-biomark": {
+    "master": true
+  },
+  "r-bioset": {
+    "master": true
+  },
+  "r-bipartite": {
+    "master": true
+  },
+  "r-bit": {
+    "master": true
+  },
+  "r-bit64": {
+    "master": true
+  },
+  "r-bitops": {
+    "master": true
+  },
+  "r-biwt": {
+    "master": true
+  },
+  "r-blme": {
+    "master": true
+  },
+  "r-blob": {
+    "master": true
+  },
+  "r-blockfest": {
+    "master": true
+  },
+  "r-blockmodeling": {
+    "master": true
+  },
+  "r-blogdown": {
+    "master": true
+  },
+  "r-bma": {
+    "master": true
+  },
+  "r-bmp": {
+    "master": true
+  },
+  "r-bnlearn": {
+    "master": true
+  },
+  "r-bold": {
+    "master": true
+  },
+  "r-bookdown": {
+    "master": true
+  },
+  "r-boolnet": {
+    "master": true
+  },
+  "r-boom": {
+    "master": true
+  },
+  "r-boot": {
+    "master": true
+  },
+  "r-bootstrap": {
+    "master": true
+  },
+  "r-boruta": {
+    "master": true
+  },
+  "r-botor": {
+    "master": true
+  },
+  "r-bpca": {
+    "master": true
+  },
+  "r-bradleyterry2": {
+    "master": true
+  },
+  "r-breakaway": {
+    "master": true
+  },
+  "r-breakdown": {
+    "master": true
+  },
+  "r-brew": {
+    "master": true
+  },
+  "r-brglm": {
+    "master": true
+  },
+  "r-brglm2": {
+    "master": true
+  },
+  "r-bridgesampling": {
+    "master": true
+  },
+  "r-brms": {
+    "master": true
+  },
+  "r-brobdingnag": {
+    "master": true
+  },
+  "r-broom": {
+    "master": true
+  },
+  "r-broom.mixed": {
+    "master": true
+  },
+  "r-broomextra": {
+    "master": true
+  },
+  "r-bs4dash": {
+    "master": true
+  },
+  "r-bwstest": {
+    "master": true
+  },
+  "r-c3net": {
+    "master": true
+  },
+  "r-c50": {
+    "master": true
+  },
+  "r-ca": {
+    "master": true
+  },
+  "r-cairo": {
+    "master": true
+  },
+  "r-cairodevice": {
+    "master": true
+  },
+  "r-calibrate": {
+    "master": true
+  },
+  "r-callr": {
+    "master": true
+  },
+  "r-canopy": {
+    "master": true
+  },
+  "r-caper": {
+    "master": true
+  },
+  "r-captioner": {
+    "master": true
+  },
+  "r-capushe": {
+    "master": true
+  },
+  "r-car": {
+    "master": true
+  },
+  "r-cardata": {
+    "master": true
+  },
+  "r-caret": {
+    "master": true
+  },
+  "r-caroline": {
+    "master": true
+  },
+  "r-carrier": {
+    "master": true
+  },
+  "r-cartography": {
+    "master": true
+  },
+  "r-castor": {
+    "master": true
+  },
+  "r-catboost": {
+    "master": true
+  },
+  "r-catnet": {
+    "master": true
+  },
+  "r-catools": {
+    "master": true
+  },
+  "r-cba": {
+    "master": true
+  },
+  "r-ccapp": {
+    "master": true
+  },
+  "r-ccdralgorithm": {
+    "master": true
+  },
+  "r-ccp": {
+    "master": true
+  },
+  "r-ccremover": {
+    "master": true
+  },
+  "r-cdft": {
+    "master": true
+  },
+  "r-celestial": {
+    "master": true
+  },
+  "r-cellranger": {
+    "master": true
+  },
+  "r-cgdsr": {
+    "master": true
+  },
+  "r-cghflasso": {
+    "master": true
+  },
+  "r-changepoint": {
+    "master": true
+  },
+  "r-checkmate": {
+    "master": true
+  },
+  "r-checkpoint": {
+    "master": true
+  },
+  "r-chemometrics": {
+    "master": true
+  },
+  "r-chemometricswithr": {
+    "master": true
+  },
+  "r-chemospec": {
+    "master": true
+  },
+  "r-chemospecutils": {
+    "master": true
+  },
+  "r-chorddiag": {
+    "master": true
+  },
+  "r-chron": {
+    "master": true
+  },
+  "r-circlize": {
+    "master": true
+  },
+  "r-circstats": {
+    "master": true
+  },
+  "r-circular": {
+    "master": true
+  },
+  "r-ckmeans.1d.dp": {
+    "master": true
+  },
+  "r-class": {
+    "master": true
+  },
+  "r-classint": {
+    "master": true
+  },
+  "r-cli": {
+    "master": true
+  },
+  "r-cliapp": {
+    "master": true
+  },
+  "r-clipr": {
+    "master": true
+  },
+  "r-clisymbols": {
+    "master": true
+  },
+  "r-clue": {
+    "master": true
+  },
+  "r-clues": {
+    "master": true
+  },
+  "r-cluster": {
+    "master": true
+  },
+  "r-clustercrit": {
+    "master": true
+  },
+  "r-clustergeneration": {
+    "master": true
+  },
+  "r-clustermq": {
+    "master": true
+  },
+  "r-clusterr": {
+    "master": true
+  },
+  "r-clusterses": {
+    "master": true
+  },
+  "r-clustersim": {
+    "master": true
+  },
+  "r-clusteval": {
+    "master": true
+  },
+  "r-clustvarsel": {
+    "master": true
+  },
+  "r-clv": {
+    "master": true
+  },
+  "r-clvalid": {
+    "master": true
+  },
+  "r-cmls": {
+    "master": true
+  },
+  "r-cmprsk": {
+    "master": true
+  },
+  "r-cnogpro": {
+    "master": true
+  },
+  "r-cobs": {
+    "master": true
+  },
+  "r-coda": {
+    "master": true
   }
 }
