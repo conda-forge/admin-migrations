@@ -8773,5 +8773,806 @@
   },
   "kglobalaccel": {
     "master": true
+  },
+  "kguiaddons": {
+    "master": true
+  },
+  "khronos-opencl-icd-loader": {
+    "master": true
+  },
+  "ki18n": {
+    "master": true
+  },
+  "kiconthemes": {
+    "master": true
+  },
+  "kikuchipy": {
+    "master": true
+  },
+  "kim-api": {
+    "master": true
+  },
+  "kim-query": {
+    "master": true
+  },
+  "kim_edn": {
+    "master": true
+  },
+  "kim_property": {
+    "master": true
+  },
+  "kimpy": {
+    "master": true
+  },
+  "kinparse": {
+    "master": true
+  },
+  "kio": {
+    "master": true
+  },
+  "kirigami2": {
+    "master": true
+  },
+  "kitemviews": {
+    "master": true
+  },
+  "kitty": {
+    "master": true
+  },
+  "kitty-themes": {
+    "master": true
+  },
+  "kivy": {
+    "master": true
+  },
+  "kivy-garden": {
+    "master": true
+  },
+  "kiwipy": {
+    "master": true
+  },
+  "kiwisolver": {
+    "master": true
+  },
+  "kjobwidgets": {
+    "master": true
+  },
+  "kliff": {
+    "master": true
+  },
+  "kmodes": {
+    "master": true
+  },
+  "knack": {
+    "master": true
+  },
+  "kneed": {
+    "master": true
+  },
+  "knewstuff": {
+    "master": true
+  },
+  "knit": {
+    "master": true
+  },
+  "knitty": {
+    "master": true
+  },
+  "knockknock": {
+    "master": true
+  },
+  "knotifications": {
+    "master": true
+  },
+  "knotifyconfig": {
+    "master": true
+  },
+  "koalas": {
+    "master": true
+  },
+  "kombine": {
+    "master": true
+  },
+  "kombu": {
+    "master": true
+  },
+  "kpackage": {
+    "master": true
+  },
+  "krb5": {
+    "master": true
+  },
+  "kronprod": {
+    "master": true
+  },
+  "krtc": {
+    "master": true
+  },
+  "kservice": {
+    "master": true
+  },
+  "ksonnet": {
+    "master": true
+  },
+  "ktextwidgets": {
+    "master": true
+  },
+  "kubernetes": {
+    "master": true,
+    "1.11.x": true,
+    "1.17.x": true,
+    "1.7.x": true,
+    "1.8.x": true,
+    "1.9.x": true
+  },
+  "kubernetes-federation": {
+    "master": true
+  },
+  "kubernetes-helm": {
+    "master": true
+  },
+  "kubernetes_asyncio": {
+    "master": true
+  },
+  "kuyruk": {
+    "master": true
+  },
+  "kwallet": {
+    "master": true
+  },
+  "kwant": {
+    "master": true,
+    "1.1": true,
+    "1.3": true
+  },
+  "kwidgetsaddons": {
+    "master": true
+  },
+  "kwindowsystem": {
+    "master": true
+  },
+  "kxmlgui": {
+    "master": true
+  },
+  "kyotocabinet": {
+    "master": true
+  },
+  "l18n": {
+    "master": true
+  },
+  "label-maker": {
+    "master": true
+  },
+  "labelme": {
+    "master": true
+  },
+  "labjackpython": {
+    "master": true
+  },
+  "labours": {
+    "master": true
+  },
+  "ladspa": {
+    "master": true
+  },
+  "lagranto": {
+    "master": true
+  },
+  "lal": {
+    "master": true
+  },
+  "lalapps": {
+    "master": true
+  },
+  "lalburst": {
+    "master": true
+  },
+  "lalframe": {
+    "master": true
+  },
+  "lalinference": {
+    "master": true
+  },
+  "lalinspiral": {
+    "master": true
+  },
+  "lalmetaio": {
+    "master": true
+  },
+  "lalpulsar": {
+    "master": true
+  },
+  "lalsimulation": {
+    "master": true
+  },
+  "lalsuite": {
+    "master": true
+  },
+  "lame": {
+    "master": true
+  },
+  "lammps": {
+    "master": true
+  },
+  "lancet": {
+    "master": true
+  },
+  "landlab": {
+    "master": true,
+    "devel": true
+  },
+  "landsat_util": {
+    "master": true
+  },
+  "langdetect": {
+    "master": true
+  },
+  "lap": {
+    "master": true
+  },
+  "lapack": {
+    "master": true,
+    "split": true
+  },
+  "larch": {
+    "master": true
+  },
+  "lark-parser": {
+    "master": true
+  },
+  "larray": {
+    "master": true
+  },
+  "larray-editor": {
+    "master": true
+  },
+  "larray_eurostat": {
+    "master": true
+  },
+  "larrayenv": {
+    "master": true
+  },
+  "lasagne": {
+    "master": true
+  },
+  "laspy": {
+    "master": true
+  },
+  "lastools": {
+    "master": true
+  },
+  "laszip": {
+    "master": true
+  },
+  "latexcodec": {
+    "master": true
+  },
+  "latexmk": {
+    "master": true
+  },
+  "latlon23": {
+    "master": true
+  },
+  "latte-integrale": {
+    "master": true
+  },
+  "laxpy": {
+    "master": true
+  },
+  "laz-perf": {
+    "master": true
+  },
+  "lazy": {
+    "master": true
+  },
+  "lazy-object-proxy": {
+    "master": true,
+    "1.3.1": true
+  },
+  "lazyasd": {
+    "master": true
+  },
+  "lazygit": {
+    "master": true
+  },
+  "lbenv": {
+    "master": true
+  },
+  "lbplatformutils": {
+    "master": true
+  },
+  "lbzip2": {
+    "master": true
+  },
+  "lcalc": {
+    "master": true
+  },
+  "lcms2": {
+    "master": true
+  },
+  "lcov": {
+    "master": true
+  },
+  "lda": {
+    "master": true
+  },
+  "ldap": {
+    "master": true
+  },
+  "ldap3": {
+    "master": true
+  },
+  "ldaptor": {
+    "master": true
+  },
+  "ldas-tools-al": {
+    "master": true
+  },
+  "ldas-tools-al-swig": {
+    "master": true
+  },
+  "ldas-tools-cmake": {
+    "master": true
+  },
+  "ldas-tools-diskcacheapi": {
+    "master": true
+  },
+  "ldas-tools-diskcacheapi-swig": {
+    "master": true
+  },
+  "ldas-tools-filters": {
+    "master": true
+  },
+  "ldas-tools-frameapi": {
+    "master": true
+  },
+  "ldas-tools-frameapi-swig": {
+    "master": true
+  },
+  "ldas-tools-framecpp": {
+    "master": true
+  },
+  "ldas-tools-framecpp-swig": {
+    "master": true
+  },
+  "ldas-tools-ldasgen": {
+    "master": true
+  },
+  "ldas-tools-ldasgen-swig": {
+    "master": true
+  },
+  "ldas-tools-utilities": {
+    "master": true
+  },
+  "ldc": {
+    "master": true
+  },
+  "ldraw": {
+    "master": true
+  },
+  "leather": {
+    "master": true
+  },
+  "ledger": {
+    "master": true
+  },
+  "legendgram": {
+    "master": true
+  },
+  "legit": {
+    "master": true
+  },
+  "leidenalg": {
+    "master": true
+  },
+  "lektor": {
+    "master": true
+  },
+  "lemon": {
+    "master": true
+  },
+  "lensfun": {
+    "master": true,
+    "v0.3.2": true
+  },
+  "lensfunpy": {
+    "master": true
+  },
+  "leptonica": {
+    "master": true
+  },
+  "less.js": {
+    "master": true
+  },
+  "lesscpy": {
+    "master": true
+  },
+  "lesshat": {
+    "master": true
+  },
+  "leveldb": {
+    "master": true,
+    "rebuild-1.18": true
+  },
+  "lfortran": {
+    "master": true
+  },
+  "lfpy": {
+    "master": true
+  },
+  "lftp": {
+    "master": true
+  },
+  "lfzip": {
+    "master": true
+  },
+  "lhcb-simpletools": {
+    "master": true
+  },
+  "lhcbdirac": {
+    "master": true
+  },
+  "lhcbdirac-config": {
+    "master": true,
+    "certification": true
+  },
+  "libaatm": {
+    "master": true
+  },
+  "libadjoint": {
+    "master": true
+  },
+  "libaec": {
+    "master": true
+  },
+  "libaio": {
+    "master": true
+  },
+  "libarchive": {
+    "master": true,
+    "revert-28-rebuildopenssl": true
+  },
+  "libass": {
+    "master": true
+  },
+  "libassuan": {
+    "master": true
+  },
+  "libatomic_ops": {
+    "master": true
+  },
+  "libbezier": {
+    "master": true
+  },
+  "libblitz": {
+    "master": true,
+    "amir": true
+  },
+  "libbraiding": {
+    "master": true
+  },
+  "libbsc": {
+    "master": true
+  },
+  "libcanberra": {
+    "master": true
+  },
+  "libcap": {
+    "master": true
+  },
+  "libccd": {
+    "master": true
+  },
+  "libcdms": {
+    "master": true
+  },
+  "libcf": {
+    "master": true
+  },
+  "libcflib": {
+    "master": true
+  },
+  "libcmaes": {
+    "master": true
+  },
+  "libcomcat": {
+    "master": true,
+    "revert-38-fionafix": true
+  },
+  "libconfig": {
+    "master": true
+  },
+  "libcrc32c": {
+    "master": true
+  },
+  "libcroco": {
+    "master": true
+  },
+  "libcst": {
+    "master": true
+  },
+  "libctl": {
+    "master": true
+  },
+  "libcups": {
+    "master": true
+  },
+  "libcxx": {
+    "master": true,
+    "5.x": true,
+    "6.x": true
+  },
+  "libcxxwrap-julia": {
+    "master": true
+  },
+  "libdaemon": {
+    "master": true
+  },
+  "libdap4": {
+    "master": true
+  },
+  "libdb": {
+    "master": true
+  },
+  "libdeflate": {
+    "master": true
+  },
+  "libdiffpy": {
+    "master": true
+  },
+  "libdrm": {
+    "master": true
+  },
+  "libdrm-cos7-aarch64": {
+    "master": true
+  },
+  "libdrm-cos7-ppc64le": {
+    "master": true
+  },
+  "libdrs": {
+    "master": true,
+    "2.12": true,
+    "revert-4-3.0": true,
+    "revert-8-v3.0.1": true
+  },
+  "libdrs_f": {
+    "master": true
+  },
+  "libedit": {
+    "master": true
+  },
+  "libensemble": {
+    "master": true
+  },
+  "libev": {
+    "master": true
+  },
+  "libevent": {
+    "master": true
+  },
+  "libexif": {
+    "master": true
+  },
+  "libfaketime": {
+    "master": true
+  },
+  "libffi": {
+    "master": true
+  },
+  "libflac": {
+    "master": true
+  },
+  "libflint": {
+    "master": true
+  },
+  "libframe": {
+    "master": true
+  },
+  "libfuse": {
+    "master": true
+  },
+  "libgap": {
+    "master": true
+  },
+  "libgcrypt": {
+    "master": true
+  },
+  "libgd": {
+    "master": true
+  },
+  "libgdsii": {
+    "master": true
+  },
+  "libgfortran": {
+    "master": true
+  },
+  "libgit2": {
+    "master": true
+  },
+  "libglu": {
+    "master": true
+  },
+  "libglvnd-cos7-aarch64": {
+    "master": true
+  },
+  "libglvnd-cos7-ppc64le": {
+    "master": true
+  },
+  "libglvnd-glx-cos7-aarch64": {
+    "master": true
+  },
+  "libglvnd-glx-cos7-ppc64le": {
+    "master": true
+  },
+  "libgpg-error": {
+    "master": true
+  },
+  "libgpuarray": {
+    "master": true
+  },
+  "libgsasl": {
+    "master": true
+  },
+  "libgsf": {
+    "master": true
+  },
+  "libharu": {
+    "master": true
+  },
+  "libhdfs3": {
+    "master": true,
+    "backport-v2.2.31": true
+  },
+  "libhomfly": {
+    "master": true
+  },
+  "libhwloc": {
+    "master": true,
+    "1.11.x": true
+  },
+  "libibcm-cos6-x86_64": {
+    "master": true
+  },
+  "libibcm-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libibverbs-cos6-x86_64": {
+    "master": true
+  },
+  "libibverbs-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libical": {
+    "master": true
+  },
+  "libice-cos7-aarch64": {
+    "master": true
+  },
+  "libice-cos7-ppc64le": {
+    "master": true
+  },
+  "libiconv": {
+    "master": true
+  },
+  "libidn11": {
+    "master": true
+  },
+  "libidn2": {
+    "master": true
+  },
+  "libignition-cmake0": {
+    "master": true,
+    "v0.6.1": true
+  },
+  "libignition-common": {
+    "master": true
+  },
+  "libignition-fuel-tools": {
+    "master": true
+  },
+  "libignition-math4": {
+    "master": true,
+    "v4.0.0": true
+  },
+  "libignition-msgs1": {
+    "master": true,
+    "v1.0.0": true
+  },
+  "libignition-physics": {
+    "master": true
+  },
+  "libignition-plugin": {
+    "master": true
+  },
+  "libignition-tools": {
+    "master": true,
+    "v0.2.x": true
+  },
+  "libignition-transport4": {
+    "master": true
+  },
+  "libint": {
+    "master": true
+  },
+  "libitk": {
+    "master": true,
+    "4.13": true
+  },
+  "libjpeg-turbo": {
+    "master": true
+  },
+  "libjpeg-turbo-cos7-aarch64": {
+    "master": true
+  },
+  "libkml": {
+    "master": true
+  },
+  "libksba": {
+    "master": true
+  },
+  "liblbfgs": {
+    "master": true
+  },
+  "libmad": {
+    "master": true
+  },
+  "libmagic": {
+    "master": true
+  },
+  "libmatio": {
+    "master": true
+  },
+  "libmed": {
+    "master": true
+  },
+  "libmemcached": {
+    "master": true
+  },
+  "libmo_unpack": {
+    "master": true
+  },
+  "libnetcdf": {
+    "master": true,
+    "v4.4.x": true,
+    "v4.6.x": true
+  },
+  "libnetworkit": {
+    "master": true
+  },
+  "libneuroml": {
+    "master": true
+  },
+  "libnl": {
+    "master": true
+  },
+  "libnl-cos6-x86_64": {
+    "master": true
+  },
+  "libnl-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libntlm": {
+    "master": true
+  },
+  "libobjcryst": {
+    "master": true
+  },
+  "libode": {
+    "master": true
+  },
+  "libogg": {
+    "master": true
+  },
+  "libopusenc": {
+    "master": true
+  },
+  "libosxunwind": {
+    "master": true
+  },
+  "libpcap": {
+    "master": true
+  },
+  "libpciaccess": {
+    "master": true
   }
 }
