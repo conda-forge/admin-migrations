@@ -2680,7 +2680,8 @@
     "release-0.4.0": true
   },
   "compiler-rt": {
-    "master": true
+    "master": true,
+    "rc": true
   },
   "compilers": {
     "master": true
