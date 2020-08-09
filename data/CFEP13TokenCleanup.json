@@ -22385,5 +22385,654 @@
   },
   "r-threejs": {
     "master": true
+  },
+  "r-threeway": {
+    "master": true
+  },
+  "r-tibble": {
+    "master": true
+  },
+  "r-tictoc": {
+    "master": true
+  },
+  "r-tidybayes": {
+    "master": true
+  },
+  "r-tidygraph": {
+    "master": true
+  },
+  "r-tidylog": {
+    "master": true
+  },
+  "r-tidymodels": {
+    "master": true
+  },
+  "r-tidyposterior": {
+    "master": true
+  },
+  "r-tidypredict": {
+    "master": true
+  },
+  "r-tidyquant": {
+    "master": true
+  },
+  "r-tidyr": {
+    "master": true
+  },
+  "r-tidyselect": {
+    "master": true
+  },
+  "r-tidytext": {
+    "master": true
+  },
+  "r-tidytidbits": {
+    "master": true
+  },
+  "r-tidytree": {
+    "master": true
+  },
+  "r-tidyverse": {
+    "master": true
+  },
+  "r-tidyxl": {
+    "master": true
+  },
+  "r-tiff": {
+    "master": true
+  },
+  "r-tiledb": {
+    "master": true,
+    "regro-cf-autotick-bot/rebuild-r400-0-2_h21f4b3": true
+  },
+  "r-tilegramsr": {
+    "master": true
+  },
+  "r-timedate": {
+    "master": true
+  },
+  "r-timereg": {
+    "master": true
+  },
+  "r-timeroc": {
+    "master": true
+  },
+  "r-timeseries": {
+    "master": true
+  },
+  "r-timetk": {
+    "master": true
+  },
+  "r-timsac": {
+    "master": true
+  },
+  "r-tinytex": {
+    "master": true
+  },
+  "r-tkrplot": {
+    "master": true
+  },
+  "r-tm": {
+    "master": true
+  },
+  "r-tmap": {
+    "master": true
+  },
+  "r-tmaptools": {
+    "master": true
+  },
+  "r-tmb": {
+    "master": true
+  },
+  "r-tmle": {
+    "master": true
+  },
+  "r-tmod": {
+    "master": true
+  },
+  "r-tmvtnorm": {
+    "master": true
+  },
+  "r-tokenizers": {
+    "master": true
+  },
+  "r-topicmodels": {
+    "master": true
+  },
+  "r-tpea": {
+    "master": true
+  },
+  "r-tractor.base": {
+    "master": true
+  },
+  "r-traits": {
+    "master": true
+  },
+  "r-transport": {
+    "master": true
+  },
+  "r-treatmentselection": {
+    "master": true
+  },
+  "r-tree": {
+    "master": true
+  },
+  "r-treeman": {
+    "master": true
+  },
+  "r-treemap": {
+    "master": true
+  },
+  "r-treemapify": {
+    "master": true
+  },
+  "r-treesim": {
+    "master": true
+  },
+  "r-trekcolors": {
+    "master": true
+  },
+  "r-triebeard": {
+    "master": true
+  },
+  "r-trimcluster": {
+    "master": true
+  },
+  "r-truncdist": {
+    "master": true
+  },
+  "r-truncnorm": {
+    "master": true
+  },
+  "r-trust": {
+    "master": true
+  },
+  "r-tsclust": {
+    "master": true
+  },
+  "r-tsdist": {
+    "master": true
+  },
+  "r-tseries": {
+    "master": true
+  },
+  "r-tserieschaos": {
+    "master": true
+  },
+  "r-tsibble": {
+    "master": true,
+    "revert-4-master": true
+  },
+  "r-tsibbledata": {
+    "master": true
+  },
+  "r-tsna": {
+    "master": true
+  },
+  "r-tsne": {
+    "master": true
+  },
+  "r-tsoutliers": {
+    "master": true
+  },
+  "r-tsp": {
+    "master": true
+  },
+  "r-ttr": {
+    "master": true
+  },
+  "r-tufte": {
+    "master": true
+  },
+  "r-tune": {
+    "master": true
+  },
+  "r-tuneranger": {
+    "master": true
+  },
+  "r-turboem": {
+    "master": true
+  },
+  "r-turner": {
+    "master": true
+  },
+  "r-tweedie": {
+    "master": true
+  },
+  "r-tweenr": {
+    "master": true
+  },
+  "r-txtq": {
+    "master": true
+  },
+  "r-ucminf": {
+    "master": true
+  },
+  "r-udunits2": {
+    "master": true
+  },
+  "r-ufs": {
+    "master": true
+  },
+  "r-umap": {
+    "master": true
+  },
+  "r-uniqtag": {
+    "master": true
+  },
+  "r-uniqueatommat": {
+    "master": true
+  },
+  "r-unireg": {
+    "master": true
+  },
+  "r-units": {
+    "master": true
+  },
+  "r-upsetr": {
+    "master": true
+  },
+  "r-urca": {
+    "master": true
+  },
+  "r-urltools": {
+    "master": true
+  },
+  "r-uroot": {
+    "master": true
+  },
+  "r-userfriendlyscience": {
+    "master": true
+  },
+  "r-usethis": {
+    "master": true
+  },
+  "r-utf8": {
+    "master": true
+  },
+  "r-uuid": {
+    "master": true
+  },
+  "r-uwot": {
+    "master": true
+  },
+  "r-v8": {
+    "master": true
+  },
+  "r-validate": {
+    "master": true
+  },
+  "r-varhandle": {
+    "master": true
+  },
+  "r-vars": {
+    "master": true
+  },
+  "r-varselrf": {
+    "master": true
+  },
+  "r-vbsr": {
+    "master": true
+  },
+  "r-vcd": {
+    "master": true
+  },
+  "r-vcdextra": {
+    "master": true
+  },
+  "r-vcfr": {
+    "master": true
+  },
+  "r-vctrs": {
+    "master": true
+  },
+  "r-vdiffr": {
+    "master": true
+  },
+  "r-vegan": {
+    "master": true
+  },
+  "r-velox": {
+    "master": true
+  },
+  "r-venn": {
+    "master": true
+  },
+  "r-venndiagram": {
+    "master": true
+  },
+  "r-verification": {
+    "master": true
+  },
+  "r-vgam": {
+    "master": true
+  },
+  "r-vim": {
+    "master": true
+  },
+  "r-vioplot": {
+    "master": true
+  },
+  "r-vip": {
+    "master": true
+  },
+  "r-vipor": {
+    "master": true
+  },
+  "r-viridis": {
+    "master": true
+  },
+  "r-viridislite": {
+    "master": true
+  },
+  "r-visdat": {
+    "master": true
+  },
+  "r-visnetwork": {
+    "master": true
+  },
+  "r-vpc": {
+    "master": true
+  },
+  "r-vroom": {
+    "master": true
+  },
+  "r-vsurf": {
+    "master": true
+  },
+  "r-waffle": {
+    "master": true
+  },
+  "r-warp": {
+    "master": true
+  },
+  "r-waterfall": {
+    "master": true
+  },
+  "r-waterfalls": {
+    "master": true
+  },
+  "r-waterml": {
+    "master": true
+  },
+  "r-waveslim": {
+    "master": true
+  },
+  "r-wavethresh": {
+    "master": true
+  },
+  "r-wdi": {
+    "master": true
+  },
+  "r-weatherdata": {
+    "master": true
+  },
+  "r-webdriver": {
+    "master": true
+  },
+  "r-webshot": {
+    "master": true
+  },
+  "r-webutils": {
+    "master": true
+  },
+  "r-weightit": {
+    "master": true
+  },
+  "r-wesanderson": {
+    "master": true
+  },
+  "r-wheatmap": {
+    "master": true
+  },
+  "r-whisker": {
+    "master": true
+  },
+  "r-whitening": {
+    "master": true
+  },
+  "r-whoami": {
+    "master": true
+  },
+  "r-wicket": {
+    "master": true
+  },
+  "r-widyr": {
+    "master": true
+  },
+  "r-wikidatar": {
+    "master": true
+  },
+  "r-wikipedir": {
+    "master": true
+  },
+  "r-wikitaxa": {
+    "master": true
+  },
+  "r-withr": {
+    "master": true
+  },
+  "r-wmtsa": {
+    "master": true,
+    "win32": true
+  },
+  "r-wordcloud": {
+    "master": true
+  },
+  "r-wordspace": {
+    "master": true
+  },
+  "r-workflowr": {
+    "master": true
+  },
+  "r-workflows": {
+    "master": true
+  },
+  "r-worrms": {
+    "master": true
+  },
+  "r-wrassp": {
+    "master": true
+  },
+  "r-writexl": {
+    "master": true
+  },
+  "r-writexls": {
+    "master": true
+  },
+  "r-wrs2": {
+    "master": true
+  },
+  "r-xaringan": {
+    "master": true
+  },
+  "r-xfun": {
+    "master": true
+  },
+  "r-xlconnect": {
+    "master": true
+  },
+  "r-xlconnectjars": {
+    "master": true
+  },
+  "r-xlsx": {
+    "master": true
+  },
+  "r-xlsxjars": {
+    "master": true
+  },
+  "r-xmisc": {
+    "master": true
+  },
+  "r-xml": {
+    "master": true
+  },
+  "r-xml2": {
+    "master": true
+  },
+  "r-xmlparsedata": {
+    "master": true
+  },
+  "r-xmlschema": {
+    "master": true
+  },
+  "r-xnomial": {
+    "master": true
+  },
+  "r-xopen": {
+    "master": true
+  },
+  "r-xptr": {
+    "master": true
+  },
+  "r-xtable": {
+    "master": true
+  },
+  "r-xtensor": {
+    "master": true
+  },
+  "r-xtractomatic": {
+    "master": true
+  },
+  "r-xts": {
+    "master": true
+  },
+  "r-yaimpute": {
+    "master": true
+  },
+  "r-yaml": {
+    "master": true
+  },
+  "r-yardstick": {
+    "master": true
+  },
+  "r-yarrr": {
+    "master": true
+  },
+  "r-yesno": {
+    "master": true
+  },
+  "r-ymlthis": {
+    "master": true
+  },
+  "r-zcompositions": {
+    "master": true
+  },
+  "r-zeallot": {
+    "master": true
+  },
+  "r-zip": {
+    "master": true
+  },
+  "r-zoo": {
+    "master": true
+  },
+  "r-ztable": {
+    "master": true
+  },
+  "rabbitmq-server": {
+    "master": true
+  },
+  "racket": {
+    "master": true
+  },
+  "radical.analytics": {
+    "master": true
+  },
+  "radical.entk": {
+    "master": true
+  },
+  "radical.pilot": {
+    "master": true
+  },
+  "radical.saga": {
+    "master": true
+  },
+  "radical.utils": {
+    "master": true
+  },
+  "radio-beam": {
+    "master": true
+  },
+  "radiospectra": {
+    "master": true
+  },
+  "radon": {
+    "master": true
+  },
+  "rafem": {
+    "master": true
+  },
+  "ragel": {
+    "master": true
+  },
+  "rainflow": {
+    "master": true
+  },
+  "rake_nltk": {
+    "master": true
+  },
+  "ramscube": {
+    "master": true
+  },
+  "randomcolor": {
+    "master": true
+  },
+  "randspg": {
+    "master": true
+  },
+  "rang": {
+    "master": true
+  },
+  "rank_filter": {
+    "master": true
+  },
+  "rapidfuzz": {
+    "master": true
+  },
+  "rapidjson": {
+    "master": true
+  },
+  "rapidpy": {
+    "master": true
+  },
+  "rapidsim": {
+    "master": true
+  },
+  "rapidz": {
+    "master": true
+  },
+  "rarfile": {
+    "master": true
+  },
+  "rasterio": {
+    "master": true,
+    "dev": true
+  },
+  "rasterstats": {
+    "master": true
+  },
+  "ratelim": {
+    "master": true
+  },
+  "ratelimiter": {
+    "master": true
+  },
+  "ratpoints": {
+    "master": true
+  },
+  "rauth": {
+    "master": true
+  },
+  "raven": {
+    "master": true
+  },
+  "raven-aiohttp": {
+    "master": true
+  },
+  "rb-activesupport": {
+    "master": true
+  },
+  "rb-addressable": {
+    "master": true
   }
 }
