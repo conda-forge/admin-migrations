@@ -1920,7 +1920,8 @@
     "master": true
   },
   "cctools-and-ld64": {
-    "master": true
+    "master": true,
+    "rc": true
   },
   "cdat_info": {
     "master": true,
@@ -2270,7 +2271,8 @@
     "5.x": true,
     "6.x": true,
     "8.x": true,
-    "flang": true
+    "flang": true,
+    "rc": true
   },
   "clapack": {
     "master": true
@@ -9300,7 +9302,8 @@
   "libcxx": {
     "master": true,
     "5.x": true,
-    "6.x": true
+    "6.x": true,
+    "rc": true
   },
   "libcxxwrap-julia": {
     "master": true
@@ -31697,6 +31700,15 @@
     "master": true
   },
   "m2r2": {
+    "master": true
+  },
+  "bash": {
+    "master": true
+  },
+  "bash-completion": {
+    "master": true
+  },
+  "bash_kernel": {
     "master": true
   }
 }
