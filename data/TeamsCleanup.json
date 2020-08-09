@@ -28384,5 +28384,704 @@
   },
   "aspy.refactor-imports": {
     "master": true
+  },
+  "darr": {
+    "master": true
+  },
+  "pymagicc": {
+    "master": true
+  },
+  "r-logger": {
+    "master": true
+  },
+  "urbansim": {
+    "master": true
+  },
+  "emails": {
+    "master": true
+  },
+  "r-nlcoptim": {
+    "master": true
+  },
+  "r-hardyweinberg": {
+    "master": true
+  },
+  "seed-isort-config": {
+    "master": true
+  },
+  "go2": {
+    "master": true
+  },
+  "azure-mgmt-datalake-store": {
+    "master": true
+  },
+  "pyspice": {
+    "master": true
+  },
+  "napari-svg": {
+    "master": true
+  },
+  "go-lab": {
+    "master": true
+  },
+  "napari-plugin-engine": {
+    "master": true
+  },
+  "xarray_leaflet": {
+    "master": true
+  },
+  "cmcrameri": {
+    "master": true
+  },
+  "r-rcppalgos": {
+    "master": true
+  },
+  "r-ggplot.multistats": {
+    "master": true
+  },
+  "r-knn.covertree": {
+    "master": true
+  },
+  "r-msqc": {
+    "master": true
+  },
+  "r-np": {
+    "master": true
+  },
+  "sphinx-material": {
+    "master": true
+  },
+  "css-html-js-minify": {
+    "master": true
+  },
+  "r-googlecloudstorager": {
+    "master": true
+  },
+  "go-ghq": {
+    "master": true
+  },
+  "r-drtmle": {
+    "master": true
+  },
+  "libmediainfo": {
+    "master": true
+  },
+  "pdielec": {
+    "master": true
+  },
+  "libzen": {
+    "master": true
+  },
+  "pymediainfo": {
+    "master": true
+  },
+  "libmms": {
+    "master": true
+  },
+  "faiss-split": {
+    "master": true
+  },
+  "detectron2": {
+    "master": true
+  },
+  "pymeeus": {
+    "master": true
+  },
+  "terraform-provider-rancher2": {
+    "master": true
+  },
+  "r-kml": {
+    "master": true
+  },
+  "r-reactr": {
+    "master": true
+  },
+  "r-phylogram": {
+    "master": true
+  },
+  "r-envipat": {
+    "master": true
+  },
+  "r-reffreeewas": {
+    "master": true
+  },
+  "r-phater": {
+    "master": true
+  },
+  "r-rapiclient": {
+    "master": true
+  },
+  "r-lmesplines": {
+    "master": true
+  },
+  "r-lmom": {
+    "master": true
+  },
+  "r-lmms": {
+    "master": true
+  },
+  "r-gld": {
+    "master": true
+  },
+  "r-kmer": {
+    "master": true
+  },
+  "r-reactable": {
+    "master": true
+  },
+  "r-kmlshape": {
+    "master": true
+  },
+  "r-mltools": {
+    "master": true
+  },
+  "wflow": {
+    "master": true
+  },
+  "r-unmarked": {
+    "master": true
+  },
+  "importlab": {
+    "master": true
+  },
+  "pytest-cram": {
+    "master": true
+  },
+  "cmake-no-system": {
+    "master": true
+  },
+  "pysindy": {
+    "master": true
+  },
+  "pytype": {
+    "master": true
+  },
+  "aws-sam-cli": {
+    "master": true
+  },
+  "aws_lambda_builders": {
+    "master": true
+  },
+  "serverlessrepo": {
+    "master": true
+  },
+  "chevron": {
+    "master": true
+  },
+  "r-aiccmodavg": {
+    "master": true
+  },
+  "metadsl-all": {
+    "master": true
+  },
+  "r-paireddata": {
+    "master": true
+  },
+  "r-nhpoisson": {
+    "master": true
+  },
+  "r-cmplot": {
+    "master": true
+  },
+  "r-dot": {
+    "master": true
+  },
+  "pyflct": {
+    "master": true
+  },
+  "optionsfactory": {
+    "master": true
+  },
+  "azure-mgmt-monitor": {
+    "master": true
+  },
+  "korean_lunar_calendar": {
+    "master": true
+  },
+  "pymove": {
+    "master": true
+  },
+  "xeus-sqlite": {
+    "master": true
+  },
+  "r-glmpca": {
+    "master": true
+  },
+  "r-tarifx": {
+    "master": true
+  },
+  "r-pkgcond": {
+    "master": true
+  },
+  "r-repmis": {
+    "master": true
+  },
+  "r-rocit": {
+    "master": true
+  },
+  "r-sparsepca": {
+    "master": true
+  },
+  "r-cpgassoc": {
+    "master": true
+  },
+  "r-parsetools": {
+    "master": true
+  },
+  "r-fgarch": {
+    "master": true
+  },
+  "r-postlogic": {
+    "master": true
+  },
+  "r-rcppcctz": {
+    "master": true
+  },
+  "r-nanotime": {
+    "master": true
+  },
+  "pyshtools": {
+    "master": true
+  },
+  "r-testextra": {
+    "master": true
+  },
+  "bcm2835": {
+    "master": true
+  },
+  "azure-mgmt-dns": {
+    "master": true
+  },
+  "azure-mgmt-marketplaceordering": {
+    "master": true
+  },
+  "cfdm": {
+    "master": true
+  },
+  "azure-mgmt-containerservice": {
+    "master": true
+  },
+  "azure-mgmt-web": {
+    "master": true
+  },
+  "azure-mgmt-trafficmanager": {
+    "master": true
+  },
+  "azure-mgmt-sql": {
+    "master": true
+  },
+  "pylibdmtx": {
+    "master": true
+  },
+  "r-purrrogress": {
+    "master": true
+  },
+  "pyzbar": {
+    "master": true
+  },
+  "crepe": {
+    "master": true
+  },
+  "gin-config": {
+    "master": true
+  },
+  "ddsp": {
+    "master": true
+  },
+  "r-simplecache": {
+    "master": true
+  },
+  "r-fftw": {
+    "master": true
+  },
+  "r-aplot": {
+    "master": true
+  },
+  "r-qpcr": {
+    "master": true
+  },
+  "r-riverplot": {
+    "master": true
+  },
+  "r-phylotate": {
+    "master": true
+  },
+  "framel": {
+    "master": true
+  },
+  "pyjarowinkler": {
+    "master": true
+  },
+  "git-url-parse": {
+    "master": true
+  },
+  "r-survivalsvm": {
+    "master": true
+  },
+  "r-matrixcorrelation": {
+    "master": true
+  },
+  "r-multigroup": {
+    "master": true
+  },
+  "r-webgestaltr": {
+    "master": true
+  },
+  "pseudo_dojo": {
+    "master": true
+  },
+  "atomicfile": {
+    "master": true
+  },
+  "abipy": {
+    "master": true
+  },
+  "periodic-table-plotter": {
+    "master": true
+  },
+  "pyfftlog": {
+    "master": true
+  },
+  "grid-strategy": {
+    "master": true
+  },
+  "distlib": {
+    "master": true
+  },
+  "pytest-executable": {
+    "master": true
+  },
+  "pandasdmx": {
+    "master": true
+  },
+  "r-stampp": {
+    "master": true
+  },
+  "r-osfr": {
+    "master": true
+  },
+  "r-drawr": {
+    "master": true
+  },
+  "r-cubelyr": {
+    "master": true
+  },
+  "ndvi2gif": {
+    "master": true
+  },
+  "python-semantic-release": {
+    "master": true
+  },
+  "you-get": {
+    "master": true
+  },
+  "oslo.context": {
+    "master": true
+  },
+  "tornado-proxy-handlers": {
+    "master": true
+  },
+  "mkdocs-ivory": {
+    "master": true
+  },
+  "r-rsnps": {
+    "master": true
+  },
+  "r-rismed": {
+    "master": true
+  },
+  "abinit": {
+    "master": true
+  },
+  "cf-python": {
+    "master": true
+  },
+  "cub": {
+    "master": true
+  },
+  "flask_rdf": {
+    "master": true
+  },
+  "tornado_sqlalchemy_login": {
+    "master": true
+  },
+  "iota": {
+    "master": true
+  },
+  "mkdocs-material-extensions": {
+    "master": true
+  },
+  "oslo.log": {
+    "master": true
+  },
+  "python-magnumclient": {
+    "master": true
+  },
+  "dolo": {
+    "master": true
+  },
+  "python-qinlingclient": {
+    "master": true
+  },
+  "simdjson": {
+    "master": true
+  },
+  "doctest": {
+    "master": true
+  },
+  "dowhy": {
+    "master": true
+  },
+  "thrust": {
+    "master": true
+  },
+  "boututils": {
+    "master": true
+  },
+  "r_clang_activation": {
+    "master": true
+  },
+  "sidecar": {
+    "master": true
+  },
+  "r-rhub": {
+    "master": true
+  },
+  "r-ggghost": {
+    "master": true
+  },
+  "sacrebleu": {
+    "master": true
+  },
+  "ansicon": {
+    "master": true
+  },
+  "jinxed": {
+    "master": true
+  },
+  "angreal": {
+    "master": true
+  },
+  "blessed": {
+    "master": true
+  },
+  "jupyter-project": {
+    "master": true
+  },
+  "awsebcli": {
+    "master": true
+  },
+  "setupmeta": {
+    "master": true
+  },
+  "dropboxdrivefs": {
+    "master": true
+  },
+  "nbcelltests": {
+    "master": true
+  },
+  "ipydagred3": {
+    "master": true
+  },
+  "interface_meta": {
+    "master": true
+  },
+  "pygeoprocessing": {
+    "master": true
+  },
+  "debugpy": {
+    "master": true
+  },
+  "ros-cv-bridge": {
+    "master": true
+  },
+  "cheetah3": {
+    "master": true
+  },
+  "feedparser": {
+    "master": true
+  },
+  "gems3k": {
+    "master": true
+  },
+  "rapids": {
+    "master": true
+  },
+  "r-scorecard": {
+    "master": true
+  },
+  "jupyterhub-idle-culler": {
+    "master": true
+  },
+  "r-dfidx": {
+    "master": true
+  },
+  "circle-fit": {
+    "master": true
+  },
+  "coiled-cloud": {
+    "master": true
+  },
+  "serf": {
+    "master": true
+  },
+  "lipo": {
+    "master": true
+  },
+  "aws-shell": {
+    "master": true
+  },
+  "diffusioncma": {
+    "master": true
+  },
+  "libzopfli": {
+    "master": true
+  },
+  "django-cognito-jwt": {
+    "master": true
+  },
+  "django-organizations": {
+    "master": true
+  },
+  "rest_condition": {
+    "master": true
+  },
+  "django-ses": {
+    "master": true
+  },
+  "r-ids": {
+    "master": true
+  },
+  "syft-proto": {
+    "master": true
+  },
+  "gputil": {
+    "master": true
+  },
+  "yaqd-control": {
+    "master": true
+  },
+  "gpaw-data": {
+    "master": true
+  },
+  "tephi": {
+    "master": true
+  },
+  "mongodb": {
+    "master": true
+  },
+  "r-googledrive": {
+    "master": true
+  },
+  "sourmash-minimal": {
+    "master": true
+  },
+  "screed": {
+    "master": true
+  },
+  "nss_wrapper": {
+    "master": true
+  },
+  "atompaw": {
+    "master": true
+  },
+  "swot_simulator": {
+    "master": true
+  },
+  "r-unbalanced": {
+    "master": true
+  },
+  "r-rose": {
+    "master": true
+  },
+  "r-themis": {
+    "master": true
+  },
+  "r-ghql": {
+    "master": true
+  },
+  "r-graphql": {
+    "master": true
+  },
+  "r-webchem": {
+    "master": true
+  },
+  "fftlog": {
+    "master": true
+  },
+  "r-denoiser": {
+    "master": true
+  },
+  "r-amelia": {
+    "master": true
+  },
+  "r-mvn": {
+    "master": true
+  },
+  "r-discretization": {
+    "master": true
+  },
+  "r-roughsets": {
+    "master": true
+  },
+  "password-strength": {
+    "master": true
+  },
+  "boutdata": {
+    "master": true
+  },
+  "pytest-echo": {
+    "master": true
+  },
+  "pytest-cloud": {
+    "master": true
+  },
+  "flake8-typing-imports": {
+    "master": true
+  },
+  "r-noisefiltersr": {
+    "master": true
+  },
+  "logfmt": {
+    "master": true
+  },
+  "jsx-lexer": {
+    "master": true
+  },
+  "jupyter_bokeh": {
+    "master": true
+  },
+  "modal": {
+    "master": true
+  },
+  "qme": {
+    "master": true
+  },
+  "pytorch_cluster": {
+    "master": true
+  },
+  "pyepr-quantum": {
+    "master": true
+  },
+  "pyslim": {
+    "master": true
+  },
+  "exiftool": {
+    "master": true
+  },
+  "pydrift": {
+    "master": true
+  },
+  "pytorch_spline_conv": {
+    "master": true
+  },
+  "argo-workflows-dsl": {
+    "master": true
+  },
+  "argo-workflows": {
+    "master": true
+  },
+  "pytorch_scatter": {
+    "master": true
   }
 }
