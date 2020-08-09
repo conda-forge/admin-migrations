@@ -23854,5 +23854,807 @@
   },
   "rocketpy": {
     "master": true
+  },
+  "rockhound": {
+    "master": true
+  },
+  "rockpool": {
+    "master": true
+  },
+  "rocm-bandwidth-test": {
+    "master": true
+  },
+  "rocm-cmake": {
+    "master": true
+  },
+  "rocm-comgr": {
+    "master": true
+  },
+  "rocm-device-libs": {
+    "master": true
+  },
+  "rocm-opencl-driver": {
+    "master": true
+  },
+  "rocm-opencl-runtime": {
+    "master": true
+  },
+  "rocm-smi": {
+    "master": true
+  },
+  "rocminfo": {
+    "master": true
+  },
+  "rocr-runtime": {
+    "master": true
+  },
+  "roct-thunk-interface": {
+    "master": true
+  },
+  "roifile": {
+    "master": true
+  },
+  "rollbar": {
+    "master": true
+  },
+  "romspline": {
+    "master": true
+  },
+  "root": {
+    "master": true,
+    "6.18": true,
+    "6.20": true,
+    "6.22-py2k": true
+  },
+  "root5": {
+    "master": true
+  },
+  "root_numpy": {
+    "master": true
+  },
+  "root_pandas": {
+    "master": true
+  },
+  "rope": {
+    "master": true
+  },
+  "ros-actionlib": {
+    "master": true
+  },
+  "ros-actionlib-msgs": {
+    "master": true
+  },
+  "ros-catkin": {
+    "master": true
+  },
+  "ros-class-loader": {
+    "master": true
+  },
+  "ros-cmake-modules": {
+    "master": true
+  },
+  "ros-comm": {
+    "master": true
+  },
+  "ros-common-msgs": {
+    "master": true
+  },
+  "ros-conda-base": {
+    "master": true,
+    "revert-3-patch-1": true
+  },
+  "ros-conda-mutex": {
+    "master": true
+  },
+  "ros-core": {
+    "master": true
+  },
+  "ros-cpp-common": {
+    "master": true
+  },
+  "ros-diagnostic-msgs": {
+    "master": true
+  },
+  "ros-dynamic-reconfigure": {
+    "master": true
+  },
+  "ros-environment": {
+    "master": true
+  },
+  "ros-gencpp": {
+    "master": true
+  },
+  "ros-geneus": {
+    "master": true
+  },
+  "ros-genlisp": {
+    "master": true
+  },
+  "ros-genmsg": {
+    "master": true
+  },
+  "ros-gennodejs": {
+    "master": true
+  },
+  "ros-genpy": {
+    "master": true
+  },
+  "ros-geometry-msgs": {
+    "master": true
+  },
+  "ros-message-filters": {
+    "master": true
+  },
+  "ros-message-generation": {
+    "master": true
+  },
+  "ros-message-runtime": {
+    "master": true
+  },
+  "ros-mk": {
+    "master": true
+  },
+  "ros-nav-msgs": {
+    "master": true
+  },
+  "ros-pluginlib": {
+    "master": true
+  },
+  "ros-ros": {
+    "master": true
+  },
+  "ros-rosbag": {
+    "master": true
+  },
+  "ros-rosbag-migration-rule": {
+    "master": true
+  },
+  "ros-rosbag-storage": {
+    "master": true
+  },
+  "ros-rosbash": {
+    "master": true
+  },
+  "ros-rosboost-cfg": {
+    "master": true
+  },
+  "ros-rosbuild": {
+    "master": true
+  },
+  "ros-rosclean": {
+    "master": true
+  },
+  "ros-rosconsole": {
+    "master": true
+  },
+  "ros-rosconsole-bridge": {
+    "master": true
+  },
+  "ros-roscpp": {
+    "master": true
+  },
+  "ros-roscpp-core": {
+    "master": true
+  },
+  "ros-roscpp-serialization": {
+    "master": true
+  },
+  "ros-roscpp-traits": {
+    "master": true
+  },
+  "ros-roscreate": {
+    "master": true
+  },
+  "ros-rosgraph": {
+    "master": true
+  },
+  "ros-rosgraph-msgs": {
+    "master": true
+  },
+  "ros-roslang": {
+    "master": true
+  },
+  "ros-roslaunch": {
+    "master": true
+  },
+  "ros-roslib": {
+    "master": true
+  },
+  "ros-roslisp": {
+    "master": true
+  },
+  "ros-roslz4": {
+    "master": true
+  },
+  "ros-rosmake": {
+    "master": true
+  },
+  "ros-rosmaster": {
+    "master": true
+  },
+  "ros-rosmsg": {
+    "master": true
+  },
+  "ros-rosnode": {
+    "master": true
+  },
+  "ros-rosout": {
+    "master": true
+  },
+  "ros-rospack": {
+    "master": true
+  },
+  "ros-rosparam": {
+    "master": true
+  },
+  "ros-rospy": {
+    "master": true
+  },
+  "ros-rosservice": {
+    "master": true
+  },
+  "ros-rostest": {
+    "master": true
+  },
+  "ros-rostime": {
+    "master": true
+  },
+  "ros-rostopic": {
+    "master": true
+  },
+  "ros-rosunit": {
+    "master": true
+  },
+  "ros-roswtf": {
+    "master": true
+  },
+  "ros-sensor-msgs": {
+    "master": true
+  },
+  "ros-shape-msgs": {
+    "master": true
+  },
+  "ros-std-msgs": {
+    "master": true
+  },
+  "ros-std-srvs": {
+    "master": true
+  },
+  "ros-stereo-msgs": {
+    "master": true
+  },
+  "ros-topic-tools": {
+    "master": true
+  },
+  "ros-trajectory-msgs": {
+    "master": true
+  },
+  "ros-visualization-msgs": {
+    "master": true
+  },
+  "ros-xmlrpcpp": {
+    "master": true
+  },
+  "rosdep": {
+    "master": true
+  },
+  "rosdistro": {
+    "master": true
+  },
+  "rosinstall": {
+    "master": true
+  },
+  "rosinstall_generator": {
+    "master": true
+  },
+  "roslibpy": {
+    "master": true
+  },
+  "rospkg": {
+    "master": true
+  },
+  "rotamerconvolvemd": {
+    "master": true
+  },
+  "routes": {
+    "master": true,
+    "1.13": true
+  },
+  "rowan": {
+    "master": true
+  },
+  "rpaths": {
+    "master": true
+  },
+  "rpcq": {
+    "master": true,
+    "conda_maintainers2": true,
+    "conda_permissions": true
+  },
+  "rpdb": {
+    "master": true
+  },
+  "rpfits": {
+    "master": true
+  },
+  "rply": {
+    "master": true
+  },
+  "rpy2": {
+    "master": true,
+    "2.8.x": true
+  },
+  "rq": {
+    "master": true,
+    "v0.8.1": true
+  },
+  "rsa": {
+    "master": true
+  },
+  "rsgislib": {
+    "master": true,
+    "Update-KEA-GSL-Versions": true
+  },
+  "rst2pdf": {
+    "master": true
+  },
+  "rstr": {
+    "master": true
+  },
+  "rsync": {
+    "master": true
+  },
+  "rt1": {
+    "master": true
+  },
+  "rtree": {
+    "master": true
+  },
+  "ruamel": {
+    "master": true
+  },
+  "ruamel.ordereddict": {
+    "master": true
+  },
+  "ruamel.yaml": {
+    "master": true,
+    "v0.16.0": true
+  },
+  "ruamel.yaml.clib": {
+    "master": true
+  },
+  "ruamel.yaml.jinja2": {
+    "master": true
+  },
+  "ruamel_yaml": {
+    "master": true
+  },
+  "rubiks": {
+    "master": true
+  },
+  "ruby": {
+    "master": true,
+    "2.3": true,
+    "2.5.x": true
+  },
+  "runthis-server": {
+    "master": true
+  },
+  "runthis-sphinxext": {
+    "master": true
+  },
+  "ruptures": {
+    "master": true
+  },
+  "rust": {
+    "master": true,
+    "dev": true
+  },
+  "rustpython": {
+    "master": true
+  },
+  "rvlib": {
+    "master": true
+  },
+  "rw": {
+    "master": true
+  },
+  "rx": {
+    "master": true
+  },
+  "rxcpp": {
+    "master": true
+  },
+  "s-tui": {
+    "master": true
+  },
+  "s2cloudless": {
+    "master": true
+  },
+  "s3cmd": {
+    "master": true
+  },
+  "s3contents": {
+    "master": true
+  },
+  "s3fs": {
+    "master": true
+  },
+  "s3path": {
+    "master": true
+  },
+  "s3transfer": {
+    "master": true
+  },
+  "s_gd2": {
+    "master": true
+  },
+  "sacc": {
+    "master": true
+  },
+  "sacremoses": {
+    "master": true
+  },
+  "sadisplay": {
+    "master": true
+  },
+  "safe-netrc": {
+    "master": true
+  },
+  "safety": {
+    "master": true
+  },
+  "saga-python": {
+    "master": true
+  },
+  "sage": {
+    "master": true
+  },
+  "sage-flatsurf": {
+    "master": true
+  },
+  "sagelib": {
+    "master": true
+  },
+  "sagemaker-chainer-container": {
+    "master": true
+  },
+  "sagemaker-inference-toolkit": {
+    "master": true
+  },
+  "sagemaker-mxnet-serving-container": {
+    "master": true
+  },
+  "sagemaker-python-sdk": {
+    "master": true
+  },
+  "sagemaker-pytorch-container": {
+    "master": true
+  },
+  "sagemaker-pytorch-serving-container": {
+    "master": true
+  },
+  "sagemaker-tensorflow-container": {
+    "master": true
+  },
+  "sagemaker-tensorflow-serving-container": {
+    "master": true
+  },
+  "sagemaker_containers": {
+    "master": true
+  },
+  "sagemaker_mxnet_container": {
+    "master": true
+  },
+  "sagemaker_pyspark": {
+    "master": true
+  },
+  "sagemath-db-combinatorial-designs": {
+    "master": true
+  },
+  "sagemath-db-conway-polynomials": {
+    "master": true
+  },
+  "sagemath-db-elliptic-curves": {
+    "master": true
+  },
+  "sagemath-db-graphs": {
+    "master": true
+  },
+  "sagemath-db-polytopes": {
+    "master": true
+  },
+  "sagenb": {
+    "master": true
+  },
+  "sagetex": {
+    "master": true
+  },
+  "salib": {
+    "master": true
+  },
+  "salt": {
+    "master": true
+  },
+  "sampledb": {
+    "master": true
+  },
+  "sanic": {
+    "master": true
+  },
+  "sansio-multipart": {
+    "master": true
+  },
+  "sarge": {
+    "master": true
+  },
+  "sas_kernel": {
+    "master": true
+  },
+  "sasl": {
+    "master": true
+  },
+  "sasmodels": {
+    "master": true
+  },
+  "saspy": {
+    "master": true
+  },
+  "sasview": {
+    "master": true
+  },
+  "sat-search": {
+    "master": true
+  },
+  "sat-stac": {
+    "master": true
+  },
+  "satpy": {
+    "master": true
+  },
+  "saws": {
+    "master": true
+  },
+  "sbcl": {
+    "master": true,
+    "osx": true
+  },
+  "scalapack": {
+    "master": true
+  },
+  "scandir": {
+    "master": true
+  },
+  "scapy": {
+    "master": true
+  },
+  "scarplet": {
+    "master": true
+  },
+  "scattertext": {
+    "master": true
+  },
+  "sccache": {
+    "master": true
+  },
+  "sceptre": {
+    "master": true
+  },
+  "schedula": {
+    "master": true
+  },
+  "schedule": {
+    "master": true
+  },
+  "scheil": {
+    "master": true
+  },
+  "schema": {
+    "master": true
+  },
+  "schema-salad": {
+    "master": true
+  },
+  "schematics": {
+    "master": true
+  },
+  "schnetpack": {
+    "master": true
+  },
+  "schwimmbad": {
+    "master": true
+  },
+  "scif": {
+    "master": true
+  },
+  "scijava-jupyter-kernel": {
+    "master": true
+  },
+  "scikit-allel": {
+    "master": true
+  },
+  "scikit-beam": {
+    "master": true
+  },
+  "scikit-bio": {
+    "master": true
+  },
+  "scikit-build": {
+    "master": true
+  },
+  "scikit-cycling": {
+    "master": true
+  },
+  "scikit-data": {
+    "master": true
+  },
+  "scikit-dsp-comm": {
+    "master": true
+  },
+  "scikit-fmm": {
+    "master": true
+  },
+  "scikit-fuzzy": {
+    "master": true
+  },
+  "scikit-garden": {
+    "master": true
+  },
+  "scikit-geometry": {
+    "master": true
+  },
+  "scikit-hep-testdata": {
+    "master": true
+  },
+  "scikit-image": {
+    "master": true,
+    "0.14.x": true
+  },
+  "scikit-learn": {
+    "master": true,
+    "0.20.X": true,
+    "rc": true
+  },
+  "scikit-learn-extra": {
+    "master": true
+  },
+  "scikit-lego": {
+    "master": true
+  },
+  "scikit-mdr": {
+    "master": true
+  },
+  "scikit-multiflow": {
+    "master": true,
+    "regro-cf-autotick-bot-0.2.0": true
+  },
+  "scikit-optimize": {
+    "master": true,
+    "fix-license": true,
+    "v0.5.1": true
+  },
+  "scikit-plot": {
+    "master": true,
+    "reiinakano-patch-1": true
+  },
+  "scikit-procrustes": {
+    "master": true
+  },
+  "scikit-rf": {
+    "master": true
+  },
+  "scikit-sparse": {
+    "master": true
+  },
+  "scikit-surprise": {
+    "master": true
+  },
+  "scikit-time": {
+    "master": true
+  },
+  "scikit-ued": {
+    "master": true
+  },
+  "scikit-umfpack": {
+    "master": true
+  },
+  "scikit-video": {
+    "master": true
+  },
+  "scikits-bootstrap": {
+    "master": true
+  },
+  "scilab": {
+    "master": true
+  },
+  "sciluigi": {
+    "master": true
+  },
+  "scipy": {
+    "master": true,
+    "np111": true,
+    "np112": true,
+    "v1.2": true
+  },
+  "scipy-sugar": {
+    "master": true
+  },
+  "scisoftpy": {
+    "master": true
+  },
+  "scisweeper": {
+    "master": true
+  },
+  "scitime": {
+    "master": true
+  },
+  "scmdata": {
+    "master": true
+  },
+  "scons": {
+    "master": true
+  },
+  "scooby": {
+    "master": true
+  },
+  "scorec": {
+    "master": true
+  },
+  "scotch": {
+    "master": true,
+    "ptscotch": true
+  },
+  "scour": {
+    "master": true
+  },
+  "scp": {
+    "master": true
+  },
+  "scqubits": {
+    "master": true
+  },
+  "scramp": {
+    "master": true
+  },
+  "scrapy": {
+    "master": true,
+    "2.0.0": true
+  },
+  "scri": {
+    "master": true
+  },
+  "scripting": {
+    "master": true
+  },
+  "scripttest": {
+    "master": true
+  },
+  "scrypt": {
+    "master": true
+  },
+  "scs": {
+    "master": true
+  },
+  "scyjava": {
+    "master": true
+  },
+  "sdf": {
+    "master": true
+  },
+  "sdl": {
+    "master": true
+  },
+  "sdl2": {
+    "master": true
+  },
+  "sdl2_gfx": {
+    "master": true,
+    "bot-changes": true
+  },
+  "sdl2_image": {
+    "master": true
+  },
+  "sdl2_mixer": {
+    "master": true
   }
 }
