@@ -15049,7 +15049,8 @@
   "pyne": {
     "master": true,
     "rc": true,
-    "dev": true
+    "dev": true,
+    "revert-50-rc_from_branch": true
   },
   "pynetdicom": {
     "master": true
