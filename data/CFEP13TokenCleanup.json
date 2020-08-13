@@ -31846,5 +31846,14 @@
   },
   "variable_generators": {
     "master": true
+  },
+  "jupyter_http_over_ws": {
+    "master": true
+  },
+  "jupyter-sphinx": {
+    "master": true
+  },
+  "r-immunarch": {
+    "master": true
   }
 }
