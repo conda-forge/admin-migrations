@@ -1610,7 +1610,8 @@
   },
   "brian2": {
     "master": true,
-    "rebuild-pypy-debug": true
+    "rebuild-pypy-debug": true,
+    "rebuild_pypy_debug": true
   },
   "broot": {
     "master": true
