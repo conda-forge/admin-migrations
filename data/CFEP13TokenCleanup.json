@@ -31945,7 +31945,8 @@
     "master": true
   },
   "motmetrics": {
-    "master": true
+    "master": true,
+    "quinnwinters/adding-ag": true
   },
   "skypy": {
     "master": true
@@ -31954,6 +31955,15 @@
     "master": true
   },
   "pandavro": {
+    "master": true
+  },
+  "yaqd-microchip": {
+    "master": true
+  },
+  "lsdtopytools": {
+    "master": true
+  },
+  "lsdtt-xtensor-python": {
     "master": true
   }
 }
