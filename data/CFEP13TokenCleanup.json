@@ -30228,7 +30228,8 @@
     "master": true
   },
   "pytorch-lightning": {
-    "master": true
+    "master": true,
+    "fix-packages": true
   },
   "drivelib": {
     "master": true
@@ -31981,6 +31982,9 @@
     "master": true
   },
   "gnuradio-satellites": {
+    "master": true
+  },
+  "taproom": {
     "master": true
   }
 }
