@@ -32030,7 +32030,8 @@
   },
   "pymetis": {
     "master": true,
-    "arm-power9": true
+    "arm-power9": true,
+    "enable-win": true
   },
   "suds-community": {
     "master": true
