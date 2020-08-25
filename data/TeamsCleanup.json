@@ -30973,5 +30973,8 @@
   },
   "jsonlookup": {
     "master": true
+  },
+  "geoip2": {
+    "master": true
   }
 }
