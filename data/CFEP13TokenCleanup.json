@@ -28099,7 +28099,8 @@
     "master": true
   },
   "xclim": {
-    "master": true
+    "master": true,
+    "v0.19.0_rebuild": true
   },
   "xcube": {
     "master": true
@@ -32085,6 +32086,15 @@
     "master": true
   },
   "ri": {
+    "master": true
+  },
+  "submitit": {
+    "master": true
+  },
+  "wdltools": {
+    "master": true
+  },
+  "eth-utils": {
     "master": true
   }
 }
