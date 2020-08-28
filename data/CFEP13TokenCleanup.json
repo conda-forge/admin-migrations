@@ -32135,5 +32135,38 @@
   },
   "single-source": {
     "master": true
+  },
+  "lbdevtools": {
+    "master": true
+  },
+  "lbcommon": {
+    "master": true
+  },
+  "lbinstall": {
+    "master": true
+  },
+  "cruft": {
+    "master": true
+  },
+  "lbnightlytools": {
+    "master": true
+  },
+  "lbsoftconfdb2clients": {
+    "master": true
+  },
+  "lbcondawrappers": {
+    "master": true
+  },
+  "lbscriptslegacy": {
+    "master": true
+  },
+  "lbadmin": {
+    "master": true
+  },
+  "lbdiracwrappers": {
+    "master": true
+  },
+  "lbmessaging": {
+    "master": true
   }
 }
