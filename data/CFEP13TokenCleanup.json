@@ -7907,7 +7907,8 @@
   },
   "ipycytoscape": {
     "master": true,
-    "add-npm": true
+    "add-npm": true,
+    "a": true
   },
   "ipydatawidgets": {
     "master": true
@@ -8650,7 +8651,8 @@
   },
   "jupytext": {
     "master": true,
-    "test-master": true
+    "test-master": true,
+    "jupytext_1.6.0rc0": true
   },
   "jwcrypto": {
     "master": true
