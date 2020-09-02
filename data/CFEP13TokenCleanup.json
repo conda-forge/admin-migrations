@@ -11947,7 +11947,8 @@
     "master": true
   },
   "numba": {
-    "master": true
+    "master": true,
+    "revert-58-0.51.2_h5f3cd8": true
   },
   "numba-scipy": {
     "master": true
