@@ -31240,5 +31240,14 @@
   },
   "podman-compose": {
     "master": true
+  },
+  "serialize": {
+    "master": true
+  },
+  "stringparser": {
+    "master": true
+  },
+  "pimpmyclass": {
+    "master": true
   }
 }
