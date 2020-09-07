@@ -27,5 +27,5 @@ conda install -y -q --file requirements.txt
 
 pip install --no-deps -e .
 
-git config --global user.email "cf-blacksmithy@email.com"
+git config --global user.email "41433396+cf-blacksmithy@users.noreply.github.com"
 git config --global user.name "cf-blacksmithy"
