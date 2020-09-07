@@ -27,5 +27,5 @@ conda install -y -q --file requirements.txt
 
 pip install --no-deps -e .
 
-git config --global user.email "conda-forge-admin@email.com"
-git config --global user.name "conda-forge-admin"
+git config --global user.email "cf-blacksmithy@email.com"
+git config --global user.name "cf-blacksmithy"
