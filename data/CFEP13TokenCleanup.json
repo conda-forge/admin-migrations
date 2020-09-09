@@ -32379,7 +32379,10 @@
   },
   "jupyter-lsp": {
     "master": true,
-    "fcollonval-patch-1": true
+    "fcollonval-patch-1": true,
+    "0.9.1": true,
+    "fcollonval-patch-2": true,
+    "reduce-pylsp-constrain": true
   },
   "r-brio": {
     "master": true
