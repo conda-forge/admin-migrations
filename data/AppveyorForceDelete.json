@@ -31576,5 +31576,17 @@
   },
   "dask_traj": {
     "master": true
+  },
+  "qpot": {
+    "master": true
+  },
+  "ucs-detect": {
+    "master": true
+  },
+  "python-qpot": {
+    "master": true
+  },
+  "django-axes": {
+    "master": true
   }
 }
