@@ -32577,5 +32577,12 @@
   },
   "pytorch-forecasting": {
     "master": true
+  },
+  "textnets": {
+    "master": true,
+    "textnets-missing-dependencies": true
+  },
+  "r-metaskat": {
+    "master": true
   }
 }
