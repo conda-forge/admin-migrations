@@ -25456,7 +25456,8 @@
     "master": true
   },
   "spglib": {
-    "master": true
+    "master": true,
+    "jochym-patch-1": true
   },
   "spglm": {
     "master": true
@@ -32623,6 +32624,12 @@
     "master": true
   },
   "xsum": {
+    "master": true
+  },
+  "plasmaboundaries": {
+    "master": true
+  },
+  "rcat": {
     "master": true
   }
 }
