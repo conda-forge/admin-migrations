@@ -2992,7 +2992,8 @@
     "master": true
   },
   "cppyy-backend": {
-    "master": true
+    "master": true,
+    "1.10": true
   },
   "cppyy-cling": {
     "master": true
