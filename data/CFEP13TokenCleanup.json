@@ -25863,7 +25863,8 @@
     "master": true
   },
   "starlink-ast": {
-    "master": true
+    "master": true,
+    "9.2.1": true
   },
   "starry": {
     "master": true
@@ -32697,6 +32698,12 @@
     "master": true
   },
   "consolemd": {
+    "master": true
+  },
+  "r-seasonal": {
+    "master": true
+  },
+  "r-x13binary": {
     "master": true
   }
 }
