@@ -4480,7 +4480,9 @@
     "master": true
   },
   "ecell4_base": {
-    "master": true
+    "master": true,
+    "boost_1730": true,
+    "boost_1740": true
   },
   "ecflow": {
     "master": true
