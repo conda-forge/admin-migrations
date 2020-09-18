@@ -32743,9 +32743,13 @@
     "master": true
   },
   "awkward1": {
-    "master": true
+    "master": true,
+    "patch_windows": true
   },
   "neworder": {
+    "master": true
+  },
+  "toasty": {
     "master": true
   }
 }
