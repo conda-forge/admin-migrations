@@ -32665,7 +32665,8 @@
     "master": true
   },
   "kubelogin": {
-    "master": true
+    "master": true,
+    "fix-win": true
   },
   "openexr-python": {
     "master": true
