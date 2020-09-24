@@ -16447,7 +16447,8 @@
   },
   "pyvisa": {
     "master": true,
-    "1.9.1": true
+    "1.9.1": true,
+    "check-cis": true
   },
   "pyvisa-py": {
     "master": true
