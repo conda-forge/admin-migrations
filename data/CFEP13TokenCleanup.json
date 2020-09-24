@@ -4482,7 +4482,8 @@
   "ecell4_base": {
     "master": true,
     "boost_1730": true,
-    "boost_1740": true
+    "boost_1740": true,
+    "disable-pypy": true
   },
   "ecflow": {
     "master": true
