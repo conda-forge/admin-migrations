@@ -30059,7 +30059,8 @@
     "master": true
   },
   "mongodb": {
-    "master": true
+    "master": true,
+    "4.2.x": true
   },
   "r-googledrive": {
     "master": true
