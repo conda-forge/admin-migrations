@@ -12446,7 +12446,8 @@
     "master": true
   },
   "optlang": {
-    "master": true
+    "master": true,
+    "upgrade-deps": true
   },
   "optpp": {
     "master": true
@@ -31084,7 +31085,8 @@
     "master": true
   },
   "qnorm": {
-    "master": true
+    "master": true,
+    "Maarten-vd-Sande-patch-1": true
   },
   "yaqd-fakes": {
     "master": true
