@@ -32597,7 +32597,8 @@
     "master": true
   },
   "pytorch-forecasting": {
-    "master": true
+    "master": true,
+    "version/bump-0.4.0": true
   },
   "textnets": {
     "master": true,
@@ -32891,6 +32892,9 @@
     "master": true
   },
   "aif360": {
+    "master": true
+  },
+  "nbclassic": {
     "master": true
   }
 }
