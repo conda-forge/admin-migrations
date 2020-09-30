@@ -8653,7 +8653,8 @@
   },
   "jupyterlab_server": {
     "master": true,
-    "1.0.x": true
+    "1.0.x": true,
+    "rc": true
   },
   "jupyternotify": {
     "master": true
