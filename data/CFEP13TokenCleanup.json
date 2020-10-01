@@ -27344,7 +27344,8 @@
   },
   "urdfdom": {
     "master": true,
-    "backport_cmake_fix": true
+    "backport_cmake_fix": true,
+    "1.0": true
   },
   "urdfdom_headers": {
     "master": true
@@ -32966,6 +32967,15 @@
     "master": true
   },
   "diceware": {
+    "master": true
+  },
+  "msmpi": {
+    "master": true
+  },
+  "cachelib": {
+    "master": true
+  },
+  "deodr": {
     "master": true
   }
 }
