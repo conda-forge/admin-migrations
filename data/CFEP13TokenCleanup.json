@@ -23030,7 +23030,8 @@
     "master": true
   },
   "rapidfuzz": {
-    "master": true
+    "master": true,
+    "docs": true
   },
   "rapidjson": {
     "master": true
@@ -32985,6 +32986,9 @@
     "master": true
   },
   "r-pointblank": {
+    "master": true
+  },
+  "robotframework-interpreter": {
     "master": true
   }
 }
