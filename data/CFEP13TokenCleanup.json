@@ -28748,7 +28748,8 @@
     "master": true
   },
   "zeromq": {
-    "master": true
+    "master": true,
+    "4.3.2-x": true
   },
   "zetcd": {
     "master": true
