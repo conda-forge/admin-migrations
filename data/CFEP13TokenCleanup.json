@@ -12455,7 +12455,8 @@
     "master": true
   },
   "optuna": {
-    "master": true
+    "master": true,
+    "simplify-imports-tests": true
   },
   "opty": {
     "master": true,
