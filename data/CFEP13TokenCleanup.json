@@ -2745,7 +2745,8 @@
   },
   "conda-forge-pinning": {
     "master": true,
-    "migrate_to_modern": true
+    "migrate_to_modern": true,
+    "revert-842-pausepy39": true
   },
   "conda-forge-repodata-patches": {
     "master": true
