@@ -14930,7 +14930,8 @@
   },
   "pymc3": {
     "master": true,
-    "rc": true
+    "rc": true,
+    "fix_pytho_dep": true
   },
   "pymca": {
     "master": true
