@@ -10146,7 +10146,8 @@
     "master": true
   },
   "louvain": {
-    "master": true
+    "master": true,
+    "revert-11-rebuild-pypy-0-1_h2486ae": true
   },
   "lp_solve": {
     "master": true
