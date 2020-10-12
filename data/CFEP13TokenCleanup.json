@@ -3026,7 +3026,8 @@
     "master": true
   },
   "crc32c": {
-    "master": true
+    "master": true,
+    "revert-3-rebuild-pypy-0-1": true
   },
   "crcmod": {
     "master": true
@@ -6572,7 +6573,8 @@
     "master": true
   },
   "goodtables": {
-    "master": true
+    "master": true,
+    "roll-patch-1": true
   },
   "gooey": {
     "master": true
