@@ -30286,7 +30286,8 @@
   },
   "pytorch-lightning": {
     "master": true,
-    "fix-packages": true
+    "fix-packages": true,
+    "v0.x": true
   },
   "drivelib": {
     "master": true
@@ -33252,6 +33253,15 @@
     "master": true
   },
   "dartsim": {
+    "master": true
+  },
+  "trict": {
+    "master": true
+  },
+  "asset": {
+    "master": true
+  },
+  "grwham": {
     "master": true
   }
 }
