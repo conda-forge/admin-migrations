@@ -5703,7 +5703,8 @@
   },
   "fmpy": {
     "master": true,
-    "fmpy-base-subpackage": true
+    "fmpy-base-subpackage": true,
+    "testing": true
   },
   "fmrib-unpack": {
     "master": true
