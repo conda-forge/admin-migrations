@@ -32314,7 +32314,8 @@
     "master": true
   },
   "rhumba": {
-    "master": true
+    "master": true,
+    "fix-repo-url": true
   },
   "conda-suggest-conda-forge": {
     "master": true
