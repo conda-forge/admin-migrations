@@ -1510,7 +1510,8 @@
     "master": true
   },
   "boost": {
-    "master": true
+    "master": true,
+    "v1.72.x": true
   },
   "boost-cpp": {
     "master": true,
