@@ -9832,7 +9832,8 @@
     "master": true
   },
   "libxc": {
-    "master": true
+    "master": true,
+    "backportv4": true
   },
   "libxcb": {
     "master": true
