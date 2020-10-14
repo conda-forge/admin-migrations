@@ -32137,5 +32137,17 @@
   },
   "strsimpy": {
     "master": true
+  },
+  "redis": {
+    "master": true
+  },
+  "redis-semaphore": {
+    "master": true
+  },
+  "gms_preprocessing": {
+    "master": true
+  },
+  "retools": {
+    "master": true
   }
 }
