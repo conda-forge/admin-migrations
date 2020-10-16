@@ -32353,5 +32353,17 @@
   },
   "aws-sso-credential-process": {
     "master": true
+  },
+  "tofu": {
+    "master": true
+  },
+  "catalystcoop.dbfread": {
+    "master": true
+  },
+  "liburcu": {
+    "master": true
+  },
+  "python-build": {
+    "master": true
   }
 }
