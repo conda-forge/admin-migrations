@@ -6401,7 +6401,8 @@
     "master": true
   },
   "glib": {
-    "master": true
+    "master": true,
+    "2.64.x": true
   },
   "glibmm": {
     "master": true
@@ -7173,7 +7174,8 @@
     "1.8.18": true,
     "1.8.19": true,
     "1.8.20": true,
-    "v1.10.2": true
+    "v1.10.2": true,
+    "1.10.x": true
   },
   "hdf5-external-filter-plugins": {
     "master": true
