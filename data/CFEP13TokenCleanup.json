@@ -27160,7 +27160,8 @@
     "master": true
   },
   "typedpy": {
-    "master": true
+    "master": true,
+    "remove-unneeded-patch": true
   },
   "typeguard": {
     "master": true
