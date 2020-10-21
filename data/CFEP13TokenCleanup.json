@@ -33309,7 +33309,8 @@
     "master": true
   },
   "cudatoolkit": {
-    "master": true
+    "master": true,
+    "10.2": true
   },
   "xraydb": {
     "master": true
@@ -33408,6 +33409,9 @@
     "master": true
   },
   "npy-append-array": {
+    "master": true
+  },
+  "numpyro": {
     "master": true
   }
 }
