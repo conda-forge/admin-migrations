@@ -28231,7 +28231,8 @@
     "master": true
   },
   "xhtml2pdf": {
-    "master": true
+    "master": true,
+    "enable-windows": true
   },
   "xhyve": {
     "master": true
@@ -33423,6 +33424,15 @@
     "master": true
   },
   "r-tibbletime": {
+    "master": true
+  },
+  "corsikaio": {
+    "master": true
+  },
+  "cloudpathlib": {
+    "master": true
+  },
+  "pytkdocs": {
     "master": true
   }
 }
