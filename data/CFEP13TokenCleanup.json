@@ -33311,7 +33311,8 @@
   },
   "cudatoolkit": {
     "master": true,
-    "10.2": true
+    "10.2": true,
+    "10.1": true
   },
   "xraydb": {
     "master": true
@@ -33419,6 +33420,9 @@
     "master": true
   },
   "pcdscalc": {
+    "master": true
+  },
+  "r-tibbletime": {
     "master": true
   }
 }
