@@ -10286,7 +10286,8 @@
     "master": true
   },
   "m2crypto": {
-    "master": true
+    "master": true,
+    "py2k": true
   },
   "m2r": {
     "master": true
