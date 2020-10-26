@@ -33246,7 +33246,8 @@
     "master": true
   },
   "libm2k": {
-    "master": true
+    "master": true,
+    "0.3.1_hd609ba": true
   },
   "sphinx-panels": {
     "master": true
@@ -33318,7 +33319,8 @@
     "master": true,
     "10.2": true,
     "10.1": true,
-    "10.0": true
+    "10.0": true,
+    "9.2": true
   },
   "xraydb": {
     "master": true
@@ -33513,6 +33515,9 @@
     "master": true
   },
   "pyzenodo3": {
+    "master": true
+  },
+  "django-maintenance-mode": {
     "master": true
   }
 }
