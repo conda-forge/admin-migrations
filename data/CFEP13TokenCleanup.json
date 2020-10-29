@@ -30758,7 +30758,8 @@
     "master": true
   },
   "match-series": {
-    "master": true
+    "master": true,
+    "SuiteSparseWin": true
   },
   "aodhclient": {
     "master": true
@@ -33574,6 +33575,9 @@
     "master": true
   },
   "climatecontrol": {
+    "master": true
+  },
+  "lume-model": {
     "master": true
   }
 }
