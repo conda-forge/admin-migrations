@@ -24691,7 +24691,8 @@
   },
   "scqubits": {
     "master": true,
-    "jk-local": true
+    "jk-local": true,
+    "revert-14-rebuild-python39-0-2_hd04d8a": true
   },
   "scramp": {
     "master": true
@@ -33618,6 +33619,9 @@
     "master": true
   },
   "r-waldo": {
+    "master": true
+  },
+  "r-wcorr": {
     "master": true
   }
 }
