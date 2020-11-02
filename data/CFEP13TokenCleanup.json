@@ -570,7 +570,8 @@
     "master": true,
     "0.12.x": true,
     "0.13.x": true,
-    "0.16.x": true
+    "0.16.x": true,
+    "0.17.x": true
   },
   "artview": {
     "master": true
@@ -5981,7 +5982,8 @@
   },
   "gala": {
     "master": true,
-    "v1.3-tick": true
+    "v1.3-tick": true,
+    "windows-build-again": true
   },
   "galario": {
     "master": true,
