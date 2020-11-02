@@ -12211,7 +12211,8 @@
     "1.2.0": true
   },
   "omas": {
-    "master": true
+    "master": true,
+    "fix-conda-dependencies": true
   },
   "omcompiler": {
     "master": true
