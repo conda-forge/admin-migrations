@@ -31896,7 +31896,8 @@
     "master": true
   },
   "evalml-core": {
-    "master": true
+    "master": true,
+    "ds_update_dev_url": true
   },
   "cotede": {
     "master": true
@@ -33705,6 +33706,9 @@
     "master": true
   },
   "param_persist": {
+    "master": true
+  },
+  "r-glassofast": {
     "master": true
   }
 }
