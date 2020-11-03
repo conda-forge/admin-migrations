@@ -25193,7 +25193,8 @@
     "master": true
   },
   "slepc": {
-    "master": true
+    "master": true,
+    "3.13.x": true
   },
   "slepc4py": {
     "master": true
@@ -33511,7 +33512,8 @@
   },
   "bgenix": {
     "master": true,
-    "bgenix-1.1.5": true
+    "bgenix-1.1.5": true,
+    "bgenix-1.1.6": true
   },
   "r-integr": {
     "master": true
