@@ -30422,7 +30422,8 @@
     "master": true
   },
   "xtb-python": {
-    "master": true
+    "master": true,
+    "v20.2": true
   },
   "varint": {
     "master": true
@@ -33803,6 +33804,9 @@
     "master": true
   },
   "jupyter-forward": {
+    "master": true
+  },
+  "r-projmgr": {
     "master": true
   }
 }
