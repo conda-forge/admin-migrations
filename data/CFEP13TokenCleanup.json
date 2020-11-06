@@ -33830,7 +33830,8 @@
     "master": true
   },
   "skutil": {
-    "master": true
+    "master": true,
+    "downgrade": true
   },
   "rse": {
     "master": true
@@ -33845,6 +33846,13 @@
     "master": true
   },
   "daal4py": {
+    "master": true
+  },
+  "kubessh": {
+    "master": true,
+    "dev": true
+  },
+  "reproc": {
     "master": true
   }
 }
