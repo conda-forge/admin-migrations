@@ -5813,7 +5813,8 @@
     "master": true
   },
   "freeimage": {
-    "master": true
+    "master": true,
+    "libraw_rebuild": true
   },
   "freetds": {
     "master": true
