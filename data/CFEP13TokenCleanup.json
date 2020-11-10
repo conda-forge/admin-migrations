@@ -31464,7 +31464,8 @@
     "master": true
   },
   "sbt": {
-    "master": true
+    "master": true,
+    "revert-1-1.4.0_h9b845a": true
   },
   "r-semnetcleaner": {
     "master": true
@@ -33996,6 +33997,12 @@
     "master": true
   },
   "r-svgpanzoom": {
+    "master": true
+  },
+  "r-tfprobability": {
+    "master": true
+  },
+  "r-netrep": {
     "master": true
   }
 }
