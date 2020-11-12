@@ -31115,7 +31115,8 @@
     "master": true
   },
   "satmad": {
-    "master": true
+    "master": true,
+    "revert-11-0.0.6_hf800c0": true
   },
   "r-zoib": {
     "master": true
@@ -34060,6 +34061,9 @@
     "master": true
   },
   "pyqtree": {
+    "master": true
+  },
+  "lsstdesc-env": {
     "master": true
   }
 }
