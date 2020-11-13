@@ -27893,7 +27893,8 @@
     "master": true
   },
   "weasyprint": {
-    "master": true
+    "master": true,
+    "52.1_h8472fc": true
   },
   "weave": {
     "master": true
@@ -32653,7 +32654,8 @@
   },
   "mpi4jax": {
     "master": true,
-    "PhilipVinc-v0.2": true
+    "PhilipVinc-v0.2": true,
+    "revert-7-v0.2.6": true
   },
   "vcpkg": {
     "master": true
