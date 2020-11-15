@@ -33130,7 +33130,8 @@
     "master": true
   },
   "sentineleof": {
-    "master": true
+    "master": true,
+    "scottstanie-patch-1": true
   },
   "openscenegraph-osgqt": {
     "master": true
@@ -34136,6 +34137,18 @@
     "master": true
   },
   "r-shinycustomloader": {
+    "master": true
+  },
+  "elyra-python-editor-extension": {
+    "master": true
+  },
+  "elyra-pipeline-editor-extension": {
+    "master": true
+  },
+  "elyra-server": {
+    "master": true
+  },
+  "elyra-code-snippet-extension": {
     "master": true
   }
 }
