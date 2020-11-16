@@ -6583,7 +6583,8 @@
     "master": true
   },
   "gobject-introspection": {
-    "master": true
+    "master": true,
+    "revert-34-load": true
   },
   "goftests": {
     "master": true
