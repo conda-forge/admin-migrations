@@ -28980,7 +28980,8 @@
     "master": true
   },
   "openfast": {
-    "master": true
+    "master": true,
+    "aarch64": true
   },
   "schemaorg": {
     "master": true
@@ -34160,6 +34161,18 @@
     "master": true
   },
   "aalto-boss": {
+    "master": true
+  },
+  "r-rdist": {
+    "master": true
+  },
+  "python-sonarqube-api": {
+    "master": true
+  },
+  "libnegf": {
+    "master": true
+  },
+  "bgcargodmqc": {
     "master": true
   }
 }
