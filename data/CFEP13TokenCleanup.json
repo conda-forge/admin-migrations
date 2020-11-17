@@ -15113,7 +15113,8 @@
     "master": true
   },
   "pymysql": {
-    "master": true
+    "master": true,
+    "back-release-0.9.2": true
   },
   "pynac": {
     "master": true,
