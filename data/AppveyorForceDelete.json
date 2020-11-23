@@ -33352,5 +33352,14 @@
   },
   "crocoddyl": {
     "master": true
+  },
+  "backports.cached-property": {
+    "master": true
+  },
+  "python-gmattensor": {
+    "master": true
+  },
+  "gmattensor": {
+    "master": true
   }
 }
