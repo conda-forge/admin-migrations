@@ -14,11 +14,13 @@ def _travis_reconfigure(user, project):
     repo_info = travis_get_repo_info(user, project)
 
     if not repo_info:
+        print("    no repo info for travis-ci", flush=True)
         return False
 
     repo_id = repo_info["id"]
 
     if repo_info["active"] is not True:
+        print("    repo is not active", flush=True)
         return True
 
     settings = [
@@ -30,7 +32,8 @@ def _travis_reconfigure(user, project):
         )
         data = {"setting.value": value}
         response = requests.patch(url, json=data, headers=headers)
-        if response.status_code != 204:
+        if response.status_code not in [200, 204]:
+            print("    response %s from request" % response.status_code, flush=True)
             return False
 
     return True
