@@ -18,6 +18,7 @@ from admin_migrations.migrators import (
     RAutomerge,
     TeamsCleanup,
     CFEP13TokenCleanup,
+    TravisCIAutoCancelPRs,
     # these are finished or not used so we don't run them
     # CondaForgeAutomerge,
     # CFEP13TokensAndConfig,
@@ -293,6 +294,7 @@ def main():
         RAutomerge(),
         TeamsCleanup(),
         CFEP13TokenCleanup(),
+        TravisCIAutoCancelPRs(),
         # these are finished or not used so we don't run them
         # CondaForgeAutomerge(),
         # CFEP13TokensAndConfig(),
