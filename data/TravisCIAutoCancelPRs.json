@@ -5998,5 +5998,1505 @@
   },
   "intake-accumulo": {
     "master": true
+  },
+  "intake-astro": {
+    "master": true
+  },
+  "intake-avro": {
+    "master": true
+  },
+  "intake-cmip": {
+    "master": true
+  },
+  "intake-elasticsearch": {
+    "master": true
+  },
+  "intake-esm": {
+    "master": true
+  },
+  "intake-geopandas": {
+    "master": true
+  },
+  "intake-parquet": {
+    "master": true
+  },
+  "intake-spark": {
+    "master": true
+  },
+  "intake-sql": {
+    "master": true
+  },
+  "intake-stac": {
+    "master": true
+  },
+  "intake-xarray": {
+    "master": true
+  },
+  "intbitset": {
+    "master": true
+  },
+  "intel-compute-runtime": {
+    "master": true
+  },
+  "intel-gmmlib": {
+    "master": true
+  },
+  "intel-graphics-compiler": {
+    "master": true
+  },
+  "intel-hybrid-driver": {
+    "master": true
+  },
+  "intel-ipp": {
+    "master": true
+  },
+  "intel-opencl-clang": {
+    "master": true
+  },
+  "intel-vaapi-driver": {
+    "master": true
+  },
+  "intel_repack": {
+    "master": true
+  },
+  "intelhex": {
+    "master": true
+  },
+  "interlap": {
+    "master": true
+  },
+  "intern": {
+    "master": true
+  },
+  "interpolation": {
+    "master": true
+  },
+  "interval_tree": {
+    "master": true
+  },
+  "intervals": {
+    "master": true
+  },
+  "intervaltree": {
+    "master": true
+  },
+  "intltool": {
+    "master": true
+  },
+  "intreehooks": {
+    "master": true
+  },
+  "invoke": {
+    "master": true
+  },
+  "iolabs": {
+    "master": true
+  },
+  "ioos_qartod": {
+    "master": true
+  },
+  "ioos_qc": {
+    "master": true
+  },
+  "ioos_tools": {
+    "master": true
+  },
+  "iowait": {
+    "master": true
+  },
+  "ipaddr": {
+    "master": true
+  },
+  "ipaddress": {
+    "master": true
+  },
+  "ipdb": {
+    "master": true
+  },
+  "iperf": {
+    "master": true
+  },
+  "ipopt": {
+    "master": true
+  },
+  "iprogress": {
+    "master": true
+  },
+  "ipycache": {
+    "master": true
+  },
+  "ipycanvas": {
+    "master": true
+  },
+  "ipycytoscape": {
+    "master": true
+  },
+  "ipydatawidgets": {
+    "master": true
+  },
+  "ipyevents": {
+    "master": true
+  },
+  "ipygany": {
+    "master": true
+  },
+  "ipygraphql": {
+    "master": true
+  },
+  "ipykernel": {
+    "master": true
+  },
+  "ipylab": {
+    "master": true
+  },
+  "ipyleaflet": {
+    "master": true
+  },
+  "ipymaterialui": {
+    "master": true
+  },
+  "ipymesh": {
+    "master": true
+  },
+  "ipymidicontrols": {
+    "master": true
+  },
+  "ipympl": {
+    "master": true
+  },
+  "ipynb-py-convert": {
+    "master": true
+  },
+  "ipyopt": {
+    "master": true
+  },
+  "ipyparallel": {
+    "master": true
+  },
+  "ipypivot": {
+    "master": true
+  },
+  "ipypublish": {
+    "master": true
+  },
+  "ipysankeywidget": {
+    "master": true
+  },
+  "ipyscales": {
+    "master": true
+  },
+  "ipysheet": {
+    "master": true
+  },
+  "ipyslurm": {
+    "master": true
+  },
+  "ipytest": {
+    "master": true
+  },
+  "ipython": {
+    "master": true
+  },
+  "ipython-autotime": {
+    "master": true
+  },
+  "ipython-sql": {
+    "master": true
+  },
+  "ipython_genutils": {
+    "master": true
+  },
+  "ipython_memory_usage": {
+    "master": true
+  },
+  "ipython_unittest": {
+    "master": true
+  },
+  "ipytree": {
+    "master": true
+  },
+  "ipyvolume": {
+    "master": true
+  },
+  "ipyvue": {
+    "master": true
+  },
+  "ipyvuedraggable": {
+    "master": true
+  },
+  "ipyvuetify": {
+    "master": true
+  },
+  "ipywe": {
+    "master": true
+  },
+  "ipywebrtc": {
+    "master": true
+  },
+  "ipywidgets": {
+    "master": true
+  },
+  "ipyxact": {
+    "master": true
+  },
+  "iris": {
+    "master": true
+  },
+  "iris-grib": {
+    "master": true
+  },
+  "iris-sample-data": {
+    "master": true
+  },
+  "iris-ued": {
+    "master": true
+  },
+  "is-number": {
+    "master": true
+  },
+  "isce2": {
+    "master": true
+  },
+  "isicarchive": {
+    "master": true
+  },
+  "isitgr": {
+    "master": true
+  },
+  "isl": {
+    "master": true
+  },
+  "islpy": {
+    "master": true
+  },
+  "iso3166": {
+    "master": true
+  },
+  "iso8601": {
+    "master": true
+  },
+  "isodate": {
+    "master": true
+  },
+  "isofit": {
+    "master": true
+  },
+  "isort": {
+    "master": true
+  },
+  "ispyb": {
+    "master": true
+  },
+  "issho": {
+    "master": true
+  },
+  "iteration_utilities": {
+    "master": true
+  },
+  "iterativewgcna": {
+    "master": true
+  },
+  "iterm2-tools": {
+    "master": true
+  },
+  "itk": {
+    "master": true
+  },
+  "itk-meshtopolydata": {
+    "master": true
+  },
+  "itkwidgets": {
+    "master": true
+  },
+  "itsdangerous": {
+    "master": true
+  },
+  "itypes": {
+    "master": true
+  },
+  "iverilog": {
+    "master": true
+  },
+  "ixmp": {
+    "master": true
+  },
+  "j2cli": {
+    "master": true
+  },
+  "jack": {
+    "master": true
+  },
+  "jacqq": {
+    "master": true
+  },
+  "jaeger": {
+    "master": true
+  },
+  "jaeger-client": {
+    "master": true
+  },
+  "jags": {
+    "master": true
+  },
+  "jam": {
+    "master": true
+  },
+  "jamotools": {
+    "master": true
+  },
+  "jansson": {
+    "master": true
+  },
+  "janus": {
+    "master": true
+  },
+  "jaraco.classes": {
+    "master": true
+  },
+  "jaraco.collections": {
+    "master": true
+  },
+  "jaraco.envs": {
+    "master": true
+  },
+  "jaraco.functools": {
+    "master": true
+  },
+  "jaraco.itertools": {
+    "master": true
+  },
+  "jaraco.logging": {
+    "master": true
+  },
+  "jaraco.stream": {
+    "master": true
+  },
+  "jaraco.text": {
+    "master": true
+  },
+  "jasper": {
+    "master": true
+  },
+  "java-1.7.0-openjdk-cos7-aarch64": {
+    "master": true
+  },
+  "java-1.7.0-openjdk-headless-cos7-aarch64": {
+    "master": true
+  },
+  "java-org.apache.arrow.arrow-tools-with-dependencies": {
+    "master": true
+  },
+  "javabridge": {
+    "master": true
+  },
+  "javafx-sdk": {
+    "master": true
+  },
+  "javaobj-py3": {
+    "master": true
+  },
+  "javapackages-tools-cos7-aarch64": {
+    "master": true
+  },
+  "javascripthon": {
+    "master": true
+  },
+  "jaws": {
+    "master": true
+  },
+  "jax": {
+    "master": true
+  },
+  "jaxlib": {
+    "master": true
+  },
+  "jaydebeapi": {
+    "master": true
+  },
+  "jbig": {
+    "master": true
+  },
+  "jbig2dec": {
+    "master": true
+  },
+  "jcc": {
+    "master": true
+  },
+  "jdatetime": {
+    "master": true
+  },
+  "jdcal": {
+    "master": true
+  },
+  "jedi": {
+    "master": true
+  },
+  "jeepney": {
+    "master": true
+  },
+  "jellyfish": {
+    "master": true
+  },
+  "jemalloc": {
+    "master": true
+  },
+  "jenkinsapi": {
+    "master": true
+  },
+  "jenkspy": {
+    "master": true
+  },
+  "jep": {
+    "master": true
+  },
+  "jftools": {
+    "master": true
+  },
+  "jgo": {
+    "master": true
+  },
+  "jieba": {
+    "master": true
+  },
+  "jieba3k": {
+    "master": true
+  },
+  "jigsaw": {
+    "master": true
+  },
+  "jigsawpy": {
+    "master": true
+  },
+  "jinja2": {
+    "master": true
+  },
+  "jinja2-highlight": {
+    "master": true
+  },
+  "jinja2-time": {
+    "master": true
+  },
+  "jinja2_pluralize": {
+    "master": true
+  },
+  "jira": {
+    "master": true
+  },
+  "jkqtplotter": {
+    "master": true
+  },
+  "jmespath": {
+    "master": true
+  },
+  "jmol": {
+    "master": true
+  },
+  "joblib": {
+    "master": true
+  },
+  "jobrunner": {
+    "master": true
+  },
+  "jobs_done10": {
+    "master": true
+  },
+  "jobtastic": {
+    "master": true
+  },
+  "jom": {
+    "master": true
+  },
+  "jonga": {
+    "master": true
+  },
+  "joommf": {
+    "master": true
+  },
+  "joommfutil": {
+    "master": true
+  },
+  "joypy": {
+    "master": true
+  },
+  "jpeg": {
+    "master": true
+  },
+  "jplephem": {
+    "master": true
+  },
+  "jpype1": {
+    "master": true
+  },
+  "jq": {
+    "master": true
+  },
+  "jquery": {
+    "master": true
+  },
+  "jquery-mobile": {
+    "master": true
+  },
+  "jquery-ui": {
+    "master": true
+  },
+  "js-cookie": {
+    "master": true
+  },
+  "js-regex": {
+    "master": true
+  },
+  "js2py": {
+    "master": true
+  },
+  "jsanimation": {
+    "master": true
+  },
+  "jsdom": {
+    "master": true
+  },
+  "jsmin": {
+    "master": true
+  },
+  "json-c": {
+    "master": true
+  },
+  "json-e": {
+    "master": true
+  },
+  "json-merge-patch": {
+    "master": true
+  },
+  "json-rpc": {
+    "master": true
+  },
+  "json5": {
+    "master": true
+  },
+  "json_schema_validator": {
+    "master": true
+  },
+  "json_tricks": {
+    "master": true
+  },
+  "jsonapi-client": {
+    "master": true
+  },
+  "jsonapi-requests": {
+    "master": true
+  },
+  "jsonarango": {
+    "master": true
+  },
+  "jsoncpp": {
+    "master": true
+  },
+  "jsondate": {
+    "master": true
+  },
+  "jsondiff": {
+    "master": true
+  },
+  "jsonextended": {
+    "master": true
+  },
+  "jsonfield": {
+    "master": true
+  },
+  "jsonlines": {
+    "master": true
+  },
+  "jsonnet": {
+    "master": true
+  },
+  "jsonpatch": {
+    "master": true
+  },
+  "jsonpath": {
+    "master": true
+  },
+  "jsonpath-ng": {
+    "master": true
+  },
+  "jsonpickle": {
+    "master": true
+  },
+  "jsonpointer": {
+    "master": true
+  },
+  "jsonref": {
+    "master": true
+  },
+  "jsonrpcclient": {
+    "master": true
+  },
+  "jsonrpcserver": {
+    "master": true
+  },
+  "jsonschema": {
+    "master": true
+  },
+  "jsontableschema": {
+    "master": true
+  },
+  "jsontableschema-pandas": {
+    "master": true
+  },
+  "jstz": {
+    "master": true
+  },
+  "judy": {
+    "master": true
+  },
+  "jug": {
+    "master": true
+  },
+  "julia": {
+    "master": true
+  },
+  "juliart": {
+    "master": true
+  },
+  "jump": {
+    "master": true
+  },
+  "junit-xml": {
+    "master": true
+  },
+  "junit2html": {
+    "master": true
+  },
+  "jupyter": {
+    "master": true
+  },
+  "jupyter-archive": {
+    "master": true
+  },
+  "jupyter-dashboards-server": {
+    "master": true
+  },
+  "jupyter-docx-bundler": {
+    "master": true
+  },
+  "jupyter-hdfscm": {
+    "master": true
+  },
+  "jupyter-kernel-singular": {
+    "master": true
+  },
+  "jupyter-offlinenotebook": {
+    "master": true
+  },
+  "jupyter-panel-proxy": {
+    "master": true
+  },
+  "jupyter-repo2docker": {
+    "master": true
+  },
+  "jupyter-rsession-proxy": {
+    "master": true
+  },
+  "jupyter-server-proxy": {
+    "master": true
+  },
+  "jupyter-themer": {
+    "master": true
+  },
+  "jupyter-vscode-proxy": {
+    "master": true
+  },
+  "jupyter_client": {
+    "master": true
+  },
+  "jupyter_cms": {
+    "master": true
+  },
+  "jupyter_conda": {
+    "master": true
+  },
+  "jupyter_console": {
+    "master": true
+  },
+  "jupyter_contrib_core": {
+    "master": true
+  },
+  "jupyter_contrib_nbextensions": {
+    "master": true
+  },
+  "jupyter_core": {
+    "master": true
+  },
+  "jupyter_dashboards": {
+    "master": true
+  },
+  "jupyter_dojo": {
+    "master": true
+  },
+  "jupyter_enterprise_gateway": {
+    "master": true
+  },
+  "jupyter_full_width": {
+    "master": true
+  },
+  "jupyter_highlight_selected_word": {
+    "master": true
+  },
+  "jupyter_kernel_gateway": {
+    "master": true
+  },
+  "jupyter_kernel_test": {
+    "master": true
+  },
+  "jupyter_latex_envs": {
+    "master": true
+  },
+  "jupyter_nbextensions_configurator": {
+    "master": true
+  },
+  "jupyter_paperboy": {
+    "master": true
+  },
+  "jupyter_pivottablejs": {
+    "master": true
+  },
+  "jupyter_qtconsole_colorschemes": {
+    "master": true
+  },
+  "jupyter_server": {
+    "master": true
+  },
+  "jupyter_sphinx": {
+    "master": true
+  },
+  "jupyter_telemetry": {
+    "master": true
+  },
+  "jupyterhub": {
+    "master": true
+  },
+  "jupyterhub-ldapauthenticator": {
+    "master": true
+  },
+  "jupyterhub-systemdspawner": {
+    "master": true
+  },
+  "jupyterhub-terraformspawner": {
+    "master": true
+  },
+  "jupyterhub-yarnspawner": {
+    "master": true
+  },
+  "jupyterlab": {
+    "master": true
+  },
+  "jupyterlab-dash": {
+    "master": true
+  },
+  "jupyterlab-git": {
+    "master": true
+  },
+  "jupyterlab-latex": {
+    "master": true
+  },
+  "jupyterlab-nvdashboard": {
+    "master": true
+  },
+  "jupyterlab-plotly-extension": {
+    "master": true
+  },
+  "jupyterlab-snippets": {
+    "master": true
+  },
+  "jupyterlab-sos": {
+    "master": true
+  },
+  "jupyterlab-transient-display-data": {
+    "master": true
+  },
+  "jupyterlab_code_formatter": {
+    "master": true
+  },
+  "jupyterlab_downloadfolder": {
+    "master": true
+  },
+  "jupyterlab_heroku": {
+    "master": true
+  },
+  "jupyterlab_latex": {
+    "master": true
+  },
+  "jupyterlab_launcher": {
+    "master": true
+  },
+  "jupyterlab_pygments": {
+    "master": true
+  },
+  "jupyterlab_server": {
+    "master": true
+  },
+  "jupyternotify": {
+    "master": true
+  },
+  "jupyterthemes": {
+    "master": true
+  },
+  "jupytext": {
+    "master": true
+  },
+  "jwcrypto": {
+    "master": true
+  },
+  "jxrlib": {
+    "master": true
+  },
+  "k3d": {
+    "master": true
+  },
+  "kafka-python": {
+    "master": true
+  },
+  "kafkacat": {
+    "master": true
+  },
+  "kaggle": {
+    "master": true
+  },
+  "kalasiris": {
+    "master": true
+  },
+  "kaldi": {
+    "master": true
+  },
+  "kapteyn": {
+    "master": true
+  },
+  "karchive": {
+    "master": true
+  },
+  "kartothek": {
+    "master": true
+  },
+  "kastore": {
+    "master": true
+  },
+  "kauth": {
+    "master": true
+  },
+  "kazoo": {
+    "master": true
+  },
+  "kbookmarks": {
+    "master": true
+  },
+  "kcodecs": {
+    "master": true
+  },
+  "kcompletion": {
+    "master": true
+  },
+  "kconfig": {
+    "master": true
+  },
+  "kconfigwidgets": {
+    "master": true
+  },
+  "kcoreaddons": {
+    "master": true
+  },
+  "kcrash": {
+    "master": true
+  },
+  "kdbusaddons": {
+    "master": true
+  },
+  "kdeclarative": {
+    "master": true
+  },
+  "kdenlive": {
+    "master": true
+  },
+  "kdtree": {
+    "master": true
+  },
+  "kealib": {
+    "master": true
+  },
+  "keepalive": {
+    "master": true
+  },
+  "kenjutsu": {
+    "master": true
+  },
+  "keras": {
+    "master": true
+  },
+  "keras-applications": {
+    "master": true
+  },
+  "keras-preprocessing": {
+    "master": true
+  },
+  "keras-radam": {
+    "master": true
+  },
+  "keras-tuner": {
+    "master": true
+  },
+  "kernda": {
+    "master": true
+  },
+  "keycloak-gatekeeper": {
+    "master": true
+  },
+  "keyring": {
+    "master": true
+  },
+  "keyrings.alt": {
+    "master": true
+  },
+  "keystoneauth1": {
+    "master": true
+  },
+  "kfilemetadata": {
+    "master": true
+  },
+  "kfp": {
+    "master": true
+  },
+  "kfp-server-api": {
+    "master": true
+  },
+  "kglobalaccel": {
+    "master": true
+  },
+  "kguiaddons": {
+    "master": true
+  },
+  "khronos-opencl-icd-loader": {
+    "master": true
+  },
+  "ki18n": {
+    "master": true
+  },
+  "kiconthemes": {
+    "master": true
+  },
+  "kikuchipy": {
+    "master": true
+  },
+  "kim-api": {
+    "master": true
+  },
+  "kim-query": {
+    "master": true
+  },
+  "kim_edn": {
+    "master": true
+  },
+  "kim_property": {
+    "master": true
+  },
+  "kimpy": {
+    "master": true
+  },
+  "kinparse": {
+    "master": true
+  },
+  "kio": {
+    "master": true
+  },
+  "kirigami2": {
+    "master": true
+  },
+  "kitemviews": {
+    "master": true
+  },
+  "kitty": {
+    "master": true
+  },
+  "kitty-themes": {
+    "master": true
+  },
+  "kivy": {
+    "master": true
+  },
+  "kivy-garden": {
+    "master": true
+  },
+  "kiwipy": {
+    "master": true
+  },
+  "kiwisolver": {
+    "master": true
+  },
+  "kjobwidgets": {
+    "master": true
+  },
+  "kliff": {
+    "master": true
+  },
+  "kmodes": {
+    "master": true
+  },
+  "knack": {
+    "master": true
+  },
+  "kneed": {
+    "master": true
+  },
+  "knewstuff": {
+    "master": true
+  },
+  "knit": {
+    "master": true
+  },
+  "knitty": {
+    "master": true
+  },
+  "knockknock": {
+    "master": true
+  },
+  "knotifications": {
+    "master": true
+  },
+  "knotifyconfig": {
+    "master": true
+  },
+  "koalas": {
+    "master": true
+  },
+  "kombine": {
+    "master": true
+  },
+  "kombu": {
+    "master": true
+  },
+  "kpackage": {
+    "master": true
+  },
+  "krb5": {
+    "master": true
+  },
+  "kronprod": {
+    "master": true
+  },
+  "krtc": {
+    "master": true
+  },
+  "kservice": {
+    "master": true
+  },
+  "ksonnet": {
+    "master": true
+  },
+  "ktextwidgets": {
+    "master": true
+  },
+  "kubernetes": {
+    "master": true
+  },
+  "kubernetes-federation": {
+    "master": true
+  },
+  "kubernetes-helm": {
+    "master": true
+  },
+  "kubernetes_asyncio": {
+    "master": true
+  },
+  "kuyruk": {
+    "master": true
+  },
+  "kwallet": {
+    "master": true
+  },
+  "kwant": {
+    "master": true
+  },
+  "kwidgetsaddons": {
+    "master": true
+  },
+  "kwindowsystem": {
+    "master": true
+  },
+  "kxmlgui": {
+    "master": true
+  },
+  "kyotocabinet": {
+    "master": true
+  },
+  "l18n": {
+    "master": true
+  },
+  "label-maker": {
+    "master": true
+  },
+  "labelme": {
+    "master": true
+  },
+  "labjackpython": {
+    "master": true
+  },
+  "labours": {
+    "master": true
+  },
+  "ladspa": {
+    "master": true
+  },
+  "lagranto": {
+    "master": true
+  },
+  "lal": {
+    "master": true
+  },
+  "lalapps": {
+    "master": true
+  },
+  "lalburst": {
+    "master": true
+  },
+  "lalframe": {
+    "master": true
+  },
+  "lalinference": {
+    "master": true
+  },
+  "lalinspiral": {
+    "master": true
+  },
+  "lalmetaio": {
+    "master": true
+  },
+  "lalpulsar": {
+    "master": true
+  },
+  "lalsimulation": {
+    "master": true
+  },
+  "lalsuite": {
+    "master": true
+  },
+  "lame": {
+    "master": true
+  },
+  "lammps": {
+    "master": true
+  },
+  "lancet": {
+    "master": true
+  },
+  "landlab": {
+    "master": true
+  },
+  "landsat_util": {
+    "master": true
+  },
+  "langdetect": {
+    "master": true
+  },
+  "lap": {
+    "master": true
+  },
+  "lapack": {
+    "master": true
+  },
+  "larch": {
+    "master": true
+  },
+  "lark-parser": {
+    "master": true
+  },
+  "larray": {
+    "master": true
+  },
+  "larray-editor": {
+    "master": true
+  },
+  "larray_eurostat": {
+    "master": true
+  },
+  "larrayenv": {
+    "master": true
+  },
+  "lasagne": {
+    "master": true
+  },
+  "laspy": {
+    "master": true
+  },
+  "lastools": {
+    "master": true
+  },
+  "laszip": {
+    "master": true
+  },
+  "latexcodec": {
+    "master": true
+  },
+  "latexmk": {
+    "master": true
+  },
+  "latlon23": {
+    "master": true
+  },
+  "latte-integrale": {
+    "master": true
+  },
+  "laxpy": {
+    "master": true
+  },
+  "laz-perf": {
+    "master": true
+  },
+  "lazy": {
+    "master": true
+  },
+  "lazy-object-proxy": {
+    "master": true
+  },
+  "lazyasd": {
+    "master": true
+  },
+  "lazygit": {
+    "master": true
+  },
+  "lbenv": {
+    "master": true
+  },
+  "lbplatformutils": {
+    "master": true
+  },
+  "lbzip2": {
+    "master": true
+  },
+  "lcalc": {
+    "master": true
+  },
+  "lcms2": {
+    "master": true
+  },
+  "lcov": {
+    "master": true
+  },
+  "lda": {
+    "master": true
+  },
+  "ldap": {
+    "master": true
+  },
+  "ldap3": {
+    "master": true
+  },
+  "ldaptor": {
+    "master": true
+  },
+  "ldas-tools-al": {
+    "master": true
+  },
+  "ldas-tools-al-swig": {
+    "master": true
+  },
+  "ldas-tools-cmake": {
+    "master": true
+  },
+  "ldas-tools-diskcacheapi": {
+    "master": true
+  },
+  "ldas-tools-diskcacheapi-swig": {
+    "master": true
+  },
+  "ldas-tools-filters": {
+    "master": true
+  },
+  "ldas-tools-frameapi": {
+    "master": true
+  },
+  "ldas-tools-frameapi-swig": {
+    "master": true
+  },
+  "ldas-tools-framecpp": {
+    "master": true
+  },
+  "ldas-tools-framecpp-swig": {
+    "master": true
+  },
+  "ldas-tools-ldasgen": {
+    "master": true
+  },
+  "ldas-tools-ldasgen-swig": {
+    "master": true
+  },
+  "ldas-tools-utilities": {
+    "master": true
+  },
+  "ldc": {
+    "master": true
+  },
+  "ldraw": {
+    "master": true
+  },
+  "leather": {
+    "master": true
+  },
+  "ledger": {
+    "master": true
+  },
+  "legendgram": {
+    "master": true
+  },
+  "legit": {
+    "master": true
+  },
+  "leidenalg": {
+    "master": true
+  },
+  "lektor": {
+    "master": true
+  },
+  "lemon": {
+    "master": true
+  },
+  "lensfun": {
+    "master": true
+  },
+  "lensfunpy": {
+    "master": true
+  },
+  "leptonica": {
+    "master": true
+  },
+  "less.js": {
+    "master": true
+  },
+  "lesscpy": {
+    "master": true
+  },
+  "lesshat": {
+    "master": true
+  },
+  "leveldb": {
+    "master": true
+  },
+  "lfortran": {
+    "master": true
+  },
+  "lfpy": {
+    "master": true
+  },
+  "lftp": {
+    "master": true
+  },
+  "lfzip": {
+    "master": true
+  },
+  "lhcb-simpletools": {
+    "master": true
+  },
+  "lhcbdirac": {
+    "master": true
+  },
+  "lhcbdirac-config": {
+    "master": true
+  },
+  "libaatm": {
+    "master": true
+  },
+  "libadjoint": {
+    "master": true
+  },
+  "libaec": {
+    "master": true
+  },
+  "libaio": {
+    "master": true
+  },
+  "libarchive": {
+    "master": true
+  },
+  "libass": {
+    "master": true
+  },
+  "libassuan": {
+    "master": true
+  },
+  "libatomic_ops": {
+    "master": true
+  },
+  "libbezier": {
+    "master": true
+  },
+  "libblitz": {
+    "master": true
+  },
+  "libbraiding": {
+    "master": true
+  },
+  "libbsc": {
+    "master": true
+  },
+  "libcanberra": {
+    "master": true
+  },
+  "libcap": {
+    "master": true
+  },
+  "libccd": {
+    "master": true
+  },
+  "libcdms": {
+    "master": true
+  },
+  "libcf": {
+    "master": true
+  },
+  "libcflib": {
+    "master": true
+  },
+  "libcmaes": {
+    "master": true
+  },
+  "libcomcat": {
+    "master": true
+  },
+  "libconfig": {
+    "master": true
+  },
+  "libcrc32c": {
+    "master": true
+  },
+  "libcroco": {
+    "master": true
+  },
+  "libcst": {
+    "master": true
+  },
+  "libctl": {
+    "master": true
+  },
+  "libcups": {
+    "master": true
+  },
+  "libcxx": {
+    "master": true
+  },
+  "libcxxwrap-julia": {
+    "master": true
+  },
+  "libdaemon": {
+    "master": true
+  },
+  "libdap4": {
+    "master": true
+  },
+  "libdb": {
+    "master": true
+  },
+  "libdeflate": {
+    "master": true
+  },
+  "libdiffpy": {
+    "master": true
+  },
+  "libdrm": {
+    "master": true
   }
 }
