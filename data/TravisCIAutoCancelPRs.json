@@ -7498,5 +7498,1505 @@
   },
   "libdrm": {
     "master": true
+  },
+  "libdrm-cos7-aarch64": {
+    "master": true
+  },
+  "libdrm-cos7-ppc64le": {
+    "master": true
+  },
+  "libdrs": {
+    "master": true
+  },
+  "libdrs_f": {
+    "master": true
+  },
+  "libedit": {
+    "master": true
+  },
+  "libensemble": {
+    "master": true
+  },
+  "libev": {
+    "master": true
+  },
+  "libevent": {
+    "master": true
+  },
+  "libexif": {
+    "master": true
+  },
+  "libfaketime": {
+    "master": true
+  },
+  "libffi": {
+    "master": true
+  },
+  "libflac": {
+    "master": true
+  },
+  "libflint": {
+    "master": true
+  },
+  "libframe": {
+    "master": true
+  },
+  "libfuse": {
+    "master": true
+  },
+  "libgap": {
+    "master": true
+  },
+  "libgcrypt": {
+    "master": true
+  },
+  "libgd": {
+    "master": true
+  },
+  "libgdsii": {
+    "master": true
+  },
+  "libgfortran": {
+    "master": true
+  },
+  "libgit2": {
+    "master": true
+  },
+  "libglu": {
+    "master": true
+  },
+  "libglvnd-cos7-aarch64": {
+    "master": true
+  },
+  "libglvnd-cos7-ppc64le": {
+    "master": true
+  },
+  "libglvnd-glx-cos7-aarch64": {
+    "master": true
+  },
+  "libglvnd-glx-cos7-ppc64le": {
+    "master": true
+  },
+  "libgpg-error": {
+    "master": true
+  },
+  "libgpuarray": {
+    "master": true
+  },
+  "libgsasl": {
+    "master": true
+  },
+  "libgsf": {
+    "master": true
+  },
+  "libharu": {
+    "master": true
+  },
+  "libhdfs3": {
+    "master": true
+  },
+  "libhomfly": {
+    "master": true
+  },
+  "libhwloc": {
+    "master": true
+  },
+  "libibcm-cos6-x86_64": {
+    "master": true
+  },
+  "libibcm-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libibverbs-cos6-x86_64": {
+    "master": true
+  },
+  "libibverbs-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libical": {
+    "master": true
+  },
+  "libice-cos7-aarch64": {
+    "master": true
+  },
+  "libice-cos7-ppc64le": {
+    "master": true
+  },
+  "libiconv": {
+    "master": true
+  },
+  "libidn11": {
+    "master": true
+  },
+  "libidn2": {
+    "master": true
+  },
+  "libignition-cmake0": {
+    "master": true
+  },
+  "libignition-common": {
+    "master": true
+  },
+  "libignition-fuel-tools": {
+    "master": true
+  },
+  "libignition-math4": {
+    "master": true
+  },
+  "libignition-msgs1": {
+    "master": true
+  },
+  "libignition-physics": {
+    "master": true
+  },
+  "libignition-plugin": {
+    "master": true
+  },
+  "libignition-tools": {
+    "master": true
+  },
+  "libignition-transport4": {
+    "master": true
+  },
+  "libint": {
+    "master": true
+  },
+  "libitk": {
+    "master": true
+  },
+  "libjpeg-turbo": {
+    "master": true
+  },
+  "libjpeg-turbo-cos7-aarch64": {
+    "master": true
+  },
+  "libkml": {
+    "master": true
+  },
+  "libksba": {
+    "master": true
+  },
+  "liblbfgs": {
+    "master": true
+  },
+  "libmad": {
+    "master": true
+  },
+  "libmagic": {
+    "master": true
+  },
+  "libmatio": {
+    "master": true
+  },
+  "libmed": {
+    "master": true
+  },
+  "libmemcached": {
+    "master": true
+  },
+  "libmo_unpack": {
+    "master": true
+  },
+  "libnetcdf": {
+    "master": true
+  },
+  "libnetworkit": {
+    "master": true
+  },
+  "libneuroml": {
+    "master": true
+  },
+  "libnl": {
+    "master": true
+  },
+  "libnl-cos6-x86_64": {
+    "master": true
+  },
+  "libnl-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libntlm": {
+    "master": true
+  },
+  "libobjcryst": {
+    "master": true
+  },
+  "libode": {
+    "master": true
+  },
+  "libogg": {
+    "master": true
+  },
+  "libopusenc": {
+    "master": true
+  },
+  "libosxunwind": {
+    "master": true
+  },
+  "libpcap": {
+    "master": true
+  },
+  "libpciaccess": {
+    "master": true
+  },
+  "libpgmath": {
+    "master": true
+  },
+  "libpng": {
+    "master": true
+  },
+  "libpostal": {
+    "master": true
+  },
+  "libprotobuf": {
+    "master": true
+  },
+  "libpysal": {
+    "master": true
+  },
+  "libpython": {
+    "master": true
+  },
+  "librabbitmq": {
+    "master": true
+  },
+  "libradolan": {
+    "master": true
+  },
+  "libraw": {
+    "master": true
+  },
+  "librdkafka": {
+    "master": true
+  },
+  "librdmacm-cos6-x86_64": {
+    "master": true
+  },
+  "librdmacm-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libredwg": {
+    "master": true
+  },
+  "librepo": {
+    "master": true
+  },
+  "librosa": {
+    "master": true
+  },
+  "librsvg": {
+    "master": true
+  },
+  "libsakura": {
+    "master": true
+  },
+  "libsass": {
+    "master": true
+  },
+  "libsdformat": {
+    "master": true
+  },
+  "libsecret": {
+    "master": true
+  },
+  "libselinux-cos7-aarch64": {
+    "master": true
+  },
+  "libsemigroups": {
+    "master": true
+  },
+  "libsemigroups-python-bindings": {
+    "master": true
+  },
+  "libsemigroups_cppyy": {
+    "master": true
+  },
+  "libsharp": {
+    "master": true
+  },
+  "libsigcpp": {
+    "master": true
+  },
+  "libsigsegv": {
+    "master": true
+  },
+  "libsimpleitk": {
+    "master": true
+  },
+  "libsm-cos7-aarch64": {
+    "master": true
+  },
+  "libsm-cos7-ppc64le": {
+    "master": true
+  },
+  "libsndfile": {
+    "master": true
+  },
+  "libsodium": {
+    "master": true
+  },
+  "libsolv": {
+    "master": true
+  },
+  "libspatialindex": {
+    "master": true
+  },
+  "libspatialite": {
+    "master": true
+  },
+  "libspnav": {
+    "master": true
+  },
+  "libssh": {
+    "master": true
+  },
+  "libssh2": {
+    "master": true
+  },
+  "libsvm": {
+    "master": true
+  },
+  "libtar": {
+    "master": true
+  },
+  "libtasn1": {
+    "master": true
+  },
+  "libtheora": {
+    "master": true
+  },
+  "libtiff": {
+    "master": true
+  },
+  "libtike-cufft": {
+    "master": true
+  },
+  "libtiledb-sql": {
+    "master": true
+  },
+  "libtiledb-sql-py": {
+    "master": true
+  },
+  "libtlx": {
+    "master": true
+  },
+  "libtool": {
+    "master": true
+  },
+  "libudev-cos6-x86_64": {
+    "master": true
+  },
+  "libudev-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libunistring": {
+    "master": true
+  },
+  "libunwind": {
+    "master": true
+  },
+  "libusb": {
+    "master": true
+  },
+  "libusb-compat": {
+    "master": true
+  },
+  "libutf8proc": {
+    "master": true
+  },
+  "libuuid": {
+    "master": true
+  },
+  "libuv": {
+    "master": true
+  },
+  "libv8": {
+    "master": true
+  },
+  "libva": {
+    "master": true
+  },
+  "libva-utils": {
+    "master": true
+  },
+  "libvips": {
+    "master": true
+  },
+  "libvorbis": {
+    "master": true
+  },
+  "libwapiti": {
+    "master": true
+  },
+  "libwebp": {
+    "master": true
+  },
+  "libwebp-base": {
+    "master": true
+  },
+  "libwebsockets": {
+    "master": true
+  },
+  "libx11-common-cos7-aarch64": {
+    "master": true
+  },
+  "libx11-cos7-aarch64": {
+    "master": true
+  },
+  "libx11-devel-cos7-aarch64": {
+    "master": true
+  },
+  "libxau-cos7-aarch64": {
+    "master": true
+  },
+  "libxc": {
+    "master": true
+  },
+  "libxcb": {
+    "master": true
+  },
+  "libxcb-cos7-aarch64": {
+    "master": true
+  },
+  "libxcomposite-cos7-ppc64le": {
+    "master": true
+  },
+  "libxcursor-cos7-ppc64le": {
+    "master": true
+  },
+  "libxdamage-cos7-aarch64": {
+    "master": true
+  },
+  "libxext-cos7-aarch64": {
+    "master": true
+  },
+  "libxfixes-cos7-aarch64": {
+    "master": true
+  },
+  "libxfoil": {
+    "master": true
+  },
+  "libxkbcommon": {
+    "master": true
+  },
+  "libxkbfile": {
+    "master": true
+  },
+  "libxml2": {
+    "master": true
+  },
+  "libxmlpp": {
+    "master": true
+  },
+  "libxrender-cos7-aarch64": {
+    "master": true
+  },
+  "libxscrnsaver-cos7-ppc64le": {
+    "master": true
+  },
+  "libxshmfence-cos7-aarch64": {
+    "master": true
+  },
+  "libxshmfence-cos7-ppc64le": {
+    "master": true
+  },
+  "libxslt": {
+    "master": true
+  },
+  "libxsmm": {
+    "master": true
+  },
+  "libxt-cos7-aarch64": {
+    "master": true
+  },
+  "libxt-cos7-ppc64le": {
+    "master": true
+  },
+  "libxtst-cos7-ppc64le": {
+    "master": true
+  },
+  "libxxf86vm-cos7-aarch64": {
+    "master": true
+  },
+  "libxxf86vm-cos7-ppc64le": {
+    "master": true
+  },
+  "libzip": {
+    "master": true
+  },
+  "license-expression": {
+    "master": true
+  },
+  "lidar": {
+    "master": true
+  },
+  "lief": {
+    "master": true
+  },
+  "lifelines": {
+    "master": true
+  },
+  "lifetimes": {
+    "master": true
+  },
+  "lightfm": {
+    "master": true
+  },
+  "lightgbm": {
+    "master": true
+  },
+  "lightkurve": {
+    "master": true
+  },
+  "lighttpd": {
+    "master": true
+  },
+  "ligo-common": {
+    "master": true
+  },
+  "ligo-followup-advocate": {
+    "master": true
+  },
+  "ligo-gracedb": {
+    "master": true
+  },
+  "ligo-lvalert": {
+    "master": true
+  },
+  "ligo-raven": {
+    "master": true
+  },
+  "ligo-requests": {
+    "master": true
+  },
+  "ligo-scald": {
+    "master": true
+  },
+  "ligo-segments": {
+    "master": true
+  },
+  "ligo.skymap": {
+    "master": true
+  },
+  "ligotimegps": {
+    "master": true
+  },
+  "ligotools": {
+    "master": true
+  },
+  "liknorm": {
+    "master": true
+  },
+  "liknorm-py": {
+    "master": true
+  },
+  "lime": {
+    "master": true
+  },
+  "limix": {
+    "master": true
+  },
+  "limix-core": {
+    "master": true
+  },
+  "limix-inference": {
+    "master": true
+  },
+  "limix-legacy": {
+    "master": true
+  },
+  "limix-plot": {
+    "master": true
+  },
+  "linbox": {
+    "master": true
+  },
+  "line_profiler": {
+    "master": true
+  },
+  "linear-tsv": {
+    "master": true
+  },
+  "linearmodels": {
+    "master": true
+  },
+  "linecache2": {
+    "master": true
+  },
+  "linetools": {
+    "master": true
+  },
+  "link-traits": {
+    "master": true
+  },
+  "lintegrate": {
+    "master": true
+  },
+  "lintel": {
+    "master": true
+  },
+  "linux-sysroot": {
+    "master": true
+  },
+  "liquidprompt": {
+    "master": true
+  },
+  "litereval": {
+    "master": true
+  },
+  "littleutils": {
+    "master": true
+  },
+  "livereload": {
+    "master": true
+  },
+  "livvkit": {
+    "master": true
+  },
+  "livy-submit": {
+    "master": true
+  },
+  "lld": {
+    "master": true
+  },
+  "lldb": {
+    "master": true
+  },
+  "llvm-meta": {
+    "master": true
+  },
+  "llvm-spirv": {
+    "master": true
+  },
+  "llvmdev": {
+    "master": true
+  },
+  "llvmlite": {
+    "master": true
+  },
+  "lmdb": {
+    "master": true
+  },
+  "lmfit": {
+    "master": true
+  },
+  "lml": {
+    "master": true
+  },
+  "lmod": {
+    "master": true
+  },
+  "localstack": {
+    "master": true
+  },
+  "localstack-client": {
+    "master": true
+  },
+  "localstack-ext": {
+    "master": true
+  },
+  "locket": {
+    "master": true
+  },
+  "lockfile": {
+    "master": true
+  },
+  "locust": {
+    "master": true
+  },
+  "lodash": {
+    "master": true
+  },
+  "log4cpp": {
+    "master": true
+  },
+  "log4cxx": {
+    "master": true
+  },
+  "log_symbols": {
+    "master": true
+  },
+  "logaddexp": {
+    "master": true
+  },
+  "logbook": {
+    "master": true
+  },
+  "logging-helpers": {
+    "master": true
+  },
+  "logging_exceptions": {
+    "master": true
+  },
+  "loghub": {
+    "master": true
+  },
+  "logilab-common": {
+    "master": true
+  },
+  "logmuse": {
+    "master": true
+  },
+  "loguru": {
+    "master": true
+  },
+  "logzero": {
+    "master": true
+  },
+  "loky": {
+    "master": true
+  },
+  "loompy": {
+    "master": true
+  },
+  "lorem": {
+    "master": true
+  },
+  "louvain": {
+    "master": true
+  },
+  "lp_solve": {
+    "master": true
+  },
+  "lpsolve55": {
+    "master": true
+  },
+  "lrcalc": {
+    "master": true
+  },
+  "lrslib": {
+    "master": true
+  },
+  "lscsoft-glue": {
+    "master": true
+  },
+  "lsof": {
+    "master": true
+  },
+  "lsst-dd-rtd-theme": {
+    "master": true
+  },
+  "lsst-documenteer": {
+    "master": true
+  },
+  "lsst-sphinx-bootstrap-theme": {
+    "master": true
+  },
+  "lsst_dashboard": {
+    "master": true
+  },
+  "lsstdesc.coord": {
+    "master": true
+  },
+  "lsstdesc.weaklensingdeblending": {
+    "master": true
+  },
+  "ltl": {
+    "master": true
+  },
+  "lua": {
+    "master": true
+  },
+  "lua-luafilesystem": {
+    "master": true
+  },
+  "lua-luaposix": {
+    "master": true
+  },
+  "luajit": {
+    "master": true
+  },
+  "luarocks": {
+    "master": true
+  },
+  "lucid": {
+    "master": true
+  },
+  "luhn": {
+    "master": true
+  },
+  "luigi": {
+    "master": true
+  },
+  "lume-astra": {
+    "master": true
+  },
+  "lume-genesis": {
+    "master": true
+  },
+  "lume-impact": {
+    "master": true
+  },
+  "lumicks.pylake": {
+    "master": true
+  },
+  "lunarcalendar": {
+    "master": true
+  },
+  "lunardate": {
+    "master": true
+  },
+  "lunr": {
+    "master": true
+  },
+  "lxml": {
+    "master": true
+  },
+  "lxqt-build-tools": {
+    "master": true
+  },
+  "lynx": {
+    "master": true
+  },
+  "lyricsmaster": {
+    "master": true
+  },
+  "lz4": {
+    "master": true
+  },
+  "lz4-c": {
+    "master": true
+  },
+  "lzfse": {
+    "master": true
+  },
+  "lzip": {
+    "master": true
+  },
+  "lzo": {
+    "master": true
+  },
+  "lzop": {
+    "master": true
+  },
+  "lzstring": {
+    "master": true
+  },
+  "m2crypto": {
+    "master": true
+  },
+  "m2r": {
+    "master": true
+  },
+  "m2w64-muparser": {
+    "master": true
+  },
+  "m4": {
+    "master": true
+  },
+  "m4ri": {
+    "master": true
+  },
+  "m4rie": {
+    "master": true
+  },
+  "macfsevents": {
+    "master": true
+  },
+  "machine-learning-py": {
+    "master": true
+  },
+  "macholib": {
+    "master": true
+  },
+  "macropy3": {
+    "master": true
+  },
+  "mad": {
+    "master": true
+  },
+  "maestral": {
+    "master": true
+  },
+  "mafredo": {
+    "master": true
+  },
+  "magic-wormhole": {
+    "master": true
+  },
+  "magics": {
+    "master": true
+  },
+  "magics-metview": {
+    "master": true
+  },
+  "magics-metview-batch": {
+    "master": true
+  },
+  "magics-python": {
+    "master": true
+  },
+  "magpylib": {
+    "master": true
+  },
+  "mahotas": {
+    "master": true
+  },
+  "mailer": {
+    "master": true
+  },
+  "make": {
+    "master": true
+  },
+  "makedepf90": {
+    "master": true
+  },
+  "mako": {
+    "master": true
+  },
+  "mamba": {
+    "master": true
+  },
+  "mando": {
+    "master": true
+  },
+  "mantichora": {
+    "master": true
+  },
+  "mapbox": {
+    "master": true
+  },
+  "mapbox-vector-tile": {
+    "master": true
+  },
+  "mapboxgl": {
+    "master": true
+  },
+  "mapclassify": {
+    "master": true
+  },
+  "mapio": {
+    "master": true
+  },
+  "mapkit": {
+    "master": true
+  },
+  "marbles": {
+    "master": true
+  },
+  "marbles-core": {
+    "master": true
+  },
+  "marbles-mixins": {
+    "master": true
+  },
+  "markdown": {
+    "master": true
+  },
+  "markdown-checklist": {
+    "master": true
+  },
+  "markdown-it-py": {
+    "master": true
+  },
+  "markdown-kernel": {
+    "master": true
+  },
+  "markdown2": {
+    "master": true
+  },
+  "markdown_strings": {
+    "master": true
+  },
+  "markov_draftjs": {
+    "master": true
+  },
+  "markovify": {
+    "master": true
+  },
+  "markuppy": {
+    "master": true
+  },
+  "markupsafe": {
+    "master": true
+  },
+  "marray": {
+    "master": true
+  },
+  "marshmallow": {
+    "master": true
+  },
+  "marshmallow-enum": {
+    "master": true
+  },
+  "marshmallow-jsonapi": {
+    "master": true
+  },
+  "marshmallow-oneofschema": {
+    "master": true
+  },
+  "marshmallow-sqlalchemy": {
+    "master": true
+  },
+  "marstime": {
+    "master": true
+  },
+  "marxs": {
+    "master": true
+  },
+  "mastodon.py": {
+    "master": true
+  },
+  "matchpy": {
+    "master": true
+  },
+  "material-design-lite": {
+    "master": true
+  },
+  "mathjax": {
+    "master": true
+  },
+  "matminer": {
+    "master": true
+  },
+  "matplotcheck": {
+    "master": true
+  },
+  "matplotlib": {
+    "master": true
+  },
+  "matplotlib-scalebar": {
+    "master": true
+  },
+  "matplotlib-venn": {
+    "master": true
+  },
+  "matplotlib2tikz": {
+    "master": true
+  },
+  "matplotlibhelper": {
+    "master": true
+  },
+  "matrix_client": {
+    "master": true
+  },
+  "maturin": {
+    "master": true
+  },
+  "maup": {
+    "master": true
+  },
+  "maven": {
+    "master": true
+  },
+  "maxima": {
+    "master": true
+  },
+  "maxrect": {
+    "master": true
+  },
+  "maya": {
+    "master": true
+  },
+  "mayavi": {
+    "master": true
+  },
+  "mbsolve": {
+    "master": true
+  },
+  "mbuild": {
+    "master": true
+  },
+  "mbutil": {
+    "master": true
+  },
+  "mccabe": {
+    "master": true
+  },
+  "mcerp": {
+    "master": true
+  },
+  "md-toc": {
+    "master": true
+  },
+  "mdanalysis": {
+    "master": true
+  },
+  "mdanalysisdata": {
+    "master": true
+  },
+  "mdanalysistests": {
+    "master": true
+  },
+  "mdbenchmark": {
+    "master": true
+  },
+  "mdf_forge": {
+    "master": true
+  },
+  "mdf_toolbox": {
+    "master": true
+  },
+  "mdshare": {
+    "master": true
+  },
+  "mdsplus": {
+    "master": true
+  },
+  "mdsrv": {
+    "master": true
+  },
+  "mdsynthesis": {
+    "master": true
+  },
+  "mdtraj": {
+    "master": true
+  },
+  "mdx_gh_links": {
+    "master": true
+  },
+  "measurement": {
+    "master": true
+  },
+  "meautility": {
+    "master": true
+  },
+  "mechanicalsoup": {
+    "master": true
+  },
+  "mechanize": {
+    "master": true
+  },
+  "mechwolf": {
+    "master": true
+  },
+  "meds": {
+    "master": true
+  },
+  "megaman": {
+    "master": true
+  },
+  "megaradrp": {
+    "master": true
+  },
+  "meld3": {
+    "master": true
+  },
+  "memoized-property": {
+    "master": true
+  },
+  "memory_profiler": {
+    "master": true
+  },
+  "memprof": {
+    "master": true
+  },
+  "mendeleev": {
+    "master": true
+  },
+  "menpo": {
+    "master": true
+  },
+  "menpo3d": {
+    "master": true
+  },
+  "menpodetect": {
+    "master": true
+  },
+  "menpofit": {
+    "master": true
+  },
+  "menuinst": {
+    "master": true
+  },
+  "mercantile": {
+    "master": true
+  },
+  "mercurial": {
+    "master": true
+  },
+  "mercurial-app": {
+    "master": true
+  },
+  "mesa-dri-drivers-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-khr-devel-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-khr-devel-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libegl-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-libegl-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libgl-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-libgl-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libglapi-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-libglapi-cos7-ppc64le": {
+    "master": true
+  },
+  "mesalib": {
+    "master": true
+  },
+  "mesas": {
+    "master": true
+  },
+  "meshio": {
+    "master": true
+  },
+  "meshplot": {
+    "master": true
+  },
+  "meshpy": {
+    "master": true
+  },
+  "meson": {
+    "master": true
+  },
+  "message-ix": {
+    "master": true
+  },
+  "metaflow": {
+    "master": true
+  },
+  "metafone": {
+    "master": true
+  },
+  "metaio": {
+    "master": true
+  },
+  "metakernel": {
+    "master": true
+  },
+  "metaknowledge": {
+    "master": true
+  },
+  "metanetx-assets": {
+    "master": true
+  },
+  "metanetx-post": {
+    "master": true
+  },
+  "metanetx-sdk": {
+    "master": true
+  },
+  "metaphone": {
+    "master": true
+  },
+  "metar": {
+    "master": true
+  },
+  "metawrap": {
+    "master": true
+  },
+  "metis": {
+    "master": true
+  },
+  "metomi-isodatetime": {
+    "master": true
+  },
+  "metpy": {
+    "master": true
+  },
+  "metric-learn": {
+    "master": true
+  },
+  "metsim": {
+    "master": true
+  },
+  "metview": {
+    "master": true
+  },
+  "metview-batch": {
+    "master": true
+  },
+  "mgrs": {
+    "master": true
+  },
+  "mgwr": {
+    "master": true
+  },
+  "micromagneticdata": {
+    "master": true
+  },
+  "micromagneticmodel": {
+    "master": true
+  },
+  "micromagnetictests": {
+    "master": true
+  },
+  "micropython": {
+    "master": true
+  },
+  "miktex": {
+    "master": true
+  },
+  "milksnake": {
+    "master": true
+  },
+  "miller": {
+    "master": true
+  },
+  "mimerender": {
+    "master": true
+  },
+  "minepy": {
+    "master": true
+  },
+  "minikube": {
+    "master": true
+  },
+  "minimalmodbus": {
+    "master": true
+  },
+  "minio": {
+    "master": true
+  },
+  "miniwdl": {
+    "master": true
+  },
+  "minuit2": {
+    "master": true
+  },
+  "misaka": {
+    "master": true
+  },
+  "missingno": {
+    "master": true
+  },
+  "mistletoe-ebp": {
+    "master": true
+  },
+  "mistune": {
+    "master": true
+  },
+  "mizani": {
+    "master": true
+  },
+  "mkdocs": {
+    "master": true
+  },
+  "mkdocs-bootstrap": {
+    "master": true
+  },
+  "mkdocs-bootswatch": {
+    "master": true
+  },
+  "mkdocs-macros-plugin": {
+    "master": true
+  },
+  "mkdocs-markdownextradata-plugin": {
+    "master": true
+  },
+  "mkdocs-material": {
+    "master": true
+  },
+  "mkl-service": {
+    "master": true
+  },
+  "mkl_fft": {
+    "master": true
+  },
+  "mkl_random": {
+    "master": true
+  },
+  "ml_tooling": {
+    "master": true
+  },
+  "mlapack": {
+    "master": true
+  },
+  "mlconjug": {
+    "master": true
+  },
+  "mleap": {
+    "master": true
+  },
+  "mlflow": {
+    "master": true
+  },
+  "mlpack": {
+    "master": true
+  },
+  "mlt": {
+    "master": true
+  },
+  "mlxtend": {
+    "master": true
+  },
+  "mmh3": {
+    "master": true
+  },
+  "mms-python-adapter": {
+    "master": true
+  },
+  "mms-python-client": {
+    "master": true
+  },
+  "mmtf-python": {
+    "master": true
+  },
+  "mmvec": {
+    "master": true
+  },
+  "mne": {
+    "master": true
+  },
+  "mne-bids": {
+    "master": true
+  },
+  "mnelab": {
+    "master": true
+  },
+  "mnist": {
+    "master": true
+  },
+  "mo-future": {
+    "master": true
+  },
+  "mo_pack": {
+    "master": true
+  },
+  "moab": {
+    "master": true
+  },
+  "mock": {
+    "master": true
+  },
+  "mockextras": {
+    "master": true
+  },
+  "mockredispy": {
+    "master": true
+  },
+  "mockupdb": {
+    "master": true
+  },
+  "mocsy": {
+    "master": true
+  },
+  "model_bakery": {
+    "master": true
+  },
+  "model_metadata": {
+    "master": true
+  },
+  "modepy": {
+    "master": true
+  },
+  "moderngl": {
+    "master": true
+  },
+  "modernize": {
+    "master": true
+  },
+  "modestpy": {
+    "master": true
+  },
+  "modflow2netcdf": {
+    "master": true
+  },
+  "modflow6": {
+    "master": true
   }
 }
