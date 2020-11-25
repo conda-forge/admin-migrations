@@ -8998,5 +8998,1505 @@
   },
   "modflow6": {
     "master": true
+  },
+  "modsecurity": {
+    "master": true
+  },
+  "modulegraph": {
+    "master": true
+  },
+  "moldyn-clustering": {
+    "master": true
+  },
+  "molecule": {
+    "master": true
+  },
+  "molmod": {
+    "master": true
+  },
+  "molpx": {
+    "master": true
+  },
+  "molvs": {
+    "master": true
+  },
+  "moment": {
+    "master": true
+  },
+  "momepy": {
+    "master": true
+  },
+  "monet": {
+    "master": true
+  },
+  "monetdblite": {
+    "master": true
+  },
+  "monetio": {
+    "master": true
+  },
+  "mongo-tools": {
+    "master": true
+  },
+  "mongoengine": {
+    "master": true
+  },
+  "mongomock": {
+    "master": true
+  },
+  "mongoose": {
+    "master": true
+  },
+  "mongoquery": {
+    "master": true
+  },
+  "monkeytype": {
+    "master": true
+  },
+  "mono": {
+    "master": true
+  },
+  "monotonic": {
+    "master": true
+  },
+  "monty": {
+    "master": true
+  },
+  "moola": {
+    "master": true
+  },
+  "mord": {
+    "master": true
+  },
+  "mordred": {
+    "master": true
+  },
+  "more-itertools": {
+    "master": true
+  },
+  "more.forwarded": {
+    "master": true
+  },
+  "more.pathtool": {
+    "master": true
+  },
+  "more.static": {
+    "master": true
+  },
+  "morepath": {
+    "master": true
+  },
+  "morfessor": {
+    "master": true
+  },
+  "morphsnakes": {
+    "master": true
+  },
+  "mosdef_cassandra": {
+    "master": true
+  },
+  "mosestokenizer": {
+    "master": true
+  },
+  "mosfit": {
+    "master": true
+  },
+  "mosh": {
+    "master": true
+  },
+  "moto": {
+    "master": true
+  },
+  "motor": {
+    "master": true
+  },
+  "moviepy": {
+    "master": true
+  },
+  "movingpandas": {
+    "master": true
+  },
+  "moz-sql-parser": {
+    "master": true
+  },
+  "mpas-analysis": {
+    "master": true
+  },
+  "mpas_tools": {
+    "master": true
+  },
+  "mpb": {
+    "master": true
+  },
+  "mpc": {
+    "master": true
+  },
+  "mpfi": {
+    "master": true
+  },
+  "mpfr": {
+    "master": true
+  },
+  "mpg123": {
+    "master": true
+  },
+  "mpi": {
+    "master": true
+  },
+  "mpi4py": {
+    "master": true
+  },
+  "mpi4py-fft": {
+    "master": true
+  },
+  "mpich": {
+    "master": true
+  },
+  "mpifft4py": {
+    "master": true
+  },
+  "mpiplus": {
+    "master": true
+  },
+  "mpir": {
+    "master": true
+  },
+  "mpl-probscale": {
+    "master": true
+  },
+  "mpl-scatter-density": {
+    "master": true
+  },
+  "mplcursors": {
+    "master": true
+  },
+  "mpld3": {
+    "master": true
+  },
+  "mplexporter": {
+    "master": true
+  },
+  "mplleaflet": {
+    "master": true
+  },
+  "mplt": {
+    "master": true
+  },
+  "mpltern": {
+    "master": true
+  },
+  "mplview": {
+    "master": true
+  },
+  "mpmath": {
+    "master": true
+  },
+  "mppp": {
+    "master": true
+  },
+  "mputil": {
+    "master": true
+  },
+  "mr.bob": {
+    "master": true
+  },
+  "mrcfile": {
+    "master": true
+  },
+  "mrcz": {
+    "master": true
+  },
+  "mrjob": {
+    "master": true
+  },
+  "msal": {
+    "master": true
+  },
+  "msal_extensions": {
+    "master": true
+  },
+  "mscorefonts": {
+    "master": true
+  },
+  "msdnet": {
+    "master": true
+  },
+  "msg-extractor": {
+    "master": true
+  },
+  "msgpack-c": {
+    "master": true
+  },
+  "msgpack-numpy": {
+    "master": true
+  },
+  "msgpack-python": {
+    "master": true
+  },
+  "mshr": {
+    "master": true
+  },
+  "msinttypes": {
+    "master": true
+  },
+  "msitools": {
+    "master": true
+  },
+  "msmbuilder": {
+    "master": true
+  },
+  "msmtools": {
+    "master": true
+  },
+  "msnoise": {
+    "master": true
+  },
+  "msprime": {
+    "master": true
+  },
+  "msrest": {
+    "master": true
+  },
+  "msrestazure": {
+    "master": true
+  },
+  "mss": {
+    "master": true
+  },
+  "msumastro": {
+    "master": true
+  },
+  "mtcnn": {
+    "master": true
+  },
+  "mtspec": {
+    "master": true
+  },
+  "mu_repo": {
+    "master": true
+  },
+  "multi-mechanize": {
+    "master": true
+  },
+  "multi_key_dict": {
+    "master": true
+  },
+  "multi_rake": {
+    "master": true
+  },
+  "multicore-tsne": {
+    "master": true
+  },
+  "multidict": {
+    "master": true
+  },
+  "multineat": {
+    "master": true
+  },
+  "multinest": {
+    "master": true
+  },
+  "multio": {
+    "master": true
+  },
+  "multiping": {
+    "master": true
+  },
+  "multipledispatch": {
+    "master": true
+  },
+  "multiprocess": {
+    "master": true
+  },
+  "multiset": {
+    "master": true
+  },
+  "multisplitby": {
+    "master": true
+  },
+  "mumps": {
+    "master": true
+  },
+  "munch": {
+    "master": true
+  },
+  "munge": {
+    "master": true
+  },
+  "munkres": {
+    "master": true
+  },
+  "muparser": {
+    "master": true
+  },
+  "mupdf": {
+    "master": true
+  },
+  "murmurhash": {
+    "master": true
+  },
+  "murphy": {
+    "master": true
+  },
+  "musdb": {
+    "master": true
+  },
+  "museotoolbox": {
+    "master": true
+  },
+  "museval": {
+    "master": true
+  },
+  "mutagen": {
+    "master": true
+  },
+  "mutatest": {
+    "master": true
+  },
+  "mv_regex": {
+    "master": true
+  },
+  "mwclient": {
+    "master": true
+  },
+  "mycli": {
+    "master": true
+  },
+  "myproxyclient": {
+    "master": true
+  },
+  "mypy": {
+    "master": true
+  },
+  "mypy_extensions": {
+    "master": true
+  },
+  "mysql": {
+    "master": true
+  },
+  "mysql-connector-c": {
+    "master": true
+  },
+  "mysql-connector-cpp": {
+    "master": true
+  },
+  "mysql-connector-python": {
+    "master": true
+  },
+  "mysqlclient": {
+    "master": true
+  },
+  "myst-parser": {
+    "master": true
+  },
+  "naima": {
+    "master": true
+  },
+  "namaster": {
+    "master": true
+  },
+  "namedlist": {
+    "master": true
+  },
+  "nameparser": {
+    "master": true
+  },
+  "nano": {
+    "master": true
+  },
+  "nanoflann": {
+    "master": true
+  },
+  "nanotime": {
+    "master": true
+  },
+  "nansat": {
+    "master": true
+  },
+  "napari": {
+    "master": true
+  },
+  "nappy": {
+    "master": true
+  },
+  "nasm": {
+    "master": true
+  },
+  "natsort": {
+    "master": true
+  },
+  "nauty": {
+    "master": true
+  },
+  "nb2plots": {
+    "master": true
+  },
+  "nb_anacondacloud": {
+    "master": true
+  },
+  "nb_black": {
+    "master": true
+  },
+  "nb_conda": {
+    "master": true
+  },
+  "nb_conda_kernels": {
+    "master": true
+  },
+  "nbbrowserpdf": {
+    "master": true
+  },
+  "nbclean": {
+    "master": true
+  },
+  "nbclient": {
+    "master": true
+  },
+  "nbcommands": {
+    "master": true
+  },
+  "nbconvert": {
+    "master": true
+  },
+  "nbconvert-utils": {
+    "master": true
+  },
+  "nbdime": {
+    "master": true
+  },
+  "nbexamples": {
+    "master": true
+  },
+  "nbfinder": {
+    "master": true
+  },
+  "nbformat": {
+    "master": true
+  },
+  "nbgitpuller": {
+    "master": true
+  },
+  "nbgrader": {
+    "master": true
+  },
+  "nbin": {
+    "master": true
+  },
+  "nbpresent": {
+    "master": true
+  },
+  "nbresuse": {
+    "master": true
+  },
+  "nbrr": {
+    "master": true
+  },
+  "nbrsessionproxy": {
+    "master": true
+  },
+  "nbserverproxy": {
+    "master": true
+  },
+  "nbsmoke": {
+    "master": true
+  },
+  "nbsphinx": {
+    "master": true
+  },
+  "nbstripout": {
+    "master": true
+  },
+  "nbtutor": {
+    "master": true
+  },
+  "nbval": {
+    "master": true
+  },
+  "nc_time_axis": {
+    "master": true
+  },
+  "nccl": {
+    "master": true
+  },
+  "nccmp": {
+    "master": true
+  },
+  "ncdu": {
+    "master": true
+  },
+  "ncempy": {
+    "master": true
+  },
+  "ncephes": {
+    "master": true
+  },
+  "ncl": {
+    "master": true
+  },
+  "nco": {
+    "master": true
+  },
+  "ncpol2sdpa": {
+    "master": true
+  },
+  "ncurses": {
+    "master": true
+  },
+  "ncview": {
+    "master": true
+  },
+  "ncvis": {
+    "master": true
+  },
+  "nd2reader": {
+    "master": true
+  },
+  "ndarray": {
+    "master": true
+  },
+  "ndarray_listener": {
+    "master": true
+  },
+  "ndcctools": {
+    "master": true
+  },
+  "ndcsv": {
+    "master": true
+  },
+  "ndcube": {
+    "master": true
+  },
+  "ndf": {
+    "master": true
+  },
+  "ndg-httpsclient": {
+    "master": true
+  },
+  "ndiff": {
+    "master": true
+  },
+  "nds2-client": {
+    "master": true
+  },
+  "nds2-client-swig": {
+    "master": true
+  },
+  "ndscope": {
+    "master": true
+  },
+  "nearpy": {
+    "master": true
+  },
+  "neo4j-connector": {
+    "master": true
+  },
+  "neo4j-python-driver": {
+    "master": true
+  },
+  "neobolt": {
+    "master": true
+  },
+  "neomodel": {
+    "master": true
+  },
+  "neotime": {
+    "master": true
+  },
+  "neovim": {
+    "master": true
+  },
+  "neper": {
+    "master": true
+  },
+  "neptune-client": {
+    "master": true
+  },
+  "neptune-notebooks": {
+    "master": true
+  },
+  "nest-asyncio": {
+    "master": true
+  },
+  "nest-simulator": {
+    "master": true
+  },
+  "nestle": {
+    "master": true
+  },
+  "nestly": {
+    "master": true
+  },
+  "netaddr": {
+    "master": true
+  },
+  "netcdf-cxx-legacy": {
+    "master": true
+  },
+  "netcdf-cxx4": {
+    "master": true
+  },
+  "netcdf-fortran": {
+    "master": true
+  },
+  "netcdf-scm": {
+    "master": true
+  },
+  "netcdf4": {
+    "master": true
+  },
+  "netgen": {
+    "master": true
+  },
+  "netifaces": {
+    "master": true
+  },
+  "netpbm": {
+    "master": true
+  },
+  "nettle": {
+    "master": true
+  },
+  "networkit": {
+    "master": true
+  },
+  "networkx": {
+    "master": true
+  },
+  "networkx-metis": {
+    "master": true
+  },
+  "neunorm": {
+    "master": true
+  },
+  "neuralcoref": {
+    "master": true
+  },
+  "neurdflib": {
+    "master": true
+  },
+  "neurodocker": {
+    "master": true
+  },
+  "neurofire": {
+    "master": true
+  },
+  "neuron": {
+    "master": true
+  },
+  "neurosynchro": {
+    "master": true
+  },
+  "neurotic": {
+    "master": true
+  },
+  "nevergrad": {
+    "master": true
+  },
+  "newrelic": {
+    "master": true
+  },
+  "newspaper3k": {
+    "master": true
+  },
+  "newt": {
+    "master": true
+  },
+  "nexpy": {
+    "master": true
+  },
+  "nexus": {
+    "master": true
+  },
+  "nexusformat": {
+    "master": true
+  },
+  "nfft": {
+    "master": true
+  },
+  "ngboost": {
+    "master": true
+  },
+  "nghttp2": {
+    "master": true
+  },
+  "nginx": {
+    "master": true
+  },
+  "nginx-module-njs": {
+    "master": true
+  },
+  "nglview": {
+    "master": true
+  },
+  "ngmix": {
+    "master": true
+  },
+  "ngram": {
+    "master": true
+  },
+  "ngspice": {
+    "master": true
+  },
+  "nibabel": {
+    "master": true
+  },
+  "nidaqmx-python": {
+    "master": true
+  },
+  "nilearn": {
+    "master": true
+  },
+  "nim": {
+    "master": true
+  },
+  "nine": {
+    "master": true
+  },
+  "ninja": {
+    "master": true
+  },
+  "ninja_syntax": {
+    "master": true
+  },
+  "niondata": {
+    "master": true
+  },
+  "nionswift": {
+    "master": true
+  },
+  "nionswift-experimental": {
+    "master": true
+  },
+  "nionswift-instrumentation": {
+    "master": true
+  },
+  "nionswift-io": {
+    "master": true
+  },
+  "nionswift-tool": {
+    "master": true
+  },
+  "nionswift-usim": {
+    "master": true
+  },
+  "nionswift-video-capture": {
+    "master": true
+  },
+  "nionui": {
+    "master": true
+  },
+  "nionui-tool": {
+    "master": true
+  },
+  "nionutils": {
+    "master": true
+  },
+  "nipy": {
+    "master": true
+  },
+  "nipype": {
+    "master": true
+  },
+  "nitime": {
+    "master": true
+  },
+  "nitro": {
+    "master": true
+  },
+  "nix": {
+    "master": true
+  },
+  "nlohmann_json": {
+    "master": true
+  },
+  "nlopt": {
+    "master": true
+  },
+  "nltk": {
+    "master": true
+  },
+  "nltk_data": {
+    "master": true
+  },
+  "nmslib": {
+    "master": true
+  },
+  "nn": {
+    "master": true
+  },
+  "nnn": {
+    "master": true
+  },
+  "node2vec": {
+    "master": true
+  },
+  "nodebook": {
+    "master": true
+  },
+  "nodeenv": {
+    "master": true
+  },
+  "nodejs": {
+    "master": true
+  },
+  "noise": {
+    "master": true
+  },
+  "nomkl": {
+    "master": true
+  },
+  "norbert": {
+    "master": true
+  },
+  "normaliz": {
+    "master": true
+  },
+  "nose": {
+    "master": true
+  },
+  "nose-cov": {
+    "master": true
+  },
+  "nose-exclude": {
+    "master": true
+  },
+  "nose-progressive": {
+    "master": true
+  },
+  "nose-timer": {
+    "master": true
+  },
+  "nose2": {
+    "master": true
+  },
+  "nose_parameterized": {
+    "master": true
+  },
+  "nose_xunitmp": {
+    "master": true
+  },
+  "nosexcover": {
+    "master": true
+  },
+  "notebook": {
+    "master": true
+  },
+  "notebookscripter": {
+    "master": true
+  },
+  "notedown": {
+    "master": true
+  },
+  "noteslib": {
+    "master": true
+  },
+  "nox": {
+    "master": true
+  },
+  "npctypes": {
+    "master": true
+  },
+  "npstreams": {
+    "master": true
+  },
+  "nptdms": {
+    "master": true
+  },
+  "npth": {
+    "master": true
+  },
+  "nr": {
+    "master": true
+  },
+  "nr.bundler": {
+    "master": true
+  },
+  "nr.cli": {
+    "master": true
+  },
+  "nr.config": {
+    "master": true
+  },
+  "nr.date": {
+    "master": true
+  },
+  "nr.fs": {
+    "master": true
+  },
+  "nr.parse": {
+    "master": true
+  },
+  "nr.types": {
+    "master": true
+  },
+  "nsis": {
+    "master": true
+  },
+  "nspr": {
+    "master": true
+  },
+  "nspr-cos7-aarch64": {
+    "master": true
+  },
+  "nss": {
+    "master": true
+  },
+  "nss-softokn-cos7-aarch64": {
+    "master": true
+  },
+  "nss-softokn-freebl-cos7-aarch64": {
+    "master": true
+  },
+  "nss-util-cos7-aarch64": {
+    "master": true
+  },
+  "nsync": {
+    "master": true
+  },
+  "ntbtls": {
+    "master": true
+  },
+  "nteract-scrapbook": {
+    "master": true
+  },
+  "nteract_on_jupyter": {
+    "master": true
+  },
+  "ntl": {
+    "master": true
+  },
+  "ntlm-auth": {
+    "master": true
+  },
+  "ntplib": {
+    "master": true
+  },
+  "nuitka": {
+    "master": true
+  },
+  "numactl-cos6-x86_64": {
+    "master": true
+  },
+  "numactl-devel-cos6-x86_64": {
+    "master": true
+  },
+  "numba": {
+    "master": true
+  },
+  "numba-scipy": {
+    "master": true
+  },
+  "numcodecs": {
+    "master": true
+  },
+  "numcosmo": {
+    "master": true
+  },
+  "numdifftools": {
+    "master": true
+  },
+  "numericalunits": {
+    "master": true
+  },
+  "numexpr": {
+    "master": true
+  },
+  "numina": {
+    "master": true
+  },
+  "numpoly": {
+    "master": true
+  },
+  "numpy": {
+    "master": true
+  },
+  "numpy-indexed": {
+    "master": true
+  },
+  "numpy-stl": {
+    "master": true
+  },
+  "numpy_groupies": {
+    "master": true
+  },
+  "numpy_sugar": {
+    "master": true
+  },
+  "numpydoc": {
+    "master": true
+  },
+  "nvcc": {
+    "master": true
+  },
+  "nvidia-apex": {
+    "master": true
+  },
+  "nvidia-ml": {
+    "master": true
+  },
+  "nxviz": {
+    "master": true
+  },
+  "oath": {
+    "master": true
+  },
+  "oauth2client": {
+    "master": true
+  },
+  "oauthenticator": {
+    "master": true
+  },
+  "oauthlib": {
+    "master": true
+  },
+  "obake": {
+    "master": true
+  },
+  "objconv": {
+    "master": true
+  },
+  "objectpath": {
+    "master": true
+  },
+  "objgraph": {
+    "master": true
+  },
+  "obsplus": {
+    "master": true
+  },
+  "obspy": {
+    "master": true
+  },
+  "obspyck": {
+    "master": true
+  },
+  "ocaml": {
+    "master": true
+  },
+  "ocaml-camlp5": {
+    "master": true
+  },
+  "ocaml-findlib": {
+    "master": true
+  },
+  "ocaml-num": {
+    "master": true
+  },
+  "ocamlbuild": {
+    "master": true
+  },
+  "occt": {
+    "master": true
+  },
+  "oceans": {
+    "master": true
+  },
+  "oceanspy": {
+    "master": true
+  },
+  "ocgis": {
+    "master": true
+  },
+  "ocl-icd": {
+    "master": true
+  },
+  "ocl-icd-system": {
+    "master": true
+  },
+  "ocl_icd_wrapper_apple": {
+    "master": true
+  },
+  "oclgrind": {
+    "master": true
+  },
+  "oct2py": {
+    "master": true
+  },
+  "octave": {
+    "master": true
+  },
+  "octave_kernel": {
+    "master": true
+  },
+  "octomap": {
+    "master": true
+  },
+  "ocw": {
+    "master": true
+  },
+  "od": {
+    "master": true
+  },
+  "oddt": {
+    "master": true
+  },
+  "odenet": {
+    "master": true
+  },
+  "odfpy": {
+    "master": true
+  },
+  "odil": {
+    "master": true
+  },
+  "odm2api": {
+    "master": true
+  },
+  "odm2rest": {
+    "master": true
+  },
+  "odo": {
+    "master": true
+  },
+  "odvc": {
+    "master": true
+  },
+  "ogh": {
+    "master": true
+  },
+  "ogre": {
+    "master": true
+  },
+  "ogs5py": {
+    "master": true
+  },
+  "oic": {
+    "master": true
+  },
+  "oifits": {
+    "master": true
+  },
+  "okonomiyaki": {
+    "master": true
+  },
+  "oktopus": {
+    "master": true
+  },
+  "olefile": {
+    "master": true
+  },
+  "oletools": {
+    "master": true
+  },
+  "oliver": {
+    "master": true
+  },
+  "omas": {
+    "master": true
+  },
+  "omcompiler": {
+    "master": true
+  },
+  "omegaconf": {
+    "master": true
+  },
+  "omicron": {
+    "master": true
+  },
+  "omnifit": {
+    "master": true
+  },
+  "omniorb": {
+    "master": true
+  },
+  "omniorbpy": {
+    "master": true
+  },
+  "omnisci-pytools": {
+    "master": true
+  },
+  "omniscidb-cpu": {
+    "master": true
+  },
+  "omniscidb-cuda": {
+    "master": true
+  },
+  "ompl": {
+    "master": true
+  },
+  "oniguruma": {
+    "master": true
+  },
+  "onnx": {
+    "master": true
+  },
+  "onnx-caffe2": {
+    "master": true
+  },
+  "onnx-tf": {
+    "master": true
+  },
+  "oommf": {
+    "master": true
+  },
+  "oommfc": {
+    "master": true
+  },
+  "oommfodt": {
+    "master": true
+  },
+  "oop-ext": {
+    "master": true
+  },
+  "opbeat": {
+    "master": true
+  },
+  "opcua": {
+    "master": true
+  },
+  "open-fonts": {
+    "master": true
+  },
+  "openal-soft": {
+    "master": true
+  },
+  "openalea.deploy": {
+    "master": true
+  },
+  "openapi-codec": {
+    "master": true
+  },
+  "openapi-spec-validator": {
+    "master": true
+  },
+  "openbabel": {
+    "master": true
+  },
+  "openblas": {
+    "master": true
+  },
+  "opencamlib": {
+    "master": true
+  },
+  "opencv": {
+    "master": true
+  },
+  "openexr": {
+    "master": true
+  },
+  "openfile": {
+    "master": true
+  },
+  "openfst": {
+    "master": true
+  },
+  "openglider": {
+    "master": true
+  },
+  "openh264": {
+    "master": true
+  },
+  "openimageio": {
+    "master": true
+  },
+  "openjdk": {
+    "master": true
+  },
+  "openjpeg": {
+    "master": true
+  },
+  "openkim-models": {
+    "master": true
+  },
+  "openkimmodels": {
+    "master": true
+  },
+  "openldap": {
+    "master": true
+  },
+  "openlibm": {
+    "master": true
+  },
+  "openmc": {
+    "master": true
+  },
+  "openmdao": {
+    "master": true
+  },
+  "openmeeg": {
+    "master": true
+  },
+  "openmesh": {
+    "master": true
+  },
+  "openmesh-python": {
+    "master": true
+  },
+  "openmm": {
+    "master": true
+  },
+  "openmotif": {
+    "master": true
+  },
+  "openmp": {
+    "master": true
+  },
+  "openmpi": {
+    "master": true
+  },
+  "openorb": {
+    "master": true
+  },
+  "openorb-data": {
+    "master": true
+  },
+  "openorb-data-bc430": {
+    "master": true
+  },
+  "openorb-data-de405": {
+    "master": true
+  },
+  "openorb-data-de430": {
+    "master": true
+  },
+  "openorb-eph-builder": {
+    "master": true
+  },
+  "openpathsampling": {
+    "master": true
+  },
+  "openpathsampling-cli": {
+    "master": true
+  },
+  "openpiv": {
+    "master": true
+  },
+  "openpmd-api": {
+    "master": true
+  },
+  "openpmd-beamphysics": {
+    "master": true
+  },
+  "openpmd-viewer": {
+    "master": true
+  },
+  "openpyxl": {
+    "master": true
+  },
+  "openquake.engine": {
+    "master": true
+  },
+  "opensesame": {
+    "master": true
+  },
+  "openshift-cli": {
+    "master": true
+  },
+  "openslide": {
+    "master": true
+  },
+  "opensource": {
+    "master": true
+  },
+  "openspecfun": {
+    "master": true
+  },
+  "openssh": {
+    "master": true
+  },
+  "openssl": {
+    "master": true
+  },
+  "openstacksdk": {
+    "master": true
+  },
+  "opentracing": {
+    "master": true
+  },
+  "opentracing_instrumentation": {
+    "master": true
+  },
+  "opentsne": {
+    "master": true
+  },
+  "openturns": {
+    "master": true
+  },
+  "openvisus": {
+    "master": true
+  },
+  "ophyd": {
+    "master": true
+  },
+  "opsdroid": {
+    "master": true
+  },
+  "opt_einsum": {
+    "master": true
+  },
+  "optimix": {
+    "master": true
+  },
+  "optlang": {
+    "master": true
+  },
+  "optpp": {
+    "master": true
+  },
+  "optuna": {
+    "master": true
+  },
+  "opty": {
+    "master": true
+  },
+  "opus-tools": {
+    "master": true
+  },
+  "opusfile": {
+    "master": true
+  },
+  "opyplus": {
+    "master": true
+  },
+  "oq-engine": {
+    "master": true
+  },
+  "orange-canvas-core": {
+    "master": true
+  },
+  "orange-widget-base": {
+    "master": true
+  },
+  "orange3": {
+    "master": true
+  },
+  "orange3-bioinformatics": {
+    "master": true
+  },
+  "orange3-educational": {
+    "master": true
+  },
+  "orange3-geo": {
+    "master": true
+  },
+  "orange3-imageanalytics": {
+    "master": true
+  },
+  "orange3-network": {
+    "master": true
+  },
+  "orange3-singlecell": {
+    "master": true
+  },
+  "orange3-text": {
+    "master": true
+  },
+  "orange3-timeseries": {
+    "master": true
+  },
+  "orator": {
+    "master": true
+  },
+  "orbit2-cos7-aarch64": {
+    "master": true
+  },
+  "orc": {
+    "master": true
+  },
+  "orca": {
+    "master": true
+  },
+  "orca_test": {
+    "master": true
   }
 }
