@@ -20995,5 +20995,1505 @@
   },
   "rb-http_parser.rb": {
     "master": true
+  },
+  "rb-i18n": {
+    "master": true
+  },
+  "rb-jekyll": {
+    "master": true
+  },
+  "rb-jekyll-avatar": {
+    "master": true
+  },
+  "rb-jekyll-coffeescript": {
+    "master": true
+  },
+  "rb-jekyll-commonmark": {
+    "master": true
+  },
+  "rb-jekyll-commonmark-ghpages": {
+    "master": true
+  },
+  "rb-jekyll-compose": {
+    "master": true
+  },
+  "rb-jekyll-default-layout": {
+    "master": true
+  },
+  "rb-jekyll-environment-variables": {
+    "master": true
+  },
+  "rb-jekyll-feed": {
+    "master": true
+  },
+  "rb-jekyll-gist": {
+    "master": true
+  },
+  "rb-jekyll-github-metadata": {
+    "master": true
+  },
+  "rb-jekyll-mentions": {
+    "master": true
+  },
+  "rb-jekyll-optional-front-matter": {
+    "master": true
+  },
+  "rb-jekyll-paginate": {
+    "master": true
+  },
+  "rb-jekyll-readme-index": {
+    "master": true
+  },
+  "rb-jekyll-redirect-from": {
+    "master": true
+  },
+  "rb-jekyll-relative-links": {
+    "master": true
+  },
+  "rb-jekyll-remote-theme": {
+    "master": true
+  },
+  "rb-jekyll-sass-converter": {
+    "master": true
+  },
+  "rb-jekyll-scholar": {
+    "master": true
+  },
+  "rb-jekyll-seo-tag": {
+    "master": true
+  },
+  "rb-jekyll-sitemap": {
+    "master": true
+  },
+  "rb-jekyll-swiss": {
+    "master": true
+  },
+  "rb-jekyll-theme-architect": {
+    "master": true
+  },
+  "rb-jekyll-theme-cayman": {
+    "master": true
+  },
+  "rb-jekyll-theme-dinky": {
+    "master": true
+  },
+  "rb-jekyll-theme-hacker": {
+    "master": true
+  },
+  "rb-jekyll-theme-leap-day": {
+    "master": true
+  },
+  "rb-jekyll-theme-merlot": {
+    "master": true
+  },
+  "rb-jekyll-theme-midnight": {
+    "master": true
+  },
+  "rb-jekyll-theme-minimal": {
+    "master": true
+  },
+  "rb-jekyll-theme-modernist": {
+    "master": true
+  },
+  "rb-jekyll-theme-primer": {
+    "master": true
+  },
+  "rb-jekyll-theme-slate": {
+    "master": true
+  },
+  "rb-jekyll-theme-tactile": {
+    "master": true
+  },
+  "rb-jekyll-theme-time-machine": {
+    "master": true
+  },
+  "rb-jekyll-titles-from-headings": {
+    "master": true
+  },
+  "rb-jekyll-twitter-plugin": {
+    "master": true
+  },
+  "rb-jekyll-watch": {
+    "master": true
+  },
+  "rb-jemoji": {
+    "master": true
+  },
+  "rb-jmespath": {
+    "master": true
+  },
+  "rb-json": {
+    "master": true
+  },
+  "rb-kramdown": {
+    "master": true
+  },
+  "rb-kramdown-parser-gfm": {
+    "master": true
+  },
+  "rb-latex-decode": {
+    "master": true
+  },
+  "rb-liquid": {
+    "master": true
+  },
+  "rb-listen": {
+    "master": true
+  },
+  "rb-little-plugger": {
+    "master": true
+  },
+  "rb-logging": {
+    "master": true
+  },
+  "rb-mercenary": {
+    "master": true
+  },
+  "rb-mimemagic": {
+    "master": true
+  },
+  "rb-mini_portile2": {
+    "master": true
+  },
+  "rb-minima": {
+    "master": true
+  },
+  "rb-minitest": {
+    "master": true
+  },
+  "rb-msgpack": {
+    "master": true
+  },
+  "rb-multi_json": {
+    "master": true
+  },
+  "rb-multipart-post": {
+    "master": true
+  },
+  "rb-namae": {
+    "master": true
+  },
+  "rb-necromancer": {
+    "master": true
+  },
+  "rb-net-ssh": {
+    "master": true
+  },
+  "rb-nio4r": {
+    "master": true
+  },
+  "rb-nokogiri": {
+    "master": true
+  },
+  "rb-octokit": {
+    "master": true
+  },
+  "rb-parallel": {
+    "master": true
+  },
+  "rb-pastel": {
+    "master": true
+  },
+  "rb-pathutil": {
+    "master": true
+  },
+  "rb-pkg-config": {
+    "master": true
+  },
+  "rb-public_suffix": {
+    "master": true
+  },
+  "rb-rainbow": {
+    "master": true
+  },
+  "rb-rb-fsevent": {
+    "master": true
+  },
+  "rb-rb-inotify": {
+    "master": true
+  },
+  "rb-rouge": {
+    "master": true
+  },
+  "rb-ruby-enum": {
+    "master": true
+  },
+  "rb-ruby_dep": {
+    "master": true
+  },
+  "rb-rubyzip": {
+    "master": true
+  },
+  "rb-safe_yaml": {
+    "master": true
+  },
+  "rb-sass": {
+    "master": true
+  },
+  "rb-sass-listen": {
+    "master": true
+  },
+  "rb-sassc": {
+    "master": true
+  },
+  "rb-sawyer": {
+    "master": true
+  },
+  "rb-serverengine": {
+    "master": true
+  },
+  "rb-sigdump": {
+    "master": true
+  },
+  "rb-simple_pid": {
+    "master": true
+  },
+  "rb-strptime": {
+    "master": true
+  },
+  "rb-terminal-table": {
+    "master": true
+  },
+  "rb-thor": {
+    "master": true
+  },
+  "rb-thread_safe": {
+    "master": true
+  },
+  "rb-timerizer": {
+    "master": true
+  },
+  "rb-tty-color": {
+    "master": true
+  },
+  "rb-tty-cursor": {
+    "master": true
+  },
+  "rb-tty-prompt": {
+    "master": true
+  },
+  "rb-tty-reader": {
+    "master": true
+  },
+  "rb-tty-screen": {
+    "master": true
+  },
+  "rb-typhoeus": {
+    "master": true
+  },
+  "rb-tzinfo": {
+    "master": true
+  },
+  "rb-tzinfo-data": {
+    "master": true
+  },
+  "rb-unicode-display_width": {
+    "master": true
+  },
+  "rb-wisper": {
+    "master": true
+  },
+  "rb-yajl-ruby": {
+    "master": true
+  },
+  "rb-yell": {
+    "master": true
+  },
+  "rbc": {
+    "master": true
+  },
+  "rbdl": {
+    "master": true
+  },
+  "rbdl-casadi": {
+    "master": true
+  },
+  "rclone": {
+    "master": true
+  },
+  "rcssmin": {
+    "master": true
+  },
+  "rdflib": {
+    "master": true
+  },
+  "rdflib-jsonld": {
+    "master": true
+  },
+  "rdkit": {
+    "master": true
+  },
+  "re2": {
+    "master": true
+  },
+  "re2c": {
+    "master": true
+  },
+  "reacnetgenerator": {
+    "master": true
+  },
+  "read-roi": {
+    "master": true
+  },
+  "readchar": {
+    "master": true
+  },
+  "readline": {
+    "master": true
+  },
+  "readme_renderer": {
+    "master": true
+  },
+  "reaktoro": {
+    "master": true
+  },
+  "reaper": {
+    "master": true
+  },
+  "rebound": {
+    "master": true
+  },
+  "recommonmark": {
+    "master": true
+  },
+  "records": {
+    "master": true
+  },
+  "recordtype": {
+    "master": true
+  },
+  "recursive_diff": {
+    "master": true
+  },
+  "redbiom": {
+    "master": true
+  },
+  "redis-py": {
+    "master": true
+  },
+  "rednose": {
+    "master": true
+  },
+  "redpil": {
+    "master": true
+  },
+  "reducer": {
+    "master": true
+  },
+  "redux": {
+    "master": true
+  },
+  "reentry": {
+    "master": true
+  },
+  "refet": {
+    "master": true
+  },
+  "refnx": {
+    "master": true
+  },
+  "reg": {
+    "master": true
+  },
+  "regex": {
+    "master": true
+  },
+  "region": {
+    "master": true
+  },
+  "regionmask": {
+    "master": true
+  },
+  "regions": {
+    "master": true
+  },
+  "regolith": {
+    "master": true
+  },
+  "reikna": {
+    "master": true
+  },
+  "reindent": {
+    "master": true
+  },
+  "rejected": {
+    "master": true
+  },
+  "related": {
+    "master": true
+  },
+  "remi": {
+    "master": true
+  },
+  "removestar": {
+    "master": true
+  },
+  "repackage": {
+    "master": true
+  },
+  "repeated_test": {
+    "master": true
+  },
+  "reportlab": {
+    "master": true
+  },
+  "reports": {
+    "master": true
+  },
+  "repoze.lru": {
+    "master": true
+  },
+  "repoze.who": {
+    "master": true
+  },
+  "repoze.who-friendlyform": {
+    "master": true
+  },
+  "represent": {
+    "master": true
+  },
+  "reprexpy": {
+    "master": true
+  },
+  "reproject": {
+    "master": true
+  },
+  "reprounzip": {
+    "master": true
+  },
+  "reprounzip-docker": {
+    "master": true
+  },
+  "reprounzip-qt": {
+    "master": true
+  },
+  "reprounzip-vagrant": {
+    "master": true
+  },
+  "reprozip": {
+    "master": true
+  },
+  "reprozip-jupyter": {
+    "master": true
+  },
+  "request": {
+    "master": true
+  },
+  "requests": {
+    "master": true
+  },
+  "requests-async": {
+    "master": true
+  },
+  "requests-aws4auth": {
+    "master": true
+  },
+  "requests-cache": {
+    "master": true
+  },
+  "requests-ecp": {
+    "master": true
+  },
+  "requests-file": {
+    "master": true
+  },
+  "requests-ftp": {
+    "master": true
+  },
+  "requests-futures": {
+    "master": true
+  },
+  "requests-gracedb": {
+    "master": true
+  },
+  "requests-kerberos": {
+    "master": true
+  },
+  "requests-magpie": {
+    "master": true
+  },
+  "requests-mock": {
+    "master": true
+  },
+  "requests-negotiate-sspi": {
+    "master": true
+  },
+  "requests-oauthlib": {
+    "master": true
+  },
+  "requests-toolbelt": {
+    "master": true
+  },
+  "requests-unixsocket": {
+    "master": true
+  },
+  "requests_cache": {
+    "master": true
+  },
+  "requests_download": {
+    "master": true
+  },
+  "requests_ntlm": {
+    "master": true
+  },
+  "requests_pkcs12": {
+    "master": true
+  },
+  "requestsexceptions": {
+    "master": true
+  },
+  "requirements-detector": {
+    "master": true
+  },
+  "requirements-parser": {
+    "master": true
+  },
+  "resampy": {
+    "master": true
+  },
+  "resonance": {
+    "master": true
+  },
+  "resonate": {
+    "master": true
+  },
+  "responder": {
+    "master": true
+  },
+  "responses": {
+    "master": true
+  },
+  "restructuredtext_lint": {
+    "master": true
+  },
+  "retriever": {
+    "master": true
+  },
+  "retry": {
+    "master": true
+  },
+  "retry_decorator": {
+    "master": true
+  },
+  "retrying": {
+    "master": true
+  },
+  "retype": {
+    "master": true
+  },
+  "reuse": {
+    "master": true
+  },
+  "rever": {
+    "master": true
+  },
+  "reverse-geocode": {
+    "master": true
+  },
+  "rfc3339": {
+    "master": true
+  },
+  "rfc3986": {
+    "master": true
+  },
+  "rfc3987": {
+    "master": true
+  },
+  "rfc5424-logging-handler": {
+    "master": true
+  },
+  "rfpimp": {
+    "master": true
+  },
+  "rhapsody": {
+    "master": true
+  },
+  "rhash": {
+    "master": true
+  },
+  "richdem": {
+    "master": true
+  },
+  "rickshaw": {
+    "master": true
+  },
+  "rift": {
+    "master": true
+  },
+  "rio-cogeo": {
+    "master": true
+  },
+  "rios": {
+    "master": true
+  },
+  "rioxarray": {
+    "master": true
+  },
+  "ripgrep": {
+    "master": true
+  },
+  "ripser": {
+    "master": true
+  },
+  "rise": {
+    "master": true
+  },
+  "riskmatrix": {
+    "master": true
+  },
+  "rjsmin": {
+    "master": true
+  },
+  "rmsd": {
+    "master": true
+  },
+  "rnatools": {
+    "master": true
+  },
+  "robobrowser": {
+    "master": true
+  },
+  "robotframework": {
+    "master": true
+  },
+  "robotframework-lint": {
+    "master": true
+  },
+  "robotframework-seleniumlibrary": {
+    "master": true
+  },
+  "robotframework-sshlibrary": {
+    "master": true
+  },
+  "robotstatuschecker": {
+    "master": true
+  },
+  "rocketpy": {
+    "master": true
+  },
+  "rockhound": {
+    "master": true
+  },
+  "rockpool": {
+    "master": true
+  },
+  "rocm-bandwidth-test": {
+    "master": true
+  },
+  "rocm-cmake": {
+    "master": true
+  },
+  "rocm-comgr": {
+    "master": true
+  },
+  "rocm-device-libs": {
+    "master": true
+  },
+  "rocm-opencl-driver": {
+    "master": true
+  },
+  "rocm-opencl-runtime": {
+    "master": true
+  },
+  "rocm-smi": {
+    "master": true
+  },
+  "rocminfo": {
+    "master": true
+  },
+  "rocr-runtime": {
+    "master": true
+  },
+  "roct-thunk-interface": {
+    "master": true
+  },
+  "roifile": {
+    "master": true
+  },
+  "rollbar": {
+    "master": true
+  },
+  "romspline": {
+    "master": true
+  },
+  "root": {
+    "master": true
+  },
+  "root5": {
+    "master": true
+  },
+  "root_numpy": {
+    "master": true
+  },
+  "root_pandas": {
+    "master": true
+  },
+  "rope": {
+    "master": true
+  },
+  "ros-actionlib": {
+    "master": true
+  },
+  "ros-actionlib-msgs": {
+    "master": true
+  },
+  "ros-catkin": {
+    "master": true
+  },
+  "ros-class-loader": {
+    "master": true
+  },
+  "ros-cmake-modules": {
+    "master": true
+  },
+  "ros-comm": {
+    "master": true
+  },
+  "ros-common-msgs": {
+    "master": true
+  },
+  "ros-conda-base": {
+    "master": true
+  },
+  "ros-conda-mutex": {
+    "master": true
+  },
+  "ros-core": {
+    "master": true
+  },
+  "ros-cpp-common": {
+    "master": true
+  },
+  "ros-diagnostic-msgs": {
+    "master": true
+  },
+  "ros-dynamic-reconfigure": {
+    "master": true
+  },
+  "ros-environment": {
+    "master": true
+  },
+  "ros-gencpp": {
+    "master": true
+  },
+  "ros-geneus": {
+    "master": true
+  },
+  "ros-genlisp": {
+    "master": true
+  },
+  "ros-genmsg": {
+    "master": true
+  },
+  "ros-gennodejs": {
+    "master": true
+  },
+  "ros-genpy": {
+    "master": true
+  },
+  "ros-geometry-msgs": {
+    "master": true
+  },
+  "ros-message-filters": {
+    "master": true
+  },
+  "ros-message-generation": {
+    "master": true
+  },
+  "ros-message-runtime": {
+    "master": true
+  },
+  "ros-mk": {
+    "master": true
+  },
+  "ros-nav-msgs": {
+    "master": true
+  },
+  "ros-pluginlib": {
+    "master": true
+  },
+  "ros-ros": {
+    "master": true
+  },
+  "ros-rosbag": {
+    "master": true
+  },
+  "ros-rosbag-migration-rule": {
+    "master": true
+  },
+  "ros-rosbag-storage": {
+    "master": true
+  },
+  "ros-rosbash": {
+    "master": true
+  },
+  "ros-rosboost-cfg": {
+    "master": true
+  },
+  "ros-rosbuild": {
+    "master": true
+  },
+  "ros-rosclean": {
+    "master": true
+  },
+  "ros-rosconsole": {
+    "master": true
+  },
+  "ros-rosconsole-bridge": {
+    "master": true
+  },
+  "ros-roscpp": {
+    "master": true
+  },
+  "ros-roscpp-core": {
+    "master": true
+  },
+  "ros-roscpp-serialization": {
+    "master": true
+  },
+  "ros-roscpp-traits": {
+    "master": true
+  },
+  "ros-roscreate": {
+    "master": true
+  },
+  "ros-rosgraph": {
+    "master": true
+  },
+  "ros-rosgraph-msgs": {
+    "master": true
+  },
+  "ros-roslang": {
+    "master": true
+  },
+  "ros-roslaunch": {
+    "master": true
+  },
+  "ros-roslib": {
+    "master": true
+  },
+  "ros-roslisp": {
+    "master": true
+  },
+  "ros-roslz4": {
+    "master": true
+  },
+  "ros-rosmake": {
+    "master": true
+  },
+  "ros-rosmaster": {
+    "master": true
+  },
+  "ros-rosmsg": {
+    "master": true
+  },
+  "ros-rosnode": {
+    "master": true
+  },
+  "ros-rosout": {
+    "master": true
+  },
+  "ros-rospack": {
+    "master": true
+  },
+  "ros-rosparam": {
+    "master": true
+  },
+  "ros-rospy": {
+    "master": true
+  },
+  "ros-rosservice": {
+    "master": true
+  },
+  "ros-rostest": {
+    "master": true
+  },
+  "ros-rostime": {
+    "master": true
+  },
+  "ros-rostopic": {
+    "master": true
+  },
+  "ros-rosunit": {
+    "master": true
+  },
+  "ros-roswtf": {
+    "master": true
+  },
+  "ros-sensor-msgs": {
+    "master": true
+  },
+  "ros-shape-msgs": {
+    "master": true
+  },
+  "ros-std-msgs": {
+    "master": true
+  },
+  "ros-std-srvs": {
+    "master": true
+  },
+  "ros-stereo-msgs": {
+    "master": true
+  },
+  "ros-topic-tools": {
+    "master": true
+  },
+  "ros-trajectory-msgs": {
+    "master": true
+  },
+  "ros-visualization-msgs": {
+    "master": true
+  },
+  "ros-xmlrpcpp": {
+    "master": true
+  },
+  "rosdep": {
+    "master": true
+  },
+  "rosdistro": {
+    "master": true
+  },
+  "rosinstall": {
+    "master": true
+  },
+  "rosinstall_generator": {
+    "master": true
+  },
+  "roslibpy": {
+    "master": true
+  },
+  "rospkg": {
+    "master": true
+  },
+  "rotamerconvolvemd": {
+    "master": true
+  },
+  "routes": {
+    "master": true
+  },
+  "rowan": {
+    "master": true
+  },
+  "rpaths": {
+    "master": true
+  },
+  "rpcq": {
+    "master": true
+  },
+  "rpdb": {
+    "master": true
+  },
+  "rpfits": {
+    "master": true
+  },
+  "rply": {
+    "master": true
+  },
+  "rpy2": {
+    "master": true
+  },
+  "rq": {
+    "master": true
+  },
+  "rsa": {
+    "master": true
+  },
+  "rsgislib": {
+    "master": true
+  },
+  "rst2pdf": {
+    "master": true
+  },
+  "rstr": {
+    "master": true
+  },
+  "rsync": {
+    "master": true
+  },
+  "rt1": {
+    "master": true
+  },
+  "rtree": {
+    "master": true
+  },
+  "ruamel": {
+    "master": true
+  },
+  "ruamel.ordereddict": {
+    "master": true
+  },
+  "ruamel.yaml": {
+    "master": true
+  },
+  "ruamel.yaml.clib": {
+    "master": true
+  },
+  "ruamel.yaml.jinja2": {
+    "master": true
+  },
+  "ruamel_yaml": {
+    "master": true
+  },
+  "rubiks": {
+    "master": true
+  },
+  "ruby": {
+    "master": true
+  },
+  "runthis-server": {
+    "master": true
+  },
+  "runthis-sphinxext": {
+    "master": true
+  },
+  "ruptures": {
+    "master": true
+  },
+  "rust": {
+    "master": true
+  },
+  "rustpython": {
+    "master": true
+  },
+  "rvlib": {
+    "master": true
+  },
+  "rw": {
+    "master": true
+  },
+  "rx": {
+    "master": true
+  },
+  "rxcpp": {
+    "master": true
+  },
+  "s-tui": {
+    "master": true
+  },
+  "s2cloudless": {
+    "master": true
+  },
+  "s3cmd": {
+    "master": true
+  },
+  "s3contents": {
+    "master": true
+  },
+  "s3fs": {
+    "master": true
+  },
+  "s3path": {
+    "master": true
+  },
+  "s3transfer": {
+    "master": true
+  },
+  "s_gd2": {
+    "master": true
+  },
+  "sacc": {
+    "master": true
+  },
+  "sacremoses": {
+    "master": true
+  },
+  "sadisplay": {
+    "master": true
+  },
+  "safe-netrc": {
+    "master": true
+  },
+  "safety": {
+    "master": true
+  },
+  "saga-python": {
+    "master": true
+  },
+  "sage": {
+    "master": true
+  },
+  "sage-flatsurf": {
+    "master": true
+  },
+  "sagelib": {
+    "master": true
+  },
+  "sagemaker-chainer-container": {
+    "master": true
+  },
+  "sagemaker-inference-toolkit": {
+    "master": true
+  },
+  "sagemaker-mxnet-serving-container": {
+    "master": true
+  },
+  "sagemaker-python-sdk": {
+    "master": true
+  },
+  "sagemaker-pytorch-container": {
+    "master": true
+  },
+  "sagemaker-pytorch-serving-container": {
+    "master": true
+  },
+  "sagemaker-tensorflow-container": {
+    "master": true
+  },
+  "sagemaker-tensorflow-serving-container": {
+    "master": true
+  },
+  "sagemaker_containers": {
+    "master": true
+  },
+  "sagemaker_mxnet_container": {
+    "master": true
+  },
+  "sagemaker_pyspark": {
+    "master": true
+  },
+  "sagemath-db-combinatorial-designs": {
+    "master": true
+  },
+  "sagemath-db-conway-polynomials": {
+    "master": true
+  },
+  "sagemath-db-elliptic-curves": {
+    "master": true
+  },
+  "sagemath-db-graphs": {
+    "master": true
+  },
+  "sagemath-db-polytopes": {
+    "master": true
+  },
+  "sagenb": {
+    "master": true
+  },
+  "sagetex": {
+    "master": true
+  },
+  "salib": {
+    "master": true
+  },
+  "salt": {
+    "master": true
+  },
+  "sampledb": {
+    "master": true
+  },
+  "sanic": {
+    "master": true
+  },
+  "sansio-multipart": {
+    "master": true
+  },
+  "sarge": {
+    "master": true
+  },
+  "sas_kernel": {
+    "master": true
+  },
+  "sasl": {
+    "master": true
+  },
+  "sasmodels": {
+    "master": true
+  },
+  "saspy": {
+    "master": true
+  },
+  "sasview": {
+    "master": true
+  },
+  "sat-search": {
+    "master": true
+  },
+  "sat-stac": {
+    "master": true
+  },
+  "satpy": {
+    "master": true
+  },
+  "saws": {
+    "master": true
+  },
+  "sbcl": {
+    "master": true
+  },
+  "scalapack": {
+    "master": true
+  },
+  "scandir": {
+    "master": true
+  },
+  "scapy": {
+    "master": true
+  },
+  "scarplet": {
+    "master": true
+  },
+  "scattertext": {
+    "master": true
+  },
+  "sccache": {
+    "master": true
+  },
+  "sceptre": {
+    "master": true
+  },
+  "schedula": {
+    "master": true
+  },
+  "schedule": {
+    "master": true
+  },
+  "scheil": {
+    "master": true
+  },
+  "schema": {
+    "master": true
+  },
+  "schema-salad": {
+    "master": true
+  },
+  "schematics": {
+    "master": true
+  },
+  "schnetpack": {
+    "master": true
+  },
+  "schwimmbad": {
+    "master": true
+  },
+  "scif": {
+    "master": true
+  },
+  "scijava-jupyter-kernel": {
+    "master": true
+  },
+  "scikit-allel": {
+    "master": true
+  },
+  "scikit-beam": {
+    "master": true
+  },
+  "scikit-bio": {
+    "master": true
+  },
+  "scikit-build": {
+    "master": true
+  },
+  "scikit-cycling": {
+    "master": true
+  },
+  "scikit-data": {
+    "master": true
+  },
+  "scikit-dsp-comm": {
+    "master": true
+  },
+  "scikit-fmm": {
+    "master": true
+  },
+  "scikit-fuzzy": {
+    "master": true
+  },
+  "scikit-garden": {
+    "master": true
+  },
+  "scikit-geometry": {
+    "master": true
+  },
+  "scikit-hep-testdata": {
+    "master": true
+  },
+  "scikit-image": {
+    "master": true
+  },
+  "scikit-learn": {
+    "master": true
+  },
+  "scikit-learn-extra": {
+    "master": true
+  },
+  "scikit-lego": {
+    "master": true
+  },
+  "scikit-mdr": {
+    "master": true
+  },
+  "scikit-multiflow": {
+    "master": true
+  },
+  "scikit-optimize": {
+    "master": true
+  },
+  "scikit-plot": {
+    "master": true
+  },
+  "scikit-procrustes": {
+    "master": true
+  },
+  "scikit-rf": {
+    "master": true
+  },
+  "scikit-sparse": {
+    "master": true
+  },
+  "scikit-surprise": {
+    "master": true
+  },
+  "scikit-time": {
+    "master": true
+  },
+  "scikit-ued": {
+    "master": true
+  },
+  "scikit-umfpack": {
+    "master": true
+  },
+  "scikit-video": {
+    "master": true
+  },
+  "scikits-bootstrap": {
+    "master": true
+  },
+  "scilab": {
+    "master": true
+  },
+  "sciluigi": {
+    "master": true
+  },
+  "scipy": {
+    "master": true
+  },
+  "scipy-sugar": {
+    "master": true
+  },
+  "scisoftpy": {
+    "master": true
+  },
+  "scisweeper": {
+    "master": true
+  },
+  "scitime": {
+    "master": true
+  },
+  "scmdata": {
+    "master": true
+  },
+  "scons": {
+    "master": true
+  },
+  "scooby": {
+    "master": true
+  },
+  "scorec": {
+    "master": true
+  },
+  "scotch": {
+    "master": true
+  },
+  "scour": {
+    "master": true
+  },
+  "scp": {
+    "master": true
+  },
+  "scqubits": {
+    "master": true
+  },
+  "scramp": {
+    "master": true
+  },
+  "scrapy": {
+    "master": true
+  },
+  "scri": {
+    "master": true
+  },
+  "scripting": {
+    "master": true
+  },
+  "scripttest": {
+    "master": true
+  },
+  "scrypt": {
+    "master": true
+  },
+  "scs": {
+    "master": true
+  },
+  "scyjava": {
+    "master": true
+  },
+  "sdf": {
+    "master": true
+  },
+  "sdl": {
+    "master": true
+  },
+  "sdl2": {
+    "master": true
+  },
+  "sdl2_gfx": {
+    "master": true
+  },
+  "sdl2_image": {
+    "master": true
+  },
+  "sdl2_mixer": {
+    "master": true
+  },
+  "sdl2_net": {
+    "master": true
+  },
+  "sdl2_ttf": {
+    "master": true
+  },
+  "sdl_image": {
+    "master": true
+  },
+  "sdnotify": {
+    "master": true
+  },
+  "sdsl-lite": {
+    "master": true
+  },
+  "seaborn": {
+    "master": true
+  },
+  "seabreeze": {
+    "master": true
+  },
+  "seapy": {
+    "master": true
+  },
+  "seawater": {
+    "master": true
+  },
+  "seccomp-split": {
+    "master": true
+  },
+  "secretstorage": {
+    "master": true
+  },
+  "sed": {
+    "master": true
+  },
+  "sedflux": {
+    "master": true
+  },
+  "seekpath": {
+    "master": true
+  },
+  "segno": {
+    "master": true
+  },
+  "segregation": {
+    "master": true
+  },
+  "segtok": {
+    "master": true
   }
 }
