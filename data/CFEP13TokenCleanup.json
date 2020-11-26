@@ -9429,7 +9429,8 @@
     "master": true
   },
   "libfuse": {
-    "master": true
+    "master": true,
+    "2.x": true
   },
   "libgap": {
     "master": true
