@@ -942,7 +942,8 @@
     "master": true
   },
   "awkward": {
-    "master": true
+    "master": true,
+    "awkward-0.x": true
   },
   "aws-amicleaner": {
     "master": true
@@ -16667,7 +16668,9 @@
   "qgis": {
     "master": true,
     "LTR": true,
-    "qgis-2.x": true
+    "qgis-2.x": true,
+    "adds_qtwebkit": true,
+    "adds_qtwebkit-1": true
   },
   "qgrid": {
     "master": true
