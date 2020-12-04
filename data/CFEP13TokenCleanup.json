@@ -8734,7 +8734,8 @@
   },
   "kartothek": {
     "master": true,
-    "conda-bot/3.1.0": true
+    "conda-bot/3.1.0": true,
+    "pyarrow-2.0.0": true
   },
   "kastore": {
     "master": true
