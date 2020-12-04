@@ -1932,7 +1932,8 @@
   },
   "cctools-and-ld64": {
     "master": true,
-    "rc": true
+    "rc": true,
+    "clang10": true
   },
   "cdat_info": {
     "master": true,
