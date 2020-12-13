@@ -7284,7 +7284,8 @@
   },
   "highfive": {
     "master": true,
-    "0.2.1": true
+    "0.2.1": true,
+    "2.1.x": true
   },
   "hilbertcurve": {
     "master": true
@@ -8565,7 +8566,8 @@
     "master": true
   },
   "jupyter_conda": {
-    "master": true
+    "master": true,
+    "fcollonval-patch-1": true
   },
   "jupyter_console": {
     "master": true
