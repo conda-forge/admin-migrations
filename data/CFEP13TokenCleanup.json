@@ -3271,7 +3271,8 @@
     "master": true
   },
   "cylc-uiserver": {
-    "master": true
+    "master": true,
+    "upgrade-jupyterhub-and-tornado": true
   },
   "cymem": {
     "master": true
