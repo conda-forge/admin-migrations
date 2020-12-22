@@ -34024,5 +34024,14 @@
   },
   "connection_pool": {
     "master": true
+  },
+  "duplicity": {
+    "master": true
+  },
+  "compas-mobile-robot-reloc": {
+    "master": true
+  },
+  "librsync": {
+    "master": true
   }
 }
