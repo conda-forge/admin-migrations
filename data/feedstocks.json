@@ -1,5 +1,5 @@
 {
-  "current": 1,
+  "current": 0,
   "feedstocks": {
     "2dfatmic": 0,
     "4ti2": 0,
@@ -11396,8 +11396,13 @@
     "pyocr": 0,
     "jedi-language-server": 0,
     "r-cirt": 0,
-    "waterfallcharts": 1,
-    "r-rgen": 1,
-    "keras-unet": 1
+    "waterfallcharts": 0,
+    "r-rgen": 0,
+    "keras-unet": 0,
+    "pymodes": 0,
+    "pdfo": 0,
+    "stakesign": 0,
+    "solarforecastarbiter": 0,
+    "pyxdsm": 0
   }
 }
