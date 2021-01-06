@@ -25517,7 +25517,8 @@
   },
   "spdlog": {
     "master": true,
-    "rongou-patch-1": true
+    "rongou-patch-1": true,
+    "no-external-fmt": true
   },
   "speaklater": {
     "master": true
