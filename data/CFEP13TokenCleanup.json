@@ -3207,7 +3207,8 @@
     "master": true
   },
   "cxxopts": {
-    "master": true
+    "master": true,
+    "2.1.x": true
   },
   "cxxtest": {
     "master": true
