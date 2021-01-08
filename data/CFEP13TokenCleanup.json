@@ -6539,7 +6539,8 @@
   },
   "gnuradio": {
     "master": true,
-    "boost170": true
+    "boost170": true,
+    "rc": true
   },
   "gnureadline": {
     "master": true
