@@ -15652,7 +15652,8 @@
   },
   "pysteps": {
     "master": true,
-    "v1.4": true
+    "v1.4": true,
+    "v1.4.1": true
   },
   "pystreamer": {
     "master": true
@@ -16577,7 +16578,8 @@
     "master": true
   },
   "pyweed": {
-    "master": true
+    "master": true,
+    "revert-22-master": true
   },
   "pywim": {
     "master": true
