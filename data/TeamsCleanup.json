@@ -34354,5 +34354,23 @@
   },
   "impact-t": {
     "master": true
+  },
+  "allennlp-semparse": {
+    "master": true
+  },
+  "allennlp-optuna": {
+    "master": true
+  },
+  "allennlp-models": {
+    "master": true
+  },
+  "py-rouge": {
+    "master": true
+  },
+  "rpaframework": {
+    "master": true
+  },
+  "pynput-robocorp-fork": {
+    "master": true
   }
 }
