@@ -792,7 +792,8 @@
     "master": true
   },
   "atlite": {
-    "master": true
+    "master": true,
+    "coroa-patch-1": true
   },
   "atom": {
     "master": true,
@@ -9553,7 +9554,8 @@
     "master": true
   },
   "libignition-fuel-tools": {
-    "master": true
+    "master": true,
+    "v4": true
   },
   "libignition-math4": {
     "master": true,
