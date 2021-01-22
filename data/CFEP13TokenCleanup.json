@@ -8661,7 +8661,9 @@
   "jupyterlab": {
     "master": true,
     "1.2.x": true,
-    "rc": true
+    "rc": true,
+    "2.x": true,
+    "rc-2.x": true
   },
   "jupyterlab-dash": {
     "master": true
