@@ -286,7 +286,8 @@
     "build1": true
   },
   "allennlp": {
-    "master": true
+    "master": true,
+    "1.x": true
   },
   "allensdk": {
     "master": true
