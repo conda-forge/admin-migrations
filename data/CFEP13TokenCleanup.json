@@ -25483,7 +25483,8 @@
     "master": true
   },
   "spacy": {
-    "master": true
+    "master": true,
+    "v2.x": true
   },
   "spacy-lookups-data": {
     "master": true
