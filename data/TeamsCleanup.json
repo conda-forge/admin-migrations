@@ -35002,5 +35002,23 @@
   },
   "aesara": {
     "master": true
+  },
+  "ipytone": {
+    "master": true
+  },
+  "clad": {
+    "master": true
+  },
+  "apache-airflow-providers-sqlite": {
+    "master": true
+  },
+  "apache-airflow-providers-ftp": {
+    "master": true
+  },
+  "apache-airflow-providers-http": {
+    "master": true
+  },
+  "apache-airflow-providers-imap": {
+    "master": true
   }
 }
