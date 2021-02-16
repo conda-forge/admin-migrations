@@ -35329,5 +35329,50 @@
   },
   "apache-airflow-providers-telegram": {
     "master": true
+  },
+  "apache-airflow-providers-apache-hive": {
+    "master": true
+  },
+  "apache-airflow-providers-exasol": {
+    "master": true
+  },
+  "apache-airflow-providers-vertica": {
+    "master": true
+  },
+  "apache-airflow-providers-papermill": {
+    "master": true
+  },
+  "apache-airflow-providers-jdbc": {
+    "master": true
+  },
+  "apache-airflow-providers-ssh": {
+    "master": true
+  },
+  "apache-airflow-providers-oracle": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-cassandra": {
+    "master": true
+  },
+  "apache-airflow-providers-celery": {
+    "master": true
+  },
+  "apache-airflow-providers-mongo": {
+    "master": true
+  },
+  "apache-airflow-providers-amazon": {
+    "master": true
+  },
+  "apache-airflow-providers-salesforce": {
+    "master": true
+  },
+  "apache-airflow-providers-qubole": {
+    "master": true
+  },
+  "apache-airflow-providers-odbc": {
+    "master": true
+  },
+  "apache-airflow-providers-discord": {
+    "master": true
   }
 }
