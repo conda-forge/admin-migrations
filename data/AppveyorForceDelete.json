@@ -35233,5 +35233,104 @@
   },
   "r-rayshader": {
     "master": true
+  },
+  "apache-airflow-providers-singularity": {
+    "master": true
+  },
+  "aws-lambda-powertools": {
+    "master": true
+  },
+  "apache-airflow-providers-microsoft-mssql": {
+    "master": true
+  },
+  "apache-airflow-providers-cncf-kubernetes": {
+    "master": true
+  },
+  "apache-airflow-providers-redis": {
+    "master": true
+  },
+  "apache-airflow-providers-facebook": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-druid": {
+    "master": true
+  },
+  "apache-airflow-providers-dingding": {
+    "master": true
+  },
+  "apache-airflow-providers-mysql": {
+    "master": true
+  },
+  "apache-airflow-providers-cloudant": {
+    "master": true
+  },
+  "apache-airflow-providers-sendgrid": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-hdfs": {
+    "master": true
+  },
+  "apache-airflow-providers-opsgenie": {
+    "master": true
+  },
+  "apache-airflow-providers-docker": {
+    "master": true
+  },
+  "apache-airflow-providers-openfaas": {
+    "master": true
+  },
+  "apache-airflow-providers-grpc": {
+    "master": true
+  },
+  "svg.path": {
+    "master": true
+  },
+  "apache-airflow-providers-datadog": {
+    "master": true
+  },
+  "apache-airflow-providers-snowflake": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-spark": {
+    "master": true
+  },
+  "apache-airflow-providers-databricks": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-beam": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-pig": {
+    "master": true
+  },
+  "apache-airflow-providers-plexus": {
+    "master": true
+  },
+  "apache-airflow-providers-microsoft-winrm": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-sqoop": {
+    "master": true
+  },
+  "apache-airflow-providers-sftp": {
+    "master": true
+  },
+  "apache-airflow-providers-segment": {
+    "master": true
+  },
+  "apache-airflow-providers-samba": {
+    "master": true
+  },
+  "apache-airflow-providers-jira": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-livy": {
+    "master": true
+  },
+  "apache-airflow-providers-hashicorp": {
+    "master": true
+  },
+  "apache-airflow-providers-telegram": {
+    "master": true
   }
 }
