@@ -34332,5 +34332,8 @@
   },
   "jsbsim": {
     "rebuild-py39": true
+  },
+  "pandasgui": {
+    "fix-osx-build": true
   }
 }
