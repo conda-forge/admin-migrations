@@ -1,5 +1,5 @@
 {
-  "current": 0,
+  "current": 1,
   "feedstocks": {
     "2dfatmic": 1,
     "4ti2": 1,
@@ -11743,15 +11743,15 @@
     "flake8-annotations": 1,
     "rxspencer": 1,
     "loadmydata": 1,
-    "mdx_truly_sane_lists": 0,
-    "opentelemetry-instrumentation": 0,
-    "opentelemetry-instrumentation-aiohttp-client": 0,
-    "r-rayimage": 0,
-    "bazel_buildozer": 0,
-    "getopt-win32": 0,
-    "cobra": 0,
-    "r-coro": 0,
-    "r-weightedcluster": 0,
-    "r-rayshader": 0
+    "mdx_truly_sane_lists": 1,
+    "opentelemetry-instrumentation": 1,
+    "opentelemetry-instrumentation-aiohttp-client": 1,
+    "r-rayimage": 1,
+    "bazel_buildozer": 1,
+    "getopt-win32": 1,
+    "cobra": 1,
+    "r-coro": 1,
+    "r-weightedcluster": 1,
+    "r-rayshader": 1
   }
 }
