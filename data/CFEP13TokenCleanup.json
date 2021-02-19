@@ -10088,7 +10088,8 @@
   },
   "lintegrate": {
     "master": true,
-    "update": true
+    "update": true,
+    "run_tests": true
   },
   "lintel": {
     "master": true
