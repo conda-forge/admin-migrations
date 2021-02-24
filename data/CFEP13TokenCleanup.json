@@ -10089,7 +10089,8 @@
   "lintegrate": {
     "master": true,
     "update": true,
-    "run_tests": true
+    "run_tests": true,
+    "usepypi": true
   },
   "lintel": {
     "master": true
@@ -31750,7 +31751,8 @@
     "master": true
   },
   "cf_xarray": {
-    "master": true
+    "master": true,
+    "dcherian-patch-1": true
   },
   "ibis-vega-transform": {
     "master": true
