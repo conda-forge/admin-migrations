@@ -975,7 +975,8 @@
   "awscli": {
     "master": true,
     "v1.11.182": true,
-    "v1.14.1": true
+    "v1.14.1": true,
+    "triggerci": true
   },
   "awscli-cwlogs": {
     "master": true
