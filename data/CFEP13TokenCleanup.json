@@ -1547,7 +1547,8 @@
     "master": true
   },
   "boto3": {
-    "master": true
+    "master": true,
+    "citrigger": true
   },
   "botocore": {
     "master": true
