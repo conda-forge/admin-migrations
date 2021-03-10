@@ -34367,7 +34367,8 @@
   },
   "configupdater": {
     "v1": true,
-    "maresb-patch-1": true
+    "maresb-patch-1": true,
+    "maresb-patch-2": true
   },
   "pynput-robocorp-fork": {
     "pyobjc-fix-deps": true
@@ -34376,6 +34377,8 @@
     "maresb-patch-1": true
   },
   "pyscaffoldext-markdown": {
-    "maresb-patch-1": true
+    "maresb-patch-1": true,
+    "maresb-patch-3": true,
+    "maresb-patch-4": true
   }
 }
