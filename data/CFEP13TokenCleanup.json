@@ -34380,5 +34380,8 @@
     "maresb-patch-1": true,
     "maresb-patch-3": true,
     "maresb-patch-4": true
+  },
+  "onnxconverter-common": {
+    "old-releases": true
   }
 }
