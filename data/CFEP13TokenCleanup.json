@@ -34383,27 +34383,32 @@
   },
   "vscode-icons": {
     "change-extensions-dir": true,
-    "ship-extension-files": true
+    "ship-extension-files": true,
+    "master": true
   },
   "configupdater": {
     "v1": true,
     "maresb-patch-1": true,
-    "maresb-patch-2": true
+    "maresb-patch-2": true,
+    "master": true
   },
   "pynput-robocorp-fork": {
     "pyobjc-fix-deps": true,
     "master": true
   },
   "pyscaffoldext-dsproject": {
-    "maresb-patch-1": true
+    "maresb-patch-1": true,
+    "master": true
   },
   "pyscaffoldext-markdown": {
     "maresb-patch-1": true,
     "maresb-patch-3": true,
-    "maresb-patch-4": true
+    "maresb-patch-4": true,
+    "master": true
   },
   "onnxconverter-common": {
-    "old-releases": true
+    "old-releases": true,
+    "master": true
   },
   "streamlit": {
     "master": true
@@ -36776,6 +36781,514 @@
     "master": true
   },
   "ptitprince": {
+    "master": true
+  },
+  "google-cloud-workflows": {
+    "master": true
+  },
+  "libgumbo": {
+    "master": true
+  },
+  "pysbol2": {
+    "master": true
+  },
+  "r-teamr": {
+    "master": true
+  },
+  "graphviz2drawio": {
+    "master": true
+  },
+  "zdesk": {
+    "master": true
+  },
+  "pinotdb": {
+    "master": true
+  },
+  "pyqg": {
+    "master": true
+  },
+  "google-cloud-tasks": {
+    "master": true
+  },
+  "apache-airflow-providers-pagerduty": {
+    "master": true
+  },
+  "coastal-dune-model": {
+    "master": true
+  },
+  "desert": {
+    "master": true
+  },
+  "azure-mgmt-containerinstance": {
+    "master": true
+  },
+  "apache-airflow-providers-postgres": {
+    "master": true
+  },
+  "yandexcloud": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-kylin": {
+    "master": true
+  },
+  "des-sxdes": {
+    "master": true
+  },
+  "google-cloud-speech": {
+    "master": true
+  },
+  "vyper": {
+    "master": true
+  },
+  "autode": {
+    "master": true
+  },
+  "sciplot": {
+    "master": true
+  },
+  "weldx": {
+    "master": true
+  },
+  "apache-airflow-providers-google": {
+    "master": true
+  },
+  "runner": {
+    "master": true
+  },
+  "pymc3-hmm": {
+    "master": true
+  },
+  "smartystreets_python_sdk": {
+    "master": true
+  },
+  "apache-airflow-providers-neo4j": {
+    "master": true
+  },
+  "r-ggstar": {
+    "master": true
+  },
+  "des-pizza-cutter": {
+    "master": true
+  },
+  "metadetect": {
+    "master": true
+  },
+  "slack-sdk": {
+    "master": true
+  },
+  "fscacher": {
+    "master": true
+  },
+  "pyreadline3": {
+    "master": true
+  },
+  "apache-airflow-providers-elasticsearch": {
+    "master": true
+  },
+  "py-solc-ast": {
+    "master": true
+  },
+  "elasticsearch-dbapi": {
+    "master": true
+  },
+  "pytest-attrib": {
+    "master": true
+  },
+  "pyworms": {
+    "master": true
+  },
+  "eodms-api-client": {
+    "master": true
+  },
+  "apache-airflow-providers-microsoft-azure": {
+    "master": true
+  },
+  "google-ads": {
+    "master": true
+  },
+  "azure-kusto-data": {
+    "master": true
+  },
+  "apache-airflow-providers-presto": {
+    "master": true
+  },
+  "nifty": {
+    "master": true
+  },
+  "quippy": {
+    "master": true
+  },
+  "google-cloud-datacatalog": {
+    "master": true
+  },
+  "apache-airflow-providers-jenkins": {
+    "master": true
+  },
+  "vvm": {
+    "master": true
+  },
+  "bio-embeddings-esm": {
+    "master": true
+  },
+  "umarkdown": {
+    "master": true
+  },
+  "improver": {
+    "master": true
+  },
+  "python-octaviaclient": {
+    "master": true
+  },
+  "pmapper": {
+    "master": true
+  },
+  "r-broom.helpers": {
+    "master": true
+  },
+  "structdbrest": {
+    "master": true
+  },
+  "xmlsec": {
+    "master": true
+  },
+  "python3-saml": {
+    "master": true
+  },
+  "libxmlsec1": {
+    "master": true
+  },
+  "r-turfr": {
+    "master": true
+  },
+  "psearch": {
+    "master": true
+  },
+  "r-anesrake": {
+    "master": true
+  },
+  "r-weights": {
+    "master": true
+  },
+  "r-trycatchlog": {
+    "master": true
+  },
+  "compass-interface": {
+    "master": true
+  },
+  "pyribs-base": {
+    "master": true
+  },
+  "openff-recharge": {
+    "master": true
+  },
+  "sphinx-notfound-page": {
+    "master": true
+  },
+  "spampy": {
+    "master": true
+  },
+  "dftd4-python": {
+    "master": true
+  },
+  "pyribs": {
+    "master": true
+  },
+  "yaqd-vici": {
+    "master": true
+  },
+  "intake-excel": {
+    "master": true
+  },
+  "sphinxcontrib-details-directive": {
+    "master": true
+  },
+  "spotipy": {
+    "master": true
+  },
+  "pyfitparquet": {
+    "master": true
+  },
+  "dynophores": {
+    "master": true
+  },
+  "ipydatagrid": {
+    "master": true
+  },
+  "r-targets": {
+    "master": true
+  },
+  "lipyphilic": {
+    "master": true
+  },
+  "r-tarchetypes": {
+    "master": true
+  },
+  "ibis-omniscidb": {
+    "master": true
+  },
+  "sphinx-multitoc-numbering": {
+    "master": true
+  },
+  "stress-ng": {
+    "master": true
+  },
+  "wquantiles": {
+    "master": true
+  },
+  "dmba": {
+    "master": true
+  },
+  "ambiance": {
+    "master": true
+  },
+  "twisted-iocpsupport": {
+    "master": true
+  },
+  "mkdocs-autorefs": {
+    "master": true
+  },
+  "nhs-number": {
+    "master": true
+  },
+  "prometheus-fastapi-instrumentator": {
+    "master": true
+  },
+  "cymbal": {
+    "master": true
+  },
+  "logrun": {
+    "master": true
+  },
+  "gladtex": {
+    "master": true
+  },
+  "msgspec": {
+    "master": true
+  },
+  "similaritymeasures": {
+    "master": true
+  },
+  "here-location-services": {
+    "master": true
+  },
+  "pyramid_mako": {
+    "master": true
+  },
+  "pyramid_debugtoolbar": {
+    "master": true
+  },
+  "stac-vrt": {
+    "master": true
+  },
+  "pyramid_tm": {
+    "master": true
+  },
+  "pymetalink": {
+    "master": true
+  },
+  "geoserver-rest": {
+    "master": true
+  },
+  "taxcalc": {
+    "master": true
+  },
+  "maps-cli": {
+    "master": true
+  },
+  "gimli.units": {
+    "master": true
+  },
+  "here-map-widget-for-jupyter": {
+    "master": true
+  },
+  "limesuite": {
+    "master": true
+  },
+  "pytask-parallel": {
+    "master": true
+  },
+  "pytask-stata": {
+    "master": true
+  },
+  "pytask": {
+    "master": true
+  },
+  "latex-dependency-scanner": {
+    "master": true
+  },
+  "pytask-environment": {
+    "master": true
+  },
+  "pytask-r": {
+    "master": true
+  },
+  "bmi-topography": {
+    "master": true
+  },
+  "pytask-latex": {
+    "master": true
+  },
+  "rubicon-ml": {
+    "master": true
+  },
+  "qhub-dask-meta": {
+    "master": true
+  },
+  "pymt_topography": {
+    "master": true
+  },
+  "manif": {
+    "master": true
+  },
+  "sridentify": {
+    "master": true
+  },
+  "dataset": {
+    "master": true
+  },
+  "banal": {
+    "master": true
+  },
+  "vsce": {
+    "master": true
+  },
+  "gulp-cli": {
+    "master": true
+  },
+  "pyro-ppl": {
+    "master": true
+  },
+  "pyro-api": {
+    "master": true
+  },
+  "r-palmerpenguins": {
+    "master": true
+  },
+  "sbank": {
+    "master": true
+  },
+  "picmistandard": {
+    "master": true
+  },
+  "blaspp": {
+    "master": true
+  },
+  "camel": {
+    "master": true
+  },
+  "pygeohydro": {
+    "master": true
+  },
+  "stonesoup": {
+    "master": true
+  },
+  "r-waiter": {
+    "master": true
+  },
+  "r-fresh": {
+    "master": true
+  },
+  "dotty-dict": {
+    "master": true
+  },
+  "r-fmultivar": {
+    "master": true
+  },
+  "lapackpp": {
+    "master": true
+  },
+  "rkstiff": {
+    "master": true
+  },
+  "jupyterlab-tour": {
+    "master": true
+  },
+  "ansitable": {
+    "master": true
+  },
+  "flake8-use-fstring": {
+    "master": true
+  },
+  "isoweek": {
+    "master": true
+  },
+  "dictobj": {
+    "master": true
+  },
+  "pyrfr": {
+    "master": true
+  },
+  "unasync": {
+    "master": true
+  },
+  "pyiem": {
+    "master": true
+  },
+  "spatialmath-python": {
+    "master": true
+  },
+  "pgraph-python": {
+    "master": true
+  },
+  "formulae": {
+    "master": true
+  },
+  "jupyterlab-pullrequests": {
+    "master": true
+  },
+  "pycallgraph2": {
+    "master": true
+  },
+  "semi-ate-stdf": {
+    "master": true
+  },
+  "swift-sim": {
+    "master": true
+  },
+  "roman": {
+    "master": true,
+    "v3.3": true
+  },
+  "qpsolvers": {
+    "master": true
+  },
+  "incognita": {
+    "master": true
+  },
+  "windpowerlib": {
+    "master": true
+  },
+  "pgeocode": {
+    "master": true
+  },
+  "ecole": {
+    "master": true
+  },
+  "leafmaptools": {
+    "master": true
+  },
+  "textgrid": {
+    "master": true
+  },
+  "leafmap": {
+    "master": true
+  },
+  "skl2onnx": {
+    "master": true
+  },
+  "aesara-theano-fallback": {
+    "master": true
+  },
+  "disjoint-set": {
+    "master": true
+  },
+  "rtb-data": {
+    "master": true
+  },
+  "azure-mgmt-datafactory": {
+    "master": true
+  },
+  "vscode-jupyter": {
     "master": true
   }
 }
