@@ -243,7 +243,7 @@ def run_migrators(feedstock, migrators):
                             print("    branch:", branch)
                             _run_git_command([
                                 "checkout",
-                                branch, "--track",
+                                "--track",
                                 "origin/" + branch
                             ])
 
