@@ -240,42 +240,49 @@ def run_migrators(feedstock, migrators):
                             if branch != "master" and m.master_branch_only:
                                 continue
 
-                            print("    branch:", branch)
-                            _run_git_command([
-                                "switch", branch
-                            ])
-
-                            if m.skip(feedstock, branch):
-                                continue
                             try:
+                                print("    branch:", branch)
+                                try:
+                                    _run_git_command([
+                                        "switch", branch
+                                    ])
+                                except Exception:
+                                    _run_git_command([
+                                        "-b", branch,
+                                        "-t", "origin/" + branch
+                                    ])
+
+                                if m.skip(feedstock, branch):
+                                    continue
+
                                 worked, commit_me, made_api_calls = m.migrate(
                                     feedstock, branch)
+
+                                if commit_me:
+                                    _run_git_command([
+                                        "commit",
+                                        "--allow-empty",
+                                        "-am",
+                                        "[ci skip] [skip ci] [cf admin skip] "
+                                        "***NO_CI*** %s" % m.message(),
+                                    ])
+
+                                    made_api_calls = True
+                                    is_archived = _repo_is_archived(feedstock)
+                                    if is_archived is not None:
+                                        if not is_archived:
+                                            _run_git_command(["push", "--quiet"])
+                                        else:
+                                            print("not pushing to archived feedstock")
+                                    else:
+                                        print(
+                                            "could not get repo archived status - "
+                                            "punting to next round"
+                                        )
+
                             except Exception as e:
                                 worked = False
-                                commit_me = False
                                 print("    ERROR:", repr(e))
-
-                            if commit_me:
-                                _run_git_command([
-                                    "commit",
-                                    "--allow-empty",
-                                    "-am",
-                                    "[ci skip] [skip ci] [cf admin skip] "
-                                    "***NO_CI*** %s" % m.message(),
-                                ])
-
-                                made_api_calls = True
-                                is_archived = _repo_is_archived(feedstock)
-                                if is_archived is not None:
-                                    if not is_archived:
-                                        _run_git_command(["push", "--quiet"])
-                                    else:
-                                        print("not pushing to archived feedstock")
-                                else:
-                                    print(
-                                        "could not get repo archived status - "
-                                        "punting to next round"
-                                    )
 
                             if worked:
                                 migrators_to_record.append((m, branch))
