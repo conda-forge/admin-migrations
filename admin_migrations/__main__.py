@@ -248,6 +248,7 @@ def run_migrators(feedstock, migrators):
                                     ])
                                 except Exception:
                                     _run_git_command([
+                                        "checkout,"
                                         "-b", branch,
                                         "-t", "origin/" + branch
                                     ])
