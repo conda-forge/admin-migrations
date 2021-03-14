@@ -1,0 +1,68 @@
+name: migrate
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: null
+
+jobs:
+  migrate:
+    name: migrate
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: skip me
+        shell: bash -l {0}
+        if: success() && contains(github.event.head_commit.message, 'ci skip')
+        run: |
+          echo "commit message: '${MSG}'"
+          echo "CI_SKIP=true" >> $GITHUB_ENV
+        env:
+          MSG: ${{ github.event.head_commit.message }}
+
+      - uses: actions/checkout@v2
+        if: success() && ! env.CI_SKIP
+
+      - uses: conda-incubator/setup-miniconda@v2
+        if: success() && ! env.CI_SKIP
+        with:
+          python-version: 3.8
+          channels: conda-forge,defaults
+          channel-priority: strict
+          show-channel-urls: true
+
+      - name: configure conda and install code
+        if: success() && ! env.CI_SKIP
+        shell: bash -l {0}
+        run: |
+          conda config --set always_yes yes
+          conda config --add channels conda-forge
+          conda install --quiet pip
+
+          conda install -y -q --file requirements.txt
+
+          pip install --no-deps -e .
+
+          git config --global user.email "41433396+cf-blacksmithy@users.noreply.github.com"
+          git config --global user.name "cf-blacksmithy"
+
+      - name: migrate
+        if: success() && ! env.CI_SKIP
+        shell: bash -l {0}
+        run: |
+          mkdir -p ~/.conda-smithy
+          echo ${STAGING_BINSTAR_TOKEN} > ~/.conda-smithy/anaconda.token
+          echo ${CIRCLE_TOKEN} > ~/.conda-smithy/circle.token
+          echo ${TRAVIS_TOKEN} > ~/.conda-smithy/travis.token
+          echo ${AZURE_TOKEN} > ~/.conda-smithy/azure.token
+          echo ${DRONE_TOKEN} > ~/.conda-smithy/drone.token
+          echo ${GITHUB_TOKEN} > ~/.conda-smithy/github.token
+
+          source ./scripts/clone_feedstock_outputs.sh
+          run-admin-migrations
+        env:
+          GITHUB_TOKEN: ${{ secrets.CF_BLACKSMITHY_GITHUB_TOKEN }}
+          DRONE_TOKEN: ${{ secrets.DRONE_TOKEN }}
+          CIRCLE_TOKEN: ${{ secrets.CIRCLE_TOKEN }}
+          TRAVIS_TOKEN: ${{ secrets.TRAVIS_TOKEN }}
+          AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
+          STAGING_BINSTAR_TOKEN: ${{ secrets.STAGING_BINSTAR_TOKEN }}
