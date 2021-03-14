@@ -85,16 +85,18 @@ def pushd(new_dir):
 def _run_git_command(args, capture=False, check=True):
     if capture:
         subprocess.run(
-            ['git'] + args,
+            " ".join(['git'] + args),
             check=check,
+            shell=True,
         )
         return None
     else:
         s = subprocess.run(
-            ['git'] + args,
+            " ".join(['git'] + args),
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             check=check,
+            shell=True,
         )
         return s.returncode == 0, s.stdout.decode("utf-8")
 
