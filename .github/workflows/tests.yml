@@ -62,6 +62,22 @@ jobs:
         if: success() && ! env.CI_SKIP
         shell: bash -l {0}
         run: |
+          mkdir -p ~/.conda-smithy
+          echo ${STAGING_BINSTAR_TOKEN} > ~/.conda-smithy/anaconda.token
+          echo ${CIRCLE_TOKEN} > ~/.conda-smithy/circle.token
+          echo ${TRAVIS_TOKEN} > ~/.conda-smithy/travis.token
+          echo ${AZURE_TOKEN} > ~/.conda-smithy/azure.token
+          echo ${DRONE_TOKEN} > ~/.conda-smithy/drone.token
+          echo ${GITHUB_TOKEN} > ~/.conda-smithy/github.token
+
+
           export DEBUG_ADMIN_MIGRATIONS=1
           source ./scripts/clone_feedstock_outputs.sh
           run-admin-migrations
+        env:
+          GITHUB_TOKEN: ${{ secrets.CF_BLACKSMITHY_GITHUB_TOKEN }}
+          DRONE_TOKEN: ${{ secrets.DRONE_TOKEN }}
+          CIRCLE_TOKEN: ${{ secrets.CIRCLE_TOKEN }}
+          TRAVIS_TOKEN: ${{ secrets.TRAVIS_TOKEN }}
+          AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
+          STAGING_BINSTAR_TOKEN: ${{ secrets.STAGING_BINSTAR_TOKEN }}
