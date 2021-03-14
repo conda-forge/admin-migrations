@@ -8,10 +8,10 @@ from .base import Migrator
 
 YAML = YAML()
 
-HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
-
 
 def _get_num_builds(appveyor_name):
+    HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
+
     r = requests.get(
         "https://ci.appveyor.com/api/projects/conda-forge/"
         "%s/history?recordsNumber=10" % appveyor_name,
@@ -66,6 +66,8 @@ class AppveyorDelete(Migrator):
     master_branch_only = False
 
     def migrate(self, feedstock, branch):
+        HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
+
         assert branch == "master"
         deleted = False
 
@@ -140,6 +142,8 @@ class AppveyorForceDelete(Migrator):
     master_branch_only = True
 
     def migrate(self, feedstock, branch):
+        HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
+
         if feedstock == "python":
             return True, False, False
         else:
