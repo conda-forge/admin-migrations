@@ -1,4 +1,5 @@
 # admin-migrations
+[![tests](https://github.com/conda-forge/admin-migrations/actions/workflows/tests.yml/badge.svg)](https://github.com/conda-forge/admin-migrations/actions/workflows/tests.yml)
 [![CircleCI](https://circleci.com/gh/conda-forge/admin-migrations.svg?style=svg)](https://circleci.com/gh/conda-forge/admin-migrations)
 
 repo to run background admin migrations of conda-forge feedstocks
