@@ -81,3 +81,4 @@ jobs:
           TRAVIS_TOKEN: ${{ secrets.TRAVIS_TOKEN }}
           AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
           STAGING_BINSTAR_TOKEN: ${{ secrets.STAGING_BINSTAR_TOKEN }}
+          APPVETOR_TOKEN: blah
