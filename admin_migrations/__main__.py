@@ -29,15 +29,15 @@ from admin_migrations.migrators import (
 )
 
 
-def _assert_circle_at_0():
+def _assert_at_0():
     yaml = ruamel.yaml.YAML()
-    with open(".circleci/config.yml", "r") as fp:
-        _cc_cfg = yaml.load(fp.read())
-    ctab = _cc_cfg["workflows"]["hourly"]["triggers"][0]["schedule"]["cron"]
-    assert ctab == "00 * * * *", "Wrong cron tab %s for circle!" % ctab
+    with open(".github/workflows/migrate.yml", "r") as fp:
+        _cfg = yaml.load(fp.read())
+    ctab = _cfg["on"]["schedule"][0]["cron"]
+    assert ctab == "0 * * * *", "Wrong cron tab %s for GHA!" % ctab
 
 
-_assert_circle_at_0()
+_assert_at_0()
 
 DEBUG = "DEBUG_ADMIN_MIGRATIONS" in os.environ
 
