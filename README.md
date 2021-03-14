@@ -1,6 +1,6 @@
 # admin-migrations
 [![tests](https://github.com/conda-forge/admin-migrations/actions/workflows/tests.yml/badge.svg)](https://github.com/conda-forge/admin-migrations/actions/workflows/tests.yml)
-[![CircleCI](https://circleci.com/gh/conda-forge/admin-migrations.svg?style=svg)](https://circleci.com/gh/conda-forge/admin-migrations)
+[![migrate](https://github.com/conda-forge/admin-migrations/actions/workflows/migrate.yml/badge.svg)](https://github.com/conda-forge/admin-migrations/actions/workflows/migrate.yml)
 
 repo to run background admin migrations of conda-forge feedstocks
 
@@ -26,4 +26,3 @@ CircleCI is set to run once an hour on a cron job.
 6. Do not rerender feedstocks!
 
 Items 1-3 are taken care of by the migrations code.
-
