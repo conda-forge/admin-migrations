@@ -82,8 +82,21 @@ def pushd(new_dir):
         os.chdir(previous_dir)
 
 
-def _run_git_command(args):
-    subprocess.run(['git'] + args, check=True)
+def _run_git_command(args, capture=False, check=True):
+    if capture:
+        subprocess.run(
+            ['git'] + args,
+            check=check,
+        )
+        return None
+    else:
+        s = subprocess.run(
+            ['git'] + args,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            check=check,
+        )
+        return s.returncode == 0, s.stdout.decode("utf-8")
 
 
 def _get_branches():
@@ -243,15 +256,25 @@ def run_migrators(feedstock, migrators):
                             try:
                                 print("    branch:", branch)
                                 try:
-                                    _run_git_command([
-                                        "switch", branch
-                                    ])
+                                    _run_git_command(
+                                        ["switch", branch],
+                                        capture=True,
+                                        check=True,
+                                    )
                                 except Exception:
-                                    _run_git_command([
-                                        "checkout",
-                                        "-b", branch,
-                                        "-t", "origin/" + branch
-                                    ])
+                                    ok, e = _run_git_command(
+                                        [
+                                            "checkout",
+                                            "-b", branch,
+                                            "-t", "origin/" + branch
+                                        ],
+                                        capture=True,
+                                        check=False,
+                                    )
+                                    if not ok:
+                                        raise RuntimeError(
+                                            "git branch checkout error: %s" % e
+                                        )
 
                                 if m.skip(feedstock, branch):
                                     continue
