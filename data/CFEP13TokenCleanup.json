@@ -32049,7 +32049,9 @@
   },
   "evalml-core": {
     "master": true,
-    "ds_update_dev_url": true
+    "ds_update_dev_url": true,
+    "0.21.0_working_changes": true,
+    "latest_release_changes": true
   },
   "cotede": {
     "master": true
