@@ -242,7 +242,8 @@
     "master": true
   },
   "airflow": {
-    "master": true
+    "master": true,
+    "1.10.x": true
   },
   "alabaster": {
     "master": true
