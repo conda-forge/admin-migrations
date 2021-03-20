@@ -1236,7 +1236,8 @@
   "bazel": {
     "master": true,
     "2.0": true,
-    "3.1.x": true
+    "3.1.x": true,
+    "revert-59-bot-pr_arm_osx_h6e4861": true
   },
   "bc": {
     "master": true
