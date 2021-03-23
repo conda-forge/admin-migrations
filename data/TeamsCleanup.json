@@ -36259,5 +36259,14 @@
   },
   "dask-ctl": {
     "master": true
+  },
+  "topicmapping": {
+    "master": true
+  },
+  "pysparkling": {
+    "master": true
+  },
+  "spherematch": {
+    "master": true
   }
 }
