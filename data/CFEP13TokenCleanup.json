@@ -32144,7 +32144,8 @@
     "master": true
   },
   "simmer": {
-    "master": true
+    "master": true,
+    "remove_xlrd": true
   },
   "plantcv": {
     "master": true
@@ -37668,6 +37669,12 @@
     "master": true
   },
   "labelfusion": {
+    "master": true
+  },
+  "python-mint": {
+    "master": true
+  },
+  "dask-geopandas": {
     "master": true
   }
 }
