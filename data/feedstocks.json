@@ -1,5 +1,5 @@
 {
-  "current": 1,
+  "current": 0,
   "feedstocks": {
     "2dfatmic": 0,
     "4ti2": 0,
@@ -12146,19 +12146,20 @@
     "libignition-gazebo": 0,
     "jupyterlab-favorites": 0,
     "pycuda": 0,
-    "yaqd-scpi": 1,
-    "hagerstrand": 1,
-    "behresp": 1,
-    "pyzstd": 1,
-    "r-workflowsets": 1,
-    "fast3tree": 1,
-    "chex": 1,
-    "mrs_denoising_tools": 1,
-    "gtk4": 1,
-    "labelfusion": 1,
-    "python-mint": 1,
-    "dask-geopandas": 1,
-    "telnyx": 1,
-    "zenodo_get": 1
+    "yaqd-scpi": 0,
+    "hagerstrand": 0,
+    "behresp": 0,
+    "pyzstd": 0,
+    "r-workflowsets": 0,
+    "fast3tree": 0,
+    "chex": 0,
+    "mrs_denoising_tools": 0,
+    "gtk4": 0,
+    "labelfusion": 0,
+    "python-mint": 0,
+    "dask-geopandas": 0,
+    "telnyx": 0,
+    "zenodo_get": 0,
+    "libignition-launch": 0
   }
 }
