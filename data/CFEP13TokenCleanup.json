@@ -7900,7 +7900,8 @@
     "master": true
   },
   "intel-opencl-clang": {
-    "master": true
+    "master": true,
+    "10.0.0": true
   },
   "intel-vaapi-driver": {
     "master": true
