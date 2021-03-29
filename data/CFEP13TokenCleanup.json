@@ -10139,7 +10139,8 @@
     "master": true
   },
   "llvm-spirv": {
-    "master": true
+    "master": true,
+    "10.0.0": true
   },
   "llvmdev": {
     "master": true,
