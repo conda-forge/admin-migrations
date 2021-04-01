@@ -35847,7 +35847,8 @@
     "master": true
   },
   "libignition-rendering4": {
-    "master": true
+    "master": true,
+    "v4": true
   },
   "defaultlist": {
     "master": true
@@ -37793,6 +37794,9 @@
     "master": true
   },
   "libignition-utils": {
+    "master": true
+  },
+  "r-rstac": {
     "master": true
   }
 }
