@@ -16510,7 +16510,8 @@
     "master": true
   },
   "pytools": {
-    "master": true
+    "master": true,
+    "drop-decorator-six": true
   },
   "pytorch-cpu": {
     "master": true
