@@ -35666,7 +35666,8 @@
     "master": true
   },
   "openmm-torch": {
-    "master": true
+    "master": true,
+    "pin-stricter": true
   },
   "facebook_business": {
     "master": true
