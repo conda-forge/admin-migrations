@@ -33082,7 +33082,8 @@
   },
   "arosics": {
     "master": true,
-    "fix_folium": true
+    "fix_folium": true,
+    "do_not_use_gdal_3.2.1": true
   },
   "r-fastmatrix": {
     "master": true
