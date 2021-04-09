@@ -37976,5 +37976,20 @@
   },
   "bed-reader": {
     "master": true
+  },
+  "msal_requests_auth": {
+    "master": true
+  },
+  "flask-multipass": {
+    "master": true
+  },
+  "compas_slicer": {
+    "master": true
+  },
+  "trino": {
+    "master": true
+  },
+  "asf_search": {
+    "master": true
   }
 }
