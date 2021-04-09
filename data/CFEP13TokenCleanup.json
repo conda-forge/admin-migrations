@@ -36686,7 +36686,8 @@
     "master": true
   },
   "incqueryserver-jupyter": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "ropgadget": {
     "master": true
@@ -37971,6 +37972,9 @@
     "master": true
   },
   "oasis": {
+    "master": true
+  },
+  "bed-reader": {
     "master": true
   }
 }
