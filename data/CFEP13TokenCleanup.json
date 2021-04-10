@@ -29292,7 +29292,8 @@
     "master": true
   },
   "mimalloc": {
-    "master": true
+    "master": true,
+    "2.0.1_h28a852": true
   },
   "lume-gpt": {
     "master": true
@@ -38008,6 +38009,9 @@
     "master": true
   },
   "enterprise-pulsar": {
+    "master": true
+  },
+  "youtube-transcript-api": {
     "master": true
   }
 }
