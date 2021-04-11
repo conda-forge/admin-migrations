@@ -30907,7 +30907,8 @@
     "master": true
   },
   "dtw-python": {
-    "master": true
+    "master": true,
+    "check-numpy-version-removal": true
   },
   "vedo": {
     "master": true
@@ -38016,6 +38017,9 @@
     "master": true
   },
   "jupyterlab-spellchecker": {
+    "master": true
+  },
+  "youtube-to-anki": {
     "master": true
   }
 }
