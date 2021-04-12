@@ -8755,7 +8755,8 @@
     "master": true
   },
   "k3d": {
-    "master": true
+    "master": true,
+    "revert-22-2.9.4_h4d082c": true
   },
   "kafka-python": {
     "master": true
