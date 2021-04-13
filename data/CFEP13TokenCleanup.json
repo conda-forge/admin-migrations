@@ -30604,7 +30604,8 @@
     "master": true
   },
   "gnuradio-soapy": {
-    "master": true
+    "master": true,
+    "maint-3.8": true
   },
   "pyextremes": {
     "master": true
@@ -30616,7 +30617,8 @@
     "master": true
   },
   "gnuradio-osmosdr": {
-    "master": true
+    "master": true,
+    "maint-3.8": true
   },
   "libiio": {
     "master": true
