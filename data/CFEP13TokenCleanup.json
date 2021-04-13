@@ -30611,7 +30611,8 @@
     "master": true
   },
   "gqrx": {
-    "master": true
+    "master": true,
+    "maint-3.8": true
   },
   "coretran": {
     "master": true
@@ -30627,7 +30628,8 @@
     "master": true
   },
   "soapysdr-module-uhd": {
-    "master": true
+    "master": true,
+    "uhd315": true
   },
   "phe": {
     "master": true
