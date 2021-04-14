@@ -34051,7 +34051,8 @@
     "master": true
   },
   "daal4py": {
-    "master": true
+    "master": true,
+    "napetrov-patch-1": true
   },
   "kubessh": {
     "master": true,
