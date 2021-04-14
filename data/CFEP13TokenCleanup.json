@@ -24729,7 +24729,8 @@
     "rc": true
   },
   "scikit-learn-extra": {
-    "master": true
+    "master": true,
+    "update-to-0.2.0": true
   },
   "scikit-lego": {
     "master": true
@@ -38091,6 +38092,9 @@
     "master": true
   },
   "bioservices": {
+    "master": true
+  },
+  "fcitx-qt5": {
     "master": true
   }
 }
