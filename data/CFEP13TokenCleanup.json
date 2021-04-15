@@ -33680,7 +33680,9 @@
     "master": true
   },
   "dotnet": {
-    "master": true
+    "master": true,
+    "v2": true,
+    "v3": true
   },
   "python-javabridge": {
     "master": true
@@ -38121,6 +38123,18 @@
     "master": true
   },
   "pyexplainer": {
+    "master": true
+  },
+  "prophet": {
+    "master": true
+  },
+  "sankee": {
+    "master": true
+  },
+  "tensap": {
+    "master": true
+  },
+  "choix": {
     "master": true
   }
 }
