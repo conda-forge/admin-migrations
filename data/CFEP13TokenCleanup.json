@@ -26820,7 +26820,8 @@
     "master": true
   },
   "thermo": {
-    "master": true
+    "master": true,
+    "fixfluidsver": true
   },
   "thermofun": {
     "master": true
@@ -38138,6 +38139,9 @@
     "master": true
   },
   "theme-darcula": {
+    "master": true
+  },
+  "iris-esmf-regrid": {
     "master": true
   }
 }
