@@ -25150,7 +25150,8 @@
     "master": true
   },
   "sigopt": {
-    "master": true
+    "master": true,
+    "min-python": true
   },
   "sigtools": {
     "master": true
@@ -38182,6 +38183,12 @@
     "master": true
   },
   "opl": {
+    "master": true
+  },
+  "dask-cuda": {
+    "master": true
+  },
+  "micro": {
     "master": true
   }
 }
