@@ -37552,7 +37552,8 @@
     "master": true
   },
   "standardebooks": {
-    "master": true
+    "master": true,
+    "v1.9.3": true
   },
   "ijar": {
     "master": true
@@ -38211,6 +38212,39 @@
     "master": true
   },
   "log4cplus": {
+    "master": true
+  },
+  "prettier": {
+    "master": true
+  },
+  "python-dremio-client": {
+    "master": true
+  },
+  "rtd-poetry": {
+    "master": true
+  },
+  "r-nsyllable": {
+    "master": true
+  },
+  "direnv": {
+    "master": true
+  },
+  "nwchemcmlutils": {
+    "master": true
+  },
+  "hydromt": {
+    "master": true
+  },
+  "galsim_extra": {
+    "master": true
+  },
+  "appmap": {
+    "master": true
+  },
+  "pyzxing": {
+    "master": true
+  },
+  "pythx": {
     "master": true
   }
 }
