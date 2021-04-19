@@ -37506,7 +37506,8 @@
   "rnmc-native": {
     "master": true,
     "lol": true,
-    "1.5": true
+    "1.5": true,
+    "1.6": true
   },
   "smac": {
     "master": true
@@ -38207,6 +38208,9 @@
     "master": true
   },
   "subsurface": {
+    "master": true
+  },
+  "log4cplus": {
     "master": true
   }
 }
