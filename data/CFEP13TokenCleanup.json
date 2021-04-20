@@ -33970,7 +33970,8 @@
   "pyflwdir": {
     "master": true,
     "v045": true,
-    "v046": true
+    "v046": true,
+    "v047": true
   },
   "fuse-overlayfs": {
     "master": true
@@ -38314,6 +38315,18 @@
     "master": true
   },
   "darker": {
+    "master": true
+  },
+  "flake8-return": {
+    "master": true
+  },
+  "nsbm": {
+    "master": true
+  },
+  "pytest-pytorch": {
+    "master": true
+  },
+  "euphonic": {
     "master": true
   }
 }
