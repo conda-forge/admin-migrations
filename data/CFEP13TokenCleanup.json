@@ -38304,12 +38304,16 @@
     "master": true
   },
   "cmdstanpy": {
-    "master": true
+    "master": true,
+    "v0.9.68": true
   },
   "ihm": {
     "master": true
   },
   "python-devtools": {
+    "master": true
+  },
+  "darker": {
     "master": true
   }
 }
