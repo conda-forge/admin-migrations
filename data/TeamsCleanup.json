@@ -36961,5 +36961,20 @@
   },
   "libcugraph": {
     "master": true
+  },
+  "sgkit": {
+    "master": true
+  },
+  "datasette": {
+    "master": true
+  },
+  "sqlite-utils": {
+    "master": true
+  },
+  "tensortrade": {
+    "master": true
+  },
+  "sockio": {
+    "master": true
   }
 }
