@@ -4844,7 +4844,8 @@
     "dev": true
   },
   "espei": {
-    "master": true
+    "master": true,
+    "drop-bibtexparser": true
   },
   "esprima-python": {
     "master": true
