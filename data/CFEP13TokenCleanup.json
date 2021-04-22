@@ -36831,7 +36831,8 @@
     "master": true
   },
   "sardana": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "presto-python-client": {
     "master": true
@@ -38406,6 +38407,9 @@
     "master": true
   },
   "ffn": {
+    "master": true
+  },
+  "sklearn-json": {
     "master": true
   }
 }
