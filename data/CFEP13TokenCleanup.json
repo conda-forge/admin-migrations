@@ -35661,7 +35661,8 @@
     "master": true
   },
   "cpptango": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "tango-admin": {
     "master": true
@@ -38431,6 +38432,12 @@
     "master": true
   },
   "sphinxcontrib-confluencebuilder": {
+    "master": true
+  },
+  "prrng": {
+    "master": true
+  },
+  "r-pafr": {
     "master": true
   }
 }
