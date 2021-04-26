@@ -33241,7 +33241,8 @@
     "master": true
   },
   "msmpi": {
-    "master": true
+    "master": true,
+    "10.1.1": true
   },
   "cachelib": {
     "master": true
