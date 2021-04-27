@@ -30488,7 +30488,8 @@
   "pytorch-lightning": {
     "master": true,
     "fix-packages": true,
-    "v0.x": true
+    "v0.x": true,
+    "fixed-release": true
   },
   "drivelib": {
     "master": true
@@ -38522,6 +38523,9 @@
     "master": true
   },
   "condansis": {
+    "master": true
+  },
+  "nuflux": {
     "master": true
   }
 }
