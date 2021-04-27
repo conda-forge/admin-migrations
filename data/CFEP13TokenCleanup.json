@@ -31218,7 +31218,8 @@
   },
   "pept": {
     "master": true,
-    "pept-0.2.3": true
+    "pept-0.2.3": true,
+    "pept-0.3.0": true
   },
   "pyvistaqt": {
     "master": true
@@ -38543,6 +38544,12 @@
     "master": true
   },
   "openapi-core": {
+    "master": true
+  },
+  "sphinx-external-toc": {
+    "master": true
+  },
+  "pyposeidon": {
     "master": true
   }
 }
