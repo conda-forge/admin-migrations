@@ -30489,7 +30489,12 @@
     "master": true,
     "fix-packages": true,
     "v0.x": true,
-    "fixed-release": true
+    "fixed-release": true,
+    "v1.2.5": true,
+    "v1.2.6": true,
+    "v1.2.7": true,
+    "v1.2.8": true,
+    "v1.2.9": true
   },
   "drivelib": {
     "master": true
@@ -38526,6 +38531,18 @@
     "master": true
   },
   "nuflux": {
+    "master": true
+  },
+  "openapi-schema-validator": {
+    "master": true
+  },
+  "sirius": {
+    "master": true
+  },
+  "pycm": {
+    "master": true
+  },
+  "openapi-core": {
     "master": true
   }
 }
