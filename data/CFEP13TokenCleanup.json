@@ -12569,7 +12569,9 @@
     "master": true
   },
   "ophyd": {
-    "master": true
+    "master": true,
+    "maintainer": true,
+    "remove": true
   },
   "opsdroid": {
     "master": true
