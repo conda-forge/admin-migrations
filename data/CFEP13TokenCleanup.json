@@ -38152,7 +38152,8 @@
     "master": true
   },
   "prophet": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "sankee": {
     "master": true
@@ -38560,6 +38561,9 @@
     "master": true
   },
   "librmm": {
+    "master": true
+  },
+  "pyrsmq": {
     "master": true
   }
 }
