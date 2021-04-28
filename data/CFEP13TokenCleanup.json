@@ -35378,7 +35378,8 @@
   },
   "soci": {
     "master": true,
-    "win": true
+    "win": true,
+    "fix-patches": true
   },
   "pylook": {
     "master": true
