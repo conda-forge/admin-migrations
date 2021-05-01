@@ -32104,7 +32104,8 @@
     "master": true,
     "ds_update_dev_url": true,
     "0.21.0_working_changes": true,
-    "latest_release_changes": true
+    "latest_release_changes": true,
+    "Remove-Excessive-Imports": true
   },
   "cotede": {
     "master": true
@@ -38620,6 +38621,9 @@
     "master": true
   },
   "affogato": {
+    "master": true
+  },
+  "pyquicksetup": {
     "master": true
   }
 }
