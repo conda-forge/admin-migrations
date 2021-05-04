@@ -9663,7 +9663,8 @@
   "libnetcdf": {
     "master": true,
     "v4.4.x": true,
-    "v4.6.x": true
+    "v4.6.x": true,
+    "dev": true
   },
   "libnetworkit": {
     "master": true
