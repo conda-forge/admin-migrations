@@ -1790,7 +1790,8 @@
   },
   "caiman": {
     "master": true,
-    "master_with_env_management_and_holoviews": true
+    "master_with_env_management_and_holoviews": true,
+    "pgunn-patch-1": true
   },
   "cairo": {
     "master": true,
