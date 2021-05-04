@@ -14669,7 +14669,8 @@
     "master": true
   },
   "pyfmi": {
-    "master": true
+    "master": true,
+    "jschueller-patch-1": true
   },
   "pyfmmlib": {
     "master": true
