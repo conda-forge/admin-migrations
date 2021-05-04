@@ -31201,7 +31201,8 @@
     "master": true
   },
   "coiled": {
-    "master": true
+    "master": true,
+    "0.0.39_h6b8949": true
   },
   "r-gwidgets2": {
     "master": true
@@ -38651,6 +38652,15 @@
     "master": true
   },
   "dataclasses-json": {
+    "master": true
+  },
+  "pyphysim": {
+    "master": true
+  },
+  "greenlearning": {
+    "master": true
+  },
+  "python-suitesparse-graphblas": {
     "master": true
   }
 }
