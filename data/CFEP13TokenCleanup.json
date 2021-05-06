@@ -34280,7 +34280,9 @@
     "master": true
   },
   "component-contribution": {
-    "master": true
+    "master": true,
+    "eladnoor-patch-1": true,
+    "eladnoor-patch-1-1": true
   },
   "archive-path": {
     "master": true
@@ -34301,7 +34303,8 @@
     "master": true
   },
   "equilibrator-api": {
-    "master": true
+    "master": true,
+    "eladnoor-patch-1": true
   },
   "r-dagitty": {
     "master": true
