@@ -38055,7 +38055,8 @@
     "master": true
   },
   "rsconnect-python": {
-    "master": true
+    "master": true,
+    "1.5.3_release": true
   },
   "cmlgenerator": {
     "master": true
@@ -38785,6 +38786,18 @@
     "master": true
   },
   "r-hgnchelper": {
+    "master": true
+  },
+  "ostrich": {
+    "master": true
+  },
+  "npx": {
+    "master": true
+  },
+  "python-fsutil": {
+    "master": true
+  },
+  "raven-hydro": {
     "master": true
   }
 }
