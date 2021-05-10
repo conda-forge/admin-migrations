@@ -25683,7 +25683,8 @@
     "master": true
   },
   "sphinx": {
-    "master": true
+    "master": true,
+    "update_docutils_dependency": true
   },
   "sphinx-argparse": {
     "master": true
