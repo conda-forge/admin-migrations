@@ -38947,5 +38947,51 @@
   },
   "pyaaf2": {
     "master": true
+  },
+  "mypy-boto3-s3": {
+    "master": true
+  },
+  "xoa": {
+    "master": true
+  },
+  "cmlib": {
+    "master": true
+  },
+  "moreutils": {
+    "master": true
+  },
+  "metoffice-afterburner": {
+    "master": true
+  },
+  "dask-histogram": {
+    "master": true
+  },
+  "gnome-themes-standard": {
+    "master": true
+  },
+  "zeus-mcmc": {
+    "master": true
+  },
+  "jupyterlab-interactive-dashboard-editor": {
+    "master": true
+  },
+  "resolvelib": {
+    "master": true,
+    "v0.5.4": true
+  },
+  "ploomber-scaffold": {
+    "master": true
+  },
+  "argos": {
+    "master": true
+  },
+  "pgcolorbar": {
+    "master": true
+  },
+  "remove_dagmc_tags": {
+    "master": true
+  },
+  "pymt_geotiff": {
+    "master": true
   }
 }
