@@ -1355,7 +1355,8 @@
     "master": true
   },
   "bilby_pipe": {
-    "master": true
+    "master": true,
+    "regro-cf-autotick-bot-1.0.4_hf4b50c": true
   },
   "billiard": {
     "master": true,
@@ -3541,7 +3542,8 @@
     "v2.11": true,
     "v2.12": true,
     "v2.13": true,
-    "dallin/maintainers-update": true
+    "dallin/maintainers-update": true,
+    "dallin/python-bounds": true
   },
   "datashader": {
     "master": true
