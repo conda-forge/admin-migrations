@@ -7480,7 +7480,8 @@
     "master": true
   },
   "httpx": {
-    "master": true
+    "master": true,
+    "PrimozGodec-patch-1": true
   },
   "hub": {
     "master": true
@@ -9631,7 +9632,8 @@
   },
   "libitk": {
     "master": true,
-    "4.13": true
+    "4.13": true,
+    "AddOSXARM64": true
   },
   "libjpeg-turbo": {
     "master": true
