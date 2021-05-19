@@ -32120,7 +32120,8 @@
     "ds_update_dev_url": true,
     "0.21.0_working_changes": true,
     "latest_release_changes": true,
-    "Remove-Excessive-Imports": true
+    "Remove-Excessive-Imports": true,
+    "ww-update-branch": true
   },
   "cotede": {
     "master": true
@@ -39196,6 +39197,12 @@
     "master": true
   },
   "xgems": {
+    "master": true
+  },
+  "r-mailr": {
+    "master": true
+  },
+  "python-hcl2": {
     "master": true
   }
 }
