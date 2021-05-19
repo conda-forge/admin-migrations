@@ -36502,7 +36502,8 @@
     "master": true
   },
   "lux-api": {
-    "master": true
+    "master": true,
+    "regro-cf-autotick-bot-0.3.0_h8d2e1d": true
   },
   "docstring-to-markdown": {
     "master": true
@@ -39159,6 +39160,21 @@
     "master": true
   },
   "jaconv": {
+    "master": true
+  },
+  "opentelemetry-semantic-conventions": {
+    "master": true
+  },
+  "mapshader": {
+    "master": true
+  },
+  "diffpriv": {
+    "master": true
+  },
+  "conda-content-trust": {
+    "master": true
+  },
+  "cloup": {
     "master": true
   }
 }
