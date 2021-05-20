@@ -28571,7 +28571,8 @@
     "master": true
   },
   "xorg-libx11": {
-    "master": true
+    "master": true,
+    "1.6.x": true
   },
   "xorg-libxau": {
     "master": true
