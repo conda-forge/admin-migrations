@@ -2037,7 +2037,8 @@
     "master": true
   },
   "ceres-solver": {
-    "master": true
+    "master": true,
+    "1.14.x": true
   },
   "certifi": {
     "master": true
