@@ -920,7 +920,8 @@
     "master": true
   },
   "autorift": {
-    "master": true
+    "master": true,
+    "revert-26-rebuild-gdal32-0-1_h6f9a8f": true
   },
   "autotools_clang_conda": {
     "master": true
