@@ -5185,10 +5185,10 @@
     "python-nvd3": 1,
     "python-oauth2": 1,
     "python-openid": 1,
-    "python-openstackclient": 0,
-    "python-packit": 0,
-    "python-paragraph": 0,
-    "python-patch": 0,
+    "python-openstackclient": 1,
+    "python-packit": 1,
+    "python-paragraph": 1,
+    "python-patch": 1,
     "python-pdal": 0,
     "python-pdfkit": 0,
     "python-pegasus-wms": 0,
@@ -12683,6 +12683,9 @@
     "r-simfit": 0,
     "quantiphyse-fabber": 0,
     "r-ratelimitr": 0,
-    "r-wikidataqueryservicer": 0
+    "r-wikidataqueryservicer": 0,
+    "quantiphyse-cest": 1,
+    "policy_sentry": 1,
+    "oxasl": 1
   }
 }
