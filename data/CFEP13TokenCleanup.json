@@ -4736,7 +4736,8 @@
   },
   "entwine": {
     "master": true,
-    "pdal-2.2.0": true
+    "pdal-2.2.0": true,
+    "remove-gdal-dependency": true
   },
   "enum-compat": {
     "master": true
