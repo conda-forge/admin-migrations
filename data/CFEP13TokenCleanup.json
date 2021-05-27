@@ -39384,7 +39384,8 @@
     "master": true
   },
   "cudadecon": {
-    "master": true
+    "master": true,
+    "rebuild-windows_cuda-0-1_h23439e": true
   },
   "pytransform3d": {
     "master": true
@@ -39411,6 +39412,27 @@
     "master": true
   },
   "yoyo-migrations": {
+    "master": true
+  },
+  "upolygon": {
+    "master": true
+  },
+  "flatstar": {
+    "master": true
+  },
+  "mfem": {
+    "master": true
+  },
+  "geoutils": {
+    "master": true
+  },
+  "hpp-gepetto-viewer": {
+    "master": true
+  },
+  "pycbf": {
+    "master": true
+  },
+  "pyquickhelper": {
     "master": true
   }
 }
