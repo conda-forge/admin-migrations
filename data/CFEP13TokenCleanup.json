@@ -32735,7 +32735,8 @@
     "master": true
   },
   "e3sm_diags": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "rpyc": {
     "master": true
