@@ -32400,7 +32400,8 @@
     "master": true
   },
   "django-mfa2": {
-    "master": true
+    "master": true,
+    "revert-10-master": true
   },
   "eth-hash": {
     "master": true
