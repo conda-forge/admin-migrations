@@ -33498,7 +33498,8 @@
     "master": true
   },
   "enpt": {
-    "master": true
+    "master": true,
+    "fix-entry-point": true
   },
   "expect": {
     "master": true
@@ -39779,6 +39780,9 @@
     "master": true
   },
   "des-eastlake": {
+    "master": true
+  },
+  "pmgr": {
     "master": true
   }
 }
