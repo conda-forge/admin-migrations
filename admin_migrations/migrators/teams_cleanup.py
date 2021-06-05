@@ -26,7 +26,7 @@ class TeamsCleanup(Migrator):
         repo_name = "%s-feedstock" % feedstock
 
         team_name = repo_name.replace("-feedstock", "").lower()
-        if team_name in ["core", "bot", "staged-recipes", "arm-arch"]:
+        if team_name in ["core", "bot", "staged-recipes", "arm-arch", "systems"]:
             return
 
         gh_repo = ORG.get_repo(repo_name)
