@@ -15103,7 +15103,12 @@
     "master": true,
     "rc": true,
     "fix_pytho_dep": true,
-    "fix-geweke": true
+    "fix-geweke": true,
+    "v3.10.0": true,
+    "v3.8": true,
+    "v3.9.1": true,
+    "v3.9.2": true,
+    "v3.9.3": true
   },
   "pymca": {
     "master": true
