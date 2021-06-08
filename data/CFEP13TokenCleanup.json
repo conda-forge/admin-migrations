@@ -34524,7 +34524,8 @@
     "master": true
   },
   "streamlit": {
-    "master": true
+    "master": true,
+    "update-dependencies": true
   },
   "azure-mgmt-core": {
     "master": true
@@ -39893,6 +39894,27 @@
     "master": true
   },
   "libqdldl": {
+    "master": true
+  },
+  "pyspike": {
+    "master": true
+  },
+  "tinygltf": {
+    "master": true
+  },
+  "dufte": {
+    "master": true
+  },
+  "hiproc": {
+    "master": true
+  },
+  "omf": {
+    "master": true
+  },
+  "xorg-xorgproto": {
+    "master": true
+  },
+  "ncbi-datasets-cli": {
     "master": true
   }
 }
