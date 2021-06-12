@@ -40051,7 +40051,8 @@
     "master": true
   },
   "openslide-python": {
-    "master": true
+    "master": true,
+    "sarthakpati-patch-1": true
   },
   "syncthing": {
     "master": true
@@ -40063,6 +40064,15 @@
     "master": true
   },
   "ellc": {
+    "master": true
+  },
+  "tinyobjloader": {
+    "master": true
+  },
+  "r-rangemodelmetadata": {
+    "master": true
+  },
+  "pycudasirecon": {
     "master": true
   }
 }
