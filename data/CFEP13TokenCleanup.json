@@ -37395,7 +37395,8 @@
     "master": true
   },
   "ecole": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "leafmaptools": {
     "master": true
@@ -39494,7 +39495,8 @@
     "master": true
   },
   "python-dwca-reader": {
-    "master": true
+    "master": true,
+    "v0.13.0": true
   },
   "r-upsetjs": {
     "master": true
@@ -40162,6 +40164,15 @@
     "master": true
   },
   "apischema": {
+    "master": true
+  },
+  "extract_model": {
+    "master": true
+  },
+  "openff-interchange": {
+    "master": true
+  },
+  "erddap-python": {
     "master": true
   }
 }
