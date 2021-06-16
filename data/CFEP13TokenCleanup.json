@@ -29600,7 +29600,8 @@
     "master": true
   },
   "google-cloud-iot": {
-    "master": true
+    "master": true,
+    "2.0.0_h9e997f": true
   },
   "google-cloud-dns": {
     "master": true
@@ -40151,6 +40152,9 @@
     "master": true
   },
   "google-cloud-appengine-logging": {
+    "master": true
+  },
+  "convert3d": {
     "master": true
   }
 }
