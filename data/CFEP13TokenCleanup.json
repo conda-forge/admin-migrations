@@ -4390,13 +4390,16 @@
     "master": true
   },
   "dtool_create": {
-    "master": true
+    "master": true,
+    "backwards": true
   },
   "dtool_http": {
-    "master": true
+    "master": true,
+    "backwards": true
   },
   "dtool_info": {
-    "master": true
+    "master": true,
+    "backwards": true
   },
   "dtool_s3": {
     "master": true
@@ -4405,7 +4408,8 @@
     "master": true
   },
   "dtoolcore": {
-    "master": true
+    "master": true,
+    "backwards": true
   },
   "dukpy": {
     "master": true
