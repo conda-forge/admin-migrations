@@ -39076,5 +39076,32 @@
   },
   "aurora": {
     "master": true
+  },
+  "types-pyvmomi": {
+    "master": true
+  },
+  "types-maxminddb": {
+    "master": true
+  },
+  "types-cryptography": {
+    "master": true
+  },
+  "types-scribe": {
+    "master": true
+  },
+  "types-datetimerange": {
+    "master": true
+  },
+  "types-jinja2": {
+    "master": true
+  },
+  "types-boto": {
+    "master": true
+  },
+  "types-tzlocal": {
+    "master": true
+  },
+  "types-protobuf": {
+    "master": true
   }
 }
