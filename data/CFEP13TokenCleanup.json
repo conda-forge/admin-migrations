@@ -35303,7 +35303,8 @@
     "master": true
   },
   "cudnn": {
-    "master": true
+    "master": true,
+    "ppc64le": true
   },
   "wcmatch": {
     "master": true
