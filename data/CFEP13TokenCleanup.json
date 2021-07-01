@@ -37967,7 +37967,8 @@
     "master": true
   },
   "lexid": {
-    "master": true
+    "master": true,
+    "raybellwaves-patch-1": true
   },
   "auto-sklearn": {
     "master": true
@@ -40772,6 +40773,9 @@
     "master": true
   },
   "sshfs": {
+    "master": true
+  },
+  "libpeas": {
     "master": true
   }
 }
