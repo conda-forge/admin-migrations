@@ -33202,7 +33202,8 @@
     "master": true
   },
   "pymartini": {
-    "master": true
+    "master": true,
+    "kyle/skip-pypy": true
   },
   "nvtx-c": {
     "master": true
