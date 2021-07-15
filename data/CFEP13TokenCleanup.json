@@ -37606,7 +37606,8 @@
     "master": true,
     "lol": true,
     "1.5": true,
-    "1.6": true
+    "1.6": true,
+    "2.0": true
   },
   "smac": {
     "master": true
@@ -41164,6 +41165,15 @@
     "master": true
   },
   "curlify2": {
+    "master": true
+  },
+  "stackstac": {
+    "master": true
+  },
+  "rastervision-core": {
+    "master": true
+  },
+  "vcpkg-tool": {
     "master": true
   }
 }
