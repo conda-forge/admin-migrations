@@ -41039,7 +41039,8 @@
     "master": true
   },
   "opuslib": {
-    "master": true
+    "master": true,
+    "2.0.0": true
   },
   "pycups": {
     "master": true
@@ -41208,6 +41209,9 @@
     "master": true
   },
   "oracle-instant-client": {
+    "master": true
+  },
+  "pytest-reportportal": {
     "master": true
   }
 }
