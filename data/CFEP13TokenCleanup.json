@@ -41256,6 +41256,10 @@
     "master": true
   },
   "php": {
+    "master": true,
+    "7.3.x": true
+  },
+  "idds-workflow": {
     "master": true
   }
 }
