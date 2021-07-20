@@ -41257,7 +41257,8 @@
   },
   "php": {
     "master": true,
-    "7.3.x": true
+    "7.3.x": true,
+    "7.4.x": true
   },
   "idds-workflow": {
     "master": true
@@ -41296,6 +41297,9 @@
     "master": true
   },
   "nsls2-detector-handlers": {
+    "master": true
+  },
+  "cogeo-mosaic": {
     "master": true
   }
 }
