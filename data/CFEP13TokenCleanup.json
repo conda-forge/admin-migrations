@@ -40130,7 +40130,8 @@
     "master": true
   },
   "pandasql": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "r-tzdb": {
     "master": true
@@ -40152,7 +40153,8 @@
     "master": true
   },
   "vector-quantize-pytorch": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "r-clock": {
     "master": true
@@ -40218,7 +40220,8 @@
     "master": true
   },
   "tempeh": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "rust-script": {
     "master": true
@@ -40768,13 +40771,15 @@
     "master": true
   },
   "unify": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "aria2": {
     "master": true
   },
   "treematching": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "libastra": {
     "master": true
@@ -40933,7 +40938,8 @@
     "master": true
   },
   "rastervision-pipeline": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "pyppmd": {
     "master": true,
@@ -41315,6 +41321,48 @@
     "master": true
   },
   "idds-doma": {
+    "master": true
+  },
+  "robotframework-datadriver": {
+    "master": true
+  },
+  "suitcase-specfile": {
+    "master": true
+  },
+  "matching": {
+    "master": true
+  },
+  "pycentroids": {
+    "master": true
+  },
+  "suitcase-jsonl": {
+    "master": true
+  },
+  "databroker-pack": {
+    "master": true
+  },
+  "jupyter_innotater": {
+    "master": true
+  },
+  "ossfs": {
+    "master": true
+  },
+  "suitcase-csv": {
+    "master": true
+  },
+  "suitcase-json-metadata": {
+    "master": true
+  },
+  "hunter": {
+    "master": true
+  },
+  "suitcase-tiff": {
+    "master": true
+  },
+  "manhole": {
+    "master": true
+  },
+  "pyment": {
     "master": true
   }
 }
