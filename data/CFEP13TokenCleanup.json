@@ -40123,7 +40123,8 @@
     "master": true
   },
   "napkin": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "r-pkgdepends": {
     "master": true
@@ -40135,7 +40136,8 @@
     "master": true
   },
   "contrastive-learner": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "keyboard": {
     "master": true
@@ -40633,7 +40635,8 @@
     "master": true
   },
   "pyrser": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "fake-useragent": {
     "master": true
@@ -40876,7 +40879,8 @@
     "master": true
   },
   "pysqlite3": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "fileseq": {
     "master": true
@@ -40885,10 +40889,12 @@
     "master": true
   },
   "aimrecords": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "aim": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "multivolumefile": {
     "master": true
@@ -40946,7 +40952,8 @@
     "master": true
   },
   "mask-to-polygons": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "r-wto": {
     "master": true
@@ -41176,7 +41183,8 @@
     "master": true
   },
   "rastervision-core": {
-    "master": true
+    "master": true,
+    "add-mxr-conda": true
   },
   "vcpkg-tool": {
     "master": true
