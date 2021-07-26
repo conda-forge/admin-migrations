@@ -26561,7 +26561,12 @@
     "master": true
   },
   "terraform": {
-    "master": true
+    "master": true,
+    "v0.11": true,
+    "v0.12": true,
+    "v0.13": true,
+    "v0.14": true,
+    "v0.15": true
   },
   "terraform-provider-alicloud": {
     "master": true
