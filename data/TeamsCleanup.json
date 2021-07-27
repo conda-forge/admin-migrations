@@ -39964,5 +39964,23 @@
   },
   "expecttest": {
     "master": true
+  },
+  "soapysdr-module-airspyhf": {
+    "master": true
+  },
+  "soapysdr-module-airspy": {
+    "master": true
+  },
+  "gmm": {
+    "master": true
+  },
+  "pytest-alembic": {
+    "master": true
+  },
+  "tldr": {
+    "master": true
+  },
+  "u8darts": {
+    "master": true
   }
 }
