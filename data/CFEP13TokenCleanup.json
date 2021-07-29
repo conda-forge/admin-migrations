@@ -3,7 +3,8 @@
     "master": true,
     "rerender-live-test": true,
     "test-ci-fail": true,
-    "test-ignore-linter": true
+    "test-ignore-linter": true,
+    "cirun": true
   },
   "2dfatmic": {
     "master": true
@@ -2782,7 +2783,8 @@
     "revert-842-pausepy39": true
   },
   "conda-forge-repodata-patches": {
-    "master": true
+    "master": true,
+    "gcc": true
   },
   "conda-gitenv": {
     "master": true
