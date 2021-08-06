@@ -2296,7 +2296,8 @@
   "clang-compiler-activation": {
     "master": true,
     "isuruf-patch-1": true,
-    "rc": true
+    "rc": true,
+    "11.x": true
   },
   "clang-win-activation": {
     "master": true
