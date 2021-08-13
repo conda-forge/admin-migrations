@@ -25987,7 +25987,8 @@
     "master": true
   },
   "spyder-terminal": {
-    "master": true
+    "master": true,
+    "fix-spyder-version": true
   },
   "spyder-unittest": {
     "master": true
