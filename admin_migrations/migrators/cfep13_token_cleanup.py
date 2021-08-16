@@ -191,6 +191,7 @@ class CFEP13TokenCleanup(Migrator):
 
         if branch == "master":
             # these two token changes are not needed anymore
+            # staged-recipes does this by default now
             # put the staging token into BINSTAR_TOKEN
             # subprocess.run(
             #     "conda smithy update-binstar-token "
