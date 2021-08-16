@@ -14,12 +14,12 @@ import tqdm
 import ruamel.yaml
 
 from admin_migrations.migrators import (
-    AppveyorForceDelete,
     RAutomerge,
     TeamsCleanup,
     CFEP13TokenCleanup,
-    TravisCIAutoCancelPRs,
     # these are finished or not used so we don't run them
+    # AppveyorForceDelete,
+    # TravisCIAutoCancelPRs,
     # CondaForgeAutomerge,
     # CFEP13TokensAndConfig,
     # AppveyorDelete,
@@ -323,12 +323,12 @@ def run_migrators(feedstock, migrators):
 
 def main():
     migrators = [
-        AppveyorForceDelete(),
         RAutomerge(),
         TeamsCleanup(),
         CFEP13TokenCleanup(),
-        TravisCIAutoCancelPRs(),
         # these are finished or not used so we don't run them
+        # AppveyorForceDelete(),
+        # TravisCIAutoCancelPRs(),
         # CondaForgeAutomerge(),
         # CFEP13TokensAndConfig(),
         # AppveyorDelete(),
