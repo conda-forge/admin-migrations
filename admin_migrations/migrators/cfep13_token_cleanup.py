@@ -225,7 +225,7 @@ class CFEP13TokenCleanup(Migrator):
 
             # remove BINSTAR_TOKEN and STAGING_BINSTAR_TOKEN from azure
             # this removes the tokens attached to the specific pipeline, not the org
-            # we should move thios bit of code to staged recipes and then turn this off
+            # we should move this bit of code to staged recipes and then turn this off
             _delete_tokens_in_azure(
                 user,
                 project,
