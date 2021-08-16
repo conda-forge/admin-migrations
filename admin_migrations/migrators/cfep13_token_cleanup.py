@@ -190,25 +190,27 @@ class CFEP13TokenCleanup(Migrator):
         project = "%s-feedstock" % feedstock
 
         if branch == "master":
+            # these two token changes are not needed anymore
+            # staged-recipes does this by default now
             # put the staging token into BINSTAR_TOKEN
-            subprocess.run(
-                "conda smithy update-binstar-token "
-                "--without-appveyor --without-azure "
-                "--token_name BINSTAR_TOKEN",
-                shell=True,
-                check=True
-            )
-            print("    putting cf-staging binstar token in BINSTAR_TOKEN")
+            # subprocess.run(
+            #     "conda smithy update-binstar-token "
+            #     "--without-appveyor --without-azure "
+            #     "--token_name BINSTAR_TOKEN",
+            #     shell=True,
+            #     check=True
+            # )
+            # print("    putting cf-staging binstar token in BINSTAR_TOKEN")
 
             # put the staging token into STAGING_BINSTAR_TOKEN
-            subprocess.run(
-                "conda smithy update-binstar-token "
-                "--without-appveyor --without-azure "
-                "--token_name STAGING_BINSTAR_TOKEN",
-                shell=True,
-                check=True
-            )
-            print("    putting cf-staging binstar token in STAGING_BINSTAR_TOKEN")
+            # subprocess.run(
+            #     "conda smithy update-binstar-token "
+            #     "--without-appveyor --without-azure "
+            #     "--token_name STAGING_BINSTAR_TOKEN",
+            #     shell=True,
+            #     check=True
+            # )
+            # print("    putting cf-staging binstar token in STAGING_BINSTAR_TOKEN")
 
             # needs a change in smithy so cannot do this
             # # remove STAGING_BINSTAR_TOKEN from travis, circle and drone
@@ -222,6 +224,8 @@ class CFEP13TokenCleanup(Migrator):
             # print("    deleted STAGING_BINSTAR_TOKEN from travis")
 
             # remove BINSTAR_TOKEN and STAGING_BINSTAR_TOKEN from azure
+            # this removes the tokens attached to the specific pipeline, not the org
+            # we should move this bit of code to staged recipes and then turn this off
             _delete_tokens_in_azure(
                 user,
                 project,
