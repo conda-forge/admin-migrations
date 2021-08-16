@@ -60,7 +60,7 @@ jobs:
           source ./scripts/clone_feedstock_outputs.sh
           run-admin-migrations
         env:
-          GITHUB_TOKEN: ${{ secrets.CF_BLACKSMITHY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CF_DAEMON_GITHUB_TOKEN }}
           DRONE_TOKEN: ${{ secrets.DRONE_TOKEN }}
           CIRCLE_TOKEN: ${{ secrets.CIRCLE_TOKEN }}
           TRAVIS_TOKEN: ${{ secrets.TRAVIS_TOKEN }}
