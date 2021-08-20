@@ -42005,5 +42005,11 @@
   },
   "lammps-interface": {
     "master": true
+  },
+  "codeclimate-test-reporter": {
+    "master": true
+  },
+  "sqlalchemy-spanner": {
+    "master": true
   }
 }
