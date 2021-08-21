@@ -10,20 +10,9 @@ jobs:
     name: migrate
     runs-on: "ubuntu-latest"
     steps:
-      - name: skip me
-        shell: bash -l {0}
-        if: success() && contains(github.event.head_commit.message, 'ci skip')
-        run: |
-          echo "commit message: '${MSG}'"
-          echo "CI_SKIP=true" >> $GITHUB_ENV
-        env:
-          MSG: ${{ github.event.head_commit.message }}
-
       - uses: actions/checkout@v2
-        if: success() && ! env.CI_SKIP
 
       - uses: conda-incubator/setup-miniconda@v2
-        if: success() && ! env.CI_SKIP
         with:
           python-version: 3.8
           channels: conda-forge,defaults
@@ -31,7 +20,6 @@ jobs:
           show-channel-urls: true
 
       - name: configure conda and install code
-        if: success() && ! env.CI_SKIP
         shell: bash -l {0}
         run: |
           conda config --set always_yes yes
@@ -46,7 +34,6 @@ jobs:
           git config --global user.name "cf-blacksmithy"
 
       - name: migrate
-        if: success() && ! env.CI_SKIP
         shell: bash -l {0}
         run: |
           mkdir -p ~/.conda-smithy

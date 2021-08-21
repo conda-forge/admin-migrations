@@ -11,26 +11,14 @@ jobs:
     name: tests
     runs-on: "ubuntu-latest"
     steps:
-      - name: skip me
-        shell: bash -l {0}
-        if: success() && contains(github.event.head_commit.message, 'ci skip')
-        run: |
-          echo "commit message: '${MSG}'"
-          echo "CI_SKIP=true" >> $GITHUB_ENV
-        env:
-          MSG: ${{ github.event.head_commit.message }}
-
       - name: cancel previous runs
         uses: styfle/cancel-workflow-action@0.6.0
-        if: success() && ! env.CI_SKIP
         with:
           access_token: ${{ github.token }}
 
       - uses: actions/checkout@v2
-        if: success() && ! env.CI_SKIP
 
       - uses: conda-incubator/setup-miniconda@v2
-        if: success() && ! env.CI_SKIP
         with:
           python-version: 3.8
           channels: conda-forge,defaults
@@ -38,7 +26,6 @@ jobs:
           show-channel-urls: true
 
       - name: configure conda and install code
-        if: success() && ! env.CI_SKIP
         shell: bash -l {0}
         run: |
           conda config --set always_yes yes
@@ -53,13 +40,11 @@ jobs:
           git config --global user.name "cf-blacksmithy"
 
       - name: lint
-        if: success() && ! env.CI_SKIP
         shell: bash -l {0}
         run: |
           flake8 admin_migrations
 
       - name: test
-        if: success() && ! env.CI_SKIP
         shell: bash -l {0}
         run: |
           mkdir -p ~/.conda-smithy
@@ -69,7 +54,6 @@ jobs:
           echo ${AZURE_TOKEN} > ~/.conda-smithy/azure.token
           echo ${DRONE_TOKEN} > ~/.conda-smithy/drone.token
           echo ${GITHUB_TOKEN} > ~/.conda-smithy/github.token
-
 
           export DEBUG_ADMIN_MIGRATIONS=1
           source ./scripts/clone_feedstock_outputs.sh
