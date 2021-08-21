@@ -11,6 +11,13 @@ jobs:
     name: tests
     runs-on: "ubuntu-latest"
     steps:
+      - name: generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.CF_CURATOR_APP_ID }}
+          private_key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
+      
       - name: cancel previous runs
         uses: styfle/cancel-workflow-action@0.6.0
         with:
@@ -36,8 +43,8 @@ jobs:
 
           pip install --no-deps -e .
 
-          git config --global user.email "41433396+cf-blacksmithy@users.noreply.github.com"
-          git config --global user.name "cf-blacksmithy"
+          git config --global user.email "pelson.pub+conda-forge@gmail.com"
+          git config --global user.name "conda-forge-admin"
 
       - name: lint
         shell: bash -l {0}
@@ -59,7 +66,7 @@ jobs:
           source ./scripts/clone_feedstock_outputs.sh
           run-admin-migrations
         env:
-          GITHUB_TOKEN: ${{ secrets.CF_BLACKSMITHY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
           DRONE_TOKEN: ${{ secrets.DRONE_TOKEN }}
           CIRCLE_TOKEN: ${{ secrets.CIRCLE_TOKEN }}
           TRAVIS_TOKEN: ${{ secrets.TRAVIS_TOKEN }}

@@ -15,9 +15,9 @@ import ruamel.yaml
 
 from admin_migrations.migrators import (
     RAutomerge,
-    TeamsCleanup,
     CFEP13AzureTokenCleanup,
     # these are finished or not used so we don't run them
+    # TeamsCleanup,
     # CFEP13TokenCleanup,
     # AppveyorForceDelete,
     # TravisCIAutoCancelPRs,
@@ -195,7 +195,7 @@ def _commit_data():
         "set-url",
         "--push",
         "origin",
-        "https://%s@github.com/"
+        "https://x-access-token:%s@github.com/"
         "conda-forge/admin-migrations.git" % os.environ["GITHUB_TOKEN"],
     ])
     _run_git_command(["push", "--quiet"])
@@ -217,10 +217,11 @@ def run_migrators(feedstock, migrators):
     # this will be a set of tuples with the migrator class and the branch
     migrators_to_record = []
 
-    feedstock_http = "https://%s@github.com/conda-forge/%s-feedstock.git" % (
-        os.environ["GITHUB_TOKEN"],
-        feedstock,
-    )
+    feedstock_http = \
+        "https://x-access-token:%s@github.com/conda-forge/%s-feedstock.git" % (
+            os.environ["GITHUB_TOKEN"],
+            feedstock,
+        )
 
     with tempfile.TemporaryDirectory() as tmpdir:
         with pushd(tmpdir):
@@ -325,9 +326,9 @@ def run_migrators(feedstock, migrators):
 def main():
     migrators = [
         RAutomerge(),
-        TeamsCleanup(),
         CFEP13AzureTokenCleanup(),
         # these are finished or not used so we don't run them
+        # TeamsCleanup(),
         # CFEP13TokenCleanup(),
         # AppveyorForceDelete(),
         # TravisCIAutoCancelPRs(),
