@@ -16,8 +16,9 @@ import ruamel.yaml
 from admin_migrations.migrators import (
     RAutomerge,
     TeamsCleanup,
-    CFEP13TokenCleanup,
+    CFEP13AzureTokenCleanup,
     # these are finished or not used so we don't run them
+    # CFEP13TokenCleanup,
     # AppveyorForceDelete,
     # TravisCIAutoCancelPRs,
     # CondaForgeAutomerge,
@@ -325,8 +326,9 @@ def main():
     migrators = [
         RAutomerge(),
         TeamsCleanup(),
-        CFEP13TokenCleanup(),
+        CFEP13AzureTokenCleanup(),
         # these are finished or not used so we don't run them
+        # CFEP13TokenCleanup(),
         # AppveyorForceDelete(),
         # TravisCIAutoCancelPRs(),
         # CondaForgeAutomerge(),
