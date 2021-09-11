@@ -103,7 +103,7 @@ def _run_git_command(args, capture=False, check=True):
 
 def _get_curr_branch():
     o = subprocess.run(
-        "git rev-parse --abbrev-ref HEAD",
+        ["git", "rev-parse", "--abbrev-ref", "HEAD"],
         check=True,
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
