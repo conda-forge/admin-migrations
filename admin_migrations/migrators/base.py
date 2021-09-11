@@ -30,7 +30,14 @@ class Migrator(object):
 
         Note this method cannot depend on the feedstock contents.
         """
-        return self._done_table.get(feedstock, {}).get(branch, False)
+        if branch != "main":
+            return self._done_table.get(feedstock, {}).get(branch, False)
+        else:
+            return (
+                self._done_table.get(feedstock, {}).get("master", False)
+                or
+                self._done_table.get(feedstock, {}).get("main", False)
+            )
 
     def migrate(self, feedstock, branch):
         """Migrate the feedstock.
