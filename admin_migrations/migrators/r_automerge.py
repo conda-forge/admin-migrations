@@ -86,7 +86,10 @@ class RAutomerge(Migrator):
 
             # already done or maybe to False locally
             if "bot" in cfg and "automerge" in cfg["bot"]:
-                print("    bot.automerge already set:", cfg["bot"]["automerge"], flush=True)
+                print(
+                    "    bot.automerge already set:", cfg["bot"]["automerge"],
+                    flush=True,
+                )
                 return True, False, False
 
             cfg["bot"] = {"automerge": True}
