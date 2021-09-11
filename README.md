@@ -11,7 +11,7 @@ repo to run background admin migrations of conda-forge feedstocks
    as the current working directory.
 2. Add your migration class to the list in `admin_migrations.__main__.main`
 
-CircleCI is set to run once an hour on a cron job.
+GitHub actions is set to run once an hour on a cron job.
 
 ## Guidelines and Ground Rules
 
@@ -21,7 +21,7 @@ CircleCI is set to run once an hour on a cron job.
 3. Rate-limit commits to feedstocks to in order to reduce the load on our admin webservices.
 4. Test your migration first. The `https://github.com/conda-forge/cf-autotick-bot-test-package-feedstock`
    is available to help test migrations.
-5. CircleCI has a `GITHUB_TOKEN` in the environment. Please do not exhaust this
+5. GitHub actions has a `GITHUB_TOKEN` in the environment. Please do not exhaust this
    token's API requests.
 6. Do not rerender feedstocks!
 
