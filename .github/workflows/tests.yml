@@ -47,6 +47,7 @@ jobs:
 
           git config --global user.email "pelson.pub+conda-forge@gmail.com"
           git config --global user.name "conda-forge-admin"
+          git config --global pull.rebase false
 
       - name: lint
         shell: bash -l {0}
