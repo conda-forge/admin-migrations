@@ -15,6 +15,7 @@ import ruamel.yaml
 
 from admin_migrations.migrators import (
     RAutomerge,
+    RotateFeedstockToken,
     # these are finished or not used so we don't run them
     # CFEP13AzureTokenCleanup,
     # TeamsCleanup,
@@ -100,7 +101,17 @@ def _run_git_command(args, capture=False, check=True):
         return s.returncode == 0, s.stdout.decode("utf-8")
 
 
-def _get_branches():
+def _get_curr_branch():
+    o = subprocess.run(
+        "git rev-parse --abbrev-ref HEAD",
+        check=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+    )
+    return o.decode("utf=8").strip()
+
+
+def _get_branches(default_branch):
     o = subprocess.run(
         ["git", "branch", "-r"],
         check=True,
@@ -108,13 +119,13 @@ def _get_branches():
         stderr=subprocess.STDOUT,
     )
 
-    branches = []
+    branches = set()
     for line in o.stdout.decode("utf-8").split('\n'):
         if len(line) > 0 and "origin/HEAD" not in line:
             _branch = line.strip()[len("origin/"):]
-            if line.strip()[len("origin/"):] != "master":
-                branches.append(_branch)
-    return ["master"] + branches
+            if _branch != default_branch:
+                branches |= set([_branch])
+    return [default_branch] + [br for br in branches]
 
 
 def _get_all_feedstocks():
@@ -246,13 +257,14 @@ def run_migrators(feedstock, migrators):
                         feedstock_http,
                     ])
 
-                    branches = _get_branches()
+                    default_branch = _get_curr_branch()
+                    branches = _get_branches(default_branch)
 
                     for m in migrators:
                         print("\nmigrator %s" % m.__class__.__name__)
 
                         for branch in branches:
-                            if branch != "master" and m.master_branch_only:
+                            if branch != default_branch and m.main_branch_only:
                                 continue
 
                             try:
@@ -326,6 +338,7 @@ def run_migrators(feedstock, migrators):
 def main():
     migrators = [
         RAutomerge(),
+        RotateFeedstockToken(),
         # these are finished or not used so we don't run them
         # CFEP13AzureTokenCleanup(),
         # TeamsCleanup(),

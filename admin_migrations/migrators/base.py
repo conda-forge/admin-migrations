@@ -3,9 +3,9 @@ import json
 
 
 class Migrator(object):
-    # set this to true if the admin migration runs for the master branch only
+    # set this to true if the admin migration runs for the main branch only
     # this can be used for migrations that update CI services used by all branches
-    master_branch_only = False
+    main_branch_only = False
 
     def __init__(self):
         self._load_done_table()

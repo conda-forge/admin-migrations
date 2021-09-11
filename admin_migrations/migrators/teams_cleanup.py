@@ -20,7 +20,7 @@ class DummyMeta(object):
 
 
 class TeamsCleanup(Migrator):
-    master_branch_only = True
+    main_branch_only = True
 
     def migrate(self, feedstock, branch):
         repo_name = "%s-feedstock" % feedstock

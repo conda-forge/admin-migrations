@@ -62,13 +62,13 @@ def _has_appveyor_any_branch(curr_branch):
 
 class AppveyorDelete(Migrator):
     # we need to check each branch, but this migrator should only be called
-    # once per feedstock on the master branch
-    master_branch_only = False
+    # once per feedstock on the main branch
+    main_branch_only = False
 
     def migrate(self, feedstock, branch):
         HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
 
-        assert branch == "master"
+        assert branch == "main" or branch == "master"
         deleted = False
 
         appveyor_name = "%s-feedstock" % feedstock
@@ -139,7 +139,7 @@ class AppveyorDelete(Migrator):
 
 
 class AppveyorForceDelete(Migrator):
-    master_branch_only = True
+    main_branch_only = True
 
     def migrate(self, feedstock, branch):
         HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
