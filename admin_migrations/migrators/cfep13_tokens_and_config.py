@@ -243,7 +243,7 @@ class CFEP13TokensAndConfig(Migrator):
             # migration done, no commits, no API calls
             return True, False, False
 
-        if branch == "master":
+        if branch == "master" or branch == "main":
             # register a feedstock token
             # this call is idempotent if the token already exists
             _register_feedstock_token(feedstock)

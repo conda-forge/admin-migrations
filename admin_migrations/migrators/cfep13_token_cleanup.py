@@ -189,7 +189,7 @@ class CFEP13TokenCleanup(Migrator):
         user = "conda-forge"
         project = "%s-feedstock" % feedstock
 
-        if branch == "master":
+        if branch == "master" or branch == "main":
             # these two token changes are not needed anymore
             # staged-recipes does this by default now
             # put the staging token into BINSTAR_TOKEN

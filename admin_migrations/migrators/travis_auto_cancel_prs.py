@@ -40,13 +40,13 @@ def _travis_reconfigure(user, project):
 
 
 class TravisCIAutoCancelPRs(Migrator):
-    master_branch_only = True
+    main_branch_only = True
 
     def migrate(self, feedstock, branch):
         user = "conda-forge"
         project = "%s-feedstock" % feedstock
 
-        if branch == "master":
+        if branch == "master" or branch == "main":
             done = _travis_reconfigure(user, project)
             if done:
                 print("    configured travis-ci", flush=True)

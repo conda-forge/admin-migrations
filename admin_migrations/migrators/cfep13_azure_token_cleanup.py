@@ -48,13 +48,13 @@ def _delete_tokens_in_azure(user, project, token_names):
 
 
 class CFEP13AzureTokenCleanup(Migrator):
-    master_branch_only = True
+    main_branch_only = True
 
     def migrate(self, feedstock, branch):
         user = "conda-forge"
         project = "%s-feedstock" % feedstock
 
-        if branch == "master":
+        if branch == "master" or branch == "main":
             # remove BINSTAR_TOKEN and STAGING_BINSTAR_TOKEN from azure
             # this removes the tokens attached to the specific pipeline, not the org
             _delete_tokens_in_azure(
