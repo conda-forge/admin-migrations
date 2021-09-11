@@ -66,8 +66,8 @@ class RAutomerge(Migrator):
         3. uses the {{ cran_mirror }} jinja2 variable or has a cran url
     """
     def migrate(self, feedstock, branch):
-        print("    r team:", _has_r_team())
-        print("    cran url:", _has_cran_url())
+        print("    r team:", _has_r_team(), flush=True)
+        print("    cran url:", _has_cran_url(), flush=True)
 
         if (
             feedstock.startswith("r-")
@@ -86,7 +86,10 @@ class RAutomerge(Migrator):
 
             # already done or maybe to False locally
             if "bot" in cfg and "automerge" in cfg["bot"]:
-                print("    bot.automerge already set:", cfg["bot"]["automerge"])
+                print(
+                    "    bot.automerge already set:", cfg["bot"]["automerge"],
+                    flush=True,
+                )
                 return True, False, False
 
             cfg["bot"] = {"automerge": True}

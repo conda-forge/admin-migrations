@@ -54,7 +54,7 @@ class CFEP13TurnOff(Migrator):
                 ["git", "add", "conda-forge.yml"],
                 check=True,
             )
-            print("    updated conda-forge.yml")
+            print("    updated conda-forge.yml", flush=True)
 
             # migration done, make a commit, lots of API calls
             return True, True, False
@@ -67,7 +67,7 @@ def _register_feedstock_token(feedstock):
     """Generate and register feedstock tokens."""
 
     if feedstock_token_exists("conda-forge", feedstock + "-feedstock", TOKENS_REPO):
-        print("    feedstock token already exists")
+        print("    feedstock token already exists", flush=True)
         return
 
     try:
@@ -81,7 +81,7 @@ def _register_feedstock_token(feedstock):
             check=True,
         )
     except subprocess.CalledProcessError as e:
-        print("    feedstock token registration failed")
+        print("    feedstock token registration failed", flush=True)
         raise e
     finally:
         # remove both paths due to change in smithy
@@ -183,7 +183,7 @@ def _register_feedstock_outputs(feedstock):
         for m, _, _ in metas:
             unames.add(m.name())
 
-    print("    output names:", unames)
+    print("    output names:", unames, flush=True)
 
     for name in unames:
         sharded_name = _get_sharded_path(name)
@@ -224,7 +224,7 @@ def _register_feedstock_outputs(feedstock):
                 check=True,
                 cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"]
             )
-            print("    added output:", name)
+            print("    added output:", name, flush=True)
 
 
 class CFEP13TokensAndConfig(Migrator):
@@ -247,7 +247,7 @@ class CFEP13TokensAndConfig(Migrator):
             # register a feedstock token
             # this call is idempotent if the token already exists
             _register_feedstock_token(feedstock)
-            print("    registered feedstock token")
+            print("    registered feedstock token", flush=True)
 
             # register the staging binstar token
             subprocess.run(
@@ -256,11 +256,11 @@ class CFEP13TokensAndConfig(Migrator):
                 shell=True,
                 check=True
             )
-            print("    added staging binstar token")
+            print("    added staging binstar token", flush=True)
 
             # register the outputs
             _register_feedstock_outputs(feedstock)
-            print("    added output to outputs repo")
+            print("    added output to outputs repo", flush=True)
 
         # set the param and write
         cfg["conda_forge_output_validation"] = True
@@ -270,7 +270,7 @@ class CFEP13TokensAndConfig(Migrator):
             ["git", "add", "conda-forge.yml"],
             check=True,
         )
-        print("    updated conda-forge.yml")
+        print("    updated conda-forge.yml", flush=True)
 
         # migration done, make a commit, lots of API calls
         return True, True, True

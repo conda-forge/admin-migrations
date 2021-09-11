@@ -71,7 +71,7 @@ class RotateFeedstockToken(Migrator):
         # delete the old token
         if _feedstock_token_exists(feedstock + "-feedstock"):
             _delete_feedstock_token(feedstock + "-feedstock")
-            print("    deleted old feedstock token")
+            print("    deleted old feedstock token", flush=True)
 
         feedstock_dir = "../%s-feedstock" % feedstock
         owner_info = ['--organization', 'conda-forge']
@@ -87,7 +87,7 @@ class RotateFeedstockToken(Migrator):
             ),
             shell=True,
         )
-        print("    created new feedstock token")
+        print("    created new feedstock token", flush=True)
 
         # register
         subprocess.check_call(
@@ -106,7 +106,7 @@ class RotateFeedstockToken(Migrator):
             ),
             shell=True,
         )
-        print("    registered new feedstock token")
+        print("    registered new feedstock token", flush=True)
 
         # migration done, make a commit, lots of API calls
         return True, False, True

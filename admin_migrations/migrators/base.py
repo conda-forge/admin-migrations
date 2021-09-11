@@ -19,10 +19,13 @@ class Migrator(object):
                 blob = json.load(fp)
         self._done_table = blob
 
-        print("migrator %s: done %d" % (
-            self.__class__.__name__,
-            len(blob),
-        ))
+        print(
+            "migrator %s: done %d" % (
+                self.__class__.__name__,
+                len(blob),
+            ),
+            flush=True,
+        )
 
     def skip(self, feedstock, branch):
         """Return true if the migration should be skipped for this feedstock

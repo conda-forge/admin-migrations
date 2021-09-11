@@ -83,7 +83,7 @@ class AppveyorDelete(Migrator):
         )
 
         if r.status_code == 404:
-            print("    appveyor project not found")
+            print("    appveyor project not found", flush=True)
             # project does not exist
             deleted = True
         elif r.status_code == 200:
@@ -104,10 +104,10 @@ class AppveyorDelete(Migrator):
             #     )
             #
             #     if r.status_code == 204:
-            #         print("    appveyor project deleted")
+            #         print("    appveyor project deleted", flush=True)
             #         deleted = True
             #     else:
-            #         print("    appveyor delete call failed")
+            #         print("    appveyor delete call failed", flush=True)
             # el
             if not has_appveyor:
                 r = requests.get(
@@ -124,15 +124,15 @@ class AppveyorDelete(Migrator):
                         json=settings,
                     )
                     if r.status_code == 204:
-                        print("    appveyor disabled pushes")
+                        print("    appveyor disabled pushes", flush=True)
                         deleted = True
                     else:
-                        print("    appveyor disable push call failed")
+                        print("    appveyor disable push call failed", flush=True)
                 else:
-                    print("    appveyor get project settings failed")
+                    print("    appveyor get project settings failed", flush=True)
             else:
-                print("    appveyor # of builds:", num_builds)
-                print("    appveyor on:", has_appveyor)
+                print("    appveyor # of builds:", num_builds, flush=True)
+                print("    appveyor on:", has_appveyor, flush=True)
 
         # did it work, commit, made API calls
         return deleted, False, True
@@ -161,7 +161,7 @@ class AppveyorForceDelete(Migrator):
             )
 
             if r.status_code == 404:
-                print("    appveyor project not found")
+                print("    appveyor project not found", flush=True)
                 # project does not exist
                 deleted = True
             elif r.status_code == 200:
@@ -179,12 +179,12 @@ class AppveyorForceDelete(Migrator):
                         json=settings,
                     )
                     if r.status_code == 204:
-                        print("    appveyor disabled pushes")
+                        print("    appveyor disabled pushes", flush=True)
                         deleted = True
                     else:
-                        print("    appveyor disable push call failed")
+                        print("    appveyor disable push call failed", flush=True)
                 else:
-                    print("    appveyor get project settings failed")
+                    print("    appveyor get project settings failed", flush=True)
 
             # did it work, commit, made API calls
             return deleted, False, True
