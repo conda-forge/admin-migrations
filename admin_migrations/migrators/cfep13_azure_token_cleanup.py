@@ -62,7 +62,10 @@ class CFEP13AzureTokenCleanup(Migrator):
                 project,
                 ["BINSTAR_TOKEN", "STAGING_BINSTAR_TOKEN"],
             )
-            print("    deleted BINSTAR_TOKEN and STAGING_BINSTAR_TOKEN from azure")
+            print(
+                "    deleted BINSTAR_TOKEN and STAGING_BINSTAR_TOKEN from azure",
+                flush=True,
+            )
 
         # migration done, make a commit, lots of API calls
         return True, False, True

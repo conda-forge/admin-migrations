@@ -159,7 +159,7 @@ def _load_feedstock_data():
         dt = time.time()
         all_feedstocks = _get_all_feedstocks()
         dt = time.time() - dt
-        print(" ")
+        print(" ", flush=True)
 
         # we run a bit less since this takes a few minutes
         global MAX_SECONDS
@@ -168,8 +168,8 @@ def _load_feedstock_data():
         with open("data/all_feedstocks.json", "w") as fp:
             json.dump(all_feedstocks, fp, indent=2)
     else:
-        print("using cached feedstock list")
-        print(" ")
+        print("using cached feedstock list", flush=True)
+        print(" ", flush=True)
         with open("data/all_feedstocks.json", "r") as fp:
             all_feedstocks = json.load(fp)
 
@@ -195,7 +195,7 @@ def _load_feedstock_data():
 
 
 def _commit_data():
-    print("\nsaving data...")
+    print("\nsaving data...", flush=True)
     _run_git_command(["stash"])
     _run_git_command(["pull", "--quiet"])
     _run_git_command(["stash", "pop"])
@@ -216,10 +216,10 @@ def run_migrators(feedstock, migrators):
     if len(migrators) == 0:
         return False
 
-    print("=" * 80)
-    print("=" * 80)
-    print("=" * 80)
-    print("migrating %s" % feedstock)
+    print("=" * 80, flush=True)
+    print("=" * 80, flush=True)
+    print("=" * 80, flush=True)
+    print("migrating %s" % feedstock, flush=True)
 
     _start = time.time()
 
@@ -241,7 +241,7 @@ def run_migrators(feedstock, migrators):
                 # having all of the branches
                 _run_git_command(["clone", "--quiet", feedstock_http])
             except subprocess.CalledProcessError:
-                print("    clone failed!")
+                print("    clone failed!", flush=True)
                 return made_api_calls
 
             with pushd("%s-feedstock" % feedstock):
@@ -261,14 +261,14 @@ def run_migrators(feedstock, migrators):
                     branches = _get_branches(default_branch)
 
                     for m in migrators:
-                        print("\nmigrator %s" % m.__class__.__name__)
+                        print("\nmigrator %s" % m.__class__.__name__, flush=True)
 
                         for branch in branches:
                             if branch != default_branch and m.main_branch_only:
                                 continue
 
                             try:
-                                print("    branch:", branch)
+                                print("    branch:", branch, flush=True)
                                 try:
                                     _run_git_command(
                                         ["switch", branch],
@@ -311,23 +311,27 @@ def run_migrators(feedstock, migrators):
                                         if not is_archived:
                                             _run_git_command(["push", "--quiet"])
                                         else:
-                                            print("not pushing to archived feedstock")
+                                            print(
+                                                "not pushing to archived feedstock",
+                                                flush=True,
+                                            )
                                     else:
                                         print(
                                             "could not get repo archived status - "
-                                            "punting to next round"
+                                            "punting to next round",
+                                            flush=True,
                                         )
 
                             except Exception as e:
                                 worked = False
-                                print("    ERROR:", repr(e))
+                                print("    ERROR:", repr(e), flush=True)
 
                             if worked:
                                 migrators_to_record.append((m, branch))
 
-                            print(" ")
+                            print(" ", flush=True)
 
-    print("migration took %s seconds\n" % (time.time() - _start))
+    print("migration took %s seconds\n" % (time.time() - _start), flush=True)
 
     for m, branch in migrators_to_record:
         m.record(feedstock, branch)
@@ -352,7 +356,7 @@ def main():
         # CFEP13TurnOff(),
         # AutomergeAndBotRerunLabels(),
     ]
-    print(" ")
+    print(" ", flush=True)
 
     feedstocks = _load_feedstock_data()
     current_num = feedstocks["current"]
@@ -400,24 +404,33 @@ def main():
 
         if time.time() - report_time > 10:
             report_time = time.time()
-            print("on %d out of %d feedstocks" % (
-                num_done_prev + num_done,
-                len(feedstocks["feedstocks"]),
-            ))
-            print("migrated %d feedstokcs" % num_done)
-            print("pushed or made API calls for %d feedstocks" % num_pushed_or_apied)
+            print(
+                "on %d out of %d feedstocks" % (
+                    num_done_prev + num_done,
+                    len(feedstocks["feedstocks"]),
+                ),
+                flush=True,
+            )
+            print("migrated %d feedstokcs" % num_done, flush=True)
+            print(
+                "pushed or made API calls for %d feedstocks" % num_pushed_or_apied,
+                flush=True,
+            )
             elapsed_time = time.time() - start_time
-            print("can migrate ~%d more feedstocks for this CI run" % (
-                int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
-            ))
+            print(
+                "can migrate ~%d more feedstocks for this CI run" % (
+                    int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
+                ),
+                flush=True,
+            )
 
-            print(" ")
+            print(" ", flush=True)
 
     if all(v == next_num for v in feedstocks["feedstocks"].values()):
-        print("=" * 80)
-        print("=" * 80)
-        print("=" * 80)
-        print("processed all feedstocks - starting over!")
+        print("=" * 80, flush=True)
+        print("=" * 80, flush=True)
+        print("=" * 80, flush=True)
+        print("processed all feedstocks - starting over!", flush=True)
         feedstocks["current"] = next_num
 
     with open("data/feedstocks.json", "w") as fp:

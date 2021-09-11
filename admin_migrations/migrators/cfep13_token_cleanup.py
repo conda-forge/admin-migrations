@@ -200,7 +200,7 @@ class CFEP13TokenCleanup(Migrator):
             #     shell=True,
             #     check=True
             # )
-            # print("    putting cf-staging binstar token in BINSTAR_TOKEN")
+            # print("    putting cf-staging binstar token in BINSTAR_TOKEN", flush=True)
 
             # put the staging token into STAGING_BINSTAR_TOKEN
             # subprocess.run(
@@ -210,18 +210,22 @@ class CFEP13TokenCleanup(Migrator):
             #     shell=True,
             #     check=True
             # )
-            # print("    putting cf-staging binstar token in STAGING_BINSTAR_TOKEN")
+            # print(
+            #     "    putting cf-staging binstar token "
+            #     "in STAGING_BINSTAR_TOKEN",
+            #     flush=True
+            # )
 
             # needs a change in smithy so cannot do this
             # # remove STAGING_BINSTAR_TOKEN from travis, circle and drone
             # _delete_token_in_circle(user, project, "STAGING_BINSTAR_TOKEN")
-            # print("    deleted STAGING_BINSTAR_TOKEN from circle")
+            # print("    deleted STAGING_BINSTAR_TOKEN from circle", flush=True)
             #
             # _delete_token_in_drone(user, project, "STAGING_BINSTAR_TOKEN")
-            # print("    deleted STAGING_BINSTAR_TOKEN from drone")
+            # print("    deleted STAGING_BINSTAR_TOKEN from drone", flush=True)
             #
             # _delete_token_in_travis(user, project, "STAGING_BINSTAR_TOKEN")
-            # print("    deleted STAGING_BINSTAR_TOKEN from travis")
+            # print("    deleted STAGING_BINSTAR_TOKEN from travis", flush=True)
 
             # remove BINSTAR_TOKEN and STAGING_BINSTAR_TOKEN from azure
             # this removes the tokens attached to the specific pipeline, not the org
@@ -231,7 +235,10 @@ class CFEP13TokenCleanup(Migrator):
                 project,
                 ["BINSTAR_TOKEN", "STAGING_BINSTAR_TOKEN"],
             )
-            print("    deleted BINSTAR_TOKEN and STAGING_BINSTAR_TOKEN from azure")
+            print(
+                "    deleted BINSTAR_TOKEN and STAGING_BINSTAR_TOKEN from azure",
+                flush=True,
+            )
 
         # cleanup conda-forge.yml
         yaml = YAML()
@@ -244,7 +251,7 @@ class CFEP13TokenCleanup(Migrator):
             ["git", "add", "conda-forge.yml"],
             check=True,
         )
-        print("    updated conda-forge.yml")
+        print("    updated conda-forge.yml", flush=True)
 
         # migration done, make a commit, lots of API calls
         return True, True, True
