@@ -108,7 +108,7 @@ def _get_curr_branch():
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
     )
-    return o.decode("utf=8").strip()
+    return o.stdout.decode("utf=8").strip()
 
 
 def _get_branches(default_branch):
