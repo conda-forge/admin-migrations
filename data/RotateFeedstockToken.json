@@ -7495,5 +7495,188 @@
   },
   "intake": {
     "master": true
+  },
+  "intake-accumulo": {
+    "master": true
+  },
+  "intake-astro": {
+    "master": true
+  },
+  "intake-avro": {
+    "master": true
+  },
+  "intake-cmip": {
+    "master": true
+  },
+  "intake-elasticsearch": {
+    "master": true
+  },
+  "intake-esm": {
+    "master": true
+  },
+  "intake-geopandas": {
+    "master": true
+  },
+  "intake-parquet": {
+    "master": true
+  },
+  "intake-spark": {
+    "master": true
+  },
+  "intake-sql": {
+    "master": true
+  },
+  "intake-stac": {
+    "master": true
+  },
+  "intake-xarray": {
+    "master": true
+  },
+  "intbitset": {
+    "master": true
+  },
+  "intel-compute-runtime": {
+    "master": true
+  },
+  "intel-gmmlib": {
+    "master": true
+  },
+  "intel-graphics-compiler": {
+    "master": true
+  },
+  "intel-hybrid-driver": {
+    "master": true
+  },
+  "intel-ipp": {
+    "master": true
+  },
+  "intel-opencl-clang": {
+    "master": true
+  },
+  "intel-vaapi-driver": {
+    "master": true
+  },
+  "intel_repack": {
+    "master": true
+  },
+  "intelhex": {
+    "master": true
+  },
+  "interlap": {
+    "master": true
+  },
+  "intern": {
+    "master": true
+  },
+  "interpolation": {
+    "master": true
+  },
+  "interval_tree": {
+    "master": true
+  },
+  "intervals": {
+    "master": true
+  },
+  "intervaltree": {
+    "master": true
+  },
+  "intltool": {
+    "master": true
+  },
+  "intreehooks": {
+    "master": true
+  },
+  "invoke": {
+    "master": true
+  },
+  "iolabs": {
+    "master": true
+  },
+  "ioos_qartod": {
+    "master": true
+  },
+  "ioos_qc": {
+    "master": true
+  },
+  "ioos_tools": {
+    "master": true
+  },
+  "iowait": {
+    "master": true
+  },
+  "ipaddr": {
+    "master": true
+  },
+  "ipaddress": {
+    "master": true
+  },
+  "ipdb": {
+    "master": true
+  },
+  "iperf": {
+    "master": true
+  },
+  "ipopt": {
+    "master": true
+  },
+  "iprogress": {
+    "master": true
+  },
+  "ipycache": {
+    "master": true
+  },
+  "ipycanvas": {
+    "master": true
+  },
+  "ipycytoscape": {
+    "master": true
+  },
+  "ipydatawidgets": {
+    "master": true
+  },
+  "ipyevents": {
+    "master": true
+  },
+  "ipygany": {
+    "master": true
+  },
+  "ipygraphql": {
+    "master": true
+  },
+  "ipykernel": {
+    "master": true
+  },
+  "ipylab": {
+    "master": true
+  },
+  "ipyleaflet": {
+    "master": true
+  },
+  "ipymaterialui": {
+    "master": true
+  },
+  "ipymesh": {
+    "master": true
+  },
+  "ipymidicontrols": {
+    "master": true
+  },
+  "ipympl": {
+    "master": true
+  },
+  "ipynb-py-convert": {
+    "master": true
+  },
+  "ipyopt": {
+    "master": true
+  },
+  "ipyparallel": {
+    "master": true
+  },
+  "ipypivot": {
+    "master": true
+  },
+  "ipypublish": {
+    "master": true
   }
 }
