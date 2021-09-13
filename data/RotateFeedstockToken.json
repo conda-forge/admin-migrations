@@ -9349,5 +9349,197 @@
   },
   "libssh": {
     "master": true
+  },
+  "libssh2": {
+    "master": true
+  },
+  "libsvm": {
+    "master": true
+  },
+  "libtar": {
+    "master": true
+  },
+  "libtasn1": {
+    "master": true
+  },
+  "libtheora": {
+    "master": true
+  },
+  "libtiff": {
+    "master": true
+  },
+  "libtike-cufft": {
+    "master": true
+  },
+  "libtiledb-sql": {
+    "master": true
+  },
+  "libtiledb-sql-py": {
+    "master": true
+  },
+  "libtlx": {
+    "master": true
+  },
+  "libtool": {
+    "master": true
+  },
+  "libudev-cos6-x86_64": {
+    "master": true
+  },
+  "libudev-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libunistring": {
+    "master": true
+  },
+  "libunwind": {
+    "master": true
+  },
+  "libusb": {
+    "master": true
+  },
+  "libusb-compat": {
+    "master": true
+  },
+  "libutf8proc": {
+    "master": true
+  },
+  "libuuid": {
+    "master": true
+  },
+  "libuv": {
+    "master": true
+  },
+  "libv8": {
+    "master": true
+  },
+  "libva": {
+    "master": true
+  },
+  "libva-utils": {
+    "master": true
+  },
+  "libvips": {
+    "master": true
+  },
+  "libvorbis": {
+    "master": true
+  },
+  "libwapiti": {
+    "master": true
+  },
+  "libwebp": {
+    "master": true
+  },
+  "libwebp-base": {
+    "master": true
+  },
+  "libwebsockets": {
+    "master": true
+  },
+  "libx11-common-cos7-aarch64": {
+    "master": true
+  },
+  "libx11-cos7-aarch64": {
+    "master": true
+  },
+  "libx11-devel-cos7-aarch64": {
+    "master": true
+  },
+  "libxau-cos7-aarch64": {
+    "master": true
+  },
+  "libxc": {
+    "master": true
+  },
+  "libxcb": {
+    "master": true
+  },
+  "libxcb-cos7-aarch64": {
+    "master": true
+  },
+  "libxcomposite-cos7-ppc64le": {
+    "master": true
+  },
+  "libxcursor-cos7-ppc64le": {
+    "master": true
+  },
+  "libxdamage-cos7-aarch64": {
+    "master": true
+  },
+  "libxext-cos7-aarch64": {
+    "master": true
+  },
+  "libxfixes-cos7-aarch64": {
+    "master": true
+  },
+  "libxfoil": {
+    "master": true
+  },
+  "libxkbcommon": {
+    "master": true
+  },
+  "libxkbfile": {
+    "master": true
+  },
+  "libxml2": {
+    "master": true
+  },
+  "libxmlpp": {
+    "master": true
+  },
+  "libxrender-cos7-aarch64": {
+    "master": true
+  },
+  "libxscrnsaver-cos7-ppc64le": {
+    "master": true
+  },
+  "libxshmfence-cos7-aarch64": {
+    "master": true
+  },
+  "libxshmfence-cos7-ppc64le": {
+    "master": true
+  },
+  "libxslt": {
+    "master": true
+  },
+  "libxsmm": {
+    "master": true
+  },
+  "libxt-cos7-aarch64": {
+    "master": true
+  },
+  "libxt-cos7-ppc64le": {
+    "master": true
+  },
+  "libxtst-cos7-ppc64le": {
+    "master": true
+  },
+  "libxxf86vm-cos7-aarch64": {
+    "master": true
+  },
+  "libxxf86vm-cos7-ppc64le": {
+    "master": true
+  },
+  "libzip": {
+    "master": true
+  },
+  "license-expression": {
+    "master": true
+  },
+  "lidar": {
+    "master": true
+  },
+  "lief": {
+    "master": true
+  },
+  "lifelines": {
+    "master": true
+  },
+  "lifetimes": {
+    "master": true
+  },
+  "lightfm": {
+    "master": true
   }
 }
