@@ -8932,5 +8932,224 @@
   },
   "libbsc": {
     "master": true
+  },
+  "libcanberra": {
+    "master": true
+  },
+  "libcap": {
+    "master": true
+  },
+  "libccd": {
+    "master": true
+  },
+  "libcdms": {
+    "master": true
+  },
+  "libcf": {
+    "master": true
+  },
+  "libcflib": {
+    "master": true
+  },
+  "libcmaes": {
+    "master": true
+  },
+  "libcomcat": {
+    "master": true
+  },
+  "libconfig": {
+    "master": true
+  },
+  "libcrc32c": {
+    "master": true
+  },
+  "libcroco": {
+    "master": true
+  },
+  "libcst": {
+    "master": true
+  },
+  "libctl": {
+    "master": true
+  },
+  "libcups": {
+    "master": true
+  },
+  "libcxx": {
+    "master": true
+  },
+  "libcxxwrap-julia": {
+    "master": true
+  },
+  "libdaemon": {
+    "master": true
+  },
+  "libdap4": {
+    "master": true
+  },
+  "libdb": {
+    "master": true
+  },
+  "libdeflate": {
+    "master": true
+  },
+  "libdiffpy": {
+    "master": true
+  },
+  "libdrm": {
+    "master": true
+  },
+  "libdrm-cos7-aarch64": {
+    "master": true
+  },
+  "libdrm-cos7-ppc64le": {
+    "master": true
+  },
+  "libdrs": {
+    "master": true
+  },
+  "libdrs_f": {
+    "master": true
+  },
+  "libedit": {
+    "master": true
+  },
+  "libensemble": {
+    "master": true
+  },
+  "libev": {
+    "master": true
+  },
+  "libevent": {
+    "master": true
+  },
+  "libexif": {
+    "master": true
+  },
+  "libfaketime": {
+    "master": true
+  },
+  "libffi": {
+    "master": true
+  },
+  "libflac": {
+    "master": true
+  },
+  "libflint": {
+    "master": true
+  },
+  "libframe": {
+    "master": true
+  },
+  "libfuse": {
+    "master": true
+  },
+  "libgap": {
+    "master": true
+  },
+  "libgcrypt": {
+    "master": true
+  },
+  "libgd": {
+    "master": true
+  },
+  "libgdsii": {
+    "master": true
+  },
+  "libgfortran": {
+    "master": true
+  },
+  "libgit2": {
+    "master": true
+  },
+  "libglu": {
+    "master": true
+  },
+  "libglvnd-cos7-aarch64": {
+    "master": true
+  },
+  "libglvnd-cos7-ppc64le": {
+    "master": true
+  },
+  "libglvnd-glx-cos7-aarch64": {
+    "master": true
+  },
+  "libglvnd-glx-cos7-ppc64le": {
+    "master": true
+  },
+  "libgpg-error": {
+    "master": true
+  },
+  "libgpuarray": {
+    "master": true
+  },
+  "libgsasl": {
+    "master": true
+  },
+  "libgsf": {
+    "master": true
+  },
+  "libharu": {
+    "master": true
+  },
+  "libhdfs3": {
+    "master": true
+  },
+  "libhomfly": {
+    "master": true
+  },
+  "libhwloc": {
+    "master": true
+  },
+  "libibcm-cos6-x86_64": {
+    "master": true
+  },
+  "libibcm-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libibverbs-cos6-x86_64": {
+    "master": true
+  },
+  "libibverbs-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libical": {
+    "master": true
+  },
+  "libice-cos7-aarch64": {
+    "master": true
+  },
+  "libice-cos7-ppc64le": {
+    "master": true
+  },
+  "libiconv": {
+    "master": true
+  },
+  "libidn11": {
+    "master": true
+  },
+  "libidn2": {
+    "master": true
+  },
+  "libignition-cmake0": {
+    "master": true
+  },
+  "libignition-common": {
+    "master": true
+  },
+  "libignition-fuel-tools": {
+    "master": true
+  },
+  "libignition-math4": {
+    "master": true
+  },
+  "libignition-msgs1": {
+    "master": true
+  },
+  "libignition-physics": {
+    "master": true
+  },
+  "libignition-plugin": {
+    "master": true
   }
 }
