@@ -67,6 +67,7 @@ jobs:
 
           export DEBUG_ADMIN_MIGRATIONS=1
           source ./scripts/clone_feedstock_outputs.sh
+          env | grep "FEEDSTOCK_"
           run-admin-migrations
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}

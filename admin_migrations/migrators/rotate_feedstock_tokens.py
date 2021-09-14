@@ -22,24 +22,29 @@ def _feedstock_token_exists(name):
 
 def _delete_feedstock_token(feedstock_name):
     with tempfile.TemporaryDirectory() as tmpdir:
-        subprocess.check_call(
-            "git clone https://x-access-token:${GITHUB_TOKEN}@github.com/conda-forge/"
-            "feedstock-tokens.git",
-            cwd=tmpdir,
-            shell=True,
-        )
+        if "FEEDSTOCK_TOKENS_REPO" in os.environ:
+            repo_cwd = os.environ["FEEDSTOCK_TOKENS_REPO"]
+        else:
+            subprocess.check_call(
+                "git clone https://x-access-token:${GITHUB_TOKEN}@"
+                "github.com/conda-forge/"
+                "feedstock-tokens.git",
+                cwd=tmpdir,
+                shell=True,
+            )
 
-        subprocess.check_call(
-            "git remote set-url --push origin "
-            "https://x-access-token:${GITHUB_TOKEN}@github.com/conda-forge/"
-            "feedstock-tokens.git",
-            cwd=os.path.join(tmpdir, "feedstock-tokens"),
-            shell=True,
-        )
+            subprocess.check_call(
+                "git remote set-url --push origin "
+                "https://x-access-token:${GITHUB_TOKEN}@github.com/conda-forge/"
+                "feedstock-tokens.git",
+                cwd=os.path.join(tmpdir, "feedstock-tokens"),
+                shell=True,
+            )
+            repo_cwd = os.path.join(tmpdir, "feedstock-tokens")
 
         subprocess.check_call(
             "git rm tokens/%s.json" % feedstock_name,
-            cwd=os.path.join(tmpdir, "feedstock-tokens"),
+            cwd=repo_cwd,
             shell=True,
         )
 
@@ -47,19 +52,19 @@ def _delete_feedstock_token(feedstock_name):
             "git commit --allow-empty -am "
             "'[ci skip] [skip ci] [cf admin skip] ***NO_CI*** removing "
             "token for %s'" % feedstock_name,
-            cwd=os.path.join(tmpdir, "feedstock-tokens"),
+            cwd=repo_cwd,
             shell=True,
         )
 
         subprocess.check_call(
             "git pull",
-            cwd=os.path.join(tmpdir, "feedstock-tokens"),
+            cwd=repo_cwd,
             shell=True,
         )
 
         subprocess.check_call(
             "git push",
-            cwd=os.path.join(tmpdir, "feedstock-tokens"),
+            cwd=repo_cwd,
             shell=True,
         )
 
