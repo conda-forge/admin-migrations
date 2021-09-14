@@ -2,6 +2,7 @@ import os
 import requests
 import subprocess
 import tempfile
+import time
 
 from .base import Migrator
 
@@ -56,17 +57,25 @@ def _delete_feedstock_token(feedstock_name):
             shell=True,
         )
 
-        subprocess.check_call(
-            "git pull",
-            cwd=repo_cwd,
-            shell=True,
-        )
+        ntry = 5
+        for i in range(ntry):
+            try:
+                subprocess.check_call(
+                    "git pull",
+                    cwd=repo_cwd,
+                    shell=True,
+                )
 
-        subprocess.check_call(
-            "git push",
-            cwd=repo_cwd,
-            shell=True,
-        )
+                subprocess.check_call(
+                    "git push",
+                    cwd=repo_cwd,
+                    shell=True,
+                )
+            except Exception as e:
+                if i < ntry-1:
+                    time.seep(0.050 * 2**i)
+                else:
+                    raise e
 
 
 class RotateFeedstockToken(Migrator):
