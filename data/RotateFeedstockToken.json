@@ -12184,5 +12184,92 @@
   },
   "pagmo": {
     "master": true
+  },
+  "paho-mqtt": {
+    "master": true
+  },
+  "paintera": {
+    "master": true
+  },
+  "paintera-conversion-helper": {
+    "master": true
+  },
+  "palettable": {
+    "master": true
+  },
+  "palp": {
+    "master": true
+  },
+  "palpy": {
+    "master": true
+  },
+  "pamela": {
+    "master": true
+  },
+  "pamqp": {
+    "master": true
+  },
+  "pandana": {
+    "master": true
+  },
+  "pandas": {
+    "master": true
+  },
+  "pandas-compat": {
+    "master": true
+  },
+  "pandas-datapackage-reader": {
+    "master": true
+  },
+  "pandas-datareader": {
+    "master": true
+  },
+  "pandas-gbq": {
+    "master": true
+  },
+  "pandas-highcharts": {
+    "master": true
+  },
+  "pandas-msgpack": {
+    "master": true
+  },
+  "pandas-plink": {
+    "master": true
+  },
+  "pandas-profiling": {
+    "master": true
+  },
+  "pandas-summary": {
+    "master": true
+  },
+  "pandas-vet": {
+    "master": true
+  },
+  "pandas_flavor": {
+    "master": true
+  },
+  "pandas_market_calendars": {
+    "master": true
+  },
+  "pandas_ml": {
+    "master": true
+  },
+  "pandas_schema": {
+    "master": true
+  },
+  "pandera": {
+    "master": true
+  },
+  "pandoc": {
+    "master": true
+  },
+  "pandoc-attributes": {
+    "master": true
+  },
+  "pandoc-attrs": {
+    "master": true
+  },
+  "pandoc-crossref": {
+    "master": true
   }
 }
