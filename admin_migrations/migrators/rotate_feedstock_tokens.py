@@ -71,6 +71,8 @@ def _delete_feedstock_token(feedstock_name):
                     cwd=repo_cwd,
                     shell=True,
                 )
+
+                break
             except Exception as e:
                 if i < ntry-1:
                     time.seep(0.050 * 2**i)
