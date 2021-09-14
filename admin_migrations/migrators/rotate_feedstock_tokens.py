@@ -36,8 +36,8 @@ def _delete_feedstock_token(feedstock_name):
     if fn is not None:
         FEEDSTOCK_TOKENS_REPO.delete_file(
             token_file,
-            "'[ci skip] [skip ci] [cf admin skip] ***NO_CI*** removing "
-            "token for %s'" % feedstock_name,
+            "[ci skip] [skip ci] [cf admin skip] ***NO_CI*** removing "
+            "token for %s" % feedstock_name,
             fn.sha,
         )
 
