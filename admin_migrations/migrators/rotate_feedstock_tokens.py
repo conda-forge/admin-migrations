@@ -27,19 +27,13 @@ def _feedstock_token_exists(name):
 
 def _delete_feedstock_token(feedstock_name):
     token_file = "tokens/%s.json" % feedstock_name
-    try:
-        fn = FEEDSTOCK_TOKENS_REPO.get_contents(token_file)
-    except Exception:
-        fn = None
-        pass
-
-    if fn is not None:
-        FEEDSTOCK_TOKENS_REPO.delete_file(
-            token_file,
-            "[ci skip] [skip ci] [cf admin skip] ***NO_CI*** removing "
-            "token for %s" % feedstock_name,
-            fn.sha,
-        )
+    fn = FEEDSTOCK_TOKENS_REPO.get_contents(token_file)
+    FEEDSTOCK_TOKENS_REPO.delete_file(
+        token_file,
+        "[ci skip] [skip ci] [cf admin skip] ***NO_CI*** removing "
+        "token for %s" % feedstock_name,
+        fn.sha,
+    )
 
 
 class RotateFeedstockToken(Migrator):
