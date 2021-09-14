@@ -1,12 +1,16 @@
 import os
 import requests
 import subprocess
-import tempfile
-import time
+import github
 
 from .base import Migrator
 
 SMITHY_CONF = os.path.expanduser('~/.conda-smithy')
+FEEDSTOCK_TOKENS_REPO = (
+    github
+    .Github(os.environ["GITHUB_TOKEN"])
+    .get_repo("conda-forge/feedstock-tokens")
+)
 
 
 def _feedstock_token_exists(name):
@@ -22,62 +26,14 @@ def _feedstock_token_exists(name):
 
 
 def _delete_feedstock_token(feedstock_name):
-    with tempfile.TemporaryDirectory() as tmpdir:
-        if "FEEDSTOCK_TOKENS_REPO" in os.environ:
-            repo_cwd = os.environ["FEEDSTOCK_TOKENS_REPO"]
-        else:
-            subprocess.check_call(
-                "git clone https://x-access-token:${GITHUB_TOKEN}@"
-                "github.com/conda-forge/"
-                "feedstock-tokens.git",
-                cwd=tmpdir,
-                shell=True,
-            )
-
-            subprocess.check_call(
-                "git remote set-url --push origin "
-                "https://x-access-token:${GITHUB_TOKEN}@github.com/conda-forge/"
-                "feedstock-tokens.git",
-                cwd=os.path.join(tmpdir, "feedstock-tokens"),
-                shell=True,
-            )
-            repo_cwd = os.path.join(tmpdir, "feedstock-tokens")
-
-        subprocess.check_call(
-            "git rm tokens/%s.json" % feedstock_name,
-            cwd=repo_cwd,
-            shell=True,
-        )
-
-        subprocess.check_call(
-            "git commit --allow-empty -am "
-            "'[ci skip] [skip ci] [cf admin skip] ***NO_CI*** removing "
-            "token for %s'" % feedstock_name,
-            cwd=repo_cwd,
-            shell=True,
-        )
-
-        ntry = 5
-        for i in range(ntry):
-            try:
-                subprocess.check_call(
-                    "git pull",
-                    cwd=repo_cwd,
-                    shell=True,
-                )
-
-                subprocess.check_call(
-                    "git push",
-                    cwd=repo_cwd,
-                    shell=True,
-                )
-
-                break
-            except Exception as e:
-                if i < ntry-1:
-                    time.seep(0.050 * 2**i)
-                else:
-                    raise e
+    token_file = "tokens/%s.json" % feedstock_name
+    fn = FEEDSTOCK_TOKENS_REPO.get_contents(token_file)
+    FEEDSTOCK_TOKENS_REPO.delete_file(
+        token_file,
+        "[ci skip] [skip ci] [cf admin skip] ***NO_CI*** removing "
+        "token for %s" % feedstock_name,
+        fn.sha,
+    )
 
 
 class RotateFeedstockToken(Migrator):
