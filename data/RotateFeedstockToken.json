@@ -17659,5 +17659,524 @@
   },
   "r-formula.tools": {
     "master": true
+  },
+  "r-fpc": {
+    "master": true
+  },
+  "r-fpp2": {
+    "master": true
+  },
+  "r-fracdiff": {
+    "master": true
+  },
+  "r-freetypeharfbuzz": {
+    "master": true
+  },
+  "r-fs": {
+    "master": true
+  },
+  "r-fselector": {
+    "master": true
+  },
+  "r-fst": {
+    "master": true
+  },
+  "r-fts": {
+    "master": true
+  },
+  "r-functional": {
+    "master": true
+  },
+  "r-funr": {
+    "master": true
+  },
+  "r-funrar": {
+    "master": true
+  },
+  "r-furrr": {
+    "master": true
+  },
+  "r-futile.logger": {
+    "master": true
+  },
+  "r-futile.options": {
+    "master": true
+  },
+  "r-future": {
+    "master": true
+  },
+  "r-future.apply": {
+    "master": true
+  },
+  "r-future.batchtools": {
+    "master": true
+  },
+  "r-fuzzyjoin": {
+    "master": true
+  },
+  "r-fwdselect": {
+    "master": true
+  },
+  "r-ga": {
+    "master": true
+  },
+  "r-gam": {
+    "master": true
+  },
+  "r-gamboostlss": {
+    "master": true
+  },
+  "r-gameofthrones": {
+    "master": true
+  },
+  "r-gamlss": {
+    "master": true
+  },
+  "r-gamlss.data": {
+    "master": true
+  },
+  "r-gamlss.dist": {
+    "master": true
+  },
+  "r-gamm4": {
+    "master": true
+  },
+  "r-gap": {
+    "master": true
+  },
+  "r-gapminder": {
+    "master": true
+  },
+  "r-gargle": {
+    "master": true
+  },
+  "r-gbm": {
+    "master": true
+  },
+  "r-gbrd": {
+    "master": true
+  },
+  "r-gclus": {
+    "master": true
+  },
+  "r-gdalutils": {
+    "master": true
+  },
+  "r-gdata": {
+    "master": true
+  },
+  "r-gdistance": {
+    "master": true
+  },
+  "r-gdtools": {
+    "master": true
+  },
+  "r-gee": {
+    "master": true
+  },
+  "r-geem": {
+    "master": true
+  },
+  "r-geepack": {
+    "master": true
+  },
+  "r-geigen": {
+    "master": true
+  },
+  "r-geiger": {
+    "master": true
+  },
+  "r-genabel": {
+    "master": true
+  },
+  "r-genabel.data": {
+    "master": true
+  },
+  "r-genalg": {
+    "master": true
+  },
+  "r-genemodel": {
+    "master": true
+  },
+  "r-genenet": {
+    "master": true
+  },
+  "r-generics": {
+    "master": true
+  },
+  "r-genetics": {
+    "master": true
+  },
+  "r-genie": {
+    "master": true
+  },
+  "r-genius": {
+    "master": true
+  },
+  "r-genkern": {
+    "master": true
+  },
+  "r-genlasso": {
+    "master": true
+  },
+  "r-genlib": {
+    "master": true
+  },
+  "r-gensa": {
+    "master": true
+  },
+  "r-geoaxe": {
+    "master": true
+  },
+  "r-geojson": {
+    "master": true
+  },
+  "r-geojsonio": {
+    "master": true
+  },
+  "r-geojsonlint": {
+    "master": true
+  },
+  "r-geojsonsf": {
+    "master": true
+  },
+  "r-geomap": {
+    "master": true
+  },
+  "r-geometry": {
+    "master": true
+  },
+  "r-geor": {
+    "master": true
+  },
+  "r-geosphere": {
+    "master": true
+  },
+  "r-getopt": {
+    "master": true
+  },
+  "r-getoptlong": {
+    "master": true
+  },
+  "r-getpass": {
+    "master": true
+  },
+  "r-gfa": {
+    "master": true
+  },
+  "r-ggalluvial": {
+    "master": true
+  },
+  "r-ggally": {
+    "master": true
+  },
+  "r-ggalt": {
+    "master": true
+  },
+  "r-gganimate": {
+    "master": true
+  },
+  "r-ggbeeswarm": {
+    "master": true
+  },
+  "r-ggconf": {
+    "master": true
+  },
+  "r-ggcorrplot": {
+    "master": true
+  },
+  "r-ggdendro": {
+    "master": true
+  },
+  "r-ggdistribute": {
+    "master": true
+  },
+  "r-ggedit": {
+    "master": true
+  },
+  "r-ggeffects": {
+    "master": true
+  },
+  "r-ggextra": {
+    "master": true
+  },
+  "r-ggfittext": {
+    "master": true
+  },
+  "r-ggfocus": {
+    "master": true
+  },
+  "r-ggforce": {
+    "master": true
+  },
+  "r-ggformula": {
+    "master": true
+  },
+  "r-ggfortify": {
+    "master": true
+  },
+  "r-gggenes": {
+    "master": true
+  },
+  "r-gghalves": {
+    "master": true
+  },
+  "r-gghighlight": {
+    "master": true
+  },
+  "r-ggiraph": {
+    "master": true
+  },
+  "r-ggjoy": {
+    "master": true
+  },
+  "r-gglasso": {
+    "master": true
+  },
+  "r-gglogo": {
+    "master": true
+  },
+  "r-ggm": {
+    "master": true
+  },
+  "r-ggmap": {
+    "master": true
+  },
+  "r-ggmcmc": {
+    "master": true
+  },
+  "r-ggmuller": {
+    "master": true
+  },
+  "r-ggnetwork": {
+    "master": true
+  },
+  "r-ggpage": {
+    "master": true
+  },
+  "r-ggparallel": {
+    "master": true
+  },
+  "r-ggparty": {
+    "master": true
+  },
+  "r-ggplot2": {
+    "master": true
+  },
+  "r-ggplotify": {
+    "master": true
+  },
+  "r-ggpmisc": {
+    "master": true
+  },
+  "r-ggpointdensity": {
+    "master": true
+  },
+  "r-ggpubr": {
+    "master": true
+  },
+  "r-ggraph": {
+    "master": true
+  },
+  "r-ggrasp": {
+    "master": true
+  },
+  "r-ggrepel": {
+    "master": true
+  },
+  "r-ggresidpanel": {
+    "master": true
+  },
+  "r-ggridges": {
+    "master": true
+  },
+  "r-ggsci": {
+    "master": true
+  },
+  "r-ggseqlogo": {
+    "master": true
+  },
+  "r-ggsignif": {
+    "master": true
+  },
+  "r-ggsn": {
+    "master": true
+  },
+  "r-ggspectra": {
+    "master": true
+  },
+  "r-ggstance": {
+    "master": true
+  },
+  "r-ggstatsplot": {
+    "master": true
+  },
+  "r-ggtern": {
+    "master": true
+  },
+  "r-ggthemes": {
+    "master": true
+  },
+  "r-ggupset": {
+    "master": true
+  },
+  "r-ggvis": {
+    "master": true
+  },
+  "r-gh": {
+    "master": true
+  },
+  "r-giant": {
+    "master": true
+  },
+  "r-gifski": {
+    "master": true
+  },
+  "r-gistr": {
+    "master": true
+  },
+  "r-git2r": {
+    "master": true
+  },
+  "r-glasso": {
+    "master": true
+  },
+  "r-glm2": {
+    "master": true
+  },
+  "r-glmmtmb": {
+    "master": true
+  },
+  "r-glmnet": {
+    "master": true
+  },
+  "r-glmnetutils": {
+    "master": true
+  },
+  "r-globaloptions": {
+    "master": true
+  },
+  "r-globals": {
+    "master": true
+  },
+  "r-glue": {
+    "master": true
+  },
+  "r-gluedown": {
+    "master": true
+  },
+  "r-gmd": {
+    "master": true
+  },
+  "r-gmm": {
+    "master": true
+  },
+  "r-gmodels": {
+    "master": true
+  },
+  "r-gmp": {
+    "master": true
+  },
+  "r-gnm": {
+    "master": true
+  },
+  "r-goeveg": {
+    "master": true
+  },
+  "r-goftest": {
+    "master": true
+  },
+  "r-golem": {
+    "master": true
+  },
+  "r-goodpractice": {
+    "master": true
+  },
+  "r-googleauthr": {
+    "master": true
+  },
+  "r-googlepolylines": {
+    "master": true
+  },
+  "r-googlevis": {
+    "master": true
+  },
+  "r-goric": {
+    "master": true
+  },
+  "r-gower": {
+    "master": true
+  },
+  "r-gparotation": {
+    "master": true
+  },
+  "r-gpca": {
+    "master": true
+  },
+  "r-gpfit": {
+    "master": true
+  },
+  "r-gplots": {
+    "master": true
+  },
+  "r-gprofiler": {
+    "master": true
+  },
+  "r-gprofiler2": {
+    "master": true
+  },
+  "r-gpseq": {
+    "master": true
+  },
+  "r-gptk": {
+    "master": true
+  },
+  "r-graphlayouts": {
+    "master": true
+  },
+  "r-graphtweets": {
+    "master": true
+  },
+  "r-grf": {
+    "master": true
+  },
+  "r-gribr": {
+    "master": true
+  },
+  "r-gridbase": {
+    "master": true
+  },
+  "r-gridextra": {
+    "master": true
+  },
+  "r-gridgraphics": {
+    "master": true
+  },
+  "r-gridsvg": {
+    "master": true
+  },
+  "r-gridtext": {
+    "master": true
+  },
+  "r-grimport": {
+    "master": true
+  },
+  "r-grimport2": {
+    "master": true
+  },
+  "r-groupedstats": {
+    "master": true
+  },
+  "r-grplasso": {
+    "master": true
+  },
+  "r-grpreg": {
+    "master": true
+  },
+  "r-grr": {
+    "master": true
+  },
+  "r-gsa": {
+    "master": true
   }
 }
