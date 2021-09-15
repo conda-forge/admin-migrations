@@ -27268,5 +27268,518 @@
   },
   "xerces-c": {
     "master": true
+  },
+  "xerces-c28": {
+    "master": true
+  },
+  "xesmf": {
+    "master": true
+  },
+  "xeus": {
+    "master": true
+  },
+  "xeus-cling": {
+    "master": true
+  },
+  "xeus-python": {
+    "master": true
+  },
+  "xfig": {
+    "master": true
+  },
+  "xframe": {
+    "master": true
+  },
+  "xgboost": {
+    "master": true
+  },
+  "xgcm": {
+    "master": true
+  },
+  "xgeo": {
+    "master": true
+  },
+  "xhistogram": {
+    "master": true
+  },
+  "xhtml2pdf": {
+    "master": true
+  },
+  "xhyve": {
+    "master": true
+  },
+  "xkeyboard-config": {
+    "master": true
+  },
+  "xlayers": {
+    "master": true
+  },
+  "xleaflet": {
+    "master": true
+  },
+  "xlntpyarrow": {
+    "master": true
+  },
+  "xlrd": {
+    "master": true
+  },
+  "xlsxwriter": {
+    "master": true
+  },
+  "xlutils": {
+    "master": true
+  },
+  "xlwings": {
+    "master": true
+  },
+  "xlwt": {
+    "master": true
+  },
+  "xmitgcm": {
+    "master": true
+  },
+  "xmle": {
+    "master": true
+  },
+  "xmlrunner": {
+    "master": true
+  },
+  "xmlschema": {
+    "master": true
+  },
+  "xmltodict": {
+    "master": true
+  },
+  "xmscore": {
+    "master": true
+  },
+  "xmsgrid": {
+    "master": true
+  },
+  "xmsinterp": {
+    "master": true
+  },
+  "xmsmesher": {
+    "master": true
+  },
+  "xmsstamper": {
+    "master": true
+  },
+  "xnat": {
+    "master": true
+  },
+  "xnumpy": {
+    "master": true
+  },
+  "xo": {
+    "master": true
+  },
+  "xonsh": {
+    "master": true
+  },
+  "xontrib-kitty": {
+    "master": true
+  },
+  "xontrib-readable-traceback": {
+    "master": true
+  },
+  "xontrib-ssh-agent": {
+    "master": true
+  },
+  "xopen": {
+    "master": true
+  },
+  "xopt": {
+    "master": true
+  },
+  "xorg-applewmproto": {
+    "master": true
+  },
+  "xorg-bigreqsproto": {
+    "master": true
+  },
+  "xorg-cf-files": {
+    "master": true
+  },
+  "xorg-compositeproto": {
+    "master": true
+  },
+  "xorg-damageproto": {
+    "master": true
+  },
+  "xorg-dmxproto": {
+    "master": true
+  },
+  "xorg-evieext": {
+    "master": true
+  },
+  "xorg-fixesproto": {
+    "master": true
+  },
+  "xorg-font-util": {
+    "master": true
+  },
+  "xorg-fontcacheproto": {
+    "master": true
+  },
+  "xorg-fontsproto": {
+    "master": true
+  },
+  "xorg-gccmakedep": {
+    "master": true
+  },
+  "xorg-glproto": {
+    "master": true
+  },
+  "xorg-imake": {
+    "master": true
+  },
+  "xorg-inputproto": {
+    "master": true
+  },
+  "xorg-kbproto": {
+    "master": true
+  },
+  "xorg-libice": {
+    "master": true
+  },
+  "xorg-libsm": {
+    "master": true
+  },
+  "xorg-libx11": {
+    "master": true
+  },
+  "xorg-libxau": {
+    "master": true
+  },
+  "xorg-libxaw": {
+    "master": true
+  },
+  "xorg-libxaw3d": {
+    "master": true
+  },
+  "xorg-libxcursor": {
+    "master": true
+  },
+  "xorg-libxdmcp": {
+    "master": true
+  },
+  "xorg-libxext": {
+    "master": true
+  },
+  "xorg-libxfixes": {
+    "master": true
+  },
+  "xorg-libxft": {
+    "master": true
+  },
+  "xorg-libxi": {
+    "master": true
+  },
+  "xorg-libxinerama": {
+    "master": true
+  },
+  "xorg-libxmu": {
+    "master": true
+  },
+  "xorg-libxp": {
+    "master": true
+  },
+  "xorg-libxpm": {
+    "master": true
+  },
+  "xorg-libxrandr": {
+    "master": true
+  },
+  "xorg-libxrender": {
+    "master": true
+  },
+  "xorg-libxt": {
+    "master": true
+  },
+  "xorg-libxtst": {
+    "master": true
+  },
+  "xorg-makedepend": {
+    "master": true
+  },
+  "xorg-presentproto": {
+    "master": true
+  },
+  "xorg-printproto": {
+    "master": true
+  },
+  "xorg-randrproto": {
+    "master": true
+  },
+  "xorg-recordproto": {
+    "master": true
+  },
+  "xorg-renderproto": {
+    "master": true
+  },
+  "xorg-resourceproto": {
+    "master": true
+  },
+  "xorg-scrnsaverproto": {
+    "master": true
+  },
+  "xorg-trapproto": {
+    "master": true
+  },
+  "xorg-util-macros": {
+    "master": true
+  },
+  "xorg-videoproto": {
+    "master": true
+  },
+  "xorg-windowswmproto": {
+    "master": true
+  },
+  "xorg-x11-proto-devel-cos7-aarch64": {
+    "master": true
+  },
+  "xorg-xbitmaps": {
+    "master": true
+  },
+  "xorg-xcmiscproto": {
+    "master": true
+  },
+  "xorg-xextproto": {
+    "master": true
+  },
+  "xorg-xf86bigfontproto": {
+    "master": true
+  },
+  "xorg-xf86dgaproto": {
+    "master": true
+  },
+  "xorg-xf86driproto": {
+    "master": true
+  },
+  "xorg-xf86miscproto": {
+    "master": true
+  },
+  "xorg-xf86rushproto": {
+    "master": true
+  },
+  "xorg-xf86vidmodeproto": {
+    "master": true
+  },
+  "xorg-xineramaproto": {
+    "master": true
+  },
+  "xorg-xproto": {
+    "master": true
+  },
+  "xorg-xproxymanagementprotocol": {
+    "master": true
+  },
+  "xorg-xtrans": {
+    "master": true
+  },
+  "xpa": {
+    "master": true
+  },
+  "xpdacq": {
+    "master": true
+  },
+  "xpdan": {
+    "master": true
+  },
+  "xpdconf": {
+    "master": true
+  },
+  "xpdsim": {
+    "master": true
+  },
+  "xpdtools": {
+    "master": true
+  },
+  "xpdview": {
+    "master": true
+  },
+  "xplot": {
+    "master": true
+  },
+  "xproperty": {
+    "master": true
+  },
+  "xpublish": {
+    "master": true
+  },
+  "xray-vision": {
+    "master": true
+  },
+  "xraylib": {
+    "master": true
+  },
+  "xrayutilities": {
+    "master": true
+  },
+  "xrft": {
+    "master": true
+  },
+  "xrftomo": {
+    "master": true
+  },
+  "xrootd": {
+    "master": true
+  },
+  "xrviz": {
+    "master": true
+  },
+  "xsgen": {
+    "master": true
+  },
+  "xsimd": {
+    "master": true
+  },
+  "xskillscore": {
+    "master": true
+  },
+  "xsv": {
+    "master": true
+  },
+  "xtb": {
+    "master": true
+  },
+  "xtensor": {
+    "master": true
+  },
+  "xtensor-blas": {
+    "master": true
+  },
+  "xtensor-fftw": {
+    "master": true
+  },
+  "xtensor-io": {
+    "master": true
+  },
+  "xtensor-julia": {
+    "master": true
+  },
+  "xtensor-python": {
+    "master": true
+  },
+  "xtensor-r": {
+    "master": true
+  },
+  "xtl": {
+    "master": true
+  },
+  "xvfbwrapper": {
+    "master": true
+  },
+  "xwebrtc": {
+    "master": true
+  },
+  "xwidgets": {
+    "master": true
+  },
+  "xxhash": {
+    "master": true
+  },
+  "xz": {
+    "master": true
+  },
+  "yaafe": {
+    "master": true
+  },
+  "yacman": {
+    "master": true
+  },
+  "yacron": {
+    "master": true
+  },
+  "yacs": {
+    "master": true
+  },
+  "yaehmop": {
+    "master": true
+  },
+  "yaff": {
+    "master": true
+  },
+  "yagmail": {
+    "master": true
+  },
+  "yail": {
+    "master": true
+  },
+  "yajl": {
+    "master": true
+  },
+  "yamale": {
+    "master": true
+  },
+  "yaml": {
+    "master": true
+  },
+  "yaml-cpp": {
+    "master": true
+  },
+  "yaml2ncml": {
+    "master": true
+  },
+  "yamllint": {
+    "master": true
+  },
+  "yamlloader": {
+    "master": true
+  },
+  "yamlordereddictloader": {
+    "master": true
+  },
+  "yapf": {
+    "master": true
+  },
+  "yappi": {
+    "master": true
+  },
+  "yapsy": {
+    "master": true
+  },
+  "yaqc": {
+    "master": true
+  },
+  "yaqd-core": {
+    "master": true
+  },
+  "yarg": {
+    "master": true
+  },
+  "yarl": {
+    "master": true
+  },
+  "yarn": {
+    "master": true
+  },
+  "yarn-api-client": {
+    "master": true
+  },
+  "yasm": {
+    "master": true
+  },
+  "yattag": {
+    "master": true
+  },
+  "yeadon": {
+    "master": true
+  },
+  "yews": {
+    "master": true
+  },
+  "yggdrasil": {
+    "master": true
+  },
+  "yodapy": {
+    "master": true
+  },
+  "yodatools": {
+    "master": true
+  },
+  "youtube-dl": {
+    "master": true
   }
 }
