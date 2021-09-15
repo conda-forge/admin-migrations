@@ -24952,5 +24952,374 @@
   },
   "sqlalchemy-migrate": {
     "master": true
+  },
+  "sqlalchemy-redshift": {
+    "master": true
+  },
+  "sqlalchemy-utc": {
+    "master": true
+  },
+  "sqlalchemy-utils": {
+    "master": true
+  },
+  "sqlalchemy_exasol": {
+    "master": true
+  },
+  "sqlalchemy_schemadisplay": {
+    "master": true
+  },
+  "sqlite": {
+    "master": true
+  },
+  "sqlitecpp": {
+    "master": true
+  },
+  "sqlitedict": {
+    "master": true
+  },
+  "sqlobject": {
+    "master": true
+  },
+  "sqlparse": {
+    "master": true
+  },
+  "sqsgenerator": {
+    "master": true
+  },
+  "squarify": {
+    "master": true
+  },
+  "squash": {
+    "master": true
+  },
+  "squashfs-tools": {
+    "master": true
+  },
+  "sre_yield": {
+    "master": true
+  },
+  "sregistry": {
+    "master": true
+  },
+  "srm": {
+    "master": true
+  },
+  "srm-ifce": {
+    "master": true
+  },
+  "srsly": {
+    "master": true
+  },
+  "srtm.py": {
+    "master": true
+  },
+  "sseclient": {
+    "master": true
+  },
+  "ssh2-python": {
+    "master": true
+  },
+  "sshpass": {
+    "master": true
+  },
+  "sshpubkeys": {
+    "master": true
+  },
+  "sshtunnel": {
+    "master": true
+  },
+  "ssl_match_hostname": {
+    "master": true
+  },
+  "sstp-client": {
+    "master": true
+  },
+  "stack": {
+    "master": true
+  },
+  "stack_data": {
+    "master": true
+  },
+  "stackprinter": {
+    "master": true
+  },
+  "standard_names": {
+    "master": true
+  },
+  "standardese": {
+    "master": true
+  },
+  "standardiser": {
+    "master": true
+  },
+  "starlette": {
+    "master": true
+  },
+  "starlink-ast": {
+    "master": true
+  },
+  "starry": {
+    "master": true
+  },
+  "start_jupyter_cm": {
+    "master": true
+  },
+  "startables": {
+    "master": true
+  },
+  "stashy": {
+    "master": true
+  },
+  "stateplane": {
+    "master": true
+  },
+  "static": {
+    "master": true
+  },
+  "static-frame": {
+    "master": true
+  },
+  "staticjinja": {
+    "master": true
+  },
+  "statistics": {
+    "master": true
+  },
+  "statmorph": {
+    "master": true
+  },
+  "statsd": {
+    "master": true
+  },
+  "statsmodels": {
+    "master": true
+  },
+  "statuspage": {
+    "master": true
+  },
+  "stdlib-list": {
+    "master": true
+  },
+  "stdpopsim": {
+    "master": true
+  },
+  "steem": {
+    "master": true
+  },
+  "steemdata": {
+    "master": true
+  },
+  "stefuna": {
+    "master": true
+  },
+  "stem": {
+    "master": true
+  },
+  "stempeg": {
+    "master": true
+  },
+  "stevedore": {
+    "master": true
+  },
+  "stglib": {
+    "master": true
+  },
+  "stingray": {
+    "master": true
+  },
+  "stir": {
+    "master": true
+  },
+  "stochatreat": {
+    "master": true
+  },
+  "stomp.py": {
+    "master": true
+  },
+  "stopit": {
+    "master": true
+  },
+  "storefact": {
+    "master": true
+  },
+  "straditize": {
+    "master": true
+  },
+  "streamz": {
+    "master": true
+  },
+  "streamz_ext": {
+    "master": true
+  },
+  "strec": {
+    "master": true
+  },
+  "strict-rfc3339": {
+    "master": true
+  },
+  "strictyaml": {
+    "master": true
+  },
+  "stringcase": {
+    "master": true
+  },
+  "strip-hints": {
+    "master": true
+  },
+  "struct-lmm": {
+    "master": true
+  },
+  "structlog": {
+    "master": true
+  },
+  "stsynphot": {
+    "master": true
+  },
+  "stuf": {
+    "master": true
+  },
+  "stumpy": {
+    "master": true
+  },
+  "stylist": {
+    "master": true
+  },
+  "su-exec": {
+    "master": true
+  },
+  "subprocess32": {
+    "master": true
+  },
+  "sudospawner": {
+    "master": true
+  },
+  "suds-jurko": {
+    "master": true
+  },
+  "sugartex": {
+    "master": true
+  },
+  "suitesparse": {
+    "master": true
+  },
+  "summa": {
+    "master": true
+  },
+  "sundials": {
+    "master": true
+  },
+  "sunpy": {
+    "master": true
+  },
+  "super_state_machine": {
+    "master": true
+  },
+  "superflore": {
+    "master": true
+  },
+  "superlance": {
+    "master": true
+  },
+  "superlu": {
+    "master": true
+  },
+  "superlu_dist": {
+    "master": true
+  },
+  "supermercado": {
+    "master": true
+  },
+  "superset": {
+    "master": true
+  },
+  "supersmoother": {
+    "master": true
+  },
+  "supervisor": {
+    "master": true
+  },
+  "surface-dynamics": {
+    "master": true
+  },
+  "surfinbh": {
+    "master": true
+  },
+  "sushy": {
+    "master": true
+  },
+  "suspect": {
+    "master": true
+  },
+  "svg2png": {
+    "master": true
+  },
+  "svg42pdf": {
+    "master": true
+  },
+  "svglib": {
+    "master": true
+  },
+  "svgutils": {
+    "master": true
+  },
+  "svgwrite": {
+    "master": true
+  },
+  "swagger-django-generator": {
+    "master": true
+  },
+  "swagger-spec-validator": {
+    "master": true
+  },
+  "swagger-ui-bundle": {
+    "master": true
+  },
+  "swepy": {
+    "master": true
+  },
+  "swi-prolog": {
+    "master": true
+  },
+  "swifter": {
+    "master": true
+  },
+  "swig": {
+    "master": true
+  },
+  "swiglpk": {
+    "master": true
+  },
+  "switch_model": {
+    "master": true
+  },
+  "sxs": {
+    "master": true
+  },
+  "sycomore": {
+    "master": true
+  },
+  "sygma": {
+    "master": true
+  },
+  "symengine": {
+    "master": true
+  },
+  "symfit": {
+    "master": true
+  },
+  "symmetrica": {
+    "master": true
+  },
+  "symopt": {
+    "master": true
+  },
+  "sympow": {
+    "master": true
+  },
+  "sympy": {
+    "master": true
+  },
+  "symstore": {
+    "master": true
   }
 }
