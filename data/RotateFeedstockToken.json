@@ -37048,5 +37048,539 @@
   },
   "tscv": {
     "master": true
+  },
+  "libcugraph": {
+    "master": true
+  },
+  "sgkit": {
+    "master": true
+  },
+  "datasette": {
+    "master": true
+  },
+  "sqlite-utils": {
+    "master": true
+  },
+  "tensortrade": {
+    "master": true
+  },
+  "sockio": {
+    "master": true
+  },
+  "torch-optimizer": {
+    "master": true
+  },
+  "robotframework-robocop": {
+    "master": true
+  },
+  "findiff": {
+    "master": true
+  },
+  "icepap": {
+    "master": true
+  },
+  "r-tigris": {
+    "master": true
+  },
+  "plum-dispatch": {
+    "master": true
+  },
+  "libdate": {
+    "master": true
+  },
+  "ffn": {
+    "master": true
+  },
+  "sklearn-json": {
+    "master": true
+  },
+  "python-lsp-server": {
+    "master": true
+  },
+  "boost_mp11": {
+    "master": true
+  },
+  "demes": {
+    "master": true
+  },
+  "drf-api-tracking": {
+    "master": true
+  },
+  "sphinx-jsonschema": {
+    "master": true
+  },
+  "easygdf": {
+    "master": true
+  },
+  "sphinxcontrib-confluencebuilder": {
+    "master": true
+  },
+  "prrng": {
+    "master": true
+  },
+  "r-pafr": {
+    "master": true
+  },
+  "bt": {
+    "master": true
+  },
+  "libpqxx": {
+    "master": true
+  },
+  "algorithms": {
+    "master": true
+  },
+  "tensorflow-lattice": {
+    "master": true
+  },
+  "yake": {
+    "master": true
+  },
+  "url-normalize": {
+    "master": true
+  },
+  "mongita": {
+    "master": true
+  },
+  "django-elasticsearch-dsl": {
+    "master": true
+  },
+  "rmf": {
+    "master": true
+  },
+  "sheet2dict": {
+    "master": true
+  },
+  "python-forge": {
+    "master": true
+  },
+  "unfccc_di_api": {
+    "master": true
+  },
+  "pystac-client": {
+    "master": true
+  },
+  "otumat": {
+    "master": true
+  },
+  "r-lmomco": {
+    "master": true
+  },
+  "r-spei": {
+    "master": true
+  },
+  "r-easyverification": {
+    "master": true
+  },
+  "autoreject": {
+    "master": true
+  },
+  "xforms": {
+    "master": true
+  },
+  "wind-stats": {
+    "master": true
+  },
+  "bmi-geotiff": {
+    "master": true
+  },
+  "sphinx-intl": {
+    "master": true
+  },
+  "pyrate-limiter": {
+    "master": true
+  },
+  "pyinaturalist": {
+    "master": true
+  },
+  "transifex-client": {
+    "master": true
+  },
+  "r-climdex.pcic": {
+    "master": true
+  },
+  "condansis": {
+    "master": true
+  },
+  "nuflux": {
+    "master": true
+  },
+  "openapi-schema-validator": {
+    "master": true
+  },
+  "sirius": {
+    "master": true
+  },
+  "pycm": {
+    "master": true
+  },
+  "openapi-core": {
+    "master": true
+  },
+  "sphinx-external-toc": {
+    "master": true
+  },
+  "pyposeidon": {
+    "master": true
+  },
+  "cdshealpix": {
+    "master": true
+  },
+  "librmm": {
+    "master": true
+  },
+  "pyrsmq": {
+    "master": true
+  },
+  "ibis-bigquery": {
+    "master": true
+  },
+  "pylexique": {
+    "master": true
+  },
+  "wavespectra": {
+    "master": true
+  },
+  "morfeus-ml": {
+    "master": true
+  },
+  "click-loglevel": {
+    "master": true
+  },
+  "darts": {
+    "master": true
+  },
+  "aurorafusion": {
+    "master": true
+  },
+  "r-hillr": {
+    "master": true
+  },
+  "jupyter-starters-reinforcement-learning-dennybritz": {
+    "master": true
+  },
+  "safeint": {
+    "master": true
+  },
+  "mocpy": {
+    "master": true
+  },
+  "spec-classes": {
+    "master": true
+  },
+  "farm": {
+    "master": true
+  },
+  "rdfpy": {
+    "master": true
+  },
+  "imagedataextractor": {
+    "master": true
+  },
+  "jtango": {
+    "master": true
+  },
+  "affogato": {
+    "master": true
+  },
+  "pyquicksetup": {
+    "master": true
+  },
+  "caelus": {
+    "master": true
+  },
+  "ansible-bundler": {
+    "master": true
+  },
+  "pymilvus": {
+    "master": true
+  },
+  "fd": {
+    "master": true
+  },
+  "optional-lite": {
+    "master": true
+  },
+  "rcedit": {
+    "master": true
+  },
+  "colored-traceback": {
+    "master": true
+  },
+  "python-icc": {
+    "master": true
+  },
+  "dataclasses-json": {
+    "master": true
+  },
+  "pyphysim": {
+    "master": true
+  },
+  "greenlearning": {
+    "master": true
+  },
+  "python-suitesparse-graphblas": {
+    "master": true
+  },
+  "tracktable": {
+    "master": true
+  },
+  "tensorflow-datasets": {
+    "master": true
+  },
+  "ibm_db_sa": {
+    "master": true
+  },
+  "tensorflow-metadata": {
+    "master": true
+  },
+  "simclr": {
+    "master": true
+  },
+  "r-h2o": {
+    "master": true
+  },
+  "async_retriever": {
+    "master": true
+  },
+  "ipyaladin": {
+    "master": true
+  },
+  "neptune-lightgbm": {
+    "master": true
+  },
+  "nomad-lab": {
+    "master": true
+  },
+  "infinite-sets": {
+    "master": true
+  },
+  "eoreader": {
+    "master": true
+  },
+  "neptune-tensorflow-keras": {
+    "master": true
+  },
+  "neptune-sklearn": {
+    "master": true
+  },
+  "openscm-twolayermodel": {
+    "master": true
+  },
+  "sertit": {
+    "master": true
+  },
+  "neptune-xgboost": {
+    "master": true
+  },
+  "p-winds": {
+    "master": true
+  },
+  "planetary-computer": {
+    "master": true
+  },
+  "jupyterlab-markup": {
+    "master": true
+  },
+  "onnxruntime": {
+    "master": true
+  },
+  "renishaw_wire": {
+    "master": true
+  },
+  "window_ops": {
+    "master": true
+  },
+  "spatialgeometry": {
+    "master": true
+  },
+  "eemont": {
+    "master": true
+  },
+  "gdal-csharp": {
+    "master": true
+  },
+  "jupyterlab-drawio": {
+    "master": true
+  },
+  "esmvaltool-python": {
+    "master": true
+  },
+  "r-quanteda.textplots": {
+    "master": true
+  },
+  "scitokens": {
+    "master": true
+  },
+  "infrared": {
+    "master": true
+  },
+  "spectrapepper": {
+    "master": true
+  },
+  "r-babelgene": {
+    "master": true
+  },
+  "r-quanteda.textmodels": {
+    "master": true
+  },
+  "r-quanteda.textstats": {
+    "master": true
+  },
+  "grpc-stubs": {
+    "master": true
+  },
+  "geodatatool": {
+    "master": true
+  },
+  "gcem": {
+    "master": true
+  },
+  "r-hgnchelper": {
+    "master": true
+  },
+  "ostrich": {
+    "master": true
+  },
+  "npx": {
+    "master": true
+  },
+  "python-fsutil": {
+    "master": true
+  },
+  "raven-hydro": {
+    "master": true
+  },
+  "r-duckdb": {
+    "master": true
+  },
+  "r-cranlogs": {
+    "master": true
+  },
+  "lib3mf": {
+    "master": true
+  },
+  "environ-config": {
+    "master": true
+  },
+  "otpauth": {
+    "master": true
+  },
+  "dictpath": {
+    "master": true
+  },
+  "molsystem": {
+    "master": true
+  },
+  "pydeprecate": {
+    "master": true
+  },
+  "r-homomorpher": {
+    "master": true
+  },
+  "qrtools": {
+    "master": true
+  },
+  "josepy": {
+    "master": true
+  },
+  "pyauthenticator": {
+    "master": true
+  },
+  "des-pizza-cutter-metadetect": {
+    "master": true
+  },
+  "r-rphylopars": {
+    "master": true
+  },
+  "pycgns": {
+    "master": true
+  },
+  "r-taxonomizr": {
+    "master": true
+  },
+  "r-chebpol": {
+    "master": true
+  },
+  "english": {
+    "master": true
+  },
+  "pyfd": {
+    "master": true
+  },
+  "aws-c-compression": {
+    "master": true
+  },
+  "terraform-provider-ec": {
+    "master": true
+  },
+  "aws-c-http": {
+    "master": true
+  },
+  "mlforecast": {
+    "master": true
+  },
+  "acme": {
+    "master": true
+  },
+  "brian2genn": {
+    "master": true
+  },
+  "metview-python": {
+    "master": true
+  },
+  "pytest-codeblocks": {
+    "master": true
+  },
+  "randomfiletree": {
+    "master": true
+  },
+  "lhcbstyle": {
+    "master": true
+  },
+  "aws-c-mqtt": {
+    "master": true
+  },
+  "codecarbon": {
+    "master": true
+  },
+  "ravenpy": {
+    "master": true
+  },
+  "gemseo": {
+    "master": true
+  },
+  "res-mlp-pytorch": {
+    "master": true
+  },
+  "aiohttp-client-cache": {
+    "master": true
+  },
+  "r-hues": {
+    "master": true
+  },
+  "boto3-stubs": {
+    "master": true
+  },
+  "r-academictwitter": {
+    "master": true
+  },
+  "r-terra": {
+    "master": true
+  },
+  "r-gdalcubes": {
+    "master": true
+  },
+  "elastic-apm": {
+    "master": true
+  },
+  "aws-c-auth": {
+    "master": true
+  },
+  "mi-fieldcalc": {
+    "master": true
+  },
+  "pyratbay": {
+    "master": true
   }
 }
