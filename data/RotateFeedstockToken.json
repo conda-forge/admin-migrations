@@ -30397,5 +30397,308 @@
   },
   "limitcpu": {
     "master": true
+  },
+  "agnpy": {
+    "master": true
+  },
+  "chktex": {
+    "master": true
+  },
+  "stginga": {
+    "master": true
+  },
+  "screen": {
+    "master": true
+  },
+  "astroalign": {
+    "master": true
+  },
+  "hyp3lib": {
+    "master": true
+  },
+  "r-umx": {
+    "master": true
+  },
+  "email-validator": {
+    "master": true
+  },
+  "r-credentials": {
+    "master": true
+  },
+  "r-gert": {
+    "master": true
+  },
+  "pypeln": {
+    "master": true
+  },
+  "pygeoutils": {
+    "master": true
+  },
+  "google-crc32c": {
+    "master": true
+  },
+  "r-ssh": {
+    "master": true
+  },
+  "flask-security-too": {
+    "master": true
+  },
+  "three-merge": {
+    "master": true
+  },
+  "xarray-spatial": {
+    "master": true
+  },
+  "r-clinfun": {
+    "master": true
+  },
+  "r-traminer": {
+    "master": true
+  },
+  "r-nabor": {
+    "master": true
+  },
+  "r-pma": {
+    "master": true
+  },
+  "r-cpp11": {
+    "master": true
+  },
+  "sbt": {
+    "master": true
+  },
+  "r-semnetcleaner": {
+    "master": true
+  },
+  "pynhd": {
+    "master": true
+  },
+  "pylatex": {
+    "master": true
+  },
+  "adversarial-robustness-toolbox": {
+    "master": true
+  },
+  "dftbplus-tools": {
+    "master": true
+  },
+  "seir": {
+    "master": true
+  },
+  "imageai": {
+    "master": true
+  },
+  "chemper": {
+    "master": true
+  },
+  "mypy-boto3-logs": {
+    "master": true
+  },
+  "mypy-boto3-batch": {
+    "master": true
+  },
+  "dftbplus-python": {
+    "master": true
+  },
+  "fairseq": {
+    "master": true
+  },
+  "dedalus": {
+    "master": true
+  },
+  "dftbplus": {
+    "master": true
+  },
+  "mpifx": {
+    "master": true
+  },
+  "artificial-adversary": {
+    "master": true
+  },
+  "pyls-black": {
+    "master": true
+  },
+  "sbpy": {
+    "master": true
+  },
+  "r-treebase": {
+    "master": true
+  },
+  "gdecomp": {
+    "master": true
+  },
+  "r-datapasta": {
+    "master": true
+  },
+  "netcdf-flattener": {
+    "master": true
+  },
+  "face_recognition_models": {
+    "master": true
+  },
+  "face_recognition": {
+    "master": true
+  },
+  "apicurio-keycloak-extensions": {
+    "master": true
+  },
+  "glib-networking": {
+    "master": true
+  },
+  "libpsl": {
+    "master": true
+  },
+  "ldcpy": {
+    "master": true
+  },
+  "websockify": {
+    "master": true
+  },
+  "dataprep": {
+    "master": true
+  },
+  "robotframework-pythonlibcore": {
+    "master": true
+  },
+  "pytest-trio": {
+    "master": true
+  },
+  "pydaymet": {
+    "master": true
+  },
+  "hmsclient": {
+    "master": true
+  },
+  "bycycle": {
+    "master": true
+  },
+  "python-stdnum": {
+    "master": true
+  },
+  "django-localflavor": {
+    "master": true
+  },
+  "karateclub": {
+    "master": true
+  },
+  "language_tool_python": {
+    "master": true
+  },
+  "textattack": {
+    "master": true
+  },
+  "nlp": {
+    "master": true
+  },
+  "libsoup": {
+    "master": true
+  },
+  "bert_score": {
+    "master": true
+  },
+  "python-flair": {
+    "master": true
+  },
+  "sentence-transformers": {
+    "master": true
+  },
+  "wandb": {
+    "master": true
+  },
+  "lisc": {
+    "master": true
+  },
+  "theano-pymc": {
+    "master": true
+  },
+  "dataframe_image": {
+    "master": true
+  },
+  "tilt": {
+    "master": true
+  },
+  "batman-package": {
+    "master": true
+  },
+  "django-parler": {
+    "master": true
+  },
+  "doctr-versions-menu": {
+    "master": true
+  },
+  "django-rosetta": {
+    "master": true
+  },
+  "altair-transform": {
+    "master": true
+  },
+  "cf_xarray": {
+    "master": true
+  },
+  "ibis-vega-transform": {
+    "master": true
+  },
+  "yaqd-seabreeze": {
+    "master": true
+  },
+  "yaqd-gdrive": {
+    "master": true
+  },
+  "yaqd-newport": {
+    "master": true
+  },
+  "bitsets": {
+    "master": true
+  },
+  "histoprint": {
+    "master": true
+  },
+  "yaqd-pmc": {
+    "master": true
+  },
+  "yaqc-bluesky": {
+    "master": true
+  },
+  "yaqd-lightcon": {
+    "master": true
+  },
+  "yaqd-acton": {
+    "master": true
+  },
+  "yaqd-horiba": {
+    "master": true
+  },
+  "thorlabs-apt-protocol": {
+    "master": true
+  },
+  "treegp": {
+    "master": true
+  },
+  "pokrok": {
+    "master": true
+  },
+  "pyaescrypt": {
+    "master": true
+  },
+  "yaqd-thorlabs": {
+    "master": true
+  },
+  "coreschema": {
+    "master": true
+  },
+  "coreapi": {
+    "master": true
+  },
+  "drf-yasg": {
+    "master": true
+  },
+  "pyinquirer": {
+    "master": true
+  },
+  "pytest-nunit": {
+    "master": true
+  },
+  "botorch": {
+    "master": true
   }
 }
