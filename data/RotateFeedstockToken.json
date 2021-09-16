@@ -38608,5 +38608,398 @@
   },
   "tomli": {
     "master": true
+  },
+  "marshmallow-union": {
+    "master": true
+  },
+  "botcity-maestro-sdk": {
+    "master": true
+  },
+  "aws-c-s3": {
+    "master": true
+  },
+  "scanpy": {
+    "master": true
+  },
+  "argparse-manpage-birdtools": {
+    "master": true
+  },
+  "sanic-security": {
+    "master": true
+  },
+  "monitor-server-api": {
+    "master": true
+  },
+  "arxiv": {
+    "master": true
+  },
+  "pyxel-sim": {
+    "master": true
+  },
+  "openmichrom": {
+    "master": true
+  },
+  "r-spthin": {
+    "master": true
+  },
+  "ipydatetime": {
+    "master": true
+  },
+  "findorb-data-de430t": {
+    "master": true
+  },
+  "imp": {
+    "master": true
+  },
+  "labelimg": {
+    "master": true
+  },
+  "findorb": {
+    "master": true
+  },
+  "openslide-python": {
+    "master": true
+  },
+  "syncthing": {
+    "master": true
+  },
+  "clingcon": {
+    "master": true
+  },
+  "exoplanet-core": {
+    "master": true
+  },
+  "ellc": {
+    "master": true
+  },
+  "tinyobjloader": {
+    "master": true
+  },
+  "r-rangemodelmetadata": {
+    "master": true
+  },
+  "pycudasirecon": {
+    "master": true
+  },
+  "pyoptsparse": {
+    "master": true
+  },
+  "mols2grid": {
+    "master": true
+  },
+  "ibm_db_django": {
+    "master": true
+  },
+  "scanning_drift_corr": {
+    "master": true
+  },
+  "napkin": {
+    "master": true
+  },
+  "r-pkgdepends": {
+    "master": true
+  },
+  "pandasql": {
+    "master": true
+  },
+  "r-tzdb": {
+    "master": true
+  },
+  "contrastive-learner": {
+    "master": true
+  },
+  "keyboard": {
+    "master": true
+  },
+  "xagg": {
+    "master": true
+  },
+  "ratemate": {
+    "master": true
+  },
+  "awscrt": {
+    "master": true
+  },
+  "vector-quantize-pytorch": {
+    "master": true
+  },
+  "r-clock": {
+    "master": true
+  },
+  "xeus_octave": {
+    "master": true
+  },
+  "clorm": {
+    "master": true
+  },
+  "python-clingox": {
+    "master": true
+  },
+  "telingo": {
+    "master": true
+  },
+  "flake8-continuation": {
+    "master": true
+  },
+  "hklpy": {
+    "master": true
+  },
+  "stable-baselines3": {
+    "master": true
+  },
+  "pyresttable": {
+    "master": true
+  },
+  "google-cloud-audit-log": {
+    "master": true
+  },
+  "google-cloud-appengine-logging": {
+    "master": true
+  },
+  "convert3d": {
+    "master": true
+  },
+  "r-policytree": {
+    "master": true
+  },
+  "apischema": {
+    "master": true
+  },
+  "extract_model": {
+    "master": true
+  },
+  "openff-interchange": {
+    "master": true
+  },
+  "erddap-python": {
+    "master": true
+  },
+  "tl-optional": {
+    "master": true
+  },
+  "pywhip": {
+    "master": true
+  },
+  "scaleapi": {
+    "master": true
+  },
+  "blake3": {
+    "master": true
+  },
+  "tempeh": {
+    "master": true
+  },
+  "rust-script": {
+    "master": true
+  },
+  "seedbank": {
+    "master": true
+  },
+  "lbmpy-walberla": {
+    "master": true
+  },
+  "pystencils": {
+    "master": true
+  },
+  "lbmpy": {
+    "master": true
+  },
+  "pystencils-walberla": {
+    "master": true
+  },
+  "chemprop": {
+    "master": true
+  },
+  "p-tqdm": {
+    "master": true
+  },
+  "typed-argument-parser": {
+    "master": true
+  },
+  "dtool_overlay": {
+    "master": true
+  },
+  "dtool_annotation": {
+    "master": true
+  },
+  "dtool_tag": {
+    "master": true
+  },
+  "pystencils-autodiff": {
+    "master": true
+  },
+  "pystencils-reco": {
+    "master": true
+  },
+  "types-singledispatch": {
+    "master": true
+  },
+  "types-docopt": {
+    "master": true
+  },
+  "types-markdown": {
+    "master": true
+  },
+  "types-ipaddress": {
+    "master": true
+  },
+  "types-redis": {
+    "master": true
+  },
+  "types-polib": {
+    "master": true
+  },
+  "types-characteristic": {
+    "master": true
+  },
+  "types-enum34": {
+    "master": true
+  },
+  "types-filelock": {
+    "master": true
+  },
+  "types-fb303": {
+    "master": true
+  },
+  "types-nmap": {
+    "master": true
+  },
+  "types-dateparser": {
+    "master": true
+  },
+  "types-pyrfc3339": {
+    "master": true
+  },
+  "types-chardet": {
+    "master": true
+  },
+  "types-decorator": {
+    "master": true
+  },
+  "types-pycurl": {
+    "master": true
+  },
+  "types-kazoo": {
+    "master": true
+  },
+  "types-werkzeug": {
+    "master": true
+  },
+  "types-tabulate": {
+    "master": true
+  },
+  "types-annoy": {
+    "master": true
+  },
+  "types-frozendict": {
+    "master": true
+  },
+  "types-pyyaml": {
+    "master": true
+  },
+  "types-termcolor": {
+    "master": true
+  },
+  "types-freezegun": {
+    "master": true
+  },
+  "types-xxhash": {
+    "master": true
+  },
+  "types-pyfarmhash": {
+    "master": true
+  },
+  "types-click-spinner": {
+    "master": true
+  },
+  "types-aiofiles": {
+    "master": true
+  },
+  "types-orjson": {
+    "master": true
+  },
+  "types-mypy-extensions": {
+    "master": true
+  },
+  "types-toml": {
+    "master": true
+  },
+  "types-typed-ast": {
+    "master": true
+  },
+  "types-pkg_resources": {
+    "master": true
+  },
+  "types-backports_abc": {
+    "master": true
+  },
+  "types-pytz": {
+    "master": true
+  },
+  "types-pathlib2": {
+    "master": true
+  },
+  "types-dataclasses": {
+    "master": true
+  },
+  "types-atomicwrites": {
+    "master": true
+  },
+  "types-docutils": {
+    "master": true
+  },
+  "types-certifi": {
+    "master": true
+  },
+  "types-markupsafe": {
+    "master": true
+  },
+  "types-python-gflags": {
+    "master": true
+  },
+  "types-six": {
+    "master": true
+  },
+  "types-retry": {
+    "master": true
+  },
+  "types-pymssql": {
+    "master": true
+  },
+  "types-contextvars": {
+    "master": true
+  },
+  "types-bleach": {
+    "master": true
+  },
+  "types-pymysql": {
+    "master": true
+  },
+  "types-mock": {
+    "master": true
+  },
+  "types-click": {
+    "master": true
+  },
+  "types-croniter": {
+    "master": true
+  },
+  "types-requests": {
+    "master": true
+  },
+  "types-cachetools": {
+    "master": true
+  },
+  "types-python-slugify": {
+    "master": true
+  },
+  "types-pillow": {
+    "master": true
+  },
+  "types-first": {
+    "master": true
+  },
+  "types-python-dateutil": {
+    "master": true
   }
 }
