@@ -35071,5 +35071,473 @@
   },
   "tzwhere": {
     "master": true
+  },
+  "r-eddington": {
+    "master": true
+  },
+  "lux-widget": {
+    "master": true
+  },
+  "snakebite-py3": {
+    "master": true
+  },
+  "numpy-financial": {
+    "master": true
+  },
+  "pyads": {
+    "master": true
+  },
+  "jupyterlab-gt-coar-theme": {
+    "master": true
+  },
+  "huggingface_hub": {
+    "master": true
+  },
+  "cramjam": {
+    "master": true
+  },
+  "aesara": {
+    "master": true
+  },
+  "ipytone": {
+    "master": true
+  },
+  "clad": {
+    "master": true
+  },
+  "apache-airflow-providers-sqlite": {
+    "master": true
+  },
+  "apache-airflow-providers-ftp": {
+    "master": true
+  },
+  "apache-airflow-providers-http": {
+    "master": true
+  },
+  "apache-airflow-providers-imap": {
+    "master": true
+  },
+  "xmldiff": {
+    "master": true
+  },
+  "desktop-app": {
+    "master": true
+  },
+  "sphinxext-rediraffe": {
+    "master": true
+  },
+  "r-terrainmeshr": {
+    "master": true
+  },
+  "ltd-conveyor": {
+    "master": true
+  },
+  "pgsanity": {
+    "master": true
+  },
+  "cron-descriptor": {
+    "master": true
+  },
+  "erdantic": {
+    "master": true
+  },
+  "n2p2": {
+    "master": true
+  },
+  "urlscan": {
+    "master": true
+  },
+  "lux-api": {
+    "master": true
+  },
+  "docstring-to-markdown": {
+    "master": true
+  },
+  "jax-md": {
+    "master": true
+  },
+  "heyoka.py": {
+    "master": true
+  },
+  "dm-haiku": {
+    "master": true
+  },
+  "google-colab": {
+    "master": true
+  },
+  "flake8-annotations": {
+    "master": true
+  },
+  "rxspencer": {
+    "master": true
+  },
+  "loadmydata": {
+    "master": true
+  },
+  "mdx_truly_sane_lists": {
+    "master": true
+  },
+  "opentelemetry-instrumentation": {
+    "master": true
+  },
+  "opentelemetry-instrumentation-aiohttp-client": {
+    "master": true
+  },
+  "r-rayimage": {
+    "master": true
+  },
+  "bazel_buildozer": {
+    "master": true
+  },
+  "getopt-win32": {
+    "master": true
+  },
+  "cobra": {
+    "master": true
+  },
+  "r-coro": {
+    "master": true
+  },
+  "r-weightedcluster": {
+    "master": true
+  },
+  "r-rayshader": {
+    "master": true
+  },
+  "apache-airflow-providers-singularity": {
+    "master": true
+  },
+  "aws-lambda-powertools": {
+    "master": true
+  },
+  "apache-airflow-providers-microsoft-mssql": {
+    "master": true
+  },
+  "apache-airflow-providers-cncf-kubernetes": {
+    "master": true
+  },
+  "apache-airflow-providers-redis": {
+    "master": true
+  },
+  "apache-airflow-providers-facebook": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-druid": {
+    "master": true
+  },
+  "apache-airflow-providers-dingding": {
+    "master": true
+  },
+  "apache-airflow-providers-mysql": {
+    "master": true
+  },
+  "apache-airflow-providers-cloudant": {
+    "master": true
+  },
+  "apache-airflow-providers-sendgrid": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-hdfs": {
+    "master": true
+  },
+  "apache-airflow-providers-opsgenie": {
+    "master": true
+  },
+  "apache-airflow-providers-docker": {
+    "master": true
+  },
+  "apache-airflow-providers-openfaas": {
+    "master": true
+  },
+  "apache-airflow-providers-grpc": {
+    "master": true
+  },
+  "svg.path": {
+    "master": true
+  },
+  "apache-airflow-providers-datadog": {
+    "master": true
+  },
+  "apache-airflow-providers-snowflake": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-spark": {
+    "master": true
+  },
+  "apache-airflow-providers-databricks": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-beam": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-pig": {
+    "master": true
+  },
+  "apache-airflow-providers-plexus": {
+    "master": true
+  },
+  "apache-airflow-providers-microsoft-winrm": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-sqoop": {
+    "master": true
+  },
+  "apache-airflow-providers-sftp": {
+    "master": true
+  },
+  "apache-airflow-providers-segment": {
+    "master": true
+  },
+  "apache-airflow-providers-samba": {
+    "master": true
+  },
+  "apache-airflow-providers-jira": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-livy": {
+    "master": true
+  },
+  "apache-airflow-providers-hashicorp": {
+    "master": true
+  },
+  "apache-airflow-providers-telegram": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-hive": {
+    "master": true
+  },
+  "apache-airflow-providers-exasol": {
+    "master": true
+  },
+  "apache-airflow-providers-vertica": {
+    "master": true
+  },
+  "apache-airflow-providers-papermill": {
+    "master": true
+  },
+  "apache-airflow-providers-jdbc": {
+    "master": true
+  },
+  "apache-airflow-providers-ssh": {
+    "master": true
+  },
+  "apache-airflow-providers-oracle": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-cassandra": {
+    "master": true
+  },
+  "apache-airflow-providers-celery": {
+    "master": true
+  },
+  "apache-airflow-providers-mongo": {
+    "master": true
+  },
+  "apache-airflow-providers-amazon": {
+    "master": true
+  },
+  "apache-airflow-providers-salesforce": {
+    "master": true
+  },
+  "apache-airflow-providers-qubole": {
+    "master": true
+  },
+  "apache-airflow-providers-odbc": {
+    "master": true
+  },
+  "apache-airflow-providers-discord": {
+    "master": true
+  },
+  "text_extensions_for_pandas": {
+    "master": true
+  },
+  "django-pwa": {
+    "master": true
+  },
+  "jupyter-book": {
+    "master": true
+  },
+  "memoization": {
+    "master": true
+  },
+  "jhub-client": {
+    "master": true
+  },
+  "hopfield4py": {
+    "master": true
+  },
+  "intake-thredds": {
+    "master": true
+  },
+  "starz": {
+    "master": true
+  },
+  "vizlo": {
+    "master": true
+  },
+  "si-prefix": {
+    "master": true
+  },
+  "jupyterlab-system-monitor": {
+    "master": true
+  },
+  "jupyterlab-topbar": {
+    "master": true
+  },
+  "icon_font_to_png": {
+    "master": true
+  },
+  "herepy": {
+    "master": true
+  },
+  "frilouz": {
+    "master": true
+  },
+  "pwntools": {
+    "master": true
+  },
+  "incqueryserver-jupyter": {
+    "master": true
+  },
+  "ropgadget": {
+    "master": true
+  },
+  "incqueryserver-api-python-client": {
+    "master": true
+  },
+  "unicorn": {
+    "master": true
+  },
+  "ww": {
+    "master": true
+  },
+  "django-tag-parser": {
+    "master": true
+  },
+  "django-polymorphic-tree": {
+    "master": true
+  },
+  "unpaper": {
+    "master": true
+  },
+  "pyiron_gpl": {
+    "master": true
+  },
+  "axel": {
+    "master": true
+  },
+  "dcm2bids": {
+    "master": true
+  },
+  "pyiron_continuum": {
+    "master": true
+  },
+  "ocrmypdf": {
+    "master": true
+  },
+  "google-cloud-memcache": {
+    "master": true
+  },
+  "lyx": {
+    "master": true
+  },
+  "apache-airflow-providers-apache-pinot": {
+    "master": true
+  },
+  "r-rmsnumpress": {
+    "master": true
+  },
+  "r-inspectdf": {
+    "master": true
+  },
+  "minimock": {
+    "master": true
+  },
+  "apache-airflow-providers-zendesk": {
+    "master": true
+  },
+  "logdir": {
+    "master": true
+  },
+  "cccc": {
+    "master": true
+  },
+  "libimagequant": {
+    "master": true
+  },
+  "azure-batch": {
+    "master": true
+  },
+  "glow": {
+    "master": true
+  },
+  "bluesky-live": {
+    "master": true
+  },
+  "jaeger-browser": {
+    "master": true
+  },
+  "apache-airflow-providers-slack": {
+    "master": true
+  },
+  "authenticatorpy": {
+    "master": true
+  },
+  "apache-airflow-providers-yandex": {
+    "master": true
+  },
+  "python-neutronclient": {
+    "master": true
+  },
+  "matscipy": {
+    "master": true
+  },
+  "exdown": {
+    "master": true
+  },
+  "pngquant": {
+    "master": true
+  },
+  "stone": {
+    "master": true
+  },
+  "pdpyras": {
+    "master": true
+  },
+  "kylinpy": {
+    "master": true
+  },
+  "eth-event": {
+    "master": true
+  },
+  "srwpy": {
+    "master": true
+  },
+  "sardana": {
+    "master": true
+  },
+  "presto-python-client": {
+    "master": true
+  },
+  "r-gsdesign": {
+    "master": true
+  },
+  "ptitprince": {
+    "master": true
+  },
+  "google-cloud-workflows": {
+    "master": true
+  },
+  "libgumbo": {
+    "master": true
+  },
+  "pysbol2": {
+    "master": true
+  },
+  "r-teamr": {
+    "master": true
+  },
+  "graphviz2drawio": {
+    "master": true
   }
 }
