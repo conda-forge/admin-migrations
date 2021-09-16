@@ -40342,5 +40342,494 @@
   },
   "libmongoc": {
     "master": true
+  },
+  "libbson": {
+    "master": true
+  },
+  "r-ggside": {
+    "master": true
+  },
+  "cmdstan": {
+    "master": true
+  },
+  "kedro-neptune": {
+    "master": true
+  },
+  "seispy": {
+    "master": true
+  },
+  "libdlf": {
+    "master": true
+  },
+  "pymatgen-lammps": {
+    "master": true
+  },
+  "pymatgen-analysis-diffusion": {
+    "master": true
+  },
+  "r-faraway": {
+    "master": true
+  },
+  "opentelemetry-exporter-datadog": {
+    "master": true
+  },
+  "gliderpy": {
+    "master": true
+  },
+  "moderngl-window": {
+    "master": true
+  },
+  "motionless": {
+    "master": true
+  },
+  "pyobjc-framework-metal": {
+    "master": true
+  },
+  "mamba-bash-completion": {
+    "master": true
+  },
+  "sqlakeyset": {
+    "master": true
+  },
+  "r-rsclient": {
+    "master": true
+  },
+  "conda-flow": {
+    "master": true
+  },
+  "pisces-db": {
+    "master": true
+  },
+  "allennlp-server": {
+    "master": true
+  },
+  "keplergl": {
+    "master": true
+  },
+  "piconnect": {
+    "master": true
+  },
+  "jupyterlab-fonts": {
+    "master": true
+  },
+  "storm": {
+    "master": true
+  },
+  "bias_correction": {
+    "master": true
+  },
+  "opensmog": {
+    "master": true
+  },
+  "aws-sso-lib": {
+    "master": true
+  },
+  "aws-error-utils": {
+    "master": true
+  },
+  "icepaposc": {
+    "master": true
+  },
+  "mido": {
+    "master": true
+  },
+  "aws-sso-util": {
+    "master": true
+  },
+  "lhorizon": {
+    "master": true
+  },
+  "pyannote.core": {
+    "master": true
+  },
+  "ipy": {
+    "master": true
+  },
+  "jasp": {
+    "master": true
+  },
+  "pyannote.database": {
+    "master": true
+  },
+  "pyannote.metrics": {
+    "master": true
+  },
+  "polyagamma": {
+    "master": true
+  },
+  "igwn-cmake-macros": {
+    "master": true
+  },
+  "pymp-pypi": {
+    "master": true
+  },
+  "folly": {
+    "master": true
+  },
+  "yatiml": {
+    "master": true
+  },
+  "pretty_midi": {
+    "master": true
+  },
+  "activitysim": {
+    "master": true
+  },
+  "ee_extra": {
+    "master": true
+  },
+  "itpminer": {
+    "master": true
+  },
+  "r-editdata": {
+    "master": true
+  },
+  "platformdirs": {
+    "master": true
+  },
+  "parquet-tools": {
+    "master": true
+  },
+  "pyspelling": {
+    "master": true
+  },
+  "cloudml-hypertune": {
+    "master": true
+  },
+  "sleepecg": {
+    "master": true
+  },
+  "secml": {
+    "master": true
+  },
+  "icepapcms": {
+    "master": true
+  },
+  "exact-real": {
+    "master": true
+  },
+  "xeus-python-shell": {
+    "master": true
+  },
+  "seekr2_openmm_plugin": {
+    "master": true
+  },
+  "pyls-flake8": {
+    "master": true
+  },
+  "openapi-python-client": {
+    "master": true
+  },
+  "r-tfautograph": {
+    "master": true
+  },
+  "pylatte": {
+    "master": true
+  },
+  "lammps-interface": {
+    "master": true
+  },
+  "codeclimate-test-reporter": {
+    "master": true
+  },
+  "sqlalchemy-spanner": {
+    "master": true
+  },
+  "pyclibrary": {
+    "master": true
+  },
+  "devicely": {
+    "master": true
+  },
+  "pydyf": {
+    "master": true
+  },
+  "vasppy": {
+    "master": true
+  },
+  "autopxd2": {
+    "master": true
+  },
+  "meggie": {
+    "master": true
+  },
+  "pynauty": {
+    "master": true
+  },
+  "pycppad": {
+    "master": true
+  },
+  "lemmagen3": {
+    "master": true
+  },
+  "go-activation": {
+    "master": true
+  },
+  "jupyterlab-language-packs": {
+    "master": true
+  },
+  "r-glmpath": {
+    "master": true
+  },
+  "r-posterior": {
+    "master": true
+  },
+  "lightning-flash": {
+    "master": true
+  },
+  "kanga": {
+    "master": true
+  },
+  "g2p-en": {
+    "master": true
+  },
+  "lazypredict": {
+    "master": true
+  },
+  "pysynphot": {
+    "master": true
+  },
+  "r-trackdown": {
+    "master": true
+  },
+  "circuitq": {
+    "master": true
+  },
+  "autopage": {
+    "master": true
+  },
+  "verr": {
+    "master": true
+  },
+  "pgpy": {
+    "master": true
+  },
+  "smirnoff-plugins": {
+    "master": true
+  },
+  "autoviz": {
+    "master": true
+  },
+  "kwargshelper": {
+    "master": true
+  },
+  "compas_convert": {
+    "master": true
+  },
+  "apav": {
+    "master": true
+  },
+  "arm-variant": {
+    "master": true
+  },
+  "ocean_model_skill_assessor": {
+    "master": true
+  },
+  "kats": {
+    "master": true
+  },
+  "paranoid_scientist": {
+    "master": true
+  },
+  "oxigraph": {
+    "master": true
+  },
+  "borb": {
+    "master": true
+  },
+  "sqlalchemy2-stubs": {
+    "master": true
+  },
+  "slippers": {
+    "master": true
+  },
+  "refactor": {
+    "master": true
+  },
+  "ansible-compat": {
+    "master": true
+  },
+  "tcllib": {
+    "master": true
+  },
+  "evidently": {
+    "master": true
+  },
+  "sqlmodel": {
+    "master": true
+  },
+  "oxrdflib": {
+    "master": true
+  },
+  "pecos": {
+    "master": true
+  },
+  "rlpython": {
+    "master": true
+  },
+  "libhiredis": {
+    "master": true
+  },
+  "r-spikeslab": {
+    "master": true
+  },
+  "r-sentimentanalysis": {
+    "master": true
+  },
+  "r-tau": {
+    "master": true
+  },
+  "loopy": {
+    "master": true
+  },
+  "r-word2vec": {
+    "master": true
+  },
+  "r-twfy": {
+    "master": true
+  },
+  "r-fastnaivebayes": {
+    "master": true
+  },
+  "r-ngramrr": {
+    "master": true
+  },
+  "r-udpipe": {
+    "master": true
+  },
+  "codepy": {
+    "master": true
+  },
+  "r-ggpolypath": {
+    "master": true
+  },
+  "r-inlabru": {
+    "master": true
+  },
+  "commandlines": {
+    "master": true
+  },
+  "latte": {
+    "master": true
+  },
+  "project_name": {
+    "master": true
+  },
+  "lona": {
+    "master": true
+  },
+  "sqlglot": {
+    "master": true
+  },
+  "pyrayt": {
+    "master": true
+  },
+  "r-doc2vec": {
+    "master": true
+  },
+  "grafana_api": {
+    "master": true
+  },
+  "figuregenerator": {
+    "master": true
+  },
+  "torch-scatter": {
+    "master": true
+  },
+  "nncf": {
+    "master": true
+  },
+  "wikipedia-api": {
+    "master": true
+  },
+  "dsm2dtm": {
+    "master": true
+  },
+  "cutde": {
+    "master": true
+  },
+  "r-datacomparer": {
+    "master": true
+  },
+  "torchinfo": {
+    "master": true
+  },
+  "python-smail": {
+    "master": true
+  },
+  "torchts": {
+    "master": true
+  },
+  "oneagent-sdk-for-c": {
+    "master": true
+  },
+  "bg-mpl-stylesheets": {
+    "master": true
+  },
+  "esmvaltool-suite": {
+    "master": true
+  },
+  "ansys-mapdl-reader": {
+    "master": true
+  },
+  "restraintlib": {
+    "master": true
+  },
+  "eeyore": {
+    "master": true
+  },
+  "jina": {
+    "master": true
+  },
+  "dexpy": {
+    "master": true
+  },
+  "dpcmaps": {
+    "master": true
+  },
+  "r-yulab.utils": {
+    "master": true
+  },
+  "r-lmodel2": {
+    "master": true
+  },
+  "alteryx-open-src-update-checker": {
+    "master": true
+  },
+  "chartpress": {
+    "master": true
+  },
+  "wxee": {
+    "master": true
+  },
+  "txtorcon": {
+    "master": true
+  },
+  "tables-io": {
+    "master": true
+  },
+  "mail-parser": {
+    "master": true
+  },
+  "rfc6555": {
+    "master": true
+  },
+  "offlineimap": {
+    "master": true
+  },
+  "pyoutlook": {
+    "master": true
+  },
+  "r-rcppsimdjson": {
+    "master": true
+  },
+  "libspiro": {
+    "master": true
+  },
+  "enchant": {
+    "master": true
+  },
+  "r-dictionar6": {
+    "master": true
   }
 }
