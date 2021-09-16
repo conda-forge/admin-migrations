@@ -39532,5 +39532,419 @@
   },
   "r-regsem": {
     "master": true
+  },
+  "r-hmeasure": {
+    "master": true
+  },
+  "r-psychtools": {
+    "master": true
+  },
+  "r-weightr": {
+    "master": true
+  },
+  "r-toster": {
+    "master": true
+  },
+  "r-onewaytests": {
+    "master": true
+  },
+  "pyacvd": {
+    "master": true
+  },
+  "pycox": {
+    "master": true
+  },
+  "r-datawizard": {
+    "master": true
+  },
+  "r-bms": {
+    "master": true
+  },
+  "r-candisc": {
+    "master": true
+  },
+  "r-dpq": {
+    "master": true
+  },
+  "r-ggpol": {
+    "master": true
+  },
+  "r-abtest": {
+    "master": true
+  },
+  "r-jfa": {
+    "master": true
+  },
+  "r-bsda": {
+    "master": true
+  },
+  "r-cocor": {
+    "master": true
+  },
+  "r-bain": {
+    "master": true
+  },
+  "r-eigenmodel": {
+    "master": true
+  },
+  "r-mdscore": {
+    "master": true
+  },
+  "symfem": {
+    "master": true
+  },
+  "r-kutils": {
+    "master": true
+  },
+  "r-qgraph": {
+    "master": true
+  },
+  "plotext": {
+    "master": true
+  },
+  "wikipedia_ql": {
+    "master": true
+  },
+  "bioimageio.spec": {
+    "master": true
+  },
+  "pytest-httpx": {
+    "master": true
+  },
+  "opuslib": {
+    "master": true
+  },
+  "pycups": {
+    "master": true
+  },
+  "opendp-smartnoise-core": {
+    "master": true
+  },
+  "opendp-smartnoise": {
+    "master": true
+  },
+  "r-isingsampler": {
+    "master": true
+  },
+  "pypdf3": {
+    "master": true
+  },
+  "r-runjags": {
+    "master": true
+  },
+  "r-smacof": {
+    "master": true
+  },
+  "pypardiso": {
+    "master": true
+  },
+  "r-mgm": {
+    "master": true
+  },
+  "r-graphicalvar": {
+    "master": true
+  },
+  "boxlang": {
+    "master": true
+  },
+  "r-isingfit": {
+    "master": true
+  },
+  "r-conting": {
+    "master": true
+  },
+  "r-lisreltor": {
+    "master": true
+  },
+  "alamode": {
+    "master": true
+  },
+  "fastds": {
+    "master": true
+  },
+  "drfp": {
+    "master": true
+  },
+  "pystitcher": {
+    "master": true
+  },
+  "base36": {
+    "master": true
+  },
+  "r-rockchalk": {
+    "master": true
+  },
+  "r-ldlinkr": {
+    "master": true
+  },
+  "pyjamalib": {
+    "master": true
+  },
+  "jstyleson": {
+    "master": true
+  },
+  "ormar": {
+    "master": true
+  },
+  "restic": {
+    "master": true
+  },
+  "charset-normalizer": {
+    "master": true
+  },
+  "bluesky-kafka": {
+    "master": true
+  },
+  "bluesky-darkframes": {
+    "master": true
+  },
+  "ifermi": {
+    "master": true
+  },
+  "meshcut": {
+    "master": true
+  },
+  "python-subunit": {
+    "master": true
+  },
+  "eiger-io": {
+    "master": true
+  },
+  "mesmer": {
+    "master": true
+  },
+  "chxtools": {
+    "master": true
+  },
+  "timemory": {
+    "master": true
+  },
+  "django-autocomplete-light": {
+    "master": true
+  },
+  "wms-tile-get": {
+    "master": true
+  },
+  "future_typing": {
+    "master": true
+  },
+  "ocetrac": {
+    "master": true
+  },
+  "enumlib": {
+    "master": true
+  },
+  "sphinx-jupyterbook-latex": {
+    "master": true
+  },
+  "curlify2": {
+    "master": true
+  },
+  "stackstac": {
+    "master": true
+  },
+  "rastervision-core": {
+    "master": true
+  },
+  "vcpkg-tool": {
+    "master": true
+  },
+  "xas": {
+    "master": true
+  },
+  "cloud-sql-python-connector": {
+    "master": true
+  },
+  "isstools": {
+    "master": true
+  },
+  "tryceratops": {
+    "master": true
+  },
+  "pdfme": {
+    "master": true
+  },
+  "idds-common": {
+    "master": true
+  },
+  "qmsolve": {
+    "master": true
+  },
+  "scanapi": {
+    "master": true
+  },
+  "webdriver-manager": {
+    "master": true
+  },
+  "reportportal-client": {
+    "master": true
+  },
+  "oracle-instant-client": {
+    "master": true
+  },
+  "pytest-reportportal": {
+    "master": true
+  },
+  "legacy-suitcase": {
+    "master": true
+  },
+  "pyserver": {
+    "master": true
+  },
+  "fretraj": {
+    "master": true
+  },
+  "n2snusertools": {
+    "master": true
+  },
+  "axe-selenium-python": {
+    "master": true
+  },
+  "asyncstdlib": {
+    "master": true
+  },
+  "logging_tree": {
+    "master": true
+  },
+  "idyntree": {
+    "master": true
+  },
+  "mimics": {
+    "master": true
+  },
+  "r-semplot": {
+    "master": true
+  },
+  "r-networkcomparisontest": {
+    "master": true
+  },
+  "dbsp_drp": {
+    "master": true
+  },
+  "r-networktoolbox": {
+    "master": true
+  },
+  "php": {
+    "master": true
+  },
+  "idds-workflow": {
+    "master": true
+  },
+  "punx": {
+    "master": true
+  },
+  "recordwhat": {
+    "master": true
+  },
+  "idds-client": {
+    "master": true
+  },
+  "regreg": {
+    "master": true
+  },
+  "kim-convergence": {
+    "master": true
+  },
+  "r-dire": {
+    "master": true
+  },
+  "r-naepirtparams": {
+    "master": true
+  },
+  "py4xs": {
+    "master": true
+  },
+  "panda-client": {
+    "master": true
+  },
+  "lixtools": {
+    "master": true
+  },
+  "modestimage": {
+    "master": true
+  },
+  "nsls2-detector-handlers": {
+    "master": true
+  },
+  "cogeo-mosaic": {
+    "master": true
+  },
+  "colcon-mixin": {
+    "master": true
+  },
+  "idds-doma": {
+    "master": true
+  },
+  "robotframework-datadriver": {
+    "master": true
+  },
+  "suitcase-specfile": {
+    "master": true
+  },
+  "matching": {
+    "master": true
+  },
+  "pycentroids": {
+    "master": true
+  },
+  "suitcase-jsonl": {
+    "master": true
+  },
+  "databroker-pack": {
+    "master": true
+  },
+  "jupyter_innotater": {
+    "master": true
+  },
+  "ossfs": {
+    "master": true
+  },
+  "suitcase-csv": {
+    "master": true
+  },
+  "suitcase-json-metadata": {
+    "master": true
+  },
+  "hunter": {
+    "master": true
+  },
+  "suitcase-tiff": {
+    "master": true
+  },
+  "manhole": {
+    "master": true
+  },
+  "pyment": {
+    "master": true
+  },
+  "r-robma": {
+    "master": true
+  },
+  "splipy": {
+    "master": true
+  },
+  "jazz-hands": {
+    "master": true
+  },
+  "area-detector-handlers": {
+    "master": true
+  },
+  "wxutils": {
+    "master": true
+  },
+  "bloptools": {
+    "master": true
+  },
+  "numconv": {
+    "master": true
+  },
+  "oscars": {
+    "master": true
+  },
+  "sirepo-bluesky": {
+    "master": true
+  },
+  "pymeshfix": {
+    "master": true
   }
 }
