@@ -7,7 +7,6 @@ class RotateCFStagingToken(Migrator):
     main_branch_only = True
 
     def migrate(self, feedstock, branch):
-        # register the staging binstar token
         subprocess.run(
             "conda smithy update-binstar-token "
             "--without-appveyor --without-azure "
