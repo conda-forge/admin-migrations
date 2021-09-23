@@ -15,6 +15,7 @@ import ruamel.yaml
 
 from admin_migrations.migrators import (
     RAutomerge,
+    RotateCFStagingToken,
     # these are finished or not used so we don't run them
     # RotateFeedstockToken,
     # CFEP13AzureTokenCleanup,
@@ -342,6 +343,7 @@ def run_migrators(feedstock, migrators):
 def main():
     migrators = [
         RAutomerge(),
+        RotateCFStagingToken(),
         # these are finished or not used so we don't run them
         # RotateFeedstockToken(),
         # CFEP13AzureTokenCleanup(),
