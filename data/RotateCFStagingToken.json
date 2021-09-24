@@ -35788,5 +35788,1505 @@
   },
   "r-tarchetypes": {
     "master": true
+  },
+  "ibis-omniscidb": {
+    "master": true
+  },
+  "sphinx-multitoc-numbering": {
+    "master": true
+  },
+  "stress-ng": {
+    "master": true
+  },
+  "wquantiles": {
+    "master": true
+  },
+  "dmba": {
+    "master": true
+  },
+  "ambiance": {
+    "master": true
+  },
+  "twisted-iocpsupport": {
+    "master": true
+  },
+  "mkdocs-autorefs": {
+    "master": true
+  },
+  "nhs-number": {
+    "master": true
+  },
+  "prometheus-fastapi-instrumentator": {
+    "master": true
+  },
+  "cymbal": {
+    "master": true
+  },
+  "logrun": {
+    "master": true
+  },
+  "gladtex": {
+    "master": true
+  },
+  "msgspec": {
+    "master": true
+  },
+  "similaritymeasures": {
+    "master": true
+  },
+  "here-location-services": {
+    "master": true
+  },
+  "pyramid_mako": {
+    "master": true
+  },
+  "pyramid_debugtoolbar": {
+    "master": true
+  },
+  "stac-vrt": {
+    "master": true
+  },
+  "pyramid_tm": {
+    "master": true
+  },
+  "pymetalink": {
+    "master": true
+  },
+  "geoserver-rest": {
+    "master": true
+  },
+  "taxcalc": {
+    "master": true
+  },
+  "maps-cli": {
+    "master": true
+  },
+  "gimli.units": {
+    "master": true
+  },
+  "here-map-widget-for-jupyter": {
+    "master": true
+  },
+  "limesuite": {
+    "master": true
+  },
+  "pytask-parallel": {
+    "master": true
+  },
+  "pytask-stata": {
+    "master": true
+  },
+  "pytask": {
+    "master": true
+  },
+  "latex-dependency-scanner": {
+    "master": true
+  },
+  "pytask-environment": {
+    "master": true
+  },
+  "pytask-r": {
+    "master": true
+  },
+  "bmi-topography": {
+    "master": true
+  },
+  "pytask-latex": {
+    "master": true
+  },
+  "rubicon-ml": {
+    "master": true
+  },
+  "qhub-dask-meta": {
+    "master": true
+  },
+  "pymt_topography": {
+    "master": true
+  },
+  "manif": {
+    "master": true
+  },
+  "sridentify": {
+    "master": true
+  },
+  "dataset": {
+    "master": true
+  },
+  "banal": {
+    "master": true
+  },
+  "vsce": {
+    "master": true
+  },
+  "gulp-cli": {
+    "master": true
+  },
+  "pyro-ppl": {
+    "master": true
+  },
+  "pyro-api": {
+    "master": true
+  },
+  "configupdater": {
+    "master": true
+  },
+  "r-palmerpenguins": {
+    "master": true
+  },
+  "sbank": {
+    "master": true
+  },
+  "picmistandard": {
+    "master": true
+  },
+  "blaspp": {
+    "master": true
+  },
+  "camel": {
+    "master": true
+  },
+  "pygeohydro": {
+    "master": true
+  },
+  "stonesoup": {
+    "master": true
+  },
+  "r-waiter": {
+    "master": true
+  },
+  "r-fresh": {
+    "master": true
+  },
+  "dotty-dict": {
+    "master": true
+  },
+  "r-fmultivar": {
+    "master": true
+  },
+  "lapackpp": {
+    "master": true
+  },
+  "rkstiff": {
+    "master": true
+  },
+  "jupyterlab-tour": {
+    "master": true
+  },
+  "ansitable": {
+    "master": true
+  },
+  "flake8-use-fstring": {
+    "master": true
+  },
+  "isoweek": {
+    "master": true
+  },
+  "pyscaffoldext-dsproject": {
+    "master": true
+  },
+  "dictobj": {
+    "master": true
+  },
+  "pyscaffoldext-markdown": {
+    "master": true
+  },
+  "pyrfr": {
+    "master": true
+  },
+  "unasync": {
+    "master": true
+  },
+  "pyiem": {
+    "master": true
+  },
+  "spatialmath-python": {
+    "master": true
+  },
+  "pgraph-python": {
+    "master": true
+  },
+  "formulae": {
+    "master": true
+  },
+  "jupyterlab-pullrequests": {
+    "master": true
+  },
+  "pycallgraph2": {
+    "master": true
+  },
+  "semi-ate-stdf": {
+    "master": true
+  },
+  "onnxconverter-common": {
+    "master": true
+  },
+  "swift-sim": {
+    "master": true
+  },
+  "roman": {
+    "master": true
+  },
+  "qpsolvers": {
+    "master": true
+  },
+  "incognita": {
+    "master": true
+  },
+  "windpowerlib": {
+    "master": true
+  },
+  "pgeocode": {
+    "master": true
+  },
+  "ecole": {
+    "master": true
+  },
+  "leafmaptools": {
+    "master": true
+  },
+  "textgrid": {
+    "master": true
+  },
+  "leafmap": {
+    "master": true
+  },
+  "skl2onnx": {
+    "master": true
+  },
+  "aesara-theano-fallback": {
+    "master": true
+  },
+  "disjoint-set": {
+    "master": true
+  },
+  "rtb-data": {
+    "master": true
+  },
+  "azure-mgmt-datafactory": {
+    "master": true
+  },
+  "vscode-jupyter": {
+    "master": true
+  },
+  "icepyx": {
+    "master": true
+  },
+  "build": {
+    "master": true
+  },
+  "reprexlite": {
+    "master": true
+  },
+  "plottr": {
+    "master": true
+  },
+  "celerite2": {
+    "master": true
+  },
+  "git-machete": {
+    "master": true
+  },
+  "aiohttp-sse": {
+    "master": true
+  },
+  "sid-dev": {
+    "master": true
+  },
+  "geofileops": {
+    "master": true
+  },
+  "vscode-python": {
+    "master": true
+  },
+  "libsimplejson": {
+    "master": true
+  },
+  "tafra": {
+    "master": true
+  },
+  "torchio": {
+    "master": true
+  },
+  "keras2onnx": {
+    "master": true
+  },
+  "pygeoda": {
+    "master": true
+  },
+  "protozfits": {
+    "master": true
+  },
+  "hummingbird-ml": {
+    "master": true
+  },
+  "trodi": {
+    "master": true
+  },
+  "mlprodict": {
+    "master": true
+  },
+  "go-ipfs": {
+    "master": true
+  },
+  "openff-evaluator": {
+    "master": true
+  },
+  "testflows.asserts": {
+    "master": true
+  },
+  "lapack95": {
+    "master": true
+  },
+  "bargeparse": {
+    "master": true
+  },
+  "jupyterhub-kubespawner": {
+    "master": true
+  },
+  "r-spatstat.core": {
+    "master": true
+  },
+  "r-spatstat.linnet": {
+    "master": true
+  },
+  "roboticstoolbox-python": {
+    "master": true
+  },
+  "rpaframework-pdf": {
+    "master": true
+  },
+  "fpdf2": {
+    "master": true
+  },
+  "openxr-sdk": {
+    "master": true
+  },
+  "webdavclient3": {
+    "master": true
+  },
+  "jupyterbook-latex": {
+    "master": true
+  },
+  "onnxmltools": {
+    "master": true
+  },
+  "pywaterml": {
+    "master": true
+  },
+  "yaqd-mqtt": {
+    "master": true
+  },
+  "cartes": {
+    "master": true
+  },
+  "felling": {
+    "master": true
+  },
+  "node-gyp": {
+    "master": true
+  },
+  "parceljs": {
+    "master": true
+  },
+  "analisi": {
+    "master": true
+  },
+  "torchmetrics": {
+    "master": true
+  },
+  "xeus-robot-static": {
+    "master": true
+  },
+  "flask-fixtures": {
+    "master": true
+  },
+  "pytest-parallel": {
+    "master": true
+  },
+  "fpm": {
+    "master": true
+  },
+  "xeus-python-static": {
+    "master": true
+  },
+  "uhi": {
+    "master": true
+  },
+  "transfocate": {
+    "master": true
+  },
+  "geodemo": {
+    "master": true
+  },
+  "cusparselt": {
+    "master": true
+  },
+  "genanki": {
+    "master": true
+  },
+  "rnmc-native": {
+    "master": true
+  },
+  "smac": {
+    "master": true
+  },
+  "onednn": {
+    "master": true
+  },
+  "olas": {
+    "master": true
+  },
+  "ptmcmcsampler": {
+    "master": true
+  },
+  "geeet": {
+    "master": true
+  },
+  "gandlf": {
+    "master": true
+  },
+  "pypydispatcher": {
+    "master": true
+  },
+  "numba_quaternion": {
+    "master": true
+  },
+  "libignition-sensors": {
+    "master": true
+  },
+  "libignition-gui": {
+    "master": true
+  },
+  "r-transformr": {
+    "master": true
+  },
+  "reverse_geocoder": {
+    "master": true
+  },
+  "enstat": {
+    "master": true
+  },
+  "standardebooks": {
+    "master": true
+  },
+  "ijar": {
+    "master": true
+  },
+  "perl-db_file": {
+    "master": true
+  },
+  "marinvaders": {
+    "master": true
+  },
+  "jupyterlab-recents": {
+    "master": true
+  },
+  "tmep": {
+    "master": true
+  },
+  "meshcat-python": {
+    "master": true
+  },
+  "frictionqpotspringblock": {
+    "master": true
+  },
+  "openscienceplot_matplotlib": {
+    "master": true
+  },
+  "cosapp_lab": {
+    "master": true
+  },
+  "susi": {
+    "master": true
+  },
+  "grpc_java_plugin": {
+    "master": true
+  },
+  "vadersentiment": {
+    "master": true
+  },
+  "r-maxnet": {
+    "master": true
+  },
+  "r-tripack": {
+    "master": true
+  },
+  "libgraphene": {
+    "master": true
+  },
+  "r-virtualspecies": {
+    "master": true
+  },
+  "r-adehabitathr": {
+    "master": true
+  },
+  "r-rworldxtra": {
+    "master": true
+  },
+  "r-enmeval": {
+    "master": true
+  },
+  "r-rworldmap": {
+    "master": true
+  },
+  "python-frictionqpotspringblock": {
+    "master": true
+  },
+  "python-frictionqpotfem": {
+    "master": true
+  },
+  "r-alphahull": {
+    "master": true
+  },
+  "jupyterlab-geojson": {
+    "master": true
+  },
+  "jupyterlab-mathjax3": {
+    "master": true
+  },
+  "asgi-csrf": {
+    "master": true
+  },
+  "r-presenceabsence": {
+    "master": true
+  },
+  "jupyterlab-vega3": {
+    "master": true
+  },
+  "compas_view2": {
+    "master": true
+  },
+  "jupyterlab-katex": {
+    "master": true
+  },
+  "jupyterlab-fasta": {
+    "master": true
+  },
+  "jupyterlab-vega2": {
+    "master": true
+  },
+  "asr": {
+    "master": true
+  },
+  "r-biomod2": {
+    "master": true
+  },
+  "dask-ctl": {
+    "master": true
+  },
+  "topicmapping": {
+    "master": true
+  },
+  "pysparkling": {
+    "master": true
+  },
+  "spherematch": {
+    "master": true
+  },
+  "ccc": {
+    "master": true
+  },
+  "mygeopackage": {
+    "master": true
+  },
+  "r-ecospat": {
+    "master": true
+  },
+  "flametree": {
+    "master": true
+  },
+  "libignition-gazebo": {
+    "master": true
+  },
+  "jupyterlab-favorites": {
+    "master": true
+  },
+  "pycuda": {
+    "master": true
+  },
+  "yaqd-scpi": {
+    "master": true
+  },
+  "hagerstrand": {
+    "master": true
+  },
+  "behresp": {
+    "master": true
+  },
+  "pyzstd": {
+    "master": true
+  },
+  "r-workflowsets": {
+    "master": true
+  },
+  "fast3tree": {
+    "master": true
+  },
+  "chex": {
+    "master": true
+  },
+  "mrs_denoising_tools": {
+    "master": true
+  },
+  "gtk4": {
+    "master": true
+  },
+  "labelfusion": {
+    "master": true
+  },
+  "python-mint": {
+    "master": true
+  },
+  "dask-geopandas": {
+    "master": true
+  },
+  "telnyx": {
+    "master": true
+  },
+  "zenodo_get": {
+    "master": true
+  },
+  "libignition-launch": {
+    "master": true
+  },
+  "cppadcodegen": {
+    "master": true
+  },
+  "taxbrain": {
+    "master": true
+  },
+  "darkdetect": {
+    "master": true
+  },
+  "prefixed": {
+    "master": true
+  },
+  "gmpyinfr_dbutils": {
+    "master": true
+  },
+  "rdp": {
+    "master": true
+  },
+  "gmpyinfr_amqp": {
+    "master": true
+  },
+  "mallet": {
+    "master": true
+  },
+  "gmpyinfr_telegram": {
+    "master": true
+  },
+  "meld": {
+    "master": true
+  },
+  "optax": {
+    "master": true
+  },
+  "apache-ant": {
+    "master": true
+  },
+  "jupyter-starters": {
+    "master": true
+  },
+  "glidertools": {
+    "master": true
+  },
+  "metomi-rose": {
+    "master": true
+  },
+  "mofchecker": {
+    "master": true
+  },
+  "scikit-spatial": {
+    "master": true
+  },
+  "rosegeomap": {
+    "master": true
+  },
+  "nclpy": {
+    "master": true
+  },
+  "injector": {
+    "master": true
+  },
+  "deepmerge": {
+    "master": true
+  },
+  "pygments-lexer-solidity": {
+    "master": true
+  },
+  "lumispy": {
+    "master": true
+  },
+  "statannot": {
+    "master": true
+  },
+  "pyomnisci": {
+    "master": true
+  },
+  "robocrys": {
+    "master": true
+  },
+  "qstylizer": {
+    "master": true
+  },
+  "medcam": {
+    "master": true
+  },
+  "pymde": {
+    "master": true
+  },
+  "mythx-models": {
+    "master": true
+  },
+  "xmlvalidator": {
+    "master": true
+  },
+  "flax": {
+    "master": true
+  },
+  "cfg": {
+    "master": true
+  },
+  "libignition-utils": {
+    "master": true
+  },
+  "r-rstac": {
+    "master": true
+  },
+  "docs-versions-menu": {
+    "master": true
+  },
+  "esmvalcore": {
+    "master": true
+  },
+  "flask-injector": {
+    "master": true
+  },
+  "kernel_driver": {
+    "master": true
+  },
+  "json-lsp": {
+    "master": true
+  },
+  "yaml-lsp": {
+    "master": true
+  },
+  "portpicker": {
+    "master": true
+  },
+  "gmpyinfr_log": {
+    "master": true
+  },
+  "pidcalib2": {
+    "master": true
+  },
+  "mt-metadata": {
+    "master": true
+  },
+  "eodag": {
+    "master": true
+  },
+  "lexid": {
+    "master": true
+  },
+  "mplhep_data": {
+    "master": true
+  },
+  "auto-sklearn": {
+    "master": true
+  },
+  "icecream": {
+    "master": true
+  },
+  "omfit_classes": {
+    "master": true
+  },
+  "cylc-rose": {
+    "master": true
+  },
+  "versioneer-518": {
+    "master": true
+  },
+  "icechart": {
+    "master": true
+  },
+  "ncagg": {
+    "master": true
+  },
+  "redisgraph-py": {
+    "master": true
+  },
+  "gremlinpython": {
+    "master": true
+  },
+  "bumpver": {
+    "master": true
+  },
+  "file-tree": {
+    "master": true
+  },
+  "mi-programoptions": {
+    "master": true
+  },
+  "pao": {
+    "master": true
+  },
+  "dfba": {
+    "master": true
+  },
+  "bfee2": {
+    "master": true
+  },
+  "fimex": {
+    "master": true
+  },
+  "mi-cpptest": {
+    "master": true
+  },
+  "simplecrop": {
+    "master": true
+  },
+  "async-exit-stack": {
+    "master": true
+  },
+  "asgi-lifespan": {
+    "master": true
+  },
+  "snowflake-ingest": {
+    "master": true
+  },
+  "frv": {
+    "master": true
+  },
+  "jupyterlab-variableinspector": {
+    "master": true
+  },
+  "datamol": {
+    "master": true
+  },
+  "jupyter-containds": {
+    "master": true
+  },
+  "r-ordpens": {
+    "master": true
+  },
+  "cite": {
+    "master": true
+  },
+  "jupyter-server-mathjax": {
+    "master": true
+  },
+  "pytest-pycodestyle": {
+    "master": true
+  },
+  "pyflashtext": {
+    "master": true
+  },
+  "baikal": {
+    "master": true
+  },
+  "gemgis": {
+    "master": true
+  },
+  "qscreencast": {
+    "master": true
+  },
+  "ncflag": {
+    "master": true
+  },
+  "python-designateclient": {
+    "master": true
+  },
+  "scikit-learn-intelex": {
+    "master": true
+  },
+  "pydaily": {
+    "master": true
+  },
+  "littlemcmc": {
+    "master": true
+  },
+  "inpoly": {
+    "master": true
+  },
+  "oasis": {
+    "master": true
+  },
+  "bed-reader": {
+    "master": true
+  },
+  "msal_requests_auth": {
+    "master": true
+  },
+  "flask-multipass": {
+    "master": true
+  },
+  "compas_slicer": {
+    "master": true
+  },
+  "trino": {
+    "master": true
+  },
+  "asf_search": {
+    "master": true
+  },
+  "spyder-screencast": {
+    "master": true
+  },
+  "rsconnect-python": {
+    "master": true
+  },
+  "cmlgenerator": {
+    "master": true
+  },
+  "pytest-split": {
+    "master": true
+  },
+  "flashgeotext": {
+    "master": true
+  },
+  "enterprise-pulsar": {
+    "master": true
+  },
+  "youtube-transcript-api": {
+    "master": true
+  },
+  "jupyterlab-spellchecker": {
+    "master": true
+  },
+  "youtube-to-anki": {
+    "master": true
+  },
+  "r-complexupset": {
+    "master": true
+  },
+  "verspec": {
+    "master": true
+  },
+  "r-symengine": {
+    "master": true
+  },
+  "hapi": {
+    "master": true
+  },
+  "qrcode-artistic-build": {
+    "master": true
+  },
+  "r-datamods": {
+    "master": true
+  },
+  "slack_sdk": {
+    "master": true
+  },
+  "ipydrawio": {
+    "master": true
+  },
+  "compas_rrc": {
+    "master": true
+  },
+  "file-tree-fsl": {
+    "master": true
+  },
+  "radiant-mlhub": {
+    "master": true
+  },
+  "speedcopy": {
+    "master": true
+  },
+  "geodemo_zw": {
+    "master": true
+  },
+  "pycontour": {
+    "master": true
+  },
+  "jsons": {
+    "master": true
+  },
+  "uassist": {
+    "master": true
+  },
+  "minimalkv": {
+    "master": true
+  },
+  "optuna-dashboard": {
+    "master": true
+  },
+  "sas7bdat": {
+    "master": true
+  },
+  "bioservices": {
+    "master": true
+  },
+  "fcitx-qt5": {
+    "master": true
+  },
+  "ipynbname": {
+    "master": true
+  },
+  "ipyvtklink": {
+    "master": true
+  },
+  "matplotlib-inline": {
+    "master": true
+  },
+  "nbterm": {
+    "master": true
+  },
+  "syntok": {
+    "master": true
+  },
+  "editdistance-s": {
+    "master": true
+  },
+  "r-rstpm2": {
+    "master": true
+  },
+  "pyexplainer": {
+    "master": true
+  },
+  "prophet": {
+    "master": true
+  },
+  "sankee": {
+    "master": true
+  },
+  "tensap": {
+    "master": true
+  },
+  "choix": {
+    "master": true
+  },
+  "theme-darcula": {
+    "master": true
+  },
+  "iris-esmf-regrid": {
+    "master": true
+  },
+  "acrv_datasets": {
+    "master": true
+  },
+  "ctypesgen": {
+    "master": true
+  },
+  "nengo": {
+    "master": true
+  },
+  "xmovie": {
+    "master": true
+  },
+  "arraykit": {
+    "master": true
+  },
+  "wolframclient": {
+    "master": true
+  },
+  "python-lsp-jsonrpc": {
+    "master": true
+  },
+  "gst-plugins-ugly": {
+    "master": true
+  },
+  "mlconjug3": {
+    "master": true
+  },
+  "lpdr": {
+    "master": true
+  },
+  "pytorch-ranger": {
+    "master": true
+  },
+  "opl": {
+    "master": true
+  },
+  "dask-cuda": {
+    "master": true
+  },
+  "micro": {
+    "master": true
+  },
+  "nengo-loihi": {
+    "master": true
+  },
+  "kivymd": {
+    "master": true
+  },
+  "pdftotext": {
+    "master": true
+  },
+  "inject": {
+    "master": true
+  },
+  "gst-plugins-bad": {
+    "master": true
+  },
+  "subsurface": {
+    "master": true
+  },
+  "log4cplus": {
+    "master": true
+  },
+  "prettier": {
+    "master": true
+  },
+  "python-dremio-client": {
+    "master": true
+  },
+  "rtd-poetry": {
+    "master": true
+  },
+  "r-nsyllable": {
+    "master": true
+  },
+  "direnv": {
+    "master": true
+  },
+  "nwchemcmlutils": {
+    "master": true
+  },
+  "hydromt": {
+    "master": true
+  },
+  "galsim_extra": {
+    "master": true
+  },
+  "appmap": {
+    "master": true
+  },
+  "pyzxing": {
+    "master": true
+  },
+  "pythx": {
+    "master": true
+  },
+  "river": {
+    "master": true
+  },
+  "cognitive_complexity": {
+    "master": true
+  },
+  "flake8-plugin-utils": {
+    "master": true
+  },
+  "flake8-sql": {
+    "master": true
+  },
+  "django-stubs-ext": {
+    "master": true
+  },
+  "eradicate": {
+    "master": true
+  },
+  "flake8-variables-names": {
+    "master": true
+  },
+  "placekey": {
+    "master": true
+  },
+  "flake8-cognitive-complexity": {
+    "master": true
+  },
+  "django-stubs": {
+    "master": true
+  },
+  "gst-libav": {
+    "master": true
+  },
+  "mpeg1audio": {
+    "master": true
+  },
+  "libftdi": {
+    "master": true
+  },
+  "arq": {
+    "master": true
+  },
+  "itallic": {
+    "master": true
+  },
+  "spfft": {
+    "master": true
+  },
+  "flexpolyline": {
+    "master": true
+  },
+  "flake8-eradicate": {
+    "master": true
+  },
+  "cmdstanpy": {
+    "master": true
+  },
+  "ihm": {
+    "master": true
+  },
+  "python-devtools": {
+    "master": true
+  },
+  "darker": {
+    "master": true
+  },
+  "flake8-return": {
+    "master": true
+  },
+  "nsbm": {
+    "master": true
+  },
+  "pytest-pytorch": {
+    "master": true
+  },
+  "euphonic": {
+    "master": true
+  },
+  "sqlite-fts4": {
+    "master": true
+  },
+  "sql-magic": {
+    "master": true
+  },
+  "python-baseconv": {
+    "master": true
+  },
+  "metamorpheus": {
+    "master": true
+  },
+  "flash": {
+    "master": true
+  },
+  "dargs": {
+    "master": true
+  },
+  "beautifultable": {
+    "master": true
+  },
+  "refinenet": {
+    "master": true
+  },
+  "pytao": {
+    "master": true
+  },
+  "r-seuratdisk": {
+    "master": true
+  },
+  "spla": {
+    "master": true
+  },
+  "tscv": {
+    "master": true
+  },
+  "libcugraph": {
+    "master": true
+  },
+  "sgkit": {
+    "master": true
+  },
+  "datasette": {
+    "master": true
+  },
+  "sqlite-utils": {
+    "master": true
+  },
+  "tensortrade": {
+    "master": true
+  },
+  "sockio": {
+    "master": true
+  },
+  "torch-optimizer": {
+    "master": true
+  },
+  "robotframework-robocop": {
+    "master": true
+  },
+  "findiff": {
+    "master": true
+  },
+  "icepap": {
+    "master": true
+  },
+  "r-tigris": {
+    "master": true
+  },
+  "plum-dispatch": {
+    "master": true
+  },
+  "libdate": {
+    "master": true
+  },
+  "ffn": {
+    "master": true
+  },
+  "sklearn-json": {
+    "master": true
+  },
+  "python-lsp-server": {
+    "master": true
+  },
+  "boost_mp11": {
+    "master": true
+  },
+  "demes": {
+    "master": true
+  },
+  "drf-api-tracking": {
+    "master": true
+  },
+  "sphinx-jsonschema": {
+    "master": true
+  },
+  "easygdf": {
+    "master": true
+  },
+  "sphinxcontrib-confluencebuilder": {
+    "master": true
+  },
+  "prrng": {
+    "master": true
+  },
+  "r-pafr": {
+    "master": true
+  },
+  "bt": {
+    "master": true
+  },
+  "libpqxx": {
+    "master": true
+  },
+  "algorithms": {
+    "master": true
+  },
+  "tensorflow-lattice": {
+    "master": true
+  },
+  "yake": {
+    "master": true
+  },
+  "url-normalize": {
+    "master": true
+  },
+  "mongita": {
+    "master": true
+  },
+  "django-elasticsearch-dsl": {
+    "master": true
+  },
+  "rmf": {
+    "master": true
+  },
+  "sheet2dict": {
+    "master": true
+  },
+  "python-forge": {
+    "master": true
+  },
+  "unfccc_di_api": {
+    "master": true
+  },
+  "pystac-client": {
+    "master": true
+  },
+  "otumat": {
+    "master": true
+  },
+  "r-lmomco": {
+    "master": true
+  },
+  "r-spei": {
+    "master": true
+  },
+  "r-easyverification": {
+    "master": true
+  },
+  "autoreject": {
+    "master": true
+  },
+  "xforms": {
+    "master": true
+  },
+  "wind-stats": {
+    "master": true
+  },
+  "bmi-geotiff": {
+    "master": true
+  },
+  "sphinx-intl": {
+    "master": true
+  },
+  "pyrate-limiter": {
+    "master": true
+  },
+  "pyinaturalist": {
+    "master": true
+  },
+  "transifex-client": {
+    "master": true
+  },
+  "r-climdex.pcic": {
+    "master": true
+  },
+  "condansis": {
+    "master": true
+  },
+  "nuflux": {
+    "master": true
+  },
+  "openapi-schema-validator": {
+    "master": true
+  },
+  "sirius": {
+    "master": true
+  },
+  "pycm": {
+    "master": true
+  },
+  "openapi-core": {
+    "master": true
+  },
+  "sphinx-external-toc": {
+    "master": true
+  },
+  "pyposeidon": {
+    "master": true
+  },
+  "cdshealpix": {
+    "master": true
+  },
+  "librmm": {
+    "master": true
+  },
+  "pyrsmq": {
+    "master": true
+  },
+  "ibis-bigquery": {
+    "master": true
+  },
+  "pylexique": {
+    "master": true
+  },
+  "wavespectra": {
+    "master": true
+  },
+  "morfeus-ml": {
+    "master": true
+  },
+  "click-loglevel": {
+    "master": true
+  },
+  "darts": {
+    "master": true
+  },
+  "aurorafusion": {
+    "master": true
+  },
+  "r-hillr": {
+    "master": true
+  },
+  "jupyter-starters-reinforcement-learning-dennybritz": {
+    "master": true
+  },
+  "safeint": {
+    "master": true
+  },
+  "mocpy": {
+    "master": true
   }
 }
