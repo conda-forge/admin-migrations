@@ -237,7 +237,6 @@
     "antic",
     "antlr",
     "antlr-python-runtime",
-    "antlr4-python3-runtime",
     "anyascii",
     "anyconfig",
     "anyio",
@@ -13323,6 +13322,7 @@
     "trio",
     "trio-aiohttp",
     "trio-asyncio",
+    "trio-parallel",
     "trio-util",
     "trio_asyncio",
     "triqs",
@@ -14295,6 +14295,7 @@
   "archived": [
     "airflow-split",
     "alps",
+    "antlr4-python3-runtime",
     "argparse",
     "async_timeout",
     "awkward1",
