@@ -45292,5 +45292,23 @@
   },
   "hypernets": {
     "master": true
+  },
+  "odc": {
+    "master": true
+  },
+  "pyodc": {
+    "master": true
+  },
+  "surfinpy": {
+    "master": true
+  },
+  "edgetest-pip-tools": {
+    "master": true
+  },
+  "edgetest-hub": {
+    "master": true
+  },
+  "edgetest-conda": {
+    "master": true
   }
 }
