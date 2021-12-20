@@ -45340,7 +45340,8 @@
     "master": true
   },
   "django-bootstrap5": {
-    "master": true
+    "master": true,
+    "python-36-37-support": true
   },
   "r-glpkapi": {
     "master": true
@@ -45433,6 +45434,9 @@
     "master": true
   },
   "r-mipfp": {
+    "master": true
+  },
+  "r-synthpop": {
     "master": true
   }
 }
