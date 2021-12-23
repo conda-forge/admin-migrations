@@ -33426,7 +33426,8 @@
   },
   "jupyterlab_widgets": {
     "master": true,
-    "rc": true
+    "rc": true,
+    "dev": true
   },
   "modulegraph2": {
     "master": true
@@ -45545,6 +45546,15 @@
     "master": true
   },
   "vit-pytorch": {
+    "master": true
+  },
+  "torchmd": {
+    "master": true
+  },
+  "absolv": {
+    "master": true
+  },
+  "charliecloud": {
     "master": true
   }
 }
