@@ -2817,7 +2817,8 @@
     "master": true
   },
   "conda-standalone": {
-    "master": true
+    "master": true,
+    "revert-18-update-menuinst": true
   },
   "conda-tree": {
     "master": true
