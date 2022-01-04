@@ -38973,7 +38973,8 @@
     "master": true
   },
   "mypy-boto3-s3": {
-    "master": true
+    "master": true,
+    "maresb-patch-1": true
   },
   "xoa": {
     "master": true
