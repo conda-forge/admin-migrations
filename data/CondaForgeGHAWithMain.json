@@ -8098,7 +8098,8 @@
     "master": true,
     "5.x": true,
     "7.16.x": true,
-    "8.x-beta": true
+    "8.x-beta": true,
+    "8.x-rc": true
   },
   "ipython-autotime": {
     "master": true
@@ -12499,7 +12500,8 @@
   },
   "openlibm": {
     "master": true,
-    "0.5.x": true
+    "0.5.x": true,
+    "v0.7.x": true
   },
   "openmc": {
     "master": true
