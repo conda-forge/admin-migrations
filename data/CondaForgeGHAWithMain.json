@@ -42604,7 +42604,8 @@
     "master": true
   },
   "stylegan2-pytorch": {
-    "master": true
+    "master": true,
+    "revert-1-1.8.7_h3a2478": true
   },
   "r-tidyjson": {
     "master": true
