@@ -14072,7 +14072,8 @@
     "master": true
   },
   "psycopg2": {
-    "master": true
+    "master": true,
+    "2.x.x": true
   },
   "psyplot": {
     "master": true
