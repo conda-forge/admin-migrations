@@ -9782,7 +9782,8 @@
     "master": true
   },
   "librdkafka": {
-    "master": true
+    "master": true,
+    "1.3.x": true
   },
   "librdmacm-cos6-x86_64": {
     "master": true
