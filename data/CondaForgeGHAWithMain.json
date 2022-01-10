@@ -42659,7 +42659,8 @@
     "master": true
   },
   "mache": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "r-splittools": {
     "master": true
@@ -45833,6 +45834,12 @@
     "master": true
   },
   "libtensorlight": {
+    "master": true
+  },
+  "git-history": {
+    "master": true
+  },
+  "pymongoarrow": {
     "master": true
   }
 }
