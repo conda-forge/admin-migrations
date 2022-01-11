@@ -3230,7 +3230,8 @@
     "master": true
   },
   "cx_freeze": {
-    "master": true
+    "master": true,
+    "pre610": true
   },
   "cx_oracle": {
     "master": true
