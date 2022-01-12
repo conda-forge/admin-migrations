@@ -8102,7 +8102,8 @@
     "5.x": true,
     "7.16.x": true,
     "8.x-beta": true,
-    "8.x-rc": true
+    "8.x-rc": true,
+    "7.x": true
   },
   "ipython-autotime": {
     "master": true
@@ -8738,7 +8739,8 @@
     "2.x": true,
     "beta-3.x": true,
     "alpha-3.x": true,
-    "rc-2.x": true
+    "rc-2.x": true,
+    "3.1.x": true
   },
   "jupyterlab-dash": {
     "master": true
