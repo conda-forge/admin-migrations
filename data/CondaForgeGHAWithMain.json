@@ -26905,7 +26905,8 @@
     "fixfluidsver": true
   },
   "thermofun": {
-    "master": true
+    "master": true,
+    "gdmiron-patch-1": true
   },
   "thermohubclient": {
     "master": true
@@ -45998,6 +45999,12 @@
     "master": true
   },
   "python-codon-tables": {
+    "master": true
+  },
+  "chitra": {
+    "master": true
+  },
+  "petname": {
     "master": true
   }
 }
