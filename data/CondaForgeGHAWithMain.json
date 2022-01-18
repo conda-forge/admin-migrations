@@ -4480,7 +4480,8 @@
     "master": true
   },
   "e3sm_to_cmip": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "earthengine-api": {
     "master": true,
