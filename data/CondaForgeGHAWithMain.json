@@ -15670,7 +15670,8 @@
     "master": true
   },
   "pysdl2": {
-    "master": true
+    "master": true,
+    "fix_dll_patch": true
   },
   "pyseaweed": {
     "master": true
