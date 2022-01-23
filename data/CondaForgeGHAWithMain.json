@@ -6709,7 +6709,8 @@
     "master": true
   },
   "google-cloud-cpp": {
-    "master": true
+    "master": true,
+    "1.35-grpc1.42": true
   },
   "google-cloud-cpp-common": {
     "master": true
