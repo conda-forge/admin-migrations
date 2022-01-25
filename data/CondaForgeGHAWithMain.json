@@ -38096,7 +38096,8 @@
     "master": true
   },
   "bed-reader": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "msal_requests_auth": {
     "master": true
@@ -46298,6 +46299,18 @@
     "master": true
   },
   "lttl": {
+    "master": true
+  },
+  "pysr": {
+    "master": true
+  },
+  "vmtk": {
+    "master": true
+  },
+  "psiresp-split": {
+    "master": true
+  },
+  "jupyterlab-myst": {
     "master": true
   }
 }
