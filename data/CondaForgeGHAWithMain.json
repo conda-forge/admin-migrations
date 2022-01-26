@@ -45478,7 +45478,8 @@
   "r-sparkr": {
     "master": true,
     "branch-2.4": true,
-    "branch-3.0": true
+    "branch-3.0": true,
+    "branch-3.1": true
   },
   "simmate": {
     "master": true
@@ -46314,6 +46315,24 @@
     "master": true
   },
   "jupyterlab-myst": {
+    "master": true
+  },
+  "blitz-bayesian-pytorch": {
+    "master": true
+  },
+  "ryvencore-qt": {
+    "master": true
+  },
+  "waybackpy": {
+    "master": true
+  },
+  "waiting": {
+    "master": true
+  },
+  "ryven": {
+    "master": true
+  },
+  "ryvencore": {
     "master": true
   }
 }
