@@ -32818,7 +32818,8 @@
     "v0.4.1": true,
     "v0.4.2": true,
     "v0.4.3": true,
-    "v0.7.0": true
+    "v0.7.0": true,
+    "v0.8.0": true
   },
   "21cmfast": {
     "master": true
@@ -46336,6 +46337,9 @@
     "master": true
   },
   "openfisca-france": {
+    "master": true
+  },
+  "ngspicesimserver": {
     "master": true
   }
 }
