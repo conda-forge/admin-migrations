@@ -36377,7 +36377,8 @@
   },
   "perses": {
     "master": true,
-    "mikemhenry-patch-1": true
+    "mikemhenry-patch-1": true,
+    "mikemhenry-patch-2": true
   },
   "openmmforcefields": {
     "master": true
@@ -46341,6 +46342,60 @@
     "master": true
   },
   "ngspicesimserver": {
+    "master": true
+  },
+  "python-cas": {
+    "master": true
+  },
+  "django-livesettings3": {
+    "master": true
+  },
+  "askbot": {
+    "master": true
+  },
+  "django-avatar": {
+    "master": true
+  },
+  "python-embree": {
+    "master": true
+  },
+  "django-keyedcache3": {
+    "master": true
+  },
+  "sphinxcontrib-autoyaml": {
+    "master": true
+  },
+  "akismet": {
+    "master": true
+  },
+  "django-jinja": {
+    "master": true
+  },
+  "django-robots": {
+    "master": true
+  },
+  "django-picklefield": {
+    "master": true
+  },
+  "pytest-xprocess": {
+    "master": true
+  },
+  "hackrf": {
+    "master": true
+  },
+  "django-followit": {
+    "master": true
+  },
+  "oauth2": {
+    "master": true
+  },
+  "django-countries": {
+    "master": true
+  },
+  "python-openid2": {
+    "master": true
+  },
+  "django-tinymce": {
     "master": true
   }
 }
