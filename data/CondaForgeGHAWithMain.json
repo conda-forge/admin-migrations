@@ -3177,7 +3177,8 @@
   },
   "ctng-compilers": {
     "master": true,
-    "libgcc-and-libstdcxx-9": true
+    "libgcc-and-libstdcxx-9": true,
+    "gcc-7.5.0": true
   },
   "cudatoolkit-dev": {
     "master": true
@@ -13710,7 +13711,8 @@
     "master": true
   },
   "poetry": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "poetry-core": {
     "master": true,
