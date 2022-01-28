@@ -38108,7 +38108,8 @@
   },
   "bed-reader": {
     "master": true,
-    "dev": true
+    "dev": true,
+    "fix-windows": true
   },
   "msal_requests_auth": {
     "master": true
@@ -46500,6 +46501,9 @@
     "master": true
   },
   "pypher": {
+    "master": true
+  },
+  "napari-workflows": {
     "master": true
   }
 }
