@@ -36355,7 +36355,8 @@
     "master": true
   },
   "mysql-connector-odbc": {
-    "master": true
+    "master": true,
+    "jonashaag-patch-1": true
   },
   "rchitect": {
     "master": true
