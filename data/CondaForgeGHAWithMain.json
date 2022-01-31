@@ -46502,7 +46502,8 @@
     "master": true
   },
   "pypher": {
-    "master": true
+    "master": true,
+    "aboucaud-release-0.7.0": true
   },
   "napari-workflows": {
     "master": true
@@ -46541,6 +46542,45 @@
     "master": true
   },
   "yapic-io": {
+    "master": true
+  },
+  "pyjulia": {
+    "master": true
+  },
+  "pybaum": {
+    "master": true
+  },
+  "resdk": {
+    "master": true
+  },
+  "ptgnn": {
+    "master": true
+  },
+  "google-drive": {
+    "master": true
+  },
+  "libhwy": {
+    "master": true
+  },
+  "elementable": {
+    "master": true
+  },
+  "modelcif": {
+    "master": true
+  },
+  "modelx": {
+    "master": true
+  },
+  "plot_map": {
+    "master": true
+  },
+  "fastnml": {
+    "master": true
+  },
+  "typed-settings": {
+    "master": true
+  },
+  "soapysdr-module-hackrf": {
     "master": true
   }
 }
