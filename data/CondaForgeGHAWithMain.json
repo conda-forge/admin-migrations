@@ -10416,7 +10416,8 @@
     "master": true
   },
   "lxml": {
-    "master": true
+    "master": true,
+    "backports": true
   },
   "lxqt-build-tools": {
     "master": true
@@ -13412,7 +13413,8 @@
     "master": true
   },
   "petl": {
-    "master": true
+    "master": true,
+    "juarezr-migrate2-pytest": true
   },
   "petsc": {
     "master": true,
