@@ -3231,7 +3231,8 @@
     "master": true
   },
   "cwltool": {
-    "master": true
+    "master": true,
+    "cachecontrol": true
   },
   "cx_freeze": {
     "master": true,
