@@ -35796,7 +35796,9 @@
     "master": true
   },
   "fluidsim-core": {
-    "master": true
+    "master": true,
+    "rc": true,
+    "0.6.0b0": true
   },
   "phpserialize": {
     "master": true
@@ -46913,6 +46915,9 @@
     "master": true
   },
   "itk-napari-conversion": {
+    "master": true
+  },
+  "pstree": {
     "master": true
   }
 }
