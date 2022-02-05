@@ -13415,7 +13415,8 @@
   },
   "petl": {
     "master": true,
-    "juarezr-migrate2-pytest": true
+    "juarezr-migrate2-pytest": true,
+    "fix-release-with-pytest": true
   },
   "petsc": {
     "master": true,
