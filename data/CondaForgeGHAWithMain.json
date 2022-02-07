@@ -16617,7 +16617,8 @@
     "drop-decorator-six": true
   },
   "pytorch-cpu": {
-    "master": true
+    "master": true,
+    "test": true
   },
   "pytorch-pretrained-bert": {
     "master": true,
