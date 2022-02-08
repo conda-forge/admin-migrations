@@ -38670,7 +38670,8 @@
     "master": true
   },
   "librmm": {
-    "master": true
+    "master": true,
+    "21.12.00": true
   },
   "pyrsmq": {
     "master": true
@@ -46967,6 +46968,9 @@
     "master": true
   },
   "r-clustassess": {
+    "master": true
+  },
+  "svgdigitizer": {
     "master": true
   }
 }
