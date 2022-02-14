@@ -47342,5 +47342,35 @@
   },
   "pyscf": {
     "master": true
+  },
+  "atheris": {
+    "master": true
+  },
+  "tape_proteins": {
+    "master": true
+  },
+  "lock": {
+    "master": true
+  },
+  "bio-embeddings": {
+    "master": true
+  },
+  "bio-embeddings-deepblast": {
+    "master": true
+  },
+  "bio-embeddings-plus": {
+    "master": true
+  },
+  "fair-esm": {
+    "master": true
+  },
+  "jax-unirep": {
+    "master": true
+  },
+  "videohash": {
+    "master": true
+  },
+  "bio-embeddings-cpcprot": {
+    "master": true
   }
 }
