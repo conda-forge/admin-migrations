@@ -38864,7 +38864,8 @@
     "master": true
   },
   "infrared": {
-    "master": true
+    "master": true,
+    "version/1.0b": true
   },
   "spectrapepper": {
     "master": true
@@ -47374,6 +47375,15 @@
     "master": true
   },
   "pyeit": {
+    "master": true
+  },
+  "mljar-mercury": {
+    "master": true
+  },
+  "geedim": {
+    "master": true
+  },
+  "dub": {
     "master": true
   }
 }
