@@ -42284,7 +42284,9 @@
     "master": true
   },
   "jina": {
-    "master": true
+    "master": true,
+    "pr-3.0": true,
+    "pr-3.0-a": true
   },
   "dexpy": {
     "master": true
