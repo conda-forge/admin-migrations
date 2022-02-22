@@ -38461,7 +38461,8 @@
     "master": true
   },
   "nsbm": {
-    "master": true
+    "master": true,
+    "0.5.1": true
   },
   "pytest-pytorch": {
     "master": true
@@ -47550,6 +47551,24 @@
     "master": true
   },
   "ugrid-checks": {
+    "master": true
+  },
+  "mpl-sphinx-theme": {
+    "master": true
+  },
+  "brotli-asgi": {
+    "master": true
+  },
+  "r-poorman": {
+    "master": true
+  },
+  "r-spatstat.random": {
+    "master": true
+  },
+  "stopwordsiso": {
+    "master": true
+  },
+  "r-systemfit": {
     "master": true
   }
 }
