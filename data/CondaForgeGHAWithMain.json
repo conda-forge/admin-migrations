@@ -46230,7 +46230,8 @@
     "master": true
   },
   "gmx_mmpbsa": {
-    "master": true
+    "master": true,
+    "update-1.5.0": true
   },
   "jupyter_ascending": {
     "master": true
@@ -47539,6 +47540,9 @@
     "master": true
   },
   "r-faviconplease": {
+    "master": true
+  },
+  "cutlass": {
     "master": true
   }
 }
