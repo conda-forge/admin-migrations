@@ -42946,7 +42946,8 @@
     "master": true
   },
   "python-installer": {
-    "master": true
+    "master": true,
+    "0.3.0": true
   },
   "r-rbiom": {
     "master": true
@@ -47591,6 +47592,9 @@
     "master": true
   },
   "rabpro": {
+    "master": true
+  },
+  "gtk-4-fortran": {
     "master": true
   }
 }
