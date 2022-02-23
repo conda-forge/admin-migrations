@@ -4870,7 +4870,8 @@
     "master": true
   },
   "esgf-pyclient": {
-    "master": true
+    "master": true,
+    "fix-conda-dependencies": true
   },
   "esmcol-validator": {
     "master": true
