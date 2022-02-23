@@ -30527,7 +30527,8 @@
     "master": true
   },
   "argo-workflows": {
-    "master": true
+    "master": true,
+    "rc": true
   },
   "pytorch_scatter": {
     "master": true
