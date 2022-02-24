@@ -13900,7 +13900,8 @@
   },
   "prefect": {
     "master": true,
-    "req-packaging": true
+    "req-packaging": true,
+    "update-python-min-version": true
   },
   "prefsync": {
     "master": true
