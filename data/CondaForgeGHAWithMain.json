@@ -35625,7 +35625,8 @@
     "master": true
   },
   "sktime": {
-    "master": true
+    "master": true,
+    "add-noarch": true
   },
   "densmap-learn": {
     "master": true
@@ -47646,6 +47647,15 @@
     "master": true
   },
   "mkdocs-git-revision-date-plugin": {
+    "master": true
+  },
+  "openff-bespokefit": {
+    "master": true
+  },
+  "napari-multitask": {
+    "master": true
+  },
+  "piccolo-theme": {
     "master": true
   }
 }
