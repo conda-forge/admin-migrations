@@ -11783,7 +11783,8 @@
   },
   "neptune-client": {
     "master": true,
-    "waj/0.9.19": true
+    "waj/0.9.19": true,
+    "hj/pin-jsonschema": true
   },
   "neptune-notebooks": {
     "master": true
