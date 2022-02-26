@@ -47690,7 +47690,8 @@
     "master": true
   },
   "flask-session": {
-    "master": true
+    "master": true,
+    "0.3.x": true
   },
   "sklearn-quantile": {
     "master": true
