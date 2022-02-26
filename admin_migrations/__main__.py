@@ -16,8 +16,9 @@ import ruamel.yaml
 
 from admin_migrations.migrators import (
     RAutomerge,
-    CondaForgeGHAWithMain,
+    CondaForgeMasterToMain,
     # these are finished or not used so we don't run them
+    # CondaForgeGHAWithMain,
     # RotateCFStagingToken,
     # RotateFeedstockToken,
     # CFEP13AzureTokenCleanup,
@@ -345,8 +346,9 @@ def run_migrators(feedstock, migrators):
 def main():
     migrators = [
         RAutomerge(),
-        CondaForgeGHAWithMain(),
+        CondaForgeMasterToMain(),
         # these are finished or not used so we don't run them
+        # CondaForgeGHAWithMain(),
         # RotateCFStagingToken(),
         # RotateFeedstockToken(),
         # CFEP13AzureTokenCleanup(),
