@@ -223,7 +223,7 @@ class CondaForgeMasterToMain(Migrator):
             r = sess.post(
                 "https://api.github.com"
                 "/repos/%s/branches/%s/rename" % (repo.full_name, repo.default_branch),
-                data={"new_name": "main"},
+                json={"new_name": "main"},
             )
             r.raise_for_status()
             time.sleep(5)
