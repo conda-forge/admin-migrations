@@ -1,5 +1,7 @@
 import subprocess
 import os
+from functools import lru_cache
+import requests
 
 import github
 from ruamel.yaml import YAML
@@ -84,6 +86,31 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           rerendering_github_token: ${{ secrets.RERENDERING_GITHUB_TOKEN }}
 """
+
+
+@lru_cache(max_size=1)
+def _get_req_session(github_token):
+    # based on
+    #  https://alexwlchan.net/2019/03/
+    #    creating-a-github-action-to-auto-merge-pull-requests/
+    # with lots of edits
+    sess = requests.Session()
+    sess.headers = {
+        "Accept": "application/vnd.github.v3+json",
+        "Authorization": f"token {github_token}",
+        "User-Agent": f"GitHub Actions script in {__file__}"
+    }
+
+    def raise_for_status(resp, *args, **kwargs):
+        try:
+            resp.raise_for_status()
+        except Exception as e:
+            print('ERROR:', resp.text)
+            raise e
+
+    sess.hooks["response"].append(raise_for_status)
+
+    return sess
 
 
 def _read_conda_forge_yaml(yaml):
@@ -175,7 +202,16 @@ class CondaForgeMasterToMain(Migrator):
 
         # only call branch rename once on current "master" branch if it exists
         if repo.default_branch != "main" and branch == "master":
-            repo.rename_branch(repo.default_branch, "main")
+            # once pygithub 1.56 or greater is out we can use this
+            # repo.rename_branch(repo.default_branch, "main")
+
+            sess = _get_req_session(os.environ['GITHUB_TOKEN'])
+            r = sess.post(
+                "https://api.github.com"
+                "/repos/%s/branches/master/rename" % repo.full_name,
+                data={"new_name": "main"},
+            )
+            r.raise_for_status()
             print("    renamed branch '%s' to 'main'" % repo.default_branch, flush=True)
 
         # migration done, make a commit, lots of API calls
