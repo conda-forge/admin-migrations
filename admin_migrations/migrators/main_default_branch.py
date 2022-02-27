@@ -88,7 +88,7 @@ jobs:
 """
 
 
-@lru_cache(max_size=1)
+@lru_cache(maxsize=1)
 def _get_req_session(github_token):
     # based on
     #  https://alexwlchan.net/2019/03/
