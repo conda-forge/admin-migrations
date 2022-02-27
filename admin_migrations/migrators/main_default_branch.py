@@ -2,6 +2,7 @@ import subprocess
 import os
 from functools import lru_cache
 import requests
+import time
 
 import github
 from ruamel.yaml import YAML
@@ -152,6 +153,19 @@ def _update_wfl(fname, new_wfl):
         return False
 
 
+def _reset_local_branch(old_def_branch):
+    subprocess.run(
+        "git stash && "
+        f"git branch -m {old_def_branch} main && "
+        "git fetch origin && "
+        "git branch -u origin/main main && "
+        "git remote set-head origin -a && "
+        "git stash pop",
+        check=True,
+        shell=True,
+    )
+
+
 class CondaForgeMasterToMain(Migrator):
     def migrate(self, feedstock, branch):
         repo = GH.get_repo("conda-forge/%s-feedstock" % feedstock)
@@ -201,18 +215,23 @@ class CondaForgeMasterToMain(Migrator):
         make_commit = updated_automerge or updated_webservices or updated_cfy
 
         # only call branch rename once on current "master" branch if it exists
-        if repo.default_branch != "main" and branch == "master":
+        if repo.default_branch != "main" and branch == repo.default_branch:
             # once pygithub 1.56 or greater is out we can use this
             # repo.rename_branch(repo.default_branch, "main")
 
             sess = _get_req_session(os.environ['GITHUB_TOKEN'])
             r = sess.post(
                 "https://api.github.com"
-                "/repos/%s/branches/master/rename" % repo.full_name,
+                "/repos/%s/branches/%s/rename" % (repo.full_name, repo.default_branch),
                 data={"new_name": "main"},
             )
             r.raise_for_status()
+            time.sleep(5)
             print("    renamed branch '%s' to 'main'" % repo.default_branch, flush=True)
+
+            # the upstream branch has changed, so need to reset local clone
+            _reset_local_branch(repo.default_branch)
+            print("    reset local branch to 'main'", flush=True)
 
         # migration done, make a commit, lots of API calls
         return True, make_commit, True
