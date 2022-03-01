@@ -47728,5 +47728,17 @@
   },
   "chameleon": {
     "master": true
+  },
+  "rocksdbdict": {
+    "master": true
+  },
+  "keyutils": {
+    "master": true
+  },
+  "bluesky-queueserver-api": {
+    "master": true
+  },
+  "mne-features": {
+    "master": true
   }
 }
