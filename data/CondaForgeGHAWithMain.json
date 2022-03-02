@@ -40775,7 +40775,8 @@
     "master": true
   },
   "cosmosis": {
-    "master": true
+    "master": true,
+    "0.5.13": true
   },
   "heartrate": {
     "master": true
@@ -47745,6 +47746,12 @@
     "master": true
   },
   "pygaps": {
+    "master": true
+  },
+  "sphinx-theme-builder": {
+    "master": true
+  },
+  "duckdb-engine": {
     "master": true
   }
 }
