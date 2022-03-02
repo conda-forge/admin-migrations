@@ -32868,7 +32868,8 @@
     "dev": true
   },
   "21cmfast": {
-    "master": true
+    "master": true,
+    "add-psutil": true
   },
   "aws-c-common": {
     "master": true
