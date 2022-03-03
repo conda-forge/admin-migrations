@@ -36209,7 +36209,9 @@
     "master": true
   },
   "kfp-tekton": {
-    "master": true
+    "master": true,
+    "v1.0.1": true,
+    "v1.1.0": true
   },
   "molecule-docker": {
     "master": true
