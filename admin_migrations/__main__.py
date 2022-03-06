@@ -345,7 +345,7 @@ def run_migrators(feedstock, migrators):
 def main():
     migrators = [
         RAutomerge(),
-        CondaForgeMasterToMain(),
+        # CondaForgeMasterToMain(),
         # these are finished or not used so we don't run them
         # CondaForgeGHAWithMain(),
         # RotateCFStagingToken(),
