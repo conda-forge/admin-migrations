@@ -15,8 +15,9 @@ import ruamel.yaml
 
 from admin_migrations.migrators import (
     RAutomerge,
-    CondaForgeGHAWithMain,
+    CondaForgeMasterToMain,
     # these are finished or not used so we don't run them
+    # CondaForgeGHAWithMain,
     # RotateCFStagingToken,
     # RotateFeedstockToken,
     # CFEP13AzureTokenCleanup,
@@ -49,7 +50,7 @@ if DEBUG:
     MAX_MIGRATE = 1
     MAX_SECONDS = 50 * 60
 else:
-    MAX_MIGRATE = 2000
+    MAX_MIGRATE = 100
     MAX_SECONDS = min(50, max(60 - datetime.datetime.now().minute - 6, 0)) * 60
 
 
@@ -344,8 +345,9 @@ def run_migrators(feedstock, migrators):
 def main():
     migrators = [
         RAutomerge(),
-        CondaForgeGHAWithMain(),
+        CondaForgeMasterToMain(),
         # these are finished or not used so we don't run them
+        # CondaForgeGHAWithMain(),
         # RotateCFStagingToken(),
         # RotateFeedstockToken(),
         # CFEP13AzureTokenCleanup(),

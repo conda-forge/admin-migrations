@@ -11,4 +11,4 @@ from .travis_auto_cancel_prs import TravisCIAutoCancelPRs
 from .cfep13_azure_token_cleanup import CFEP13AzureTokenCleanup
 from .rotate_feedstock_tokens import RotateFeedstockToken
 from .rotate_cf_staging_token import RotateCFStagingToken
-from .main_default_branch import CondaForgeGHAWithMain
+from .main_default_branch import CondaForgeGHAWithMain, CondaForgeMasterToMain
