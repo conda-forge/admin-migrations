@@ -599,5 +599,305 @@
   },
   "matbench": {
     "master": true
+  },
+  "exprtk": {
+    "master": true
+  },
+  "r-clustassess": {
+    "master": true
+  },
+  "svgdigitizer": {
+    "master": true
+  },
+  "sphinx-github-changelog": {
+    "master": true
+  },
+  "igwn-archive": {
+    "master": true
+  },
+  "moe": {
+    "master": true
+  },
+  "yt-dlp": {
+    "master": true
+  },
+  "mediafile": {
+    "master": true
+  },
+  "pycytominer": {
+    "master": true
+  },
+  "plog": {
+    "master": true
+  },
+  "offset-subtraction": {
+    "master": true
+  },
+  "wheelhouse_uploader": {
+    "master": true
+  },
+  "torpy": {
+    "master": true
+  },
+  "napari-arboretum": {
+    "master": true
+  },
+  "imio": {
+    "master": true
+  },
+  "napari-properties-viewer": {
+    "master": true
+  },
+  "image-composer": {
+    "master": true
+  },
+  "pyglotaran-extras": {
+    "master": true
+  },
+  "aimodelshare": {
+    "master": true
+  },
+  "napari-bil-data-viewer": {
+    "master": true
+  },
+  "napari-elementary-numpy-operations": {
+    "master": true
+  },
+  "napari-brushsettings": {
+    "master": true
+  },
+  "napari-dvid": {
+    "master": true
+  },
+  "napari-spacetx-explorer": {
+    "master": true
+  },
+  "napari-tissuumaps": {
+    "master": true
+  },
+  "napari-zelda": {
+    "master": true
+  },
+  "decasu": {
+    "master": true
+  },
+  "icclim": {
+    "master": true
+  },
+  "dxtbx": {
+    "master": true
+  },
+  "isabelle-client": {
+    "master": true
+  },
+  "connected-components-3d": {
+    "master": true
+  },
+  "haesleinhuepf-pyqode.core": {
+    "master": true
+  },
+  "r-powersurvepi": {
+    "master": true
+  },
+  "layer-data-replace": {
+    "master": true
+  },
+  "napari-features": {
+    "master": true
+  },
+  "fastremap": {
+    "master": true
+  },
+  "napari-tracks-reader": {
+    "master": true
+  },
+  "r-matchit": {
+    "master": true
+  },
+  "image-part-selecter": {
+    "master": true
+  },
+  "label-creator": {
+    "master": true
+  },
+  "imaris-ims-file-reader": {
+    "master": true
+  },
+  "pyotf": {
+    "master": true
+  },
+  "napari-medical-image-formats-read-write": {
+    "master": true
+  },
+  "oiffile": {
+    "master": true
+  },
+  "napari-cupy-image-processing": {
+    "master": true
+  },
+  "platymatch": {
+    "master": true
+  },
+  "napari-labels-overlap": {
+    "master": true
+  },
+  "iacs-ipac-reader": {
+    "master": true
+  },
+  "bbii-decon": {
+    "master": true
+  },
+  "napari-yapic-prediction": {
+    "master": true
+  },
+  "gtsam": {
+    "master": true
+  },
+  "napari-mrcfile-handler": {
+    "master": true
+  },
+  "pactools": {
+    "master": true
+  },
+  "mne-faster": {
+    "master": true
+  },
+  "pycircstat": {
+    "master": true
+  },
+  "adcc": {
+    "master": true
+  },
+  "mne-connectivity": {
+    "master": true
+  },
+  "napari-j": {
+    "master": true
+  },
+  "pyfastspm": {
+    "master": true
+  },
+  "tensorpac": {
+    "master": true
+  },
+  "doctools": {
+    "master": true
+  },
+  "pymodelchecking": {
+    "master": true
+  },
+  "misic-napari": {
+    "master": true
+  },
+  "ttim": {
+    "master": true
+  },
+  "elastic-transport": {
+    "master": true
+  },
+  "mpl-interactions": {
+    "master": true
+  },
+  "ansi": {
+    "master": true
+  },
+  "unidist-packages": {
+    "master": true
+  },
+  "uvicore": {
+    "master": true
+  },
+  "merge-args": {
+    "master": true
+  },
+  "censo": {
+    "master": true
+  },
+  "mne-realtime": {
+    "master": true
+  },
+  "pyqt-builder": {
+    "master": true
+  },
+  "tiler": {
+    "master": true
+  },
+  "macro-kit": {
+    "master": true
+  },
+  "gryds": {
+    "master": true
+  },
+  "bg-atlasapi": {
+    "master": true
+  },
+  "pymmcore": {
+    "master": true
+  },
+  "sdeconv": {
+    "master": true
+  },
+  "aicssegmentation": {
+    "master": true
+  },
+  "pyjion": {
+    "master": true
+  },
+  "intel-compiler-repack": {
+    "master": true
+  },
+  "qcxms": {
+    "master": true
+  },
+  "haesleinhuepf-pyqode.python": {
+    "master": true
+  },
+  "pymmcore-plus": {
+    "master": true
+  },
+  "napari-imaris-loader": {
+    "master": true
+  },
+  "world2data": {
+    "master": true
+  },
+  "napari-allencell-segmenter": {
+    "master": true
+  },
+  "cellpose": {
+    "master": true
+  },
+  "stracking": {
+    "master": true
+  },
+  "brainglobe-napari-io": {
+    "master": true
+  },
+  "arbol": {
+    "master": true
+  },
+  "napari-sdeconv": {
+    "master": true
+  },
+  "napari-medical-image-formats": {
+    "master": true
+  },
+  "cellfinder-core": {
+    "master": true
+  },
+  "napari-spatial-omics": {
+    "master": true
+  },
+  "pyclesperanto-prototype": {
+    "master": true
+  },
+  "zeit": {
+    "master": true
+  },
+  "ispc": {
+    "master": true
+  },
+  "pydatamail": {
+    "master": true
   }
 }
