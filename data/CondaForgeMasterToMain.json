@@ -1199,5 +1199,207 @@
   },
   "editables": {
     "master": true
+  },
+  "apoc-backend": {
+    "master": true
+  },
+  "rabpro": {
+    "master": true
+  },
+  "gtk-4-fortran": {
+    "master": true
+  },
+  "extranormal3": {
+    "master": true
+  },
+  "napari-microscope": {
+    "master": true
+  },
+  "lfdfiles": {
+    "master": true
+  },
+  "napari-hdf5-labels-io": {
+    "master": true
+  },
+  "orange-spectroscopy": {
+    "master": true
+  },
+  "napari-deepspot": {
+    "master": true
+  },
+  "mkdocs-literate-nav": {
+    "master": true
+  },
+  "mkdocs-exclude": {
+    "master": true
+  },
+  "compas_tna": {
+    "master": true
+  },
+  "epics-medm": {
+    "master": true
+  },
+  "compas_skeleton": {
+    "master": true
+  },
+  "compas-rv2": {
+    "master": true
+  },
+  "epics-extensions": {
+    "master": true
+  },
+  "compas_cloud": {
+    "master": true
+  },
+  "r-fstcore": {
+    "master": true
+  },
+  "mkdocs-git-revision-date-plugin": {
+    "master": true
+  },
+  "openff-bespokefit": {
+    "master": true
+  },
+  "napari-multitask": {
+    "master": true
+  },
+  "piccolo-theme": {
+    "master": true
+  },
+  "pickydict": {
+    "master": true
+  },
+  "hydromt_sfincs": {
+    "master": true
+  },
+  "pyremo": {
+    "master": true
+  },
+  "hatchling": {
+    "master": true
+  },
+  "pangeo-forge-recipes": {
+    "master": true
+  },
+  "enterprise_outliers": {
+    "master": true
+  },
+  "demjson3": {
+    "master": true
+  },
+  "r-gridpattern": {
+    "master": true
+  },
+  "spec2nexus": {
+    "master": true
+  },
+  "flask-session": {
+    "master": true,
+    "0.3.x": true
+  },
+  "sklearn-quantile": {
+    "master": true
+  },
+  "ocp": {
+    "master": true
+  },
+  "r-ggpattern": {
+    "master": true
+  },
+  "findpython": {
+    "master": true
+  },
+  "rich-click": {
+    "master": true
+  },
+  "steampipe": {
+    "master": true
+  },
+  "kfp-pipeline-spec": {
+    "master": true
+  },
+  "justpy": {
+    "master": true
+  },
+  "pyearth": {
+    "master": true
+  },
+  "numbalsoda": {
+    "master": true
+  },
+  "chameleon": {
+    "master": true
+  },
+  "rocksdbdict": {
+    "master": true
+  },
+  "keyutils": {
+    "master": true
+  },
+  "bluesky-queueserver-api": {
+    "master": true
+  },
+  "mne-features": {
+    "master": true
+  },
+  "pygaps": {
+    "master": true
+  },
+  "sphinx-theme-builder": {
+    "master": true
+  },
+  "duckdb-engine": {
+    "master": true
+  },
+  "dreqpy": {
+    "master": true
+  },
+  "asdf-standard": {
+    "master": true
+  },
+  "nnpops": {
+    "master": true
+  },
+  "cpp-expected": {
+    "master": true
+  },
+  "asdf-transform-schemas": {
+    "master": true
+  },
+  "notebook-shim": {
+    "master": true
+  },
+  "ui5-cli": {
+    "master": true
+  },
+  "icub-models": {
+    "master": true
+  },
+  "mne-rsa": {
+    "master": true
+  },
+  "mne-ari": {
+    "master": true
+  },
+  "easystac": {
+    "master": true
+  },
+  "statsforecast": {
+    "master": true
+  },
+  "dirty-equals": {
+    "master": true
+  },
+  "dspsr": {
+    "master": true
+  },
+  "timg": {
+    "master": true
+  },
+  "vegafusion-python-embed": {
+    "master": true
+  },
+  "simwrapper": {
+    "master": true
   }
 }
