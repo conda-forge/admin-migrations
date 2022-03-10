@@ -235,12 +235,12 @@ def _master_to_main(repo):
     try:
         if os.path.exists("azure-pipelines.yml"):
             _run_git_command(
-                "git", "mv", "azure-pipelines.yml", "azure-pipelines.yml.bak",
+                "mv", "azure-pipelines.yml", "azure-pipelines.yml.bak",
             )
 
         if os.path.exists(".travis.yml"):
             _run_git_command(
-                "git", "mv", ".travis.yml", ".travis.yml.bak",
+                "mv", ".travis.yml", ".travis.yml.bak",
             )
 
         if os.path.exists(".circleci/config.yml"):
@@ -254,7 +254,7 @@ def _master_to_main(repo):
             "    turning off CI for master to main migration FAILED on commit!",
             flush=True,
         )
-        _run_git_command(["git", "reset", "--hard", old_sha])
+        _run_git_command(["reset", "--hard", old_sha])
         return False
 
     try:
@@ -264,7 +264,7 @@ def _master_to_main(repo):
             "    turning off CI for master to main migration FAILED on push!",
             flush=True,
         )
-        _run_git_command(["git", "reset", "--hard", old_sha])
+        _run_git_command(["reset", "--hard", old_sha])
         return False
 
     rev_sha = _get_curr_sha()
@@ -281,7 +281,7 @@ def _master_to_main(repo):
         r.raise_for_status()
     except Exception:
         print("    master to main rename FAILED in the API!", flush=True)
-        _run_git_command(["git", "revert", "-n", rev_sha])
+        _run_git_command(["revert", "-n", rev_sha])
         _commit_repo("turning on CI for master to main migration")
         _run_git_command(["push", "--quiet"])
         print("    turned CI back on for master to main migration", flush=True)
@@ -294,7 +294,7 @@ def _master_to_main(repo):
         _reset_local_branch(repo.default_branch)
         print("    reset local branch to 'main'", flush=True)
 
-        _run_git_command(["git", "revert", "-n", rev_sha])
+        _run_git_command(["revert", "-n", rev_sha])
         _commit_repo("turning on CI for master to main migration")
         _run_git_command(["push", "--quiet"])
         print("    turned CI back on for master to main migration", flush=True)
@@ -311,6 +311,8 @@ class CondaForgeMasterToMain(Migrator):
         # only call branch rename once on current "master" branch if it exists
         if repo.default_branch != "main" and branch == repo.default_branch:
             did_master_to_main = _master_to_main(repo)
+        else:
+            did_master_to_main = False
 
         if did_master_to_main:
             # the conda-forge config gets updated every time
