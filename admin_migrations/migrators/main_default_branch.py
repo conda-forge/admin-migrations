@@ -219,12 +219,10 @@ def _get_curr_sha():
 
 def _reset_local_branch(old_def_branch):
     subprocess.run(
-        "git stash && "
         f"git branch -m {old_def_branch} main && "
         "git fetch origin && "
         "git branch -u origin/main main && "
-        "git remote set-head origin -a && "
-        "git stash pop",
+        "git remote set-head origin -a ",
         check=True,
         shell=True,
     )
