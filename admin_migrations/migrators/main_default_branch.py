@@ -234,14 +234,14 @@ def _master_to_main(repo):
     old_sha = _get_curr_sha()
     try:
         if os.path.exists("azure-pipelines.yml"):
-            _run_git_command(
+            _run_git_command([
                 "mv", "azure-pipelines.yml", "azure-pipelines.yml.bak",
-            )
+            ])
 
         if os.path.exists(".travis.yml"):
-            _run_git_command(
+            _run_git_command([
                 "mv", ".travis.yml", ".travis.yml.bak",
-            )
+            ])
 
         if os.path.exists(".circleci/config.yml"):
             with open(".circleci/config.yml", "w") as fp:
@@ -250,7 +250,7 @@ def _master_to_main(repo):
         _commit_repo("turning off CI for master to main migration")
         print("    turned off CI for master to main migration", flush=True)
     except Exception as e:
-        print(repr(e))
+        print(f"    ERROR: {repr(e)}", flush=True)
         print(
             "    turning off CI for master to main migration FAILED on commit!",
             flush=True,
@@ -261,7 +261,7 @@ def _master_to_main(repo):
     try:
         _run_git_command(["push", "--quiet"])
     except Exception as e:
-        print(repr(e))
+        print(f"    ERROR: {repr(e)}", flush=True)
         print(
             "    turning off CI for master to main migration FAILED on push!",
             flush=True,
@@ -282,7 +282,7 @@ def _master_to_main(repo):
         )
         r.raise_for_status()
     except Exception as e:
-        print(repr(e))
+        print(f"    ERROR: {repr(e)}", flush=True)
         print("    master to main rename FAILED in the API!", flush=True)
         _run_git_command(["revert", "-n", rev_sha])
         _commit_repo("turning on CI for master to main migration")
