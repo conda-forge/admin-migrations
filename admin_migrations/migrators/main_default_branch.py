@@ -249,7 +249,8 @@ def _master_to_main(repo):
 
         _commit_repo("turning off CI for master to main migration")
         print("    turned off CI for master to main migration", flush=True)
-    except Exception:
+    except Exception as e:
+        print(repr(e))
         print(
             "    turning off CI for master to main migration FAILED on commit!",
             flush=True,
@@ -259,7 +260,8 @@ def _master_to_main(repo):
 
     try:
         _run_git_command(["push", "--quiet"])
-    except Exception:
+    except Exception as e:
+        print(repr(e))
         print(
             "    turning off CI for master to main migration FAILED on push!",
             flush=True,
@@ -279,7 +281,8 @@ def _master_to_main(repo):
             json={"new_name": "main"},
         )
         r.raise_for_status()
-    except Exception:
+    except Exception as e:
+        print(repr(e))
         print("    master to main rename FAILED in the API!", flush=True)
         _run_git_command(["revert", "-n", rev_sha])
         _commit_repo("turning on CI for master to main migration")
@@ -313,6 +316,7 @@ class CondaForgeMasterToMain(Migrator):
             did_master_to_main = _master_to_main(repo)
         else:
             did_master_to_main = False
+            make_commit = False
 
         if did_master_to_main:
             # the conda-forge config gets updated every time
