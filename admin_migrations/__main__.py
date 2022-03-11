@@ -94,6 +94,8 @@ def _run_git_command(args, check=True):
         stderr=subprocess.STDOUT,
         check=check,
     )
+    if s.returncode != 0:
+        print(f"    ERROR: {s.stdout.decode('utf-8')}", flush=True)
     return s.returncode == 0, s.stdout.decode("utf-8")
 
 

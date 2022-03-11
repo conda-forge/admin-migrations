@@ -123,6 +123,9 @@ def _run_git_command(args, check=True):
         stderr=subprocess.STDOUT,
         check=check,
     )
+    if s.returncode != 0:
+        print(f"    ERROR: {s.stdout.decode('utf-8')}", flush=True)
+
     return s.returncode == 0, s.stdout.decode("utf-8")
 
 
@@ -211,14 +214,18 @@ def _get_curr_sha():
 
 
 def _reset_local_branch(old_def_branch):
-    subprocess.run(
+    s = subprocess.run(
         f"git branch -m {old_def_branch} main && "
         "git fetch origin && "
         "git branch -u origin/main main && "
         "git remote set-head origin -a ",
         check=True,
         shell=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
     )
+    if s.returncode != 0:
+        print(f"    ERROR: {s.stdout.decode('utf-8')}", flush=True)
 
 
 def _master_to_main(repo):
