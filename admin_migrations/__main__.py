@@ -87,21 +87,16 @@ def pushd(new_dir):
         os.chdir(previous_dir)
 
 
-def _run_git_command(args, capture=False, check=True):
-    if capture:
-        subprocess.run(
-            ['git'] + args,
-            check=check,
-        )
-        return None
-    else:
-        s = subprocess.run(
-            ['git'] + args,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            check=check,
-        )
-        return s.returncode == 0, s.stdout.decode("utf-8")
+def _run_git_command(args, check=True):
+    s = subprocess.run(
+        ['git'] + args,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        check=check,
+    )
+    if s.returncode != 0:
+        print(f"    ERROR: {s.stdout.decode('utf-8')}", flush=True)
+    return s.returncode == 0, s.stdout.decode("utf-8")
 
 
 def _get_curr_branch():
@@ -275,7 +270,6 @@ def run_migrators(feedstock, migrators):
                                 try:
                                     _run_git_command(
                                         ["switch", branch],
-                                        capture=True,
                                         check=True,
                                     )
                                 except Exception:
@@ -285,7 +279,6 @@ def run_migrators(feedstock, migrators):
                                             "-b", branch,
                                             "-t", "origin/" + branch
                                         ],
-                                        capture=True,
                                         check=False,
                                     )
                                     if not ok:
@@ -344,8 +337,9 @@ def run_migrators(feedstock, migrators):
 
 def main():
     migrators = [
+        CondaForgeMasterToMain(),  # this one always goes first since it makes extra
+                                   # commits etc
         RAutomerge(),
-        # CondaForgeMasterToMain(),
         # these are finished or not used so we don't run them
         # CondaForgeGHAWithMain(),
         # RotateCFStagingToken(),

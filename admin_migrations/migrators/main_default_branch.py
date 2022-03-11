@@ -11,6 +11,33 @@ from .base import Migrator
 
 GH = github.Github(os.environ['GITHUB_TOKEN'])
 
+CIRCLECI_BLANK = """
+# This file was generated automatically from conda-smithy. To update this configuration,
+# update the conda-forge.yml and/or the recipe/meta.yaml.
+# -*- mode: yaml -*-
+
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/test
+    machine: true
+    steps:
+      - run:
+          # The Circle-CI build should not be active, but if this is not true for some reason, do a fast finish.
+          command: exit 0
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore:
+                - /.*/
+"""  # noqa
+
 AUTOMERGE_MAIN = """\
 on:
   status: {}
@@ -89,6 +116,29 @@ jobs:
 """
 
 
+def _run_git_command(args, check=True):
+    s = subprocess.run(
+        ['git'] + args,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        check=check,
+    )
+    if s.returncode != 0:
+        print(f"    ERROR: {s.stdout.decode('utf-8')}", flush=True)
+
+    return s.returncode == 0, s.stdout.decode("utf-8")
+
+
+def _commit_repo(msg):
+    _run_git_command([
+        "commit",
+        "--allow-empty",
+        "-am",
+        "[ci skip] [skip ci] [cf admin skip] "
+        "***NO_CI*** %s" % msg,
+    ])
+
+
 @lru_cache(maxsize=1)
 def _get_req_session(github_token):
     # based on
@@ -153,17 +203,101 @@ def _update_wfl(fname, new_wfl):
         return False
 
 
+def _get_curr_sha():
+    o = subprocess.run(
+        ["git", "rev-parse", "HEAD"],
+        check=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+    )
+    return o.stdout.decode("utf=8").strip()
+
+
 def _reset_local_branch(old_def_branch):
-    subprocess.run(
-        "git stash && "
+    s = subprocess.run(
         f"git branch -m {old_def_branch} main && "
         "git fetch origin && "
         "git branch -u origin/main main && "
-        "git remote set-head origin -a && "
-        "git stash pop",
+        "git remote set-head origin -a ",
         check=True,
         shell=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
     )
+    if s.returncode != 0:
+        print(f"    ERROR: {s.stdout.decode('utf-8')}", flush=True)
+
+
+def _master_to_main(repo):
+    old_sha = _get_curr_sha()
+    try:
+        if os.path.exists("azure-pipelines.yml"):
+            _run_git_command([
+                "mv", "azure-pipelines.yml", "azure-pipelines.yml.bak",
+            ])
+
+        if os.path.exists(".travis.yml"):
+            _run_git_command([
+                "mv", ".travis.yml", ".travis.yml.bak",
+            ])
+
+        if os.path.exists(".circleci/config.yml"):
+            with open(".circleci/config.yml", "w") as fp:
+                fp.write(CIRCLECI_BLANK)
+
+        _commit_repo("turning off CI for master to main migration")
+        print("    turned off CI for master to main migration", flush=True)
+    except Exception as e:
+        print(f"    ERROR: {repr(e)}", flush=True)
+        print(
+            "    turning off CI for master to main migration FAILED on commit!",
+            flush=True,
+        )
+        _run_git_command(["reset", "--hard", old_sha])
+        return False
+
+    try:
+        _run_git_command(["push", "--quiet"])
+    except Exception as e:
+        print(f"    ERROR: {repr(e)}", flush=True)
+        print(
+            "    turning off CI for master to main migration FAILED on push!",
+            flush=True,
+        )
+        _run_git_command(["reset", "--hard", old_sha])
+        return False
+
+    rev_sha = _get_curr_sha()
+    worked = False
+    try:
+        # once pygithub 1.56 or greater is out we can use this
+        # repo.rename_branch(repo.default_branch, "main")
+        sess = _get_req_session(os.environ['GITHUB_TOKEN'])
+        r = sess.post(
+            "https://api.github.com"
+            "/repos/%s/branches/%s/rename" % (repo.full_name, repo.default_branch),
+            json={"new_name": "main"},
+        )
+        r.raise_for_status()
+    except Exception as e:
+        print(f"    ERROR: {repr(e)}", flush=True)
+        print("    master to main rename FAILED in the API!", flush=True)
+        worked = False
+    else:
+        time.sleep(5)
+        print("    renamed branch '%s' to 'main'" % repo.default_branch, flush=True)
+
+        # the upstream branch has changed, so need to reset local clone
+        _reset_local_branch(repo.default_branch)
+        print("    reset local branch to 'main'", flush=True)
+        worked = True
+    finally:
+        _run_git_command(["revert", "-n", rev_sha])
+        _commit_repo("turning on CI for master to main migration")
+        _run_git_command(["push", "--quiet"])
+        print("    turned CI back on for master to main migration", flush=True)
+
+    return worked
 
 
 class CondaForgeMasterToMain(Migrator):
@@ -173,68 +307,58 @@ class CondaForgeMasterToMain(Migrator):
             # migration done, make a commit, lots of API calls
             return True, False, True
 
-        # the conda-forge config gets updated every time
-        updated_automerge = _update_wfl(
-            ".github/workflows/automerge.yml", AUTOMERGE_MAIN,
-        )
-        updated_webservices = _update_wfl(
-            ".github/workflows/webservices.yml", WEBSERVICES_MAIN,
-        )
-
-        yaml = YAML()
-        cfg = _read_conda_forge_yaml(yaml)
-        if "github" not in cfg:
-            cfg["github"] = {}
-        if (
-            "branch_name" not in cfg["github"]
-            or cfg["github"]["branch_name"] != "main"
-            or "tooling_branch_name" not in cfg["github"]
-            or cfg["github"]["tooling_branch_name"] != "main"
-            or (
-                "upload_on_branch" in cfg
-                and cfg["upload_on_branch"] == "master"
-            )
-        ):
-            cfg["github"]["branch_name"] = "main"
-            cfg["github"]["tooling_branch_name"] = "main"
-
-            if "upload_on_branch" in cfg and cfg["upload_on_branch"] == "master":
-                cfg["upload_on_branch"] = "main"
-
-            with open("conda-forge.yml", "w") as fp:
-                yaml.dump(cfg, fp)
-            subprocess.run(
-                ["git", "add", "conda-forge.yml"],
-                check=True,
-            )
-            print("    updated conda-forge.yml", flush=True)
-            updated_cfy = True
-        else:
-            updated_cfy = False
-
-        make_commit = updated_automerge or updated_webservices or updated_cfy
-
         # only call branch rename once on current "master" branch if it exists
         if repo.default_branch != "main" and branch == repo.default_branch:
-            # once pygithub 1.56 or greater is out we can use this
-            # repo.rename_branch(repo.default_branch, "main")
+            did_master_to_main = _master_to_main(repo)
+        else:
+            did_master_to_main = False
 
-            sess = _get_req_session(os.environ['GITHUB_TOKEN'])
-            r = sess.post(
-                "https://api.github.com"
-                "/repos/%s/branches/%s/rename" % (repo.full_name, repo.default_branch),
-                json={"new_name": "main"},
+        make_commit = False
+
+        if did_master_to_main:
+            # the conda-forge config gets updated every time
+            updated_automerge = _update_wfl(
+                ".github/workflows/automerge.yml", AUTOMERGE_MAIN,
             )
-            r.raise_for_status()
-            time.sleep(5)
-            print("    renamed branch '%s' to 'main'" % repo.default_branch, flush=True)
+            updated_webservices = _update_wfl(
+                ".github/workflows/webservices.yml", WEBSERVICES_MAIN,
+            )
 
-            # the upstream branch has changed, so need to reset local clone
-            _reset_local_branch(repo.default_branch)
-            print("    reset local branch to 'main'", flush=True)
+            yaml = YAML()
+            cfg = _read_conda_forge_yaml(yaml)
+            if "github" not in cfg:
+                cfg["github"] = {}
+            if (
+                "branch_name" not in cfg["github"]
+                or cfg["github"]["branch_name"] != "main"
+                or "tooling_branch_name" not in cfg["github"]
+                or cfg["github"]["tooling_branch_name"] != "main"
+                or (
+                    "upload_on_branch" in cfg
+                    and cfg["upload_on_branch"] == "master"
+                )
+            ):
+                cfg["github"]["branch_name"] = "main"
+                cfg["github"]["tooling_branch_name"] = "main"
+
+                if "upload_on_branch" in cfg and cfg["upload_on_branch"] == "master":
+                    cfg["upload_on_branch"] = "main"
+
+                with open("conda-forge.yml", "w") as fp:
+                    yaml.dump(cfg, fp)
+                subprocess.run(
+                    ["git", "add", "conda-forge.yml"],
+                    check=True,
+                )
+                print("    updated conda-forge.yml", flush=True)
+                updated_cfy = True
+            else:
+                updated_cfy = False
+
+            make_commit = updated_automerge or updated_webservices or updated_cfy
 
         # migration done, make a commit, lots of API calls
-        return True, make_commit, True
+        return did_master_to_main, make_commit, True
 
 
 class CondaForgeGHAWithMain(Migrator):
