@@ -312,7 +312,8 @@ class CondaForgeMasterToMain(Migrator):
             did_master_to_main = _master_to_main(repo)
         else:
             did_master_to_main = False
-            make_commit = False
+
+        make_commit = False
 
         if did_master_to_main:
             # the conda-forge config gets updated every time
