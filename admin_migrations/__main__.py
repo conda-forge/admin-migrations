@@ -289,8 +289,9 @@ def run_migrators(feedstock, migrators):
                                 if m.skip(feedstock, branch):
                                     continue
 
-                                worked, commit_me, made_api_calls = m.migrate(
+                                worked, commit_me, _made_api_calls = m.migrate(
                                     feedstock, branch)
+                                made_api_calls = made_api_calls or _made_api_calls
 
                                 if commit_me:
                                     _run_git_command([
