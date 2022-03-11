@@ -6432,5 +6432,305 @@
   },
   "filebutler": {
     "master": true
+  },
+  "filechunkio": {
+    "master": true
+  },
+  "fileinspector": {
+    "master": true
+  },
+  "filelock": {
+    "master": true
+  },
+  "filesdb": {
+    "master": true
+  },
+  "filesystem-spec": {
+    "master": true
+  },
+  "filetype": {
+    "master": true
+  },
+  "filterpy": {
+    "master": true
+  },
+  "findspark": {
+    "master": true
+  },
+  "findutils": {
+    "master": true
+  },
+  "finitediff": {
+    "master": true
+  },
+  "finmind": {
+    "master": true
+  },
+  "fiona": {
+    "master": true
+  },
+  "fipy": {
+    "master": true
+  },
+  "fire": {
+    "master": true
+  },
+  "firecrown": {
+    "master": true
+  },
+  "firefox": {
+    "master": true
+  },
+  "firelight": {
+    "master": true
+  },
+  "fireworks": {
+    "master": true
+  },
+  "fiscalyear": {
+    "master": true
+  },
+  "fish": {
+    "master": true
+  },
+  "fisher": {
+    "master": true
+  },
+  "fissix": {
+    "master": true
+  },
+  "fisspy": {
+    "master": true
+  },
+  "fisx": {
+    "master": true
+  },
+  "fit-sne": {
+    "master": true
+  },
+  "fitsio": {
+    "master": true
+  },
+  "fitstools": {
+    "master": true
+  },
+  "fixie": {
+    "master": true
+  },
+  "fixie-batch": {
+    "master": true
+  },
+  "fixie-creds": {
+    "master": true
+  },
+  "fixie-data": {
+    "master": true
+  },
+  "fixtures": {
+    "master": true
+  },
+  "flake8": {
+    "master": true
+  },
+  "flake8-black": {
+    "master": true
+  },
+  "flake8-blind-except": {
+    "master": true
+  },
+  "flake8-bugbear": {
+    "master": true
+  },
+  "flake8-builtins": {
+    "master": true
+  },
+  "flake8-colors": {
+    "master": true
+  },
+  "flake8-comprehensions": {
+    "master": true
+  },
+  "flake8-copyright": {
+    "master": true
+  },
+  "flake8-docstrings": {
+    "master": true
+  },
+  "flake8-import-order": {
+    "master": true
+  },
+  "flake8-isort": {
+    "master": true
+  },
+  "flake8-mutable": {
+    "master": true
+  },
+  "flake8-nb": {
+    "master": true
+  },
+  "flake8-pep3101": {
+    "master": true
+  },
+  "flake8-polyfill": {
+    "master": true
+  },
+  "flake8-print": {
+    "master": true
+  },
+  "flake8-pyi": {
+    "master": true
+  },
+  "flake8-quotes": {
+    "master": true
+  },
+  "flake8-rst": {
+    "master": true
+  },
+  "flake8-rst-docstrings": {
+    "master": true
+  },
+  "flake8-self": {
+    "master": true
+  },
+  "flake8-sfs": {
+    "master": true
+  },
+  "flaky": {
+    "master": true
+  },
+  "flammkuchen": {
+    "master": true
+  },
+  "flang": {
+    "master": true
+  },
+  "flang-meta": {
+    "master": true
+  },
+  "flann": {
+    "master": true
+  },
+  "flasgger": {
+    "master": true
+  },
+  "flask": {
+    "master": true
+  },
+  "flask-admin": {
+    "master": true
+  },
+  "flask-allows": {
+    "master": true
+  },
+  "flask-apispec": {
+    "master": true
+  },
+  "flask-appbuilder": {
+    "master": true
+  },
+  "flask-apscheduler": {
+    "master": true
+  },
+  "flask-assets": {
+    "master": true
+  },
+  "flask-autoindex": {
+    "master": true
+  },
+  "flask-babel": {
+    "master": true
+  },
+  "flask-babelex": {
+    "master": true
+  },
+  "flask-basicauth": {
+    "master": true
+  },
+  "flask-bcrypt": {
+    "master": true
+  },
+  "flask-bootstrap": {
+    "master": true
+  },
+  "flask-bower": {
+    "master": true
+  },
+  "flask-cache": {
+    "master": true
+  },
+  "flask-caching": {
+    "master": true
+  },
+  "flask-celery-helper": {
+    "master": true
+  },
+  "flask-compress": {
+    "master": true
+  },
+  "flask-cors": {
+    "master": true
+  },
+  "flask-couchdb": {
+    "master": true
+  },
+  "flask-creole": {
+    "master": true
+  },
+  "flask-dance": {
+    "master": true
+  },
+  "flask-debugtoolbar": {
+    "master": true
+  },
+  "flask-dramatiq": {
+    "master": true
+  },
+  "flask-excel": {
+    "master": true
+  },
+  "flask-flatpages": {
+    "master": true
+  },
+  "flask-genshi": {
+    "master": true
+  },
+  "flask-graphql": {
+    "master": true
+  },
+  "flask-httpauth": {
+    "master": true
+  },
+  "flask-jsonpify": {
+    "master": true
+  },
+  "flask-jwt-extended": {
+    "master": true
+  },
+  "flask-ldap3-login": {
+    "master": true
+  },
+  "flask-login": {
+    "master": true
+  },
+  "flask-mail": {
+    "master": true
+  },
+  "flask-markdown": {
+    "master": true
+  },
+  "flask-marshmallow": {
+    "master": true
+  },
+  "flask-migrate": {
+    "master": true
+  },
+  "flask-moment": {
+    "master": true
+  },
+  "flask-mqtt": {
+    "master": true
+  },
+  "flask-nav": {
+    "master": true
   }
 }
