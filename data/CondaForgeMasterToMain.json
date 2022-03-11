@@ -4214,5 +4214,1022 @@
   },
   "contextvars": {
     "master": true
+  },
+  "contrib_colormaps": {
+    "master": true
+  },
+  "control": {
+    "master": true
+  },
+  "convertdate": {
+    "master": true
+  },
+  "cookiecutter": {
+    "master": true
+  },
+  "cookies": {
+    "master": true
+  },
+  "coolprop": {
+    "master": true
+  },
+  "copulae": {
+    "master": true
+  },
+  "copy-jdk-configs-cos7-aarch64": {
+    "master": true
+  },
+  "coq": {
+    "master": true
+  },
+  "coq-jupyter": {
+    "master": true
+  },
+  "core-js": {
+    "master": true
+  },
+  "coreapi-cli": {
+    "master": true
+  },
+  "coredns": {
+    "master": true
+  },
+  "coreutils": {
+    "master": true
+  },
+  "cornac": {
+    "master": true
+  },
+  "corner": {
+    "master": true
+  },
+  "corral-pipeline": {
+    "master": true
+  },
+  "corrfunc": {
+    "master": true
+  },
+  "cosmosis-standalone": {
+    "master": true
+  },
+  "cothread": {
+    "master": true
+  },
+  "cotire": {
+    "master": true
+  },
+  "coursera-dl": {
+    "master": true
+  },
+  "courtana": {
+    "master": true
+  },
+  "cov-core": {
+    "master": true
+  },
+  "coverage": {
+    "master": true
+  },
+  "coveralls": {
+    "master": true
+  },
+  "cowpy": {
+    "master": true
+  },
+  "cp2k": {
+    "master": true
+  },
+  "cpnest": {
+    "master": true
+  },
+  "cppcheck": {
+    "master": true
+  },
+  "cppcolormap": {
+    "master": true
+  },
+  "cppheaderparser": {
+    "master": true
+  },
+  "cpplint": {
+    "master": true
+  },
+  "cpppath": {
+    "master": true
+  },
+  "cppunit": {
+    "master": true
+  },
+  "cpputest": {
+    "master": true
+  },
+  "cppy": {
+    "master": true
+  },
+  "cppyy": {
+    "master": true
+  },
+  "cppyy-backend": {
+    "master": true
+  },
+  "cppyy-cling": {
+    "master": true
+  },
+  "cppzmq": {
+    "master": true
+  },
+  "cpu_features": {
+    "master": true
+  },
+  "cpulimit": {
+    "master": true
+  },
+  "cpycppyy": {
+    "master": true
+  },
+  "cquadpack": {
+    "master": true
+  },
+  "craftr": {
+    "master": true
+  },
+  "cram": {
+    "master": true
+  },
+  "crayons": {
+    "master": true
+  },
+  "crc32c": {
+    "master": true
+  },
+  "crcmod": {
+    "master": true
+  },
+  "credstash": {
+    "master": true
+  },
+  "creme": {
+    "master": true
+  },
+  "creoleparser": {
+    "master": true
+  },
+  "crick": {
+    "master": true
+  },
+  "crispy": {
+    "master": true
+  },
+  "crlibm": {
+    "master": true
+  },
+  "croaring": {
+    "master": true
+  },
+  "crochet": {
+    "master": true
+  },
+  "cromwell": {
+    "master": true
+  },
+  "croniter": {
+    "master": true
+  },
+  "crontab": {
+    "master": true
+  },
+  "crosstool-ng": {
+    "master": true
+  },
+  "cryptography": {
+    "master": true
+  },
+  "cryptography-vectors": {
+    "master": true
+  },
+  "cryptominisat": {
+    "master": true
+  },
+  "cryptopp": {
+    "master": true
+  },
+  "crystals": {
+    "master": true
+  },
+  "csa": {
+    "master": true
+  },
+  "csm": {
+    "master": true
+  },
+  "csmapi": {
+    "master": true
+  },
+  "cson": {
+    "master": true
+  },
+  "cspice": {
+    "master": true
+  },
+  "cssmin": {
+    "master": true
+  },
+  "cssselect": {
+    "master": true
+  },
+  "cssselect2": {
+    "master": true
+  },
+  "cssutils": {
+    "master": true
+  },
+  "csvkit": {
+    "master": true
+  },
+  "ctags": {
+    "master": true
+  },
+  "ctd": {
+    "master": true
+  },
+  "ctdopts": {
+    "master": true
+  },
+  "ctds": {
+    "master": true
+  },
+  "ctk-cli": {
+    "master": true
+  },
+  "ctng-compiler-activation": {
+    "master": true
+  },
+  "ctng-compilers": {
+    "master": true
+  },
+  "cudatoolkit-dev": {
+    "master": true
+  },
+  "cunit": {
+    "master": true
+  },
+  "cupy": {
+    "master": true
+  },
+  "curio": {
+    "master": true
+  },
+  "curl": {
+    "master": true
+  },
+  "cursor": {
+    "master": true
+  },
+  "curtsies": {
+    "master": true
+  },
+  "custodian": {
+    "master": true
+  },
+  "custom-inherit": {
+    "master": true
+  },
+  "cvloop": {
+    "master": true
+  },
+  "cvxopt": {
+    "master": true
+  },
+  "cvxpy": {
+    "master": true
+  },
+  "cw-eval": {
+    "master": true
+  },
+  "cwinpy": {
+    "master": true
+  },
+  "cwl_runner": {
+    "master": true
+  },
+  "cwltool": {
+    "master": true
+  },
+  "cx_freeze": {
+    "master": true
+  },
+  "cx_oracle": {
+    "master": true
+  },
+  "cxxfilt": {
+    "master": true
+  },
+  "cxxopts": {
+    "master": true
+  },
+  "cxxtest": {
+    "master": true
+  },
+  "cyan": {
+    "master": true
+  },
+  "cyarray": {
+    "master": true
+  },
+  "cyavro": {
+    "master": true
+  },
+  "cyberpandas": {
+    "master": true
+  },
+  "cybuffer": {
+    "master": true
+  },
+  "cycamore": {
+    "master": true
+  },
+  "cycler": {
+    "master": true
+  },
+  "cyclonedds": {
+    "master": true
+  },
+  "cyclus": {
+    "master": true
+  },
+  "cyclus-build-deps": {
+    "master": true
+  },
+  "cyclus-d3ploy": {
+    "master": true
+  },
+  "cyflann": {
+    "master": true
+  },
+  "cygrid": {
+    "master": true
+  },
+  "cyipopt": {
+    "master": true
+  },
+  "cykdtree": {
+    "master": true
+  },
+  "cylc": {
+    "master": true
+  },
+  "cylc-flow": {
+    "master": true
+  },
+  "cylc-ui": {
+    "master": true
+  },
+  "cylc-uiserver": {
+    "master": true
+  },
+  "cymem": {
+    "master": true
+  },
+  "cymetric": {
+    "master": true
+  },
+  "cyminmax": {
+    "master": true
+  },
+  "cymove": {
+    "master": true
+  },
+  "cymysql": {
+    "master": true
+  },
+  "cyordereddict": {
+    "master": true
+  },
+  "cypari2": {
+    "master": true
+  },
+  "cyrus-sasl": {
+    "master": true
+  },
+  "cysgp4": {
+    "master": true
+  },
+  "cysignals": {
+    "master": true
+  },
+  "cython": {
+    "master": true
+  },
+  "cython-blis": {
+    "master": true
+  },
+  "cython-fortran-file": {
+    "master": true
+  },
+  "cythongsl": {
+    "master": true
+  },
+  "cytominer_database": {
+    "master": true
+  },
+  "cytoolz": {
+    "master": true
+  },
+  "cyvlfeat": {
+    "master": true
+  },
+  "czifile": {
+    "master": true
+  },
+  "czml3": {
+    "master": true
+  },
+  "czmq": {
+    "master": true
+  },
+  "d2to1": {
+    "master": true
+  },
+  "d3": {
+    "master": true
+  },
+  "daetk": {
+    "master": true
+  },
+  "dagmc": {
+    "master": true
+  },
+  "dagster": {
+    "master": true
+  },
+  "dagster_pagerduty": {
+    "master": true
+  },
+  "dakota": {
+    "master": true
+  },
+  "damask": {
+    "master": true
+  },
+  "darglint": {
+    "master": true
+  },
+  "dash": {
+    "master": true
+  },
+  "dash-bootstrap-components": {
+    "master": true
+  },
+  "dash-core-components": {
+    "master": true
+  },
+  "dash-coreui-components": {
+    "master": true
+  },
+  "dash-daq": {
+    "master": true
+  },
+  "dash-html-components": {
+    "master": true
+  },
+  "dash-renderer": {
+    "master": true
+  },
+  "dash-table": {
+    "master": true
+  },
+  "dash_cytoscape": {
+    "master": true
+  },
+  "dask": {
+    "master": true
+  },
+  "dask-cloudprovider": {
+    "master": true
+  },
+  "dask-core": {
+    "master": true
+  },
+  "dask-distance": {
+    "master": true
+  },
+  "dask-drmaa": {
+    "master": true
+  },
+  "dask-funk": {
+    "master": true
+  },
+  "dask-gateway": {
+    "master": true
+  },
+  "dask-geomodeling": {
+    "master": true
+  },
+  "dask-glm": {
+    "master": true
+  },
+  "dask-image": {
+    "master": true
+  },
+  "dask-jobqueue": {
+    "master": true
+  },
+  "dask-kubernetes": {
+    "master": true
+  },
+  "dask-memusage": {
+    "master": true
+  },
+  "dask-ml": {
+    "master": true
+  },
+  "dask-mpi": {
+    "master": true
+  },
+  "dask-searchcv": {
+    "master": true
+  },
+  "dask-sphinx-theme": {
+    "master": true
+  },
+  "dask-tensorflow": {
+    "master": true
+  },
+  "dask-xgboost": {
+    "master": true
+  },
+  "dask-yarn": {
+    "master": true
+  },
+  "dask_labextension": {
+    "master": true
+  },
+  "databases": {
+    "master": true
+  },
+  "databricks-cli": {
+    "master": true
+  },
+  "databroker": {
+    "master": true
+  },
+  "databroker-elasticsearch": {
+    "master": true
+  },
+  "datacache": {
+    "master": true
+  },
+  "dataclasses": {
+    "master": true
+  },
+  "datacompy": {
+    "master": true
+  },
+  "datacube": {
+    "master": true
+  },
+  "datadog": {
+    "master": true
+  },
+  "datadotworld-py": {
+    "master": true
+  },
+  "datajoint": {
+    "master": true
+  },
+  "datalad": {
+    "master": true
+  },
+  "datalad-container": {
+    "master": true
+  },
+  "datamash": {
+    "master": true
+  },
+  "datamatrix": {
+    "master": true
+  },
+  "datamodeldict": {
+    "master": true
+  },
+  "datamountaineer-schemaregistry": {
+    "master": true
+  },
+  "datapackage": {
+    "master": true
+  },
+  "datarobot": {
+    "master": true
+  },
+  "datashader": {
+    "master": true
+  },
+  "datashape": {
+    "master": true
+  },
+  "datatables": {
+    "master": true
+  },
+  "datefudge": {
+    "master": true
+  },
+  "dateparser": {
+    "master": true
+  },
+  "dateutils": {
+    "master": true
+  },
+  "datreant": {
+    "master": true
+  },
+  "datrie": {
+    "master": true
+  },
+  "datumgrid": {
+    "master": true
+  },
+  "dave": {
+    "master": true
+  },
+  "davix": {
+    "master": true
+  },
+  "dawg": {
+    "master": true
+  },
+  "dawg-python": {
+    "master": true
+  },
+  "dbf": {
+    "master": true
+  },
+  "dbfread": {
+    "master": true
+  },
+  "dbt": {
+    "master": true
+  },
+  "dbus": {
+    "master": true
+  },
+  "dbus-cxx": {
+    "master": true
+  },
+  "dbus-python": {
+    "master": true
+  },
+  "dbxfs": {
+    "master": true
+  },
+  "dcap": {
+    "master": true
+  },
+  "dcgp-python": {
+    "master": true
+  },
+  "dcm2niix": {
+    "master": true
+  },
+  "dcmstack": {
+    "master": true
+  },
+  "dcw-gmt": {
+    "master": true
+  },
+  "ddt": {
+    "master": true
+  },
+  "dealii": {
+    "master": true
+  },
+  "deap": {
+    "master": true
+  },
+  "debtcollector": {
+    "master": true
+  },
+  "dec2": {
+    "master": true
+  },
+  "decorator": {
+    "master": true
+  },
+  "dectate": {
+    "master": true
+  },
+  "deepchem": {
+    "master": true
+  },
+  "deepdiff": {
+    "master": true
+  },
+  "deepdish": {
+    "master": true
+  },
+  "deepgraph": {
+    "master": true
+  },
+  "deeplearnjs": {
+    "master": true
+  },
+  "deepmd-kit": {
+    "master": true
+  },
+  "deepsmiles": {
+    "master": true
+  },
+  "deepxde": {
+    "master": true
+  },
+  "defusedxml": {
+    "master": true
+  },
+  "deicode": {
+    "master": true
+  },
+  "deid": {
+    "master": true
+  },
+  "delegator": {
+    "master": true
+  },
+  "delocate": {
+    "master": true
+  },
+  "demoshell": {
+    "master": true
+  },
+  "demquery": {
+    "master": true
+  },
+  "deon": {
+    "master": true
+  },
+  "dependencies": {
+    "master": true
+  },
+  "depfinder": {
+    "master": true
+  },
+  "depi": {
+    "master": true
+  },
+  "depinfo": {
+    "master": true
+  },
+  "deprecated": {
+    "master": true
+  },
+  "deprecation": {
+    "master": true
+  },
+  "deprecation-factory": {
+    "master": true
+  },
+  "deps": {
+    "master": true
+  },
+  "des-desmeds": {
+    "master": true
+  },
+  "des-easyaccess": {
+    "master": true
+  },
+  "descartes": {
+    "master": true
+  },
+  "descarteslabs": {
+    "master": true
+  },
+  "desdeo": {
+    "master": true
+  },
+  "desdeo-vis": {
+    "master": true
+  },
+  "desktop3": {
+    "master": true
+  },
+  "desres-msys": {
+    "master": true
+  },
+  "df2gspread": {
+    "master": true
+  },
+  "dftatom": {
+    "master": true
+  },
+  "dftd4": {
+    "master": true
+  },
+  "dfviz": {
+    "master": true
+  },
+  "dialite": {
+    "master": true
+  },
+  "dials-data": {
+    "master": true
+  },
+  "dials-dependencies": {
+    "master": true
+  },
+  "dicom2nifti": {
+    "master": true
+  },
+  "dicomifier": {
+    "master": true
+  },
+  "dictdiffer": {
+    "master": true
+  },
+  "dictlib": {
+    "master": true
+  },
+  "dicttoxml": {
+    "master": true
+  },
+  "diff-cover": {
+    "master": true
+  },
+  "diff-match-patch": {
+    "master": true
+  },
+  "diffoscope": {
+    "master": true
+  },
+  "diffpy.pdfmorph": {
+    "master": true
+  },
+  "diffpy.structure": {
+    "master": true
+  },
+  "diffpy.utils": {
+    "master": true
+  },
+  "diffsims": {
+    "master": true
+  },
+  "diffutils": {
+    "master": true
+  },
+  "digital_rf": {
+    "master": true
+  },
+  "dill": {
+    "master": true
+  },
+  "dionysus": {
+    "master": true
+  },
+  "dioptas": {
+    "master": true
+  },
+  "dipy": {
+    "master": true
+  },
+  "dirac-grid": {
+    "master": true
+  },
+  "diraccfg": {
+    "master": true
+  },
+  "dirent": {
+    "master": true
+  },
+  "dis3": {
+    "master": true
+  },
+  "discretisedfield": {
+    "master": true
+  },
+  "discretize": {
+    "master": true
+  },
+  "diskcache": {
+    "master": true
+  },
+  "distance": {
+    "master": true
+  },
+  "distarray": {
+    "master": true
+  },
+  "distgen": {
+    "master": true
+  },
+  "distributed": {
+    "master": true
+  },
+  "distro": {
+    "master": true
+  },
+  "dit": {
+    "master": true
+  },
+  "divebomb": {
+    "master": true
+  },
+  "dj-database-url": {
+    "master": true
+  },
+  "dj-static": {
+    "master": true
+  },
+  "django": {
+    "master": true
+  },
+  "django-admin-shortcuts": {
+    "master": true
+  },
+  "django-ajax-selects": {
+    "master": true
+  },
+  "django-allauth": {
+    "master": true
+  },
+  "django-anymail": {
+    "master": true
+  },
+  "django-appconf": {
+    "master": true
+  },
+  "django-apptemplates": {
+    "master": true
+  },
+  "django-autoslug": {
+    "master": true
+  },
+  "django-bakery": {
+    "master": true
+  },
+  "django-bootstrap3": {
+    "master": true
+  },
+  "django-bootstrap4": {
+    "master": true
+  },
+  "django-braces": {
+    "master": true
+  },
+  "django-cachalot": {
+    "master": true
+  },
+  "django-celery": {
+    "master": true
+  },
+  "django-chunked-upload": {
+    "master": true
+  },
+  "django-cleanup": {
+    "master": true
+  },
+  "django-cloud-browser": {
+    "master": true
+  },
+  "django-configurations": {
+    "master": true
+  },
+  "django-controlcenter": {
+    "master": true
+  },
+  "django-cors-headers": {
+    "master": true
+  },
+  "django-crispy-forms": {
+    "master": true
+  },
+  "django-cruds-adminlte": {
+    "master": true
+  },
+  "django-daterange-filter": {
+    "master": true
+  },
+  "django-debug-toolbar": {
+    "master": true
+  },
+  "django-emailhub": {
+    "master": true
+  },
+  "django-enumfields": {
+    "master": true
+  },
+  "django-environ": {
+    "master": true
+  },
+  "django-extensions": {
+    "master": true
+  },
+  "django-filer": {
+    "master": true
+  },
+  "django-filter": {
+    "master": true
+  },
+  "django-fixture-magic": {
+    "master": true
+  },
+  "django-foundation-formtags": {
+    "master": true
   }
 }
