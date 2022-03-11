@@ -268,7 +268,7 @@ def _master_to_main(repo):
         return False
 
     rev_sha = _get_curr_sha()
-
+    worked = False
     try:
         # once pygithub 1.56 or greater is out we can use this
         # repo.rename_branch(repo.default_branch, "main")
@@ -282,11 +282,7 @@ def _master_to_main(repo):
     except Exception as e:
         print(f"    ERROR: {repr(e)}", flush=True)
         print("    master to main rename FAILED in the API!", flush=True)
-        _run_git_command(["revert", "-n", rev_sha])
-        _commit_repo("turning on CI for master to main migration")
-        _run_git_command(["push", "--quiet"])
-        print("    turned CI back on for master to main migration", flush=True)
-        return False
+        worked = False
     else:
         time.sleep(5)
         print("    renamed branch '%s' to 'main'" % repo.default_branch, flush=True)
@@ -294,12 +290,14 @@ def _master_to_main(repo):
         # the upstream branch has changed, so need to reset local clone
         _reset_local_branch(repo.default_branch)
         print("    reset local branch to 'main'", flush=True)
-
+        worked = True
+    finally:
         _run_git_command(["revert", "-n", rev_sha])
         _commit_repo("turning on CI for master to main migration")
         _run_git_command(["push", "--quiet"])
         print("    turned CI back on for master to main migration", flush=True)
-        return True
+
+    return worked
 
 
 class CondaForgeMasterToMain(Migrator):
