@@ -7032,5 +7032,305 @@
   },
   "freecad": {
     "master": true
+  },
+  "freediscovery": {
+    "master": true
+  },
+  "freegenes": {
+    "master": true
+  },
+  "freeglut": {
+    "master": true
+  },
+  "freeimage": {
+    "master": true
+  },
+  "freetds": {
+    "master": true
+  },
+  "freetype": {
+    "master": true
+  },
+  "freetype-py": {
+    "master": true
+  },
+  "freexl": {
+    "master": true
+  },
+  "freezegun": {
+    "master": true
+  },
+  "fresnel": {
+    "master": true
+  },
+  "fretbursts": {
+    "master": true
+  },
+  "freud": {
+    "master": true
+  },
+  "fribidi": {
+    "master": true
+  },
+  "frosted": {
+    "master": true
+  },
+  "frozen-flask": {
+    "master": true
+  },
+  "frozendict": {
+    "master": true
+  },
+  "fs": {
+    "master": true
+  },
+  "fs-gcsfs": {
+    "master": true
+  },
+  "fs-s3fs": {
+    "master": true
+  },
+  "fs.sshfs": {
+    "master": true
+  },
+  "fs.webdavfs": {
+    "master": true
+  },
+  "fs_filepicker": {
+    "master": true
+  },
+  "fsfe-reuse": {
+    "master": true
+  },
+  "fsl-pyfeeds": {
+    "master": true
+  },
+  "fsleyes": {
+    "master": true
+  },
+  "fsleyes-props": {
+    "master": true
+  },
+  "fsleyes-widgets": {
+    "master": true
+  },
+  "fslpy": {
+    "master": true
+  },
+  "fswatch": {
+    "master": true
+  },
+  "ftd2xx": {
+    "master": true
+  },
+  "ftfy": {
+    "master": true
+  },
+  "ftgl": {
+    "master": true
+  },
+  "ftputil": {
+    "master": true
+  },
+  "fts-rest": {
+    "master": true
+  },
+  "func_timeout": {
+    "master": true
+  },
+  "funcargparse": {
+    "master": true
+  },
+  "funcparserlib": {
+    "master": true
+  },
+  "funcsigs": {
+    "master": true
+  },
+  "functionalplus": {
+    "master": true
+  },
+  "functools32": {
+    "master": true
+  },
+  "funcy": {
+    "master": true
+  },
+  "furl": {
+    "master": true
+  },
+  "fury": {
+    "master": true
+  },
+  "fusepy": {
+    "master": true
+  },
+  "fusepyng": {
+    "master": true
+  },
+  "fusesoc": {
+    "master": true
+  },
+  "future": {
+    "master": true
+  },
+  "future_fstrings": {
+    "master": true
+  },
+  "futures": {
+    "master": true
+  },
+  "fuzzy-rough-learn": {
+    "master": true
+  },
+  "fuzzywuzzy": {
+    "master": true
+  },
+  "fwlite": {
+    "master": true
+  },
+  "fypp": {
+    "master": true
+  },
+  "fzf": {
+    "master": true
+  },
+  "g2clib": {
+    "master": true
+  },
+  "g2o": {
+    "master": true
+  },
+  "gaitpy": {
+    "master": true
+  },
+  "gala": {
+    "master": true
+  },
+  "galario": {
+    "master": true
+  },
+  "galgebra": {
+    "master": true
+  },
+  "galpy": {
+    "master": true
+  },
+  "galsim": {
+    "master": true
+  },
+  "gama": {
+    "master": true
+  },
+  "gap": {
+    "master": true
+  },
+  "garnett": {
+    "master": true
+  },
+  "gast": {
+    "master": true
+  },
+  "gatspy": {
+    "master": true
+  },
+  "gawk": {
+    "master": true
+  },
+  "gazar": {
+    "master": true
+  },
+  "gazebo": {
+    "master": true
+  },
+  "gbquality": {
+    "master": true
+  },
+  "gcab": {
+    "master": true
+  },
+  "gconf2-cos7-aarch64": {
+    "master": true
+  },
+  "gcovr": {
+    "master": true
+  },
+  "gcsfs": {
+    "master": true
+  },
+  "gct": {
+    "master": true
+  },
+  "gdal": {
+    "master": true
+  },
+  "gdb": {
+    "master": true
+  },
+  "gdbm": {
+    "master": true
+  },
+  "gdcm": {
+    "master": true
+  },
+  "gdk-pixbuf": {
+    "master": true
+  },
+  "gdown": {
+    "master": true
+  },
+  "gdrive": {
+    "master": true
+  },
+  "geant4": {
+    "master": true
+  },
+  "geant4-data-abla": {
+    "master": true
+  },
+  "geant4-data-emlow": {
+    "master": true
+  },
+  "geant4-data-ensdfstate": {
+    "master": true
+  },
+  "geant4-data-incl": {
+    "master": true
+  },
+  "geant4-data-ndl": {
+    "master": true
+  },
+  "geant4-data-particlexs": {
+    "master": true
+  },
+  "geant4-data-photonevaporation": {
+    "master": true
+  },
+  "geant4-data-pii": {
+    "master": true
+  },
+  "geant4-data-radioactivedecay": {
+    "master": true
+  },
+  "geant4-data-realsurface": {
+    "master": true
+  },
+  "geant4-data-saiddata": {
+    "master": true
+  },
+  "geckodriver": {
+    "master": true
+  },
+  "geehydro": {
+    "master": true
+  },
+  "geemap": {
+    "master": true
+  },
+  "gemmi": {
+    "master": true
+  },
+  "genesis-pyapi": {
+    "master": true
   }
 }
