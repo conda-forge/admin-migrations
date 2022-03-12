@@ -329,7 +329,7 @@ def run_migrators(feedstock, migrators):
 
                             print(" ", flush=True)
 
-    print("migration took %s seconds\n" % (time.time() - _start), flush=True)
+    print("migration took %s seconds\n\n" % (time.time() - _start), flush=True)
 
     for m, branch in migrators_to_record:
         m.record(feedstock, branch)
