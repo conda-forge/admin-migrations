@@ -64,6 +64,7 @@ class AppveyorDelete(Migrator):
     # we need to check each branch, but this migrator should only be called
     # once per feedstock on the main branch
     main_branch_only = False
+    max_workers = 1
 
     def migrate(self, feedstock, branch):
         HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}

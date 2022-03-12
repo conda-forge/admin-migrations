@@ -330,9 +330,28 @@ def run_migrators(feedstock, migrators):
 
                             print(" ", flush=True)
 
-    print("migration took %s seconds\n\n" % (time.time() - _start), flush=True)
+    print("\nmigration took %s seconds\n\n" % (time.time() - _start), flush=True)
 
     return made_api_calls, migrators_to_record
+
+
+def _report_progress(
+    num_done_prev, num_done, feedstocks, num_pushed_or_apied, start_time
+):
+    print("on %d out of %d feedstocks" % (
+        num_done_prev + num_done,
+        len(feedstocks["feedstocks"]),
+    ))
+    print("migrated %d feedstokcs" % num_done)
+    print(
+        "pushed or made API calls for "
+        "%d feedstocks" % num_pushed_or_apied)
+    elapsed_time = time.time() - start_time
+    print("can migrate ~%d more feedstocks for this CI run" % (
+        int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
+    ))
+
+    print(" ")
 
 
 def main():
@@ -379,7 +398,9 @@ def main():
     else:
         all_feedstocks = list(feedstocks["feedstocks"].keys())
 
-    n_workers = 16
+    n_workers = min([m.max_processes for m in migrators])
+    if n_workers <= 0:
+        n_workers = os.environ.get("CPU_COUNT", 2)
     num_done = 0
     num_pushed_or_apied = 0
     start_time = time.time()
@@ -405,20 +426,10 @@ def main():
 
                     if time.time() - report_time > 10:
                         report_time = time.time()
-                        print("on %d out of %d feedstocks" % (
-                            num_done_prev + num_done,
-                            len(feedstocks["feedstocks"]),
-                        ))
-                        print("migrated %d feedstokcs" % num_done)
-                        print(
-                            "pushed or made API calls for "
-                            "%d feedstocks" % num_pushed_or_apied)
-                        elapsed_time = time.time() - start_time
-                        print("can migrate ~%d more feedstocks for this CI run" % (
-                            int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
-                        ))
-
-                        print(" ")
+                        _report_progress(
+                            num_done_prev, num_done, feedstocks,
+                            num_pushed_or_apied, start_time
+                        )
 
                     break
 
@@ -445,30 +456,11 @@ def main():
 
         for _m, _branch in migrations_to_record:
             _m.record(futs[fut], _branch)
-    
-    if time.time() - report_time > 10:
-        report_time = time.time()
-        print(
-            "on %d out of %d feedstocks" % (
-                num_done_prev + num_done,
-                len(feedstocks["feedstocks"]),
-            ),
-            flush=True,
-        )
-        print("migrated %d feedstokcs" % num_done, flush=True)
-        print(
-            "pushed or made API calls for %d feedstocks" % num_pushed_or_apied,
-            flush=True,
-        )
-        elapsed_time = time.time() - start_time
-        print(
-            "can migrate ~%d more feedstocks for this CI run" % (
-                int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
-            ),
-            flush=True,
-        )
 
-        print(" ", flush=True)
+    _report_progress(
+        num_done_prev, num_done, feedstocks,
+        num_pushed_or_apied, start_time
+    )
 
     if all(v == next_num for v in feedstocks["feedstocks"].values()):
         print("=" * 80, flush=True)

@@ -5,6 +5,7 @@ from .base import Migrator
 
 class RotateCFStagingToken(Migrator):
     main_branch_only = True
+    max_workers = 1
 
     def migrate(self, feedstock, branch):
         subprocess.run(

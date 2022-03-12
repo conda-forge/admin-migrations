@@ -21,6 +21,7 @@ class DummyMeta(object):
 
 class TeamsCleanup(Migrator):
     main_branch_only = True
+    max_processes = 1
 
     def migrate(self, feedstock, branch):
         repo_name = "%s-feedstock" % feedstock

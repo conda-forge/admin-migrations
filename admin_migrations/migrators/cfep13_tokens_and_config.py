@@ -228,6 +228,8 @@ def _register_feedstock_outputs(feedstock):
 
 
 class CFEP13TokensAndConfig(Migrator):
+    max_workers = 1
+
     def migrate(self, feedstock, branch):
 
         yaml = YAML()

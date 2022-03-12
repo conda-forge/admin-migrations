@@ -38,6 +38,7 @@ def _delete_feedstock_token(feedstock_name):
 
 class RotateFeedstockToken(Migrator):
     main_branch_only = True
+    max_processes = 1
 
     def migrate(self, feedstock, branch):
         # delete the old token
