@@ -7632,5 +7632,305 @@
   },
   "glog": {
     "master": true
+  },
+  "glom": {
+    "master": true
+  },
+  "glpk": {
+    "master": true
+  },
+  "glue-core": {
+    "master": true
+  },
+  "glue-geospatial": {
+    "master": true
+  },
+  "glue-vispy-viewers": {
+    "master": true
+  },
+  "glueviz": {
+    "master": true
+  },
+  "glymur": {
+    "master": true
+  },
+  "gmaps": {
+    "master": true
+  },
+  "gmatelastic": {
+    "master": true
+  },
+  "gmatelastoplastic": {
+    "master": true
+  },
+  "gmatelastoplasticfinitestrainsimo": {
+    "master": true
+  },
+  "gmatelastoplasticqpot": {
+    "master": true
+  },
+  "gmatelastoplasticqpot3d": {
+    "master": true
+  },
+  "gmatnonlinearelastic": {
+    "master": true
+  },
+  "gmp": {
+    "master": true
+  },
+  "gmprocess": {
+    "master": true
+  },
+  "gmpy2": {
+    "master": true
+  },
+  "gmsh": {
+    "master": true
+  },
+  "gmt": {
+    "master": true
+  },
+  "gn": {
+    "master": true
+  },
+  "gnuastro": {
+    "master": true
+  },
+  "gnumpy": {
+    "master": true
+  },
+  "gnupg": {
+    "master": true
+  },
+  "gnupg-py": {
+    "master": true
+  },
+  "gnuplot": {
+    "master": true
+  },
+  "gnuradio": {
+    "master": true
+  },
+  "gnureadline": {
+    "master": true
+  },
+  "gnutls": {
+    "master": true
+  },
+  "go": {
+    "master": true
+  },
+  "go-archiver": {
+    "master": true
+  },
+  "go-bindata": {
+    "master": true
+  },
+  "go-bindata-assetfs": {
+    "master": true
+  },
+  "go-dep": {
+    "master": true
+  },
+  "go-glide": {
+    "master": true
+  },
+  "go-gox": {
+    "master": true
+  },
+  "go-sops": {
+    "master": true
+  },
+  "go-spatial": {
+    "master": true
+  },
+  "go-terraform-docs": {
+    "master": true
+  },
+  "go-waitforit": {
+    "master": true
+  },
+  "go1.4-bootstrap": {
+    "master": true
+  },
+  "gobject-introspection": {
+    "master": true
+  },
+  "goftests": {
+    "master": true
+  },
+  "goodtables": {
+    "master": true
+  },
+  "gooey": {
+    "master": true
+  },
+  "goofit-split": {
+    "master": true
+  },
+  "google-api-core": {
+    "master": true
+  },
+  "google-api-python-client": {
+    "master": true
+  },
+  "google-auth": {
+    "master": true
+  },
+  "google-auth-httplib2": {
+    "master": true
+  },
+  "google-auth-oauthlib": {
+    "master": true
+  },
+  "google-cloud-bigquery": {
+    "master": true
+  },
+  "google-cloud-bigquery-storage": {
+    "master": true
+  },
+  "google-cloud-bigtable": {
+    "master": true
+  },
+  "google-cloud-container": {
+    "master": true
+  },
+  "google-cloud-core": {
+    "master": true
+  },
+  "google-cloud-cpp": {
+    "master": true
+  },
+  "google-cloud-cpp-common": {
+    "master": true
+  },
+  "google-cloud-datastore": {
+    "master": true
+  },
+  "google-cloud-kms": {
+    "master": true
+  },
+  "google-cloud-language": {
+    "master": true
+  },
+  "google-cloud-monitoring": {
+    "master": true
+  },
+  "google-cloud-pubsub": {
+    "master": true
+  },
+  "google-cloud-sdk": {
+    "master": true
+  },
+  "google-cloud-spanner": {
+    "master": true
+  },
+  "google-cloud-storage": {
+    "master": true
+  },
+  "google-cloud-translate": {
+    "master": true
+  },
+  "google-cloud-vision": {
+    "master": true
+  },
+  "google-compute-engine": {
+    "master": true
+  },
+  "google-pasta": {
+    "master": true
+  },
+  "google-resumable-media": {
+    "master": true
+  },
+  "googleapis-common-protos": {
+    "master": true
+  },
+  "googleapis-cpp": {
+    "master": true
+  },
+  "googlemaps": {
+    "master": true
+  },
+  "googlesearch": {
+    "master": true
+  },
+  "googletrans": {
+    "master": true
+  },
+  "goosebib": {
+    "master": true
+  },
+  "gooseeye": {
+    "master": true
+  },
+  "goosefem": {
+    "master": true
+  },
+  "goosehdf5": {
+    "master": true
+  },
+  "goosempl": {
+    "master": true
+  },
+  "gooseslurm": {
+    "master": true
+  },
+  "gorilla": {
+    "master": true
+  },
+  "gosu": {
+    "master": true
+  },
+  "gpaw": {
+    "master": true
+  },
+  "gperf": {
+    "master": true
+  },
+  "gperftools": {
+    "master": true
+  },
+  "gpflow": {
+    "master": true
+  },
+  "gpgme": {
+    "master": true
+  },
+  "gpi": {
+    "master": true
+  },
+  "gpi_core": {
+    "master": true
+  },
+  "gprof2dot": {
+    "master": true
+  },
+  "gpstime": {
+    "master": true
+  },
+  "gptools": {
+    "master": true
+  },
+  "gpustat": {
+    "master": true
+  },
+  "gpxpy": {
+    "master": true
+  },
+  "gpy": {
+    "master": true
+  },
+  "gpyopt": {
+    "master": true
+  },
+  "gpytorch": {
+    "master": true
+  },
+  "gql": {
+    "master": true
+  },
+  "gracedb-sdk": {
+    "master": true
   }
 }
