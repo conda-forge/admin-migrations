@@ -348,7 +348,7 @@ def _report_progress(
         "%d feedstocks" % num_pushed_or_apied, flush=True)
     elapsed_time = time.time() - start_time
     print("can migrate ~%d more feedstocks for this CI run" % (
-        int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
+        max(int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time)), 0)
     ), flush=True)
 
     print(" ", flush=True)
