@@ -341,17 +341,17 @@ def _report_progress(
     print("on %d out of %d feedstocks" % (
         num_done_prev + num_done,
         len(feedstocks["feedstocks"]),
-    ))
-    print("migrated %d feedstokcs" % num_done)
+    ), flush=True)
+    print("migrated %d feedstokcs" % num_done, flush=True)
     print(
         "pushed or made API calls for "
-        "%d feedstocks" % num_pushed_or_apied)
+        "%d feedstocks" % num_pushed_or_apied, flush=True)
     elapsed_time = time.time() - start_time
     print("can migrate ~%d more feedstocks for this CI run" % (
         int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
-    ))
+    ), flush=True)
 
-    print(" ")
+    print(" ", flush=True)
 
 
 def main():
@@ -401,6 +401,14 @@ def main():
     n_workers = min([m.max_processes for m in migrators])
     if n_workers <= 0:
         n_workers = os.environ.get("CPU_COUNT", 2)
+        try:
+            n_workers = int(n_workers)
+        except Exception:
+            n_workers = 2
+
+        if n_workers <= 0:
+            n_workers = 2
+
     num_done = 0
     num_pushed_or_apied = 0
     start_time = time.time()
@@ -443,7 +451,7 @@ def main():
                 break
 
             # did too many?
-            if num_pushed_or_apied >= MAX_MIGRATE:
+            if num_pushed_or_apied >= MAX_MIGRATE or len(futs) >= MAX_MIGRATE:
                 break
 
     # clean up
