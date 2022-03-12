@@ -51,9 +51,11 @@ DEBUG = "DEBUG_ADMIN_MIGRATIONS" in os.environ
 if DEBUG:
     MAX_MIGRATE = 1
     MAX_SECONDS = 50 * 60
+    MAX_WORKERS = 1
 else:
     MAX_MIGRATE = 2000
     MAX_SECONDS = min(50, max(60 - datetime.datetime.now().minute - 6, 0)) * 60
+    MAX_WORKERS = 4
 
 
 @functools.lru_cache(maxsize=20000)
@@ -400,17 +402,20 @@ def main():
 
     n_workers = min([m.max_processes for m in migrators])
     if n_workers <= 0:
-        n_workers = os.environ.get("CPU_COUNT", 2)
+        n_workers = os.environ.get("CPU_COUNT", MAX_WORKERS)
         try:
             n_workers = int(n_workers)
         except Exception:
-            n_workers = 2
+            n_workers = MAX_WORKERS
 
-        if n_workers <= 0:
-            n_workers = 2
+    if n_workers <= 0:
+        n_workers = MAX_WORKERS
 
     if DEBUG:
         n_workers = 1
+
+    if n_workers > MAX_WORKERS:
+        n_workers = MAX_WORKERS
 
     num_done = 0
     num_pushed_or_apied = 0
