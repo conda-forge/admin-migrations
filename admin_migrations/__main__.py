@@ -49,7 +49,7 @@ _assert_at_0()
 DEBUG = "DEBUG_ADMIN_MIGRATIONS" in os.environ
 
 if DEBUG:
-    MAX_MIGRATE = 2
+    MAX_MIGRATE = 4
     MAX_SECONDS = 50 * 60
 else:
     MAX_MIGRATE = 2000
@@ -389,6 +389,8 @@ def main():
         all_feedstocks = [
             "cf-autotick-bot-test-package",
             "gdb",
+            "mattspy",
+            "ngmix",
         ]
         for fs in all_feedstocks:
             feedstocks["feedstocks"][fs] = current_num
@@ -440,7 +442,9 @@ def main():
                     for _m, _branch in migrations_to_record:
                         _m.record(futs[fut], _branch)
 
-                    if time.time() - report_time > 10:
+                    print("finished %s" % futs[fut], flush=True)
+
+                    if time.time() - report_time > 0:
                         report_time = time.time()
                         _report_progress(
                             num_done_prev, num_done, feedstocks,
