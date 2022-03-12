@@ -15,7 +15,8 @@ import ruamel.yaml
 
 from admin_migrations.migrators import (
     RAutomerge,
-    CondaForgeMasterToMain,
+    TraviCINoOSXAMD64,
+    # CondaForgeMasterToMain,
     # these are finished or not used so we don't run them
     # CondaForgeGHAWithMain,
     # RotateCFStagingToken,
@@ -339,8 +340,9 @@ def run_migrators(feedstock, migrators):
 def main():
     migrators = [
         # CondaForgeMasterToMain(),  # this one always goes first since it makes extra
-                                   # commits etc
+        #                            # commits etc
         RAutomerge(),
+        TraviCINoOSXAMD64(),
         # these are finished or not used so we don't run them
         # CondaForgeGHAWithMain(),
         # RotateCFStagingToken(),
@@ -369,6 +371,7 @@ def main():
         # set DEBUG_ADMIN_MIGRATIONS in your env to enable this
         all_feedstocks = [
             "cf-autotick-bot-test-package",
+            "gdb",
         ]
         for fs in all_feedstocks:
             feedstocks["feedstocks"][fs] = current_num

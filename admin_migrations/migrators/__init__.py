@@ -12,3 +12,4 @@ from .cfep13_azure_token_cleanup import CFEP13AzureTokenCleanup
 from .rotate_feedstock_tokens import RotateFeedstockToken
 from .rotate_cf_staging_token import RotateCFStagingToken
 from .main_default_branch import CondaForgeGHAWithMain, CondaForgeMasterToMain
+from .travis_cleanip_osx_amd64 import TraviCINoOSXAMD64
