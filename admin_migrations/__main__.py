@@ -460,7 +460,7 @@ def main():
                 break
 
             # did too many?
-            if num_pushed_or_apied >= MAX_MIGRATE or len(futs) >= MAX_MIGRATE:
+            if num_pushed_or_apied >= MAX_MIGRATE:
                 break
 
     # clean up
