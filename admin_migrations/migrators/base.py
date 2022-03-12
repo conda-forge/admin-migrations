@@ -3,9 +3,9 @@ import json
 
 
 class Migrator(object):
-    # set this to true if the admin migration runs for the master branch only
+    # set this to true if the admin migration runs for the main branch only
     # this can be used for migrations that update CI services used by all branches
-    master_branch_only = False
+    main_branch_only = False
 
     def __init__(self):
         self._load_done_table()
@@ -19,10 +19,13 @@ class Migrator(object):
                 blob = json.load(fp)
         self._done_table = blob
 
-        print("migrator %s: done %d" % (
-            self.__class__.__name__,
-            len(blob),
-        ))
+        print(
+            "migrator %s: done %d" % (
+                self.__class__.__name__,
+                len(blob),
+            ),
+            flush=True,
+        )
 
     def skip(self, feedstock, branch):
         """Return true if the migration should be skipped for this feedstock
@@ -30,7 +33,14 @@ class Migrator(object):
 
         Note this method cannot depend on the feedstock contents.
         """
-        return self._done_table.get(feedstock, {}).get(branch, False)
+        if branch != "main":
+            return self._done_table.get(feedstock, {}).get(branch, False)
+        else:
+            return (
+                self._done_table.get(feedstock, {}).get("master", False)
+                or
+                self._done_table.get(feedstock, {}).get("main", False)
+            )
 
     def migrate(self, feedstock, branch):
         """Migrate the feedstock.

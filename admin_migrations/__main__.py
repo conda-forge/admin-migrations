@@ -12,17 +12,39 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from requests.exceptions import RequestException
 import github
 import tqdm
+import ruamel.yaml
 
 from admin_migrations.migrators import (
-    AppveyorDelete,
     RAutomerge,
-    # CFEP13TokensAndConfig,
-    CondaForgeAutomerge,
+    TraviCINoOSXAMD64,
+    CondaForgeMasterToMain,
     # these are finished or not used so we don't run them
+    # CondaForgeGHAWithMain,
+    # RotateCFStagingToken,
+    # RotateFeedstockToken,
+    # CFEP13AzureTokenCleanup,
+    # TeamsCleanup,
+    # CFEP13TokenCleanup,
+    # AppveyorForceDelete,
+    # TravisCIAutoCancelPRs,
+    # CondaForgeAutomerge,
+    # CFEP13TokensAndConfig,
+    # AppveyorDelete,
     # AutomergeAndRerender,
     # CFEP13TurnOff,
     # AutomergeAndBotRerunLabels,
 )
+
+
+def _assert_at_0():
+    yaml = ruamel.yaml.YAML()
+    with open(".github/workflows/migrate.yml", "r") as fp:
+        _cfg = yaml.load(fp.read())
+    ctab = _cfg["on"]["schedule"][0]["cron"]
+    assert ctab == "0 * * * *", "Wrong cron tab %s for GHA!" % ctab
+
+
+_assert_at_0()
 
 DEBUG = "DEBUG_ADMIN_MIGRATIONS" in os.environ
 
@@ -31,7 +53,7 @@ if DEBUG:
     MAX_SECONDS = 50 * 60
 else:
     MAX_MIGRATE = 2000
-    MAX_SECONDS = 50 * 60
+    MAX_SECONDS = min(50, max(60 - datetime.datetime.now().minute - 6, 0)) * 60
 
 
 @functools.lru_cache(maxsize=20000)
@@ -67,11 +89,29 @@ def pushd(new_dir):
         os.chdir(previous_dir)
 
 
-def _run_git_command(args):
-    subprocess.run(['git'] + args, check=True)
+def _run_git_command(args, check=True):
+    s = subprocess.run(
+        ['git'] + args,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        check=check,
+    )
+    if s.returncode != 0:
+        print(f"    ERROR: {s.stdout.decode('utf-8')}", flush=True)
+    return s.returncode == 0, s.stdout.decode("utf-8")
 
 
-def _get_branches():
+def _get_curr_branch():
+    o = subprocess.run(
+        ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+        check=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+    )
+    return o.stdout.decode("utf=8").strip()
+
+
+def _get_branches(default_branch):
     o = subprocess.run(
         ["git", "branch", "-r"],
         check=True,
@@ -79,13 +119,13 @@ def _get_branches():
         stderr=subprocess.STDOUT,
     )
 
-    branches = []
+    branches = set()
     for line in o.stdout.decode("utf-8").split('\n'):
         if len(line) > 0 and "origin/HEAD" not in line:
             _branch = line.strip()[len("origin/"):]
-            if line.strip()[len("origin/"):] != "master":
-                branches.append(_branch)
-    return ["master"] + branches
+            if _branch != default_branch:
+                branches |= set([_branch])
+    return [default_branch] + [br for br in branches]
 
 
 def _get_all_feedstocks():
@@ -94,12 +134,19 @@ def _get_all_feedstocks():
     archived = set()
     not_archived = set()
     repos = org.get_repos(type='public')
-    for r in tqdm.tqdm(repos, total=repos.totalCount, desc='getting all feedstocks'):
+    for r in tqdm.tqdm(repos, total=org.public_repos, desc='getting all feedstocks'):
         if r.name.endswith("-feedstock"):
-            if r.archived:
-                archived.add(r.name[:-len("-feedstock")])
+            # special casing for weird renaming in the api
+            if r.name == "numpy-sugar-feedstock":
+                name = "numpy_sugar-feedstock"
             else:
-                not_archived.add(r.name[:-len("-feedstock")])
+                name = r.name
+
+            if r.archived:
+                archived.add(name[:-len("-feedstock")])
+            else:
+                not_archived.add(name[:-len("-feedstock")])
+
     return {"active": sorted(list(not_archived)), "archived": sorted(list(archived))}
 
 
@@ -112,7 +159,7 @@ def _load_feedstock_data():
         dt = time.time()
         all_feedstocks = _get_all_feedstocks()
         dt = time.time() - dt
-        print(" ")
+        print(" ", flush=True)
 
         # we run a bit less since this takes a few minutes
         global MAX_SECONDS
@@ -121,8 +168,8 @@ def _load_feedstock_data():
         with open("data/all_feedstocks.json", "w") as fp:
             json.dump(all_feedstocks, fp, indent=2)
     else:
-        print("using cached feedstock list")
-        print(" ")
+        print("using cached feedstock list", flush=True)
+        print(" ", flush=True)
         with open("data/all_feedstocks.json", "r") as fp:
             all_feedstocks = json.load(fp)
 
@@ -148,9 +195,9 @@ def _load_feedstock_data():
 
 
 def _commit_data():
-    print("\nsaving data...")
+    print("\nsaving data...", flush=True)
     _run_git_command(["stash"])
-    _run_git_command(["pull"])
+    _run_git_command(["pull", "--quiet"])
     _run_git_command(["stash", "pop"])
     _run_git_command(["add", "data/*.json"])
     _run_git_command(["commit", "-m", "[ci skip] data for admin migration run"])
@@ -159,20 +206,20 @@ def _commit_data():
         "set-url",
         "--push",
         "origin",
-        "https://%s@github.com/"
+        "https://x-access-token:%s@github.com/"
         "conda-forge/admin-migrations.git" % os.environ["GITHUB_TOKEN"],
     ])
-    _run_git_command(["push"])
+    _run_git_command(["push", "--quiet"])
 
 
 def run_migrators(feedstock, migrators):
     if len(migrators) == 0:
         return False, []
 
-    print("=" * 80)
-    print("=" * 80)
-    print("=" * 80)
-    print("migrating %s" % feedstock)
+    print("=" * 80, flush=True)
+    print("=" * 80, flush=True)
+    print("=" * 80, flush=True)
+    print("migrating %s" % feedstock, flush=True)
 
     _start = time.time()
 
@@ -181,22 +228,27 @@ def run_migrators(feedstock, migrators):
     # this will be a set of tuples with the migrator class and the branch
     migrators_to_record = []
 
-    feedstock_http = "https://%s@github.com/conda-forge/%s-feedstock.git" % (
-        os.environ["GITHUB_TOKEN"],
-        feedstock,
-    )
+    feedstock_http = \
+        "https://x-access-token:%s@github.com/conda-forge/%s-feedstock.git" % (
+            os.environ["GITHUB_TOKEN"],
+            feedstock,
+        )
 
     with tempfile.TemporaryDirectory() as tmpdir:
         with pushd(tmpdir):
             try:
                 # use a full depth clone since some migrators rely on
                 # having all of the branches
-                _run_git_command(["clone", feedstock_http])
+                _run_git_command(["clone", "--quiet", feedstock_http])
             except subprocess.CalledProcessError:
+                print("    clone failed!", flush=True)
                 return made_api_calls, migrators_to_record
 
             with pushd("%s-feedstock" % feedstock):
-                if os.path.exists("recipe/meta.yaml"):
+                if (
+                    os.path.exists("recipe/meta.yaml")
+                    or os.path.exists("recipe/recipe/meta.yaml")
+                ):
                     _run_git_command([
                         "remote",
                         "set-url",
@@ -205,71 +257,107 @@ def run_migrators(feedstock, migrators):
                         feedstock_http,
                     ])
 
-                    branches = _get_branches()
+                    default_branch = _get_curr_branch()
+                    branches = _get_branches(default_branch)
 
                     for m in migrators:
-                        print("\nmigrator %s" % m.__class__.__name__)
+                        print("\nmigrator %s" % m.__class__.__name__, flush=True)
 
                         for branch in branches:
-                            if branch != "master" and m.master_branch_only:
+                            if branch != default_branch and m.main_branch_only:
                                 continue
 
-                            print("    branch:", branch)
-                            _run_git_command(["checkout", branch])
-
-                            if m.skip(feedstock, branch):
-                                continue
                             try:
-                                worked, commit_me, made_api_calls = m.migrate(
+                                print("    branch:", branch, flush=True)
+                                try:
+                                    _run_git_command(
+                                        ["switch", branch],
+                                        check=True,
+                                    )
+                                except Exception:
+                                    ok, e = _run_git_command(
+                                        [
+                                            "checkout",
+                                            "-b", branch,
+                                            "-t", "origin/" + branch
+                                        ],
+                                        check=False,
+                                    )
+                                    if not ok:
+                                        raise RuntimeError(
+                                            "git branch checkout error: %s" % e
+                                        )
+
+                                if m.skip(feedstock, branch):
+                                    continue
+
+                                worked, commit_me, _made_api_calls = m.migrate(
                                     feedstock, branch)
+                                made_api_calls = made_api_calls or _made_api_calls
+
+                                if commit_me:
+                                    _run_git_command([
+                                        "commit",
+                                        "--allow-empty",
+                                        "-am",
+                                        "[ci skip] [skip ci] [cf admin skip] "
+                                        "***NO_CI*** %s" % m.message(),
+                                    ])
+
+                                    made_api_calls = True
+                                    is_archived = _repo_is_archived(feedstock)
+                                    if is_archived is not None:
+                                        if not is_archived:
+                                            _run_git_command(["push", "--quiet"])
+                                        else:
+                                            print(
+                                                "not pushing to archived feedstock",
+                                                flush=True,
+                                            )
+                                    else:
+                                        print(
+                                            "could not get repo archived status - "
+                                            "punting to next round",
+                                            flush=True,
+                                        )
+
                             except Exception as e:
                                 worked = False
-                                commit_me = False
-                                print("    ERROR:", repr(e))
-
-                            if commit_me:
-                                made_api_calls = True
-                                is_archived = _repo_is_archived(feedstock)
-                                if is_archived is not None:
-                                    if not is_archived:
-                                        _run_git_command([
-                                            "commit",
-                                            "--allow-empty",
-                                            "-am",
-                                            "[ci skip] [skip ci] [cf admin skip] "
-                                            "***NO_CI*** %s" % m.message(),
-                                        ])
-                                        _run_git_command(["push"])
-                                    else:
-                                        print("not pushing to archived feedstock")
-                                else:
-                                    print(
-                                        "could not get repo archived status - "
-                                        "punting to next round"
-                                    )
+                                print("    ERROR:", repr(e), flush=True)
 
                             if worked:
                                 migrators_to_record.append((m, branch))
 
-                            print(" ")
+                            print(" ", flush=True)
 
-    print("migration took %s seconds\n" % (time.time() - _start))
+    print("migration took %s seconds\n\n" % (time.time() - _start), flush=True)
 
     return made_api_calls, migrators_to_record
 
 
 def main():
     migrators = [
-        AppveyorDelete(),
+        CondaForgeMasterToMain(),  # this one always goes first since it makes extra
+                                   # commits etc
         RAutomerge(),
-        # CFEP13TokensAndConfig(),
-        CondaForgeAutomerge(),
+        TraviCINoOSXAMD64(),
         # these are finished or not used so we don't run them
+        # CondaForgeGHAWithMain(),
+        # RotateCFStagingToken(),
+        # RotateFeedstockToken(),
+        # CFEP13AzureTokenCleanup(),
+        # TeamsCleanup(),
+        # CFEP13TokenCleanup(),
+        # AppveyorForceDelete(),
+        # TravisCIAutoCancelPRs(),
+        # CondaForgeAutomerge(),
+        # CFEP13TokensAndConfig(),
+        # AppveyorDelete(),
         # AutomergeAndRerender(),
         # CFEP13TurnOff(),
         # AutomergeAndBotRerunLabels(),
     ]
-    print(" ")
+    print(" ", flush=True)
 
     feedstocks = _load_feedstock_data()
     current_num = feedstocks["current"]
@@ -357,12 +445,36 @@ def main():
 
         for _m, _branch in migrations_to_record:
             _m.record(futs[fut], _branch)
+    
+    if time.time() - report_time > 10:
+        report_time = time.time()
+        print(
+            "on %d out of %d feedstocks" % (
+                num_done_prev + num_done,
+                len(feedstocks["feedstocks"]),
+            ),
+            flush=True,
+        )
+        print("migrated %d feedstokcs" % num_done, flush=True)
+        print(
+            "pushed or made API calls for %d feedstocks" % num_pushed_or_apied,
+            flush=True,
+        )
+        elapsed_time = time.time() - start_time
+        print(
+            "can migrate ~%d more feedstocks for this CI run" % (
+                int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
+            ),
+            flush=True,
+        )
+
+        print(" ", flush=True)
 
     if all(v == next_num for v in feedstocks["feedstocks"].values()):
-        print("=" * 80)
-        print("=" * 80)
-        print("=" * 80)
-        print("processed all feedstocks - starting over!")
+        print("=" * 80, flush=True)
+        print("=" * 80, flush=True)
+        print("=" * 80, flush=True)
+        print("processed all feedstocks - starting over!", flush=True)
         feedstocks["current"] = next_num
 
     with open("data/feedstocks.json", "w") as fp:

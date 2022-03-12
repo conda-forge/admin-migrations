@@ -19,7 +19,7 @@ AUTOMERGE = (
 
 
 class AutomergeAndBotRerunLabels(Migrator):
-    master_branch_only = True
+    main_branch_only = True
 
     def migrate(self, feedstock, branch):
         try:
@@ -42,13 +42,13 @@ class AutomergeAndBotRerunLabels(Migrator):
                         target_label.description != label_data[2]
                     ):
                         target_label.edit(label_data[0], label_data[1], label_data[2])
-                        print("    edited:", label_data[0])
+                        print("    edited:", label_data[0], flush=True)
                 else:
                     repo.create_label(label_data[0], label_data[1], label_data[2])
-                    print("    created:", label_data[0])
+                    print("    created:", label_data[0], flush=True)
 
             # worked, commit me, made API calls
             return True, False, True
         except (github.GithubException, github.BadAttributeException) as e:
-            print("ERROR: %s" % repr(e))
+            print("ERROR: %s" % repr(e), flush=True)
             return False, False, True

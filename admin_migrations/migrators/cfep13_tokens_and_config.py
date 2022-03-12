@@ -14,17 +14,33 @@ TOKENS_REPO = "https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-tokens.g
 OUTPUTS_REPO = "https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-outputs.git"
 
 
-class CFEP13TurnOff(Migrator):
-    def migrate(self, feedstock, branch):
-
+def _read_conda_forge_yaml(yaml):
+    if os.path.exists("conda-forge.yml"):
         with open("conda-forge.yml", "r") as fp:
             meta_yaml = fp.read()
 
-        if meta_yaml.strip() == "[]" or meta_yaml.strip() == "[ ]":
+        if (
+            meta_yaml is None
+            or meta_yaml.strip() == "[]"
+            or meta_yaml.strip() == "[ ]"
+            or len(meta_yaml) == 0
+            or len(meta_yaml.strip()) == 0
+        ):
             cfg = {}
         else:
-            yaml = YAML()
             cfg = yaml.load(meta_yaml)
+    else:
+        meta_yaml = ""
+        cfg = {}
+
+    return cfg
+
+
+class CFEP13TurnOff(Migrator):
+    def migrate(self, feedstock, branch):
+
+        yaml = YAML()
+        cfg = _read_conda_forge_yaml(yaml)
 
         if (
             "conda_forge_output_validation" in cfg
@@ -38,7 +54,7 @@ class CFEP13TurnOff(Migrator):
                 ["git", "add", "conda-forge.yml"],
                 check=True,
             )
-            print("    updated conda-forge.yml")
+            print("    updated conda-forge.yml", flush=True)
 
             # migration done, make a commit, lots of API calls
             return True, True, False
@@ -51,7 +67,7 @@ def _register_feedstock_token(feedstock):
     """Generate and register feedstock tokens."""
 
     if feedstock_token_exists("conda-forge", feedstock + "-feedstock", TOKENS_REPO):
-        print("    feedstock token already exists")
+        print("    feedstock token already exists", flush=True)
         return
 
     try:
@@ -65,7 +81,7 @@ def _register_feedstock_token(feedstock):
             check=True,
         )
     except subprocess.CalledProcessError as e:
-        print("    feedstock token registration failed")
+        print("    feedstock token registration failed", flush=True)
         raise e
     finally:
         # remove both paths due to change in smithy
@@ -98,6 +114,14 @@ def _get_sharded_path(output):
 
 def _register_feedstock_outputs(feedstock):
     unames = set()
+
+    # this is a common way in which feedstocks are wrong
+    if os.path.exists("recipe/meta.yaml"):
+        recipe_loc = "recipe"
+    elif os.path.exists("recipe/recipe/meta.yaml"):
+        recipe_loc = "recipe/recipe"
+    else:
+        raise RuntimeError("could not find recipe location!")
 
     cbcs = sorted(glob.glob(os.path.join(".ci_support", "*.yaml")))
     for cbc_fname in cbcs:
@@ -139,13 +163,13 @@ def _register_feedstock_outputs(feedstock):
                     arch=arch,
                 )
         cbc, _ = conda_build.variants.get_package_combined_spec(
-            "recipe",
+            recipe_loc,
             config=config
         )
 
         # now we render the meta.yaml into an actual recipe
         metas = conda_build.api.render(
-                    "recipe",
+                    recipe_loc,
                     platform=platform,
                     arch=arch,
                     ignore_system_variants=True,
@@ -159,7 +183,7 @@ def _register_feedstock_outputs(feedstock):
         for m, _, _ in metas:
             unames.add(m.name())
 
-    print("    output names:", unames)
+    print("    output names:", unames, flush=True)
 
     for name in unames:
         sharded_name = _get_sharded_path(name)
@@ -169,7 +193,7 @@ def _register_feedstock_outputs(feedstock):
         )
 
         subprocess.run(
-            ["git", "pull"],
+            ["git", "pull", "--quiet"],
             check=True,
             cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"]
         )
@@ -196,23 +220,18 @@ def _register_feedstock_outputs(feedstock):
             )
 
             subprocess.run(
-                ["git", "push"],
+                ["git", "push", "--quiet"],
                 check=True,
                 cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"]
             )
-            print("    added output:", name)
+            print("    added output:", name, flush=True)
 
 
 class CFEP13TokensAndConfig(Migrator):
     def migrate(self, feedstock, branch):
-        with open("conda-forge.yml", "r") as fp:
-            meta_yaml = fp.read()
 
         yaml = YAML()
-        if meta_yaml.strip() == "[]" or meta_yaml.strip() == "[ ]":
-            cfg = {}
-        else:
-            cfg = yaml.load(meta_yaml)
+        cfg = _read_conda_forge_yaml(yaml)
 
         if (
             "conda_forge_output_validation" in cfg
@@ -224,11 +243,11 @@ class CFEP13TokensAndConfig(Migrator):
             # migration done, no commits, no API calls
             return True, False, False
 
-        if branch == "master":
+        if branch == "master" or branch == "main":
             # register a feedstock token
             # this call is idempotent if the token already exists
             _register_feedstock_token(feedstock)
-            print("    registered feedstock token")
+            print("    registered feedstock token", flush=True)
 
             # register the staging binstar token
             subprocess.run(
@@ -237,11 +256,11 @@ class CFEP13TokensAndConfig(Migrator):
                 shell=True,
                 check=True
             )
-            print("    added staging binstar token")
+            print("    added staging binstar token", flush=True)
 
             # register the outputs
             _register_feedstock_outputs(feedstock)
-            print("    added output to outputs repo")
+            print("    added output to outputs repo", flush=True)
 
         # set the param and write
         cfg["conda_forge_output_validation"] = True
@@ -251,7 +270,7 @@ class CFEP13TokensAndConfig(Migrator):
             ["git", "add", "conda-forge.yml"],
             check=True,
         )
-        print("    updated conda-forge.yml")
+        print("    updated conda-forge.yml", flush=True)
 
         # migration done, make a commit, lots of API calls
         return True, True, True

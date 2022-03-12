@@ -9,7 +9,12 @@ from .base import Migrator
 def _has_r_team():
     yaml = YAML()
 
-    with open(os.path.join("recipe", "meta.yaml"), "r") as fp:
+    if os.path.exists(os.path.join("recipe", "meta.yaml")):
+        meta_loc = os.path.join("recipe", "meta.yaml")
+    elif os.path.exists(os.path.join("recipe", "recipe", "meta.yaml")):
+        meta_loc = os.path.join("recipe", "recipe", "meta.yaml")
+
+    with open(meta_loc, "r") as fp:
         keep_lines = []
         skip = True
         for line in fp.readlines():
@@ -26,7 +31,12 @@ def _has_r_team():
 def _has_cran_url():
     stop_tokens = ["build:", "requirements:", "test:", "about:", "extra:"]
 
-    with open(os.path.join("recipe", "meta.yaml"), "r") as fp:
+    if os.path.exists(os.path.join("recipe", "meta.yaml")):
+        meta_loc = os.path.join("recipe", "meta.yaml")
+    elif os.path.exists(os.path.join("recipe", "recipe", "meta.yaml")):
+        meta_loc = os.path.join("recipe", "recipe", "meta.yaml")
+
+    with open(meta_loc, "r") as fp:
         in_source_section = False
         for line in fp.readlines():
             if line.startswith("source:"):
@@ -56,8 +66,8 @@ class RAutomerge(Migrator):
         3. uses the {{ cran_mirror }} jinja2 variable or has a cran url
     """
     def migrate(self, feedstock, branch):
-        print("    r team:", _has_r_team())
-        print("    cran url:", _has_cran_url())
+        print("    r team:", _has_r_team(), flush=True)
+        print("    cran url:", _has_cran_url(), flush=True)
 
         if (
             feedstock.startswith("r-")
@@ -76,7 +86,10 @@ class RAutomerge(Migrator):
 
             # already done or maybe to False locally
             if "bot" in cfg and "automerge" in cfg["bot"]:
-                print("    bot.automerge already set:", cfg["bot"]["automerge"])
+                print(
+                    "    bot.automerge already set:", cfg["bot"]["automerge"],
+                    flush=True,
+                )
                 return True, False, False
 
             cfg["bot"] = {"automerge": True}

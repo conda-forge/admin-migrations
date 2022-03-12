@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
       - name: regro-cf-autotick-bot-action
         id: regro-cf-autotick-bot-action
-        uses: regro/cf-autotick-bot-action@master
+        uses: regro/cf-autotick-bot-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 """
@@ -34,7 +34,7 @@ jobs:
     steps:
       - name: webservices
         id: webservices
-        uses: conda-forge/webservices-dispatch-action@master
+        uses: conda-forge/webservices-dispatch-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 """

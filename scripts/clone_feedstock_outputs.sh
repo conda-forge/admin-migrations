@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
-rm -rf feedstock-outputs
-git clone https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-outputs.git
-export FEEDSTOCK_OUTPUTS_REPO=`pwd`/feedstock-outputs
-pushd feedstock-outputs
-git remote set-url --push origin https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-outputs.git
-popd
+for slug in outputs; do
+  upper_slug=$(echo "$slug" | tr '[:lower:]' '[:upper:]')
+  rm -rf feedstock-${slug}
+  git clone --quiet https://x-access-token:${GITHUB_TOKEN}@github.com/conda-forge/feedstock-${slug}.git
+  export FEEDSTOCK_${upper_slug}_REPO=`pwd`/feedstock-${slug}
+  pushd feedstock-${slug}
+  git remote set-url --push origin https://x-access-token:${GITHUB_TOKEN}@github.com/conda-forge/feedstock-${slug}.git
+  popd
+done

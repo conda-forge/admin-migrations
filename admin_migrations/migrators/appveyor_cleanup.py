@@ -8,10 +8,10 @@ from .base import Migrator
 
 YAML = YAML()
 
-HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
-
 
 def _get_num_builds(appveyor_name):
+    HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
+
     r = requests.get(
         "https://ci.appveyor.com/api/projects/conda-forge/"
         "%s/history?recordsNumber=10" % appveyor_name,
@@ -62,11 +62,13 @@ def _has_appveyor_any_branch(curr_branch):
 
 class AppveyorDelete(Migrator):
     # we need to check each branch, but this migrator should only be called
-    # once per feedstock on the master branch
-    master_branch_only = False
+    # once per feedstock on the main branch
+    main_branch_only = False
 
     def migrate(self, feedstock, branch):
-        assert branch == "master"
+        HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
+
+        assert branch == "main" or branch == "master"
         deleted = False
 
         appveyor_name = "%s-feedstock" % feedstock
@@ -81,7 +83,7 @@ class AppveyorDelete(Migrator):
         )
 
         if r.status_code == 404:
-            print("    appveyor project not found")
+            print("    appveyor project not found", flush=True)
             # project does not exist
             deleted = True
         elif r.status_code == 200:
@@ -102,10 +104,10 @@ class AppveyorDelete(Migrator):
             #     )
             #
             #     if r.status_code == 204:
-            #         print("    appveyor project deleted")
+            #         print("    appveyor project deleted", flush=True)
             #         deleted = True
             #     else:
-            #         print("    appveyor delete call failed")
+            #         print("    appveyor delete call failed", flush=True)
             # el
             if not has_appveyor:
                 r = requests.get(
@@ -122,15 +124,67 @@ class AppveyorDelete(Migrator):
                         json=settings,
                     )
                     if r.status_code == 204:
-                        print("    appveyor disabled pushes")
+                        print("    appveyor disabled pushes", flush=True)
                         deleted = True
                     else:
-                        print("    appveyor disable push call failed")
+                        print("    appveyor disable push call failed", flush=True)
                 else:
-                    print("    appveyor get project settings failed")
+                    print("    appveyor get project settings failed", flush=True)
             else:
-                print("    appveyor # of builds:", num_builds)
-                print("    appveyor on:", has_appveyor)
+                print("    appveyor # of builds:", num_builds, flush=True)
+                print("    appveyor on:", has_appveyor, flush=True)
 
         # did it work, commit, made API calls
         return deleted, False, True
+
+
+class AppveyorForceDelete(Migrator):
+    main_branch_only = True
+
+    def migrate(self, feedstock, branch):
+        HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
+
+        if feedstock == "python":
+            return True, False, False
+        else:
+            deleted = False
+
+            appveyor_name = "%s-feedstock" % feedstock
+            if appveyor_name.startswith("_"):
+                appveyor_name = appveyor_name[1:]
+            appveyor_name = appveyor_name.replace("_", "-").replace(".", "-")
+
+            r = requests.get(
+                "https://ci.appveyor.com/api/projects/"
+                "conda-forge/%s" % appveyor_name,
+                headers=HEADERS,
+            )
+
+            if r.status_code == 404:
+                print("    appveyor project not found", flush=True)
+                # project does not exist
+                deleted = True
+            elif r.status_code == 200:
+                r = requests.get(
+                    "https://ci.appveyor.com/api/projects/"
+                    "conda-forge/%s/settings" % appveyor_name,
+                    headers=HEADERS,
+                )
+                if r.status_code == 200:
+                    settings = r.json()["settings"]
+                    settings["disablePushWebhooks"] = True
+                    r = requests.put(
+                        "https://ci.appveyor.com/api/projects",
+                        headers=HEADERS,
+                        json=settings,
+                    )
+                    if r.status_code == 204:
+                        print("    appveyor disabled pushes", flush=True)
+                        deleted = True
+                    else:
+                        print("    appveyor disable push call failed", flush=True)
+                else:
+                    print("    appveyor get project settings failed", flush=True)
+
+            # did it work, commit, made API calls
+            return deleted, False, True
