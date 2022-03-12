@@ -51,9 +51,11 @@ DEBUG = "DEBUG_ADMIN_MIGRATIONS" in os.environ
 if DEBUG:
     MAX_MIGRATE = 1
     MAX_SECONDS = 50 * 60
+    MAX_WORKERS = 1
 else:
     MAX_MIGRATE = 2000
     MAX_SECONDS = min(50, max(60 - datetime.datetime.now().minute - 6, 0)) * 60
+    MAX_WORKERS = 4
 
 
 @functools.lru_cache(maxsize=20000)
@@ -341,17 +343,17 @@ def _report_progress(
     print("on %d out of %d feedstocks" % (
         num_done_prev + num_done,
         len(feedstocks["feedstocks"]),
-    ))
-    print("migrated %d feedstokcs" % num_done)
+    ), flush=True)
+    print("migrated %d feedstokcs" % num_done, flush=True)
     print(
         "pushed or made API calls for "
-        "%d feedstocks" % num_pushed_or_apied)
+        "%d feedstocks" % num_pushed_or_apied, flush=True)
     elapsed_time = time.time() - start_time
     print("can migrate ~%d more feedstocks for this CI run" % (
-        int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time))
-    ))
+        max(int(num_done / elapsed_time * (MAX_SECONDS - elapsed_time)), 0)
+    ), flush=True)
 
-    print(" ")
+    print(" ", flush=True)
 
 
 def main():
@@ -400,7 +402,21 @@ def main():
 
     n_workers = min([m.max_processes for m in migrators])
     if n_workers <= 0:
-        n_workers = os.environ.get("CPU_COUNT", 2)
+        n_workers = os.environ.get("CPU_COUNT", MAX_WORKERS)
+        try:
+            n_workers = int(n_workers)
+        except Exception:
+            n_workers = MAX_WORKERS
+
+    if n_workers <= 0:
+        n_workers = MAX_WORKERS
+
+    if DEBUG:
+        n_workers = 1
+
+    if n_workers > MAX_WORKERS:
+        n_workers = MAX_WORKERS
+
     num_done = 0
     num_pushed_or_apied = 0
     start_time = time.time()
@@ -413,6 +429,13 @@ def main():
                 continue
 
             # migrate
+            print(
+                "\n# of feedstocks running|n_workers: %s|%s\n" % (
+                    len(futs),
+                    n_workers
+                ),
+                flush=True,
+            )
             if len(futs) >= n_workers:
                 for fut in as_completed(futs):
                     made_api_call, migrations_to_record = fut.result()
@@ -423,6 +446,8 @@ def main():
 
                     for _m, _branch in migrations_to_record:
                         _m.record(futs[fut], _branch)
+
+                    print("\nfinished %s\n" % futs[fut], flush=True)
 
                     if time.time() - report_time > 10:
                         report_time = time.time()
@@ -456,6 +481,8 @@ def main():
 
         for _m, _branch in migrations_to_record:
             _m.record(futs[fut], _branch)
+
+        print("\nfinished %s\n" % futs[fut], flush=True)
 
     _report_progress(
         num_done_prev, num_done, feedstocks,

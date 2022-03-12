@@ -6,7 +6,7 @@ class Migrator(object):
     # set this to true if the admin migration runs for the main branch only
     # this can be used for migrations that update CI services used by all branches
     main_branch_only = False
-    max_processes = -1
+    max_processes = 100000
 
     def __init__(self):
         self._load_done_table()
