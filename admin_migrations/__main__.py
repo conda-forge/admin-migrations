@@ -55,7 +55,7 @@ if DEBUG:
 else:
     MAX_MIGRATE = 2000
     MAX_SECONDS = min(50, max(60 - datetime.datetime.now().minute - 6, 0)) * 60
-    MAX_WORKERS = 4
+    MAX_WORKERS = 2
 
 
 @functools.lru_cache(maxsize=20000)
