@@ -425,8 +425,11 @@ def main():
 
             # migrate
             print(
-                "# of feedstocks running, n_workers:",
-                len(futs), n_workers, flush=True
+                "\n# of feedstocks running|n_workers: %s|%s\n" % (
+                    len(futs),
+                    n_workers
+                ),
+                flush=True,
             )
             if len(futs) >= n_workers:
                 for fut in as_completed(futs):
