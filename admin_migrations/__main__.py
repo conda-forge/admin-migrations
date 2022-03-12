@@ -370,8 +370,8 @@ def main():
     if DEBUG:
         # set DEBUG_ADMIN_MIGRATIONS in your env to enable this
         all_feedstocks = [
-            "cf-autotick-bot-test-package",
             "gdb",
+            "cf-autotick-bot-test-package",
         ]
         for fs in all_feedstocks:
             feedstocks["feedstocks"][fs] = current_num
