@@ -16,7 +16,7 @@ import ruamel.yaml
 from admin_migrations.migrators import (
     RAutomerge,
     TraviCINoOSXAMD64,
-    # CondaForgeMasterToMain,
+    CondaForgeMasterToMain,
     # these are finished or not used so we don't run them
     # CondaForgeGHAWithMain,
     # RotateCFStagingToken,
@@ -339,8 +339,8 @@ def run_migrators(feedstock, migrators):
 
 def main():
     migrators = [
-        # CondaForgeMasterToMain(),  # this one always goes first since it makes extra
-        #                            # commits etc
+        CondaForgeMasterToMain(),  # this one always goes first since it makes extra
+                                   # commits etc
         RAutomerge(),
         TraviCINoOSXAMD64(),
         # these are finished or not used so we don't run them
