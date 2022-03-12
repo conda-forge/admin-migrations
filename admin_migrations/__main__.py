@@ -338,7 +338,7 @@ def run_migrators(feedstock, migrators):
 
 def main():
     migrators = [
-        CondaForgeMasterToMain(),  # this one always goes first since it makes extra
+        # CondaForgeMasterToMain(),  # this one always goes first since it makes extra
                                    # commits etc
         RAutomerge(),
         # these are finished or not used so we don't run them
