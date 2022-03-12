@@ -409,6 +409,9 @@ def main():
         if n_workers <= 0:
             n_workers = 2
 
+    if DEBUG:
+        n_workers = 1
+
     num_done = 0
     num_pushed_or_apied = 0
     start_time = time.time()
@@ -421,6 +424,10 @@ def main():
                 continue
 
             # migrate
+            print(
+                "# of feedstocks running, n_workers:",
+                len(futs), n_workers, flush=True
+            )
             if len(futs) >= n_workers:
                 for fut in as_completed(futs):
                     made_api_call, migrations_to_record = fut.result()
