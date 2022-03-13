@@ -267,6 +267,11 @@ def _master_to_main(repo):
         _run_git_command(["reset", "--hard", old_sha])
         return False
 
+    # sometimes the push event in the github api gets behind the
+    # branch rename and this causes the webservices to freak out
+    # we delay a bit to help this not happen
+    time.sleep(2)
+
     rev_sha = _get_curr_sha()
     worked = False
     try:
