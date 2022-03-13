@@ -305,13 +305,15 @@ class CondaForgeMasterToMain(Migrator):
         repo = GH.get_repo("conda-forge/%s-feedstock" % feedstock)
         if repo.archived:
             # migration done, make a commit, lots of API calls
-            return True, False, True
+            return True, False, False
 
         # only call branch rename once on current "master" branch if it exists
         if repo.default_branch != "main" and branch == repo.default_branch:
             did_master_to_main = _master_to_main(repo)
+            did_api_calls = True
         else:
             did_master_to_main = False
+            did_api_calls = False
 
         make_commit = False
 
@@ -358,7 +360,7 @@ class CondaForgeMasterToMain(Migrator):
             make_commit = updated_automerge or updated_webservices or updated_cfy
 
         # migration done, make a commit, lots of API calls
-        return did_master_to_main, make_commit, True
+        return did_master_to_main, make_commit, did_api_calls
 
 
 class CondaForgeGHAWithMain(Migrator):
