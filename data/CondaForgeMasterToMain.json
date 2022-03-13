@@ -31820,5 +31820,872 @@
   },
   "pyshacl": {
     "master": true
+  },
+  "pysheds": {
+    "master": true
+  },
+  "pyshp": {
+    "master": true
+  },
+  "pyside2": {
+    "master": true
+  },
+  "pysimplegui": {
+    "master": true
+  },
+  "pysimpleguiweb": {
+    "master": true
+  },
+  "pysimpleguiwx": {
+    "master": true
+  },
+  "pysingular": {
+    "master": true
+  },
+  "pysis": {
+    "master": true
+  },
+  "pyslet": {
+    "master": true
+  },
+  "pysm3": {
+    "master": true
+  },
+  "pysmbclient": {
+    "master": true
+  },
+  "pysmi": {
+    "master": true
+  },
+  "pysnmp": {
+    "master": true
+  },
+  "pysnooper": {
+    "master": true
+  },
+  "pysocks": {
+    "master": true
+  },
+  "pysolar": {
+    "master": true
+  },
+  "pysolr": {
+    "master": true
+  },
+  "pysot": {
+    "master": true
+  },
+  "pysoundfile": {
+    "master": true
+  },
+  "pyspark": {
+    "master": true
+  },
+  "pyspark-stubs": {
+    "master": true
+  },
+  "pysparse": {
+    "master": true
+  },
+  "pyspeckit": {
+    "master": true
+  },
+  "pyspectral": {
+    "master": true
+  },
+  "pyspellchecker": {
+    "master": true
+  },
+  "pyspharm": {
+    "master": true
+  },
+  "pysqa": {
+    "master": true
+  },
+  "pystac": {
+    "master": true
+  },
+  "pystache": {
+    "master": true
+  },
+  "pystan": {
+    "master": true
+  },
+  "pysteps": {
+    "master": true
+  },
+  "pystreamer": {
+    "master": true
+  },
+  "pysurfer": {
+    "master": true
+  },
+  "pysvg-py3": {
+    "master": true
+  },
+  "pysw4": {
+    "master": true
+  },
+  "pytables": {
+    "master": true
+  },
+  "pyte": {
+    "master": true
+  },
+  "pytentiostat": {
+    "master": true
+  },
+  "pytesseract": {
+    "master": true
+  },
+  "pytest": {
+    "master": true
+  },
+  "pytest-aiohttp": {
+    "master": true
+  },
+  "pytest-arraydiff": {
+    "master": true
+  },
+  "pytest-ast-back-to-python": {
+    "master": true
+  },
+  "pytest-astropy": {
+    "master": true
+  },
+  "pytest-astropy-header": {
+    "master": true
+  },
+  "pytest-asyncio": {
+    "master": true
+  },
+  "pytest-azurepipelines": {
+    "master": true
+  },
+  "pytest-bandit": {
+    "master": true
+  },
+  "pytest-base-url": {
+    "master": true
+  },
+  "pytest-bdd": {
+    "master": true
+  },
+  "pytest-benchmark": {
+    "master": true
+  },
+  "pytest-black": {
+    "master": true
+  },
+  "pytest-cache": {
+    "master": true
+  },
+  "pytest-catchlog": {
+    "master": true
+  },
+  "pytest-chalice": {
+    "master": true
+  },
+  "pytest-clarity": {
+    "master": true
+  },
+  "pytest-codestyle": {
+    "master": true
+  },
+  "pytest-console-scripts": {
+    "master": true
+  },
+  "pytest-cookies": {
+    "master": true
+  },
+  "pytest-cov": {
+    "master": true
+  },
+  "pytest-cpp": {
+    "master": true
+  },
+  "pytest-custom-exit-code": {
+    "master": true
+  },
+  "pytest-datadir": {
+    "master": true
+  },
+  "pytest-describe": {
+    "master": true
+  },
+  "pytest-django": {
+    "master": true
+  },
+  "pytest-django-haystack": {
+    "master": true
+  },
+  "pytest-doctestplus": {
+    "master": true
+  },
+  "pytest-env": {
+    "master": true
+  },
+  "pytest-faulthandler": {
+    "master": true
+  },
+  "pytest-fixture-config": {
+    "master": true
+  },
+  "pytest-flake8": {
+    "master": true
+  },
+  "pytest-flakes": {
+    "master": true
+  },
+  "pytest-flask": {
+    "master": true
+  },
+  "pytest-flask-sqlalchemy": {
+    "master": true
+  },
+  "pytest-forked": {
+    "master": true
+  },
+  "pytest-freezegun": {
+    "master": true
+  },
+  "pytest-html": {
+    "master": true
+  },
+  "pytest-httpserver": {
+    "master": true
+  },
+  "pytest-icdiff": {
+    "master": true
+  },
+  "pytest-ignore-flaky": {
+    "master": true
+  },
+  "pytest-instafail": {
+    "master": true
+  },
+  "pytest-json": {
+    "master": true
+  },
+  "pytest-json-report": {
+    "master": true
+  },
+  "pytest-lazy-fixture": {
+    "master": true
+  },
+  "pytest-localserver": {
+    "master": true
+  },
+  "pytest-localstack": {
+    "master": true
+  },
+  "pytest-mccabe": {
+    "master": true
+  },
+  "pytest-metadata": {
+    "master": true
+  },
+  "pytest-mock": {
+    "master": true
+  },
+  "pytest-monitor": {
+    "master": true
+  },
+  "pytest-mpi": {
+    "master": true
+  },
+  "pytest-mpl": {
+    "master": true
+  },
+  "pytest-mypy": {
+    "master": true
+  },
+  "pytest-notebook": {
+    "master": true
+  },
+  "pytest-notification": {
+    "master": true
+  },
+  "pytest-openfiles": {
+    "master": true
+  },
+  "pytest-ordering": {
+    "master": true
+  },
+  "pytest-pep8": {
+    "master": true
+  },
+  "pytest-picked": {
+    "master": true
+  },
+  "pytest-profiling": {
+    "master": true
+  },
+  "pytest-pylint": {
+    "master": true
+  },
+  "pytest-qt": {
+    "master": true
+  },
+  "pytest-raises": {
+    "master": true
+  },
+  "pytest-regressions": {
+    "master": true
+  },
+  "pytest-regtest": {
+    "master": true
+  },
+  "pytest-remotedata": {
+    "master": true
+  },
+  "pytest-repeat": {
+    "master": true
+  },
+  "pytest-replay": {
+    "master": true
+  },
+  "pytest-rerunfailures": {
+    "master": true
+  },
+  "pytest-runner": {
+    "master": true
+  },
+  "pytest-selenium": {
+    "master": true
+  },
+  "pytest-services": {
+    "master": true
+  },
+  "pytest-session2file": {
+    "master": true
+  },
+  "pytest-sftpserver": {
+    "master": true
+  },
+  "pytest-shutil": {
+    "master": true
+  },
+  "pytest-smartcov": {
+    "master": true
+  },
+  "pytest-socket": {
+    "master": true
+  },
+  "pytest-spec": {
+    "master": true
+  },
+  "pytest-subtests": {
+    "master": true
+  },
+  "pytest-sugar": {
+    "master": true
+  },
+  "pytest-testmon": {
+    "master": true
+  },
+  "pytest-timeout": {
+    "master": true
+  },
+  "pytest-tldr": {
+    "master": true
+  },
+  "pytest-tornado": {
+    "master": true
+  },
+  "pytest-tornasync": {
+    "master": true
+  },
+  "pytest-variables": {
+    "master": true
+  },
+  "pytest-virtualenv": {
+    "master": true
+  },
+  "pytest-watch": {
+    "master": true
+  },
+  "pytest-workflow": {
+    "master": true
+  },
+  "pytest-xdist": {
+    "master": true
+  },
+  "pytest-xvfb": {
+    "master": true
+  },
+  "pythesint": {
+    "master": true
+  },
+  "pythia8": {
+    "master": true
+  },
+  "python": {
+    "master": true
+  },
+  "python-annoy": {
+    "master": true
+  },
+  "python-avro": {
+    "master": true
+  },
+  "python-awips": {
+    "master": true
+  },
+  "python-backtrace": {
+    "master": true
+  },
+  "python-barcode": {
+    "master": true
+  },
+  "python-bidi": {
+    "master": true
+  },
+  "python-blosc": {
+    "master": true
+  },
+  "python-box": {
+    "master": true
+  },
+  "python-can": {
+    "master": true
+  },
+  "python-casacore": {
+    "master": true
+  },
+  "python-cdo": {
+    "master": true
+  },
+  "python-certifi-win32": {
+    "master": true
+  },
+  "python-chromedriver-binary": {
+    "master": true
+  },
+  "python-cinderclient": {
+    "master": true
+  },
+  "python-configuration": {
+    "master": true
+  },
+  "python-confluent-kafka": {
+    "master": true
+  },
+  "python-constraint": {
+    "master": true
+  },
+  "python-coreapi": {
+    "master": true
+  },
+  "python-coreschema": {
+    "master": true
+  },
+  "python-couchdb": {
+    "master": true
+  },
+  "python-coveralls": {
+    "master": true
+  },
+  "python-cpl": {
+    "master": true
+  },
+  "python-cppcolormap": {
+    "master": true
+  },
+  "python-crfsuite": {
+    "master": true
+  },
+  "python-crontab": {
+    "master": true
+  },
+  "python-cufflinks": {
+    "master": true
+  },
+  "python-daemon": {
+    "master": true
+  },
+  "python-dateutil": {
+    "master": true
+  },
+  "python-debian": {
+    "master": true
+  },
+  "python-decouple": {
+    "master": true
+  },
+  "python-docx": {
+    "master": true
+  },
+  "python-dotenv": {
+    "master": true
+  },
+  "python-duckdb": {
+    "master": true
+  },
+  "python-eccodes": {
+    "master": true
+  },
+  "python-editor": {
+    "master": true
+  },
+  "python-engineio": {
+    "master": true
+  },
+  "python-fastjsonschema": {
+    "master": true
+  },
+  "python-fitparse": {
+    "master": true
+  },
+  "python-flatbuffers": {
+    "master": true
+  },
+  "python-flint": {
+    "master": true
+  },
+  "python-fmask": {
+    "master": true
+  },
+  "python-geohash": {
+    "master": true
+  },
+  "python-geotiepoints": {
+    "master": true
+  },
+  "python-gfal2": {
+    "master": true
+  },
+  "python-gflags": {
+    "master": true
+  },
+  "python-gilt": {
+    "master": true
+  },
+  "python-gist": {
+    "master": true
+  },
+  "python-gitlab": {
+    "master": true
+  },
+  "python-glanceclient": {
+    "master": true
+  },
+  "python-gmatelastic": {
+    "master": true
+  },
+  "python-gmatelastoplastic": {
+    "master": true
+  },
+  "python-gmatelastoplasticfinitestrainsimo": {
+    "master": true
+  },
+  "python-gmatelastoplasticqpot": {
+    "master": true
+  },
+  "python-gmatelastoplasticqpot3d": {
+    "master": true
+  },
+  "python-gmatnonlinearelastic": {
+    "master": true
+  },
+  "python-gnupg": {
+    "master": true
+  },
+  "python-gooseeye": {
+    "master": true
+  },
+  "python-goosefem": {
+    "master": true
+  },
+  "python-graphviz": {
+    "master": true
+  },
+  "python-hdfs": {
+    "master": true
+  },
+  "python-highcharts": {
+    "master": true
+  },
+  "python-hookman": {
+    "master": true
+  },
+  "python-hostlist": {
+    "master": true
+  },
+  "python-igraph": {
+    "master": true
+  },
+  "python-irodsclient": {
+    "master": true
+  },
+  "python-ironicclient": {
+    "master": true
+  },
+  "python-javapackages-cos7-aarch64": {
+    "master": true
+  },
+  "python-jenkins": {
+    "master": true
+  },
+  "python-jose": {
+    "master": true
+  },
+  "python-jose-cryptodome": {
+    "master": true
+  },
+  "python-json-logger": {
+    "master": true
+  },
+  "python-jsonrpc-server": {
+    "master": true
+  },
+  "python-keycloak": {
+    "master": true
+  },
+  "python-keystoneclient": {
+    "master": true
+  },
+  "python-kubernetes": {
+    "master": true
+  },
+  "python-lambda-4dn": {
+    "master": true
+  },
+  "python-language-server": {
+    "master": true
+  },
+  "python-ldap": {
+    "master": true
+  },
+  "python-leveldb": {
+    "master": true
+  },
+  "python-levenshtein": {
+    "master": true
+  },
+  "python-libaio": {
+    "master": true
+  },
+  "python-libarchive-c": {
+    "master": true
+  },
+  "python-ligo-lw": {
+    "master": true
+  },
+  "python-lmdb": {
+    "master": true
+  },
+  "python-logstash": {
+    "master": true
+  },
+  "python-louvain": {
+    "master": true
+  },
+  "python-lzo": {
+    "master": true
+  },
+  "python-magic": {
+    "master": true
+  },
+  "python-marisa-trie": {
+    "master": true
+  },
+  "python-markdown-math": {
+    "master": true
+  },
+  "python-memcached": {
+    "master": true
+  },
+  "python-mimeparse": {
+    "master": true
+  },
+  "python-moa": {
+    "master": true
+  },
+  "python-monkey-business": {
+    "master": true
+  },
+  "python-multipart": {
+    "master": true
+  },
+  "python-neo": {
+    "master": true
+  },
+  "python-node-semver": {
+    "master": true
+  },
+  "python-novaclient": {
+    "master": true
+  },
+  "python-nvd3": {
+    "master": true
+  },
+  "python-oauth2": {
+    "master": true
+  },
+  "python-openid": {
+    "master": true
+  },
+  "python-openstackclient": {
+    "master": true
+  },
+  "python-packit": {
+    "master": true
+  },
+  "python-paragraph": {
+    "master": true
+  },
+  "python-patch": {
+    "master": true
+  },
+  "python-pdal": {
+    "master": true
+  },
+  "python-pdfkit": {
+    "master": true
+  },
+  "python-pegasus-wms": {
+    "master": true
+  },
+  "python-picard": {
+    "master": true
+  },
+  "python-pkcs11": {
+    "master": true
+  },
+  "python-planarity": {
+    "master": true
+  },
+  "python-pptx": {
+    "master": true
+  },
+  "python-primesieve": {
+    "master": true
+  },
+  "python-rapidjson": {
+    "master": true
+  },
+  "python-slugify": {
+    "master": true
+  },
+  "python-snap": {
+    "master": true
+  },
+  "python-snappy": {
+    "master": true
+  },
+  "python-socketio": {
+    "master": true
+  },
+  "python-sounddevice": {
+    "master": true
+  },
+  "python-spake2": {
+    "master": true
+  },
+  "python-spams": {
+    "master": true
+  },
+  "python-stratify": {
+    "master": true
+  },
+  "python-swiftclient": {
+    "master": true
+  },
+  "python-symengine": {
+    "master": true
+  },
+  "python-telegram-bot": {
+    "master": true
+  },
+  "python-termstyle": {
+    "master": true
+  },
+  "python-ternary": {
+    "master": true
+  },
+  "python-terraform": {
+    "master": true
+  },
+  "python-twitter": {
+    "master": true
+  },
+  "python-utils": {
+    "master": true
+  },
+  "python-vagrant": {
+    "master": true
+  },
+  "python-wget": {
+    "master": true
+  },
+  "python-xapian": {
+    "master": true
+  },
+  "python-xlib": {
+    "master": true
+  },
+  "python-xxhash": {
+    "master": true
+  },
+  "python.app": {
+    "master": true
+  },
+  "python2-secrets": {
+    "master": true
+  },
+  "python3-openid": {
+    "master": true
+  },
+  "python_abi": {
+    "master": true
+  },
+  "python_http_client": {
+    "master": true
+  },
+  "pythonfmu": {
+    "master": true
+  },
+  "pythonnet": {
+    "master": true
+  },
+  "pythonocc-core": {
+    "master": true
+  },
+  "pythonqwt": {
+    "master": true
+  },
+  "pythran": {
+    "master": true
+  },
+  "pythreejs": {
+    "master": true
+  },
+  "pytide": {
+    "master": true
+  },
+  "pytim": {
+    "master": true
+  },
+  "pytimeparse": {
+    "master": true
+  },
+  "pytmatrix": {
+    "master": true
+  },
+  "pytmc": {
+    "master": true
+  },
+  "pytoml": {
+    "master": true
+  },
+  "pytools": {
+    "master": true
+  },
+  "pytorch-cpu": {
+    "master": true
+  },
+  "pytorch-pretrained-bert": {
+    "master": true
   }
 }
