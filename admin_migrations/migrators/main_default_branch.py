@@ -267,6 +267,9 @@ def _master_to_main(repo):
         _run_git_command(["reset", "--hard", old_sha])
         return False
 
+    # wait a bit to rate-limit requests to our heroku server
+    time.sleep(1)
+
     rev_sha = _get_curr_sha()
     worked = False
     try:
@@ -296,6 +299,9 @@ def _master_to_main(repo):
         _commit_repo("turning on CI for master to main migration")
         _run_git_command(["push", "--quiet"])
         print("    turned CI back on for master to main migration", flush=True)
+
+    # wait a bit to rate-limit requests to our heroku server
+    time.sleep(1)
 
     return worked
 
