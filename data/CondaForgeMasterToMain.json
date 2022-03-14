@@ -37058,5 +37058,866 @@
   },
   "r-proto": {
     "master": true
+  },
+  "r-protolite": {
+    "master": true
+  },
+  "r-protr": {
+    "master": true
+  },
+  "r-protviz": {
+    "master": true
+  },
+  "r-proxy": {
+    "master": true
+  },
+  "r-proxyc": {
+    "master": true
+  },
+  "r-prroc": {
+    "master": true
+  },
+  "r-pryr": {
+    "master": true
+  },
+  "r-ps": {
+    "master": true
+  },
+  "r-pscl": {
+    "master": true
+  },
+  "r-pspearman": {
+    "master": true
+  },
+  "r-pspline": {
+    "master": true
+  },
+  "r-psych": {
+    "master": true
+  },
+  "r-psychotools": {
+    "master": true
+  },
+  "r-ptw": {
+    "master": true
+  },
+  "r-ptxqc": {
+    "master": true
+  },
+  "r-pulsar": {
+    "master": true
+  },
+  "r-purbayes": {
+    "master": true
+  },
+  "r-purrr": {
+    "master": true
+  },
+  "r-purrrlyr": {
+    "master": true
+  },
+  "r-pvclust": {
+    "master": true
+  },
+  "r-pwr": {
+    "master": true
+  },
+  "r-qap": {
+    "master": true
+  },
+  "r-qdapregex": {
+    "master": true
+  },
+  "r-qdaptools": {
+    "master": true
+  },
+  "r-qiimer": {
+    "master": true
+  },
+  "r-qlcmatrix": {
+    "master": true
+  },
+  "r-qpdf": {
+    "master": true
+  },
+  "r-qqman": {
+    "master": true
+  },
+  "r-qqplotr": {
+    "master": true
+  },
+  "r-qrcode": {
+    "master": true
+  },
+  "r-qrm": {
+    "master": true
+  },
+  "r-qs": {
+    "master": true
+  },
+  "r-qtl": {
+    "master": true
+  },
+  "r-qtlcharts": {
+    "master": true
+  },
+  "r-qtlrel": {
+    "master": true
+  },
+  "r-quadprog": {
+    "master": true
+  },
+  "r-qualv": {
+    "master": true
+  },
+  "r-quandl": {
+    "master": true
+  },
+  "r-quanteda": {
+    "master": true
+  },
+  "r-quantmod": {
+    "master": true
+  },
+  "r-quantreg": {
+    "master": true
+  },
+  "r-questionr": {
+    "master": true
+  },
+  "r-qvcalc": {
+    "master": true
+  },
+  "r-r.cache": {
+    "master": true
+  },
+  "r-r.devices": {
+    "master": true
+  },
+  "r-r.filesets": {
+    "master": true
+  },
+  "r-r.huge": {
+    "master": true
+  },
+  "r-r.matlab": {
+    "master": true
+  },
+  "r-r.methodss3": {
+    "master": true
+  },
+  "r-r.oo": {
+    "master": true
+  },
+  "r-r.rsp": {
+    "master": true
+  },
+  "r-r.utils": {
+    "master": true
+  },
+  "r-r2d3": {
+    "master": true
+  },
+  "r-r2html": {
+    "master": true
+  },
+  "r-r2jags": {
+    "master": true
+  },
+  "r-r2winbugs": {
+    "master": true
+  },
+  "r-r6": {
+    "master": true
+  },
+  "r-raceid": {
+    "master": true
+  },
+  "r-radiant.data": {
+    "master": true
+  },
+  "r-radix": {
+    "master": true
+  },
+  "r-rafalib": {
+    "master": true
+  },
+  "r-ragg": {
+    "master": true
+  },
+  "r-rainbow": {
+    "master": true
+  },
+  "r-randomcolor": {
+    "master": true
+  },
+  "r-randomfields": {
+    "master": true
+  },
+  "r-randomfieldsutils": {
+    "master": true
+  },
+  "r-randomforest": {
+    "master": true
+  },
+  "r-randomforestsrc": {
+    "master": true
+  },
+  "r-randomizr": {
+    "master": true
+  },
+  "r-randtests": {
+    "master": true
+  },
+  "r-randtoolbox": {
+    "master": true
+  },
+  "r-ranger": {
+    "master": true
+  },
+  "r-rann": {
+    "master": true
+  },
+  "r-rann.l1": {
+    "master": true
+  },
+  "r-rapidatetime": {
+    "master": true
+  },
+  "r-rapidjsonr": {
+    "master": true
+  },
+  "r-rapiserialize": {
+    "master": true
+  },
+  "r-rappdirs": {
+    "master": true
+  },
+  "r-rapport": {
+    "master": true
+  },
+  "r-rapportools": {
+    "master": true
+  },
+  "r-rarpack": {
+    "master": true
+  },
+  "r-raster": {
+    "master": true
+  },
+  "r-rastervis": {
+    "master": true
+  },
+  "r-rationalexp": {
+    "master": true
+  },
+  "r-rbamtools": {
+    "master": true
+  },
+  "r-rbison": {
+    "master": true
+  },
+  "r-rbokeh": {
+    "master": true
+  },
+  "r-rborist": {
+    "master": true
+  },
+  "r-rccmisc": {
+    "master": true
+  },
+  "r-rcdk": {
+    "master": true
+  },
+  "r-rcdklibs": {
+    "master": true
+  },
+  "r-rcgmin": {
+    "master": true
+  },
+  "r-rchoicedialogs": {
+    "master": true
+  },
+  "r-rcircos": {
+    "master": true
+  },
+  "r-rclipboard": {
+    "master": true
+  },
+  "r-rcmdcheck": {
+    "master": true
+  },
+  "r-rcmdrmisc": {
+    "master": true
+  },
+  "r-rcolorbrewer": {
+    "master": true
+  },
+  "r-rcompanion": {
+    "master": true
+  },
+  "r-rcpp": {
+    "master": true
+  },
+  "r-rcppannoy": {
+    "master": true
+  },
+  "r-rcpparmadillo": {
+    "master": true
+  },
+  "r-rcppclassic": {
+    "master": true
+  },
+  "r-rcppcnpy": {
+    "master": true
+  },
+  "r-rcppeigen": {
+    "master": true
+  },
+  "r-rcppgsl": {
+    "master": true
+  },
+  "r-rcpphnsw": {
+    "master": true
+  },
+  "r-rcppnumerical": {
+    "master": true
+  },
+  "r-rcppparallel": {
+    "master": true
+  },
+  "r-rcppprogress": {
+    "master": true
+  },
+  "r-rcpproll": {
+    "master": true
+  },
+  "r-rcppthread": {
+    "master": true
+  },
+  "r-rcpptoml": {
+    "master": true
+  },
+  "r-rcppziggurat": {
+    "master": true
+  },
+  "r-rcsdp": {
+    "master": true
+  },
+  "r-rcsf": {
+    "master": true
+  },
+  "r-rcurl": {
+    "master": true
+  },
+  "r-rda": {
+    "master": true
+  },
+  "r-rdpack": {
+    "master": true
+  },
+  "r-rdrop2": {
+    "master": true
+  },
+  "r-reactlog": {
+    "master": true
+  },
+  "r-readbitmap": {
+    "master": true
+  },
+  "r-readbrukerflexdata": {
+    "master": true
+  },
+  "r-reader": {
+    "master": true
+  },
+  "r-readjdx": {
+    "master": true
+  },
+  "r-readmzxmldata": {
+    "master": true
+  },
+  "r-readr": {
+    "master": true
+  },
+  "r-readstata13": {
+    "master": true
+  },
+  "r-readxl": {
+    "master": true
+  },
+  "r-rebird": {
+    "master": true
+  },
+  "r-rebus": {
+    "master": true
+  },
+  "r-rebus.base": {
+    "master": true
+  },
+  "r-rebus.datetimes": {
+    "master": true
+  },
+  "r-rebus.numbers": {
+    "master": true
+  },
+  "r-rebus.unicode": {
+    "master": true
+  },
+  "r-recipes": {
+    "master": true
+  },
+  "r-recommended": {
+    "master": true
+  },
+  "r-recordlinkage": {
+    "master": true
+  },
+  "r-redshifttools": {
+    "master": true
+  },
+  "r-refgenome": {
+    "master": true
+  },
+  "r-refmanager": {
+    "master": true
+  },
+  "r-refund": {
+    "master": true
+  },
+  "r-registry": {
+    "master": true
+  },
+  "r-regress": {
+    "master": true
+  },
+  "r-relaimpo": {
+    "master": true
+  },
+  "r-relations": {
+    "master": true
+  },
+  "r-reldist": {
+    "master": true
+  },
+  "r-relimp": {
+    "master": true
+  },
+  "r-rematch": {
+    "master": true
+  },
+  "r-rematch2": {
+    "master": true
+  },
+  "r-remotes": {
+    "master": true
+  },
+  "r-rentrez": {
+    "master": true
+  },
+  "r-renv": {
+    "master": true
+  },
+  "r-reordercluster": {
+    "master": true
+  },
+  "r-repo": {
+    "master": true
+  },
+  "r-reportr": {
+    "master": true
+  },
+  "r-repr": {
+    "master": true
+  },
+  "r-reprex": {
+    "master": true
+  },
+  "r-rerddap": {
+    "master": true
+  },
+  "r-reshape": {
+    "master": true
+  },
+  "r-reshape2": {
+    "master": true
+  },
+  "r-reticulate": {
+    "master": true
+  },
+  "r-rex": {
+    "master": true
+  },
+  "r-rfast": {
+    "master": true
+  },
+  "r-rfoc": {
+    "master": true
+  },
+  "r-rfpermute": {
+    "master": true
+  },
+  "r-rfutilities": {
+    "master": true
+  },
+  "r-rgbif": {
+    "master": true
+  },
+  "r-rgcca": {
+    "master": true
+  },
+  "r-rgdal": {
+    "master": true
+  },
+  "r-rgeos": {
+    "master": true
+  },
+  "r-rgexf": {
+    "master": true
+  },
+  "r-rggobi": {
+    "master": true
+  },
+  "r-rgl": {
+    "master": true
+  },
+  "r-rgooglemaps": {
+    "master": true
+  },
+  "r-rgtk2": {
+    "master": true
+  },
+  "r-rhandsontable": {
+    "master": true
+  },
+  "r-rhpcblasctl": {
+    "master": true
+  },
+  "r-rideogram": {
+    "master": true
+  },
+  "r-ridigbio": {
+    "master": true
+  },
+  "r-riingo": {
+    "master": true
+  },
+  "r-rinside": {
+    "master": true
+  },
+  "r-rintrojs": {
+    "master": true
+  },
+  "r-rio": {
+    "master": true
+  },
+  "r-rioja": {
+    "master": true
+  },
+  "r-riskclustr": {
+    "master": true
+  },
+  "r-ritis": {
+    "master": true
+  },
+  "r-rjags": {
+    "master": true
+  },
+  "r-rjava": {
+    "master": true
+  },
+  "r-rjdbc": {
+    "master": true
+  },
+  "r-rje": {
+    "master": true
+  },
+  "r-rjson": {
+    "master": true
+  },
+  "r-rjsonio": {
+    "master": true
+  },
+  "r-rknn": {
+    "master": true
+  },
+  "r-rlab": {
+    "master": true
+  },
+  "r-rlabkey": {
+    "master": true
+  },
+  "r-rlang": {
+    "master": true
+  },
+  "r-rlas": {
+    "master": true
+  },
+  "r-rlist": {
+    "master": true
+  },
+  "r-rlrsim": {
+    "master": true
+  },
+  "r-rly": {
+    "master": true
+  },
+  "r-rmagic": {
+    "master": true
+  },
+  "r-rmallow": {
+    "master": true
+  },
+  "r-rmapshaper": {
+    "master": true
+  },
+  "r-rmariadb": {
+    "master": true
+  },
+  "r-rmarkdown": {
+    "master": true
+  },
+  "r-rmcfs": {
+    "master": true
+  },
+  "r-rmdformats": {
+    "master": true
+  },
+  "r-rmeta": {
+    "master": true
+  },
+  "r-rmisc": {
+    "master": true
+  },
+  "r-rmixmod": {
+    "master": true
+  },
+  "r-rmpfr": {
+    "master": true
+  },
+  "r-rmpi": {
+    "master": true
+  },
+  "r-rmr2": {
+    "master": true
+  },
+  "r-rms": {
+    "master": true
+  },
+  "r-rmtstat": {
+    "master": true
+  },
+  "r-rmumps": {
+    "master": true
+  },
+  "r-rmutil": {
+    "master": true
+  },
+  "r-rmvp": {
+    "master": true
+  },
+  "r-rmysql": {
+    "master": true
+  },
+  "r-rncl": {
+    "master": true
+  },
+  "r-rnetcdf": {
+    "master": true
+  },
+  "r-rnexml": {
+    "master": true
+  },
+  "r-rngtools": {
+    "master": true
+  },
+  "r-rngwell": {
+    "master": true
+  },
+  "r-rnifti": {
+    "master": true
+  },
+  "r-rniftyreg": {
+    "master": true
+  },
+  "r-robcompositions": {
+    "master": true
+  },
+  "r-robis": {
+    "master": true
+  },
+  "r-robust": {
+    "master": true
+  },
+  "r-robustbase": {
+    "master": true
+  },
+  "r-robustrankaggreg": {
+    "master": true
+  },
+  "r-rocr": {
+    "master": true
+  },
+  "r-rodbc": {
+    "master": true
+  },
+  "r-rook": {
+    "master": true
+  },
+  "r-rootsolve": {
+    "master": true
+  },
+  "r-rosm": {
+    "master": true
+  },
+  "r-rotl": {
+    "master": true
+  },
+  "r-roxygen2": {
+    "master": true
+  },
+  "r-rpart": {
+    "master": true
+  },
+  "r-rpart.plot": {
+    "master": true
+  },
+  "r-rpf": {
+    "master": true
+  },
+  "r-rphylip": {
+    "master": true
+  },
+  "r-rpivottable": {
+    "master": true
+  },
+  "r-rpmg": {
+    "master": true
+  },
+  "r-rpmm": {
+    "master": true
+  },
+  "r-rpostgres": {
+    "master": true
+  },
+  "r-rpostgresql": {
+    "master": true
+  },
+  "r-rpref": {
+    "master": true
+  },
+  "r-rprojroot": {
+    "master": true
+  },
+  "r-rpushbullet": {
+    "master": true
+  },
+  "r-rrblup": {
+    "master": true
+  },
+  "r-rrcov": {
+    "master": true
+  },
+  "r-rredlist": {
+    "master": true
+  },
+  "r-rsaga": {
+    "master": true
+  },
+  "r-rsample": {
+    "master": true
+  },
+  "r-rsconnect": {
+    "master": true
+  },
+  "r-rseis": {
+    "master": true
+  },
+  "r-rserve": {
+    "master": true
+  },
+  "r-rslurm": {
+    "master": true
+  },
+  "r-rsm": {
+    "master": true
+  },
+  "r-rsnns": {
+    "master": true
+  },
+  "r-rsolnp": {
+    "master": true
+  },
+  "r-rsparse": {
+    "master": true
+  },
+  "r-rspectra": {
+    "master": true
+  },
+  "r-rsq": {
+    "master": true
+  },
+  "r-rsqlite": {
+    "master": true
+  },
+  "r-rstan": {
+    "master": true
+  },
+  "r-rstanarm": {
+    "master": true
+  },
+  "r-rstantools": {
+    "master": true
+  },
+  "r-rstudioapi": {
+    "master": true
+  },
+  "r-rsvd": {
+    "master": true
+  },
+  "r-rsvg": {
+    "master": true
+  },
+  "r-rsvgtipsdevice": {
+    "master": true
+  },
+  "r-rtensor": {
+    "master": true
+  },
+  "r-rticles": {
+    "master": true
+  },
+  "r-rtiff": {
+    "master": true
+  },
+  "r-rtsne": {
+    "master": true
+  },
+  "r-rttf2pt1": {
+    "master": true
+  },
+  "r-rtweet": {
+    "master": true
+  },
+  "r-runit": {
+    "master": true
+  },
+  "r-ruv": {
+    "master": true
+  },
+  "r-rvaidememoire": {
+    "master": true
+  },
+  "r-rvcheck": {
+    "master": true
+  },
+  "r-rversions": {
+    "master": true
+  },
+  "r-rvertnet": {
+    "master": true
+  },
+  "r-rvest": {
+    "master": true
   }
 }
