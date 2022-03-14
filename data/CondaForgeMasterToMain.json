@@ -40476,5 +40476,866 @@
   },
   "rpdb": {
     "master": true
+  },
+  "rpfits": {
+    "master": true
+  },
+  "rply": {
+    "master": true
+  },
+  "rpy2": {
+    "master": true
+  },
+  "rq": {
+    "master": true
+  },
+  "rsa": {
+    "master": true
+  },
+  "rsgislib": {
+    "master": true
+  },
+  "rst2pdf": {
+    "master": true
+  },
+  "rstr": {
+    "master": true
+  },
+  "rsync": {
+    "master": true
+  },
+  "rt1": {
+    "master": true
+  },
+  "rtree": {
+    "master": true
+  },
+  "ruamel": {
+    "master": true
+  },
+  "ruamel.ordereddict": {
+    "master": true
+  },
+  "ruamel.yaml": {
+    "master": true
+  },
+  "ruamel.yaml.clib": {
+    "master": true
+  },
+  "ruamel.yaml.jinja2": {
+    "master": true
+  },
+  "ruamel_yaml": {
+    "master": true
+  },
+  "rubiks": {
+    "master": true
+  },
+  "ruby": {
+    "master": true
+  },
+  "runthis-server": {
+    "master": true
+  },
+  "runthis-sphinxext": {
+    "master": true
+  },
+  "ruptures": {
+    "master": true
+  },
+  "rust": {
+    "master": true
+  },
+  "rustpython": {
+    "master": true
+  },
+  "rvlib": {
+    "master": true
+  },
+  "rw": {
+    "master": true
+  },
+  "rx": {
+    "master": true
+  },
+  "rxcpp": {
+    "master": true
+  },
+  "s-tui": {
+    "master": true
+  },
+  "s2cloudless": {
+    "master": true
+  },
+  "s3cmd": {
+    "master": true
+  },
+  "s3contents": {
+    "master": true
+  },
+  "s3fs": {
+    "master": true
+  },
+  "s3path": {
+    "master": true
+  },
+  "s3transfer": {
+    "master": true
+  },
+  "s_gd2": {
+    "master": true
+  },
+  "sacc": {
+    "master": true
+  },
+  "sacremoses": {
+    "master": true
+  },
+  "sadisplay": {
+    "master": true
+  },
+  "safe-netrc": {
+    "master": true
+  },
+  "safety": {
+    "master": true
+  },
+  "saga-python": {
+    "master": true
+  },
+  "sage": {
+    "master": true
+  },
+  "sage-flatsurf": {
+    "master": true
+  },
+  "sagelib": {
+    "master": true
+  },
+  "sagemaker-chainer-container": {
+    "master": true
+  },
+  "sagemaker-inference-toolkit": {
+    "master": true
+  },
+  "sagemaker-mxnet-serving-container": {
+    "master": true
+  },
+  "sagemaker-python-sdk": {
+    "master": true
+  },
+  "sagemaker-pytorch-container": {
+    "master": true
+  },
+  "sagemaker-pytorch-serving-container": {
+    "master": true
+  },
+  "sagemaker-tensorflow-container": {
+    "master": true
+  },
+  "sagemaker-tensorflow-serving-container": {
+    "master": true
+  },
+  "sagemaker_containers": {
+    "master": true
+  },
+  "sagemaker_mxnet_container": {
+    "master": true
+  },
+  "sagemaker_pyspark": {
+    "master": true
+  },
+  "sagemath-db-combinatorial-designs": {
+    "master": true
+  },
+  "sagemath-db-conway-polynomials": {
+    "master": true
+  },
+  "sagemath-db-elliptic-curves": {
+    "master": true
+  },
+  "sagemath-db-graphs": {
+    "master": true
+  },
+  "sagemath-db-polytopes": {
+    "master": true
+  },
+  "sagenb": {
+    "master": true
+  },
+  "sagetex": {
+    "master": true
+  },
+  "salib": {
+    "master": true
+  },
+  "salt": {
+    "master": true
+  },
+  "sampledb": {
+    "master": true
+  },
+  "sanic": {
+    "master": true
+  },
+  "sansio-multipart": {
+    "master": true
+  },
+  "sarge": {
+    "master": true
+  },
+  "sas_kernel": {
+    "master": true
+  },
+  "sasl": {
+    "master": true
+  },
+  "sasmodels": {
+    "master": true
+  },
+  "saspy": {
+    "master": true
+  },
+  "sasview": {
+    "master": true
+  },
+  "sat-search": {
+    "master": true
+  },
+  "sat-stac": {
+    "master": true
+  },
+  "satpy": {
+    "master": true
+  },
+  "saws": {
+    "master": true
+  },
+  "sbcl": {
+    "master": true
+  },
+  "scalapack": {
+    "master": true
+  },
+  "scandir": {
+    "master": true
+  },
+  "scapy": {
+    "master": true
+  },
+  "scarplet": {
+    "master": true
+  },
+  "scattertext": {
+    "master": true
+  },
+  "sccache": {
+    "master": true
+  },
+  "sceptre": {
+    "master": true
+  },
+  "schedula": {
+    "master": true
+  },
+  "schedule": {
+    "master": true
+  },
+  "scheil": {
+    "master": true
+  },
+  "schema": {
+    "master": true
+  },
+  "schema-salad": {
+    "master": true
+  },
+  "schematics": {
+    "master": true
+  },
+  "schnetpack": {
+    "master": true
+  },
+  "schwimmbad": {
+    "master": true
+  },
+  "scif": {
+    "master": true
+  },
+  "scijava-jupyter-kernel": {
+    "master": true
+  },
+  "scikit-allel": {
+    "master": true
+  },
+  "scikit-beam": {
+    "master": true
+  },
+  "scikit-bio": {
+    "master": true
+  },
+  "scikit-build": {
+    "master": true
+  },
+  "scikit-cycling": {
+    "master": true
+  },
+  "scikit-data": {
+    "master": true
+  },
+  "scikit-dsp-comm": {
+    "master": true
+  },
+  "scikit-fmm": {
+    "master": true
+  },
+  "scikit-fuzzy": {
+    "master": true
+  },
+  "scikit-garden": {
+    "master": true
+  },
+  "scikit-geometry": {
+    "master": true
+  },
+  "scikit-hep-testdata": {
+    "master": true
+  },
+  "scikit-image": {
+    "master": true
+  },
+  "scikit-learn": {
+    "master": true
+  },
+  "scikit-learn-extra": {
+    "master": true
+  },
+  "scikit-lego": {
+    "master": true
+  },
+  "scikit-mdr": {
+    "master": true
+  },
+  "scikit-multiflow": {
+    "master": true
+  },
+  "scikit-optimize": {
+    "master": true
+  },
+  "scikit-plot": {
+    "master": true
+  },
+  "scikit-procrustes": {
+    "master": true
+  },
+  "scikit-rf": {
+    "master": true
+  },
+  "scikit-sparse": {
+    "master": true
+  },
+  "scikit-surprise": {
+    "master": true
+  },
+  "scikit-time": {
+    "master": true
+  },
+  "scikit-ued": {
+    "master": true
+  },
+  "scikit-umfpack": {
+    "master": true
+  },
+  "scikit-video": {
+    "master": true
+  },
+  "scikits-bootstrap": {
+    "master": true
+  },
+  "scilab": {
+    "master": true
+  },
+  "sciluigi": {
+    "master": true
+  },
+  "scipy": {
+    "master": true
+  },
+  "scipy-sugar": {
+    "master": true
+  },
+  "scisoftpy": {
+    "master": true
+  },
+  "scisweeper": {
+    "master": true
+  },
+  "scitime": {
+    "master": true
+  },
+  "scmdata": {
+    "master": true
+  },
+  "scons": {
+    "master": true
+  },
+  "scooby": {
+    "master": true
+  },
+  "scorec": {
+    "master": true
+  },
+  "scotch": {
+    "master": true
+  },
+  "scour": {
+    "master": true
+  },
+  "scp": {
+    "master": true
+  },
+  "scqubits": {
+    "master": true
+  },
+  "scramp": {
+    "master": true
+  },
+  "scrapy": {
+    "master": true
+  },
+  "scri": {
+    "master": true
+  },
+  "scripting": {
+    "master": true
+  },
+  "scripttest": {
+    "master": true
+  },
+  "scrypt": {
+    "master": true
+  },
+  "scs": {
+    "master": true
+  },
+  "scyjava": {
+    "master": true
+  },
+  "sdf": {
+    "master": true
+  },
+  "sdl": {
+    "master": true
+  },
+  "sdl2": {
+    "master": true
+  },
+  "sdl2_gfx": {
+    "master": true
+  },
+  "sdl2_image": {
+    "master": true
+  },
+  "sdl2_mixer": {
+    "master": true
+  },
+  "sdl2_net": {
+    "master": true
+  },
+  "sdl2_ttf": {
+    "master": true
+  },
+  "sdl_image": {
+    "master": true
+  },
+  "sdnotify": {
+    "master": true
+  },
+  "sdsl-lite": {
+    "master": true
+  },
+  "seaborn": {
+    "master": true
+  },
+  "seabreeze": {
+    "master": true
+  },
+  "seapy": {
+    "master": true
+  },
+  "seawater": {
+    "master": true
+  },
+  "seccomp-split": {
+    "master": true
+  },
+  "secretstorage": {
+    "master": true
+  },
+  "sed": {
+    "master": true
+  },
+  "sedflux": {
+    "master": true
+  },
+  "seekpath": {
+    "master": true
+  },
+  "segno": {
+    "master": true
+  },
+  "segregation": {
+    "master": true
+  },
+  "segtok": {
+    "master": true
+  },
+  "segyio": {
+    "master": true
+  },
+  "selectors2": {
+    "master": true
+  },
+  "selectors34": {
+    "master": true
+  },
+  "selenium": {
+    "master": true
+  },
+  "selenium-requests": {
+    "master": true
+  },
+  "semantic_version": {
+    "master": true
+  },
+  "semvecpy": {
+    "master": true
+  },
+  "semver": {
+    "master": true
+  },
+  "send2trash": {
+    "master": true
+  },
+  "sendgrid": {
+    "master": true
+  },
+  "sense2vec": {
+    "master": true
+  },
+  "sensorml2iso": {
+    "master": true
+  },
+  "sentinelhub": {
+    "master": true
+  },
+  "sentinels": {
+    "master": true
+  },
+  "sentry-sdk": {
+    "master": true
+  },
+  "sep": {
+    "master": true
+  },
+  "seqan-library": {
+    "master": true
+  },
+  "seqeval": {
+    "master": true
+  },
+  "serialchemy": {
+    "master": true
+  },
+  "serializable": {
+    "master": true
+  },
+  "serpent": {
+    "master": true
+  },
+  "serpy": {
+    "master": true
+  },
+  "serverfiles": {
+    "master": true
+  },
+  "service_identity": {
+    "master": true
+  },
+  "setoptconf": {
+    "master": true
+  },
+  "setproctitle": {
+    "master": true
+  },
+  "setuptools": {
+    "master": true
+  },
+  "setuptools-git": {
+    "master": true
+  },
+  "setuptools-lint": {
+    "master": true
+  },
+  "setuptools-markdown": {
+    "master": true
+  },
+  "setuptools-rust": {
+    "master": true
+  },
+  "setuptools_dso": {
+    "master": true
+  },
+  "setuptools_scm": {
+    "master": true
+  },
+  "setuptools_scm_git_archive": {
+    "master": true
+  },
+  "setuptools_subversion": {
+    "master": true
+  },
+  "sexpdata": {
+    "master": true
+  },
+  "sfdmap": {
+    "master": true
+  },
+  "sfepy": {
+    "master": true
+  },
+  "sfml": {
+    "master": true
+  },
+  "sgdpy": {
+    "master": true
+  },
+  "sgp4": {
+    "master": true
+  },
+  "sgpp": {
+    "master": true
+  },
+  "sh": {
+    "master": true
+  },
+  "shade": {
+    "master": true
+  },
+  "shap": {
+    "master": true
+  },
+  "shapelib": {
+    "master": true
+  },
+  "shapely": {
+    "master": true
+  },
+  "sharedarray": {
+    "master": true
+  },
+  "sharppy": {
+    "master": true
+  },
+  "shed": {
+    "master": true
+  },
+  "shedsidewinder": {
+    "master": true
+  },
+  "shellcheck": {
+    "master": true
+  },
+  "shellescape": {
+    "master": true
+  },
+  "shellingham": {
+    "master": true
+  },
+  "shenfun": {
+    "master": true
+  },
+  "sherlockml-dataclean": {
+    "master": true
+  },
+  "shogun": {
+    "master": true
+  },
+  "shogun-cpp": {
+    "master": true
+  },
+  "shortcutter": {
+    "master": true
+  },
+  "shortuuid": {
+    "master": true
+  },
+  "shove": {
+    "master": true
+  },
+  "shtns": {
+    "master": true
+  },
+  "shutilwhich": {
+    "master": true
+  },
+  "shutilwhich-cwdpatch": {
+    "master": true
+  },
+  "shyaml": {
+    "master": true
+  },
+  "siesta": {
+    "master": true
+  },
+  "signac": {
+    "master": true
+  },
+  "signac-dashboard": {
+    "master": true
+  },
+  "signac-flow": {
+    "master": true
+  },
+  "signxml": {
+    "master": true
+  },
+  "sigopt": {
+    "master": true
+  },
+  "sigtools": {
+    "master": true
+  },
+  "silx": {
+    "master": true
+  },
+  "simage": {
+    "master": true
+  },
+  "simanneal": {
+    "master": true
+  },
+  "simbody": {
+    "master": true
+  },
+  "simdna": {
+    "master": true
+  },
+  "simhash": {
+    "master": true
+  },
+  "simhash-py": {
+    "master": true
+  },
+  "simpeg": {
+    "master": true
+  },
+  "simpervisor": {
+    "master": true
+  },
+  "simple-salesforce": {
+    "master": true
+  },
+  "simpleeval": {
+    "master": true
+  },
+  "simplegeneric": {
+    "master": true
+  },
+  "simpleitk": {
+    "master": true
+  },
+  "simplejson": {
+    "master": true
+  },
+  "simplekml": {
+    "master": true
+  },
+  "simplekv": {
+    "master": true
+  },
+  "simplesat": {
+    "master": true
+  },
+  "simpletal": {
+    "master": true
+  },
+  "simpletraj": {
+    "master": true
+  },
+  "simupop": {
+    "master": true
+  },
+  "singledispatch": {
+    "master": true
+  },
+  "singular": {
+    "master": true
+  },
+  "singularity": {
+    "master": true
+  },
+  "singularity-compose": {
+    "master": true
+  },
+  "sip": {
+    "master": true
+  },
+  "siphon": {
+    "master": true
+  },
+  "sisl": {
+    "master": true
+  },
+  "six": {
+    "master": true
+  },
+  "sixs": {
+    "master": true
+  },
+  "skan": {
+    "master": true
+  },
+  "skater": {
+    "master": true
+  },
+  "skein": {
+    "master": true
+  },
+  "skidl": {
+    "master": true
+  },
+  "skijumpdesign": {
+    "master": true
+  },
+  "skinnywms": {
+    "master": true
+  },
+  "sklearn-contrib-lightning": {
+    "master": true
+  },
+  "sklearn-contrib-py-earth": {
+    "master": true
+  },
+  "sklearn-crfsuite": {
+    "master": true
+  },
+  "sknw": {
+    "master": true
+  },
+  "skopeo": {
+    "master": true
+  },
+  "skorch": {
+    "master": true
+  },
+  "skrebate": {
+    "master": true
+  },
+  "skyarea": {
+    "master": true
+  },
+  "skyfield": {
+    "master": true
   }
 }
