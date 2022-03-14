@@ -33512,5 +33512,455 @@
   },
   "r-bitops": {
     "master": true
+  },
+  "r-biwt": {
+    "master": true
+  },
+  "r-blme": {
+    "master": true
+  },
+  "r-blob": {
+    "master": true
+  },
+  "r-blockfest": {
+    "master": true
+  },
+  "r-blockmodeling": {
+    "master": true
+  },
+  "r-blogdown": {
+    "master": true
+  },
+  "r-bma": {
+    "master": true
+  },
+  "r-bmp": {
+    "master": true
+  },
+  "r-bnlearn": {
+    "master": true
+  },
+  "r-bold": {
+    "master": true
+  },
+  "r-bookdown": {
+    "master": true
+  },
+  "r-boolnet": {
+    "master": true
+  },
+  "r-boom": {
+    "master": true
+  },
+  "r-boot": {
+    "master": true
+  },
+  "r-bootstrap": {
+    "master": true
+  },
+  "r-boruta": {
+    "master": true
+  },
+  "r-botor": {
+    "master": true
+  },
+  "r-bpca": {
+    "master": true
+  },
+  "r-bradleyterry2": {
+    "master": true
+  },
+  "r-breakaway": {
+    "master": true
+  },
+  "r-breakdown": {
+    "master": true
+  },
+  "r-brew": {
+    "master": true
+  },
+  "r-brglm": {
+    "master": true
+  },
+  "r-brglm2": {
+    "master": true
+  },
+  "r-bridgesampling": {
+    "master": true
+  },
+  "r-brms": {
+    "master": true
+  },
+  "r-brobdingnag": {
+    "master": true
+  },
+  "r-broom": {
+    "master": true
+  },
+  "r-broom.mixed": {
+    "master": true
+  },
+  "r-broomextra": {
+    "master": true
+  },
+  "r-bs4dash": {
+    "master": true
+  },
+  "r-bwstest": {
+    "master": true
+  },
+  "r-c3net": {
+    "master": true
+  },
+  "r-c50": {
+    "master": true
+  },
+  "r-ca": {
+    "master": true
+  },
+  "r-cairo": {
+    "master": true
+  },
+  "r-cairodevice": {
+    "master": true
+  },
+  "r-calibrate": {
+    "master": true
+  },
+  "r-callr": {
+    "master": true
+  },
+  "r-canopy": {
+    "master": true
+  },
+  "r-caper": {
+    "master": true
+  },
+  "r-captioner": {
+    "master": true
+  },
+  "r-capushe": {
+    "master": true
+  },
+  "r-car": {
+    "master": true
+  },
+  "r-cardata": {
+    "master": true
+  },
+  "r-caret": {
+    "master": true
+  },
+  "r-caroline": {
+    "master": true
+  },
+  "r-carrier": {
+    "master": true
+  },
+  "r-cartography": {
+    "master": true
+  },
+  "r-castor": {
+    "master": true
+  },
+  "r-catboost": {
+    "master": true
+  },
+  "r-catnet": {
+    "master": true
+  },
+  "r-catools": {
+    "master": true
+  },
+  "r-cba": {
+    "master": true
+  },
+  "r-ccapp": {
+    "master": true
+  },
+  "r-ccdralgorithm": {
+    "master": true
+  },
+  "r-ccp": {
+    "master": true
+  },
+  "r-ccremover": {
+    "master": true
+  },
+  "r-cdft": {
+    "master": true
+  },
+  "r-celestial": {
+    "master": true
+  },
+  "r-cellranger": {
+    "master": true
+  },
+  "r-cgdsr": {
+    "master": true
+  },
+  "r-cghflasso": {
+    "master": true
+  },
+  "r-changepoint": {
+    "master": true
+  },
+  "r-checkmate": {
+    "master": true
+  },
+  "r-checkpoint": {
+    "master": true
+  },
+  "r-chemometrics": {
+    "master": true
+  },
+  "r-chemometricswithr": {
+    "master": true
+  },
+  "r-chemospec": {
+    "master": true
+  },
+  "r-chemospecutils": {
+    "master": true
+  },
+  "r-chorddiag": {
+    "master": true
+  },
+  "r-chron": {
+    "master": true
+  },
+  "r-circlize": {
+    "master": true
+  },
+  "r-circstats": {
+    "master": true
+  },
+  "r-circular": {
+    "master": true
+  },
+  "r-ckmeans.1d.dp": {
+    "master": true
+  },
+  "r-class": {
+    "master": true
+  },
+  "r-classint": {
+    "master": true
+  },
+  "r-cli": {
+    "master": true
+  },
+  "r-cliapp": {
+    "master": true
+  },
+  "r-clipr": {
+    "master": true
+  },
+  "r-clisymbols": {
+    "master": true
+  },
+  "r-clue": {
+    "master": true
+  },
+  "r-clues": {
+    "master": true
+  },
+  "r-cluster": {
+    "master": true
+  },
+  "r-clustercrit": {
+    "master": true
+  },
+  "r-clustergeneration": {
+    "master": true
+  },
+  "r-clustermq": {
+    "master": true
+  },
+  "r-clusterr": {
+    "master": true
+  },
+  "r-clusterses": {
+    "master": true
+  },
+  "r-clustersim": {
+    "master": true
+  },
+  "r-clusteval": {
+    "master": true
+  },
+  "r-clustvarsel": {
+    "master": true
+  },
+  "r-clv": {
+    "master": true
+  },
+  "r-clvalid": {
+    "master": true
+  },
+  "r-cmls": {
+    "master": true
+  },
+  "r-cmprsk": {
+    "master": true
+  },
+  "r-cnogpro": {
+    "master": true
+  },
+  "r-cobs": {
+    "master": true
+  },
+  "r-coda": {
+    "master": true
+  },
+  "r-codemetar": {
+    "master": true
+  },
+  "r-codetools": {
+    "master": true
+  },
+  "r-coenocliner": {
+    "master": true
+  },
+  "r-coin": {
+    "master": true
+  },
+  "r-collapsibletree": {
+    "master": true
+  },
+  "r-collateral": {
+    "master": true
+  },
+  "r-collections": {
+    "master": true
+  },
+  "r-colorramps": {
+    "master": true
+  },
+  "r-colorspace": {
+    "master": true
+  },
+  "r-colortools": {
+    "master": true
+  },
+  "r-colourpicker": {
+    "master": true
+  },
+  "r-colourvalues": {
+    "master": true
+  },
+  "r-combinat": {
+    "master": true
+  },
+  "r-cometexacttest": {
+    "master": true
+  },
+  "r-commonmark": {
+    "master": true
+  },
+  "r-compare": {
+    "master": true
+  },
+  "r-compositions": {
+    "master": true
+  },
+  "r-compquadform": {
+    "master": true
+  },
+  "r-compute.es": {
+    "master": true
+  },
+  "r-concaveman": {
+    "master": true
+  },
+  "r-config": {
+    "master": true
+  },
+  "r-conflicted": {
+    "master": true
+  },
+  "r-conicfit": {
+    "master": true
+  },
+  "r-contfrac": {
+    "master": true
+  },
+  "r-contrast": {
+    "master": true
+  },
+  "r-cooccur": {
+    "master": true
+  },
+  "r-coop": {
+    "master": true
+  },
+  "r-copula": {
+    "master": true
+  },
+  "r-coranking": {
+    "master": true
+  },
+  "r-corbi": {
+    "master": true
+  },
+  "r-corpcor": {
+    "master": true
+  },
+  "r-corrgram": {
+    "master": true
+  },
+  "r-corrplot": {
+    "master": true
+  },
+  "r-corrr": {
+    "master": true
+  },
+  "r-countrycode": {
+    "master": true
+  },
+  "r-covr": {
+    "master": true
+  },
+  "r-cowplot": {
+    "master": true
+  },
+  "r-coxboost": {
+    "master": true
+  },
+  "r-coxme": {
+    "master": true
+  },
+  "r-coxphf": {
+    "master": true
+  },
+  "r-cplm": {
+    "master": true
+  },
+  "r-cramer": {
+    "master": true
+  },
+  "r-crayon": {
+    "master": true
+  },
+  "r-crf": {
+    "master": true
+  },
+  "r-crosstalk": {
+    "master": true
+  },
+  "r-crul": {
+    "master": true
+  },
+  "r-ctv": {
+    "master": true
+  },
+  "r-cubature": {
+    "master": true
+  },
+  "r-cubist": {
+    "master": true
+  },
+  "r-curl": {
+    "master": true
   }
 }
