@@ -5641,7 +5641,8 @@
     "master": true
   },
   "cykhash": {
-    "master": true
+    "master": true,
+    "add_python310": true
   },
   "micromamba": {
     "master": true
