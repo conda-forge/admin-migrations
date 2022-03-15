@@ -15,18 +15,22 @@ class TraviCINoOSXAMD64(Migrator):
                 cfg = yaml.load(fp.read())
 
             if "matrix" in cfg and "include" in cfg["matrix"]:
+                changed = False
                 new_entries = []
                 for entry in cfg["matrix"]["include"]:
                     if entry["os"] == "osx" or entry["arch"] == "amd64":
+                        changed = True
                         continue
                     else:
                         new_entries.append(entry)
-                cfg["matrix"]["include"] = new_entries
 
-                with open(".travis.yml", "w") as fp:
-                    yaml.dump(cfg, fp)
+                if changed:
+                    cfg["matrix"]["include"] = new_entries
 
-                commit = True
+                    with open(".travis.yml", "w") as fp:
+                        yaml.dump(cfg, fp)
+
+                    commit = True
 
         # migration done, make a commit, lots of API calls
         return True, commit, False
