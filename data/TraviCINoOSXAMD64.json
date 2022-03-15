@@ -29507,7 +29507,8 @@
   },
   "gstreamer": {
     "master": true,
-    "backport-1.14.4": true
+    "backport-1.14.4": true,
+    "revert-66-add-jpeg": true
   },
   "gstreamer-orc": {
     "master": true
