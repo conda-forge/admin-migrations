@@ -32,6 +32,7 @@ class FeedstocksServiceUpdate(Migrator):
                 tmp_dir,
                 depth=1,
             )
+            print("    cloned feedstocks repo", flush=True)
 
             # Get the submodule
             # sometimes the webhook outpaces other bits of the API so we try a bit
@@ -72,6 +73,7 @@ class FeedstocksServiceUpdate(Migrator):
                 to_latest_revision=True
             )
             feedstocks_repo.git.add([".gitmodules", feedstock_submodule.path])
+            print("    updated submodule", flush=True)
 
             # Submit changes
             if feedstocks_repo.is_dirty(working_tree=False, untracked_files=True):
@@ -85,6 +87,7 @@ class FeedstocksServiceUpdate(Migrator):
                 )
                 feedstocks_repo.remote().pull(rebase=True)
                 feedstocks_repo.remote().push()
+            print("    pushed if needed", flush=True)
 
         finally:
             if tmp_dir is not None:
