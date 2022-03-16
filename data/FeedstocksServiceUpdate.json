@@ -10864,5 +10864,1148 @@
   },
   "myproxyclient": {
     "main": true
+  },
+  "mypy": {
+    "main": true
+  },
+  "mypy_extensions": {
+    "main": true
+  },
+  "mysql": {
+    "main": true
+  },
+  "mysql-connector-c": {
+    "main": true
+  },
+  "mysql-connector-cpp": {
+    "main": true
+  },
+  "mysql-connector-python": {
+    "main": true
+  },
+  "mysqlclient": {
+    "main": true
+  },
+  "myst-parser": {
+    "main": true
+  },
+  "naima": {
+    "main": true
+  },
+  "namaster": {
+    "main": true
+  },
+  "namedlist": {
+    "main": true
+  },
+  "nameparser": {
+    "main": true
+  },
+  "nano": {
+    "main": true
+  },
+  "nanoflann": {
+    "main": true
+  },
+  "nanotime": {
+    "main": true
+  },
+  "nansat": {
+    "main": true
+  },
+  "napari": {
+    "main": true
+  },
+  "nappy": {
+    "main": true
+  },
+  "nasm": {
+    "main": true
+  },
+  "natsort": {
+    "main": true
+  },
+  "nauty": {
+    "main": true
+  },
+  "nb2plots": {
+    "main": true
+  },
+  "nb_anacondacloud": {
+    "main": true
+  },
+  "nb_black": {
+    "main": true
+  },
+  "nb_conda": {
+    "main": true
+  },
+  "nb_conda_kernels": {
+    "main": true
+  },
+  "nbbrowserpdf": {
+    "main": true
+  },
+  "nbclean": {
+    "main": true
+  },
+  "nbclient": {
+    "main": true
+  },
+  "nbcommands": {
+    "main": true
+  },
+  "nbconvert": {
+    "main": true
+  },
+  "nbconvert-utils": {
+    "main": true
+  },
+  "nbdime": {
+    "main": true
+  },
+  "nbexamples": {
+    "main": true
+  },
+  "nbfinder": {
+    "main": true
+  },
+  "nbformat": {
+    "main": true
+  },
+  "nbgitpuller": {
+    "main": true
+  },
+  "nbgrader": {
+    "main": true
+  },
+  "nbin": {
+    "master": true
+  },
+  "nbpresent": {
+    "master": true
+  },
+  "nbresuse": {
+    "main": true
+  },
+  "nbrr": {
+    "main": true
+  },
+  "nbrsessionproxy": {
+    "master": true
+  },
+  "nbserverproxy": {
+    "main": true
+  },
+  "nbsmoke": {
+    "main": true
+  },
+  "nbsphinx": {
+    "main": true
+  },
+  "nbstripout": {
+    "main": true
+  },
+  "nbtutor": {
+    "main": true
+  },
+  "nbval": {
+    "main": true
+  },
+  "nc_time_axis": {
+    "main": true
+  },
+  "nccl": {
+    "main": true
+  },
+  "nccmp": {
+    "main": true
+  },
+  "ncdu": {
+    "main": true
+  },
+  "ncempy": {
+    "main": true
+  },
+  "ncephes": {
+    "main": true
+  },
+  "ncl": {
+    "main": true
+  },
+  "nco": {
+    "main": true
+  },
+  "ncpol2sdpa": {
+    "main": true
+  },
+  "ncurses": {
+    "main": true
+  },
+  "ncview": {
+    "main": true
+  },
+  "ncvis": {
+    "main": true
+  },
+  "nd2reader": {
+    "main": true
+  },
+  "ndarray": {
+    "main": true
+  },
+  "ndarray_listener": {
+    "main": true
+  },
+  "ndcctools": {
+    "main": true
+  },
+  "ndcsv": {
+    "main": true
+  },
+  "ndcube": {
+    "main": true
+  },
+  "ndf": {
+    "main": true
+  },
+  "ndg-httpsclient": {
+    "main": true
+  },
+  "ndiff": {
+    "main": true
+  },
+  "nds2-client": {
+    "main": true
+  },
+  "nds2-client-swig": {
+    "main": true
+  },
+  "ndscope": {
+    "main": true
+  },
+  "nearpy": {
+    "main": true
+  },
+  "neo4j-connector": {
+    "main": true
+  },
+  "neo4j-python-driver": {
+    "main": true
+  },
+  "neobolt": {
+    "main": true
+  },
+  "neomodel": {
+    "main": true
+  },
+  "neotime": {
+    "main": true
+  },
+  "neovim": {
+    "main": true
+  },
+  "neper": {
+    "main": true
+  },
+  "neptune-client": {
+    "main": true
+  },
+  "neptune-notebooks": {
+    "main": true
+  },
+  "nest-asyncio": {
+    "main": true
+  },
+  "nest-simulator": {
+    "main": true
+  },
+  "nestle": {
+    "main": true
+  },
+  "nestly": {
+    "main": true
+  },
+  "netaddr": {
+    "main": true
+  },
+  "netcdf-cxx-legacy": {
+    "main": true
+  },
+  "netcdf-cxx4": {
+    "main": true
+  },
+  "netcdf-fortran": {
+    "main": true
+  },
+  "netcdf-scm": {
+    "main": true
+  },
+  "netcdf4": {
+    "main": true
+  },
+  "netgen": {
+    "main": true
+  },
+  "netifaces": {
+    "main": true
+  },
+  "netpbm": {
+    "main": true
+  },
+  "nettle": {
+    "main": true
+  },
+  "networkit": {
+    "main": true
+  },
+  "networkx": {
+    "main": true
+  },
+  "networkx-metis": {
+    "main": true
+  },
+  "neunorm": {
+    "main": true
+  },
+  "neuralcoref": {
+    "main": true
+  },
+  "neurdflib": {
+    "main": true
+  },
+  "neurodocker": {
+    "main": true
+  },
+  "neurofire": {
+    "main": true
+  },
+  "neuron": {
+    "main": true
+  },
+  "neurosynchro": {
+    "main": true
+  },
+  "neurotic": {
+    "main": true
+  },
+  "nevergrad": {
+    "main": true
+  },
+  "newrelic": {
+    "main": true
+  },
+  "newspaper3k": {
+    "main": true
+  },
+  "newt": {
+    "main": true
+  },
+  "nexpy": {
+    "main": true
+  },
+  "nexus": {
+    "main": true
+  },
+  "nexusformat": {
+    "main": true
+  },
+  "nfft": {
+    "main": true
+  },
+  "ngboost": {
+    "main": true
+  },
+  "nghttp2": {
+    "main": true
+  },
+  "nginx": {
+    "main": true
+  },
+  "nginx-module-njs": {
+    "main": true
+  },
+  "nglview": {
+    "main": true
+  },
+  "ngmix": {
+    "main": true
+  },
+  "ngram": {
+    "main": true
+  },
+  "ngspice": {
+    "main": true
+  },
+  "nibabel": {
+    "main": true
+  },
+  "nidaqmx-python": {
+    "main": true
+  },
+  "nilearn": {
+    "main": true
+  },
+  "nim": {
+    "main": true
+  },
+  "nine": {
+    "main": true
+  },
+  "ninja": {
+    "main": true
+  },
+  "ninja_syntax": {
+    "main": true
+  },
+  "niondata": {
+    "main": true
+  },
+  "nionswift": {
+    "main": true
+  },
+  "nionswift-experimental": {
+    "main": true
+  },
+  "nionswift-instrumentation": {
+    "main": true
+  },
+  "nionswift-io": {
+    "main": true
+  },
+  "nionswift-tool": {
+    "main": true
+  },
+  "nionswift-usim": {
+    "main": true
+  },
+  "nionswift-video-capture": {
+    "main": true
+  },
+  "nionui": {
+    "main": true
+  },
+  "nionui-tool": {
+    "main": true
+  },
+  "nionutils": {
+    "main": true
+  },
+  "nipy": {
+    "main": true
+  },
+  "nipype": {
+    "main": true
+  },
+  "nitime": {
+    "main": true
+  },
+  "nitro": {
+    "main": true
+  },
+  "nix": {
+    "main": true
+  },
+  "nlohmann_json": {
+    "main": true
+  },
+  "nlopt": {
+    "main": true
+  },
+  "nltk": {
+    "main": true
+  },
+  "nltk_data": {
+    "main": true
+  },
+  "nmslib": {
+    "main": true
+  },
+  "nn": {
+    "main": true
+  },
+  "nnn": {
+    "main": true
+  },
+  "node2vec": {
+    "main": true
+  },
+  "nodebook": {
+    "main": true
+  },
+  "nodeenv": {
+    "main": true
+  },
+  "nodejs": {
+    "main": true
+  },
+  "noise": {
+    "main": true
+  },
+  "nomkl": {
+    "main": true
+  },
+  "norbert": {
+    "main": true
+  },
+  "normaliz": {
+    "main": true
+  },
+  "nose": {
+    "main": true
+  },
+  "nose-cov": {
+    "main": true
+  },
+  "nose-exclude": {
+    "main": true
+  },
+  "nose-progressive": {
+    "main": true
+  },
+  "nose-timer": {
+    "main": true
+  },
+  "nose2": {
+    "main": true
+  },
+  "nose_parameterized": {
+    "main": true
+  },
+  "nose_xunitmp": {
+    "main": true
+  },
+  "nosexcover": {
+    "main": true
+  },
+  "notebook": {
+    "main": true
+  },
+  "notebookscripter": {
+    "main": true
+  },
+  "notedown": {
+    "main": true
+  },
+  "noteslib": {
+    "main": true
+  },
+  "nox": {
+    "main": true
+  },
+  "npctypes": {
+    "main": true
+  },
+  "npstreams": {
+    "main": true
+  },
+  "nptdms": {
+    "main": true
+  },
+  "npth": {
+    "main": true
+  },
+  "nr": {
+    "master": true
+  },
+  "nr.bundler": {
+    "main": true
+  },
+  "nr.cli": {
+    "main": true
+  },
+  "nr.config": {
+    "main": true
+  },
+  "nr.date": {
+    "main": true
+  },
+  "nr.fs": {
+    "main": true
+  },
+  "nr.parse": {
+    "main": true
+  },
+  "nr.types": {
+    "main": true
+  },
+  "nsis": {
+    "main": true
+  },
+  "nspr": {
+    "main": true
+  },
+  "nspr-cos7-aarch64": {
+    "master": true
+  },
+  "nss": {
+    "main": true
+  },
+  "nss-softokn-cos7-aarch64": {
+    "master": true
+  },
+  "nss-softokn-freebl-cos7-aarch64": {
+    "master": true
+  },
+  "nss-util-cos7-aarch64": {
+    "master": true
+  },
+  "nsync": {
+    "main": true
+  },
+  "ntbtls": {
+    "main": true
+  },
+  "nteract-scrapbook": {
+    "main": true
+  },
+  "nteract_on_jupyter": {
+    "main": true
+  },
+  "ntl": {
+    "main": true
+  },
+  "ntlm-auth": {
+    "main": true
+  },
+  "ntplib": {
+    "main": true
+  },
+  "nuitka": {
+    "main": true
+  },
+  "numactl-cos6-x86_64": {
+    "master": true
+  },
+  "numactl-devel-cos6-x86_64": {
+    "master": true
+  },
+  "numba": {
+    "main": true
+  },
+  "numba-scipy": {
+    "main": true
+  },
+  "numcodecs": {
+    "main": true
+  },
+  "numcosmo": {
+    "main": true
+  },
+  "numdifftools": {
+    "main": true
+  },
+  "numericalunits": {
+    "main": true
+  },
+  "numexpr": {
+    "main": true
+  },
+  "numina": {
+    "main": true
+  },
+  "numpoly": {
+    "main": true
+  },
+  "numpy": {
+    "main": true
+  },
+  "numpy-indexed": {
+    "main": true
+  },
+  "numpy-stl": {
+    "main": true
+  },
+  "numpy_groupies": {
+    "main": true
+  },
+  "numpy_sugar": {
+    "main": true
+  },
+  "numpydoc": {
+    "main": true
+  },
+  "nvcc": {
+    "main": true
+  },
+  "nvidia-apex": {
+    "main": true
+  },
+  "nvidia-ml": {
+    "main": true
+  },
+  "nxviz": {
+    "main": true
+  },
+  "oath": {
+    "main": true
+  },
+  "oauth2client": {
+    "main": true
+  },
+  "oauthenticator": {
+    "main": true
+  },
+  "oauthlib": {
+    "main": true
+  },
+  "obake": {
+    "main": true
+  },
+  "objconv": {
+    "main": true
+  },
+  "objectpath": {
+    "main": true
+  },
+  "objgraph": {
+    "main": true
+  },
+  "obsplus": {
+    "main": true
+  },
+  "obspy": {
+    "main": true
+  },
+  "obspyck": {
+    "main": true
+  },
+  "ocaml": {
+    "main": true
+  },
+  "ocaml-camlp5": {
+    "main": true
+  },
+  "ocaml-findlib": {
+    "main": true
+  },
+  "ocaml-num": {
+    "main": true
+  },
+  "ocamlbuild": {
+    "main": true
+  },
+  "occt": {
+    "main": true
+  },
+  "oceans": {
+    "main": true
+  },
+  "oceanspy": {
+    "main": true
+  },
+  "ocgis": {
+    "main": true
+  },
+  "ocl-icd": {
+    "main": true
+  },
+  "ocl-icd-system": {
+    "main": true
+  },
+  "ocl_icd_wrapper_apple": {
+    "main": true
+  },
+  "oclgrind": {
+    "main": true
+  },
+  "oct2py": {
+    "main": true
+  },
+  "octave": {
+    "main": true
+  },
+  "octave_kernel": {
+    "main": true
+  },
+  "octomap": {
+    "main": true
+  },
+  "ocw": {
+    "master": true
+  },
+  "od": {
+    "main": true
+  },
+  "oddt": {
+    "main": true
+  },
+  "odenet": {
+    "main": true
+  },
+  "odfpy": {
+    "main": true
+  },
+  "odil": {
+    "main": true
+  },
+  "odm2api": {
+    "main": true
+  },
+  "odm2rest": {
+    "master": true
+  },
+  "odo": {
+    "main": true
+  },
+  "odvc": {
+    "main": true
+  },
+  "ogh": {
+    "main": true
+  },
+  "ogre": {
+    "main": true
+  },
+  "ogs5py": {
+    "main": true
+  },
+  "oic": {
+    "main": true
+  },
+  "oifits": {
+    "main": true
+  },
+  "okonomiyaki": {
+    "main": true
+  },
+  "oktopus": {
+    "main": true
+  },
+  "olefile": {
+    "main": true
+  },
+  "oletools": {
+    "main": true
+  },
+  "oliver": {
+    "main": true
+  },
+  "omas": {
+    "main": true
+  },
+  "omcompiler": {
+    "main": true
+  },
+  "omegaconf": {
+    "main": true
+  },
+  "omicron": {
+    "main": true
+  },
+  "omnifit": {
+    "main": true
+  },
+  "omniorb": {
+    "main": true
+  },
+  "omniorbpy": {
+    "main": true
+  },
+  "omnisci-pytools": {
+    "main": true
+  },
+  "omniscidb-cpu": {
+    "master": true
+  },
+  "omniscidb-cuda": {
+    "master": true
+  },
+  "ompl": {
+    "main": true
+  },
+  "oniguruma": {
+    "main": true
+  },
+  "onnx": {
+    "main": true
+  },
+  "onnx-caffe2": {
+    "main": true
+  },
+  "onnx-tf": {
+    "main": true
+  },
+  "oommf": {
+    "main": true
+  },
+  "oommfc": {
+    "main": true
+  },
+  "oommfodt": {
+    "main": true
+  },
+  "oop-ext": {
+    "main": true
+  },
+  "opbeat": {
+    "main": true
+  },
+  "opcua": {
+    "main": true
+  },
+  "open-fonts": {
+    "main": true
+  },
+  "openal-soft": {
+    "main": true
+  },
+  "openalea.deploy": {
+    "main": true
+  },
+  "openapi-codec": {
+    "main": true
+  },
+  "openapi-spec-validator": {
+    "main": true
+  },
+  "openbabel": {
+    "main": true
+  },
+  "openblas": {
+    "main": true
+  },
+  "opencamlib": {
+    "main": true
+  },
+  "opencv": {
+    "main": true
+  },
+  "openexr": {
+    "main": true
+  },
+  "openfile": {
+    "main": true
+  },
+  "openfst": {
+    "main": true
+  },
+  "openglider": {
+    "main": true
+  },
+  "openh264": {
+    "main": true
+  },
+  "openimageio": {
+    "main": true
+  },
+  "openjdk": {
+    "main": true
+  },
+  "openjpeg": {
+    "main": true
+  },
+  "openkim-models": {
+    "main": true
+  },
+  "openkimmodels": {
+    "main": true
+  },
+  "openldap": {
+    "main": true
+  },
+  "openlibm": {
+    "main": true
+  },
+  "openmc": {
+    "main": true
+  },
+  "openmdao": {
+    "main": true
+  },
+  "openmeeg": {
+    "main": true
+  },
+  "openmesh": {
+    "main": true
+  },
+  "openmesh-python": {
+    "main": true
+  },
+  "openmm": {
+    "main": true
+  },
+  "openmotif": {
+    "main": true
+  },
+  "openmp": {
+    "main": true
+  },
+  "openmpi": {
+    "main": true
+  },
+  "openorb": {
+    "main": true
+  },
+  "openorb-data": {
+    "main": true
+  },
+  "openorb-data-bc430": {
+    "main": true
+  },
+  "openorb-data-de405": {
+    "main": true
+  },
+  "openorb-data-de430": {
+    "main": true
+  },
+  "openorb-eph-builder": {
+    "main": true
+  },
+  "openpathsampling": {
+    "main": true
+  },
+  "openpathsampling-cli": {
+    "main": true
+  },
+  "openpiv": {
+    "main": true
+  },
+  "openpmd-api": {
+    "main": true
+  },
+  "openpmd-beamphysics": {
+    "main": true
+  },
+  "openpmd-viewer": {
+    "main": true
+  },
+  "openpyxl": {
+    "main": true
+  },
+  "openquake.engine": {
+    "main": true
+  },
+  "opensesame": {
+    "main": true
+  },
+  "openshift-cli": {
+    "main": true
+  },
+  "openslide": {
+    "main": true
+  },
+  "opensource": {
+    "main": true
+  },
+  "openspecfun": {
+    "main": true
+  },
+  "openssh": {
+    "main": true
+  },
+  "openssl": {
+    "main": true
+  },
+  "openstacksdk": {
+    "main": true
+  },
+  "opentracing": {
+    "main": true
+  },
+  "opentracing_instrumentation": {
+    "main": true
+  },
+  "opentsne": {
+    "main": true
+  },
+  "openturns": {
+    "main": true
+  },
+  "openvisus": {
+    "main": true
+  },
+  "ophyd": {
+    "main": true
+  },
+  "opsdroid": {
+    "main": true
+  },
+  "opt_einsum": {
+    "main": true
+  },
+  "optimix": {
+    "main": true
+  },
+  "optlang": {
+    "main": true
+  },
+  "optpp": {
+    "main": true
+  },
+  "optuna": {
+    "main": true
+  },
+  "opty": {
+    "main": true
+  },
+  "opus-tools": {
+    "main": true
+  },
+  "opusfile": {
+    "main": true
+  },
+  "opyplus": {
+    "main": true
+  },
+  "oq-engine": {
+    "main": true
+  },
+  "orange-canvas-core": {
+    "main": true
+  },
+  "orange-widget-base": {
+    "main": true
+  },
+  "orange3": {
+    "main": true
+  },
+  "orange3-bioinformatics": {
+    "main": true
+  },
+  "orange3-educational": {
+    "main": true
+  },
+  "orange3-geo": {
+    "main": true
+  },
+  "orange3-imageanalytics": {
+    "main": true
+  },
+  "orange3-network": {
+    "main": true
+  },
+  "orange3-singlecell": {
+    "main": true
+  },
+  "orange3-text": {
+    "main": true
+  },
+  "orange3-timeseries": {
+    "main": true
+  },
+  "orator": {
+    "main": true
+  },
+  "orbit2-cos7-aarch64": {
+    "master": true
+  },
+  "orc": {
+    "main": true
+  },
+  "orca": {
+    "main": true
+  },
+  "orca_test": {
+    "main": true
+  },
+  "orch": {
+    "main": true
+  },
+  "orcid": {
+    "main": true
+  },
+  "ordered-set": {
+    "main": true
   }
 }
