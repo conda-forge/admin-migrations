@@ -15472,5 +15472,941 @@
   },
   "python-levenshtein": {
     "main": true
+  },
+  "python-libaio": {
+    "main": true
+  },
+  "python-libarchive-c": {
+    "main": true
+  },
+  "python-ligo-lw": {
+    "main": true
+  },
+  "python-lmdb": {
+    "main": true
+  },
+  "python-logstash": {
+    "main": true
+  },
+  "python-louvain": {
+    "main": true
+  },
+  "python-lzo": {
+    "main": true
+  },
+  "python-magic": {
+    "main": true
+  },
+  "python-marisa-trie": {
+    "main": true
+  },
+  "python-markdown-math": {
+    "main": true
+  },
+  "python-memcached": {
+    "main": true
+  },
+  "python-mimeparse": {
+    "main": true
+  },
+  "python-moa": {
+    "main": true
+  },
+  "python-monkey-business": {
+    "main": true
+  },
+  "python-multipart": {
+    "main": true
+  },
+  "python-neo": {
+    "main": true
+  },
+  "python-node-semver": {
+    "main": true
+  },
+  "python-novaclient": {
+    "main": true
+  },
+  "python-nvd3": {
+    "main": true
+  },
+  "python-oauth2": {
+    "main": true
+  },
+  "python-openid": {
+    "main": true
+  },
+  "python-openstackclient": {
+    "main": true
+  },
+  "python-packit": {
+    "main": true
+  },
+  "python-paragraph": {
+    "main": true
+  },
+  "python-patch": {
+    "main": true
+  },
+  "python-pdal": {
+    "main": true
+  },
+  "python-pdfkit": {
+    "main": true
+  },
+  "python-pegasus-wms": {
+    "main": true
+  },
+  "python-picard": {
+    "main": true
+  },
+  "python-pkcs11": {
+    "main": true
+  },
+  "python-planarity": {
+    "main": true
+  },
+  "python-pptx": {
+    "main": true
+  },
+  "python-primesieve": {
+    "main": true
+  },
+  "python-rapidjson": {
+    "main": true
+  },
+  "python-slugify": {
+    "main": true
+  },
+  "python-snap": {
+    "main": true
+  },
+  "python-snappy": {
+    "main": true
+  },
+  "python-socketio": {
+    "main": true
+  },
+  "python-sounddevice": {
+    "main": true
+  },
+  "python-spake2": {
+    "main": true
+  },
+  "python-spams": {
+    "main": true
+  },
+  "python-stratify": {
+    "main": true
+  },
+  "python-swiftclient": {
+    "main": true
+  },
+  "python-symengine": {
+    "main": true
+  },
+  "python-telegram-bot": {
+    "main": true
+  },
+  "python-termstyle": {
+    "main": true
+  },
+  "python-ternary": {
+    "main": true
+  },
+  "python-terraform": {
+    "main": true
+  },
+  "python-twitter": {
+    "main": true
+  },
+  "python-utils": {
+    "main": true
+  },
+  "python-vagrant": {
+    "main": true
+  },
+  "python-wget": {
+    "main": true
+  },
+  "python-xapian": {
+    "main": true
+  },
+  "python-xlib": {
+    "main": true
+  },
+  "python-xxhash": {
+    "main": true
+  },
+  "python.app": {
+    "main": true
+  },
+  "python2-secrets": {
+    "main": true
+  },
+  "python3-openid": {
+    "main": true
+  },
+  "python_abi": {
+    "main": true
+  },
+  "python_http_client": {
+    "main": true
+  },
+  "pythonfmu": {
+    "main": true
+  },
+  "pythonnet": {
+    "main": true
+  },
+  "pythonocc-core": {
+    "main": true
+  },
+  "pythonqwt": {
+    "main": true
+  },
+  "pythran": {
+    "main": true
+  },
+  "pythreejs": {
+    "main": true
+  },
+  "pytide": {
+    "main": true
+  },
+  "pytim": {
+    "main": true
+  },
+  "pytimeparse": {
+    "main": true
+  },
+  "pytmatrix": {
+    "main": true
+  },
+  "pytmc": {
+    "main": true
+  },
+  "pytoml": {
+    "main": true
+  },
+  "pytools": {
+    "main": true
+  },
+  "pytorch-cpu": {
+    "main": true
+  },
+  "pytorch-pretrained-bert": {
+    "main": true
+  },
+  "pytrackmate": {
+    "main": true
+  },
+  "pytrie": {
+    "main": true
+  },
+  "pytrilinos": {
+    "main": true
+  },
+  "pyts": {
+    "main": true
+  },
+  "pyttk": {
+    "main": true
+  },
+  "pytweening": {
+    "main": true
+  },
+  "pytypes": {
+    "main": true
+  },
+  "pytz": {
+    "main": true
+  },
+  "pytzdata": {
+    "main": true
+  },
+  "pyuca": {
+    "main": true
+  },
+  "pyugrid": {
+    "main": true
+  },
+  "pyulog": {
+    "main": true
+  },
+  "pyunfold": {
+    "main": true
+  },
+  "pyunlocbox": {
+    "main": true
+  },
+  "pyuoi": {
+    "main": true
+  },
+  "pyupgrade": {
+    "main": true
+  },
+  "pyusb": {
+    "main": true
+  },
+  "pyusid": {
+    "main": true
+  },
+  "pyutilib": {
+    "main": true
+  },
+  "pyutilsnrw": {
+    "main": true
+  },
+  "pyuv": {
+    "main": true
+  },
+  "pyuvdata": {
+    "main": true
+  },
+  "pyvcd": {
+    "main": true
+  },
+  "pyvcf": {
+    "main": true
+  },
+  "pyvips": {
+    "main": true
+  },
+  "pyvirtualdisplay": {
+    "main": true
+  },
+  "pyvis": {
+    "main": true
+  },
+  "pyvisa": {
+    "main": true
+  },
+  "pyvisa-py": {
+    "main": true
+  },
+  "pyvisfile": {
+    "main": true
+  },
+  "pyvista": {
+    "main": true
+  },
+  "pyviz_comms": {
+    "main": true
+  },
+  "pyvmomi": {
+    "main": true
+  },
+  "pyvo": {
+    "main": true
+  },
+  "pyvtk": {
+    "main": true
+  },
+  "pywaffle": {
+    "main": true
+  },
+  "pywavelets": {
+    "main": true
+  },
+  "pywebhdfs": {
+    "main": true
+  },
+  "pyweed": {
+    "main": true
+  },
+  "pywim": {
+    "main": true
+  },
+  "pywin32": {
+    "main": true
+  },
+  "pywin32-ctypes": {
+    "main": true
+  },
+  "pywinauto": {
+    "main": true
+  },
+  "pywinhook": {
+    "main": true
+  },
+  "pywinpty": {
+    "main": true
+  },
+  "pywinrm": {
+    "main": true
+  },
+  "pywinusb": {
+    "main": true
+  },
+  "pyworkdir": {
+    "main": true
+  },
+  "pyworkout-toolkit": {
+    "main": true
+  },
+  "pywps": {
+    "main": true
+  },
+  "pywr": {
+    "main": true
+  },
+  "pywwt": {
+    "main": true
+  },
+  "pyxb": {
+    "main": true
+  },
+  "pyxdameraulevenshtein": {
+    "main": true
+  },
+  "pyxdf": {
+    "main": true
+  },
+  "pyxdg": {
+    "main": true
+  },
+  "pyxem": {
+    "main": true
+  },
+  "pyxid": {
+    "main": true
+  },
+  "pyxley": {
+    "main": true
+  },
+  "pyxrf": {
+    "main": true
+  },
+  "pyxtensor": {
+    "main": true
+  },
+  "pyyaml": {
+    "main": true
+  },
+  "pyzmq": {
+    "main": true
+  },
+  "pyzotero": {
+    "main": true
+  },
+  "qarrayrun": {
+    "main": true
+  },
+  "qca": {
+    "main": true
+  },
+  "qcelemental": {
+    "main": true
+  },
+  "qcengine": {
+    "main": true
+  },
+  "qcfractal": {
+    "main": true
+  },
+  "qcodes": {
+    "main": true
+  },
+  "qcportal": {
+    "main": true
+  },
+  "qd": {
+    "main": true
+  },
+  "qdarkstyle": {
+    "main": true
+  },
+  "qdatamatrix": {
+    "main": true
+  },
+  "qds-sdk": {
+    "main": true
+  },
+  "qe": {
+    "main": true
+  },
+  "qgis": {
+    "main": true
+  },
+  "qgrid": {
+    "main": true
+  },
+  "qhull": {
+    "main": true
+  },
+  "qimage2ndarray": {
+    "main": true
+  },
+  "qjson": {
+    "main": true
+  },
+  "qnm": {
+    "main": true
+  },
+  "qnotifications": {
+    "main": true
+  },
+  "qpdf": {
+    "main": true
+  },
+  "qrcode": {
+    "main": true
+  },
+  "qscintilla2": {
+    "main": true
+  },
+  "qsum": {
+    "main": true
+  },
+  "qsymm": {
+    "main": true
+  },
+  "qt": {
+    "main": true
+  },
+  "qt.py": {
+    "main": true
+  },
+  "qt5reactor": {
+    "main": true
+  },
+  "qt_style_sheet_inspector": {
+    "main": true
+  },
+  "qtawesome": {
+    "main": true
+  },
+  "qtconsole": {
+    "main": true
+  },
+  "qtkeychain": {
+    "main": true
+  },
+  "qtlocation": {
+    "main": true
+  },
+  "qtmodern": {
+    "main": true
+  },
+  "qtpy": {
+    "main": true
+  },
+  "qtpy-uic": {
+    "main": true
+  },
+  "qtpynodeeditor": {
+    "main": true
+  },
+  "qtsass": {
+    "main": true
+  },
+  "qtserialport": {
+    "main": true
+  },
+  "qtwebkit": {
+    "main": true
+  },
+  "qtwirl": {
+    "main": true
+  },
+  "quandl": {
+    "main": true
+  },
+  "quantecon": {
+    "main": true
+  },
+  "quantities": {
+    "main": true
+  },
+  "quantlab": {
+    "main": true
+  },
+  "quantlab_launcher": {
+    "main": true
+  },
+  "quart": {
+    "main": true
+  },
+  "quart-cors": {
+    "main": true
+  },
+  "quart-openapi": {
+    "main": true
+  },
+  "quart-trio": {
+    "main": true
+  },
+  "quaternion": {
+    "main": true
+  },
+  "qubekit": {
+    "main": true
+  },
+  "querystring_parser": {
+    "main": true
+  },
+  "quest": {
+    "main": true
+  },
+  "questplus": {
+    "main": true
+  },
+  "quickff": {
+    "main": true
+  },
+  "quickfix": {
+    "main": true
+  },
+  "quilt": {
+    "main": true
+  },
+  "qupy": {
+    "main": true
+  },
+  "qurro": {
+    "main": true
+  },
+  "qutip": {
+    "main": true
+  },
+  "qvina": {
+    "main": true
+  },
+  "qwt": {
+    "main": true
+  },
+  "qwtpolar": {
+    "main": true
+  },
+  "r": {
+    "main": true
+  },
+  "r-abind": {
+    "main": true
+  },
+  "r-acepack": {
+    "main": true
+  },
+  "r-ada": {
+    "main": true
+  },
+  "r-additivitytests": {
+    "main": true
+  },
+  "r-ade4": {
+    "main": true
+  },
+  "r-adegenet": {
+    "main": true
+  },
+  "r-adehabitatlt": {
+    "main": true
+  },
+  "r-adehabitatma": {
+    "main": true
+  },
+  "r-adephylo": {
+    "main": true
+  },
+  "r-adgoftest": {
+    "main": true
+  },
+  "r-adlift": {
+    "main": true
+  },
+  "r-admisc": {
+    "main": true
+  },
+  "r-aer": {
+    "main": true
+  },
+  "r-afex": {
+    "main": true
+  },
+  "r-aggregation": {
+    "main": true
+  },
+  "r-agricolae": {
+    "main": true
+  },
+  "r-ahocorasicktrie": {
+    "main": true
+  },
+  "r-airr": {
+    "main": true
+  },
+  "r-akima": {
+    "main": true
+  },
+  "r-alabama": {
+    "main": true
+  },
+  "r-alakazam": {
+    "main": true
+  },
+  "r-aleplot": {
+    "main": true
+  },
+  "r-algdesign": {
+    "main": true
+  },
+  "r-alluvial": {
+    "main": true
+  },
+  "r-alphavantager": {
+    "main": true
+  },
+  "r-als": {
+    "main": true
+  },
+  "r-amap": {
+    "main": true
+  },
+  "r-ampliconduo": {
+    "main": true
+  },
+  "r-animation": {
+    "main": true
+  },
+  "r-anom": {
+    "main": true
+  },
+  "r-anomalydetection": {
+    "main": true
+  },
+  "r-anytime": {
+    "main": true
+  },
+  "r-aod": {
+    "main": true
+  },
+  "r-apatables": {
+    "main": true
+  },
+  "r-apcluster": {
+    "main": true
+  },
+  "r-ape": {
+    "main": true
+  },
+  "r-aplpack": {
+    "main": true
+  },
+  "r-aptreeshape": {
+    "main": true
+  },
+  "r-aqp": {
+    "main": true
+  },
+  "r-argonr": {
+    "main": true
+  },
+  "r-argparse": {
+    "main": true
+  },
+  "r-argparser": {
+    "main": true
+  },
+  "r-argumentcheck": {
+    "main": true
+  },
+  "r-arm": {
+    "main": true
+  },
+  "r-aroma.apd": {
+    "main": true
+  },
+  "r-arrapply": {
+    "main": true
+  },
+  "r-arrayhelpers": {
+    "main": true
+  },
+  "r-arrow": {
+    "main": true
+  },
+  "r-arsenal": {
+    "main": true
+  },
+  "r-arules": {
+    "main": true
+  },
+  "r-asbio": {
+    "main": true
+  },
+  "r-ascii": {
+    "main": true
+  },
+  "r-ash": {
+    "main": true
+  },
+  "r-ashr": {
+    "main": true
+  },
+  "r-asioheaders": {
+    "main": true
+  },
+  "r-askpass": {
+    "main": true
+  },
+  "r-assertive": {
+    "main": true
+  },
+  "r-assertive.base": {
+    "main": true
+  },
+  "r-assertive.code": {
+    "main": true
+  },
+  "r-assertive.data": {
+    "main": true
+  },
+  "r-assertive.data.uk": {
+    "main": true
+  },
+  "r-assertive.data.us": {
+    "main": true
+  },
+  "r-assertive.datetimes": {
+    "main": true
+  },
+  "r-assertive.files": {
+    "main": true
+  },
+  "r-assertive.matrices": {
+    "main": true
+  },
+  "r-assertive.models": {
+    "main": true
+  },
+  "r-assertive.numbers": {
+    "main": true
+  },
+  "r-assertive.properties": {
+    "main": true
+  },
+  "r-assertive.reflection": {
+    "main": true
+  },
+  "r-assertive.sets": {
+    "main": true
+  },
+  "r-assertive.strings": {
+    "main": true
+  },
+  "r-assertive.types": {
+    "main": true
+  },
+  "r-assertr": {
+    "main": true
+  },
+  "r-assertthat": {
+    "main": true
+  },
+  "r-assotester": {
+    "main": true
+  },
+  "r-attempt": {
+    "main": true
+  },
+  "r-auc": {
+    "main": true
+  },
+  "r-automap": {
+    "main": true
+  },
+  "r-autoplotly": {
+    "main": true
+  },
+  "r-autoshiny": {
+    "main": true
+  },
+  "r-aws": {
+    "main": true
+  },
+  "r-aws.ec2metadata": {
+    "main": true
+  },
+  "r-aws.s3": {
+    "main": true
+  },
+  "r-aws.signature": {
+    "main": true
+  },
+  "r-awsmethods": {
+    "main": true
+  },
+  "r-backports": {
+    "main": true
+  },
+  "r-barcoder": {
+    "main": true
+  },
+  "r-base": {
+    "main": true
+  },
+  "r-base64": {
+    "main": true
+  },
+  "r-base64enc": {
+    "main": true
+  },
+  "r-base64url": {
+    "main": true
+  },
+  "r-baseline": {
+    "main": true
+  },
+  "r-basictrendline": {
+    "main": true
+  },
+  "r-basix": {
+    "main": true
+  },
+  "r-batch": {
+    "main": true
+  },
+  "r-batchjobs": {
+    "main": true
+  },
+  "r-batchtools": {
+    "main": true
+  },
+  "r-bayesfactor": {
+    "main": true
+  },
+  "r-bayesm": {
+    "main": true
+  },
+  "r-bayesplot": {
+    "main": true
+  },
+  "r-bayestestr": {
+    "main": true
+  },
+  "r-bazar": {
+    "main": true
+  },
+  "r-bb": {
+    "main": true
+  },
+  "r-bbmisc": {
+    "main": true
+  },
+  "r-bbmle": {
+    "main": true
+  },
+  "r-bc3net": {
+    "main": true
+  },
+  "r-bcrocsurface": {
+    "main": true
+  },
+  "r-bdgraph": {
+    "main": true
+  },
+  "r-bdsmatrix": {
+    "main": true
   }
 }
