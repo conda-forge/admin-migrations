@@ -77,13 +77,8 @@ class FeedstocksServiceUpdate(Migrator):
 
             # Submit changes
             if feedstocks_repo.is_dirty(working_tree=False, untracked_files=True):
-                author = git.Actor(
-                    "conda-forge-coordinator", "conda.forge.coordinator@gmail.com"
-                )
                 feedstocks_repo.index.commit(
                     "Updated the {0} feedstock.".format(name),
-                    author=author,
-                    committer=author
                 )
                 feedstocks_repo.remote().pull(rebase=True)
                 feedstocks_repo.remote().push()
