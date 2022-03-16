@@ -3460,5 +3460,878 @@
   },
   "ddt": {
     "main": true
+  },
+  "dealii": {
+    "main": true
+  },
+  "deap": {
+    "main": true
+  },
+  "debtcollector": {
+    "main": true
+  },
+  "dec2": {
+    "main": true
+  },
+  "decorator": {
+    "main": true
+  },
+  "dectate": {
+    "main": true
+  },
+  "deepchem": {
+    "main": true
+  },
+  "deepdiff": {
+    "main": true
+  },
+  "deepdish": {
+    "main": true
+  },
+  "deepgraph": {
+    "main": true
+  },
+  "deeplearnjs": {
+    "main": true
+  },
+  "deepmd-kit": {
+    "main": true
+  },
+  "deepsmiles": {
+    "main": true
+  },
+  "deepxde": {
+    "main": true
+  },
+  "defusedxml": {
+    "main": true
+  },
+  "deicode": {
+    "main": true
+  },
+  "deid": {
+    "main": true
+  },
+  "delegator": {
+    "main": true
+  },
+  "delocate": {
+    "main": true
+  },
+  "demoshell": {
+    "main": true
+  },
+  "demquery": {
+    "main": true
+  },
+  "deon": {
+    "main": true
+  },
+  "dependencies": {
+    "main": true
+  },
+  "depfinder": {
+    "main": true
+  },
+  "depi": {
+    "main": true
+  },
+  "depinfo": {
+    "main": true
+  },
+  "deprecated": {
+    "main": true
+  },
+  "deprecation": {
+    "main": true
+  },
+  "deprecation-factory": {
+    "main": true
+  },
+  "deps": {
+    "main": true
+  },
+  "des-desmeds": {
+    "main": true
+  },
+  "des-easyaccess": {
+    "main": true
+  },
+  "descartes": {
+    "main": true
+  },
+  "descarteslabs": {
+    "main": true
+  },
+  "desdeo": {
+    "main": true
+  },
+  "desdeo-vis": {
+    "main": true
+  },
+  "desktop3": {
+    "main": true
+  },
+  "desres-msys": {
+    "main": true
+  },
+  "df2gspread": {
+    "main": true
+  },
+  "dftatom": {
+    "main": true
+  },
+  "dftd4": {
+    "main": true
+  },
+  "dfviz": {
+    "main": true
+  },
+  "dialite": {
+    "main": true
+  },
+  "dials-data": {
+    "main": true
+  },
+  "dials-dependencies": {
+    "master": true
+  },
+  "dicom2nifti": {
+    "main": true
+  },
+  "dicomifier": {
+    "main": true
+  },
+  "dictdiffer": {
+    "main": true
+  },
+  "dictlib": {
+    "main": true
+  },
+  "dicttoxml": {
+    "main": true
+  },
+  "diff-cover": {
+    "main": true
+  },
+  "diff-match-patch": {
+    "main": true
+  },
+  "diffoscope": {
+    "main": true
+  },
+  "diffpy.pdfmorph": {
+    "main": true
+  },
+  "diffpy.structure": {
+    "main": true
+  },
+  "diffpy.utils": {
+    "main": true
+  },
+  "diffsims": {
+    "main": true
+  },
+  "diffutils": {
+    "main": true
+  },
+  "digital_rf": {
+    "main": true
+  },
+  "dill": {
+    "main": true
+  },
+  "dionysus": {
+    "main": true
+  },
+  "dioptas": {
+    "main": true
+  },
+  "dipy": {
+    "main": true
+  },
+  "dirac-grid": {
+    "main": true
+  },
+  "diraccfg": {
+    "main": true
+  },
+  "dirent": {
+    "main": true
+  },
+  "dis3": {
+    "main": true
+  },
+  "discretisedfield": {
+    "main": true
+  },
+  "discretize": {
+    "main": true
+  },
+  "diskcache": {
+    "main": true
+  },
+  "distance": {
+    "main": true
+  },
+  "distarray": {
+    "main": true
+  },
+  "distgen": {
+    "main": true
+  },
+  "distributed": {
+    "main": true
+  },
+  "distro": {
+    "main": true
+  },
+  "dit": {
+    "main": true
+  },
+  "divebomb": {
+    "main": true
+  },
+  "dj-database-url": {
+    "main": true
+  },
+  "dj-static": {
+    "main": true
+  },
+  "django": {
+    "main": true
+  },
+  "django-admin-shortcuts": {
+    "main": true
+  },
+  "django-ajax-selects": {
+    "main": true
+  },
+  "django-allauth": {
+    "main": true
+  },
+  "django-anymail": {
+    "main": true
+  },
+  "django-appconf": {
+    "main": true
+  },
+  "django-apptemplates": {
+    "main": true
+  },
+  "django-autoslug": {
+    "main": true
+  },
+  "django-bakery": {
+    "main": true
+  },
+  "django-bootstrap3": {
+    "main": true
+  },
+  "django-bootstrap4": {
+    "main": true
+  },
+  "django-braces": {
+    "main": true
+  },
+  "django-cachalot": {
+    "main": true
+  },
+  "django-celery": {
+    "main": true
+  },
+  "django-chunked-upload": {
+    "main": true
+  },
+  "django-cleanup": {
+    "main": true
+  },
+  "django-cloud-browser": {
+    "main": true
+  },
+  "django-configurations": {
+    "main": true
+  },
+  "django-controlcenter": {
+    "main": true
+  },
+  "django-cors-headers": {
+    "main": true
+  },
+  "django-crispy-forms": {
+    "main": true
+  },
+  "django-cruds-adminlte": {
+    "main": true
+  },
+  "django-daterange-filter": {
+    "main": true
+  },
+  "django-debug-toolbar": {
+    "main": true
+  },
+  "django-emailhub": {
+    "main": true
+  },
+  "django-enumfields": {
+    "main": true
+  },
+  "django-environ": {
+    "main": true
+  },
+  "django-extensions": {
+    "main": true
+  },
+  "django-filer": {
+    "main": true
+  },
+  "django-filter": {
+    "main": true
+  },
+  "django-fixture-magic": {
+    "main": true
+  },
+  "django-foundation-formtags": {
+    "main": true
+  },
+  "django-fsm": {
+    "main": true
+  },
+  "django-grappelli": {
+    "main": true
+  },
+  "django-guardian": {
+    "main": true
+  },
+  "django-haystack": {
+    "main": true
+  },
+  "django-heroku": {
+    "main": true
+  },
+  "django-import-export": {
+    "main": true
+  },
+  "django-jquery": {
+    "main": true
+  },
+  "django-js-asset": {
+    "main": true
+  },
+  "django-jsoneditor": {
+    "main": true
+  },
+  "django-leaflet": {
+    "main": true
+  },
+  "django-libsass": {
+    "main": true
+  },
+  "django-makemessages-xgettext": {
+    "main": true
+  },
+  "django-material": {
+    "main": true
+  },
+  "django-model-utils": {
+    "main": true
+  },
+  "django-modelcluster": {
+    "main": true
+  },
+  "django-mptt": {
+    "main": true
+  },
+  "django-mptt-admin": {
+    "main": true
+  },
+  "django-mustache": {
+    "main": true
+  },
+  "django-nested-admin": {
+    "main": true
+  },
+  "django-nested-inline": {
+    "main": true
+  },
+  "django-nose": {
+    "main": true
+  },
+  "django-pandas": {
+    "main": true
+  },
+  "django-pkgconf": {
+    "main": true
+  },
+  "django-pyodbc-azure": {
+    "main": true
+  },
+  "django-recaptcha": {
+    "main": true
+  },
+  "django-redis": {
+    "main": true
+  },
+  "django-redis-cache": {
+    "main": true
+  },
+  "django-rest-auth": {
+    "main": true
+  },
+  "django-rest-hooks": {
+    "main": true
+  },
+  "django-rest-polymorphic": {
+    "main": true
+  },
+  "django-rest-swagger": {
+    "main": true
+  },
+  "django-reversion": {
+    "main": true
+  },
+  "django-reversion-compare": {
+    "main": true
+  },
+  "django-rq": {
+    "main": true
+  },
+  "django-simple-history": {
+    "main": true
+  },
+  "django-storages": {
+    "main": true
+  },
+  "django-storages-redux": {
+    "main": true
+  },
+  "django-super-inlines": {
+    "main": true
+  },
+  "django-taggit": {
+    "main": true
+  },
+  "django-test-plus": {
+    "main": true
+  },
+  "django-treebeard": {
+    "main": true
+  },
+  "django-typed-models": {
+    "main": true
+  },
+  "django-unique-upload": {
+    "main": true
+  },
+  "django-uuidfield": {
+    "main": true
+  },
+  "django-versatileimagefield": {
+    "main": true
+  },
+  "django-viewflow": {
+    "main": true
+  },
+  "django-wagtail-feeds": {
+    "main": true
+  },
+  "django-webpack-loader": {
+    "main": true
+  },
+  "django-widget-tweaks": {
+    "main": true
+  },
+  "django_compressor": {
+    "main": true
+  },
+  "django_coverage_plugin": {
+    "main": true
+  },
+  "django_polymorphic": {
+    "main": true
+  },
+  "djangocms-admin-style": {
+    "main": true
+  },
+  "djangorestframework": {
+    "main": true
+  },
+  "djangorestframework-csv": {
+    "main": true
+  },
+  "djangorestframework-filters": {
+    "main": true
+  },
+  "djangorestframework-gis": {
+    "main": true
+  },
+  "djangorestframework-jwt": {
+    "main": true
+  },
+  "djangorestframework-xml": {
+    "main": true
+  },
+  "djangorestframework-yaml": {
+    "main": true
+  },
+  "djangorestframework_simplejwt": {
+    "main": true
+  },
+  "dlfcn-win32": {
+    "main": true
+  },
+  "dlib": {
+    "main": true
+  },
+  "dlib-cpp": {
+    "main": true
+  },
+  "dlpack": {
+    "main": true
+  },
+  "dm-sonnet": {
+    "main": true
+  },
+  "dmd": {
+    "main": true
+  },
+  "dmf-chip": {
+    "main": true
+  },
+  "dmlc": {
+    "main": true
+  },
+  "dnest4": {
+    "main": true
+  },
+  "dnslib": {
+    "main": true
+  },
+  "dnspython": {
+    "main": true
+  },
+  "doc2dash": {
+    "main": true
+  },
+  "doc8": {
+    "main": true
+  },
+  "docformatter": {
+    "main": true
+  },
+  "docker": {
+    "main": true
+  },
+  "docker-compose": {
+    "main": true
+  },
+  "docker-map": {
+    "main": true
+  },
+  "docker-py": {
+    "main": true
+  },
+  "docker-pycreds": {
+    "main": true
+  },
+  "dockermake": {
+    "main": true
+  },
+  "dockerpty": {
+    "main": true
+  },
+  "dockerspawner": {
+    "main": true
+  },
+  "doconce": {
+    "main": true
+  },
+  "docopt": {
+    "main": true
+  },
+  "docopt.cpp": {
+    "main": true
+  },
+  "docrep": {
+    "main": true
+  },
+  "docstring-coverage": {
+    "master": true
+  },
+  "doct": {
+    "main": true
+  },
+  "doctr": {
+    "main": true
+  },
+  "docutils": {
+    "main": true
+  },
+  "docx2txt": {
+    "main": true
+  },
+  "docxtpl": {
+    "main": true
+  },
+  "dodgy": {
+    "main": true
+  },
+  "doepipeline": {
+    "main": true
+  },
+  "dogpile.cache": {
+    "main": true
+  },
+  "doit": {
+    "main": true
+  },
+  "dolfin-adjoint": {
+    "main": true
+  },
+  "dolfyn": {
+    "main": true
+  },
+  "dominate": {
+    "main": true
+  },
+  "domovoi": {
+    "main": true
+  },
+  "donfig": {
+    "main": true
+  },
+  "doppel-cli": {
+    "main": true
+  },
+  "doppyo": {
+    "main": true
+  },
+  "dos2unix": {
+    "main": true
+  },
+  "dose": {
+    "master": true
+  },
+  "dotmap": {
+    "main": true
+  },
+  "double-conversion": {
+    "main": true
+  },
+  "doublemetaphone": {
+    "main": true
+  },
+  "doxygen": {
+    "main": true
+  },
+  "doxyrest": {
+    "main": true
+  },
+  "dparse": {
+    "main": true
+  },
+  "dpath": {
+    "main": true
+  },
+  "dpdata": {
+    "main": true
+  },
+  "dpgen": {
+    "main": true
+  },
+  "dpkt": {
+    "main": true
+  },
+  "dqsegdb": {
+    "main": true
+  },
+  "dqsegdb2": {
+    "main": true
+  },
+  "draco": {
+    "main": true
+  },
+  "draftjs_exporter": {
+    "main": true
+  },
+  "dramatiq": {
+    "main": true
+  },
+  "drf-haystack": {
+    "main": true
+  },
+  "drmaa": {
+    "main": true
+  },
+  "drms": {
+    "main": true
+  },
+  "dropbox": {
+    "main": true
+  },
+  "ds-lime": {
+    "main": true
+  },
+  "dsc": {
+    "main": true
+  },
+  "dscribe": {
+    "main": true
+  },
+  "dsdp": {
+    "main": true
+  },
+  "dsfmt": {
+    "main": true
+  },
+  "dsnparse": {
+    "main": true
+  },
+  "dsub": {
+    "main": true
+  },
+  "dtale": {
+    "main": true
+  },
+  "dtool": {
+    "main": true
+  },
+  "dtool_cli": {
+    "main": true
+  },
+  "dtool_config": {
+    "main": true
+  },
+  "dtool_create": {
+    "main": true
+  },
+  "dtool_http": {
+    "main": true
+  },
+  "dtool_info": {
+    "main": true
+  },
+  "dtool_s3": {
+    "main": true
+  },
+  "dtool_symlink": {
+    "main": true
+  },
+  "dtoolcore": {
+    "main": true
+  },
+  "dukpy": {
+    "main": true
+  },
+  "dulwich": {
+    "main": true
+  },
+  "dummydata": {
+    "main": true
+  },
+  "dust_extinction": {
+    "main": true
+  },
+  "dustmaps": {
+    "main": true
+  },
+  "dvc": {
+    "main": true
+  },
+  "dxchange": {
+    "main": true
+  },
+  "dxfgrabber": {
+    "main": true
+  },
+  "dxfile": {
+    "main": true
+  },
+  "dye-score": {
+    "main": true
+  },
+  "dynamicisttoolkit": {
+    "main": true
+  },
+  "dynaphopy": {
+    "main": true
+  },
+  "dynasor": {
+    "main": true
+  },
+  "dynesty": {
+    "main": true
+  },
+  "e-antic": {
+    "main": true
+  },
+  "e3sm_to_cmip": {
+    "main": true
+  },
+  "earthengine-api": {
+    "main": true
+  },
+  "earthpy": {
+    "main": true
+  },
+  "earthsim": {
+    "main": true
+  },
+  "easy-thumbnails": {
+    "main": true
+  },
+  "easyargs": {
+    "main": true
+  },
+  "easybuild": {
+    "main": true
+  },
+  "easybuild-easyblocks": {
+    "main": true
+  },
+  "easybuild-easyconfigs": {
+    "main": true
+  },
+  "easybuild-framework": {
+    "main": true
+  },
+  "easydev": {
+    "main": true
+  },
+  "easydict": {
+    "main": true
+  },
+  "easygui": {
+    "main": true
+  },
+  "easyprocess": {
+    "main": true
+  },
+  "easytest": {
+    "main": true
+  },
+  "easywatch": {
+    "main": true
+  },
+  "ebooklib": {
+    "main": true
+  },
+  "ecco_v4_py": {
+    "main": true
+  },
+  "eccodes": {
+    "main": true
+  },
+  "ecdsa": {
+    "main": true
+  },
+  "ecell4": {
+    "main": true
+  },
+  "ecell4_base": {
+    "main": true
+  },
+  "ecflow": {
+    "main": true
   }
 }
