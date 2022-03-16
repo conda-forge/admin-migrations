@@ -982,5 +982,584 @@
   },
   "azure-keyvault": {
     "main": true
+  },
+  "azure-macro-utils-c": {
+    "main": true
+  },
+  "azure-mgmt": {
+    "main": true
+  },
+  "azure-mgmt-authorization": {
+    "main": true
+  },
+  "azure-mgmt-common": {
+    "main": true
+  },
+  "azure-mgmt-compute": {
+    "main": true
+  },
+  "azure-mgmt-containerregistry": {
+    "main": true
+  },
+  "azure-mgmt-keyvault": {
+    "main": true
+  },
+  "azure-mgmt-msi": {
+    "main": true
+  },
+  "azure-mgmt-network": {
+    "main": true
+  },
+  "azure-mgmt-nspkg": {
+    "main": true
+  },
+  "azure-mgmt-resource": {
+    "main": true
+  },
+  "azure-mgmt-storage": {
+    "main": true
+  },
+  "azure-nspkg": {
+    "main": true
+  },
+  "azure-servicebus": {
+    "main": true
+  },
+  "azure-servicemanagement-legacy": {
+    "main": true
+  },
+  "azure-storage": {
+    "main": true
+  },
+  "azure-storage-blob": {
+    "main": true
+  },
+  "azure-storage-common": {
+    "main": true
+  },
+  "azure-storage-file": {
+    "main": true
+  },
+  "azure-storage-nspkg": {
+    "main": true
+  },
+  "azure-storage-queue": {
+    "main": true
+  },
+  "azure-uamqp-c": {
+    "main": true
+  },
+  "azure-uhttp-c": {
+    "main": true
+  },
+  "azure-umqtt-c": {
+    "main": true
+  },
+  "babel": {
+    "main": true
+  },
+  "backcall": {
+    "main": true
+  },
+  "backoff": {
+    "main": true
+  },
+  "backpack": {
+    "main": true
+  },
+  "backports": {
+    "main": true
+  },
+  "backports.csv": {
+    "main": true
+  },
+  "backports.functools_lru_cache": {
+    "main": true
+  },
+  "backports.lzma": {
+    "master": true
+  },
+  "backports.os": {
+    "main": true
+  },
+  "backports.shutil_get_terminal_size": {
+    "main": true
+  },
+  "backports.shutil_which": {
+    "main": true
+  },
+  "backports.ssl": {
+    "master": true
+  },
+  "backports.tempfile": {
+    "main": true
+  },
+  "backports.test.support": {
+    "main": true
+  },
+  "backports.unittest_mock": {
+    "main": true
+  },
+  "backports.weakref": {
+    "main": true
+  },
+  "backports_abc": {
+    "main": true
+  },
+  "backtrace": {
+    "main": true
+  },
+  "backward-cpp": {
+    "main": true
+  },
+  "badapted": {
+    "main": true
+  },
+  "bagit": {
+    "main": true
+  },
+  "bake": {
+    "main": true
+  },
+  "bambi": {
+    "main": true
+  },
+  "bamnostic": {
+    "main": true
+  },
+  "bandit": {
+    "main": true
+  },
+  "bareditor": {
+    "main": true
+  },
+  "barnaba": {
+    "main": true
+  },
+  "barril": {
+    "main": true
+  },
+  "baseband": {
+    "main": true
+  },
+  "basemap": {
+    "main": true
+  },
+  "basemap-data-hires": {
+    "main": true
+  },
+  "bash": {
+    "main": true
+  },
+  "bash-completion": {
+    "main": true
+  },
+  "bash_kernel": {
+    "main": true
+  },
+  "bashlex": {
+    "main": true
+  },
+  "bashplotlib": {
+    "main": true
+  },
+  "basictools": {
+    "main": true
+  },
+  "bat": {
+    "main": true
+  },
+  "batchcrop": {
+    "main": true
+  },
+  "batman": {
+    "main": true
+  },
+  "bats-core": {
+    "main": true
+  },
+  "baumwelch": {
+    "main": true
+  },
+  "baycomp": {
+    "main": true
+  },
+  "bayesian-optimization": {
+    "main": true
+  },
+  "bayespy": {
+    "main": true
+  },
+  "bayeswave": {
+    "main": true
+  },
+  "bazel": {
+    "main": true
+  },
+  "bc": {
+    "main": true
+  },
+  "bcdoc": {
+    "main": true
+  },
+  "bcdp": {
+    "main": true
+  },
+  "bcolz": {
+    "main": true
+  },
+  "bcpandas": {
+    "main": true
+  },
+  "bcrypt": {
+    "main": true
+  },
+  "bdw-gc": {
+    "main": true
+  },
+  "beaker": {
+    "main": true
+  },
+  "beakerx": {
+    "main": true
+  },
+  "beautifulsoup4": {
+    "main": true
+  },
+  "beautysh": {
+    "main": true
+  },
+  "beem": {
+    "main": true
+  },
+  "begins": {
+    "main": true
+  },
+  "behave": {
+    "main": true
+  },
+  "beignet": {
+    "main": true
+  },
+  "bempp-cl": {
+    "main": true
+  },
+  "benchmark": {
+    "main": true
+  },
+  "benchmark-4dn": {
+    "main": true
+  },
+  "beniget": {
+    "main": true
+  },
+  "benten": {
+    "main": true
+  },
+  "bertha": {
+    "main": true
+  },
+  "bespon": {
+    "main": true
+  },
+  "betamax": {
+    "main": true
+  },
+  "betamax-matchers": {
+    "main": true
+  },
+  "betfairlightweight": {
+    "main": true
+  },
+  "betse": {
+    "main": true
+  },
+  "betsee": {
+    "main": true
+  },
+  "better_exceptions_fork": {
+    "main": true
+  },
+  "bfg": {
+    "main": true
+  },
+  "bgen": {
+    "main": true
+  },
+  "bgen-reader": {
+    "main": true
+  },
+  "bhmm": {
+    "main": true
+  },
+  "bibtexparser": {
+    "main": true
+  },
+  "bicycleparameters": {
+    "main": true
+  },
+  "bidict": {
+    "main": true
+  },
+  "bilby": {
+    "main": true
+  },
+  "bilby_pipe": {
+    "main": true
+  },
+  "billiard": {
+    "main": true
+  },
+  "billingegroup": {
+    "main": true
+  },
+  "binaryen": {
+    "main": true
+  },
+  "binaryornot": {
+    "main": true
+  },
+  "binarytree": {
+    "main": true
+  },
+  "binpacking": {
+    "main": true
+  },
+  "bintrees": {
+    "main": true
+  },
+  "binutils": {
+    "main": true
+  },
+  "biom-format": {
+    "main": true
+  },
+  "biopandas": {
+    "main": true
+  },
+  "biopython": {
+    "main": true
+  },
+  "biorbd": {
+    "main": true
+  },
+  "biorbd-viz": {
+    "main": true
+  },
+  "biotite": {
+    "main": true
+  },
+  "birdy": {
+    "main": true
+  },
+  "bison": {
+    "main": true
+  },
+  "bisonpp": {
+    "main": true
+  },
+  "bitarray": {
+    "main": true
+  },
+  "bitshuffle": {
+    "main": true
+  },
+  "bitstruct": {
+    "main": true
+  },
+  "bjoern": {
+    "main": true
+  },
+  "black": {
+    "main": true
+  },
+  "blackbook": {
+    "main": true
+  },
+  "blackboxauditing": {
+    "main": true
+  },
+  "blark": {
+    "main": true
+  },
+  "blas": {
+    "main": true
+  },
+  "blaze": {
+    "main": true
+  },
+  "bleach": {
+    "main": true
+  },
+  "blend_modes": {
+    "main": true
+  },
+  "blessings": {
+    "main": true
+  },
+  "bletchley": {
+    "main": true
+  },
+  "blinker": {
+    "main": true
+  },
+  "blis": {
+    "main": true
+  },
+  "bliss": {
+    "main": true
+  },
+  "block_tracing": {
+    "main": true
+  },
+  "blocked-matrix-utils": {
+    "main": true
+  },
+  "blosc": {
+    "main": true
+  },
+  "blosc-hdf5-plugin": {
+    "main": true
+  },
+  "bloscpack": {
+    "main": true
+  },
+  "blpapi": {
+    "main": true
+  },
+  "bluesky": {
+    "main": true
+  },
+  "bmi-c": {
+    "main": true
+  },
+  "bmi-cxx": {
+    "main": true
+  },
+  "bmi-fortran": {
+    "main": true
+  },
+  "bmi-tester": {
+    "main": true
+  },
+  "bmipy": {
+    "main": true
+  },
+  "bokeh": {
+    "main": true
+  },
+  "bolt-python": {
+    "main": true
+  },
+  "boltons": {
+    "main": true
+  },
+  "boltzmannclean": {
+    "main": true
+  },
+  "bonsu": {
+    "main": true
+  },
+  "bookstore": {
+    "main": true
+  },
+  "boolean.py": {
+    "main": true
+  },
+  "boolparser": {
+    "main": true
+  },
+  "boost": {
+    "main": true
+  },
+  "boost-cpp": {
+    "main": true
+  },
+  "boost-histogram": {
+    "main": true
+  },
+  "bootstrap": {
+    "main": true
+  },
+  "bootstrap_contrast": {
+    "main": true
+  },
+  "boruta_py": {
+    "main": true
+  },
+  "boto": {
+    "main": true
+  },
+  "boto3": {
+    "main": true
+  },
+  "botocore": {
+    "main": true
+  },
+  "botor": {
+    "main": true
+  },
+  "bottle": {
+    "main": true
+  },
+  "bottleneck": {
+    "main": true
+  },
+  "boule": {
+    "main": true
+  },
+  "bourbon": {
+    "main": true
+  },
+  "bowerstatic": {
+    "main": true
+  },
+  "bowler": {
+    "main": true
+  },
+  "bowtie-py": {
+    "main": true
+  },
+  "box2d-py": {
+    "main": true
+  },
+  "bpython": {
+    "main": true
+  },
+  "bqplot": {
+    "main": true
+  },
+  "bqplot-image-gl": {
+    "main": true
+  },
+  "braceexpand": {
+    "main": true
+  },
+  "braggedgemodeling": {
+    "main": true
+  },
+  "brain-isotopic-distribution": {
+    "main": true
+  },
+  "brainbox-ibl": {
+    "main": true
+  },
+  "branca": {
+    "main": true
+  },
+  "bravado": {
+    "main": true
+  },
+  "bravado-core": {
+    "main": true
+  },
+  "breathe": {
+    "main": true
+  },
+  "brent-search": {
+    "main": true
+  },
+  "brent_search": {
+    "main": true
   }
 }
