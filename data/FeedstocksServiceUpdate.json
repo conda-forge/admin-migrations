@@ -44902,5 +44902,1331 @@
   },
   "django-keyedcache3": {
     "main": true
+  },
+  "sphinxcontrib-autoyaml": {
+    "main": true
+  },
+  "akismet": {
+    "main": true
+  },
+  "django-jinja": {
+    "main": true
+  },
+  "django-robots": {
+    "main": true
+  },
+  "django-picklefield": {
+    "main": true
+  },
+  "pytest-xprocess": {
+    "main": true
+  },
+  "hackrf": {
+    "main": true
+  },
+  "django-followit": {
+    "main": true
+  },
+  "oauth2": {
+    "main": true
+  },
+  "django-countries": {
+    "main": true
+  },
+  "python-openid2": {
+    "main": true
+  },
+  "django-tinymce": {
+    "main": true
+  },
+  "htgettoken": {
+    "main": true
+  },
+  "simplegmail": {
+    "main": true
+  },
+  "perl-io-stringy": {
+    "main": true
+  },
+  "perl-capture-tiny": {
+    "main": true
+  },
+  "stow": {
+    "main": true
+  },
+  "perl-test-output": {
+    "main": true
+  },
+  "mattspy": {
+    "main": true
+  },
+  "useq-schema": {
+    "main": true
+  },
+  "tracktable-data": {
+    "main": true
+  },
+  "napari-ndtiffs": {
+    "main": true
+  },
+  "partsegdata": {
+    "main": true
+  },
+  "readimc": {
+    "main": true
+  },
+  "emfile": {
+    "main": true
+  },
+  "mrc": {
+    "main": true
+  },
+  "pick": {
+    "main": true
+  },
+  "tweetynet": {
+    "main": true
+  },
+  "py2exe": {
+    "main": true
+  },
+  "starfile": {
+    "main": true
+  },
+  "cloud-functions-utils": {
+    "main": true
+  },
+  "workshop-demo": {
+    "main": true
+  },
+  "r-netmeta": {
+    "main": true
+  },
+  "r-gutenbergr": {
+    "main": true
+  },
+  "napari-math": {
+    "main": true
+  },
+  "r-pins": {
+    "main": true
+  },
+  "affinder": {
+    "main": true
+  },
+  "napari-properties-plotter": {
+    "main": true
+  },
+  "partial-aligner": {
+    "main": true
+  },
+  "smo": {
+    "main": true
+  },
+  "luddite": {
+    "main": true
+  },
+  "napari-labelling-assistant": {
+    "main": true
+  },
+  "napari-tools-menu": {
+    "main": true
+  },
+  "horton": {
+    "main": true
+  },
+  "pypher": {
+    "main": true
+  },
+  "napari-workflows": {
+    "main": true
+  },
+  "pyvideoreader": {
+    "main": true
+  },
+  "nd2-dask": {
+    "main": true
+  },
+  "napari-cryofibsem-monitor": {
+    "main": true
+  },
+  "napari-text-layer": {
+    "main": true
+  },
+  "alibi": {
+    "main": true
+  },
+  "pyctcdecode": {
+    "main": true
+  },
+  "alibi-detect": {
+    "main": true
+  },
+  "pysaml2": {
+    "main": true
+  },
+  "napari-dzi-zarr": {
+    "main": true
+  },
+  "fancylog": {
+    "main": true
+  },
+  "r-rapidoc": {
+    "main": true
+  },
+  "yapic-io": {
+    "main": true
+  },
+  "pybaum": {
+    "main": true
+  },
+  "resdk": {
+    "main": true
+  },
+  "ptgnn": {
+    "main": true
+  },
+  "google-drive": {
+    "main": true
+  },
+  "libhwy": {
+    "main": true
+  },
+  "elementable": {
+    "main": true
+  },
+  "modelcif": {
+    "main": true
+  },
+  "modelx": {
+    "main": true
+  },
+  "plot_map": {
+    "main": true
+  },
+  "fastnml": {
+    "main": true
+  },
+  "typed-settings": {
+    "main": true
+  },
+  "soapysdr-module-hackrf": {
+    "main": true
+  },
+  "pypiserver": {
+    "main": true
+  },
+  "datar": {
+    "main": true
+  },
+  "yamldoc": {
+    "main": true
+  },
+  "prance": {
+    "main": true
+  },
+  "ghapi": {
+    "main": true
+  },
+  "sentinel": {
+    "main": true
+  },
+  "pyfao56": {
+    "main": true
+  },
+  "flask-jwt-simple": {
+    "main": true
+  },
+  "xarraymannkendall": {
+    "main": true
+  },
+  "cweqgen": {
+    "main": true
+  },
+  "github-activity": {
+    "main": true
+  },
+  "mbdata": {
+    "main": true
+  },
+  "nep29": {
+    "main": true
+  },
+  "napari-geojson": {
+    "main": true
+  },
+  "micrometa": {
+    "main": true
+  },
+  "r-vetiver": {
+    "main": true
+  },
+  "opensarlab-profile-label": {
+    "main": true
+  },
+  "jupyter-releaser": {
+    "main": true
+  },
+  "stepfunctions": {
+    "main": true
+  },
+  "napari-mrcfile-reader": {
+    "main": true
+  },
+  "napari-czifile2": {
+    "main": true
+  },
+  "condorpy": {
+    "main": true
+  },
+  "rtfde": {
+    "main": true
+  },
+  "aws-session-manager-plugin": {
+    "main": true
+  },
+  "napari-ccp4map": {
+    "main": true
+  },
+  "napari-roi": {
+    "main": true
+  },
+  "msoffcrypto-tool": {
+    "main": true
+  },
+  "napari-molecule-reader": {
+    "main": true
+  },
+  "natcap.invest": {
+    "main": true
+  },
+  "transbigdata": {
+    "main": true
+  },
+  "coordinatesconverter": {
+    "main": true
+  },
+  "napari-compressed-labels-io": {
+    "main": true
+  },
+  "pcodedmp": {
+    "main": true
+  },
+  "hcloud": {
+    "main": true
+  },
+  "eulerangles": {
+    "main": true
+  },
+  "napari-time-series-plotter": {
+    "main": true
+  },
+  "pyift": {
+    "main": true
+  },
+  "pip2conda": {
+    "main": true
+  },
+  "tiatoolbox": {
+    "main": true
+  },
+  "napari-dv": {
+    "main": true
+  },
+  "slurmio": {
+    "main": true
+  },
+  "napari-em-reader": {
+    "main": true
+  },
+  "napari-labelimg4classification": {
+    "main": true
+  },
+  "napari-imc": {
+    "main": true
+  },
+  "napari-time-slicer": {
+    "main": true
+  },
+  "napari-ome-zarr": {
+    "main": true
+  },
+  "bg-space": {
+    "main": true
+  },
+  "natari": {
+    "main": true
+  },
+  "grabber-ift": {
+    "main": true
+  },
+  "napari-skimage-regionprops": {
+    "main": true
+  },
+  "napari-tabu": {
+    "main": true
+  },
+  "napari-stl-exporter": {
+    "main": true
+  },
+  "napari-subboxer": {
+    "main": true
+  },
+  "imlib": {
+    "main": true
+  },
+  "napari-live-recording": {
+    "main": true
+  },
+  "napari-tomoslice": {
+    "main": true
+  },
+  "spyder-modelx": {
+    "main": true
+  },
+  "spymx-kernels": {
+    "main": true
+  },
+  "lifelib": {
+    "main": true
+  },
+  "scvi-tools": {
+    "main": true
+  },
+  "pygcgopt": {
+    "main": true
+  },
+  "gym-saturation": {
+    "main": true
+  },
+  "pytest_check": {
+    "main": true
+  },
+  "scherbelberg": {
+    "main": true
+  },
+  "napari-plot": {
+    "main": true
+  },
+  "pyqt_distutils": {
+    "main": true
+  },
+  "platelet-unet-watershed": {
+    "main": true
+  },
+  "napari-layer-details-display": {
+    "main": true
+  },
+  "napari-image-stacker": {
+    "main": true
+  },
+  "napari-folder-browser": {
+    "main": true
+  },
+  "napari-mouse-controls": {
+    "main": true
+  },
+  "napari-plugin-search": {
+    "main": true
+  },
+  "napari-brightness-contrast": {
+    "main": true
+  },
+  "napari-curtain": {
+    "main": true
+  },
+  "napari-segment-blobs-and-things-with-membranes": {
+    "main": true
+  },
+  "napari-simpleitk-image-processing": {
+    "main": true
+  },
+  "napari-plot-profile": {
+    "main": true
+  },
+  "napari-animated-gif-io": {
+    "main": true
+  },
+  "napari-workflow-inspector": {
+    "main": true
+  },
+  "napari-3d-ortho-viewer": {
+    "main": true
+  },
+  "itk-napari-conversion": {
+    "main": true
+  },
+  "napari_video": {
+    "main": true
+  },
+  "napari-crop": {
+    "main": true
+  },
+  "yapic": {
+    "main": true
+  },
+  "napari-aicsimageio": {
+    "main": true
+  },
+  "napari-mat-images": {
+    "main": true
+  },
+  "nfinder": {
+    "main": true
+  },
+  "partsegcore-compiled-backend": {
+    "main": true
+  },
+  "flatlatex": {
+    "main": true
+  },
+  "tethys_dask_scheduler": {
+    "main": true
+  },
+  "py-random-password": {
+    "main": true
+  },
+  "cffconvert": {
+    "main": true
+  },
+  "checksumdir": {
+    "main": true
+  },
+  "flyteidl": {
+    "main": true
+  },
+  "system-slash": {
+    "main": true
+  },
+  "sphinxcontrib-shellcheck": {
+    "main": true
+  },
+  "pyenchant": {
+    "main": true
+  },
+  "mdacli": {
+    "main": true
+  },
+  "flytekit": {
+    "main": true
+  },
+  "scrape-search-engine": {
+    "main": true
+  },
+  "mudata": {
+    "main": true
+  },
+  "rectpack": {
+    "main": true
+  },
+  "py-exe-builder": {
+    "main": true
+  },
+  "spdx-license-matcher": {
+    "main": true
+  },
+  "tiffslide": {
+    "main": true
+  },
+  "pyserial-asyncio": {
+    "main": true
+  },
+  "godale": {
+    "main": true
+  },
+  "yabadaba": {
+    "main": true
+  },
+  "pstree": {
+    "main": true
+  },
+  "primecountpy": {
+    "main": true
+  },
+  "svmbir": {
+    "main": true
+  },
+  "iso_varying_string": {
+    "main": true
+  },
+  "bubblewrap": {
+    "main": true
+  },
+  "napari-nikon-nd2": {
+    "main": true
+  },
+  "csbdeep": {
+    "main": true
+  },
+  "qt-webengine": {
+    "main": true
+  },
+  "xfab": {
+    "main": true
+  },
+  "marko": {
+    "main": true
+  },
+  "napari-imsmicrolink": {
+    "main": true
+  },
+  "pathable": {
+    "main": true
+  },
+  "matbench": {
+    "main": true
+  },
+  "exprtk": {
+    "main": true
+  },
+  "r-clustassess": {
+    "main": true
+  },
+  "svgdigitizer": {
+    "main": true
+  },
+  "sphinx-github-changelog": {
+    "main": true
+  },
+  "igwn-archive": {
+    "main": true
+  },
+  "moe": {
+    "main": true
+  },
+  "yt-dlp": {
+    "main": true
+  },
+  "mediafile": {
+    "main": true
+  },
+  "pycytominer": {
+    "main": true
+  },
+  "plog": {
+    "main": true
+  },
+  "offset-subtraction": {
+    "main": true
+  },
+  "wheelhouse_uploader": {
+    "main": true
+  },
+  "torpy": {
+    "main": true
+  },
+  "napari-arboretum": {
+    "main": true
+  },
+  "imio": {
+    "main": true
+  },
+  "napari-properties-viewer": {
+    "main": true
+  },
+  "image-composer": {
+    "main": true
+  },
+  "pyglotaran-extras": {
+    "main": true
+  },
+  "aimodelshare": {
+    "main": true
+  },
+  "napari-bil-data-viewer": {
+    "main": true
+  },
+  "napari-elementary-numpy-operations": {
+    "main": true
+  },
+  "napari-brushsettings": {
+    "main": true
+  },
+  "napari-dvid": {
+    "main": true
+  },
+  "napari-spacetx-explorer": {
+    "main": true
+  },
+  "napari-tissuumaps": {
+    "main": true
+  },
+  "napari-zelda": {
+    "main": true
+  },
+  "decasu": {
+    "main": true
+  },
+  "icclim": {
+    "main": true
+  },
+  "dxtbx": {
+    "main": true
+  },
+  "isabelle-client": {
+    "main": true
+  },
+  "connected-components-3d": {
+    "main": true
+  },
+  "haesleinhuepf-pyqode.core": {
+    "main": true
+  },
+  "r-powersurvepi": {
+    "main": true
+  },
+  "layer-data-replace": {
+    "main": true
+  },
+  "napari-features": {
+    "main": true
+  },
+  "fastremap": {
+    "main": true
+  },
+  "napari-tracks-reader": {
+    "main": true
+  },
+  "r-matchit": {
+    "main": true
+  },
+  "image-part-selecter": {
+    "main": true
+  },
+  "label-creator": {
+    "main": true
+  },
+  "imaris-ims-file-reader": {
+    "main": true
+  },
+  "pyotf": {
+    "main": true
+  },
+  "napari-medical-image-formats-read-write": {
+    "main": true
+  },
+  "oiffile": {
+    "main": true
+  },
+  "napari-cupy-image-processing": {
+    "main": true
+  },
+  "platymatch": {
+    "main": true
+  },
+  "napari-labels-overlap": {
+    "main": true
+  },
+  "iacs-ipac-reader": {
+    "main": true
+  },
+  "bbii-decon": {
+    "main": true
+  },
+  "napari-yapic-prediction": {
+    "main": true
+  },
+  "gtsam": {
+    "main": true
+  },
+  "napari-mrcfile-handler": {
+    "main": true
+  },
+  "pactools": {
+    "main": true
+  },
+  "mne-faster": {
+    "main": true
+  },
+  "pycircstat": {
+    "main": true
+  },
+  "adcc": {
+    "main": true
+  },
+  "mne-connectivity": {
+    "main": true
+  },
+  "napari-j": {
+    "main": true
+  },
+  "pyfastspm": {
+    "main": true
+  },
+  "tensorpac": {
+    "main": true
+  },
+  "doctools": {
+    "main": true
+  },
+  "pymodelchecking": {
+    "main": true
+  },
+  "misic-napari": {
+    "main": true
+  },
+  "ttim": {
+    "main": true
+  },
+  "elastic-transport": {
+    "main": true
+  },
+  "mpl-interactions": {
+    "main": true
+  },
+  "ansi": {
+    "main": true
+  },
+  "unidist-packages": {
+    "main": true
+  },
+  "uvicore": {
+    "main": true
+  },
+  "merge-args": {
+    "main": true
+  },
+  "censo": {
+    "main": true
+  },
+  "mne-realtime": {
+    "main": true
+  },
+  "pyqt-builder": {
+    "main": true
+  },
+  "tiler": {
+    "main": true
+  },
+  "macro-kit": {
+    "main": true
+  },
+  "gryds": {
+    "main": true
+  },
+  "bg-atlasapi": {
+    "main": true
+  },
+  "pymmcore": {
+    "main": true
+  },
+  "sdeconv": {
+    "main": true
+  },
+  "aicssegmentation": {
+    "main": true
+  },
+  "pyjion": {
+    "main": true
+  },
+  "intel-compiler-repack": {
+    "main": true
+  },
+  "qcxms": {
+    "main": true
+  },
+  "haesleinhuepf-pyqode.python": {
+    "main": true
+  },
+  "pymmcore-plus": {
+    "main": true
+  },
+  "napari-imaris-loader": {
+    "main": true
+  },
+  "world2data": {
+    "main": true
+  },
+  "napari-allencell-segmenter": {
+    "main": true
+  },
+  "cellpose": {
+    "main": true
+  },
+  "stracking": {
+    "main": true
+  },
+  "brainglobe-napari-io": {
+    "main": true
+  },
+  "arbol": {
+    "main": true
+  },
+  "napari-sdeconv": {
+    "main": true
+  },
+  "napari-medical-image-formats": {
+    "main": true
+  },
+  "cellfinder-core": {
+    "main": true
+  },
+  "napari-spatial-omics": {
+    "main": true
+  },
+  "pyclesperanto-prototype": {
+    "main": true
+  },
+  "zeit": {
+    "main": true
+  },
+  "ispc": {
+    "main": true
+  },
+  "pydatamail": {
+    "main": true
+  },
+  "singlejar": {
+    "main": true
+  },
+  "sphinx-exercise": {
+    "main": true
+  },
+  "pydatamail_google": {
+    "main": true
+  },
+  "pymov2gif": {
+    "main": true
+  },
+  "pyimapsync": {
+    "main": true
+  },
+  "graphvite": {
+    "main": true
+  },
+  "napari-script-editor": {
+    "main": true
+  },
+  "napari-micromanager": {
+    "main": true
+  },
+  "cellpose-napari": {
+    "main": true
+  },
+  "wheel-filename": {
+    "main": true
+  },
+  "napari-workflow-optimizer": {
+    "main": true
+  },
+  "hidapi": {
+    "main": true
+  },
+  "napari-deepmeta": {
+    "main": true
+  },
+  "zenpy": {
+    "main": true
+  },
+  "hover": {
+    "main": true
+  },
+  "pysurvival": {
+    "main": true
+  },
+  "crypten": {
+    "main": true
+  },
+  "orange3-textable": {
+    "main": true
+  },
+  "dtools": {
+    "main": true
+  },
+  "chemicalite": {
+    "main": true
+  },
+  "evojax": {
+    "main": true
+  },
+  "email2pdf2": {
+    "main": true
+  },
+  "jupyterlab-vpython": {
+    "main": true
+  },
+  "pyscf": {
+    "main": true
+  },
+  "atheris": {
+    "main": true
+  },
+  "tape_proteins": {
+    "main": true
+  },
+  "lock": {
+    "main": true
+  },
+  "bio-embeddings": {
+    "main": true
+  },
+  "bio-embeddings-deepblast": {
+    "main": true
+  },
+  "bio-embeddings-plus": {
+    "main": true
+  },
+  "fair-esm": {
+    "main": true
+  },
+  "jax-unirep": {
+    "main": true
+  },
+  "videohash": {
+    "main": true
+  },
+  "bio-embeddings-cpcprot": {
+    "main": true
+  },
+  "pyeit": {
+    "main": true
+  },
+  "mljar-mercury": {
+    "main": true
+  },
+  "geedim": {
+    "main": true
+  },
+  "dub": {
+    "main": true
+  },
+  "icontract": {
+    "main": true
+  },
+  "basisgen": {
+    "main": true
+  },
+  "rmm": {
+    "main": true
+  },
+  "homebase": {
+    "main": true
+  },
+  "plucky": {
+    "main": true
+  },
+  "unifuncnet": {
+    "main": true
+  },
+  "galeodes": {
+    "main": true
+  },
+  "libvdwxc": {
+    "main": true
+  },
+  "yte": {
+    "main": true
+  },
+  "types-urllib3": {
+    "main": true
+  },
+  "datavzrd": {
+    "main": true
+  },
+  "napari-clusters-plotter": {
+    "main": true
+  },
+  "top2vec": {
+    "main": true
+  },
+  "brainreg-segment": {
+    "main": true
+  },
+  "napari-pdf-reader": {
+    "main": true
+  },
+  "cellfinder-napari": {
+    "main": true
+  },
+  "magic-class": {
+    "main": true
+  },
+  "napari-lazy-openslide": {
+    "main": true
+  },
+  "napari-nd-cropper": {
+    "main": true
+  },
+  "microscope": {
+    "main": true
+  },
+  "netpbmfile": {
+    "main": true
+  },
+  "odc-algo": {
+    "main": true
+  },
+  "geogif": {
+    "main": true
+  },
+  "napari-tiler": {
+    "main": true
+  },
+  "capella-console-client": {
+    "main": true
+  },
+  "colander": {
+    "main": true
+  },
+  "homonim": {
+    "main": true
+  },
+  "spikingjelly": {
+    "main": true
+  },
+  "ssort": {
+    "main": true
+  },
+  "sphinx-reredirects": {
+    "main": true
+  },
+  "dimod": {
+    "main": true
+  },
+  "openfermionpyscf": {
+    "main": true
+  },
+  "drm4g": {
+    "main": true
+  },
+  "pennylane-qchem": {
+    "main": true
+  },
+  "google-cloud-aiplatform": {
+    "main": true
+  },
+  "sqlalchemy-bigquery": {
+    "main": true
+  },
+  "sharrow": {
+    "main": true
+  },
+  "google-cloud-orchestration-airflow": {
+    "main": true
+  },
+  "r-omicnavigator": {
+    "main": true
+  },
+  "r-tidygate": {
+    "main": true
+  },
+  "r-collapse": {
+    "main": true
+  },
+  "r-declaredesign": {
+    "main": true
+  },
+  "r-session": {
+    "main": true
+  },
+  "coscine": {
+    "main": true
+  },
+  "r-comics": {
+    "main": true
+  },
+  "pycronserver": {
+    "main": true
+  },
+  "birch": {
+    "main": true
+  },
+  "pls": {
+    "main": true
+  },
+  "r-faviconplease": {
+    "main": true
+  },
+  "cutlass": {
+    "main": true
+  },
+  "r-lifecontingencies": {
+    "main": true
+  },
+  "ugrid-checks": {
+    "main": true
+  },
+  "mpl-sphinx-theme": {
+    "main": true
+  },
+  "brotli-asgi": {
+    "main": true
+  },
+  "r-poorman": {
+    "main": true
+  },
+  "r-spatstat.random": {
+    "main": true
+  },
+  "stopwordsiso": {
+    "main": true
+  },
+  "r-systemfit": {
+    "main": true
+  },
+  "plplot": {
+    "main": true
+  },
+  "r-mlr3hyperband": {
+    "main": true
+  },
+  "r-mlr3tuningspaces": {
+    "main": true
+  },
+  "editables": {
+    "main": true
+  },
+  "apoc-backend": {
+    "main": true
+  },
+  "rabpro": {
+    "main": true
+  },
+  "gtk-4-fortran": {
+    "main": true
+  },
+  "extranormal3": {
+    "main": true
+  },
+  "napari-microscope": {
+    "main": true
+  },
+  "lfdfiles": {
+    "main": true
+  },
+  "napari-hdf5-labels-io": {
+    "main": true
+  },
+  "orange-spectroscopy": {
+    "main": true
+  },
+  "napari-deepspot": {
+    "main": true
+  },
+  "mkdocs-literate-nav": {
+    "main": true
+  },
+  "mkdocs-exclude": {
+    "main": true
+  },
+  "compas_tna": {
+    "main": true
+  },
+  "epics-medm": {
+    "main": true
+  },
+  "compas_skeleton": {
+    "main": true
+  },
+  "compas-rv2": {
+    "main": true
+  },
+  "epics-extensions": {
+    "main": true
+  },
+  "compas_cloud": {
+    "main": true
+  },
+  "r-fstcore": {
+    "main": true
+  },
+  "mkdocs-git-revision-date-plugin": {
+    "main": true
+  },
+  "openff-bespokefit": {
+    "main": true
+  },
+  "napari-multitask": {
+    "main": true
+  },
+  "piccolo-theme": {
+    "main": true
+  },
+  "pickydict": {
+    "main": true
+  },
+  "hydromt_sfincs": {
+    "main": true
+  },
+  "pyremo": {
+    "main": true
+  },
+  "hatchling": {
+    "main": true
+  },
+  "pangeo-forge-recipes": {
+    "main": true
+  },
+  "enterprise_outliers": {
+    "main": true
+  },
+  "demjson3": {
+    "main": true
+  },
+  "r-gridpattern": {
+    "main": true
+  },
+  "spec2nexus": {
+    "main": true
+  },
+  "flask-session": {
+    "main": true
+  },
+  "sklearn-quantile": {
+    "main": true
+  },
+  "ocp": {
+    "main": true
+  },
+  "r-ggpattern": {
+    "main": true
+  },
+  "findpython": {
+    "main": true
+  },
+  "rich-click": {
+    "main": true
+  },
+  "steampipe": {
+    "main": true
+  },
+  "kfp-pipeline-spec": {
+    "main": true
+  },
+  "justpy": {
+    "main": true
+  },
+  "pyearth": {
+    "main": true
+  },
+  "numbalsoda": {
+    "main": true
+  },
+  "chameleon": {
+    "main": true
+  },
+  "rocksdbdict": {
+    "main": true
+  },
+  "keyutils": {
+    "main": true
+  },
+  "bluesky-queueserver-api": {
+    "main": true
+  },
+  "mne-features": {
+    "main": true
+  },
+  "pygaps": {
+    "main": true
+  },
+  "sphinx-theme-builder": {
+    "main": true
+  },
+  "duckdb-engine": {
+    "main": true
+  },
+  "dreqpy": {
+    "main": true
   }
 }
