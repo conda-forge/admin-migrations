@@ -46228,5 +46228,341 @@
   },
   "dreqpy": {
     "main": true
+  },
+  "asdf-standard": {
+    "main": true
+  },
+  "nnpops": {
+    "main": true
+  },
+  "cpp-expected": {
+    "main": true
+  },
+  "asdf-transform-schemas": {
+    "main": true
+  },
+  "notebook-shim": {
+    "main": true
+  },
+  "ui5-cli": {
+    "main": true
+  },
+  "icub-models": {
+    "main": true
+  },
+  "mne-rsa": {
+    "main": true
+  },
+  "mne-ari": {
+    "main": true
+  },
+  "easystac": {
+    "main": true
+  },
+  "statsforecast": {
+    "main": true
+  },
+  "dirty-equals": {
+    "main": true
+  },
+  "dspsr": {
+    "main": true
+  },
+  "timg": {
+    "main": true
+  },
+  "vegafusion-python-embed": {
+    "main": true
+  },
+  "simwrapper": {
+    "main": true
+  },
+  "resource_backed_dask_array": {
+    "main": true
+  },
+  "nd2": {
+    "main": true
+  },
+  "jaraco.context": {
+    "main": true
+  },
+  "tesspy": {
+    "main": true
+  },
+  "fortls": {
+    "main": true
+  },
+  "shed-streaming": {
+    "main": true
+  },
+  "headerparser": {
+    "main": true
+  },
+  "entry-points-txt": {
+    "main": true
+  },
+  "wheel-inspect": {
+    "main": true
+  },
+  "conbench": {
+    "main": true
+  },
+  "mkdocstrings-python": {
+    "main": true
+  },
+  "plugcli": {
+    "main": true
+  },
+  "mkdocstrings-python-legacy": {
+    "main": true
+  },
+  "opam": {
+    "main": true
+  },
+  "griffe": {
+    "main": true
+  },
+  "jless": {
+    "main": true
+  },
+  "clawpack": {
+    "main": true
+  },
+  "nb-clean": {
+    "main": true
+  },
+  "dyntapy": {
+    "main": true
+  },
+  "dataclass-wizard": {
+    "main": true
+  },
+  "hboard": {
+    "main": true
+  },
+  "nemspy": {
+    "main": true
+  },
+  "historydag": {
+    "main": true
+  },
+  "typepigeon": {
+    "main": true
+  },
+  "sunkit-image": {
+    "main": true
+  },
+  "blueskyapi": {
+    "main": true
+  },
+  "fleur": {
+    "main": true
+  },
+  "dwave-cloud-client": {
+    "main": true
+  },
+  "astromodels": {
+    "main": true
+  },
+  "m17-cxx-demod": {
+    "main": true
+  },
+  "jupyterview": {
+    "main": true
+  },
+  "zipfile-deflate64": {
+    "main": true
+  },
+  "dwave-neal": {
+    "main": true
+  },
+  "qikpropservice": {
+    "main": true
+  },
+  "dwave-greedy": {
+    "main": true
+  },
+  "gctree": {
+    "main": true
+  },
+  "dtc-package": {
+    "main": true
+  },
+  "asciichartpy": {
+    "main": true
+  },
+  "eslint": {
+    "main": true
+  },
+  "imath": {
+    "main": true
+  },
+  "codetiming": {
+    "main": true
+  },
+  "napari-assistant": {
+    "main": true
+  },
+  "pywin32-on-windows": {
+    "main": true
+  },
+  "jill": {
+    "main": true
+  },
+  "pyjuliaup": {
+    "main": true
+  },
+  "juliaup": {
+    "main": true
+  },
+  "vegafusion": {
+    "main": true
+  },
+  "coqui-trainer": {
+    "main": true
+  },
+  "celer": {
+    "main": true
+  },
+  "mne-microstates": {
+    "main": true
+  },
+  "libsvmdata": {
+    "main": true
+  },
+  "download": {
+    "main": true
+  },
+  "webrtcvad": {
+    "main": true
+  },
+  "cpl": {
+    "main": true
+  },
+  "jupyter-black": {
+    "main": true
+  },
+  "vegafusion-jupyter": {
+    "main": true
+  },
+  "trexio": {
+    "main": true
+  },
+  "pypdf2_fields": {
+    "main": true
+  },
+  "nsearch": {
+    "main": true
+  },
+  "podaac-data-subscriber": {
+    "main": true
+  },
+  "pip-requirements-parser": {
+    "main": true
+  },
+  "synr": {
+    "main": true
+  },
+  "databricks-sql-connector": {
+    "main": true
+  },
+  "ligo-medm": {
+    "main": true
+  },
+  "openhsi": {
+    "main": true
+  },
+  "rapidfuzz_capi": {
+    "main": true
+  },
+  "looker-sdk": {
+    "main": true
+  },
+  "dags": {
+    "main": true
+  },
+  "zoofs": {
+    "main": true
+  },
+  "gromacs": {
+    "main": true
+  },
+  "dbstep": {
+    "main": true
+  },
+  "y-py": {
+    "main": true
+  },
+  "epics-striptool": {
+    "main": true
+  },
+  "spyql": {
+    "main": true
+  },
+  "equinox": {
+    "main": true
+  },
+  "ptxcompiler": {
+    "main": true
+  },
+  "xeofs": {
+    "main": true
+  },
+  "penaltymodel": {
+    "main": true
+  },
+  "pytest-rich": {
+    "main": true
+  },
+  "plantuml": {
+    "main": true
+  },
+  "epics-probe": {
+    "main": true
+  },
+  "wbgapi": {
+    "main": true
+  },
+  "pdtypes": {
+    "main": true
+  },
+  "tcplotter": {
+    "main": true
+  },
+  "domdf-python-tools": {
+    "main": true
+  },
+  "diffrax": {
+    "main": true
+  },
+  "hyperts": {
+    "main": true
+  },
+  "causalml": {
+    "main": true
+  },
+  "ovh": {
+    "main": true
+  },
+  "orange3-worldhappiness": {
+    "main": true
+  },
+  "yad": {
+    "main": true
+  },
+  "thermostate": {
+    "main": true
+  },
+  "morph": {
+    "main": true
+  },
+  "notify2": {
+    "main": true
+  },
+  "lomap2": {
+    "main": true
+  },
+  "openfe": {
+    "main": true
   }
 }
