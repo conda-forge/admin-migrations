@@ -28017,7 +28017,8 @@
   },
   "flask-migrate": {
     "main": true,
-    "2.4.0": true
+    "2.4.0": true,
+    "2.x": true
   },
   "flask-moment": {
     "main": true
@@ -30865,7 +30866,8 @@
     "dev": true
   },
   "jinja2": {
-    "master": true
+    "master": true,
+    "2.11.x": true
   },
   "jinja2-highlight": {
     "master": true
@@ -32915,7 +32917,8 @@
   },
   "m2crypto": {
     "master": true,
-    "py2k": true
+    "py2k": true,
+    "0.37.x": true
   },
   "m2r": {
     "master": true
@@ -35520,7 +35523,8 @@
     "master": true
   },
   "pango": {
-    "master": true
+    "master": true,
+    "1.48.x": true
   },
   "pangomm": {
     "master": true
