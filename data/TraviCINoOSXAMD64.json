@@ -22864,7 +22864,8 @@
   },
   "antlr": {
     "main": true,
-    "antlr2": true
+    "antlr2": true,
+    "osx-arm64-4.8": true
   },
   "antlr-python-runtime": {
     "main": true,
