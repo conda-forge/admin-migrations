@@ -19700,7 +19700,8 @@
     "master": true
   },
   "hiclass": {
-    "master": true
+    "master": true,
+    "regro-cf-autotick-bot-3.1.0_h112fb7": true
   },
   "handcalcs": {
     "master": true
@@ -48265,6 +48266,24 @@
     "main": true
   },
   "rdkit_utilities": {
+    "main": true
+  },
+  "azure-quantum": {
+    "main": true
+  },
+  "qsharp-core": {
+    "main": true
+  },
+  "torchdata": {
+    "main": true
+  },
+  "qiskit-terra": {
+    "main": true
+  },
+  "focal-stats": {
+    "main": true
+  },
+  "fps-auth": {
     "main": true
   }
 }
