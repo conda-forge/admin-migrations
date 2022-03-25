@@ -6940,7 +6940,8 @@
     "master": true
   },
   "pineappl": {
-    "master": true
+    "master": true,
+    "testos": true
   },
   "cloudstorage": {
     "master": true
@@ -48347,6 +48348,12 @@
     "main": true
   },
   "banana-hep": {
+    "main": true
+  },
+  "solarmach": {
+    "main": true
+  },
+  "pyg4ometry": {
     "main": true
   }
 }
