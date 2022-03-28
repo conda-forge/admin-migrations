@@ -48406,5 +48406,20 @@
   },
   "uszipcode": {
     "main": true
+  },
+  "apache-airflow-providers-influxdb": {
+    "main": true
+  },
+  "apache-airflow-providers-dbt-cloud": {
+    "main": true
+  },
+  "apache-airflow-providers-alibaba": {
+    "main": true
+  },
+  "apache-airflow-providers-airbyte": {
+    "main": true
+  },
+  "python-asana": {
+    "main": true
   }
 }
