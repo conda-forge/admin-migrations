@@ -19514,7 +19514,8 @@
     "master": true
   },
   "scmrepo": {
-    "master": true
+    "master": true,
+    "efiop-patch-1": true
   },
   "trec_eval": {
     "master": true
@@ -48453,6 +48454,9 @@
     "main": true
   },
   "stlearn": {
+    "main": true
+  },
+  "coverage-lcov": {
     "main": true
   }
 }
