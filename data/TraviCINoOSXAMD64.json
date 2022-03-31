@@ -2417,7 +2417,8 @@
   },
   "vim": {
     "master": true,
-    "bot-pr_arm_osx_hb739cb": true
+    "bot-pr_arm_osx_hb739cb": true,
+    "8.2.3457_hcee196": true
   },
   "vincent": {
     "master": true
@@ -6517,7 +6518,8 @@
     "master": true
   },
   "qhub-dask": {
-    "master": true
+    "master": true,
+    "pin_click": true
   },
   "elpigraph-python": {
     "master": true
