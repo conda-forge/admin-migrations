@@ -1,5 +1,5 @@
 {
-  "current": 1,
+  "current": 0,
   "feedstocks": {
     "2dfatmic": 0,
     "4ti2": 0,
@@ -15752,7 +15752,10 @@
     "geocat-datafiles": 0,
     "fish2eod": 0,
     "tvips-tools": 0,
-    "scine-utilities-python": 1,
-    "soxr": 1
+    "scine-utilities-python": 0,
+    "soxr": 0,
+    "mkdocs-gen-files": 0,
+    "cmeutils": 0,
+    "mkdocs-table-reader-plugin": 0
   }
 }
