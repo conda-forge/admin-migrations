@@ -48785,5 +48785,15 @@
   },
   "soxr": {
     "main": true
+  },
+  "mkdocs-gen-files": {
+    "main": true,
+    "bump-version": true
+  },
+  "cmeutils": {
+    "main": true
+  },
+  "mkdocs-table-reader-plugin": {
+    "main": true
   }
 }
