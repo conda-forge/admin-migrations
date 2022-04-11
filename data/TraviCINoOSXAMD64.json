@@ -25976,7 +25976,8 @@
     "main": true
   },
   "databroker": {
-    "main": true
+    "main": true,
+    "v2.x": true
   },
   "databroker-elasticsearch": {
     "main": true
@@ -28783,7 +28784,8 @@
   "geosnap": {
     "main": true,
     "knaaptime-patch-2": true,
-    "knaaptime-patch-1": true
+    "knaaptime-patch-1": true,
+    "knaaptime-patch-3": true
   },
   "geotext": {
     "main": true
