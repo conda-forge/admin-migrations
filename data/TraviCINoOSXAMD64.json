@@ -33781,7 +33781,8 @@
     "master": true
   },
   "mpich": {
-    "master": true
+    "master": true,
+    "3.x": true
   },
   "mpifft4py": {
     "master": true,
