@@ -20268,7 +20268,8 @@
     "master": true
   },
   "towhee": {
-    "master": true
+    "master": true,
+    "0.6.0": true
   },
   "ecco": {
     "master": true
@@ -49070,6 +49071,12 @@
     "main": true
   },
   "asdf-wcs-schemas": {
+    "main": true
+  },
+  "r-islr": {
+    "main": true
+  },
+  "r-juliacall": {
     "main": true
   }
 }
