@@ -35052,7 +35052,8 @@
   "openmm": {
     "master": true,
     "rc": true,
-    "dev": true
+    "dev": true,
+    "dev-init": true
   },
   "openmotif": {
     "master": true,
