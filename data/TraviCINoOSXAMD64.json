@@ -7364,7 +7364,8 @@
   },
   "21cmfast": {
     "master": true,
-    "add-psutil": true
+    "add-psutil": true,
+    "update-scm": true
   },
   "aws-c-common": {
     "master": true
@@ -49123,6 +49124,15 @@
     "main": true
   },
   "eeglabio": {
+    "main": true
+  },
+  "r-ivs": {
+    "main": true
+  },
+  "r-survivalmodels": {
+    "main": true
+  },
+  "histolab": {
     "main": true
   }
 }
