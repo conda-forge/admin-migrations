@@ -13989,7 +13989,8 @@
     "master": true
   },
   "openff-units": {
-    "master": true
+    "master": true,
+    "0.1.6": true
   },
   "cudadecon": {
     "master": true,
@@ -49295,6 +49296,12 @@
     "main": true
   },
   "qforce": {
+    "main": true
+  },
+  "mkdocs-git-revision-date-localized-plugin": {
+    "main": true
+  },
+  "facilyst": {
     "main": true
   }
 }
