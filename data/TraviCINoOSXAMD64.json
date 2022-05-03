@@ -32212,7 +32212,8 @@
     "master": true
   },
   "libmed": {
-    "master": true
+    "master": true,
+    "fix-make": true
   },
   "libmemcached": {
     "master": true
