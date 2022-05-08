@@ -6725,7 +6725,8 @@
     "karstbot": true,
     "check-versions-against-evalml-recipe": true,
     "latest_release_changes": true,
-    "latest_release_changes_fixed": true
+    "latest_release_changes_fixed": true,
+    "pmdarima": true
   },
   "vapory": {
     "master": true
