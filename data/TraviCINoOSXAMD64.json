@@ -19685,7 +19685,8 @@
     "master": true
   },
   "singularity-hpc": {
-    "master": true
+    "master": true,
+    "add-missing-deps": true
   },
   "datetime-distance": {
     "master": true
