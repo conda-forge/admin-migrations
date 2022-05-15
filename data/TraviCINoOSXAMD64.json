@@ -49174,7 +49174,8 @@
     "main": true
   },
   "sketchnu": {
-    "main": true
+    "main": true,
+    "improved_testing": true
   },
   "geokit": {
     "main": true
@@ -49591,6 +49592,15 @@
     "main": true
   },
   "r-prider": {
+    "main": true
+  },
+  "r-matrixextra": {
+    "main": true
+  },
+  "pennylane-honeywell": {
+    "main": true
+  },
+  "fenics-ufl": {
     "main": true
   }
 }
