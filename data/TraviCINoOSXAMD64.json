@@ -10508,7 +10508,8 @@
   },
   "google-cloud-secret-manager": {
     "master": true,
-    "1.0.0": true
+    "1.0.0": true,
+    "1.0.x": true
   },
   "openmm-plumed": {
     "master": true
