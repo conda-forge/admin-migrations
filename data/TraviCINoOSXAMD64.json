@@ -10138,7 +10138,8 @@
   },
   "sktime": {
     "master": true,
-    "add-noarch": true
+    "add-noarch": true,
+    "0.11.4_h333845": true
   },
   "densmap-learn": {
     "master": true
@@ -49717,6 +49718,18 @@
     "main": true
   },
   "exchange-calendars": {
+    "main": true
+  },
+  "empack": {
+    "main": true
+  },
+  "dataclasses-jsonschema": {
+    "main": true
+  },
+  "r-easydescribe": {
+    "main": true
+  },
+  "httpauth": {
     "main": true
   }
 }
