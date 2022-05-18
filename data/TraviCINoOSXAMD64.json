@@ -22198,7 +22198,8 @@
     "main": true
   },
   "pangeo-forge-recipes": {
-    "main": true
+    "main": true,
+    "setuptools-scm-patch": true
   },
   "enterprise_outliers": {
     "main": true
