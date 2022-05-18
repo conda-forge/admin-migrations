@@ -29250,7 +29250,8 @@
     "main": true
   },
   "google-cloud-spanner": {
-    "main": true
+    "main": true,
+    "1.19.x": true
   },
   "google-cloud-storage": {
     "main": true
