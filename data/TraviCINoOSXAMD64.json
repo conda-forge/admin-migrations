@@ -45838,7 +45838,9 @@
     "master": true
   },
   "rapidfuzz": {
-    "master": true
+    "master": true,
+    "test": true,
+    "test2": true
   },
   "rapidjson": {
     "master": true
