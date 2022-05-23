@@ -14064,7 +14064,8 @@
     "master": true
   },
   "glacier_lengths": {
-    "master": true
+    "master": true,
+    "v0.1.2": true
   },
   "r-rocs": {
     "master": true
@@ -49875,6 +49876,15 @@
     "main": true
   },
   "r-climate4r.value": {
+    "main": true
+  },
+  "chalk-diagrams": {
+    "main": true
+  },
+  "r-sunburstr": {
+    "main": true
+  },
+  "sqlalchemy-heavyai": {
     "main": true
   }
 }
