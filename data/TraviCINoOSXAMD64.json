@@ -4092,7 +4092,8 @@
     "master": true
   },
   "google-cloud-texttospeech": {
-    "master": true
+    "master": true,
+    "1.x.x": true
   },
   "google-apitools": {
     "master": true
