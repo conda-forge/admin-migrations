@@ -29223,7 +29223,8 @@
     "main": true
   },
   "google-cloud-bigtable": {
-    "main": true
+    "main": true,
+    "1.x.x": true
   },
   "google-cloud-container": {
     "main": true
