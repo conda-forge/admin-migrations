@@ -48328,5 +48328,23 @@
   },
   "fastapi-offline": {
     "main": true
+  },
+  "torch-runstats": {
+    "main": true
+  },
+  "nequip": {
+    "main": true
+  },
+  "opt_einsum_fx": {
+    "main": true
+  },
+  "torch-ema": {
+    "main": true
+  },
+  "e3nn": {
+    "main": true
+  },
+  "pyaez": {
+    "main": true
   }
 }
