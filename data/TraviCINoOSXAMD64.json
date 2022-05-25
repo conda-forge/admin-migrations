@@ -4744,7 +4744,8 @@
     "master": true
   },
   "cub": {
-    "master": true
+    "master": true,
+    "v1.15": true
   },
   "flask_rdf": {
     "master": true
@@ -4781,7 +4782,8 @@
   },
   "thrust": {
     "master": true,
-    "update-1.9.9": true
+    "update-1.9.9": true,
+    "v1.15": true
   },
   "boututils": {
     "master": true
