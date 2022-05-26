@@ -16958,7 +16958,8 @@
     "master": true
   },
   "jsonargparse": {
-    "master": true
+    "master": true,
+    "all_deps": true
   },
   "google-cloud-firestore": {
     "master": true
