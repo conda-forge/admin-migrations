@@ -32366,7 +32366,9 @@
     "v6.2.0": true,
     "v10": true,
     "v11": true,
-    "v9.3.0": true
+    "v9.3.0": true,
+    "v9": true,
+    "v6": true
   },
   "libsecret": {
     "master": true
@@ -33405,7 +33407,8 @@
   "metaflow": {
     "master": true,
     "savingoyal-patch-2": true,
-    "savingoyal-patch-1": true
+    "savingoyal-patch-1": true,
+    "savingoyal-patch-3": true
   },
   "metafone": {
     "master": true
@@ -34261,7 +34264,9 @@
     "master": true
   },
   "ndcctools": {
-    "master": true
+    "master": true,
+    "dthain-readline-history": true,
+    "dthain-readline-history-1": true
   },
   "ndcsv": {
     "master": true
