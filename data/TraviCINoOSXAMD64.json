@@ -4244,7 +4244,8 @@
     "master": true
   },
   "google-cloud-videointelligence": {
-    "master": true
+    "master": true,
+    "1.x.x": true
   },
   "google-cloud-monitoring-dashboards": {
     "master": true
