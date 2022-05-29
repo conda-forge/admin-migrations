@@ -17532,7 +17532,8 @@
     "master": true
   },
   "bioimageio.core": {
-    "master": true
+    "master": true,
+    "revert-23-0.5.4_h89d652": true
   },
   "esparto": {
     "master": true
