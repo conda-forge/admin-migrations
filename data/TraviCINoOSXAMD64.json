@@ -278,7 +278,8 @@
     "master": true
   },
   "sphinx": {
-    "master": true
+    "master": true,
+    "update_docutils_0.18": true
   },
   "sphinx-argparse": {
     "master": true
