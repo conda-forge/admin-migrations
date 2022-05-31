@@ -29256,7 +29256,8 @@
     "main": true
   },
   "google-cloud-language": {
-    "main": true
+    "main": true,
+    "1.x.x": true
   },
   "google-cloud-monitoring": {
     "main": true
@@ -29279,7 +29280,8 @@
     "1.x.x": true
   },
   "google-cloud-vision": {
-    "main": true
+    "main": true,
+    "1.x.x": true
   },
   "google-compute-engine": {
     "main": true
