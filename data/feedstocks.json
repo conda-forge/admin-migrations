@@ -4749,7 +4749,7 @@
     "pylbfgs": 0,
     "pylbm": 0,
     "pyld": 0,
-    "pyldavis": 1,
+    "pyldavis": 0,
     "pylems": 1,
     "pylev": 1,
     "pylibmc": 1,
@@ -16164,6 +16164,7 @@
     "intake-dremio": 1,
     "lazy_loader": 1,
     "r-ggcorset": 1,
-    "py_dag": 1
+    "py_dag": 1,
+    "exhale": 0
   }
 }
