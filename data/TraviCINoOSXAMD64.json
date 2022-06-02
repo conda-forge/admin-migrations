@@ -21092,7 +21092,8 @@
   },
   "pypher": {
     "main": true,
-    "aboucaud-release-0.7.0": true
+    "aboucaud-release-0.7.0": true,
+    "revert-4-0.7.1_h6daa49": true
   },
   "napari-workflows": {
     "main": true
@@ -50110,6 +50111,9 @@
     "main": true
   },
   "tblite-python": {
+    "main": true
+  },
+  "openmc-plotter": {
     "main": true
   }
 }
