@@ -16183,7 +16183,8 @@
     "master": true
   },
   "screeninfo": {
-    "master": true
+    "master": true,
+    "v0.8": true
   },
   "gftool": {
     "master": true
@@ -50142,6 +50143,9 @@
     "main": true
   },
   "atap_widgets": {
+    "main": true
+  },
+  "r-sen2r": {
     "main": true
   }
 }
