@@ -50256,7 +50256,8 @@
     "main": true
   },
   "polars": {
-    "main": true
+    "main": true,
+    "rustflags": true
   },
   "pytrack": {
     "main": true
