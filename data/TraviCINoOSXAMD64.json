@@ -7002,7 +7002,8 @@
   },
   "django-mfa2": {
     "master": true,
-    "revert-10-master": true
+    "revert-10-master": true,
+    "fido2-patch": true
   },
   "eth-hash": {
     "master": true
