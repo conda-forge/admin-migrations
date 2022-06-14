@@ -694,7 +694,8 @@
     "master": true
   },
   "static-frame": {
-    "master": true
+    "master": true,
+    "catch-up": true
   },
   "staticjinja": {
     "master": true
