@@ -20078,7 +20078,8 @@
     "master": true,
     "branch-2.4": true,
     "branch-3.0": true,
-    "branch-3.1": true
+    "branch-3.1": true,
+    "branch-3.2": true
   },
   "simmate": {
     "master": true
@@ -50520,6 +50521,24 @@
     "main": true
   },
   "heavydb-ext": {
+    "main": true
+  },
+  "napari-power-spectrum": {
+    "main": true
+  },
+  "napari-ism": {
+    "main": true
+  },
+  "yt-napari": {
+    "main": true
+  },
+  "the-segmentation-game": {
+    "main": true
+  },
+  "napari-roi-registration": {
+    "main": true
+  },
+  "napari-feature-classifier": {
     "main": true
   }
 }
