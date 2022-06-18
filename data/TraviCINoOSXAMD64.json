@@ -21569,7 +21569,8 @@
     "main": true
   },
   "pycytominer": {
-    "main": true
+    "main": true,
+    "bump-0.2.0": true
   },
   "plog": {
     "main": true
@@ -50555,6 +50556,9 @@
     "main": true
   },
   "r-documenter": {
+    "main": true
+  },
+  "r-seqnet": {
     "main": true
   }
 }
