@@ -49766,7 +49766,8 @@
     "main": true
   },
   "empack": {
-    "main": true
+    "main": true,
+    "bump-empack": true
   },
   "dataclasses-jsonschema": {
     "main": true
