@@ -17570,7 +17570,8 @@
     "master": true
   },
   "setuptools-github": {
-    "master": true
+    "master": true,
+    "0.2.2": true
   },
   "salesforce-merlion": {
     "master": true
@@ -50857,6 +50858,15 @@
     "main": true
   },
   "svg.py": {
+    "main": true
+  },
+  "lbfgspp": {
+    "main": true
+  },
+  "tiled-suite": {
+    "main": true
+  },
+  "nb_conda_store_kernels": {
     "main": true
   }
 }
