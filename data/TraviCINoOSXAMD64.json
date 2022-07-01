@@ -25712,7 +25712,8 @@
     "gcc-7.5.0": true
   },
   "cudatoolkit-dev": {
-    "main": true
+    "main": true,
+    "10.x": true
   },
   "cunit": {
     "main": true
