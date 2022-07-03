@@ -50924,5 +50924,11 @@
   },
   "phasecalculator": {
     "main": true
+  },
+  "flake8-junit-report": {
+    "main": true
+  },
+  "pyvista-xarray": {
+    "main": true
   }
 }
