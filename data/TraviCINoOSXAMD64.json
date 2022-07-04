@@ -4928,7 +4928,8 @@
   },
   "mongodb": {
     "master": true,
-    "4.2.x": true
+    "4.2.x": true,
+    "5.0.x": true
   },
   "r-googledrive": {
     "master": true
