@@ -4929,7 +4929,10 @@
   "mongodb": {
     "master": true,
     "4.2.x": true,
-    "5.0.x": true
+    "5.0.x": true,
+    "5.3.x": true,
+    "5.1.x": true,
+    "5.2.x": true
   },
   "r-googledrive": {
     "master": true
