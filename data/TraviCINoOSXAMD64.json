@@ -48085,7 +48085,8 @@
   },
   "smesh": {
     "master": true,
-    "dev": true
+    "dev": true,
+    "int32": true
   },
   "smif": {
     "master": true
