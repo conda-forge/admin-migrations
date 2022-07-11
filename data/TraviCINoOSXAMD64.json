@@ -22672,7 +22672,8 @@
   "aiida-core": {
     "main": true,
     "pin-rabbitmq": true,
-    "dev": true
+    "dev": true,
+    "v1.6.x": true
   },
   "aiida-crystal17": {
     "main": true
