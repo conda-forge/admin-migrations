@@ -49310,7 +49310,8 @@
     "main": true
   },
   "cnmaps": {
-    "main": true
+    "main": true,
+    "update": true
   },
   "qudida": {
     "main": true
@@ -51160,6 +51161,12 @@
     "main": true
   },
   "mmdet": {
+    "main": true
+  },
+  "napari-filaments": {
+    "main": true
+  },
+  "typedframe": {
     "main": true
   }
 }
