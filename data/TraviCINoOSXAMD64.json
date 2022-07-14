@@ -13386,7 +13386,8 @@
     "master": true
   },
   "onnxruntime": {
-    "master": true
+    "master": true,
+    "1.11.1": true
   },
   "renishaw_wire": {
     "master": true
