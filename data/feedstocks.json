@@ -6296,7 +6296,7 @@
     "r-lmoments": 0,
     "r-lmtest": 0,
     "r-lobstr": 0,
-    "r-locfdr": 1,
+    "r-locfdr": 0,
     "r-locfit": 1,
     "r-locpol": 1,
     "r-loe": 1,
@@ -16533,6 +16533,7 @@
     "pyreports": 1,
     "dvc-task": 1,
     "redengine": 1,
-    "rocketry": 1
+    "rocketry": 1,
+    "silence-tensorflow": 0
   }
 }
