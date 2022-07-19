@@ -32559,10 +32559,12 @@
     "master": true
   },
   "libwebp": {
-    "master": true
+    "master": true,
+    "abi-break": true
   },
   "libwebp-base": {
-    "master": true
+    "master": true,
+    "abi-break": true
   },
   "libwebsockets": {
     "master": true
