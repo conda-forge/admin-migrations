@@ -22483,7 +22483,8 @@
     "master": true
   },
   "pywin32-on-windows": {
-    "master": true
+    "master": true,
+    "experimental": true
   },
   "jill": {
     "master": true
