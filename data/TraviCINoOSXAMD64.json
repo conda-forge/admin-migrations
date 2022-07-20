@@ -16189,7 +16189,8 @@
     "master": true
   },
   "modelbase": {
-    "master": true
+    "master": true,
+    "minimal-versions": true
   },
   "mne-nirs": {
     "master": true
