@@ -38391,7 +38391,10 @@
     "master": true
   },
   "pyspark": {
-    "master": true
+    "master": true,
+    "main-3.2": true,
+    "main-3.0": true,
+    "main-2.7": true
   },
   "pyspark-stubs": {
     "master": true,
