@@ -17027,7 +17027,8 @@
     "master": true
   },
   "adagio": {
-    "master": true
+    "master": true,
+    "charles": true
   },
   "innerscope": {
     "master": true
@@ -51469,6 +51470,49 @@
     "main": true
   },
   "diffusers": {
+    "main": true
+  },
+  "rstcheck-core": {
+    "main": true
+  },
+  "dem_stitcher": {
+    "main": true
+  },
+  "aiida-yambo": {
+    "main": true
+  },
+  "parsevasp": {
+    "main": true
+  },
+  "castepinput": {
+    "main": true
+  },
+  "cosmic_profiles": {
+    "main": true
+  },
+  "raiutils": {
+    "main": true
+  },
+  "aiida-castep": {
+    "main": true
+  },
+  "pycontracts": {
+    "main": true
+  },
+  "cp2k-input-tools": {
+    "main": true
+  },
+  "aiida-abinit": {
+    "main": true
+  },
+  "cp2k-output-tools": {
+    "main": true,
+    "v0.3.x": true
+  },
+  "rangehttpserver": {
+    "main": true
+  },
+  "aiida-vasp": {
     "main": true
   }
 }
