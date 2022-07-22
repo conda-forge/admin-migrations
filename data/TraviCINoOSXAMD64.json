@@ -51516,5 +51516,17 @@
   },
   "aiida-vasp": {
     "main": true
+  },
+  "dbt-redshift": {
+    "main": true
+  },
+  "atool": {
+    "main": true
+  },
+  "dbt-bigquery": {
+    "main": true
+  },
+  "dbt-snowflake": {
+    "main": true
   }
 }
