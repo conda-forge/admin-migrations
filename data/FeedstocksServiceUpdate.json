@@ -49834,5 +49834,41 @@
   },
   "aioboto3": {
     "main": true
+  },
+  "types-aiobotocore-s3": {
+    "main": true
+  },
+  "types-aiobotocore-redshift-data": {
+    "main": true
+  },
+  "types-aiobotocore-sqs": {
+    "main": true
+  },
+  "types-aiobotocore-logs": {
+    "main": true
+  },
+  "types-aiobotocore-batch": {
+    "main": true
+  },
+  "types-aiobotocore-lambda": {
+    "main": true
+  },
+  "types-aiobotocore-rds": {
+    "main": true
+  },
+  "effectsize": {
+    "main": true
+  },
+  "types-aiobotocore-dynamodb": {
+    "main": true
+  },
+  "types-aiobotocore-cloudformation": {
+    "main": true
+  },
+  "types-aiobotocore-ec2": {
+    "main": true
+  },
+  "boto3-stubs-lite": {
+    "main": true
   }
 }
