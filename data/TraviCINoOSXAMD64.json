@@ -51487,7 +51487,8 @@
     "main": true
   },
   "castepinput": {
-    "main": true
+    "main": true,
+    "v0.1.4": true
   },
   "cosmic_profiles": {
     "main": true
@@ -51496,7 +51497,8 @@
     "main": true
   },
   "aiida-castep": {
-    "main": true
+    "main": true,
+    "v1.3.x": true
   },
   "pycontracts": {
     "main": true
@@ -51527,6 +51529,9 @@
     "main": true
   },
   "dbt-snowflake": {
+    "main": true
+  },
+  "cabinetry": {
     "main": true
   }
 }
