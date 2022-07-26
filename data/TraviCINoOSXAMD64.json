@@ -49046,7 +49046,8 @@
   },
   "sarsen": {
     "main": true,
-    "update-0.9.1": true
+    "update-0.9.1": true,
+    "update-0.9.1-post1": true
   },
   "r-babynames": {
     "main": true
@@ -51658,6 +51659,57 @@
     "main": true
   },
   "constyle": {
+    "main": true
+  },
+  "tethys_dataset_services": {
+    "main": true
+  },
+  "geoserver-restconfig": {
+    "main": true
+  },
+  "jupyterlab-niryo-one": {
+    "main": true
+  },
+  "dart-sdk": {
+    "main": true
+  },
+  "gisdata": {
+    "main": true
+  },
+  "app-model": {
+    "main": true
+  },
+  "jax-cfd": {
+    "main": true
+  },
+  "megnet": {
+    "main": true
+  },
+  "mnemonic": {
+    "main": true
+  },
+  "pbkdf2": {
+    "main": true
+  },
+  "crccheck": {
+    "main": true
+  },
+  "paralleltask": {
+    "main": true
+  },
+  "adf2dms": {
+    "main": true
+  },
+  "tree-math": {
+    "main": true
+  },
+  "pystore": {
+    "main": true
+  },
+  "r-riskmetric": {
+    "main": true
+  },
+  "sha256": {
     "main": true
   }
 }
