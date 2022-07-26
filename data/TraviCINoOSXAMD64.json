@@ -38138,7 +38138,8 @@
   },
   "pypsa": {
     "master": true,
-    "patch-pandas-version": true
+    "patch-pandas-version": true,
+    "v0.20.0": true
   },
   "pypubsub": {
     "master": true
