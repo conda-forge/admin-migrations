@@ -7041,7 +7041,8 @@
     "master": true
   },
   "eth-utils": {
-    "master": true
+    "master": true,
+    "eth-has-version-fix": true
   },
   "rlp": {
     "master": true
@@ -8471,7 +8472,8 @@
     "master": true
   },
   "dynaconf": {
-    "master": true
+    "master": true,
+    "v3.1.1": true
   },
   "slurmpter": {
     "master": true
@@ -51711,6 +51713,12 @@
     "main": true
   },
   "sha256": {
+    "main": true
+  },
+  "cwb": {
+    "main": true
+  },
+  "kafkit": {
     "main": true
   }
 }
