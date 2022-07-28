@@ -13392,7 +13392,8 @@
   },
   "onnxruntime": {
     "master": true,
-    "1.11.1": true
+    "1.11.1": true,
+    "drop-protobuf-runtime-dependency": true
   },
   "renishaw_wire": {
     "master": true
