@@ -36512,7 +36512,8 @@
   "prefect": {
     "master": true,
     "req-packaging": true,
-    "update-python-min-version": true
+    "update-python-min-version": true,
+    "prefect_1.x": true
   },
   "prefsync": {
     "master": true
