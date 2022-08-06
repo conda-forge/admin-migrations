@@ -51959,5 +51959,29 @@
   },
   "aiidalab": {
     "main": true
+  },
+  "flytekitplugins-data-fsspec": {
+    "main": true
+  },
+  "flytekitplugins-spark": {
+    "main": true
+  },
+  "flytekitplugins-modin": {
+    "main": true
+  },
+  "flytekitplugins-awsbatch": {
+    "main": true
+  },
+  "flytekitplugins-pandera": {
+    "main": true
+  },
+  "playsound": {
+    "main": true
+  },
+  "flytekitplugins-athena": {
+    "main": true
+  },
+  "flytekitplugins-sqlalchemy": {
+    "main": true
   }
 }
