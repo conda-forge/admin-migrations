@@ -25348,7 +25348,8 @@
   "conda-forge-pinning": {
     "main": true,
     "revert-842-pausepy39": true,
-    "migrate_to_modern": true
+    "migrate_to_modern": true,
+    "quarto-osx-arm64": true
   },
   "conda-forge-repodata-patches": {
     "main": true,
