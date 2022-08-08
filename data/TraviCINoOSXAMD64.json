@@ -14033,7 +14033,8 @@
   },
   "openff-units": {
     "master": true,
-    "0.1.6": true
+    "0.1.6": true,
+    "pint-19-pin": true
   },
   "cudadecon": {
     "master": true,
@@ -51997,6 +51998,12 @@
     "main": true
   },
   "optimum-graphcore": {
+    "main": true
+  },
+  "bulker": {
+    "main": true
+  },
+  "r-dinamic": {
     "main": true
   }
 }
