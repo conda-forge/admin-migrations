@@ -50399,7 +50399,8 @@
     "main": true
   },
   "enaml-extensions": {
-    "main": true
+    "main": true,
+    "v0.3.8": true
   },
   "r-pacman": {
     "main": true
@@ -52189,6 +52190,12 @@
     "main": true
   },
   "rivgraph": {
+    "main": true
+  },
+  "perl-memoize": {
+    "main": true
+  },
+  "conda-env-builder": {
     "main": true
   }
 }
