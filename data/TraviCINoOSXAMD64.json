@@ -35652,7 +35652,8 @@
     "remove-duplicate-key": true
   },
   "pandoc": {
-    "master": true
+    "master": true,
+    "revert-116-osx-arm": true
   },
   "pandoc-attributes": {
     "master": true
