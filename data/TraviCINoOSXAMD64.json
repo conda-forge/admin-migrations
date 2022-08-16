@@ -6119,7 +6119,8 @@
     "dev": true
   },
   "quetz-frontend": {
-    "master": true
+    "master": true,
+    "pre-release": true
   },
   "r-npflow": {
     "master": true
