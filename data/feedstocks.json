@@ -9160,7 +9160,7 @@
     "xorg-imake": 0,
     "xorg-inputproto": 0,
     "xorg-kbproto": 0,
-    "xorg-libice": 1,
+    "xorg-libice": 0,
     "xorg-libsm": 1,
     "xorg-libx11": 1,
     "xorg-libxau": 1,
@@ -16908,6 +16908,7 @@
     "filecache": 1,
     "sardem": 1,
     "msmhelper": 1,
-    "openmm-ml": 0
+    "openmm-ml": 0,
+    "freefem": 0
   }
 }
