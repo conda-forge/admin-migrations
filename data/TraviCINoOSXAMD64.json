@@ -35069,7 +35069,8 @@
   "onnx": {
     "master": true,
     "v1.3.0": true,
-    "protobuf-38": true
+    "protobuf-38": true,
+    "dev": true
   },
   "onnx-caffe2": {
     "master": true
