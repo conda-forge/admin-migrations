@@ -51878,7 +51878,8 @@
     "main": true
   },
   "deno-dom": {
-    "main": true
+    "main": true,
+    "0.1.17": true
   },
   "datatoolbox": {
     "main": true
@@ -52432,6 +52433,24 @@
     "main": true
   },
   "gglasso": {
+    "main": true
+  },
+  "requests-wsgi-adapter": {
+    "main": true
+  },
+  "funcx-common": {
+    "main": true
+  },
+  "qiskit-ibm-experiment": {
+    "main": true
+  },
+  "filecache": {
+    "main": true
+  },
+  "sardem": {
+    "main": true
+  },
+  "msmhelper": {
     "main": true
   }
 }
