@@ -20174,7 +20174,8 @@
     "master": true
   },
   "deno": {
-    "master": true
+    "master": true,
+    "1.22.x": true
   },
   "commitizen": {
     "master": true
