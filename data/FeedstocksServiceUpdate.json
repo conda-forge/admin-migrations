@@ -50818,5 +50818,11 @@
   },
   "dbt-athena-adapter": {
     "main": true
+  },
+  "perl-test-without-module": {
+    "main": true
+  },
+  "mrio_common_metadata": {
+    "main": true
   }
 }
