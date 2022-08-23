@@ -13857,7 +13857,7 @@
     "salesforce-merlion": 1,
     "enterprise_extensions": 1,
     "km3pipe": 1,
-    "r-polca": 0,
+    "r-polca": 1,
     "zc.buildout": 0,
     "zc.recipe.egg": 0,
     "sepaxml": 0,
@@ -16983,6 +16983,9 @@
     "paddy": 0,
     "xorg-libxres": 0,
     "sqlalchemy-dremio": 0,
-    "perl-carp-clan": 0
+    "perl-carp-clan": 0,
+    "iterative-telemetry": 1,
+    "fett": 1,
+    "vapeplot": 1
   }
 }
