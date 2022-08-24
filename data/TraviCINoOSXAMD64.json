@@ -29320,7 +29320,8 @@
   },
   "google-cloud-datastore": {
     "main": true,
-    "bump-dependencies": true
+    "bump-dependencies": true,
+    "1.x": true
   },
   "google-cloud-kms": {
     "main": true
@@ -39398,7 +39399,8 @@
     "master": true
   },
   "pyviz_comms": {
-    "master": true
+    "master": true,
+    "update_pins": true
   },
   "pyvmomi": {
     "master": true
