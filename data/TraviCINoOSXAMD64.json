@@ -19827,7 +19827,8 @@
     "master": true
   },
   "tango": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "fqe": {
     "master": true
@@ -52735,6 +52736,18 @@
     "main": true
   },
   "stern": {
+    "main": true
+  },
+  "xpra": {
+    "main": true
+  },
+  "sphinx-remove-toctrees": {
+    "main": true
+  },
+  "api-inference-community": {
+    "main": true
+  },
+  "sphinx-toggleprompt": {
     "main": true
   }
 }
