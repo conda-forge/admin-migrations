@@ -9064,7 +9064,8 @@
   },
   "streamlit": {
     "master": true,
-    "update-dependencies": true
+    "update-dependencies": true,
+    "randyzwitch-patch-1": true
   },
   "azure-mgmt-core": {
     "master": true
@@ -36694,7 +36695,8 @@
   "protobuf": {
     "master": true,
     "v3.18": true,
-    "v3.5": true
+    "v3.5": true,
+    "3.x.x": true
   },
   "protobuf3-to-dict": {
     "master": true
