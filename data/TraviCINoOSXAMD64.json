@@ -48936,7 +48936,8 @@
     "main": true
   },
   "squirrel-core": {
-    "main": true
+    "main": true,
+    "ThomasWollmann-patch-1": true
   },
   "devbio-napari": {
     "main": true
@@ -52810,6 +52811,9 @@
     "main": true
   },
   "arrow_odbc": {
+    "main": true
+  },
+  "r-redlistr": {
     "main": true
   }
 }
