@@ -29299,7 +29299,8 @@
     "tswast-patch-1": true
   },
   "google-cloud-bigquery": {
-    "main": true
+    "main": true,
+    "2.x.x": true
   },
   "google-cloud-bigquery-storage": {
     "main": true
