@@ -52730,7 +52730,8 @@
     "main": true
   },
   "google-cloud-dataform": {
-    "main": true
+    "main": true,
+    "temp": true
   },
   "hicsv-python": {
     "main": true
@@ -52838,6 +52839,9 @@
     "main": true
   },
   "multidimio": {
+    "main": true
+  },
+  "quarto": {
     "main": true
   }
 }
