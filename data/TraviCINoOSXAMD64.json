@@ -52818,5 +52818,20 @@
   },
   "perl-if": {
     "main": true
+  },
+  "aiocircuitbreaker": {
+    "main": true
+  },
+  "datasette-graphql": {
+    "main": true
+  },
+  "cupy-xarray": {
+    "main": true
+  },
+  "h5pyd": {
+    "main": true
+  },
+  "impactx": {
+    "main": true
   }
 }
