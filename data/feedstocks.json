@@ -1,7 +1,7 @@
 {
   "current": 0,
   "feedstocks": {
-    "2dfatmic": 0,
+    "2dfatmic": 1,
     "4ti2": 0,
     "7za": 0,
     "_go_select": 0,
@@ -17033,6 +17033,11 @@
     "quarto": 0,
     "r-nmslibr": 0,
     "r-eikosograms": 0,
-    "perl-svg": 0
+    "perl-svg": 0,
+    "yaqd-dwyer": 1,
+    "types-psutil": 1,
+    "libmatio-cpp": 1,
+    "aiida-dataframe": 1,
+    "ansicolors": 1
   }
 }
