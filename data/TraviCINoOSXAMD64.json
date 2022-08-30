@@ -50428,7 +50428,8 @@
     "main": true
   },
   "pypushflow": {
-    "main": true
+    "main": true,
+    "release_v0.3.0": true
   },
   "antropy": {
     "main": true
@@ -52965,6 +52966,15 @@
     "main": true
   },
   "hdk": {
+    "main": true
+  },
+  "r-measurements": {
+    "main": true
+  },
+  "r-hydrotsm": {
+    "main": true
+  },
+  "r-hydrogof": {
     "main": true
   }
 }
