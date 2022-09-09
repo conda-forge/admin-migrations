@@ -32314,7 +32314,8 @@
   "libitk": {
     "master": true,
     "4.13": true,
-    "AddOSXARM64": true
+    "AddOSXARM64": true,
+    "win_disable_libpng": true
   },
   "libjpeg-turbo": {
     "master": true
