@@ -19314,7 +19314,8 @@
     "master": true
   },
   "torchgeo": {
-    "master": true
+    "master": true,
+    "deps/protobuf": true
   },
   "jschema-to-python": {
     "master": true
