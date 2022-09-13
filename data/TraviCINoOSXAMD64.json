@@ -51613,7 +51613,8 @@
     "main": true
   },
   "atool": {
-    "main": true
+    "main": true,
+    "jonashaag-patch-1": true
   },
   "dbt-bigquery": {
     "main": true
@@ -53324,6 +53325,33 @@
     "main": true
   },
   "napari-affinities": {
+    "main": true
+  },
+  "marqo": {
+    "main": true
+  },
+  "pyproject-flake8": {
+    "main": true
+  },
+  "django-htmx": {
+    "main": true
+  },
+  "readerwriterlock": {
+    "main": true
+  },
+  "enforce-typing": {
+    "main": true
+  },
+  "iterators": {
+    "main": true
+  },
+  "regressio": {
+    "main": true
+  },
+  "lsstdesc-galsampler": {
+    "main": true
+  },
+  "prefect-dask": {
     "main": true
   }
 }
