@@ -9338,7 +9338,8 @@
     "master": true
   },
   "ligo-asimov": {
-    "master": true
+    "master": true,
+    "bump-to-0.3.4": true
   },
   "pysumma": {
     "master": true
