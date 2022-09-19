@@ -25468,7 +25468,8 @@
     "fo/update-1.6.1": true,
     "fo/publish-27-linux-win": true,
     "fo/publish-2.7": true,
-    "publish/1.10.1": true
+    "publish/1.10.1": true,
+    "ferozco-patch-1": true
   },
   "conllu": {
     "main": true
@@ -26443,7 +26444,8 @@
   },
   "dirac-grid": {
     "main": true,
-    "v7.2": true
+    "v7.2": true,
+    "v7.3.x": true
   },
   "diraccfg": {
     "main": true
