@@ -20033,7 +20033,8 @@
     "master": true
   },
   "npysearch": {
-    "master": true
+    "master": true,
+    "pullrequest": true
   },
   "google-cloud-dataproc-metastore": {
     "master": true
