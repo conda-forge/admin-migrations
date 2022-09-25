@@ -22130,10 +22130,12 @@
     "main": true
   },
   "google-cloud-aiplatform": {
-    "main": true
+    "main": true,
+    "1.16.x": true
   },
   "sqlalchemy-bigquery": {
-    "main": true
+    "main": true,
+    "1.4.1": true
   },
   "sharrow": {
     "main": true
