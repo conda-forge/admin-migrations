@@ -27258,7 +27258,8 @@
   "elasticsearch": {
     "main": true,
     "2.4.x": true,
-    "5.x": true
+    "5.x": true,
+    "7.x": true
   },
   "elasticsearch-async": {
     "master": true
