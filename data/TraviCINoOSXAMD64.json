@@ -21296,7 +21296,8 @@
     "main": true
   },
   "jupyter-releaser": {
-    "main": true
+    "main": true,
+    "blink1073-patch-1": true
   },
   "stepfunctions": {
     "main": true
@@ -53961,6 +53962,9 @@
     "main": true
   },
   "r-bundle": {
+    "main": true
+  },
+  "py-modelrunner": {
     "main": true
   }
 }
