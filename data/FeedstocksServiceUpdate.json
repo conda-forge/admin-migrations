@@ -52132,5 +52132,32 @@
   },
   "py-modelrunner": {
     "main": true
+  },
+  "espnet": {
+    "main": true
+  },
+  "kaldiio": {
+    "main": true
+  },
+  "fast-bss-eval": {
+    "main": true
+  },
+  "pytorch-wpe": {
+    "main": true
+  },
+  "ci-sdr": {
+    "main": true
+  },
+  "jamo": {
+    "main": true
+  },
+  "torch-complex": {
+    "main": true
+  },
+  "ctc-segmentation": {
+    "main": true
+  },
+  "espnet-tts-frontend": {
+    "main": true
   }
 }
