@@ -52336,5 +52336,17 @@
   },
   "perl-test-requires": {
     "main": true
+  },
+  "perl-class-trigger": {
+    "main": true
+  },
+  "perl-clone-choose": {
+    "main": true
+  },
+  "perl-file-remove": {
+    "main": true
+  },
+  "perl-bit-vector": {
+    "main": true
   }
 }
