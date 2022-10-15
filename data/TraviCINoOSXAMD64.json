@@ -7281,7 +7281,10 @@
     "master": true
   },
   "sidpy": {
-    "master": true
+    "master": true,
+    "revert-16-patch-1": true,
+    "revert-17-v011": true,
+    "revert-15-patch-1": true
   },
   "podman-compose": {
     "master": true
