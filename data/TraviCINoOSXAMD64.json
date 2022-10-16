@@ -9161,7 +9161,8 @@
     "master": true
   },
   "hpp-manipulation-urdf": {
-    "master": true
+    "master": true,
+    "revert-6-master": true
   },
   "hpp-manipulation-corba": {
     "master": true
