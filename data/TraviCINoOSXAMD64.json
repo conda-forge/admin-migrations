@@ -670,7 +670,8 @@
     "master": true
   },
   "starlette": {
-    "master": true
+    "master": true,
+    "v0.24.0": true
   },
   "starlink-ast": {
     "master": true
