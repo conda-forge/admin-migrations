@@ -26128,7 +26128,8 @@
   },
   "databroker": {
     "main": true,
-    "v2.x": true
+    "v2.x": true,
+    "v1.x": true
   },
   "databroker-elasticsearch": {
     "main": true
