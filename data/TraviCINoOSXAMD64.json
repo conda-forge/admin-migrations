@@ -50703,7 +50703,8 @@
     "main": true
   },
   "openmmtorchplugin": {
-    "main": true
+    "main": true,
+    "dev": true
   },
   "openmm-atmmetaforce-plugin": {
     "main": true
@@ -54477,6 +54478,9 @@
     "main": true
   },
   "stdlibs": {
+    "main": true
+  },
+  "cpp_comment_format": {
     "main": true
   }
 }
