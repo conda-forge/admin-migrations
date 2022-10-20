@@ -7165,7 +7165,8 @@
     "master": true
   },
   "ipfshttpclient": {
-    "master": true
+    "master": true,
+    "rc": true
   },
   "pandas-alive": {
     "master": true
