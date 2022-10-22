@@ -28633,7 +28633,8 @@
     "main": true
   },
   "funcparserlib": {
-    "main": true
+    "main": true,
+    "rebuild-pypy37-windows-0-1_hbbbf22": true
   },
   "funcsigs": {
     "main": true
