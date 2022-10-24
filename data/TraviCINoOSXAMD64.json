@@ -51140,7 +51140,8 @@
     "main": true
   },
   "morphman": {
-    "main": true
+    "main": true,
+    "update-to-v1.3": true
   },
   "r-wiesbaden": {
     "main": true
@@ -54587,6 +54588,27 @@
     "main": true
   },
   "perl-email-date-format": {
+    "main": true
+  },
+  "aiohue": {
+    "main": true
+  },
+  "asyncio-throttle": {
+    "main": true
+  },
+  "catt": {
+    "main": true
+  },
+  "casttube": {
+    "main": true
+  },
+  "django-annoying": {
+    "main": true
+  },
+  "django-loginas": {
+    "main": true
+  },
+  "pychromecast": {
     "main": true
   }
 }
