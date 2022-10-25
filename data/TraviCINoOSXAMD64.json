@@ -7492,7 +7492,8 @@
     "master": true
   },
   "aws-c-event-stream": {
-    "master": true
+    "master": true,
+    "0.2.15-common-rebuild": true
   },
   "spavro": {
     "master": true
