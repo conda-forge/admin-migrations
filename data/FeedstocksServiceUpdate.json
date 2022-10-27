@@ -52843,5 +52843,11 @@
   },
   "libthermo": {
     "main": true
+  },
+  "scriptengine-tasks-hpc": {
+    "main": true
+  },
+  "pydistcheck": {
+    "main": true
   }
 }
