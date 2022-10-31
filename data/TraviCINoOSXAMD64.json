@@ -18742,7 +18742,8 @@
     "master": true
   },
   "rabbitmq-delayed-message-exchange": {
-    "master": true
+    "master": true,
+    "v3.10": true
   },
   "r-mrfdepth": {
     "master": true
