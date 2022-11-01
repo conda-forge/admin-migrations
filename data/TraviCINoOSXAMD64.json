@@ -46581,7 +46581,8 @@
     "master": true
   },
   "rdkit": {
-    "master": true
+    "master": true,
+    "pre": true
   },
   "re2": {
     "master": true
