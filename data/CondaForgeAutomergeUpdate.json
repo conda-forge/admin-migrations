@@ -36853,5 +36853,3312 @@
   },
   "leather": {
     "main": true
+  },
+  "ledger": {
+    "main": true
+  },
+  "legendgram": {
+    "main": true
+  },
+  "legit": {
+    "main": true
+  },
+  "leidenalg": {
+    "main": true
+  },
+  "lektor": {
+    "main": true
+  },
+  "lemon": {
+    "main": true
+  },
+  "lensfun": {
+    "main": true,
+    "v0.3.2": true
+  },
+  "lensfunpy": {
+    "main": true
+  },
+  "leptonica": {
+    "main": true,
+    "v1.78": true
+  },
+  "less.js": {
+    "main": true
+  },
+  "lesscpy": {
+    "main": true
+  },
+  "lesshat": {
+    "main": true
+  },
+  "leveldb": {
+    "main": true,
+    "rebuild-1.18": true
+  },
+  "lfortran": {
+    "main": true
+  },
+  "lfpy": {
+    "main": true
+  },
+  "lftp": {
+    "main": true
+  },
+  "lfzip": {
+    "main": true
+  },
+  "lhcb-simpletools": {
+    "main": true
+  },
+  "lhcbdirac": {
+    "main": true,
+    "v10.2": true
+  },
+  "lhcbdirac-config": {
+    "main": true,
+    "certification": true
+  },
+  "libaatm": {
+    "main": true
+  },
+  "libadjoint": {
+    "main": true
+  },
+  "libaec": {
+    "main": true
+  },
+  "libaio": {
+    "main": true
+  },
+  "libarchive": {
+    "main": true,
+    "revert-28-rebuildopenssl": true
+  },
+  "libass": {
+    "main": true
+  },
+  "libassuan": {
+    "main": true
+  },
+  "libatomic_ops": {
+    "main": true
+  },
+  "libbezier": {
+    "main": true
+  },
+  "libblitz": {
+    "main": true,
+    "amir": true
+  },
+  "libbraiding": {
+    "main": true
+  },
+  "libbsc": {
+    "main": true
+  },
+  "libcanberra": {
+    "main": true
+  },
+  "libcap": {
+    "main": true
+  },
+  "libccd": {
+    "main": true
+  },
+  "libcdms": {
+    "main": true
+  },
+  "libcf": {
+    "main": true
+  },
+  "libcflib": {
+    "main": true
+  },
+  "libcmaes": {
+    "main": true
+  },
+  "libcomcat": {
+    "main": true,
+    "revert-38-fionafix": true
+  },
+  "libconfig": {
+    "main": true
+  },
+  "libcrc32c": {
+    "main": true
+  },
+  "libcroco": {
+    "main": true
+  },
+  "libcst": {
+    "main": true
+  },
+  "libctl": {
+    "main": true
+  },
+  "libcups": {
+    "main": true
+  },
+  "libcxx": {
+    "main": true,
+    "6.x": true,
+    "5.x": true,
+    "rc": true
+  },
+  "libcxxwrap-julia": {
+    "main": true
+  },
+  "libdaemon": {
+    "main": true
+  },
+  "libdap4": {
+    "main": true
+  },
+  "libdb": {
+    "main": true
+  },
+  "libdeflate": {
+    "main": true
+  },
+  "libdiffpy": {
+    "main": true
+  },
+  "libdrm": {
+    "main": true
+  },
+  "libdrm-cos7-aarch64": {
+    "master": true
+  },
+  "libdrm-cos7-ppc64le": {
+    "master": true
+  },
+  "libdrs": {
+    "main": true,
+    "revert-8-v3.0.1": true,
+    "revert-4-3.0": true,
+    "2.12": true
+  },
+  "libdrs_f": {
+    "main": true
+  },
+  "libedit": {
+    "main": true
+  },
+  "libensemble": {
+    "main": true,
+    "testing_linux_ppc64le": true
+  },
+  "libev": {
+    "main": true
+  },
+  "libevent": {
+    "main": true
+  },
+  "libexif": {
+    "main": true
+  },
+  "libfaketime": {
+    "main": true
+  },
+  "libffi": {
+    "main": true
+  },
+  "libflac": {
+    "main": true
+  },
+  "libflint": {
+    "main": true
+  },
+  "libframe": {
+    "main": true
+  },
+  "libfuse": {
+    "main": true,
+    "2.x": true
+  },
+  "libgap": {
+    "main": true
+  },
+  "libgcrypt": {
+    "main": true
+  },
+  "libgd": {
+    "main": true
+  },
+  "libgdsii": {
+    "main": true
+  },
+  "libgfortran": {
+    "master": true
+  },
+  "libgit2": {
+    "main": true
+  },
+  "libglu": {
+    "main": true
+  },
+  "libglvnd-cos7-aarch64": {
+    "master": true
+  },
+  "libglvnd-cos7-ppc64le": {
+    "master": true
+  },
+  "libglvnd-glx-cos7-aarch64": {
+    "master": true
+  },
+  "libglvnd-glx-cos7-ppc64le": {
+    "master": true
+  },
+  "libgpg-error": {
+    "main": true
+  },
+  "libgpuarray": {
+    "main": true
+  },
+  "libgsasl": {
+    "main": true
+  },
+  "libgsf": {
+    "main": true
+  },
+  "libharu": {
+    "main": true
+  },
+  "libhdfs3": {
+    "main": true,
+    "backport-v2.2.31": true
+  },
+  "libhomfly": {
+    "main": true
+  },
+  "libhwloc": {
+    "main": true,
+    "1.11.x": true
+  },
+  "libibcm-cos6-x86_64": {
+    "master": true
+  },
+  "libibcm-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libibverbs-cos6-x86_64": {
+    "master": true
+  },
+  "libibverbs-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libical": {
+    "main": true
+  },
+  "libice-cos7-aarch64": {
+    "master": true
+  },
+  "libice-cos7-ppc64le": {
+    "master": true
+  },
+  "libiconv": {
+    "main": true
+  },
+  "libidn11": {
+    "main": true
+  },
+  "libidn2": {
+    "main": true
+  },
+  "libignition-cmake0": {
+    "main": true,
+    "v0.6.1": true
+  },
+  "libignition-common": {
+    "main": true,
+    "v3": true
+  },
+  "libignition-fuel-tools": {
+    "main": true,
+    "v4": true
+  },
+  "libignition-math4": {
+    "main": true,
+    "v4.0.0": true
+  },
+  "libignition-msgs1": {
+    "main": true,
+    "v5.3.0": true,
+    "v7": true,
+    "v1.0.0": true,
+    "v6.4.0": true
+  },
+  "libignition-physics": {
+    "main": true,
+    "v3": true
+  },
+  "libignition-plugin": {
+    "main": true
+  },
+  "libignition-tools": {
+    "main": true,
+    "v0.2.x": true
+  },
+  "libignition-transport4": {
+    "main": true,
+    "v10": true,
+    "v9": true,
+    "v8": true
+  },
+  "libint": {
+    "main": true
+  },
+  "libitk": {
+    "main": true,
+    "4.13": true,
+    "win_disable_libpng": true,
+    "AddOSXARM64": true
+  },
+  "libjpeg-turbo": {
+    "main": true
+  },
+  "libjpeg-turbo-cos7-aarch64": {
+    "master": true
+  },
+  "libkml": {
+    "main": true
+  },
+  "libksba": {
+    "main": true
+  },
+  "liblbfgs": {
+    "main": true
+  },
+  "libmad": {
+    "main": true
+  },
+  "libmagic": {
+    "master": true
+  },
+  "libmatio": {
+    "main": true
+  },
+  "libmed": {
+    "main": true
+  },
+  "libmemcached": {
+    "main": true
+  },
+  "libmo_unpack": {
+    "main": true
+  },
+  "libnetcdf": {
+    "main": true,
+    "v4.6.x": true,
+    "v4.8.x": true,
+    "dev": true,
+    "rc": true,
+    "v4.4.x": true
+  },
+  "libnetworkit": {
+    "main": true
+  },
+  "libneuroml": {
+    "main": true
+  },
+  "libnl": {
+    "main": true
+  },
+  "libnl-cos6-x86_64": {
+    "master": true
+  },
+  "libnl-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libntlm": {
+    "main": true
+  },
+  "libobjcryst": {
+    "main": true
+  },
+  "libode": {
+    "main": true
+  },
+  "libogg": {
+    "main": true
+  },
+  "libopusenc": {
+    "main": true
+  },
+  "libosxunwind": {
+    "main": true
+  },
+  "libpcap": {
+    "main": true
+  },
+  "libpciaccess": {
+    "main": true
+  },
+  "libpgmath": {
+    "main": true
+  },
+  "libpng": {
+    "main": true,
+    "v1.6.34": true
+  },
+  "libpostal": {
+    "main": true
+  },
+  "libprotobuf": {
+    "main": true,
+    "3.15.x": true,
+    "v3.5": true,
+    "3.12.2": true,
+    "dev": true,
+    "3.20.1": true
+  },
+  "libpysal": {
+    "main": true
+  },
+  "libpython": {
+    "main": true
+  },
+  "librabbitmq": {
+    "main": true
+  },
+  "libradolan": {
+    "main": true
+  },
+  "libraw": {
+    "main": true
+  },
+  "librdkafka": {
+    "main": true,
+    "1.3.x": true
+  },
+  "librdmacm-cos6-x86_64": {
+    "master": true
+  },
+  "librdmacm-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libredwg": {
+    "main": true
+  },
+  "librepo": {
+    "main": true
+  },
+  "librosa": {
+    "main": true
+  },
+  "librsvg": {
+    "main": true,
+    "v2.44.3": true
+  },
+  "libsakura": {
+    "main": true
+  },
+  "libsass": {
+    "main": true
+  },
+  "libsdformat": {
+    "main": true,
+    "v10": true,
+    "v6": true,
+    "v9": true,
+    "v9.3.0": true,
+    "v11": true,
+    "v12": true
+  },
+  "libsecret": {
+    "main": true
+  },
+  "libselinux-cos7-aarch64": {
+    "master": true
+  },
+  "libsemigroups": {
+    "main": true
+  },
+  "libsemigroups-python-bindings": {
+    "master": true
+  },
+  "libsemigroups_cppyy": {
+    "main": true
+  },
+  "libsharp": {
+    "main": true
+  },
+  "libsigcpp": {
+    "main": true,
+    "2.x": true
+  },
+  "libsigsegv": {
+    "main": true
+  },
+  "libsimpleitk": {
+    "main": true
+  },
+  "libsm-cos7-aarch64": {
+    "master": true
+  },
+  "libsm-cos7-ppc64le": {
+    "master": true
+  },
+  "libsndfile": {
+    "main": true
+  },
+  "libsodium": {
+    "main": true
+  },
+  "libsolv": {
+    "main": true
+  },
+  "libspatialindex": {
+    "main": true,
+    "1.8.5": true
+  },
+  "libspatialite": {
+    "main": true,
+    "dev": true,
+    "proj5.2.0": true
+  },
+  "libspnav": {
+    "main": true,
+    "patch_warning": true
+  },
+  "libssh": {
+    "main": true
+  },
+  "libssh2": {
+    "main": true
+  },
+  "libsvm": {
+    "main": true
+  },
+  "libtar": {
+    "main": true
+  },
+  "libtasn1": {
+    "main": true
+  },
+  "libtheora": {
+    "main": true
+  },
+  "libtiff": {
+    "main": true,
+    "v4.0.10": true
+  },
+  "libtike-cufft": {
+    "master": true
+  },
+  "libtiledb-sql": {
+    "main": true,
+    "0.12.4-tiledb2.7.0-rc0": true,
+    "0.11.2-tiledb2.6.0rc1": true,
+    "0.12.0rc0": true
+  },
+  "libtiledb-sql-py": {
+    "main": true
+  },
+  "libtlx": {
+    "main": true
+  },
+  "libtool": {
+    "main": true
+  },
+  "libudev-cos6-x86_64": {
+    "master": true
+  },
+  "libudev-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libunistring": {
+    "main": true
+  },
+  "libunwind": {
+    "main": true
+  },
+  "libusb": {
+    "main": true
+  },
+  "libusb-compat": {
+    "main": true
+  },
+  "libutf8proc": {
+    "main": true
+  },
+  "libuuid": {
+    "main": true,
+    "v2.32": true
+  },
+  "libuv": {
+    "main": true
+  },
+  "libv8": {
+    "main": true
+  },
+  "libva": {
+    "main": true
+  },
+  "libva-utils": {
+    "main": true
+  },
+  "libvips": {
+    "main": true
+  },
+  "libvorbis": {
+    "main": true
+  },
+  "libwapiti": {
+    "main": true
+  },
+  "libwebp": {
+    "main": true,
+    "abi-break": true
+  },
+  "libwebp-base": {
+    "main": true,
+    "abi-break": true
+  },
+  "libwebsockets": {
+    "main": true
+  },
+  "libx11-common-cos7-aarch64": {
+    "master": true
+  },
+  "libx11-cos7-aarch64": {
+    "master": true
+  },
+  "libx11-devel-cos7-aarch64": {
+    "master": true
+  },
+  "libxau-cos7-aarch64": {
+    "master": true
+  },
+  "libxc": {
+    "main": true,
+    "backportv4": true
+  },
+  "libxcb": {
+    "main": true
+  },
+  "libxcb-cos7-aarch64": {
+    "master": true
+  },
+  "libxcomposite-cos7-ppc64le": {
+    "master": true
+  },
+  "libxcursor-cos7-ppc64le": {
+    "master": true
+  },
+  "libxdamage-cos7-aarch64": {
+    "master": true
+  },
+  "libxext-cos7-aarch64": {
+    "master": true
+  },
+  "libxfixes-cos7-aarch64": {
+    "master": true
+  },
+  "libxfoil": {
+    "main": true,
+    "windows": true
+  },
+  "libxkbcommon": {
+    "main": true
+  },
+  "libxkbfile": {
+    "main": true
+  },
+  "libxml2": {
+    "main": true
+  },
+  "libxmlpp": {
+    "main": true
+  },
+  "libxrender-cos7-aarch64": {
+    "master": true
+  },
+  "libxscrnsaver-cos7-ppc64le": {
+    "master": true
+  },
+  "libxshmfence-cos7-aarch64": {
+    "master": true
+  },
+  "libxshmfence-cos7-ppc64le": {
+    "master": true
+  },
+  "libxslt": {
+    "main": true
+  },
+  "libxsmm": {
+    "main": true
+  },
+  "libxt-cos7-aarch64": {
+    "master": true
+  },
+  "libxt-cos7-ppc64le": {
+    "master": true
+  },
+  "libxtst-cos7-ppc64le": {
+    "master": true
+  },
+  "libxxf86vm-cos7-aarch64": {
+    "master": true
+  },
+  "libxxf86vm-cos7-ppc64le": {
+    "master": true
+  },
+  "libzip": {
+    "main": true
+  },
+  "license-expression": {
+    "main": true
+  },
+  "lidar": {
+    "main": true
+  },
+  "lief": {
+    "main": true,
+    "dev": true
+  },
+  "lifelines": {
+    "main": true,
+    "update-req-for-scipy": true,
+    "CamDavidsonPilon-patch-1": true
+  },
+  "lifetimes": {
+    "main": true
+  },
+  "lightfm": {
+    "main": true
+  },
+  "lightgbm": {
+    "main": true
+  },
+  "lightkurve": {
+    "main": true
+  },
+  "lighttpd": {
+    "main": true
+  },
+  "ligo-common": {
+    "main": true
+  },
+  "ligo-followup-advocate": {
+    "main": true
+  },
+  "ligo-gracedb": {
+    "main": true
+  },
+  "ligo-lvalert": {
+    "main": true
+  },
+  "ligo-raven": {
+    "main": true
+  },
+  "ligo-requests": {
+    "main": true
+  },
+  "ligo-scald": {
+    "main": true,
+    "v0.7.0-1": true
+  },
+  "ligo-segments": {
+    "main": true
+  },
+  "ligo.skymap": {
+    "main": true
+  },
+  "ligotimegps": {
+    "main": true
+  },
+  "ligotools": {
+    "main": true
+  },
+  "liknorm": {
+    "main": true
+  },
+  "liknorm-py": {
+    "main": true
+  },
+  "lime": {
+    "main": true
+  },
+  "limix": {
+    "main": true
+  },
+  "limix-core": {
+    "main": true
+  },
+  "limix-inference": {
+    "main": true
+  },
+  "limix-legacy": {
+    "main": true
+  },
+  "limix-plot": {
+    "main": true
+  },
+  "linbox": {
+    "main": true
+  },
+  "line_profiler": {
+    "main": true
+  },
+  "linear-tsv": {
+    "main": true
+  },
+  "linearmodels": {
+    "main": true
+  },
+  "linecache2": {
+    "main": true
+  },
+  "linetools": {
+    "main": true
+  },
+  "link-traits": {
+    "main": true
+  },
+  "lintegrate": {
+    "main": true,
+    "usepypi": true,
+    "update": true
+  },
+  "lintel": {
+    "main": true
+  },
+  "linux-sysroot": {
+    "main": true,
+    "v2.12.2": true,
+    "v2.12": true
+  },
+  "liquidprompt": {
+    "main": true
+  },
+  "litereval": {
+    "main": true,
+    "kiwi0fruit-patch-1": true
+  },
+  "littleutils": {
+    "main": true
+  },
+  "livereload": {
+    "main": true
+  },
+  "livvkit": {
+    "main": true
+  },
+  "livy-submit": {
+    "main": true
+  },
+  "lld": {
+    "main": true,
+    "6.x": true,
+    "rc": true
+  },
+  "lldb": {
+    "main": true
+  },
+  "llvm-meta": {
+    "main": true
+  },
+  "llvm-spirv": {
+    "main": true,
+    "10.0.0": true
+  },
+  "llvmdev": {
+    "main": true,
+    "6.x": true,
+    "8.x": true,
+    "10.x": true,
+    "9.x": true,
+    "12.x": true,
+    "11.x": true,
+    "tf": true,
+    "dev": true,
+    "rc": true,
+    "5.x": true,
+    "4.x": true
+  },
+  "llvmlite": {
+    "main": true
+  },
+  "lmdb": {
+    "main": true
+  },
+  "lmfit": {
+    "main": true,
+    "1.0.2": true,
+    "0.9.5": true,
+    "0.8.3": true,
+    "0.9.9": true
+  },
+  "lml": {
+    "main": true,
+    "williamjamir-patch-1": true
+  },
+  "lmod": {
+    "main": true
+  },
+  "localstack": {
+    "main": true,
+    "revert-14-rebuild-pypy-0-1": true
+  },
+  "localstack-client": {
+    "main": true
+  },
+  "localstack-ext": {
+    "main": true
+  },
+  "locket": {
+    "main": true,
+    "revert-8-0.2.1_he4644b": true
+  },
+  "lockfile": {
+    "main": true
+  },
+  "locust": {
+    "main": true
+  },
+  "lodash": {
+    "main": true
+  },
+  "log4cpp": {
+    "main": true
+  },
+  "log4cxx": {
+    "main": true
+  },
+  "log_symbols": {
+    "main": true
+  },
+  "logaddexp": {
+    "main": true
+  },
+  "logbook": {
+    "main": true
+  },
+  "logging-helpers": {
+    "main": true
+  },
+  "logging_exceptions": {
+    "main": true
+  },
+  "loghub": {
+    "main": true
+  },
+  "logilab-common": {
+    "main": true
+  },
+  "logmuse": {
+    "main": true
+  },
+  "loguru": {
+    "main": true
+  },
+  "logzero": {
+    "main": true
+  },
+  "loky": {
+    "main": true
+  },
+  "loompy": {
+    "main": true
+  },
+  "lorem": {
+    "main": true
+  },
+  "louvain": {
+    "main": true,
+    "revert-11-rebuild-pypy-0-1_h2486ae": true
+  },
+  "lp_solve": {
+    "main": true
+  },
+  "lpsolve55": {
+    "main": true
+  },
+  "lrcalc": {
+    "main": true
+  },
+  "lrslib": {
+    "main": true
+  },
+  "lscsoft-glue": {
+    "main": true
+  },
+  "lsof": {
+    "main": true
+  },
+  "lsst-dd-rtd-theme": {
+    "main": true
+  },
+  "lsst-documenteer": {
+    "main": true
+  },
+  "lsst-sphinx-bootstrap-theme": {
+    "main": true
+  },
+  "lsst_dashboard": {
+    "main": true
+  },
+  "lsstdesc.coord": {
+    "main": true
+  },
+  "lsstdesc.weaklensingdeblending": {
+    "main": true
+  },
+  "ltl": {
+    "main": true
+  },
+  "lua": {
+    "main": true,
+    "5.1": true,
+    "5.3": true,
+    "5.2": true
+  },
+  "lua-luafilesystem": {
+    "main": true
+  },
+  "lua-luaposix": {
+    "main": true
+  },
+  "luajit": {
+    "main": true
+  },
+  "luarocks": {
+    "main": true
+  },
+  "lucid": {
+    "main": true
+  },
+  "luhn": {
+    "main": true
+  },
+  "luigi": {
+    "main": true
+  },
+  "lume-astra": {
+    "main": true
+  },
+  "lume-genesis": {
+    "main": true
+  },
+  "lume-impact": {
+    "main": true
+  },
+  "lumicks.pylake": {
+    "main": true,
+    "release_v0_13_1": true
+  },
+  "lunarcalendar": {
+    "main": true
+  },
+  "lunardate": {
+    "main": true
+  },
+  "lunr": {
+    "main": true
+  },
+  "lxml": {
+    "main": true,
+    "backports": true
+  },
+  "lxqt-build-tools": {
+    "main": true
+  },
+  "lynx": {
+    "main": true
+  },
+  "lyricsmaster": {
+    "main": true
+  },
+  "lz4": {
+    "main": true
+  },
+  "lz4-c": {
+    "main": true
+  },
+  "lzfse": {
+    "main": true
+  },
+  "lzip": {
+    "main": true
+  },
+  "lzo": {
+    "main": true
+  },
+  "lzop": {
+    "main": true
+  },
+  "lzstring": {
+    "main": true
+  },
+  "m2crypto": {
+    "main": true,
+    "0.37.x": true,
+    "py2k": true
+  },
+  "m2r": {
+    "main": true
+  },
+  "m2w64-muparser": {
+    "main": true
+  },
+  "m4": {
+    "main": true
+  },
+  "m4ri": {
+    "main": true
+  },
+  "m4rie": {
+    "main": true
+  },
+  "macfsevents": {
+    "main": true
+  },
+  "machine-learning-py": {
+    "main": true
+  },
+  "macholib": {
+    "main": true
+  },
+  "macropy3": {
+    "main": true
+  },
+  "mad": {
+    "main": true
+  },
+  "maestral": {
+    "main": true,
+    "tschoonj-patch-1": true
+  },
+  "mafredo": {
+    "main": true,
+    "RubendeBruin-rev0.1.1": true
+  },
+  "magic-wormhole": {
+    "main": true
+  },
+  "magics": {
+    "main": true
+  },
+  "magics-metview": {
+    "main": true,
+    "noboost": true,
+    "pr/17": true
+  },
+  "magics-metview-batch": {
+    "main": true
+  },
+  "magics-python": {
+    "main": true
+  },
+  "magpylib": {
+    "main": true
+  },
+  "mahotas": {
+    "main": true
+  },
+  "mailer": {
+    "main": true
+  },
+  "make": {
+    "main": true
+  },
+  "makedepf90": {
+    "main": true
+  },
+  "mako": {
+    "main": true
+  },
+  "mamba": {
+    "main": true
+  },
+  "mando": {
+    "main": true
+  },
+  "mantichora": {
+    "main": true
+  },
+  "mapbox": {
+    "main": true
+  },
+  "mapbox-vector-tile": {
+    "main": true
+  },
+  "mapboxgl": {
+    "main": true
+  },
+  "mapclassify": {
+    "main": true
+  },
+  "mapio": {
+    "main": true
+  },
+  "mapkit": {
+    "main": true
+  },
+  "marbles": {
+    "main": true,
+    "0.9.5": true
+  },
+  "marbles-core": {
+    "main": true
+  },
+  "marbles-mixins": {
+    "main": true,
+    "0.9.5": true
+  },
+  "markdown": {
+    "main": true,
+    "2.6.7": true
+  },
+  "markdown-checklist": {
+    "main": true
+  },
+  "markdown-it-py": {
+    "main": true
+  },
+  "markdown-kernel": {
+    "main": true
+  },
+  "markdown2": {
+    "main": true,
+    "v2.3.10": true
+  },
+  "markdown_strings": {
+    "main": true
+  },
+  "markov_draftjs": {
+    "main": true
+  },
+  "markovify": {
+    "main": true
+  },
+  "markuppy": {
+    "main": true
+  },
+  "markupsafe": {
+    "main": true,
+    "1.x.x": true
+  },
+  "marray": {
+    "main": true
+  },
+  "marshmallow": {
+    "main": true,
+    "2.19.5": true,
+    "2.x": true
+  },
+  "marshmallow-enum": {
+    "main": true
+  },
+  "marshmallow-jsonapi": {
+    "main": true
+  },
+  "marshmallow-oneofschema": {
+    "main": true
+  },
+  "marshmallow-sqlalchemy": {
+    "main": true
+  },
+  "marstime": {
+    "main": true
+  },
+  "marxs": {
+    "main": true
+  },
+  "mastodon.py": {
+    "main": true
+  },
+  "matchpy": {
+    "main": true
+  },
+  "material-design-lite": {
+    "main": true
+  },
+  "mathjax": {
+    "main": true,
+    "v2": true
+  },
+  "matminer": {
+    "main": true
+  },
+  "matplotcheck": {
+    "main": true
+  },
+  "matplotlib": {
+    "main": true,
+    "testing": true,
+    "v2.1.x": true,
+    "matplotlib_1": true,
+    "v2.2.x": true,
+    "dev": true,
+    "rc": true
+  },
+  "matplotlib-scalebar": {
+    "main": true
+  },
+  "matplotlib-venn": {
+    "main": true
+  },
+  "matplotlib2tikz": {
+    "main": true
+  },
+  "matplotlibhelper": {
+    "main": true
+  },
+  "matrix_client": {
+    "main": true
+  },
+  "maturin": {
+    "main": true,
+    "maturin-0.10.6": true
+  },
+  "maup": {
+    "main": true
+  },
+  "maven": {
+    "main": true
+  },
+  "maxima": {
+    "main": true,
+    "pull/26/head": true
+  },
+  "maxrect": {
+    "main": true
+  },
+  "maya": {
+    "main": true
+  },
+  "mayavi": {
+    "main": true
+  },
+  "mbsolve": {
+    "main": true
+  },
+  "mbuild": {
+    "main": true
+  },
+  "mbutil": {
+    "main": true
+  },
+  "mccabe": {
+    "main": true
+  },
+  "mcerp": {
+    "main": true
+  },
+  "md-toc": {
+    "main": true
+  },
+  "mdanalysis": {
+    "main": true,
+    "richardjgowers-patch-1": true
+  },
+  "mdanalysisdata": {
+    "main": true
+  },
+  "mdanalysistests": {
+    "main": true
+  },
+  "mdbenchmark": {
+    "main": true,
+    "prerelease": true
+  },
+  "mdf_forge": {
+    "main": true
+  },
+  "mdf_toolbox": {
+    "main": true
+  },
+  "mdshare": {
+    "main": true
+  },
+  "mdsplus": {
+    "main": true
+  },
+  "mdsrv": {
+    "main": true
+  },
+  "mdsynthesis": {
+    "main": true
+  },
+  "mdtraj": {
+    "main": true,
+    "v1.9.7": true
+  },
+  "mdx_gh_links": {
+    "main": true
+  },
+  "measurement": {
+    "main": true
+  },
+  "meautility": {
+    "main": true
+  },
+  "mechanicalsoup": {
+    "main": true
+  },
+  "mechanize": {
+    "main": true
+  },
+  "mechwolf": {
+    "main": true
+  },
+  "meds": {
+    "main": true
+  },
+  "megaman": {
+    "main": true
+  },
+  "megaradrp": {
+    "main": true
+  },
+  "meld3": {
+    "main": true
+  },
+  "memoized-property": {
+    "main": true
+  },
+  "memory_profiler": {
+    "main": true
+  },
+  "memprof": {
+    "main": true
+  },
+  "mendeleev": {
+    "main": true
+  },
+  "menpo": {
+    "main": true
+  },
+  "menpo3d": {
+    "main": true
+  },
+  "menpodetect": {
+    "main": true
+  },
+  "menpofit": {
+    "main": true
+  },
+  "menuinst": {
+    "main": true
+  },
+  "mercantile": {
+    "main": true
+  },
+  "mercurial": {
+    "main": true
+  },
+  "mercurial-app": {
+    "main": true
+  },
+  "mesa-dri-drivers-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-khr-devel-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-khr-devel-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libegl-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-libegl-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libgl-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-libgl-cos7-ppc64le": {
+    "master": true
+  },
+  "mesa-libglapi-cos7-aarch64": {
+    "master": true
+  },
+  "mesa-libglapi-cos7-ppc64le": {
+    "master": true
+  },
+  "mesalib": {
+    "main": true,
+    "dev": true,
+    "newer_mesa": true
+  },
+  "mesas": {
+    "main": true
+  },
+  "meshio": {
+    "main": true,
+    "v2.x": true
+  },
+  "meshplot": {
+    "main": true
+  },
+  "meshpy": {
+    "main": true
+  },
+  "meson": {
+    "main": true
+  },
+  "message-ix": {
+    "main": true
+  },
+  "metaflow": {
+    "main": true,
+    "savingoyal-patch-2": true,
+    "savingoyal-patch-1": true,
+    "savingoyal-patch-3": true
+  },
+  "metafone": {
+    "main": true
+  },
+  "metaio": {
+    "main": true
+  },
+  "metakernel": {
+    "main": true
+  },
+  "metaknowledge": {
+    "main": true
+  },
+  "metanetx-assets": {
+    "main": true
+  },
+  "metanetx-post": {
+    "main": true
+  },
+  "metanetx-sdk": {
+    "main": true
+  },
+  "metaphone": {
+    "main": true
+  },
+  "metar": {
+    "main": true
+  },
+  "metawrap": {
+    "main": true
+  },
+  "metis": {
+    "main": true
+  },
+  "metomi-isodatetime": {
+    "main": true
+  },
+  "metpy": {
+    "main": true,
+    "rc": true
+  },
+  "metric-learn": {
+    "main": true
+  },
+  "metsim": {
+    "main": true
+  },
+  "metview": {
+    "main": true,
+    "v5.8.1": true,
+    "iainrussell-patch-url-1": true,
+    "iainrussell-no-netcdf-c++-1": true
+  },
+  "metview-batch": {
+    "main": true
+  },
+  "mgrs": {
+    "main": true,
+    "revert-3-rebuild-pypy-0-1": true
+  },
+  "mgwr": {
+    "main": true
+  },
+  "micromagneticdata": {
+    "main": true
+  },
+  "micromagneticmodel": {
+    "main": true,
+    "0.7.4/0": true
+  },
+  "micromagnetictests": {
+    "main": true
+  },
+  "micropython": {
+    "main": true
+  },
+  "miktex": {
+    "main": true
+  },
+  "milksnake": {
+    "main": true
+  },
+  "miller": {
+    "main": true
+  },
+  "mimerender": {
+    "main": true
+  },
+  "minepy": {
+    "main": true
+  },
+  "minikube": {
+    "main": true
+  },
+  "minimalmodbus": {
+    "main": true
+  },
+  "minio": {
+    "main": true
+  },
+  "miniwdl": {
+    "main": true,
+    "1.3.0_h70f227": true
+  },
+  "minuit2": {
+    "main": true
+  },
+  "misaka": {
+    "main": true
+  },
+  "missingno": {
+    "main": true
+  },
+  "mistletoe-ebp": {
+    "main": true
+  },
+  "mistune": {
+    "main": true
+  },
+  "mizani": {
+    "main": true
+  },
+  "mkdocs": {
+    "main": true
+  },
+  "mkdocs-bootstrap": {
+    "main": true
+  },
+  "mkdocs-bootswatch": {
+    "main": true
+  },
+  "mkdocs-macros-plugin": {
+    "main": true
+  },
+  "mkdocs-markdownextradata-plugin": {
+    "main": true
+  },
+  "mkdocs-material": {
+    "main": true
+  },
+  "mkl-service": {
+    "main": true
+  },
+  "mkl_fft": {
+    "main": true
+  },
+  "mkl_random": {
+    "main": true
+  },
+  "ml_tooling": {
+    "main": true
+  },
+  "mlapack": {
+    "main": true
+  },
+  "mlconjug": {
+    "main": true
+  },
+  "mleap": {
+    "main": true
+  },
+  "mlflow": {
+    "main": true
+  },
+  "mlpack": {
+    "main": true
+  },
+  "mlt": {
+    "main": true
+  },
+  "mlxtend": {
+    "main": true,
+    "v0.11.0": true,
+    "0.16-dlib": true,
+    "v0.10.0": true,
+    "bumpversion": true,
+    "v0.9.1": true
+  },
+  "mmh3": {
+    "main": true
+  },
+  "mms-python-adapter": {
+    "main": true
+  },
+  "mms-python-client": {
+    "main": true
+  },
+  "mmtf-python": {
+    "main": true
+  },
+  "mmvec": {
+    "main": true,
+    "revert-2-master": true,
+    "fix-pandas": true
+  },
+  "mne": {
+    "main": true,
+    "dev": true
+  },
+  "mne-bids": {
+    "main": true,
+    "dev": true
+  },
+  "mnelab": {
+    "main": true
+  },
+  "mnist": {
+    "main": true
+  },
+  "mo-future": {
+    "main": true
+  },
+  "mo_pack": {
+    "main": true
+  },
+  "moab": {
+    "main": true,
+    "dev": true
+  },
+  "mock": {
+    "main": true,
+    "v1.0.1": true,
+    "2.0.0": true,
+    "v1.3.0": true
+  },
+  "mockextras": {
+    "main": true
+  },
+  "mockredispy": {
+    "main": true
+  },
+  "mockupdb": {
+    "main": true
+  },
+  "mocsy": {
+    "main": true
+  },
+  "model_bakery": {
+    "main": true
+  },
+  "model_metadata": {
+    "main": true
+  },
+  "modepy": {
+    "main": true
+  },
+  "moderngl": {
+    "main": true
+  },
+  "modernize": {
+    "main": true
+  },
+  "modestpy": {
+    "main": true
+  },
+  "modflow2netcdf": {
+    "main": true
+  },
+  "modflow6": {
+    "main": true
+  },
+  "modsecurity": {
+    "main": true
+  },
+  "modulegraph": {
+    "main": true
+  },
+  "moldyn-clustering": {
+    "main": true
+  },
+  "molecule": {
+    "main": true
+  },
+  "molmod": {
+    "main": true
+  },
+  "molpx": {
+    "main": true
+  },
+  "molvs": {
+    "main": true
+  },
+  "moment": {
+    "main": true
+  },
+  "momepy": {
+    "main": true
+  },
+  "monet": {
+    "main": true
+  },
+  "monetdblite": {
+    "main": true
+  },
+  "monetio": {
+    "main": true
+  },
+  "mongo-tools": {
+    "main": true,
+    "3.6.x": true
+  },
+  "mongoengine": {
+    "main": true
+  },
+  "mongomock": {
+    "main": true,
+    "trendelkampschroer-add-maintainer-1": true,
+    "trendelkampschroer-add-maintainer": true
+  },
+  "mongoose": {
+    "main": true
+  },
+  "mongoquery": {
+    "main": true
+  },
+  "monkeytype": {
+    "main": true
+  },
+  "mono": {
+    "main": true
+  },
+  "monotonic": {
+    "main": true
+  },
+  "monty": {
+    "main": true,
+    "shyuep-patch-1": true
+  },
+  "moola": {
+    "main": true
+  },
+  "mord": {
+    "main": true
+  },
+  "mordred": {
+    "main": true,
+    "mordred": true
+  },
+  "more-itertools": {
+    "main": true
+  },
+  "more.forwarded": {
+    "main": true
+  },
+  "more.pathtool": {
+    "main": true
+  },
+  "more.static": {
+    "main": true
+  },
+  "morepath": {
+    "main": true
+  },
+  "morfessor": {
+    "main": true
+  },
+  "morphsnakes": {
+    "main": true
+  },
+  "mosdef_cassandra": {
+    "main": true
+  },
+  "mosestokenizer": {
+    "main": true
+  },
+  "mosfit": {
+    "main": true
+  },
+  "mosh": {
+    "main": true
+  },
+  "moto": {
+    "main": true
+  },
+  "motor": {
+    "main": true
+  },
+  "moviepy": {
+    "main": true
+  },
+  "movingpandas": {
+    "main": true,
+    "v0.4": true,
+    "v0.3": true,
+    "v0.5": true,
+    "v0.2": true,
+    "v0.6": true
+  },
+  "moz-sql-parser": {
+    "main": true
+  },
+  "mpas-analysis": {
+    "main": true,
+    "dev": true
+  },
+  "mpas_tools": {
+    "main": true,
+    "libnetcdf_4.6.2": true
+  },
+  "mpb": {
+    "main": true
+  },
+  "mpc": {
+    "main": true
+  },
+  "mpfi": {
+    "main": true
+  },
+  "mpfr": {
+    "main": true
+  },
+  "mpg123": {
+    "main": true
+  },
+  "mpi": {
+    "main": true
+  },
+  "mpi4py": {
+    "main": true
+  },
+  "mpi4py-fft": {
+    "main": true
+  },
+  "mpich": {
+    "main": true,
+    "3.x": true
+  },
+  "mpifft4py": {
+    "main": true,
+    "mikaem-bump-3": true
+  },
+  "mpiplus": {
+    "main": true
+  },
+  "mpir": {
+    "main": true,
+    "dev": true
+  },
+  "mpl-probscale": {
+    "main": true
+  },
+  "mpl-scatter-density": {
+    "main": true
+  },
+  "mplcursors": {
+    "main": true
+  },
+  "mpld3": {
+    "main": true
+  },
+  "mplexporter": {
+    "main": true
+  },
+  "mplleaflet": {
+    "main": true
+  },
+  "mplt": {
+    "main": true
+  },
+  "mpltern": {
+    "main": true
+  },
+  "mplview": {
+    "main": true
+  },
+  "mpmath": {
+    "main": true
+  },
+  "mppp": {
+    "main": true,
+    "0.11_reloaded": true
+  },
+  "mputil": {
+    "main": true
+  },
+  "mr.bob": {
+    "main": true
+  },
+  "mrcfile": {
+    "main": true
+  },
+  "mrcz": {
+    "main": true,
+    "revert-9-rebuild-python38-0-1": true
+  },
+  "mrjob": {
+    "main": true
+  },
+  "msal": {
+    "main": true
+  },
+  "msal_extensions": {
+    "main": true
+  },
+  "mscorefonts": {
+    "main": true
+  },
+  "msdnet": {
+    "main": true
+  },
+  "msg-extractor": {
+    "main": true
+  },
+  "msgpack-c": {
+    "main": true
+  },
+  "msgpack-numpy": {
+    "main": true
+  },
+  "msgpack-python": {
+    "main": true
+  },
+  "mshr": {
+    "main": true
+  },
+  "msinttypes": {
+    "main": true
+  },
+  "msitools": {
+    "main": true
+  },
+  "msmbuilder": {
+    "main": true
+  },
+  "msmtools": {
+    "main": true
+  },
+  "msnoise": {
+    "main": true
+  },
+  "msprime": {
+    "main": true
+  },
+  "msrest": {
+    "main": true
+  },
+  "msrestazure": {
+    "main": true
+  },
+  "mss": {
+    "main": true
+  },
+  "msumastro": {
+    "main": true
+  },
+  "mtcnn": {
+    "main": true
+  },
+  "mtspec": {
+    "main": true
+  },
+  "mu_repo": {
+    "main": true
+  },
+  "multi-mechanize": {
+    "main": true
+  },
+  "multi_key_dict": {
+    "main": true
+  },
+  "multi_rake": {
+    "main": true
+  },
+  "multicore-tsne": {
+    "main": true
+  },
+  "multidict": {
+    "main": true
+  },
+  "multineat": {
+    "main": true
+  },
+  "multinest": {
+    "main": true
+  },
+  "multio": {
+    "main": true
+  },
+  "multiping": {
+    "main": true
+  },
+  "multipledispatch": {
+    "main": true
+  },
+  "multiprocess": {
+    "main": true
+  },
+  "multiset": {
+    "main": true
+  },
+  "multisplitby": {
+    "main": true
+  },
+  "mumps": {
+    "main": true,
+    "mumps-mpi": true
+  },
+  "munch": {
+    "main": true
+  },
+  "munge": {
+    "main": true
+  },
+  "munkres": {
+    "main": true
+  },
+  "muparser": {
+    "main": true
+  },
+  "mupdf": {
+    "main": true
+  },
+  "murmurhash": {
+    "main": true,
+    "v0.28.0": true
+  },
+  "murphy": {
+    "main": true
+  },
+  "musdb": {
+    "main": true
+  },
+  "museotoolbox": {
+    "main": true
+  },
+  "museval": {
+    "main": true
+  },
+  "mutagen": {
+    "main": true
+  },
+  "mutatest": {
+    "main": true
+  },
+  "mv_regex": {
+    "main": true
+  },
+  "mwclient": {
+    "main": true
+  },
+  "mycli": {
+    "main": true
+  },
+  "myproxyclient": {
+    "main": true
+  },
+  "mypy": {
+    "main": true
+  },
+  "mypy_extensions": {
+    "main": true
+  },
+  "mysql": {
+    "main": true
+  },
+  "mysql-connector-c": {
+    "main": true
+  },
+  "mysql-connector-cpp": {
+    "main": true
+  },
+  "mysql-connector-python": {
+    "main": true,
+    "TravisCI": true,
+    "synapticarbors-patch-1": true
+  },
+  "mysqlclient": {
+    "main": true
+  },
+  "myst-parser": {
+    "main": true,
+    "version-0.7.1": true,
+    "v0.8.0-release": true,
+    "v0.8.0": true,
+    "version-0.6": true
+  },
+  "naima": {
+    "main": true
+  },
+  "namaster": {
+    "main": true
+  },
+  "namedlist": {
+    "main": true
+  },
+  "nameparser": {
+    "main": true
+  },
+  "nano": {
+    "main": true
+  },
+  "nanoflann": {
+    "main": true
+  },
+  "nanotime": {
+    "main": true
+  },
+  "nansat": {
+    "main": true
+  },
+  "napari": {
+    "main": true
+  },
+  "nappy": {
+    "main": true
+  },
+  "nasm": {
+    "main": true,
+    "v2.11": true
+  },
+  "natsort": {
+    "main": true
+  },
+  "nauty": {
+    "main": true
+  },
+  "nb2plots": {
+    "main": true
+  },
+  "nb_anacondacloud": {
+    "main": true,
+    "rerender": true
+  },
+  "nb_black": {
+    "main": true
+  },
+  "nb_conda": {
+    "main": true
+  },
+  "nb_conda_kernels": {
+    "main": true
+  },
+  "nbbrowserpdf": {
+    "main": true
+  },
+  "nbclean": {
+    "main": true
+  },
+  "nbclient": {
+    "main": true
+  },
+  "nbcommands": {
+    "main": true
+  },
+  "nbconvert": {
+    "main": true,
+    "v5.6.1": true,
+    "rc": true
+  },
+  "nbconvert-utils": {
+    "main": true
+  },
+  "nbdime": {
+    "main": true
+  },
+  "nbexamples": {
+    "main": true
+  },
+  "nbfinder": {
+    "main": true
+  },
+  "nbformat": {
+    "main": true
+  },
+  "nbgitpuller": {
+    "main": true
+  },
+  "nbgrader": {
+    "main": true,
+    "jhamrick-patch-1": true
+  },
+  "nbin": {
+    "master": true
+  },
+  "nbpresent": {
+    "master": true
+  },
+  "nbresuse": {
+    "main": true
+  },
+  "nbrr": {
+    "main": true
+  },
+  "nbrsessionproxy": {
+    "master": true
+  },
+  "nbserverproxy": {
+    "main": true
+  },
+  "nbsmoke": {
+    "main": true
+  },
+  "nbsphinx": {
+    "main": true,
+    "fixup-rerender": true
+  },
+  "nbstripout": {
+    "main": true
+  },
+  "nbtutor": {
+    "main": true
+  },
+  "nbval": {
+    "main": true
+  },
+  "nc_time_axis": {
+    "main": true
+  },
+  "nccl": {
+    "main": true,
+    "v2.4.6.1": true
+  },
+  "nccmp": {
+    "main": true
+  },
+  "ncdu": {
+    "main": true
+  },
+  "ncempy": {
+    "main": true
+  },
+  "ncephes": {
+    "main": true
+  },
+  "ncl": {
+    "main": true,
+    "dev": true
+  },
+  "nco": {
+    "main": true,
+    "dev": true
+  },
+  "ncpol2sdpa": {
+    "main": true
+  },
+  "ncurses": {
+    "main": true
+  },
+  "ncview": {
+    "main": true
+  },
+  "ncvis": {
+    "main": true
+  },
+  "nd2reader": {
+    "main": true
+  },
+  "ndarray": {
+    "main": true,
+    "initial_build": true
+  },
+  "ndarray_listener": {
+    "main": true
+  },
+  "ndcctools": {
+    "main": true,
+    "dthain-readline-history-1": true,
+    "dthain-readline-history": true
+  },
+  "ndcsv": {
+    "main": true
+  },
+  "ndcube": {
+    "main": true,
+    "1.x": true
+  },
+  "ndf": {
+    "main": true
+  },
+  "ndg-httpsclient": {
+    "main": true
+  },
+  "ndiff": {
+    "main": true
+  },
+  "nds2-client": {
+    "main": true
+  },
+  "nds2-client-swig": {
+    "main": true
+  },
+  "ndscope": {
+    "main": true
+  },
+  "nearpy": {
+    "main": true
+  },
+  "neo4j-connector": {
+    "main": true
+  },
+  "neo4j-python-driver": {
+    "main": true
+  },
+  "neobolt": {
+    "main": true
+  },
+  "neomodel": {
+    "main": true
+  },
+  "neotime": {
+    "main": true
+  },
+  "neovim": {
+    "main": true
+  },
+  "neper": {
+    "main": true
+  },
+  "neptune-client": {
+    "main": true,
+    "waj/0.9.19": true
+  },
+  "neptune-notebooks": {
+    "main": true
+  },
+  "nest-asyncio": {
+    "main": true
+  },
+  "nest-simulator": {
+    "main": true
+  },
+  "nestle": {
+    "main": true
+  },
+  "nestly": {
+    "main": true
+  },
+  "netaddr": {
+    "main": true
+  },
+  "netcdf-cxx-legacy": {
+    "main": true
+  },
+  "netcdf-cxx4": {
+    "main": true
+  },
+  "netcdf-fortran": {
+    "main": true,
+    "4.4.x": true,
+    "4.5.x": true
+  },
+  "netcdf-scm": {
+    "main": true
+  },
+  "netcdf4": {
+    "main": true,
+    "builds_with_hdf5_1.10.2": true,
+    "v1.3.x": true
+  },
+  "netgen": {
+    "main": true,
+    "looooo-zlib": true,
+    "looooo-zlib-1": true
+  },
+  "netifaces": {
+    "main": true
+  },
+  "netpbm": {
+    "main": true
+  },
+  "nettle": {
+    "main": true
+  },
+  "networkit": {
+    "main": true
+  },
+  "networkx": {
+    "main": true
+  },
+  "networkx-metis": {
+    "main": true
+  },
+  "neunorm": {
+    "main": true
+  },
+  "neuralcoref": {
+    "main": true
+  },
+  "neurdflib": {
+    "main": true
+  },
+  "neurodocker": {
+    "main": true
+  },
+  "neurofire": {
+    "main": true
+  },
+  "neuron": {
+    "main": true
+  },
+  "neurosynchro": {
+    "main": true
+  },
+  "neurotic": {
+    "main": true
+  },
+  "nevergrad": {
+    "main": true
+  },
+  "newrelic": {
+    "main": true
+  },
+  "newspaper3k": {
+    "main": true
+  },
+  "newt": {
+    "main": true
+  },
+  "nexpy": {
+    "main": true
+  },
+  "nexus": {
+    "main": true
+  },
+  "nexusformat": {
+    "main": true,
+    "tschoonj-patch-1": true
+  },
+  "nfft": {
+    "main": true,
+    "nfft3.2.x": true
+  },
+  "ngboost": {
+    "main": true
+  },
+  "nghttp2": {
+    "main": true
+  },
+  "nginx": {
+    "main": true,
+    "1.14.x": true
+  },
+  "nginx-module-njs": {
+    "main": true
+  },
+  "nglview": {
+    "main": true
+  },
+  "ngmix": {
+    "main": true
+  },
+  "ngram": {
+    "main": true
+  },
+  "ngspice": {
+    "main": true,
+    "31": true,
+    "30": true
+  },
+  "nibabel": {
+    "main": true
+  },
+  "nidaqmx-python": {
+    "main": true
+  },
+  "nilearn": {
+    "main": true
+  },
+  "nim": {
+    "main": true
+  },
+  "nine": {
+    "main": true
+  },
+  "ninja": {
+    "main": true
+  },
+  "ninja_syntax": {
+    "main": true
+  },
+  "niondata": {
+    "main": true
+  },
+  "nionswift": {
+    "main": true
+  },
+  "nionswift-experimental": {
+    "main": true
+  },
+  "nionswift-instrumentation": {
+    "main": true
+  },
+  "nionswift-io": {
+    "main": true
+  },
+  "nionswift-tool": {
+    "main": true
+  },
+  "nionswift-usim": {
+    "main": true
+  },
+  "nionswift-video-capture": {
+    "main": true
+  },
+  "nionui": {
+    "main": true
+  },
+  "nionui-tool": {
+    "main": true
+  },
+  "nionutils": {
+    "main": true
+  },
+  "nipy": {
+    "main": true
+  },
+  "nipype": {
+    "main": true,
+    "maint/1.3.x": true
+  },
+  "nitime": {
+    "main": true
+  },
+  "nitro": {
+    "main": true,
+    "hobu-license-update": true,
+    "hobu-license-update-1": true
+  },
+  "nix": {
+    "main": true
+  },
+  "nlohmann_json": {
+    "main": true
+  },
+  "nlopt": {
+    "main": true
+  },
+  "nltk": {
+    "main": true
+  },
+  "nltk_data": {
+    "main": true
+  },
+  "nmslib": {
+    "main": true
+  },
+  "nn": {
+    "main": true
+  },
+  "nnn": {
+    "main": true
+  },
+  "node2vec": {
+    "main": true
+  },
+  "nodebook": {
+    "main": true
+  },
+  "nodeenv": {
+    "main": true
+  },
+  "nodejs": {
+    "main": true,
+    "6.x": true,
+    "10.x": true,
+    "16.x": true,
+    "14.x": true,
+    "12.x": true
+  },
+  "noise": {
+    "main": true
+  },
+  "nomkl": {
+    "main": true
+  },
+  "norbert": {
+    "main": true
+  },
+  "normaliz": {
+    "main": true
+  },
+  "nose": {
+    "main": true
+  },
+  "nose-cov": {
+    "main": true
+  },
+  "nose-exclude": {
+    "main": true
+  },
+  "nose-progressive": {
+    "main": true
+  },
+  "nose-timer": {
+    "main": true
+  },
+  "nose2": {
+    "main": true
+  },
+  "nose_parameterized": {
+    "main": true
+  },
+  "nose_xunitmp": {
+    "main": true
+  },
+  "nosexcover": {
+    "main": true
+  },
+  "notebook": {
+    "main": true,
+    "5.x": true,
+    "rc": true
+  },
+  "notebookscripter": {
+    "main": true,
+    "6.0.0": true
+  },
+  "notedown": {
+    "main": true
+  },
+  "noteslib": {
+    "main": true
+  },
+  "nox": {
+    "main": true
+  },
+  "npctypes": {
+    "main": true
+  },
+  "npstreams": {
+    "main": true
+  },
+  "nptdms": {
+    "main": true
+  },
+  "npth": {
+    "main": true
+  },
+  "nr": {
+    "master": true
+  },
+  "nr.bundler": {
+    "main": true
+  },
+  "nr.cli": {
+    "main": true
+  },
+  "nr.config": {
+    "main": true
+  },
+  "nr.date": {
+    "main": true
+  },
+  "nr.fs": {
+    "main": true,
+    "v1.6.0": true
+  },
+  "nr.parse": {
+    "main": true
+  },
+  "nr.types": {
+    "main": true,
+    "update-3.0.3": true,
+    "update-3.0.0": true,
+    "update-3.0.2": true
+  },
+  "nsis": {
+    "main": true
+  },
+  "nspr": {
+    "main": true
+  },
+  "nspr-cos7-aarch64": {
+    "master": true
+  },
+  "nss": {
+    "main": true
+  },
+  "nss-softokn-cos7-aarch64": {
+    "master": true
+  },
+  "nss-softokn-freebl-cos7-aarch64": {
+    "master": true
+  },
+  "nss-util-cos7-aarch64": {
+    "master": true
+  },
+  "nsync": {
+    "main": true
+  },
+  "ntbtls": {
+    "main": true
+  },
+  "nteract-scrapbook": {
+    "main": true
+  },
+  "nteract_on_jupyter": {
+    "main": true
+  },
+  "ntl": {
+    "main": true
+  },
+  "ntlm-auth": {
+    "main": true
+  },
+  "ntplib": {
+    "main": true
+  },
+  "nuitka": {
+    "main": true
+  },
+  "numactl-cos6-x86_64": {
+    "master": true
+  },
+  "numactl-devel-cos6-x86_64": {
+    "master": true
+  },
+  "numba": {
+    "main": true,
+    "revert-58-0.51.2_h5f3cd8": true
+  },
+  "numba-scipy": {
+    "main": true
+  },
+  "numcodecs": {
+    "main": true
+  },
+  "numcosmo": {
+    "main": true
+  },
+  "numdifftools": {
+    "main": true
+  },
+  "numericalunits": {
+    "main": true
+  },
+  "numexpr": {
+    "main": true
+  },
+  "numina": {
+    "main": true
+  },
+  "numpoly": {
+    "main": true
+  },
+  "numpy": {
+    "main": true,
+    "numpy118": true,
+    "numpy19": true,
+    "numpy112": true,
+    "numpy120": true,
+    "dev": true,
+    "numpy121": true,
+    "numpy18": true,
+    "numpy117": true,
+    "numpy114": true,
+    "numpy113": true,
+    "numpy116": true,
+    "numpy119": true,
+    "numpy115": true,
+    "numpy17": true,
+    "numpy111": true
+  },
+  "numpy-indexed": {
+    "main": true
+  },
+  "numpy-stl": {
+    "main": true
+  },
+  "numpy_groupies": {
+    "main": true
+  },
+  "numpy_sugar": {
+    "main": true
+  },
+  "numpydoc": {
+    "main": true
+  },
+  "nvcc": {
+    "main": true
+  },
+  "nvidia-apex": {
+    "main": true
+  },
+  "nvidia-ml": {
+    "main": true
+  },
+  "nxviz": {
+    "main": true
+  },
+  "oath": {
+    "main": true,
+    "1.4.4_h8ee4a3": true
+  },
+  "oauth2client": {
+    "main": true
+  },
+  "oauthenticator": {
+    "main": true
+  },
+  "oauthlib": {
+    "main": true
+  },
+  "obake": {
+    "main": true
+  },
+  "objconv": {
+    "main": true
+  },
+  "objectpath": {
+    "main": true
+  },
+  "objgraph": {
+    "main": true
+  },
+  "obsplus": {
+    "main": true
+  },
+  "obspy": {
+    "main": true
+  },
+  "obspyck": {
+    "main": true
+  },
+  "ocaml": {
+    "main": true,
+    "4.02": true
+  },
+  "ocaml-camlp5": {
+    "main": true
+  },
+  "ocaml-findlib": {
+    "main": true
+  },
+  "ocaml-num": {
+    "main": true
+  },
+  "ocamlbuild": {
+    "main": true
+  },
+  "occt": {
+    "main": true,
+    "occt_75": true,
+    "rc": true,
+    "7.3": true
+  },
+  "oceans": {
+    "main": true
+  },
+  "oceanspy": {
+    "main": true
+  },
+  "ocgis": {
+    "main": true
+  },
+  "ocl-icd": {
+    "main": true,
+    "inducer-cl-3-headers": true
+  },
+  "ocl-icd-system": {
+    "main": true
+  },
+  "ocl_icd_wrapper_apple": {
+    "main": true
+  },
+  "oclgrind": {
+    "main": true
+  },
+  "oct2py": {
+    "main": true
+  },
+  "octave": {
+    "main": true
+  },
+  "octave_kernel": {
+    "main": true
+  },
+  "octomap": {
+    "main": true
+  },
+  "ocw": {
+    "master": true
+  },
+  "od": {
+    "main": true
+  },
+  "oddt": {
+    "main": true
+  },
+  "odenet": {
+    "main": true
+  },
+  "odfpy": {
+    "main": true
+  },
+  "odil": {
+    "main": true
+  },
+  "odm2api": {
+    "main": true
+  },
+  "odm2rest": {
+    "master": true
+  },
+  "odo": {
+    "main": true
+  },
+  "odvc": {
+    "main": true
+  },
+  "ogh": {
+    "main": true
+  },
+  "ogre": {
+    "main": true,
+    "1.10": true,
+    "1.12": true
+  },
+  "ogs5py": {
+    "main": true
+  },
+  "oic": {
+    "main": true
+  },
+  "oifits": {
+    "main": true
+  },
+  "okonomiyaki": {
+    "main": true
+  },
+  "oktopus": {
+    "main": true
+  },
+  "olefile": {
+    "main": true
+  },
+  "oletools": {
+    "main": true
+  },
+  "oliver": {
+    "main": true,
+    "1.2.0": true,
+    "update/1.4.8": true
+  },
+  "omas": {
+    "main": true,
+    "v0.73.0": true,
+    "v0.73.1": true
+  },
+  "omcompiler": {
+    "main": true,
+    "jschueller-patch-1": true
+  },
+  "omegaconf": {
+    "main": true,
+    "rc": true
+  },
+  "omicron": {
+    "main": true
+  },
+  "omnifit": {
+    "main": true
+  },
+  "omniorb": {
+    "main": true
+  },
+  "omniorbpy": {
+    "main": true
+  },
+  "omnisci-pytools": {
+    "main": true
+  },
+  "omniscidb-cpu": {
+    "master": true
+  },
+  "omniscidb-cuda": {
+    "master": true
+  },
+  "ompl": {
+    "main": true
+  },
+  "oniguruma": {
+    "main": true
+  },
+  "onnx": {
+    "main": true,
+    "protobuf-38": true,
+    "dev": true,
+    "v1.3.0": true
+  },
+  "onnx-caffe2": {
+    "main": true
+  },
+  "onnx-tf": {
+    "main": true
+  },
+  "oommf": {
+    "main": true
+  },
+  "oommfc": {
+    "main": true
+  },
+  "oommfodt": {
+    "main": true,
+    "update-0.8": true,
+    "0.7.4/0": true
+  },
+  "oop-ext": {
+    "main": true
+  },
+  "opbeat": {
+    "main": true
+  },
+  "opcua": {
+    "main": true
+  },
+  "open-fonts": {
+    "main": true
+  },
+  "openal-soft": {
+    "main": true
+  },
+  "openalea.deploy": {
+    "main": true
+  },
+  "openapi-codec": {
+    "main": true
+  },
+  "openapi-spec-validator": {
+    "main": true
+  },
+  "openbabel": {
+    "main": true
+  },
+  "openblas": {
+    "main": true
+  },
+  "opencamlib": {
+    "main": true
+  },
+  "opencv": {
+    "main": true,
+    "3.4.7": true,
+    "3.4.x": true,
+    "v2": true
+  },
+  "openexr": {
+    "main": true
+  },
+  "openfile": {
+    "main": true
+  },
+  "openfst": {
+    "main": true
+  },
+  "openglider": {
+    "main": true
+  },
+  "openh264": {
+    "main": true
+  },
+  "openimageio": {
+    "main": true
+  },
+  "openjdk": {
+    "main": true,
+    "java10": true,
+    "java9": true,
+    "7.x": true,
+    "java11": true,
+    "java8": true
+  },
+  "openjpeg": {
+    "main": true,
+    "2.1.x": true
+  },
+  "openkim-models": {
+    "main": true
+  },
+  "openkimmodels": {
+    "main": true
+  },
+  "openldap": {
+    "main": true
+  },
+  "openlibm": {
+    "main": true,
+    "0.5.x": true,
+    "v0.7.x": true
+  },
+  "openmc": {
+    "main": true
+  },
+  "openmdao": {
+    "main": true
+  },
+  "openmeeg": {
+    "main": true
+  },
+  "openmesh": {
+    "main": true,
+    "remove-from-maintainers": true
+  },
+  "openmesh-python": {
+    "main": true
+  },
+  "openmm": {
+    "main": true,
+    "dev": true,
+    "rc": true
+  },
+  "openmotif": {
+    "main": true,
+    "fix_package_uploads": true
+  },
+  "openmp": {
+    "main": true,
+    "dev": true,
+    "rc": true
+  },
+  "openmpi": {
+    "main": true,
+    "rc": true
+  },
+  "openorb": {
+    "main": true
+  },
+  "openorb-data": {
+    "main": true
+  },
+  "openorb-data-bc430": {
+    "main": true
+  },
+  "openorb-data-de405": {
+    "main": true
+  },
+  "openorb-data-de430": {
+    "main": true
+  },
+  "openorb-eph-builder": {
+    "main": true
+  },
+  "openpathsampling": {
+    "main": true
+  },
+  "openpathsampling-cli": {
+    "main": true
+  },
+  "openpiv": {
+    "main": true,
+    "alexlib-patch-2": true,
+    "alexlib-patch-1": true
+  },
+  "openpmd-api": {
+    "main": true
+  },
+  "openpmd-beamphysics": {
+    "main": true
+  },
+  "openpmd-viewer": {
+    "main": true
   }
 }
