@@ -19,6 +19,7 @@ from admin_migrations.migrators import (
     TraviCINoOSXAMD64,
     CondaForgeMasterToMain,
     FeedstocksServiceUpdate,
+    CondaForgeAutomergeUpdate,
     # these are finished or not used so we don't run them
     # CondaForgeGHAWithMain,
     # RotateCFStagingToken,
@@ -365,6 +366,7 @@ def main():
         RAutomerge(),
         TraviCINoOSXAMD64(),
         FeedstocksServiceUpdate(),
+        CondaForgeAutomergeUpdate(),
         # these are finished or not used so we don't run them
         # CondaForgeGHAWithMain(),
         # RotateCFStagingToken(),

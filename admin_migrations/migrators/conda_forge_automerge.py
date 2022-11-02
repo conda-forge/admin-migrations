@@ -16,7 +16,7 @@ jobs:
     name: automerge
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: automerge-action
         id: automerge-action
         uses: conda-forge/automerge-action@main
@@ -48,5 +48,26 @@ class CondaForgeAutomerge(Migrator):
                 ["git", "rm", "-f", ".github/workflows/main.yml"],
                 check=True,
             )
+
+        return True, True, False
+
+
+class CondaForgeAutomergeUpdate(Migrator):
+    def migrate(self, feedstock, branch):
+        if not os.path.exists(".github/workflows/automerge.yml"):
+            return True, False, False
+
+        with open(".github/workflows/automerge.yml", "r") as fp:
+            text = fp.read(AUTOMERGE)
+
+        if "actions/checkout@v2" in text:
+            return True, False, False
+
+        with open(".github/workflows/automerge.yml", "w") as fp:
+            fp.write(AUTOMERGE)
+        subprocess.run(
+            ["git", "add", ".github/workflows/automerge.yml"],
+            check=True,
+        )
 
         return True, True, False
