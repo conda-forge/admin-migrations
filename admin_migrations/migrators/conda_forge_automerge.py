@@ -58,7 +58,7 @@ class CondaForgeAutomergeUpdate(Migrator):
             return True, False, False
 
         with open(".github/workflows/automerge.yml", "r") as fp:
-            text = fp.read(AUTOMERGE)
+            text = fp.read()
 
         if "actions/checkout@v2" in text:
             return True, False, False
