@@ -44306,7 +44306,8 @@
     "main": true
   },
   "pyvista": {
-    "main": true
+    "main": true,
+    "update-to-0.37.0": true
   },
   "pyviz_comms": {
     "main": true,

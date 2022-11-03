@@ -39486,7 +39486,8 @@
     "master": true
   },
   "pyvista": {
-    "master": true
+    "master": true,
+    "update-to-0.37.0": true
   },
   "pyviz_comms": {
     "master": true,
