@@ -8038,7 +8038,8 @@
     "master": true
   },
   "pyemcee": {
-    "master": true
+    "master": true,
+    "revert-3-update": true
   },
   "python-tzdata": {
     "master": true

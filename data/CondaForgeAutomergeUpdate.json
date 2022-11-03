@@ -6314,7 +6314,8 @@
     "main": true
   },
   "pyemcee": {
-    "main": true
+    "main": true,
+    "revert-3-update": true
   },
   "python-tzdata": {
     "main": true
