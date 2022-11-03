@@ -35567,7 +35567,8 @@
   },
   "ipycytoscape": {
     "main": true,
-    "add-npm": true
+    "add-npm": true,
+    "a": true
   },
   "ipydatawidgets": {
     "main": true
@@ -54800,6 +54801,12 @@
     "main": true
   },
   "fica": {
+    "main": true
+  },
+  "ipdb": {
+    "main": true
+  },
+  "jsmin": {
     "main": true
   }
 }
