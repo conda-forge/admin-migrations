@@ -17691,7 +17691,8 @@
     "master": true
   },
   "soxspipe": {
-    "master": true
+    "master": true,
+    "revert-4-master": true
   },
   "venv-kernel": {
     "master": true
@@ -54952,6 +54953,21 @@
     "main": true
   },
   "scikit-network": {
+    "main": true
+  },
+  "r-knockoff": {
+    "main": true
+  },
+  "r-rtf": {
+    "main": true
+  },
+  "r-ncar": {
+    "main": true
+  },
+  "r-noncompart": {
+    "main": true
+  },
+  "r-epitools": {
     "main": true
   }
 }
