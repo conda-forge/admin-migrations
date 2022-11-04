@@ -29546,7 +29546,14 @@
     "test-ignore-linter": true,
     "test-ci-fail": true,
     "cirun": true,
-    "rerender-live-test": true
+    "rerender-live-test": true,
+    "h87b456-circle-travis-ci-fail": true,
+    "h756d89-azure-azure-no-automerge-user": true,
+    "h11c48d-azure-azure-commit-after": true,
+    "h4e7e76-azure-azure-ci-fail": true,
+    "h8731de-azure-azure-commit-after": true,
+    "h1df68f-azure-azure-no-automerge-user": true,
+    "hac24df-azure-azure": true
   },
   "cf_units": {
     "main": true
@@ -40525,7 +40532,8 @@
   },
   "pamqp": {
     "main": true,
-    "first-build": true
+    "first-build": true,
+    "maintainters": true
   },
   "pandana": {
     "main": true

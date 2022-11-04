@@ -24684,7 +24684,14 @@
     "cirun": true,
     "test-ignore-linter": true,
     "rerender-live-test": true,
-    "test-ci-fail": true
+    "test-ci-fail": true,
+    "h87b456-circle-travis-ci-fail": true,
+    "h756d89-azure-azure-no-automerge-user": true,
+    "h11c48d-azure-azure-commit-after": true,
+    "h4e7e76-azure-azure-ci-fail": true,
+    "h8731de-azure-azure-commit-after": true,
+    "h1df68f-azure-azure-no-automerge-user": true,
+    "hac24df-azure-azure": true
   },
   "cf_units": {
     "main": true
