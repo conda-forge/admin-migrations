@@ -24005,7 +24005,8 @@
     "main": true
   },
   "geoapis": {
-    "main": true
+    "main": true,
+    "revert-1-update_0_3_0": true
   },
   "census-parquet": {
     "main": true
