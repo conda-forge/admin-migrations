@@ -54959,7 +54959,8 @@
     "main": true
   },
   "distopia": {
-    "main": true
+    "main": true,
+    "update_0.2.0": true
   },
   "perl-file-slurp": {
     "main": true
@@ -55247,6 +55248,12 @@
     "main": true
   },
   "mypyc-ipython": {
+    "main": true
+  },
+  "autokeras": {
+    "main": true
+  },
+  "r-spatstat.explore": {
     "main": true
   }
 }
