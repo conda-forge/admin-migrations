@@ -12317,7 +12317,10 @@
   "grpc_java_plugin": {
     "master": true,
     "1.40.x": true,
-    "1.37.x": true
+    "1.37.x": true,
+    "1.48.x": true,
+    "1.47.x": true,
+    "1.46.x": true
   },
   "vadersentiment": {
     "master": true
