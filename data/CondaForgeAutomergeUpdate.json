@@ -18520,7 +18520,8 @@
     "main": true
   },
   "django-analytical": {
-    "main": true
+    "main": true,
+    "fix-deps-3.1.0": true
   },
   "nagl": {
     "main": true
@@ -55214,6 +55215,9 @@
     "main": true
   },
   "perl-extutils-helpers": {
+    "main": true
+  },
+  "drf-dynamic-fields": {
     "main": true
   }
 }

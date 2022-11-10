@@ -20261,7 +20261,8 @@
     "master": true
   },
   "django-analytical": {
-    "master": true
+    "master": true,
+    "fix-deps-3.1.0": true
   },
   "nagl": {
     "master": true
@@ -55302,6 +55303,9 @@
     "main": true
   },
   "perl-extutils-helpers": {
+    "main": true
+  },
+  "drf-dynamic-fields": {
     "main": true
   }
 }
