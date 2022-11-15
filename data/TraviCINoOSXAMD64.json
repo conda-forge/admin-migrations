@@ -7785,7 +7785,8 @@
   "arosics": {
     "master": true,
     "fix_folium": true,
-    "do_not_use_gdal_3.2.1": true
+    "do_not_use_gdal_3.2.1": true,
+    "remove_setuptools-scm_and_colorama": true
   },
   "r-fastmatrix": {
     "master": true
