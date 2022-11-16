@@ -40,8 +40,13 @@ class DotConda(Migrator):
 
         yaml = YAML()
         cfg = _read_conda_forge_yaml(yaml)
-        if "conda_pkg_format" not in cfg:
-            cfg["conda_pkg_format"] = "2"
+        if (
+            "conda_build" not in cfg
+            or "pkg_format" not in cfg["conda_build"]
+        ):
+            if "conda_build" not in cfg:
+                cfg["conda_build"] = {}
+            cfg["conda_build"]["pkg_format"] = "2"
             with open("conda-forge.yml", "w") as fp:
                 yaml.dump(cfg, fp)
             subprocess.run(
