@@ -38687,7 +38687,8 @@
   },
   "moab": {
     "main": true,
-    "dev": true
+    "dev": true,
+    "moab-5.4.1-rc1": true
   },
   "mock": {
     "main": true,
@@ -39327,7 +39328,8 @@
   "ndcctools": {
     "main": true,
     "dthain-readline-history-1": true,
-    "dthain-readline-history": true
+    "dthain-readline-history": true,
+    "master": true
   },
   "ndcsv": {
     "main": true
