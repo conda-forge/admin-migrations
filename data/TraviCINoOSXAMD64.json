@@ -22097,7 +22097,8 @@
     "main": true
   },
   "datavzrd": {
-    "main": true
+    "main": true,
+    "fxwiegand-patch-1": true
   },
   "napari-clusters-plotter": {
     "main": true
@@ -55510,6 +55511,18 @@
     "main": true
   },
   "r-gbutils": {
+    "main": true
+  },
+  "fpm-metadata": {
+    "main": true
+  },
+  "pytorch-warmup": {
+    "main": true
+  },
+  "r-juicyjuice": {
+    "main": true
+  },
+  "r-bigd": {
     "main": true
   }
 }
