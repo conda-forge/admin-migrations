@@ -23075,7 +23075,8 @@
     "main": true
   },
   "libboost-mpi": {
-    "main": true
+    "main": true,
+    "abi": true
   },
   "polars": {
     "main": true
