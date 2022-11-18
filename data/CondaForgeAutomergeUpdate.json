@@ -13122,7 +13122,8 @@
     "main": true
   },
   "apischema": {
-    "main": true
+    "main": true,
+    "v0.15.x": true
   },
   "extract_model": {
     "main": true

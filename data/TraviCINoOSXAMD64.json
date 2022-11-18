@@ -14857,7 +14857,8 @@
     "master": true
   },
   "apischema": {
-    "master": true
+    "master": true,
+    "v0.15.x": true
   },
   "extract_model": {
     "master": true
