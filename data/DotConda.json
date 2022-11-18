@@ -8771,7 +8771,8 @@
     "main": true
   },
   "jupyter_server": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "jupyter_sphinx": {
     "main": true
@@ -13474,7 +13475,8 @@
   },
   "perl": {
     "5.26.2": true,
-    "legacy": true
+    "legacy": true,
+    "main": true
   },
   "perl-app-cpanminus": {
     "main": true,

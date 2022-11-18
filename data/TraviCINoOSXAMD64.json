@@ -31466,7 +31466,8 @@
     "master": true
   },
   "jupyter_server": {
-    "master": true
+    "master": true,
+    "rc": true
   },
   "jupyter_sphinx": {
     "master": true

@@ -36307,7 +36307,8 @@
     "main": true
   },
   "jupyter_server": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "jupyter_sphinx": {
     "main": true
