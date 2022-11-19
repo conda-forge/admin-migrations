@@ -55380,5 +55380,29 @@
   },
   "r-modelenv": {
     "main": true
+  },
+  "esi-core": {
+    "main": true
+  },
+  "esi-utils-vectors": {
+    "main": true
+  },
+  "esi-utils-io": {
+    "main": true
+  },
+  "esi-utils-colors": {
+    "main": true
+  },
+  "esi-utils-time": {
+    "main": true
+  },
+  "esi-extern-openquake": {
+    "main": true
+  },
+  "esi-utils-rupture": {
+    "main": true
+  },
+  "jupyter_server_terminals": {
+    "main": true
   }
 }
