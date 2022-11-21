@@ -16687,7 +16687,8 @@
     "master": true
   },
   "meggie": {
-    "master": true
+    "master": true,
+    "Teekuningas-patch-1": true
   },
   "pynauty": {
     "master": true
@@ -55643,6 +55644,9 @@
     "main": true
   },
   "caf.toolkit": {
+    "main": true
+  },
+  "perl-test-nowarnings": {
     "main": true
   }
 }
