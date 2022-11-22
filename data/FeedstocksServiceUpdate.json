@@ -53692,5 +53692,29 @@
   },
   "autoboost": {
     "main": true
+  },
+  "gcloud-aio-bigquery": {
+    "main": true
+  },
+  "gcloud-aio-pubsub": {
+    "main": true
+  },
+  "gcloud-aio-datastore": {
+    "main": true
+  },
+  "gcloud-aio-storage": {
+    "main": true
+  },
+  "gcloud-aio-taskqueue": {
+    "main": true
+  },
+  "gcloud-aio-kms": {
+    "main": true
+  },
+  "gcloud-aio-auth": {
+    "main": true
+  },
+  "numpy-allocator": {
+    "main": true
   }
 }
