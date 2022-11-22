@@ -501,7 +501,8 @@
     "main": true
   },
   "apsg": {
-    "main": true
+    "main": true,
+    "new_release": true
   },
   "apsw": {
     "main": true
@@ -14127,7 +14128,8 @@
     "v3.8": true,
     "v3.20.0": true,
     "v3.18": true,
-    "v3.5": true
+    "v3.5": true,
+    "v3.20.x": true
   },
   "protobuf3-to-dict": {
     "main": true
