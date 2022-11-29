@@ -7527,7 +7527,8 @@
     "main": true
   },
   "optimade": {
-    "main": true
+    "main": true,
+    "ml-evs/remove_fastapi_dep": true
   },
   "djangorestframework-queryfields": {
     "main": true
