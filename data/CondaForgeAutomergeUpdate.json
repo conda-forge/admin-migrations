@@ -36601,7 +36601,8 @@
     "main": true
   },
   "kiwipy": {
-    "main": true
+    "main": true,
+    "v0.7.x": true
   },
   "kiwisolver": {
     "main": true
@@ -41318,7 +41319,8 @@
   "plumpy": {
     "main": true,
     "v0.12.1": true,
-    "v0.12.0": true
+    "v0.12.0": true,
+    "v0.21.x": true
   },
   "ply": {
     "main": true
