@@ -55923,5 +55923,11 @@
   },
   "httpx-cache": {
     "main": true
+  },
+  "ruff": {
+    "main": true
+  },
+  "airflow-provider-great-expectations": {
+    "main": true
   }
 }
