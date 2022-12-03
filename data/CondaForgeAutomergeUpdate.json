@@ -55927,7 +55927,8 @@
     "main": true
   },
   "ruff": {
-    "main": true
+    "main": true,
+    "charlie/env": true
   },
   "airflow-provider-great-expectations": {
     "main": true,
@@ -56042,6 +56043,9 @@
     "main": true
   },
   "r-treeheatr": {
+    "main": true
+  },
+  "airflow-code-editor": {
     "main": true
   }
 }
