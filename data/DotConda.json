@@ -56014,5 +56014,8 @@
   },
   "pyproject_hooks": {
     "main": true
+  },
+  "kedro-airflow": {
+    "main": true
   }
 }
