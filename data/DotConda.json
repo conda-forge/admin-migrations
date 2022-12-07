@@ -11891,7 +11891,8 @@
   "netcdf4": {
     "main": true,
     "v1.3.x": true,
-    "builds_with_hdf5_1.10.2": true
+    "builds_with_hdf5_1.10.2": true,
+    "v1.6.0": true
   },
   "netgen": {
     "main": true,
