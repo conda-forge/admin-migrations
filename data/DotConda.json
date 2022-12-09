@@ -3521,7 +3521,9 @@
   },
   "databroker": {
     "main": true,
-    "v1.x": true
+    "v1.x": true,
+    "v2.0.0b13": true,
+    "v2.0.0b12": true
   },
   "databroker-elasticsearch": {
     "main": true
