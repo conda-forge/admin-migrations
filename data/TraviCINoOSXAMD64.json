@@ -6041,7 +6041,8 @@
   },
   "forcebalance": {
     "master": true,
-    "toolkit-compatibility": true
+    "toolkit-compatibility": true,
+    "release-1.9.4": true
   },
   "python-manilaclient": {
     "master": true
