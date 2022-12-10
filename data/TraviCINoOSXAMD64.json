@@ -51423,7 +51423,8 @@
     "main": true
   },
   "poetry-plugin-export": {
-    "main": true
+    "main": true,
+    "dev": true
   },
   "txm_sandbox": {
     "main": true
@@ -56363,6 +56364,15 @@
     "main": true
   },
   "shimmy": {
+    "main": true
+  },
+  "parallelproj": {
+    "main": true
+  },
+  "r-redcapr": {
+    "main": true
+  },
+  "r-redcaptidier": {
     "main": true
   }
 }
