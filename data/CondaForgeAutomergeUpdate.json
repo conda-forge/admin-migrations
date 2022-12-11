@@ -23937,7 +23937,8 @@
   },
   "poetry-plugin-export": {
     "main": true,
-    "dev": true
+    "dev": true,
+    "1.1.x": true
   },
   "txm_sandbox": {
     "main": true
