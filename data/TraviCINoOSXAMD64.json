@@ -56244,7 +56244,8 @@
     "main": true
   },
   "pyaedt": {
-    "main": true
+    "main": true,
+    "feat/urls_recipe": true
   },
   "bids-validator": {
     "main": true
@@ -56403,6 +56404,24 @@
     "main": true
   },
   "sqlalchemy-databricks": {
+    "main": true
+  },
+  "pygame": {
+    "main": true
+  },
+  "devpi-process": {
+    "main": true
+  },
+  "portmidi": {
+    "main": true
+  },
+  "sparktorch": {
+    "main": true
+  },
+  "devpi-server": {
+    "main": true
+  },
+  "devpi-client": {
     "main": true
   }
 }
