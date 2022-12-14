@@ -56123,7 +56123,8 @@
     "main": true
   },
   "bw2io": {
-    "main": true
+    "main": true,
+    "v0.8.7": true
   },
   "nigsp": {
     "main": true
@@ -56508,6 +56509,21 @@
     "main": true
   },
   "decorrelation": {
+    "main": true
+  },
+  "commonregex": {
+    "main": true
+  },
+  "openmetadata-ingestion": {
+    "main": true
+  },
+  "openmetadata-managed-apis": {
+    "main": true
+  },
+  "r-kml3d": {
+    "main": true
+  },
+  "r-groupdata2": {
     "main": true
   }
 }
