@@ -2070,7 +2070,8 @@
     "test-ignore-linter": true,
     "test-ci-fail": true,
     "rerender-live-test": true,
-    "cirun": true
+    "cirun": true,
+    "gpu-tests": true
   },
   "cf_units": {
     "main": true
