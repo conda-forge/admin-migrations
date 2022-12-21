@@ -31498,7 +31498,8 @@
   },
   "jupyter_server": {
     "master": true,
-    "rc": true
+    "rc": true,
+    "1.x": true
   },
   "jupyter_sphinx": {
     "master": true

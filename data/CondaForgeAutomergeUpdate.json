@@ -36344,7 +36344,8 @@
   },
   "jupyter_server": {
     "main": true,
-    "rc": true
+    "rc": true,
+    "1.x": true
   },
   "jupyter_sphinx": {
     "main": true
