@@ -48381,7 +48381,8 @@
     "main": true
   },
   "geocat-f2py": {
-    "main": true
+    "main": true,
+    "arm64-support": true
   },
   "dom-toml": {
     "main": true
