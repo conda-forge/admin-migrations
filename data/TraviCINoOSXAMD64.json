@@ -25239,7 +25239,8 @@
     "noblas": true
   },
   "cmip6_preprocessing": {
-    "main": true
+    "main": true,
+    "bump-0.7.0": true
   },
   "cmocean": {
     "main": true
