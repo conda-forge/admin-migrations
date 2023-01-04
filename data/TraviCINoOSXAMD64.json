@@ -15365,7 +15365,8 @@
     "master": true
   },
   "ycm-cmake-modules": {
-    "master": true
+    "master": true,
+    "add-findusockets": true
   },
   "openff-fragmenter": {
     "master": true

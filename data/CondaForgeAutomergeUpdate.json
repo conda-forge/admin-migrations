@@ -13629,7 +13629,8 @@
     "main": true
   },
   "ycm-cmake-modules": {
-    "main": true
+    "main": true,
+    "add-findusockets": true
   },
   "openff-fragmenter": {
     "main": true
