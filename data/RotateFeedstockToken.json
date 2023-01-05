@@ -436,5 +436,431 @@
   },
   "py_entitymatching": {
     "main": true
+  },
+  "py_gd": {
+    "main": true
+  },
+  "py_lru_cache": {
+    "main": true
+  },
+  "py_stringmatching": {
+    "main": true
+  },
+  "py_stringsimjoin": {
+    "main": true
+  },
+  "pyabel": {
+    "main": true
+  },
+  "pyaerocom": {
+    "main": true
+  },
+  "pyaes": {
+    "main": true
+  },
+  "pyagrum": {
+    "main": true
+  },
+  "pyahocorasick": {
+    "main": true
+  },
+  "pyam": {
+    "main": true
+  },
+  "pyamg": {
+    "main": true
+  },
+  "pyaml": {
+    "main": true
+  },
+  "pyarrow": {
+    "master": true
+  },
+  "pyart_mch": {
+    "main": true
+  },
+  "pyasdf": {
+    "main": true
+  },
+  "pyasn1": {
+    "main": true
+  },
+  "pyasn1-modules": {
+    "main": true
+  },
+  "pyathena": {
+    "main": true
+  },
+  "pyaudi": {
+    "main": true
+  },
+  "pyaudio": {
+    "main": true
+  },
+  "pyautogui": {
+    "main": true
+  },
+  "pyavm": {
+    "main": true
+  },
+  "pyaxiom": {
+    "main": true
+  },
+  "pybase64": {
+    "main": true
+  },
+  "pybigquery": {
+    "main": true
+  },
+  "pybind11": {
+    "main": true
+  },
+  "pybind11_json": {
+    "main": true
+  },
+  "pybinding": {
+    "main": true
+  },
+  "pyblake2": {
+    "main": true
+  },
+  "pybloom_live": {
+    "main": true
+  },
+  "pybox2d": {
+    "main": true
+  },
+  "pybroom": {
+    "main": true
+  },
+  "pybtex": {
+    "main": true
+  },
+  "pybtex-docutils": {
+    "main": true
+  },
+  "pybufr-ecmwf": {
+    "main": true
+  },
+  "pybuilder": {
+    "main": true
+  },
+  "pybv": {
+    "main": true
+  },
+  "pyca": {
+    "main": true
+  },
+  "pycairo": {
+    "main": true
+  },
+  "pycalphad": {
+    "main": true
+  },
+  "pycalverter": {
+    "main": true
+  },
+  "pycamhd": {
+    "main": true
+  },
+  "pycandela": {
+    "main": true
+  },
+  "pycapnp": {
+    "main": true
+  },
+  "pycares": {
+    "main": true
+  },
+  "pycbc": {
+    "main": true
+  },
+  "pyccl": {
+    "main": true
+  },
+  "pychef": {
+    "main": true
+  },
+  "pychrono": {
+    "main": true
+  },
+  "pycifrw": {
+    "main": true
+  },
+  "pyclipper": {
+    "main": true
+  },
+  "pyclustering": {
+    "main": true
+  },
+  "pycoal": {
+    "main": true
+  },
+  "pycoalescence": {
+    "main": true
+  },
+  "pycoast": {
+    "main": true
+  },
+  "pycocotools": {
+    "main": true
+  },
+  "pycodestyle": {
+    "main": true
+  },
+  "pycollada": {
+    "main": true
+  },
+  "pycomlink": {
+    "main": true
+  },
+  "pycompare": {
+    "main": true
+  },
+  "pycondor": {
+    "main": true
+  },
+  "pycosat": {
+    "main": true
+  },
+  "pycountry": {
+    "main": true
+  },
+  "pycovjson": {
+    "main": true
+  },
+  "pycp2k": {
+    "main": true
+  },
+  "pycparser": {
+    "main": true
+  },
+  "pycraf": {
+    "main": true
+  },
+  "pycrc": {
+    "main": true
+  },
+  "pycrlibm": {
+    "main": true
+  },
+  "pycron": {
+    "main": true
+  },
+  "pycroscopy": {
+    "main": true
+  },
+  "pycrs": {
+    "main": true
+  },
+  "pycrypto": {
+    "main": true
+  },
+  "pycryptodome": {
+    "main": true
+  },
+  "pycryptodomex": {
+    "main": true
+  },
+  "pycsw": {
+    "main": true
+  },
+  "pyct": {
+    "main": true
+  },
+  "pyct-core": {
+    "main": true
+  },
+  "pyctest": {
+    "main": true
+  },
+  "pyctm": {
+    "main": true
+  },
+  "pycurl": {
+    "main": true
+  },
+  "pycvodes": {
+    "main": true
+  },
+  "pycwt": {
+    "main": true
+  },
+  "pydantic": {
+    "main": true
+  },
+  "pydap": {
+    "main": true
+  },
+  "pydash": {
+    "main": true
+  },
+  "pydata-google-auth": {
+    "main": true
+  },
+  "pydata-sphinx-theme": {
+    "main": true
+  },
+  "pydda": {
+    "main": true
+  },
+  "pydeck": {
+    "main": true
+  },
+  "pydecorate": {
+    "main": true
+  },
+  "pydensecrf": {
+    "main": true
+  },
+  "pydicom": {
+    "main": true
+  },
+  "pydicth5": {
+    "main": true
+  },
+  "pydispatcher": {
+    "main": true
+  },
+  "pydl": {
+    "main": true
+  },
+  "pydm": {
+    "main": true
+  },
+  "pydoas": {
+    "main": true
+  },
+  "pydocstyle": {
+    "main": true
+  },
+  "pydoe": {
+    "main": true
+  },
+  "pydoe2": {
+    "main": true
+  },
+  "pydot": {
+    "main": true
+  },
+  "pydotplus": {
+    "main": true
+  },
+  "pydrive": {
+    "main": true
+  },
+  "pydrive2": {
+    "main": true
+  },
+  "pydruid": {
+    "main": true
+  },
+  "pydsd": {
+    "main": true
+  },
+  "pydstool": {
+    "main": true
+  },
+  "pydub": {
+    "main": true
+  },
+  "pydv": {
+    "main": true
+  },
+  "pydy": {
+    "main": true
+  },
+  "pyedflib": {
+    "main": true
+  },
+  "pyee": {
+    "main": true
+  },
+  "pyelastix": {
+    "main": true
+  },
+  "pyelftools": {
+    "main": true
+  },
+  "pyembree": {
+    "main": true
+  },
+  "pyemd": {
+    "main": true
+  },
+  "pyemir": {
+    "main": true
+  },
+  "pyemma": {
+    "main": true
+  },
+  "pyemma_tutorials": {
+    "main": true
+  },
+  "pyemojify": {
+    "main": true
+  },
+  "pyepics": {
+    "main": true
+  },
+  "pyepr": {
+    "main": true
+  },
+  "pyepsg": {
+    "main": true
+  },
+  "pyerf": {
+    "main": true
+  },
+  "pyeviews": {
+    "main": true
+  },
+  "pyevtk": {
+    "main": true
+  },
+  "pyexasol": {
+    "main": true
+  },
+  "pyexcel": {
+    "main": true
+  },
+  "pyexcel-ezodf": {
+    "main": true
+  },
+  "pyexcel-io": {
+    "main": true
+  },
+  "pyexcel-ods3": {
+    "main": true
+  },
+  "pyexcel-webio": {
+    "main": true
+  },
+  "pyexcel-xls": {
+    "main": true
+  },
+  "pyexcel-xlsx": {
+    "main": true
+  },
+  "pyexodus": {
+    "main": true
+  },
+  "pyexpander": {
+    "main": true
+  },
+  "pyface": {
+    "main": true
+  },
+  "pyfai": {
+    "main": true
+  },
+  "pyfakefs": {
+    "main": true
+  },
+  "pyferret": {
+    "main": true
+  },
+  "pyfftw": {
+    "main": true
   }
 }
