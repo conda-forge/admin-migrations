@@ -67,8 +67,11 @@ class RotateFeedstockToken(Migrator):
             " ".join(
                 [
                     'conda', 'smithy',
-                    'register-feedstock-token', '--feedstock_directory',
-                    feedstock_dir
+                    'register-feedstock-token',
+                    '--feedstock_directory', feedstock_dir,
+                    "--without-circle",
+                    "--without-drone",
+                    "--without-github-actions",
                 ]
                 + owner_info
                 + [

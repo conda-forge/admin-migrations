@@ -11,6 +11,8 @@ class RotateCFStagingToken(Migrator):
         subprocess.run(
             "conda smithy update-binstar-token "
             "--without-appveyor --without-azure "
+            "--without-circle --without-drone "
+            "--without-github-actions "
             "--token_name STAGING_BINSTAR_TOKEN",
             shell=True,
             check=True

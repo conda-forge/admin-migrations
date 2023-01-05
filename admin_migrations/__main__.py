@@ -21,10 +21,10 @@ from admin_migrations.migrators import (
     FeedstocksServiceUpdate,
     CondaForgeAutomergeUpdate,
     DotConda,
+    RotateCFStagingToken,
+    RotateFeedstockToken,
     # these are finished or not used so we don't run them
     # CondaForgeGHAWithMain,
-    # RotateCFStagingToken,
-    # RotateFeedstockToken,
     # CFEP13AzureTokenCleanup,
     # TeamsCleanup,
     # CFEP13TokenCleanup,
@@ -369,6 +369,8 @@ def main():
         FeedstocksServiceUpdate(),
         CondaForgeAutomergeUpdate(),
         DotConda(),
+        RotateCFStagingToken(),
+        RotateFeedstockToken(),
         # these are finished or not used so we don't run them
         # CondaForgeGHAWithMain(),
         # RotateCFStagingToken(),
