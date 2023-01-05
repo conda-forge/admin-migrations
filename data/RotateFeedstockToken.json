@@ -862,5 +862,404 @@
   },
   "pyfftw": {
     "main": true
+  },
+  "pyfiglet": {
+    "main": true
+  },
+  "pyfileindex": {
+    "main": true
+  },
+  "pyfim": {
+    "main": true
+  },
+  "pyfinance": {
+    "main": true
+  },
+  "pyfirmata": {
+    "main": true
+  },
+  "pyfive": {
+    "main": true
+  },
+  "pyfizi": {
+    "main": true
+  },
+  "pyflakes": {
+    "main": true
+  },
+  "pyflame": {
+    "main": true
+  },
+  "pyflann": {
+    "main": true
+  },
+  "pyflow": {
+    "main": true
+  },
+  "pyfmi": {
+    "main": true
+  },
+  "pyfmmlib": {
+    "main": true
+  },
+  "pyfolio": {
+    "main": true
+  },
+  "pyfor": {
+    "main": true
+  },
+  "pyfpgrowth": {
+    "main": true
+  },
+  "pyftdi": {
+    "main": true
+  },
+  "pyftpdlib": {
+    "main": true
+  },
+  "pygacode": {
+    "main": true
+  },
+  "pygal": {
+    "main": true
+  },
+  "pygam": {
+    "main": true
+  },
+  "pygaze": {
+    "main": true
+  },
+  "pygc": {
+    "main": true
+  },
+  "pygcn": {
+    "main": true
+  },
+  "pygdp": {
+    "main": true
+  },
+  "pygelf": {
+    "main": true
+  },
+  "pygeoapi": {
+    "main": true
+  },
+  "pygeobase": {
+    "main": true
+  },
+  "pygeogrids": {
+    "main": true
+  },
+  "pygeohash": {
+    "main": true
+  },
+  "pygeoif": {
+    "main": true
+  },
+  "pygeoip": {
+    "main": true
+  },
+  "pygeometa": {
+    "main": true
+  },
+  "pygeos": {
+    "main": true
+  },
+  "pygff": {
+    "main": true
+  },
+  "pygit2": {
+    "main": true
+  },
+  "pygithub": {
+    "main": true
+  },
+  "pyglet": {
+    "main": true
+  },
+  "pyglfw": {
+    "main": true
+  },
+  "pyglmnet": {
+    "main": true
+  },
+  "pygls": {
+    "main": true
+  },
+  "pygments": {
+    "main": true
+  },
+  "pygments-cache": {
+    "main": true
+  },
+  "pygments_anyscript": {
+    "main": true
+  },
+  "pygments_pytest": {
+    "main": true
+  },
+  "pygmo": {
+    "main": true
+  },
+  "pygmo_plugins_nonfree": {
+    "main": true
+  },
+  "pygobject": {
+    "main": true
+  },
+  "pygpu": {
+    "main": true
+  },
+  "pygram11": {
+    "main": true
+  },
+  "pygrametl": {
+    "main": true
+  },
+  "pygraphml": {
+    "main": true
+  },
+  "pygraphviz": {
+    "main": true
+  },
+  "pygrib": {
+    "main": true
+  },
+  "pygridgen": {
+    "main": true
+  },
+  "pygridtools": {
+    "main": true
+  },
+  "pygsi": {
+    "main": true
+  },
+  "pygslodeiv2": {
+    "main": true
+  },
+  "pygsp": {
+    "main": true
+  },
+  "pygtail": {
+    "main": true
+  },
+  "pygtrie": {
+    "main": true
+  },
+  "pygypsy": {
+    "main": true
+  },
+  "pyhamcrest": {
+    "main": true
+  },
+  "pyhdb": {
+    "main": true
+  },
+  "pyhdf": {
+    "main": true
+  },
+  "pyhmc": {
+    "main": true
+  },
+  "pyhocon": {
+    "main": true
+  },
+  "pyhrf": {
+    "main": true
+  },
+  "pyhull": {
+    "main": true
+  },
+  "pyhum": {
+    "main": true
+  },
+  "pyicu": {
+    "main": true
+  },
+  "pyigrf": {
+    "main": true
+  },
+  "pyimagej": {
+    "main": true
+  },
+  "pyimgur": {
+    "main": true
+  },
+  "pyinotify": {
+    "main": true
+  },
+  "pyinstaller": {
+    "main": true
+  },
+  "pyinstrument": {
+    "main": true
+  },
+  "pyinstrument_cext": {
+    "main": true
+  },
+  "pyinterp": {
+    "main": true
+  },
+  "pyinterval": {
+    "main": true
+  },
+  "pyiron": {
+    "main": true
+  },
+  "pyiron_atomistics": {
+    "main": true
+  },
+  "pyiron_base": {
+    "main": true
+  },
+  "pyiron_dft": {
+    "main": true
+  },
+  "pyiron_example_job": {
+    "main": true
+  },
+  "pyiron_lammps": {
+    "main": true
+  },
+  "pyiron_vasp": {
+    "main": true
+  },
+  "pyisemail": {
+    "main": true
+  },
+  "pyjanitor": {
+    "main": true
+  },
+  "pyjks": {
+    "main": true
+  },
+  "pyjnius": {
+    "main": true
+  },
+  "pyjokes": {
+    "main": true
+  },
+  "pyjsparser": {
+    "main": true
+  },
+  "pyjwkest": {
+    "main": true
+  },
+  "pyjwt": {
+    "main": true
+  },
+  "pykafka": {
+    "main": true
+  },
+  "pykalman": {
+    "main": true
+  },
+  "pykdtree": {
+    "main": true
+  },
+  "pyke": {
+    "main": true
+  },
+  "pykep": {
+    "main": true
+  },
+  "pykerberos": {
+    "main": true
+  },
+  "pykicad": {
+    "main": true
+  },
+  "pykml": {
+    "main": true
+  },
+  "pykrige": {
+    "main": true
+  },
+  "pykriging": {
+    "main": true
+  },
+  "pykwalify": {
+    "main": true
+  },
+  "pylama": {
+    "main": true
+  },
+  "pylammpsmpi": {
+    "main": true
+  },
+  "pylandstats": {
+    "main": true
+  },
+  "pylatexenc": {
+    "main": true
+  },
+  "pylbfgs": {
+    "main": true
+  },
+  "pylbm": {
+    "main": true
+  },
+  "pyld": {
+    "main": true
+  },
+  "pyldavis": {
+    "main": true
+  },
+  "pylems": {
+    "main": true
+  },
+  "pylev": {
+    "main": true
+  },
+  "pylibmc": {
+    "main": true
+  },
+  "pylibscrypt": {
+    "main": true
+  },
+  "pylibtiff": {
+    "main": true
+  },
+  "pylint": {
+    "main": true
+  },
+  "pylint-celery": {
+    "main": true
+  },
+  "pylint-common": {
+    "main": true
+  },
+  "pylint-django": {
+    "main": true
+  },
+  "pylint-flask": {
+    "main": true
+  },
+  "pylint-plugin-utils": {
+    "main": true
+  },
+  "pylogit": {
+    "main": true
+  },
+  "pylons": {
+    "main": true
+  },
+  "pylops": {
+    "main": true
+  },
+  "pylru": {
+    "main": true
+  },
+  "pyluach": {
+    "main": true
+  },
+  "pymagej": {
+    "main": true
+  },
+  "pymannkendall": {
+    "main": true
+  },
+  "pymap3d": {
+    "main": true
   }
 }
