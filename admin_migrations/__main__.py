@@ -21,10 +21,10 @@ from admin_migrations.migrators import (
     FeedstocksServiceUpdate,
     CondaForgeAutomergeUpdate,
     DotConda,
+    RotateCFStagingToken,
+    RotateFeedstockToken,
     # these are finished or not used so we don't run them
     # CondaForgeGHAWithMain,
-    # RotateCFStagingToken,
-    # RotateFeedstockToken,
     # CFEP13AzureTokenCleanup,
     # TeamsCleanup,
     # CFEP13TokenCleanup,
@@ -57,7 +57,7 @@ if DEBUG:
     MAX_SECONDS = 50 * 60
     MAX_WORKERS = 1
 else:
-    MAX_MIGRATE = 1000
+    MAX_MIGRATE = 500
     MAX_SECONDS = min(50, max(60 - datetime.datetime.now().minute - 6, 0)) * 60
     MAX_WORKERS = 2
 
@@ -369,6 +369,8 @@ def main():
         FeedstocksServiceUpdate(),
         CondaForgeAutomergeUpdate(),
         DotConda(),
+        RotateCFStagingToken(),
+        RotateFeedstockToken(),
         # these are finished or not used so we don't run them
         # CondaForgeGHAWithMain(),
         # RotateCFStagingToken(),
