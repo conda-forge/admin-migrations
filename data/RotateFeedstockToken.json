@@ -1630,5 +1630,512 @@
   },
   "pypy3.6": {
     "main": true
+  },
+  "pypyodbc": {
+    "main": true
+  },
+  "pyqi": {
+    "main": true
+  },
+  "pyqmix": {
+    "main": true
+  },
+  "pyqode.core": {
+    "main": true
+  },
+  "pyqode.python": {
+    "main": true
+  },
+  "pyqode.qt": {
+    "main": true
+  },
+  "pyqstem": {
+    "main": true
+  },
+  "pyqt": {
+    "main": true
+  },
+  "pyqtads": {
+    "main": true
+  },
+  "pyqtgraph": {
+    "main": true
+  },
+  "pyquery": {
+    "main": true
+  },
+  "pyquil": {
+    "main": true
+  },
+  "pyrad_arm": {
+    "main": true
+  },
+  "pyrad_mch": {
+    "main": true
+  },
+  "pyramid": {
+    "main": true
+  },
+  "pyramid_beaker": {
+    "main": true
+  },
+  "pyramid_log": {
+    "main": true
+  },
+  "pyramid_mongodb2": {
+    "main": true
+  },
+  "pyramid_redis": {
+    "main": true
+  },
+  "pyramid_redis_sessions": {
+    "main": true
+  },
+  "pyranha": {
+    "main": true
+  },
+  "pyreadline": {
+    "main": true
+  },
+  "pyreadr": {
+    "main": true
+  },
+  "pyreadstat": {
+    "main": true
+  },
+  "pyregion": {
+    "main": true
+  },
+  "pyremap": {
+    "main": true
+  },
+  "pyrepl": {
+    "main": true
+  },
+  "pyreportjasper": {
+    "main": true
+  },
+  "pyresample": {
+    "main": true
+  },
+  "pyresttest": {
+    "main": true
+  },
+  "pyretis": {
+    "main": true
+  },
+  "pyrfa": {
+    "main": true
+  },
+  "pyrfc3339": {
+    "main": true
+  },
+  "pyro4": {
+    "main": true
+  },
+  "pyro5": {
+    "main": true
+  },
+  "pyrobuf": {
+    "main": true
+  },
+  "pyroma": {
+    "main": true
+  },
+  "pyrr": {
+    "main": true
+  },
+  "pyrserve": {
+    "main": true
+  },
+  "pyrsistent": {
+    "main": true
+  },
+  "pyrtf": {
+    "main": true
+  },
+  "pyrxp": {
+    "main": true
+  },
+  "pysal": {
+    "main": true
+  },
+  "pysbatch": {
+    "main": true
+  },
+  "pyscaffold": {
+    "main": true
+  },
+  "pyscal": {
+    "main": true
+  },
+  "pyscenarios": {
+    "main": true
+  },
+  "pyscrap": {
+    "main": true
+  },
+  "pyscreeze": {
+    "main": true
+  },
+  "pyscss": {
+    "main": true
+  },
+  "pysdl2": {
+    "main": true
+  },
+  "pyseaweed": {
+    "main": true
+  },
+  "pyseidon": {
+    "main": true
+  },
+  "pysendfile": {
+    "master": true
+  },
+  "pyserial": {
+    "main": true
+  },
+  "pysftp": {
+    "main": true
+  },
+  "pysgrid": {
+    "main": true
+  },
+  "pyshacl": {
+    "main": true
+  },
+  "pysheds": {
+    "main": true
+  },
+  "pyshp": {
+    "main": true
+  },
+  "pyside2": {
+    "main": true
+  },
+  "pysimplegui": {
+    "main": true
+  },
+  "pysimpleguiweb": {
+    "main": true
+  },
+  "pysimpleguiwx": {
+    "main": true
+  },
+  "pysingular": {
+    "main": true
+  },
+  "pysis": {
+    "main": true
+  },
+  "pyslet": {
+    "main": true
+  },
+  "pysm3": {
+    "main": true
+  },
+  "pysmbclient": {
+    "main": true
+  },
+  "pysmi": {
+    "main": true
+  },
+  "pysnmp": {
+    "main": true
+  },
+  "pysnooper": {
+    "main": true
+  },
+  "pysocks": {
+    "main": true
+  },
+  "pysolar": {
+    "main": true
+  },
+  "pysolr": {
+    "main": true
+  },
+  "pysot": {
+    "main": true
+  },
+  "pysoundfile": {
+    "main": true
+  },
+  "pyspark": {
+    "main": true
+  },
+  "pyspark-stubs": {
+    "main": true
+  },
+  "pysparse": {
+    "main": true
+  },
+  "pyspeckit": {
+    "main": true
+  },
+  "pyspectral": {
+    "main": true
+  },
+  "pyspellchecker": {
+    "main": true
+  },
+  "pyspharm": {
+    "main": true
+  },
+  "pysqa": {
+    "main": true
+  },
+  "pystac": {
+    "main": true
+  },
+  "pystache": {
+    "main": true
+  },
+  "pystan": {
+    "main": true
+  },
+  "pysteps": {
+    "main": true
+  },
+  "pystreamer": {
+    "main": true
+  },
+  "pysurfer": {
+    "main": true
+  },
+  "pysvg-py3": {
+    "main": true
+  },
+  "pysw4": {
+    "main": true
+  },
+  "pytables": {
+    "main": true
+  },
+  "pyte": {
+    "main": true
+  },
+  "pytentiostat": {
+    "main": true
+  },
+  "pytesseract": {
+    "main": true
+  },
+  "pytest": {
+    "main": true
+  },
+  "pytest-aiohttp": {
+    "main": true
+  },
+  "pytest-arraydiff": {
+    "main": true
+  },
+  "pytest-ast-back-to-python": {
+    "main": true
+  },
+  "pytest-astropy": {
+    "main": true
+  },
+  "pytest-astropy-header": {
+    "main": true
+  },
+  "pytest-asyncio": {
+    "main": true
+  },
+  "pytest-azurepipelines": {
+    "main": true
+  },
+  "pytest-bandit": {
+    "main": true
+  },
+  "pytest-base-url": {
+    "main": true
+  },
+  "pytest-bdd": {
+    "main": true
+  },
+  "pytest-benchmark": {
+    "main": true
+  },
+  "pytest-black": {
+    "main": true
+  },
+  "pytest-cache": {
+    "main": true
+  },
+  "pytest-catchlog": {
+    "main": true
+  },
+  "pytest-chalice": {
+    "main": true
+  },
+  "pytest-clarity": {
+    "main": true
+  },
+  "pytest-codestyle": {
+    "main": true
+  },
+  "pytest-console-scripts": {
+    "main": true
+  },
+  "pytest-cookies": {
+    "main": true
+  },
+  "pytest-cov": {
+    "main": true
+  },
+  "pytest-cpp": {
+    "main": true
+  },
+  "pytest-custom-exit-code": {
+    "main": true
+  },
+  "pytest-datadir": {
+    "main": true
+  },
+  "pytest-describe": {
+    "main": true
+  },
+  "pytest-django": {
+    "main": true
+  },
+  "pytest-django-haystack": {
+    "main": true
+  },
+  "pytest-doctestplus": {
+    "main": true
+  },
+  "pytest-env": {
+    "main": true
+  },
+  "pytest-faulthandler": {
+    "main": true
+  },
+  "pytest-fixture-config": {
+    "main": true
+  },
+  "pytest-flake8": {
+    "main": true
+  },
+  "pytest-flakes": {
+    "main": true
+  },
+  "pytest-flask": {
+    "main": true
+  },
+  "pytest-flask-sqlalchemy": {
+    "main": true
+  },
+  "pytest-forked": {
+    "main": true
+  },
+  "pytest-freezegun": {
+    "main": true
+  },
+  "pytest-html": {
+    "main": true
+  },
+  "pytest-httpserver": {
+    "main": true
+  },
+  "pytest-icdiff": {
+    "main": true
+  },
+  "pytest-ignore-flaky": {
+    "main": true
+  },
+  "pytest-instafail": {
+    "main": true
+  },
+  "pytest-json": {
+    "main": true
+  },
+  "pytest-json-report": {
+    "main": true
+  },
+  "pytest-lazy-fixture": {
+    "main": true
+  },
+  "pytest-localserver": {
+    "main": true
+  },
+  "pytest-localstack": {
+    "main": true
+  },
+  "pytest-mccabe": {
+    "main": true
+  },
+  "pytest-metadata": {
+    "main": true
+  },
+  "pytest-mock": {
+    "main": true
+  },
+  "pytest-monitor": {
+    "main": true
+  },
+  "pytest-mpi": {
+    "main": true
+  },
+  "pytest-mpl": {
+    "main": true
+  },
+  "pytest-mypy": {
+    "main": true
+  },
+  "pytest-notebook": {
+    "main": true
+  },
+  "pytest-notification": {
+    "main": true
+  },
+  "pytest-openfiles": {
+    "main": true
+  },
+  "pytest-ordering": {
+    "main": true
+  },
+  "pytest-pep8": {
+    "main": true
+  },
+  "pytest-picked": {
+    "main": true
+  },
+  "pytest-profiling": {
+    "main": true
+  },
+  "pytest-pylint": {
+    "main": true
+  },
+  "pytest-qt": {
+    "main": true
+  },
+  "pytest-raises": {
+    "main": true
+  },
+  "pytest-regressions": {
+    "main": true
+  },
+  "pytest-regtest": {
+    "main": true
+  },
+  "pytest-remotedata": {
+    "main": true
+  },
+  "pytest-repeat": {
+    "main": true
+  },
+  "pytest-replay": {
+    "main": true
+  },
+  "pytest-rerunfailures": {
+    "main": true
+  },
+  "pytest-runner": {
+    "main": true
+  },
+  "pytest-selenium": {
+    "main": true
   }
 }
