@@ -2989,5 +2989,443 @@
   },
   "quantecon": {
     "main": true
+  },
+  "quantities": {
+    "main": true
+  },
+  "quantlab": {
+    "main": true
+  },
+  "quantlab_launcher": {
+    "main": true
+  },
+  "quart": {
+    "main": true
+  },
+  "quart-cors": {
+    "main": true
+  },
+  "quart-openapi": {
+    "main": true
+  },
+  "quart-trio": {
+    "main": true
+  },
+  "quaternion": {
+    "main": true
+  },
+  "qubekit": {
+    "main": true
+  },
+  "querystring_parser": {
+    "main": true
+  },
+  "quest": {
+    "main": true
+  },
+  "questplus": {
+    "main": true
+  },
+  "quickff": {
+    "main": true
+  },
+  "quickfix": {
+    "main": true
+  },
+  "quilt": {
+    "main": true
+  },
+  "qupy": {
+    "main": true
+  },
+  "qurro": {
+    "main": true
+  },
+  "qutip": {
+    "main": true
+  },
+  "qvina": {
+    "main": true
+  },
+  "qwt": {
+    "main": true
+  },
+  "qwtpolar": {
+    "main": true
+  },
+  "r": {
+    "main": true
+  },
+  "r-abind": {
+    "main": true
+  },
+  "r-acepack": {
+    "main": true
+  },
+  "r-ada": {
+    "main": true
+  },
+  "r-additivitytests": {
+    "main": true
+  },
+  "r-ade4": {
+    "main": true
+  },
+  "r-adegenet": {
+    "main": true
+  },
+  "r-adehabitatlt": {
+    "main": true
+  },
+  "r-adehabitatma": {
+    "main": true
+  },
+  "r-adephylo": {
+    "main": true
+  },
+  "r-adgoftest": {
+    "main": true
+  },
+  "r-adlift": {
+    "main": true
+  },
+  "r-admisc": {
+    "main": true
+  },
+  "r-aer": {
+    "main": true
+  },
+  "r-afex": {
+    "main": true
+  },
+  "r-aggregation": {
+    "main": true
+  },
+  "r-agricolae": {
+    "main": true
+  },
+  "r-ahocorasicktrie": {
+    "main": true
+  },
+  "r-airr": {
+    "main": true
+  },
+  "r-akima": {
+    "main": true
+  },
+  "r-alabama": {
+    "main": true
+  },
+  "r-alakazam": {
+    "main": true
+  },
+  "r-aleplot": {
+    "main": true
+  },
+  "r-algdesign": {
+    "main": true
+  },
+  "r-alluvial": {
+    "main": true
+  },
+  "r-alphavantager": {
+    "main": true
+  },
+  "r-als": {
+    "main": true
+  },
+  "r-amap": {
+    "main": true
+  },
+  "r-ampliconduo": {
+    "main": true
+  },
+  "r-animation": {
+    "main": true
+  },
+  "r-anom": {
+    "main": true
+  },
+  "r-anomalydetection": {
+    "main": true
+  },
+  "r-anytime": {
+    "main": true
+  },
+  "r-aod": {
+    "main": true
+  },
+  "r-apatables": {
+    "main": true
+  },
+  "r-apcluster": {
+    "main": true
+  },
+  "r-ape": {
+    "main": true
+  },
+  "r-aplpack": {
+    "main": true
+  },
+  "r-aptreeshape": {
+    "main": true
+  },
+  "r-aqp": {
+    "main": true
+  },
+  "r-argonr": {
+    "main": true
+  },
+  "r-argparse": {
+    "main": true
+  },
+  "r-argparser": {
+    "main": true
+  },
+  "r-argumentcheck": {
+    "main": true
+  },
+  "r-arm": {
+    "main": true
+  },
+  "r-aroma.apd": {
+    "main": true
+  },
+  "r-arrapply": {
+    "main": true
+  },
+  "r-arrayhelpers": {
+    "main": true
+  },
+  "r-arrow": {
+    "main": true
+  },
+  "r-arsenal": {
+    "main": true
+  },
+  "r-arules": {
+    "main": true
+  },
+  "r-asbio": {
+    "main": true
+  },
+  "r-ascii": {
+    "main": true
+  },
+  "r-ash": {
+    "main": true
+  },
+  "r-ashr": {
+    "main": true
+  },
+  "r-asioheaders": {
+    "main": true
+  },
+  "r-askpass": {
+    "main": true
+  },
+  "r-assertive": {
+    "main": true
+  },
+  "r-assertive.base": {
+    "main": true
+  },
+  "r-assertive.code": {
+    "main": true
+  },
+  "r-assertive.data": {
+    "main": true
+  },
+  "r-assertive.data.uk": {
+    "main": true
+  },
+  "r-assertive.data.us": {
+    "main": true
+  },
+  "r-assertive.datetimes": {
+    "main": true
+  },
+  "r-assertive.files": {
+    "main": true
+  },
+  "r-assertive.matrices": {
+    "main": true
+  },
+  "r-assertive.models": {
+    "main": true
+  },
+  "r-assertive.numbers": {
+    "main": true
+  },
+  "r-assertive.properties": {
+    "main": true
+  },
+  "r-assertive.reflection": {
+    "main": true
+  },
+  "r-assertive.sets": {
+    "main": true
+  },
+  "r-assertive.strings": {
+    "main": true
+  },
+  "r-assertive.types": {
+    "main": true
+  },
+  "r-assertr": {
+    "main": true
+  },
+  "r-assertthat": {
+    "main": true
+  },
+  "r-assotester": {
+    "main": true
+  },
+  "r-attempt": {
+    "main": true
+  },
+  "r-auc": {
+    "main": true
+  },
+  "r-automap": {
+    "main": true
+  },
+  "r-autoplotly": {
+    "main": true
+  },
+  "r-autoshiny": {
+    "main": true
+  },
+  "r-aws": {
+    "main": true
+  },
+  "r-aws.ec2metadata": {
+    "main": true
+  },
+  "r-aws.s3": {
+    "main": true
+  },
+  "r-aws.signature": {
+    "main": true
+  },
+  "r-awsmethods": {
+    "main": true
+  },
+  "r-backports": {
+    "main": true
+  },
+  "r-barcoder": {
+    "main": true
+  },
+  "r-base": {
+    "main": true
+  },
+  "r-base64": {
+    "main": true
+  },
+  "r-base64enc": {
+    "main": true
+  },
+  "r-base64url": {
+    "main": true
+  },
+  "r-baseline": {
+    "main": true
+  },
+  "r-basictrendline": {
+    "main": true
+  },
+  "r-basix": {
+    "main": true
+  },
+  "r-batch": {
+    "main": true
+  },
+  "r-batchjobs": {
+    "main": true
+  },
+  "r-batchtools": {
+    "main": true
+  },
+  "r-bayesfactor": {
+    "main": true
+  },
+  "r-bayesm": {
+    "main": true
+  },
+  "r-bayesplot": {
+    "main": true
+  },
+  "r-bayestestr": {
+    "main": true
+  },
+  "r-bazar": {
+    "main": true
+  },
+  "r-bb": {
+    "main": true
+  },
+  "r-bbmisc": {
+    "main": true
+  },
+  "r-bbmle": {
+    "main": true
+  },
+  "r-bc3net": {
+    "main": true
+  },
+  "r-bcrocsurface": {
+    "main": true
+  },
+  "r-bdgraph": {
+    "main": true
+  },
+  "r-bdsmatrix": {
+    "main": true
+  },
+  "r-beanplot": {
+    "main": true
+  },
+  "r-bedr": {
+    "main": true
+  },
+  "r-beeswarm": {
+    "main": true
+  },
+  "r-bench": {
+    "main": true
+  },
+  "r-benchmarkme": {
+    "main": true
+  },
+  "r-benchmarkmedata": {
+    "main": true
+  },
+  "r-bestglm": {
+    "main": true
+  },
+  "r-betareg": {
+    "main": true
+  },
+  "r-bezier": {
+    "main": true
+  },
+  "r-bfa": {
+    "main": true
+  },
+  "r-bglr": {
+    "main": true
+  },
+  "r-bgmm": {
+    "main": true
+  },
+  "r-bh": {
+    "main": true
+  },
+  "r-biasedurn": {
+    "main": true
+  },
+  "r-bibitr": {
+    "main": true
   }
 }
