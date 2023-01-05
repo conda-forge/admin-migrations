@@ -2140,5 +2140,365 @@
   },
   "pytest-selenium": {
     "main": true
+  },
+  "pytest-services": {
+    "main": true
+  },
+  "pytest-session2file": {
+    "main": true
+  },
+  "pytest-sftpserver": {
+    "main": true
+  },
+  "pytest-shutil": {
+    "main": true
+  },
+  "pytest-smartcov": {
+    "main": true
+  },
+  "pytest-socket": {
+    "main": true
+  },
+  "pytest-spec": {
+    "main": true
+  },
+  "pytest-subtests": {
+    "main": true
+  },
+  "pytest-sugar": {
+    "main": true
+  },
+  "pytest-testmon": {
+    "main": true
+  },
+  "pytest-timeout": {
+    "main": true
+  },
+  "pytest-tldr": {
+    "main": true
+  },
+  "pytest-tornado": {
+    "main": true
+  },
+  "pytest-tornasync": {
+    "main": true
+  },
+  "pytest-variables": {
+    "main": true
+  },
+  "pytest-virtualenv": {
+    "main": true
+  },
+  "pytest-watch": {
+    "main": true
+  },
+  "pytest-workflow": {
+    "main": true
+  },
+  "pytest-xdist": {
+    "main": true
+  },
+  "pytest-xvfb": {
+    "main": true
+  },
+  "pythesint": {
+    "main": true
+  },
+  "pythia8": {
+    "main": true
+  },
+  "python": {
+    "main": true
+  },
+  "python-annoy": {
+    "main": true
+  },
+  "python-avro": {
+    "main": true
+  },
+  "python-awips": {
+    "main": true
+  },
+  "python-backtrace": {
+    "main": true
+  },
+  "python-barcode": {
+    "main": true
+  },
+  "python-bidi": {
+    "main": true
+  },
+  "python-blosc": {
+    "main": true
+  },
+  "python-box": {
+    "main": true
+  },
+  "python-can": {
+    "main": true
+  },
+  "python-casacore": {
+    "main": true
+  },
+  "python-cdo": {
+    "main": true
+  },
+  "python-certifi-win32": {
+    "main": true
+  },
+  "python-chromedriver-binary": {
+    "main": true
+  },
+  "python-cinderclient": {
+    "main": true
+  },
+  "python-configuration": {
+    "main": true
+  },
+  "python-confluent-kafka": {
+    "main": true
+  },
+  "python-constraint": {
+    "main": true
+  },
+  "python-coreapi": {
+    "main": true
+  },
+  "python-coreschema": {
+    "main": true
+  },
+  "python-couchdb": {
+    "main": true
+  },
+  "python-coveralls": {
+    "main": true
+  },
+  "python-cpl": {
+    "main": true
+  },
+  "python-cppcolormap": {
+    "master": true
+  },
+  "python-crfsuite": {
+    "main": true
+  },
+  "python-crontab": {
+    "main": true
+  },
+  "python-cufflinks": {
+    "main": true
+  },
+  "python-daemon": {
+    "main": true
+  },
+  "python-dateutil": {
+    "main": true
+  },
+  "python-debian": {
+    "main": true
+  },
+  "python-decouple": {
+    "main": true
+  },
+  "python-docx": {
+    "main": true
+  },
+  "python-dotenv": {
+    "main": true
+  },
+  "python-duckdb": {
+    "main": true
+  },
+  "python-eccodes": {
+    "main": true
+  },
+  "python-editor": {
+    "main": true
+  },
+  "python-engineio": {
+    "main": true
+  },
+  "python-fastjsonschema": {
+    "main": true
+  },
+  "python-fitparse": {
+    "main": true
+  },
+  "python-flatbuffers": {
+    "main": true
+  },
+  "python-flint": {
+    "main": true
+  },
+  "python-fmask": {
+    "main": true
+  },
+  "python-geohash": {
+    "main": true
+  },
+  "python-geotiepoints": {
+    "main": true
+  },
+  "python-gfal2": {
+    "main": true
+  },
+  "python-gflags": {
+    "main": true
+  },
+  "python-gilt": {
+    "main": true
+  },
+  "python-gist": {
+    "main": true
+  },
+  "python-gitlab": {
+    "main": true
+  },
+  "python-glanceclient": {
+    "main": true
+  },
+  "python-gmatelastic": {
+    "master": true
+  },
+  "python-gmatelastoplastic": {
+    "master": true
+  },
+  "python-gmatelastoplasticfinitestrainsimo": {
+    "main": true
+  },
+  "python-gmatelastoplasticqpot": {
+    "master": true
+  },
+  "python-gmatelastoplasticqpot3d": {
+    "master": true
+  },
+  "python-gmatnonlinearelastic": {
+    "main": true
+  },
+  "python-gnupg": {
+    "main": true
+  },
+  "python-gooseeye": {
+    "main": true
+  },
+  "python-goosefem": {
+    "master": true
+  },
+  "python-graphviz": {
+    "main": true
+  },
+  "python-hdfs": {
+    "main": true
+  },
+  "python-highcharts": {
+    "main": true
+  },
+  "python-hookman": {
+    "main": true
+  },
+  "python-hostlist": {
+    "main": true
+  },
+  "python-igraph": {
+    "main": true
+  },
+  "python-irodsclient": {
+    "main": true
+  },
+  "python-ironicclient": {
+    "main": true
+  },
+  "python-javapackages-cos7-aarch64": {
+    "master": true
+  },
+  "python-jenkins": {
+    "main": true
+  },
+  "python-jose": {
+    "main": true
+  },
+  "python-jose-cryptodome": {
+    "main": true
+  },
+  "python-json-logger": {
+    "main": true
+  },
+  "python-jsonrpc-server": {
+    "main": true
+  },
+  "python-keycloak": {
+    "main": true
+  },
+  "python-keystoneclient": {
+    "main": true
+  },
+  "python-kubernetes": {
+    "main": true
+  },
+  "python-lambda-4dn": {
+    "main": true
+  },
+  "python-language-server": {
+    "main": true
+  },
+  "python-ldap": {
+    "main": true
+  },
+  "python-leveldb": {
+    "main": true
+  },
+  "python-levenshtein": {
+    "main": true
+  },
+  "python-libaio": {
+    "main": true
+  },
+  "python-libarchive-c": {
+    "main": true
+  },
+  "python-ligo-lw": {
+    "main": true
+  },
+  "python-lmdb": {
+    "main": true
+  },
+  "python-logstash": {
+    "main": true
+  },
+  "python-louvain": {
+    "main": true
+  },
+  "python-lzo": {
+    "main": true
+  },
+  "python-magic": {
+    "main": true
+  },
+  "python-marisa-trie": {
+    "main": true
+  },
+  "python-markdown-math": {
+    "main": true
+  },
+  "python-memcached": {
+    "main": true
+  },
+  "python-mimeparse": {
+    "main": true
+  },
+  "python-moa": {
+    "main": true
+  },
+  "python-monkey-business": {
+    "main": true
+  },
+  "python-multipart": {
+    "main": true
+  },
+  "python-neo": {
+    "main": true
+  },
+  "python-node-semver": {
+    "main": true
   }
 }
