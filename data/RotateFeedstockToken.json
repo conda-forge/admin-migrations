@@ -3967,5 +3967,431 @@
   },
   "r-d3heatmap": {
     "main": true
+  },
+  "r-d3network": {
+    "main": true
+  },
+  "r-d3r": {
+    "main": true
+  },
+  "r-daff": {
+    "main": true
+  },
+  "r-dalex": {
+    "main": true
+  },
+  "r-dapr": {
+    "main": true
+  },
+  "r-data.table": {
+    "main": true
+  },
+  "r-data.tree": {
+    "main": true
+  },
+  "r-dbi": {
+    "main": true
+  },
+  "r-dbplot": {
+    "main": true
+  },
+  "r-dbplyr": {
+    "main": true
+  },
+  "r-dbscan": {
+    "main": true
+  },
+  "r-dcurver": {
+    "main": true
+  },
+  "r-ddalpha": {
+    "main": true
+  },
+  "r-ddpcr": {
+    "main": true
+  },
+  "r-ddrtree": {
+    "main": true
+  },
+  "r-debugme": {
+    "main": true
+  },
+  "r-decoder": {
+    "main": true
+  },
+  "r-default": {
+    "main": true
+  },
+  "r-delaporte": {
+    "main": true
+  },
+  "r-deldir": {
+    "main": true
+  },
+  "r-demerelate": {
+    "main": true
+  },
+  "r-dendextend": {
+    "main": true
+  },
+  "r-dendroextras": {
+    "main": true
+  },
+  "r-dendsort": {
+    "main": true
+  },
+  "r-densityclust": {
+    "main": true
+  },
+  "r-deoptimr": {
+    "main": true
+  },
+  "r-depmixs4": {
+    "main": true
+  },
+  "r-deriv": {
+    "main": true
+  },
+  "r-desc": {
+    "main": true
+  },
+  "r-desctools": {
+    "main": true
+  },
+  "r-desolve": {
+    "main": true
+  },
+  "r-devtools": {
+    "main": true
+  },
+  "r-dfoptim": {
+    "main": true
+  },
+  "r-diagram": {
+    "main": true
+  },
+  "r-diagrammer": {
+    "main": true
+  },
+  "r-dials": {
+    "main": true
+  },
+  "r-dicedesign": {
+    "main": true
+  },
+  "r-dicekriging": {
+    "main": true
+  },
+  "r-dichromat": {
+    "main": true
+  },
+  "r-diffobj": {
+    "main": true
+  },
+  "r-diffr": {
+    "main": true
+  },
+  "r-diffusionmap": {
+    "main": true
+  },
+  "r-diffusr": {
+    "main": true
+  },
+  "r-digest": {
+    "main": true
+  },
+  "r-dimred": {
+    "main": true
+  },
+  "r-diptest": {
+    "main": true
+  },
+  "r-directlabels": {
+    "main": true
+  },
+  "r-disco": {
+    "main": true
+  },
+  "r-discretecdalgorithm": {
+    "main": true
+  },
+  "r-discriminer": {
+    "main": true
+  },
+  "r-disk.frame": {
+    "main": true
+  },
+  "r-dismo": {
+    "main": true
+  },
+  "r-distances": {
+    "main": true
+  },
+  "r-distillery": {
+    "main": true
+  },
+  "r-distr": {
+    "main": true
+  },
+  "r-distrex": {
+    "main": true
+  },
+  "r-distutils": {
+    "main": true
+  },
+  "r-divemove": {
+    "main": true
+  },
+  "r-dml": {
+    "main": true
+  },
+  "r-dmt": {
+    "main": true
+  },
+  "r-dmwr": {
+    "main": true
+  },
+  "r-doby": {
+    "main": true
+  },
+  "r-dockerfiler": {
+    "main": true
+  },
+  "r-docopt": {
+    "main": true
+  },
+  "r-docxtools": {
+    "main": true
+  },
+  "r-dofuture": {
+    "main": true
+  },
+  "r-domc": {
+    "main": true
+  },
+  "r-doparallel": {
+    "main": true
+  },
+  "r-dorng": {
+    "main": true
+  },
+  "r-dosefinding": {
+    "main": true
+  },
+  "r-dosnow": {
+    "main": true
+  },
+  "r-dotcall64": {
+    "main": true
+  },
+  "r-downloader": {
+    "main": true
+  },
+  "r-dparser": {
+    "main": true
+  },
+  "r-dplr": {
+    "main": true
+  },
+  "r-dplyr": {
+    "main": true
+  },
+  "r-dppackage": {
+    "main": true
+  },
+  "r-dqrng": {
+    "main": true
+  },
+  "r-drake": {
+    "main": true
+  },
+  "r-drat": {
+    "main": true
+  },
+  "r-drc": {
+    "main": true
+  },
+  "r-drr": {
+    "main": true
+  },
+  "r-dt": {
+    "main": true
+  },
+  "r-dtangle": {
+    "main": true
+  },
+  "r-dtplyr": {
+    "main": true
+  },
+  "r-dtt": {
+    "main": true
+  },
+  "r-dtw": {
+    "main": true
+  },
+  "r-dtwclust": {
+    "main": true
+  },
+  "r-dummies": {
+    "main": true
+  },
+  "r-dunn.test": {
+    "main": true
+  },
+  "r-dygraphs": {
+    "main": true
+  },
+  "r-dynamictreecut": {
+    "main": true
+  },
+  "r-dyndimred": {
+    "main": true
+  },
+  "r-dynutils": {
+    "main": true
+  },
+  "r-e1071": {
+    "main": true
+  },
+  "r-earth": {
+    "main": true
+  },
+  "r-ebayesthresh": {
+    "main": true
+  },
+  "r-ebimetagenomics": {
+    "main": true
+  },
+  "r-echarts4r": {
+    "main": true
+  },
+  "r-ecodist": {
+    "main": true
+  },
+  "r-ecp": {
+    "main": true
+  },
+  "r-effects": {
+    "main": true
+  },
+  "r-effectsize": {
+    "main": true
+  },
+  "r-effsize": {
+    "main": true
+  },
+  "r-egg": {
+    "main": true
+  },
+  "r-elasticnet": {
+    "main": true
+  },
+  "r-ellipse": {
+    "main": true
+  },
+  "r-ellipsis": {
+    "main": true
+  },
+  "r-elliptic": {
+    "main": true
+  },
+  "r-elpigraph.r": {
+    "main": true
+  },
+  "r-emcluster": {
+    "main": true
+  },
+  "r-emdbook": {
+    "main": true
+  },
+  "r-emdist": {
+    "main": true
+  },
+  "r-eml": {
+    "main": true
+  },
+  "r-emld": {
+    "main": true
+  },
+  "r-emmeans": {
+    "main": true
+  },
+  "r-emojifont": {
+    "main": true
+  },
+  "r-emt": {
+    "main": true
+  },
+  "r-enc": {
+    "main": true
+  },
+  "r-energy": {
+    "main": true
+  },
+  "r-english": {
+    "main": true
+  },
+  "r-enrichr": {
+    "main": true
+  },
+  "r-enrichwith": {
+    "main": true
+  },
+  "r-ensurer": {
+    "main": true
+  },
+  "r-entropy": {
+    "main": true
+  },
+  "r-entropyexplorer": {
+    "main": true
+  },
+  "r-envstats": {
+    "main": true
+  },
+  "r-epi": {
+    "main": true
+  },
+  "r-ergm": {
+    "main": true
+  },
+  "r-ergm.count": {
+    "main": true
+  },
+  "r-esabcv": {
+    "main": true
+  },
+  "r-esquisse": {
+    "main": true
+  },
+  "r-essentials": {
+    "main": true
+  },
+  "r-estimability": {
+    "main": true
+  },
+  "r-estimatr": {
+    "main": true
+  },
+  "r-etm": {
+    "main": true
+  },
+  "r-etrunct": {
+    "main": true
+  },
+  "r-eulerr": {
+    "main": true
+  },
+  "r-europepmc": {
+    "main": true
+  },
+  "r-eva": {
+    "main": true
+  },
+  "r-evaluate": {
+    "main": true
+  },
+  "r-evd": {
+    "main": true
   }
 }
