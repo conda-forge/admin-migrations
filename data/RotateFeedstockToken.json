@@ -1261,5 +1261,374 @@
   },
   "pymap3d": {
     "main": true
+  },
+  "pymapd": {
+    "main": true
+  },
+  "pymatbridge": {
+    "main": true
+  },
+  "pymatgen": {
+    "main": true
+  },
+  "pymatgen-db": {
+    "main": true
+  },
+  "pymatgen-diffusion": {
+    "main": true
+  },
+  "pymatnest": {
+    "main": true
+  },
+  "pymatsolver": {
+    "main": true
+  },
+  "pymbar": {
+    "main": true
+  },
+  "pymbolic": {
+    "main": true
+  },
+  "pymc": {
+    "main": true
+  },
+  "pymc3": {
+    "main": true
+  },
+  "pymca": {
+    "main": true
+  },
+  "pymca-zocalo": {
+    "main": true
+  },
+  "pymcr": {
+    "main": true
+  },
+  "pymdi": {
+    "main": true
+  },
+  "pymdown-extensions": {
+    "main": true
+  },
+  "pymdwizard": {
+    "main": true
+  },
+  "pymeasure": {
+    "main": true
+  },
+  "pymedphys": {
+    "main": true
+  },
+  "pymeep": {
+    "main": true
+  },
+  "pymemcache": {
+    "main": true
+  },
+  "pymesh2": {
+    "main": true
+  },
+  "pymiescatt": {
+    "main": true
+  },
+  "pymkl": {
+    "main": true
+  },
+  "pymks": {
+    "main": true
+  },
+  "pymodbustcp": {
+    "main": true
+  },
+  "pymodm": {
+    "main": true
+  },
+  "pymodsecurity": {
+    "main": true
+  },
+  "pymonetdb": {
+    "main": true
+  },
+  "pymongo": {
+    "main": true
+  },
+  "pymor": {
+    "main": true
+  },
+  "pymorphy2": {
+    "main": true
+  },
+  "pymorphy2-dicts": {
+    "main": true
+  },
+  "pymorphy2-dicts-ru": {
+    "main": true
+  },
+  "pympler": {
+    "main": true
+  },
+  "pymsgbox": {
+    "main": true
+  },
+  "pymssql": {
+    "main": true
+  },
+  "pymt": {
+    "main": true
+  },
+  "pymt_cem": {
+    "main": true
+  },
+  "pymt_child": {
+    "main": true
+  },
+  "pymt_ecsimplesnow": {
+    "main": true
+  },
+  "pymt_gipl": {
+    "main": true
+  },
+  "pymt_hydrotrend": {
+    "main": true
+  },
+  "pymt_landlab": {
+    "main": true
+  },
+  "pymt_permamodel": {
+    "main": true
+  },
+  "pymt_rafem": {
+    "main": true
+  },
+  "pymt_sedflux": {
+    "main": true
+  },
+  "pymultinest": {
+    "main": true
+  },
+  "pymumps": {
+    "main": true
+  },
+  "pymunk": {
+    "main": true
+  },
+  "pymvpa2": {
+    "main": true
+  },
+  "pymysql": {
+    "main": true
+  },
+  "pynac": {
+    "main": true
+  },
+  "pynacl": {
+    "main": true
+  },
+  "pynamical": {
+    "main": true
+  },
+  "pynamodb": {
+    "main": true
+  },
+  "pyncml": {
+    "main": true
+  },
+  "pynco": {
+    "main": true
+  },
+  "pyne": {
+    "main": true
+  },
+  "pynetdicom": {
+    "main": true
+  },
+  "pynfft": {
+    "main": true
+  },
+  "pyngl": {
+    "main": true
+  },
+  "pynini": {
+    "main": true
+  },
+  "pynio": {
+    "main": true
+  },
+  "pynmea2": {
+    "main": true
+  },
+  "pynndescent": {
+    "main": true
+  },
+  "pynrrd": {
+    "main": true
+  },
+  "pyntcloud": {
+    "main": true
+  },
+  "pynucos": {
+    "main": true
+  },
+  "pynumero_libraries": {
+    "main": true
+  },
+  "pynumpress": {
+    "main": true
+  },
+  "pynvim": {
+    "main": true
+  },
+  "pynvml": {
+    "main": true
+  },
+  "pynwb": {
+    "main": true
+  },
+  "pyobjc-core": {
+    "main": true
+  },
+  "pyobjc-framework-cocoa": {
+    "main": true
+  },
+  "pyobjc-framework-fsevents": {
+    "main": true
+  },
+  "pyobjc-framework-quartz": {
+    "main": true
+  },
+  "pyobjcryst": {
+    "main": true
+  },
+  "pyod": {
+    "main": true
+  },
+  "pyodbc": {
+    "main": true
+  },
+  "pyodeint": {
+    "main": true
+  },
+  "pyomeca": {
+    "main": true
+  },
+  "pyomo": {
+    "main": true
+  },
+  "pyomo.extras": {
+    "main": true
+  },
+  "pyomo.solvers": {
+    "main": true
+  },
+  "pyoos": {
+    "main": true
+  },
+  "pyopcode": {
+    "main": true
+  },
+  "pyopencl": {
+    "main": true
+  },
+  "pyopengl": {
+    "main": true
+  },
+  "pyopenssl": {
+    "main": true
+  },
+  "pyophidia": {
+    "main": true
+  },
+  "pyorbital": {
+    "main": true
+  },
+  "pyorgmode": {
+    "main": true
+  },
+  "pyosf": {
+    "main": true
+  },
+  "pyosreplace": {
+    "master": true
+  },
+  "pyotp": {
+    "main": true
+  },
+  "pypandoc": {
+    "main": true
+  },
+  "pyparsing": {
+    "main": true
+  },
+  "pypd": {
+    "main": true
+  },
+  "pypdb": {
+    "main": true
+  },
+  "pypdf2": {
+    "main": true
+  },
+  "pypeg2": {
+    "main": true
+  },
+  "pyperclip": {
+    "main": true
+  },
+  "pyperf": {
+    "main": true
+  },
+  "pyphen": {
+    "main": true
+  },
+  "pypif": {
+    "main": true
+  },
+  "pyplis": {
+    "main": true
+  },
+  "pypng": {
+    "main": true
+  },
+  "pypolyagamma": {
+    "main": true
+  },
+  "pyppdf": {
+    "main": true
+  },
+  "pyppeteer": {
+    "main": true
+  },
+  "pyprind": {
+    "main": true
+  },
+  "pyprism": {
+    "main": true
+  },
+  "pyprof2calltree": {
+    "main": true
+  },
+  "pyproj": {
+    "main": true
+  },
+  "pyprojroot": {
+    "main": true
+  },
+  "pypsa": {
+    "main": true
+  },
+  "pypubsub": {
+    "main": true
+  },
+  "pypugjs": {
+    "main": true
+  },
+  "pypy-meta": {
+    "main": true
+  },
+  "pypy2.7": {
+    "main": true
+  },
+  "pypy3.6": {
+    "main": true
   }
 }
