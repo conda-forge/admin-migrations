@@ -7351,5 +7351,431 @@
   },
   "r-rcppclassic": {
     "main": true
+  },
+  "r-rcppcnpy": {
+    "main": true
+  },
+  "r-rcppeigen": {
+    "main": true
+  },
+  "r-rcppgsl": {
+    "main": true
+  },
+  "r-rcpphnsw": {
+    "main": true
+  },
+  "r-rcppnumerical": {
+    "main": true
+  },
+  "r-rcppparallel": {
+    "main": true
+  },
+  "r-rcppprogress": {
+    "main": true
+  },
+  "r-rcpproll": {
+    "main": true
+  },
+  "r-rcppthread": {
+    "main": true
+  },
+  "r-rcpptoml": {
+    "main": true
+  },
+  "r-rcppziggurat": {
+    "main": true
+  },
+  "r-rcsdp": {
+    "main": true
+  },
+  "r-rcsf": {
+    "main": true
+  },
+  "r-rcurl": {
+    "main": true
+  },
+  "r-rda": {
+    "main": true
+  },
+  "r-rdpack": {
+    "main": true
+  },
+  "r-rdrop2": {
+    "main": true
+  },
+  "r-reactlog": {
+    "main": true
+  },
+  "r-readbitmap": {
+    "main": true
+  },
+  "r-readbrukerflexdata": {
+    "main": true
+  },
+  "r-reader": {
+    "main": true
+  },
+  "r-readjdx": {
+    "main": true
+  },
+  "r-readmzxmldata": {
+    "main": true
+  },
+  "r-readr": {
+    "main": true
+  },
+  "r-readstata13": {
+    "main": true
+  },
+  "r-readxl": {
+    "main": true
+  },
+  "r-rebird": {
+    "main": true
+  },
+  "r-rebus": {
+    "main": true
+  },
+  "r-rebus.base": {
+    "main": true
+  },
+  "r-rebus.datetimes": {
+    "main": true
+  },
+  "r-rebus.numbers": {
+    "main": true
+  },
+  "r-rebus.unicode": {
+    "main": true
+  },
+  "r-recipes": {
+    "main": true
+  },
+  "r-recommended": {
+    "main": true
+  },
+  "r-recordlinkage": {
+    "main": true
+  },
+  "r-redshifttools": {
+    "main": true
+  },
+  "r-refgenome": {
+    "master": true
+  },
+  "r-refmanager": {
+    "main": true
+  },
+  "r-refund": {
+    "main": true
+  },
+  "r-registry": {
+    "main": true
+  },
+  "r-regress": {
+    "main": true
+  },
+  "r-relaimpo": {
+    "main": true
+  },
+  "r-relations": {
+    "main": true
+  },
+  "r-reldist": {
+    "main": true
+  },
+  "r-relimp": {
+    "main": true
+  },
+  "r-rematch": {
+    "main": true
+  },
+  "r-rematch2": {
+    "main": true
+  },
+  "r-remotes": {
+    "main": true
+  },
+  "r-rentrez": {
+    "main": true
+  },
+  "r-renv": {
+    "main": true
+  },
+  "r-reordercluster": {
+    "main": true
+  },
+  "r-repo": {
+    "main": true
+  },
+  "r-reportr": {
+    "main": true
+  },
+  "r-repr": {
+    "main": true
+  },
+  "r-reprex": {
+    "main": true
+  },
+  "r-rerddap": {
+    "main": true
+  },
+  "r-reshape": {
+    "main": true
+  },
+  "r-reshape2": {
+    "main": true
+  },
+  "r-reticulate": {
+    "main": true
+  },
+  "r-rex": {
+    "main": true
+  },
+  "r-rfast": {
+    "main": true
+  },
+  "r-rfoc": {
+    "main": true
+  },
+  "r-rfpermute": {
+    "main": true
+  },
+  "r-rfutilities": {
+    "main": true
+  },
+  "r-rgbif": {
+    "main": true
+  },
+  "r-rgcca": {
+    "main": true
+  },
+  "r-rgdal": {
+    "main": true
+  },
+  "r-rgeos": {
+    "main": true
+  },
+  "r-rgexf": {
+    "main": true
+  },
+  "r-rggobi": {
+    "main": true
+  },
+  "r-rgl": {
+    "main": true
+  },
+  "r-rgooglemaps": {
+    "main": true
+  },
+  "r-rgtk2": {
+    "main": true
+  },
+  "r-rhandsontable": {
+    "main": true
+  },
+  "r-rhpcblasctl": {
+    "main": true
+  },
+  "r-rideogram": {
+    "main": true
+  },
+  "r-ridigbio": {
+    "main": true
+  },
+  "r-riingo": {
+    "main": true
+  },
+  "r-rinside": {
+    "main": true
+  },
+  "r-rintrojs": {
+    "main": true
+  },
+  "r-rio": {
+    "main": true
+  },
+  "r-rioja": {
+    "main": true
+  },
+  "r-riskclustr": {
+    "main": true
+  },
+  "r-ritis": {
+    "main": true
+  },
+  "r-rjags": {
+    "main": true
+  },
+  "r-rjava": {
+    "main": true
+  },
+  "r-rjdbc": {
+    "main": true
+  },
+  "r-rje": {
+    "main": true
+  },
+  "r-rjson": {
+    "main": true
+  },
+  "r-rjsonio": {
+    "main": true
+  },
+  "r-rknn": {
+    "main": true
+  },
+  "r-rlab": {
+    "main": true
+  },
+  "r-rlabkey": {
+    "main": true
+  },
+  "r-rlang": {
+    "main": true
+  },
+  "r-rlas": {
+    "main": true
+  },
+  "r-rlist": {
+    "main": true
+  },
+  "r-rlrsim": {
+    "main": true
+  },
+  "r-rly": {
+    "main": true
+  },
+  "r-rmagic": {
+    "main": true
+  },
+  "r-rmallow": {
+    "main": true
+  },
+  "r-rmapshaper": {
+    "main": true
+  },
+  "r-rmariadb": {
+    "main": true
+  },
+  "r-rmarkdown": {
+    "main": true
+  },
+  "r-rmcfs": {
+    "main": true
+  },
+  "r-rmdformats": {
+    "main": true
+  },
+  "r-rmeta": {
+    "main": true
+  },
+  "r-rmisc": {
+    "main": true
+  },
+  "r-rmixmod": {
+    "main": true
+  },
+  "r-rmpfr": {
+    "main": true
+  },
+  "r-rmpi": {
+    "main": true
+  },
+  "r-rmr2": {
+    "main": true
+  },
+  "r-rms": {
+    "main": true
+  },
+  "r-rmtstat": {
+    "main": true
+  },
+  "r-rmumps": {
+    "main": true
+  },
+  "r-rmutil": {
+    "main": true
+  },
+  "r-rmvp": {
+    "main": true
+  },
+  "r-rmysql": {
+    "main": true
+  },
+  "r-rncl": {
+    "main": true
+  },
+  "r-rnetcdf": {
+    "main": true
+  },
+  "r-rnexml": {
+    "main": true
+  },
+  "r-rngtools": {
+    "main": true
+  },
+  "r-rngwell": {
+    "main": true
+  },
+  "r-rnifti": {
+    "main": true
+  },
+  "r-rniftyreg": {
+    "main": true
+  },
+  "r-robcompositions": {
+    "main": true
+  },
+  "r-robis": {
+    "main": true
+  },
+  "r-robust": {
+    "main": true
+  },
+  "r-robustbase": {
+    "main": true
+  },
+  "r-robustrankaggreg": {
+    "main": true
+  },
+  "r-rocr": {
+    "main": true
+  },
+  "r-rodbc": {
+    "main": true
+  },
+  "r-rook": {
+    "main": true
+  },
+  "r-rootsolve": {
+    "main": true
+  },
+  "r-rosm": {
+    "main": true
+  },
+  "r-rotl": {
+    "main": true
+  },
+  "r-roxygen2": {
+    "main": true
+  },
+  "r-rpart": {
+    "main": true
+  },
+  "r-rpart.plot": {
+    "main": true
+  },
+  "r-rpf": {
+    "main": true
+  },
+  "r-rphylip": {
+    "main": true
+  },
+  "r-rpivottable": {
+    "main": true
+  },
+  "r-rpmg": {
+    "main": true
   }
 }
