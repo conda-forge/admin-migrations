@@ -9853,5 +9853,449 @@
   },
   "redpil": {
     "main": true
+  },
+  "reducer": {
+    "main": true
+  },
+  "redux": {
+    "main": true
+  },
+  "reentry": {
+    "main": true
+  },
+  "refet": {
+    "main": true
+  },
+  "refnx": {
+    "main": true
+  },
+  "reg": {
+    "main": true
+  },
+  "regex": {
+    "main": true
+  },
+  "region": {
+    "main": true
+  },
+  "regionmask": {
+    "main": true
+  },
+  "regions": {
+    "main": true
+  },
+  "regolith": {
+    "main": true
+  },
+  "reikna": {
+    "main": true
+  },
+  "reindent": {
+    "main": true
+  },
+  "rejected": {
+    "main": true
+  },
+  "related": {
+    "main": true
+  },
+  "remi": {
+    "main": true
+  },
+  "removestar": {
+    "main": true
+  },
+  "repackage": {
+    "main": true
+  },
+  "repeated_test": {
+    "main": true
+  },
+  "reportlab": {
+    "main": true
+  },
+  "reports": {
+    "main": true
+  },
+  "repoze.lru": {
+    "main": true
+  },
+  "repoze.who": {
+    "main": true
+  },
+  "repoze.who-friendlyform": {
+    "main": true
+  },
+  "represent": {
+    "main": true
+  },
+  "reprexpy": {
+    "main": true
+  },
+  "reproject": {
+    "main": true
+  },
+  "reprounzip": {
+    "main": true
+  },
+  "reprounzip-docker": {
+    "main": true
+  },
+  "reprounzip-qt": {
+    "main": true
+  },
+  "reprounzip-vagrant": {
+    "main": true
+  },
+  "reprozip": {
+    "main": true
+  },
+  "reprozip-jupyter": {
+    "main": true
+  },
+  "request": {
+    "main": true
+  },
+  "requests": {
+    "main": true
+  },
+  "requests-async": {
+    "main": true
+  },
+  "requests-aws4auth": {
+    "main": true
+  },
+  "requests-cache": {
+    "main": true
+  },
+  "requests-ecp": {
+    "main": true
+  },
+  "requests-file": {
+    "main": true
+  },
+  "requests-ftp": {
+    "main": true
+  },
+  "requests-futures": {
+    "main": true
+  },
+  "requests-gracedb": {
+    "main": true
+  },
+  "requests-kerberos": {
+    "main": true
+  },
+  "requests-magpie": {
+    "main": true
+  },
+  "requests-mock": {
+    "main": true
+  },
+  "requests-negotiate-sspi": {
+    "main": true
+  },
+  "requests-oauthlib": {
+    "main": true
+  },
+  "requests-toolbelt": {
+    "main": true
+  },
+  "requests-unixsocket": {
+    "main": true
+  },
+  "requests_cache": {
+    "main": true
+  },
+  "requests_download": {
+    "main": true
+  },
+  "requests_ntlm": {
+    "main": true
+  },
+  "requests_pkcs12": {
+    "main": true
+  },
+  "requestsexceptions": {
+    "main": true
+  },
+  "requirements-detector": {
+    "main": true
+  },
+  "requirements-parser": {
+    "main": true
+  },
+  "resampy": {
+    "main": true
+  },
+  "resonance": {
+    "main": true
+  },
+  "resonate": {
+    "main": true
+  },
+  "responder": {
+    "main": true
+  },
+  "responses": {
+    "main": true
+  },
+  "restructuredtext_lint": {
+    "main": true
+  },
+  "retriever": {
+    "main": true
+  },
+  "retry": {
+    "main": true
+  },
+  "retry_decorator": {
+    "main": true
+  },
+  "retrying": {
+    "main": true
+  },
+  "retype": {
+    "main": true
+  },
+  "reuse": {
+    "main": true
+  },
+  "rever": {
+    "main": true
+  },
+  "reverse-geocode": {
+    "main": true
+  },
+  "rfc3339": {
+    "main": true
+  },
+  "rfc3986": {
+    "main": true
+  },
+  "rfc3987": {
+    "main": true
+  },
+  "rfc5424-logging-handler": {
+    "main": true
+  },
+  "rfpimp": {
+    "main": true
+  },
+  "rhapsody": {
+    "main": true
+  },
+  "rhash": {
+    "main": true
+  },
+  "richdem": {
+    "main": true
+  },
+  "rickshaw": {
+    "main": true
+  },
+  "rift": {
+    "main": true
+  },
+  "rio-cogeo": {
+    "main": true
+  },
+  "rios": {
+    "main": true
+  },
+  "rioxarray": {
+    "main": true
+  },
+  "ripgrep": {
+    "main": true
+  },
+  "ripser": {
+    "main": true
+  },
+  "rise": {
+    "main": true
+  },
+  "riskmatrix": {
+    "main": true
+  },
+  "rjsmin": {
+    "main": true
+  },
+  "rmsd": {
+    "main": true
+  },
+  "rnatools": {
+    "main": true
+  },
+  "robobrowser": {
+    "main": true
+  },
+  "robotframework": {
+    "main": true
+  },
+  "robotframework-lint": {
+    "main": true
+  },
+  "robotframework-seleniumlibrary": {
+    "main": true
+  },
+  "robotframework-sshlibrary": {
+    "main": true
+  },
+  "robotstatuschecker": {
+    "main": true
+  },
+  "rocketpy": {
+    "main": true
+  },
+  "rockhound": {
+    "main": true
+  },
+  "rockpool": {
+    "main": true
+  },
+  "rocm-bandwidth-test": {
+    "main": true
+  },
+  "rocm-cmake": {
+    "main": true
+  },
+  "rocm-comgr": {
+    "main": true
+  },
+  "rocm-device-libs": {
+    "main": true
+  },
+  "rocm-opencl-driver": {
+    "main": true
+  },
+  "rocm-opencl-runtime": {
+    "main": true
+  },
+  "rocm-smi": {
+    "main": true
+  },
+  "rocminfo": {
+    "main": true
+  },
+  "rocr-runtime": {
+    "main": true
+  },
+  "roct-thunk-interface": {
+    "main": true
+  },
+  "roifile": {
+    "main": true
+  },
+  "rollbar": {
+    "main": true
+  },
+  "romspline": {
+    "main": true
+  },
+  "root": {
+    "main": true
+  },
+  "root5": {
+    "master": true
+  },
+  "root_numpy": {
+    "main": true
+  },
+  "root_pandas": {
+    "main": true
+  },
+  "rope": {
+    "main": true
+  },
+  "ros-actionlib": {
+    "master": true
+  },
+  "ros-actionlib-msgs": {
+    "master": true
+  },
+  "ros-catkin": {
+    "master": true
+  },
+  "ros-class-loader": {
+    "master": true
+  },
+  "ros-cmake-modules": {
+    "master": true
+  },
+  "ros-comm": {
+    "master": true
+  },
+  "ros-common-msgs": {
+    "master": true
+  },
+  "ros-conda-base": {
+    "master": true
+  },
+  "ros-conda-mutex": {
+    "master": true
+  },
+  "ros-core": {
+    "master": true
+  },
+  "ros-cpp-common": {
+    "master": true
+  },
+  "ros-diagnostic-msgs": {
+    "master": true
+  },
+  "ros-dynamic-reconfigure": {
+    "master": true
+  },
+  "ros-environment": {
+    "master": true
+  },
+  "ros-gencpp": {
+    "master": true
+  },
+  "ros-geneus": {
+    "master": true
+  },
+  "ros-genlisp": {
+    "master": true
+  },
+  "ros-genmsg": {
+    "master": true
+  },
+  "ros-gennodejs": {
+    "master": true
+  },
+  "ros-genpy": {
+    "master": true
+  },
+  "ros-geometry-msgs": {
+    "master": true
+  },
+  "ros-message-filters": {
+    "master": true
+  },
+  "ros-message-generation": {
+    "master": true
+  },
+  "ros-message-runtime": {
+    "master": true
+  },
+  "ros-mk": {
+    "master": true
+  },
+  "ros-nav-msgs": {
+    "master": true
+  },
+  "ros-pluginlib": {
+    "master": true
+  },
+  "ros-ros": {
+    "master": true
+  },
+  "ros-rosbag": {
+    "master": true
+  },
+  "ros-rosbag-migration-rule": {
+    "master": true
   }
 }
