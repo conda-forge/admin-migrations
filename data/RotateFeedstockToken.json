@@ -12226,5 +12226,455 @@
   },
   "surfinbh": {
     "main": true
+  },
+  "sushy": {
+    "main": true
+  },
+  "suspect": {
+    "main": true
+  },
+  "svg2png": {
+    "main": true
+  },
+  "svg42pdf": {
+    "main": true
+  },
+  "svglib": {
+    "main": true
+  },
+  "svgutils": {
+    "main": true
+  },
+  "svgwrite": {
+    "main": true
+  },
+  "swagger-django-generator": {
+    "main": true
+  },
+  "swagger-spec-validator": {
+    "main": true
+  },
+  "swagger-ui-bundle": {
+    "main": true
+  },
+  "swepy": {
+    "main": true
+  },
+  "swi-prolog": {
+    "main": true
+  },
+  "swifter": {
+    "main": true
+  },
+  "swig": {
+    "main": true
+  },
+  "swiglpk": {
+    "main": true
+  },
+  "switch_model": {
+    "main": true
+  },
+  "sxs": {
+    "main": true
+  },
+  "sycomore": {
+    "main": true
+  },
+  "sygma": {
+    "main": true
+  },
+  "symengine": {
+    "main": true
+  },
+  "symfit": {
+    "main": true
+  },
+  "symmetrica": {
+    "main": true
+  },
+  "symopt": {
+    "main": true
+  },
+  "sympow": {
+    "main": true
+  },
+  "sympy": {
+    "main": true
+  },
+  "symstore": {
+    "main": true
+  },
+  "synbiochem-py": {
+    "main": true
+  },
+  "synphot": {
+    "main": true
+  },
+  "synthpop": {
+    "main": true
+  },
+  "sysv_ipc": {
+    "main": true
+  },
+  "tableauserverclient": {
+    "main": true
+  },
+  "tableone": {
+    "main": true
+  },
+  "tableschema": {
+    "main": true
+  },
+  "tableschema-sql": {
+    "main": true
+  },
+  "tablib": {
+    "main": true
+  },
+  "tabula-py": {
+    "main": true
+  },
+  "tabulate": {
+    "main": true
+  },
+  "tabulatehelper": {
+    "main": true
+  },
+  "tabulator": {
+    "main": true
+  },
+  "tachyon": {
+    "main": true
+  },
+  "tagmaps": {
+    "main": true
+  },
+  "tamkin": {
+    "main": true
+  },
+  "tangelo": {
+    "main": true
+  },
+  "tangled-up-in-unicode": {
+    "main": true
+  },
+  "tapi": {
+    "main": true
+  },
+  "tar": {
+    "main": true
+  },
+  "tardis-sn": {
+    "main": true
+  },
+  "tasklogger": {
+    "main": true
+  },
+  "tatsu": {
+    "main": true
+  },
+  "tbb": {
+    "main": true
+  },
+  "tblib": {
+    "main": true
+  },
+  "tclap": {
+    "main": true
+  },
+  "tclreadline": {
+    "main": true
+  },
+  "tcsh": {
+    "main": true
+  },
+  "tectonic": {
+    "main": true
+  },
+  "teensy_loader_cli": {
+    "main": true
+  },
+  "teensytoany": {
+    "main": true
+  },
+  "telegram-send": {
+    "main": true
+  },
+  "telluric": {
+    "main": true
+  },
+  "tempdir": {
+    "main": true
+  },
+  "tempest-remap": {
+    "main": true
+  },
+  "tempita": {
+    "main": true
+  },
+  "tempora": {
+    "main": true
+  },
+  "tenacity": {
+    "main": true
+  },
+  "tensorboard": {
+    "main": true
+  },
+  "tensorboardx": {
+    "main": true
+  },
+  "tensorflow": {
+    "main": true
+  },
+  "tensorflow-estimator": {
+    "master": true
+  },
+  "tensorflow-hub": {
+    "main": true
+  },
+  "tensorflow-probability": {
+    "main": true
+  },
+  "tensorflowonspark": {
+    "main": true
+  },
+  "tensorly": {
+    "main": true
+  },
+  "termcolor": {
+    "main": true
+  },
+  "termgraph": {
+    "main": true
+  },
+  "terminado": {
+    "main": true
+  },
+  "terminaltables": {
+    "main": true
+  },
+  "terraform": {
+    "main": true
+  },
+  "terraform-provider-alicloud": {
+    "main": true
+  },
+  "terraform-provider-archive": {
+    "main": true
+  },
+  "terraform-provider-arukas": {
+    "main": true
+  },
+  "terraform-provider-atlas": {
+    "master": true
+  },
+  "terraform-provider-aws": {
+    "main": true
+  },
+  "terraform-provider-azurerm": {
+    "main": true
+  },
+  "terraform-provider-bitbucket": {
+    "main": true
+  },
+  "terraform-provider-chef": {
+    "main": true
+  },
+  "terraform-provider-circonus": {
+    "main": true
+  },
+  "terraform-provider-clc": {
+    "main": true
+  },
+  "terraform-provider-cloudflare": {
+    "main": true
+  },
+  "terraform-provider-cloudscale": {
+    "main": true
+  },
+  "terraform-provider-cloudstack": {
+    "main": true
+  },
+  "terraform-provider-cobbler": {
+    "main": true
+  },
+  "terraform-provider-consul": {
+    "main": true
+  },
+  "terraform-provider-credstash": {
+    "main": true
+  },
+  "terraform-provider-datadog": {
+    "main": true
+  },
+  "terraform-provider-digitalocean": {
+    "main": true
+  },
+  "terraform-provider-dme": {
+    "main": true
+  },
+  "terraform-provider-dns": {
+    "main": true
+  },
+  "terraform-provider-dnsimple": {
+    "main": true
+  },
+  "terraform-provider-docker": {
+    "main": true
+  },
+  "terraform-provider-dyn": {
+    "main": true
+  },
+  "terraform-provider-external": {
+    "main": true
+  },
+  "terraform-provider-fastly": {
+    "main": true
+  },
+  "terraform-provider-github": {
+    "main": true
+  },
+  "terraform-provider-gitlab": {
+    "main": true
+  },
+  "terraform-provider-google": {
+    "main": true
+  },
+  "terraform-provider-grafana": {
+    "main": true
+  },
+  "terraform-provider-helm": {
+    "main": true
+  },
+  "terraform-provider-heroku": {
+    "main": true
+  },
+  "terraform-provider-http": {
+    "main": true
+  },
+  "terraform-provider-icinga2": {
+    "main": true
+  },
+  "terraform-provider-ignition": {
+    "main": true
+  },
+  "terraform-provider-influxdb": {
+    "main": true
+  },
+  "terraform-provider-keycloak": {
+    "main": true
+  },
+  "terraform-provider-kubernetes": {
+    "main": true
+  },
+  "terraform-provider-librato": {
+    "main": true
+  },
+  "terraform-provider-local": {
+    "main": true
+  },
+  "terraform-provider-logentries": {
+    "main": true
+  },
+  "terraform-provider-logicmonitor": {
+    "main": true
+  },
+  "terraform-provider-mailgun": {
+    "main": true
+  },
+  "terraform-provider-mysql": {
+    "main": true
+  },
+  "terraform-provider-newrelic": {
+    "main": true
+  },
+  "terraform-provider-nomad": {
+    "main": true
+  },
+  "terraform-provider-ns1": {
+    "main": true
+  },
+  "terraform-provider-null": {
+    "main": true
+  },
+  "terraform-provider-oneandone": {
+    "main": true
+  },
+  "terraform-provider-opc": {
+    "main": true
+  },
+  "terraform-provider-openstack": {
+    "main": true
+  },
+  "terraform-provider-opentelekomcloud": {
+    "main": true
+  },
+  "terraform-provider-opsgenie": {
+    "main": true
+  },
+  "terraform-provider-ovh": {
+    "main": true
+  },
+  "terraform-provider-packet": {
+    "main": true
+  },
+  "terraform-provider-pagerduty": {
+    "main": true
+  },
+  "terraform-provider-panos": {
+    "main": true
+  },
+  "terraform-provider-postgresql": {
+    "main": true
+  },
+  "terraform-provider-powerdns": {
+    "main": true
+  },
+  "terraform-provider-profitbricks": {
+    "main": true
+  },
+  "terraform-provider-rabbitmq": {
+    "main": true
+  },
+  "terraform-provider-rancher": {
+    "main": true
+  },
+  "terraform-provider-random": {
+    "main": true
+  },
+  "terraform-provider-rundeck": {
+    "main": true
+  },
+  "terraform-provider-scaleway": {
+    "main": true
+  },
+  "terraform-provider-softlayer": {
+    "main": true
+  },
+  "terraform-provider-spotinst": {
+    "main": true
+  },
+  "terraform-provider-statuscake": {
+    "main": true
+  },
+  "terraform-provider-template": {
+    "main": true
+  },
+  "terraform-provider-terraform": {
+    "main": true
+  },
+  "terraform-provider-tls": {
+    "main": true
+  },
+  "terraform-provider-triton": {
+    "main": true
+  },
+  "terraform-provider-ultradns": {
+    "main": true
+  },
+  "terraform-provider-vault": {
+    "main": true
   }
 }
