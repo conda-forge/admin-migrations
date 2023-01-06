@@ -5980,5 +5980,476 @@
   },
   "r-matching": {
     "main": true
+  },
+  "r-matlab": {
+    "main": true
+  },
+  "r-matlib": {
+    "main": true
+  },
+  "r-matrix": {
+    "main": true
+  },
+  "r-matrix.utils": {
+    "main": true
+  },
+  "r-matrixcalc": {
+    "main": true
+  },
+  "r-matrixeqtl": {
+    "main": true
+  },
+  "r-matrixmodels": {
+    "main": true
+  },
+  "r-matrixstats": {
+    "main": true
+  },
+  "r-matrixtests": {
+    "main": true
+  },
+  "r-maxlik": {
+    "main": true
+  },
+  "r-maxstat": {
+    "main": true
+  },
+  "r-mba": {
+    "main": true
+  },
+  "r-mbess": {
+    "main": true
+  },
+  "r-mboost": {
+    "main": true
+  },
+  "r-mc2d": {
+    "main": true
+  },
+  "r-mcbiopi": {
+    "main": true
+  },
+  "r-mcl": {
+    "main": true
+  },
+  "r-mclust": {
+    "main": true
+  },
+  "r-mcmc": {
+    "main": true
+  },
+  "r-mcmcglmm": {
+    "main": true
+  },
+  "r-mcmcpack": {
+    "main": true
+  },
+  "r-mcmcprecision": {
+    "main": true
+  },
+  "r-mco": {
+    "main": true
+  },
+  "r-mcpan": {
+    "main": true
+  },
+  "r-mda": {
+    "main": true
+  },
+  "r-mdmr": {
+    "main": true
+  },
+  "r-medicalrisk": {
+    "main": true
+  },
+  "r-mefa": {
+    "main": true
+  },
+  "r-memoise": {
+    "main": true
+  },
+  "r-memuse": {
+    "main": true
+  },
+  "r-mertools": {
+    "main": true
+  },
+  "r-mess": {
+    "main": true
+  },
+  "r-meta": {
+    "main": true
+  },
+  "r-metabma": {
+    "main": true
+  },
+  "r-metacycle": {
+    "main": true
+  },
+  "r-metafor": {
+    "main": true
+  },
+  "r-metap": {
+    "main": true
+  },
+  "r-metaplus": {
+    "main": true
+  },
+  "r-metarnaseq": {
+    "main": true
+  },
+  "r-metr": {
+    "main": true
+  },
+  "r-metrics": {
+    "main": true
+  },
+  "r-metstat": {
+    "main": true
+  },
+  "r-mgcv": {
+    "main": true
+  },
+  "r-mglm": {
+    "main": true
+  },
+  "r-mgrs": {
+    "main": true
+  },
+  "r-mgsub": {
+    "main": true
+  },
+  "r-mhadaptive": {
+    "main": true
+  },
+  "r-mhsmm": {
+    "main": true
+  },
+  "r-mi": {
+    "main": true
+  },
+  "r-mice": {
+    "main": true
+  },
+  "r-microbenchmark": {
+    "main": true
+  },
+  "r-micropan": {
+    "main": true
+  },
+  "r-microseq": {
+    "main": true
+  },
+  "r-mime": {
+    "main": true
+  },
+  "r-minerva": {
+    "main": true
+  },
+  "r-minicran": {
+    "main": true
+  },
+  "r-miniui": {
+    "main": true
+  },
+  "r-minpack.lm": {
+    "main": true
+  },
+  "r-minqa": {
+    "main": true
+  },
+  "r-mirt": {
+    "main": true
+  },
+  "r-misc3d": {
+    "main": true
+  },
+  "r-miscf": {
+    "main": true
+  },
+  "r-misctools": {
+    "main": true
+  },
+  "r-missforest": {
+    "main": true
+  },
+  "r-missmda": {
+    "main": true
+  },
+  "r-mitml": {
+    "main": true
+  },
+  "r-mitools": {
+    "main": true
+  },
+  "r-mixomics": {
+    "main": true
+  },
+  "r-mixsmsn": {
+    "main": true
+  },
+  "r-mixsqp": {
+    "main": true
+  },
+  "r-mixtools": {
+    "main": true
+  },
+  "r-mlapi": {
+    "main": true
+  },
+  "r-mlbench": {
+    "main": true
+  },
+  "r-mlflow": {
+    "main": true
+  },
+  "r-mlgt": {
+    "main": true
+  },
+  "r-mlmetrics": {
+    "main": true
+  },
+  "r-mlmrev": {
+    "main": true
+  },
+  "r-mlogit": {
+    "main": true
+  },
+  "r-mlr": {
+    "main": true
+  },
+  "r-mlrmbo": {
+    "main": true
+  },
+  "r-mmod": {
+    "main": true
+  },
+  "r-mnormt": {
+    "main": true
+  },
+  "r-mockery": {
+    "main": true
+  },
+  "r-modeest": {
+    "main": true
+  },
+  "r-modeldb": {
+    "main": true
+  },
+  "r-modelmetrics": {
+    "main": true
+  },
+  "r-modelr": {
+    "main": true
+  },
+  "r-modeltools": {
+    "main": true
+  },
+  "r-modes": {
+    "main": true
+  },
+  "r-moments": {
+    "main": true
+  },
+  "r-momr": {
+    "main": true
+  },
+  "r-mongolite": {
+    "main": true
+  },
+  "r-moonbook": {
+    "main": true
+  },
+  "r-mosaiccore": {
+    "main": true
+  },
+  "r-mosaicdata": {
+    "main": true
+  },
+  "r-mpm": {
+    "main": true
+  },
+  "r-mpmi": {
+    "main": true
+  },
+  "r-mpoly": {
+    "main": true
+  },
+  "r-mppa": {
+    "main": true
+  },
+  "r-mqtl": {
+    "main": true
+  },
+  "r-mratios": {
+    "main": true
+  },
+  "r-mrmre": {
+    "main": true
+  },
+  "r-msgps": {
+    "main": true
+  },
+  "r-msigdbr": {
+    "main": true
+  },
+  "r-msm": {
+    "main": true
+  },
+  "r-multbxxc": {
+    "main": true
+  },
+  "r-multcomp": {
+    "main": true
+  },
+  "r-multcompview": {
+    "main": true
+  },
+  "r-multicool": {
+    "main": true
+  },
+  "r-multimode": {
+    "main": true
+  },
+  "r-multinet": {
+    "main": true
+  },
+  "r-multipanelfigure": {
+    "main": true
+  },
+  "r-multiroc": {
+    "main": true
+  },
+  "r-multitaper": {
+    "main": true
+  },
+  "r-multiway": {
+    "main": true
+  },
+  "r-mumin": {
+    "main": true
+  },
+  "r-munsell": {
+    "main": true
+  },
+  "r-mustat": {
+    "main": true
+  },
+  "r-mvnfast": {
+    "main": true
+  },
+  "r-mvnormtest": {
+    "main": true
+  },
+  "r-mvoutlier": {
+    "main": true
+  },
+  "r-mvr": {
+    "main": true
+  },
+  "r-mvtnorm": {
+    "main": true
+  },
+  "r-mxmmod": {
+    "main": true
+  },
+  "r-n1qn1": {
+    "main": true
+  },
+  "r-nada": {
+    "main": true
+  },
+  "r-naivebayes": {
+    "main": true
+  },
+  "r-nam": {
+    "main": true
+  },
+  "r-naniar": {
+    "main": true
+  },
+  "r-nardl": {
+    "main": true
+  },
+  "r-narray": {
+    "main": true
+  },
+  "r-natserv": {
+    "main": true
+  },
+  "r-naturalsort": {
+    "main": true
+  },
+  "r-nbclust": {
+    "main": true
+  },
+  "r-ncbit": {
+    "main": true
+  },
+  "r-ncdf4": {
+    "main": true
+  },
+  "r-ncdunnett": {
+    "main": true
+  },
+  "r-ncmeta": {
+    "main": true
+  },
+  "r-ncmisc": {
+    "main": true
+  },
+  "r-neldermead": {
+    "main": true
+  },
+  "r-netrankr": {
+    "main": true
+  },
+  "r-network": {
+    "main": true
+  },
+  "r-networkd3": {
+    "main": true
+  },
+  "r-networkdynamic": {
+    "main": true
+  },
+  "r-neuralnet": {
+    "main": true
+  },
+  "r-nhmmfdr": {
+    "main": true
+  },
+  "r-nistunits": {
+    "main": true
+  },
+  "r-nleqslv": {
+    "main": true
+  },
+  "r-nlme": {
+    "main": true
+  },
+  "r-nlmixr": {
+    "main": true
+  },
+  "r-nloptr": {
+    "main": true
+  },
+  "r-nlp": {
+    "main": true
+  },
+  "r-nls2": {
+    "main": true
+  },
+  "r-nmf": {
+    "main": true
+  },
+  "r-nnet": {
+    "main": true
+  },
+  "r-nnlasso": {
+    "main": true
+  },
+  "r-nnls": {
+    "main": true
   }
 }
