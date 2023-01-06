@@ -12676,5 +12676,437 @@
   },
   "terraform-provider-vault": {
     "main": true
+  },
+  "terraform-provider-vcd": {
+    "main": true
+  },
+  "terraform-provider-vsphere": {
+    "main": true
+  },
+  "terragrunt": {
+    "main": true
+  },
+  "terrainbento": {
+    "main": true
+  },
+  "tesseract": {
+    "main": true
+  },
+  "tesserocr": {
+    "main": true
+  },
+  "testfixtures": {
+    "main": true
+  },
+  "testflo": {
+    "main": true
+  },
+  "testinfra": {
+    "main": true
+  },
+  "testpath": {
+    "main": true
+  },
+  "testtools": {
+    "main": true
+  },
+  "tetgen": {
+    "main": true
+  },
+  "texext": {
+    "main": true
+  },
+  "texinfo": {
+    "main": true
+  },
+  "texlive-core": {
+    "main": true
+  },
+  "texplain": {
+    "main": true
+  },
+  "texsoup": {
+    "main": true
+  },
+  "text-unidecode": {
+    "main": true
+  },
+  "textacy": {
+    "main": true
+  },
+  "textadapter": {
+    "main": true
+  },
+  "textblob": {
+    "main": true
+  },
+  "textdistance": {
+    "main": true
+  },
+  "textract": {
+    "main": true
+  },
+  "textstat": {
+    "main": true
+  },
+  "texttable": {
+    "main": true
+  },
+  "textwrap3": {
+    "main": true
+  },
+  "tf-slim": {
+    "main": true
+  },
+  "tf2onnx": {
+    "main": true
+  },
+  "tf_object_detection": {
+    "main": true
+  },
+  "tflint": {
+    "main": true
+  },
+  "the_silver_searcher": {
+    "main": true
+  },
+  "theano": {
+    "main": true
+  },
+  "theanolm": {
+    "main": true
+  },
+  "thechopper": {
+    "main": true
+  },
+  "thermo": {
+    "main": true
+  },
+  "thermofun": {
+    "main": true
+  },
+  "thermohubclient": {
+    "main": true
+  },
+  "thermotools": {
+    "main": true
+  },
+  "thinc": {
+    "main": true
+  },
+  "thinkx": {
+    "main": true
+  },
+  "thrax": {
+    "main": true
+  },
+  "threadloop": {
+    "main": true
+  },
+  "threadpoolctl": {
+    "main": true
+  },
+  "thredds_crawler": {
+    "main": true
+  },
+  "threddsclient": {
+    "main": true
+  },
+  "three.js": {
+    "main": true
+  },
+  "threedigrid": {
+    "main": true
+  },
+  "thrift": {
+    "main": true
+  },
+  "thrift-cpp": {
+    "main": true
+  },
+  "thrift_sasl": {
+    "main": true
+  },
+  "thriftpy": {
+    "master": true
+  },
+  "thriftpy2": {
+    "main": true
+  },
+  "thucyd": {
+    "main": true
+  },
+  "thunder-python": {
+    "main": true
+  },
+  "thunder-registration": {
+    "main": true
+  },
+  "tibanna": {
+    "main": true
+  },
+  "ticcltools": {
+    "main": true
+  },
+  "ticcutils": {
+    "main": true
+  },
+  "tidy-html5": {
+    "main": true
+  },
+  "tidy_headers": {
+    "main": true
+  },
+  "tidynamics": {
+    "main": true
+  },
+  "tierpsy": {
+    "main": true
+  },
+  "tifffile": {
+    "main": true
+  },
+  "tifffolder": {
+    "main": true
+  },
+  "tika": {
+    "main": true
+  },
+  "tike": {
+    "main": true
+  },
+  "tikzmagic": {
+    "main": true
+  },
+  "tikzplotlib": {
+    "main": true
+  },
+  "tiledb": {
+    "main": true
+  },
+  "tiledb-py": {
+    "main": true
+  },
+  "tilepie": {
+    "main": true
+  },
+  "time": {
+    "main": true
+  },
+  "timechart": {
+    "main": true
+  },
+  "timehash": {
+    "main": true
+  },
+  "timeout-decorator": {
+    "main": true
+  },
+  "timezonefinder": {
+    "main": true
+  },
+  "timml": {
+    "main": true
+  },
+  "tini": {
+    "main": true
+  },
+  "tinyarray": {
+    "main": true
+  },
+  "tinycss": {
+    "main": true
+  },
+  "tinycss2": {
+    "main": true
+  },
+  "tinydb": {
+    "main": true
+  },
+  "tinyrpc": {
+    "main": true
+  },
+  "tinytimer": {
+    "main": true
+  },
+  "tinyxml": {
+    "main": true
+  },
+  "tinyxml2": {
+    "main": true
+  },
+  "tippecanoe": {
+    "main": true
+  },
+  "tk": {
+    "main": true
+  },
+  "tktable": {
+    "main": true
+  },
+  "tldextract": {
+    "main": true
+  },
+  "tlsh": {
+    "main": true
+  },
+  "tlslite": {
+    "main": true
+  },
+  "tmtk": {
+    "main": true
+  },
+  "tmux": {
+    "main": true
+  },
+  "toad": {
+    "main": true
+  },
+  "toast": {
+    "main": true
+  },
+  "toastedmarshmallow": {
+    "main": true
+  },
+  "tobac": {
+    "main": true
+  },
+  "tobler": {
+    "main": true
+  },
+  "tokei": {
+    "main": true
+  },
+  "tokenize-rt": {
+    "main": true
+  },
+  "tokyocabinet": {
+    "main": true
+  },
+  "toml": {
+    "main": true
+  },
+  "tomlkit": {
+    "main": true
+  },
+  "tomopy": {
+    "main": true
+  },
+  "toolchain": {
+    "main": true
+  },
+  "toolchain3": {
+    "main": true
+  },
+  "toolwrapper": {
+    "main": true
+  },
+  "toolz": {
+    "main": true
+  },
+  "topika": {
+    "main": true
+  },
+  "topologytoolkit": {
+    "main": true
+  },
+  "toposort": {
+    "main": true
+  },
+  "torchbiggraph": {
+    "main": true
+  },
+  "torchfile": {
+    "main": true
+  },
+  "torcpy": {
+    "main": true
+  },
+  "tornado": {
+    "main": true
+  },
+  "tornado-sqlalchemy": {
+    "main": true
+  },
+  "toro": {
+    "main": true
+  },
+  "torsiondrive": {
+    "main": true
+  },
+  "towncrier": {
+    "main": true
+  },
+  "tox": {
+    "main": true
+  },
+  "tox-conda": {
+    "main": true
+  },
+  "tox-venv": {
+    "main": true
+  },
+  "tpot": {
+    "main": true
+  },
+  "tqdm": {
+    "main": true
+  },
+  "traceback2": {
+    "main": true
+  },
+  "traces": {
+    "main": true
+  },
+  "trackpy": {
+    "main": true
+  },
+  "trafaret": {
+    "main": true
+  },
+  "traitlets": {
+    "main": true
+  },
+  "traits": {
+    "main": true
+  },
+  "traitsui": {
+    "main": true
+  },
+  "traittypes": {
+    "main": true
+  },
+  "traja": {
+    "main": true
+  },
+  "tranquilizer": {
+    "main": true
+  },
+  "transaction": {
+    "main": true
+  },
+  "transformers": {
+    "main": true
+  },
+  "transforms3d": {
+    "main": true
+  },
+  "transitions": {
+    "main": true
+  },
+  "translationstring": {
+    "main": true
+  },
+  "transonic": {
+    "main": true
+  },
+  "trash-cli": {
+    "main": true
+  },
+  "travis-encrypt": {
+    "main": true
+  },
+  "tree-format": {
+    "main": true
   }
 }
