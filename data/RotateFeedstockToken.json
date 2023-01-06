@@ -6451,5 +6451,338 @@
   },
   "r-nnls": {
     "main": true
+  },
+  "r-nntensor": {
+    "main": true
+  },
+  "r-nodiv": {
+    "main": true
+  },
+  "r-nomclust": {
+    "main": true
+  },
+  "r-nor1mix": {
+    "main": true
+  },
+  "r-norm": {
+    "main": true
+  },
+  "r-nortest": {
+    "main": true
+  },
+  "r-nozzle.r1": {
+    "main": true
+  },
+  "r-nparcomp": {
+    "main": true
+  },
+  "r-npsurv": {
+    "main": true
+  },
+  "r-nsprcomp": {
+    "main": true
+  },
+  "r-numbers": {
+    "main": true
+  },
+  "r-numderiv": {
+    "main": true
+  },
+  "r-nycflights13": {
+    "main": true
+  },
+  "r-oai": {
+    "main": true
+  },
+  "r-obistools": {
+    "main": true
+  },
+  "r-objectproperties": {
+    "main": true
+  },
+  "r-objectsignals": {
+    "main": true
+  },
+  "r-oce": {
+    "main": true
+  },
+  "r-oceanview": {
+    "main": true
+  },
+  "r-odbc": {
+    "main": true
+  },
+  "r-officer": {
+    "main": true
+  },
+  "r-onehot": {
+    "main": true
+  },
+  "r-ontologyindex": {
+    "main": true
+  },
+  "r-ontologysimilarity": {
+    "main": true
+  },
+  "r-oompabase": {
+    "main": true
+  },
+  "r-oompadata": {
+    "main": true
+  },
+  "r-opencpu": {
+    "main": true
+  },
+  "r-openimager": {
+    "main": true
+  },
+  "r-openmx": {
+    "main": true
+  },
+  "r-openssl": {
+    "main": true
+  },
+  "r-openxlsx": {
+    "main": true
+  },
+  "r-operator.tools": {
+    "main": true
+  },
+  "r-optextras": {
+    "main": true
+  },
+  "r-optimalcutpoints": {
+    "main": true
+  },
+  "r-optimbase": {
+    "main": true
+  },
+  "r-optimr": {
+    "main": true
+  },
+  "r-optimsimplex": {
+    "main": true
+  },
+  "r-optimx": {
+    "main": true
+  },
+  "r-optparse": {
+    "main": true
+  },
+  "r-orcme": {
+    "main": true
+  },
+  "r-ordinal": {
+    "main": true
+  },
+  "r-ore": {
+    "main": true
+  },
+  "r-orgmassspecr": {
+    "main": true
+  },
+  "r-oriclust": {
+    "main": true
+  },
+  "r-origami": {
+    "main": true
+  },
+  "r-orthopolynom": {
+    "main": true
+  },
+  "r-osmar": {
+    "main": true
+  },
+  "r-osmdata": {
+    "main": true
+  },
+  "r-outliers": {
+    "main": true
+  },
+  "r-pack": {
+    "main": true
+  },
+  "r-packrat": {
+    "main": true
+  },
+  "r-paco": {
+    "main": true
+  },
+  "r-padr": {
+    "main": true
+  },
+  "r-paintmap": {
+    "main": true
+  },
+  "r-pairsd3": {
+    "main": true
+  },
+  "r-pairwisecomparisons": {
+    "main": true
+  },
+  "r-pak": {
+    "main": true
+  },
+  "r-paletteer": {
+    "main": true
+  },
+  "r-palr": {
+    "main": true
+  },
+  "r-pals": {
+    "main": true
+  },
+  "r-pamr": {
+    "main": true
+  },
+  "r-pan": {
+    "main": true
+  },
+  "r-pander": {
+    "main": true
+  },
+  "r-paralleldist": {
+    "main": true
+  },
+  "r-parallelmap": {
+    "main": true
+  },
+  "r-parameters": {
+    "main": true
+  },
+  "r-paramhelpers": {
+    "main": true
+  },
+  "r-params": {
+    "main": true
+  },
+  "r-parcor": {
+    "main": true
+  },
+  "r-parmigene": {
+    "main": true
+  },
+  "r-parsedate": {
+    "main": true
+  },
+  "r-parsnip": {
+    "main": true
+  },
+  "r-partitions": {
+    "main": true
+  },
+  "r-party": {
+    "main": true
+  },
+  "r-partykit": {
+    "main": true
+  },
+  "r-pastecs": {
+    "main": true
+  },
+  "r-patchwork": {
+    "main": true
+  },
+  "r-pathdiagram": {
+    "main": true
+  },
+  "r-pathological": {
+    "main": true
+  },
+  "r-patpro": {
+    "main": true
+  },
+  "r-pbapply": {
+    "main": true
+  },
+  "r-pbdzmq": {
+    "main": true
+  },
+  "r-pbivnorm": {
+    "main": true
+  },
+  "r-pbkrtest": {
+    "main": true
+  },
+  "r-pbmcapply": {
+    "main": true
+  },
+  "r-pbs": {
+    "main": true
+  },
+  "r-pca3d": {
+    "main": true
+  },
+  "r-pcapp": {
+    "main": true
+  },
+  "r-pcit": {
+    "main": true
+  },
+  "r-pdc": {
+    "main": true
+  },
+  "r-pdftools": {
+    "main": true
+  },
+  "r-pdist": {
+    "main": true
+  },
+  "r-pdp": {
+    "main": true
+  },
+  "r-pec": {
+    "main": true
+  },
+  "r-pegas": {
+    "main": true
+  },
+  "r-penalized": {
+    "main": true
+  },
+  "r-performance": {
+    "main": true
+  },
+  "r-performanceanalytics": {
+    "main": true
+  },
+  "r-perm": {
+    "main": true
+  },
+  "r-permute": {
+    "main": true
+  },
+  "r-pgirmess": {
+    "main": true
+  },
+  "r-phangorn": {
+    "main": true
+  },
+  "r-pheatmap": {
+    "main": true
+  },
+  "r-phonr": {
+    "main": true
+  },
+  "r-photobiology": {
+    "main": true
+  },
+  "r-photobiologywavebands": {
+    "main": true
+  },
+  "r-phylobase": {
+    "main": true
+  },
+  "r-phylogeneticem": {
+    "main": true
+  },
+  "r-phylosignal": {
+    "main": true
+  },
+  "r-picante": {
+    "main": true
+  },
+  "r-piecewisesem": {
+    "main": true
   }
 }
