@@ -6784,5 +6784,569 @@
   },
   "r-piecewisesem": {
     "main": true
+  },
+  "r-pillar": {
+    "main": true
+  },
+  "r-pinfsc50": {
+    "main": true
+  },
+  "r-pingr": {
+    "main": true
+  },
+  "r-piton": {
+    "main": true
+  },
+  "r-pixmap": {
+    "main": true
+  },
+  "r-pkgbuild": {
+    "main": true
+  },
+  "r-pkgcache": {
+    "main": true
+  },
+  "r-pkgconfig": {
+    "main": true
+  },
+  "r-pkgdown": {
+    "main": true
+  },
+  "r-pkgload": {
+    "main": true
+  },
+  "r-pkgmaker": {
+    "main": true
+  },
+  "r-pkgnet": {
+    "main": true
+  },
+  "r-pki": {
+    "main": true
+  },
+  "r-plasmidprofiler": {
+    "main": true
+  },
+  "r-platetools": {
+    "main": true
+  },
+  "r-plm": {
+    "main": true
+  },
+  "r-plogr": {
+    "main": true
+  },
+  "r-plot3d": {
+    "main": true
+  },
+  "r-plot3drgl": {
+    "main": true
+  },
+  "r-plotluck": {
+    "main": true
+  },
+  "r-plotly": {
+    "main": true
+  },
+  "r-plotmo": {
+    "main": true
+  },
+  "r-plotrix": {
+    "main": true
+  },
+  "r-plotroc": {
+    "main": true
+  },
+  "r-plotwidgets": {
+    "main": true
+  },
+  "r-pls": {
+    "main": true
+  },
+  "r-plsdof": {
+    "main": true
+  },
+  "r-plsgenomics": {
+    "main": true
+  },
+  "r-plspm": {
+    "main": true
+  },
+  "r-plsvarsel": {
+    "main": true
+  },
+  "r-plumber": {
+    "main": true
+  },
+  "r-plyr": {
+    "main": true
+  },
+  "r-pmcmr": {
+    "main": true
+  },
+  "r-pmcmrplus": {
+    "main": true
+  },
+  "r-pmdplyr": {
+    "main": true
+  },
+  "r-png": {
+    "main": true
+  },
+  "r-poibin": {
+    "main": true
+  },
+  "r-poilog": {
+    "main": true
+  },
+  "r-polspline": {
+    "main": true
+  },
+  "r-polychrome": {
+    "main": true
+  },
+  "r-polyclip": {
+    "main": true
+  },
+  "r-polycor": {
+    "main": true
+  },
+  "r-polycub": {
+    "main": true
+  },
+  "r-polylabelr": {
+    "main": true
+  },
+  "r-polynom": {
+    "main": true
+  },
+  "r-polynomf": {
+    "main": true
+  },
+  "r-polysat": {
+    "main": true
+  },
+  "r-pool": {
+    "main": true
+  },
+  "r-popgenome": {
+    "main": true
+  },
+  "r-powerlaw": {
+    "main": true
+  },
+  "r-ppclust": {
+    "main": true
+  },
+  "r-ppcor": {
+    "main": true
+  },
+  "r-ppls": {
+    "main": true
+  },
+  "r-prabclus": {
+    "main": true
+  },
+  "r-pracma": {
+    "main": true
+  },
+  "r-praise": {
+    "main": true
+  },
+  "r-praznik": {
+    "main": true
+  },
+  "r-precisesums": {
+    "main": true
+  },
+  "r-precrec": {
+    "main": true
+  },
+  "r-prediction": {
+    "main": true
+  },
+  "r-preseqr": {
+    "main": true
+  },
+  "r-prettycode": {
+    "main": true
+  },
+  "r-prettydoc": {
+    "main": true
+  },
+  "r-prettygraphs": {
+    "main": true
+  },
+  "r-prettymapr": {
+    "main": true
+  },
+  "r-prettyunits": {
+    "main": true
+  },
+  "r-primme": {
+    "main": true
+  },
+  "r-princurve": {
+    "main": true
+  },
+  "r-printr": {
+    "main": true
+  },
+  "r-prismatic": {
+    "main": true
+  },
+  "r-probably": {
+    "main": true
+  },
+  "r-proc": {
+    "main": true
+  },
+  "r-processx": {
+    "main": true
+  },
+  "r-prodlim": {
+    "main": true
+  },
+  "r-profilemodel": {
+    "main": true
+  },
+  "r-profmem": {
+    "main": true
+  },
+  "r-proftools": {
+    "main": true
+  },
+  "r-profvis": {
+    "main": true
+  },
+  "r-progress": {
+    "main": true
+  },
+  "r-proj4": {
+    "main": true
+  },
+  "r-promises": {
+    "main": true
+  },
+  "r-propcis": {
+    "main": true
+  },
+  "r-prophet": {
+    "main": true
+  },
+  "r-propr": {
+    "main": true
+  },
+  "r-proto": {
+    "main": true
+  },
+  "r-protolite": {
+    "main": true
+  },
+  "r-protr": {
+    "main": true
+  },
+  "r-protviz": {
+    "main": true
+  },
+  "r-proxy": {
+    "main": true
+  },
+  "r-proxyc": {
+    "main": true
+  },
+  "r-prroc": {
+    "main": true
+  },
+  "r-pryr": {
+    "main": true
+  },
+  "r-ps": {
+    "main": true
+  },
+  "r-pscl": {
+    "main": true
+  },
+  "r-pspearman": {
+    "main": true
+  },
+  "r-pspline": {
+    "main": true
+  },
+  "r-psych": {
+    "main": true
+  },
+  "r-psychotools": {
+    "main": true
+  },
+  "r-ptw": {
+    "main": true
+  },
+  "r-ptxqc": {
+    "main": true
+  },
+  "r-pulsar": {
+    "main": true
+  },
+  "r-purbayes": {
+    "main": true
+  },
+  "r-purrr": {
+    "main": true
+  },
+  "r-purrrlyr": {
+    "main": true
+  },
+  "r-pvclust": {
+    "main": true
+  },
+  "r-pwr": {
+    "main": true
+  },
+  "r-qap": {
+    "main": true
+  },
+  "r-qdapregex": {
+    "main": true
+  },
+  "r-qdaptools": {
+    "main": true
+  },
+  "r-qiimer": {
+    "main": true
+  },
+  "r-qlcmatrix": {
+    "main": true
+  },
+  "r-qpdf": {
+    "main": true
+  },
+  "r-qqman": {
+    "main": true
+  },
+  "r-qqplotr": {
+    "main": true
+  },
+  "r-qrcode": {
+    "main": true
+  },
+  "r-qrm": {
+    "main": true
+  },
+  "r-qs": {
+    "main": true
+  },
+  "r-qtl": {
+    "main": true
+  },
+  "r-qtlcharts": {
+    "main": true
+  },
+  "r-qtlrel": {
+    "main": true
+  },
+  "r-quadprog": {
+    "main": true
+  },
+  "r-qualv": {
+    "main": true
+  },
+  "r-quandl": {
+    "main": true
+  },
+  "r-quanteda": {
+    "main": true
+  },
+  "r-quantmod": {
+    "main": true
+  },
+  "r-quantreg": {
+    "main": true
+  },
+  "r-questionr": {
+    "main": true
+  },
+  "r-qvcalc": {
+    "main": true
+  },
+  "r-r.cache": {
+    "main": true
+  },
+  "r-r.devices": {
+    "main": true
+  },
+  "r-r.filesets": {
+    "main": true
+  },
+  "r-r.huge": {
+    "main": true
+  },
+  "r-r.matlab": {
+    "main": true
+  },
+  "r-r.methodss3": {
+    "main": true
+  },
+  "r-r.oo": {
+    "main": true
+  },
+  "r-r.rsp": {
+    "main": true
+  },
+  "r-r.utils": {
+    "main": true
+  },
+  "r-r2d3": {
+    "main": true
+  },
+  "r-r2html": {
+    "main": true
+  },
+  "r-r2jags": {
+    "main": true
+  },
+  "r-r2winbugs": {
+    "main": true
+  },
+  "r-r6": {
+    "main": true
+  },
+  "r-raceid": {
+    "main": true
+  },
+  "r-radiant.data": {
+    "main": true
+  },
+  "r-radix": {
+    "main": true
+  },
+  "r-rafalib": {
+    "main": true
+  },
+  "r-ragg": {
+    "main": true
+  },
+  "r-rainbow": {
+    "main": true
+  },
+  "r-randomcolor": {
+    "main": true
+  },
+  "r-randomfields": {
+    "main": true
+  },
+  "r-randomfieldsutils": {
+    "main": true
+  },
+  "r-randomforest": {
+    "main": true
+  },
+  "r-randomforestsrc": {
+    "main": true
+  },
+  "r-randomizr": {
+    "main": true
+  },
+  "r-randtests": {
+    "main": true
+  },
+  "r-randtoolbox": {
+    "main": true
+  },
+  "r-ranger": {
+    "main": true
+  },
+  "r-rann": {
+    "main": true
+  },
+  "r-rann.l1": {
+    "main": true
+  },
+  "r-rapidatetime": {
+    "main": true
+  },
+  "r-rapidjsonr": {
+    "main": true
+  },
+  "r-rapiserialize": {
+    "main": true
+  },
+  "r-rappdirs": {
+    "main": true
+  },
+  "r-rapport": {
+    "main": true
+  },
+  "r-rapportools": {
+    "main": true
+  },
+  "r-rarpack": {
+    "main": true
+  },
+  "r-raster": {
+    "main": true
+  },
+  "r-rastervis": {
+    "main": true
+  },
+  "r-rationalexp": {
+    "main": true
+  },
+  "r-rbamtools": {
+    "master": true
+  },
+  "r-rbison": {
+    "main": true
+  },
+  "r-rbokeh": {
+    "main": true
+  },
+  "r-rborist": {
+    "main": true
+  },
+  "r-rccmisc": {
+    "main": true
+  },
+  "r-rcdk": {
+    "main": true
+  },
+  "r-rcdklibs": {
+    "main": true
+  },
+  "r-rcgmin": {
+    "main": true
+  },
+  "r-rchoicedialogs": {
+    "main": true
+  },
+  "r-rcircos": {
+    "main": true
+  },
+  "r-rclipboard": {
+    "main": true
+  },
+  "r-rcmdcheck": {
+    "main": true
+  },
+  "r-rcmdrmisc": {
+    "main": true
+  },
+  "r-rcolorbrewer": {
+    "main": true
+  },
+  "r-rcompanion": {
+    "main": true
+  },
+  "r-rcpp": {
+    "main": true
+  },
+  "r-rcppannoy": {
+    "main": true
+  },
+  "r-rcpparmadillo": {
+    "main": true
+  },
+  "r-rcppclassic": {
+    "main": true
   }
 }
