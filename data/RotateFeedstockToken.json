@@ -17401,5 +17401,581 @@
   },
   "r-umx": {
     "main": true
+  },
+  "email-validator": {
+    "main": true
+  },
+  "r-credentials": {
+    "main": true
+  },
+  "r-gert": {
+    "main": true
+  },
+  "pypeln": {
+    "main": true
+  },
+  "pygeoutils": {
+    "main": true
+  },
+  "google-crc32c": {
+    "main": true
+  },
+  "r-ssh": {
+    "main": true
+  },
+  "flask-security-too": {
+    "main": true
+  },
+  "three-merge": {
+    "main": true
+  },
+  "xarray-spatial": {
+    "main": true
+  },
+  "r-clinfun": {
+    "main": true
+  },
+  "r-traminer": {
+    "main": true
+  },
+  "r-nabor": {
+    "main": true
+  },
+  "r-pma": {
+    "main": true
+  },
+  "r-cpp11": {
+    "main": true
+  },
+  "sbt": {
+    "main": true
+  },
+  "r-semnetcleaner": {
+    "main": true
+  },
+  "pynhd": {
+    "main": true
+  },
+  "pylatex": {
+    "main": true
+  },
+  "adversarial-robustness-toolbox": {
+    "main": true
+  },
+  "dftbplus-tools": {
+    "main": true
+  },
+  "seir": {
+    "main": true
+  },
+  "imageai": {
+    "main": true
+  },
+  "chemper": {
+    "main": true
+  },
+  "mypy-boto3-logs": {
+    "main": true
+  },
+  "mypy-boto3-batch": {
+    "main": true
+  },
+  "dftbplus-python": {
+    "main": true
+  },
+  "fairseq": {
+    "main": true
+  },
+  "dedalus": {
+    "main": true
+  },
+  "dftbplus": {
+    "main": true
+  },
+  "mpifx": {
+    "main": true
+  },
+  "artificial-adversary": {
+    "main": true
+  },
+  "pyls-black": {
+    "main": true
+  },
+  "sbpy": {
+    "main": true
+  },
+  "r-treebase": {
+    "main": true
+  },
+  "gdecomp": {
+    "main": true
+  },
+  "r-datapasta": {
+    "main": true
+  },
+  "netcdf-flattener": {
+    "main": true
+  },
+  "face_recognition_models": {
+    "main": true
+  },
+  "face_recognition": {
+    "main": true
+  },
+  "apicurio-keycloak-extensions": {
+    "main": true
+  },
+  "glib-networking": {
+    "main": true
+  },
+  "libpsl": {
+    "main": true
+  },
+  "ldcpy": {
+    "main": true
+  },
+  "websockify": {
+    "main": true
+  },
+  "dataprep": {
+    "main": true
+  },
+  "robotframework-pythonlibcore": {
+    "main": true
+  },
+  "pytest-trio": {
+    "main": true
+  },
+  "pydaymet": {
+    "main": true
+  },
+  "hmsclient": {
+    "main": true
+  },
+  "bycycle": {
+    "main": true
+  },
+  "python-stdnum": {
+    "main": true
+  },
+  "django-localflavor": {
+    "main": true
+  },
+  "karateclub": {
+    "main": true
+  },
+  "language_tool_python": {
+    "main": true
+  },
+  "textattack": {
+    "main": true
+  },
+  "nlp": {
+    "main": true
+  },
+  "libsoup": {
+    "main": true
+  },
+  "bert_score": {
+    "main": true
+  },
+  "python-flair": {
+    "main": true
+  },
+  "sentence-transformers": {
+    "main": true
+  },
+  "wandb": {
+    "main": true
+  },
+  "lisc": {
+    "main": true
+  },
+  "theano-pymc": {
+    "master": true
+  },
+  "dataframe_image": {
+    "main": true
+  },
+  "tilt": {
+    "main": true
+  },
+  "batman-package": {
+    "main": true
+  },
+  "django-parler": {
+    "main": true
+  },
+  "doctr-versions-menu": {
+    "main": true
+  },
+  "django-rosetta": {
+    "main": true
+  },
+  "altair-transform": {
+    "main": true
+  },
+  "cf_xarray": {
+    "main": true
+  },
+  "ibis-vega-transform": {
+    "main": true
+  },
+  "yaqd-seabreeze": {
+    "main": true
+  },
+  "yaqd-gdrive": {
+    "main": true
+  },
+  "yaqd-newport": {
+    "main": true
+  },
+  "bitsets": {
+    "main": true
+  },
+  "histoprint": {
+    "main": true
+  },
+  "yaqd-pmc": {
+    "main": true
+  },
+  "yaqc-bluesky": {
+    "main": true
+  },
+  "yaqd-lightcon": {
+    "main": true
+  },
+  "yaqd-acton": {
+    "main": true
+  },
+  "yaqd-horiba": {
+    "main": true
+  },
+  "thorlabs-apt-protocol": {
+    "main": true
+  },
+  "treegp": {
+    "main": true
+  },
+  "pokrok": {
+    "main": true
+  },
+  "pyaescrypt": {
+    "main": true
+  },
+  "yaqd-thorlabs": {
+    "main": true
+  },
+  "coreschema": {
+    "main": true
+  },
+  "coreapi": {
+    "main": true
+  },
+  "drf-yasg": {
+    "main": true
+  },
+  "pyinquirer": {
+    "main": true
+  },
+  "pytest-nunit": {
+    "main": true
+  },
+  "botorch": {
+    "main": true
+  },
+  "soapysdr-module-remote": {
+    "main": true
+  },
+  "qhub-dask": {
+    "main": true
+  },
+  "elpigraph-python": {
+    "main": true
+  },
+  "libmbd": {
+    "main": true
+  },
+  "sdtfile": {
+    "main": true
+  },
+  "make-sense": {
+    "main": true
+  },
+  "ipart": {
+    "main": true
+  },
+  "r-tidync": {
+    "main": true
+  },
+  "pint-pandas": {
+    "main": true
+  },
+  "r-genieclust": {
+    "main": true
+  },
+  "python-arango": {
+    "main": true
+  },
+  "ele": {
+    "main": true
+  },
+  "sorl-thumbnail": {
+    "main": true
+  },
+  "azure-identity": {
+    "main": true
+  },
+  "parsmurf": {
+    "main": true
+  },
+  "giotto-tda": {
+    "main": true
+  },
+  "jinjasql": {
+    "main": true
+  },
+  "itemloaders": {
+    "main": true
+  },
+  "torchani": {
+    "main": true
+  },
+  "lazy-property": {
+    "main": true
+  },
+  "pyplif-hippos": {
+    "main": true
+  },
+  "wannierberri": {
+    "main": true
+  },
+  "law": {
+    "main": true
+  },
+  "r-rnaturalearthdata": {
+    "main": true
+  },
+  "archspec": {
+    "main": true
+  },
+  "r-rnaturalearth": {
+    "main": true
+  },
+  "f90wrap": {
+    "main": true
+  },
+  "datefinder": {
+    "main": true
+  },
+  "versioned-hdf5": {
+    "main": true
+  },
+  "pyomicron": {
+    "main": true
+  },
+  "iscan": {
+    "main": true
+  },
+  "peppy": {
+    "main": true
+  },
+  "eido": {
+    "main": true
+  },
+  "feature_engine": {
+    "main": true
+  },
+  "prmon": {
+    "main": true
+  },
+  "gwframes": {
+    "master": true
+  },
+  "blackcellmagic": {
+    "main": true
+  },
+  "nbautoexport": {
+    "main": true
+  },
+  "yellowbrick": {
+    "main": true
+  },
+  "httplib2shim": {
+    "main": true
+  },
+  "m2r2": {
+    "main": true
+  },
+  "supportdata": {
+    "main": true
+  },
+  "dataproperty": {
+    "main": true
+  },
+  "msgfy": {
+    "main": true
+  },
+  "releasecmd": {
+    "main": true
+  },
+  "typepy": {
+    "main": true
+  },
+  "tcolorpy": {
+    "main": true
+  },
+  "tabledata": {
+    "main": true
+  },
+  "pathvalidate": {
+    "main": true
+  },
+  "mbstrdecoder": {
+    "main": true
+  },
+  "evaml-core": {
+    "master": true
+  },
+  "pytablewriter": {
+    "main": true
+  },
+  "povray": {
+    "main": true
+  },
+  "miningpy": {
+    "main": true
+  },
+  "sphinx-autosummary-accessors": {
+    "main": true
+  },
+  "python-libsbml": {
+    "main": true
+  },
+  "pystackreg": {
+    "main": true
+  },
+  "oceansdb": {
+    "main": true
+  },
+  "cmiles": {
+    "main": true
+  },
+  "sumo": {
+    "main": true
+  },
+  "jupyter-jaeger": {
+    "main": true
+  },
+  "nptyping": {
+    "main": true
+  },
+  "typish": {
+    "main": true
+  },
+  "mir-flare": {
+    "main": true
+  },
+  "cotede": {
+    "main": true
+  },
+  "evalml-core": {
+    "main": true
+  },
+  "vapory": {
+    "main": true
+  },
+  "astsearch": {
+    "main": true
+  },
+  "nbparameterise": {
+    "main": true
+  },
+  "covseisnet": {
+    "main": true
+  },
+  "r-ezplot": {
+    "main": true
+  },
+  "example-robot-data": {
+    "main": true
+  },
+  "suitcase-mongo": {
+    "main": true
+  },
+  "suitcase-utils": {
+    "main": true
+  },
+  "aiida-cusp": {
+    "main": true
+  },
+  "suitcase-msgpack": {
+    "main": true
+  },
+  "aiomqtt": {
+    "main": true
+  },
+  "pycaret": {
+    "main": true
+  },
+  "cmasher": {
+    "main": true
+  },
+  "e13tools": {
+    "main": true
+  },
+  "seabird": {
+    "main": true
+  },
+  "libuldaq": {
+    "main": true
+  },
+  "variable_generators": {
+    "main": true
+  },
+  "intake-omnisci": {
+    "main": true
+  },
+  "jupyter_http_over_ws": {
+    "main": true
+  },
+  "hookee": {
+    "main": true
+  },
+  "jupyter-sphinx": {
+    "main": true
+  },
+  "r-immunarch": {
+    "main": true
+  },
+  "groff": {
+    "main": true
+  },
+  "r-rcppdate": {
+    "main": true
+  },
+  "flask-server-timing": {
+    "main": true
+  },
+  "setuptools-cythonize": {
+    "main": true
+  },
+  "r-mccf1": {
+    "main": true
+  },
+  "simmer": {
+    "main": true
+  },
+  "plantcv": {
+    "main": true
+  },
+  "flatten-dict": {
+    "main": true
+  },
+  "pyinstaller-hooks-contrib": {
+    "main": true
+  },
+  "r-multiapply": {
+    "main": true
   }
 }
