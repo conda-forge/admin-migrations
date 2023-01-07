@@ -20218,5 +20218,437 @@
   },
   "hpp-core": {
     "main": true
+  },
+  "hpp-pinocchio": {
+    "main": true
+  },
+  "hpp-util": {
+    "main": true
+  },
+  "hpp-statistics": {
+    "main": true
+  },
+  "hpp-constraints": {
+    "main": true
+  },
+  "hpp-corbaserver": {
+    "main": true
+  },
+  "matlab_kernel": {
+    "main": true
+  },
+  "sbtab": {
+    "main": true
+  },
+  "easyquery": {
+    "main": true
+  },
+  "spyboat": {
+    "main": true
+  },
+  "r-riskregression": {
+    "main": true
+  },
+  "hologridgen": {
+    "main": true
+  },
+  "hyp3_sdk": {
+    "main": true
+  },
+  "r-lambertw": {
+    "main": true
+  },
+  "dm-acme": {
+    "main": true
+  },
+  "dm-env": {
+    "main": true
+  },
+  "xsdata": {
+    "main": true
+  },
+  "cashocs": {
+    "main": true
+  },
+  "ipyregulartable": {
+    "main": true
+  },
+  "qmpy": {
+    "main": true
+  },
+  "optimade": {
+    "main": true
+  },
+  "djangorestframework-queryfields": {
+    "main": true
+  },
+  "ndd": {
+    "main": true
+  },
+  "aws-c-cal": {
+    "main": true
+  },
+  "equilibrator-pathway": {
+    "main": true
+  },
+  "adstex": {
+    "main": true
+  },
+  "daops": {
+    "main": true
+  },
+  "r-bestnormalize": {
+    "main": true
+  },
+  "pymrio": {
+    "main": true
+  },
+  "freephil": {
+    "main": true
+  },
+  "mffpy": {
+    "main": true
+  },
+  "shapicant": {
+    "main": true
+  },
+  "warpx": {
+    "main": true
+  },
+  "crocoddyl": {
+    "main": true
+  },
+  "backports.cached-property": {
+    "main": true
+  },
+  "python-gmattensor": {
+    "master": true
+  },
+  "gmattensor": {
+    "main": true
+  },
+  "grpcio-tools": {
+    "main": true
+  },
+  "reprit": {
+    "main": true
+  },
+  "wagyu": {
+    "main": true
+  },
+  "robotframework-browser": {
+    "main": true
+  },
+  "motuclient": {
+    "main": true
+  },
+  "robotframework-jupyterlibrary": {
+    "main": true
+  },
+  "ofxparse": {
+    "main": true
+  },
+  "salem": {
+    "main": true
+  },
+  "r-mikropml": {
+    "main": true
+  },
+  "tempest-extremes": {
+    "main": true
+  },
+  "mockito": {
+    "main": true
+  },
+  "libmicrohttpd": {
+    "main": true
+  },
+  "sklearn-genetic": {
+    "main": true
+  },
+  "music21": {
+    "main": true
+  },
+  "cellpy": {
+    "main": true
+  },
+  "scikit-mobility": {
+    "main": true
+  },
+  "pytrends": {
+    "main": true
+  },
+  "clumper": {
+    "main": true
+  },
+  "ccsds_ndm": {
+    "main": true
+  },
+  "human-learn": {
+    "main": true
+  },
+  "extensisq": {
+    "main": true
+  },
+  "ligo-asimov": {
+    "main": true
+  },
+  "pysumma": {
+    "main": true
+  },
+  "tiny-process-library": {
+    "main": true
+  },
+  "bvpy": {
+    "main": true
+  },
+  "mongogrant": {
+    "main": true
+  },
+  "decopatch": {
+    "main": true
+  },
+  "chronic": {
+    "main": true
+  },
+  "matid": {
+    "main": true
+  },
+  "maggma": {
+    "main": true
+  },
+  "treedecomp": {
+    "main": true
+  },
+  "pynng": {
+    "main": true
+  },
+  "vtable-dumper": {
+    "main": true
+  },
+  "pytest-cases": {
+    "main": true
+  },
+  "python-rake": {
+    "main": true
+  },
+  "sqlalchemy-vertica-python": {
+    "main": true
+  },
+  "recordlinkage": {
+    "main": true
+  },
+  "python-pushover": {
+    "main": true
+  },
+  "dash-auth": {
+    "main": true
+  },
+  "r-gitcreds": {
+    "main": true
+  },
+  "r-jose": {
+    "main": true
+  },
+  "r-fds": {
+    "main": true
+  },
+  "fitsnap3": {
+    "main": true
+  },
+  "mailchecker": {
+    "main": true
+  },
+  "glue-wwt": {
+    "main": true
+  },
+  "python-benedict": {
+    "main": true
+  },
+  "aiapy": {
+    "main": true
+  },
+  "jupyter-dash": {
+    "main": true
+  },
+  "sklearn-pandas": {
+    "main": true
+  },
+  "disk-objectstore": {
+    "main": true
+  },
+  "libopus": {
+    "main": true
+  },
+  "r-stacks": {
+    "main": true
+  },
+  "language-tags": {
+    "main": true
+  },
+  "explainerdashboard": {
+    "main": true
+  },
+  "razdel": {
+    "main": true
+  },
+  "ipymarkup": {
+    "main": true
+  },
+  "heaptrack": {
+    "main": true
+  },
+  "yargy": {
+    "main": true
+  },
+  "lemminflect": {
+    "main": true
+  },
+  "mathics3": {
+    "main": true
+  },
+  "slovnet": {
+    "main": true
+  },
+  "navec": {
+    "main": true
+  },
+  "natasha": {
+    "main": true
+  },
+  "rpaframework-core": {
+    "main": true
+  },
+  "webdrivermanager": {
+    "main": true
+  },
+  "netsuitesdk": {
+    "main": true
+  },
+  "pytest-dotenv": {
+    "main": true
+  },
+  "fuzzymatcher": {
+    "main": true
+  },
+  "num2words": {
+    "main": true
+  },
+  "robotframework-seleniumtestability": {
+    "main": true
+  },
+  "fpdf": {
+    "main": true
+  },
+  "rpaframework-recognition": {
+    "main": true
+  },
+  "itmlogic": {
+    "main": true
+  },
+  "flake8-simplify": {
+    "main": true
+  },
+  "notifiers": {
+    "main": true
+  },
+  "robotframework-sapguilibrary": {
+    "main": true
+  },
+  "dotnet-interactive": {
+    "main": true
+  },
+  "ppscore": {
+    "main": true
+  },
+  "taskflow": {
+    "main": true
+  },
+  "argp-standalone": {
+    "main": true
+  },
+  "emscripten": {
+    "main": true
+  },
+  "datasets": {
+    "main": true
+  },
+  "kaleido-core": {
+    "main": true
+  },
+  "pyrost": {
+    "main": true
+  },
+  "tespy": {
+    "main": true
+  },
+  "gcr": {
+    "main": true
+  },
+  "sklearn2pmml": {
+    "main": true
+  },
+  "eefolium": {
+    "main": true
+  },
+  "r-btyd": {
+    "main": true
+  },
+  "r-olsrr": {
+    "main": true
+  },
+  "neurokit2": {
+    "main": true
+  },
+  "bewegung": {
+    "main": true
+  },
+  "lsstdesc-gcr-catalogs": {
+    "main": true
+  },
+  "aimsgb": {
+    "main": true
+  },
+  "gb-code": {
+    "main": true
+  },
+  "papermill_report": {
+    "main": true
+  },
+  "redmapper": {
+    "main": true
+  },
+  "python-kaleido": {
+    "main": true
+  },
+  "fast-dds": {
+    "main": true
+  },
+  "r-clustimpute": {
+    "main": true
+  },
+  "r-nanostringr": {
+    "main": true
+  },
+  "mapbox_earcut": {
+    "main": true
+  },
+  "bitstring": {
+    "main": true
+  },
+  "maml": {
+    "main": true
+  },
+  "r-boomspikeslab": {
+    "main": true
+  },
+  "r-bsts": {
+    "main": true
+  },
+  "napari-pims-bioformats": {
+    "main": true
+  },
+  "verticapy": {
+    "main": true
   }
 }
