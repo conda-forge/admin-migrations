@@ -21523,5 +21523,446 @@
   },
   "pytest-helpers-namespace": {
     "main": true
+  },
+  "pytest-verbose-parametrize": {
+    "main": true
+  },
+  "fishersapi": {
+    "main": true
+  },
+  "gf-kernel": {
+    "main": true
+  },
+  "goodtables-pandas-py": {
+    "main": true
+  },
+  "jupyterlab_execute_time": {
+    "main": true
+  },
+  "clean-text": {
+    "main": true
+  },
+  "pytest-testinfra": {
+    "main": true
+  },
+  "asyncinit": {
+    "main": true
+  },
+  "loprop": {
+    "main": true
+  },
+  "tigernet": {
+    "main": true
+  },
+  "libignition-rendering4": {
+    "main": true
+  },
+  "defaultlist": {
+    "main": true
+  },
+  "python-logging-rabbitmq": {
+    "main": true
+  },
+  "hepstats": {
+    "main": true
+  },
+  "cppbktree": {
+    "main": true
+  },
+  "python-selinux": {
+    "main": true
+  },
+  "pyorc": {
+    "main": true
+  },
+  "zoxide": {
+    "main": true
+  },
+  "google-cloud-secret-manager": {
+    "main": true
+  },
+  "openmm-plumed": {
+    "main": true
+  },
+  "psrchive": {
+    "main": true
+  },
+  "cutensor": {
+    "main": true
+  },
+  "kwonly-args": {
+    "main": true
+  },
+  "r-cachem": {
+    "main": true
+  },
+  "homebrew-pypi-poet": {
+    "main": true
+  },
+  "r-bslib": {
+    "main": true
+  },
+  "gzip": {
+    "main": true
+  },
+  "clusterutils": {
+    "main": true
+  },
+  "yank": {
+    "main": true
+  },
+  "openmoltools": {
+    "main": true
+  },
+  "openmmtools": {
+    "main": true
+  },
+  "sanic-httpauth": {
+    "main": true
+  },
+  "stanza": {
+    "main": true
+  },
+  "bqscales": {
+    "main": true
+  },
+  "makeself": {
+    "main": true
+  },
+  "taurus": {
+    "main": true
+  },
+  "fortran-binary": {
+    "main": true
+  },
+  "caper": {
+    "main": true
+  },
+  "bibmanager": {
+    "main": true
+  },
+  "awscliv2": {
+    "main": true
+  },
+  "yaspin": {
+    "main": true
+  },
+  "pyepal": {
+    "main": true
+  },
+  "r-mlr3": {
+    "main": true
+  },
+  "r-bbotk": {
+    "main": true
+  },
+  "r-mlr3learners": {
+    "main": true
+  },
+  "r-mlr3measures": {
+    "main": true
+  },
+  "pyquaternion": {
+    "main": true
+  },
+  "r-mlr3verse": {
+    "main": true
+  },
+  "r-paradox": {
+    "main": true
+  },
+  "r-mlr3misc": {
+    "main": true
+  },
+  "r-mlr3filters": {
+    "main": true
+  },
+  "r-mlr3data": {
+    "main": true
+  },
+  "r-mlr3pipelines": {
+    "main": true
+  },
+  "r-mlr3viz": {
+    "main": true
+  },
+  "jove": {
+    "main": true
+  },
+  "r-mlr3tuning": {
+    "main": true
+  },
+  "pandasgui": {
+    "main": true
+  },
+  "daltools": {
+    "main": true
+  },
+  "pyperunner": {
+    "main": true
+  },
+  "ligo-proxy-utils": {
+    "main": true
+  },
+  "mecab-ko": {
+    "main": true
+  },
+  "r-syncsa": {
+    "main": true
+  },
+  "ammolite": {
+    "main": true
+  },
+  "bioptim": {
+    "main": true
+  },
+  "ecp-cookie-init": {
+    "main": true
+  },
+  "json-cfg": {
+    "main": true
+  },
+  "r-mlr3proba": {
+    "main": true
+  },
+  "r-mlr3cluster": {
+    "main": true
+  },
+  "r-distr6": {
+    "main": true
+  },
+  "r-r62s3": {
+    "main": true
+  },
+  "r-set6": {
+    "main": true
+  },
+  "r-mlr3fselect": {
+    "main": true
+  },
+  "gammaray": {
+    "main": true
+  },
+  "mlir": {
+    "main": true
+  },
+  "r-spatstat.sparse": {
+    "main": true
+  },
+  "ipannotoryous": {
+    "main": true
+  },
+  "parliament": {
+    "main": true
+  },
+  "qasync": {
+    "main": true
+  },
+  "smina": {
+    "main": true
+  },
+  "jsbsim": {
+    "main": true
+  },
+  "xbbg": {
+    "main": true
+  },
+  "mecab-ko-dic": {
+    "main": true
+  },
+  "mc3": {
+    "main": true
+  },
+  "taurus_pyqtgraph": {
+    "main": true
+  },
+  "kfp-tekton": {
+    "main": true
+  },
+  "molecule-docker": {
+    "main": true
+  },
+  "r-spatstat.geom": {
+    "main": true
+  },
+  "spacy-legacy": {
+    "main": true
+  },
+  "molecule-inspec": {
+    "main": true
+  },
+  "bdbag": {
+    "main": true
+  },
+  "pathy": {
+    "main": true
+  },
+  "memo": {
+    "main": true
+  },
+  "liac-arff": {
+    "main": true
+  },
+  "quaternionarray": {
+    "main": true
+  },
+  "kml2geojson": {
+    "main": true
+  },
+  "nimfa": {
+    "main": true
+  },
+  "pymt_gridmet": {
+    "main": true
+  },
+  "r-seuratobject": {
+    "main": true
+  },
+  "wasmer": {
+    "main": true
+  },
+  "sciunit": {
+    "main": true
+  },
+  "colorpedia": {
+    "main": true
+  },
+  "jupyter-videochat": {
+    "main": true
+  },
+  "versionfinder": {
+    "main": true
+  },
+  "fdasrsf": {
+    "main": true
+  },
+  "ooipy": {
+    "main": true
+  },
+  "awslimitchecker": {
+    "main": true
+  },
+  "morecantile": {
+    "main": true
+  },
+  "epispot": {
+    "main": true
+  },
+  "intake-iris": {
+    "main": true
+  },
+  "prospect": {
+    "main": true
+  },
+  "stochastic": {
+    "main": true
+  },
+  "ascii_magic": {
+    "main": true
+  },
+  "pygpcca": {
+    "main": true
+  },
+  "bpytop": {
+    "main": true
+  },
+  "bader": {
+    "main": true
+  },
+  "numba-stats": {
+    "main": true
+  },
+  "opentelemetry-propagator-b3": {
+    "main": true
+  },
+  "rio-color": {
+    "main": true
+  },
+  "simpy": {
+    "main": true
+  },
+  "sweetviz": {
+    "main": true
+  },
+  "whiteboxgui": {
+    "main": true
+  },
+  "pandas-stubs": {
+    "main": true
+  },
+  "docker-image-py": {
+    "main": true
+  },
+  "uproot3-methods": {
+    "main": true
+  },
+  "hijri-converter": {
+    "main": true
+  },
+  "uproot3": {
+    "main": true
+  },
+  "tomviz": {
+    "main": true
+  },
+  "mkdocs-click": {
+    "main": true
+  },
+  "awkward0": {
+    "main": true
+  },
+  "pyiron-experimental": {
+    "main": true
+  },
+  "napari-console": {
+    "main": true
+  },
+  "stackvana-core": {
+    "main": true
+  },
+  "pytradfri": {
+    "main": true
+  },
+  "qstrader": {
+    "main": true
+  },
+  "mhealpy": {
+    "main": true
+  },
+  "make_arq": {
+    "main": true
+  },
+  "pymove-osmnx": {
+    "main": true
+  },
+  "pshmem": {
+    "main": true
+  },
+  "scikit-hep": {
+    "main": true
+  },
+  "librealsense": {
+    "main": true
+  },
+  "r-clustree": {
+    "main": true
+  },
+  "pyiron_experimental": {
+    "main": true
+  },
+  "openai": {
+    "main": true
+  },
+  "lazy_import": {
+    "main": true
+  },
+  "stackvana-afw": {
+    "main": true
+  },
+  "irrlicht": {
+    "main": true
+  },
+  "mlip": {
+    "main": true
   }
 }
