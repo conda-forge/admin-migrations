@@ -26791,5 +26791,434 @@
   },
   "pyserver": {
     "main": true
+  },
+  "fretraj": {
+    "main": true
+  },
+  "n2snusertools": {
+    "main": true
+  },
+  "axe-selenium-python": {
+    "main": true
+  },
+  "asyncstdlib": {
+    "main": true
+  },
+  "logging_tree": {
+    "main": true
+  },
+  "idyntree": {
+    "main": true
+  },
+  "mimics": {
+    "main": true
+  },
+  "r-semplot": {
+    "main": true
+  },
+  "r-networkcomparisontest": {
+    "main": true
+  },
+  "dbsp_drp": {
+    "main": true
+  },
+  "r-networktoolbox": {
+    "main": true
+  },
+  "php": {
+    "main": true
+  },
+  "idds-workflow": {
+    "main": true
+  },
+  "punx": {
+    "main": true
+  },
+  "recordwhat": {
+    "main": true
+  },
+  "idds-client": {
+    "main": true
+  },
+  "regreg": {
+    "main": true
+  },
+  "kim-convergence": {
+    "main": true
+  },
+  "r-dire": {
+    "main": true
+  },
+  "r-naepirtparams": {
+    "main": true
+  },
+  "py4xs": {
+    "main": true
+  },
+  "panda-client": {
+    "main": true
+  },
+  "lixtools": {
+    "main": true
+  },
+  "modestimage": {
+    "main": true
+  },
+  "nsls2-detector-handlers": {
+    "main": true
+  },
+  "cogeo-mosaic": {
+    "main": true
+  },
+  "colcon-mixin": {
+    "main": true
+  },
+  "idds-doma": {
+    "main": true
+  },
+  "robotframework-datadriver": {
+    "main": true
+  },
+  "suitcase-specfile": {
+    "main": true
+  },
+  "matching": {
+    "main": true
+  },
+  "pycentroids": {
+    "main": true
+  },
+  "suitcase-jsonl": {
+    "main": true
+  },
+  "databroker-pack": {
+    "main": true
+  },
+  "jupyter_innotater": {
+    "main": true
+  },
+  "ossfs": {
+    "main": true
+  },
+  "suitcase-csv": {
+    "main": true
+  },
+  "suitcase-json-metadata": {
+    "main": true
+  },
+  "hunter": {
+    "main": true
+  },
+  "suitcase-tiff": {
+    "main": true
+  },
+  "manhole": {
+    "main": true
+  },
+  "pyment": {
+    "main": true
+  },
+  "r-robma": {
+    "main": true
+  },
+  "splipy": {
+    "main": true
+  },
+  "jazz-hands": {
+    "main": true
+  },
+  "area-detector-handlers": {
+    "main": true
+  },
+  "wxutils": {
+    "main": true
+  },
+  "bloptools": {
+    "main": true
+  },
+  "numconv": {
+    "main": true
+  },
+  "oscars": {
+    "main": true
+  },
+  "sirepo-bluesky": {
+    "main": true
+  },
+  "pymeshfix": {
+    "main": true
+  },
+  "pdfstream": {
+    "main": true
+  },
+  "wxmplot": {
+    "main": true
+  },
+  "servicestack": {
+    "main": true
+  },
+  "jnbv": {
+    "main": true
+  },
+  "weakrefmethod": {
+    "main": true
+  },
+  "mhm": {
+    "main": true
+  },
+  "signalslot": {
+    "main": true
+  },
+  "r-bayestools": {
+    "main": true
+  },
+  "bazel-toolchain": {
+    "main": true
+  },
+  "pyaml-env": {
+    "main": true
+  },
+  "addicty": {
+    "main": true
+  },
+  "dsconfig": {
+    "main": true
+  },
+  "rst2html5": {
+    "main": true
+  },
+  "shadow3": {
+    "main": true
+  },
+  "miceforest": {
+    "main": true
+  },
+  "simple-pid": {
+    "main": true
+  },
+  "sixtools": {
+    "main": true
+  },
+  "fastpath": {
+    "main": true
+  },
+  "xrt": {
+    "main": true
+  },
+  "rixs": {
+    "main": true
+  },
+  "dask-mongo": {
+    "main": true
+  },
+  "anys": {
+    "main": true
+  },
+  "r-networktools": {
+    "main": true
+  },
+  "dython": {
+    "main": true
+  },
+  "rwa-python": {
+    "main": true
+  },
+  "jama": {
+    "main": true
+  },
+  "tnt": {
+    "main": true
+  },
+  "tramway": {
+    "main": true
+  },
+  "polytope": {
+    "main": true
+  },
+  "airspy": {
+    "main": true
+  },
+  "pychx": {
+    "main": true
+  },
+  "airspyhf": {
+    "main": true
+  },
+  "colordiff": {
+    "main": true
+  },
+  "vizdet": {
+    "main": true
+  },
+  "tomlplusplus": {
+    "main": true
+  },
+  "expecttest": {
+    "main": true
+  },
+  "soapysdr-module-airspyhf": {
+    "main": true
+  },
+  "soapysdr-module-airspy": {
+    "main": true
+  },
+  "gmm": {
+    "main": true
+  },
+  "pytest-alembic": {
+    "main": true
+  },
+  "tldr": {
+    "main": true
+  },
+  "u8darts": {
+    "main": true
+  },
+  "colmap": {
+    "main": true
+  },
+  "demesdraw": {
+    "main": true
+  },
+  "r-ocedata": {
+    "main": true
+  },
+  "r-marmap": {
+    "main": true
+  },
+  "sd": {
+    "main": true
+  },
+  "r-stanova": {
+    "main": true
+  },
+  "r-multidplyr": {
+    "main": true
+  },
+  "r-flexplot": {
+    "main": true
+  },
+  "r-bootnet": {
+    "main": true
+  },
+  "r-tangles": {
+    "main": true
+  },
+  "deepspeech": {
+    "main": true
+  },
+  "r-rstackdeque": {
+    "main": true
+  },
+  "r-tidycensus": {
+    "main": true
+  },
+  "fractopo": {
+    "main": true
+  },
+  "r-ezcox": {
+    "main": true
+  },
+  "r-ucscxenatools": {
+    "main": true
+  },
+  "r-forestmodel": {
+    "main": true
+  },
+  "r-ucscxenashiny": {
+    "main": true
+  },
+  "roundrobin": {
+    "main": true
+  },
+  "modelbase": {
+    "main": true
+  },
+  "mne-nirs": {
+    "main": true
+  },
+  "xbatcher": {
+    "main": true
+  },
+  "xyzservices": {
+    "main": true
+  },
+  "screeninfo": {
+    "main": true
+  },
+  "gftool": {
+    "main": true
+  },
+  "gpsd": {
+    "main": true
+  },
+  "excels2vensim": {
+    "main": true
+  },
+  "jupyter-rfb": {
+    "main": true
+  },
+  "libcnpy": {
+    "main": true
+  },
+  "omnisci-data-science-tools": {
+    "main": true
+  },
+  "opentrons-suite": {
+    "main": true
+  },
+  "sliderule": {
+    "main": true
+  },
+  "aeppl": {
+    "main": true
+  },
+  "hxnfly": {
+    "main": true
+  },
+  "nslsii": {
+    "main": true
+  },
+  "hxntools": {
+    "main": true
+  },
+  "pyolog": {
+    "main": true
+  },
+  "csxtools": {
+    "main": true
+  },
+  "ppmac": {
+    "main": true
+  },
+  "harp": {
+    "main": true
+  },
+  "muninn": {
+    "main": true
+  },
+  "coda": {
+    "main": true
+  },
+  "omnisci-notebooks-examples": {
+    "main": true
+  },
+  "jake": {
+    "main": true
+  },
+  "polling": {
+    "main": true
+  },
+  "r-choroplethrmaps": {
+    "main": true
+  },
+  "r-bas": {
+    "main": true
+  },
+  "r-censusapi": {
+    "main": true
+  },
+  "r-ncdf4.helpers": {
+    "main": true
   }
 }
