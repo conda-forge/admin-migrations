@@ -3,6 +3,8 @@ import requests
 import subprocess
 import github
 
+from conda_smithy.ci_register import travis_get_repo_info
+
 from .base import Migrator
 
 SMITHY_CONF = os.path.expanduser('~/.conda-smithy')
@@ -41,6 +43,16 @@ class RotateFeedstockToken(Migrator):
     max_processes = 1
 
     def migrate(self, feedstock, branch):
+        # test to make sure travis ci api is working
+        # if not skip migration
+        repo_info = travis_get_repo_info("conda-forge", feedstock+"-feedstock")
+        if not repo_info:
+            print(
+                "    travis-ci API not working - skipping migration for now",
+                flush=True,
+            )
+            return False, False, True
+
         # delete the old token
         if _feedstock_token_exists(feedstock + "-feedstock"):
             _delete_feedstock_token(feedstock + "-feedstock")
