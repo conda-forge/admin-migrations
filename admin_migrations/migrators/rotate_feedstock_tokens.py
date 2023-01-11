@@ -2,6 +2,7 @@ import os
 import requests
 import subprocess
 import github
+import random
 
 from conda_smithy.ci_register import travis_get_repo_info
 
@@ -38,11 +39,25 @@ def _delete_feedstock_token(feedstock_name):
     )
 
 
+def _write_travis_token(token_env):
+    smithy_conf = os.path.expanduser('~/.conda-smithy')
+    if not os.path.exists(smithy_conf):
+        os.mkdir(smithy_conf)
+
+    with open(os.path.join(smithy_conf, 'travis.token'), 'w') as fh:
+        fh.write(os.environ["token_env"])
+
+
 class RotateFeedstockToken(Migrator):
     main_branch_only = True
     max_processes = 1
 
     def migrate(self, feedstock, branch):
+        if random.uniform(0, 1) < 0.5:
+            _write_travis_token("TRAVIS_TOKEN_A")
+        else:
+            _write_travis_token("TRAVIS_TOKEN_B")
+
         # test to make sure travis ci api is working
         # if not skip migration
         repo_info = travis_get_repo_info("conda-forge", feedstock+"-feedstock")
