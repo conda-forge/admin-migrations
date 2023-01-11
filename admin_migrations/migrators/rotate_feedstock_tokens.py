@@ -45,7 +45,7 @@ def _write_travis_token(token_env):
         os.mkdir(smithy_conf)
 
     with open(os.path.join(smithy_conf, 'travis.token'), 'w') as fh:
-        fh.write(os.environ["token_env"])
+        fh.write(os.environ[token_env])
 
 
 class RotateFeedstockToken(Migrator):
