@@ -49,7 +49,7 @@ jobs:
           mkdir -p ~/.conda-smithy
           echo ${STAGING_BINSTAR_TOKEN} > ~/.conda-smithy/anaconda.token
           echo ${CIRCLE_TOKEN} > ~/.conda-smithy/circle.token
-          echo ${TRAVIS_TOKEN} > ~/.conda-smithy/travis.token
+          echo ${TRAVIS_TOKEN_B} > ~/.conda-smithy/travis.token
           echo ${AZURE_TOKEN} > ~/.conda-smithy/azure.token
           echo ${DRONE_TOKEN} > ~/.conda-smithy/drone.token
           echo ${GITHUB_TOKEN} > ~/.conda-smithy/github.token
@@ -60,6 +60,7 @@ jobs:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
           DRONE_TOKEN: ${{ secrets.DRONE_TOKEN }}
           CIRCLE_TOKEN: ${{ secrets.CIRCLE_TOKEN }}
-          TRAVIS_TOKEN: ${{ secrets.ORGWIDE_TRAVIS_TOKEN }}
+          TRAVIS_TOKEN_A: ${{ secrets.CF_LINTER_TRAVIS_TOKEN }}
+          TRAVIS_TOKEN_B: ${{ secrets.CF_DAEMON_TRAVIS_TOKEN }}
           AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
           STAGING_BINSTAR_TOKEN: ${{ secrets.STAGING_BINSTAR_TOKEN }}
