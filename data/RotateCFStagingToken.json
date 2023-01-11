@@ -36877,5 +36877,233 @@
   },
   "starlette-exporter": {
     "main": true
+  },
+  "fugue-sql-antlr": {
+    "main": true
+  },
+  "picologging": {
+    "main": true
+  },
+  "secimport": {
+    "main": true
+  },
+  "jupyter_server_ydoc": {
+    "main": true
+  },
+  "r-data.validator": {
+    "main": true
+  },
+  "prometheus-cpp": {
+    "main": true
+  },
+  "scine-database-python": {
+    "main": true
+  },
+  "scine-database": {
+    "main": true
+  },
+  "types-s3transfer": {
+    "main": true
+  },
+  "visit_struct": {
+    "main": true
+  },
+  "skia-pathops": {
+    "main": true
+  },
+  "r-frictionless": {
+    "main": true
+  },
+  "r-urlchecker": {
+    "main": true
+  },
+  "r-nplyr": {
+    "main": true
+  },
+  "xeger": {
+    "main": true
+  },
+  "aiida-wannier90_workflows": {
+    "main": true
+  },
+  "aqme": {
+    "main": true
+  },
+  "oso": {
+    "main": true
+  },
+  "tatc": {
+    "main": true
+  },
+  "sqlalchemy-oso": {
+    "main": true
+  },
+  "compact-json": {
+    "main": true
+  },
+  "dav1d": {
+    "main": true
+  },
+  "pympipool": {
+    "main": true
+  },
+  "cvxportfolio": {
+    "main": true
+  },
+  "wxmpl": {
+    "main": true
+  },
+  "diffusers": {
+    "main": true
+  },
+  "rstcheck-core": {
+    "main": true
+  },
+  "dem_stitcher": {
+    "main": true
+  },
+  "aiida-yambo": {
+    "main": true
+  },
+  "parsevasp": {
+    "main": true
+  },
+  "castepinput": {
+    "main": true
+  },
+  "cosmic_profiles": {
+    "main": true
+  },
+  "raiutils": {
+    "main": true
+  },
+  "aiida-castep": {
+    "main": true
+  },
+  "pycontracts": {
+    "main": true
+  },
+  "cp2k-input-tools": {
+    "main": true
+  },
+  "aiida-abinit": {
+    "main": true
+  },
+  "cp2k-output-tools": {
+    "main": true
+  },
+  "rangehttpserver": {
+    "main": true
+  },
+  "aiida-vasp": {
+    "main": true
+  },
+  "dbt-redshift": {
+    "main": true
+  },
+  "atool": {
+    "main": true
+  },
+  "dbt-bigquery": {
+    "main": true
+  },
+  "dbt-snowflake": {
+    "main": true
+  },
+  "cabinetry": {
+    "main": true
+  },
+  "jupyterlab-github": {
+    "main": true
+  },
+  "aioboto3": {
+    "main": true
+  },
+  "types-aiobotocore-s3": {
+    "main": true
+  },
+  "types-aiobotocore-redshift-data": {
+    "main": true
+  },
+  "types-aiobotocore-sqs": {
+    "main": true
+  },
+  "types-aiobotocore-logs": {
+    "main": true
+  },
+  "types-aiobotocore-batch": {
+    "main": true
+  },
+  "types-aiobotocore-lambda": {
+    "main": true
+  },
+  "types-aiobotocore-rds": {
+    "main": true
+  },
+  "effectsize": {
+    "main": true
+  },
+  "types-aiobotocore-dynamodb": {
+    "main": true
+  },
+  "types-aiobotocore-cloudformation": {
+    "main": true
+  },
+  "types-aiobotocore-ec2": {
+    "main": true
+  },
+  "boto3-stubs-lite": {
+    "main": true
+  },
+  "imagedominantcolor": {
+    "main": true
+  },
+  "jut": {
+    "main": true
+  },
+  "montydb": {
+    "main": true
+  },
+  "secure": {
+    "main": true
+  },
+  "finta": {
+    "main": true
+  },
+  "ariadne": {
+    "main": true
+  },
+  "backstage": {
+    "main": true
+  },
+  "data-diff": {
+    "main": true
+  },
+  "r-ensmodelvis": {
+    "main": true
+  },
+  "megawidget": {
+    "main": true
+  },
+  "django-readers": {
+    "main": true
+  },
+  "ast-selector": {
+    "main": true
+  },
+  "nbsafety": {
+    "main": true
+  },
+  "tex2py": {
+    "main": true
+  },
+  "suggestion": {
+    "main": true
+  },
+  "simplematch": {
+    "main": true
+  },
+  "ml-wrappers": {
+    "main": true
   }
 }
