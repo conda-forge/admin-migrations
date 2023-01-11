@@ -41344,5 +41344,320 @@
   },
   "dash-editor-components": {
     "main": true
+  },
+  "chinese-whispers": {
+    "main": true
+  },
+  "autoregistry": {
+    "main": true
+  },
+  "pymt_era5": {
+    "main": true
+  },
+  "loop-rate-limiters": {
+    "main": true
+  },
+  "catalystcoop.ferc-xbrl-extractor": {
+    "main": true
+  },
+  "arelle-release": {
+    "main": true
+  },
+  "mpxj": {
+    "main": true
+  },
+  "commonregex": {
+    "main": true
+  },
+  "openmetadata-ingestion": {
+    "main": true
+  },
+  "openmetadata-managed-apis": {
+    "main": true
+  },
+  "openmetadata-airflow-managed-apis": {
+    "main": true
+  },
+  "fps-resource-usage": {
+    "main": true
+  },
+  "premise_gwp": {
+    "main": true
+  },
+  "compositionspace": {
+    "main": true
+  },
+  "r-kml3d": {
+    "main": true
+  },
+  "py-channelmodel": {
+    "main": true
+  },
+  "r-groupdata2": {
+    "main": true
+  },
+  "sphinx-mdinclude": {
+    "main": true
+  },
+  "bmi_nwis": {
+    "main": true
+  },
+  "r-tidyseurat": {
+    "main": true
+  },
+  "wurst": {
+    "main": true
+  },
+  "django-url-filter": {
+    "main": true
+  },
+  "decorrelation": {
+    "main": true
+  },
+  "r-calf": {
+    "main": true
+  },
+  "xlandsat": {
+    "main": true
+  },
+  "premise": {
+    "main": true
+  },
+  "annotated-types": {
+    "main": true
+  },
+  "sepal-ui": {
+    "main": true
+  },
+  "abi3info": {
+    "main": true
+  },
+  "inline-model-metrics": {
+    "main": true
+  },
+  "cofi": {
+    "main": true
+  },
+  "abi3audit": {
+    "main": true
+  },
+  "pymt_nwis": {
+    "main": true
+  },
+  "dirsync": {
+    "main": true
+  },
+  "pynldas2": {
+    "main": true
+  },
+  "dall-e": {
+    "main": true
+  },
+  "python-yakh": {
+    "main": true
+  },
+  "pytest-asyncio-cooperative": {
+    "main": true
+  },
+  "blobfile": {
+    "main": true
+  },
+  "uutils-coreutils": {
+    "main": true
+  },
+  "cpuid": {
+    "main": true
+  },
+  "pkgparser": {
+    "main": true
+  },
+  "r-ggbreak": {
+    "main": true
+  },
+  "lovely-numpy": {
+    "main": true
+  },
+  "rustworkx": {
+    "main": true
+  },
+  "indexed_bzip2": {
+    "main": true
+  },
+  "pyedr": {
+    "main": true
+  },
+  "pynimate": {
+    "main": true
+  },
+  "sphinxcontrib-jquery": {
+    "main": true
+  },
+  "intake-erddap": {
+    "main": true
+  },
+  "pycirclize": {
+    "main": true
+  },
+  "gym-notices": {
+    "main": true
+  },
+  "ctapipe_io_lst": {
+    "main": true
+  },
+  "tango-astor": {
+    "main": true
+  },
+  "theseus-ai": {
+    "main": true
+  },
+  "rumps": {
+    "main": true
+  },
+  "ussa1976": {
+    "main": true
+  },
+  "ssh-crypt": {
+    "main": true
+  },
+  "portray": {
+    "main": true
+  },
+  "pigeonxt-jupyter": {
+    "main": true
+  },
+  "dataprofiler": {
+    "main": true
+  },
+  "labmaze": {
+    "main": true
+  },
+  "esi-utils-cartopy": {
+    "main": true
+  },
+  "unlzw3": {
+    "main": true
+  },
+  "practicalsparql": {
+    "main": true
+  },
+  "intake-satpy": {
+    "main": true
+  },
+  "marshmallow3-annotations": {
+    "main": true
+  },
+  "soapysdr-module-volk-converters": {
+    "main": true
+  },
+  "lovely-tensors": {
+    "main": true
+  },
+  "lovely-jax": {
+    "main": true
+  },
+  "ewah-bool-utils": {
+    "main": true
+  },
+  "rtaudio": {
+    "main": true
+  },
+  "amundsen-rds": {
+    "main": true
+  },
+  "apache-atlas": {
+    "main": true
+  },
+  "lenstool": {
+    "main": true
+  },
+  "soapysdr-module-audio": {
+    "main": true
+  },
+  "amundsen-common": {
+    "main": true
+  },
+  "soapysdr-module-netsdr": {
+    "main": true
+  },
+  "install-jdk": {
+    "main": true
+  },
+  "cinnabar": {
+    "main": true
+  },
+  "morphometrics-engine": {
+    "main": true
+  },
+  "napari-n2v": {
+    "main": true
+  },
+  "napari-filament-annotator": {
+    "main": true
+  },
+  "awkward-cpp": {
+    "main": true
+  },
+  "antlr4-tools": {
+    "main": true
+  },
+  "gitflow": {
+    "main": true
+  },
+  "forbiddenfruit": {
+    "main": true
+  },
+  "earth-osm": {
+    "main": true
+  },
+  "river-ingester": {
+    "main": true
+  },
+  "git-annex-remote-rclone": {
+    "main": true
+  },
+  "soapysdr-module-redpitaya": {
+    "main": true
+  },
+  "libcorrect": {
+    "main": true
+  },
+  "inspectrum": {
+    "main": true
+  },
+  "liquid-dsp": {
+    "main": true
+  },
+  "veloxchem": {
+    "main": true
+  },
+  "pyg-lib": {
+    "main": true
+  },
+  "pytest-snapshot": {
+    "main": true
+  },
+  "pytest-update-test-results": {
+    "main": true
+  },
+  "libcpucycles": {
+    "main": true
+  },
+  "planetary-coverage": {
+    "main": true
+  },
+  "untwine": {
+    "main": true
+  },
+  "pypdf": {
+    "main": true
+  },
+  "r-xefun": {
+    "main": true
+  },
+  "r-ggsurvfit": {
+    "main": true
+  },
+  "prefect-aws": {
+    "main": true
   }
 }
