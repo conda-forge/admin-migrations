@@ -40906,5 +40906,443 @@
   },
   "asgi-correlation-id": {
     "main": true
+  },
+  "lsds": {
+    "main": true
+  },
+  "httpx-cache": {
+    "main": true
+  },
+  "ruff": {
+    "main": true
+  },
+  "fastfilters2": {
+    "main": true
+  },
+  "airflow-provider-great-expectations": {
+    "main": true
+  },
+  "nebari": {
+    "main": true
+  },
+  "ibm-platform-services": {
+    "main": true
+  },
+  "qiskit-ibm-provider": {
+    "main": true
+  },
+  "qiskit-ibm-runtime": {
+    "main": true
+  },
+  "_ipython_minor_entry_point": {
+    "main": true
+  },
+  "pytest-jupyter": {
+    "main": true
+  },
+  "red-black-tree-mod": {
+    "main": true
+  },
+  "qiskit-dynamics": {
+    "main": true
+  },
+  "rubin-libradtran": {
+    "main": true
+  },
+  "r-bonsai": {
+    "main": true
+  },
+  "architector": {
+    "main": true
+  },
+  "pyaedt": {
+    "main": true
+  },
+  "gladier-tools": {
+    "main": true
+  },
+  "beets": {
+    "main": true
+  },
+  "moe_mediafile": {
+    "main": true
+  },
+  "curifactory": {
+    "main": true
+  },
+  "presamples": {
+    "main": true
+  },
+  "gladier": {
+    "main": true
+  },
+  "realalg": {
+    "main": true
+  },
+  "iwopy": {
+    "main": true
+  },
+  "bw2analyzer": {
+    "main": true
+  },
+  "kaggle-environments": {
+    "main": true
+  },
+  "jupyter-syncthing-proxy": {
+    "main": true
+  },
+  "globus-automate-client": {
+    "main": true
+  },
+  "bw_migrations": {
+    "main": true
+  },
+  "ncas-amof-netcdf-template": {
+    "main": true
+  },
+  "drafthorse": {
+    "main": true
+  },
+  "xradarsat2": {
+    "main": true
+  },
+  "bw2io": {
+    "main": true
+  },
+  "nigsp": {
+    "main": true
+  },
+  "pdbufr": {
+    "main": true
+  },
+  "biosiglive": {
+    "main": true
+  },
+  "mne-bids-pipeline": {
+    "main": true
+  },
+  "adios_db": {
+    "main": true
+  },
+  "ott-jax": {
+    "main": true
+  },
+  "soxs": {
+    "main": true
+  },
+  "r-treeheatr": {
+    "main": true
+  },
+  "airflow-code-editor": {
+    "main": true
+  },
+  "r-datefixr": {
+    "main": true
+  },
+  "versionparsing.jl": {
+    "main": true
+  },
+  "svgelements": {
+    "main": true
+  },
+  "r-vistime": {
+    "main": true
+  },
+  "floret": {
+    "main": true
+  },
+  "lsprotocol": {
+    "main": true
+  },
+  "conda-index": {
+    "main": true
+  },
+  "envier": {
+    "main": true
+  },
+  "asttrs": {
+    "main": true
+  },
+  "bids-validator": {
+    "main": true
+  },
+  "eidl": {
+    "main": true
+  },
+  "airfly": {
+    "main": true
+  },
+  "brightway2": {
+    "main": true
+  },
+  "airflow-provider-xlsx": {
+    "main": true
+  },
+  "pyproject_hooks": {
+    "main": true
+  },
+  "kedro-airflow": {
+    "main": true
+  },
+  "r-spdl": {
+    "main": true
+  },
+  "intake-axds": {
+    "main": true
+  },
+  "igwn-lldd-fdio": {
+    "main": true
+  },
+  "dinghy": {
+    "main": true
+  },
+  "linkchecker": {
+    "main": true
+  },
+  "pydorado": {
+    "main": true
+  },
+  "igwn-lldd-common": {
+    "main": true
+  },
+  "genv": {
+    "main": true
+  },
+  "jupyterlab_genv": {
+    "main": true
+  },
+  "activity-browser": {
+    "main": true
+  },
+  "anaconda-clean": {
+    "main": true
+  },
+  "bionc": {
+    "main": true
+  },
+  "expandvars": {
+    "main": true
+  },
+  "perl-package-deprecationmanager": {
+    "main": true
+  },
+  "perl-sub-exporter": {
+    "main": true
+  },
+  "perl-sub-name": {
+    "main": true
+  },
+  "perl-cpan-meta-check": {
+    "main": true
+  },
+  "perl-package-stash-xs": {
+    "main": true
+  },
+  "perl-variable-magic": {
+    "main": true
+  },
+  "perl-module-runtime": {
+    "main": true
+  },
+  "perl-data-optlist": {
+    "main": true
+  },
+  "perl-dist-checkconflicts": {
+    "main": true
+  },
+  "perl-package-stash": {
+    "main": true
+  },
+  "perl-module-implementation": {
+    "main": true
+  },
+  "array-api-compat": {
+    "main": true
+  },
+  "ptac": {
+    "main": true
+  },
+  "soilgrids": {
+    "main": true
+  },
+  "label-studio-tools": {
+    "main": true
+  },
+  "sott": {
+    "main": true
+  },
+  "duecredit": {
+    "main": true
+  },
+  "pgvector-python": {
+    "main": true
+  },
+  "pgvector": {
+    "main": true
+  },
+  "hippynn": {
+    "main": true
+  },
+  "ale-py": {
+    "main": true
+  },
+  "pyproject-api": {
+    "main": true
+  },
+  "jupyter_server_terminals_proxy": {
+    "main": true
+  },
+  "time-machine": {
+    "main": true
+  },
+  "docker-squash": {
+    "main": true
+  },
+  "gpyreg": {
+    "main": true
+  },
+  "pyessv": {
+    "main": true
+  },
+  "pymt_soilgrids": {
+    "main": true
+  },
+  "qt-charts": {
+    "main": true
+  },
+  "qt-datavis3d": {
+    "main": true
+  },
+  "qt-3d": {
+    "main": true
+  },
+  "csv-diff": {
+    "main": true
+  },
+  "nxmx": {
+    "main": true
+  },
+  "focal-loss": {
+    "main": true
+  },
+  "python-frontmatter": {
+    "main": true
+  },
+  "gymnasium-notices": {
+    "main": true
+  },
+  "causalpy": {
+    "main": true
+  },
+  "pybids": {
+    "main": true
+  },
+  "bmi_era5": {
+    "main": true
+  },
+  "pyvbmc": {
+    "main": true
+  },
+  "gymnasium": {
+    "main": true
+  },
+  "pvwebmonitor": {
+    "main": true
+  },
+  "icfree": {
+    "main": true
+  },
+  "shimmy": {
+    "main": true
+  },
+  "parallelproj": {
+    "main": true
+  },
+  "r-redcapr": {
+    "main": true
+  },
+  "r-redcaptidier": {
+    "main": true
+  },
+  "libpcapplusplus-split": {
+    "main": true
+  },
+  "skranger": {
+    "main": true
+  },
+  "calver": {
+    "main": true
+  },
+  "trove-classifiers": {
+    "main": true
+  },
+  "pymatgen-analysis-defects": {
+    "main": true
+  },
+  "songdkl": {
+    "main": true
+  },
+  "diffpy.pdffit2": {
+    "main": true
+  },
+  "django-relativity": {
+    "main": true
+  },
+  "sqlalchemy-databricks": {
+    "main": true
+  },
+  "pygame": {
+    "main": true
+  },
+  "devpi-process": {
+    "main": true
+  },
+  "portmidi": {
+    "main": true
+  },
+  "sparktorch": {
+    "main": true
+  },
+  "devpi-server": {
+    "main": true
+  },
+  "devpi-client": {
+    "main": true
+  },
+  "shapash": {
+    "main": true
+  },
+  "r-ggstats": {
+    "main": true
+  },
+  "r-calculus": {
+    "main": true
+  },
+  "drf-optionalfields": {
+    "main": true
+  },
+  "cpuid-native": {
+    "main": true
+  },
+  "jax-jumpy": {
+    "main": true
+  },
+  "omnixai": {
+    "main": true
+  },
+  "faqtory": {
+    "main": true
+  },
+  "bodkin": {
+    "main": true
+  },
+  "mofdscribe": {
+    "main": true
+  },
+  "moffragmentor": {
+    "main": true
+  },
+  "dash-editor-components": {
+    "main": true
   }
 }
