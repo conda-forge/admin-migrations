@@ -41965,5 +41965,458 @@
   },
   "alps": {
     "master": true
+  },
+  "alsa-lib": {
+    "main": true
+  },
+  "altair": {
+    "main": true
+  },
+  "altair_data_server": {
+    "main": true
+  },
+  "altair_saver": {
+    "main": true
+  },
+  "altair_viewer": {
+    "main": true
+  },
+  "altdphi": {
+    "main": true
+  },
+  "altgraph": {
+    "main": true
+  },
+  "ambertools": {
+    "main": true
+  },
+  "ampl-mp": {
+    "main": true
+  },
+  "amplpy": {
+    "main": true
+  },
+  "amptools": {
+    "main": true
+  },
+  "amqp": {
+    "main": true
+  },
+  "anaconda-client": {
+    "main": true
+  },
+  "anaconda-project": {
+    "main": true
+  },
+  "anaconda-verify": {
+    "main": true
+  },
+  "analytics-python": {
+    "main": true
+  },
+  "andes": {
+    "main": true
+  },
+  "animatplot": {
+    "main": true
+  },
+  "aniso8601": {
+    "main": true
+  },
+  "ann": {
+    "main": true
+  },
+  "ann_visualizer": {
+    "main": true
+  },
+  "anndata": {
+    "main": true
+  },
+  "annexremote": {
+    "main": true
+  },
+  "ansi2html": {
+    "main": true
+  },
+  "ansible": {
+    "main": true
+  },
+  "ansible-kernel": {
+    "main": true
+  },
+  "ansible-lint": {
+    "main": true
+  },
+  "ansible-runner": {
+    "main": true
+  },
+  "ansible-vault": {
+    "main": true
+  },
+  "ansimarkup": {
+    "main": true
+  },
+  "ansiwrap": {
+    "main": true
+  },
+  "antlr": {
+    "main": true
+  },
+  "antlr-python-runtime": {
+    "main": true
+  },
+  "anyconfig": {
+    "main": true
+  },
+  "anyio": {
+    "main": true
+  },
+  "anyjson": {
+    "main": true
+  },
+  "anypytools": {
+    "main": true
+  },
+  "anyqt": {
+    "main": true
+  },
+  "aospy": {
+    "main": true
+  },
+  "apache-beam": {
+    "main": true
+  },
+  "apache-libcloud": {
+    "main": true
+  },
+  "apbs": {
+    "main": true
+  },
+  "apipkg": {
+    "main": true
+  },
+  "apispec": {
+    "main": true
+  },
+  "apistar": {
+    "main": true
+  },
+  "aplpy": {
+    "main": true
+  },
+  "aplus": {
+    "main": true
+  },
+  "appdirs": {
+    "main": true
+  },
+  "applaunchservices": {
+    "main": true
+  },
+  "applicationinsights": {
+    "main": true
+  },
+  "apply_defaults": {
+    "main": true
+  },
+  "appmode": {
+    "main": true
+  },
+  "appnope": {
+    "main": true
+  },
+  "approxposterior": {
+    "main": true
+  },
+  "appscript": {
+    "main": true
+  },
+  "apptools": {
+    "main": true
+  },
+  "apr": {
+    "main": true
+  },
+  "apscheduler": {
+    "main": true
+  },
+  "apsg": {
+    "main": true
+  },
+  "apsw": {
+    "main": true
+  },
+  "arabic_reshaper": {
+    "main": true
+  },
+  "arb": {
+    "main": true
+  },
+  "arch-py": {
+    "main": true
+  },
+  "arcsi": {
+    "main": true
+  },
+  "arctic": {
+    "main": true
+  },
+  "argcomplete": {
+    "main": true
+  },
+  "argh": {
+    "main": true
+  },
+  "argo-models": {
+    "main": true
+  },
+  "argon2_cffi": {
+    "main": true
+  },
+  "argparse-manpage": {
+    "main": true
+  },
+  "args": {
+    "main": true
+  },
+  "argtable2": {
+    "main": true
+  },
+  "argutils": {
+    "main": true
+  },
+  "arlpy": {
+    "main": true
+  },
+  "arm_pyart": {
+    "main": true
+  },
+  "armadillo": {
+    "main": true
+  },
+  "arpack": {
+    "main": true
+  },
+  "arpackpp": {
+    "main": true
+  },
+  "array2gif": {
+    "main": true
+  },
+  "arrow": {
+    "main": true
+  },
+  "arrow-cpp": {
+    "main": true
+  },
+  "artview": {
+    "main": true
+  },
+  "aruco": {
+    "main": true
+  },
+  "arviz": {
+    "main": true
+  },
+  "arxiv-collector": {
+    "main": true
+  },
+  "asammdf": {
+    "main": true
+  },
+  "asap": {
+    "main": true
+  },
+  "asap3": {
+    "main": true
+  },
+  "ascii_graph": {
+    "main": true
+  },
+  "asciidoc": {
+    "main": true
+  },
+  "asciimatics": {
+    "main": true
+  },
+  "asciinema": {
+    "main": true
+  },
+  "asciitree": {
+    "main": true
+  },
+  "asdf": {
+    "main": true
+  },
+  "ase": {
+    "main": true
+  },
+  "ase-notebook": {
+    "main": true
+  },
+  "asgiref": {
+    "main": true
+  },
+  "asio": {
+    "main": true
+  },
+  "asks": {
+    "main": true
+  },
+  "asn1": {
+    "main": true
+  },
+  "asn1crypto": {
+    "main": true
+  },
+  "aspy.yaml": {
+    "main": true
+  },
+  "assembly_stats": {
+    "main": true
+  },
+  "assertpy": {
+    "main": true
+  },
+  "assetid": {
+    "main": true
+  },
+  "assimp": {
+    "main": true
+  },
+  "assimulo": {
+    "main": true
+  },
+  "astcheck": {
+    "main": true
+  },
+  "asteval": {
+    "main": true
+  },
+  "astor": {
+    "main": true
+  },
+  "astral": {
+    "main": true
+  },
+  "astro-gala": {
+    "main": true
+  },
+  "astrocats": {
+    "main": true
+  },
+  "astroid": {
+    "main": true
+  },
+  "astromatic-psfex": {
+    "main": true
+  },
+  "astromatic-scamp": {
+    "main": true
+  },
+  "astromatic-skymaker": {
+    "main": true
+  },
+  "astromatic-source-extractor": {
+    "main": true
+  },
+  "astromatic-stiff": {
+    "main": true
+  },
+  "astromatic-swarp": {
+    "main": true
+  },
+  "astrometry": {
+    "main": true
+  },
+  "astroml": {
+    "main": true
+  },
+  "astroplan": {
+    "main": true
+  },
+  "astropy": {
+    "main": true
+  },
+  "astropy-healpix": {
+    "main": true
+  },
+  "astropy-helpers": {
+    "main": true
+  },
+  "astropy-sphinx-theme": {
+    "main": true
+  },
+  "astroquery": {
+    "main": true
+  },
+  "astroscrappy": {
+    "main": true
+  },
+  "astrowidgets": {
+    "main": true
+  },
+  "asttokens": {
+    "main": true
+  },
+  "astunparse": {
+    "main": true
+  },
+  "asv": {
+    "main": true
+  },
+  "async": {
+    "main": true
+  },
+  "async-timeout": {
+    "main": true
+  },
+  "async_generator": {
+    "main": true
+  },
+  "async_timeout": {
+    "master": true
+  },
+  "asyncio-helpers": {
+    "main": true
+  },
+  "asyncpg": {
+    "main": true
+  },
+  "asyncpgsa": {
+    "main": true
+  },
+  "asyncqt": {
+    "main": true
+  },
+  "asyncssh": {
+    "main": true
+  },
+  "asynctest": {
+    "main": true
+  },
+  "at-spi2-atk": {
+    "main": true
+  },
+  "at-spi2-core": {
+    "main": true
+  },
+  "atari_py": {
+    "main": true
+  },
+  "atdict": {
+    "main": true
+  },
+  "atk": {
+    "main": true
+  },
+  "atkmm": {
+    "main": true
+  },
+  "atlantis": {
+    "main": true
+  },
+  "atlasclient": {
+    "main": true
   }
 }
