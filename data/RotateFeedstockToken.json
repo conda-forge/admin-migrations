@@ -38932,5 +38932,350 @@
   },
   "python-utilities-jsm": {
     "main": true
+  },
+  "parmoo": {
+    "main": true
+  },
+  "matplotview": {
+    "main": true
+  },
+  "switcheroo": {
+    "main": true
+  },
+  "fps-auth-base": {
+    "main": true
+  },
+  "de-bundesrat": {
+    "main": true
+  },
+  "pypresseportal": {
+    "main": true
+  },
+  "de-risikogebiete": {
+    "main": true
+  },
+  "de-zoll": {
+    "main": true
+  },
+  "de-strahlenschutz": {
+    "main": true
+  },
+  "de-interpol": {
+    "main": true
+  },
+  "de-bundestag": {
+    "main": true
+  },
+  "de-mudab": {
+    "main": true
+  },
+  "de-ladestationen": {
+    "main": true
+  },
+  "de-smard": {
+    "main": true
+  },
+  "de-polizei-brandenburg": {
+    "main": true
+  },
+  "de-travelwarning": {
+    "main": true
+  },
+  "de-jobsuche": {
+    "main": true
+  },
+  "google-cloud-pubsublite": {
+    "main": true
+  },
+  "miniwdl-slurm": {
+    "main": true
+  },
+  "sardana-tango": {
+    "main": true
+  },
+  "hyram": {
+    "main": true
+  },
+  "cool_maps": {
+    "main": true
+  },
+  "sardana-icepap": {
+    "main": true
+  },
+  "yaqd-zaber": {
+    "main": true
+  },
+  "ploomber-engine": {
+    "main": true
+  },
+  "perl-sub-info": {
+    "main": true
+  },
+  "kubo": {
+    "main": true
+  },
+  "pycircos": {
+    "main": true
+  },
+  "mpl-template": {
+    "main": true
+  },
+  "runpynb": {
+    "main": true
+  },
+  "perl-digest-md5": {
+    "main": true
+  },
+  "mesmerize-core": {
+    "main": true
+  },
+  "bidsschematools": {
+    "main": true
+  },
+  "pypmc": {
+    "main": true
+  },
+  "thatool": {
+    "main": true
+  },
+  "gromacswrapper": {
+    "main": true
+  },
+  "detox": {
+    "main": true
+  },
+  "perl-text-diff": {
+    "main": true
+  },
+  "perl-lib": {
+    "main": true
+  },
+  "mpl-multitab": {
+    "main": true
+  },
+  "transformato": {
+    "main": true
+  },
+  "mpl-qtthread": {
+    "main": true
+  },
+  "fps-noauth": {
+    "main": true
+  },
+  "perl-number-compare": {
+    "main": true
+  },
+  "perl-config-tiny": {
+    "main": true
+  },
+  "perl-config-simple": {
+    "main": true
+  },
+  "perl-extutils-constant": {
+    "main": true
+  },
+  "pycollage": {
+    "main": true
+  },
+  "appmar": {
+    "main": true
+  },
+  "bakelite": {
+    "main": true
+  },
+  "markdown-customblocks": {
+    "main": true
+  },
+  "yamlns": {
+    "main": true
+  },
+  "perl-tie-refhash": {
+    "main": true
+  },
+  "perl-text-csv": {
+    "main": true
+  },
+  "mirakuru": {
+    "main": true
+  },
+  "pylustrator": {
+    "main": true
+  },
+  "pytest-postgresql": {
+    "main": true
+  },
+  "perl-io-gzip": {
+    "main": true
+  },
+  "r-explore": {
+    "main": true
+  },
+  "perl-set-scalar": {
+    "main": true
+  },
+  "jaxopt": {
+    "main": true
+  },
+  "glasflow": {
+    "main": true
+  },
+  "kvh": {
+    "main": true
+  },
+  "bgslibrary": {
+    "main": true
+  },
+  "perl-encode": {
+    "main": true
+  },
+  "pytest-unordered": {
+    "main": true
+  },
+  "duckcli": {
+    "main": true
+  },
+  "osyris": {
+    "main": true
+  },
+  "mpltoolbox": {
+    "main": true
+  },
+  "blackjax": {
+    "main": true
+  },
+  "sphinx-subfigure": {
+    "main": true
+  },
+  "xcube-cmems": {
+    "main": true
+  },
+  "gz-cmake": {
+    "main": true
+  },
+  "perl-json-maybexs": {
+    "main": true
+  },
+  "perl-text-wrap": {
+    "main": true
+  },
+  "ml-collections": {
+    "main": true
+  },
+  "perl-file-tee": {
+    "main": true
+  },
+  "perl-text-abbrev": {
+    "main": true
+  },
+  "perl-text-parsewords": {
+    "main": true
+  },
+  "jupyterlab-lego-boost": {
+    "main": true
+  },
+  "jupyterlab-h5web": {
+    "main": true
+  },
+  "collatex-python": {
+    "main": true
+  },
+  "pydaqmx": {
+    "main": true
+  },
+  "latexify-py": {
+    "main": true
+  },
+  "nvidia-ml-py": {
+    "main": true
+  },
+  "picosdk": {
+    "main": true
+  },
+  "nessai": {
+    "main": true
+  },
+  "panoptes-client": {
+    "main": true
+  },
+  "panoptes-aggregation": {
+    "main": true
+  },
+  "mage-ai": {
+    "main": true
+  },
+  "de-autobahn": {
+    "main": true
+  },
+  "dask-awkward": {
+    "main": true
+  },
+  "deutschland": {
+    "main": true
+  },
+  "de-nina": {
+    "main": true
+  },
+  "de-dwd": {
+    "main": true
+  },
+  "marslab": {
+    "main": true
+  },
+  "autobot-ml": {
+    "main": true
+  },
+  "hdmf_zarr": {
+    "main": true
+  },
+  "de-hochwasserzentralen": {
+    "main": true
+  },
+  "de-bundeshaushalt": {
+    "main": true
+  },
+  "de-tagesschau": {
+    "main": true
+  },
+  "de-weiterbildungssuche": {
+    "main": true
+  },
+  "de-dashboarddeutschland": {
+    "main": true
+  },
+  "de-entgeltatlas": {
+    "main": true
+  },
+  "perl-text-levenshtein": {
+    "main": true
+  },
+  "de-ecovisio": {
+    "main": true
+  },
+  "de-bundestag-lobbyregister": {
+    "main": true
+  },
+  "de-marktstammdaten": {
+    "main": true
+  },
+  "de-pegel-online": {
+    "main": true
+  },
+  "de-feiertage": {
+    "main": true
+  },
+  "pitot": {
+    "main": true
+  },
+  "de-abfallnavi": {
+    "main": true
+  },
+  "de-dip-bundestag": {
+    "main": true
+  },
+  "de-studiensuche": {
+    "main": true
+  },
+  "de-coachingangebote": {
+    "main": true
   }
 }
