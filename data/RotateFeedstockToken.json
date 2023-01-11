@@ -40453,5 +40453,458 @@
   },
   "libqrencode": {
     "main": true
+  },
+  "benchling-api-client": {
+    "main": true
+  },
+  "comm": {
+    "main": true
+  },
+  "starlette-context": {
+    "main": true
+  },
+  "virtual_dataframe": {
+    "main": true
+  },
+  "r-modelenv": {
+    "main": true
+  },
+  "esi-core": {
+    "main": true
+  },
+  "esi-utils-vectors": {
+    "main": true
+  },
+  "esi-utils-io": {
+    "main": true
+  },
+  "esi-utils-colors": {
+    "main": true
+  },
+  "esi-utils-time": {
+    "main": true
+  },
+  "esi-extern-openquake": {
+    "main": true
+  },
+  "esi-utils-rupture": {
+    "main": true
+  },
+  "jupyter_server_terminals": {
+    "main": true
+  },
+  "django-fsm-admin": {
+    "main": true
+  },
+  "txtai": {
+    "main": true
+  },
+  "skope-rules": {
+    "main": true
+  },
+  "django-fsm-log": {
+    "main": true
+  },
+  "objsize": {
+    "main": true
+  },
+  "pywebp": {
+    "main": true
+  },
+  "glasbey": {
+    "main": true
+  },
+  "scikit-partial": {
+    "main": true
+  },
+  "bulk": {
+    "main": true
+  },
+  "cython-lint": {
+    "main": true
+  },
+  "cartwright": {
+    "main": true
+  },
+  "sphinx-pydantic": {
+    "main": true
+  },
+  "gnuradio-m2k": {
+    "main": true
+  },
+  "mktestdocs": {
+    "main": true
+  },
+  "zimg": {
+    "main": true
+  },
+  "gotrue": {
+    "main": true
+  },
+  "supabase": {
+    "main": true
+  },
+  "postgrest": {
+    "main": true
+  },
+  "realtime": {
+    "main": true
+  },
+  "storage3": {
+    "main": true
+  },
+  "supafunc": {
+    "main": true
+  },
+  "redbox": {
+    "main": true
+  },
+  "caf.toolkit": {
+    "main": true
+  },
+  "gcloud-aio-bigquery": {
+    "main": true
+  },
+  "gcloud-aio-pubsub": {
+    "main": true
+  },
+  "gcloud-aio-datastore": {
+    "main": true
+  },
+  "gcloud-aio-storage": {
+    "main": true
+  },
+  "gcloud-aio-taskqueue": {
+    "main": true
+  },
+  "gcloud-aio-kms": {
+    "main": true
+  },
+  "gcloud-aio-auth": {
+    "main": true
+  },
+  "perl-test-nowarnings": {
+    "main": true
+  },
+  "autoboost": {
+    "main": true
+  },
+  "numpy-allocator": {
+    "main": true
+  },
+  "pyvisa-sim": {
+    "main": true
+  },
+  "types-jsonschema": {
+    "main": true
+  },
+  "slipcover": {
+    "main": true
+  },
+  "kmedoids": {
+    "main": true
+  },
+  "trajan": {
+    "main": true
+  },
+  "jsonschema-gentypes": {
+    "main": true
+  },
+  "tip": {
+    "main": true
+  },
+  "http-ece": {
+    "main": true
+  },
+  "pnpm": {
+    "main": true
+  },
+  "theme-material-darcula": {
+    "main": true
+  },
+  "perl-devel-globaldestruction": {
+    "main": true
+  },
+  "perl-test-leaktrace": {
+    "main": true
+  },
+  "perl-test-warnings": {
+    "main": true
+  },
+  "perl-sub-exporter-progressive": {
+    "main": true
+  },
+  "codem": {
+    "main": true
+  },
+  "perl-params-util": {
+    "main": true
+  },
+  "perl-devel-stacktrace": {
+    "main": true
+  },
+  "perl-module-build": {
+    "main": true
+  },
+  "perl-mro-compat": {
+    "main": true
+  },
+  "perl-inc-latest": {
+    "main": true
+  },
+  "scikit-build-core": {
+    "main": true
+  },
+  "perl-math-random-mt-auto": {
+    "main": true
+  },
+  "perl-class-data-inheritable": {
+    "main": true
+  },
+  "perl-exception-class": {
+    "main": true
+  },
+  "perl-object-insideout": {
+    "main": true
+  },
+  "kangas": {
+    "main": true
+  },
+  "pyiceberg": {
+    "main": true
+  },
+  "dbt-dremio": {
+    "main": true
+  },
+  "pynessie": {
+    "main": true
+  },
+  "envs-manager": {
+    "main": true
+  },
+  "pytensor-suite": {
+    "main": true
+  },
+  "stdio-mgr": {
+    "main": true
+  },
+  "spoc": {
+    "main": true
+  },
+  "tree_sitter": {
+    "main": true
+  },
+  "git-delete-merged-branches": {
+    "main": true
+  },
+  "fastberry": {
+    "main": true
+  },
+  "embetter": {
+    "main": true
+  },
+  "tree_sitter_languages": {
+    "main": true
+  },
+  "cpp-argparse": {
+    "main": true
+  },
+  "esi-utils-geo": {
+    "main": true
+  },
+  "r-hrw": {
+    "main": true
+  },
+  "r-modelbased": {
+    "main": true
+  },
+  "eerepr": {
+    "main": true
+  },
+  "python-xz": {
+    "main": true
+  },
+  "r-timechange": {
+    "main": true
+  },
+  "r-longcateda": {
+    "main": true
+  },
+  "r-statcheck": {
+    "main": true
+  },
+  "r-finalfit": {
+    "main": true
+  },
+  "r-ggimage": {
+    "main": true
+  },
+  "r-nomnoml": {
+    "main": true
+  },
+  "r-suncalc": {
+    "main": true
+  },
+  "r-reportfactory": {
+    "main": true
+  },
+  "r-pushoverr": {
+    "main": true
+  },
+  "r-installr": {
+    "main": true
+  },
+  "scspell3k": {
+    "main": true
+  },
+  "pmlb": {
+    "main": true
+  },
+  "hstream": {
+    "main": true
+  },
+  "redframes": {
+    "main": true
+  },
+  "pdfsyntax": {
+    "main": true
+  },
+  "find-libpython": {
+    "main": true
+  },
+  "rio-stac": {
+    "main": true
+  },
+  "pysumreg": {
+    "main": true
+  },
+  "pypette": {
+    "main": true
+  },
+  "napari-power-widgets": {
+    "main": true
+  },
+  "pytups": {
+    "main": true
+  },
+  "semantic-code-search": {
+    "main": true
+  },
+  "pgsqlite": {
+    "main": true
+  },
+  "splinedist": {
+    "main": true
+  },
+  "stackeddag": {
+    "main": true
+  },
+  "r-gggibbous": {
+    "main": true
+  },
+  "cirun": {
+    "main": true
+  },
+  "flask-openapi3": {
+    "main": true
+  },
+  "snowflake-snowpark-python": {
+    "main": true
+  },
+  "momlevel": {
+    "main": true
+  },
+  "r-visreg": {
+    "main": true
+  },
+  "r-sheetreader": {
+    "main": true
+  },
+  "r-calendr": {
+    "main": true
+  },
+  "libjxl-split": {
+    "main": true
+  },
+  "dwave-samplers": {
+    "main": true
+  },
+  "svmtk": {
+    "main": true
+  },
+  "sphobjinv": {
+    "main": true
+  },
+  "oci-cli": {
+    "main": true
+  },
+  "flake8-unused-arguments": {
+    "main": true
+  },
+  "chromedriver-autoinstaller": {
+    "main": true
+  },
+  "sphinx-lint": {
+    "main": true
+  },
+  "e3nn-jax": {
+    "main": true
+  },
+  "lucid3": {
+    "main": true
+  },
+  "scikit-explain": {
+    "main": true
+  },
+  "choclo": {
+    "main": true
+  },
+  "traitlets_paths": {
+    "main": true
+  },
+  "julia-conda-packaging": {
+    "main": true
+  },
+  "cronodump": {
+    "main": true
+  },
+  "bw2data": {
+    "main": true
+  },
+  "bw2calc": {
+    "main": true
+  },
+  "jupikchr": {
+    "main": true
+  },
+  "scriptengine-tasks-ecearth": {
+    "main": true
+  },
+  "tempest-helper": {
+    "main": true
+  },
+  "indexed_zstd": {
+    "main": true
+  },
+  "pyacoustid": {
+    "main": true
+  },
+  "pycln": {
+    "main": true
+  },
+  "cdasws": {
+    "main": true
+  },
+  "foxes": {
+    "main": true
+  },
+  "syrupy": {
+    "main": true
+  },
+  "pykube": {
+    "main": true
+  },
+  "asgi-correlation-id": {
+    "main": true
   }
 }
