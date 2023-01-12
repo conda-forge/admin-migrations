@@ -44977,5 +44977,458 @@
   },
   "dask-tensorflow": {
     "main": true
+  },
+  "dask-xgboost": {
+    "main": true
+  },
+  "dask-yarn": {
+    "main": true
+  },
+  "dask_labextension": {
+    "main": true
+  },
+  "databases": {
+    "main": true
+  },
+  "databricks-cli": {
+    "main": true
+  },
+  "databroker": {
+    "main": true
+  },
+  "databroker-elasticsearch": {
+    "main": true
+  },
+  "datacache": {
+    "main": true
+  },
+  "dataclasses": {
+    "main": true
+  },
+  "datacompy": {
+    "main": true
+  },
+  "datacube": {
+    "main": true
+  },
+  "datadog": {
+    "main": true
+  },
+  "datadotworld-py": {
+    "main": true
+  },
+  "datajoint": {
+    "main": true
+  },
+  "datalad": {
+    "main": true
+  },
+  "datalad-container": {
+    "main": true
+  },
+  "datamash": {
+    "main": true
+  },
+  "datamatrix": {
+    "main": true
+  },
+  "datamodeldict": {
+    "main": true
+  },
+  "datamountaineer-schemaregistry": {
+    "main": true
+  },
+  "datapackage": {
+    "main": true
+  },
+  "datarobot": {
+    "main": true
+  },
+  "datashader": {
+    "main": true
+  },
+  "datashape": {
+    "main": true
+  },
+  "datatables": {
+    "main": true
+  },
+  "datefudge": {
+    "main": true
+  },
+  "dateparser": {
+    "main": true
+  },
+  "dateutils": {
+    "main": true
+  },
+  "datreant": {
+    "main": true
+  },
+  "datrie": {
+    "main": true
+  },
+  "datumgrid": {
+    "main": true
+  },
+  "dave": {
+    "main": true
+  },
+  "davix": {
+    "main": true
+  },
+  "dawg": {
+    "main": true
+  },
+  "dawg-python": {
+    "main": true
+  },
+  "dbf": {
+    "main": true
+  },
+  "dbfread": {
+    "main": true
+  },
+  "dbt": {
+    "main": true
+  },
+  "dbus": {
+    "main": true
+  },
+  "dbus-cxx": {
+    "main": true
+  },
+  "dbus-python": {
+    "main": true
+  },
+  "dbxfs": {
+    "main": true
+  },
+  "dcap": {
+    "main": true
+  },
+  "dcgp-python": {
+    "main": true
+  },
+  "dcm2niix": {
+    "main": true
+  },
+  "dcmstack": {
+    "main": true
+  },
+  "dcw-gmt": {
+    "main": true
+  },
+  "ddt": {
+    "main": true
+  },
+  "dealii": {
+    "main": true
+  },
+  "deap": {
+    "main": true
+  },
+  "debtcollector": {
+    "main": true
+  },
+  "dec2": {
+    "main": true
+  },
+  "decorator": {
+    "main": true
+  },
+  "dectate": {
+    "main": true
+  },
+  "deepchem": {
+    "main": true
+  },
+  "deepdiff": {
+    "main": true
+  },
+  "deepdish": {
+    "main": true
+  },
+  "deepgraph": {
+    "main": true
+  },
+  "deeplearnjs": {
+    "main": true
+  },
+  "deepmd-kit": {
+    "main": true
+  },
+  "deepsmiles": {
+    "main": true
+  },
+  "deepxde": {
+    "main": true
+  },
+  "defusedxml": {
+    "main": true
+  },
+  "deicode": {
+    "main": true
+  },
+  "deid": {
+    "main": true
+  },
+  "delegator": {
+    "main": true
+  },
+  "delocate": {
+    "main": true
+  },
+  "demoshell": {
+    "main": true
+  },
+  "demquery": {
+    "main": true
+  },
+  "deon": {
+    "main": true
+  },
+  "dependencies": {
+    "main": true
+  },
+  "depfinder": {
+    "main": true
+  },
+  "depi": {
+    "main": true
+  },
+  "depinfo": {
+    "main": true
+  },
+  "deprecated": {
+    "main": true
+  },
+  "deprecation": {
+    "main": true
+  },
+  "deprecation-factory": {
+    "main": true
+  },
+  "deps": {
+    "main": true
+  },
+  "des-desmeds": {
+    "main": true
+  },
+  "des-easyaccess": {
+    "main": true
+  },
+  "descartes": {
+    "main": true
+  },
+  "descarteslabs": {
+    "main": true
+  },
+  "desdeo": {
+    "main": true
+  },
+  "desdeo-vis": {
+    "main": true
+  },
+  "desktop3": {
+    "main": true
+  },
+  "desres-msys": {
+    "main": true
+  },
+  "df2gspread": {
+    "main": true
+  },
+  "dftatom": {
+    "main": true
+  },
+  "dftd4": {
+    "main": true
+  },
+  "dfviz": {
+    "main": true
+  },
+  "dialite": {
+    "main": true
+  },
+  "dials-data": {
+    "main": true
+  },
+  "dials-dependencies": {
+    "master": true
+  },
+  "dicom2nifti": {
+    "main": true
+  },
+  "dicomifier": {
+    "main": true
+  },
+  "dictdiffer": {
+    "main": true
+  },
+  "dictlib": {
+    "main": true
+  },
+  "dicttoxml": {
+    "main": true
+  },
+  "diff-cover": {
+    "main": true
+  },
+  "diff-match-patch": {
+    "main": true
+  },
+  "diffoscope": {
+    "main": true
+  },
+  "diffpy.pdfmorph": {
+    "main": true
+  },
+  "diffpy.structure": {
+    "main": true
+  },
+  "diffpy.utils": {
+    "main": true
+  },
+  "diffsims": {
+    "main": true
+  },
+  "diffutils": {
+    "main": true
+  },
+  "digital_rf": {
+    "main": true
+  },
+  "dill": {
+    "main": true
+  },
+  "dionysus": {
+    "main": true
+  },
+  "dioptas": {
+    "main": true
+  },
+  "dipy": {
+    "main": true
+  },
+  "dirac-grid": {
+    "main": true
+  },
+  "diraccfg": {
+    "main": true
+  },
+  "dirent": {
+    "main": true
+  },
+  "dis3": {
+    "main": true
+  },
+  "discretisedfield": {
+    "main": true
+  },
+  "discretize": {
+    "main": true
+  },
+  "diskcache": {
+    "main": true
+  },
+  "distance": {
+    "main": true
+  },
+  "distarray": {
+    "main": true
+  },
+  "distgen": {
+    "main": true
+  },
+  "distributed": {
+    "main": true
+  },
+  "distro": {
+    "main": true
+  },
+  "dit": {
+    "main": true
+  },
+  "divebomb": {
+    "main": true
+  },
+  "dj-database-url": {
+    "main": true
+  },
+  "dj-static": {
+    "main": true
+  },
+  "django": {
+    "main": true
+  },
+  "django-admin-shortcuts": {
+    "main": true
+  },
+  "django-ajax-selects": {
+    "main": true
+  },
+  "django-allauth": {
+    "main": true
+  },
+  "django-anymail": {
+    "main": true
+  },
+  "django-appconf": {
+    "main": true
+  },
+  "django-apptemplates": {
+    "main": true
+  },
+  "django-autoslug": {
+    "main": true
+  },
+  "django-bakery": {
+    "main": true
+  },
+  "django-bootstrap3": {
+    "main": true
+  },
+  "django-bootstrap4": {
+    "main": true
+  },
+  "django-braces": {
+    "main": true
+  },
+  "django-cachalot": {
+    "main": true
+  },
+  "django-celery": {
+    "main": true
+  },
+  "django-chunked-upload": {
+    "main": true
+  },
+  "django-cleanup": {
+    "main": true
+  },
+  "django-cloud-browser": {
+    "main": true
+  },
+  "django-configurations": {
+    "main": true
+  },
+  "django-controlcenter": {
+    "main": true
+  },
+  "django-cors-headers": {
+    "main": true
+  },
+  "django-crispy-forms": {
+    "main": true
+  },
+  "django-cruds-adminlte": {
+    "main": true
+  },
+  "django-daterange-filter": {
+    "main": true
+  },
+  "django-debug-toolbar": {
+    "main": true
   }
 }
