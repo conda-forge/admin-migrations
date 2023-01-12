@@ -50932,5 +50932,458 @@
   },
   "librdmacm-cos6-x86_64": {
     "master": true
+  },
+  "librdmacm-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libredwg": {
+    "main": true
+  },
+  "librepo": {
+    "main": true
+  },
+  "librosa": {
+    "main": true
+  },
+  "librsvg": {
+    "main": true
+  },
+  "libsakura": {
+    "main": true
+  },
+  "libsass": {
+    "main": true
+  },
+  "libsdformat": {
+    "main": true
+  },
+  "libsecret": {
+    "main": true
+  },
+  "libselinux-cos7-aarch64": {
+    "master": true
+  },
+  "libsemigroups": {
+    "main": true
+  },
+  "libsemigroups-python-bindings": {
+    "master": true
+  },
+  "libsemigroups_cppyy": {
+    "main": true
+  },
+  "libsharp": {
+    "main": true
+  },
+  "libsigcpp": {
+    "main": true
+  },
+  "libsigsegv": {
+    "main": true
+  },
+  "libsimpleitk": {
+    "main": true
+  },
+  "libsm-cos7-aarch64": {
+    "master": true
+  },
+  "libsm-cos7-ppc64le": {
+    "master": true
+  },
+  "libsndfile": {
+    "main": true
+  },
+  "libsodium": {
+    "main": true
+  },
+  "libsolv": {
+    "main": true
+  },
+  "libspatialindex": {
+    "main": true
+  },
+  "libspatialite": {
+    "main": true
+  },
+  "libspnav": {
+    "main": true
+  },
+  "libssh": {
+    "main": true
+  },
+  "libssh2": {
+    "main": true
+  },
+  "libsvm": {
+    "main": true
+  },
+  "libtar": {
+    "main": true
+  },
+  "libtasn1": {
+    "main": true
+  },
+  "libtheora": {
+    "main": true
+  },
+  "libtiff": {
+    "main": true
+  },
+  "libtike-cufft": {
+    "master": true
+  },
+  "libtiledb-sql": {
+    "main": true
+  },
+  "libtiledb-sql-py": {
+    "main": true
+  },
+  "libtlx": {
+    "main": true
+  },
+  "libtool": {
+    "main": true
+  },
+  "libudev-cos6-x86_64": {
+    "master": true
+  },
+  "libudev-devel-cos6-x86_64": {
+    "master": true
+  },
+  "libunistring": {
+    "main": true
+  },
+  "libunwind": {
+    "main": true
+  },
+  "libusb": {
+    "main": true
+  },
+  "libusb-compat": {
+    "main": true
+  },
+  "libutf8proc": {
+    "main": true
+  },
+  "libuuid": {
+    "main": true
+  },
+  "libuv": {
+    "main": true
+  },
+  "libv8": {
+    "main": true
+  },
+  "libva": {
+    "main": true
+  },
+  "libva-utils": {
+    "main": true
+  },
+  "libvips": {
+    "main": true
+  },
+  "libvorbis": {
+    "main": true
+  },
+  "libwapiti": {
+    "main": true
+  },
+  "libwebp": {
+    "main": true
+  },
+  "libwebp-base": {
+    "main": true
+  },
+  "libwebsockets": {
+    "main": true
+  },
+  "libx11-common-cos7-aarch64": {
+    "master": true
+  },
+  "libx11-cos7-aarch64": {
+    "master": true
+  },
+  "libx11-devel-cos7-aarch64": {
+    "master": true
+  },
+  "libxau-cos7-aarch64": {
+    "master": true
+  },
+  "libxc": {
+    "main": true
+  },
+  "libxcb": {
+    "main": true
+  },
+  "libxcb-cos7-aarch64": {
+    "master": true
+  },
+  "libxcomposite-cos7-ppc64le": {
+    "master": true
+  },
+  "libxcursor-cos7-ppc64le": {
+    "master": true
+  },
+  "libxdamage-cos7-aarch64": {
+    "master": true
+  },
+  "libxext-cos7-aarch64": {
+    "master": true
+  },
+  "libxfixes-cos7-aarch64": {
+    "master": true
+  },
+  "libxfoil": {
+    "main": true
+  },
+  "libxkbcommon": {
+    "main": true
+  },
+  "libxkbfile": {
+    "main": true
+  },
+  "libxml2": {
+    "main": true
+  },
+  "libxmlpp": {
+    "main": true
+  },
+  "libxrender-cos7-aarch64": {
+    "master": true
+  },
+  "libxscrnsaver-cos7-ppc64le": {
+    "master": true
+  },
+  "libxshmfence-cos7-aarch64": {
+    "master": true
+  },
+  "libxshmfence-cos7-ppc64le": {
+    "master": true
+  },
+  "libxslt": {
+    "main": true
+  },
+  "libxsmm": {
+    "main": true
+  },
+  "libxt-cos7-aarch64": {
+    "master": true
+  },
+  "libxt-cos7-ppc64le": {
+    "master": true
+  },
+  "libxtst-cos7-ppc64le": {
+    "master": true
+  },
+  "libxxf86vm-cos7-aarch64": {
+    "master": true
+  },
+  "libxxf86vm-cos7-ppc64le": {
+    "master": true
+  },
+  "libzip": {
+    "main": true
+  },
+  "license-expression": {
+    "main": true
+  },
+  "lidar": {
+    "main": true
+  },
+  "lief": {
+    "main": true
+  },
+  "lifelines": {
+    "main": true
+  },
+  "lifetimes": {
+    "main": true
+  },
+  "lightfm": {
+    "main": true
+  },
+  "lightgbm": {
+    "main": true
+  },
+  "lightkurve": {
+    "main": true
+  },
+  "lighttpd": {
+    "main": true
+  },
+  "ligo-common": {
+    "main": true
+  },
+  "ligo-followup-advocate": {
+    "main": true
+  },
+  "ligo-gracedb": {
+    "main": true
+  },
+  "ligo-lvalert": {
+    "main": true
+  },
+  "ligo-raven": {
+    "main": true
+  },
+  "ligo-requests": {
+    "main": true
+  },
+  "ligo-scald": {
+    "main": true
+  },
+  "ligo-segments": {
+    "main": true
+  },
+  "ligo.skymap": {
+    "main": true
+  },
+  "ligotimegps": {
+    "main": true
+  },
+  "ligotools": {
+    "main": true
+  },
+  "liknorm": {
+    "main": true
+  },
+  "liknorm-py": {
+    "main": true
+  },
+  "lime": {
+    "main": true
+  },
+  "limix": {
+    "main": true
+  },
+  "limix-core": {
+    "main": true
+  },
+  "limix-inference": {
+    "main": true
+  },
+  "limix-legacy": {
+    "main": true
+  },
+  "limix-plot": {
+    "main": true
+  },
+  "linbox": {
+    "main": true
+  },
+  "line_profiler": {
+    "main": true
+  },
+  "linear-tsv": {
+    "main": true
+  },
+  "linearmodels": {
+    "main": true
+  },
+  "linecache2": {
+    "main": true
+  },
+  "linetools": {
+    "main": true
+  },
+  "link-traits": {
+    "main": true
+  },
+  "lintegrate": {
+    "main": true
+  },
+  "lintel": {
+    "main": true
+  },
+  "linux-sysroot": {
+    "main": true
+  },
+  "liquidprompt": {
+    "main": true
+  },
+  "litereval": {
+    "main": true
+  },
+  "littleutils": {
+    "main": true
+  },
+  "livereload": {
+    "main": true
+  },
+  "livvkit": {
+    "main": true
+  },
+  "livy-submit": {
+    "main": true
+  },
+  "lld": {
+    "main": true
+  },
+  "lldb": {
+    "main": true
+  },
+  "llvm-meta": {
+    "main": true
+  },
+  "llvm-spirv": {
+    "main": true
+  },
+  "llvmdev": {
+    "main": true
+  },
+  "llvmlite": {
+    "main": true
+  },
+  "lmdb": {
+    "main": true
+  },
+  "lmfit": {
+    "main": true
+  },
+  "lml": {
+    "main": true
+  },
+  "lmod": {
+    "main": true
+  },
+  "localstack": {
+    "main": true
+  },
+  "localstack-client": {
+    "main": true
+  },
+  "localstack-ext": {
+    "main": true
+  },
+  "locket": {
+    "main": true
+  },
+  "lockfile": {
+    "main": true
+  },
+  "locust": {
+    "main": true
+  },
+  "lodash": {
+    "main": true
+  },
+  "log4cpp": {
+    "main": true
+  },
+  "log4cxx": {
+    "main": true
+  },
+  "log_symbols": {
+    "main": true
+  },
+  "logaddexp": {
+    "main": true
+  },
+  "logbook": {
+    "main": true
+  },
+  "logging-helpers": {
+    "main": true
   }
 }
