@@ -28962,7 +28962,8 @@
     "main": true
   },
   "genozip": {
-    "main": true
+    "main": true,
+    "revert-179-genozip": true
   },
   "genpy": {
     "main": true
