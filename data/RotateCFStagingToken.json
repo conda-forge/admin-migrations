@@ -51385,5 +51385,428 @@
   },
   "logging-helpers": {
     "main": true
+  },
+  "logging_exceptions": {
+    "main": true
+  },
+  "loghub": {
+    "main": true
+  },
+  "logilab-common": {
+    "main": true
+  },
+  "logmuse": {
+    "main": true
+  },
+  "loguru": {
+    "main": true
+  },
+  "logzero": {
+    "main": true
+  },
+  "loky": {
+    "main": true
+  },
+  "loompy": {
+    "main": true
+  },
+  "lorem": {
+    "main": true
+  },
+  "louvain": {
+    "main": true
+  },
+  "lp_solve": {
+    "main": true
+  },
+  "lpsolve55": {
+    "main": true
+  },
+  "lrcalc": {
+    "main": true
+  },
+  "lrslib": {
+    "main": true
+  },
+  "lscsoft-glue": {
+    "main": true
+  },
+  "lsof": {
+    "main": true
+  },
+  "lsst-dd-rtd-theme": {
+    "main": true
+  },
+  "lsst-documenteer": {
+    "main": true
+  },
+  "lsst-sphinx-bootstrap-theme": {
+    "main": true
+  },
+  "lsst_dashboard": {
+    "main": true
+  },
+  "lsstdesc.coord": {
+    "main": true
+  },
+  "lsstdesc.weaklensingdeblending": {
+    "main": true
+  },
+  "ltl": {
+    "main": true
+  },
+  "lua": {
+    "main": true
+  },
+  "lua-luafilesystem": {
+    "main": true
+  },
+  "lua-luaposix": {
+    "main": true
+  },
+  "luajit": {
+    "main": true
+  },
+  "luarocks": {
+    "main": true
+  },
+  "lucid": {
+    "main": true
+  },
+  "luhn": {
+    "main": true
+  },
+  "luigi": {
+    "main": true
+  },
+  "lume-astra": {
+    "main": true
+  },
+  "lume-genesis": {
+    "main": true
+  },
+  "lume-impact": {
+    "main": true
+  },
+  "lumicks.pylake": {
+    "main": true
+  },
+  "lunarcalendar": {
+    "main": true
+  },
+  "lunardate": {
+    "main": true
+  },
+  "lunr": {
+    "main": true
+  },
+  "lxml": {
+    "main": true
+  },
+  "lxqt-build-tools": {
+    "main": true
+  },
+  "lynx": {
+    "main": true
+  },
+  "lyricsmaster": {
+    "main": true
+  },
+  "lz4": {
+    "main": true
+  },
+  "lz4-c": {
+    "main": true
+  },
+  "lzfse": {
+    "main": true
+  },
+  "lzip": {
+    "main": true
+  },
+  "lzo": {
+    "main": true
+  },
+  "lzop": {
+    "main": true
+  },
+  "lzstring": {
+    "main": true
+  },
+  "m2crypto": {
+    "main": true
+  },
+  "m2r": {
+    "main": true
+  },
+  "m2w64-muparser": {
+    "main": true
+  },
+  "m4": {
+    "main": true
+  },
+  "m4ri": {
+    "main": true
+  },
+  "m4rie": {
+    "main": true
+  },
+  "macfsevents": {
+    "main": true
+  },
+  "machine-learning-py": {
+    "main": true
+  },
+  "macholib": {
+    "main": true
+  },
+  "macropy3": {
+    "main": true
+  },
+  "mad": {
+    "main": true
+  },
+  "maestral": {
+    "main": true
+  },
+  "mafredo": {
+    "main": true
+  },
+  "magic-wormhole": {
+    "main": true
+  },
+  "magics": {
+    "main": true
+  },
+  "magics-metview": {
+    "main": true
+  },
+  "magics-metview-batch": {
+    "main": true
+  },
+  "magics-python": {
+    "main": true
+  },
+  "magpylib": {
+    "main": true
+  },
+  "mahotas": {
+    "main": true
+  },
+  "mailer": {
+    "main": true
+  },
+  "make": {
+    "main": true
+  },
+  "makedepf90": {
+    "main": true
+  },
+  "mako": {
+    "main": true
+  },
+  "mamba": {
+    "main": true
+  },
+  "mando": {
+    "main": true
+  },
+  "mantichora": {
+    "main": true
+  },
+  "mapbox": {
+    "main": true
+  },
+  "mapbox-vector-tile": {
+    "main": true
+  },
+  "mapboxgl": {
+    "main": true
+  },
+  "mapclassify": {
+    "main": true
+  },
+  "mapio": {
+    "main": true
+  },
+  "mapkit": {
+    "main": true
+  },
+  "marbles": {
+    "main": true
+  },
+  "marbles-core": {
+    "main": true
+  },
+  "marbles-mixins": {
+    "main": true
+  },
+  "markdown": {
+    "main": true
+  },
+  "markdown-checklist": {
+    "main": true
+  },
+  "markdown-it-py": {
+    "main": true
+  },
+  "markdown-kernel": {
+    "main": true
+  },
+  "markdown2": {
+    "main": true
+  },
+  "markdown_strings": {
+    "main": true
+  },
+  "markov_draftjs": {
+    "main": true
+  },
+  "markovify": {
+    "main": true
+  },
+  "markuppy": {
+    "main": true
+  },
+  "markupsafe": {
+    "main": true
+  },
+  "marray": {
+    "main": true
+  },
+  "marshmallow": {
+    "main": true
+  },
+  "marshmallow-enum": {
+    "main": true
+  },
+  "marshmallow-jsonapi": {
+    "main": true
+  },
+  "marshmallow-oneofschema": {
+    "main": true
+  },
+  "marshmallow-sqlalchemy": {
+    "main": true
+  },
+  "marstime": {
+    "main": true
+  },
+  "marxs": {
+    "main": true
+  },
+  "mastodon.py": {
+    "main": true
+  },
+  "matchpy": {
+    "main": true
+  },
+  "material-design-lite": {
+    "main": true
+  },
+  "mathjax": {
+    "main": true
+  },
+  "matminer": {
+    "main": true
+  },
+  "matplotcheck": {
+    "main": true
+  },
+  "matplotlib": {
+    "main": true
+  },
+  "matplotlib-scalebar": {
+    "main": true
+  },
+  "matplotlib-venn": {
+    "main": true
+  },
+  "matplotlib2tikz": {
+    "main": true
+  },
+  "matplotlibhelper": {
+    "main": true
+  },
+  "matrix_client": {
+    "main": true
+  },
+  "maturin": {
+    "main": true
+  },
+  "maup": {
+    "main": true
+  },
+  "maven": {
+    "main": true
+  },
+  "maxima": {
+    "main": true
+  },
+  "maxrect": {
+    "main": true
+  },
+  "maya": {
+    "main": true
+  },
+  "mayavi": {
+    "main": true
+  },
+  "mbsolve": {
+    "main": true
+  },
+  "mbuild": {
+    "main": true
+  },
+  "mbutil": {
+    "main": true
+  },
+  "mccabe": {
+    "main": true
+  },
+  "mcerp": {
+    "main": true
+  },
+  "md-toc": {
+    "main": true
+  },
+  "mdanalysis": {
+    "main": true
+  },
+  "mdanalysisdata": {
+    "main": true
+  },
+  "mdanalysistests": {
+    "main": true
+  },
+  "mdbenchmark": {
+    "main": true
+  },
+  "mdf_forge": {
+    "main": true
+  },
+  "mdf_toolbox": {
+    "main": true
+  },
+  "mdshare": {
+    "main": true
+  },
+  "mdsplus": {
+    "main": true
+  },
+  "mdsrv": {
+    "main": true
+  },
+  "mdsynthesis": {
+    "main": true
+  },
+  "mdtraj": {
+    "main": true
+  },
+  "mdx_gh_links": {
+    "main": true
+  },
+  "measurement": {
+    "main": true
   }
 }
