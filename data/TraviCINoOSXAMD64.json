@@ -26847,7 +26847,8 @@
     "main": true
   },
   "django-treebeard": {
-    "main": true
+    "main": true,
+    "revert-12-4.6.0_hebc45e": true
   },
   "django-typed-models": {
     "main": true

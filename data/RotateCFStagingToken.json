@@ -45430,5 +45430,443 @@
   },
   "django-debug-toolbar": {
     "main": true
+  },
+  "django-emailhub": {
+    "main": true
+  },
+  "django-enumfields": {
+    "main": true
+  },
+  "django-environ": {
+    "main": true
+  },
+  "django-extensions": {
+    "main": true
+  },
+  "django-filer": {
+    "main": true
+  },
+  "django-filter": {
+    "main": true
+  },
+  "django-fixture-magic": {
+    "main": true
+  },
+  "django-foundation-formtags": {
+    "main": true
+  },
+  "django-fsm": {
+    "main": true
+  },
+  "django-grappelli": {
+    "main": true
+  },
+  "django-guardian": {
+    "main": true
+  },
+  "django-haystack": {
+    "main": true
+  },
+  "django-heroku": {
+    "main": true
+  },
+  "django-import-export": {
+    "main": true
+  },
+  "django-jquery": {
+    "main": true
+  },
+  "django-js-asset": {
+    "main": true
+  },
+  "django-jsoneditor": {
+    "main": true
+  },
+  "django-leaflet": {
+    "main": true
+  },
+  "django-libsass": {
+    "main": true
+  },
+  "django-makemessages-xgettext": {
+    "main": true
+  },
+  "django-material": {
+    "main": true
+  },
+  "django-model-utils": {
+    "main": true
+  },
+  "django-modelcluster": {
+    "main": true
+  },
+  "django-mptt": {
+    "main": true
+  },
+  "django-mptt-admin": {
+    "main": true
+  },
+  "django-mustache": {
+    "main": true
+  },
+  "django-nested-admin": {
+    "main": true
+  },
+  "django-nested-inline": {
+    "main": true
+  },
+  "django-nose": {
+    "main": true
+  },
+  "django-pandas": {
+    "main": true
+  },
+  "django-pkgconf": {
+    "main": true
+  },
+  "django-pyodbc-azure": {
+    "main": true
+  },
+  "django-recaptcha": {
+    "main": true
+  },
+  "django-redis": {
+    "main": true
+  },
+  "django-redis-cache": {
+    "main": true
+  },
+  "django-rest-auth": {
+    "main": true
+  },
+  "django-rest-hooks": {
+    "main": true
+  },
+  "django-rest-polymorphic": {
+    "main": true
+  },
+  "django-rest-swagger": {
+    "main": true
+  },
+  "django-reversion": {
+    "main": true
+  },
+  "django-reversion-compare": {
+    "main": true
+  },
+  "django-rq": {
+    "main": true
+  },
+  "django-simple-history": {
+    "main": true
+  },
+  "django-storages": {
+    "main": true
+  },
+  "django-storages-redux": {
+    "main": true
+  },
+  "django-super-inlines": {
+    "main": true
+  },
+  "django-taggit": {
+    "main": true
+  },
+  "django-test-plus": {
+    "main": true
+  },
+  "django-treebeard": {
+    "main": true
+  },
+  "django-typed-models": {
+    "main": true
+  },
+  "django-unique-upload": {
+    "main": true
+  },
+  "django-uuidfield": {
+    "main": true
+  },
+  "django-versatileimagefield": {
+    "main": true
+  },
+  "django-viewflow": {
+    "main": true
+  },
+  "django-wagtail-feeds": {
+    "main": true
+  },
+  "django-webpack-loader": {
+    "main": true
+  },
+  "django-widget-tweaks": {
+    "main": true
+  },
+  "django_compressor": {
+    "main": true
+  },
+  "django_coverage_plugin": {
+    "main": true
+  },
+  "django_polymorphic": {
+    "main": true
+  },
+  "djangocms-admin-style": {
+    "main": true
+  },
+  "djangorestframework": {
+    "main": true
+  },
+  "djangorestframework-csv": {
+    "main": true
+  },
+  "djangorestframework-filters": {
+    "main": true
+  },
+  "djangorestframework-gis": {
+    "main": true
+  },
+  "djangorestframework-jwt": {
+    "main": true
+  },
+  "djangorestframework-xml": {
+    "main": true
+  },
+  "djangorestframework-yaml": {
+    "main": true
+  },
+  "djangorestframework_simplejwt": {
+    "main": true
+  },
+  "dlfcn-win32": {
+    "main": true
+  },
+  "dlib": {
+    "main": true
+  },
+  "dlib-cpp": {
+    "main": true
+  },
+  "dlpack": {
+    "main": true
+  },
+  "dm-sonnet": {
+    "main": true
+  },
+  "dmd": {
+    "main": true
+  },
+  "dmf-chip": {
+    "main": true
+  },
+  "dmlc": {
+    "main": true
+  },
+  "dnest4": {
+    "main": true
+  },
+  "dnslib": {
+    "main": true
+  },
+  "dnspython": {
+    "main": true
+  },
+  "doc2dash": {
+    "main": true
+  },
+  "doc8": {
+    "main": true
+  },
+  "docformatter": {
+    "main": true
+  },
+  "docker": {
+    "main": true
+  },
+  "docker-compose": {
+    "main": true
+  },
+  "docker-map": {
+    "main": true
+  },
+  "docker-py": {
+    "main": true
+  },
+  "docker-pycreds": {
+    "main": true
+  },
+  "dockermake": {
+    "main": true
+  },
+  "dockerpty": {
+    "main": true
+  },
+  "dockerspawner": {
+    "main": true
+  },
+  "doconce": {
+    "main": true
+  },
+  "docopt": {
+    "main": true
+  },
+  "docopt.cpp": {
+    "main": true
+  },
+  "docrep": {
+    "main": true
+  },
+  "docstring-coverage": {
+    "master": true
+  },
+  "doct": {
+    "main": true
+  },
+  "doctr": {
+    "main": true
+  },
+  "docutils": {
+    "main": true
+  },
+  "docx2txt": {
+    "main": true
+  },
+  "docxtpl": {
+    "main": true
+  },
+  "dodgy": {
+    "main": true
+  },
+  "doepipeline": {
+    "main": true
+  },
+  "dogpile.cache": {
+    "main": true
+  },
+  "doit": {
+    "main": true
+  },
+  "dolfin-adjoint": {
+    "main": true
+  },
+  "dolfyn": {
+    "main": true
+  },
+  "dominate": {
+    "main": true
+  },
+  "domovoi": {
+    "main": true
+  },
+  "donfig": {
+    "main": true
+  },
+  "doppel-cli": {
+    "main": true
+  },
+  "doppyo": {
+    "main": true
+  },
+  "dos2unix": {
+    "main": true
+  },
+  "dose": {
+    "master": true
+  },
+  "dotmap": {
+    "main": true
+  },
+  "double-conversion": {
+    "main": true
+  },
+  "doublemetaphone": {
+    "main": true
+  },
+  "doxygen": {
+    "main": true
+  },
+  "doxyrest": {
+    "main": true
+  },
+  "dparse": {
+    "main": true
+  },
+  "dpath": {
+    "main": true
+  },
+  "dpdata": {
+    "main": true
+  },
+  "dpgen": {
+    "main": true
+  },
+  "dpkt": {
+    "main": true
+  },
+  "dqsegdb": {
+    "main": true
+  },
+  "dqsegdb2": {
+    "main": true
+  },
+  "draco": {
+    "main": true
+  },
+  "draftjs_exporter": {
+    "main": true
+  },
+  "dramatiq": {
+    "main": true
+  },
+  "drf-haystack": {
+    "main": true
+  },
+  "drmaa": {
+    "main": true
+  },
+  "drms": {
+    "main": true
+  },
+  "dropbox": {
+    "main": true
+  },
+  "ds-lime": {
+    "main": true
+  },
+  "dsc": {
+    "main": true
+  },
+  "dscribe": {
+    "main": true
+  },
+  "dsdp": {
+    "main": true
+  },
+  "dsfmt": {
+    "main": true
+  },
+  "dsnparse": {
+    "main": true
+  },
+  "dsub": {
+    "main": true
+  },
+  "dtale": {
+    "main": true
+  },
+  "dtool": {
+    "main": true
+  },
+  "dtool_cli": {
+    "main": true
+  },
+  "dtool_config": {
+    "main": true
+  },
+  "dtool_create": {
+    "main": true
+  },
+  "dtool_http": {
+    "main": true
   }
 }
