@@ -45868,5 +45868,458 @@
   },
   "dtool_http": {
     "main": true
+  },
+  "dtool_info": {
+    "main": true
+  },
+  "dtool_s3": {
+    "main": true
+  },
+  "dtool_symlink": {
+    "main": true
+  },
+  "dtoolcore": {
+    "main": true
+  },
+  "dukpy": {
+    "main": true
+  },
+  "dulwich": {
+    "main": true
+  },
+  "dummydata": {
+    "main": true
+  },
+  "dust_extinction": {
+    "main": true
+  },
+  "dustmaps": {
+    "main": true
+  },
+  "dvc": {
+    "main": true
+  },
+  "dxchange": {
+    "main": true
+  },
+  "dxfgrabber": {
+    "main": true
+  },
+  "dxfile": {
+    "main": true
+  },
+  "dye-score": {
+    "main": true
+  },
+  "dynamicisttoolkit": {
+    "main": true
+  },
+  "dynaphopy": {
+    "main": true
+  },
+  "dynasor": {
+    "main": true
+  },
+  "dynesty": {
+    "main": true
+  },
+  "e-antic": {
+    "main": true
+  },
+  "e3sm_to_cmip": {
+    "main": true
+  },
+  "earthengine-api": {
+    "main": true
+  },
+  "earthpy": {
+    "main": true
+  },
+  "earthsim": {
+    "main": true
+  },
+  "easy-thumbnails": {
+    "main": true
+  },
+  "easyargs": {
+    "main": true
+  },
+  "easybuild": {
+    "main": true
+  },
+  "easybuild-easyblocks": {
+    "main": true
+  },
+  "easybuild-easyconfigs": {
+    "main": true
+  },
+  "easybuild-framework": {
+    "main": true
+  },
+  "easydev": {
+    "main": true
+  },
+  "easydict": {
+    "main": true
+  },
+  "easygui": {
+    "main": true
+  },
+  "easyprocess": {
+    "main": true
+  },
+  "easytest": {
+    "main": true
+  },
+  "easywatch": {
+    "main": true
+  },
+  "ebooklib": {
+    "main": true
+  },
+  "ecco_v4_py": {
+    "main": true
+  },
+  "eccodes": {
+    "main": true
+  },
+  "ecdsa": {
+    "main": true
+  },
+  "ecell4": {
+    "main": true
+  },
+  "ecell4_base": {
+    "main": true
+  },
+  "ecflow": {
+    "main": true
+  },
+  "echopype": {
+    "main": true
+  },
+  "ecl": {
+    "main": true
+  },
+  "eclib": {
+    "main": true
+  },
+  "ecm": {
+    "main": true
+  },
+  "ecmwf-api-client": {
+    "main": true
+  },
+  "econ-ark": {
+    "main": true
+  },
+  "econtools": {
+    "main": true
+  },
+  "ecos": {
+    "main": true
+  },
+  "ecsimplesnow": {
+    "main": true
+  },
+  "edalize": {
+    "main": true
+  },
+  "edffile": {
+    "main": true
+  },
+  "edit_distance": {
+    "main": true
+  },
+  "editdistance": {
+    "main": true
+  },
+  "editline": {
+    "main": true
+  },
+  "edn_format": {
+    "main": true
+  },
+  "eelbrain": {
+    "main": true
+  },
+  "effect": {
+    "main": true
+  },
+  "egal": {
+    "main": true
+  },
+  "eigen": {
+    "main": true
+  },
+  "eigenpy": {
+    "main": true
+  },
+  "eight": {
+    "main": true
+  },
+  "eikon": {
+    "main": true
+  },
+  "einops": {
+    "main": true
+  },
+  "einsteinpy": {
+    "main": true
+  },
+  "ejplugins": {
+    "main": true
+  },
+  "elastic": {
+    "main": true
+  },
+  "elasticconstants": {
+    "main": true
+  },
+  "elasticsearch": {
+    "main": true
+  },
+  "elasticsearch-async": {
+    "master": true
+  },
+  "elasticsearch-dsl": {
+    "main": true
+  },
+  "electron": {
+    "main": true
+  },
+  "elektronn": {
+    "main": true
+  },
+  "elektronn2": {
+    "main": true
+  },
+  "elementpath": {
+    "main": true
+  },
+  "elephas": {
+    "main": true
+  },
+  "elevation": {
+    "main": true
+  },
+  "elfi": {
+    "main": true
+  },
+  "elfutils": {
+    "main": true
+  },
+  "elfx86exts": {
+    "main": true
+  },
+  "eli5": {
+    "main": true
+  },
+  "eliot": {
+    "main": true
+  },
+  "eliot-tree": {
+    "main": true
+  },
+  "elixir": {
+    "main": true
+  },
+  "elm": {
+    "main": true
+  },
+  "emacs": {
+    "main": true
+  },
+  "email_validator": {
+    "master": true
+  },
+  "embree": {
+    "main": true
+  },
+  "embree3": {
+    "main": true
+  },
+  "emcee": {
+    "main": true
+  },
+  "emg3d": {
+    "main": true
+  },
+  "emoji": {
+    "main": true
+  },
+  "empath": {
+    "main": true
+  },
+  "emperor": {
+    "main": true
+  },
+  "empy": {
+    "main": true
+  },
+  "empymod": {
+    "main": true
+  },
+  "empyrical": {
+    "main": true
+  },
+  "empyrical-dist": {
+    "main": true
+  },
+  "enaml": {
+    "main": true
+  },
+  "engarde": {
+    "main": true
+  },
+  "enlopy": {
+    "main": true
+  },
+  "ensmallen": {
+    "main": true
+  },
+  "entropy": {
+    "main": true
+  },
+  "entrypoints": {
+    "main": true
+  },
+  "entsoe-py": {
+    "main": true
+  },
+  "entwine": {
+    "main": true
+  },
+  "enum-compat": {
+    "main": true
+  },
+  "enum34": {
+    "master": true
+  },
+  "environment-modules": {
+    "main": true
+  },
+  "environs": {
+    "main": true
+  },
+  "envisage": {
+    "main": true
+  },
+  "envs": {
+    "main": true
+  },
+  "eo-learn": {
+    "main": true
+  },
+  "eo-learn-core": {
+    "main": true
+  },
+  "eo-learn-coregistration": {
+    "main": true
+  },
+  "eo-learn-features": {
+    "main": true
+  },
+  "eo-learn-geometry": {
+    "main": true
+  },
+  "eo-learn-io": {
+    "main": true
+  },
+  "eo-learn-mask": {
+    "main": true
+  },
+  "eo-learn-ml-tools": {
+    "main": true
+  },
+  "eo-learn-visualization": {
+    "main": true
+  },
+  "eofs": {
+    "main": true
+  },
+  "eonr": {
+    "main": true
+  },
+  "epc": {
+    "main": true
+  },
+  "ephem": {
+    "main": true
+  },
+  "ephyviewer": {
+    "main": true
+  },
+  "epic2cf": {
+    "main": true
+  },
+  "epics-base": {
+    "main": true
+  },
+  "epics-pypdb": {
+    "main": true
+  },
+  "epicscorelibs": {
+    "main": true
+  },
+  "epoxy": {
+    "main": true
+  },
+  "epysurv": {
+    "main": true
+  },
+  "eqcorrscan": {
+    "main": true
+  },
+  "erddapy": {
+    "main": true
+  },
+  "erlang": {
+    "main": true
+  },
+  "escapism": {
+    "main": true
+  },
+  "esda": {
+    "main": true
+  },
+  "esgf-pyclient": {
+    "main": true
+  },
+  "esmcol-validator": {
+    "main": true
+  },
+  "esmf": {
+    "main": true
+  },
+  "esmlab": {
+    "main": true
+  },
+  "esmp": {
+    "master": true
+  },
+  "esmpy": {
+    "main": true
+  },
+  "espei": {
+    "main": true
+  },
+  "esprima-python": {
+    "main": true
+  },
+  "esptool": {
+    "main": true
+  },
+  "esutil": {
+    "main": true
+  },
+  "esys-escript": {
+    "main": true
+  },
+  "et-xmlfile": {
+    "main": true
+  },
+  "et_xmlfile": {
+    "main": true
   }
 }
