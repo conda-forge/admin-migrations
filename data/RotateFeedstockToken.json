@@ -47950,5 +47950,437 @@
   },
   "go-archiver": {
     "main": true
+  },
+  "go-bindata": {
+    "main": true
+  },
+  "go-bindata-assetfs": {
+    "main": true
+  },
+  "go-dep": {
+    "main": true
+  },
+  "go-glide": {
+    "main": true
+  },
+  "go-gox": {
+    "main": true
+  },
+  "go-sops": {
+    "main": true
+  },
+  "go-spatial": {
+    "main": true
+  },
+  "go-terraform-docs": {
+    "main": true
+  },
+  "go-waitforit": {
+    "main": true
+  },
+  "go1.4-bootstrap": {
+    "main": true
+  },
+  "gobject-introspection": {
+    "main": true
+  },
+  "goftests": {
+    "main": true
+  },
+  "goodtables": {
+    "main": true
+  },
+  "gooey": {
+    "main": true
+  },
+  "goofit-split": {
+    "main": true
+  },
+  "google-api-core": {
+    "main": true
+  },
+  "google-api-python-client": {
+    "main": true
+  },
+  "google-auth": {
+    "main": true
+  },
+  "google-auth-httplib2": {
+    "main": true
+  },
+  "google-auth-oauthlib": {
+    "main": true
+  },
+  "google-cloud-bigquery": {
+    "main": true
+  },
+  "google-cloud-bigquery-storage": {
+    "main": true
+  },
+  "google-cloud-bigtable": {
+    "main": true
+  },
+  "google-cloud-container": {
+    "main": true
+  },
+  "google-cloud-core": {
+    "main": true
+  },
+  "google-cloud-cpp": {
+    "main": true
+  },
+  "google-cloud-cpp-common": {
+    "master": true
+  },
+  "google-cloud-datastore": {
+    "main": true
+  },
+  "google-cloud-kms": {
+    "main": true
+  },
+  "google-cloud-language": {
+    "main": true
+  },
+  "google-cloud-monitoring": {
+    "main": true
+  },
+  "google-cloud-pubsub": {
+    "main": true
+  },
+  "google-cloud-sdk": {
+    "main": true
+  },
+  "google-cloud-spanner": {
+    "main": true
+  },
+  "google-cloud-storage": {
+    "main": true
+  },
+  "google-cloud-translate": {
+    "main": true
+  },
+  "google-cloud-vision": {
+    "main": true
+  },
+  "google-compute-engine": {
+    "main": true
+  },
+  "google-pasta": {
+    "main": true
+  },
+  "google-resumable-media": {
+    "main": true
+  },
+  "googleapis-common-protos": {
+    "main": true
+  },
+  "googleapis-cpp": {
+    "main": true
+  },
+  "googlemaps": {
+    "main": true
+  },
+  "googlesearch": {
+    "main": true
+  },
+  "googletrans": {
+    "main": true
+  },
+  "goosebib": {
+    "main": true
+  },
+  "gooseeye": {
+    "main": true
+  },
+  "goosefem": {
+    "main": true
+  },
+  "goosehdf5": {
+    "main": true
+  },
+  "goosempl": {
+    "main": true
+  },
+  "gooseslurm": {
+    "main": true
+  },
+  "gorilla": {
+    "main": true
+  },
+  "gosu": {
+    "main": true
+  },
+  "gpaw": {
+    "main": true
+  },
+  "gperf": {
+    "main": true
+  },
+  "gperftools": {
+    "main": true
+  },
+  "gpflow": {
+    "main": true
+  },
+  "gpgme": {
+    "main": true
+  },
+  "gpi": {
+    "main": true
+  },
+  "gpi_core": {
+    "main": true
+  },
+  "gprof2dot": {
+    "main": true
+  },
+  "gpstime": {
+    "main": true
+  },
+  "gptools": {
+    "main": true
+  },
+  "gpustat": {
+    "main": true
+  },
+  "gpxpy": {
+    "main": true
+  },
+  "gpy": {
+    "main": true
+  },
+  "gpyopt": {
+    "main": true
+  },
+  "gpytorch": {
+    "main": true
+  },
+  "gql": {
+    "main": true
+  },
+  "gracedb-sdk": {
+    "main": true
+  },
+  "gradle": {
+    "main": true
+  },
+  "grandalf": {
+    "main": true
+  },
+  "graph": {
+    "main": true
+  },
+  "graph-tool": {
+    "main": true
+  },
+  "graphblas": {
+    "main": true
+  },
+  "graphene": {
+    "main": true
+  },
+  "graphene-django": {
+    "main": true
+  },
+  "graphene-mongo": {
+    "main": true
+  },
+  "graphene-sqlalchemy": {
+    "main": true
+  },
+  "graphene-tornado": {
+    "main": true
+  },
+  "graphicsmagick": {
+    "main": true
+  },
+  "graphite2": {
+    "main": true
+  },
+  "graphql-core": {
+    "main": true
+  },
+  "graphql-js": {
+    "main": true
+  },
+  "graphql-relay": {
+    "main": true
+  },
+  "graphql-server-core": {
+    "main": true
+  },
+  "graphql-ws": {
+    "main": true
+  },
+  "graphtools": {
+    "main": true
+  },
+  "graphviz": {
+    "main": true
+  },
+  "grave": {
+    "main": true
+  },
+  "graypy": {
+    "main": true
+  },
+  "grayskull": {
+    "main": true
+  },
+  "great-expectations": {
+    "main": true
+  },
+  "greedy": {
+    "main": true
+  },
+  "green": {
+    "main": true
+  },
+  "greenlet": {
+    "main": true
+  },
+  "grequests": {
+    "main": true
+  },
+  "griddataformats": {
+    "main": true
+  },
+  "gridded": {
+    "main": true
+  },
+  "gridfill": {
+    "main": true
+  },
+  "gridgen": {
+    "main": true
+  },
+  "gridgeo": {
+    "main": true
+  },
+  "gridstack.js": {
+    "main": true
+  },
+  "gridutils": {
+    "main": true
+  },
+  "grin": {
+    "main": true
+  },
+  "grip": {
+    "main": true
+  },
+  "grove": {
+    "main": true
+  },
+  "grpc-cpp": {
+    "main": true
+  },
+  "grpc-google-iam-v1": {
+    "main": true
+  },
+  "grpcio": {
+    "main": true
+  },
+  "grpcio-gcp": {
+    "main": true
+  },
+  "grunt": {
+    "main": true
+  },
+  "gsd": {
+    "main": true
+  },
+  "gsee": {
+    "main": true
+  },
+  "gsheetsdb": {
+    "main": true
+  },
+  "gshhg-gmt": {
+    "main": true
+  },
+  "gsl": {
+    "main": true
+  },
+  "gsl-lite": {
+    "main": true
+  },
+  "gsoap": {
+    "main": true
+  },
+  "gspread": {
+    "main": true
+  },
+  "gspread-pandas": {
+    "main": true
+  },
+  "gsshapy": {
+    "main": true
+  },
+  "gsshapyorm": {
+    "main": true
+  },
+  "gst-orc": {
+    "main": true
+  },
+  "gst-python": {
+    "main": true
+  },
+  "gstlal": {
+    "main": true
+  },
+  "gstlal-burst": {
+    "main": true
+  },
+  "gstlal-calibration": {
+    "main": true
+  },
+  "gstlal-inspiral": {
+    "main": true
+  },
+  "gstlal-ugly": {
+    "main": true
+  },
+  "gstools": {
+    "main": true
+  },
+  "gstreamer": {
+    "main": true
+  },
+  "gstreamer-orc": {
+    "main": true
+  },
+  "gsw": {
+    "main": true
+  },
+  "gtest": {
+    "main": true
+  },
+  "gtk2": {
+    "main": true
+  },
+  "gtk3": {
+    "main": true
+  },
+  "gtkmm": {
+    "main": true
+  },
+  "gtkmm24-cos7-ppc64le": {
+    "master": true
+  },
+  "gts": {
+    "main": true
+  },
+  "guardian": {
+    "main": true
+  },
+  "gudhi": {
+    "main": true
+  },
+  "guidata": {
+    "main": true
+  },
+  "guile": {
+    "main": true
   }
 }
