@@ -48382,5 +48382,458 @@
   },
   "guile": {
     "main": true
+  },
+  "guiqwt": {
+    "main": true
+  },
+  "gulp": {
+    "main": true
+  },
+  "gulp-util": {
+    "main": true
+  },
+  "gulpio": {
+    "main": true
+  },
+  "gunicorn": {
+    "main": true
+  },
+  "gwcelery": {
+    "main": true
+  },
+  "gwcs": {
+    "main": true
+  },
+  "gwdatafind": {
+    "main": true
+  },
+  "gwdetchar": {
+    "main": true
+  },
+  "gwollum": {
+    "main": true
+  },
+  "gwosc": {
+    "main": true
+  },
+  "gwpy": {
+    "main": true
+  },
+  "gwsumm": {
+    "main": true
+  },
+  "gwsurrogate": {
+    "main": true
+  },
+  "gwtools": {
+    "main": true
+  },
+  "gwtrigfind": {
+    "main": true
+  },
+  "gwvet": {
+    "main": true
+  },
+  "gwyfile": {
+    "main": true
+  },
+  "gym": {
+    "main": true
+  },
+  "h11": {
+    "main": true
+  },
+  "h2": {
+    "main": true
+  },
+  "h3": {
+    "main": true
+  },
+  "h3-py": {
+    "main": true
+  },
+  "h5io": {
+    "main": true
+  },
+  "h5netcdf": {
+    "main": true
+  },
+  "h5pickle": {
+    "main": true
+  },
+  "h5py": {
+    "main": true
+  },
+  "h5utils": {
+    "main": true
+  },
+  "habanero": {
+    "main": true
+  },
+  "hachoir-core": {
+    "main": true
+  },
+  "hachoir-metadata": {
+    "main": true
+  },
+  "hachoir-parser": {
+    "main": true
+  },
+  "hachoir-regex": {
+    "main": true
+  },
+  "hachoir-subfile": {
+    "main": true
+  },
+  "hachoir-urwid": {
+    "main": true
+  },
+  "hachoir-wx": {
+    "main": true
+  },
+  "halide": {
+    "main": true
+  },
+  "halide-python": {
+    "main": true
+  },
+  "halideir": {
+    "main": true
+  },
+  "halo": {
+    "main": true
+  },
+  "halotools": {
+    "main": true
+  },
+  "hammer": {
+    "main": true
+  },
+  "handlebars.js": {
+    "main": true
+  },
+  "handout": {
+    "main": true
+  },
+  "handsontable": {
+    "main": true
+  },
+  "hangar": {
+    "main": true
+  },
+  "hankel": {
+    "main": true
+  },
+  "happi": {
+    "main": true
+  },
+  "happy": {
+    "main": true
+  },
+  "happybase": {
+    "main": true
+  },
+  "harfbuzz": {
+    "main": true
+  },
+  "harminv": {
+    "main": true
+  },
+  "harmonica": {
+    "main": true
+  },
+  "hashdeep": {
+    "main": true
+  },
+  "haversine": {
+    "main": true
+  },
+  "hazm": {
+    "main": true
+  },
+  "hcc": {
+    "main": true
+  },
+  "hcephes": {
+    "main": true
+  },
+  "hdbscan": {
+    "main": true
+  },
+  "hdf4": {
+    "main": true
+  },
+  "hdf5": {
+    "main": true
+  },
+  "hdf5-external-filter-plugins": {
+    "main": true
+  },
+  "hdf5plugin": {
+    "main": true
+  },
+  "hdf5storage": {
+    "main": true
+  },
+  "hdfeos2": {
+    "main": true
+  },
+  "hdfeos5": {
+    "main": true
+  },
+  "hdfs3": {
+    "main": true
+  },
+  "hdijupyterutils": {
+    "main": true
+  },
+  "hdmedians": {
+    "main": true
+  },
+  "hdmf": {
+    "main": true
+  },
+  "healpix_cxx": {
+    "main": true
+  },
+  "healpy": {
+    "main": true
+  },
+  "heapdict": {
+    "main": true
+  },
+  "helics": {
+    "main": true
+  },
+  "heliopy": {
+    "main": true
+  },
+  "help2man": {
+    "main": true
+  },
+  "helper": {
+    "main": true
+  },
+  "helpme": {
+    "main": true
+  },
+  "hendrics": {
+    "main": true
+  },
+  "hep_ml": {
+    "main": true
+  },
+  "hepmc2": {
+    "main": true
+  },
+  "hepmc3": {
+    "main": true
+  },
+  "heudiconv": {
+    "main": true
+  },
+  "hexer": {
+    "main": true
+  },
+  "hexyl": {
+    "main": true
+  },
+  "hg-evolve": {
+    "main": true
+  },
+  "hg-git": {
+    "main": true
+  },
+  "hickle": {
+    "main": true
+  },
+  "hide_code": {
+    "main": true
+  },
+  "highfive": {
+    "main": true
+  },
+  "hilbertcurve": {
+    "main": true
+  },
+  "hip": {
+    "main": true
+  },
+  "hiphive": {
+    "main": true
+  },
+  "hiplot": {
+    "main": true
+  },
+  "hips": {
+    "main": true
+  },
+  "hiredis": {
+    "main": true
+  },
+  "historydict": {
+    "main": true
+  },
+  "hive-thrift-py": {
+    "main": true
+  },
+  "hiveplot": {
+    "main": true
+  },
+  "hkdf": {
+    "main": true
+  },
+  "hmat-oss": {
+    "main": true
+  },
+  "hmmlearn": {
+    "main": true
+  },
+  "holidays": {
+    "main": true
+  },
+  "holopy": {
+    "main": true
+  },
+  "holoviews": {
+    "main": true
+  },
+  "homura": {
+    "main": true
+  },
+  "hoomd": {
+    "main": true
+  },
+  "hopcroftkarp": {
+    "main": true
+  },
+  "howardhinnant_date": {
+    "main": true
+  },
+  "hpack": {
+    "main": true
+  },
+  "hpc05": {
+    "main": true
+  },
+  "hpccm": {
+    "main": true
+  },
+  "hpp-fcl": {
+    "main": true
+  },
+  "hrds": {
+    "main": true
+  },
+  "hs-process": {
+    "main": true
+  },
+  "hs_restclient": {
+    "main": true
+  },
+  "hsluv": {
+    "main": true
+  },
+  "hsmfile": {
+    "main": true
+  },
+  "hstspreload": {
+    "main": true
+  },
+  "ht": {
+    "main": true
+  },
+  "htchirp": {
+    "main": true
+  },
+  "htcondor": {
+    "main": true
+  },
+  "htmap": {
+    "main": true
+  },
+  "htmd-pdb2pqr": {
+    "main": true
+  },
+  "html2text": {
+    "main": true
+  },
+  "html5lib": {
+    "main": true
+  },
+  "htmllistparse": {
+    "main": true
+  },
+  "htmlmin": {
+    "main": true
+  },
+  "htop": {
+    "main": true
+  },
+  "httmock": {
+    "main": true
+  },
+  "http3": {
+    "main": true
+  },
+  "httpagentparser": {
+    "main": true
+  },
+  "httpcore": {
+    "main": true
+  },
+  "httpie": {
+    "main": true
+  },
+  "httplib2": {
+    "main": true
+  },
+  "httpretty": {
+    "main": true
+  },
+  "httptools": {
+    "main": true
+  },
+  "httpx": {
+    "main": true
+  },
+  "hub": {
+    "main": true
+  },
+  "huey": {
+    "main": true
+  },
+  "hug": {
+    "main": true
+  },
+  "humanfriendly": {
+    "main": true
+  },
+  "humanize": {
+    "main": true
+  },
+  "humanleague": {
+    "main": true
+  },
+  "hunspell": {
+    "main": true
+  },
+  "hunspell-en": {
+    "main": true
+  },
+  "hupper": {
+    "main": true
+  },
+  "hurry.filesize": {
+    "main": true
+  },
+  "hvac": {
+    "main": true
+  },
+  "hveto": {
+    "main": true
+  },
+  "hvplot": {
+    "main": true
   }
 }
