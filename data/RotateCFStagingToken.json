@@ -42418,5 +42418,305 @@
   },
   "atlasclient": {
     "main": true
+  },
+  "atlite": {
+    "main": true
+  },
+  "atom": {
+    "main": true
+  },
+  "atomap": {
+    "main": true
+  },
+  "atomate": {
+    "main": true
+  },
+  "atomic-hpc": {
+    "main": true
+  },
+  "atomicrex": {
+    "main": true
+  },
+  "atomicwrites": {
+    "main": true
+  },
+  "atomium": {
+    "main": true
+  },
+  "atomman": {
+    "main": true
+  },
+  "atomsk": {
+    "main": true
+  },
+  "atpbar": {
+    "main": true
+  },
+  "atpublic": {
+    "main": true
+  },
+  "attica": {
+    "main": true
+  },
+  "attmap": {
+    "main": true
+  },
+  "attr": {
+    "main": true
+  },
+  "attrdict": {
+    "main": true
+  },
+  "attrs": {
+    "main": true
+  },
+  "attrs-sqlalchemy": {
+    "main": true
+  },
+  "attune": {
+    "main": true
+  },
+  "aubio": {
+    "main": true
+  },
+  "audi": {
+    "main": true
+  },
+  "audiogrep": {
+    "main": true
+  },
+  "audioread": {
+    "main": true
+  },
+  "auditwheel": {
+    "main": true
+  },
+  "authlib": {
+    "main": true
+  },
+  "autobahn": {
+    "main": true
+  },
+  "autoconf": {
+    "main": true
+  },
+  "autoconf-archive": {
+    "main": true
+  },
+  "autodiff": {
+    "main": true
+  },
+  "autodocsumm": {
+    "main": true
+  },
+  "autoflake": {
+    "main": true
+  },
+  "autograd": {
+    "main": true
+  },
+  "autograd-gamma": {
+    "main": true
+  },
+  "autologging": {
+    "main": true
+  },
+  "automake": {
+    "main": true
+  },
+  "automan": {
+    "main": true
+  },
+  "automat": {
+    "main": true
+  },
+  "autopep8": {
+    "main": true
+  },
+  "autoray": {
+    "main": true
+  },
+  "autorift": {
+    "main": true
+  },
+  "autotools_clang_conda": {
+    "main": true
+  },
+  "autovizwidget": {
+    "main": true
+  },
+  "autowrap": {
+    "main": true
+  },
+  "av": {
+    "main": true
+  },
+  "avahi": {
+    "main": true
+  },
+  "avro": {
+    "main": true
+  },
+  "avrocpp": {
+    "main": true
+  },
+  "awacs": {
+    "main": true
+  },
+  "awesome-slugify": {
+    "main": true
+  },
+  "awkward": {
+    "main": true
+  },
+  "aws-amicleaner": {
+    "main": true
+  },
+  "aws-iam-authenticator": {
+    "main": true
+  },
+  "aws-parallelcluster": {
+    "main": true
+  },
+  "aws-requests-auth": {
+    "main": true
+  },
+  "aws-sam-translator": {
+    "main": true
+  },
+  "aws-sdk-cpp": {
+    "main": true
+  },
+  "aws-xray-sdk": {
+    "main": true
+  },
+  "awscli": {
+    "main": true
+  },
+  "awscli-cwlogs": {
+    "main": true
+  },
+  "awscli-local": {
+    "main": true
+  },
+  "awslogs": {
+    "main": true
+  },
+  "awswrangler": {
+    "main": true
+  },
+  "axelrod": {
+    "main": true
+  },
+  "axopy": {
+    "main": true
+  },
+  "azure": {
+    "main": true
+  },
+  "azure-c-shared-utility": {
+    "main": true
+  },
+  "azure-cli-core": {
+    "main": true
+  },
+  "azure-cli-telemetry": {
+    "main": true
+  },
+  "azure-common": {
+    "main": true
+  },
+  "azure-cosmos": {
+    "main": true
+  },
+  "azure-datalake-store": {
+    "main": true
+  },
+  "azure-devops": {
+    "main": true
+  },
+  "azure-graphrbac": {
+    "main": true
+  },
+  "azure-iot-sdk-c": {
+    "main": true
+  },
+  "azure-keyvault": {
+    "main": true
+  },
+  "azure-macro-utils-c": {
+    "main": true
+  },
+  "azure-mgmt": {
+    "main": true
+  },
+  "azure-mgmt-authorization": {
+    "main": true
+  },
+  "azure-mgmt-common": {
+    "main": true
+  },
+  "azure-mgmt-compute": {
+    "main": true
+  },
+  "azure-mgmt-containerregistry": {
+    "main": true
+  },
+  "azure-mgmt-keyvault": {
+    "main": true
+  },
+  "azure-mgmt-msi": {
+    "main": true
+  },
+  "azure-mgmt-network": {
+    "main": true
+  },
+  "azure-mgmt-nspkg": {
+    "main": true
+  },
+  "azure-mgmt-resource": {
+    "main": true
+  },
+  "azure-mgmt-storage": {
+    "main": true
+  },
+  "azure-nspkg": {
+    "main": true
+  },
+  "azure-servicebus": {
+    "main": true
+  },
+  "azure-servicemanagement-legacy": {
+    "main": true
+  },
+  "azure-storage": {
+    "main": true
+  },
+  "azure-storage-blob": {
+    "main": true
+  },
+  "azure-storage-common": {
+    "main": true
+  },
+  "azure-storage-file": {
+    "main": true
+  },
+  "azure-storage-nspkg": {
+    "main": true
+  },
+  "azure-storage-queue": {
+    "main": true
+  },
+  "azure-uamqp-c": {
+    "main": true
+  },
+  "azure-uhttp-c": {
+    "main": true
+  },
+  "azure-umqtt-c": {
+    "main": true
+  },
+  "babel": {
+    "main": true
   }
 }
