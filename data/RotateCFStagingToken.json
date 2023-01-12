@@ -49120,5 +49120,458 @@
   },
   "inflection": {
     "main": true
+  },
+  "influxdb": {
+    "main": true
+  },
+  "infomap": {
+    "main": true
+  },
+  "inifile": {
+    "main": true
+  },
+  "inkscape": {
+    "main": true
+  },
+  "inline-html": {
+    "main": true
+  },
+  "inotify-tools": {
+    "main": true
+  },
+  "inotify_simple": {
+    "main": true
+  },
+  "inquirer": {
+    "main": true
+  },
+  "inspyred": {
+    "main": true
+  },
+  "instapush": {
+    "main": true
+  },
+  "instaseis": {
+    "main": true
+  },
+  "intake": {
+    "main": true
+  },
+  "intake-accumulo": {
+    "main": true
+  },
+  "intake-astro": {
+    "main": true
+  },
+  "intake-avro": {
+    "main": true
+  },
+  "intake-cmip": {
+    "main": true
+  },
+  "intake-elasticsearch": {
+    "main": true
+  },
+  "intake-esm": {
+    "main": true
+  },
+  "intake-geopandas": {
+    "main": true
+  },
+  "intake-parquet": {
+    "main": true
+  },
+  "intake-spark": {
+    "main": true
+  },
+  "intake-sql": {
+    "main": true
+  },
+  "intake-stac": {
+    "main": true
+  },
+  "intake-xarray": {
+    "main": true
+  },
+  "intbitset": {
+    "main": true
+  },
+  "intel-compute-runtime": {
+    "main": true
+  },
+  "intel-gmmlib": {
+    "main": true
+  },
+  "intel-graphics-compiler": {
+    "main": true
+  },
+  "intel-hybrid-driver": {
+    "main": true
+  },
+  "intel-ipp": {
+    "main": true
+  },
+  "intel-opencl-clang": {
+    "main": true
+  },
+  "intel-vaapi-driver": {
+    "main": true
+  },
+  "intel_repack": {
+    "main": true
+  },
+  "intelhex": {
+    "main": true
+  },
+  "interlap": {
+    "main": true
+  },
+  "intern": {
+    "main": true
+  },
+  "interpolation": {
+    "main": true
+  },
+  "interval_tree": {
+    "main": true
+  },
+  "intervals": {
+    "main": true
+  },
+  "intervaltree": {
+    "main": true
+  },
+  "intltool": {
+    "main": true
+  },
+  "intreehooks": {
+    "main": true
+  },
+  "invoke": {
+    "main": true
+  },
+  "iolabs": {
+    "master": true
+  },
+  "ioos_qartod": {
+    "main": true
+  },
+  "ioos_qc": {
+    "main": true
+  },
+  "ioos_tools": {
+    "main": true
+  },
+  "iowait": {
+    "main": true
+  },
+  "ipaddr": {
+    "main": true
+  },
+  "ipaddress": {
+    "main": true
+  },
+  "ipdb": {
+    "main": true
+  },
+  "iperf": {
+    "main": true
+  },
+  "ipopt": {
+    "main": true
+  },
+  "iprogress": {
+    "main": true
+  },
+  "ipycache": {
+    "main": true
+  },
+  "ipycanvas": {
+    "main": true
+  },
+  "ipycytoscape": {
+    "main": true
+  },
+  "ipydatawidgets": {
+    "main": true
+  },
+  "ipyevents": {
+    "main": true
+  },
+  "ipygany": {
+    "main": true
+  },
+  "ipygraphql": {
+    "main": true
+  },
+  "ipykernel": {
+    "main": true
+  },
+  "ipylab": {
+    "main": true
+  },
+  "ipyleaflet": {
+    "main": true
+  },
+  "ipymaterialui": {
+    "main": true
+  },
+  "ipymesh": {
+    "main": true
+  },
+  "ipymidicontrols": {
+    "main": true
+  },
+  "ipympl": {
+    "main": true
+  },
+  "ipynb-py-convert": {
+    "main": true
+  },
+  "ipyopt": {
+    "main": true
+  },
+  "ipyparallel": {
+    "main": true
+  },
+  "ipypivot": {
+    "main": true
+  },
+  "ipypublish": {
+    "main": true
+  },
+  "ipysankeywidget": {
+    "main": true
+  },
+  "ipyscales": {
+    "main": true
+  },
+  "ipysheet": {
+    "main": true
+  },
+  "ipyslurm": {
+    "main": true
+  },
+  "ipytest": {
+    "main": true
+  },
+  "ipython": {
+    "main": true
+  },
+  "ipython-autotime": {
+    "main": true
+  },
+  "ipython-sql": {
+    "main": true
+  },
+  "ipython_genutils": {
+    "main": true
+  },
+  "ipython_memory_usage": {
+    "main": true
+  },
+  "ipython_unittest": {
+    "main": true
+  },
+  "ipytree": {
+    "main": true
+  },
+  "ipyvolume": {
+    "main": true
+  },
+  "ipyvue": {
+    "main": true
+  },
+  "ipyvuedraggable": {
+    "main": true
+  },
+  "ipyvuetify": {
+    "main": true
+  },
+  "ipywe": {
+    "main": true
+  },
+  "ipywebrtc": {
+    "main": true
+  },
+  "ipywidgets": {
+    "main": true
+  },
+  "ipyxact": {
+    "main": true
+  },
+  "iris": {
+    "main": true
+  },
+  "iris-grib": {
+    "main": true
+  },
+  "iris-sample-data": {
+    "main": true
+  },
+  "iris-ued": {
+    "main": true
+  },
+  "is-number": {
+    "main": true
+  },
+  "isce2": {
+    "main": true
+  },
+  "isicarchive": {
+    "main": true
+  },
+  "isitgr": {
+    "main": true
+  },
+  "isl": {
+    "main": true
+  },
+  "islpy": {
+    "main": true
+  },
+  "iso3166": {
+    "main": true
+  },
+  "iso8601": {
+    "main": true
+  },
+  "isodate": {
+    "main": true
+  },
+  "isofit": {
+    "main": true
+  },
+  "isort": {
+    "main": true
+  },
+  "ispyb": {
+    "main": true
+  },
+  "issho": {
+    "main": true
+  },
+  "iteration_utilities": {
+    "main": true
+  },
+  "iterativewgcna": {
+    "main": true
+  },
+  "iterm2-tools": {
+    "main": true
+  },
+  "itk": {
+    "main": true
+  },
+  "itk-meshtopolydata": {
+    "main": true
+  },
+  "itkwidgets": {
+    "main": true
+  },
+  "itsdangerous": {
+    "main": true
+  },
+  "itypes": {
+    "main": true
+  },
+  "iverilog": {
+    "main": true
+  },
+  "ixmp": {
+    "main": true
+  },
+  "j2cli": {
+    "main": true
+  },
+  "jack": {
+    "main": true
+  },
+  "jacqq": {
+    "main": true
+  },
+  "jaeger": {
+    "main": true
+  },
+  "jaeger-client": {
+    "main": true
+  },
+  "jags": {
+    "main": true
+  },
+  "jam": {
+    "main": true
+  },
+  "jamotools": {
+    "main": true
+  },
+  "jansson": {
+    "main": true
+  },
+  "janus": {
+    "main": true
+  },
+  "jaraco.classes": {
+    "main": true
+  },
+  "jaraco.collections": {
+    "main": true
+  },
+  "jaraco.envs": {
+    "main": true
+  },
+  "jaraco.functools": {
+    "main": true
+  },
+  "jaraco.itertools": {
+    "main": true
+  },
+  "jaraco.logging": {
+    "main": true
+  },
+  "jaraco.stream": {
+    "main": true
+  },
+  "jaraco.text": {
+    "main": true
+  },
+  "jasper": {
+    "main": true
+  },
+  "java-1.7.0-openjdk-cos7-aarch64": {
+    "master": true
+  },
+  "java-1.7.0-openjdk-headless-cos7-aarch64": {
+    "master": true
+  },
+  "java-org.apache.arrow.arrow-tools-with-dependencies": {
+    "main": true
+  },
+  "javabridge": {
+    "main": true
+  },
+  "javafx-sdk": {
+    "main": true
+  },
+  "javaobj-py3": {
+    "main": true
+  },
+  "javapackages-tools-cos7-aarch64": {
+    "master": true
+  },
+  "javascripthon": {
+    "main": true
+  },
+  "jaws": {
+    "main": true
+  },
+  "jax": {
+    "main": true
+  },
+  "jaxlib": {
+    "main": true
+  },
+  "jaydebeapi": {
+    "main": true
   }
 }
