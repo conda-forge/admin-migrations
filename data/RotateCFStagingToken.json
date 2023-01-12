@@ -46657,5 +46657,446 @@
   },
   "filebutler": {
     "main": true
+  },
+  "filechunkio": {
+    "main": true
+  },
+  "fileinspector": {
+    "main": true
+  },
+  "filelock": {
+    "main": true
+  },
+  "filesdb": {
+    "main": true
+  },
+  "filesystem-spec": {
+    "main": true
+  },
+  "filetype": {
+    "main": true
+  },
+  "filterpy": {
+    "main": true
+  },
+  "findspark": {
+    "main": true
+  },
+  "findutils": {
+    "main": true
+  },
+  "finitediff": {
+    "main": true
+  },
+  "finmind": {
+    "main": true
+  },
+  "fiona": {
+    "main": true
+  },
+  "fipy": {
+    "main": true
+  },
+  "fire": {
+    "main": true
+  },
+  "firecrown": {
+    "main": true
+  },
+  "firefox": {
+    "main": true
+  },
+  "firelight": {
+    "main": true
+  },
+  "fireworks": {
+    "main": true
+  },
+  "fiscalyear": {
+    "main": true
+  },
+  "fish": {
+    "main": true
+  },
+  "fisher": {
+    "main": true
+  },
+  "fissix": {
+    "main": true
+  },
+  "fisspy": {
+    "main": true
+  },
+  "fisx": {
+    "main": true
+  },
+  "fit-sne": {
+    "main": true
+  },
+  "fitsio": {
+    "main": true
+  },
+  "fitstools": {
+    "main": true
+  },
+  "fixie": {
+    "main": true
+  },
+  "fixie-batch": {
+    "main": true
+  },
+  "fixie-creds": {
+    "main": true
+  },
+  "fixie-data": {
+    "main": true
+  },
+  "fixtures": {
+    "main": true
+  },
+  "flake8": {
+    "main": true
+  },
+  "flake8-black": {
+    "main": true
+  },
+  "flake8-blind-except": {
+    "main": true
+  },
+  "flake8-bugbear": {
+    "main": true
+  },
+  "flake8-builtins": {
+    "main": true
+  },
+  "flake8-colors": {
+    "main": true
+  },
+  "flake8-comprehensions": {
+    "main": true
+  },
+  "flake8-copyright": {
+    "main": true
+  },
+  "flake8-docstrings": {
+    "main": true
+  },
+  "flake8-import-order": {
+    "main": true
+  },
+  "flake8-isort": {
+    "main": true
+  },
+  "flake8-mutable": {
+    "main": true
+  },
+  "flake8-nb": {
+    "main": true
+  },
+  "flake8-pep3101": {
+    "main": true
+  },
+  "flake8-polyfill": {
+    "main": true
+  },
+  "flake8-print": {
+    "main": true
+  },
+  "flake8-pyi": {
+    "main": true
+  },
+  "flake8-quotes": {
+    "main": true
+  },
+  "flake8-rst": {
+    "main": true
+  },
+  "flake8-rst-docstrings": {
+    "main": true
+  },
+  "flake8-self": {
+    "main": true
+  },
+  "flake8-sfs": {
+    "main": true
+  },
+  "flaky": {
+    "main": true
+  },
+  "flammkuchen": {
+    "main": true
+  },
+  "flang": {
+    "main": true
+  },
+  "flang-meta": {
+    "main": true
+  },
+  "flann": {
+    "main": true
+  },
+  "flasgger": {
+    "main": true
+  },
+  "flask": {
+    "main": true
+  },
+  "flask-admin": {
+    "main": true
+  },
+  "flask-allows": {
+    "main": true
+  },
+  "flask-apispec": {
+    "main": true
+  },
+  "flask-appbuilder": {
+    "main": true
+  },
+  "flask-apscheduler": {
+    "main": true
+  },
+  "flask-assets": {
+    "main": true
+  },
+  "flask-autoindex": {
+    "main": true
+  },
+  "flask-babel": {
+    "main": true
+  },
+  "flask-babelex": {
+    "main": true
+  },
+  "flask-basicauth": {
+    "main": true
+  },
+  "flask-bcrypt": {
+    "main": true
+  },
+  "flask-bootstrap": {
+    "main": true
+  },
+  "flask-bower": {
+    "main": true
+  },
+  "flask-cache": {
+    "main": true
+  },
+  "flask-caching": {
+    "main": true
+  },
+  "flask-celery-helper": {
+    "main": true
+  },
+  "flask-compress": {
+    "main": true
+  },
+  "flask-cors": {
+    "main": true
+  },
+  "flask-couchdb": {
+    "main": true
+  },
+  "flask-creole": {
+    "main": true
+  },
+  "flask-dance": {
+    "main": true
+  },
+  "flask-debugtoolbar": {
+    "main": true
+  },
+  "flask-dramatiq": {
+    "main": true
+  },
+  "flask-excel": {
+    "main": true
+  },
+  "flask-flatpages": {
+    "main": true
+  },
+  "flask-genshi": {
+    "main": true
+  },
+  "flask-graphql": {
+    "main": true
+  },
+  "flask-httpauth": {
+    "main": true
+  },
+  "flask-jsonpify": {
+    "main": true
+  },
+  "flask-jwt-extended": {
+    "main": true
+  },
+  "flask-ldap3-login": {
+    "main": true
+  },
+  "flask-login": {
+    "main": true
+  },
+  "flask-mail": {
+    "main": true
+  },
+  "flask-markdown": {
+    "main": true
+  },
+  "flask-marshmallow": {
+    "main": true
+  },
+  "flask-migrate": {
+    "main": true
+  },
+  "flask-moment": {
+    "main": true
+  },
+  "flask-mqtt": {
+    "main": true
+  },
+  "flask-nav": {
+    "main": true
+  },
+  "flask-oauthlib": {
+    "main": true
+  },
+  "flask-oidc": {
+    "main": true
+  },
+  "flask-oldsessions": {
+    "main": true
+  },
+  "flask-openid": {
+    "main": true
+  },
+  "flask-paginate": {
+    "main": true
+  },
+  "flask-potion": {
+    "main": true
+  },
+  "flask-principal": {
+    "main": true
+  },
+  "flask-redis": {
+    "main": true
+  },
+  "flask-redis-helper": {
+    "main": true
+  },
+  "flask-rest-jsonapi": {
+    "main": true
+  },
+  "flask-restalchemy": {
+    "main": true
+  },
+  "flask-restful": {
+    "main": true
+  },
+  "flask-restless": {
+    "main": true
+  },
+  "flask-restplus": {
+    "main": true
+  },
+  "flask-restx": {
+    "main": true
+  },
+  "flask-script": {
+    "main": true
+  },
+  "flask-seasurf": {
+    "main": true
+  },
+  "flask-security": {
+    "main": true
+  },
+  "flask-silk": {
+    "main": true
+  },
+  "flask-simpleldap": {
+    "main": true
+  },
+  "flask-smorest": {
+    "main": true
+  },
+  "flask-socketio": {
+    "main": true
+  },
+  "flask-sockets": {
+    "main": true
+  },
+  "flask-sqlalchemy": {
+    "main": true
+  },
+  "flask-swagger": {
+    "main": true
+  },
+  "flask-swagger-ui": {
+    "main": true
+  },
+  "flask-talisman": {
+    "main": true
+  },
+  "flask-testing": {
+    "main": true
+  },
+  "flask-turbolinks": {
+    "main": true
+  },
+  "flask-uploads": {
+    "main": true
+  },
+  "flask-user": {
+    "main": true
+  },
+  "flask-webpack": {
+    "main": true
+  },
+  "flask-wtf": {
+    "main": true
+  },
+  "flask-xml-rpc": {
+    "master": true
+  },
+  "flask_cors": {
+    "main": true
+  },
+  "flask_json": {
+    "main": true
+  },
+  "flask_table": {
+    "main": true
+  },
+  "flatbuffers": {
+    "main": true
+  },
+  "flatdict": {
+    "main": true
+  },
+  "flatten_json": {
+    "main": true
+  },
+  "fletcher": {
+    "main": true
+  },
+  "flex": {
+    "main": true
+  },
+  "flex-swagger": {
+    "main": true
+  },
+  "flexx": {
+    "main": true
+  },
+  "flintqs": {
+    "main": true
+  },
+  "flit": {
+    "main": true
+  },
+  "flit_install_py2": {
+    "main": true
   }
 }
