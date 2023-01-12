@@ -46321,5 +46321,341 @@
   },
   "et_xmlfile": {
     "main": true
+  },
+  "etcd": {
+    "main": true
+  },
+  "ete3": {
+    "main": true
+  },
+  "etelemetry": {
+    "main": true
+  },
+  "eulexistdb": {
+    "main": true
+  },
+  "eulxml": {
+    "main": true
+  },
+  "event-model": {
+    "main": true
+  },
+  "eventkit": {
+    "main": true
+  },
+  "eventlet": {
+    "main": true
+  },
+  "events": {
+    "main": true
+  },
+  "everett": {
+    "main": true
+  },
+  "evolutionary_keras": {
+    "main": true
+  },
+  "evv4esm": {
+    "main": true
+  },
+  "exa": {
+    "main": true
+  },
+  "exchangelib": {
+    "main": true
+  },
+  "exec-wrappers": {
+    "main": true
+  },
+  "execnet": {
+    "main": true
+  },
+  "executing": {
+    "main": true
+  },
+  "executor": {
+    "main": true
+  },
+  "exempi": {
+    "main": true
+  },
+  "exercism": {
+    "main": true
+  },
+  "exifread": {
+    "main": true
+  },
+  "existdb": {
+    "main": true
+  },
+  "exiv2": {
+    "main": true
+  },
+  "exoplanet": {
+    "main": true
+  },
+  "expat": {
+    "main": true
+  },
+  "expat-cos7-aarch64": {
+    "master": true
+  },
+  "expiringdict": {
+    "main": true
+  },
+  "exrex": {
+    "main": true
+  },
+  "extension-helpers": {
+    "main": true
+  },
+  "extern": {
+    "main": true
+  },
+  "extinction": {
+    "main": true
+  },
+  "extra-cmake-modules": {
+    "main": true
+  },
+  "extras": {
+    "main": true
+  },
+  "ez_setup": {
+    "main": true
+  },
+  "ezc3d": {
+    "main": true
+  },
+  "ezca": {
+    "main": true
+  },
+  "ezdxf": {
+    "main": true
+  },
+  "ezget": {
+    "main": true
+  },
+  "ezodf": {
+    "main": true
+  },
+  "f2c": {
+    "main": true
+  },
+  "f90nml": {
+    "main": true
+  },
+  "fabio": {
+    "main": true
+  },
+  "fabric": {
+    "main": true
+  },
+  "fabric3": {
+    "main": true
+  },
+  "face": {
+    "main": true
+  },
+  "factory_boy": {
+    "main": true
+  },
+  "fair-research-login": {
+    "main": true
+  },
+  "fairlearn": {
+    "main": true
+  },
+  "fake-factory": {
+    "main": true
+  },
+  "faker": {
+    "main": true
+  },
+  "fakeredis": {
+    "main": true
+  },
+  "falcon": {
+    "main": true
+  },
+  "falcon-apispec": {
+    "main": true
+  },
+  "falcon-auth": {
+    "main": true
+  },
+  "falcon-docs": {
+    "main": true
+  },
+  "falcon-require-https": {
+    "main": true
+  },
+  "fancycompleter": {
+    "main": true
+  },
+  "fann2": {
+    "main": true
+  },
+  "fanstatic": {
+    "main": true
+  },
+  "fast-cdr": {
+    "main": true
+  },
+  "fast-histogram": {
+    "main": true
+  },
+  "fast-rtps": {
+    "master": true
+  },
+  "fast_dp": {
+    "main": true
+  },
+  "fastapi": {
+    "main": true
+  },
+  "fastavro": {
+    "main": true
+  },
+  "fastbpe": {
+    "main": true
+  },
+  "fastcache": {
+    "main": true
+  },
+  "fastcluster": {
+    "main": true
+  },
+  "fastdiff": {
+    "main": true
+  },
+  "fastdtw": {
+    "main": true
+  },
+  "fasteners": {
+    "main": true
+  },
+  "fastimport": {
+    "main": true
+  },
+  "fastkml": {
+    "main": true
+  },
+  "fastnumbers": {
+    "main": true
+  },
+  "fastparquet": {
+    "main": true
+  },
+  "fastpca": {
+    "main": true
+  },
+  "fastprogress": {
+    "main": true
+  },
+  "fastrlock": {
+    "main": true
+  },
+  "fastscape": {
+    "main": true
+  },
+  "fastscapelib": {
+    "main": true
+  },
+  "fastscapelib-f2py": {
+    "main": true
+  },
+  "fasttext": {
+    "main": true
+  },
+  "fasttsne": {
+    "master": true
+  },
+  "fatiando": {
+    "main": true
+  },
+  "fault-localization": {
+    "main": true
+  },
+  "faunus": {
+    "main": true
+  },
+  "fbpca": {
+    "main": true
+  },
+  "fbprophet": {
+    "main": true
+  },
+  "fcl": {
+    "main": true
+  },
+  "fd-find": {
+    "main": true
+  },
+  "fdb": {
+    "main": true
+  },
+  "fdupes": {
+    "main": true
+  },
+  "feather-format": {
+    "main": true
+  },
+  "featherhelper": {
+    "main": true
+  },
+  "featuretools": {
+    "main": true
+  },
+  "feedfinder2": {
+    "main": true
+  },
+  "feedgenerator": {
+    "main": true
+  },
+  "feedstockrot": {
+    "main": true
+  },
+  "feets": {
+    "main": true
+  },
+  "fenics": {
+    "main": true
+  },
+  "fermipy": {
+    "main": true
+  },
+  "ferret_datasets": {
+    "main": true
+  },
+  "fflas-ffpack": {
+    "main": true
+  },
+  "ffmpeg": {
+    "main": true
+  },
+  "ffmpeg-python": {
+    "main": true
+  },
+  "ffnvcodec-headers": {
+    "main": true
+  },
+  "ffpyplayer": {
+    "main": true
+  },
+  "fftw": {
+    "main": true
+  },
+  "ffx": {
+    "main": true
+  },
+  "fig2dev": {
+    "main": true
+  },
+  "file": {
+    "main": true
+  },
+  "filebutler": {
+    "main": true
   }
 }
