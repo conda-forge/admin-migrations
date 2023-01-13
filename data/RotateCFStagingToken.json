@@ -53440,5 +53440,401 @@
   },
   "openfst": {
     "main": true
+  },
+  "openglider": {
+    "main": true
+  },
+  "openh264": {
+    "main": true
+  },
+  "openimageio": {
+    "main": true
+  },
+  "openjdk": {
+    "main": true
+  },
+  "openjpeg": {
+    "main": true
+  },
+  "openkim-models": {
+    "main": true
+  },
+  "openkimmodels": {
+    "main": true
+  },
+  "openldap": {
+    "main": true
+  },
+  "openlibm": {
+    "main": true
+  },
+  "openmc": {
+    "main": true
+  },
+  "openmdao": {
+    "main": true
+  },
+  "openmeeg": {
+    "main": true
+  },
+  "openmesh": {
+    "main": true
+  },
+  "openmesh-python": {
+    "main": true
+  },
+  "openmm": {
+    "main": true
+  },
+  "openmotif": {
+    "main": true
+  },
+  "openmp": {
+    "main": true
+  },
+  "openmpi": {
+    "main": true
+  },
+  "openorb": {
+    "main": true
+  },
+  "openorb-data": {
+    "main": true
+  },
+  "openorb-data-bc430": {
+    "main": true
+  },
+  "openorb-data-de405": {
+    "main": true
+  },
+  "openorb-data-de430": {
+    "main": true
+  },
+  "openorb-eph-builder": {
+    "main": true
+  },
+  "openpathsampling": {
+    "main": true
+  },
+  "openpathsampling-cli": {
+    "main": true
+  },
+  "openpiv": {
+    "main": true
+  },
+  "openpmd-api": {
+    "main": true
+  },
+  "openpmd-beamphysics": {
+    "main": true
+  },
+  "openpmd-viewer": {
+    "main": true
+  },
+  "openpyxl": {
+    "main": true
+  },
+  "openquake.engine": {
+    "main": true
+  },
+  "opensesame": {
+    "main": true
+  },
+  "openshift-cli": {
+    "main": true
+  },
+  "openslide": {
+    "main": true
+  },
+  "opensource": {
+    "main": true
+  },
+  "openspecfun": {
+    "main": true
+  },
+  "openssh": {
+    "main": true
+  },
+  "openssl": {
+    "main": true
+  },
+  "openstacksdk": {
+    "main": true
+  },
+  "opentracing": {
+    "main": true
+  },
+  "opentracing_instrumentation": {
+    "main": true
+  },
+  "opentsne": {
+    "main": true
+  },
+  "openturns": {
+    "main": true
+  },
+  "openvisus": {
+    "main": true
+  },
+  "ophyd": {
+    "main": true
+  },
+  "opsdroid": {
+    "main": true
+  },
+  "opt_einsum": {
+    "main": true
+  },
+  "optimix": {
+    "main": true
+  },
+  "optlang": {
+    "main": true
+  },
+  "optpp": {
+    "main": true
+  },
+  "optuna": {
+    "main": true
+  },
+  "opty": {
+    "main": true
+  },
+  "opus-tools": {
+    "main": true
+  },
+  "opusfile": {
+    "main": true
+  },
+  "opyplus": {
+    "main": true
+  },
+  "oq-engine": {
+    "main": true
+  },
+  "orange-canvas-core": {
+    "main": true
+  },
+  "orange-widget-base": {
+    "main": true
+  },
+  "orange3": {
+    "main": true
+  },
+  "orange3-bioinformatics": {
+    "main": true
+  },
+  "orange3-educational": {
+    "main": true
+  },
+  "orange3-geo": {
+    "main": true
+  },
+  "orange3-imageanalytics": {
+    "main": true
+  },
+  "orange3-network": {
+    "main": true
+  },
+  "orange3-singlecell": {
+    "main": true
+  },
+  "orange3-text": {
+    "main": true
+  },
+  "orange3-timeseries": {
+    "main": true
+  },
+  "orator": {
+    "main": true
+  },
+  "orbit2-cos7-aarch64": {
+    "master": true
+  },
+  "orc": {
+    "main": true
+  },
+  "orca": {
+    "main": true
+  },
+  "orca_test": {
+    "main": true
+  },
+  "orch": {
+    "main": true
+  },
+  "orcid": {
+    "main": true
+  },
+  "ordered-set": {
+    "main": true
+  },
+  "orderedmultidict": {
+    "main": true
+  },
+  "orderedset": {
+    "main": true
+  },
+  "orekit": {
+    "main": true
+  },
+  "orix": {
+    "main": true
+  },
+  "orocos-kdl": {
+    "main": true
+  },
+  "orographic_precipitation": {
+    "main": true
+  },
+  "os-client-config": {
+    "main": true
+  },
+  "os-service-types": {
+    "main": true
+  },
+  "osc-lib": {
+    "main": true
+  },
+  "oscrypto": {
+    "main": true
+  },
+  "oset": {
+    "main": true
+  },
+  "osfclient": {
+    "main": true
+  },
+  "oslo.concurrency": {
+    "main": true
+  },
+  "oslo.config": {
+    "main": true
+  },
+  "oslo.i18n": {
+    "main": true
+  },
+  "oslo.serialization": {
+    "main": true
+  },
+  "oslo.utils": {
+    "main": true
+  },
+  "osmapi": {
+    "main": true
+  },
+  "osmnet": {
+    "main": true
+  },
+  "osmnx": {
+    "main": true
+  },
+  "osqp": {
+    "main": true
+  },
+  "osrf_pycommon": {
+    "main": true
+  },
+  "oss2": {
+    "main": true
+  },
+  "ossuuid": {
+    "main": true
+  },
+  "ostaphep": {
+    "main": true
+  },
+  "otagrum": {
+    "main": true
+  },
+  "otfftw": {
+    "main": true
+  },
+  "otfmi": {
+    "main": true
+  },
+  "otmixmod": {
+    "main": true
+  },
+  "otmorris": {
+    "main": true
+  },
+  "otpmml": {
+    "main": true
+  },
+  "otpod": {
+    "main": true
+  },
+  "otrobopt": {
+    "main": true
+  },
+  "otsubsetinverse": {
+    "main": true
+  },
+  "otsvm": {
+    "main": true
+  },
+  "otwrapy": {
+    "main": true
+  },
+  "outcome": {
+    "main": true
+  },
+  "outdated": {
+    "main": true
+  },
+  "output_viewer": {
+    "main": true
+  },
+  "overly": {
+    "main": true
+  },
+  "overpy": {
+    "main": true
+  },
+  "overrides": {
+    "main": true
+  },
+  "ovito": {
+    "main": true
+  },
+  "owlready2": {
+    "main": true
+  },
+  "owlrl": {
+    "main": true
+  },
+  "owslib": {
+    "main": true
+  },
+  "oyaml": {
+    "main": true
+  },
+  "p11-kit": {
+    "main": true
+  },
+  "p11-kit-cos7-aarch64": {
+    "master": true
+  },
+  "p11-kit-trust-cos7-aarch64": {
+    "master": true
+  },
+  "p4p": {
+    "main": true
+  },
+  "p7zip": {
+    "main": true
+  },
+  "p_astro": {
+    "main": true
+  },
+  "packaging": {
+    "main": true
+  },
+  "packer": {
+    "main": true
+  },
+  "packmol": {
+    "main": true
   }
 }
