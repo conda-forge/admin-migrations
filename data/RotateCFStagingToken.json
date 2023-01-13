@@ -53836,5 +53836,458 @@
   },
   "packmol": {
     "main": true
+  },
+  "padel": {
+    "main": true
+  },
+  "paegan": {
+    "main": true
+  },
+  "paegan-transport": {
+    "main": true
+  },
+  "pagmo": {
+    "main": true
+  },
+  "paho-mqtt": {
+    "main": true
+  },
+  "paintera": {
+    "main": true
+  },
+  "paintera-conversion-helper": {
+    "main": true
+  },
+  "palettable": {
+    "main": true
+  },
+  "palp": {
+    "main": true
+  },
+  "palpy": {
+    "main": true
+  },
+  "pamela": {
+    "main": true
+  },
+  "pamqp": {
+    "main": true
+  },
+  "pandana": {
+    "main": true
+  },
+  "pandas": {
+    "main": true
+  },
+  "pandas-compat": {
+    "main": true
+  },
+  "pandas-datapackage-reader": {
+    "main": true
+  },
+  "pandas-datareader": {
+    "main": true
+  },
+  "pandas-gbq": {
+    "main": true
+  },
+  "pandas-highcharts": {
+    "main": true
+  },
+  "pandas-msgpack": {
+    "master": true
+  },
+  "pandas-plink": {
+    "main": true
+  },
+  "pandas-profiling": {
+    "main": true
+  },
+  "pandas-summary": {
+    "main": true
+  },
+  "pandas-vet": {
+    "main": true
+  },
+  "pandas_flavor": {
+    "main": true
+  },
+  "pandas_market_calendars": {
+    "main": true
+  },
+  "pandas_ml": {
+    "main": true
+  },
+  "pandas_schema": {
+    "main": true
+  },
+  "pandera": {
+    "main": true
+  },
+  "pandoc": {
+    "main": true
+  },
+  "pandoc-attributes": {
+    "main": true
+  },
+  "pandoc-attrs": {
+    "main": true
+  },
+  "pandoc-crossref": {
+    "main": true
+  },
+  "pandoc-plot": {
+    "main": true
+  },
+  "pandocfilters": {
+    "main": true
+  },
+  "pandoctools": {
+    "main": true
+  },
+  "panedr": {
+    "main": true
+  },
+  "panel": {
+    "main": true
+  },
+  "panflute": {
+    "main": true
+  },
+  "pangaea": {
+    "main": true
+  },
+  "pangeo-dask": {
+    "main": true
+  },
+  "pangeo-notebook": {
+    "main": true
+  },
+  "pango": {
+    "main": true
+  },
+  "pangomm": {
+    "main": true
+  },
+  "papermill": {
+    "main": true
+  },
+  "papillon": {
+    "main": true
+  },
+  "paprika": {
+    "main": true
+  },
+  "parabem": {
+    "main": true
+  },
+  "parallel": {
+    "main": true
+  },
+  "param": {
+    "main": true
+  },
+  "parambokeh": {
+    "main": true
+  },
+  "parameterized": {
+    "main": true
+  },
+  "paramiko": {
+    "main": true
+  },
+  "paramnb": {
+    "main": true
+  },
+  "paramtools": {
+    "main": true
+  },
+  "paramz": {
+    "main": true
+  },
+  "paraview": {
+    "main": true
+  },
+  "parcel": {
+    "main": true
+  },
+  "parcels": {
+    "main": true
+  },
+  "parfive": {
+    "main": true
+  },
+  "pari": {
+    "main": true
+  },
+  "pari-elldata": {
+    "main": true
+  },
+  "pari-galdata": {
+    "main": true
+  },
+  "pari-galpol": {
+    "main": true
+  },
+  "pari-nftables": {
+    "main": true
+  },
+  "pari-seadata": {
+    "main": true
+  },
+  "pari-seadata-big": {
+    "main": true
+  },
+  "pari-seadata-small": {
+    "main": true
+  },
+  "pari_jupyter": {
+    "main": true
+  },
+  "parmap": {
+    "main": true
+  },
+  "parmed": {
+    "main": true
+  },
+  "parmetis": {
+    "main": true
+  },
+  "parquet-cpp": {
+    "main": true
+  },
+  "parse": {
+    "main": true
+  },
+  "parse_type": {
+    "main": true
+  },
+  "parsedatetime": {
+    "main": true
+  },
+  "parsim": {
+    "main": true
+  },
+  "parsimonious": {
+    "main": true
+  },
+  "parsl": {
+    "main": true
+  },
+  "parsley": {
+    "main": true
+  },
+  "parso": {
+    "main": true
+  },
+  "parson": {
+    "main": true
+  },
+  "parsplice": {
+    "main": true
+  },
+  "partd": {
+    "main": true
+  },
+  "particlespy": {
+    "main": true
+  },
+  "passlib": {
+    "main": true
+  },
+  "pastas": {
+    "main": true
+  },
+  "paste": {
+    "main": true
+  },
+  "pastedeploy": {
+    "main": true
+  },
+  "pastel": {
+    "main": true
+  },
+  "pastescript": {
+    "main": true
+  },
+  "patch": {
+    "main": true
+  },
+  "patch-ng": {
+    "main": true
+  },
+  "patchelf": {
+    "main": true
+  },
+  "path": {
+    "main": true
+  },
+  "path-and-address": {
+    "main": true
+  },
+  "path.py": {
+    "main": true
+  },
+  "pathlib": {
+    "main": true
+  },
+  "pathlib2": {
+    "main": true
+  },
+  "pathos": {
+    "main": true
+  },
+  "pathspec": {
+    "main": true
+  },
+  "pathtools": {
+    "main": true
+  },
+  "patool": {
+    "main": true
+  },
+  "patsy": {
+    "main": true
+  },
+  "pattern": {
+    "main": true
+  },
+  "paver": {
+    "main": true
+  },
+  "pbr": {
+    "main": true
+  },
+  "pbzip2": {
+    "main": true
+  },
+  "pcaspy": {
+    "main": true
+  },
+  "pcdsdevices": {
+    "main": true
+  },
+  "pcdsutils": {
+    "main": true
+  },
+  "pcdswidgets": {
+    "main": true
+  },
+  "pciutils-libs-cos7-ppc64le": {
+    "master": true
+  },
+  "pcl": {
+    "main": true
+  },
+  "pcraster": {
+    "main": true
+  },
+  "pcre": {
+    "main": true
+  },
+  "pcre2": {
+    "main": true
+  },
+  "pdal": {
+    "main": true
+  },
+  "pdblp": {
+    "main": true
+  },
+  "pdbpp": {
+    "main": true
+  },
+  "pdf2image": {
+    "main": true
+  },
+  "pdf2svg": {
+    "main": true
+  },
+  "pdfcombine": {
+    "main": true
+  },
+  "pdfgrep": {
+    "main": true
+  },
+  "pdfminer": {
+    "main": true
+  },
+  "pdfminer.six": {
+    "main": true
+  },
+  "pdfminer3k": {
+    "main": true
+  },
+  "pdfnofonts": {
+    "main": true
+  },
+  "pdfrw": {
+    "main": true
+  },
+  "pdfshrink": {
+    "main": true
+  },
+  "pdir2": {
+    "main": true
+  },
+  "pdoc3": {
+    "main": true
+  },
+  "pdpbox": {
+    "main": true
+  },
+  "pdvega": {
+    "main": true
+  },
+  "peakutils": {
+    "main": true
+  },
+  "pebble": {
+    "main": true
+  },
+  "peewee": {
+    "main": true
+  },
+  "pefile": {
+    "main": true
+  },
+  "pelican": {
+    "main": true
+  },
+  "pendulum": {
+    "main": true
+  },
+  "pep8": {
+    "main": true
+  },
+  "pep8-naming": {
+    "main": true
+  },
+  "pepredicates": {
+    "main": true
+  },
+  "performance": {
+    "main": true
+  },
+  "periodictable": {
+    "main": true
+  },
+  "periodiq": {
+    "main": true
+  },
+  "perl-app-cpanminus": {
+    "main": true
+  },
+  "perl-carp-assert": {
+    "main": true
+  },
+  "perl-sys-cpu": {
+    "main": true
+  },
+  "perl-text-soundex": {
+    "main": true
+  },
+  "perl-unix-processors": {
+    "main": true
   }
 }
