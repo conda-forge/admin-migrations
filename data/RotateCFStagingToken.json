@@ -52987,5 +52987,458 @@
   },
   "nnn": {
     "main": true
+  },
+  "node2vec": {
+    "main": true
+  },
+  "nodebook": {
+    "main": true
+  },
+  "nodeenv": {
+    "main": true
+  },
+  "nodejs": {
+    "main": true
+  },
+  "noise": {
+    "main": true
+  },
+  "nomkl": {
+    "main": true
+  },
+  "norbert": {
+    "main": true
+  },
+  "normaliz": {
+    "main": true
+  },
+  "nose": {
+    "main": true
+  },
+  "nose-cov": {
+    "main": true
+  },
+  "nose-exclude": {
+    "main": true
+  },
+  "nose-progressive": {
+    "main": true
+  },
+  "nose-timer": {
+    "main": true
+  },
+  "nose2": {
+    "main": true
+  },
+  "nose_parameterized": {
+    "main": true
+  },
+  "nose_xunitmp": {
+    "main": true
+  },
+  "nosexcover": {
+    "main": true
+  },
+  "notebook": {
+    "main": true
+  },
+  "notebookscripter": {
+    "main": true
+  },
+  "notedown": {
+    "main": true
+  },
+  "noteslib": {
+    "main": true
+  },
+  "nox": {
+    "main": true
+  },
+  "npctypes": {
+    "main": true
+  },
+  "npstreams": {
+    "main": true
+  },
+  "nptdms": {
+    "main": true
+  },
+  "npth": {
+    "main": true
+  },
+  "nr": {
+    "master": true
+  },
+  "nr.bundler": {
+    "main": true
+  },
+  "nr.cli": {
+    "main": true
+  },
+  "nr.config": {
+    "main": true
+  },
+  "nr.date": {
+    "main": true
+  },
+  "nr.fs": {
+    "main": true
+  },
+  "nr.parse": {
+    "main": true
+  },
+  "nr.types": {
+    "main": true
+  },
+  "nsis": {
+    "main": true
+  },
+  "nspr": {
+    "main": true
+  },
+  "nspr-cos7-aarch64": {
+    "master": true
+  },
+  "nss": {
+    "main": true
+  },
+  "nss-softokn-cos7-aarch64": {
+    "master": true
+  },
+  "nss-softokn-freebl-cos7-aarch64": {
+    "master": true
+  },
+  "nss-util-cos7-aarch64": {
+    "master": true
+  },
+  "nsync": {
+    "main": true
+  },
+  "ntbtls": {
+    "main": true
+  },
+  "nteract-scrapbook": {
+    "main": true
+  },
+  "nteract_on_jupyter": {
+    "main": true
+  },
+  "ntl": {
+    "main": true
+  },
+  "ntlm-auth": {
+    "main": true
+  },
+  "ntplib": {
+    "main": true
+  },
+  "nuitka": {
+    "main": true
+  },
+  "numactl-cos6-x86_64": {
+    "master": true
+  },
+  "numactl-devel-cos6-x86_64": {
+    "master": true
+  },
+  "numba": {
+    "main": true
+  },
+  "numba-scipy": {
+    "main": true
+  },
+  "numcodecs": {
+    "main": true
+  },
+  "numcosmo": {
+    "main": true
+  },
+  "numdifftools": {
+    "main": true
+  },
+  "numericalunits": {
+    "main": true
+  },
+  "numexpr": {
+    "main": true
+  },
+  "numina": {
+    "main": true
+  },
+  "numpoly": {
+    "main": true
+  },
+  "numpy": {
+    "main": true
+  },
+  "numpy-indexed": {
+    "main": true
+  },
+  "numpy-stl": {
+    "main": true
+  },
+  "numpy_groupies": {
+    "main": true
+  },
+  "numpy_sugar": {
+    "main": true
+  },
+  "numpydoc": {
+    "main": true
+  },
+  "nvcc": {
+    "main": true
+  },
+  "nvidia-apex": {
+    "main": true
+  },
+  "nvidia-ml": {
+    "main": true
+  },
+  "nxviz": {
+    "main": true
+  },
+  "oath": {
+    "main": true
+  },
+  "oauth2client": {
+    "main": true
+  },
+  "oauthenticator": {
+    "main": true
+  },
+  "oauthlib": {
+    "main": true
+  },
+  "obake": {
+    "main": true
+  },
+  "objconv": {
+    "main": true
+  },
+  "objectpath": {
+    "main": true
+  },
+  "objgraph": {
+    "main": true
+  },
+  "obsplus": {
+    "main": true
+  },
+  "obspy": {
+    "main": true
+  },
+  "obspyck": {
+    "main": true
+  },
+  "ocaml": {
+    "main": true
+  },
+  "ocaml-camlp5": {
+    "main": true
+  },
+  "ocaml-findlib": {
+    "main": true
+  },
+  "ocaml-num": {
+    "main": true
+  },
+  "ocamlbuild": {
+    "main": true
+  },
+  "occt": {
+    "main": true
+  },
+  "oceans": {
+    "main": true
+  },
+  "oceanspy": {
+    "main": true
+  },
+  "ocgis": {
+    "main": true
+  },
+  "ocl-icd": {
+    "main": true
+  },
+  "ocl-icd-system": {
+    "main": true
+  },
+  "ocl_icd_wrapper_apple": {
+    "main": true
+  },
+  "oclgrind": {
+    "main": true
+  },
+  "oct2py": {
+    "main": true
+  },
+  "octave": {
+    "main": true
+  },
+  "octave_kernel": {
+    "main": true
+  },
+  "octomap": {
+    "main": true
+  },
+  "ocw": {
+    "master": true
+  },
+  "od": {
+    "main": true
+  },
+  "oddt": {
+    "main": true
+  },
+  "odenet": {
+    "main": true
+  },
+  "odfpy": {
+    "main": true
+  },
+  "odil": {
+    "main": true
+  },
+  "odm2api": {
+    "main": true
+  },
+  "odm2rest": {
+    "master": true
+  },
+  "odo": {
+    "main": true
+  },
+  "odvc": {
+    "main": true
+  },
+  "ogh": {
+    "main": true
+  },
+  "ogre": {
+    "main": true
+  },
+  "ogs5py": {
+    "main": true
+  },
+  "oic": {
+    "main": true
+  },
+  "oifits": {
+    "main": true
+  },
+  "okonomiyaki": {
+    "main": true
+  },
+  "oktopus": {
+    "main": true
+  },
+  "olefile": {
+    "main": true
+  },
+  "oletools": {
+    "main": true
+  },
+  "oliver": {
+    "main": true
+  },
+  "omas": {
+    "main": true
+  },
+  "omcompiler": {
+    "main": true
+  },
+  "omegaconf": {
+    "main": true
+  },
+  "omicron": {
+    "main": true
+  },
+  "omnifit": {
+    "main": true
+  },
+  "omniorb": {
+    "main": true
+  },
+  "omniorbpy": {
+    "main": true
+  },
+  "omnisci-pytools": {
+    "main": true
+  },
+  "omniscidb-cpu": {
+    "master": true
+  },
+  "omniscidb-cuda": {
+    "master": true
+  },
+  "ompl": {
+    "main": true
+  },
+  "oniguruma": {
+    "main": true
+  },
+  "onnx": {
+    "main": true
+  },
+  "onnx-caffe2": {
+    "main": true
+  },
+  "onnx-tf": {
+    "main": true
+  },
+  "oommf": {
+    "main": true
+  },
+  "oommfc": {
+    "main": true
+  },
+  "oommfodt": {
+    "main": true
+  },
+  "oop-ext": {
+    "main": true
+  },
+  "opbeat": {
+    "main": true
+  },
+  "opcua": {
+    "main": true
+  },
+  "open-fonts": {
+    "main": true
+  },
+  "openal-soft": {
+    "main": true
+  },
+  "openalea.deploy": {
+    "main": true
+  },
+  "openapi-codec": {
+    "main": true
+  },
+  "openapi-spec-validator": {
+    "main": true
+  },
+  "openbabel": {
+    "main": true
+  },
+  "openblas": {
+    "main": true
+  },
+  "opencamlib": {
+    "main": true
+  },
+  "opencv": {
+    "main": true
+  },
+  "openexr": {
+    "main": true
+  },
+  "openfile": {
+    "main": true
+  },
+  "openfst": {
+    "main": true
   }
 }
