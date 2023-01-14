@@ -21591,7 +21591,8 @@
     "main": true
   },
   "flyteidl": {
-    "main": true
+    "main": true,
+    "v1.2_release": true
   },
   "system-slash": {
     "main": true
@@ -21606,7 +21607,8 @@
     "main": true
   },
   "flytekit": {
-    "main": true
+    "main": true,
+    "v1.2_release": true
   },
   "scrape-search-engine": {
     "main": true
@@ -56875,6 +56877,12 @@
     "main": true
   },
   "r-tgp": {
+    "main": true
+  },
+  "nifti-mrs": {
+    "main": true
+  },
+  "autogluon.common": {
     "main": true
   }
 }
