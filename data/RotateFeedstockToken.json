@@ -54865,5 +54865,11 @@
   },
   "deepspeed": {
     "main": true
+  },
+  "synthetic-data": {
+    "main": true
+  },
+  "autogluon.tabular": {
+    "main": true
   }
 }
