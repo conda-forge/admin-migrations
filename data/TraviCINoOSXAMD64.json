@@ -1089,7 +1089,8 @@
     "master": true
   },
   "tensorflow": {
-    "master": true
+    "master": true,
+    "v1.x": true
   },
   "tensorflow-estimator": {
     "master": true
