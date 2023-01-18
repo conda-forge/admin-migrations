@@ -56961,5 +56961,32 @@
   },
   "sqeleton": {
     "main": true
+  },
+  "gluoncv": {
+    "main": true
+  },
+  "jobard-daemon": {
+    "main": true
+  },
+  "jobard-remote-dask": {
+    "main": true
+  },
+  "felyxcontrib-metrics-workflow": {
+    "main": true
+  },
+  "jobard-client": {
+    "main": true
+  },
+  "speedy-antlr-tool": {
+    "main": true
+  },
+  "felyxcontribs-metrics-ghrsst": {
+    "main": true
+  },
+  "felyxcontribs-metrics-base": {
+    "main": true
+  },
+  "jobard-api": {
+    "main": true
   }
 }
