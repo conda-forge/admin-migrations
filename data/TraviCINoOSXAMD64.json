@@ -53688,7 +53688,8 @@
     "main": true
   },
   "mp-api": {
-    "main": true
+    "main": true,
+    "v0.30.5": true
   },
   "pdcifplotter": {
     "main": true
@@ -56987,6 +56988,15 @@
     "main": true
   },
   "jobard-api": {
+    "main": true
+  },
+  "ipfn": {
+    "main": true
+  },
+  "jobard-worker-dask": {
+    "main": true
+  },
+  "klongpy": {
     "main": true
   }
 }
