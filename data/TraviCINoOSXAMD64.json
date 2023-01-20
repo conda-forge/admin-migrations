@@ -50075,7 +50075,8 @@
     "main": true
   },
   "honto": {
-    "main": true
+    "main": true,
+    "cumbof-maintainer": true
   },
   "r5py": {
     "main": true
@@ -57015,6 +57016,15 @@
     "main": true
   },
   "miniful": {
+    "main": true
+  },
+  "torchtext": {
+    "main": true
+  },
+  "revtok": {
+    "main": true
+  },
+  "r-changepoints": {
     "main": true
   }
 }
