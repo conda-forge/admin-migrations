@@ -25476,7 +25476,8 @@
     "main": true
   },
   "conda": {
-    "main": true
+    "main": true,
+    "update-maintainers": true
   },
   "conda-bash-completion": {
     "main": true
