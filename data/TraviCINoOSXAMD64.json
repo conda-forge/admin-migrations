@@ -57079,5 +57079,35 @@
   },
   "kahip": {
     "main": true
+  },
+  "perl-module-runtime-conflicts": {
+    "main": true
+  },
+  "perl-b-hooks-endofscope": {
+    "main": true
+  },
+  "perl-eval-closure": {
+    "main": true
+  },
+  "perl-class-load": {
+    "main": true
+  },
+  "perl-namespace-clean": {
+    "main": true
+  },
+  "perl-moose": {
+    "main": true
+  },
+  "perl-test-cleannamespaces": {
+    "main": true
+  },
+  "perl-class-load-xs": {
+    "main": true
+  },
+  "perl-file-pushd": {
+    "main": true
+  },
+  "perl-devel-overloadinfo": {
+    "main": true
   }
 }
