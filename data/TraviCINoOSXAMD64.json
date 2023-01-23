@@ -24779,7 +24779,8 @@
     "hd52cf5-azure-azure-ci-fail": true,
     "h769a99-azure-azure": true,
     "ha1707f-azure-azure-no-automerge-user": true,
-    "gpu-tests": true
+    "gpu-tests": true,
+    "gpu-tests-cupy": true
   },
   "cf_units": {
     "main": true
