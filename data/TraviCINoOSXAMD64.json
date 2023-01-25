@@ -57166,5 +57166,24 @@
   },
   "word-forms": {
     "main": true
+  },
+  "facexlib": {
+    "main": true
+  },
+  "autogluon.vision": {
+    "main": true
+  },
+  "pyshepseg": {
+    "main": true
+  },
+  "open-clip-torch": {
+    "main": true,
+    "2.7.0": true
+  },
+  "autogluon.text": {
+    "main": true
+  },
+  "safetensors": {
+    "main": true
   }
 }
