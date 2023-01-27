@@ -17729,7 +17729,8 @@
     "master": true
   },
   "bluesky-queueserver": {
-    "master": true
+    "master": true,
+    "revert-17-mnt_noarch": true
   },
   "serde": {
     "master": true
@@ -49469,7 +49470,8 @@
     "main": true
   },
   "chopin2": {
-    "main": true
+    "main": true,
+    "cumbof-chopin2-1.0.7": true
   },
   "cmakelang": {
     "main": true
@@ -57250,6 +57252,9 @@
     "main": true
   },
   "nardini": {
+    "main": true
+  },
+  "mobie": {
     "main": true
   }
 }
