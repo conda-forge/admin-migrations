@@ -12799,7 +12799,8 @@
     "master": true
   },
   "flashgeotext": {
-    "master": true
+    "master": true,
+    "0.5.0_h5fed1c": true
   },
   "enterprise-pulsar": {
     "master": true
@@ -57246,6 +57247,9 @@
     "main": true
   },
   "autogluon": {
+    "main": true
+  },
+  "nardini": {
     "main": true
   }
 }
