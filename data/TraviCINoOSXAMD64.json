@@ -21609,7 +21609,8 @@
     "main": true
   },
   "mdacli": {
-    "main": true
+    "main": true,
+    "real-py311": true
   },
   "flytekit": {
     "main": true,
