@@ -56845,7 +56845,8 @@
     "main": true
   },
   "prefect-aws": {
-    "main": true
+    "main": true,
+    "dependencies/add_mypy_boto3": true
   },
   "shakenbreak": {
     "main": true
