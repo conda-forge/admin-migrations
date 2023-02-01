@@ -19268,7 +19268,8 @@
     "master": true
   },
   "uxarray": {
-    "master": true
+    "master": true,
+    "update_maintainers": true
   },
   "copulas": {
     "master": true
@@ -57316,6 +57317,12 @@
     "main": true
   },
   "crowdin-api-client": {
+    "main": true
+  },
+  "flytekitplugins-dask": {
+    "main": true
+  },
+  "copier-templates-extensions": {
     "main": true
   }
 }
