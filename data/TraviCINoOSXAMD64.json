@@ -13629,7 +13629,8 @@
     "master": true
   },
   "aws-c-mqtt": {
-    "master": true
+    "master": true,
+    "v0.7.x": true
   },
   "codecarbon": {
     "master": true,
