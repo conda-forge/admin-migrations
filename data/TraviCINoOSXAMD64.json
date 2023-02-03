@@ -22150,7 +22150,8 @@
     "main": true
   },
   "top2vec": {
-    "main": true
+    "main": true,
+    "fix-meta": true
   },
   "brainreg-segment": {
     "main": true
