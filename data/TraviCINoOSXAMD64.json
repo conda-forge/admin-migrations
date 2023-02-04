@@ -34368,7 +34368,8 @@
     "master": true
   },
   "mypy_extensions": {
-    "master": true
+    "master": true,
+    "0.4.x": true
   },
   "mysql": {
     "master": true
