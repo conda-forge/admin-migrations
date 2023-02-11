@@ -57063,7 +57063,8 @@
   },
   "autogluon.multimodal": {
     "main": true,
-    "Innixma-patch-1": true
+    "Innixma-patch-1": true,
+    "dep": true
   },
   "neptune-aws": {
     "main": true
