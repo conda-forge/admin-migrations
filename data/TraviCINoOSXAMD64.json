@@ -57634,5 +57634,20 @@
   },
   "kt-legacy": {
     "main": true
+  },
+  "auditwheel-emscripten": {
+    "main": true
+  },
+  "pyodide-build": {
+    "main": true
+  },
+  "autodoc-traits": {
+    "main": true
+  },
+  "leb128": {
+    "main": true
+  },
+  "pyodide-cli": {
+    "main": true
   }
 }
