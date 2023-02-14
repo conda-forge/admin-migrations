@@ -56936,7 +56936,8 @@
     "main": true
   },
   "py-triangle": {
-    "main": true
+    "main": true,
+    "check-py-311": true
   },
   "pcsclite": {
     "main": true
