@@ -1099,7 +1099,8 @@
     "master": true
   },
   "tensorflow-probability": {
-    "master": true
+    "master": true,
+    "fix_deps_v19": true
   },
   "tensorflowonspark": {
     "master": true
