@@ -19136,7 +19136,8 @@
     "master": true
   },
   "montreal-forced-aligner": {
-    "master": true
+    "master": true,
+    "2.0.6-stable": true
   },
   "nbmake": {
     "master": true
@@ -57716,6 +57717,21 @@
     "main": true
   },
   "dbscan": {
+    "main": true
+  },
+  "itksn": {
+    "main": true
+  },
+  "mdrestraintsgenerator": {
+    "main": true
+  },
+  "grand": {
+    "main": true
+  },
+  "keyrings.google-artifactregistry-auth": {
+    "main": true
+  },
+  "bitvector": {
     "main": true
   }
 }
