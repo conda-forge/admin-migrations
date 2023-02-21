@@ -24520,7 +24520,8 @@
     "main": true
   },
   "calliope": {
-    "main": true
+    "main": true,
+    "brynpickering-libnetcdf-pinning": true
   },
   "calysto_bash": {
     "main": true
@@ -26592,7 +26593,8 @@
     "0.3.1.x": true
   },
   "dionysus": {
-    "main": true
+    "main": true,
+    "master": true
   },
   "dioptas": {
     "main": true
@@ -27474,7 +27476,8 @@
   },
   "embree": {
     "main": true,
-    "v2": true
+    "v2": true,
+    "v3": true
   },
   "embree3": {
     "main": true
@@ -32846,7 +32849,8 @@
   },
   "libxc": {
     "master": true,
-    "backportv4": true
+    "backportv4": true,
+    "bjodah-patch-1": true
   },
   "libxcb": {
     "master": true
