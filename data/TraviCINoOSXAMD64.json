@@ -57840,5 +57840,14 @@
   },
   "cythonbuilder": {
     "main": true
+  },
+  "pyre-extensions": {
+    "main": true
+  },
+  "jupyterlab-ui-profiler": {
+    "main": true
+  },
+  "xformers": {
+    "main": true
   }
 }
