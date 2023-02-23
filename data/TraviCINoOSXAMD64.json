@@ -10232,7 +10232,8 @@
   "sktime": {
     "master": true,
     "add-noarch": true,
-    "0.11.4_h333845": true
+    "0.11.4_h333845": true,
+    "py311-numba": true
   },
   "densmap-learn": {
     "master": true
