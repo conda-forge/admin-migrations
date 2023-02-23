@@ -57850,5 +57850,11 @@
   },
   "xformers": {
     "main": true
+  },
+  "sse2neon": {
+    "main": true
+  },
+  "dbt-artifacts-parser": {
+    "main": true
   }
 }
