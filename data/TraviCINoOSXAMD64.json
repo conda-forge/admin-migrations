@@ -8375,7 +8375,8 @@
     "master": true
   },
   "cloudpathlib": {
-    "master": true
+    "master": true,
+    "noarch-build": true
   },
   "pytkdocs": {
     "master": true
