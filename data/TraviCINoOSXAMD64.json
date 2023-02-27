@@ -3501,7 +3501,9 @@
     "v1.5.1": true
   },
   "yarn": {
-    "master": true
+    "master": true,
+    "rc-4.x": true,
+    "1.x": true
   },
   "yarn-api-client": {
     "master": true
