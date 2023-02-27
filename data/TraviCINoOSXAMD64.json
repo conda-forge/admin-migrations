@@ -57880,5 +57880,29 @@
   },
   "pyngo": {
     "main": true
+  },
+  "pydantic-sqlalchemy": {
+    "main": true
+  },
+  "nestd": {
+    "main": true
+  },
+  "ydata-synthetic": {
+    "main": true
+  },
+  "djangorestframework-dataclasses": {
+    "main": true
+  },
+  "tox-poetry-installer": {
+    "main": true
+  },
+  "eo-harvest": {
+    "main": true
+  },
+  "ydata-quality": {
+    "main": true
+  },
+  "ydata-profiling": {
+    "main": true
   }
 }
