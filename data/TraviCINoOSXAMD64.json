@@ -9389,7 +9389,8 @@
     "master": true
   },
   "extensisq": {
-    "master": true
+    "master": true,
+    "revert-11-master": true
   },
   "ligo-asimov": {
     "master": true,
@@ -25066,7 +25067,8 @@
     "5.x": true,
     "8.x": true,
     "rc": true,
-    "flang": true
+    "flang": true,
+    "13.x": true
   },
   "clapack": {
     "main": true
