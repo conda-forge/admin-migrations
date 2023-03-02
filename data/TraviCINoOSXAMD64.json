@@ -52529,7 +52529,8 @@
     "main": true
   },
   "conda-env-builder": {
-    "main": true
+    "main": true,
+    "bump/0.0.4": true
   },
   "ubergauss": {
     "main": true
