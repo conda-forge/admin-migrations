@@ -48514,7 +48514,8 @@
     "main": true
   },
   "dbstep": {
-    "main": true
+    "main": true,
+    "v1.1.0": true
   },
   "y-py": {
     "main": true,
@@ -52207,7 +52208,8 @@
   },
   "deno-dom": {
     "main": true,
-    "0.1.17": true
+    "0.1.17": true,
+    "0.1.23": true
   },
   "datatoolbox": {
     "main": true
@@ -57992,6 +57994,9 @@
     "main": true
   },
   "xsarslc": {
+    "main": true
+  },
+  "pyerrors": {
     "main": true
   }
 }
