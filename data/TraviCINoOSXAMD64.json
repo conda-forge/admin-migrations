@@ -7072,7 +7072,8 @@
   },
   "eth-utils": {
     "master": true,
-    "eth-has-version-fix": true
+    "eth-has-version-fix": true,
+    "1.9.x": true
   },
   "rlp": {
     "master": true
@@ -57997,6 +57998,9 @@
     "main": true
   },
   "pyerrors": {
+    "main": true
+  },
+  "spox": {
     "main": true
   }
 }
