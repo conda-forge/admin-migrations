@@ -20095,7 +20095,8 @@
     "master": true
   },
   "influxdb-client": {
-    "master": true
+    "master": true,
+    "feat/update-1.36.1": true
   },
   "hypernets": {
     "master": true
