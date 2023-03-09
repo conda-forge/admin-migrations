@@ -58044,5 +58044,20 @@
   },
   "hydra-colorlog": {
     "main": true
+  },
+  "rb-net-http-persistent": {
+    "main": true
+  },
+  "rb-open_uri_redirections": {
+    "main": true
+  },
+  "rb-escape_utils": {
+    "main": true
+  },
+  "pygplates": {
+    "main": true
+  },
+  "rb-rack": {
+    "main": true
   }
 }
