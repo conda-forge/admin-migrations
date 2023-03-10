@@ -9033,7 +9033,8 @@
     "master": true
   },
   "kineticstoolkit": {
-    "master": true
+    "master": true,
+    "felixchenier-patch-1": true
   },
   "cpd": {
     "master": true
@@ -58076,5 +58077,8 @@
   "qt6-advanced-docking-system": {
     "main": true,
     "qt5": true
+  },
+  "get-annotations": {
+    "main": true
   }
 }
