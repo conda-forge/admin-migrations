@@ -7175,7 +7175,8 @@
     "v0.3.x": true
   },
   "eth-keyfile": {
-    "master": true
+    "master": true,
+    "v0.5.x": true
   },
   "eth-account": {
     "master": true,
@@ -58082,6 +58083,12 @@
     "main": true
   },
   "airss": {
+    "main": true
+  },
+  "marching_cubes": {
+    "main": true
+  },
+  "ckmeans-1d-dp": {
     "main": true
   }
 }
