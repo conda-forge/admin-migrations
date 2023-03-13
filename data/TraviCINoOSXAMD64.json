@@ -56155,7 +56155,8 @@
   },
   "ruff": {
     "main": true,
-    "charlie/env": true
+    "charlie/env": true,
+    "charlie/rust": true
   },
   "airflow-provider-great-expectations": {
     "main": true,
