@@ -7076,7 +7076,8 @@
     "1.9.x": true
   },
   "rlp": {
-    "master": true
+    "master": true,
+    "v1.2.x": true
   },
   "python-gssapi": {
     "master": true
@@ -10453,7 +10454,8 @@
   },
   "xeus-sql": {
     "master": true,
-    "version-0.0.8": true
+    "version-0.0.8": true,
+    "marimeireles-m1-build": true
   },
   "r-see": {
     "master": true
