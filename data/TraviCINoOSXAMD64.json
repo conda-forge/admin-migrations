@@ -58200,5 +58200,14 @@
   },
   "genai": {
     "main": true
+  },
+  "evals": {
+    "main": true
+  },
+  "tiktoken": {
+    "main": true
+  },
+  "pydantic-collections": {
+    "main": true
   }
 }
