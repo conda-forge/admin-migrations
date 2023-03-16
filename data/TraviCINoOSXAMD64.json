@@ -6812,7 +6812,8 @@
     "master": true
   },
   "pycaret": {
-    "master": true
+    "master": true,
+    "kd/loosen-scipy": true
   },
   "cmasher": {
     "master": true
