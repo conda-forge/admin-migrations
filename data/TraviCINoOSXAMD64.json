@@ -27026,7 +27026,8 @@
     "main": true
   },
   "docker-py": {
-    "main": true
+    "main": true,
+    "5.x": true
   },
   "docker-pycreds": {
     "main": true
