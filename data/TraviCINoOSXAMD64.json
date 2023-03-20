@@ -10664,7 +10664,8 @@
     "0.8.8_h78dd19": true
   },
   "openmmtools": {
-    "master": true
+    "master": true,
+    "pin-hdf5-version": true
   },
   "sanic-httpauth": {
     "master": true
@@ -58387,6 +58388,9 @@
     "main": true
   },
   "pyjs_code_runner": {
+    "main": true
+  },
+  "rsatoolbox": {
     "main": true
   }
 }
