@@ -23424,7 +23424,8 @@
   },
   "astropy": {
     "main": true,
-    "LTS": true
+    "LTS": true,
+    "v5.0.x": true
   },
   "astropy-healpix": {
     "main": true
@@ -34973,7 +34974,8 @@
   "notebook": {
     "master": true,
     "5.x": true,
-    "rc": true
+    "rc": true,
+    "alpha-7.x": true
   },
   "notebookscripter": {
     "master": true,
