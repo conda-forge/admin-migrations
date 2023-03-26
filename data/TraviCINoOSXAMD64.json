@@ -26015,7 +26015,8 @@
   },
   "cwltool": {
     "main": true,
-    "cachecontrol": true
+    "cachecontrol": true,
+    "update_deps": true
   },
   "cx_freeze": {
     "main": true
