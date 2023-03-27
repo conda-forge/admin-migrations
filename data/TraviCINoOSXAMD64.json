@@ -54558,7 +54558,8 @@
   },
   "pytest-redis": {
     "main": true,
-    "3.0.0_h230c3e": true
+    "3.0.0_h230c3e": true,
+    "3.0.1_h6dd639": true
   },
   "rpy2-arrow": {
     "main": true
@@ -58506,7 +58507,8 @@
     "main": true
   },
   "pygoss-meta": {
-    "main": true
+    "main": true,
+    "finsberg/cross-compile": true
   },
   "foundry-dev-tools": {
     "main": true
