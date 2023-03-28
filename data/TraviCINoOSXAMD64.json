@@ -58317,7 +58317,8 @@
     "main": true
   },
   "climada": {
-    "main": true
+    "main": true,
+    "add-unittest-to-recipe": true
   },
   "roseau-load-flow": {
     "main": true
