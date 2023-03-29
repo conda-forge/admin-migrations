@@ -54263,7 +54263,8 @@
     "main": true
   },
   "espnet": {
-    "main": true
+    "main": true,
+    "wietsedv-patch-1": true
   },
   "kaldiio": {
     "main": true
@@ -58665,6 +58666,9 @@
     "main": true
   },
   "slim-trees": {
+    "main": true
+  },
+  "fsl-pipe": {
     "main": true
   }
 }
