@@ -35902,7 +35902,8 @@
   "pandas": {
     "master": true,
     "v0.17.x": true,
-    "dev": true
+    "dev": true,
+    "debug_ppc64le_error": true
   },
   "pandas-compat": {
     "master": true
