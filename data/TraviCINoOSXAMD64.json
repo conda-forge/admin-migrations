@@ -58158,10 +58158,12 @@
     "main": true
   },
   "qt-gtk-platformtheme": {
-    "main": true
+    "main": true,
+    "qt6": true
   },
   "qt-wayland": {
-    "main": true
+    "main": true,
+    "qt6": true
   },
   "rb-csvlint": {
     "main": true
