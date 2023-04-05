@@ -8024,7 +8024,8 @@
     "master": true
   },
   "decaylanguage": {
-    "master": true
+    "master": true,
+    "eduardo-rodrigues-patch-1": true
   },
   "pytest-vcr": {
     "master": true
@@ -58852,6 +58853,30 @@
     "main": true
   },
   "healpix": {
+    "main": true
+  },
+  "pytcs": {
+    "main": true
+  },
+  "aiocron": {
+    "main": true
+  },
+  "dingo-gw": {
+    "main": true
+  },
+  "napari-tomotwin": {
+    "main": true
+  },
+  "ocean-contracts": {
+    "main": true
+  },
+  "psf": {
+    "main": true
+  },
+  "jinja2schema": {
+    "main": true
+  },
+  "sphinx-favicon": {
     "main": true
   }
 }
