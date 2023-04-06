@@ -58900,5 +58900,14 @@
   },
   "oneat-augmentations": {
     "main": true
+  },
+  "jupyterlite-core": {
+    "main": true
+  },
+  "jupyterlite": {
+    "main": true
+  },
+  "jupyterlite-pyodide-kernel": {
+    "main": true
   }
 }
