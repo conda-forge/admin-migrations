@@ -58918,5 +58918,17 @@
   },
   "ssh-python": {
     "main": true
+  },
+  "mypy-boto3-secretsmanager": {
+    "main": true
+  },
+  "pybacktrack": {
+    "main": true
+  },
+  "conda-project": {
+    "main": true
+  },
+  "lightning": {
+    "main": true
   }
 }
