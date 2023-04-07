@@ -10671,7 +10671,8 @@
   },
   "openmmtools": {
     "master": true,
-    "pin-hdf5-version": true
+    "pin-hdf5-version": true,
+    "rc": true
   },
   "sanic-httpauth": {
     "master": true
