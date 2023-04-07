@@ -58930,5 +58930,20 @@
   },
   "lightning": {
     "main": true
+  },
+  "cuda-cccl-impl": {
+    "main": true
+  },
+  "libcusparse": {
+    "main": true
+  },
+  "libcusolver": {
+    "main": true
+  },
+  "cuda-cccl": {
+    "main": true
+  },
+  "libnvjitlink": {
+    "main": true
   }
 }
