@@ -52290,7 +52290,8 @@
     "main": true
   },
   "kokkos": {
-    "main": true
+    "main": true,
+    "3.x": true
   },
   "esbuild": {
     "main": true
@@ -59254,7 +59255,8 @@
     "main": true
   },
   "referencing": {
-    "main": true
+    "main": true,
+    "0.27.x": true
   },
   "ormdantic": {
     "main": true
@@ -59317,6 +59319,33 @@
     "main": true
   },
   "wield.bunch": {
+    "main": true
+  },
+  "napari-stable-diffusion": {
+    "main": true
+  },
+  "empanada-napari": {
+    "main": true
+  },
+  "napari-hough-circle-detector": {
+    "main": true
+  },
+  "napari-blender-bridge": {
+    "main": true
+  },
+  "wield.pytest": {
+    "main": true
+  },
+  "openvino": {
+    "main": true
+  },
+  "napari-hierarchical": {
+    "main": true
+  },
+  "tcfile": {
+    "main": true
+  },
+  "morphospaces": {
     "main": true
   }
 }
