@@ -750,7 +750,8 @@
     "matteobachetti-patch-1": true
   },
   "stir": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "stochatreat": {
     "master": true
@@ -7811,7 +7812,8 @@
     "mmann1123-yaml-skip": true,
     "mmann1123-patch-4-1": true,
     "mmann1123-patch-5": true,
-    "mmann1123-patch-6": true
+    "mmann1123-patch-6": true,
+    "mmann1123-patch-7": true
   },
   "arosics": {
     "master": true,
