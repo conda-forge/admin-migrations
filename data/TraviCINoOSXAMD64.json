@@ -59363,5 +59363,20 @@
   },
   "xeus-cpp": {
     "main": true
+  },
+  "cuda-nvtx": {
+    "main": true
+  },
+  "cuda-nvcc": {
+    "main": true
+  },
+  "cuda-cupti": {
+    "main": true
+  },
+  "cuda-nvml-dev": {
+    "main": true
+  },
+  "cuda-profiler-api": {
+    "main": true
   }
 }
