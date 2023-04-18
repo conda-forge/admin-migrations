@@ -25982,7 +25982,8 @@
   },
   "cupy": {
     "main": true,
-    "rc": true
+    "rc": true,
+    "cuda-11": true
   },
   "curio": {
     "main": true
