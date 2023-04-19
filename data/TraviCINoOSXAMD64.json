@@ -7813,7 +7813,8 @@
     "mmann1123-patch-4-1": true,
     "mmann1123-patch-5": true,
     "mmann1123-patch-6": true,
-    "mmann1123-patch-7": true
+    "mmann1123-patch-7": true,
+    "mmann1123-patch-8": true
   },
   "arosics": {
     "master": true,
@@ -59417,7 +59418,8 @@
     "main": true
   },
   "nicegui": {
-    "main": true
+    "main": true,
+    "1.2.8_hbbc6f5": true
   },
   "napari-brainbow-diagnose": {
     "main": true
@@ -59450,6 +59452,9 @@
     "main": true
   },
   "r-modeltime.ensemble": {
+    "main": true
+  },
+  "r-gmwt": {
     "main": true
   }
 }
