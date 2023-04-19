@@ -50224,7 +50224,8 @@
   },
   "empack": {
     "main": true,
-    "bump-empack": true
+    "bump-empack": true,
+    "add-hatch(ling)": true
   },
   "dataclasses-jsonschema": {
     "main": true
