@@ -17992,7 +17992,8 @@
     "master": true
   },
   "sqlfluff": {
-    "master": true
+    "master": true,
+    "sg_add_automerge": true
   },
   "pypickle": {
     "master": true
