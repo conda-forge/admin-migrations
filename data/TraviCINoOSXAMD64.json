@@ -6842,7 +6842,8 @@
     "master": true
   },
   "hookee": {
-    "master": true
+    "master": true,
+    "bump": true
   },
   "jupyter-sphinx": {
     "master": true
