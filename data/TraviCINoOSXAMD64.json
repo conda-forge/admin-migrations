@@ -59560,5 +59560,38 @@
   },
   "pdm-backend": {
     "main": true
+  },
+  "luv": {
+    "main": true
+  },
+  "lua-compat-5.3-c": {
+    "main": true
+  },
+  "geovista-slam": {
+    "main": true
+  },
+  "libmpack-lua": {
+    "main": true
+  },
+  "lua-lpeg": {
+    "main": true
+  },
+  "luajit-openresty": {
+    "main": true
+  },
+  "unibilium": {
+    "main": true
+  },
+  "libtermkey": {
+    "main": true
+  },
+  "libtree-sitter": {
+    "main": true
+  },
+  "nvim": {
+    "main": true
+  },
+  "libvterm": {
+    "main": true
   }
 }
