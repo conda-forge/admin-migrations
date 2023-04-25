@@ -20215,7 +20215,8 @@
     "master": true
   },
   "cuquantum": {
-    "master": true
+    "master": true,
+    "cuda-11": true
   },
   "cli-ui": {
     "master": true,
