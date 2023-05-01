@@ -9162,7 +9162,8 @@
     "master": true
   },
   "python-isal": {
-    "master": true
+    "master": true,
+    "pypy38": true
   },
   "mypy-protobuf": {
     "master": true
