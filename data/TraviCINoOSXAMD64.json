@@ -10381,7 +10381,8 @@
   "pytango": {
     "master": true,
     "rc": true,
-    "dev": true
+    "dev": true,
+    "9.3-backports": true
   },
   "tango-test": {
     "master": true
