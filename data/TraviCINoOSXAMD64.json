@@ -5219,7 +5219,8 @@
     "master": true
   },
   "pretty_html_table": {
-    "master": true
+    "master": true,
+    "no_pandas_fixed": true
   },
   "iam-units": {
     "master": true
