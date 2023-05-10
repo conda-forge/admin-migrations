@@ -20324,7 +20324,8 @@
   },
   "deno": {
     "master": true,
-    "1.22.x": true
+    "1.22.x": true,
+    "quarto-contributors": true
   },
   "commitizen": {
     "master": true
@@ -53240,7 +53241,8 @@
     "main": true
   },
   "quarto": {
-    "main": true
+    "main": true,
+    "quarto-team-members": true
   },
   "r-nmslibr": {
     "main": true
