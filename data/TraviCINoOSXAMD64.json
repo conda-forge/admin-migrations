@@ -25069,7 +25069,8 @@
     "main": true,
     "v1.7.1": true,
     "1.5.2": true,
-    "duncanwp-patch-1": true
+    "duncanwp-patch-1": true,
+    "duncanwp-add-osx_arm64": true
   },
   "cis_interface": {
     "main": true
@@ -28984,7 +28985,8 @@
     "v3.1.x": true,
     "v2.4.x": true,
     "v3.4.x": true,
-    "v3.5.x": true
+    "v3.5.x": true,
+    "v3.6.x": true
   },
   "gdb": {
     "main": true,
