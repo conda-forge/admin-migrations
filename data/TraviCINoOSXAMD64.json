@@ -7541,7 +7541,8 @@
     "master": true
   },
   "dask-sql": {
-    "master": true
+    "master": true,
+    "rel_2023.2.0": true
   },
   "immutabledict": {
     "master": true
@@ -59938,6 +59939,18 @@
     "main": true
   },
   "xcb-util-cursor": {
+    "main": true
+  },
+  "libevalhyd": {
+    "main": true
+  },
+  "r-evalhyd": {
+    "main": true
+  },
+  "evalhyd-python": {
+    "main": true
+  },
+  "evalhyd-cli": {
     "main": true
   }
 }
