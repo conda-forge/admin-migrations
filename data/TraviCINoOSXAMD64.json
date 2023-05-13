@@ -58233,13 +58233,15 @@
     "main": true
   },
   "adwaita-qt": {
-    "main": true
+    "main": true,
+    "qt6": true
   },
   "gsettings-desktop-schemas": {
     "main": true
   },
   "qgnomeplatform": {
-    "main": true
+    "main": true,
+    "qt6": true
   },
   "asimov": {
     "main": true
