@@ -32706,7 +32706,8 @@
     "3.21.x": true,
     "3.18.x": true,
     "3.20.x": true,
-    "3.19.x": true
+    "3.19.x": true,
+    "4.22.x": true
   },
   "libpysal": {
     "master": true
@@ -60059,6 +60060,12 @@
     "main": true
   },
   "r-sirius-ms": {
+    "main": true
+  },
+  "batoid": {
+    "main": true
+  },
+  "pyxtal": {
     "main": true
   }
 }
