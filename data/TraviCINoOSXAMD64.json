@@ -13241,7 +13241,8 @@
     "master": true
   },
   "sphinxcontrib-confluencebuilder": {
-    "master": true
+    "master": true,
+    "2.1.0_h9a46d3": true
   },
   "prrng": {
     "master": true
@@ -25534,7 +25535,9 @@
   },
   "compiler-rt": {
     "main": true,
-    "rc": true
+    "rc": true,
+    "15.x": true,
+    "14.x": true
   },
   "compilers": {
     "main": true
@@ -32392,7 +32395,9 @@
     "master": true,
     "6.x": true,
     "5.x": true,
-    "rc": true
+    "rc": true,
+    "15.x": true,
+    "14.x": true
   },
   "libcxxwrap-julia": {
     "master": true
@@ -33155,7 +33160,9 @@
   "lld": {
     "master": true,
     "6.x": true,
-    "rc": true
+    "rc": true,
+    "15.x": true,
+    "14.x": true
   },
   "lldb": {
     "master": true
@@ -35540,7 +35547,9 @@
   "openmp": {
     "master": true,
     "rc": true,
-    "dev": true
+    "dev": true,
+    "15.x": true,
+    "14.x": true
   },
   "openmpi": {
     "master": true,
