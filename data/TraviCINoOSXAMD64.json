@@ -60063,7 +60063,8 @@
     "main": true
   },
   "nomad": {
-    "main": true
+    "main": true,
+    "1.3.x": true
   },
   "xpublish-wms": {
     "main": true,
