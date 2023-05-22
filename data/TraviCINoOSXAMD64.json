@@ -60205,5 +60205,14 @@
   },
   "rdma-core": {
     "main": true
+  },
+  "amundsen-metadata": {
+    "main": true
+  },
+  "amundsen-databuilder": {
+    "main": true
+  },
+  "amundsen-search": {
+    "main": true
   }
 }
