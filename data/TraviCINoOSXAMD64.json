@@ -60064,7 +60064,8 @@
   },
   "nomad": {
     "main": true,
-    "1.3.x": true
+    "1.3.x": true,
+    "1.4.x": true
   },
   "xpublish-wms": {
     "main": true,
@@ -60191,6 +60192,18 @@
     "main": true
   },
   "r-shiny.router": {
+    "main": true
+  },
+  "flux-restful-client": {
+    "main": true
+  },
+  "mmhash3": {
+    "main": true
+  },
+  "openmetadata-sqllineage": {
+    "main": true
+  },
+  "rdma-core": {
     "main": true
   }
 }
