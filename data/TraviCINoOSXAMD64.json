@@ -29177,7 +29177,8 @@
     "v1.4.x": true
   },
   "geoviews": {
-    "main": true
+    "main": true,
+    "1.10.0": true
   },
   "gerrychain": {
     "main": true
@@ -60234,6 +60235,15 @@
     "main": true
   },
   "onstove": {
+    "main": true
+  },
+  "json-stream-rs-tokenizer": {
+    "main": true
+  },
+  "articdb": {
+    "main": true
+  },
+  "earthkit-data": {
     "main": true
   }
 }
