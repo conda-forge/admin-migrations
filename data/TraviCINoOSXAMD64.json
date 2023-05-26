@@ -60269,5 +60269,20 @@
   },
   "polly": {
     "main": true
+  },
+  "unitpackage": {
+    "main": true
+  },
+  "json_stream": {
+    "main": true
+  },
+  "eppy-core": {
+    "main": true
+  },
+  "jupyterhub-traefik-proxy": {
+    "main": true
+  },
+  "kedro-datasets": {
+    "main": true
   }
 }
