@@ -22517,7 +22517,8 @@
     "main": true
   },
   "nnpops": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "cpp-expected": {
     "main": true
@@ -60283,6 +60284,9 @@
     "main": true
   },
   "kedro-datasets": {
+    "main": true
+  },
+  "bitsandbytes": {
     "main": true
   }
 }
