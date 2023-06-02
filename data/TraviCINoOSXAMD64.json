@@ -60428,5 +60428,23 @@
   },
   "termtosvg": {
     "main": true
+  },
+  "cuda-nvprof": {
+    "main": true
+  },
+  "cuda-nvvp": {
+    "main": true
+  },
+  "cuda-gdb": {
+    "main": true
+  },
+  "cuda-nvdisasm": {
+    "main": true
+  },
+  "pytest-excel": {
+    "main": true
+  },
+  "jupyter-collaboration": {
+    "main": true
   }
 }
