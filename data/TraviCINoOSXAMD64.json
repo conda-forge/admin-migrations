@@ -60400,5 +60400,17 @@
   },
   "websocket": {
     "main": true
+  },
+  "cuda-nsight": {
+    "main": true
+  },
+  "cuda-nvprune": {
+    "main": true
+  },
+  "cuda-cuobjdump": {
+    "main": true
+  },
+  "cuda-cuxxfilt": {
+    "main": true
   }
 }
