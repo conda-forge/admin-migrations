@@ -60471,5 +60471,20 @@
   },
   "cuda-compiler": {
     "main": true
+  },
+  "globus-compute-common-split": {
+    "main": true
+  },
+  "flask-minify": {
+    "main": true
+  },
+  "r-rflptools": {
+    "main": true
+  },
+  "globus-compute-sdk": {
+    "main": true
+  },
+  "globus-compute-endpoint": {
+    "main": true
   }
 }
