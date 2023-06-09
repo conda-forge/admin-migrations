@@ -6317,7 +6317,8 @@
   },
   "xarray-spatial": {
     "master": true,
-    "regenerate_recipe": true
+    "regenerate_recipe": true,
+    "numpy_version_for_v0.3.7": true
   },
   "r-clinfun": {
     "master": true
@@ -10688,7 +10689,8 @@
   "openmmtools": {
     "master": true,
     "pin-hdf5-version": true,
-    "rc": true
+    "rc": true,
+    "dev": true
   },
   "sanic-httpauth": {
     "master": true
