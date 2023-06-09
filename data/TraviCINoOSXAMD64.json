@@ -2956,7 +2956,8 @@
     "master": true
   },
   "xarrayutils": {
-    "master": true
+    "master": true,
+    "v2.0.0": true
   },
   "xattr": {
     "master": true
@@ -60488,6 +60489,9 @@
     "main": true
   },
   "globus-compute-endpoint": {
+    "main": true
+  },
+  "ncvis-climate": {
     "main": true
   }
 }
