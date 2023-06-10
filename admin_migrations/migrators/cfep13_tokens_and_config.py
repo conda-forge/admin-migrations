@@ -149,7 +149,7 @@ def _register_feedstock_outputs(feedstock):
         if "channel_sources" in cbc_cfg:
             channel_sources = cbc_cfg["channel_sources"][0].split(",")
         else:
-            channel_sources = ["conda-forge", "defaults", "msys2"]
+            channel_sources = ["conda-forge"]
 
         if "msys2" not in channel_sources:
             channel_sources.append("msys2")
