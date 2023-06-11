@@ -36752,7 +36752,8 @@
     "master": true
   },
   "podman-py": {
-    "master": true
+    "master": true,
+    "add-python311-migration": true
   },
   "poetry": {
     "master": true,
