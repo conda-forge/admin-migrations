@@ -60522,5 +60522,11 @@
   },
   "interpret-community": {
     "main": true
+  },
+  "cuda-opencl": {
+    "main": true
+  },
+  "nvcomp": {
+    "main": true
   }
 }
