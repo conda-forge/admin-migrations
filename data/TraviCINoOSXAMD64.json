@@ -60555,5 +60555,11 @@
   },
   "buildkite-test-collector": {
     "main": true
+  },
+  "pkce": {
+    "main": true
+  },
+  "ory-client": {
+    "main": true
   }
 }
