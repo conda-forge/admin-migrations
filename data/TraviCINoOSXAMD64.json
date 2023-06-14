@@ -60564,5 +60564,23 @@
   },
   "ory-client": {
     "main": true
+  },
+  "cuda-libraries": {
+    "main": true
+  },
+  "cuda-minimal-build": {
+    "main": true
+  },
+  "cuda-libraries-dev": {
+    "main": true
+  },
+  "nvidia-gds": {
+    "main": true
+  },
+  "cuda-libraries-static": {
+    "main": true
+  },
+  "cuda-runtime": {
+    "main": true
   }
 }
