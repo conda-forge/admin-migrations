@@ -53486,7 +53486,8 @@
     "main": true
   },
   "jsonschema-spec": {
-    "main": true
+    "main": true,
+    "0.1.x": true
   },
   "udocker": {
     "main": true
