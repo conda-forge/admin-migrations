@@ -26761,7 +26761,9 @@
     "main": true
   },
   "django-anymail": {
-    "main": true
+    "main": true,
+    "cshaley-patch-1": true,
+    "cshaley-patch-2": true
   },
   "django-appconf": {
     "main": true
