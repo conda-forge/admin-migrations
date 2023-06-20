@@ -505,7 +505,8 @@
   "spyder": {
     "master": true,
     "3.x": true,
-    "beta": true
+    "beta": true,
+    "dev": true
   },
   "spyder-kernels": {
     "master": true,
@@ -60664,6 +60665,9 @@
     "main": true
   },
   "pyscal3": {
+    "main": true
+  },
+  "panel-jstree": {
     "main": true
   }
 }
