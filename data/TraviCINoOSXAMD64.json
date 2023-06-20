@@ -59439,7 +59439,8 @@
     "main": true
   },
   "openvino": {
-    "main": true
+    "main": true,
+    "2022.3.x": true
   },
   "napari-hierarchical": {
     "main": true
@@ -60629,6 +60630,9 @@
     "main": true
   },
   "valida": {
+    "main": true
+  },
+  "gita": {
     "main": true
   }
 }
