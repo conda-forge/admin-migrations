@@ -2615,7 +2615,8 @@
     "master": true
   },
   "wagtail": {
-    "master": true
+    "master": true,
+    "update-5.0.2": true
   },
   "wagtail-bakery": {
     "master": true
