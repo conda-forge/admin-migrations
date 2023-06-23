@@ -2519,7 +2519,8 @@
   "voila": {
     "master": true,
     "0.1.8x": true,
-    "0.1.x": true
+    "0.1.x": true,
+    "0.3.x": true
   },
   "voila-gridstack": {
     "master": true
@@ -60690,6 +60691,21 @@
     "main": true
   },
   "scitoolsscianalysis": {
+    "main": true
+  },
+  "cuda-compat": {
+    "main": true
+  },
+  "synced_collections": {
+    "main": true
+  },
+  "guidance": {
+    "main": true
+  },
+  "bluesky-hwproxy": {
+    "main": true
+  },
+  "cuda-sanitizer-api": {
     "main": true
   }
 }
