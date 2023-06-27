@@ -34258,7 +34258,8 @@
   },
   "mpas_tools": {
     "master": true,
-    "libnetcdf_4.6.2": true
+    "libnetcdf_4.6.2": true,
+    "dev": true
   },
   "mpb": {
     "master": true
