@@ -39043,7 +39043,8 @@
   },
   "pytest-html": {
     "master": true,
-    "update_to_1_15_1": true
+    "update_to_1_15_1": true,
+    "rc": true
   },
   "pytest-httpserver": {
     "master": true
