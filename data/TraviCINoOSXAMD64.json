@@ -29319,7 +29319,8 @@
   "git-annex": {
     "main": true,
     "rc": true,
-    "is-reinstate-standalone-build": true
+    "is-reinstate-standalone-build": true,
+    "upgrade-10.20230626": true
   },
   "git-annex-remote-googledrive": {
     "main": true
