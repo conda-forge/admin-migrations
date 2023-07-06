@@ -27520,7 +27520,8 @@
     "main": true,
     "2.4.x": true,
     "5.x": true,
-    "7.x": true
+    "7.x": true,
+    "sethmlarson-patch-1": true
   },
   "elasticsearch-async": {
     "master": true
@@ -34734,7 +34735,8 @@
     "master": true,
     "dthain-readline-history": true,
     "dthain-readline-history-1": true,
-    "to_7.5.1": true
+    "to_7.5.1": true,
+    "to_7.6.0": true
   },
   "ndcsv": {
     "master": true
