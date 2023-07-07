@@ -18280,7 +18280,8 @@
     "master": true
   },
   "xcdat": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "contourpy": {
     "master": true
@@ -61030,6 +61031,21 @@
     "main": true
   },
   "wil": {
+    "main": true
+  },
+  "liecasadi": {
+    "main": true
+  },
+  "jax-dataclasses": {
+    "main": true
+  },
+  "timescoring": {
+    "main": true
+  },
+  "lb-telemetry": {
+    "main": true
+  },
+  "mathpad": {
     "main": true
   }
 }
