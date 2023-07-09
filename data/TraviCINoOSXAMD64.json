@@ -48606,7 +48606,8 @@
   "smesh": {
     "master": true,
     "dev": true,
-    "int32": true
+    "int32": true,
+    "occt7.6": true
   },
   "smif": {
     "master": true
