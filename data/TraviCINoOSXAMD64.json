@@ -61064,5 +61064,8 @@
   },
   "tfv": {
     "main": true
+  },
+  "pytest_parallel_mpi": {
+    "main": true
   }
 }
