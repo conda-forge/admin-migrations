@@ -24222,7 +24222,8 @@
     "main": true
   },
   "black": {
-    "main": true
+    "main": true,
+    "bump-build-num": true
   },
   "blackbook": {
     "main": true
