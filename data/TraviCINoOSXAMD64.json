@@ -50738,7 +50738,8 @@
     "main": true
   },
   "espaloma": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "atap_widgets": {
     "main": true,
@@ -61183,6 +61184,18 @@
     "main": true
   },
   "langsmith": {
+    "main": true
+  },
+  "google-cloud-storage-transfer": {
+    "main": true
+  },
+  "python-int-nomax-str-digits": {
+    "main": true
+  },
+  "idiap-devtools": {
+    "main": true
+  },
+  "beanie-batteries-queue": {
     "main": true
   }
 }
