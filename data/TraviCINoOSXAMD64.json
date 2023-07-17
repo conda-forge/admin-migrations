@@ -61185,7 +61185,8 @@
     "main": true
   },
   "langsmith": {
-    "main": true
+    "main": true,
+    "wfh/update_reqs": true
   },
   "google-cloud-storage-transfer": {
     "main": true
@@ -61212,6 +61213,9 @@
     "main": true
   },
   "pins": {
+    "main": true
+  },
+  "napari-workshop-browser": {
     "main": true
   }
 }
