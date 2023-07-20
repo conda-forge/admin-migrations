@@ -14947,7 +14947,8 @@
     "master": true
   },
   "convert3d": {
-    "master": true
+    "master": true,
+    "v1.4.0": true
   },
   "r-policytree": {
     "master": true
@@ -61322,6 +61323,9 @@
     "main": true
   },
   "daggerpy": {
+    "main": true
+  },
+  "py4d-browser": {
     "main": true
   }
 }
