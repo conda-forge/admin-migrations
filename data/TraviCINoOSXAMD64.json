@@ -56700,7 +56700,8 @@
     "main": true
   },
   "skranger": {
-    "main": true
+    "main": true,
+    "v0.7.0": true
   },
   "calver": {
     "main": true
@@ -61479,6 +61480,9 @@
     "main": true
   },
   "fancy-collections": {
+    "main": true
+  },
+  "starlette-admin": {
     "main": true
   }
 }
