@@ -56235,7 +56235,8 @@
     "main": true
   },
   "flask-openapi3": {
-    "main": true
+    "main": true,
+    "v2.x": true
   },
   "snowflake-snowpark-python": {
     "main": true
@@ -61750,6 +61751,12 @@
     "main": true
   },
   "earthformer": {
+    "main": true
+  },
+  "ambit": {
+    "main": true
+  },
+  "abacus": {
     "main": true
   }
 }
