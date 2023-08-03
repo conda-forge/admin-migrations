@@ -55735,7 +55735,8 @@
     "main": true
   },
   "openff-models": {
-    "main": true
+    "main": true,
+    "mattwthompson-patch-1": true
   },
   "r-shinymobile": {
     "main": true
@@ -61884,6 +61885,12 @@
     "main": true
   },
   "clickqt": {
+    "main": true
+  },
+  "blackrenderer": {
+    "main": true
+  },
+  "r-multiblock": {
     "main": true
   }
 }
