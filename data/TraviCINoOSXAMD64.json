@@ -17760,7 +17760,8 @@
   },
   "setuptools-github": {
     "master": true,
-    "0.2.2": true
+    "0.2.2": true,
+    "0.3.7": true
   },
   "salesforce-merlion": {
     "master": true
@@ -61954,6 +61955,9 @@
     "main": true
   },
   "r-ottr": {
+    "main": true
+  },
+  "edgedb-python": {
     "main": true
   }
 }
