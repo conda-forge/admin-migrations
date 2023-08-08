@@ -6831,7 +6831,8 @@
   },
   "pycaret": {
     "master": true,
-    "kd/loosen-scipy": true
+    "kd/loosen-scipy": true,
+    "kd/pycaret3": true
   },
   "cmasher": {
     "master": true
@@ -21024,7 +21025,8 @@
     "master": true
   },
   "ipumspy": {
-    "master": true
+    "master": true,
+    "0.4.1_h247b6d": true
   },
   "yachalk": {
     "master": true
@@ -62000,6 +62002,18 @@
     "main": true
   },
   "colormaps": {
+    "main": true
+  },
+  "prophecy-build-tool": {
+    "main": true
+  },
+  "kedro-aim": {
+    "main": true
+  },
+  "dask-expr": {
+    "main": true
+  },
+  "titrate": {
     "main": true
   }
 }
