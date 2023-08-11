@@ -59209,7 +59209,8 @@
     "main": true
   },
   "rapidpe-rift-pipe": {
-    "main": true
+    "main": true,
+    "dwysocki-patch-1": true
   },
   "tranquilo": {
     "main": true
@@ -62071,6 +62072,15 @@
     "main": true
   },
   "holodeck-gw": {
+    "main": true
+  },
+  "nichord": {
+    "main": true
+  },
+  "xcube-4d-viewer": {
+    "main": true
+  },
+  "coexist": {
     "main": true
   }
 }
