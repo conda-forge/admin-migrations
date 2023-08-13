@@ -62137,5 +62137,29 @@
   },
   "lazy-imports": {
     "main": true
+  },
+  "azure-core-cpp": {
+    "main": true
+  },
+  "azure-storage-queues-cpp": {
+    "main": true
+  },
+  "azure-storage-files-shares-cpp": {
+    "main": true
+  },
+  "azure-identity-cpp": {
+    "main": true
+  },
+  "gnss-sdr": {
+    "main": true
+  },
+  "azure-storage-files-datalake-cpp": {
+    "main": true
+  },
+  "azure-storage-blobs-cpp": {
+    "main": true
+  },
+  "azure-storage-common-cpp": {
+    "main": true
   }
 }
