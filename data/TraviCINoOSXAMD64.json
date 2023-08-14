@@ -14220,7 +14220,8 @@
     "master": true
   },
   "geoutils": {
-    "master": true
+    "master": true,
+    "update-geopandas-min-version": true
   },
   "hpp-gepetto-viewer": {
     "master": true
