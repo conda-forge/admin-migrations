@@ -49668,7 +49668,8 @@
     "main": true
   },
   "finetuning-scheduler": {
-    "main": true
+    "main": true,
+    "revert-25-v2.0.6": true
   },
   "libdwarf": {
     "main": true
