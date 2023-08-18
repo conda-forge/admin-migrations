@@ -17764,7 +17764,8 @@
     "master": true,
     "0.2.2": true,
     "0.3.7": true,
-    "0.3.9": true
+    "0.3.9": true,
+    "0.3.10": true
   },
   "salesforce-merlion": {
     "master": true
@@ -61555,7 +61556,8 @@
     "main": true
   },
   "rerun-sdk": {
-    "main": true
+    "main": true,
+    "jleibs/arm_target_if_cross_compiling": true
   },
   "ebcdic-parser": {
     "main": true
