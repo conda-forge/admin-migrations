@@ -62348,5 +62348,29 @@
   },
   "rigolwfm": {
     "main": true
+  },
+  "apache-airflow-providers-apache-kafka": {
+    "main": true
+  },
+  "apache-airflow-providers-atlassian-jira": {
+    "main": true
+  },
+  "apache-airflow-providers-arangodb": {
+    "main": true
+  },
+  "apache-airflow-providers-daskexecutor": {
+    "main": true
+  },
+  "apache-airflow-providers-tabular": {
+    "main": true
+  },
+  "apache-airflow-providers-openlineage": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-flink": {
+    "main": true
+  },
+  "apache-airflow-providers-apprise": {
+    "main": true
   }
 }
