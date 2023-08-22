@@ -46393,7 +46393,8 @@
     "master": true
   },
   "rabbitmq-server": {
-    "master": true
+    "master": true,
+    "v3.11": true
   },
   "racket": {
     "master": true
