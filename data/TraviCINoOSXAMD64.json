@@ -367,7 +367,8 @@
     "master": true
   },
   "sphinxcontrib-bibtex": {
-    "master": true
+    "master": true,
+    "2.6-deps": true
   },
   "sphinxcontrib-devhelp": {
     "master": true
