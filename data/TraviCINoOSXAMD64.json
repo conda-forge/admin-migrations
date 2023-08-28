@@ -2138,7 +2138,8 @@
     "master": true
   },
   "unixodbc": {
-    "master": true
+    "master": true,
+    "2.3.11": true
   },
   "untokenize": {
     "master": true
@@ -49346,7 +49347,8 @@
     "main": true
   },
   "typescript-eslint-parser": {
-    "main": true
+    "main": true,
+    "jens-ox/remove-jens": true
   },
   "r-atsa": {
     "main": true
@@ -49403,7 +49405,8 @@
     "main": true
   },
   "typescript-eslint-eslint-plugin": {
-    "main": true
+    "main": true,
+    "jens-ox/remove-jens": true
   },
   "session-info": {
     "main": true
