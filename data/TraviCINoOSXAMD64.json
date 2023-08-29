@@ -20195,7 +20195,8 @@
     "master": true
   },
   "edgetest-hub": {
-    "master": true
+    "master": true,
+    "fdosani-patch-1": true
   },
   "edgetest-conda": {
     "master": true
@@ -49247,7 +49248,8 @@
   },
   "gufe": {
     "main": true,
-    "rc": true
+    "rc": true,
+    "dev": true
   },
   "dataretrieval": {
     "main": true
@@ -52336,7 +52338,8 @@
     "main": true
   },
   "py-shiny": {
-    "main": true
+    "main": true,
+    "posit-update": true
   },
   "hierarchicalforecast": {
     "main": true
