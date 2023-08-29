@@ -62559,7 +62559,8 @@
     "main": true
   },
   "earthly": {
-    "main": true
+    "main": true,
+    "0.5.x": true
   },
   "st-annotated-text": {
     "main": true
