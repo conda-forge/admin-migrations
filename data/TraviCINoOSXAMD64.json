@@ -48810,7 +48810,8 @@
   },
   "openfe": {
     "main": true,
-    "rc": true
+    "rc": true,
+    "dev": true
   },
   "hboard-widget": {
     "main": true
@@ -62668,6 +62669,12 @@
     "main": true
   },
   "torch-frft": {
+    "main": true
+  },
+  "hypsoreader": {
+    "main": true
+  },
+  "taxonid": {
     "main": true
   }
 }
