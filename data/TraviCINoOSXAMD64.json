@@ -33210,7 +33210,8 @@
   "lintegrate": {
     "master": true,
     "update": true,
-    "usepypi": true
+    "usepypi": true,
+    "incompatible_gsl": true
   },
   "lintel": {
     "master": true
