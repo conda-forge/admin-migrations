@@ -3181,6 +3181,8 @@
     "django-tables2",
     "django-tag-parser",
     "django-taggit",
+    "django-tenant-schemas",
+    "django-tenants",
     "django-termsandconditions",
     "django-test-plus",
     "django-timezone-field",
