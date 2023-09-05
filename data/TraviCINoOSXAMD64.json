@@ -62774,5 +62774,11 @@
   },
   "resolve-robotics-uri-py": {
     "main": true
+  },
+  "django-tenants": {
+    "main": true
+  },
+  "django-tenant-schemas": {
+    "main": true
   }
 }
