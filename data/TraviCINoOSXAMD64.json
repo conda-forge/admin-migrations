@@ -51100,7 +51100,8 @@
     "main": true
   },
   "connectorx": {
-    "main": true
+    "main": true,
+    "0.3.2_h2bf4a4": true
   },
   "r-moreparty": {
     "main": true
@@ -58001,7 +58002,8 @@
     "main": true
   },
   "muparserx": {
-    "main": true
+    "main": true,
+    "4.0.8": true
   },
   "qiskit-aer": {
     "main": true
@@ -62806,6 +62808,9 @@
     "main": true
   },
   "venn-abers": {
+    "main": true
+  },
+  "python-calamine": {
     "main": true
   }
 }
