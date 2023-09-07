@@ -14350,7 +14350,8 @@
     "master": true
   },
   "petpvc": {
-    "master": true
+    "master": true,
+    "osx-arm64": true
   },
   "xdem": {
     "master": true
