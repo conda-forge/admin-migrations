@@ -62857,5 +62857,14 @@
   },
   "fastapi-admin": {
     "main": true
+  },
+  "google-cloud-functions": {
+    "main": true
+  },
+  "bigframes": {
+    "main": true
+  },
+  "google-cloud-bigquery-connection": {
+    "main": true
   }
 }
