@@ -10411,7 +10411,8 @@
     "9.3-backports": true
   },
   "tango-test": {
-    "master": true
+    "master": true,
+    "rc": true
   },
   "itango": {
     "master": true
@@ -51106,7 +51107,8 @@
   },
   "connectorx": {
     "main": true,
-    "0.3.2_h2bf4a4": true
+    "0.3.2_h2bf4a4": true,
+    "rc": true
   },
   "r-moreparty": {
     "main": true
