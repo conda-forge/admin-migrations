@@ -62878,5 +62878,17 @@
   },
   "aihwkit-gpu": {
     "main": true
+  },
+  "django-grpc": {
+    "main": true
+  },
+  "whl2conda": {
+    "main": true
+  },
+  "pyproject2conda": {
+    "main": true
+  },
+  "proto-parser": {
+    "main": true
   }
 }
