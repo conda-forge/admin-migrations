@@ -62890,5 +62890,17 @@
   },
   "proto-parser": {
     "main": true
+  },
+  "basedmypy": {
+    "main": true
+  },
+  "flake8-logging": {
+    "main": true
+  },
+  "behave-django": {
+    "main": true
+  },
+  "basedtyping": {
+    "main": true
   }
 }
