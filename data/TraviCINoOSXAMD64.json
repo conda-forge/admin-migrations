@@ -54340,7 +54340,8 @@
     "main": true
   },
   "jupyterlab-h5web": {
-    "main": true
+    "main": true,
+    "v8.x": true
   },
   "collatex-python": {
     "main": true
