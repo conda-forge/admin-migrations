@@ -32698,7 +32698,8 @@
     "win_disable_libpng": true
   },
   "libjpeg-turbo": {
-    "master": true
+    "master": true,
+    "2.5.1.x": true
   },
   "libjpeg-turbo-cos7-aarch64": {
     "master": true
