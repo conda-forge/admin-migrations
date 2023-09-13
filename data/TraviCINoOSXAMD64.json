@@ -59143,7 +59143,8 @@
     "main": true
   },
   "jupyterlite-core": {
-    "main": true
+    "main": true,
+    "alpha": true
   },
   "jupyterlite": {
     "main": true
@@ -62940,6 +62941,12 @@
     "main": true
   },
   "pyubx2": {
+    "main": true
+  },
+  "sphinxcontrib-matlabdomain": {
+    "main": true
+  },
+  "cotengra": {
     "main": true
   }
 }
