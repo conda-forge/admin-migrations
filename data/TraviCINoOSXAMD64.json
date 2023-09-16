@@ -26070,7 +26070,8 @@
   "ctng-compilers": {
     "main": true,
     "libgcc-and-libstdcxx-9": true,
-    "gcc-7.5.0": true
+    "gcc-7.5.0": true,
+    "libgfortran": true
   },
   "cudatoolkit-dev": {
     "main": true,
