@@ -62997,7 +62997,8 @@
     "main": true
   },
   "webgpu-headers": {
-    "main": true
+    "main": true,
+    "2022.10.3": true
   },
   "trlib": {
     "main": true
@@ -63006,6 +63007,9 @@
     "main": true
   },
   "wgpu-native": {
+    "main": true
+  },
+  "pylinalg": {
     "main": true
   }
 }
