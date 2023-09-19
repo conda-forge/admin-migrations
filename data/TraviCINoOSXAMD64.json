@@ -26240,7 +26240,8 @@
   "cython": {
     "main": true,
     "0.23": true,
-    "dev": true
+    "dev": true,
+    "0.29.x": true
   },
   "cython-blis": {
     "main": true
