@@ -48831,7 +48831,8 @@
   "openfe": {
     "main": true,
     "rc": true,
-    "dev": true
+    "dev": true,
+    "dwhswenson-patch-1": true
   },
   "hboard-widget": {
     "main": true
@@ -63086,6 +63087,9 @@
     "main": true
   },
   "lstmcpipe": {
+    "main": true
+  },
+  "opentelemetry-exporter-prometheus": {
     "main": true
   }
 }
