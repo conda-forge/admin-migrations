@@ -2207,7 +2207,8 @@
   },
   "urllib3": {
     "master": true,
-    "v1.24.x": true
+    "v1.24.x": true,
+    "v1.26.x": true
   },
   "urlobject": {
     "master": true
@@ -47090,7 +47091,8 @@
     "master": true
   },
   "regionmask": {
-    "master": true
+    "master": true,
+    "0.11.0_h95d42f": true
   },
   "regions": {
     "master": true
