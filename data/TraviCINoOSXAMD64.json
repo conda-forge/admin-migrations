@@ -1678,7 +1678,8 @@
     "master": true
   },
   "tobac": {
-    "master": true
+    "master": true,
+    "v1.5.1_release": true
   },
   "tobler": {
     "master": true,
@@ -32709,7 +32710,8 @@
   },
   "libjpeg-turbo": {
     "master": true,
-    "2.5.1.x": true
+    "2.5.1.x": true,
+    "2.1.5.x": true
   },
   "libjpeg-turbo-cos7-aarch64": {
     "master": true
