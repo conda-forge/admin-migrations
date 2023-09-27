@@ -10265,7 +10265,8 @@
     "raybellwaves-patch-1": true
   },
   "nnetsauce": {
-    "master": true
+    "master": true,
+    "add-packages": true
   },
   "ocaml-zarith": {
     "master": true
