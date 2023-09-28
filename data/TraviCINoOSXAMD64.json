@@ -11966,7 +11966,8 @@
     "master": true
   },
   "pytask-parallel": {
-    "master": true
+    "master": true,
+    "rc": true
   },
   "pytask-stata": {
     "master": true
