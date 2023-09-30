@@ -54704,13 +54704,15 @@
     "main": true
   },
   "gz-transport": {
-    "main": true
+    "main": true,
+    "v12": true
   },
   "gz-plugin": {
     "main": true
   },
   "gz-fuel-tools": {
-    "main": true
+    "main": true,
+    "v8": true
   },
   "koopmans-kcp": {
     "main": true
@@ -54875,7 +54877,8 @@
     "v7": true
   },
   "gz-sensors": {
-    "main": true
+    "main": true,
+    "v7": true
   },
   "mcpl": {
     "main": true
