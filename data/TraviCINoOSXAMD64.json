@@ -38260,7 +38260,8 @@
     "master": true
   },
   "pylint": {
-    "master": true
+    "master": true,
+    "2.x": true
   },
   "pylint-celery": {
     "master": true
