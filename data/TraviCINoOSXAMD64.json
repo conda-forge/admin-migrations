@@ -56339,7 +56339,9 @@
   },
   "flask-openapi3": {
     "main": true,
-    "v2.x": true
+    "v2.x": true,
+    "flask-openapi3-v3.0.0rc2": true,
+    "flask-openapi3-v2.5.3": true
   },
   "snowflake-snowpark-python": {
     "main": true,
@@ -63334,6 +63336,9 @@
     "main": true
   },
   "pytest-mypy-testing": {
+    "main": true
+  },
+  "freesas": {
     "main": true
   }
 }
