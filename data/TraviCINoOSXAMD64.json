@@ -22853,7 +22853,8 @@
     "main": true
   },
   "act-atmos": {
-    "main": true
+    "main": true,
+    "pin-less-than-312": true
   },
   "ad3-cpp": {
     "main": true
@@ -33873,7 +33874,8 @@
     "master": true
   },
   "menuinst": {
-    "master": true
+    "master": true,
+    "1.x": true
   },
   "mercantile": {
     "master": true
