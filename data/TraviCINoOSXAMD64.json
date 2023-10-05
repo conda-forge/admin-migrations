@@ -6259,7 +6259,8 @@
     "master": true
   },
   "tokenizers": {
-    "master": true
+    "master": true,
+    "release/v0-14-0": true
   },
   "bpemb": {
     "master": true
