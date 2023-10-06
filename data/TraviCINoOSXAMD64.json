@@ -25625,7 +25625,8 @@
     "main": true,
     "rc": true,
     "15.x": true,
-    "14.x": true
+    "14.x": true,
+    "16.x": true
   },
   "compilers": {
     "main": true
@@ -35686,7 +35687,8 @@
     "rc": true,
     "dev": true,
     "15.x": true,
-    "14.x": true
+    "14.x": true,
+    "16.x": true
   },
   "openmpi": {
     "master": true,
