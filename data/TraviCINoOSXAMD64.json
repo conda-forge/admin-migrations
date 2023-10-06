@@ -30474,7 +30474,8 @@
   "htcondor": {
     "master": true,
     "v9.0.x": true,
-    "v10.0.x": true
+    "v10.0.x": true,
+    "v23.0.x": true
   },
   "htmap": {
     "master": true
@@ -47753,7 +47754,8 @@
   },
   "ruamel.yaml": {
     "master": true,
-    "0.16.x": true
+    "0.16.x": true,
+    "0.17.17": true
   },
   "ruamel.yaml.clib": {
     "master": true
