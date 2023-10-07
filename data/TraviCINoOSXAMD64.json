@@ -63311,7 +63311,8 @@
     "main": true
   },
   "alchemiscale": {
-    "main": true
+    "main": true,
+    "0.2.0_h8e0877": true
   },
   "credible": {
     "main": true
@@ -63410,6 +63411,12 @@
     "main": true
   },
   "va_am": {
+    "main": true
+  },
+  "jupyterlab-flake8": {
+    "main": true
+  },
+  "gotm": {
     "main": true
   }
 }
