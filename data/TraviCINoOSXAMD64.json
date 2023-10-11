@@ -58484,7 +58484,8 @@
     "main": true
   },
   "kfp-tekton-server-api": {
-    "main": true
+    "main": true,
+    "Tomcli-patch-1": true
   },
   "kalendar": {
     "main": true
@@ -63481,6 +63482,12 @@
     "main": true
   },
   "alfasim-sdk": {
+    "main": true
+  },
+  "clarabel": {
+    "main": true
+  },
+  "veros": {
     "main": true
   }
 }
