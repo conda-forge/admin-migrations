@@ -13749,7 +13749,8 @@
     "master": true
   },
   "elastic-apm": {
-    "master": true
+    "master": true,
+    "revert-45-update-codeowners": true
   },
   "aws-c-auth": {
     "master": true,
