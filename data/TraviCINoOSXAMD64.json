@@ -59202,7 +59202,8 @@
   "jupyterlite-core": {
     "main": true,
     "alpha": true,
-    "beta": true
+    "beta": true,
+    "rc": true
   },
   "jupyterlite": {
     "main": true
@@ -63491,7 +63492,8 @@
     "main": true
   },
   "veros": {
-    "main": true
+    "main": true,
+    "v1.5.0": true
   },
   "mlo-co2": {
     "main": true
@@ -63515,6 +63517,9 @@
     "main": true
   },
   "searoute": {
+    "main": true
+  },
+  "torchapp": {
     "main": true
   }
 }
