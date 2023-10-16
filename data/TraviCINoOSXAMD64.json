@@ -63657,5 +63657,14 @@
   },
   "sagemaker-kernel-wrapper": {
     "main": true
+  },
+  "pyiron_workflow": {
+    "main": true
+  },
+  "pyiron_potentialfit": {
+    "main": true
+  },
+  "mne-lsl": {
+    "main": true
   }
 }
