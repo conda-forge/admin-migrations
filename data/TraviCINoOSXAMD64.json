@@ -32195,7 +32195,8 @@
     "master": true
   },
   "lammps": {
-    "master": true
+    "master": true,
+    "downgrade_mlip": true
   },
   "lancet": {
     "master": true
