@@ -57754,7 +57754,8 @@
   "delta-spark": {
     "main": true,
     "v2.3.0": true,
-    "v2.4.0": true
+    "v2.4.0": true,
+    "v3.0.0": true
   },
   "trame-vuetify": {
     "main": true
@@ -63747,6 +63748,18 @@
     "main": true
   },
   "r-mmapcharr": {
+    "main": true
+  },
+  "sagemaker-jupyterlab-emr-extension": {
+    "main": true
+  },
+  "sagemaker-jupyterlab-extension": {
+    "main": true
+  },
+  "sagemaker-jupyterlab-extension-common": {
+    "main": true
+  },
+  "r-bien": {
     "main": true
   }
 }
