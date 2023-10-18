@@ -60431,7 +60431,8 @@
     "main": true
   },
   "anthropic": {
-    "main": true
+    "main": true,
+    "mikelambert-patch-1": true
   },
   "r-shiny.router": {
     "main": true
