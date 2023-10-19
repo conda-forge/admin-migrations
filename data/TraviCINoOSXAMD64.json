@@ -29831,7 +29831,8 @@
   },
   "gql": {
     "main": true,
-    "v0.2.0": true
+    "v0.2.0": true,
+    "beta": true
   },
   "gracedb-sdk": {
     "main": true
@@ -29877,7 +29878,8 @@
   "graphql-core": {
     "master": true,
     "2.x": true,
-    "v2.3.1": true
+    "v2.3.1": true,
+    "alpha": true
   },
   "graphql-js": {
     "master": true
