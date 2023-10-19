@@ -24944,7 +24944,8 @@
     "ha1707f-azure-azure-no-automerge-user": true,
     "gpu-tests": true,
     "gpu-tests-cupy": true,
-    "version-update-live-test": true
+    "version-update-live-test": true,
+    "gha_test": true
   },
   "cf_units": {
     "main": true
