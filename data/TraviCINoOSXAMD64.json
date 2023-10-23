@@ -17685,7 +17685,8 @@
     "master": true
   },
   "cuda-python": {
-    "master": true
+    "master": true,
+    "11.8": true
   },
   "readlif": {
     "master": true
@@ -63867,6 +63868,9 @@
     "main": true
   },
   "textual-fastdatatable": {
+    "main": true
+  },
+  "keras-core": {
     "main": true
   }
 }
