@@ -33725,7 +33725,8 @@
     "v2": true
   },
   "matminer": {
-    "master": true
+    "master": true,
+    "backwards": true
   },
   "matplotcheck": {
     "master": true
