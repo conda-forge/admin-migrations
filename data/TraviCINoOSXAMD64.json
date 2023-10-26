@@ -59227,7 +59227,8 @@
     "0.1.x": true
   },
   "jupyterlite": {
-    "main": true
+    "main": true,
+    "0.1.x": true
   },
   "jupyterlite-pyodide-kernel": {
     "main": true,
@@ -63915,6 +63916,24 @@
     "main": true
   },
   "subarch-select": {
+    "main": true
+  },
+  "r5py.sampledata.helsinki": {
+    "main": true
+  },
+  "proxy-tools": {
+    "main": true
+  },
+  "r5py.sampledata.sao_paulo": {
+    "main": true
+  },
+  "plotms": {
+    "main": true
+  },
+  "lintrunner-adapters": {
+    "main": true
+  },
+  "mubody": {
     "main": true
   }
 }
