@@ -14795,7 +14795,8 @@
     "master": true
   },
   "swmr-tools": {
-    "master": true
+    "master": true,
+    "add_blosc": true
   },
   "ondamonitor": {
     "master": true
