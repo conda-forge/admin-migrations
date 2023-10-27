@@ -59232,7 +59232,8 @@
   },
   "jupyterlite-pyodide-kernel": {
     "main": true,
-    "alpha": true
+    "alpha": true,
+    "0.1.x": true
   },
   "jupyverse-api": {
     "main": true
