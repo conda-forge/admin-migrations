@@ -64011,5 +64011,23 @@
   },
   "backports.entry-points-selectable": {
     "main": true
+  },
+  "napari-clipboard": {
+    "main": true
+  },
+  "napari-file-watcher": {
+    "main": true
+  },
+  "napari-cursor-tracker": {
+    "main": true
+  },
+  "napari-organoid-counter": {
+    "main": true
+  },
+  "napari-3d-counter": {
+    "main": true
+  },
+  "opennavsurf-bag": {
+    "main": true
   }
 }
