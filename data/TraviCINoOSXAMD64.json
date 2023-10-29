@@ -55361,7 +55361,8 @@
     "main": true
   },
   "perl-devel-nytprof": {
-    "main": true
+    "main": true,
+    "remove-nytprofpf-test": true
   },
   "perl-test-differences": {
     "main": true
