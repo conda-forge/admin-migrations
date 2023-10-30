@@ -64060,5 +64060,11 @@
   },
   "checkov": {
     "main": true
+  },
+  "cmake-package-check": {
+    "main": true
+  },
+  "arraylake": {
+    "main": true
   }
 }
