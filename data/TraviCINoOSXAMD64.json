@@ -63671,7 +63671,8 @@
     "main": true
   },
   "cognite-sdk": {
-    "main": true
+    "main": true,
+    "update-build-requirements": true
   },
   "lsstdesc-diffsky": {
     "main": true
