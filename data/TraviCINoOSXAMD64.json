@@ -64032,7 +64032,8 @@
     "main": true
   },
   "opennavsurf-bag": {
-    "main": true
+    "main": true,
+    "add_arm64_builds": true
   },
   "geoarrow-pyarrow": {
     "main": true
@@ -64071,6 +64072,9 @@
     "main": true
   },
   "tensorstore": {
+    "main": true
+  },
+  "amazon-sagemaker-jupyter-scheduler": {
     "main": true
   }
 }
