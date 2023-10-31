@@ -17612,7 +17612,8 @@
     "master": true
   },
   "aicsimageio": {
-    "master": true
+    "master": true,
+    "toloudis-patch-1": true
   },
   "declarative": {
     "master": true
@@ -57963,7 +57964,8 @@
     "main": true
   },
   "mamonca": {
-    "main": true
+    "main": true,
+    "samwaseda-patch-1": true
   },
   "waternetworkanalysis": {
     "main": true
@@ -64076,6 +64078,15 @@
     "main": true
   },
   "amazon-sagemaker-jupyter-scheduler": {
+    "main": true
+  },
+  "inspectds": {
+    "main": true
+  },
+  "orbax-checkpoint": {
+    "main": true
+  },
+  "open-notebook": {
     "main": true
   }
 }
