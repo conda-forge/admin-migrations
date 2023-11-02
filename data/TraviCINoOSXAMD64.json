@@ -64104,5 +64104,8 @@
   },
   "kedro-boot": {
     "main": true
+  },
+  "pymongo_inmemory": {
+    "main": true
   }
 }
