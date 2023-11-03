@@ -57394,16 +57394,19 @@
     "main": true
   },
   "jobard-daemon": {
-    "main": true
+    "main": true,
+    "maintainers": true
   },
   "jobard-remote-dask": {
-    "main": true
+    "main": true,
+    "maintainers": true
   },
   "felyxcontrib-metrics-workflow": {
     "main": true
   },
   "jobard-client": {
-    "main": true
+    "main": true,
+    "maintainers": true
   },
   "speedy-antlr-tool": {
     "main": true
@@ -57415,13 +57418,15 @@
     "main": true
   },
   "jobard-api": {
-    "main": true
+    "main": true,
+    "maintainers": true
   },
   "ipfn": {
     "main": true
   },
   "jobard-worker-dask": {
-    "main": true
+    "main": true,
+    "maintainers": true
   },
   "klongpy": {
     "main": true
@@ -64106,6 +64111,30 @@
     "main": true
   },
   "pymongo_inmemory": {
+    "main": true
+  },
+  "conda-poetry-liaison": {
+    "main": true
+  },
+  "distrax": {
+    "main": true
+  },
+  "r-cmdstanr": {
+    "main": true
+  },
+  "fscan": {
+    "main": true
+  },
+  "voici": {
+    "main": true
+  },
+  "r-spam64": {
+    "main": true
+  },
+  "ethos_penalps": {
+    "main": true
+  },
+  "djangorestframework-guardian2": {
     "main": true
   }
 }
