@@ -58810,7 +58810,8 @@
     "WenjieDu-patch-1": true
   },
   "tsdb": {
-    "main": true
+    "main": true,
+    "WenjieDu-patch-1": true
   },
   "dapclient": {
     "main": true
@@ -64172,6 +64173,57 @@
     "main": true
   },
   "pypromice": {
+    "main": true
+  },
+  "nomad-camels-driver-keysight-e5270b": {
+    "main": true
+  },
+  "nomad-camels-driver-keithley-220": {
+    "main": true
+  },
+  "nomad-camels-driver-agilent-34401a": {
+    "main": true
+  },
+  "nomad-camels-driver-voltcraft-pps": {
+    "main": true
+  },
+  "dagster-libs": {
+    "main": true
+  },
+  "zope.sqlalchemy": {
+    "main": true
+  },
+  "nomad-camels-driver-keithley-237": {
+    "main": true
+  },
+  "types-lxml": {
+    "main": true
+  },
+  "pandora-geno": {
+    "main": true
+  },
+  "nomad-camels-driver-keysight-b2912a": {
+    "main": true
+  },
+  "nomad-camels-driver-demo-instrument": {
+    "main": true
+  },
+  "nomad-camels-driver-keithley-2000": {
+    "main": true
+  },
+  "nomad-camels-driver-pid": {
+    "main": true
+  },
+  "pyheatdemand": {
+    "main": true
+  },
+  "pytrinamic": {
+    "main": true
+  },
+  "nomad-camels-driver-ni-daq": {
+    "main": true
+  },
+  "canopen": {
     "main": true
   }
 }
