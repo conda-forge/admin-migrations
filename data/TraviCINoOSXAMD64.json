@@ -58943,7 +58943,8 @@
   "pypots": {
     "main": true,
     "update_to_v0.0.10": true,
-    "v0.1": true
+    "v0.1": true,
+    "Releasing-PyPOTS-v0.2": true
   },
   "azure-purview-scanning": {
     "main": true
@@ -64224,6 +64225,12 @@
     "main": true
   },
   "canopen": {
+    "main": true
+  },
+  "anyscale": {
+    "main": true
+  },
+  "perl-uri-encode": {
     "main": true
   }
 }
