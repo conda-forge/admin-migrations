@@ -23406,7 +23406,8 @@
     "9.0.x": true,
     "10.0.x": true,
     "11.0.x": true,
-    "12.x": true
+    "12.x": true,
+    "13.x": true
   },
   "artview": {
     "main": true
@@ -64249,6 +64250,18 @@
     "main": true
   },
   "containers-sugar": {
+    "main": true
+  },
+  "pyet": {
+    "main": true
+  },
+  "microarch-level": {
+    "main": true
+  },
+  "rio-vrt": {
+    "main": true
+  },
+  "makim": {
     "main": true
   }
 }
