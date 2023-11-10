@@ -25695,7 +25695,8 @@
   },
   "conda-forge-ci-setup": {
     "main": true,
-    "2.x": true
+    "2.x": true,
+    "3.x": true
   },
   "conda-forge-pinning": {
     "main": true,
