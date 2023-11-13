@@ -24956,7 +24956,8 @@
     "gpu-tests": true,
     "gpu-tests-cupy": true,
     "version-update-live-test": true,
-    "gha_test": true
+    "gha_test": true,
+    "test-unique": true
   },
   "cf_units": {
     "main": true
@@ -27815,7 +27816,8 @@
   },
   "esgf-pyclient": {
     "main": true,
-    "fix-conda-dependencies": true
+    "fix-conda-dependencies": true,
+    "add-new-maintainer": true
   },
   "esmcol-validator": {
     "main": true
