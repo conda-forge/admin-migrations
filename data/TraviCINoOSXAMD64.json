@@ -58911,7 +58911,8 @@
     "main": true
   },
   "gplately": {
-    "main": true
+    "main": true,
+    "update_meta.yaml": true
   },
   "level-zero": {
     "main": true
@@ -63900,7 +63901,8 @@
     "main": true
   },
   "plate-model-manager": {
-    "main": true
+    "main": true,
+    "v1.1.5": true
   },
   "mmgp": {
     "main": true
@@ -64351,6 +64353,12 @@
     "main": true
   },
   "pytest-copie": {
+    "main": true
+  },
+  "pygsti": {
+    "main": true
+  },
+  "python-localvenv-kernel": {
     "main": true
   }
 }
