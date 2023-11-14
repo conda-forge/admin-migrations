@@ -55291,7 +55291,8 @@
     "main": true
   },
   "scriptengine-tasks-hpc": {
-    "main": true
+    "main": true,
+    "update/0.6.1": true
   },
   "pydistcheck": {
     "main": true
