@@ -29108,7 +29108,8 @@
     "v2.4.x": true,
     "v3.4.x": true,
     "v3.5.x": true,
-    "v3.6.x": true
+    "v3.6.x": true,
+    "v3.7.x": true
   },
   "gdb": {
     "main": true,
@@ -64346,6 +64347,9 @@
     "main": true
   },
   "simdutf": {
+    "main": true
+  },
+  "pytest-copie": {
     "main": true
   }
 }
