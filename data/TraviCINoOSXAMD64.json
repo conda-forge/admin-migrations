@@ -4169,7 +4169,8 @@
     "master": true
   },
   "modin": {
-    "master": true
+    "master": true,
+    "release-0.23.1.post0": true
   },
   "google-cloud-securitycenter": {
     "master": true
