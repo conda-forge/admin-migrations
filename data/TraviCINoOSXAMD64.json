@@ -63704,7 +63704,8 @@
     "main": true
   },
   "plaid": {
-    "main": true
+    "main": true,
+    "add-scikit-learn-dependency-to-run": true
   },
   "festvox-kallpc16k": {
     "main": true
