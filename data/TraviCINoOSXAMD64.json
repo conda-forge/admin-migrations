@@ -64426,5 +64426,11 @@
   },
   "uuid-utils": {
     "main": true
+  },
+  "opentelemetry-exporter-prometheus-remote-write": {
+    "main": true
+  },
+  "matsubplots": {
+    "main": true
   }
 }
