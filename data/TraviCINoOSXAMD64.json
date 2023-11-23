@@ -28453,7 +28453,8 @@
   },
   "flask-babel": {
     "main": true,
-    "0.9": true
+    "0.9": true,
+    "2.x": true
   },
   "flask-babelex": {
     "main": true
