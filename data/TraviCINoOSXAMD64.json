@@ -17325,7 +17325,8 @@
     "master": true
   },
   "opentelemetry-exporter-otlp-proto-grpc": {
-    "master": true
+    "master": true,
+    "v1.19.0": true
   },
   "opentelemetry-exporter-zipkin-json": {
     "master": true
@@ -64577,6 +64578,30 @@
     "main": true
   },
   "trino-server": {
+    "main": true
+  },
+  "sphinx-simplepdf": {
+    "main": true
+  },
+  "vizent": {
+    "main": true
+  },
+  "nbcx": {
+    "main": true
+  },
+  "openawsem": {
+    "main": true
+  },
+  "rooki": {
+    "main": true
+  },
+  "atomic-counter": {
+    "main": true
+  },
+  "gurobi-logtools": {
+    "main": true
+  },
+  "locate": {
     "main": true
   }
 }
