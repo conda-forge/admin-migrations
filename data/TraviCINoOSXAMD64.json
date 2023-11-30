@@ -9488,7 +9488,8 @@
     "master": true
   },
   "pynng": {
-    "master": true
+    "master": true,
+    "0.7.1-py312": true
   },
   "vtable-dumper": {
     "master": true
@@ -22146,7 +22147,8 @@
     "main": true,
     "5.2.x": true,
     "5.x": true,
-    "6.1.x": true
+    "6.1.x": true,
+    "6.3.2": true
   },
   "sphinx-exercise": {
     "main": true
@@ -59191,7 +59193,8 @@
     "main": true
   },
   "source": {
-    "main": true
+    "main": true,
+    "add_csv": true
   },
   "pennylane-lightning-gpu": {
     "main": true
