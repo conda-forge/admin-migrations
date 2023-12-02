@@ -18128,7 +18128,9 @@
     "master": true
   },
   "qibo": {
-    "master": true
+    "master": true,
+    "hyp": true,
+    "upv": true
   },
   "botocore-stubs": {
     "master": true
