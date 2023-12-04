@@ -64744,9 +64744,85 @@
     "main": true
   },
   "llama-cpp-python": {
-    "main": true
+    "main": true,
+    "chore/macos": true
   },
   "llama.cpp": {
+    "main": true
+  },
+  "spots-in-yeasts": {
+    "main": true
+  },
+  "sinabs-exodus": {
+    "main": true
+  },
+  "napari-emd": {
+    "main": true
+  },
+  "ollama": {
+    "main": true
+  },
+  "mim-solvers": {
+    "main": true
+  },
+  "rouge": {
+    "main": true
+  },
+  "questo": {
+    "main": true
+  },
+  "pygeodesic": {
+    "main": true
+  },
+  "flake8-tidy-imports": {
+    "main": true
+  },
+  "napari-merge-stardist-masks": {
+    "main": true
+  },
+  "darth-d": {
+    "main": true
+  },
+  "napari-serialcellpose": {
+    "main": true
+  },
+  "gemspa-spt": {
+    "main": true
+  },
+  "tabulous": {
+    "main": true
+  },
+  "flake8-bandit": {
+    "main": true
+  },
+  "napari-convpaint": {
+    "main": true
+  },
+  "flake8-no-pep420": {
+    "main": true
+  },
+  "napari-indices": {
+    "main": true
+  },
+  "libhidapi": {
+    "main": true
+  },
+  "matrix-nio": {
+    "main": true
+  },
+  "tiledb-bioimg": {
+    "main": true
+  },
+  "gekko": {
+    "main": true
+  },
+  "fastui": {
+    "main": true
+  },
+  "domb": {
+    "main": true
+  },
+  "anchor-droplet-chip": {
     "main": true
   }
 }
