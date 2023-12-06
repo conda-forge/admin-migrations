@@ -64901,7 +64901,8 @@
     "main": true
   },
   "replicate": {
-    "main": true
+    "main": true,
+    "backport/0.11": true
   },
   "delft_fiat": {
     "main": true
@@ -64967,6 +64968,9 @@
     "main": true
   },
   "insert-license-header": {
+    "main": true
+  },
+  "ripgrepy": {
     "main": true
   }
 }
