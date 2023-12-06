@@ -10413,7 +10413,8 @@
     "master": true
   },
   "tango-idl": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "cpptango": {
     "master": true,
@@ -61610,7 +61611,8 @@
     "main": true
   },
   "pydantic-config": {
-    "main": true
+    "main": true,
+    "revert-1-main": true
   },
   "sorcha": {
     "main": true
@@ -64958,6 +64960,12 @@
     "main": true
   },
   "django-formtools": {
+    "main": true
+  },
+  "winfiletime": {
+    "main": true
+  },
+  "insert-license-header": {
     "main": true
   }
 }
