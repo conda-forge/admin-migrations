@@ -13394,7 +13394,8 @@
     "master": true
   },
   "sirius": {
-    "master": true
+    "master": true,
+    "7.5.0": true
   },
   "pycm": {
     "master": true
@@ -65005,6 +65006,21 @@
     "main": true
   },
   "terraform-provider-opensearch": {
+    "main": true
+  },
+  "pycrdt-websocket": {
+    "main": true
+  },
+  "lxmlh": {
+    "main": true
+  },
+  "parallel-numpy-rng": {
+    "main": true
+  },
+  "yaqd-pololu": {
+    "main": true
+  },
+  "femto": {
     "main": true
   }
 }
