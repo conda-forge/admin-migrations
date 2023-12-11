@@ -20043,7 +20043,8 @@
   },
   "qt-main": {
     "master": true,
-    "qt6": true
+    "qt6": true,
+    "qt6.5": true
   },
   "xanadu-cloud-client": {
     "master": true
@@ -65178,6 +65179,9 @@
     "main": true
   },
   "actions-toolkit": {
+    "main": true
+  },
+  "pycocoevalcap": {
     "main": true
   }
 }
