@@ -13396,7 +13396,8 @@
   },
   "sirius": {
     "master": true,
-    "7.5.0": true
+    "7.5.0": true,
+    "fix/7.5-osx": true
   },
   "pycm": {
     "master": true
@@ -25339,7 +25340,8 @@
     "main": true
   },
   "clickhouse-sqlalchemy": {
-    "main": true
+    "main": true,
+    "fix-32": true
   },
   "cliff": {
     "main": true
