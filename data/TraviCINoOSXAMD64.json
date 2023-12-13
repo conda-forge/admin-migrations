@@ -28157,7 +28157,8 @@
     "main": true
   },
   "faunus": {
-    "main": true
+    "main": true,
+    "ruamel_yaml_fix": true
   },
   "fbpca": {
     "main": true
