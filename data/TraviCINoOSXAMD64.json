@@ -64936,7 +64936,8 @@
     "main": true
   },
   "libcramjam": {
-    "main": true
+    "main": true,
+    "milesgranger/bump-version": true
   },
   "hostess": {
     "main": true
@@ -65240,6 +65241,9 @@
     "main": true
   },
   "langchain-core": {
+    "main": true
+  },
+  "r-baseset": {
     "main": true
   }
 }
