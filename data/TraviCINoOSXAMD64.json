@@ -5722,7 +5722,8 @@
     "add_python310": true
   },
   "micromamba": {
-    "master": true
+    "master": true,
+    "alpha": true
   },
   "pytest-reportlog": {
     "master": true
