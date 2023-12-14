@@ -57803,7 +57803,8 @@
     "main": true
   },
   "pycolmap": {
-    "main": true
+    "main": true,
+    "dev": true
   },
   "r-metamix": {
     "main": true
@@ -65251,6 +65252,9 @@
     "main": true
   },
   "dep-logic": {
+    "main": true
+  },
+  "tqdm-multiprocess": {
     "main": true
   }
 }
