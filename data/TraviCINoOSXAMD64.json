@@ -59383,7 +59383,8 @@
     "main": true
   },
   "langchain": {
-    "main": true
+    "main": true,
+    "0.0.34x": true
   },
   "openapi-schema-pydantic": {
     "main": true
@@ -65270,6 +65271,12 @@
     "main": true
   },
   "langchain-community": {
+    "main": true
+  },
+  "nrel-rex": {
+    "main": true
+  },
+  "jupyterlab-pioneer": {
     "main": true
   }
 }
