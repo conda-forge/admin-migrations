@@ -58884,7 +58884,8 @@
     "main": true
   },
   "plottoolbox": {
-    "main": true
+    "main": true,
+    "timcera-patch-1": true
   },
   "django_unicorn": {
     "main": true
@@ -65296,6 +65297,12 @@
     "main": true
   },
   "cocopye": {
+    "main": true
+  },
+  "runstats": {
+    "main": true
+  },
+  "r-osd": {
     "main": true
   }
 }
