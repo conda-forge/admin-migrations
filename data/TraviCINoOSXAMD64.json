@@ -60212,7 +60212,8 @@
     "main": true
   },
   "rattler-build": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "robin_hood": {
     "main": true
