@@ -52637,7 +52637,8 @@
     "main": true
   },
   "mitmproxy": {
-    "main": true
+    "main": true,
+    "license-workaround": true
   },
   "publicsuffix2": {
     "main": true
