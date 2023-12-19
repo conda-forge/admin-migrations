@@ -61841,7 +61841,8 @@
     "main": true
   },
   "polarify": {
-    "main": true
+    "main": true,
+    "rattler-build": true
   },
   "aws-cdk.aws-certificatemanager": {
     "main": true
