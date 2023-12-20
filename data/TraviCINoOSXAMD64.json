@@ -55316,7 +55316,8 @@
     "main": true
   },
   "nebari-dask": {
-    "main": true
+    "main": true,
+    "cmcandrew-unpin-dask": true
   },
   "symlink-exe-substitute": {
     "main": true
