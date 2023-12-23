@@ -36603,7 +36603,8 @@
   "perl": {
     "master": true,
     "legacy": true,
-    "5.26.2": true
+    "5.26.2": true,
+    "5.32.x": true
   },
   "perl-app-cpanminus": {
     "master": true,
