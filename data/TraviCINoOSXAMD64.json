@@ -50973,7 +50973,9 @@
     "main": true
   },
   "statista": {
-    "main": true
+    "main": true,
+    "distributions/probability-plot/fixbug/unifing-parameters": true,
+    "pull-request-names": true
   },
   "earth2observe": {
     "main": true
