@@ -10292,7 +10292,8 @@
     "master": true
   },
   "cppad": {
-    "master": true
+    "master": true,
+    "topic/doc": true
   },
   "azure-storage-file-datalake": {
     "master": true
