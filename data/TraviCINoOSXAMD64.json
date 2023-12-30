@@ -65531,5 +65531,14 @@
   "systemc": {
     "main": true,
     "dev": true
+  },
+  "nirtorch": {
+    "main": true
+  },
+  "marimo": {
+    "main": true
+  },
+  "vision-explanation-methods": {
+    "main": true
   }
 }
