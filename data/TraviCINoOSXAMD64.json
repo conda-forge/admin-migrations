@@ -25744,7 +25744,8 @@
   },
   "conda-forge-repodata-patches": {
     "main": true,
-    "gcc": true
+    "gcc": true,
+    "pre-commit-ci-update-config": true
   },
   "conda-gitenv": {
     "main": true
