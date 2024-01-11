@@ -22590,7 +22590,8 @@
     "main": true
   },
   "kfp-pipeline-spec": {
-    "main": true
+    "main": true,
+    "update-dep": true
   },
   "justpy": {
     "main": true
