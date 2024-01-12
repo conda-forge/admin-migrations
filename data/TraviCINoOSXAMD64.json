@@ -22897,7 +22897,8 @@
   },
   "act-atmos": {
     "main": true,
-    "pin-less-than-312": true
+    "pin-less-than-312": true,
+    "add-aiohttp": true
   },
   "ad3-cpp": {
     "main": true
