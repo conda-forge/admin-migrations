@@ -52463,7 +52463,8 @@
     "main": true
   },
   "cwb": {
-    "main": true
+    "main": true,
+    "6.4.3.4.maint": true
   },
   "kafkit": {
     "main": true
@@ -66054,6 +66055,9 @@
     "main": true
   },
   "spiceql": {
+    "main": true
+  },
+  "jupyterlite-xeus": {
     "main": true
   }
 }
