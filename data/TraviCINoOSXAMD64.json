@@ -62933,7 +62933,8 @@
     "main": true
   },
   "sparc-x": {
-    "main": true
+    "main": true,
+    "alchem0x2A-patch-1": true
   },
   "setuptools-parcels": {
     "main": true
@@ -66077,6 +66078,9 @@
     "main": true
   },
   "launchdarkly-eventsource": {
+    "main": true
+  },
+  "jupytercad-freecad": {
     "main": true
   }
 }
