@@ -39912,7 +39912,8 @@
   },
   "pytorch-cpu": {
     "master": true,
-    "test": true
+    "test": true,
+    "debug": true
   },
   "pytorch-pretrained-bert": {
     "master": true,
