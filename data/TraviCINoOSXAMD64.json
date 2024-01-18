@@ -63278,7 +63278,8 @@
     "main": true
   },
   "cbor2": {
-    "main": true
+    "main": true,
+    "v5.1.0": true
   },
   "lstmcpipe": {
     "main": true
@@ -66131,6 +66132,9 @@
     "main": true
   },
   "gwcosmo": {
+    "main": true
+  },
+  "r-quickjsr": {
     "main": true
   }
 }
