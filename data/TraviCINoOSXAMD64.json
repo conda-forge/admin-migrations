@@ -66143,5 +66143,17 @@
   },
   "bech32": {
     "main": true
+  },
+  "harlequin-trino": {
+    "main": true
+  },
+  "harlequin-postgres": {
+    "main": true
+  },
+  "harlequin-odbc": {
+    "main": true
+  },
+  "harlequin-bigquery": {
+    "main": true
   }
 }
