@@ -26161,7 +26161,8 @@
   "cupy": {
     "main": true,
     "rc": true,
-    "cuda-11": true
+    "cuda-11": true,
+    "v12": true
   },
   "curio": {
     "main": true
