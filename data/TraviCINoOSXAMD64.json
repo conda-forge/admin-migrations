@@ -7488,7 +7488,8 @@
   "21cmfast": {
     "master": true,
     "add-psutil": true,
-    "update-scm": true
+    "update-scm": true,
+    "add-arm": true
   },
   "aws-c-common": {
     "master": true
