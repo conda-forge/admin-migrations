@@ -33397,7 +33397,8 @@
     "16.x": true
   },
   "llvmlite": {
-    "master": true
+    "master": true,
+    "rc": true
   },
   "lmdb": {
     "master": true,
@@ -48285,7 +48286,8 @@
     "master": true
   },
   "scs": {
-    "master": true
+    "master": true,
+    "mcg1969-patch-1": true
   },
   "scyjava": {
     "master": true
