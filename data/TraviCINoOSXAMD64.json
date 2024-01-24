@@ -16913,7 +16913,8 @@
     "master": true
   },
   "smirnoff-plugins": {
-    "master": true
+    "master": true,
+    "release-2024.01.0": true
   },
   "autoviz": {
     "master": true
@@ -66232,6 +66233,9 @@
     "main": true
   },
   "sphinx-wagtail-theme": {
+    "main": true
+  },
+  "qcachegrind": {
     "main": true
   }
 }
