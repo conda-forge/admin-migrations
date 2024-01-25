@@ -35373,7 +35373,8 @@
   },
   "numba": {
     "master": true,
-    "revert-58-0.51.2_h5f3cd8": true
+    "revert-58-0.51.2_h5f3cd8": true,
+    "rc": true
   },
   "numba-scipy": {
     "master": true
