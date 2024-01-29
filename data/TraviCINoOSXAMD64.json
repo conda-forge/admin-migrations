@@ -63105,7 +63105,8 @@
     "main": true
   },
   "aihwkit-gpu": {
-    "main": true
+    "main": true,
+    "update-version": true
   },
   "django-grpc": {
     "main": true
