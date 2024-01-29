@@ -32278,7 +32278,8 @@
   },
   "lammps": {
     "master": true,
-    "downgrade_mlip": true
+    "downgrade_mlip": true,
+    "stable_2Aug2023": true
   },
   "lancet": {
     "master": true
