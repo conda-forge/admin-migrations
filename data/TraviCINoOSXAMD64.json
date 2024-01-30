@@ -65574,7 +65574,8 @@
   },
   "systemc": {
     "main": true,
-    "dev": true
+    "dev": true,
+    "2.3.3-x": true
   },
   "nirtorch": {
     "main": true
@@ -66334,6 +66335,24 @@
     "main": true
   },
   "m2w64-gcc": {
+    "main": true
+  },
+  "lastpass-cli": {
+    "main": true
+  },
+  "python-mumps": {
+    "main": true
+  },
+  "cutest": {
+    "main": true
+  },
+  "ensmallen_graph": {
+    "main": true
+  },
+  "proxsuite-nlp": {
+    "main": true
+  },
+  "aligator": {
     "main": true
   }
 }
