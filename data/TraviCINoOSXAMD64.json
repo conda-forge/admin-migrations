@@ -66353,7 +66353,8 @@
     "main": true
   },
   "proxsuite-nlp": {
-    "main": true
+    "main": true,
+    "add_osx_arm64_build": true
   },
   "aligator": {
     "main": true
