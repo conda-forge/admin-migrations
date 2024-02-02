@@ -24465,7 +24465,8 @@
     "v1.29.1": true
   },
   "botocore": {
-    "main": true
+    "main": true,
+    "arch-specific": true
   },
   "botor": {
     "main": true
