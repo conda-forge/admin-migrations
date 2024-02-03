@@ -4343,7 +4343,8 @@
     "py38": true
   },
   "pyngrok": {
-    "master": true
+    "master": true,
+    "bump-min-py-version": true
   },
   "terraform-provider-time": {
     "master": true
@@ -6883,7 +6884,8 @@
   },
   "hookee": {
     "master": true,
-    "bump": true
+    "bump": true,
+    "bump-min-py-version": true
   },
   "jupyter-sphinx": {
     "master": true,
