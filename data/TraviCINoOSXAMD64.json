@@ -57695,7 +57695,8 @@
     "main": true
   },
   "swapper": {
-    "main": true
+    "main": true,
+    "v1.1.0": true
   },
   "timer": {
     "main": true
@@ -66467,6 +66468,87 @@
     "main": true
   },
   "harlequin-databricks": {
+    "main": true
+  },
+  "pyospackage": {
+    "main": true
+  },
+  "django-solo": {
+    "main": true
+  },
+  "wagtail-periodic-review": {
+    "main": true
+  },
+  "heroicons": {
+    "main": true
+  },
+  "django-todo": {
+    "main": true
+  },
+  "repro-tarfile": {
+    "main": true
+  },
+  "single-sample-gsea": {
+    "main": true
+  },
+  "django-flags": {
+    "main": true
+  },
+  "bloaty": {
+    "main": true
+  },
+  "wagtail-modeladmin": {
+    "main": true
+  },
+  "dvg-ringbuffer": {
+    "main": true
+  },
+  "wagtail-generic-chooser": {
+    "main": true
+  },
+  "wagtail-app-pages": {
+    "main": true
+  },
+  "django-events-timetable": {
+    "main": true
+  },
+  "webstories": {
+    "main": true
+  },
+  "wagtail-ai": {
+    "main": true
+  },
+  "wagtailtables": {
+    "main": true
+  },
+  "wagtailstreamforms": {
+    "main": true
+  },
+  "wagtailcharts": {
+    "main": true
+  },
+  "wagtail-transfer": {
+    "main": true
+  },
+  "wagtailnews": {
+    "main": true
+  },
+  "wagtail-treemodeladmin": {
+    "main": true
+  },
+  "wagtailgridder": {
+    "main": true
+  },
+  "wagtail-taggable": {
+    "main": true
+  },
+  "wagtailmedia": {
+    "main": true
+  },
+  "wagtail-themes": {
+    "main": true
+  },
+  "bynder-sdk": {
     "main": true
   }
 }
