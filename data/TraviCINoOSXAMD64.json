@@ -56341,7 +56341,8 @@
     "main": true
   },
   "pyiceberg": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "dbt-dremio": {
     "main": true
