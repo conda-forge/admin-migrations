@@ -64631,7 +64631,8 @@
     "main": true
   },
   "conda-sphinx-theme": {
-    "main": true
+    "main": true,
+    "release-0-2-1": true
   },
   "aiohttp-socks": {
     "main": true
@@ -66613,6 +66614,18 @@
     "main": true
   },
   "passhash": {
+    "main": true
+  },
+  "coderedcms": {
+    "main": true
+  },
+  "django-eventtools": {
+    "main": true
+  },
+  "wagtail-cache": {
+    "main": true
+  },
+  "wagtail-seo": {
     "main": true
   }
 }
