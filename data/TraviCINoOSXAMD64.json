@@ -65811,7 +65811,8 @@
     "main": true
   },
   "trx-python": {
-    "main": true
+    "main": true,
+    "add-serge": true
   },
   "boxsdk": {
     "main": true
@@ -66652,6 +66653,9 @@
     "main": true
   },
   "compas_robots": {
+    "main": true
+  },
+  "caldav": {
     "main": true
   }
 }
