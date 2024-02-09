@@ -6885,7 +6885,8 @@
   "hookee": {
     "master": true,
     "bump": true,
-    "bump-min-py-version": true
+    "bump-min-py-version": true,
+    "alaird/main": true
   },
   "jupyter-sphinx": {
     "master": true,
