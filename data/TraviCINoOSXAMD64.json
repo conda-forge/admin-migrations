@@ -29803,7 +29803,8 @@
     "main": true
   },
   "google-cloud-pubsub": {
-    "main": true
+    "main": true,
+    "fix_grpc": true
   },
   "google-cloud-sdk": {
     "main": true
