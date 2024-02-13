@@ -61850,7 +61850,8 @@
   },
   "rerun-sdk": {
     "main": true,
-    "jleibs/arm_target_if_cross_compiling": true
+    "jleibs/arm_target_if_cross_compiling": true,
+    "0.13.0_ha0d5ae": true
   },
   "ebcdic-parser": {
     "main": true
@@ -66913,6 +66914,24 @@
     "main": true
   },
   "robotraconteur_companion_python": {
+    "main": true
+  },
+  "django-webhook": {
+    "main": true
+  },
+  "panelaero": {
+    "main": true
+  },
+  "compas_timber": {
+    "main": true
+  },
+  "exn": {
+    "main": true
+  },
+  "pypdfform": {
+    "main": true
+  },
+  "s1etad": {
     "main": true
   }
 }
