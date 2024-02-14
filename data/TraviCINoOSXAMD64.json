@@ -27139,7 +27139,8 @@
     "main": true
   },
   "django-viewflow": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "django-wagtail-feeds": {
     "main": true
