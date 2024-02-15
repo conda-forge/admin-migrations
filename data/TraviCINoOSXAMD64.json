@@ -3001,7 +3001,8 @@
     "master": true
   },
   "xclim": {
-    "master": true
+    "master": true,
+    "testing-windows": true
   },
   "xcube": {
     "master": true
@@ -66970,6 +66971,15 @@
     "main": true
   },
   "pyassimp": {
+    "main": true
+  },
+  "iosacal": {
+    "main": true
+  },
+  "json-schema-for-humans": {
+    "main": true
+  },
+  "typstfmt": {
     "main": true
   }
 }
