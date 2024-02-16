@@ -58615,7 +58615,8 @@
     "main": true
   },
   "abi-dumper": {
-    "main": true
+    "main": true,
+    "dev": true
   },
   "transformer-smaller-training-vocab": {
     "main": true
