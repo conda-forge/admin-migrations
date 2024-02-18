@@ -67082,5 +67082,32 @@
   },
   "r-sps": {
     "main": true
+  },
+  "datasette-edit-schema": {
+    "main": true
+  },
+  "datasette-render-markdown": {
+    "main": true
+  },
+  "datasette-template-sql": {
+    "main": true
+  },
+  "datasette-nteract-data-explorer": {
+    "main": true
+  },
+  "datasette-insert": {
+    "main": true
+  },
+  "datasette-leaflet": {
+    "main": true
+  },
+  "django-sql-explorer": {
+    "main": true
+  },
+  "datasette-copyable": {
+    "main": true
+  },
+  "django-sql-dashboard": {
+    "main": true
   }
 }
