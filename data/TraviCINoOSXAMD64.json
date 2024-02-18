@@ -67109,5 +67109,20 @@
   },
   "django-sql-dashboard": {
     "main": true
+  },
+  "parquet-metadata": {
+    "main": true
+  },
+  "datasette-parquet": {
+    "main": true
+  },
+  "pyco2sys": {
+    "main": true
+  },
+  "csv2parquet": {
+    "main": true
+  },
+  "selectolax": {
+    "main": true
   }
 }
