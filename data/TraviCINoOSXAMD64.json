@@ -66317,7 +66317,8 @@
     "main": true
   },
   "ghetool": {
-    "main": true
+    "main": true,
+    "v2.2.1": true
   },
   "simple_template": {
     "main": true
@@ -67177,6 +67178,48 @@
     "main": true
   },
   "delabella": {
+    "main": true
+  },
+  "wagtail-live": {
+    "main": true
+  },
+  "django-weasyprint": {
+    "main": true
+  },
+  "uf3": {
+    "main": true
+  },
+  "django-tex": {
+    "main": true
+  },
+  "wagtail-constance": {
+    "main": true
+  },
+  "lancedb": {
+    "main": true
+  },
+  "wagtail-pdf": {
+    "main": true
+  },
+  "django-otlp-log-exporter": {
+    "main": true
+  },
+  "tableau-to-sqlite": {
+    "main": true
+  },
+  "calkulate": {
+    "main": true
+  },
+  "django-colorful": {
+    "main": true
+  },
+  "wagtail-experiments": {
+    "main": true
+  },
+  "wagtail-markdown": {
+    "main": true
+  },
+  "objectlist": {
     "main": true
   }
 }
