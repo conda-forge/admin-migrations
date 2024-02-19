@@ -67133,5 +67133,32 @@
   },
   "pdb2sql": {
     "main": true
+  },
+  "datasette-statistics": {
+    "main": true
+  },
+  "llamaindex-py-client": {
+    "main": true
+  },
+  "datasette-configure-fts": {
+    "main": true
+  },
+  "db-build": {
+    "main": true
+  },
+  "datasette-enrichments": {
+    "main": true
+  },
+  "datasette-search-all": {
+    "main": true
+  },
+  "sqlite-history": {
+    "main": true
+  },
+  "datasette-gunicorn": {
+    "main": true
+  },
+  "datasette-cluster-map": {
+    "main": true
   }
 }
