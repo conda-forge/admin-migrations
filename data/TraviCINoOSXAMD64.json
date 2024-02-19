@@ -67236,5 +67236,14 @@
   },
   "scripts": {
     "main": true
+  },
+  "django-queryhunter": {
+    "main": true
+  },
+  "hypofuzz": {
+    "main": true
+  },
+  "pytest-integration": {
+    "main": true
   }
 }
