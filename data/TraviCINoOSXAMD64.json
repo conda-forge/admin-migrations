@@ -67160,5 +67160,17 @@
   },
   "datasette-cluster-map": {
     "main": true
+  },
+  "datasette-scraper": {
+    "main": true
+  },
+  "datasette-dashboards": {
+    "main": true
+  },
+  "db-to-sqlite": {
+    "main": true
+  },
+  "tableauscraper": {
+    "main": true
   }
 }
