@@ -66963,7 +66963,8 @@
     "main": true
   },
   "sagemaker-code-editor": {
-    "main": true
+    "main": true,
+    "fix-memory-issue": true
   },
   "r-chatgpt": {
     "main": true
@@ -67290,6 +67291,12 @@
     "main": true
   },
   "wagtail-footnotes": {
+    "main": true
+  },
+  "fastclasses-json": {
+    "main": true
+  },
+  "intake-esgf": {
     "main": true
   }
 }
