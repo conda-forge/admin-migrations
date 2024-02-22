@@ -67024,7 +67024,8 @@
     "main": true
   },
   "dry-attr": {
-    "main": true
+    "main": true,
+    "al--add_maintainer_dennis": true
   },
   "llama-index-agent-openai": {
     "main": true
@@ -67297,6 +67298,15 @@
     "main": true
   },
   "intake-esgf": {
+    "main": true
+  },
+  "ormsgpack": {
+    "main": true
+  },
+  "substrate-interface": {
+    "main": true
+  },
+  "injective-py": {
     "main": true
   }
 }
