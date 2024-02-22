@@ -67310,7 +67310,9 @@
     "main": true
   },
   "injective-py": {
-    "main": true
+    "main": true,
+    "v0.9.12": true,
+    "v1.0.1": true
   },
   "libcloudspawner": {
     "main": true
@@ -67329,6 +67331,9 @@
     "revert-3-update-team": true
   },
   "archapp": {
+    "main": true
+  },
+  "harlequin-mysql": {
     "main": true
   }
 }
