@@ -67228,7 +67228,8 @@
     "main": true
   },
   "wagtail-markdown": {
-    "main": true
+    "main": true,
+    "v0.10.0": true
   },
   "objectlist": {
     "main": true
@@ -67397,6 +67398,9 @@
     "main": true
   },
   "xstatic-font-awesome": {
+    "main": true
+  },
+  "ltbams": {
     "main": true
   }
 }
