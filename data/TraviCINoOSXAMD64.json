@@ -67478,5 +67478,11 @@
   },
   "wagtail-charcount": {
     "main": true
+  },
+  "opentelemetry-instrumentation-system-metrics": {
+    "main": true
+  },
+  "artifacts-keyring": {
+    "main": true
   }
 }
