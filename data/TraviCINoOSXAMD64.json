@@ -67530,5 +67530,14 @@
   },
   "slowapi": {
     "main": true
+  },
+  "amazon-sagemaker-sql-magic": {
+    "main": true
+  },
+  "amazon-sagemaker-sql-execution": {
+    "main": true
+  },
+  "amazon-sagemaker-sql-editor": {
+    "main": true
   }
 }
