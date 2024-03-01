@@ -61215,7 +61215,8 @@
     "main": true
   },
   "grib2io-interp": {
-    "main": true
+    "main": true,
+    "windows": true
   },
   "pulsar-client": {
     "main": true
@@ -67551,6 +67552,15 @@
     "main": true
   },
   "rdatasets": {
+    "main": true
+  },
+  "imgui": {
+    "main": true
+  },
+  "liblzf": {
+    "main": true
+  },
+  "open3d": {
     "main": true
   }
 }
