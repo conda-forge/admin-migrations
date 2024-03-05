@@ -65555,7 +65555,8 @@
     "main": true
   },
   "metget": {
-    "main": true
+    "main": true,
+    "version_0.6.0": true
   },
   "python-ghostscript": {
     "main": true
@@ -67659,6 +67660,12 @@
     "main": true
   },
   "tmm": {
+    "main": true
+  },
+  "kubeflow-training": {
+    "main": true
+  },
+  "kubeflow-katib": {
     "main": true
   }
 }
