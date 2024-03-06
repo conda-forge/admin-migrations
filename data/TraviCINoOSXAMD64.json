@@ -66286,7 +66286,8 @@
     "main": true
   },
   "cptec-model": {
-    "main": true
+    "main": true,
+    "pynio": true
   },
   "perl-compress-bgzf": {
     "main": true
@@ -67680,7 +67681,8 @@
     "main": true
   },
   "cptec-subsaz": {
-    "main": true
+    "main": true,
+    "0.0.13": true
   },
   "alpha-shapes": {
     "main": true
