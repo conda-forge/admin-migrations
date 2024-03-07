@@ -67087,7 +67087,8 @@
     "main": true
   },
   "bip-utils": {
-    "main": true
+    "main": true,
+    "2.9.2_hb69edc": true
   },
   "ed25519-blake2b": {
     "main": true
@@ -67713,6 +67714,9 @@
     "main": true
   },
   "hatch-build-scripts": {
+    "main": true
+  },
+  "sparrow": {
     "main": true
   }
 }
