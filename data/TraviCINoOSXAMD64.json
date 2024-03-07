@@ -35686,7 +35686,8 @@
     "master": true,
     "v1.3.0": true,
     "protobuf-38": true,
-    "dev": true
+    "dev": true,
+    "drop-py38-for-older-numpy": true
   },
   "onnx-caffe2": {
     "master": true
