@@ -7753,7 +7753,9 @@
     "master": true
   },
   "slicer": {
-    "master": true
+    "master": true,
+    "add-maintainers": true,
+    "revert-5-add-maintainers": true
   },
   "uproot4": {
     "master": true
@@ -67742,6 +67744,12 @@
     "main": true
   },
   "version-parser": {
+    "main": true
+  },
+  "types-editdistance": {
+    "main": true
+  },
+  "types-hdbcli": {
     "main": true
   }
 }
