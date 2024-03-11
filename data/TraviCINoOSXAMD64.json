@@ -3029,7 +3029,8 @@
   },
   "xenv": {
     "master": true,
-    "0.0.4": true
+    "0.0.4": true,
+    "0.0.5": true
   },
   "xerces-c": {
     "master": true,
@@ -7055,7 +7056,8 @@
   },
   "pineappl": {
     "master": true,
-    "testos": true
+    "testos": true,
+    "fix-homepage": true
   },
   "cloudstorage": {
     "master": true
