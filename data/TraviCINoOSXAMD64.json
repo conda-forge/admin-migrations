@@ -8750,7 +8750,8 @@
     "master": true
   },
   "isce3": {
-    "master": true
+    "master": true,
+    "v0.15.x": true
   },
   "go-md2man": {
     "master": true
