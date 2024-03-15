@@ -3454,5 +3454,506 @@
   },
   "rsync": {
     "main": true
+  },
+  "rtree": {
+    "main": true
+  },
+  "ruamel": {
+    "main": true
+  },
+  "ruamel.yaml.clib": {
+    "main": true
+  },
+  "ruamel.yaml": {
+    "main": true,
+    "0.17.17": true,
+    "0.16.x": true
+  },
+  "rubiks": {
+    "main": true
+  },
+  "ruby": {
+    "main": true
+  },
+  "ruptures": {
+    "main": true
+  },
+  "rust": {
+    "main": true,
+    "dev": true
+  },
+  "rvlib": {
+    "main": true
+  },
+  "rw": {
+    "main": true
+  },
+  "sage": {
+    "main": true
+  },
+  "sagemaker-python-sdk": {
+    "main": true
+  },
+  "sagemath-db-conway-polynomials": {
+    "main": true
+  },
+  "sbcl": {
+    "main": true
+  },
+  "scalapack": {
+    "main": true
+  },
+  "scandir": {
+    "main": true
+  },
+  "sccache": {
+    "main": true
+  },
+  "schwimmbad": {
+    "main": true
+  },
+  "scikit-build": {
+    "main": true
+  },
+  "scikit-image": {
+    "main": true
+  },
+  "scikit-learn": {
+    "main": true,
+    "rc": true,
+    "0.24.x": true
+  },
+  "scikit-umfpack": {
+    "main": true
+  },
+  "scons": {
+    "main": true
+  },
+  "scipy": {
+    "main": true,
+    "v1.5": true,
+    "v1.8": true,
+    "v1.7": true,
+    "v1.9": true
+  },
+  "scotch": {
+    "main": true
+  },
+  "scqubits": {
+    "main": true
+  },
+  "scrypt": {
+    "main": true
+  },
+  "scs": {
+    "main": true
+  },
+  "sdl": {
+    "main": true
+  },
+  "sdl2": {
+    "main": true
+  },
+  "sdl_image": {
+    "main": true
+  },
+  "sed": {
+    "main": true
+  },
+  "sep": {
+    "main": true
+  },
+  "setproctitle": {
+    "main": true
+  },
+  "setuptools": {
+    "main": true,
+    "57.4.0": true,
+    "59_x": true
+  },
+  "sgp4": {
+    "main": true
+  },
+  "shapelib": {
+    "main": true
+  },
+  "shap": {
+    "main": true,
+    "0.39.x": true
+  },
+  "shapely": {
+    "main": true,
+    "dev": true
+  },
+  "shenfun": {
+    "main": true
+  },
+  "shortuuid": {
+    "main": true
+  },
+  "siesta": {
+    "main": true,
+    "v4.0.x": true
+  },
+  "simbody": {
+    "main": true
+  },
+  "simplejson": {
+    "main": true,
+    "3.17.x": true
+  },
+  "singular": {
+    "main": true
+  },
+  "sip": {
+    "main": true
+  },
+  "sisl": {
+    "main": true
+  },
+  "sixs": {
+    "main": true,
+    "support-m1": true,
+    "fix-windows": true
+  },
+  "skopeo": {
+    "main": true
+  },
+  "slycot": {
+    "main": true
+  },
+  "smesh": {
+    "main": true,
+    "occt7.6": true
+  },
+  "sniffio": {
+    "main": true
+  },
+  "sncosmo": {
+    "main": true,
+    "Add-pyyaml-dependency": true
+  },
+  "snowflake-connector-python": {
+    "main": true
+  },
+  "socat": {
+    "main": true
+  },
+  "soqt": {
+    "main": true
+  },
+  "sox": {
+    "main": true
+  },
+  "spacy": {
+    "main": true,
+    "v2.x": true
+  },
+  "sparsehash": {
+    "main": true
+  },
+  "spdlog": {
+    "main": true
+  },
+  "spectralib": {
+    "main": true
+  },
+  "spglib": {
+    "main": true,
+    "rc": true
+  },
+  "spyder-kernels": {
+    "main": true,
+    "rc": true
+  },
+  "sqlalchemy": {
+    "main": true,
+    "1.4.x": true,
+    "1.4.41": true
+  },
+  "sqlite": {
+    "main": true
+  },
+  "squashfs-tools": {
+    "main": true
+  },
+  "srm-ifce": {
+    "main": true
+  },
+  "srsly": {
+    "main": true,
+    "v1.x": true
+  },
+  "starlink-ast": {
+    "main": true
+  },
+  "starlette": {
+    "main": true,
+    "v0.24.0": true
+  },
+  "stevedore": {
+    "main": true
+  },
+  "suitesparse": {
+    "main": true
+  },
+  "sundials": {
+    "main": true
+  },
+  "sunpy": {
+    "main": true,
+    "rc": true,
+    "5.0.x": true
+  },
+  "superlu": {
+    "main": true
+  },
+  "superlu_dist": {
+    "main": true
+  },
+  "supervisor": {
+    "main": true
+  },
+  "swig": {
+    "main": true
+  },
+  "swiglpk": {
+    "main": true
+  },
+  "symengine": {
+    "main": true
+  },
+  "symmetrica": {
+    "main": true
+  },
+  "sympow": {
+    "main": true
+  },
+  "sympy": {
+    "main": true
+  },
+  "sysv_ipc": {
+    "main": true
+  },
+  "tachyon": {
+    "main": true
+  },
+  "tar": {
+    "main": true
+  },
+  "tbb": {
+    "2020.2": true
+  },
+  "tcsh": {
+    "main": true
+  },
+  "tectonic": {
+    "main": true
+  },
+  "tempest-remap": {
+    "main": true,
+    "2.1.1": true
+  },
+  "terminado": {
+    "main": true
+  },
+  "tesseract": {
+    "main": true
+  },
+  "tesserocr": {
+    "main": true
+  },
+  "texinfo": {
+    "main": true
+  },
+  "tf2onnx": {
+    "main": true
+  },
+  "theano": {
+    "main": true
+  },
+  "thinc": {
+    "main": true,
+    "v7.x": true
+  },
+  "thrift": {
+    "main": true
+  },
+  "thrift-cpp": {
+    "main": true,
+    "0.14.1": true
+  },
+  "tiledb-py": {
+    "main": true,
+    "release-0.12": true,
+    "0.12.0rc0": true,
+    "0.13.0rc0": true
+  },
+  "tinyarray": {
+    "main": true
+  },
+  "tiledb": {
+    "main": true,
+    "2.18.x": true,
+    "update-2.18.4": true,
+    "2.19.x": true,
+    "2.11.x": true,
+    "ss/tiledb-2.14.2": true,
+    "2.7-rc0a": true,
+    "2.6-rc1": true,
+    "2.6.4": true,
+    "2.7-rc0": true,
+    "ss/2.17-libxml2-9": true
+  },
+  "tinyxml": {
+    "main": true
+  },
+  "tinyxml2": {
+    "main": true
+  },
+  "tippecanoe": {
+    "main": true
+  },
+  "tk": {
+    "main": true
+  },
+  "tktable": {
+    "main": true
+  },
+  "tmux": {
+    "main": true
+  },
+  "tokei": {
+    "main": true
+  },
+  "tomlkit": {
+    "main": true
+  },
+  "tornado": {
+    "main": true
+  },
+  "tox": {
+    "main": true
+  },
+  "traits": {
+    "main": true
+  },
+  "treecorr": {
+    "main": true
+  },
+  "trio": {
+    "main": true
+  },
+  "tskit": {
+    "main": true
+  },
+  "tuiview": {
+    "main": true
+  },
+  "turbodbc": {
+    "main": true
+  },
+  "twine": {
+    "main": true
+  },
+  "twisted": {
+    "main": true
+  },
+  "typed-ast": {
+    "main": true
+  },
+  "typing": {
+    "main": true
+  },
+  "tzcode": {
+    "main": true
+  },
+  "tzlocal": {
+    "main": true
+  },
+  "uchardet": {
+    "main": true
+  },
+  "udunits2": {
+    "main": true
+  },
+  "ujson": {
+    "main": true
+  },
+  "umap-learn": {
+    "main": true
+  },
+  "uncrustify": {
+    "main": true
+  },
+  "unicodedata2": {
+    "main": true
+  },
+  "unzip": {
+    "main": true
+  },
+  "unixodbc": {
+    "main": true,
+    "dev": true,
+    "2.3.11": true
+  },
+  "urdfdom_headers": {
+    "main": true
+  },
+  "urdfdom": {
+    "main": true,
+    "1.0": true
+  },
+  "uriparser": {
+    "main": true
+  },
+  "uritools": {
+    "main": true
+  },
+  "urlquote": {
+    "main": true
+  },
+  "urwid": {
+    "main": true
+  },
+  "utfcpp": {
+    "main": true
+  },
+  "uvicorn": {
+    "main": true
+  },
+  "uvloop": {
+    "main": true
+  },
+  "vaex-core": {
+    "main": true
+  },
+  "vdt": {
+    "main": true
+  },
+  "vega": {
+    "main": true
+  },
+  "vega-cli": {
+    "main": true
+  },
+  "vim": {
+    "main": true
+  },
+  "virtualenv": {
+    "main": true,
+    "20.4.4": true
+  },
+  "vispy": {
+    "main": true
+  },
+  "vlfeat": {
+    "main": true
+  },
+  "volk": {
+    "main": true
+  },
+  "voms": {
+    "main": true
   }
 }
