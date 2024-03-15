@@ -2003,5 +2003,522 @@
   },
   "mpi": {
     "main": true
+  },
+  "mpi4py-fft": {
+    "main": true
+  },
+  "mpi4py": {
+    "main": true
+  },
+  "mpich": {
+    "3.x": true
+  },
+  "mppp": {
+    "main": true
+  },
+  "msgpack-c": {
+    "main": true
+  },
+  "msgpack-python": {
+    "main": true
+  },
+  "msitools": {
+    "main": true
+  },
+  "msprime": {
+    "main": true
+  },
+  "multidict": {
+    "main": true
+  },
+  "multiprocess": {
+    "main": true
+  },
+  "mumps": {
+    "main": true
+  },
+  "muparser": {
+    "main": true
+  },
+  "murmurhash": {
+    "main": true
+  },
+  "mypy": {
+    "main": true
+  },
+  "mypy_extensions": {
+    "main": true,
+    "0.4.x": true
+  },
+  "mysql": {
+    "main": true
+  },
+  "mysql-connector-cpp": {
+    "main": true
+  },
+  "mysql-connector-python": {
+    "main": true
+  },
+  "mysqlclient": {
+    "main": true
+  },
+  "nanoflann": {
+    "main": true
+  },
+  "nasm": {
+    "main": true
+  },
+  "nauty": {
+    "main": true
+  },
+  "nb_conda": {
+    "main": true
+  },
+  "nbconvert": {
+    "main": true,
+    "v5.6.1": true,
+    "rc": true
+  },
+  "ncurses": {
+    "main": true
+  },
+  "ndarray": {
+    "main": true
+  },
+  "nds2-client": {
+    "main": true
+  },
+  "nds2-client-swig": {
+    "main": true
+  },
+  "neovim": {
+    "main": true
+  },
+  "netcdf-cxx4": {
+    "main": true
+  },
+  "netcdf-fortran": {
+    "main": true,
+    "4.5.x": true
+  },
+  "netcdf4": {
+    "main": true,
+    "v1.6.0": true
+  },
+  "netifaces": {
+    "main": true
+  },
+  "nettle": {
+    "main": true
+  },
+  "networkit": {
+    "main": true
+  },
+  "nghttp2": {
+    "main": true
+  },
+  "ngram": {
+    "main": true
+  },
+  "ninja": {
+    "main": true
+  },
+  "nionswift-tool": {
+    "main": true
+  },
+  "nionui-tool": {
+    "main": true
+  },
+  "nitro": {
+    "main": true
+  },
+  "nlohmann_json": {
+    "main": true
+  },
+  "nlopt": {
+    "main": true
+  },
+  "normaliz": {
+    "main": true
+  },
+  "nodejs": {
+    "main": true,
+    "14.x": true,
+    "16.x": true,
+    "18.x": true
+  },
+  "notebook": {
+    "rc": true,
+    "beta-7.x": true,
+    "6.x": true,
+    "alpha-7.x": true
+  },
+  "nspr": {
+    "main": true
+  },
+  "nss": {
+    "main": true
+  },
+  "nsync": {
+    "main": true
+  },
+  "ntl": {
+    "main": true
+  },
+  "numcodecs": {
+    "main": true
+  },
+  "numba": {
+    "main": true,
+    "rc": true
+  },
+  "numexpr": {
+    "main": true
+  },
+  "numpy-stl": {
+    "main": true
+  },
+  "numpy": {
+    "main": true,
+    "dev": true,
+    "numpy124": true,
+    "numpy122": true,
+    "numpy123": true,
+    "numpy120": true,
+    "numpy119": true,
+    "numpy121": true
+  },
+  "objconv": {
+    "main": true
+  },
+  "obspy": {
+    "main": true
+  },
+  "occt": {
+    "main": true,
+    "occt_75": true,
+    "7.6": true
+  },
+  "ocl_icd_wrapper_apple": {
+    "main": true
+  },
+  "octomap": {
+    "main": true
+  },
+  "ogre": {
+    "main": true,
+    "1.10": true,
+    "1.12": true
+  },
+  "omegaconf": {
+    "main": true
+  },
+  "omniorb": {
+    "main": true
+  },
+  "oniguruma": {
+    "main": true
+  },
+  "onnx": {
+    "main": true,
+    "dev": true
+  },
+  "openal-soft": {
+    "main": true
+  },
+  "openbabel": {
+    "main": true
+  },
+  "openblas": {
+    "main": true
+  },
+  "opencamlib": {
+    "main": true
+  },
+  "openexr": {
+    "main": true
+  },
+  "opencv": {
+    "main": true,
+    "4.5.3": true
+  },
+  "openfst": {
+    "main": true
+  },
+  "openh264": {
+    "main": true
+  },
+  "openjpeg": {
+    "main": true
+  },
+  "openldap": {
+    "main": true
+  },
+  "openjdk": {
+    "main": true,
+    "java8": true,
+    "java17": true,
+    "java11": true
+  },
+  "openlibm": {
+    "main": true,
+    "v0.7.x": true
+  },
+  "openmm": {
+    "main": true,
+    "dev": true,
+    "rc": true
+  },
+  "openmpi": {
+    "4.x": true,
+    "rc": true
+  },
+  "openmp": {
+    "main": true,
+    "dev": true,
+    "14.x": true,
+    "16.x": true,
+    "rc": true,
+    "15.x": true
+  },
+  "openpmd-api": {
+    "main": true
+  },
+  "openslide": {
+    "main": true
+  },
+  "openssh": {
+    "main": true
+  },
+  "openstacksdk": {
+    "main": true
+  },
+  "openssl": {
+    "main": true,
+    "1.1.1": true,
+    "3.0.x": true,
+    "3.1.x": true
+  },
+  "openturns": {
+    "main": true
+  },
+  "orc": {
+    "main": true
+  },
+  "orderedset": {
+    "main": true
+  },
+  "orocos-kdl": {
+    "main": true
+  },
+  "osqp": {
+    "main": true
+  },
+  "p11-kit": {
+    "main": true
+  },
+  "p7zip": {
+    "main": true
+  },
+  "packmol": {
+    "main": true
+  },
+  "pagmo": {
+    "main": true
+  },
+  "palp": {
+    "main": true
+  },
+  "pandana": {
+    "main": true
+  },
+  "pandas": {
+    "main": true,
+    "dev": true,
+    "debug_ppc64le_error": true,
+    "v1.5.x": true
+  },
+  "pango": {
+    "main": true,
+    "1.48.x": true
+  },
+  "paprika": {
+    "main": true
+  },
+  "parabem": {
+    "main": true
+  },
+  "parallel": {
+    "main": true
+  },
+  "pari": {
+    "main": true
+  },
+  "parmetis": {
+    "main": true
+  },
+  "parmed": {
+    "main": true,
+    "3.4.1": true
+  },
+  "patch": {
+    "main": true
+  },
+  "path": {
+    "main": true
+  },
+  "pathlib2": {
+    "main": true
+  },
+  "pcl": {
+    "main": true
+  },
+  "pcre": {
+    "main": true
+  },
+  "pcre2": {
+    "main": true
+  },
+  "pdal": {
+    "main": true
+  },
+  "peewee": {
+    "main": true
+  },
+  "pendulum": {
+    "main": true
+  },
+  "petsc": {
+    "main": true
+  },
+  "petsc4py": {
+    "main": true
+  },
+  "pgplot": {
+    "main": true
+  },
+  "phonopy": {
+    "main": true
+  },
+  "photospline": {
+    "main": true
+  },
+  "photutils": {
+    "main": true
+  },
+  "piff": {
+    "main": true
+  },
+  "pillow": {
+    "main": true
+  },
+  "pinocchio": {
+    "main": true
+  },
+  "pixman": {
+    "main": true
+  },
+  "pivy": {
+    "main": true,
+    "pivy_alpha": true
+  },
+  "pkg-config": {
+    "main": true
+  },
+  "pkgconfig": {
+    "main": true
+  },
+  "planarity": {
+    "main": true
+  },
+  "pluggy": {
+    "main": true
+  },
+  "plumed": {
+    "main": true
+  },
+  "poco": {
+    "main": true
+  },
+  "poetry": {
+    "dev": true
+  },
+  "poetry-core": {
+    "main": true
+  },
+  "popt": {
+    "main": true
+  },
+  "poppler": {
+    "main": true,
+    "0.89.x": true,
+    "v0.65": true
+  },
+  "portaudio": {
+    "main": true
+  },
+  "portalocker": {
+    "main": true,
+    "1.0.x": true,
+    "v1.7.x": true
+  },
+  "pot": {
+    "main": true,
+    "v0.8": true
+  },
+  "postgresql": {
+    "main": true,
+    "v13.x": true,
+    "v14.x": true,
+    "v15.x": true
+  },
+  "ppl": {
+    "main": true
+  },
+  "pplpy": {
+    "main": true
+  },
+  "pre-commit": {
+    "main": true
+  },
+  "preshed": {
+    "main": true
+  },
+  "primesieve": {
+    "main": true
+  },
+  "profilehooks": {
+    "main": true
+  },
+  "proj.4": {
+    "main": true,
+    "v7.2.0": true,
+    "v9.1.0": true
+  },
+  "promise": {
+    "main": true
+  },
+  "prompt_toolkit": {
+    "main": true
+  },
+  "protobuf3-to-dict": {
+    "main": true
+  },
+  "protobuf": {
+    "main": true,
+    "v4.22.x": true,
+    "v3.20.x": true,
+    "v4.23.x": true,
+    "v4.21.x": true,
+    "v3.19.x": true,
+    "v3.18": true
+  },
+  "psutil": {
+    "main": true,
+    "v5.9.6": true
+  },
+  "psycopg2": {
+    "main": true,
+    "2.x.x": true
   }
 }
