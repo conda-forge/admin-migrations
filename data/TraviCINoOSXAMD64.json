@@ -61717,7 +61717,9 @@
     "main": true
   },
   "lstchain": {
-    "main": true
+    "main": true,
+    "revert-8-0.10.8_hcd0f5c": true,
+    "update_dependencies": true
   },
   "descriptastorus": {
     "main": true
@@ -67916,6 +67918,21 @@
     "main": true
   },
   "python-sscha": {
+    "main": true
+  },
+  "prisms-jobs": {
+    "main": true
+  },
+  "tdscha": {
+    "main": true
+  },
+  "testgres": {
+    "main": true
+  },
+  "medcoupling": {
+    "main": true
+  },
+  "pypar": {
     "main": true
   }
 }
