@@ -2520,5 +2520,483 @@
   "psycopg2": {
     "main": true,
     "2.x.x": true
+  },
+  "pthread-stubs": {
+    "main": true
+  },
+  "pugixml": {
+    "main": true
+  },
+  "pulp": {
+    "main": true
+  },
+  "py-spy": {
+    "main": true
+  },
+  "py-plumed": {
+    "main": true
+  },
+  "py2app": {
+    "main": true
+  },
+  "pyagrum": {
+    "main": true
+  },
+  "pyahocorasick": {
+    "main": true
+  },
+  "pybind11": {
+    "main": true
+  },
+  "pybind11_json": {
+    "main": true
+  },
+  "pybtex": {
+    "main": true
+  },
+  "pybtex-docutils": {
+    "main": true
+  },
+  "pycairo": {
+    "main": true
+  },
+  "pycalphad": {
+    "main": true
+  },
+  "pyccl": {
+    "main": true
+  },
+  "pycbc": {
+    "main": true,
+    "ahnitz-patch-1": true,
+    "v21_release_branch": true
+  },
+  "pyclipper": {
+    "main": true
+  },
+  "pycocotools": {
+    "main": true
+  },
+  "pycosat": {
+    "main": true
+  },
+  "pycrypto": {
+    "main": true
+  },
+  "pycryptodome": {
+    "main": true
+  },
+  "pycryptodomex": {
+    "main": true
+  },
+  "pycurl": {
+    "main": true
+  },
+  "pydantic": {
+    "main": true,
+    "1.x": true
+  },
+  "pyedflib": {
+    "main": true
+  },
+  "pyfftw": {
+    "main": true
+  },
+  "pyfmmlib": {
+    "main": true
+  },
+  "pygeos": {
+    "main": true
+  },
+  "pyglet": {
+    "main": true
+  },
+  "pygit2": {
+    "main": true
+  },
+  "pyglfw": {
+    "main": true
+  },
+  "pygobject": {
+    "main": true
+  },
+  "pygpu": {
+    "main": true
+  },
+  "pygmo": {
+    "main": true
+  },
+  "pygraphviz": {
+    "main": true
+  },
+  "pygrib": {
+    "main": true
+  },
+  "pyhdf": {
+    "main": true
+  },
+  "pyimagej": {
+    "main": true
+  },
+  "pyinstaller": {
+    "main": true
+  },
+  "pyinstrument": {
+    "main": true
+  },
+  "pyinterp": {
+    "main": true
+  },
+  "pykdtree": {
+    "main": true
+  },
+  "pykep": {
+    "main": true
+  },
+  "pykerberos": {
+    "main": true
+  },
+  "pylint": {
+    "main": true,
+    "2.x": true
+  },
+  "pymatgen": {
+    "main": true,
+    "regro-cf-autotick-bot-2022.01.08_h724179": true
+  },
+  "pymbar": {
+    "main": true,
+    "3.x": true
+  },
+  "pymc3": {
+    "main": true
+  },
+  "pymongo": {
+    "main": true,
+    "3.x.x": true,
+    "blink1073-patch-1": true
+  },
+  "pymssql": {
+    "main": true
+  },
+  "pymunk": {
+    "main": true
+  },
+  "pynac": {
+    "main": true
+  },
+  "pynacl": {
+    "main": true
+  },
+  "pynini": {
+    "main": true
+  },
+  "pynvim": {
+    "main": true
+  },
+  "pyobjc-framework-cocoa": {
+    "main": true
+  },
+  "pyobjc-core": {
+    "main": true,
+    "v8.1": true
+  },
+  "pyobjc-framework-quartz": {
+    "main": true
+  },
+  "pyodbc": {
+    "main": true
+  },
+  "pyopencl": {
+    "main": true
+  },
+  "pyperf": {
+    "main": true
+  },
+  "pyproj": {
+    "main": true,
+    "v3.2.1": true
+  },
+  "pyqmix": {
+    "main": true
+  },
+  "pyreadr": {
+    "main": true
+  },
+  "pyreadstat": {
+    "main": true
+  },
+  "pyregion": {
+    "main": true
+  },
+  "pyresample": {
+    "main": true
+  },
+  "pyrobuf": {
+    "main": true
+  },
+  "pyrxp": {
+    "main": true
+  },
+  "pyrsistent": {
+    "main": true,
+    "v0.14.11": true
+  },
+  "pyscal": {
+    "main": true,
+    "dev": true
+  },
+  "pysocks": {
+    "main": true
+  },
+  "pystan": {
+    "main": true
+  },
+  "pytest": {
+    "main": true,
+    "6.x": true
+  },
+  "pytest-asyncio": {
+    "main": true
+  },
+  "pythia8": {
+    "8.2xx": true
+  },
+  "python-annoy": {
+    "main": true
+  },
+  "python-avro": {
+    "main": true,
+    "1.9.x": true
+  },
+  "python": {
+    "main": true,
+    "alpha": true,
+    "3.8": true,
+    "3.11": true,
+    "3.10": true,
+    "3.9": true
+  },
+  "python-blosc": {
+    "main": true
+  },
+  "python-casacore": {
+    "main": true
+  },
+  "python-confluent-kafka": {
+    "main": true
+  },
+  "python-cppcolormap": {
+    "master": true
+  },
+  "python-eccodes": {
+    "main": true
+  },
+  "python-duckdb": {
+    "main": true
+  },
+  "python-fmask": {
+    "main": true
+  },
+  "python-geotiepoints": {
+    "main": true
+  },
+  "python-gfal2": {
+    "main": true
+  },
+  "python-gmatelastic": {
+    "master": true
+  },
+  "python-gmatelastoplasticfinitestrainsimo": {
+    "main": true
+  },
+  "python-gmatnonlinearelastic": {
+    "main": true
+  },
+  "python-gooseeye": {
+    "main": true
+  },
+  "python-igraph": {
+    "main": true
+  },
+  "python-levenshtein": {
+    "main": true
+  },
+  "python-libarchive-c": {
+    "main": true
+  },
+  "python-ligo-lw": {
+    "main": true
+  },
+  "python-lmdb": {
+    "main": true
+  },
+  "python-magic": {
+    "main": true
+  },
+  "python-pdal": {
+    "main": true
+  },
+  "python-planarity": {
+    "main": true
+  },
+  "python-rapidjson": {
+    "main": true
+  },
+  "python-snappy": {
+    "main": true
+  },
+  "python-stratify": {
+    "main": true
+  },
+  "python-symengine": {
+    "main": true
+  },
+  "python-xxhash": {
+    "main": true
+  },
+  "python.app": {
+    "main": true
+  },
+  "python_abi": {
+    "main": true
+  },
+  "pythonocc-core": {
+    "main": true
+  },
+  "pythran": {
+    "main": true
+  },
+  "pytorch-cpu": {
+    "main": true,
+    "test": true,
+    "debug": true
+  },
+  "pyuv": {
+    "main": true
+  },
+  "pyuvdata": {
+    "main": true
+  },
+  "pyvips": {
+    "main": true
+  },
+  "pywavelets": {
+    "main": true
+  },
+  "pywin32": {
+    "main": true
+  },
+  "pyxtensor": {
+    "main": true
+  },
+  "pyzmq": {
+    "main": true,
+    "v18": true
+  },
+  "pyyaml": {
+    "main": true,
+    "v5.4.x": true
+  },
+  "qca": {
+    "main": true
+  },
+  "qd": {
+    "main": true
+  },
+  "qgrid": {
+    "main": true
+  },
+  "qgis": {
+    "main": true,
+    "LTR": true
+  },
+  "qhull": {
+    "main": true
+  },
+  "qjson": {
+    "main": true
+  },
+  "qscintilla2": {
+    "main": true
+  },
+  "qtkeychain": {
+    "main": true
+  },
+  "qtwebkit": {
+    "main": true
+  },
+  "quantecon": {
+    "main": true
+  },
+  "quaternion": {
+    "main": true
+  },
+  "qutip": {
+    "main": true
+  },
+  "qwt": {
+    "main": true
+  },
+  "r-ade4": {
+    "main": true
+  },
+  "r-ape": {
+    "main": true
+  },
+  "r-arrow": {
+    "main": true,
+    "3.x": true
+  },
+  "r-askpass": {
+    "main": true
+  },
+  "r-backports": {
+    "main": true
+  },
+  "r-base64enc": {
+    "main": true
+  },
+  "r-base": {
+    "main": true,
+    "4.0.x": true,
+    "4.2.x": true,
+    "4.1.x": true
+  },
+  "r-bit": {
+    "main": true
+  },
+  "r-bit64": {
+    "main": true
+  },
+  "r-cairo": {
+    "main": true
+  },
+  "r-caret": {
+    "main": true
+  },
+  "r-class": {
+    "main": true
+  },
+  "r-cli": {
+    "main": true
+  },
+  "r-cluster": {
+    "main": true
+  },
+  "r-collections": {
+    "main": true
+  },
+  "r-colorspace": {
+    "main": true
+  },
+  "r-commonmark": {
+    "main": true
+  },
+  "r-covr": {
+    "main": true
+  },
+  "r-curl": {
+    "main": true
   }
 }
