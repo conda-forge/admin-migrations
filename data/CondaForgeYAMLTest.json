@@ -2998,5 +2998,461 @@
   },
   "r-curl": {
     "main": true
+  },
+  "r-data.table": {
+    "main": true
+  },
+  "r-diffobj": {
+    "main": true
+  },
+  "r-digest": {
+    "main": true
+  },
+  "r-diptest": {
+    "main": true
+  },
+  "r-dplyr": {
+    "main": true
+  },
+  "r-e1071": {
+    "main": true
+  },
+  "r-ecp": {
+    "main": true
+  },
+  "r-ellipsis": {
+    "main": true
+  },
+  "r-fansi": {
+    "main": true
+  },
+  "r-farver": {
+    "main": true
+  },
+  "r-fastmap": {
+    "main": true
+  },
+  "r-fastmatch": {
+    "main": true
+  },
+  "r-forecast": {
+    "main": true
+  },
+  "r-foreign": {
+    "main": true
+  },
+  "r-fracdiff": {
+    "main": true
+  },
+  "r-fs": {
+    "main": true
+  },
+  "r-gdtools": {
+    "main": true
+  },
+  "r-ggrepel": {
+    "main": true
+  },
+  "r-git2r": {
+    "main": true
+  },
+  "r-glue": {
+    "main": true
+  },
+  "r-gower": {
+    "main": true
+  },
+  "r-gtools": {
+    "main": true
+  },
+  "r-haven": {
+    "main": true
+  },
+  "r-hexbin": {
+    "main": true
+  },
+  "r-htmltools": {
+    "main": true
+  },
+  "r-igraph": {
+    "main": true
+  },
+  "r-ipred": {
+    "main": true
+  },
+  "r-isoband": {
+    "main": true
+  },
+  "r-jsonlite": {
+    "main": true
+  },
+  "r-kernlab": {
+    "main": true
+  },
+  "r-kernsmooth": {
+    "main": true
+  },
+  "r-languageserver": {
+    "main": true
+  },
+  "r-later": {
+    "main": true
+  },
+  "r-lattice": {
+    "main": true
+  },
+  "r-lazyeval": {
+    "main": true
+  },
+  "r-lightgbm": {
+    "main": true
+  },
+  "r-lme4": {
+    "main": true
+  },
+  "r-lmtest": {
+    "main": true
+  },
+  "r-lubridate": {
+    "main": true
+  },
+  "r-magrittr": {
+    "main": true
+  },
+  "r-maptools": {
+    "main": true
+  },
+  "r-markdown": {
+    "main": true
+  },
+  "r-mass": {
+    "main": true
+  },
+  "r-matrix": {
+    "main": true
+  },
+  "r-matrixstats": {
+    "main": true
+  },
+  "r-mclust": {
+    "main": true
+  },
+  "r-mgcv": {
+    "main": true
+  },
+  "r-microbenchmark": {
+    "main": true
+  },
+  "r-mime": {
+    "main": true
+  },
+  "r-minqa": {
+    "main": true
+  },
+  "r-mnormt": {
+    "main": true
+  },
+  "r-modelmetrics": {
+    "main": true
+  },
+  "r-nlme": {
+    "main": true
+  },
+  "r-nloptr": {
+    "main": true
+  },
+  "r-nnet": {
+    "main": true
+  },
+  "r-openssl": {
+    "main": true
+  },
+  "r-openxlsx": {
+    "main": true
+  },
+  "r-pbdzmq": {
+    "main": true
+  },
+  "r-phangorn": {
+    "main": true
+  },
+  "r-pkgload": {
+    "main": true
+  },
+  "r-plyr": {
+    "main": true
+  },
+  "r-png": {
+    "main": true
+  },
+  "r-processx": {
+    "main": true
+  },
+  "r-proc": {
+    "main": true
+  },
+  "r-promises": {
+    "main": true
+  },
+  "r-proxy": {
+    "main": true
+  },
+  "r-ps": {
+    "main": true
+  },
+  "r-purrr": {
+    "main": true
+  },
+  "r-quadprog": {
+    "main": true
+  },
+  "r-quantreg": {
+    "main": true
+  },
+  "r-ragg": {
+    "main": true
+  },
+  "r-rappdirs": {
+    "main": true
+  },
+  "r-rcpp": {
+    "main": true
+  },
+  "r-rcpparmadillo": {
+    "main": true
+  },
+  "r-rcppcnpy": {
+    "main": true
+  },
+  "r-rcppeigen": {
+    "main": true
+  },
+  "r-rcppgsl": {
+    "main": true
+  },
+  "r-rcpptoml": {
+    "main": true
+  },
+  "r-rcppziggurat": {
+    "main": true
+  },
+  "r-rcurl": {
+    "main": true
+  },
+  "r-readr": {
+    "main": true
+  },
+  "r-readxl": {
+    "main": true
+  },
+  "r-reshape2": {
+    "main": true
+  },
+  "r-reticulate": {
+    "main": true
+  },
+  "r-rfast": {
+    "main": true
+  },
+  "r-rinside": {
+    "main": true
+  },
+  "r-rjson": {
+    "main": true
+  },
+  "r-rlang": {
+    "main": true
+  },
+  "r-roxygen2": {
+    "main": true
+  },
+  "r-rpart": {
+    "main": true
+  },
+  "r-sass": {
+    "main": true
+  },
+  "r-sourcetools": {
+    "main": true
+  },
+  "r-sp": {
+    "main": true
+  },
+  "r-sparsem": {
+    "main": true
+  },
+  "r-spatial": {
+    "main": true
+  },
+  "r-statmod": {
+    "main": true
+  },
+  "r-statnet.common": {
+    "main": true
+  },
+  "r-stringi": {
+    "main": true
+  },
+  "r-stringdist": {
+    "main": true
+  },
+  "r-suppdists": {
+    "main": true
+  },
+  "r-survival": {
+    "main": true
+  },
+  "r-svglite": {
+    "main": true
+  },
+  "r-sys": {
+    "main": true
+  },
+  "r-systemfonts": {
+    "main": true
+  },
+  "r-testthat": {
+    "main": true
+  },
+  "r-tibble": {
+    "main": true
+  },
+  "r-tidygraph": {
+    "main": true
+  },
+  "r-tidyr": {
+    "main": true
+  },
+  "r-tidyselect": {
+    "main": true
+  },
+  "r-tiledb": {
+    "main": true,
+    "0.11.0rc0": true
+  },
+  "r-tseries": {
+    "main": true
+  },
+  "r-ttr": {
+    "main": true
+  },
+  "r-units": {
+    "main": true
+  },
+  "r-urca": {
+    "main": true
+  },
+  "r-utf8": {
+    "main": true
+  },
+  "r-uuid": {
+    "main": true
+  },
+  "r-vctrs": {
+    "main": true
+  },
+  "r-vroom": {
+    "main": true
+  },
+  "r-xfun": {
+    "main": true
+  },
+  "r-xml2": {
+    "main": true
+  },
+  "r-xts": {
+    "main": true
+  },
+  "r-yaml": {
+    "main": true
+  },
+  "r-zip": {
+    "main": true
+  },
+  "r-zoo": {
+    "main": true
+  },
+  "randspg": {
+    "main": true
+  },
+  "rang": {
+    "main": true
+  },
+  "rapidjson": {
+    "main": true
+  },
+  "rapidfuzz": {
+    "main": true,
+    "2.x.x": true
+  },
+  "rasterio": {
+    "main": true,
+    "dev": true
+  },
+  "ratpoints": {
+    "main": true
+  },
+  "rdflib": {
+    "main": true
+  },
+  "rdkit": {
+    "main": true
+  },
+  "re2": {
+    "main": true
+  },
+  "re2c": {
+    "main": true
+  },
+  "regex": {
+    "main": true
+  },
+  "regions": {
+    "main": true
+  },
+  "rejected": {
+    "main": true
+  },
+  "reportlab": {
+    "main": true
+  },
+  "reproject": {
+    "main": true
+  },
+  "requests-kerberos": {
+    "main": true
+  },
+  "rhash": {
+    "main": true
+  },
+  "richdem": {
+    "main": true
+  },
+  "rift": {
+    "main": true
+  },
+  "ripgrep": {
+    "main": true
+  },
+  "rise": {
+    "main": true
+  },
+  "root": {
+    "6.24": true
+  },
+  "rosdistro": {
+    "main": true
+  },
+  "rosdep": {
+    "main": true
+  },
+  "rpy2": {
+    "main": true
+  },
+  "rsgislib": {
+    "main": true
+  },
+  "rsync": {
+    "main": true
   }
 }
