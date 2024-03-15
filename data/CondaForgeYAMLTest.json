@@ -1,0 +1,501 @@
+{
+  "_go_select": {
+    "main": true
+  },
+  "absl-py": {
+    "main": true
+  },
+  "abseil-cpp": {
+    "main": true,
+    "dev": true,
+    "20211102.x": true
+  },
+  "adios": {
+    "main": true
+  },
+  "adios2": {
+    "main": true
+  },
+  "afterimage": {
+    "main": true
+  },
+  "aggdraw": {
+    "main": true
+  },
+  "aioeasywebdav": {
+    "main": true
+  },
+  "allennlp": {
+    "main": true
+  },
+  "almosthere": {
+    "main": true
+  },
+  "ampl-mp": {
+    "main": true
+  },
+  "ann": {
+    "main": true
+  },
+  "anndata": {
+    "main": true
+  },
+  "ansi2html": {
+    "main": true
+  },
+  "antlr": {
+    "main": true,
+    "antlr2": true,
+    "v4.9.3": true,
+    "osx-arm64-4.8": true
+  },
+  "antlr-python-runtime": {
+    "main": true,
+    "4.8": true,
+    "4.7": true,
+    "4.9": true
+  },
+  "apache-beam": {
+    "main": true
+  },
+  "appnope": {
+    "main": true
+  },
+  "apr": {
+    "main": true
+  },
+  "arb": {
+    "main": true
+  },
+  "arch-py": {
+    "main": true
+  },
+  "argon2_cffi": {
+    "main": true
+  },
+  "arpack": {
+    "main": true
+  },
+  "arrow-cpp": {
+    "1.0.x": true,
+    "6.0.x": true,
+    "3.0.x": true,
+    "0.17.x": true,
+    "2.0.x": true,
+    "4.0.x": true,
+    "7.0.x": true,
+    "9.0.x": true,
+    "5.0.x": true,
+    "8.0.x": true,
+    "10.0.x": true
+  },
+  "assimp": {
+    "main": true
+  },
+  "astroid": {
+    "main": true
+  },
+  "astropy-healpix": {
+    "main": true
+  },
+  "astropy": {
+    "main": true,
+    "v5.0.x": true
+  },
+  "astroscrappy": {
+    "main": true
+  },
+  "asv": {
+    "main": true,
+    "dev": true
+  },
+  "asyncpg": {
+    "main": true
+  },
+  "atari_py": {
+    "main": true
+  },
+  "atk": {
+    "main": true
+  },
+  "audioread": {
+    "main": true
+  },
+  "autoconf": {
+    "main": true
+  },
+  "automake": {
+    "main": true,
+    "1.16.1": true
+  },
+  "autorift": {
+    "main": true
+  },
+  "av": {
+    "main": true
+  },
+  "awscli": {
+    "v1.27.76": true
+  },
+  "aws-sdk-cpp": {
+    "main": true,
+    "v1.9.x": true,
+    "v1.10.x": true,
+    "v1.8.x": true
+  },
+  "azure-storage": {
+    "main": true
+  },
+  "backports.lzma": {
+    "master": true
+  },
+  "backward-cpp": {
+    "main": true
+  },
+  "bash": {
+    "main": true
+  },
+  "batchcrop": {
+    "main": true
+  },
+  "bat": {
+    "main": true
+  },
+  "baumwelch": {
+    "main": true
+  },
+  "bc": {
+    "main": true
+  },
+  "bcolz": {
+    "main": true
+  },
+  "bcrypt": {
+    "main": true
+  },
+  "bdw-gc": {
+    "main": true
+  },
+  "beautifulsoup4": {
+    "main": true
+  },
+  "benchmark": {
+    "main": true
+  },
+  "bgen": {
+    "main": true
+  },
+  "billiard": {
+    "main": true
+  },
+  "binutils": {
+    "main": true
+  },
+  "biopython": {
+    "main": true
+  },
+  "bison": {
+    "main": true
+  },
+  "black": {
+    "main": true,
+    "bump-build-num": true
+  },
+  "blas": {
+    "main": true
+  },
+  "bliss": {
+    "main": true
+  },
+  "blosc": {
+    "main": true
+  },
+  "bokeh": {
+    "main": true
+  },
+  "boost-histogram": {
+    "main": true
+  },
+  "boost": {
+    "main": true,
+    "v1.82.x": true,
+    "v1.74.x": true,
+    "v1.78.x": true
+  },
+  "bottleneck": {
+    "main": true
+  },
+  "box2d-py": {
+    "main": true
+  },
+  "brial": {
+    "main": true
+  },
+  "brian2": {
+    "main": true
+  },
+  "broot": {
+    "main": true
+  },
+  "brotli": {
+    "main": true
+  },
+  "brotlipy": {
+    "main": true
+  },
+  "bruco": {
+    "main": true
+  },
+  "bsddb3": {
+    "main": true
+  },
+  "bullet": {
+    "main": true
+  },
+  "bw2speedups": {
+    "main": true
+  },
+  "bwidget": {
+    "main": true
+  },
+  "bzip2": {
+    "main": true
+  },
+  "c-ares": {
+    "main": true
+  },
+  "ca-certificates": {
+    "main": true
+  },
+  "cairo": {
+    "main": true
+  },
+  "cairomm": {
+    "main": true,
+    "cairomm-1.14": true
+  },
+  "calculix": {
+    "main": true
+  },
+  "camb": {
+    "main": true
+  },
+  "capstone": {
+    "main": true
+  },
+  "cartopy": {
+    "main": true
+  },
+  "casacore": {
+    "main": true
+  },
+  "casadi": {
+    "main": true
+  },
+  "catalogue": {
+    "main": true,
+    "v1.x": true
+  },
+  "catch2": {
+    "main": true
+  },
+  "ccache": {
+    "main": true
+  },
+  "cchardet": {
+    "main": true
+  },
+  "cctools-and-ld64": {
+    "949.0.1": true,
+    "clang10": true
+  },
+  "cddlib": {
+    "main": true
+  },
+  "celerite": {
+    "main": true
+  },
+  "certifi": {
+    "main": true
+  },
+  "ceres-solver": {
+    "main": true,
+    "1.14.x": true
+  },
+  "cf_units": {
+    "main": true
+  },
+  "cffi": {
+    "main": true
+  },
+  "cfitsio": {
+    "main": true
+  },
+  "cgal": {
+    "main": true
+  },
+  "cftime": {
+    "main": true,
+    "v1.5.1.1": true
+  },
+  "cgal-cpp": {
+    "main": true
+  },
+  "cgns": {
+    "main": true
+  },
+  "chardet": {
+    "main": true
+  },
+  "charls": {
+    "main": true
+  },
+  "chealpix": {
+    "main": true
+  },
+  "cherrypy": {
+    "main": true
+  },
+  "clang-compiler-activation": {
+    "main": true,
+    "rc": true,
+    "11.x": true
+  },
+  "clease": {
+    "main": true
+  },
+  "clangdev": {
+    "main": true,
+    "13.x": true,
+    "17.x": true,
+    "5.x": true,
+    "14.x": true,
+    "16.x": true,
+    "rc": true,
+    "9.x": true,
+    "15.x": true
+  },
+  "clhep": {
+    "main": true
+  },
+  "clhpp": {
+    "main": true
+  },
+  "click": {
+    "main": true
+  },
+  "clickhouse-driver": {
+    "main": true
+  },
+  "climlab": {
+    "main": true
+  },
+  "clinfo": {
+    "main": true
+  },
+  "clingo": {
+    "main": true
+  },
+  "cliquer": {
+    "main": true
+  },
+  "cmake": {
+    "main": true
+  },
+  "cmarkgfm": {
+    "main": true
+  },
+  "cmd2": {
+    "main": true
+  },
+  "cminpack": {
+    "main": true
+  },
+  "coincbc": {
+    "master": true
+  },
+  "coin3d": {
+    "main": true
+  },
+  "colcon-common-extensions": {
+    "main": true
+  },
+  "colcon-notification": {
+    "main": true
+  },
+  "colorlog": {
+    "main": true,
+    "4.x.x": true
+  },
+  "compas_fab": {
+    "main": true
+  },
+  "compas": {
+    "main": true,
+    "tomvanmele-patch-1": true
+  },
+  "compilers": {
+    "main": true
+  },
+  "conda": {
+    "main": true
+  },
+  "conda-build": {
+    "main": true
+  },
+  "conda-forge-ci-setup": {
+    "main": true,
+    "3.x": true
+  },
+  "conda-package-handling": {
+    "main": true
+  },
+  "conda-verify": {
+    "main": true
+  },
+  "configurable-http-proxy": {
+    "main": true
+  },
+  "console_bridge": {
+    "main": true
+  },
+  "coolprop": {
+    "main": true,
+    "rc": true
+  },
+  "coreutils": {
+    "main": true
+  },
+  "cpnest": {
+    "main": true
+  },
+  "cppcheck": {
+    "main": true
+  },
+  "cppcolormap": {
+    "main": true
+  },
+  "cpppath": {
+    "main": true
+  },
+  "cppunit": {
+    "main": true
+  },
+  "cppzmq": {
+    "main": true
+  },
+  "crcmod": {
+    "main": true
+  },
+  "crick": {
+    "main": true
+  },
+  "cryptography": {
+    "main": true,
+    "40.0.1": true,
+    "3.4.x": true
+  },
+  "cspice": {
+    "main": true
+  }
+}
