@@ -17,6 +17,7 @@ import ruamel.yaml
 from admin_migrations.migrators import (
     RAutomerge,
     TraviCINoOSXAMD64,
+    CondaForgeYAMLTest,
     # these are finished or not used so we don't run them
     # RotateCFStagingToken,
     # RotateFeedstockToken,
@@ -364,6 +365,7 @@ def main():
     migrators = [
         RAutomerge(),
         TraviCINoOSXAMD64(),
+        CondaForgeYAMLTest(),
         # these are finished or not used so we don't run them
         # RotateCFStagingToken(),
         # RotateFeedstockToken(),

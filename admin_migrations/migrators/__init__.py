@@ -15,3 +15,4 @@ from .main_default_branch import CondaForgeGHAWithMain, CondaForgeMasterToMain
 from .travis_cleanup_osx_amd64 import TraviCINoOSXAMD64
 from .feedstocks_service_update import FeedstocksServiceUpdate
 from .dot_conda import DotConda
+from .conda_forge_yml_test import CondaForgeYAMLTest
