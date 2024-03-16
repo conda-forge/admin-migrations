@@ -3955,5 +3955,473 @@
   },
   "voms": {
     "main": true
+  },
+  "vpython": {
+    "main": true
+  },
+  "vowpalwabbit": {
+    "main": true,
+    "dev": true
+  },
+  "vtk": {
+    "main": true,
+    "9.0.1": true
+  },
+  "waf": {
+    "main": true
+  },
+  "watchdog": {
+    "main": true
+  },
+  "wcslib": {
+    "main": true
+  },
+  "websockets": {
+    "main": true
+  },
+  "wget": {
+    "main": true
+  },
+  "which": {
+    "main": true
+  },
+  "whitebox_tools": {
+    "main": true
+  },
+  "widgetsnbextension": {
+    "main": true,
+    "3.x": true
+  },
+  "wrapt": {
+    "main": true
+  },
+  "wurlitzer": {
+    "main": true
+  },
+  "wxpython": {
+    "main": true
+  },
+  "x264": {
+    "main": true
+  },
+  "xattr": {
+    "main": true
+  },
+  "xcb-proto": {
+    "main": true
+  },
+  "xdrfile": {
+    "main": true
+  },
+  "xerces-c": {
+    "main": true
+  },
+  "xeus": {
+    "main": true
+  },
+  "xeus-python": {
+    "main": true
+  },
+  "xgboost": {
+    "main": true
+  },
+  "xonsh": {
+    "main": true,
+    "remove_pyreadline_dep": true
+  },
+  "xorg-compositeproto": {
+    "main": true
+  },
+  "xorg-damageproto": {
+    "main": true
+  },
+  "xorg-fixesproto": {
+    "main": true
+  },
+  "xorg-glproto": {
+    "main": true
+  },
+  "xorg-inputproto": {
+    "main": true
+  },
+  "xorg-kbproto": {
+    "main": true
+  },
+  "xorg-libice": {
+    "main": true
+  },
+  "xorg-libsm": {
+    "main": true
+  },
+  "xorg-libx11": {
+    "main": true
+  },
+  "xorg-libxau": {
+    "main": true
+  },
+  "xorg-libxaw": {
+    "main": true
+  },
+  "xorg-libxcursor": {
+    "main": true
+  },
+  "xorg-libxdmcp": {
+    "main": true
+  },
+  "xorg-libxext": {
+    "main": true
+  },
+  "xorg-libxfixes": {
+    "main": true
+  },
+  "xorg-libxi": {
+    "main": true
+  },
+  "xorg-libxinerama": {
+    "main": true
+  },
+  "xorg-libxmu": {
+    "main": true
+  },
+  "xorg-libxpm": {
+    "main": true
+  },
+  "xorg-libxrandr": {
+    "main": true
+  },
+  "xorg-libxrender": {
+    "main": true
+  },
+  "xorg-libxt": {
+    "main": true
+  },
+  "xorg-libxtst": {
+    "main": true
+  },
+  "xorg-randrproto": {
+    "main": true
+  },
+  "xorg-recordproto": {
+    "main": true
+  },
+  "xorg-renderproto": {
+    "main": true
+  },
+  "xorg-util-macros": {
+    "main": true
+  },
+  "xorg-xextproto": {
+    "main": true
+  },
+  "xorg-xf86vidmodeproto": {
+    "main": true
+  },
+  "xorg-xineramaproto": {
+    "main": true
+  },
+  "xorg-xproto": {
+    "main": true
+  },
+  "xorg-xtrans": {
+    "main": true
+  },
+  "xpa": {
+    "main": true
+  },
+  "xraylib": {
+    "main": true
+  },
+  "xrootd": {
+    "main": true
+  },
+  "xtensor": {
+    "main": true
+  },
+  "xtensor-blas": {
+    "main": true
+  },
+  "xtensor-python": {
+    "main": true
+  },
+  "xtl": {
+    "main": true
+  },
+  "xxhash": {
+    "main": true
+  },
+  "xz": {
+    "main": true
+  },
+  "yaehmop": {
+    "main": true
+  },
+  "yaml": {
+    "main": true
+  },
+  "yaml-cpp": {
+    "main": true
+  },
+  "yappi": {
+    "main": true
+  },
+  "yarl": {
+    "main": true
+  },
+  "yarn": {
+    "main": true,
+    "1.x": true,
+    "3.x": true,
+    "rc-4.x": true
+  },
+  "yggdrasil": {
+    "main": true
+  },
+  "yt": {
+    "main": true
+  },
+  "zchunk": {
+    "main": true
+  },
+  "zeroc-ice": {
+    "main": true,
+    "version_3.6": true
+  },
+  "zeromq": {
+    "main": true,
+    "4.3.2-x": true
+  },
+  "zfpy": {
+    "main": true
+  },
+  "zip": {
+    "main": true
+  },
+  "zn_poly": {
+    "main": true
+  },
+  "zope.interface": {
+    "main": true
+  },
+  "zstandard": {
+    "main": true
+  },
+  "zstd": {
+    "main": true
+  },
+  "zziplib": {
+    "main": true
+  },
+  "xorg-libxcomposite": {
+    "main": true
+  },
+  "xorg-libxdamage": {
+    "main": true
+  },
+  "openscenegraph": {
+    "main": true
+  },
+  "collada-dom": {
+    "main": true
+  },
+  "pynput": {
+    "main": true
+  },
+  "polyscope": {
+    "main": true
+  },
+  "cpp-tabulate": {
+    "main": true,
+    "1.4.x": true
+  },
+  "randomgen": {
+    "main": true
+  },
+  "cartographer": {
+    "main": true,
+    "v1": true
+  },
+  "c-blosc2": {
+    "main": true
+  },
+  "hicolor-icon-theme": {
+    "main": true
+  },
+  "orjson": {
+    "main": true
+  },
+  "eups": {
+    "main": true
+  },
+  "pep517": {
+    "main": true
+  },
+  "kornia": {
+    "main": true
+  },
+  "tree": {
+    "main": true
+  },
+  "libmediainfo": {
+    "main": true
+  },
+  "libzen": {
+    "main": true
+  },
+  "pymediainfo": {
+    "main": true
+  },
+  "faiss-split": {
+    "main": true
+  },
+  "cmake-no-system": {
+    "main": true
+  },
+  "pytype": {
+    "main": true
+  },
+  "xeus-sqlite": {
+    "main": true
+  },
+  "r-rcppcctz": {
+    "main": true
+  },
+  "r-nanotime": {
+    "main": true
+  },
+  "framel": {
+    "main": true
+  },
+  "simdjson": {
+    "main": true
+  },
+  "doctest": {
+    "main": true
+  },
+  "debugpy": {
+    "main": true
+  },
+  "libzopfli": {
+    "main": true
+  },
+  "sourmash-minimal": {
+    "main": true
+  },
+  "mongodb": {
+    "main": true,
+    "5.0.x": true,
+    "5.3.x": true,
+    "5.2.x": true,
+    "5.1.x": true,
+    "4.2.x": true
+  },
+  "pytorch_cluster": {
+    "main": true
+  },
+  "exiftool": {
+    "main": true
+  },
+  "pytorch_spline_conv": {
+    "main": true
+  },
+  "pytorch_scatter": {
+    "main": true
+  },
+  "pytorch_sparse": {
+    "main": true
+  },
+  "cli11": {
+    "main": true
+  },
+  "imagecodecs": {
+    "libavif0111": true
+  },
+  "pyerfa": {
+    "main": true
+  },
+  "r-tmvnsim": {
+    "main": true
+  },
+  "quadprog": {
+    "main": true
+  },
+  "binpickle": {
+    "main": true
+  },
+  "perspective": {
+    "main": true
+  },
+  "soapysdr-module-plutosdr": {
+    "main": true
+  },
+  "libad9361-iio": {
+    "main": true
+  },
+  "gnuradio-osmosdr": {
+    "main": true
+  },
+  "libiio": {
+    "main": true
+  },
+  "soapysdr": {
+    "main": true
+  },
+  "soapysdr-module-uhd": {
+    "uhd315": true
+  },
+  "xdmfwrite_highfive": {
+    "main": true
+  },
+  "rtl-sdr": {
+    "main": true
+  },
+  "igwn-cmake": {
+    "master": true
+  },
+  "treelite": {
+    "main": true
+  },
+  "antic": {
+    "main": true
+  },
+  "libpano13": {
+    "main": true
+  },
+  "inspiral-range": {
+    "main": true
+  },
+  "enblend": {
+    "main": true
+  },
+  "dtw-python": {
+    "main": true
+  },
+  "codec2": {
+    "main": true
+  },
+  "macports-legacy-support": {
+    "main": true
+  },
+  "brunsli": {
+    "main": true
+  },
+  "qdldl-python": {
+    "main": true
+  },
+  "wxwidgets": {
+    "main": true
+  },
+  "cykhash": {
+    "main": true,
+    "add_python310": true
+  },
+  "micromamba": {
+    "main": true,
+    "1.x": true
+  },
+  "lerc": {
+    "main": true
+  },
+  "pyrosm": {
+    "main": true
   }
 }
