@@ -4905,5 +4905,477 @@
   },
   "plum-dispatch": {
     "main": true
+  },
+  "boost_mp11": {
+    "main": true
+  },
+  "prrng": {
+    "main": true
+  },
+  "rmf": {
+    "main": true
+  },
+  "nuflux": {
+    "main": true
+  },
+  "safeint": {
+    "main": true
+  },
+  "optional-lite": {
+    "main": true
+  },
+  "onnxruntime": {
+    "main": true,
+    "1.11.1": true
+  },
+  "spatialgeometry": {
+    "main": true
+  },
+  "yoda": {
+    "main": true
+  },
+  "aedat": {
+    "main": true
+  },
+  "loris": {
+    "main": true
+  },
+  "manimpango": {
+    "main": true
+  },
+  "picojson": {
+    "main": true
+  },
+  "scitokens-cpp": {
+    "main": true
+  },
+  "jwt-cpp": {
+    "main": true,
+    "0.4.x": true
+  },
+  "hstcal": {
+    "main": true
+  },
+  "mfem": {
+    "main": true
+  },
+  "pycbf": {
+    "main": true
+  },
+  "finesse": {
+    "main": true
+  },
+  "gds": {
+    "main": true
+  },
+  "gds-lsmp": {
+    "main": true
+  },
+  "tensorboard-data-server": {
+    "main": true
+  },
+  "clingo-dl": {
+    "main": true
+  },
+  "torchsparse": {
+    "main": true,
+    "pin-pytorch": true
+  },
+  "r-s2": {
+    "main": true
+  },
+  "imp": {
+    "main": true
+  },
+  "openslide-python": {
+    "main": true
+  },
+  "clingcon": {
+    "main": true
+  },
+  "tinyobjloader": {
+    "main": true
+  },
+  "pyoptsparse": {
+    "main": true
+  },
+  "r-tzdb": {
+    "main": true
+  },
+  "blake3": {
+    "main": true
+  },
+  "rust-script": {
+    "main": true
+  },
+  "httpstan": {
+    "main": true
+  },
+  "osqp-eigen": {
+    "main": true
+  },
+  "spot": {
+    "main": true
+  },
+  "libcaer": {
+    "main": true
+  },
+  "liblsl": {
+    "main": true
+  },
+  "gds-gui": {
+    "main": true
+  },
+  "dftd3-python": {
+    "main": true
+  },
+  "gsbatch": {
+    "main": true
+  },
+  "lndoctor": {
+    "main": true
+  },
+  "restic": {
+    "main": true
+  },
+  "vcpkg-tool": {
+    "main": true
+  },
+  "idyntree": {
+    "main": true
+  },
+  "mhm": {
+    "main": true
+  },
+  "miceforest": {
+    "main": true
+  },
+  "airspy": {
+    "main": true
+  },
+  "airspyhf": {
+    "main": true
+  },
+  "tomlplusplus": {
+    "main": true
+  },
+  "soapysdr-module-airspyhf": {
+    "main": true
+  },
+  "soapysdr-module-airspy": {
+    "main": true
+  },
+  "colmap": {
+    "main": true,
+    "dev": true
+  },
+  "sd": {
+    "main": true
+  },
+  "screeninfo": {
+    "main": true
+  },
+  "cmdstan": {
+    "main": true,
+    "2.26": true,
+    "2.27": true
+  },
+  "pyobjc-framework-metal": {
+    "main": true
+  },
+  "allennlp-server": {
+    "main": true
+  },
+  "igwn-cmake-macros": {
+    "main": true
+  },
+  "seekr2_openmm_plugin": {
+    "main": true
+  },
+  "pycppad": {
+    "main": true
+  },
+  "pysynphot": {
+    "main": true
+  },
+  "libhiredis": {
+    "main": true
+  },
+  "cutde": {
+    "main": true
+  },
+  "apache-sedona": {
+    "main": true
+  },
+  "fgsl": {
+    "main": true
+  },
+  "termcolor-cpp": {
+    "main": true
+  },
+  "memory-allocator": {
+    "main": true
+  },
+  "sigtool": {
+    "main": true
+  },
+  "libcbor": {
+    "main": true
+  },
+  "mbedtls": {
+    "main": true
+  },
+  "libfido2": {
+    "main": true
+  },
+  "cargo-bundle-licenses": {
+    "main": true
+  },
+  "just": {
+    "main": true
+  },
+  "zlib-ng": {
+    "main": true
+  },
+  "crest": {
+    "main": true
+  },
+  "pdm": {
+    "main": true
+  },
+  "pythonfinder": {
+    "main": true
+  },
+  "python-installer": {
+    "0.3.0": true
+  },
+  "libnsl": {
+    "main": true
+  },
+  "psygnal": {
+    "main": true
+  },
+  "pytomlpp": {
+    "main": true
+  },
+  "tabmat": {
+    "main": true,
+    "dev": true
+  },
+  "glum": {
+    "main": true,
+    "dev": true
+  },
+  "starship": {
+    "main": true
+  },
+  "contourpy": {
+    "main": true
+  },
+  "pytz-deprecation-shim": {
+    "main": true
+  },
+  "x265": {
+    "main": true
+  },
+  "aom": {
+    "main": true
+  },
+  "kvxopt": {
+    "main": true,
+    "revert-28-conda_forge_admin_27": true
+  },
+  "radiosphere": {
+    "main": true
+  },
+  "rectangle-packer": {
+    "main": true
+  },
+  "libcint": {
+    "main": true,
+    "v4.4.6": true
+  },
+  "frozenlist": {
+    "main": true
+  },
+  "correctionlib": {
+    "main": true
+  },
+  "fairscale": {
+    "main": true
+  },
+  "scikit-survival": {
+    "main": true
+  },
+  "montreal-forced-aligner": {
+    "2.0.6-stable": true
+  },
+  "perl-unicode-linebreak": {
+    "main": true
+  },
+  "mctc-lib": {
+    "main": true
+  },
+  "toml-f": {
+    "main": true
+  },
+  "spacy-alignments": {
+    "main": true
+  },
+  "changeforest": {
+    "main": true
+  },
+  "cached_path": {
+    "main": true
+  },
+  "primecount": {
+    "main": true
+  },
+  "r-changeforest": {
+    "main": true
+  },
+  "bear": {
+    "main": true
+  },
+  "libavif": {
+    "main": true
+  },
+  "pexsi": {
+    "main": true
+  },
+  "qt-main": {
+    "main": true,
+    "qt6": true
+  },
+  "tango": {
+    "main": true,
+    "dev": true
+  },
+  "cpp-opentelemetry-api": {
+    "main": true
+  },
+  "cpp-opentelemetry-sdk": {
+    "main": true
+  },
+  "chimes-calculator": {
+    "main": true
+  },
+  "tblite": {
+    "main": true
+  },
+  "argon2-cffi-bindings": {
+    "main": true
+  },
+  "biosphere": {
+    "main": true
+  },
+  "pymoo": {
+    "main": true
+  },
+  "gnuradio-iridium": {
+    "main": true
+  },
+  "r-distributionutils": {
+    "main": true
+  },
+  "vetoperf": {
+    "main": true
+  },
+  "ukkonen": {
+    "main": true
+  },
+  "copc-lib": {
+    "main": true
+  },
+  "hackrf": {
+    "main": true
+  },
+  "htgettoken": {
+    "main": true
+  },
+  "perl-io-stringy": {
+    "main": true
+  },
+  "perl-capture-tiny": {
+    "main": true
+  },
+  "pygcgopt": {
+    "main": true
+  },
+  "primecountpy": {
+    "main": true
+  },
+  "qt-webengine": {
+    "main": true,
+    "qt6": true
+  },
+  "plog": {
+    "main": true
+  },
+  "dxtbx": {
+    "main": true
+  },
+  "fastremap": {
+    "main": true
+  },
+  "gtsam": {
+    "main": true
+  },
+  "yte": {
+    "main": true,
+    "fxwiegand-yte-v1.3.0": true
+  },
+  "datavzrd": {
+    "main": true,
+    "fxwiegand-patch-1": true
+  },
+  "numbalsoda": {
+    "main": true
+  },
+  "nnpops": {
+    "main": true
+  },
+  "ui5-cli": {
+    "main": true
+  },
+  "fortls": {
+    "main": true,
+    "docs/update-repo-links": true
+  },
+  "clawpack": {
+    "main": true
+  },
+  "imath": {
+    "main": true
+  },
+  "eslint": {
+    "main": true
+  },
+  "juliaup": {
+    "main": true
+  },
+  "pyvkfft": {
+    "main": true
+  },
+  "pyg4ometry": {
+    "main": true
+  },
+  "jarowinkler": {
+    "main": true
+  },
+  "qpoases": {
+    "main": true
+  },
+  "typescript-eslint-parser": {
+    "main": true
+  },
+  "eslint-plugin-react": {
+    "main": true
+  },
+  "eslint-plugin-prettier": {
+    "main": true
+  },
+  "eslint-config-prettier": {
+    "main": true
   }
 }
