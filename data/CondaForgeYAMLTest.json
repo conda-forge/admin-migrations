@@ -5377,5 +5377,230 @@
   },
   "eslint-config-prettier": {
     "main": true
+  },
+  "eslint-config-standard": {
+    "main": true
+  },
+  "typescript-eslint-eslint-plugin": {
+    "main": true
+  },
+  "watchfiles": {
+    "main": true
+  },
+  "climlab-rrtmg": {
+    "main": true
+  },
+  "clpeak": {
+    "main": true
+  },
+  "climlab-emanuel-convection": {
+    "main": true
+  },
+  "niftyreg": {
+    "main": true
+  },
+  "libconeangle": {
+    "main": true
+  },
+  "pymagewell": {
+    "main": true
+  },
+  "memray": {
+    "main": true
+  },
+  "quantlib": {
+    "main": true
+  },
+  "dials": {
+    "main": true
+  },
+  "oras": {
+    "main": true
+  },
+  "pyrmsd": {
+    "main": true
+  },
+  "meilisearch": {
+    "main": true
+  },
+  "mosquitto": {
+    "main": true
+  },
+  "tblite-python": {
+    "main": true
+  },
+  "fenics-basix": {
+    "main": true
+  },
+  "srt": {
+    "main": true
+  },
+  "oracledb": {
+    "main": true
+  },
+  "hpgeom": {
+    "main": true
+  },
+  "simde": {
+    "main": true
+  },
+  "mmcv-recipe": {
+    "main": true
+  },
+  "inputs": {
+    "main": true
+  },
+  "functorch": {
+    "main": true
+  },
+  "prometheus-cpp": {
+    "main": true
+  },
+  "proxsuite": {
+    "main": true
+  },
+  "impactx": {
+    "main": true
+  },
+  "websocketpp": {
+    "main": true
+  },
+  "gz-cmake": {
+    "main": true
+  },
+  "gz-utils": {
+    "main": true
+  },
+  "gz-math": {
+    "main": true
+  },
+  "gz-tools2": {
+    "main": true
+  },
+  "nvitop": {
+    "main": true
+  },
+  "optree": {
+    "main": true
+  },
+  "kmedoids": {
+    "main": true
+  },
+  "r-timechange": {
+    "main": true
+  },
+  "soxs": {
+    "main": true
+  },
+  "pgvector": {
+    "main": true
+  },
+  "gymnasium": {
+    "main": true
+  },
+  "untwine": {
+    "main": true
+  },
+  "pyxsim": {
+    "main": true
+  },
+  "libestools": {
+    "main": true
+  },
+  "skbase-suite": {
+    "main": true
+  },
+  "libebm": {
+    "main": true
+  },
+  "grep": {
+    "main": true
+  },
+  "involucro": {
+    "main": true
+  },
+  "nceplibs-sp": {
+    "main": true
+  },
+  "samurai": {
+    "main": true
+  },
+  "fast_float": {
+    "main": true
+  },
+  "nceplibs-ip": {
+    "main": true
+  },
+  "grib2io-interp": {
+    "main": true,
+    "windows": true
+  },
+  "kalpy": {
+    "main": true
+  },
+  "hipace": {
+    "main": true
+  },
+  "abacus": {
+    "main": true
+  },
+  "dgl": {
+    "main": true
+  },
+  "piqp": {
+    "main": true
+  },
+  "pyobjc-framework-applicationservices": {
+    "main": true
+  },
+  "pyobjc-framework-coretext": {
+    "main": true
+  },
+  "festival": {
+    "main": true
+  },
+  "amrex": {
+    "main": true
+  },
+  "pyamrex": {
+    "main": true
+  },
+  "opennavsurf-bag": {
+    "main": true,
+    "version-2.0.2": true,
+    "add_arm64_builds": true
+  },
+  "tensorstore": {
+    "main": true
+  },
+  "genesis4": {
+    "main": true
+  },
+  "neuromorphic-drivers": {
+    "main": true
+  },
+  "bmf": {
+    "main": true
+  },
+  "r-tolerance": {
+    "main": true
+  },
+  "mpv": {
+    "main": true
+  },
+  "python-mumps": {
+    "main": true
+  },
+  "proxsuite-nlp": {
+    "main": true
+  },
+  "imgui": {
+    "main": true
+  },
+  "liblzf": {
+    "main": true
+  },
+  "open3d": {
+    "main": true
   }
 }
