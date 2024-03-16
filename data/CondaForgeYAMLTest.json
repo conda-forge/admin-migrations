@@ -4423,5 +4423,487 @@
   },
   "pyrosm": {
     "main": true
+  },
+  "tvm-py": {
+    "main": true
+  },
+  "libtvm": {
+    "main": true
+  },
+  "r-conquer": {
+    "main": true
+  },
+  "boa": {
+    "main": true
+  },
+  "r-gert": {
+    "main": true
+  },
+  "google-crc32c": {
+    "main": true
+  },
+  "fairseq": {
+    "main": true
+  },
+  "libpsl": {
+    "main": true
+  },
+  "glib-networking": {
+    "main": true,
+    "2.70.1": true
+  },
+  "websockify": {
+    "main": true
+  },
+  "libsoup": {
+    "2.x": true
+  },
+  "tilt": {
+    "main": true
+  },
+  "soapysdr-module-remote": {
+    "main": true
+  },
+  "torchani": {
+    "main": true
+  },
+  "pystackreg": {
+    "main": true
+  },
+  "example-robot-data": {
+    "main": true
+  },
+  "gnuradio-satellites": {
+    "main": true,
+    "4.x": true
+  },
+  "pymetis": {
+    "main": true
+  },
+  "python-gssapi": {
+    "main": true
+  },
+  "pyspnego": {
+    "main": true
+  },
+  "rrdtool": {
+    "main": true
+  },
+  "pyogrio": {
+    "main": true
+  },
+  "libmamba": {
+    "main": true
+  },
+  "xvega": {
+    "main": true
+  },
+  "rhumba": {
+    "main": true
+  },
+  "conda-suggest-conda-forge": {
+    "main": true
+  },
+  "lbapcommon": {
+    "main": true
+  },
+  "r-brio": {
+    "main": true
+  },
+  "rubinenv": {
+    "v0.8.0": true,
+    "v4.0.1": true,
+    "v0.7.0": true
+  },
+  "qpot": {
+    "main": true
+  },
+  "dask-sql": {
+    "main": true
+  },
+  "mpi4jax": {
+    "main": true
+  },
+  "vcpkg": {
+    "main": true
+  },
+  "textnets": {
+    "main": true
+  },
+  "cross-python": {
+    "main": true
+  },
+  "coin-or-cgl": {
+    "main": true
+  },
+  "coin-or-clp": {
+    "main": true,
+    "1.17.4": true
+  },
+  "coin-or-cbc": {
+    "main": true
+  },
+  "coin-or-utils": {
+    "main": true
+  },
+  "coin-or-osi": {
+    "main": true
+  },
+  "cpp-terminal": {
+    "main": true
+  },
+  "mrcpp": {
+    "main": true
+  },
+  "cpp-half": {
+    "main": true
+  },
+  "toasty": {
+    "main": true
+  },
+  "ldid": {
+    "main": true
+  },
+  "r-rle": {
+    "main": true
+  },
+  "xeus-robot": {
+    "main": true
+  },
+  "r-textshaping": {
+    "main": true
+  },
+  "austin": {
+    "main": true
+  },
+  "pysimdjson": {
+    "main": true
+  },
+  "librttopo": {
+    "main": true
+  },
+  "libdc1394": {
+    "main": true
+  },
+  "libm2k": {
+    "main": true
+  },
+  "dartsim": {
+    "main": true,
+    "v6.12": true
+  },
+  "ddtrace": {
+    "main": true
+  },
+  "frictionqpotfem": {
+    "main": true
+  },
+  "genesis2": {
+    "main": true
+  },
+  "compas_cgal": {
+    "main": true
+  },
+  "eventio": {
+    "main": true
+  },
+  "dotnet": {
+    "main": true,
+    "v3": true,
+    "v5": true,
+    "v7": true,
+    "v6": true
+  },
+  "pmdarima": {
+    "main": true
+  },
+  "pytalises": {
+    "main": true
+  },
+  "backports.zoneinfo": {
+    "main": true
+  },
+  "s2geometry": {
+    "main": true
+  },
+  "containers-common": {
+    "main": true
+  },
+  "reproc": {
+    "main": true
+  },
+  "vampyr": {
+    "main": true
+  },
+  "aws-c-io": {
+    "0.13.4": true
+  },
+  "cbgen": {
+    "main": true
+  },
+  "stata_kernel": {
+    "main": true
+  },
+  "gdstk": {
+    "main": true
+  },
+  "dm-tree": {
+    "main": true,
+    "dev": true
+  },
+  "matlab_kernel": {
+    "main": true
+  },
+  "warpx": {
+    "main": true
+  },
+  "crocoddyl": {
+    "main": true
+  },
+  "gmattensor": {
+    "main": true
+  },
+  "libmicrohttpd": {
+    "main": true
+  },
+  "libopus": {
+    "main": true
+  },
+  "argp-standalone": {
+    "main": true
+  },
+  "kaleido-core": {
+    "main": true
+  },
+  "mapbox_earcut": {
+    "main": true
+  },
+  "pyqtwebkit": {
+    "main": true
+  },
+  "xvega-bindings": {
+    "main": true
+  },
+  "pys2index": {
+    "main": true
+  },
+  "cantera": {
+    "main": true
+  },
+  "heyoka": {
+    "main": true,
+    "bluescarni-patch-1": true
+  },
+  "econml": {
+    "main": true
+  },
+  "soci": {
+    "main": true
+  },
+  "pymodes": {
+    "main": true,
+    "pymodes-2.14": true,
+    "pymodes-2.14-1": true
+  },
+  "r-wk": {
+    "main": true
+  },
+  "libosqp": {
+    "main": true
+  },
+  "cppad": {
+    "main": true,
+    "topic/doc": true
+  },
+  "sktime": {
+    "main": true,
+    "py311-numba": true
+  },
+  "geographiclib-cpp": {
+    "main": true
+  },
+  "pyre2": {
+    "main": true
+  },
+  "tango-idl": {
+    "main": true
+  },
+  "openmm-torch": {
+    "main": true,
+    "rc": true
+  },
+  "ducc0": {
+    "main": true
+  },
+  "xeus-sql": {
+    "main": true
+  },
+  "impact-t": {
+    "main": true
+  },
+  "allennlp-semparse": {
+    "main": true
+  },
+  "allennlp-models": {
+    "main": true
+  },
+  "cryptoauthlib": {
+    "main": true
+  },
+  "viztracer": {
+    "main": true
+  },
+  "zoxide": {
+    "main": true
+  },
+  "libignition-rendering4": {
+    "main": true,
+    "v4": true,
+    "v5": true
+  },
+  "openmm-plumed": {
+    "main": true
+  },
+  "r-cachem": {
+    "main": true
+  },
+  "mlir": {
+    "main": true,
+    "tf": true,
+    "dev": true,
+    "rc": true
+  },
+  "fdasrsf": {
+    "main": true
+  },
+  "pandas-stubs": {
+    "main": true
+  },
+  "make_arq": {
+    "main": true
+  },
+  "irrlicht": {
+    "main": true
+  },
+  "rchitect": {
+    "main": true
+  },
+  "pyscipopt": {
+    "main": true
+  },
+  "scipoptsuite": {
+    "main": true
+  },
+  "gcp-correction": {
+    "main": true
+  },
+  "cramjam": {
+    "main": true
+  },
+  "aesara": {
+    "main": true
+  },
+  "heyoka.py": {
+    "main": true
+  },
+  "flake8-annotations": {
+    "main": true
+  },
+  "srwpy": {
+    "main": true
+  },
+  "autode": {
+    "main": true
+  },
+  "xmlsec": {
+    "main": true
+  },
+  "libxmlsec1": {
+    "main": true
+  },
+  "limesuite": {
+    "main": true
+  },
+  "sbank": {
+    "main": true
+  },
+  "blaspp": {
+    "main": true
+  },
+  "lapackpp": {
+    "main": true
+  },
+  "pyrfr": {
+    "main": true
+  },
+  "swift-sim": {
+    "main": true
+  },
+  "protozfits": {
+    "main": true
+  },
+  "lapack95": {
+    "main": true
+  },
+  "roboticstoolbox-python": {
+    "main": true
+  },
+  "analisi": {
+    "main": true
+  },
+  "fpm": {
+    "main": true
+  },
+  "onednn": {
+    "main": true
+  },
+  "libignition-sensors": {
+    "v4": true,
+    "v5": true
+  },
+  "ijar": {
+    "main": true,
+    "5.x": true
+  },
+  "frictionqpotspringblock": {
+    "main": true
+  },
+  "grpc_java_plugin": {
+    "main": true,
+    "1.37.x": true,
+    "1.47.x": true,
+    "1.46.x": true,
+    "1.48.x": true,
+    "1.40.x": true
+  },
+  "pyzstd": {
+    "main": true
+  },
+  "cppadcodegen": {
+    "main": true
+  },
+  "pymde": {
+    "main": true
+  },
+  "libignition-utils": {
+    "main": true
+  },
+  "bed-reader": {
+    "main": true
+  },
+  "editdistance-s": {
+    "main": true
+  },
+  "prettier": {
+    "main": true
+  },
+  "ihm": {
+    "main": true
+  },
+  "libdate": {
+    "main": true
+  },
+  "plum-dispatch": {
+    "main": true
   }
 }
