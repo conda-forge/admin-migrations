@@ -25028,7 +25028,8 @@
     "gpu-tests-cupy": true,
     "version-update-live-test": true,
     "gha_test": true,
-    "test-unique": true
+    "test-unique": true,
+    "automerge-live-test-hc51564": true
   },
   "cf_units": {
     "main": true
