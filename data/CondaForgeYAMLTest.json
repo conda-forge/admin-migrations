@@ -5606,5 +5606,8 @@
   "perl": {
     "main": true,
     "5.32.x": true
+  },
+  "sdl2_gfx": {
+    "main": true
   }
 }
