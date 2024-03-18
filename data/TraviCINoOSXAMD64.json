@@ -26363,7 +26363,8 @@
   },
   "cython-fortran-file": {
     "main": true,
-    "rebuild-pypy-0-1": true
+    "rebuild-pypy-0-1": true,
+    "revert-21-bump-to-0.2.7": true
   },
   "cythongsl": {
     "main": true
