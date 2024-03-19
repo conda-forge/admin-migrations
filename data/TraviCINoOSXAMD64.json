@@ -63352,7 +63352,8 @@
     "main": true
   },
   "heat": {
-    "main": true
+    "main": true,
+    "support_arm64": true
   },
   "pyobjc-framework-coretext": {
     "main": true
