@@ -57961,7 +57961,8 @@
     "main": true
   },
   "trame-matplotlib": {
-    "main": true
+    "main": true,
+    "jourdain-patch-1": true
   },
   "trame-vtk": {
     "main": true
@@ -68087,6 +68088,9 @@
     "main": true
   },
   "deepcs": {
+    "main": true
+  },
+  "caustics": {
     "main": true
   }
 }
