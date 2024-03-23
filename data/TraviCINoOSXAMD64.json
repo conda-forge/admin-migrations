@@ -4089,7 +4089,8 @@
     "master": true
   },
   "typer": {
-    "master": true
+    "master": true,
+    "0.9.x": true
   },
   "dask-ms": {
     "master": true
