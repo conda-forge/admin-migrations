@@ -22139,7 +22139,8 @@
     "main": true
   },
   "intel-compiler-repack": {
-    "main": true
+    "main": true,
+    "update/2024.0.3": true
   },
   "qcxms": {
     "main": true
@@ -68262,6 +68263,9 @@
     "main": true
   },
   "flit-core": {
+    "main": true
+  },
+  "sqlite-zstd": {
     "main": true
   }
 }
