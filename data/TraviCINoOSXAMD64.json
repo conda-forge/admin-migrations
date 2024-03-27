@@ -68272,5 +68272,53 @@
   },
   "emptylog": {
     "main": true
+  },
+  "pylibjpeg": {
+    "main": true
+  },
+  "openinference-instrumentation-mistralai": {
+    "main": true
+  },
+  "deepinv": {
+    "main": true
+  },
+  "miniopy-async": {
+    "main": true
+  },
+  "caf.distribute": {
+    "main": true
+  },
+  "cantok": {
+    "main": true
+  },
+  "cibuildwheel": {
+    "main": true
+  },
+  "bayesianbandits": {
+    "main": true
+  },
+  "graylint": {
+    "main": true
+  },
+  "openinference-instrumentation": {
+    "main": true
+  },
+  "meos": {
+    "main": true
+  },
+  "ismrmrd-python": {
+    "main": true
+  },
+  "dbt-databricks": {
+    "main": true
+  },
+  "pymeos-cffi": {
+    "main": true
+  },
+  "pymeos": {
+    "main": true
+  },
+  "targ": {
+    "main": true
   }
 }
