@@ -68170,7 +68170,8 @@
     "main": true
   },
   "rustimport": {
-    "main": true
+    "main": true,
+    "v1.3.4": true
   },
   "skpro": {
     "main": true
@@ -68368,6 +68369,21 @@
     "main": true
   },
   "nushell": {
+    "main": true
+  },
+  "pymupdf-fonts": {
+    "main": true
+  },
+  "striprtf": {
+    "main": true
+  },
+  "maestrowf": {
+    "main": true
+  },
+  "alignn": {
+    "main": true
+  },
+  "qdrant-client": {
     "main": true
   }
 }
