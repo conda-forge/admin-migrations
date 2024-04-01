@@ -68389,5 +68389,35 @@
   },
   "pbs-installer": {
     "main": true
+  },
+  "opentelemetry-resourcedetector-gcp": {
+    "main": true
+  },
+  "opentelemetry-propagator-gcp": {
+    "main": true
+  },
+  "baseopt": {
+    "main": true
+  },
+  "opentelemetry-exporter-gcp-trace": {
+    "main": true
+  },
+  "opentelemetry-exporter-gcp-monitoring": {
+    "main": true
+  },
+  "cad-to-openmc": {
+    "main": true
+  },
+  "phytreeviz": {
+    "main": true
+  },
+  "repo-review": {
+    "main": true
+  },
+  "antmocdata": {
+    "main": true
+  },
+  "hishel": {
+    "main": true
   }
 }
