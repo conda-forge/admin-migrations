@@ -12919,7 +12919,8 @@
   },
   "rsconnect-python": {
     "master": true,
-    "1.5.3_release": true
+    "1.5.3_release": true,
+    "update-code-owners": true
   },
   "cmlgenerator": {
     "master": true
@@ -68455,6 +68456,9 @@
     "main": true
   },
   "trame-jupyter-extension": {
+    "main": true
+  },
+  "django-health-check": {
     "main": true
   }
 }
