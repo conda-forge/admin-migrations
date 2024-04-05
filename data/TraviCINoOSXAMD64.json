@@ -28299,7 +28299,8 @@
     "v3.4.2": true,
     "v2.8.6": true,
     "v3.2.4": true,
-    "v5.x": true
+    "v5.x": true,
+    "v6.x": true
   },
   "ffmpeg-python": {
     "main": true
@@ -68483,6 +68484,9 @@
     "main": true
   },
   "r-ddoutlier": {
+    "main": true
+  },
+  "pixi-kernel": {
     "main": true
   }
 }
