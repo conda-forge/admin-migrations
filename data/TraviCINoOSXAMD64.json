@@ -26530,7 +26530,9 @@
     "v0.3.1": true
   },
   "databases": {
-    "main": true
+    "main": true,
+    "v0.7.0": true,
+    "v0.8.0": true
   },
   "databricks-cli": {
     "main": true
