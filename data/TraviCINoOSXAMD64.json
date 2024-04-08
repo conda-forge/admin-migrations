@@ -3593,7 +3593,8 @@
   },
   "zarr": {
     "master": true,
-    "rc": true
+    "rc": true,
+    "cleanup": true
   },
   "zbar": {
     "master": true
