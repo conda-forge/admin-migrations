@@ -68622,5 +68622,14 @@
   },
   "qlient-core": {
     "main": true
+  },
+  "pulumi-sdks": {
+    "main": true
+  },
+  "indexedconv": {
+    "main": true
+  },
+  "llama-index-readers-file": {
+    "main": true
   }
 }
