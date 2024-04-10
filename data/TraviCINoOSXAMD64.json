@@ -68631,5 +68631,12 @@
   },
   "llama-index-readers-file": {
     "main": true
+  },
+  "rattler-build-conda-compat": {
+    "main": true,
+    "feat/render-with-conda-smithy": true
+  },
+  "adani": {
+    "main": true
   }
 }
