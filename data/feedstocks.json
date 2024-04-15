@@ -15650,7 +15650,7 @@
     "cvxpygen": 0,
     "images-into-array": 0,
     "labeling": 0,
-    "classixclustering": 1,
+    "classixclustering": 0,
     "sapiens": 1,
     "stlearn": 1,
     "coverage-lcov": 1,
@@ -21969,6 +21969,8 @@
     "r-easystats": 1,
     "apache-airflow-providers-fab": 1,
     "r-metalite": 1,
-    "declare": 1
+    "declare": 1,
+    "cp2kdata": 0,
+    "maplibre": 0
   }
 }
