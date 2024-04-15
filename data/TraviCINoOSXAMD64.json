@@ -23008,7 +23008,9 @@
     "main": true
   },
   "agate": {
-    "main": true
+    "main": true,
+    "backport180": true,
+    "backport190": true
   },
   "agate-dbf": {
     "main": true
@@ -68733,6 +68735,12 @@
     "main": true
   },
   "r-metalite": {
+    "main": true
+  },
+  "maplibre": {
+    "main": true
+  },
+  "cp2kdata": {
     "main": true
   }
 }
