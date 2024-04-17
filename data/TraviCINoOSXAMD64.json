@@ -23080,7 +23080,8 @@
     "main": true
   },
   "aiohttp": {
-    "main": true
+    "main": true,
+    "dev": true
   },
   "aiohttp-cors": {
     "main": true
