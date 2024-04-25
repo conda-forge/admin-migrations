@@ -57520,13 +57520,22 @@
     "main": true
   },
   "autogluon.common": {
-    "main": true
+    "main": true,
+    "0.8.2": true,
+    "1.0.0": true,
+    "1.1.0": true
   },
   "autogluon.features": {
-    "main": true
+    "main": true,
+    "0.8.2": true,
+    "1.0.0": true,
+    "1.1.0": true
   },
   "autogluon.core": {
-    "main": true
+    "main": true,
+    "0.8.2": true,
+    "1.0.0": true,
+    "1.1.0": true
   },
   "libunrar": {
     "main": true
@@ -57548,7 +57557,10 @@
     "main": true
   },
   "autogluon.tabular": {
-    "main": true
+    "main": true,
+    "0.8.2": true,
+    "1.0.0": true,
+    "1.1.0": true
   },
   "serapeum_utils": {
     "main": true
@@ -57669,7 +57681,10 @@
   "autogluon.multimodal": {
     "main": true,
     "Innixma-patch-1": true,
-    "dep": true
+    "dep": true,
+    "0.8.2": true,
+    "1.0.0": true,
+    "1.1.0": true
   },
   "neptune-aws": {
     "main": true
@@ -57684,7 +57699,10 @@
     "main": true
   },
   "autogluon.timeseries": {
-    "main": true
+    "main": true,
+    "0.8.2": true,
+    "1.0.0": true,
+    "1.1.0": true
   },
   "eeharvest": {
     "main": true
@@ -57871,7 +57889,10 @@
     "main": true
   },
   "autogluon": {
-    "main": true
+    "main": true,
+    "0.8.2": true,
+    "1.0.0": true,
+    "1.1.0": true
   },
   "nardini": {
     "main": true
