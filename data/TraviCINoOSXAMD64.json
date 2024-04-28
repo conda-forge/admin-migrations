@@ -69031,7 +69031,8 @@
     "main": true
   },
   "ssm-simulators": {
-    "main": true
+    "main": true,
+    "remove-python-39": true
   },
   "papi": {
     "main": true
