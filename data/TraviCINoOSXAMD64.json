@@ -39261,7 +39261,8 @@
     "master": true
   },
   "pytest-asyncio": {
-    "master": true
+    "master": true,
+    "0.21.x": true
   },
   "pytest-azurepipelines": {
     "master": true
