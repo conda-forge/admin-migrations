@@ -69127,12 +69127,22 @@
     "main": true
   },
   "r-adjustedcurves": {
-    "main": true
+    "main": true,
+    "r41": true
   },
   "quil-split": {
     "main": true
   },
   "_numpy_rc": {
+    "main": true
+  },
+  "adios4dolfinx": {
+    "main": true
+  },
+  "mockafka-py": {
+    "main": true
+  },
+  "netavark": {
     "main": true
   }
 }
