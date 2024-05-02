@@ -49695,7 +49695,10 @@
     "main": true,
     "revert-23-0.33.0_hb6a51e": true,
     "andher1802-patch-1": true,
-    "andher1802-patch-2": true
+    "andher1802-patch-2": true,
+    "andher1802-patch-5": true,
+    "andher1802-patch-4": true,
+    "andher1802-patch-3": true
   },
   "datastock": {
     "main": true
@@ -69166,6 +69169,12 @@
     "main": true
   },
   "qcs-sdk-python": {
+    "main": true
+  },
+  "tailscale": {
+    "main": true
+  },
+  "tailscaled": {
     "main": true
   }
 }
