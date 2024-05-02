@@ -36349,7 +36349,8 @@
   "pandera": {
     "master": true,
     "update-v0.10.1": true,
-    "remove-duplicate-key": true
+    "remove-duplicate-key": true,
+    "dev": true
   },
   "pandoc": {
     "master": true,
