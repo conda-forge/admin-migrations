@@ -26209,7 +26209,8 @@
     "main": true
   },
   "ctng-compiler-activation": {
-    "main": true
+    "main": true,
+    "no_plain_gcc": true
   },
   "ctng-compilers": {
     "main": true,
