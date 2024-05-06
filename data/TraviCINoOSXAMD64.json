@@ -32679,7 +32679,8 @@
     "5.x": true,
     "rc": true,
     "15.x": true,
-    "14.x": true
+    "14.x": true,
+    "16.x": true
   },
   "libcxxwrap-julia": {
     "master": true
@@ -34054,7 +34055,8 @@
     "master": true
   },
   "menpo": {
-    "master": true
+    "master": true,
+    "v0.11.1": true
   },
   "menpo3d": {
     "master": true
@@ -69292,6 +69294,18 @@
     "main": true
   },
   "executorlib-core": {
+    "main": true
+  },
+  "crystal-toolkit": {
+    "main": true
+  },
+  "dash-mp-components": {
+    "main": true
+  },
+  "crystaltoolkit-extension": {
+    "main": true
+  },
+  "egl-probe": {
     "main": true
   }
 }
