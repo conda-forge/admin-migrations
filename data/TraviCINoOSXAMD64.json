@@ -62366,7 +62366,8 @@
     "main": true
   },
   "chemcoord": {
-    "main": true
+    "main": true,
+    "release_v2.1.1": true
   },
   "compass": {
     "main": true
@@ -69318,6 +69319,12 @@
     "main": true
   },
   "relentless": {
+    "main": true
+  },
+  "finufft-split": {
+    "main": true
+  },
+  "sunkit-magex": {
     "main": true
   }
 }
