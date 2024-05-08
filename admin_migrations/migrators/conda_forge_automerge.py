@@ -59,7 +59,7 @@ class CondaForgeAutomergeUpdate(Migrator):
         with open(".github/workflows/automerge.yml", "r") as fp:
             text = fp.read()
 
-        if "actions/checkout@v3" in text:
+        if "actions/checkout" not in text:
             return True, False, False
 
         with open(".github/workflows/automerge.yml", "w") as fp:
