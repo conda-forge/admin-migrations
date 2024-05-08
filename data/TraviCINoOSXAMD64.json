@@ -67114,7 +67114,10 @@
     "fix-memory-issue": true,
     "arkaprava08-patch-1": true,
     "arkaprava08-patch-3": true,
-    "arkaprava08-patch-2": true
+    "arkaprava08-patch-2": true,
+    "bump_build": true,
+    "1.1.0": true,
+    "1.0.1": true
   },
   "r-chatgpt": {
     "main": true
@@ -69359,6 +69362,9 @@
     "main": true
   },
   "hepdata-validator": {
+    "main": true
+  },
+  "langchainhub": {
     "main": true
   }
 }
