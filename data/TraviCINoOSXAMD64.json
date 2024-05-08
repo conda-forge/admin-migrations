@@ -2902,7 +2902,8 @@
     "1.11.x": true
   },
   "wrf-python": {
-    "master": true
+    "master": true,
+    "update-maintainers": true
   },
   "wrfcube": {
     "master": true,
@@ -25063,7 +25064,8 @@
     "gha_test": true,
     "test-unique": true,
     "automerge-live-test-hc51564": true,
-    "automerge-live-test-h48abd4": true
+    "automerge-live-test-h48abd4": true,
+    "test-smithy-1923": true
   },
   "cf_units": {
     "main": true,
