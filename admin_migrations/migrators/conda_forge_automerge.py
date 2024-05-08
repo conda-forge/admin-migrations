@@ -15,8 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     name: automerge
     steps:
-      - name: checkout
-        uses: actions/checkout@v3
       - name: automerge-action
         id: automerge-action
         uses: conda-forge/automerge-action@main
