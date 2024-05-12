@@ -65,7 +65,7 @@ class CondaForgeAutomergeUpdate(Migrator):
         with open(".github/workflows/automerge.yml", "w") as fp:
             fp.write(AUTOMERGE)
         subprocess.run(
-            ["git", "add", ".github/workflows/automerge.yml"],
+            ["git", "add", "-f", ".github/workflows/automerge.yml"],
             check=True,
         )
 
