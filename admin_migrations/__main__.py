@@ -17,13 +17,13 @@ import ruamel.yaml
 from admin_migrations.migrators import (
     RAutomerge,
     TraviCINoOSXAMD64,
+    CondaForgeAutomergeUpdate,
     CondaForgeYAMLTest,
     # these are finished or not used so we don't run them
     # RotateCFStagingToken,
     # RotateFeedstockToken,
     # CondaForgeMasterToMain,
     # FeedstocksServiceUpdate,
-    # CondaForgeAutomergeUpdate,
     # DotConda,
     # CondaForgeGHAWithMain,
     # CFEP13AzureTokenCleanup,
@@ -372,7 +372,7 @@ def main():
         # CondaForgeMasterToMain(),  # this one always goes first since it makes extra
         #                            # commits etc
         # FeedstocksServiceUpdate(),
-        # CondaForgeAutomergeUpdate(),
+        CondaForgeAutomergeUpdate(),
         # DotConda(),
         # CondaForgeGHAWithMain(),
         # RotateCFStagingToken(),

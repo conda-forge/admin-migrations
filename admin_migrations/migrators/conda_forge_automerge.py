@@ -15,8 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     name: automerge
     steps:
-      - name: checkout
-        uses: actions/checkout@v3
       - name: automerge-action
         id: automerge-action
         uses: conda-forge/automerge-action@main
@@ -61,7 +59,7 @@ class CondaForgeAutomergeUpdate(Migrator):
         with open(".github/workflows/automerge.yml", "r") as fp:
             text = fp.read()
 
-        if "actions/checkout@v3" in text:
+        if "actions/checkout" not in text:
             return True, False, False
 
         with open(".github/workflows/automerge.yml", "w") as fp:
