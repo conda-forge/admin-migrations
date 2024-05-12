@@ -69523,5 +69523,17 @@
   },
   "fcsparser": {
     "main": true
+  },
+  "pytest-flakefinder": {
+    "main": true
+  },
+  "testcontainers": {
+    "main": true
+  },
+  "r-forestly": {
+    "main": true
+  },
+  "pytest-shard": {
+    "main": true
   }
 }
