@@ -12686,7 +12686,7 @@
     "r-wikidataqueryservicer": 0,
     "quantiphyse-cest": 0,
     "policy_sentry": 0,
-    "oxasl": 1,
+    "oxasl": 0,
     "scikit-gstat": 1,
     "apollinaire": 1,
     "openff-units": 1,
@@ -22207,6 +22207,7 @@
     "lamin_utils": 1,
     "cime_gen_domain": 1,
     "fcsparser": 1,
-    "readfcs": 1
+    "readfcs": 1,
+    "pytest-flakefinder": 0
   }
 }
