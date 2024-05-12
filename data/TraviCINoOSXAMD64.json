@@ -69535,5 +69535,8 @@
   },
   "pytest-shard": {
     "main": true
+  },
+  "dbt-postgres": {
+    "main": true
   }
 }
