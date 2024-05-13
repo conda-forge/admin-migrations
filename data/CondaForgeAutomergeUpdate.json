@@ -69181,5 +69181,11 @@
   },
   "dbt-postgres": {
     "main": true
+  },
+  "age": {
+    "main": true
+  },
+  "pyproject-fmt-rust": {
+    "main": true
   }
 }
