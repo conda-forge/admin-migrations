@@ -25743,7 +25743,8 @@
     "main": true,
     "arkaprava08-patch-3": true,
     "1.1.0": true,
-    "1.0.1": true
+    "1.0.1": true,
+    "dev": true
   },
   "coinbase-advanced-py": {
     "main": true
@@ -69205,6 +69206,24 @@
     "main": true
   },
   "fast-depends": {
+    "main": true
+  },
+  "superblockify": {
+    "main": true
+  },
+  "pyncview": {
+    "main": true
+  },
+  "hamilflow": {
+    "main": true
+  },
+  "xmlstore": {
+    "main": true
+  },
+  "posix_ipc": {
+    "main": true
+  },
+  "xmlplot": {
     "main": true
   }
 }
