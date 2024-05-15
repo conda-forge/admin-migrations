@@ -10736,7 +10736,8 @@
     "main": true
   },
   "knoten": {
-    "main": true
+    "main": true,
+    "maintainers": true
   },
   "tuspy": {
     "main": true
@@ -69245,6 +69246,9 @@
     "main": true
   },
   "quickseries": {
+    "main": true
+  },
+  "simple_spaced_repetition": {
     "main": true
   }
 }
