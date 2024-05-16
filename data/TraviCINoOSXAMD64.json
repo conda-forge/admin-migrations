@@ -63453,7 +63453,8 @@
   },
   "heat": {
     "main": true,
-    "support_arm64": true
+    "support_arm64": true,
+    "revert-7-1.4.1_h3861db": true
   },
   "pyobjc-framework-coretext": {
     "main": true
