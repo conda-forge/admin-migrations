@@ -53773,7 +53773,8 @@
   "siesta": {
     "main": true,
     "v4.0.x": true,
-    "v4.1.x": true
+    "v4.1.x": true,
+    "v5.0.x": true
   },
   "signac-flow": {
     "main": true
@@ -69292,6 +69293,9 @@
     "main": true
   },
   "cosolvkit": {
+    "main": true
+  },
+  "loguru-mypy": {
     "main": true
   }
 }
