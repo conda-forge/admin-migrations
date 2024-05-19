@@ -10733,7 +10733,8 @@
     "1.1.x": true
   },
   "txm_sandbox": {
-    "main": true
+    "main": true,
+    "revert-35-update_0_3_1": true
   },
   "knoten": {
     "main": true,
@@ -53397,7 +53398,8 @@
     "main": true
   },
   "scikit-surprise": {
-    "main": true
+    "main": true,
+    "v1.1.4": true
   },
   "scikit-time": {
     "master": true
