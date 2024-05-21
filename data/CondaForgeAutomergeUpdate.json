@@ -69319,7 +69319,8 @@
     "main": true
   },
   "biome": {
-    "main": true
+    "main": true,
+    "dev": true
   },
   "pythermo": {
     "main": true
@@ -69403,6 +69404,9 @@
     "main": true
   },
   "microsoft-kiota-authentication-azure": {
+    "main": true
+  },
+  "microsoft-kiota-abstractions": {
     "main": true
   }
 }
