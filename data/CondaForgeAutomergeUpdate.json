@@ -33823,7 +33823,8 @@
     "main": true
   },
   "flask-marshmallow": {
-    "main": true
+    "main": true,
+    "remove-igortg-maint": true
   },
   "flask-migrate": {
     "main": true,
