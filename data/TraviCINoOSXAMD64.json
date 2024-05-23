@@ -29747,7 +29747,8 @@
     "3.8": true,
     "rc": true,
     "oldfmt": true,
-    "fix-example-browser-libboost182": true
+    "fix-example-browser-libboost182": true,
+    "qtgui-dll-loading-workaround-backport": true
   },
   "gnureadline": {
     "main": true

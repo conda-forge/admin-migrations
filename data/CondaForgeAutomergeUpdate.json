@@ -34908,7 +34908,8 @@
     "main": true,
     "3.9": true,
     "rc": true,
-    "3.8": true
+    "3.8": true,
+    "qtgui-dll-loading-workaround-backport": true
   },
   "go-archiver": {
     "main": true
