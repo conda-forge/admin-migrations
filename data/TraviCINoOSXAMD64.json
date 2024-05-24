@@ -3662,7 +3662,8 @@
   },
   "zlib": {
     "master": true,
-    "dual-compiler-output": true
+    "dual-compiler-output": true,
+    "v1.2.x": true
   },
   "zmesh": {
     "master": true

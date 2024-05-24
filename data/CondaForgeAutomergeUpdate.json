@@ -57682,7 +57682,8 @@
   },
   "zlib": {
     "main": true,
-    "dual-compiler-output": true
+    "dual-compiler-output": true,
+    "v1.2.x": true
   },
   "zmqpp": {
     "main": true
