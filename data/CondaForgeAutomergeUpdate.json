@@ -12523,7 +12523,8 @@
     "main": true
   },
   "coloraide": {
-    "main": true
+    "main": true,
+    "0.18.1": true
   },
   "delvewheel": {
     "main": true
@@ -69481,6 +69482,15 @@
     "main": true
   },
   "overturemaps": {
+    "main": true
+  },
+  "types-networkx": {
+    "main": true
+  },
+  "sphinxawesome-theme": {
+    "main": true
+  },
+  "types-seaborn": {
     "main": true
   }
 }
