@@ -4914,7 +4914,8 @@
     "master": true
   },
   "pygeoprocessing": {
-    "master": true
+    "master": true,
+    "revert-28-rebuild-numpy2-0-1_hc50775": true
   },
   "debugpy": {
     "master": true

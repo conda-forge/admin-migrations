@@ -58924,7 +58924,8 @@
     "main": true
   },
   "pygeoprocessing": {
-    "main": true
+    "main": true,
+    "revert-28-rebuild-numpy2-0-1_hc50775": true
   },
   "ros-cv-bridge": {
     "master": true,
