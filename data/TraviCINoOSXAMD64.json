@@ -5651,7 +5651,8 @@
   "dtw-python": {
     "master": true,
     "test-1.5.0": true,
-    "test-master": true
+    "test-master": true,
+    "debug-ci": true
   },
   "vedo": {
     "master": true
