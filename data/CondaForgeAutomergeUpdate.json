@@ -35171,7 +35171,8 @@
     "main": true
   },
   "graph-tool": {
-    "main": true
+    "main": true,
+    "boost-1.82": true
   },
   "graphblas": {
     "main": true
