@@ -19781,7 +19781,8 @@
     "main": true
   },
   "ultralytics": {
-    "main": true
+    "main": true,
+    "glenn-jocher-patch-1": true
   },
   "valida": {
     "main": true
@@ -69515,6 +69516,27 @@
     "main": true
   },
   "stim": {
+    "main": true
+  },
+  "colordict": {
+    "main": true
+  },
+  "extcolors": {
+    "main": true
+  },
+  "convcolors": {
+    "main": true
+  },
+  "flake8-string-format": {
+    "main": true
+  },
+  "flake8-commas": {
+    "main": true
+  },
+  "colorir": {
+    "main": true
+  },
+  "wemake-python-styleguide": {
     "main": true
   }
 }
