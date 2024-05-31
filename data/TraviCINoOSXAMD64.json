@@ -38632,7 +38632,8 @@
     "enable_macos_build": true,
     "pymeep_1.17.0": true,
     "pr3": true,
-    "python_pin": true
+    "python_pin": true,
+    "oskooi-py-pins": true
   },
   "pymemcache": {
     "master": true
