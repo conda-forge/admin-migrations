@@ -38631,7 +38631,8 @@
     "libctl_mpb_update": true,
     "enable_macos_build": true,
     "pymeep_1.17.0": true,
-    "pr3": true
+    "pr3": true,
+    "python_pin": true
   },
   "pymemcache": {
     "master": true

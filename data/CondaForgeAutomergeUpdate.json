@@ -43723,7 +43723,8 @@
     "enable_macos_build": true,
     "pr3": true,
     "libctl_mpb_update": true,
-    "pymeep_1.17.0": true
+    "pymeep_1.17.0": true,
+    "python_pin": true
   },
   "pymiescatt": {
     "main": true
