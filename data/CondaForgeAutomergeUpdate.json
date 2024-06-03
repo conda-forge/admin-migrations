@@ -31013,7 +31013,8 @@
     "revert-842-pausepy39": true
   },
   "conda-forge-repodata-patches": {
-    "main": true
+    "main": true,
+    "pre-commit-ci-update-config": true
   },
   "conda-gitenv": {
     "main": true
@@ -45849,7 +45850,8 @@
     "4.0.x": true,
     "3.5.x": true,
     "3.6.x": true,
-    "4.1.x": true
+    "4.1.x": true,
+    "4.3.x": true
   },
   "r-baseline": {
     "main": true
