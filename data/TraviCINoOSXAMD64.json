@@ -69975,7 +69975,8 @@
     "main": true
   },
   "xarpes": {
-    "main": true
+    "main": true,
+    "pullrequest": true
   },
   "ansys-api-geometry": {
     "main": true
@@ -70038,6 +70039,9 @@
     "main": true
   },
   "quill": {
+    "main": true
+  },
+  "ansys-platform-instancemanagement": {
     "main": true
   }
 }
