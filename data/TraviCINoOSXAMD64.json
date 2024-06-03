@@ -70021,5 +70021,14 @@
   },
   "windows-default-manifest": {
     "main": true
+  },
+  "backends": {
+    "main": true
+  },
+  "fdm": {
+    "main": true
+  },
+  "ansys-api-platform-instancemanagement": {
+    "main": true
   }
 }
