@@ -61063,7 +61063,8 @@
     "main": true
   },
   "pixi": {
-    "main": true
+    "main": true,
+    "misc/set_cargo_shrink_settings": true
   },
   "yjs-widgets": {
     "main": true
