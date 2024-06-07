@@ -69743,12 +69743,16 @@
     "main": true
   },
   "conda-protect": {
-    "main": true
+    "main": true,
+    "release-0-6-0": true
   },
   "gendef": {
     "main": true
   },
   "iterative_solver": {
+    "main": true
+  },
+  "tbparse": {
     "main": true
   }
 }
