@@ -30968,7 +30968,8 @@
   },
   "conan": {
     "main": true,
-    "v1.43": true
+    "v1.43": true,
+    "v1": true
   },
   "concurrentloghandler": {
     "main": true
@@ -69760,6 +69761,12 @@
     "main": true
   },
   "spacy-universal-sentence-encoder": {
+    "main": true
+  },
+  "r-box.linters": {
+    "main": true
+  },
+  "r-tidyheatmaps": {
     "main": true
   }
 }
