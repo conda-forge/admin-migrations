@@ -30548,7 +30548,8 @@
     "6.x": true,
     "13.x": true,
     "17.x": true,
-    "15.x": true
+    "15.x": true,
+    "dev": true
   },
   "cld2-cffi": {
     "main": true
@@ -30959,7 +30960,8 @@
     "rc": true,
     "16.x": true,
     "17.x": true,
-    "15.x": true
+    "15.x": true,
+    "dev": true
   },
   "compyle": {
     "main": true
@@ -38618,7 +38620,8 @@
     "rc": true,
     "16.x": true,
     "17.x": true,
-    "15.x": true
+    "15.x": true,
+    "dev": true
   },
   "llvm-spirv": {
     "main": true,
