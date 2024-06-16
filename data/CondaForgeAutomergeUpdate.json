@@ -69959,5 +69959,11 @@
   },
   "websocket-server": {
     "main": true
+  },
+  "asv_bench_memray": {
+    "main": true
+  },
+  "gspread-dataframe": {
+    "main": true
   }
 }
