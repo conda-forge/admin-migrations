@@ -38076,7 +38076,8 @@
     "master": true
   },
   "pyembree": {
-    "master": true
+    "master": true,
+    "revert-29-rebuild-python312-0-1_h1d9c85": true
   },
   "pyemd": {
     "master": true
