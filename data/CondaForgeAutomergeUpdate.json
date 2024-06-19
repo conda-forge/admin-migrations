@@ -68933,7 +68933,8 @@
     "flemmel-patch-2": true,
     "flemmel-patch-4": true,
     "flemmel-patch-3": true,
-    "flemmel-patch-13": true
+    "flemmel-patch-13": true,
+    "flemmel-patch-14": true
   },
   "ipydatetime": {
     "main": true
@@ -70039,6 +70040,27 @@
     "main": true
   },
   "choppa": {
+    "main": true
+  },
+  "ocifs": {
+    "main": true
+  },
+  "azure-ai-documentintelligence": {
+    "main": true
+  },
+  "upstash-ratelimit": {
+    "main": true
+  },
+  "tidb-vector": {
+    "main": true
+  },
+  "httpx-sse": {
+    "main": true
+  },
+  "azure-search-documents": {
+    "main": true
+  },
+  "upstash-redis": {
     "main": true
   }
 }

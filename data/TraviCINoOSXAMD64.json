@@ -14936,7 +14936,8 @@
     "flemmel-patch-10": true,
     "flemmel-patch-11": true,
     "flemmel-patch-12": true,
-    "flemmel-patch-13": true
+    "flemmel-patch-13": true,
+    "flemmel-patch-14": true
   },
   "openmichrom": {
     "master": true
@@ -70394,6 +70395,27 @@
     "main": true
   },
   "choppa": {
+    "main": true
+  },
+  "ocifs": {
+    "main": true
+  },
+  "azure-ai-documentintelligence": {
+    "main": true
+  },
+  "upstash-ratelimit": {
+    "main": true
+  },
+  "tidb-vector": {
+    "main": true
+  },
+  "httpx-sse": {
+    "main": true
+  },
+  "azure-search-documents": {
+    "main": true
+  },
+  "upstash-redis": {
     "main": true
   }
 }
