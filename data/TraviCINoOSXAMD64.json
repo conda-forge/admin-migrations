@@ -62552,7 +62552,8 @@
     "main": true
   },
   "dgl": {
-    "main": true
+    "main": true,
+    "add_missing_deps": true
   },
   "r-repurrrsive": {
     "main": true
