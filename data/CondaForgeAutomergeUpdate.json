@@ -70116,5 +70116,41 @@
   },
   "sagemaker-mlflow": {
     "main": true
+  },
+  "nomic": {
+    "main": true
+  },
+  "langchain-prompty": {
+    "main": true
+  },
+  "langchain-chroma": {
+    "main": true
+  },
+  "langchain-robocorp": {
+    "main": true
+  },
+  "langchain-nomic": {
+    "main": true
+  },
+  "langchain-together": {
+    "main": true
+  },
+  "langchain-mistralai": {
+    "main": true
+  },
+  "langchain-voyageai": {
+    "main": true
+  },
+  "langchain-qdrant": {
+    "main": true
+  },
+  "langchain-azure-dynamic-sessions": {
+    "main": true
+  },
+  "voyageai": {
+    "main": true
+  },
+  "langchain-mongodb": {
+    "main": true
   }
 }
