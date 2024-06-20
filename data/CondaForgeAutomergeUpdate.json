@@ -54812,7 +54812,9 @@
     "main": true
   },
   "stglib": {
-    "main": true
+    "main": true,
+    "dnowacki-usgs-patch-1": true,
+    "dnowacki-usgs-patch-2": true
   },
   "stingray": {
     "main": true,

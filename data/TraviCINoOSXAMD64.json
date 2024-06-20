@@ -749,7 +749,9 @@
     "master": true
   },
   "stglib": {
-    "master": true
+    "master": true,
+    "dnowacki-usgs-patch-1": true,
+    "dnowacki-usgs-patch-2": true
   },
   "stingray": {
     "master": true,
