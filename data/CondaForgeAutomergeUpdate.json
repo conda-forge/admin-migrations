@@ -70101,5 +70101,20 @@
   },
   "qt-quick3d": {
     "main": true
+  },
+  "ai21-tokenizer": {
+    "main": true
+  },
+  "ai21": {
+    "main": true
+  },
+  "langchain-fireworks": {
+    "main": true
+  },
+  "langchain-ai21": {
+    "main": true
+  },
+  "sagemaker-mlflow": {
+    "main": true
   }
 }
