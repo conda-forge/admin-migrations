@@ -57004,7 +57004,8 @@
   },
   "pyaedt": {
     "main": true,
-    "feat/urls_recipe": true
+    "feat/urls_recipe": true,
+    "maint/maintainers": true
   },
   "bids-validator": {
     "main": true
@@ -59575,7 +59576,8 @@
   "jupyterlite-pyodide-kernel": {
     "main": true,
     "alpha": true,
-    "0.1.x": true
+    "0.1.x": true,
+    "beta": true
   },
   "jupyverse-api": {
     "main": true

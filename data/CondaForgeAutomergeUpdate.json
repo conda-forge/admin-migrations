@@ -15430,7 +15430,8 @@
   },
   "pyaedt": {
     "main": true,
-    "feat/urls_recipe": true
+    "feat/urls_recipe": true,
+    "maint/maintainers": true
   },
   "gladier-tools": {
     "main": true
@@ -18165,7 +18166,8 @@
   "jupyterlite-pyodide-kernel": {
     "main": true,
     "alpha": true,
-    "0.1.x": true
+    "0.1.x": true,
+    "beta": true
   },
   "ssh-python": {
     "main": true
