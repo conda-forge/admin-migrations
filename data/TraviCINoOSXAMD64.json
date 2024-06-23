@@ -32433,7 +32433,8 @@
   },
   "lapack": {
     "master": true,
-    "split": true
+    "split": true,
+    "3.9.x": true
   },
   "larch": {
     "master": true
