@@ -23487,10 +23487,12 @@
     "main": true
   },
   "fenics-ffc": {
-    "main": true
+    "main": true,
+    "dev": true
   },
   "fenics-fiat": {
-    "main": true
+    "main": true,
+    "dev": true
   },
   "trino-server": {
     "main": true
