@@ -64035,7 +64035,8 @@
     "main": true
   },
   "cantera": {
-    "main": true
+    "main": true,
+    "dev": true
   },
   "cudnn": {
     "main": true
