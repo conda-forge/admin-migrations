@@ -13164,7 +13164,8 @@
     "master": true
   },
   "hydromt": {
-    "master": true
+    "master": true,
+    "dev": true
   },
   "galsim_extra": {
     "master": true
@@ -70591,6 +70592,18 @@
     "main": true
   },
   "libgpiod-split": {
+    "main": true
+  },
+  "pdgraster": {
+    "main": true
+  },
+  "dagster-cloud-cli": {
+    "main": true
+  },
+  "dagster-cloud": {
+    "main": true
+  },
+  "pex": {
     "main": true
   }
 }
