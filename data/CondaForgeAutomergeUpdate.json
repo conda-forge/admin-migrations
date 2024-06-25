@@ -26472,7 +26472,8 @@
   "cptec-subsaz": {
     "main": true,
     "0.0.15": true,
-    "0.0.13": true
+    "0.0.13": true,
+    "0.0.17": true
   },
   "alpha-shapes": {
     "main": true
@@ -70232,6 +70233,9 @@
     "main": true
   },
   "ndbc-api": {
+    "main": true
+  },
+  "libgpiod-split": {
     "main": true
   }
 }
