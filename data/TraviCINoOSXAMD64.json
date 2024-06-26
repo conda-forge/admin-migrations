@@ -70611,7 +70611,8 @@
     "main": true
   },
   "typst-test": {
-    "main": true
+    "main": true,
+    "ci-semi-stable": true
   },
   "dask-ee": {
     "main": true
