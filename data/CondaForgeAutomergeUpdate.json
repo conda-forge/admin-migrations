@@ -70337,7 +70337,8 @@
     "main": true
   },
   "tsv-utils": {
-    "main": true
+    "main": true,
+    "no-ldc-runtime-req": true
   },
   "spectra-cpp": {
     "main": true
@@ -70376,6 +70377,18 @@
     "main": true
   },
   "pyfes": {
+    "main": true
+  },
+  "qh3": {
+    "main": true
+  },
+  "cabarchive": {
+    "main": true
+  },
+  "bfiocpp": {
+    "main": true
+  },
+  "csp-adapter-symphony": {
     "main": true
   }
 }
