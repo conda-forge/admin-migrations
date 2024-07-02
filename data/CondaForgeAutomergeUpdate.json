@@ -18846,7 +18846,8 @@
   "eumdac": {
     "main": true,
     "Add-urllib3-to-meta.yaml": true,
-    "release-2.1.0": true
+    "release-2.1.0": true,
+    "release-2.2.3": true
   },
   "napari-unicell": {
     "main": true
@@ -70395,6 +70396,24 @@
     "main": true
   },
   "openfbx": {
+    "main": true
+  },
+  "terminaltexteffects": {
+    "main": true
+  },
+  "allpairspy": {
+    "main": true
+  },
+  "cookiecutter-data-science": {
+    "main": true
+  },
+  "empty-files": {
+    "main": true
+  },
+  "approval-utilities": {
+    "main": true
+  },
+  "approvaltests": {
     "main": true
   }
 }
