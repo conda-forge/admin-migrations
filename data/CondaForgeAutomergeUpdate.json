@@ -26106,7 +26106,8 @@
   "injective-py": {
     "main": true,
     "v0.9.12": true,
-    "v1.0.1": true
+    "v1.0.1": true,
+    "v1.4.4": true
   },
   "substrate-interface": {
     "main": true,
@@ -70461,6 +70462,9 @@
     "main": true
   },
   "introspection": {
+    "main": true
+  },
+  "imy": {
     "main": true
   }
 }
