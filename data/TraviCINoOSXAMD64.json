@@ -70705,7 +70705,9 @@
   },
   "tsv-utils": {
     "main": true,
-    "no-ldc-runtime-req": true
+    "no-ldc-runtime-req": true,
+    "patch-2": true,
+    "corneliusroemer-patch-1": true
   },
   "spectra-cpp": {
     "main": true
