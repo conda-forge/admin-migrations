@@ -6985,7 +6985,8 @@
     "6.3.2": true,
     "6.1.x": true,
     "5.x": true,
-    "5.2.x": true
+    "5.2.x": true,
+    "6.x": true
   },
   "graphvite": {
     "main": true
@@ -66261,7 +66262,8 @@
     "main": true
   },
   "leafmap": {
-    "main": true
+    "main": true,
+    "numpy": true
   },
   "skl2onnx": {
     "main": true

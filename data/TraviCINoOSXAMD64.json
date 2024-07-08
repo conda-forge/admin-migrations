@@ -12236,7 +12236,8 @@
     "master": true
   },
   "leafmap": {
-    "master": true
+    "master": true,
+    "numpy": true
   },
   "skl2onnx": {
     "master": true
@@ -22256,7 +22257,8 @@
     "5.2.x": true,
     "5.x": true,
     "6.1.x": true,
-    "6.3.2": true
+    "6.3.2": true,
+    "6.x": true
   },
   "sphinx-exercise": {
     "main": true
