@@ -27597,7 +27597,8 @@
     "main": true
   },
   "hypercoast": {
-    "main": true
+    "main": true,
+    "mapclassify": true
   },
   "r-kdetrees": {
     "main": true
@@ -70538,6 +70539,15 @@
     "main": true
   },
   "fabmos": {
+    "main": true
+  },
+  "jupyter-idle": {
+    "main": true
+  },
+  "fazy": {
+    "main": true
+  },
+  "siphash24": {
     "main": true
   }
 }
