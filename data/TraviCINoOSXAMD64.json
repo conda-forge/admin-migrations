@@ -12474,7 +12474,8 @@
   },
   "ijar": {
     "master": true,
-    "5.x": true
+    "5.x": true,
+    "6.x": true
   },
   "perl-db_file": {
     "master": true
@@ -24236,7 +24237,8 @@
     "4.2.x": true,
     "5.x": true,
     "5.x-backports": true,
-    "6.1.x": true
+    "6.1.x": true,
+    "6.x": true
   },
   "bc": {
     "main": true
