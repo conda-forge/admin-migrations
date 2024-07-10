@@ -16668,7 +16668,8 @@
   },
   "pycolmap": {
     "main": true,
-    "dev": true
+    "dev": true,
+    "0.4.0": true
   },
   "r-metamix": {
     "main": true
@@ -70577,6 +70578,12 @@
     "main": true
   },
   "rocrate-inveniordm": {
+    "main": true
+  },
+  "r-volumodel": {
+    "main": true
+  },
+  "r-rangebuilder": {
     "main": true
   }
 }
