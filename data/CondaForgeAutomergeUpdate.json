@@ -27357,7 +27357,8 @@
   },
   "rattler-build-conda-compat": {
     "main": true,
-    "feat/render-with-conda-smithy": true
+    "feat/render-with-conda-smithy": true,
+    "update-to-0.0.6": true
   },
   "llama-parse": {
     "main": true
@@ -70820,6 +70821,18 @@
     "main": true
   },
   "graphrag": {
+    "main": true
+  },
+  "r-phyloregion": {
+    "main": true
+  },
+  "r-did": {
+    "main": true
+  },
+  "r-drdid": {
+    "main": true
+  },
+  "r-bmisc": {
     "main": true
   }
 }
