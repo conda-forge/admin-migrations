@@ -1883,7 +1883,8 @@
     "main": true
   },
   "bg-mpl-stylesheets": {
-    "main": true
+    "main": true,
+    "rerender": true
   },
   "esmvaltool-suite": {
     "main": true
@@ -70848,6 +70849,12 @@
     "main": true
   },
   "r-mendelianrandomization": {
+    "main": true
+  },
+  "pyem": {
+    "main": true
+  },
+  "mistralai": {
     "main": true
   }
 }
