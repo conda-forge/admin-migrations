@@ -13264,7 +13264,8 @@
   "euphonic": {
     "master": true,
     "0.6.5": true,
-    "1.3.0_hf4a939": true
+    "1.3.0_hf4a939": true,
+    "old-numpy": true
   },
   "sqlite-fts4": {
     "master": true
@@ -71254,6 +71255,18 @@
     "main": true
   },
   "google-java-format": {
+    "main": true
+  },
+  "docker-cli": {
+    "main": true
+  },
+  "docker-buildx": {
+    "main": true
+  },
+  "libxnvme": {
+    "main": true
+  },
+  "colima": {
     "main": true
   }
 }
