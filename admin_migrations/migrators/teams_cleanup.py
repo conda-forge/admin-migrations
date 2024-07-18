@@ -37,8 +37,10 @@ class TeamsCleanup(Migrator):
 
         keep_lines = []
         skip = True
+        has_meta_yaml = False
         # First check for `meta.yaml`
         with open("recipe/meta.yaml", "r") as fp:
+            has_meta_yaml = True
             for line in fp.readlines():
                 if line.startswith("extra:"):
                     skip = False
@@ -46,7 +48,7 @@ class TeamsCleanup(Migrator):
                     keep_lines.append(line)
 
         # Check for recipe.yaml instead
-        if not keep_lines:
+        if not has_meta_yaml:
             # Because `rattler_build` recipes are valid yaml
             # we can just use the whole file
             with open("recipe/recipe.yaml") as fp:
