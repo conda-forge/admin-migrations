@@ -7,6 +7,7 @@ import conda_build
 from ruamel.yaml import YAML
 
 from conda_smithy.feedstock_tokens import feedstock_token_exists
+from rattler_build_conda_compat.render import render_recipe as render_rattler_build
 
 from .base import Migrator
 
@@ -115,11 +116,15 @@ def _get_sharded_path(output):
 def _register_feedstock_outputs(feedstock):
     unames = set()
 
+    is_rattler_build = False
     # this is a common way in which feedstocks are wrong
     if os.path.exists("recipe/meta.yaml"):
         recipe_loc = "recipe"
     elif os.path.exists("recipe/recipe/meta.yaml"):
         recipe_loc = "recipe/recipe"
+    elif os.path.exists("recipe/recipe.yaml"):
+        recipe_loc = "recipe/recipe.yaml"
+        is_rattler_build = True
     else:
         raise RuntimeError("could not find recipe location!")
 
@@ -167,21 +172,27 @@ def _register_feedstock_outputs(feedstock):
             config=config
         )
 
-        # now we render the meta.yaml into an actual recipe
-        metas = conda_build.api.render(
-                    recipe_loc,
-                    platform=platform,
-                    arch=arch,
-                    ignore_system_variants=True,
-                    variants=cbc,
-                    permit_undefined_jinja=True,
-                    finalize=False,
-                    bypass_env_check=True,
-                    channel_urls=channel_sources,
-                )
+        if not is_rattler_build:
+            # now we render the meta.yaml into an actual recipe
+            metas = conda_build.api.render(
+                        recipe_loc,
+                        platform=platform,
+                        arch=arch,
+                        ignore_system_variants=True,
+                        variants=cbc,
+                        permit_undefined_jinja=True,
+                        finalize=False,
+                        bypass_env_check=True,
+                        channel_urls=channel_sources,
+                    )
+            for m, _, _ in metas:
+                unames.add(m.name())
+        else:
+            # Render rattler-build recipe.yaml
+            metas = render_rattler_build(recipe_loc, config, cbc)
+            for meta in metas:
+                unames.add(meta.get_section("package").get("name"))
 
-        for m, _, _ in metas:
-            unames.add(m.name())
 
     print("    output names:", unames, flush=True)
 
