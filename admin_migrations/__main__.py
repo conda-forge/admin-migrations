@@ -255,6 +255,8 @@ def run_migrators(feedstock, migrators):
                 if (
                     os.path.exists("recipe/meta.yaml")
                     or os.path.exists("recipe/recipe/meta.yaml")
+                    # This is a rattler-build recipe
+                    or os.path.exists("recipe/recipe.yaml")
                 ):
                     _run_git_command([
                         "remote",
