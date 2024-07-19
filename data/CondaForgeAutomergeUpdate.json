@@ -13595,7 +13595,8 @@
   },
   "bigdft-suite": {
     "main": true,
-    "rc": true
+    "rc": true,
+    "195": true
   },
   "liblie-group-controllers": {
     "main": true
@@ -70930,6 +70931,12 @@
     "main": true
   },
   "travo": {
+    "main": true
+  },
+  "ccx2paraview": {
+    "main": true
+  },
+  "ansys-api-mechanical": {
     "main": true
   }
 }

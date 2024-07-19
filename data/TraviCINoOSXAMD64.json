@@ -55013,7 +55013,8 @@
   },
   "bigdft-suite": {
     "main": true,
-    "rc": true
+    "rc": true,
+    "195": true
   },
   "pytinyrenderer": {
     "main": true
@@ -71285,6 +71286,12 @@
     "main": true
   },
   "travo": {
+    "main": true
+  },
+  "ccx2paraview": {
+    "main": true
+  },
+  "ansys-api-mechanical": {
     "main": true
   }
 }
