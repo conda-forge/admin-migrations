@@ -5,7 +5,7 @@ from ruamel.yaml import YAML
 
 from .base import Migrator
 
-# from rattler_build_conda_compat.recipe_sources import get_all_url_sources
+from rattler_build_conda_compat.recipe_sources import get_all_url_sources
 from pathlib import Path
 
 
@@ -123,21 +123,21 @@ def _has_cran_url_rattler_build():
     Outputs can have similar sources as well
     """
 
-    # yaml = YAML()
-    # recipe_location = _get_rattler_build_recipe_location()
-    # if not recipe_location:
-    #     return False
-    # try:
-    #     with recipe_location.open("r") as file:
-    #         recipe = yaml.load(file)
-    #         # This gets all 'url' type sources for the rattler-build recipe
-    #         urls = get_all_url_sources(recipe)
-    #         for url in urls:
-    #             if MIRROR in url or CONTRIB in url:
-    #                 return True
+    yaml = YAML()
+    recipe_location = _get_rattler_build_recipe_location()
+    if not recipe_location:
+        return False
+    try:
+        with recipe_location.open("r") as file:
+            recipe = yaml.load(file)
+            # This gets all 'url' type sources for the rattler-build recipe
+            urls = get_all_url_sources(recipe)
+            for url in urls:
+                if MIRROR in url or CONTRIB in url:
+                    return True
 
-    # except Exception as e:
-    #     return False
+    except Exception as e:
+        return False
 
     return False
 
