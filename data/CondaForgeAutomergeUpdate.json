@@ -27363,7 +27363,8 @@
     "main": true,
     "feat/render-with-conda-smithy": true,
     "update-to-0.0.6": true,
-    "feat/update-version-to-0-1-0": true
+    "feat/update-version-to-0-1-0": true,
+    "bump/0.2.2": true
   },
   "llama-parse": {
     "main": true
@@ -58339,7 +58340,8 @@
     "main": true
   },
   "geoglows": {
-    "main": true
+    "main": true,
+    "rileyhales-patch-1": true
   },
   "jupyterlab_iframe": {
     "main": true
@@ -70937,6 +70939,9 @@
     "main": true
   },
   "ansys-api-mechanical": {
+    "main": true
+  },
+  "inline-snapshot": {
     "main": true
   }
 }
