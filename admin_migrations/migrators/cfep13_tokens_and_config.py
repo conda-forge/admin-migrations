@@ -193,7 +193,6 @@ def _register_feedstock_outputs(feedstock):
             for meta in metas:
                 unames.add(meta.get_section("package").get("name"))
 
-
     print("    output names:", unames, flush=True)
 
     for name in unames:

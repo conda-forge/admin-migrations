@@ -1,4 +1,3 @@
-import os
 import subprocess
 
 from ruamel.yaml import YAML
@@ -12,6 +11,7 @@ from pathlib import Path
 MIRROR = "cran_mirror"
 CONTRIB = "cran.r-project.org/src/contrib"
 
+
 def _get_conda_build_recipe_location():
     """Get the location of the conda build recipe recipe"""
     first_meta_path = Path("recipe/meta.yaml")
@@ -22,12 +22,14 @@ def _get_conda_build_recipe_location():
         return second_meta_path
     return None
 
+
 def _get_rattler_build_recipe_location():
     """Get the location of the rattler build recipe"""
     recipe_path = Path("recipe/recipe.yaml")
     if recipe_path.exists():
         return recipe_path
     return None
+
 
 def _has_r_team():
     yaml = YAML()
@@ -49,8 +51,10 @@ def _has_r_team():
     maints = [m.strip() for m in maints]
     return "conda-forge/r" in maints
 
+
 def _has_r_team_rattler_build():
-    """Check if the recipe has a conda-forge/r maintainer. Works with rattler-build recipes"""
+    """Check if the recipe has a conda-forge/r maintainer.
+    Works with rattler-build recipes"""
     yaml = YAML()
     recipe_location = _get_rattler_build_recipe_location()
     if not recipe_location:
@@ -63,7 +67,7 @@ def _has_r_team_rattler_build():
                 maints = yaml["extra"]["recipe-maintainers"]
                 maints = [m.strip() for m in maints]
                 return "conda-forge/r" in maints
-    except Exception as e:
+    except Exception:
         return False
 
 
@@ -95,8 +99,10 @@ def _has_cran_url():
 
     return False
 
+
 def _has_cran_url_rattler_build():
-    """Check if the recipe has a cran url in the source section. Works with rattler-build recipes
+    """Check if the recipe has a cran url in the source section.
+    Works with rattler-build recipes
     Collect all urls in the source section and check if any of them are cran urls.
     Can be conditionally a single source or a list of sources
     i.e.
@@ -136,7 +142,7 @@ def _has_cran_url_rattler_build():
                 if MIRROR in url or CONTRIB in url:
                     return True
 
-    except Exception as e:
+    except Exception:
         return False
 
     return False
