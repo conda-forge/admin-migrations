@@ -59827,7 +59827,8 @@
   },
   "geotexxx": {
     "main": true,
-    "np_pd_proj_requirements": true
+    "np_pd_proj_requirements": true,
+    "python_312_311": true
   },
   "napari-bbox": {
     "main": true
@@ -71449,6 +71450,36 @@
     "main": true
   },
   "kubernetes-kind": {
+    "main": true
+  },
+  "bingrep": {
+    "main": true
+  },
+  "spotiflow": {
+    "main": true
+  },
+  "ugrep": {
+    "main": true
+  },
+  "bzip3": {
+    "main": true
+  },
+  "checkmake": {
+    "main": true
+  },
+  "ripgrep-all": {
+    "main": true
+  },
+  "mesonlsp": {
+    "main": true
+  },
+  "neocmakelsp": {
+    "main": true
+  },
+  "r-rworkflows": {
+    "main": true
+  },
+  "pkgconf": {
     "main": true
   }
 }
