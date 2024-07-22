@@ -42883,7 +42883,8 @@
   "pyarrow": {
     "main": true,
     "develop": true,
-    "0.16.x": true
+    "0.16.x": true,
+    "16.x": true
   },
   "pyasdf": {
     "main": true,
