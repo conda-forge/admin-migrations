@@ -15394,7 +15394,8 @@
   "ruff": {
     "main": true,
     "charlie/rust": true,
-    "charlie/env": true
+    "charlie/env": true,
+    "zb/macos-fix": true
   },
   "airflow-provider-great-expectations": {
     "main": true,
