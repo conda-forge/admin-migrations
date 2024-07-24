@@ -18176,7 +18176,8 @@
     "main": true,
     "alpha": true,
     "0.1.x": true,
-    "beta": true
+    "beta": true,
+    "rc": true
   },
   "ssh-python": {
     "main": true
@@ -71192,6 +71193,27 @@
     "main": true
   },
   "zarrtraj": {
+    "main": true
+  },
+  "lightglue": {
+    "main": true
+  },
+  "easygems": {
+    "main": true
+  },
+  "conda-recipe-v2-schema": {
+    "main": true
+  },
+  "catppuccin-jupyterlab": {
+    "main": true
+  },
+  "diffeqpy": {
+    "main": true
+  },
+  "pyxlsx": {
+    "main": true
+  },
+  "pyrms": {
     "main": true
   }
 }
