@@ -11118,7 +11118,8 @@
     "main": true
   },
   "aioboto3": {
-    "main": true
+    "main": true,
+    "peterbygrave-patch-1": true
   },
   "types-aiobotocore-s3": {
     "main": true
