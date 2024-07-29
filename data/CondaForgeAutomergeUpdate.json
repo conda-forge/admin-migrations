@@ -17363,7 +17363,8 @@
     "main": true
   },
   "qt6-advanced-docking-system": {
-    "main": true
+    "main": true,
+    "421qt67": true
   },
   "rb-uri_template": {
     "main": true
@@ -27372,7 +27373,8 @@
     "feat/render-with-conda-smithy": true,
     "update-to-0.0.6": true,
     "feat/update-version-to-0-1-0": true,
-    "bump/0.2.2": true
+    "bump/0.2.2": true,
+    "bump/v0.2.4": true
   },
   "llama-parse": {
     "main": true
