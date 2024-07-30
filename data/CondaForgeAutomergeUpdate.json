@@ -23431,7 +23431,8 @@
     "main": true
   },
   "brainrender-napari": {
-    "main": true
+    "main": true,
+    "depend-on-utils": true
   },
   "hurl": {
     "main": true
