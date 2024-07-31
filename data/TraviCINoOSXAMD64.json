@@ -11297,7 +11297,8 @@
     "master": true
   },
   "clad": {
-    "master": true
+    "master": true,
+    "vgvassilev-patch-1": true
   },
   "apache-airflow-providers-sqlite": {
     "master": true
@@ -71272,7 +71273,8 @@
     "main": true
   },
   "torchmanager": {
-    "main": true
+    "main": true,
+    "stable-1.2.5": true
   },
   "qastle": {
     "main": true
@@ -71692,6 +71694,12 @@
     "main": true
   },
   "r-selenider": {
+    "main": true
+  },
+  "pytest-lazy-fixtures": {
+    "main": true
+  },
+  "r-marquee": {
     "main": true
   }
 }
