@@ -8,4 +8,4 @@ ruamel.yaml.jinja2
 flake8
 conda-smithy
 conda-build
-rattler-build-conda-compat>=0.2.2
+rattler-build-conda-compat>=0.2.2,<1
