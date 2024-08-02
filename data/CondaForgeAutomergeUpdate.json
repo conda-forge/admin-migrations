@@ -24250,7 +24250,9 @@
     "main": true
   },
   "openvino-tokenizers": {
-    "main": true
+    "main": true,
+    "releases/2024.3.0_rebased": true,
+    "releases/2024.3.0": true
   },
   "polars-upgrade": {
     "main": true
