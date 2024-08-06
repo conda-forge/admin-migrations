@@ -22719,7 +22719,8 @@
     "main": true
   },
   "xsarsea": {
-    "main": true
+    "main": true,
+    "add_maintainer": true
   },
   "pypromice": {
     "main": true
@@ -71446,5 +71447,8 @@
   "json-repair": {
     "main": true,
     "backports": true
+  },
+  "lsstdesc-wl-shear-sims": {
+    "main": true
   }
 }
