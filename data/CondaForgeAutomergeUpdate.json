@@ -71442,5 +71442,9 @@
   },
   "aeon-neuro": {
     "main": true
+  },
+  "json-repair": {
+    "main": true,
+    "backports": true
   }
 }
