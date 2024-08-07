@@ -71471,5 +71471,20 @@
   },
   "pytexit": {
     "main": true
+  },
+  "apache-airflow-providers-common-compat": {
+    "main": true
+  },
+  "opentelemetry-propagator-aws-xray": {
+    "main": true
+  },
+  "langgraph-checkpoint": {
+    "main": true
+  },
+  "opentelemetry-sdk-extension-aws": {
+    "main": true
+  },
+  "pysnmpcrypto": {
+    "main": true
   }
 }
