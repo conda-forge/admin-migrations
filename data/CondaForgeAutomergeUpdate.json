@@ -27072,7 +27072,8 @@
     "main": true
   },
   "dbt-databricks": {
-    "main": true
+    "main": true,
+    "update_v1.8.5": true
   },
   "pymeos-cffi": {
     "main": true
