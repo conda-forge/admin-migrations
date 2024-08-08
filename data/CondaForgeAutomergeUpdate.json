@@ -37154,7 +37154,8 @@
     "main": true
   },
   "jupyterhub": {
-    "main": true
+    "main": true,
+    "4.x": true
   },
   "jupyterhub-ldapauthenticator": {
     "main": true

@@ -32002,7 +32002,8 @@
     "master": true
   },
   "jupyterhub": {
-    "master": true
+    "master": true,
+    "4.x": true
   },
   "jupyterhub-ldapauthenticator": {
     "master": true
