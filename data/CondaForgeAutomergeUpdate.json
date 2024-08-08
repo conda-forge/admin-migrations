@@ -40025,7 +40025,8 @@
     "0.4.x": true
   },
   "mysql": {
-    "main": true
+    "main": true,
+    "8.4.x": true
   },
   "mysql-connector-c": {
     "main": true

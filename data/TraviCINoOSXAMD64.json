@@ -34901,7 +34901,8 @@
     "0.4.x": true
   },
   "mysql": {
-    "master": true
+    "master": true,
+    "8.4.x": true
   },
   "mysql-connector-c": {
     "master": true
