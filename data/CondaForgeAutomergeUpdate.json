@@ -18638,7 +18638,8 @@
     "main": true
   },
   "cuda-cupti": {
-    "main": true
+    "main": true,
+    "v12.0": true
   },
   "cuda-profiler-api": {
     "main": true
