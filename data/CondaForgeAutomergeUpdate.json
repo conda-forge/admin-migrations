@@ -71652,5 +71652,8 @@
   "aioquic": {
     "main": true,
     "0.9.x": true
+  },
+  "dataclasses-avroschema": {
+    "main": true
   }
 }
