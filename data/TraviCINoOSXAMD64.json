@@ -51319,7 +51319,9 @@
   },
   "polars": {
     "main": true,
-    "rustflags": true
+    "rustflags": true,
+    "v1.4.0": true,
+    "v1.3.0": true
   },
   "pytrack": {
     "main": true
