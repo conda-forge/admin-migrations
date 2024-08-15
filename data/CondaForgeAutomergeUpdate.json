@@ -27580,7 +27580,8 @@
     "main": true
   },
   "labbench": {
-    "main": true
+    "main": true,
+    "version-bump-0.39": true
   },
   "multispaeti": {
     "main": true
@@ -71647,5 +71648,9 @@
   },
   "mdonatello": {
     "main": true
+  },
+  "aioquic": {
+    "main": true,
+    "0.9.x": true
   }
 }
