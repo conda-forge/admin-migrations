@@ -14957,7 +14957,8 @@
     "flemmel-patch-14": true,
     "flemmel-patch-15": true,
     "flemmel-patch-16": true,
-    "flemmel-patch-17": true
+    "flemmel-patch-17": true,
+    "flemmel-patch-18": true
   },
   "openmichrom": {
     "master": true
@@ -72011,6 +72012,9 @@
     "main": true
   },
   "socketify": {
+    "main": true
+  },
+  "fastcan": {
     "main": true
   }
 }
