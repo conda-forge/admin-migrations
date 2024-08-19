@@ -72035,5 +72035,63 @@
   },
   "nodimo": {
     "main": true
+  },
+  "staticcheck": {
+    "main": true
+  },
+  "vasprun-xml": {
+    "main": true
+  },
+  "gofumpt": {
+    "main": true
+  },
+  "golines": {
+    "main": true
+  },
+  "golangci-lint-langserver": {
+    "main": true
+  },
+  "goimports-reviser": {
+    "main": true
+  },
+  "jupyter-templates": {
+    "main": true
+  },
+  "moonrepo-moon": {
+    "main": true,
+    "feat/add-arm64": true
+  },
+  "golangci-lint": {
+    "main": true
+  },
+  "qsv": {
+    "main": true
+  },
+  "delve": {
+    "main": true
+  },
+  "gopls": {
+    "main": true
+  },
+  "impl": {
+    "main": true
+  },
+  "libtoolbox": {
+    "main": true
+  },
+  "h5pywrappers": {
+    "main": true
+  },
+  "emval": {
+    "main": true
+  },
+  "gomodifytags": {
+    "main": true
+  },
+  "godoctor": {
+    "main": true
+  },
+  "revive": {
+    "main": true
   }
 }
