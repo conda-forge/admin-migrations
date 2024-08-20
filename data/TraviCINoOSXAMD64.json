@@ -32477,7 +32477,8 @@
   "lapack": {
     "master": true,
     "split": true,
-    "3.9.x": true
+    "3.9.x": true,
+    "dev": true
   },
   "larch": {
     "master": true

@@ -37639,7 +37639,8 @@
   "lapack": {
     "main": true,
     "split": true,
-    "3.9.x": true
+    "3.9.x": true,
+    "dev": true
   },
   "larray": {
     "main": true
