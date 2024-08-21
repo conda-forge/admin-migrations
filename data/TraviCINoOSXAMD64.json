@@ -72064,7 +72064,8 @@
   },
   "moonrepo-moon": {
     "main": true,
-    "feat/add-arm64": true
+    "feat/add-arm64": true,
+    "fix/linux_arch": true
   },
   "golangci-lint": {
     "main": true
@@ -72142,6 +72143,9 @@
     "main": true
   },
   "nsidc-iceflow": {
+    "main": true
+  },
+  "arro3-core": {
     "main": true
   }
 }
