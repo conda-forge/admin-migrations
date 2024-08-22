@@ -35030,7 +35030,8 @@
     "1.18.x": true,
     "1.13.x": true,
     "1.17.x": true,
-    "1.19.x": true
+    "1.19.x": true,
+    "1.22": true
   },
   "go-spatial": {
     "main": true
@@ -71863,6 +71864,12 @@
     "main": true
   },
   "plotpy": {
+    "main": true
+  },
+  "gitlab-ci-ls": {
+    "main": true
+  },
+  "pmtiles": {
     "main": true
   }
 }
