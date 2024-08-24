@@ -61665,7 +61665,8 @@
     "v0.4.1": true,
     "v5.0.x": true,
     "dev": true,
-    "v8.0.x": true
+    "v8.0.x": true,
+    "fix_pkg_config": true
   },
   "r-deoptim": {
     "main": true
@@ -71922,6 +71923,9 @@
     "main": true
   },
   "r-tidydr": {
+    "main": true
+  },
+  "r-tca": {
     "main": true
   }
 }
