@@ -69487,7 +69487,9 @@
     "main": true
   },
   "exactextract": {
-    "main": true
+    "main": true,
+    "dbaston-patch-2": true,
+    "dbaston-patch-1": true
   },
   "cosolvkit": {
     "main": true
@@ -71940,6 +71942,24 @@
     "main": true
   },
   "numpydantic": {
+    "main": true
+  },
+  "gridit": {
+    "main": true
+  },
+  "openinference-instrumentation-haystack": {
+    "main": true
+  },
+  "ansys-mechanical-env": {
+    "main": true
+  },
+  "airflow-supervisor": {
+    "main": true
+  },
+  "jupyter-scatter": {
+    "main": true
+  },
+  "pydantic-numpy": {
     "main": true
   }
 }
