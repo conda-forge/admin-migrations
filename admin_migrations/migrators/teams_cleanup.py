@@ -26,7 +26,7 @@ class TeamsCleanup(Migrator):
     def migrate(self, feedstock, branch):
         repo_name = "%s-feedstock" % feedstock
 
-        team_name = repo_name.replace("-feedstock", "").lower()
+        team_name = feedstock.lower()
         if (
             team_name in ["core", "bot", "staged-recipes", "arm-arch", "systems"]
             or team_name.startswith("help-")
@@ -35,24 +35,22 @@ class TeamsCleanup(Migrator):
 
         gh_repo = ORG.get_repo(repo_name)
 
-        keep_lines = []
-        skip = True
-        has_meta_yaml = False
         # First check for `meta.yaml`
-        with open("recipe/meta.yaml", "r") as fp:
-            has_meta_yaml = True
-            for line in fp.readlines():
-                if line.startswith("extra:"):
-                    skip = False
-                if not skip:
-                    keep_lines.append(line)
-
-        # Check for recipe.yaml instead
-        if not has_meta_yaml:
+        if os.path.exists("recipe/meta.yaml"):
+            keep_lines = []
+            skip = True
+            with open("recipe/meta.yaml", "r") as fp:
+                for line in fp.readlines():
+                    if line.startswith("extra:"):
+                        skip = False
+                    if not skip:
+                        keep_lines.append(line)
+        elif os.path.exists("recipe/meta.yml"):
             # Because `rattler_build` recipes are valid yaml
             # we can just use the whole file
             with open("recipe/recipe.yaml") as fp:
                 keep_lines = fp.readlines()
+
         meta = DummyMeta("".join(keep_lines))
         (
             current_maintainers,
@@ -62,7 +60,7 @@ class TeamsCleanup(Migrator):
             meta,
             gh_repo,
             ORG,
-            repo_name.replace("-feedstock", ""),
+            team_name,
             remove=True,
         )
 
