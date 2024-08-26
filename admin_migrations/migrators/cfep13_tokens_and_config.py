@@ -17,7 +17,7 @@ OUTPUTS_REPO = "https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-outputs
 
 def _read_conda_forge_yaml(yaml):
     if os.path.exists("conda-forge.yml"):
-        with open("conda-forge.yml", "r") as fp:
+        with open("conda-forge.yml") as fp:
             meta_yaml = fp.read()
 
         if (
@@ -39,14 +39,10 @@ def _read_conda_forge_yaml(yaml):
 
 class CFEP13TurnOff(Migrator):
     def migrate(self, feedstock, branch):
-
         yaml = YAML()
         cfg = _read_conda_forge_yaml(yaml)
 
-        if (
-            "conda_forge_output_validation" in cfg
-            and cfg["conda_forge_output_validation"]
-        ):
+        if cfg.get("conda_forge_output_validation"):
             # set the param and write
             cfg["conda_forge_output_validation"] = False
             with open("conda-forge.yml", "w") as fp:
@@ -88,7 +84,7 @@ def _register_feedstock_token(feedstock):
         # remove both paths due to change in smithy
         try:
             if feedstock.endswith("-feedstock"):
-                feedstock_name = feedstock[:-len("-feedstock")]
+                feedstock_name = feedstock[: -len("-feedstock")]
             else:
                 feedstock_name = feedstock
             token_path = os.path.expanduser(
@@ -100,7 +96,8 @@ def _register_feedstock_token(feedstock):
 
         try:
             token_path = os.path.expanduser(
-                "~/.conda-smithy/conda-forge_%s.token" % feedstock)
+                "~/.conda-smithy/conda-forge_%s.token" % feedstock
+            )
             os.remove(token_path)
         except Exception:
             pass
@@ -148,7 +145,7 @@ def _register_feedstock_outputs(feedstock):
         parser.indent(mapping=2, sequence=4, offset=2)
         parser.width = 320
 
-        with open(cbc_fname, "r") as fp:
+        with open(cbc_fname) as fp:
             cbc_cfg = parser.load(fp.read())
 
         if "channel_sources" in cbc_cfg:
@@ -162,29 +159,28 @@ def _register_feedstock_outputs(feedstock):
         # here we extract the conda build config in roughly the same way that
         # it would be used in a real build
         config = conda_build.config.get_or_merge_config(
-                    None,
-                    exclusive_config_file=cbc_fname,
-                    platform=platform,
-                    arch=arch,
-                )
+            None,
+            exclusive_config_file=cbc_fname,
+            platform=platform,
+            arch=arch,
+        )
         cbc, _ = conda_build.variants.get_package_combined_spec(
-            recipe_loc,
-            config=config
+            recipe_loc, config=config
         )
 
         if not is_rattler_build:
             # now we render the meta.yaml into an actual recipe
             metas = conda_build.api.render(
-                        recipe_loc,
-                        platform=platform,
-                        arch=arch,
-                        ignore_system_variants=True,
-                        variants=cbc,
-                        permit_undefined_jinja=True,
-                        finalize=False,
-                        bypass_env_check=True,
-                        channel_urls=channel_sources,
-                    )
+                recipe_loc,
+                platform=platform,
+                arch=arch,
+                ignore_system_variants=True,
+                variants=cbc,
+                permit_undefined_jinja=True,
+                finalize=False,
+                bypass_env_check=True,
+                channel_urls=channel_sources,
+            )
             for m, _, _ in metas:
                 unames.add(m.name())
         else:
@@ -205,7 +201,7 @@ def _register_feedstock_outputs(feedstock):
         subprocess.run(
             ["git", "pull", "--quiet"],
             check=True,
-            cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"]
+            cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"],
         )
 
         if not os.path.exists(outpth):
@@ -216,23 +212,25 @@ def _register_feedstock_outputs(feedstock):
             subprocess.run(
                 ["git", "add", sharded_name],
                 check=True,
-                cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"]
+                cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"],
             )
 
             subprocess.run(
                 [
-                    "git", "commit", "-am",
+                    "git",
+                    "commit",
+                    "-am",
                     "[ci skip] [skip ci] [cf admin skip] ***NO_CI*** "
-                    "added output %s for conda-forge/%s" % (name, feedstock)
+                    "added output %s for conda-forge/%s" % (name, feedstock),
                 ],
                 check=True,
-                cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"]
+                cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"],
             )
 
             subprocess.run(
                 ["git", "push", "--quiet"],
                 check=True,
-                cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"]
+                cwd=os.environ["FEEDSTOCK_OUTPUTS_REPO"],
             )
             print("    added output:", name, flush=True)
 
@@ -241,7 +239,6 @@ class CFEP13TokensAndConfig(Migrator):
     max_workers = 1
 
     def migrate(self, feedstock, branch):
-
         yaml = YAML()
         cfg = _read_conda_forge_yaml(yaml)
 
@@ -266,7 +263,7 @@ class CFEP13TokensAndConfig(Migrator):
                 "conda smithy update-binstar-token "
                 "--without-appveyor --token_name STAGING_BINSTAR_TOKEN",
                 shell=True,
-                check=True
+                check=True,
             )
             print("    added staging binstar token", flush=True)
 

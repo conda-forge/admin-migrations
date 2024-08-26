@@ -11,7 +11,7 @@ class TraviCINoOSXAMD64(Migrator):
         if os.path.exists(".travis.yml"):
             yaml = YAML()
 
-            with open(".travis.yml", "r") as fp:
+            with open(".travis.yml") as fp:
                 cfg = yaml.load(fp.read())
 
             if "matrix" in cfg and "include" in cfg["matrix"]:

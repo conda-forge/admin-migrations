@@ -10,7 +10,7 @@ YAML = YAML()
 
 
 def _get_num_builds(appveyor_name):
-    HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
+    HEADERS = {"Authorization": "Bearer " + os.environ["APPVEYOR_TOKEN"]}
 
     r = requests.get(
         "https://ci.appveyor.com/api/projects/conda-forge/"
@@ -41,14 +41,14 @@ def _has_appveyor_any_branch(curr_branch):
     )
 
     branches = []
-    for line in o.stdout.decode("utf-8").split('\n'):
+    for line in o.stdout.decode("utf-8").split("\n"):
         if len(line) > 0 and "origin/HEAD" not in line:
-            branches.append(line.strip()[len("origin/"):])
+            branches.append(line.strip()[len("origin/") :])
 
     _has_app = []
     for branch in branches:
         subprocess.run(["git", "checkout", branch], check=True)
-        with open("conda-forge.yml", "r") as fp:
+        with open("conda-forge.yml") as fp:
             cf_cfg = YAML.load(fp)
 
         if cf_cfg.get("provider", {}).get("win", None) == "azure":
@@ -67,7 +67,7 @@ class AppveyorDelete(Migrator):
     max_workers = 1
 
     def migrate(self, feedstock, branch):
-        HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
+        HEADERS = {"Authorization": "Bearer " + os.environ["APPVEYOR_TOKEN"]}
 
         assert branch == "main" or branch == "master"
         deleted = False
@@ -78,8 +78,7 @@ class AppveyorDelete(Migrator):
         appveyor_name = appveyor_name.replace("_", "-").replace(".", "-")
 
         r = requests.get(
-            "https://ci.appveyor.com/api/projects/"
-            "conda-forge/%s" % appveyor_name,
+            "https://ci.appveyor.com/api/projects/" "conda-forge/%s" % appveyor_name,
             headers=HEADERS,
         )
 
@@ -143,7 +142,7 @@ class AppveyorForceDelete(Migrator):
     main_branch_only = True
 
     def migrate(self, feedstock, branch):
-        HEADERS = {"Authorization": "Bearer " + os.environ['APPVEYOR_TOKEN']}
+        HEADERS = {"Authorization": "Bearer " + os.environ["APPVEYOR_TOKEN"]}
 
         if feedstock == "python":
             return True, False, False

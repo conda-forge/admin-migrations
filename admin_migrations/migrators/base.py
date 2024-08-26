@@ -2,7 +2,7 @@ import os
 import json
 
 
-class Migrator(object):
+class Migrator:
     # set this to true if the admin migration runs for the main branch only
     # this can be used for migrations that update CI services used by all branches
     main_branch_only = False
@@ -16,12 +16,13 @@ class Migrator(object):
         if not os.path.exists(fname):
             blob = {}
         else:
-            with open(fname, "r") as fp:
+            with open(fname) as fp:
                 blob = json.load(fp)
         self._done_table = blob
 
         print(
-            "migrator %s: done %d" % (
+            "migrator %s: done %d"
+            % (
                 self.__class__.__name__,
                 len(blob),
             ),
@@ -37,11 +38,9 @@ class Migrator(object):
         if branch != "main":
             return self._done_table.get(feedstock, {}).get(branch, False)
         else:
-            return (
-                self._done_table.get(feedstock, {}).get("master", False)
-                or
-                self._done_table.get(feedstock, {}).get("main", False)
-            )
+            return self._done_table.get(feedstock, {}).get(
+                "master", False
+            ) or self._done_table.get(feedstock, {}).get("main", False)
 
     def migrate(self, feedstock, branch):
         """Migrate the feedstock.
@@ -84,7 +83,7 @@ class Migrator(object):
         if not os.path.exists(fname):
             blob = {}
         else:
-            with open(fname, "r") as fp:
+            with open(fname) as fp:
                 blob = json.load(fp)
 
         if feedstock not in blob:

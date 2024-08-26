@@ -3,7 +3,7 @@ import github
 
 from .base import Migrator
 
-GH = github.Github(os.environ['GITHUB_TOKEN'])
+GH = github.Github(os.environ["GITHUB_TOKEN"])
 
 BOT_RERUN = (
     "bot-rerun",
@@ -38,8 +38,8 @@ class AutomergeAndBotRerunLabels(Migrator):
 
                 if target_label:
                     if (
-                        target_label.color != label_data[1] or
-                        target_label.description != label_data[2]
+                        target_label.color != label_data[1]
+                        or target_label.description != label_data[2]
                     ):
                         target_label.edit(label_data[0], label_data[1], label_data[2])
                         print("    edited:", label_data[0], flush=True)

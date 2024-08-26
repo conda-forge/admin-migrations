@@ -8,11 +8,9 @@ from conda_smithy.ci_register import travis_get_repo_info
 
 from .base import Migrator
 
-SMITHY_CONF = os.path.expanduser('~/.conda-smithy')
-FEEDSTOCK_TOKENS_REPO = (
-    github
-    .Github(os.environ["GITHUB_TOKEN"])
-    .get_repo("conda-forge/feedstock-tokens")
+SMITHY_CONF = os.path.expanduser("~/.conda-smithy")
+FEEDSTOCK_TOKENS_REPO = github.Github(os.environ["GITHUB_TOKEN"]).get_repo(
+    "conda-forge/feedstock-tokens"
 )
 
 
@@ -40,11 +38,11 @@ def _delete_feedstock_token(feedstock_name):
 
 
 def _write_travis_token(token_env):
-    smithy_conf = os.path.expanduser('~/.conda-smithy')
+    smithy_conf = os.path.expanduser("~/.conda-smithy")
     if not os.path.exists(smithy_conf):
         os.mkdir(smithy_conf)
 
-    with open(os.path.join(smithy_conf, 'travis.token'), 'w') as fh:
+    with open(os.path.join(smithy_conf, "travis.token"), "w") as fh:
         fh.write(os.environ[token_env])
 
 
@@ -60,7 +58,7 @@ class RotateFeedstockToken(Migrator):
 
         # test to make sure travis ci api is working
         # if not skip migration
-        repo_info = travis_get_repo_info("conda-forge", feedstock+"-feedstock")
+        repo_info = travis_get_repo_info("conda-forge", feedstock + "-feedstock")
         if not repo_info:
             print(
                 "    travis-ci API not working - skipping migration for now",
@@ -74,14 +72,17 @@ class RotateFeedstockToken(Migrator):
             print("    deleted old feedstock token", flush=True)
 
         feedstock_dir = "../%s-feedstock" % feedstock
-        owner_info = ['--organization', 'conda-forge']
+        owner_info = ["--organization", "conda-forge"]
 
         # make a new one
         subprocess.check_call(
             " ".join(
                 [
-                    'conda', 'smithy', 'generate-feedstock-token',
-                    '--feedstock_directory', feedstock_dir
+                    "conda",
+                    "smithy",
+                    "generate-feedstock-token",
+                    "--feedstock_directory",
+                    feedstock_dir,
                 ]
                 + owner_info
             ),
@@ -93,18 +94,20 @@ class RotateFeedstockToken(Migrator):
         subprocess.check_call(
             " ".join(
                 [
-                    'conda', 'smithy',
-                    'register-feedstock-token',
-                    '--feedstock_directory', feedstock_dir,
+                    "conda",
+                    "smithy",
+                    "register-feedstock-token",
+                    "--feedstock_directory",
+                    feedstock_dir,
                     "--without-circle",
                     "--without-drone",
                     "--without-github-actions",
                 ]
                 + owner_info
                 + [
-                    '--token_repo',
-                    'https://x-access-token:${GITHUB_TOKEN}@github.com/conda-forge/'
-                    'feedstock-tokens'
+                    "--token_repo",
+                    "https://x-access-token:${GITHUB_TOKEN}@github.com/conda-forge/"
+                    "feedstock-tokens",
                 ]
             ),
             shell=True,
