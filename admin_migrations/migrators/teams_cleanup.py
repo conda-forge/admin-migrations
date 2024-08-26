@@ -12,7 +12,7 @@ ORG = GH.get_organization("conda-forge")
 
 def _get_random_frac():
     """We do 50 per hour no matter what."""
-    from .._main__ import MAX_MIGRATE
+    from ..__main__ import MAX_MIGRATE
     if MAX_MIGRATE > 0:
         frac = 50 / MAX_MIGRATE
     else:
