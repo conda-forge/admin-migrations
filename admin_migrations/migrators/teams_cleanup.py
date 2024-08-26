@@ -48,7 +48,7 @@ class TeamsCleanup(Migrator):
             rsp = requests.post(
                "https://conda-forge.herokuapp.com/conda-forge-teams/update",
                headers={"CF_WEBSERVICES_TOKEN": os.environ["CF_WEBSERVICES_TOKEN"]},
-               json={"feedstcok": repo_name}
+               json={"feedstock": repo_name}
             )
             rsp.raise_for_status()
 
