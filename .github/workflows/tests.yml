@@ -28,12 +28,11 @@ jobs:
 
       - uses: conda-incubator/setup-miniconda@a4260408e20b96e80095f42ff7f1a15b27dd94ca # v3.0.4
         with:
-          python-version: 3.8
+          python-version: 3.11
           channels: conda-forge
           channel-priority: strict
           show-channel-urls: true
           miniforge-version: latest
-          miniforge-variant: Mambaforge
 
       - name: configure conda and install code
         shell: bash -l {0}
@@ -77,3 +76,4 @@ jobs:
           TRAVIS_TOKEN_B: ${{ secrets.CF_DAEMON_TRAVIS_TOKEN }}
           AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
           STAGING_BINSTAR_TOKEN: ${{ secrets.STAGING_BINSTAR_TOKEN }}
+          CF_WEBSERVICES_TOKEN: ${{ secrets.CF_WEBSERVICES_TOKEN }}

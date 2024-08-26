@@ -1,13 +1,21 @@
 import os
+import random
 
-import github
-from conda_smithy.github import configure_github_team
+import requests
 from ruamel.yaml import YAML
 
 from .base import Migrator
+from ..defaults import MAX_MIGRATE
 
-GH = github.Github(os.environ['GITHUB_TOKEN'])
-ORG = GH.get_organization("conda-forge")
+
+def _get_random_frac():
+    """We do 50 per hour no matter what."""
+    if MAX_MIGRATE > 0:
+        frac = 50 / MAX_MIGRATE
+    else:
+        frac = 1
+
+    return frac
 
 
 class DummyMeta(object):
@@ -26,45 +34,23 @@ class TeamsCleanup(Migrator):
     def migrate(self, feedstock, branch):
         repo_name = "%s-feedstock" % feedstock
 
-        team_name = repo_name.replace("-feedstock", "").lower()
+        team_name = feedstock.lower()
         if (
             team_name in ["core", "bot", "staged-recipes", "arm-arch", "systems"]
             or team_name.startswith("help-")
         ):
             return
 
-        gh_repo = ORG.get_repo(repo_name)
-
-        keep_lines = []
-        skip = True
-        has_meta_yaml = False
-        # First check for `meta.yaml`
-        with open("recipe/meta.yaml", "r") as fp:
-            has_meta_yaml = True
-            for line in fp.readlines():
-                if line.startswith("extra:"):
-                    skip = False
-                if not skip:
-                    keep_lines.append(line)
-
-        # Check for recipe.yaml instead
-        if not has_meta_yaml:
-            # Because `rattler_build` recipes are valid yaml
-            # we can just use the whole file
-            with open("recipe/recipe.yaml") as fp:
-                keep_lines = fp.readlines()
-        meta = DummyMeta("".join(keep_lines))
-        (
-            current_maintainers,
-            prev_maintainers,
-            new_conda_forge_members,
-        ) = configure_github_team(
-            meta,
-            gh_repo,
-            ORG,
-            repo_name.replace("-feedstock", ""),
-            remove=True,
-        )
+        if (
+            random.random() < _get_random_frac()
+            or "DEBUG_ADMIN_MIGRATIONS" in os.environ
+        ):
+            rsp = requests.post(
+               "https://conda-forge.herokuapp.com/conda-forge-teams/update",
+               headers={"CF_WEBSERVICES_TOKEN": os.environ["CF_WEBSERVICES_TOKEN"]},
+               json={"feedstock": repo_name}
+            )
+            rsp.raise_for_status()
 
         # migration done, make a commit, lots of API calls
-        return True, False, True
+        return False, False, True
