@@ -45,11 +45,12 @@ class TeamsCleanup(Migrator):
             random.random() < _get_random_frac()
             or "DEBUG_ADMIN_MIGRATIONS" in os.environ
         ):
-            requests.post(
+            rsp = requests.post(
                "https://conda-forge.herokuapp.com/conda-forge-teams/update",
                headers={"CF_WEBSERVICES_TOKEN": os.environ["CF_WEBSERVICES_TOKEN"]},
                json={"feedstcok": repo_name}
             )
+            rsp.raise_for_status()
 
         # migration done, make a commit, lots of API calls
         return False, False, True
