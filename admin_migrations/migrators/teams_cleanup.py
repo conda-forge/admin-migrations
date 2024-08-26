@@ -5,6 +5,7 @@ import github
 from ruamel.yaml import YAML
 
 from .base import Migrator
+from ..defaults import MAX_MIGRATE
 
 GH = github.Github(os.environ['GITHUB_TOKEN'])
 ORG = GH.get_organization("conda-forge")
@@ -12,7 +13,6 @@ ORG = GH.get_organization("conda-forge")
 
 def _get_random_frac():
     """We do 50 per hour no matter what."""
-    from ..__main__ import MAX_MIGRATE
     if MAX_MIGRATE > 0:
         frac = 50 / MAX_MIGRATE
     else:
