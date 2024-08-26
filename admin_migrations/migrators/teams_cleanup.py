@@ -1,4 +1,5 @@
 import os
+import random
 
 import github
 from conda_smithy.github import configure_github_team
@@ -8,6 +9,8 @@ from .base import Migrator
 
 GH = github.Github(os.environ['GITHUB_TOKEN'])
 ORG = GH.get_organization("conda-forge")
+
+NUM_DONE = 0
 
 
 class DummyMeta(object):
@@ -24,6 +27,8 @@ class TeamsCleanup(Migrator):
     max_processes = 1
 
     def migrate(self, feedstock, branch):
+        global NUM_DONE
+
         repo_name = "%s-feedstock" % feedstock
 
         team_name = feedstock.lower()
@@ -50,19 +55,23 @@ class TeamsCleanup(Migrator):
             # we can just use the whole file
             with open("recipe/recipe.yaml") as fp:
                 keep_lines = fp.readlines()
+        else:
+            return False, False, False
 
-        meta = DummyMeta("".join(keep_lines))
-        (
-            current_maintainers,
-            prev_maintainers,
-            new_conda_forge_members,
-        ) = configure_github_team(
-            meta,
-            gh_repo,
-            ORG,
-            team_name,
-            remove=True,
-        )
+        if random.random() < 0.1 and NUM_DONE < 100:
+            meta = DummyMeta("".join(keep_lines))
+            (
+                current_maintainers,
+                prev_maintainers,
+                new_conda_forge_members,
+            ) = configure_github_team(
+                meta,
+                gh_repo,
+                ORG,
+                team_name,
+                remove=True,
+            )
+            NUM_DONE += 1
 
         # migration done, make a commit, lots of API calls
-        return True, False, True
+        return False, False, True
