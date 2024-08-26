@@ -1,14 +1,11 @@
 import os
 import random
 
-import github
+import requests
 from ruamel.yaml import YAML
 
 from .base import Migrator
 from ..defaults import MAX_MIGRATE
-
-GH = github.Github(os.environ['GITHUB_TOKEN'])
-ORG = GH.get_organization("conda-forge")
 
 
 def _get_random_frac():
@@ -44,13 +41,15 @@ class TeamsCleanup(Migrator):
         ):
             return
 
-        gh_repo = ORG.get_repo(repo_name)
-
         if (
             random.random() < _get_random_frac()
             or "DEBUG_ADMIN_MIGRATIONS" in os.environ
         ):
-            gh_repo.create_issue(title="@conda-forge-admin, please update team")
+            requests.post(
+               "https://conda-forge.herokuapp.com/conda-forge-teams/update",
+               headers={"CF_WEBSERVICES_TOKEN": os.environ["CF_WEBSERVICES_TOKEN"]},
+               json={"feedstcok": repo_name}
+            )
 
         # migration done, make a commit, lots of API calls
         return False, False, True
