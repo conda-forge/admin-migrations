@@ -46,7 +46,10 @@ class TeamsCleanup(Migrator):
 
         gh_repo = ORG.get_repo(repo_name)
 
-        if random.random() < _get_random_frac() or "DEBUG_ADMIN_MIGRATIONS" in os.environ:
+        if (
+            random.random() < _get_random_frac()
+            or "DEBUG_ADMIN_MIGRATIONS" in os.environ
+        ):
             gh_repo.create_issue(title="@conda-forge-admin, please update team")
 
         # migration done, make a commit, lots of API calls
