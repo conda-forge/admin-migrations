@@ -25891,7 +25891,9 @@
     "revert-842-pausepy39": true,
     "migrate_to_modern": true,
     "quarto-osx-arm64": true,
-    "pre-commit-ci-update-config": true
+    "pre-commit-ci-update-config": true,
+    "beckermr-patch-2": true,
+    "beckermr-patch-1": true
   },
   "conda-forge-repodata-patches": {
     "main": true,
