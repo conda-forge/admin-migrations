@@ -14,7 +14,6 @@ run-admin-migrations = "admin_migrations.__main__:main"
 packages = {find = {exclude=["data*", "scripts*"]}}
 
 [tool.ruff]
-target-version = "py311"
 line-length = 88
 
 [tool.ruff.lint]
@@ -31,9 +30,8 @@ select = [
     "UP",
     # flake8-logging-format
     "G",
-    # flake8-tidy-imports
-    "TID",
 ]
+extend-ignore = ["UP031",]
 
 [tool.ruff.lint.pycodestyle]
 max-line-length = 88
