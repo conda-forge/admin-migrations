@@ -6,7 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "admin_migrations"
 version = "0.1"
 
-
 [project.scripts]
 run-admin-migrations = "admin_migrations.__main__:main"
 

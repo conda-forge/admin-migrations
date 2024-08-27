@@ -14753,7 +14753,8 @@
     "main": true
   },
   "lightpath": {
-    "main": true
+    "main": true,
+    "bld_lightpath_base": true
   },
   "fastapi-oidc": {
     "main": true
@@ -23935,7 +23936,8 @@
     "main": true
   },
   "terraform-provider-opensearch": {
-    "main": true
+    "main": true,
+    "regro-cf-autotick-bot": true
   },
   "pycrdt-websocket": {
     "main": true
@@ -23983,7 +23985,8 @@
     "main": true
   },
   "terraform-provider-restapi": {
-    "main": true
+    "main": true,
+    "tp-jssk-patch-1": true
   },
   "compas_libigl": {
     "main": true
