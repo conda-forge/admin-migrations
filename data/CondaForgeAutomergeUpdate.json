@@ -14753,7 +14753,8 @@
     "main": true
   },
   "lightpath": {
-    "main": true
+    "main": true,
+    "bld_lightpath_base": true
   },
   "fastapi-oidc": {
     "main": true
