@@ -6473,7 +6473,9 @@
     "main": true
   },
   "scvi-tools": {
-    "main": true
+    "main": true,
+    "lightning_upper_bound_svi_tools_1p1p6": true,
+    "adamgayoso-patch-1": true
   },
   "pygcgopt": {
     "main": true
