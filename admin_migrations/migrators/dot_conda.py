@@ -1,17 +1,17 @@
-import subprocess
 import os
+import subprocess
 
 import github
 from ruamel.yaml import YAML
 
 from .base import Migrator
 
-GH = github.Github(os.environ['GITHUB_TOKEN'])
+GH = github.Github(os.environ["GITHUB_TOKEN"])
 
 
 def _read_conda_forge_yaml(yaml):
     if os.path.exists("conda-forge.yml"):
-        with open("conda-forge.yml", "r") as fp:
+        with open("conda-forge.yml") as fp:
             meta_yaml = fp.read()
 
         if (
@@ -40,10 +40,7 @@ class DotConda(Migrator):
 
         yaml = YAML()
         cfg = _read_conda_forge_yaml(yaml)
-        if (
-            "conda_build" not in cfg
-            or "pkg_format" not in cfg["conda_build"]
-        ):
+        if "conda_build" not in cfg or "pkg_format" not in cfg["conda_build"]:
             if "conda_build" not in cfg:
                 cfg["conda_build"] = {}
             cfg["conda_build"]["pkg_format"] = "2"

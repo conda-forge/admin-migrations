@@ -26,9 +26,8 @@ jobs:
 
 class CondaForgeAutomerge(Migrator):
     def migrate(self, feedstock, branch):
-        if (
-            os.path.exists(".github/workflows/automerge.yml")
-            and not os.path.exists(".github/workflows/main.yml")
+        if os.path.exists(".github/workflows/automerge.yml") and not os.path.exists(
+            ".github/workflows/main.yml"
         ):
             return True, False, False
 
@@ -56,7 +55,7 @@ class CondaForgeAutomergeUpdate(Migrator):
         if not os.path.exists(".github/workflows/automerge.yml"):
             return True, False, False
 
-        with open(".github/workflows/automerge.yml", "r") as fp:
+        with open(".github/workflows/automerge.yml") as fp:
             text = fp.read()
 
         if "actions/checkout" not in text:

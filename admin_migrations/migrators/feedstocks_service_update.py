@@ -1,8 +1,9 @@
 import os
-import git
-import time
-import tempfile
 import shutil
+import tempfile
+import time
+
+import git
 import github
 
 from .base import Migrator
@@ -17,11 +18,11 @@ class FeedstocksServiceUpdate(Migrator):
 
         # code here os from webservices repo
         repo_name = feedstock + "-feedstock"
-        name = repo_name[:-len("-feedstock")]
+        name = repo_name[: -len("-feedstock")]
 
         tmp_dir = None
         try:
-            tmp_dir = tempfile.mkdtemp('_recipe')
+            tmp_dir = tempfile.mkdtemp("_recipe")
 
             feedstocks_url = (
                 "https://x-access-token:{}@github.com/conda-forge/feedstocks.git"
@@ -39,11 +40,9 @@ class FeedstocksServiceUpdate(Migrator):
             for i in range(5):
                 try:
                     gh = github.Github(os.environ["GITHUB_TOKEN"])
-                    default_branch = (
-                        gh
-                        .get_repo("{}/{}".format(org_name, repo_name))
-                        .default_branch
-                    )
+                    default_branch = gh.get_repo(
+                        f"{org_name}/{repo_name}"
+                    ).default_branch
                     break
                 except Exception as e:
                     if i < 4:
@@ -55,7 +54,7 @@ class FeedstocksServiceUpdate(Migrator):
             feedstock_submodule = feedstocks_repo.create_submodule(
                 name=name,
                 path=os.path.join("feedstocks", name),
-                url="https://github.com/{0}/{1}.git".format(org_name, repo_name),
+                url=f"https://github.com/{org_name}/{repo_name}.git",
                 branch=default_branch,
             )
 
@@ -67,10 +66,7 @@ class FeedstocksServiceUpdate(Migrator):
                     "refs/heads/%s" % default_branch,
                 )
             feedstock_submodule.update(
-                init=True,
-                recursive=False,
-                force=True,
-                to_latest_revision=True
+                init=True, recursive=False, force=True, to_latest_revision=True
             )
             feedstocks_repo.git.add([".gitmodules", feedstock_submodule.path])
             print("    updated submodule", flush=True)
@@ -78,7 +74,7 @@ class FeedstocksServiceUpdate(Migrator):
             # Submit changes
             if feedstocks_repo.is_dirty(working_tree=False, untracked_files=True):
                 feedstocks_repo.index.commit(
-                    "Updated the {0} feedstock.".format(name),
+                    f"Updated the {name} feedstock.",
                 )
                 feedstocks_repo.remote().pull(rebase=True)
                 feedstocks_repo.remote().push()

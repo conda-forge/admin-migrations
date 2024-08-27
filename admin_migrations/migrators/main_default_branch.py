@@ -1,15 +1,15 @@
-import subprocess
 import os
-from functools import lru_cache
-import requests
+import subprocess
 import time
+from functools import lru_cache
 
 import github
+import requests
 from ruamel.yaml import YAML
 
 from .base import Migrator
 
-GH = github.Github(os.environ['GITHUB_TOKEN'])
+GH = github.Github(os.environ["GITHUB_TOKEN"])
 
 CIRCLECI_BLANK = """
 # This file was generated automatically from conda-smithy. To update this configuration,
@@ -118,7 +118,7 @@ jobs:
 
 def _run_git_command(args, check=True):
     s = subprocess.run(
-        ['git'] + args,
+        ["git"] + args,
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         check=check,
@@ -130,13 +130,14 @@ def _run_git_command(args, check=True):
 
 
 def _commit_repo(msg):
-    _run_git_command([
-        "commit",
-        "--allow-empty",
-        "-am",
-        "[ci skip] [skip ci] [cf admin skip] "
-        "***NO_CI*** %s" % msg,
-    ])
+    _run_git_command(
+        [
+            "commit",
+            "--allow-empty",
+            "-am",
+            "[ci skip] [skip ci] [cf admin skip] " "***NO_CI*** %s" % msg,
+        ]
+    )
 
 
 @lru_cache(maxsize=1)
@@ -149,14 +150,14 @@ def _get_req_session(github_token):
     sess.headers = {
         "Accept": "application/vnd.github.v3+json",
         "Authorization": f"token {github_token}",
-        "User-Agent": f"GitHub Actions script in {__file__}"
+        "User-Agent": f"GitHub Actions script in {__file__}",
     }
 
     def raise_for_status(resp, *args, **kwargs):
         try:
             resp.raise_for_status()
         except Exception as e:
-            print('ERROR:', resp.text)
+            print("ERROR:", resp.text)
             raise e
 
     sess.hooks["response"].append(raise_for_status)
@@ -166,7 +167,7 @@ def _get_req_session(github_token):
 
 def _read_conda_forge_yaml(yaml):
     if os.path.exists("conda-forge.yml"):
-        with open("conda-forge.yml", "r") as fp:
+        with open("conda-forge.yml") as fp:
             meta_yaml = fp.read()
 
         if (
@@ -187,7 +188,7 @@ def _read_conda_forge_yaml(yaml):
 
 
 def _update_wfl(fname, new_wfl):
-    with open(fname, "r") as fp:
+    with open(fname) as fp:
         wfl = fp.read()
     if "action@master" in wfl:
         with open(fname, "w") as fp:
@@ -232,14 +233,22 @@ def _master_to_main(repo):
     old_sha = _get_curr_sha()
     try:
         if os.path.exists("azure-pipelines.yml"):
-            _run_git_command([
-                "mv", "azure-pipelines.yml", "azure-pipelines.yml.bak",
-            ])
+            _run_git_command(
+                [
+                    "mv",
+                    "azure-pipelines.yml",
+                    "azure-pipelines.yml.bak",
+                ]
+            )
 
         if os.path.exists(".travis.yml"):
-            _run_git_command([
-                "mv", ".travis.yml", ".travis.yml.bak",
-            ])
+            _run_git_command(
+                [
+                    "mv",
+                    ".travis.yml",
+                    ".travis.yml.bak",
+                ]
+            )
 
         if os.path.exists(".circleci/config.yml"):
             with open(".circleci/config.yml", "w") as fp:
@@ -248,7 +257,7 @@ def _master_to_main(repo):
         _commit_repo("turning off CI for master to main migration")
         print("    turned off CI for master to main migration", flush=True)
     except Exception as e:
-        print(f"    ERROR: {repr(e)}", flush=True)
+        print(f"    ERROR: {e!r}", flush=True)
         print(
             "    turning off CI for master to main migration FAILED on commit!",
             flush=True,
@@ -259,7 +268,7 @@ def _master_to_main(repo):
     try:
         _run_git_command(["push", "--quiet"])
     except Exception as e:
-        print(f"    ERROR: {repr(e)}", flush=True)
+        print(f"    ERROR: {e!r}", flush=True)
         print(
             "    turning off CI for master to main migration FAILED on push!",
             flush=True,
@@ -275,7 +284,7 @@ def _master_to_main(repo):
     try:
         # once pygithub 1.56 or greater is out we can use this
         # repo.rename_branch(repo.default_branch, "main")
-        sess = _get_req_session(os.environ['GITHUB_TOKEN'])
+        sess = _get_req_session(os.environ["GITHUB_TOKEN"])
         r = sess.post(
             "https://api.github.com"
             "/repos/%s/branches/%s/rename" % (repo.full_name, repo.default_branch),
@@ -283,7 +292,7 @@ def _master_to_main(repo):
         )
         r.raise_for_status()
     except Exception as e:
-        print(f"    ERROR: {repr(e)}", flush=True)
+        print(f"    ERROR: {e!r}", flush=True)
         print("    master to main rename FAILED in the API!", flush=True)
         worked = False
     else:
@@ -326,10 +335,12 @@ class CondaForgeMasterToMain(Migrator):
         if did_master_to_main:
             # the conda-forge config gets updated every time
             updated_automerge = _update_wfl(
-                ".github/workflows/automerge.yml", AUTOMERGE_MAIN,
+                ".github/workflows/automerge.yml",
+                AUTOMERGE_MAIN,
             )
             updated_webservices = _update_wfl(
-                ".github/workflows/webservices.yml", WEBSERVICES_MAIN,
+                ".github/workflows/webservices.yml",
+                WEBSERVICES_MAIN,
             )
 
             yaml = YAML()
@@ -341,10 +352,7 @@ class CondaForgeMasterToMain(Migrator):
                 or cfg["github"]["branch_name"] != "main"
                 or "tooling_branch_name" not in cfg["github"]
                 or cfg["github"]["tooling_branch_name"] != "main"
-                or (
-                    "upload_on_branch" in cfg
-                    and cfg["upload_on_branch"] == "master"
-                )
+                or ("upload_on_branch" in cfg and cfg["upload_on_branch"] == "master")
             ):
                 cfg["github"]["branch_name"] = "main"
                 cfg["github"]["tooling_branch_name"] = "main"

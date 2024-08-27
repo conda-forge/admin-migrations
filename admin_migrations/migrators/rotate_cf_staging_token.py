@@ -8,11 +8,11 @@ from .base import Migrator
 
 
 def _write_travis_token(token_env):
-    smithy_conf = os.path.expanduser('~/.conda-smithy')
+    smithy_conf = os.path.expanduser("~/.conda-smithy")
     if not os.path.exists(smithy_conf):
         os.mkdir(smithy_conf)
 
-    with open(os.path.join(smithy_conf, 'travis.token'), 'w') as fh:
+    with open(os.path.join(smithy_conf, "travis.token"), "w") as fh:
         fh.write(os.environ[token_env])
 
 
@@ -28,7 +28,7 @@ class RotateCFStagingToken(Migrator):
 
         # test to make sure travis ci api is working
         # if not skip migration
-        repo_info = travis_get_repo_info("conda-forge", feedstock+"-feedstock")
+        repo_info = travis_get_repo_info("conda-forge", feedstock + "-feedstock")
         if not repo_info:
             print(
                 "    travis-ci API not working - skipping migration for now",
@@ -43,7 +43,7 @@ class RotateCFStagingToken(Migrator):
             "--without-github-actions "
             "--token_name STAGING_BINSTAR_TOKEN",
             shell=True,
-            check=True
+            check=True,
         )
         print("    rotated staging binstar token", flush=True)
 
