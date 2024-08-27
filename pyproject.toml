@@ -30,8 +30,9 @@ select = [
     "UP",
     # flake8-logging-format
     "G",
+    # flake8-tidy-imports
+    "TID",
 ]
-extend-ignore = ["UP031",]
 
 [tool.ruff.lint.pycodestyle]
 max-line-length = 88
