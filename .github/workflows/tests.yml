@@ -52,7 +52,7 @@ jobs:
       - name: lint
         shell: bash -l {0}
         run: |
-          flake8 admin_migrations
+          flake8 --max-line-length=88 admin_migrations
 
       - name: test
         shell: bash -l {0}
