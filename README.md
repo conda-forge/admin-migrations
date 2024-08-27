@@ -1,6 +1,6 @@
 # admin-migrations
 [![tests](https://github.com/conda-forge/admin-migrations/actions/workflows/tests.yml/badge.svg)](https://github.com/conda-forge/admin-migrations/actions/workflows/tests.yml)
-[![migrate](https://github.com/conda-forge/admin-migrations/actions/workflows/migrate.yml/badge.svg)](https://github.com/conda-forge/admin-migrations/actions/workflows/migrate.yml)
+[![migrate](https://github.com/conda-forge/admin-migrations/actions/workflows/migrate.yml/badge.svg)](https://github.com/conda-forge/admin-migrations/actions/workflows/migrate.yml) [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/conda-forge/admin-migrations/main.svg)](https://results.pre-commit.ci/latest/github/conda-forge/admin-migrations/main)
 
 repo to run background admin migrations of conda-forge feedstocks
 
