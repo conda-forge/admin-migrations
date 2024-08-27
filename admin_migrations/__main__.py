@@ -15,11 +15,12 @@ import tqdm
 from requests.exceptions import RequestException
 
 from admin_migrations.defaults import DEBUG, MAX_MIGRATE, MAX_SECONDS, MAX_WORKERS
+
 # commented ones are finished or not used
 from admin_migrations.migrators import (
+    BranchProtection,
     CondaForgeAutomergeUpdate,
     CondaForgeYAMLTest,
-    BranchProtection,
     RAutomerge,
     # RotateCFStagingToken,
     # RotateFeedstockToken,

@@ -4,7 +4,7 @@ import github
 
 from .base import Migrator
 
-GH = github.Github(os.environ['GITHUB_TOKEN'])
+GH = github.Github(os.environ["GITHUB_TOKEN"])
 ORG = GH.get_organization("conda-forge")
 
 
