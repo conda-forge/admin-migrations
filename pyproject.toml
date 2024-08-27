@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "admin_migrations"
+version = "0.1"
+
+[project.scripts]
+run-admin-migrations = "admin_migrations.__main__:main"
+
+[tool.setuptools]
+packages = {find = {exclude=["data*", "scripts*"]}}
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+    # pyflakes
+    "F",
+    # pycodestyle
+    "E", "W",
+    # isort
+    "I",
+    # pep8-naming
+    "N",
+    # pypugrade
+    "UP",
+    # flake8-logging-format
+    "G",
+    # flake8-tidy-imports
+    "TID",
+]
+extend-ignore = ["UP031"]
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 88
