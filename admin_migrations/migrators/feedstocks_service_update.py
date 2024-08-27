@@ -1,8 +1,9 @@
 import os
-import git
-import time
-import tempfile
 import shutil
+import tempfile
+import time
+
+import git
 import github
 
 from .base import Migrator

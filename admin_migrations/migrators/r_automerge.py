@@ -1,12 +1,10 @@
 import subprocess
+from pathlib import Path
 
+from rattler_build_conda_compat.recipe_sources import get_all_url_sources
 from ruamel.yaml import YAML
 
 from .base import Migrator
-
-from rattler_build_conda_compat.recipe_sources import get_all_url_sources
-from pathlib import Path
-
 
 MIRROR = "cran_mirror"
 CONTRIB = "cran.r-project.org/src/contrib"

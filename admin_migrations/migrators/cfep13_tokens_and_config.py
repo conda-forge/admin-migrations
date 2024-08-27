@@ -1,13 +1,12 @@
-import os
-import subprocess
 import glob
 import json
+import os
+import subprocess
 
 import conda_build
-from ruamel.yaml import YAML
-
 from conda_smithy.feedstock_tokens import feedstock_token_exists
 from rattler_build_conda_compat.render import render_recipe as render_rattler_build
+from ruamel.yaml import YAML
 
 from .base import Migrator
 

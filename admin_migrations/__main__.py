@@ -1,24 +1,24 @@
-import os
-import json
-import time
-import tempfile
 import contextlib
-import subprocess
-import requests
-import functools
 import datetime
+import functools
+import json
+import os
+import subprocess
+import tempfile
+import time
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
-from requests.exceptions import RequestException
 import github
-import tqdm
+import requests
 import ruamel.yaml
+import tqdm
+from requests.exceptions import RequestException
 
+from admin_migrations.defaults import DEBUG, MAX_MIGRATE, MAX_SECONDS, MAX_WORKERS
 from admin_migrations.migrators import (
-    RAutomerge,
-    TraviCINoOSXAMD64,
     CondaForgeAutomergeUpdate,
     CondaForgeYAMLTest,
+    RAutomerge,
     # these are finished or not used so we don't run them
     # RotateCFStagingToken,
     # RotateFeedstockToken,
@@ -37,8 +37,8 @@ from admin_migrations.migrators import (
     # AutomergeAndRerender,
     # CFEP13TurnOff,
     # AutomergeAndBotRerunLabels,
+    TraviCINoOSXAMD64,
 )
-from admin_migrations.defaults import DEBUG, MAX_MIGRATE, MAX_SECONDS, MAX_WORKERS
 
 
 def _assert_at_0():

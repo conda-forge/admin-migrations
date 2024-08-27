@@ -6,8 +6,8 @@ from .base import Migrator
 def _travis_reconfigure(user, project):
     from conda_smithy.ci_register import (
         travis_endpoint,
-        travis_headers,
         travis_get_repo_info,
+        travis_headers,
     )
 
     headers = travis_headers()

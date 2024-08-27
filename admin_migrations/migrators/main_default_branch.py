@@ -1,10 +1,10 @@
-import subprocess
 import os
-from functools import lru_cache
-import requests
+import subprocess
 import time
+from functools import lru_cache
 
 import github
+import requests
 from ruamel.yaml import YAML
 
 from .base import Migrator

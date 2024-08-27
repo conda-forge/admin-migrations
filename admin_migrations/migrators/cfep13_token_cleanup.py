@@ -105,8 +105,8 @@ def _delete_token_in_travis(user, project, token_name):
     """update the binstar token in travis."""
     from conda_smithy.ci_register import (
         travis_endpoint,
-        travis_headers,
         travis_get_repo_info,
+        travis_headers,
     )
 
     headers = travis_headers()

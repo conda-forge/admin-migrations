@@ -1,5 +1,5 @@
-import subprocess
 import os
+import subprocess
 
 import github
 from ruamel.yaml import YAML

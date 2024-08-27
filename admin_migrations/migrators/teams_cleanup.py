@@ -4,8 +4,8 @@ import random
 import requests
 from ruamel.yaml import YAML
 
-from .base import Migrator
 from ..defaults import MAX_MIGRATE
+from .base import Migrator
 
 
 def _get_random_frac():

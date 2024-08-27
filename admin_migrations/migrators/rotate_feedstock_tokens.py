@@ -1,9 +1,9 @@
 import os
-import requests
-import subprocess
-import github
 import random
+import subprocess
 
+import github
+import requests
 from conda_smithy.ci_register import travis_get_repo_info
 
 from .base import Migrator

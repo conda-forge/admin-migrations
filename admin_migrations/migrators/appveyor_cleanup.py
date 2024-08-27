@@ -1,7 +1,7 @@
 import os
-import requests
 import subprocess
 
+import requests
 from ruamel.yaml import YAML
 
 from .base import Migrator
