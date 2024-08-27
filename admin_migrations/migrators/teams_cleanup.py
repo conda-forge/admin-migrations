@@ -4,7 +4,8 @@ import random
 import requests
 from ruamel.yaml import YAML
 
-from ..defaults import MAX_MIGRATE
+from admin_migrations.defaults import MAX_MIGRATE
+
 from .base import Migrator
 
 

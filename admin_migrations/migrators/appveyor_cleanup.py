@@ -10,12 +10,12 @@ YAML = YAML()
 
 
 def _get_num_builds(appveyor_name):
-    HEADERS = {"Authorization": "Bearer " + os.environ["APPVEYOR_TOKEN"]}
+    headers = {"Authorization": "Bearer " + os.environ["APPVEYOR_TOKEN"]}
 
     r = requests.get(
         "https://ci.appveyor.com/api/projects/conda-forge/"
         "%s/history?recordsNumber=10" % appveyor_name,
-        headers=HEADERS,
+        headers=headers,
     )
 
     if r.status_code == 200:
@@ -67,7 +67,7 @@ class AppveyorDelete(Migrator):
     max_workers = 1
 
     def migrate(self, feedstock, branch):
-        HEADERS = {"Authorization": "Bearer " + os.environ["APPVEYOR_TOKEN"]}
+        headers = {"Authorization": "Bearer " + os.environ["APPVEYOR_TOKEN"]}
 
         assert branch == "main" or branch == "master"
         deleted = False
@@ -79,7 +79,7 @@ class AppveyorDelete(Migrator):
 
         r = requests.get(
             "https://ci.appveyor.com/api/projects/" "conda-forge/%s" % appveyor_name,
-            headers=HEADERS,
+            headers=headers,
         )
 
         if r.status_code == 404:
@@ -100,7 +100,7 @@ class AppveyorDelete(Migrator):
             #     r = requests.delete(
             #         "https://ci.appveyor.com/api/projects/"
             #         "conda-forge/%s" % appveyor_name,
-            #         headers=HEADERS,
+            #         headers=headers,
             #     )
             #
             #     if r.status_code == 204:
@@ -113,14 +113,14 @@ class AppveyorDelete(Migrator):
                 r = requests.get(
                     "https://ci.appveyor.com/api/projects/"
                     "conda-forge/%s/settings" % appveyor_name,
-                    headers=HEADERS,
+                    headers=headers,
                 )
                 if r.status_code == 200:
                     settings = r.json()["settings"]
                     settings["disablePushWebhooks"] = True
                     r = requests.put(
                         "https://ci.appveyor.com/api/projects",
-                        headers=HEADERS,
+                        headers=headers,
                         json=settings,
                     )
                     if r.status_code == 204:
@@ -142,7 +142,7 @@ class AppveyorForceDelete(Migrator):
     main_branch_only = True
 
     def migrate(self, feedstock, branch):
-        HEADERS = {"Authorization": "Bearer " + os.environ["APPVEYOR_TOKEN"]}
+        headers = {"Authorization": "Bearer " + os.environ["APPVEYOR_TOKEN"]}
 
         if feedstock == "python":
             return True, False, False
@@ -157,7 +157,7 @@ class AppveyorForceDelete(Migrator):
             r = requests.get(
                 "https://ci.appveyor.com/api/projects/"
                 "conda-forge/%s" % appveyor_name,
-                headers=HEADERS,
+                headers=headers,
             )
 
             if r.status_code == 404:
@@ -168,14 +168,14 @@ class AppveyorForceDelete(Migrator):
                 r = requests.get(
                     "https://ci.appveyor.com/api/projects/"
                     "conda-forge/%s/settings" % appveyor_name,
-                    headers=HEADERS,
+                    headers=headers,
                 )
                 if r.status_code == 200:
                     settings = r.json()["settings"]
                     settings["disablePushWebhooks"] = True
                     r = requests.put(
                         "https://ci.appveyor.com/api/projects",
-                        headers=HEADERS,
+                        headers=headers,
                         json=settings,
                     )
                     if r.status_code == 204:
