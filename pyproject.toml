@@ -18,14 +18,22 @@ target-version = "py311"
 line-length = 88
 
 [tool.ruff.lint]
-extend-select = ["E501", "UP", "RUF"]
-ignore = [
-    "E203", # allow spaces before colons
-]
 select = [
-    "E", "F", "W"
+    # pyflakes
+    "F",
+    # pycodestyle
+    "E", "W",
+    # isort
+    "I",
+    # pep8-naming
+    "N",
+    # pypugrade
+    "UP",
+    # flake8-logging-format
+    "G",
+    # flake8-tidy-imports
+    "TID",
 ]
-preview = true
 
 [tool.ruff.lint.pycodestyle]
 max-line-length = 88
