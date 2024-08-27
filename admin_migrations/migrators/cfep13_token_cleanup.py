@@ -16,9 +16,7 @@ def _delete_token_in_circle(user, project, token_name):
     )
 
     r = requests.get(
-        url_template.format(
-            token=circle_token, user=user, project=project, extra=""
-        )
+        url_template.format(token=circle_token, user=user, project=project, extra="")
     )
     if r.status_code != 200:
         r.raise_for_status()
@@ -73,8 +71,7 @@ def _delete_tokens_in_azure(user, project, token_names):
     else:
         raise RuntimeError(
             "Cannot delete tokens %s from a repo that is not already "
-            "registerd on azure CI!"
-            % token_names
+            "registerd on azure CI!" % token_names
         )
 
     ed = bclient.get_definition(ed.id, project=config.project_name)
@@ -108,8 +105,8 @@ def _delete_token_in_travis(user, project, token_name):
     """update the binstar token in travis."""
     from conda_smithy.ci_register import (
         travis_endpoint,
-        travis_headers,
         travis_get_repo_info,
+        travis_headers,
     )
 
     headers = travis_headers()
@@ -118,7 +115,7 @@ def _delete_token_in_travis(user, project, token_name):
     repo_id = repo_info["id"]
 
     r = requests.get(
-        "{}/repo/{repo_id}/env_vars".format(travis_endpoint, repo_id=repo_id),
+        f"{travis_endpoint}/repo/{repo_id}/env_vars",
         headers=headers,
     )
     if r.status_code != 200:
@@ -133,11 +130,7 @@ def _delete_token_in_travis(user, project, token_name):
 
     if have_binstar_token:
         r = requests.delete(
-            "{}/repo/{repo_id}/env_var/{ev_id}".format(
-                travis_endpoint,
-                repo_id=repo_id,
-                ev_id=ev_id
-            ),
+            f"{travis_endpoint}/repo/{repo_id}/env_var/{ev_id}",
             headers=headers,
         )
         r.raise_for_status()
@@ -145,7 +138,7 @@ def _delete_token_in_travis(user, project, token_name):
 
 def _read_conda_forge_yaml(yaml):
     if os.path.exists("conda-forge.yml"):
-        with open("conda-forge.yml", "r") as fp:
+        with open("conda-forge.yml") as fp:
             meta_yaml = fp.read()
 
         if (
@@ -166,11 +159,7 @@ def _read_conda_forge_yaml(yaml):
 
 
 def _cleanup_cfgy(code, top, token_name):
-    if (
-        top in code
-        and "secure" in code[top]
-        and token_name in code[top]["secure"]
-    ):
+    if top in code and "secure" in code[top] and token_name in code[top]["secure"]:
         del code[top]["secure"][token_name]
 
         if len(code[top]["secure"]) == 0:

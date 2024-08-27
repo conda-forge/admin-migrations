@@ -1,12 +1,10 @@
 import subprocess
+from pathlib import Path
 
+from rattler_build_conda_compat.recipe_sources import get_all_url_sources
 from ruamel.yaml import YAML
 
 from .base import Migrator
-
-from rattler_build_conda_compat.recipe_sources import get_all_url_sources
-from pathlib import Path
-
 
 MIRROR = "cran_mirror"
 CONTRIB = "cran.r-project.org/src/contrib"
@@ -86,14 +84,10 @@ def _has_cran_url():
             elif any(line.startswith(t) for t in stop_tokens):
                 break
 
-            if (
-                in_source_section and
-                (
-                    # this same set of slugs is used by the autotick bot
-                    # https://github.com/regro/cf-scripts/blob/master/conda_forge_tick/migrators/version.py#L71
-                    MIRROR in line
-                    or CONTRIB in line
-                )
+            if in_source_section and (
+                # this same set of slugs is used by the autotick bot
+                # https://github.com/regro/cf-scripts/blob/master/conda_forge_tick/migrators/version.py#L71
+                MIRROR in line or CONTRIB in line
             ):
                 return True
 
@@ -151,10 +145,11 @@ def _has_cran_url_rattler_build():
 class RAutomerge(Migrator):
     """Adds bot automerge to any feedstock that has
 
-        1. r-* in the name
-        2. has conda-forge/r on the maintainers list
-        3. uses the {{ cran_mirror }} jinja2 variable or has a cran url
+    1. r-* in the name
+    2. has conda-forge/r on the maintainers list
+    3. uses the {{ cran_mirror }} jinja2 variable or has a cran url
     """
+
     def migrate(self, feedstock, branch):
         print("    r team:", _has_r_team(), flush=True)
         print("    cran url:", _has_cran_url(), flush=True)
@@ -177,7 +172,8 @@ class RAutomerge(Migrator):
             # already done or maybe to False locally
             if "bot" in cfg and "automerge" in cfg["bot"]:
                 print(
-                    "    bot.automerge already set:", cfg["bot"]["automerge"],
+                    "    bot.automerge already set:",
+                    cfg["bot"]["automerge"],
                     flush=True,
                 )
                 return True, False, False

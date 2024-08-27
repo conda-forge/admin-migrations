@@ -16,8 +16,7 @@ def _delete_tokens_in_azure(user, project, token_names):
     else:
         raise RuntimeError(
             "Cannot delete tokens %s from a repo that is not already "
-            "registerd on azure CI!"
-            % token_names
+            "registerd on azure CI!" % token_names
         )
 
     ed = bclient.get_definition(ed.id, project=config.project_name)

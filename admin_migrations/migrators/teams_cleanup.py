@@ -4,8 +4,9 @@ import random
 import requests
 from ruamel.yaml import YAML
 
+from admin_migrations.defaults import MAX_MIGRATE
+
 from .base import Migrator
-from ..defaults import MAX_MIGRATE
 
 
 def _get_random_frac():
@@ -18,9 +19,9 @@ def _get_random_frac():
     return frac
 
 
-class DummyMeta(object):
+class DummyMeta:
     def __init__(self, meta_yaml):
-        _yml = YAML(typ='jinja2')
+        _yml = YAML(typ="jinja2")
         _yml.indent(mapping=2, sequence=4, offset=2)
         _yml.width = 160
         _yml.allow_duplicate_keys = True
@@ -35,10 +36,13 @@ class TeamsCleanup(Migrator):
         repo_name = "%s-feedstock" % feedstock
 
         team_name = feedstock.lower()
-        if (
-            team_name in ["core", "bot", "staged-recipes", "arm-arch", "systems"]
-            or team_name.startswith("help-")
-        ):
+        if team_name in [
+            "core",
+            "bot",
+            "staged-recipes",
+            "arm-arch",
+            "systems",
+        ] or team_name.startswith("help-"):
             return
 
         if (
@@ -46,9 +50,9 @@ class TeamsCleanup(Migrator):
             or "DEBUG_ADMIN_MIGRATIONS" in os.environ
         ):
             rsp = requests.post(
-               "https://conda-forge.herokuapp.com/conda-forge-teams/update",
-               headers={"CF_WEBSERVICES_TOKEN": os.environ["CF_WEBSERVICES_TOKEN"]},
-               json={"feedstock": repo_name}
+                "https://conda-forge.herokuapp.com/conda-forge-teams/update",
+                headers={"CF_WEBSERVICES_TOKEN": os.environ["CF_WEBSERVICES_TOKEN"]},
+                json={"feedstock": repo_name},
             )
             rsp.raise_for_status()
 

@@ -6,8 +6,8 @@ from .base import Migrator
 def _travis_reconfigure(user, project):
     from conda_smithy.ci_register import (
         travis_endpoint,
-        travis_headers,
         travis_get_repo_info,
+        travis_headers,
     )
 
     headers = travis_headers()
@@ -27,9 +27,7 @@ def _travis_reconfigure(user, project):
         ("auto_cancel_pull_requests", True),
     ]
     for name, value in settings:
-        url = "{}/repo/{repo_id}/setting/{name}".format(
-            travis_endpoint, repo_id=repo_id, name=name
-        )
+        url = f"{travis_endpoint}/repo/{repo_id}/setting/{name}"
         data = {"setting.value": value}
         response = requests.patch(url, json=data, headers=headers)
         if response.status_code not in [200, 204]:
