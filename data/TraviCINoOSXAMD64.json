@@ -14067,7 +14067,8 @@
     "master": true
   },
   "vector": {
-    "master": true
+    "master": true,
+    "main-1.4": true
   },
   "aws-crt-cpp": {
     "master": true
@@ -21771,7 +21772,9 @@
     "main": true
   },
   "scvi-tools": {
-    "main": true
+    "main": true,
+    "lightning_upper_bound_svi_tools_1p1p6": true,
+    "adamgayoso-patch-1": true
   },
   "pygcgopt": {
     "main": true
@@ -61191,7 +61194,8 @@
   },
   "pixi": {
     "main": true,
-    "misc/set_cargo_shrink_settings": true
+    "misc/set_cargo_shrink_settings": true,
+    "fix/set_features": true
   },
   "yjs-widgets": {
     "main": true
@@ -71641,7 +71645,8 @@
     "main": true
   },
   "geoh5py": {
-    "main": true
+    "main": true,
+    "v0.8": true
   },
   "ctlearn": {
     "main": true
@@ -72316,6 +72321,21 @@
     "main": true
   },
   "pydantic-numpy": {
+    "main": true
+  },
+  "microsoft-aurora": {
+    "main": true
+  },
+  "polylaue": {
+    "main": true
+  },
+  "airflow-ha": {
+    "main": true
+  },
+  "nabs": {
+    "main": true
+  },
+  "evermore": {
     "main": true
   }
 }
