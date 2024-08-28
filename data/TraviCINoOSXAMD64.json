@@ -61194,7 +61194,8 @@
   },
   "pixi": {
     "main": true,
-    "misc/set_cargo_shrink_settings": true
+    "misc/set_cargo_shrink_settings": true,
+    "fix/set_features": true
   },
   "yjs-widgets": {
     "main": true
