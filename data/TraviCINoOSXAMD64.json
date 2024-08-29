@@ -71808,7 +71808,8 @@
     "main": true
   },
   "cythonbiogeme": {
-    "main": true
+    "main": true,
+    "moorepants-patch-1": true
   },
   "lens-vpr": {
     "main": true
@@ -72363,6 +72364,12 @@
     "main": true
   },
   "plothist": {
+    "main": true
+  },
+  "e3sm-tools": {
+    "main": true
+  },
+  "kegalign": {
     "main": true
   }
 }
