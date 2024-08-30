@@ -58201,7 +58201,9 @@
     "main": true
   },
   "libcxx-testing": {
-    "main": true
+    "main": true,
+    "16.x": true,
+    "17.x": true
   },
   "r-muhaz": {
     "main": true

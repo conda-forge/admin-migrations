@@ -4042,7 +4042,9 @@
     "master": true
   },
   "libcxx-testing": {
-    "master": true
+    "master": true,
+    "16.x": true,
+    "17.x": true
   },
   "r-muhaz": {
     "master": true
