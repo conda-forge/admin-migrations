@@ -18125,7 +18125,8 @@
     "main": true
   },
   "mlir-python-bindings": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "healpix": {
     "main": true
@@ -20374,7 +20375,8 @@
     "v003": true
   },
   "mariadb-connector-c": {
-    "main": true
+    "main": true,
+    "add-osx-arm": true
   },
   "pytorch3d": {
     "main": true
