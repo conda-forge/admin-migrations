@@ -72140,7 +72140,8 @@
     "main": true
   },
   "openmmdl": {
-    "main": true
+    "main": true,
+    "0.9.2.1": true
   },
   "tabulardelta": {
     "main": true
@@ -72464,6 +72465,18 @@
     "main": true
   },
   "r-rcompendium": {
+    "main": true
+  },
+  "pywbt": {
+    "main": true
+  },
+  "django-http-debug": {
+    "main": true
+  },
+  "collectfasta": {
+    "main": true
+  },
+  "shot-scraper": {
     "main": true
   }
 }
