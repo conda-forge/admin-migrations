@@ -72163,5 +72163,11 @@
   },
   "uvicorn-worker": {
     "main": true
+  },
+  "marp-cli": {
+    "main": true
+  },
+  "cifkit": {
+    "main": true
   }
 }
