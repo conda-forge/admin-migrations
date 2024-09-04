@@ -5008,7 +5008,9 @@
     "main": true
   },
   "eomaps": {
-    "main": true
+    "main": true,
+    "EOmaps-v8.3.1": true,
+    "raphaelquast-patch-1": true
   },
   "doebase": {
     "main": true
@@ -18125,7 +18127,8 @@
     "main": true
   },
   "mlir-python-bindings": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "healpix": {
     "main": true
@@ -20374,7 +20377,8 @@
     "v003": true
   },
   "mariadb-connector-c": {
-    "main": true
+    "main": true,
+    "add-osx-arm": true
   },
   "pytorch3d": {
     "main": true
@@ -21395,7 +21399,8 @@
     "main": true
   },
   "anaconda-cli-base": {
-    "main": true
+    "main": true,
+    "0.3.0_hf106db": true
   },
   "anaconda-cloud": {
     "main": true
@@ -26235,7 +26240,8 @@
     "main": true
   },
   "ltbams": {
-    "main": true
+    "main": true,
+    "pr-branch": true
   },
   "r-bart": {
     "main": true
@@ -27237,7 +27243,8 @@
   },
   "quasielasticbayes": {
     "main": true,
-    "pr/3-merged": true
+    "pr/3-merged": true,
+    "rebuild-numpy2-0-1_hc6081f": true
   },
   "ipfsspec": {
     "main": true
@@ -28594,7 +28601,8 @@
     "main": true
   },
   "analytics-python": {
-    "main": true
+    "main": true,
+    "v2.2.3": true
   },
   "animatplot": {
     "main": true
@@ -38020,7 +38028,8 @@
     "main": true
   },
   "libflint": {
-    "main": true
+    "main": true,
+    "3.0.x": true
   },
   "libframe": {
     "main": true
@@ -44826,7 +44835,8 @@
     "pre-3.8": true,
     "3.5": true,
     "downgrade-3.6.9": true,
-    "3.8": true
+    "3.8": true,
+    "3.12": true
   },
   "python-can": {
     "main": true
@@ -54013,7 +54023,8 @@
   },
   "simupop": {
     "main": true,
-    "regro-cf-autotick-bot-rebuild": true
+    "regro-cf-autotick-bot-rebuild": true,
+    "unmerge": true
   },
   "singledispatch": {
     "main": true
@@ -58198,7 +58209,9 @@
     "main": true
   },
   "libcxx-testing": {
-    "main": true
+    "main": true,
+    "16.x": true,
+    "17.x": true
   },
   "r-muhaz": {
     "main": true
@@ -64672,7 +64685,8 @@
     "main": true
   },
   "ducc0": {
-    "main": true
+    "main": true,
+    "update_meta_yaml": true
   },
   "lat_lon_parser": {
     "main": true
@@ -71452,7 +71466,8 @@
     "main": true
   },
   "cythonbiogeme": {
-    "main": true
+    "main": true,
+    "moorepants-patch-1": true
   },
   "lens-vpr": {
     "main": true
@@ -71776,7 +71791,8 @@
     "main": true
   },
   "openmmdl": {
-    "main": true
+    "main": true,
+    "0.9.2.1": true
   },
   "tabulardelta": {
     "main": true
@@ -71983,6 +71999,198 @@
     "main": true
   },
   "evermore": {
+    "main": true
+  },
+  "ocpsvg": {
+    "main": true
+  },
+  "orderly-set": {
+    "main": true
+  },
+  "shibuya": {
+    "main": true
+  },
+  "displayhooks": {
+    "main": true
+  },
+  "hatch-deps-selector": {
+    "main": true
+  },
+  "crystalpytools": {
+    "main": true
+  },
+  "jsonyx": {
+    "main": true
+  },
+  "plothist": {
+    "main": true
+  },
+  "e3sm-tools": {
+    "main": true
+  },
+  "kegalign": {
+    "main": true
+  },
+  "e3sm-unified": {
+    "main": true
+  },
+  "gospel": {
+    "main": true
+  },
+  "harper": {
+    "main": true
+  },
+  "junit5": {
+    "main": true
+  },
+  "ssubmit": {
+    "main": true
+  },
+  "astroglue": {
+    "main": true
+  },
+  "jacoco": {
+    "main": true
+  },
+  "dockle": {
+    "main": true
+  },
+  "dydxprotocol-v4-proto-py": {
+    "main": true
+  },
+  "crowdin-cli": {
+    "main": true
+  },
+  "heffte": {
+    "main": true
+  },
+  "r-icebox": {
+    "main": true
+  },
+  "pytorchvideo": {
+    "main": true
+  },
+  "r-fusen": {
+    "main": true
+  },
+  "r-condvis": {
+    "main": true
+  },
+  "r-pre": {
+    "main": true
+  },
+  "r-b64": {
+    "main": true
+  },
+  "grype": {
+    "main": true
+  },
+  "glomap": {
+    "main": true
+  },
+  "biogeme-optimization": {
+    "main": true
+  },
+  "biogeme": {
+    "main": true
+  },
+  "torchscan": {
+    "main": true
+  },
+  "r-constructive": {
+    "main": true
+  },
+  "djongo5": {
+    "main": true
+  },
+  "python-oxmsg": {
+    "main": true
+  },
+  "r-oyster": {
+    "main": true
+  },
+  "r-functiondepends": {
+    "main": true
+  },
+  "r-checkhelper": {
+    "main": true
+  },
+  "r-rcompendium": {
+    "main": true
+  },
+  "pywbt": {
+    "main": true
+  },
+  "django-http-debug": {
+    "main": true
+  },
+  "collectfasta": {
+    "main": true
+  },
+  "shot-scraper": {
+    "main": true
+  },
+  "picows": {
+    "main": true
+  },
+  "sixs_json": {
+    "main": true
+  },
+  "oxli": {
+    "main": true
+  },
+  "j6s": {
+    "main": true
+  },
+  "csv_trimming": {
+    "main": true
+  },
+  "django-cotton": {
+    "main": true
+  },
+  "poltergeist": {
+    "main": true
+  },
+  "textual-serve": {
+    "main": true
+  },
+  "unfoldnd": {
+    "main": true
+  },
+  "matcalc": {
+    "main": true
+  },
+  "bibmon": {
+    "main": true
+  },
+  "uvicorn-worker": {
+    "main": true
+  },
+  "marp-cli": {
+    "main": true
+  },
+  "cifkit": {
+    "main": true
+  },
+  "conda-forge-feedstock-ops": {
+    "main": true
+  },
+  "vulkan-memory-allocator": {
+    "main": true
+  },
+  "keyrings.artifacts": {
+    "main": true
+  },
+  "nested-dask": {
+    "main": true
+  },
+  "ugly_csv_generator": {
+    "main": true
+  },
+  "nested-pandas": {
+    "main": true
+  },
+  "amazon-sagemaker-hyperpod": {
     "main": true
   }
 }
