@@ -15,11 +15,13 @@ import tqdm
 from requests.exceptions import RequestException
 
 from admin_migrations.defaults import DEBUG, MAX_MIGRATE, MAX_SECONDS, MAX_WORKERS
+
+# commented ones are finished or not used
 from admin_migrations.migrators import (
+    BranchProtection,
     CondaForgeAutomergeUpdate,
     CondaForgeYAMLTest,
     RAutomerge,
-    # these are finished or not used so we don't run them
     # RotateCFStagingToken,
     # RotateFeedstockToken,
     # CondaForgeMasterToMain,
@@ -366,17 +368,18 @@ def _report_progress(
 
 
 def main():
+    # commented ones are finished or not used
     migrators = [
         RAutomerge(),
         TraviCINoOSXAMD64(),
         CondaForgeYAMLTest(),
-        # these are finished or not used so we don't run them
         # RotateCFStagingToken(),
         # RotateFeedstockToken(),
         # CondaForgeMasterToMain(),  # this one always goes first since it makes extra
         #                            # commits etc
         # FeedstocksServiceUpdate(),
         CondaForgeAutomergeUpdate(),
+        BranchProtection(),
         # DotConda(),
         # CondaForgeGHAWithMain(),
         # RotateCFStagingToken(),
