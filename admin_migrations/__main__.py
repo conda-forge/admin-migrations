@@ -184,6 +184,10 @@ def _load_feedstock_data():
         for f in new_feedstocks:
             blob["feedstocks"][f] = (blob["current"] + 1) % 2
 
+    archived = set(all_feedstocks["archived"]) & set(blob["feedstocks"])
+    for fs in archived:
+        blob["feedstocks"].pop(fs, None)
+
     return blob
 
 
