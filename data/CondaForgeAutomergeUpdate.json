@@ -3469,7 +3469,8 @@
     "main": true
   },
   "hcipy": {
-    "main": true
+    "main": true,
+    "bugfix/v060_version_pin": true
   },
   "x265": {
     "main": true

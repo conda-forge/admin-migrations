@@ -18763,7 +18763,8 @@
     "master": true
   },
   "hcipy": {
-    "master": true
+    "master": true,
+    "bugfix/v060_version_pin": true
   },
   "x265": {
     "master": true
