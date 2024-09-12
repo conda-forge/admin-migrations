@@ -66469,7 +66469,8 @@
     "main": true
   },
   "openff-evaluator": {
-    "main": true
+    "main": true,
+    "okay-packmol-should-be-listed-as-a-requirement-give-that-it-is-required": true
   },
   "testflows.asserts": {
     "main": true
