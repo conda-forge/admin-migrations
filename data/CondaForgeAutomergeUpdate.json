@@ -7481,7 +7481,8 @@
     "main": true
   },
   "statsforecast": {
-    "main": true
+    "main": true,
+    "remove-microarch": true
   },
   "dirty-equals": {
     "main": true
