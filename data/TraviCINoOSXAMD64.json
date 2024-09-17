@@ -37545,7 +37545,8 @@
     "master": true
   },
   "proteus": {
-    "master": true
+    "master": true,
+    "rm-pins": true
   },
   "protobuf": {
     "master": true,

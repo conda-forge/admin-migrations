@@ -42662,7 +42662,8 @@
     "main": true
   },
   "proteus": {
-    "main": true
+    "main": true,
+    "rm-pins": true
   },
   "protobuf3-to-dict": {
     "main": true
