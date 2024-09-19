@@ -72072,7 +72072,8 @@
     "main": true
   },
   "ssubmit": {
-    "main": true
+    "main": true,
+    "test-crates-url": true
   },
   "astroglue": {
     "main": true
@@ -72540,6 +72541,12 @@
     "main": true
   },
   "numbacs": {
+    "main": true
+  },
+  "dxtb": {
+    "main": true
+  },
+  "ro-json": {
     "main": true
   }
 }
