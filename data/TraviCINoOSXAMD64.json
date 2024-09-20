@@ -25423,7 +25423,8 @@
     "14.x": true,
     "16.x": true,
     "17.x": true,
-    "dev": true
+    "dev": true,
+    "18.x": true
   },
   "clapack": {
     "main": true
@@ -26069,7 +26070,8 @@
   },
   "coolprop": {
     "main": true,
-    "rc": true
+    "rc": true,
+    "rebuild-python313-0-1_hcd0208": true
   },
   "copulae": {
     "main": true
