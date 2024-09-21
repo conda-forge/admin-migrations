@@ -72444,7 +72444,8 @@
     "main": true
   },
   "dydxprotocol-v4-proto-py": {
-    "main": true
+    "main": true,
+    "v5.2.1": true
   },
   "crowdin-cli": {
     "main": true
@@ -72948,6 +72949,45 @@
     "main": true
   },
   "numba-cuda": {
+    "main": true
+  },
+  "ecmwflibs": {
+    "main": true
+  },
+  "ablang2": {
+    "main": true
+  },
+  "mcstasscript": {
+    "main": true
+  },
+  "libpyvinyl": {
+    "main": true
+  },
+  "peco": {
+    "main": true
+  },
+  "gitql": {
+    "main": true
+  },
+  "cqrlib": {
+    "main": true
+  },
+  "libabigail": {
+    "main": true
+  },
+  "lefthook": {
+    "main": true
+  },
+  "libertem-qd-mpx": {
+    "main": true
+  },
+  "flint-checker": {
+    "main": true
+  },
+  "dssp": {
+    "main": true
+  },
+  "fork-cleaner": {
     "main": true
   }
 }
