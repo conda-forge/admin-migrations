@@ -71869,7 +71869,8 @@
     "main": true
   },
   "scores": {
-    "main": true
+    "main": true,
+    "update_dependency_pins": true
   },
   "django-comments-xtd": {
     "main": true
@@ -73124,6 +73125,15 @@
     "main": true
   },
   "zenoh-cpp": {
+    "main": true
+  },
+  "tigramite": {
+    "main": true
+  },
+  "icub-firmware-shared": {
+    "main": true
+  },
+  "pc_rasterize": {
     "main": true
   }
 }
