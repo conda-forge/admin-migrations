@@ -69320,7 +69320,8 @@
     "remove-python-39": true
   },
   "papi": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "cpptrace": {
     "main": true
