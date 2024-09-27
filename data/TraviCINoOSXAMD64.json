@@ -55056,7 +55056,8 @@
     "main": true
   },
   "gz-common": {
-    "main": true
+    "main": true,
+    "v5": true
   },
   "pfzy": {
     "main": true
@@ -55087,7 +55088,8 @@
   },
   "gz-msgs": {
     "main": true,
-    "v9": true
+    "v9": true,
+    "v10": true
   },
   "talipp": {
     "main": true
@@ -55165,14 +55167,17 @@
   },
   "gz-transport": {
     "main": true,
-    "v12": true
+    "v12": true,
+    "v13": true
   },
   "gz-plugin": {
-    "main": true
+    "main": true,
+    "v2": true
   },
   "gz-fuel-tools": {
     "main": true,
-    "v8": true
+    "v8": true,
+    "v9": true
   },
   "koopmans-kcp": {
     "main": true
@@ -55264,7 +55269,8 @@
   },
   "gz-rendering": {
     "main": true,
-    "v7": true
+    "v7": true,
+    "v8": true
   },
   "conda_envfile": {
     "main": true
@@ -55328,18 +55334,21 @@
   },
   "gz-physics": {
     "main": true,
-    "v6": true
+    "v6": true,
+    "v7": true
   },
   "slurm": {
     "main": true
   },
   "gz-gui": {
     "main": true,
-    "v7": true
+    "v7": true,
+    "v8": true
   },
   "gz-sensors": {
     "main": true,
-    "v7": true
+    "v7": true,
+    "v8": true
   },
   "mcpl": {
     "main": true
@@ -55757,7 +55766,8 @@
   },
   "gz-sim": {
     "main": true,
-    "v7": true
+    "v7": true,
+    "v8": true
   },
   "nyxus": {
     "main": true
@@ -55779,7 +55789,8 @@
   },
   "gz-launch": {
     "main": true,
-    "v6": true
+    "v6": true,
+    "v7": true
   },
   "openpulse": {
     "main": true
