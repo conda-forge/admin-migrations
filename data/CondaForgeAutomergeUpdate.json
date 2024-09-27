@@ -71724,7 +71724,8 @@
     "main": true
   },
   "openmm-hip": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "r-rathena": {
     "main": true
@@ -72832,6 +72833,24 @@
     "main": true
   },
   "turbo_turtle": {
+    "main": true
+  },
+  "sig-decomp": {
+    "main": true
+  },
+  "icnsutil": {
+    "main": true
+  },
+  "red-molsim": {
+    "main": true
+  },
+  "bokeh-fastapi": {
+    "main": true
+  },
+  "unique-uncertainty": {
+    "main": true
+  },
+  "seawater_crm": {
     "main": true
   }
 }
