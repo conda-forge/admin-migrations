@@ -42081,7 +42081,8 @@
   "petsc": {
     "main": true,
     "3.10.5": true,
-    "3.13.x": true
+    "3.13.x": true,
+    "3.21.x": true
   },
   "petsc4py": {
     "main": true,
