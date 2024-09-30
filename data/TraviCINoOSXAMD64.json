@@ -5773,7 +5773,8 @@
   "micromamba": {
     "master": true,
     "alpha": true,
-    "1.x": true
+    "1.x": true,
+    "prerelease": true
   },
   "pytest-reportlog": {
     "master": true

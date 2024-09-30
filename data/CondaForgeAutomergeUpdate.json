@@ -59979,7 +59979,8 @@
   },
   "micromamba": {
     "main": true,
-    "1.x": true
+    "1.x": true,
+    "prerelease": true
   },
   "pytest-reportlog": {
     "main": true
