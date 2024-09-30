@@ -36446,7 +36446,8 @@
   },
   "intel-opencl-clang": {
     "main": true,
-    "10.0.0": true
+    "10.0.0": true,
+    "14.x": true
   },
   "intel-vaapi-driver": {
     "main": true
@@ -38781,7 +38782,8 @@
     "main": true,
     "10.0.0": true,
     "15.x": true,
-    "14.x": true
+    "14.x": true,
+    "16.x": true
   },
   "llvmlite": {
     "main": true,
@@ -39102,7 +39104,8 @@
   },
   "mamba": {
     "main": true,
-    "1.x": true
+    "1.x": true,
+    "prerelease": true
   },
   "mando": {
     "main": true
