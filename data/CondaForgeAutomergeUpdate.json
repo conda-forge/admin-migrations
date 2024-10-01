@@ -54454,7 +54454,8 @@
     "build-py36": true
   },
   "sparse": {
-    "main": true
+    "main": true,
+    "0.3.1-npy1": true
   },
   "sparse_dot_topn": {
     "main": true
