@@ -29804,7 +29804,8 @@
     "main": true
   },
   "bmi-fortran": {
-    "main": true
+    "main": true,
+    "mdpiper/build-osx_arm64-for-bmi-1.2": true
   },
   "bmi-tester": {
     "main": true
