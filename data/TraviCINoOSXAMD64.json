@@ -69379,7 +69379,8 @@
     "main": true
   },
   "egobox": {
-    "main": true
+    "main": true,
+    "build_osx_arm64": true
   },
   "jax-finufft": {
     "main": true
