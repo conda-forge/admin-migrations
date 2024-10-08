@@ -18,7 +18,7 @@ from admin_migrations.defaults import DEBUG, MAX_MIGRATE, MAX_SECONDS, MAX_WORKE
 
 # commented ones are finished or not used
 from admin_migrations.migrators import (
-    BranchProtection,
+    # BranchProtection,
     CondaForgeAutomergeUpdate,
     CondaForgeYAMLTest,
     RAutomerge,
@@ -383,7 +383,7 @@ def main():
         #                            # commits etc
         # FeedstocksServiceUpdate(),
         CondaForgeAutomergeUpdate(),
-        BranchProtection(),
+        # BranchProtection(),
         # DotConda(),
         # CondaForgeGHAWithMain(),
         # RotateCFStagingToken(),
