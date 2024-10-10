@@ -73544,5 +73544,44 @@
   },
   "virtualship": {
     "main": true
+  },
+  "mvapich": {
+    "main": true
+  },
+  "propcache": {
+    "main": true
+  },
+  "pydantic-settings-sops": {
+    "main": true
+  },
+  "inplace-abn": {
+    "main": true
+  },
+  "scdoc": {
+    "main": true
+  },
+  "cbonsai": {
+    "main": true
+  },
+  "libnvpl-tensor": {
+    "main": true
+  },
+  "pyrasa": {
+    "main": true
+  },
+  "libnvpl-common": {
+    "main": true
+  },
+  "libnvpl-scalapack": {
+    "main": true
+  },
+  "libnvpl-blas": {
+    "main": true
+  },
+  "libnvpl-fft": {
+    "main": true
+  },
+  "libnvpl-rand": {
+    "main": true
   }
 }
