@@ -15,9 +15,7 @@ def _add_branch_protection_ruleset(gh_repo):
 
     # first, check if the ruleset exists already
     rulesets_url = gh_repo.url + "/rulesets"
-    _, ruleset_list = gh_repo._requester.requestJsonAndCheck(
-        "GET", rulesets_url
-    )
+    _, ruleset_list = gh_repo._requester.requestJsonAndCheck("GET", rulesets_url)
     ruleset_id = None
     for ruleset in ruleset_list:
         if ruleset["name"] == ruleset_name:
@@ -39,14 +37,11 @@ def _add_branch_protection_ruleset(gh_repo):
         input={
             "name": ruleset_name,
             "target": "branch",
-            "conditions": {
-                "ref_name": {"exclude": [], "include": ["~DEFAULT_BRANCH"]}
-            },
+            "conditions": {"ref_name": {"exclude": [], "include": ["~DEFAULT_BRANCH"]}},
             "rules": [{"type": "deletion"}, {"type": "non_fast_forward"}],
             "enforcement": "active",
         },
     )
-
 
 
 class BranchProtection(Migrator):
