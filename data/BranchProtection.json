@@ -26824,5 +26824,446 @@
   },
   "airbyte-api": {
     "main": true
+  },
+  "fastnanquantile": {
+    "main": true
+  },
+  "bbf": {
+    "main": true
+  },
+  "jfrog-cli": {
+    "main": true
+  },
+  "jsonnet-language-server": {
+    "main": true
+  },
+  "terraform-ls": {
+    "main": true
+  },
+  "docker-credential-helpers": {
+    "main": true
+  },
+  "pypolymlp": {
+    "main": true
+  },
+  "go-jsonnet": {
+    "main": true
+  },
+  "wrenfold": {
+    "main": true
+  },
+  "pixell": {
+    "main": true
+  },
+  "turbo_turtle": {
+    "main": true
+  },
+  "sig-decomp": {
+    "main": true
+  },
+  "icnsutil": {
+    "main": true
+  },
+  "red-molsim": {
+    "main": true
+  },
+  "bokeh-fastapi": {
+    "main": true
+  },
+  "unique-uncertainty": {
+    "main": true
+  },
+  "seawater_crm": {
+    "main": true
+  },
+  "jupyterclearcheck": {
+    "main": true
+  },
+  "prescient-sdk": {
+    "main": true
+  },
+  "photochem_clima_data": {
+    "main": true
+  },
+  "sudachidict-core": {
+    "main": true
+  },
+  "speedscope": {
+    "main": true
+  },
+  "sudachidict-small": {
+    "main": true
+  },
+  "cytoplay": {
+    "main": true
+  },
+  "pyoma-2": {
+    "main": true
+  },
+  "pyscf-dispersion": {
+    "main": true
+  },
+  "sudachipy": {
+    "main": true
+  },
+  "sudachidict-full": {
+    "main": true
+  },
+  "ryp": {
+    "main": true
+  },
+  "crawl4ai": {
+    "main": true
+  },
+  "sqlalchemy-continuum": {
+    "main": true
+  },
+  "pyproject-local-kernel": {
+    "main": true
+  },
+  "icub-main": {
+    "main": true
+  },
+  "diffpy.snmf": {
+    "main": true
+  },
+  "pybashify": {
+    "main": true
+  },
+  "ncio": {
+    "main": true
+  },
+  "pydantic-units": {
+    "main": true
+  },
+  "magicattr": {
+    "main": true
+  },
+  "arize-phoenix-otel": {
+    "main": true
+  },
+  "onyxgenai": {
+    "main": true
+  },
+  "antlr4-cli": {
+    "main": true
+  },
+  "lazyimread": {
+    "main": true
+  },
+  "r-reformulas": {
+    "main": true
+  },
+  "wagtail-draftail-plugins": {
+    "main": true
+  },
+  "nccompare": {
+    "main": true
+  },
+  "human-dynamics-estimation": {
+    "main": true
+  },
+  "swmmanywhere": {
+    "main": true
+  },
+  "nvidia-dali-python": {
+    "main": true
+  },
+  "jxlpy": {
+    "main": true
+  },
+  "catsmoothing": {
+    "main": true
+  },
+  "r-robslopes": {
+    "main": true
+  },
+  "aioretry": {
+    "main": true
+  },
+  "r-pkggraphr": {
+    "main": true
+  },
+  "r-cleanr": {
+    "main": true
+  },
+  "optophyre": {
+    "main": true
+  },
+  "einconv": {
+    "main": true
+  },
+  "pyiron_dataclasses": {
+    "main": true
+  },
+  "type-lens": {
+    "main": true
+  },
+  "curvlinops-for-pytorch": {
+    "main": true
+  },
+  "pelicanfs": {
+    "main": true
+  },
+  "rms-vax": {
+    "main": true
+  },
+  "sopsy": {
+    "main": true
+  },
+  "mget3": {
+    "main": true
+  },
+  "streamable": {
+    "main": true
+  },
+  "spiderweb-framework": {
+    "main": true
+  },
+  "zet": {
+    "main": true
+  },
+  "kondo": {
+    "main": true
+  },
+  "diskonaut": {
+    "main": true
+  },
+  "djade": {
+    "main": true
+  },
+  "xplr": {
+    "main": true
+  },
+  "ddh": {
+    "main": true
+  },
+  "joshuto": {
+    "main": true
+  },
+  "felix": {
+    "main": true
+  },
+  "tere": {
+    "main": true
+  },
+  "django-q2": {
+    "main": true
+  },
+  "fclones": {
+    "main": true
+  },
+  "wordllama": {
+    "main": true
+  },
+  "diskus": {
+    "main": true
+  },
+  "fselect": {
+    "main": true
+  },
+  "gdu": {
+    "main": true
+  },
+  "llama": {
+    "main": true
+  },
+  "godu": {
+    "main": true
+  },
+  "scifem": {
+    "main": true
+  },
+  "lf": {
+    "main": true
+  },
+  "periscope": {
+    "main": true
+  },
+  "duf": {
+    "main": true
+  },
+  "durationpy": {
+    "main": true
+  },
+  "jh2": {
+    "main": true
+  },
+  "splinkclickhouse": {
+    "main": true
+  },
+  "pycallgraphix": {
+    "main": true
+  },
+  "nvidia-modulus": {
+    "main": true
+  },
+  "skyrim": {
+    "main": true
+  },
+  "earth2mip": {
+    "main": true
+  },
+  "distoptica": {
+    "main": true
+  },
+  "boutiques": {
+    "main": true
+  },
+  "ixwebsocket-split": {
+    "main": true
+  },
+  "pvandyken-deprecated": {
+    "main": true
+  },
+  "urllib3-future": {
+    "main": true
+  },
+  "jupytergis-packages": {
+    "main": true
+  },
+  "diffpy.srmise": {
+    "main": true
+  },
+  "diffpy.fourigui": {
+    "main": true
+  },
+  "bkt": {
+    "main": true
+  },
+  "csview": {
+    "main": true
+  },
+  "coredis": {
+    "main": true
+  },
+  "bacon": {
+    "main": true
+  },
+  "bartib": {
+    "main": true
+  },
+  "bottom": {
+    "main": true
+  },
+  "bacon-ls": {
+    "main": true
+  },
+  "chars": {
+    "main": true
+  },
+  "mcplot": {
+    "main": true
+  },
+  "choose-rust": {
+    "main": true
+  },
+  "ark": {
+    "main": true
+  },
+  "inference-server": {
+    "main": true
+  },
+  "amp": {
+    "main": true
+  },
+  "snowflake.core": {
+    "main": true
+  },
+  "niquests": {
+    "main": true
+  },
+  "check-jsonschema": {
+    "main": true
+  },
+  "regress": {
+    "main": true
+  },
+  "virtualship": {
+    "main": true
+  },
+  "mvapich": {
+    "main": true
+  },
+  "propcache": {
+    "main": true
+  },
+  "pydantic-settings-sops": {
+    "main": true
+  },
+  "inplace-abn": {
+    "main": true
+  },
+  "scdoc": {
+    "main": true
+  },
+  "cbonsai": {
+    "main": true
+  },
+  "libnvpl-tensor": {
+    "main": true
+  },
+  "pyrasa": {
+    "main": true
+  },
+  "libnvpl-common": {
+    "main": true
+  },
+  "libnvpl-scalapack": {
+    "main": true
+  },
+  "libnvpl-blas": {
+    "main": true
+  },
+  "libnvpl-fft": {
+    "main": true
+  },
+  "libnvpl-rand": {
+    "main": true
+  },
+  "libnvpl": {
+    "main": true
+  },
+  "libnvpl-sparse": {
+    "main": true
+  },
+  "libnvpl-lapack": {
+    "main": true
+  },
+  "melodies-monet": {
+    "main": true
+  },
+  "go-ccat": {
+    "main": true
+  },
+  "entt": {
+    "main": true
+  },
+  "croc": {
+    "main": true
+  },
+  "cue": {
+    "main": true
+  },
+  "airy": {
+    "main": true
+  },
+  "dependabot-cli": {
+    "main": true
+  },
+  "ez-zarr": {
+    "main": true
+  },
+  "akamai": {
+    "main": true
+  },
+  "checkmate": {
+    "main": true
+  },
+  "aicspylibczi": {
+    "main": true
+  },
+  "jupyterlab-quickopen": {
+    "main": true
   }
 }
