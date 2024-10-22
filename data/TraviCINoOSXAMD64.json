@@ -70701,7 +70701,8 @@
     "main": true
   },
   "pyvinecopulib": {
-    "main": true
+    "main": true,
+    "v0.6.7": true
   },
   "qt-quick3d": {
     "main": true
@@ -73484,7 +73485,8 @@
     "main": true
   },
   "scifem": {
-    "main": true
+    "main": true,
+    "dolfinx-0.8": true
   },
   "distoptica": {
     "main": true
@@ -74009,6 +74011,24 @@
     "main": true
   },
   "noqt": {
+    "main": true
+  },
+  "font-ttf-rubik": {
+    "main": true
+  },
+  "duckdb-server": {
+    "main": true
+  },
+  "jumanji": {
+    "main": true
+  },
+  "font-ttf-twemoji": {
+    "main": true
+  },
+  "nebula3-python": {
+    "main": true
+  },
+  "phroc": {
     "main": true
   }
 }
