@@ -72123,7 +72123,9 @@
     "main": true
   },
   "snowflake-ml-python": {
-    "main": true
+    "main": true,
+    "feat/dependencies2": true,
+    "feat/dependencies": true
   },
   "sqlcompyre": {
     "main": true
@@ -74083,6 +74085,27 @@
     "main": true
   },
   "matchpoint": {
+    "main": true
+  },
+  "pyspatialstats": {
+    "main": true
+  },
+  "backblaze-b2": {
+    "main": true
+  },
+  "phasefieldx": {
+    "main": true
+  },
+  "openonload": {
+    "main": true
+  },
+  "ofxhome": {
+    "main": true
+  },
+  "tcpdirect": {
+    "main": true
+  },
+  "r-twdtw": {
     "main": true
   }
 }
