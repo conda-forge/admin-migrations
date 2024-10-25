@@ -1886,7 +1886,8 @@
   },
   "bg-mpl-stylesheets": {
     "main": true,
-    "rerender": true
+    "rerender": true,
+    "rc": true
   },
   "esmvaltool-suite": {
     "main": true
