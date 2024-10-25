@@ -73514,7 +73514,8 @@
     "main": true
   },
   "diffpy.srmise": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "diffpy.fourigui": {
     "main": true
@@ -74108,6 +74109,27 @@
     "main": true
   },
   "r-twdtw": {
+    "main": true
+  },
+  "pysmiles": {
+    "main": true
+  },
+  "dkimpy": {
+    "main": true
+  },
+  "b4": {
+    "main": true
+  },
+  "patatt": {
+    "main": true
+  },
+  "conda-deny": {
+    "main": true
+  },
+  "r-ggalign": {
+    "main": true
+  },
+  "ccorp-yaml-include-relative-path": {
     "main": true
   }
 }
