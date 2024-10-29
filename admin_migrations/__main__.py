@@ -89,18 +89,15 @@ def pushd(new_dir):
 
 
 def _run_git_command(args, check=True):
-    try:
-        s = subprocess.run(
-            ["git"] + args,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            check=check,
-        )
-    except subprocess.CalledProcessError as e:
-        print(f"    ERROR: {s.stdout.decode('utf-8')}", flush=True)
-        raise e
+    s = subprocess.run(
+        ["git"] + args,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+    )
     if s.returncode != 0:
         print(f"    ERROR: {s.stdout.decode('utf-8')}", flush=True)
+    if check:
+        s.check_returncode()
     return s.returncode == 0, s.stdout.decode("utf-8")
 
 
