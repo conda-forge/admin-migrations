@@ -9,5 +9,4 @@
        token's API requests.
 - [ ] Do not rerender feedstocks!
 
-Items 1-3 are taken care of by the migrations code assuming you don't make
-any big changes.
+Items 1-3 are taken care of by the migrations code assuming you don't make any significant changes.
