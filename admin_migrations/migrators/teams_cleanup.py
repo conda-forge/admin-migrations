@@ -47,10 +47,7 @@ class TeamsCleanup(Migrator):
         ] or team_name.startswith("help-"):
             return
 
-        if (
-            RND.random() < _get_random_frac()
-            or "DEBUG_ADMIN_MIGRATIONS" in os.environ
-        ):
+        if RND.random() < _get_random_frac() or "DEBUG_ADMIN_MIGRATIONS" in os.environ:
             rsp = requests.post(
                 "https://conda-forge.herokuapp.com/conda-forge-teams/update",
                 headers={"CF_WEBSERVICES_TOKEN": os.environ["CF_WEBSERVICES_TOKEN"]},
