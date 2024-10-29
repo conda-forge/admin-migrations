@@ -199,16 +199,6 @@ def _commit_data():
     _run_git_command(["stash", "pop"])
     _run_git_command(["add", "data/*.json"])
     _run_git_command(["commit", "-m", "[ci skip] data for admin migration run"])
-    _run_git_command(
-        [
-            "remote",
-            "set-url",
-            "--push",
-            "origin",
-            "https://x-access-token:%s@github.com/"
-            "conda-forge/admin-migrations.git" % os.environ["GITHUB_PUSH_TOKEN"],
-        ]
-    )
     _run_git_command(["push", "--quiet"])
 
 
