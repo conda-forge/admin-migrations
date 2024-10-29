@@ -41,8 +41,8 @@ jobs:
 
           pip install --no-deps -e .
 
-          git config --global user.email "79913779+conda-forge-curator[bot]@users.noreply.github.com"
-          git config --global user.name "conda-forge-curator[bot]"
+          git config --global user.email "chrisburr73+conda-forge-admin@gmail.com"
+          git config --global user.name "conda-forge-admin"
           git config --global pull.rebase false
 
       - name: migrate
