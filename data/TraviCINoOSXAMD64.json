@@ -72127,7 +72127,8 @@
     "main": true
   },
   "ansys-pythonnet": {
-    "main": true
+    "main": true,
+    "chore/bump-recipe-version": true
   },
   "types-aiobotocore": {
     "main": true
