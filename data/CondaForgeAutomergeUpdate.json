@@ -31260,7 +31260,8 @@
     "publish/1.10.1": true,
     "fo/publish-2.7": true,
     "fo/update-1.6.1": true,
-    "ferozco-patch-1": true
+    "ferozco-patch-1": true,
+    "blowry/failing-ci": true
   },
   "construct": {
     "main": true
@@ -32211,7 +32212,8 @@
   "diffpy.utils": {
     "main": true,
     "update-test-wf": true,
-    "3.4.2": true
+    "3.4.2": true,
+    "rc": true
   },
   "diffsims": {
     "main": true

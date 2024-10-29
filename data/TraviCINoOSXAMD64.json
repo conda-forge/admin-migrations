@@ -26026,7 +26026,8 @@
     "publish/1.10.5": true,
     "publish/1.10.6": true,
     "publish/1.10.7": true,
-    "publish/1.10.8": true
+    "publish/1.10.8": true,
+    "blowry/failing-ci": true
   },
   "conllu": {
     "main": true
@@ -27004,7 +27005,8 @@
   "diffpy.utils": {
     "main": true,
     "update-test-wf": true,
-    "3.4.2": true
+    "3.4.2": true,
+    "rc": true
   },
   "diffsims": {
     "main": true
