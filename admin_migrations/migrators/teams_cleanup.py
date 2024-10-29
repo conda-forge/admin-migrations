@@ -8,6 +8,8 @@ from admin_migrations.defaults import MAX_MIGRATE
 
 from .base import Migrator
 
+RND = random.SystemRandom()
+
 
 def _get_random_frac():
     """We do 50 per hour no matter what."""
@@ -45,16 +47,14 @@ class TeamsCleanup(Migrator):
         ] or team_name.startswith("help-"):
             return
 
-        if (
-            random.random() < _get_random_frac()
-            or "DEBUG_ADMIN_MIGRATIONS" in os.environ
-        ):
+        if RND.random() < _get_random_frac() or "DEBUG_ADMIN_MIGRATIONS" in os.environ:
             rsp = requests.post(
                 "https://conda-forge.herokuapp.com/conda-forge-teams/update",
                 headers={"CF_WEBSERVICES_TOKEN": os.environ["CF_WEBSERVICES_TOKEN"]},
                 json={"feedstock": repo_name},
             )
             rsp.raise_for_status()
+            print("    updated team", flush=True)
 
         # migration done, make a commit, lots of API calls
         return False, False, True
