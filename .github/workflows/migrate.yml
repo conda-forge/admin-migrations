@@ -24,6 +24,8 @@ jobs:
           owner: ${{ github.repository_owner }}
 
       - uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938 # v4.2.0
+        with:
+          token: ${{ steps.CF_ADMIN_GITHUB_TOKEN }}
 
       - uses: mamba-org/setup-micromamba@617811f69075e3fd3ae68ca64220ad065877f246
         with:
@@ -58,7 +60,6 @@ jobs:
           run-admin-migrations
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
-          GITHUB_PUSH_TOKEN: ${{ steps.CF_ADMIN_GITHUB_TOKEN }}
           DRONE_TOKEN: ${{ secrets.DRONE_TOKEN }}
           CIRCLE_TOKEN: ${{ secrets.CIRCLE_TOKEN }}
           TRAVIS_TOKEN_A: ${{ secrets.CF_LINTER_TRAVIS_TOKEN }}
