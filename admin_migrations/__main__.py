@@ -206,7 +206,7 @@ def _commit_data():
             "--push",
             "origin",
             "https://x-access-token:%s@github.com/"
-            "conda-forge/admin-migrations.git" % os.environ["GITHUB_TOKEN"],
+            "conda-forge/admin-migrations.git" % os.environ["GITHUB_PUSH_TOKEN"],
         ]
     )
     _run_git_command(["push", "--quiet"])
