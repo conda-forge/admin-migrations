@@ -71990,7 +71990,8 @@
   },
   "dataeval": {
     "main": true,
-    "0.69.1": true
+    "0.69.1": true,
+    "0.72.0": true
   },
   "hydrampp": {
     "main": true
@@ -73903,7 +73904,8 @@
     "main": true
   },
   "altair-aitools-devkit": {
-    "main": true
+    "main": true,
+    "dev": true
   },
   "caf.base": {
     "main": true
@@ -74218,6 +74220,33 @@
     "main": true
   },
   "torchseg": {
+    "main": true
+  },
+  "sf-hamilton-ui": {
+    "main": true
+  },
+  "tox-uv": {
+    "main": true
+  },
+  "html5rdf": {
+    "main": true
+  },
+  "sf-hamilton-sdk": {
+    "main": true
+  },
+  "sqlmesh": {
+    "main": true
+  },
+  "mofax": {
+    "main": true
+  },
+  "uplot-python": {
+    "main": true
+  },
+  "lightning-uq-box": {
+    "main": true
+  },
+  "cylp": {
     "main": true
   }
 }
