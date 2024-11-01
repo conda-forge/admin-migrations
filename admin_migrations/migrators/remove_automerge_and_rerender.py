@@ -11,10 +11,10 @@ ORG = GH.get_organization("conda-forge")
 
 class RemoveAutomergeAndRerender(Migrator):
     def migrate(self, feedstock, branch):
+        make_commit = False
         if os.path.exists(".github/workflows/automerge.yml") or os.path.exists(
             ".github/workflows/webservices.yml"
         ):
-            make_commit = False
             for fname in [
                 ".github/workflows/automerge.yml",
                 ".github/workflows/webservices.yml",
