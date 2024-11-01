@@ -26,19 +26,23 @@ class RemoveAutomergeAndRerender(Migrator):
                     )
                     make_commit = True
 
-        # repo_name = "%s-feedstock" % feedstock
-        # gh_repo = ORG.get_repo(repo_name)
-        # for fname in ["automerge.yml", "webservices.yml"]:
-        #     workflow = gh_repo.get_workflow(fname)
-        #     # /repos/OWNER/REPO/actions/workflows/WORKFLOW_ID/disable
-        #     url = gh_repo.url + f"/actions/workflows/{workflow.id}/disable"
-        #     try:
-        #         gh_repo._requester.requestJsonAndCheck(
-        #             "PUT",
-        #             url,
-        #         )
-        #     except github.GithubException:
-        #         pass
+        made_api_calls = False
+        # if branch in ["main", "master"]:
+        #     repo_name = "%s-feedstock" % feedstock
+        #     gh_repo = ORG.get_repo(repo_name)
+        #     for fname in ["automerge.yml", "webservices.yml"]:
+        #         workflow = gh_repo.get_workflow(fname)
+        #         # /repos/OWNER/REPO/actions/workflows/WORKFLOW_ID/disable
+        #         url = gh_repo.url + f"/actions/workflows/{workflow.id}/disable"
+        #         try:
+        #             gh_repo._requester.requestJsonAndCheck(
+        #                 "PUT",
+        #                 url,
+        #             )
+        #         except github.GithubException:
+        #             pass
+
+        #     made_api_calls = True
 
         # did it work, commit, made API calls
-        return True, make_commit, False
+        return True, make_commit, made_api_calls
