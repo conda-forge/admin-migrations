@@ -32,10 +32,13 @@ class RemoveAutomergeAndRerender(Migrator):
             workflow = gh_repo.get_workflow(fname)
             # /repos/OWNER/REPO/actions/workflows/WORKFLOW_ID/disable
             url = gh_repo.url + f"/actions/workflows/{workflow.id}/disable"
-            gh_repo._requester.requestJsonAndCheck(
-                "PUT",
-                url,
-            )
+            try:
+                gh_repo._requester.requestJsonAndCheck(
+                    "PUT",
+                    url,
+                )
+            except github.GithubException:
+                pass
 
         # did it work, commit, made API calls
         return True, make_commit, True
