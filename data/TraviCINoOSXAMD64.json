@@ -67846,7 +67846,8 @@
     "main": true
   },
   "pyprobables": {
-    "main": true
+    "main": true,
+    "min-py-3.8": true
   },
   "magika": {
     "main": true
