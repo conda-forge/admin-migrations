@@ -17,3 +17,4 @@ from .feedstocks_service_update import FeedstocksServiceUpdate
 from .dot_conda import DotConda
 from .conda_forge_yml_test import CondaForgeYAMLTest
 from .branch_protection import BranchProtection
+from .remove_automerge_and_rerender import RemoveAutomergeAndRerender
