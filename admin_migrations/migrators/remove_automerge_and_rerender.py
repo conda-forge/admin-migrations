@@ -41,4 +41,4 @@ class RemoveAutomergeAndRerender(Migrator):
         #         pass
 
         # did it work, commit, made API calls
-        return True, make_commit, True
+        return True, make_commit, False
