@@ -72867,7 +72867,8 @@
     "main": true
   },
   "ibmcloudant": {
-    "main": true
+    "main": true,
+    "0.9.1": true
   },
   "array-api-extra": {
     "main": true
@@ -73933,6 +73934,12 @@
     "main": true
   },
   "toml-fmt-common": {
+    "main": true
+  },
+  "pytest-beartype": {
+    "main": true
+  },
+  "etspy": {
     "main": true
   }
 }
