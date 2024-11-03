@@ -7838,7 +7838,8 @@
     "win-support": true
   },
   "conda-libmamba-solver": {
-    "main": true
+    "main": true,
+    "rc": true
   },
   "enso_metrics": {
     "main": true
