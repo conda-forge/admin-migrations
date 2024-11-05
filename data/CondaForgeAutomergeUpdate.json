@@ -36105,7 +36105,8 @@
   },
   "hydra-core": {
     "main": true,
-    "rc": true
+    "rc": true,
+    "dev": true
   },
   "hydrofunctions": {
     "main": true
@@ -41074,7 +41075,8 @@
   },
   "omegaconf": {
     "main": true,
-    "rc": true
+    "rc": true,
+    "dev": true
   },
   "omicron": {
     "main": true

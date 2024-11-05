@@ -30908,7 +30908,8 @@
   },
   "hydra-core": {
     "master": true,
-    "rc": true
+    "rc": true,
+    "dev": true
   },
   "hydroerr": {
     "master": true
@@ -35919,7 +35920,8 @@
   },
   "omegaconf": {
     "master": true,
-    "rc": true
+    "rc": true,
+    "dev": true
   },
   "omicron": {
     "master": true
