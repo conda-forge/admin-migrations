@@ -180,7 +180,7 @@ def _load_feedstock_data():
         with open("data/feedstocks.json") as fp:
             blob = json.load(fp)
 
-    blob["feedstocks"] = feedstocks
+    blob["feedstocks"] = sorted(feedstocks)
 
     return blob
 
