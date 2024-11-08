@@ -60,44 +60,38 @@ class RotateFeedstockToken(Migrator):
 
         # make a new one
         subprocess.check_call(
-            " ".join(
-                [
-                    "conda",
-                    "smithy",
-                    "generate-feedstock-token",
-                    "--unique-token-per-provider",
-                    "--feedstock_directory",
-                    feedstock_dir,
-                ]
-                + owner_info
-            ),
-            shell=True,
+            [
+                "conda",
+                "smithy",
+                "generate-feedstock-token",
+                "--unique-token-per-provider",
+                "--feedstock_directory",
+                feedstock_dir,
+            ]
+            + owner_info
         )
         print("    created new feedstock token", flush=True)
 
         # register
         subprocess.check_call(
-            " ".join(
-                [
-                    "conda",
-                    "smithy",
-                    "register-feedstock-token",
-                    "--unique-token-per-provider",
-                    "--existing-tokens-time-to-expiration",
-                    str(int(6.5 * 60 * 60)),  # 6.5 hours
-                    "--feedstock_directory",
-                    feedstock_dir,
-                    "--without-circle",
-                    "--without-drone",
-                ]
-                + owner_info
-                + [
-                    "--token_repo",
-                    "https://x-access-token:${GITHUB_TOKEN}@github.com/conda-forge/"
-                    "feedstock-tokens",
-                ]
-            ),
-            shell=True,
+            [
+                "conda",
+                "smithy",
+                "register-feedstock-token",
+                "--unique-token-per-provider",
+                "--existing-tokens-time-to-expiration",
+                str(int(6.5 * 60 * 60)),  # 6.5 hours
+                "--feedstock_directory",
+                feedstock_dir,
+                "--without-circle",
+                "--without-drone",
+            ]
+            + owner_info
+            + [
+                "--token_repo",
+                "https://x-access-token:${GITHUB_TOKEN}@github.com/conda-forge/"
+                "feedstock-tokens",
+            ]
         )
         print("    registered new feedstock token", flush=True)
 
