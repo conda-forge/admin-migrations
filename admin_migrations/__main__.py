@@ -409,7 +409,7 @@ def _render_readme():
         frac = done / total
         if frac > 1:
             frac = 1
-        percent = f" [{int(frac * 100):-3d}%]"
+        percent = f"[{int(frac * 100):-3d}%] "
         progress = int(frac * bar_seg)
         if name in ["TeamsCleanup"]:
             table += (
