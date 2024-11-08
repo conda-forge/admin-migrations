@@ -1,3 +1,4 @@
+import functools
 import os
 import subprocess
 
@@ -6,7 +7,11 @@ import github
 from .base import Migrator
 
 GH = github.Github(os.environ["GITHUB_TOKEN"])
-ORG = GH.get_organization("conda-forge")
+
+
+@functools.lru_cache(maxsize=1)
+def get_org():
+    return GH.get_organization("conda-forge")
 
 
 class RemoveAutomergeAndRerender(Migrator):
@@ -29,7 +34,7 @@ class RemoveAutomergeAndRerender(Migrator):
         made_api_calls = False
         # if branch in ["main", "master"]:
         #     repo_name = "%s-feedstock" % feedstock
-        #     gh_repo = ORG.get_repo(repo_name)
+        #     gh_repo = get_org().get_repo(repo_name)
         #     for fname in ["automerge.yml", "webservices.yml"]:
         #         workflow = gh_repo.get_workflow(fname)
         #         # /repos/OWNER/REPO/actions/workflows/WORKFLOW_ID/disable

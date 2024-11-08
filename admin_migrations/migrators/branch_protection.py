@@ -1,3 +1,4 @@
+import functools
 import os
 
 import github
@@ -5,7 +6,11 @@ import github
 from .base import Migrator
 
 GH = github.Github(os.environ["GITHUB_TOKEN"])
-ORG = GH.get_organization("conda-forge")
+
+
+@functools.lru_cache(maxsize=1)
+def get_org():
+    return GH.get_organization("conda-forge")
 
 
 def _add_branch_protection_ruleset(gh_repo):
@@ -51,7 +56,7 @@ class BranchProtection(Migrator):
     def migrate(self, feedstock, branch):
         repo_name = "%s-feedstock" % feedstock
 
-        gh_repo = ORG.get_repo(repo_name)
+        gh_repo = get_org().get_repo(repo_name)
         try:
             _add_branch_protection_ruleset(gh_repo)
             migration_done = True

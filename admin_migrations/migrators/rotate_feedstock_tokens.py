@@ -2,16 +2,12 @@ import os
 import random
 import subprocess
 
-import github
 import requests
 from conda_smithy.ci_register import travis_get_repo_info
 
 from .base import Migrator
 
 SMITHY_CONF = os.path.expanduser("~/.conda-smithy")
-FEEDSTOCK_TOKENS_REPO = github.Github(os.environ["GITHUB_TOKEN"]).get_repo(
-    "conda-forge/feedstock-tokens"
-)
 
 
 def _feedstock_token_exists(name):
