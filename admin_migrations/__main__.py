@@ -42,6 +42,36 @@ from admin_migrations.migrators import (
     TraviCINoOSXAMD64,
 )
 
+# commented ones are finished or not used
+MIGRATORS = [
+    RAutomerge(),
+    TraviCINoOSXAMD64(),
+    CondaForgeYAMLTest(),
+    # RotateCFStagingToken(),
+    # RotateFeedstockToken(),
+    # CondaForgeMasterToMain(),  # this one always goes first since it makes extra
+    #                            # commits etc
+    # FeedstocksServiceUpdate(),
+    # CondaForgeAutomergeUpdate(),
+    BranchProtection(),
+    # DotConda(),
+    # CondaForgeGHAWithMain(),
+    # RotateCFStagingToken(),
+    # RotateFeedstockToken(),
+    # CFEP13AzureTokenCleanup(),
+    TeamsCleanup(),
+    # CFEP13TokenCleanup(),
+    # AppveyorForceDelete(),
+    # TravisCIAutoCancelPRs(),
+    # CondaForgeAutomerge(),
+    # CFEP13TokensAndConfig(),
+    # AppveyorDelete(),
+    # AutomergeAndRerender(),
+    # CFEP13TurnOff(),
+    # AutomergeAndBotRerunLabels(),
+    RemoveAutomergeAndRerender(),
+]
+
 
 def _assert_at_0():
     yaml = ruamel.yaml.YAML()
@@ -187,9 +217,12 @@ def _load_feedstock_data():
 
 def _commit_data():
     print("\nsaving data...", flush=True)
+    _run_git_command(["add", "README.md"])
+    _run_git_command(["add", "data/*.json"])
     _run_git_command(["stash"])
     _run_git_command(["pull", "--quiet"])
     _run_git_command(["stash", "pop"])
+    _run_git_command(["add", "README.md"])
     _run_git_command(["add", "data/*.json"])
     _run_git_command(["commit", "-m", "[ci skip] data for admin migration run"])
     _run_git_command(["push", "--quiet"])
@@ -355,36 +388,53 @@ def _report_progress(
     print(" ", flush=True)
 
 
+def _render_readme():
+    with open("data/all_feedstocks.json") as fp:
+        feedstocks = json.load(fp)["active"]
+
+    total = len(feedstocks)
+
+    mg_col_name = "migrator"
+    mg_col_name_len = max([len(m.__class__.__name__) for m in MIGRATORS])
+    mg_col_name = mg_col_name + " " * (mg_col_name_len - len(mg_col_name))
+
+    bar_name = "progress"
+    bar_seg = 40
+    bar_len = bar_seg
+    bar_name = bar_name + " " * (bar_len - len(bar_name))
+    table = f"| {mg_col_name} | {bar_name} | percent |\n"
+    table += f"| {'-' * mg_col_name_len} | {'-' * bar_len} | ------- |\n"
+
+    for m in sorted(MIGRATORS, key=lambda x: x.__class__.__name__):
+        name = m.__class__.__name__
+        done = len(m._done_table)
+        frac = done / total
+        if frac > 1:
+            frac = 1
+        percent = f"{int(frac * 100):-3d}%"
+        progress = int(frac * bar_seg)
+        if name in ["TeamsCleanup"]:
+            table += (
+                f"| {name}{' ' * (mg_col_name_len - len(name))} "
+                f"| n/a{' ' * (bar_len - 3)} |     n/a |\n"
+            )
+        else:
+            table += (
+                f"| {name}{' ' * (mg_col_name_len - len(name))} "
+                f"| {'#' * progress}{' ' * (bar_seg - progress)} | "
+                f"   {percent} |\n"
+            )
+
+    with open("README.md.template") as fp:
+        readme = fp.read()
+
+    readme = readme.replace("@@MigrationProgress@@", table[:-1])
+
+    with open("README.md", "w") as fp:
+        fp.write(readme)
+
+
 def main():
-    # commented ones are finished or not used
-    migrators = [
-        RAutomerge(),
-        TraviCINoOSXAMD64(),
-        CondaForgeYAMLTest(),
-        # RotateCFStagingToken(),
-        # RotateFeedstockToken(),
-        # CondaForgeMasterToMain(),  # this one always goes first since it makes extra
-        #                            # commits etc
-        # FeedstocksServiceUpdate(),
-        # CondaForgeAutomergeUpdate(),
-        BranchProtection(),
-        # DotConda(),
-        # CondaForgeGHAWithMain(),
-        # RotateCFStagingToken(),
-        # RotateFeedstockToken(),
-        # CFEP13AzureTokenCleanup(),
-        TeamsCleanup(),
-        # CFEP13TokenCleanup(),
-        # AppveyorForceDelete(),
-        # TravisCIAutoCancelPRs(),
-        # CondaForgeAutomerge(),
-        # CFEP13TokensAndConfig(),
-        # AppveyorDelete(),
-        # AutomergeAndRerender(),
-        # CFEP13TurnOff(),
-        # AutomergeAndBotRerunLabels(),
-        RemoveAutomergeAndRerender(),
-    ]
     print(" ", flush=True)
 
     feedstocks = _load_feedstock_data()
@@ -395,7 +445,7 @@ def main():
         feedstocks["feedstocks"] = all_feedstocks
         feedstocks["current_feedstock"] = "a"
         assert feedstocks["feedstocks"][0] > feedstocks["current_feedstock"]
-        for m in migrators:
+        for m in MIGRATORS:
             for fs in all_feedstocks:
                 if fs in m._done_table:
                     del m._done_table[fs]
@@ -407,7 +457,7 @@ def main():
         for fs in feedstocks["feedstocks"]
     )
 
-    n_workers = min([m.max_processes for m in migrators])
+    n_workers = min([m.max_processes for m in MIGRATORS])
     if n_workers <= 0:
         n_workers = os.environ.get("CPU_COUNT", MAX_WORKERS)
         try:
@@ -468,7 +518,7 @@ def main():
 
                 del futs[fut]
 
-            fut = exec.submit(run_migrators, f, migrators)
+            fut = exec.submit(run_migrators, f, MIGRATORS)
             futs[fut] = f
 
             # out of time?
@@ -504,10 +554,13 @@ def main():
         print("=" * 80, flush=True)
         print("=" * 80, flush=True)
         print("processed all feedstocks - starting over!", flush=True)
+        feedstocks["current_feedstock"] = ""
 
     del feedstocks["feedstocks"]
     with open("data/feedstocks.json", "w") as fp:
         json.dump(feedstocks, fp, indent=2)
+
+    _render_readme()
 
     if not DEBUG:
         _commit_data()

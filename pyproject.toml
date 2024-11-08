@@ -8,6 +8,7 @@ version = "0.1"
 
 [project.scripts]
 run-admin-migrations = "admin_migrations.__main__:main"
+render-admin-migrations-readme = "admin_migrations.__main__:_render_readme"
 
 [tool.setuptools]
 packages = {find = {exclude=["data*", "scripts*"]}}
