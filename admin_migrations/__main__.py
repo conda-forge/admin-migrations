@@ -398,10 +398,10 @@ def _render_readme():
 
     bar_name = "progress"
     bar_seg = 25
-    bar_len = bar_seg + 7  # 7 for the percentage
+    bar_len = bar_seg
     bar_name = bar_name + " " * (bar_len - len(bar_name))
-    table = f"| {mg_col_name} | {bar_name} |\n"
-    table += f"| {'-' * mg_col_name_len} | {'-' * bar_len} |\n"
+    table = f"| {mg_col_name} | {bar_name} | percent |\n"
+    table += f"| {'-' * mg_col_name_len} | {'-' * bar_len} | ------- |\n"
 
     for m in sorted(MIGRATORS, key=lambda x: x.__class__.__name__):
         name = m.__class__.__name__
@@ -409,17 +409,18 @@ def _render_readme():
         frac = done / total
         if frac > 1:
             frac = 1
-        percent = f"[{int(frac * 100):-3d}%] "
+        percent = f"{int(frac * 100):-3d}%"
         progress = int(frac * bar_seg)
         if name in ["TeamsCleanup"]:
             table += (
                 f"| {name}{' ' * (mg_col_name_len - len(name))} "
-                f"| n/a{' ' * (bar_len - 3)} |\n"
+                f"| n/a{' ' * (bar_len - 3)} |     n/a |\n"
             )
         else:
             table += (
                 f"| {name}{' ' * (mg_col_name_len - len(name))} "
-                f"| {percent}{'#' * progress}{' ' * (bar_seg - progress)} |\n"
+                f"| {'#' * progress}{' ' * (bar_seg - progress)} | "
+                f"   {percent} |\n"
             )
 
     with open("README.md.template") as fp:
