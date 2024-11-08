@@ -389,11 +389,6 @@ def main():
 
     feedstocks = _load_feedstock_data()
 
-    num_done_prev = sum(
-        1 if fs <= feedstocks["current_feedstock"] else 0
-        for fs in feedstocks["feedstocks"]
-    )
-
     if DEBUG:
         # set DEBUG_ADMIN_MIGRATIONS in your env to enable this
         all_feedstocks = ["cf-autotick-bot-test-package"]
@@ -406,6 +401,11 @@ def main():
                     del m._done_table[fs]
     else:
         all_feedstocks = feedstocks["feedstocks"]
+
+    num_done_prev = sum(
+        1 if fs <= feedstocks["current_feedstock"] else 0
+        for fs in feedstocks["feedstocks"]
+    )
 
     n_workers = min([m.max_processes for m in migrators])
     if n_workers <= 0:
