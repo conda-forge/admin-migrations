@@ -175,19 +175,12 @@ def _load_feedstock_data():
     feedstocks = all_feedstocks["active"]
 
     if not os.path.exists("data/feedstocks.json"):
-        blob = {"current": 0, "feedstocks": dict.fromkeys(sorted(feedstocks), 0)}
+        blob = {"current_feedstock": feedstocks[0]}
     else:
         with open("data/feedstocks.json") as fp:
             blob = json.load(fp)
 
-    new_feedstocks = set(feedstocks) - set([k for k in blob["feedstocks"]])
-    if len(new_feedstocks) > 0:
-        for f in new_feedstocks:
-            blob["feedstocks"][f] = (blob["current"] + 1) % 2
-
-    archived = set(all_feedstocks["archived"]) & set(blob["feedstocks"])
-    for fs in archived:
-        blob["feedstocks"].pop(fs, None)
+    blob["feedstocks"] = sorted(feedstocks)
 
     return blob
 
@@ -395,24 +388,24 @@ def main():
     print(" ", flush=True)
 
     feedstocks = _load_feedstock_data()
-    current_num = feedstocks["current"]
-    next_num = (current_num + 1) % 2
-
-    num_done_prev = sum(v == next_num for v in feedstocks["feedstocks"].values())
 
     if DEBUG:
         # set DEBUG_ADMIN_MIGRATIONS in your env to enable this
-        all_feedstocks = [
-            "cf-autotick-bot-test-package",
-        ]
-        for fs in all_feedstocks:
-            feedstocks["feedstocks"][fs] = current_num
+        all_feedstocks = ["cf-autotick-bot-test-package"]
+        feedstocks["feedstocks"] = all_feedstocks
+        feedstocks["current_feedstock"] = "a"
+        assert feedstocks["feedstocks"][0] > feedstocks["current_feedstock"]
         for m in migrators:
             for fs in all_feedstocks:
                 if fs in m._done_table:
                     del m._done_table[fs]
     else:
-        all_feedstocks = list(feedstocks["feedstocks"].keys())
+        all_feedstocks = feedstocks["feedstocks"]
+
+    num_done_prev = sum(
+        1 if fs <= feedstocks["current_feedstock"] else 0
+        for fs in feedstocks["feedstocks"]
+    )
 
     n_workers = min([m.max_processes for m in migrators])
     if n_workers <= 0:
@@ -436,10 +429,11 @@ def main():
     start_time = time.time()
     report_time = time.time()
     futs = {}
+    finished_feedstocks = []
     with ProcessPoolExecutor(max_workers=n_workers) as exec:
         for f in all_feedstocks:
             # did we do this one?
-            if feedstocks["feedstocks"][f] != current_num:
+            if f <= feedstocks["current_feedstock"]:
                 continue
 
             # migrate
@@ -452,7 +446,7 @@ def main():
                     made_api_call, migrations_to_record = fut.result()
                     if made_api_call:
                         num_pushed_or_apied += 1
-                    feedstocks["feedstocks"][futs[fut]] = next_num
+                    finished_feedstocks.append(futs[fut])
                     num_done += 1
 
                     for _m, _branch in migrations_to_record:
@@ -490,7 +484,7 @@ def main():
         made_api_call, migrations_to_record = fut.result()
         if made_api_call:
             num_pushed_or_apied += 1
-        feedstocks["feedstocks"][futs[fut]] = next_num
+        finished_feedstocks.append(futs[fut])
         num_done += 1
 
         for _m, _branch in migrations_to_record:
@@ -502,13 +496,16 @@ def main():
         num_done_prev, num_done, feedstocks, num_pushed_or_apied, start_time
     )
 
-    if all(v == next_num for v in feedstocks["feedstocks"].values()):
+    finished_feedstocks = sorted(finished_feedstocks)
+    feedstocks["current_feedstock"] = finished_feedstocks[-1]
+
+    if feedstocks["current_feedstock"] == all_feedstocks[-1]:
         print("=" * 80, flush=True)
         print("=" * 80, flush=True)
         print("=" * 80, flush=True)
         print("processed all feedstocks - starting over!", flush=True)
-        feedstocks["current"] = next_num
 
+    del feedstocks["feedstocks"]
     with open("data/feedstocks.json", "w") as fp:
         json.dump(feedstocks, fp, indent=2)
 
