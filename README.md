@@ -29,11 +29,11 @@ Items 1-3 are taken care of by the migrations code.
 
 ## Migration Progress
 
-| migrator                   | progress                                                  |
-| -------------------------- | --------------------------------------------------------- |
-| BranchProtection           | ################################################## [100%] |
-| CondaForgeYAMLTest         | ###                                                [  7%] |
-| RAutomerge                 | #######                                            [ 14%] |
-| RemoveAutomergeAndRerender | ################################################## [100%] |
-| TeamsCleanup               | n/a                                                       |
-| TraviCINoOSXAMD64          | ################################################## [100%] |
+| migrator                   | progress                         |
+| -------------------------- | -------------------------------- |
+| BranchProtection           | ######################### [100%] |
+| CondaForgeYAMLTest         | #                         [  7%] |
+| RAutomerge                 | ###                       [ 14%] |
+| RemoveAutomergeAndRerender | ######################### [100%] |
+| TeamsCleanup               | n/a                              |
+| TraviCINoOSXAMD64          | ######################### [100%] |
