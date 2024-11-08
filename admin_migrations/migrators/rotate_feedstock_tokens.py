@@ -26,17 +26,6 @@ def _feedstock_token_exists(name):
         return True
 
 
-def _delete_feedstock_token(feedstock_name):
-    token_file = "tokens/%s.json" % feedstock_name
-    fn = FEEDSTOCK_TOKENS_REPO.get_contents(token_file)
-    FEEDSTOCK_TOKENS_REPO.delete_file(
-        token_file,
-        "[ci skip] [skip ci] [cf admin skip] ***NO_CI*** removing "
-        "token for %s" % feedstock_name,
-        fn.sha,
-    )
-
-
 def _write_travis_token(token_env):
     smithy_conf = os.path.expanduser("~/.conda-smithy")
     if not os.path.exists(smithy_conf):
@@ -66,11 +55,6 @@ class RotateFeedstockToken(Migrator):
             )
             return False, False, True
 
-        # delete the old token
-        if _feedstock_token_exists(feedstock + "-feedstock"):
-            _delete_feedstock_token(feedstock + "-feedstock")
-            print("    deleted old feedstock token", flush=True)
-
         feedstock_dir = "../%s-feedstock" % feedstock
         owner_info = ["--organization", "conda-forge"]
 
@@ -81,6 +65,7 @@ class RotateFeedstockToken(Migrator):
                     "conda",
                     "smithy",
                     "generate-feedstock-token",
+                    "--unique-token-per-provider",
                     "--feedstock_directory",
                     feedstock_dir,
                 ]
@@ -97,11 +82,13 @@ class RotateFeedstockToken(Migrator):
                     "conda",
                     "smithy",
                     "register-feedstock-token",
+                    "--unique-token-per-provider",
+                    "--existing-tokens-time-to-expiration",
+                    str(int(6.5 * 60 * 60)),  # 6.5 hours
                     "--feedstock_directory",
                     feedstock_dir,
                     "--without-circle",
                     "--without-drone",
-                    "--without-github-actions",
                 ]
                 + owner_info
                 + [
