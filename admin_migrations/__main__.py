@@ -419,7 +419,7 @@ def _render_readme():
         else:
             table += (
                 f"| {name}{' ' * (mg_col_name_len - len(name))} "
-                f"| {'#' * progress}{' ' * (bar_seg - progress)}{percent} |\n"
+                f"| {percent}{'#' * progress}{' ' * (bar_seg - progress)} |\n"
             )
 
     with open("README.md.template") as fp:
