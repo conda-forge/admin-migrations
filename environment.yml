@@ -9,7 +9,7 @@ dependencies:
   - gitpython
   - ruamel.yaml
   - ruamel.yaml.jinja2
-  - conda-smithy
+  - conda-smithy >=3.44.2
   - conda-build
   - rattler-build-conda-compat >=0.2.2,<1.0.0a0
   - python =3.11
