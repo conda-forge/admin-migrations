@@ -23,7 +23,7 @@ from admin_migrations.migrators import (
     RAutomerge,
     RemoveAutomergeAndRerender,
     # RotateCFStagingToken,
-    RotateFeedstockToken,
+    # RotateFeedstockToken,
     # CondaForgeMasterToMain,
     # FeedstocksServiceUpdate,
     # DotConda,
@@ -362,7 +362,7 @@ def main():
         TraviCINoOSXAMD64(),
         CondaForgeYAMLTest(),
         # RotateCFStagingToken(),
-        RotateFeedstockToken(),
+        # RotateFeedstockToken(),
         # CondaForgeMasterToMain(),  # this one always goes first since it makes extra
         #                            # commits etc
         # FeedstocksServiceUpdate(),
