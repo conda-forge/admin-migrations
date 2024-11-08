@@ -217,6 +217,8 @@ def _load_feedstock_data():
 
 def _commit_data():
     print("\nsaving data...", flush=True)
+    _run_git_command(["add", "README.md"])
+    _run_git_command(["add", "data/*.json"])
     _run_git_command(["stash"])
     _run_git_command(["pull", "--quiet"])
     _run_git_command(["stash", "pop"])
@@ -552,6 +554,7 @@ def main():
         print("=" * 80, flush=True)
         print("=" * 80, flush=True)
         print("processed all feedstocks - starting over!", flush=True)
+        feedstocks["current_feedstock"] = ""
 
     del feedstocks["feedstocks"]
     with open("data/feedstocks.json", "w") as fp:
