@@ -39787,7 +39787,8 @@
     "flemmel-patch-8": true,
     "flemmel-patch-23": true,
     "flemmel-patch-19": true,
-    "flemmel-patch-20": true
+    "flemmel-patch-20": true,
+    "flemmel-patch-24": true
   },
   "openmichrom": {
     "main": true
@@ -72947,6 +72948,9 @@
     "main": true
   },
   "piq": {
+    "main": true
+  },
+  "pytango-db": {
     "main": true
   }
 }
