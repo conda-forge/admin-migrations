@@ -59205,7 +59205,8 @@
   },
   "climada": {
     "main": true,
-    "add-unittest-to-recipe": true
+    "add-unittest-to-recipe": true,
+    "v4.1.0": true
   },
   "roseau-load-flow": {
     "main": true
@@ -74586,6 +74587,9 @@
     "main": true
   },
   "ucimlrepo": {
+    "main": true
+  },
+  "check-internet-speed": {
     "main": true
   }
 }

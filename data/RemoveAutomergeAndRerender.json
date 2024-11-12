@@ -57668,7 +57668,8 @@
     "main": true
   },
   "climada": {
-    "main": true
+    "main": true,
+    "v4.1.0": true
   },
   "roseau-load-flow": {
     "main": true
@@ -72958,6 +72959,9 @@
     "main": true
   },
   "ucimlrepo": {
+    "main": true
+  },
+  "check-internet-speed": {
     "main": true
   }
 }
