@@ -91,4 +91,4 @@ class Migrator:
         blob[feedstock][branch] = True
 
         with open(fname, "w") as fp:
-            json.dump(blob, fp, indent=2)
+            json.dump(blob, fp, indent=2, sort_keys=True)
