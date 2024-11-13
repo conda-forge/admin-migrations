@@ -1495,5 +1495,308 @@
   },
   "libcpucycles": {
     "main": true
+  },
+  "libcramjam": {
+    "main": true
+  },
+  "libcrc32c": {
+    "main": true
+  },
+  "libcroco": {
+    "main": true
+  },
+  "libcst": {
+    "main": true
+  },
+  "libctl": {
+    "main": true
+  },
+  "libcuba": {
+    "main": true
+  },
+  "libcublas": {
+    "main": true
+  },
+  "libcublasmp": {
+    "main": true
+  },
+  "libcufft": {
+    "main": true
+  },
+  "libcufile": {
+    "main": true
+  },
+  "libcups": {
+    "main": true
+  },
+  "libcurand": {
+    "main": true
+  },
+  "libcusolver": {
+    "main": true
+  },
+  "libcusparse": {
+    "main": true
+  },
+  "libcxx": {
+    "main": true
+  },
+  "libcxx-testing": {
+    "main": true
+  },
+  "libcxxwrap-julia": {
+    "main": true
+  },
+  "libdaemon": {
+    "main": true
+  },
+  "libdap4": {
+    "main": true
+  },
+  "libdate": {
+    "main": true
+  },
+  "libdazzle": {
+    "main": true
+  },
+  "libdb": {
+    "main": true
+  },
+  "libdc1394": {
+    "main": true
+  },
+  "libde265": {
+    "main": true
+  },
+  "libdeflate": {
+    "main": true
+  },
+  "libdevmapper": {
+    "main": true
+  },
+  "libdicom": {
+    "main": true
+  },
+  "libdiffpy": {
+    "main": true
+  },
+  "libdiscid": {
+    "main": true
+  },
+  "libdispatch": {
+    "main": true
+  },
+  "libdlf": {
+    "main": true
+  },
+  "libdlfind": {
+    "main": true
+  },
+  "libdrm": {
+    "main": true
+  },
+  "libdrs": {
+    "main": true
+  },
+  "libdrs_f": {
+    "main": true
+  },
+  "libdwarf": {
+    "main": true
+  },
+  "libebm": {
+    "main": true
+  },
+  "libecpint": {
+    "main": true
+  },
+  "libedit": {
+    "main": true
+  },
+  "libefp": {
+    "main": true
+  },
+  "libensemble": {
+    "main": true
+  },
+  "libertem": {
+    "main": true
+  },
+  "libertem-asi-tpx3": {
+    "main": true
+  },
+  "libertem-blobfinder": {
+    "main": true
+  },
+  "libertem-dectris": {
+    "main": true
+  },
+  "libertem-live": {
+    "main": true
+  },
+  "libertem-qd-mpx": {
+    "main": true
+  },
+  "libestools": {
+    "main": true
+  },
+  "libev": {
+    "main": true
+  },
+  "libevalhyd": {
+    "main": true
+  },
+  "libevent": {
+    "main": true
+  },
+  "libexif": {
+    "main": true
+  },
+  "libfaketime": {
+    "main": true
+  },
+  "libffi": {
+    "main": true
+  },
+  "libfido2": {
+    "main": true
+  },
+  "libfilepattern": {
+    "main": true
+  },
+  "libflac": {
+    "main": true
+  },
+  "libflint": {
+    "main": true
+  },
+  "libframe": {
+    "main": true
+  },
+  "libftdi": {
+    "main": true
+  },
+  "libfuse": {
+    "main": true
+  },
+  "libfyaml": {
+    "main": true
+  },
+  "libgap": {
+    "main": true
+  },
+  "libgcrypt": {
+    "main": true
+  },
+  "libgd": {
+    "main": true
+  },
+  "libgdsii": {
+    "main": true
+  },
+  "libgit2": {
+    "main": true
+  },
+  "libglu": {
+    "main": true
+  },
+  "libglvnd": {
+    "main": true
+  },
+  "libgpg-error": {
+    "main": true
+  },
+  "libgpiod-split": {
+    "main": true
+  },
+  "libgpuarray": {
+    "main": true
+  },
+  "libgraphene": {
+    "main": true
+  },
+  "libgsasl": {
+    "main": true
+  },
+  "libgsf": {
+    "main": true
+  },
+  "libgumbo": {
+    "main": true
+  },
+  "libharu": {
+    "main": true
+  },
+  "libhdbpp": {
+    "main": true
+  },
+  "libhdbpp-timescale": {
+    "main": true
+  },
+  "libheif": {
+    "main": true
+  },
+  "libhidapi": {
+    "main": true
+  },
+  "libhiredis": {
+    "main": true
+  },
+  "libhomfly": {
+    "main": true
+  },
+  "libhugetlbfs": {
+    "main": true
+  },
+  "libhwloc": {
+    "main": true
+  },
+  "libhwy": {
+    "main": true
+  },
+  "libhxl": {
+    "main": true
+  },
+  "libi2c": {
+    "main": true
+  },
+  "libical": {
+    "main": true
+  },
+  "libiconv": {
+    "main": true
+  },
+  "libics": {
+    "main": true
+  },
+  "libidn11": {
+    "main": true
+  },
+  "libidn2": {
+    "main": true
+  },
+  "libignition-cmake0": {
+    "main": true
+  },
+  "libignition-common": {
+    "main": true
+  },
+  "libignition-fuel-tools": {
+    "main": true
+  },
+  "libignition-gazebo": {
+    "main": true
+  },
+  "libignition-gui": {
+    "main": true
+  },
+  "libignition-launch": {
+    "main": true
+  },
+  "libignition-math4": {
+    "main": true
+  },
+  "libignition-msgs1": {
+    "main": true
   }
 }
