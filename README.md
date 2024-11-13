@@ -35,6 +35,6 @@ Items 1-3 are taken care of by the migrations code.
 | CondaForgeYAMLTest         | ##                                       |      7% |
 | RAutomerge                 | #####                                    |     14% |
 | RemoveAutomergeAndRerender | #######################################  |     99% |
-| RotateFeedstockToken       | #                                        |      2% |
+| RotateFeedstockToken       | #                                        |      3% |
 | TeamsCleanup               | n/a                                      |     n/a |
 | TraviCINoOSXAMD64          | ######################################## |    100% |
