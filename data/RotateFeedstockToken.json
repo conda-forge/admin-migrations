@@ -2665,5 +2665,308 @@
   },
   "linux-perf": {
     "main": true
+  },
+  "linux-sysroot": {
+    "main": true
+  },
+  "lipo": {
+    "main": true
+  },
+  "lipyphilic": {
+    "main": true
+  },
+  "liquid-babel": {
+    "main": true
+  },
+  "liquid-dsp": {
+    "main": true
+  },
+  "liquidprompt": {
+    "main": true
+  },
+  "liquidpy": {
+    "main": true
+  },
+  "lisc": {
+    "main": true
+  },
+  "lit-nlp": {
+    "main": true
+  },
+  "litdata": {
+    "main": true
+  },
+  "litecli": {
+    "main": true
+  },
+  "litedao": {
+    "main": true
+  },
+  "litedram": {
+    "main": true
+  },
+  "liteeth": {
+    "main": true
+  },
+  "liteiclink": {
+    "main": true
+  },
+  "litellm": {
+    "main": true
+  },
+  "litemark": {
+    "main": true
+  },
+  "litepcie": {
+    "main": true
+  },
+  "litereval": {
+    "main": true
+  },
+  "litesata": {
+    "main": true
+  },
+  "litescope": {
+    "main": true
+  },
+  "litespi": {
+    "main": true
+  },
+  "litestar": {
+    "main": true
+  },
+  "litex": {
+    "main": true
+  },
+  "litserve": {
+    "main": true
+  },
+  "littlemcmc": {
+    "main": true
+  },
+  "littletable": {
+    "main": true
+  },
+  "littleutils": {
+    "main": true
+  },
+  "livereload": {
+    "main": true
+  },
+  "livvkit": {
+    "main": true
+  },
+  "livy-submit": {
+    "main": true
+  },
+  "lixtools": {
+    "main": true
+  },
+  "lizard": {
+    "main": true
+  },
+  "lkml": {
+    "main": true
+  },
+  "llama": {
+    "main": true
+  },
+  "llama-cloud": {
+    "main": true
+  },
+  "llama-cpp-python": {
+    "main": true
+  },
+  "llama-index": {
+    "main": true
+  },
+  "llama-index-agent-openai": {
+    "main": true
+  },
+  "llama-index-cli": {
+    "main": true
+  },
+  "llama-index-core": {
+    "main": true
+  },
+  "llama-index-embeddings-openai": {
+    "main": true
+  },
+  "llama-index-indices-managed-llama-cloud": {
+    "main": true
+  },
+  "llama-index-legacy": {
+    "main": true
+  },
+  "llama-index-llms-openai": {
+    "main": true
+  },
+  "llama-index-multi-modal-llms-openai": {
+    "main": true
+  },
+  "llama-index-program-openai": {
+    "main": true
+  },
+  "llama-index-question-gen-openai": {
+    "main": true
+  },
+  "llama-index-readers-file": {
+    "main": true
+  },
+  "llama-index-readers-llama-parse": {
+    "main": true
+  },
+  "llama-parse": {
+    "main": true
+  },
+  "llama.cpp": {
+    "main": true
+  },
+  "llamaindex-py-client": {
+    "main": true
+  },
+  "llckbdm": {
+    "main": true
+  },
+  "lld": {
+    "main": true
+  },
+  "lldb": {
+    "main": true
+  },
+  "lleaves": {
+    "main": true
+  },
+  "llist": {
+    "main": true
+  },
+  "llm": {
+    "main": true
+  },
+  "llmlingua": {
+    "main": true
+  },
+  "llmtuner": {
+    "main": true
+  },
+  "llnl-sina": {
+    "main": true
+  },
+  "llspy-slm": {
+    "main": true
+  },
+  "llvm-bazel-cache": {
+    "main": true
+  },
+  "llvm-meta": {
+    "main": true
+  },
+  "llvm-spirv": {
+    "main": true
+  },
+  "llvmdev": {
+    "main": true
+  },
+  "llvmlite": {
+    "main": true
+  },
+  "lm-format-enforcer": {
+    "main": true
+  },
+  "lm_eval": {
+    "main": true
+  },
+  "lmdb": {
+    "main": true
+  },
+  "lmdbm": {
+    "main": true
+  },
+  "lmdbxx": {
+    "main": true
+  },
+  "lmfit": {
+    "main": true
+  },
+  "lml": {
+    "main": true
+  },
+  "lmod": {
+    "main": true
+  },
+  "lmoments3": {
+    "main": true
+  },
+  "lmz": {
+    "main": true
+  },
+  "lndoctor": {
+    "main": true
+  },
+  "loadmydata": {
+    "main": true
+  },
+  "loadskernel": {
+    "main": true
+  },
+  "lobsterpy": {
+    "main": true
+  },
+  "local-attention": {
+    "main": true
+  },
+  "local-migrator": {
+    "main": true
+  },
+  "localdeps": {
+    "main": true
+  },
+  "localstack": {
+    "main": true
+  },
+  "localstack-client": {
+    "main": true
+  },
+  "localstack-ext": {
+    "main": true
+  },
+  "localstack-plugin-loader": {
+    "main": true
+  },
+  "localtileserver": {
+    "main": true
+  },
+  "locan": {
+    "main": true
+  },
+  "locate": {
+    "main": true
+  },
+  "lock": {
+    "main": true
+  },
+  "locket": {
+    "main": true
+  },
+  "lockfile": {
+    "main": true
+  },
+  "locklib": {
+    "main": true
+  },
+  "locopy": {
+    "main": true
+  },
+  "locust": {
+    "main": true
+  },
+  "locustio": {
+    "main": true
+  },
+  "lodash": {
+    "main": true
+  },
+  "lodepng": {
+    "main": true
   }
 }
