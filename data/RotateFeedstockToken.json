@@ -601,5 +601,308 @@
   },
   "label-studio-sdk": {
     "main": true
+  },
+  "label-studio-tools": {
+    "main": true
+  },
+  "labelfusion": {
+    "main": true
+  },
+  "labelimg": {
+    "main": true
+  },
+  "labeling": {
+    "main": true
+  },
+  "labelme": {
+    "main": true
+  },
+  "labjackpython": {
+    "main": true
+  },
+  "labmaze": {
+    "main": true
+  },
+  "labours": {
+    "main": true
+  },
+  "laces": {
+    "main": true
+  },
+  "ladspa": {
+    "main": true
+  },
+  "lagrange-ng": {
+    "main": true
+  },
+  "lagranto": {
+    "main": true
+  },
+  "lagraph": {
+    "main": true
+  },
+  "lakepy": {
+    "main": true
+  },
+  "lal": {
+    "main": true
+  },
+  "lalapps": {
+    "main": true
+  },
+  "lalburst": {
+    "main": true
+  },
+  "lale": {
+    "main": true
+  },
+  "lalframe": {
+    "main": true
+  },
+  "lalinference": {
+    "main": true
+  },
+  "lalinspiral": {
+    "main": true
+  },
+  "lalmetaio": {
+    "main": true
+  },
+  "lalpulsar": {
+    "main": true
+  },
+  "lalsimulation": {
+    "main": true
+  },
+  "lalsuite": {
+    "main": true
+  },
+  "lambdaprompt": {
+    "main": true
+  },
+  "lame": {
+    "main": true
+  },
+  "lamin_utils": {
+    "main": true
+  },
+  "lammps": {
+    "main": true
+  },
+  "lammps-interface": {
+    "main": true
+  },
+  "lammpsio": {
+    "main": true
+  },
+  "lancedb": {
+    "main": true
+  },
+  "lancet": {
+    "main": true
+  },
+  "landlab": {
+    "main": true
+  },
+  "landsat_util": {
+    "main": true
+  },
+  "langchain": {
+    "main": true
+  },
+  "langchain-ai21": {
+    "main": true
+  },
+  "langchain-anthropic": {
+    "main": true
+  },
+  "langchain-aws": {
+    "main": true
+  },
+  "langchain-azure-dynamic-sessions": {
+    "main": true
+  },
+  "langchain-chroma": {
+    "main": true
+  },
+  "langchain-community": {
+    "main": true
+  },
+  "langchain-core": {
+    "main": true
+  },
+  "langchain-experimental": {
+    "main": true
+  },
+  "langchain-fireworks": {
+    "main": true
+  },
+  "langchain-google-genai": {
+    "main": true
+  },
+  "langchain-groq": {
+    "main": true
+  },
+  "langchain-huggingface": {
+    "main": true
+  },
+  "langchain-mistralai": {
+    "main": true
+  },
+  "langchain-mongodb": {
+    "main": true
+  },
+  "langchain-nomic": {
+    "main": true
+  },
+  "langchain-openai": {
+    "main": true
+  },
+  "langchain-prompty": {
+    "main": true
+  },
+  "langchain-qdrant": {
+    "main": true
+  },
+  "langchain-robocorp": {
+    "main": true
+  },
+  "langchain-text-splitters": {
+    "main": true
+  },
+  "langchain-together": {
+    "main": true
+  },
+  "langchain-voyageai": {
+    "main": true
+  },
+  "langchainhub": {
+    "main": true
+  },
+  "langcodes": {
+    "main": true
+  },
+  "langdetect": {
+    "main": true
+  },
+  "langgraph": {
+    "main": true
+  },
+  "langgraph-checkpoint": {
+    "main": true
+  },
+  "langgraph-sdk": {
+    "main": true
+  },
+  "langsmith": {
+    "main": true
+  },
+  "language-data": {
+    "main": true
+  },
+  "language-tags": {
+    "main": true
+  },
+  "language_tool_python": {
+    "main": true
+  },
+  "languagetool-code-comments": {
+    "main": true
+  },
+  "languagetool-rust": {
+    "main": true
+  },
+  "lantz": {
+    "main": true
+  },
+  "lap": {
+    "main": true
+  },
+  "lapack": {
+    "main": true
+  },
+  "lapack95": {
+    "main": true
+  },
+  "lapackpp": {
+    "main": true
+  },
+  "laplace-torch": {
+    "main": true
+  },
+  "laptrack": {
+    "main": true
+  },
+  "lapy": {
+    "main": true
+  },
+  "larch": {
+    "main": true
+  },
+  "large-image": {
+    "main": true
+  },
+  "large-image-converter": {
+    "main": true
+  },
+  "large-image-source-gdal": {
+    "main": true
+  },
+  "large-image-source-tiff": {
+    "main": true
+  },
+  "large-image-viewer": {
+    "main": true
+  },
+  "large_image_source_rasterio": {
+    "main": true
+  },
+  "lark": {
+    "main": true
+  },
+  "lark-parser": {
+    "main": true
+  },
+  "larray": {
+    "main": true
+  },
+  "larray-editor": {
+    "main": true
+  },
+  "larray_eurostat": {
+    "main": true
+  },
+  "larrayenv": {
+    "main": true
+  },
+  "las-geoh5": {
+    "main": true
+  },
+  "lasagne": {
+    "main": true
+  },
+  "laserbeamsize": {
+    "main": true
+  },
+  "laserfields": {
+    "main": true
+  },
+  "lasio": {
+    "main": true
+  },
+  "laspy": {
+    "main": true
+  },
+  "lastools": {
+    "main": true
+  },
+  "lastpass-cli": {
+    "main": true
+  },
+  "lasy": {
+    "main": true
+  },
+  "laszip": {
+    "main": true
   }
 }
