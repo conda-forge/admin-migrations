@@ -1798,5 +1798,308 @@
   },
   "libignition-msgs1": {
     "main": true
+  },
+  "libignition-physics": {
+    "main": true
+  },
+  "libignition-plugin": {
+    "main": true
+  },
+  "libignition-rendering4": {
+    "main": true
+  },
+  "libignition-sensors": {
+    "main": true
+  },
+  "libignition-tools": {
+    "main": true
+  },
+  "libignition-transport4": {
+    "main": true
+  },
+  "libignition-utils": {
+    "main": true
+  },
+  "libiio": {
+    "main": true
+  },
+  "libimagequant": {
+    "main": true
+  },
+  "libint": {
+    "main": true
+  },
+  "libipld": {
+    "main": true
+  },
+  "libitk": {
+    "main": true
+  },
+  "libjpeg-turbo": {
+    "main": true
+  },
+  "libjxl-split": {
+    "main": true
+  },
+  "libkml": {
+    "main": true
+  },
+  "libksba": {
+    "main": true
+  },
+  "liblbfgs": {
+    "main": true
+  },
+  "libleidenalg": {
+    "main": true
+  },
+  "liblie-group-controllers": {
+    "main": true
+  },
+  "liblsl": {
+    "main": true
+  },
+  "liblzf": {
+    "main": true
+  },
+  "libm2k": {
+    "main": true
+  },
+  "libmad": {
+    "main": true
+  },
+  "libmagma": {
+    "main": true
+  },
+  "libmatio": {
+    "main": true
+  },
+  "libmatio-cpp": {
+    "main": true
+  },
+  "libmaxminddb": {
+    "main": true
+  },
+  "libmbd": {
+    "main": true
+  },
+  "libmed": {
+    "main": true
+  },
+  "libmediainfo": {
+    "main": true
+  },
+  "libmemcached": {
+    "main": true
+  },
+  "libmetatensor": {
+    "main": true
+  },
+  "libmetatensor-torch": {
+    "main": true
+  },
+  "libmetgem": {
+    "main": true
+  },
+  "libmicrohttpd": {
+    "main": true
+  },
+  "libmirisdr": {
+    "main": true
+  },
+  "libmixmod": {
+    "main": true
+  },
+  "libml_dtypes-headers": {
+    "main": true
+  },
+  "libmms": {
+    "main": true
+  },
+  "libmo_unpack": {
+    "main": true
+  },
+  "libmodulemd": {
+    "main": true
+  },
+  "libmongoc": {
+    "main": true
+  },
+  "libmongocxx": {
+    "main": true
+  },
+  "libmpack-lua": {
+    "main": true
+  },
+  "libnegf": {
+    "main": true
+  },
+  "libnetcdf": {
+    "main": true
+  },
+  "libnetworkit": {
+    "main": true
+  },
+  "libneuroml": {
+    "main": true
+  },
+  "libnl": {
+    "main": true
+  },
+  "libnpp": {
+    "main": true
+  },
+  "libnsl": {
+    "main": true
+  },
+  "libntlm": {
+    "main": true
+  },
+  "libnvfatbin": {
+    "main": true
+  },
+  "libnvjitlink": {
+    "main": true
+  },
+  "libnvjpeg": {
+    "main": true
+  },
+  "libnvpl": {
+    "main": true
+  },
+  "libnvpl-blas": {
+    "main": true
+  },
+  "libnvpl-common": {
+    "main": true
+  },
+  "libnvpl-fft": {
+    "main": true
+  },
+  "libnvpl-lapack": {
+    "main": true
+  },
+  "libnvpl-rand": {
+    "main": true
+  },
+  "libnvpl-scalapack": {
+    "main": true
+  },
+  "libnvpl-sparse": {
+    "main": true
+  },
+  "libnvpl-tensor": {
+    "main": true
+  },
+  "libobjcryst": {
+    "main": true
+  },
+  "libode": {
+    "main": true
+  },
+  "libogg": {
+    "main": true
+  },
+  "libomm": {
+    "main": true
+  },
+  "libopus": {
+    "main": true
+  },
+  "libopusenc": {
+    "main": true
+  },
+  "libosmo-dsp": {
+    "main": true
+  },
+  "libosqp": {
+    "main": true
+  },
+  "libosxunwind": {
+    "main": true
+  },
+  "libpano13": {
+    "main": true
+  },
+  "libpcap": {
+    "main": true
+  },
+  "libpcapplusplus-split": {
+    "main": true
+  },
+  "libpciaccess": {
+    "main": true
+  },
+  "libpdal": {
+    "main": true
+  },
+  "libpeas": {
+    "main": true
+  },
+  "libpgmath": {
+    "main": true
+  },
+  "libpnetcdf": {
+    "main": true
+  },
+  "libpng": {
+    "main": true
+  },
+  "libpostal": {
+    "main": true
+  },
+  "libpqxx": {
+    "main": true
+  },
+  "libprotobuf": {
+    "main": true
+  },
+  "libpsl": {
+    "main": true
+  },
+  "libpulsar": {
+    "main": true
+  },
+  "libpysal": {
+    "main": true
+  },
+  "libpython": {
+    "main": true
+  },
+  "libpyvinyl": {
+    "main": true
+  },
+  "libqdldl": {
+    "main": true
+  },
+  "libqglviewer": {
+    "main": true
+  },
+  "libqrencode": {
+    "main": true
+  },
+  "libquickfix": {
+    "main": true
+  },
+  "librabbitmq": {
+    "main": true
+  },
+  "libradolan": {
+    "main": true
+  },
+  "libraw": {
+    "main": true
+  },
+  "librdkafka": {
+    "main": true
+  },
+  "librealsense": {
+    "main": true
+  },
+  "libredwg": {
+    "main": true
+  },
+  "librepo": {
+    "main": true
   }
 }
