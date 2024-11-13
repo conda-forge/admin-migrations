@@ -904,5 +904,302 @@
   },
   "laszip": {
     "main": true
+  },
+  "lat_lon_parser": {
+    "main": true
+  },
+  "latex-dependency-scanner": {
+    "main": true
+  },
+  "latex-rubber": {
+    "main": true
+  },
+  "latex2mathml": {
+    "main": true
+  },
+  "latexcodec": {
+    "main": true
+  },
+  "latexdiff": {
+    "main": true
+  },
+  "latexify-py": {
+    "main": true
+  },
+  "latexindent.pl": {
+    "main": true
+  },
+  "latexmk": {
+    "main": true
+  },
+  "latlon23": {
+    "main": true
+  },
+  "latte": {
+    "main": true
+  },
+  "latte-integrale": {
+    "main": true
+  },
+  "launchdarkly-eventsource": {
+    "main": true
+  },
+  "launchdarkly-server-sdk": {
+    "main": true
+  },
+  "lava": {
+    "main": true
+  },
+  "lava-dl": {
+    "main": true
+  },
+  "lava-dnf": {
+    "main": true
+  },
+  "lava-optimization": {
+    "main": true
+  },
+  "lavue": {
+    "main": true
+  },
+  "law": {
+    "main": true
+  },
+  "laxpy": {
+    "main": true
+  },
+  "layer-data-replace": {
+    "main": true
+  },
+  "laz-perf": {
+    "main": true
+  },
+  "lazrs-python": {
+    "main": true
+  },
+  "lazy": {
+    "main": true
+  },
+  "lazy-imports": {
+    "main": true
+  },
+  "lazy-model": {
+    "main": true
+  },
+  "lazy-object-proxy": {
+    "main": true
+  },
+  "lazy-property": {
+    "main": true
+  },
+  "lazy_import": {
+    "main": true
+  },
+  "lazy_loader": {
+    "main": true
+  },
+  "lazy_table": {
+    "main": true
+  },
+  "lazyasd": {
+    "main": true
+  },
+  "lazydocker": {
+    "main": true
+  },
+  "lazygit": {
+    "main": true
+  },
+  "lazyimread": {
+    "main": true
+  },
+  "lazypredict": {
+    "main": true
+  },
+  "lazytransform": {
+    "main": true
+  },
+  "lb-nightly-configuration": {
+    "main": true
+  },
+  "lb-nightly-db": {
+    "main": true
+  },
+  "lb-nightly-functions": {
+    "main": true
+  },
+  "lb-nightly-rpc": {
+    "main": true
+  },
+  "lb-nightly-scheduler": {
+    "main": true
+  },
+  "lb-nightly-utils": {
+    "main": true
+  },
+  "lbadmin": {
+    "main": true
+  },
+  "lbapcommon": {
+    "main": true
+  },
+  "lbaplocal": {
+    "main": true
+  },
+  "lbcharmdb": {
+    "main": true
+  },
+  "lbcommon": {
+    "main": true
+  },
+  "lbcondawrappers": {
+    "main": true
+  },
+  "lbdevtools": {
+    "main": true
+  },
+  "lbdiracwrappers": {
+    "main": true
+  },
+  "lbenv": {
+    "main": true
+  },
+  "lbexec": {
+    "main": true
+  },
+  "lbfgspp": {
+    "main": true
+  },
+  "lbinstall": {
+    "main": true
+  },
+  "lbl-repack": {
+    "main": true
+  },
+  "lbmessaging": {
+    "main": true
+  },
+  "lbmpy": {
+    "main": true
+  },
+  "lbmpy-walberla": {
+    "main": true
+  },
+  "lbnightlytools": {
+    "main": true
+  },
+  "lbplatformutils": {
+    "main": true
+  },
+  "lbprodrun": {
+    "main": true
+  },
+  "lbscriptslegacy": {
+    "main": true
+  },
+  "lbsoftconfdb2clients": {
+    "main": true
+  },
+  "lbzip2": {
+    "main": true
+  },
+  "lcalc": {
+    "main": true
+  },
+  "lcensemble": {
+    "main": true
+  },
+  "lckr_jupyterlab_variableinspector": {
+    "main": true
+  },
+  "lcms2": {
+    "main": true
+  },
+  "lcov": {
+    "main": true
+  },
+  "lcov_cobertura": {
+    "main": true
+  },
+  "lcr_genie": {
+    "main": true
+  },
+  "lda": {
+    "main": true
+  },
+  "ldap": {
+    "main": true
+  },
+  "ldap3": {
+    "main": true
+  },
+  "ldaptor": {
+    "main": true
+  },
+  "ldas-tools-al": {
+    "main": true
+  },
+  "ldas-tools-al-swig": {
+    "main": true
+  },
+  "ldas-tools-cmake": {
+    "main": true
+  },
+  "ldas-tools-diskcacheapi": {
+    "main": true
+  },
+  "ldas-tools-diskcacheapi-swig": {
+    "main": true
+  },
+  "ldas-tools-filters": {
+    "main": true
+  },
+  "ldas-tools-frameapi": {
+    "main": true
+  },
+  "ldas-tools-frameapi-swig": {
+    "main": true
+  },
+  "ldas-tools-framecpp": {
+    "main": true
+  },
+  "ldas-tools-framecpp-swig": {
+    "main": true
+  },
+  "ldas-tools-ldasgen": {
+    "main": true
+  },
+  "ldas-tools-ldasgen-swig": {
+    "main": true
+  },
+  "ldas-tools-utilities": {
+    "main": true
+  },
+  "ldc": {
+    "main": true
+  },
+  "ldcpy": {
+    "main": true
+  },
+  "ldid": {
+    "main": true
+  },
+  "ldraw": {
+    "main": true
+  },
+  "ldrb": {
+    "main": true
+  },
+  "leafmap": {
+    "main": true
+  },
+  "leafmaptools": {
+    "main": true
+  },
+  "leather": {
+    "main": true
+  },
+  "leb128": {
+    "main": true
   }
 }
