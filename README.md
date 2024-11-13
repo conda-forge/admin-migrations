@@ -34,6 +34,7 @@ Items 1-3 are taken care of by the migrations code.
 | BranchProtection           | ######################################## |    100% |
 | CondaForgeYAMLTest         | ##                                       |      7% |
 | RAutomerge                 | #####                                    |     14% |
-| RemoveAutomergeAndRerender | ######################################## |    100% |
+| RemoveAutomergeAndRerender | #######################################  |     99% |
+| RotateFeedstockToken       |                                          |      0% |
 | TeamsCleanup               | n/a                                      |     n/a |
 | TraviCINoOSXAMD64          | ######################################## |    100% |
