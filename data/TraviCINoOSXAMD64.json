@@ -59883,7 +59883,8 @@
   },
   "langchain": {
     "main": true,
-    "0.0.34x": true
+    "0.0.34x": true,
+    "v0.2": true
   },
   "openapi-schema-pydantic": {
     "main": true
@@ -65805,7 +65806,8 @@
   },
   "langchain-core": {
     "main": true,
-    "backfill": true
+    "backfill": true,
+    "v0.2": true
   },
   "r-baseset": {
     "main": true
@@ -65832,7 +65834,8 @@
     "main": true
   },
   "langchain-community": {
-    "main": true
+    "main": true,
+    "v0.2": true
   },
   "nrel-rex": {
     "main": true
@@ -74600,6 +74603,15 @@
     "main": true
   },
   "imagededup": {
+    "main": true
+  },
+  "mistral-common": {
+    "main": true
+  },
+  "mistral-inference": {
+    "main": true
+  },
+  "mkdocs-marimo": {
     "main": true
   }
 }
