@@ -15,60 +15,23 @@ import tqdm
 from requests.exceptions import RequestException
 
 from admin_migrations.defaults import DEBUG, MAX_MIGRATE, MAX_SECONDS, MAX_WORKERS
-
-# commented ones are finished or not used
 from admin_migrations.migrators import (
     BranchProtection,
     CondaForgeYAMLTest,
     RAutomerge,
     RemoveAutomergeAndRerender,
-    # RotateCFStagingToken,
-    # RotateFeedstockToken,
-    # CondaForgeMasterToMain,
-    # FeedstocksServiceUpdate,
-    # DotConda,
-    # CondaForgeGHAWithMain,
-    # CFEP13AzureTokenCleanup,
+    RotateFeedstockToken,
     TeamsCleanup,
-    # CFEP13TokenCleanup,
-    # AppveyorForceDelete,
-    # TravisCIAutoCancelPRs,
-    # CondaForgeAutomerge,
-    # CFEP13TokensAndConfig,
-    # AppveyorDelete,
-    # AutomergeAndRerender,
-    # CFEP13TurnOff,
-    # AutomergeAndBotRerunLabels,
     TraviCINoOSXAMD64,
 )
 
-# commented ones are finished or not used
 MIGRATORS = [
     RAutomerge(),
     TraviCINoOSXAMD64(),
     CondaForgeYAMLTest(),
-    # RotateCFStagingToken(),
-    # RotateFeedstockToken(),
-    # CondaForgeMasterToMain(),  # this one always goes first since it makes extra
-    #                            # commits etc
-    # FeedstocksServiceUpdate(),
-    # CondaForgeAutomergeUpdate(),
+    RotateFeedstockToken(),
     BranchProtection(),
-    # DotConda(),
-    # CondaForgeGHAWithMain(),
-    # RotateCFStagingToken(),
-    # RotateFeedstockToken(),
-    # CFEP13AzureTokenCleanup(),
     TeamsCleanup(),
-    # CFEP13TokenCleanup(),
-    # AppveyorForceDelete(),
-    # TravisCIAutoCancelPRs(),
-    # CondaForgeAutomerge(),
-    # CFEP13TokensAndConfig(),
-    # AppveyorDelete(),
-    # AutomergeAndRerender(),
-    # CFEP13TurnOff(),
-    # AutomergeAndBotRerunLabels(),
     RemoveAutomergeAndRerender(),
 ]
 
@@ -195,7 +158,7 @@ def _load_feedstock_data():
         MAX_SECONDS -= dt
 
         with open("data/all_feedstocks.json", "w") as fp:
-            json.dump(all_feedstocks, fp, indent=2)
+            json.dump(all_feedstocks, fp, indent=2, sort_keys=True)
     else:
         print("using cached feedstock list", flush=True)
         print(" ", flush=True)
@@ -558,7 +521,7 @@ def main():
 
     del feedstocks["feedstocks"]
     with open("data/feedstocks.json", "w") as fp:
-        json.dump(feedstocks, fp, indent=2)
+        json.dump(feedstocks, fp, indent=2, sort_keys=True)
 
     _render_readme()
 
