@@ -2101,5 +2101,308 @@
   },
   "librepo": {
     "main": true
+  },
+  "librerun-sdk": {
+    "main": true
+  },
+  "librmm": {
+    "main": true
+  },
+  "librobometry": {
+    "main": true
+  },
+  "librosa": {
+    "main": true
+  },
+  "librsvg": {
+    "main": true
+  },
+  "librsync": {
+    "main": true
+  },
+  "librttopo": {
+    "main": true
+  },
+  "libsakura": {
+    "main": true
+  },
+  "libsass": {
+    "main": true
+  },
+  "libsdformat": {
+    "main": true
+  },
+  "libsecp256k1": {
+    "main": true
+  },
+  "libsecp256k1-py-bindings": {
+    "main": true
+  },
+  "libsecret": {
+    "main": true
+  },
+  "libsemigroups": {
+    "main": true
+  },
+  "libsemigroups_cppyy": {
+    "main": true
+  },
+  "libsemigroups_pybind11": {
+    "main": true
+  },
+  "libsharp": {
+    "main": true
+  },
+  "libsigcpp": {
+    "main": true
+  },
+  "libsigsegv": {
+    "main": true
+  },
+  "libsimpleitk": {
+    "main": true
+  },
+  "libsimplejson": {
+    "main": true
+  },
+  "libslirp": {
+    "main": true
+  },
+  "libsmu": {
+    "main": true
+  },
+  "libsndfile": {
+    "main": true
+  },
+  "libsodium": {
+    "main": true
+  },
+  "libsolv": {
+    "main": true
+  },
+  "libsoup": {
+    "main": true
+  },
+  "libspatialindex": {
+    "main": true
+  },
+  "libspatialite": {
+    "main": true
+  },
+  "libspiro": {
+    "main": true
+  },
+  "libspnav": {
+    "main": true
+  },
+  "libssh": {
+    "main": true
+  },
+  "libssh2": {
+    "main": true
+  },
+  "libstempo": {
+    "main": true
+  },
+  "libsvm": {
+    "main": true
+  },
+  "libsvm-python": {
+    "main": true
+  },
+  "libsvmdata": {
+    "main": true
+  },
+  "libta-lib": {
+    "main": true
+  },
+  "libtar": {
+    "main": true
+  },
+  "libtasn1": {
+    "main": true
+  },
+  "libtensorlight": {
+    "main": true
+  },
+  "libtermkey": {
+    "main": true
+  },
+  "libtheora": {
+    "main": true
+  },
+  "libthermo": {
+    "main": true
+  },
+  "libtiff": {
+    "main": true
+  },
+  "libtiledb-sql": {
+    "main": true
+  },
+  "libtiledb-sql-py": {
+    "main": true
+  },
+  "libtins": {
+    "main": true
+  },
+  "libtinyiiod": {
+    "main": true
+  },
+  "libtinyspline": {
+    "main": true
+  },
+  "libtirpc": {
+    "main": true
+  },
+  "libtlx": {
+    "main": true
+  },
+  "libtmux": {
+    "main": true
+  },
+  "libtool": {
+    "main": true
+  },
+  "libtoolbox": {
+    "main": true
+  },
+  "libtree": {
+    "main": true
+  },
+  "libtree-sitter": {
+    "main": true
+  },
+  "libtvm": {
+    "main": true
+  },
+  "libuldaq": {
+    "main": true
+  },
+  "libunicycle-footstep-planner": {
+    "main": true
+  },
+  "libunistring": {
+    "main": true
+  },
+  "libunrar": {
+    "main": true
+  },
+  "libunwind": {
+    "main": true
+  },
+  "liburcu": {
+    "main": true
+  },
+  "liburing": {
+    "main": true
+  },
+  "libusb": {
+    "main": true
+  },
+  "libusb-compat": {
+    "main": true
+  },
+  "libusb-package": {
+    "main": true
+  },
+  "libusb1": {
+    "main": true
+  },
+  "libusockets": {
+    "main": true
+  },
+  "libutf8proc": {
+    "main": true
+  },
+  "libuuid": {
+    "main": true
+  },
+  "libuv": {
+    "main": true
+  },
+  "libuvc": {
+    "main": true
+  },
+  "libuvw": {
+    "main": true
+  },
+  "libuwebsockets": {
+    "main": true
+  },
+  "libv8": {
+    "main": true
+  },
+  "libva": {
+    "main": true
+  },
+  "libva-utils": {
+    "main": true
+  },
+  "libvdwxc": {
+    "main": true
+  },
+  "libvips": {
+    "main": true
+  },
+  "libvorbis": {
+    "main": true
+  },
+  "libvpl": {
+    "main": true
+  },
+  "libvpl-tools": {
+    "main": true
+  },
+  "libvpx": {
+    "main": true
+  },
+  "libvterm": {
+    "main": true
+  },
+  "libwapiti": {
+    "main": true
+  },
+  "libwebp": {
+    "main": true
+  },
+  "libwebp-base": {
+    "main": true
+  },
+  "libwebsockets": {
+    "main": true
+  },
+  "libx86emu": {
+    "main": true
+  },
+  "libxc": {
+    "main": true
+  },
+  "libxcb": {
+    "main": true
+  },
+  "libxcrypt": {
+    "main": true
+  },
+  "libxfoil": {
+    "main": true
+  },
+  "libxkbcommon": {
+    "main": true
+  },
+  "libxkbfile": {
+    "main": true
+  },
+  "libxml2": {
+    "main": true
+  },
+  "libxmlplusplus": {
+    "main": true
+  },
+  "libxmlpp": {
+    "main": true
+  },
+  "libxmlsec1": {
+    "main": true
   }
 }
