@@ -363,6 +363,7 @@ def _render_readme():
     table = f"| {mg_col_name} | {bar_name} | {pname} |\n"
     table += f"| {'-' * mg_col_name_len} | {'-' * (bar_len+2)} | {'-' * 25} |\n"
 
+    always_runs = "always runs"
     for m in sorted(MIGRATORS, key=lambda x: x.__class__.__name__):
         name = m.__class__.__name__
         done = len(m._done_table)
@@ -375,7 +376,8 @@ def _render_readme():
         if name in ["TeamsCleanup", "CondaForgeYAMLTest", "RAutomerge"]:
             table += (
                 f"| {name}{' ' * (mg_col_name_len - len(name))} "
-                f"| n/a{' ' * (bar_len - 3 + 2)} | {' ' * 22}n/a |\n"
+                f"| {always_runs}{' ' * (bar_len - len(always_runs) + 2)} | "
+                f"{' ' * 22}n/a |\n"
             )
         else:
             table += (
