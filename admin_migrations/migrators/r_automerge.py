@@ -193,7 +193,7 @@ class RAutomerge(Migrator):
             # did migration, make a commit, no api calls
             # return True, True, False
             # this migrator is never done
-            return False, False, False
+            return False, True, False
         else:
             # no migration, no commit needs to be made, no api calls
             return False, False, False

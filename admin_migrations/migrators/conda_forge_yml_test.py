@@ -38,4 +38,4 @@ class CondaForgeYAMLTest(Migrator):
         # did migration, make a commit, no api calls
         # return True, True, False
         # this migrator is never done
-        return False, False, False
+        return False, True, False
