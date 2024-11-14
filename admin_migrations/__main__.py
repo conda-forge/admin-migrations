@@ -372,7 +372,7 @@ def _render_readme():
         percent = f"{int(frac * 100):-3d}%" + f" ({done}/{total})"
 
         progress = int(frac * bar_seg)
-        if name in ["TeamsCleanup"]:
+        if name in ["TeamsCleanup", "CondaForgeYAMLTest", "RAutomerge"]:
             table += (
                 f"| {name}{' ' * (mg_col_name_len - len(name))} "
                 f"| n/a{' ' * (bar_len - 3 + 2)} | {' ' * 22}n/a |\n"

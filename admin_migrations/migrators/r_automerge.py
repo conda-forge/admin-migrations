@@ -176,7 +176,9 @@ class RAutomerge(Migrator):
                     cfg["bot"]["automerge"],
                     flush=True,
                 )
-                return True, False, False
+                # return True, False, False
+                # this migrator is never done
+                return False, False, False
 
             cfg["bot"] = {"automerge": True}
 
@@ -189,7 +191,9 @@ class RAutomerge(Migrator):
             )
 
             # did migration, make a commit, no api calls
-            return True, True, False
+            # return True, True, False
+            # this migrator is never done
+            return False, False, False
         else:
             # no migration, no commit needs to be made, no api calls
             return False, False, False
