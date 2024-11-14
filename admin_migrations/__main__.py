@@ -346,6 +346,8 @@ def _report_progress(
 
 
 def _render_readme():
+    nbsp = "\u00a0"
+
     with open("data/all_feedstocks.json") as fp:
         feedstocks = json.load(fp)["active"]
 
@@ -353,12 +355,12 @@ def _render_readme():
 
     mg_col_name = "migrator"
     mg_col_name_len = max([len(m.__class__.__name__) for m in MIGRATORS])
-    mg_col_name = mg_col_name + " " * (mg_col_name_len - len(mg_col_name))
+    mg_col_name = mg_col_name + nbsp * (mg_col_name_len - len(mg_col_name))
 
     bar_name = "progress"
     bar_seg = 40
     bar_len = bar_seg
-    bar_name = bar_name + " " * (bar_len - len(bar_name))
+    bar_name = bar_name + nbsp * (bar_len - len(bar_name))
     table = f"| {mg_col_name} | {bar_name} | percent |\n"
     table += f"| {'-' * mg_col_name_len} | {'-' * bar_len} | ------- |\n"
 
@@ -372,14 +374,14 @@ def _render_readme():
         progress = int(frac * bar_seg)
         if name in ["TeamsCleanup"]:
             table += (
-                f"| {name}{' ' * (mg_col_name_len - len(name))} "
-                f"| n/a{' ' * (bar_len - 3)} |     n/a |\n"
+                f"| {name}{nbsp * (mg_col_name_len - len(name))} "
+                f"| n/a{nbsp * (bar_len - 3)} | {nbsp * 4}n/a |\n"
             )
         else:
             table += (
-                f"| {name}{' ' * (mg_col_name_len - len(name))} "
-                f"| {'#' * progress}{' ' * (bar_seg - progress)} | "
-                f"   {percent} |\n"
+                f"| {name}{nbsp * (mg_col_name_len - len(name))} "
+                f"| {'#' * progress}{nbsp * (bar_seg - progress)} | "
+                f"{nbsp * 3}{percent} |\n"
             )
 
     with open("README.md.template") as fp:

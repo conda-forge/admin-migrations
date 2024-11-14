@@ -6,12 +6,15 @@ import github
 
 from .base import Migrator
 
-GH = github.Github(os.environ["GITHUB_TOKEN"])
+
+@functools.lru_cache(maxsize=1)
+def _gh():
+    return github.Github(os.environ["GITHUB_TOKEN"])
 
 
 @functools.lru_cache(maxsize=1)
 def get_org():
-    return GH.get_organization("conda-forge")
+    return _gh().get_organization("conda-forge")
 
 
 class RemoveAutomergeAndRerender(Migrator):

@@ -1,3 +1,4 @@
+import functools
 import os
 import subprocess
 import time
@@ -8,8 +9,6 @@ import requests
 from ruamel.yaml import YAML
 
 from .base import Migrator
-
-GH = github.Github(os.environ["GITHUB_TOKEN"])
 
 CIRCLECI_BLANK = """
 # This file was generated automatically from conda-smithy. To update this configuration,
@@ -114,6 +113,11 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           rerendering_github_token: ${{ secrets.RERENDERING_GITHUB_TOKEN }}
 """
+
+
+@functools.lru_cache(maxsize=1)
+def _gh():
+    return github.Github(os.environ["GITHUB_TOKEN"])
 
 
 def _run_git_command(args, check=True):
@@ -317,7 +321,7 @@ def _master_to_main(repo):
 
 class CondaForgeMasterToMain(Migrator):
     def migrate(self, feedstock, branch):
-        repo = GH.get_repo("conda-forge/%s-feedstock" % feedstock)
+        repo = _gh().get_repo("conda-forge/%s-feedstock" % feedstock)
         if repo.archived:
             # migration done, make a commit, lots of API calls
             return True, False, False
