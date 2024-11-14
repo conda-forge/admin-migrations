@@ -375,13 +375,13 @@ def _render_readme():
         if name in ["TeamsCleanup"]:
             table += (
                 f"| {name}{nbsp * (mg_col_name_len - len(name))} "
-                f"| n/a{nbsp * (bar_len - 3)} | n/a{nbsp * 4} |\n"
+                f"| n/a{nbsp * (bar_len - 3)} | {nbsp * 4}n/a |\n"
             )
         else:
             table += (
                 f"| {name}{nbsp * (mg_col_name_len - len(name))} "
                 f"| {'#' * progress}{nbsp * (bar_seg - progress)} | "
-                f"{percent}{nbsp * 3} |\n"
+                f"{nbsp * 3}{percent} |\n"
             )
 
     with open("README.md.template") as fp:
