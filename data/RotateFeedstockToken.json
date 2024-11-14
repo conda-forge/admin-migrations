@@ -8842,5 +8842,308 @@
   },
   "numpy-financial": {
     "main": true
+  },
+  "numpy-indexed": {
+    "main": true
+  },
+  "numpy-stl": {
+    "main": true
+  },
+  "numpy_groupies": {
+    "main": true
+  },
+  "numpy_quaddtype": {
+    "main": true
+  },
+  "numpy_ringbuffer": {
+    "main": true
+  },
+  "numpy_sugar": {
+    "main": true
+  },
+  "numpydantic": {
+    "main": true
+  },
+  "numpydoc": {
+    "main": true
+  },
+  "numpydoc_decorator": {
+    "main": true
+  },
+  "numpyro": {
+    "main": true
+  },
+  "numthreads": {
+    "main": true
+  },
+  "nushell": {
+    "main": true
+  },
+  "nutpie": {
+    "main": true
+  },
+  "nvcc": {
+    "main": true
+  },
+  "nvcomp": {
+    "main": true
+  },
+  "nvidia-apex": {
+    "main": true
+  },
+  "nvidia-dali-python": {
+    "main": true
+  },
+  "nvidia-gds": {
+    "main": true
+  },
+  "nvidia-ml": {
+    "main": true
+  },
+  "nvidia-ml-py": {
+    "main": true
+  },
+  "nvidia-modulus": {
+    "main": true
+  },
+  "nvim": {
+    "main": true
+  },
+  "nvitop": {
+    "main": true
+  },
+  "nvmath": {
+    "main": true
+  },
+  "nvtop": {
+    "main": true
+  },
+  "nvtx": {
+    "main": true
+  },
+  "nvtx-c": {
+    "main": true
+  },
+  "nwbinspector": {
+    "main": true
+  },
+  "nwchem": {
+    "main": true
+  },
+  "nwchemcmlutils": {
+    "main": true
+  },
+  "nx-parallel": {
+    "main": true
+  },
+  "nxmx": {
+    "main": true
+  },
+  "nxviz": {
+    "main": true
+  },
+  "nystrom-attention": {
+    "main": true
+  },
+  "nyxtools": {
+    "main": true
+  },
+  "nyxus": {
+    "main": true
+  },
+  "nzgeom": {
+    "main": true
+  },
+  "nzpy": {
+    "main": true
+  },
+  "o365": {
+    "main": true
+  },
+  "oasis": {
+    "main": true
+  },
+  "oasis-deconv": {
+    "main": true
+  },
+  "oast": {
+    "main": true
+  },
+  "oath": {
+    "main": true
+  },
+  "oauth2": {
+    "main": true
+  },
+  "oauth2-proxy": {
+    "main": true
+  },
+  "oauth2client": {
+    "main": true
+  },
+  "oauthenticator": {
+    "main": true
+  },
+  "oauthlib": {
+    "main": true
+  },
+  "obake": {
+    "main": true
+  },
+  "obcanonicalradicals": {
+    "main": true
+  },
+  "objconv": {
+    "main": true
+  },
+  "objectgraph": {
+    "main": true
+  },
+  "objectlist": {
+    "main": true
+  },
+  "objectpath": {
+    "main": true
+  },
+  "objexplore": {
+    "main": true
+  },
+  "objgraph": {
+    "main": true
+  },
+  "objprint": {
+    "main": true
+  },
+  "objsize": {
+    "main": true
+  },
+  "obplatform": {
+    "main": true
+  },
+  "obsplus": {
+    "main": true
+  },
+  "obspy": {
+    "main": true
+  },
+  "obspyck": {
+    "main": true
+  },
+  "obstore": {
+    "main": true
+  },
+  "ocaml": {
+    "main": true
+  },
+  "ocaml-camlp5": {
+    "main": true
+  },
+  "ocaml-findlib": {
+    "main": true
+  },
+  "ocaml-num": {
+    "main": true
+  },
+  "ocaml-zarith": {
+    "main": true
+  },
+  "ocamlbuild": {
+    "main": true
+  },
+  "occt": {
+    "main": true
+  },
+  "ocean-contracts": {
+    "main": true
+  },
+  "ocean-wave-tracing": {
+    "main": true
+  },
+  "ocean_data_gateway": {
+    "main": true
+  },
+  "ocean_model_skill_assessor": {
+    "main": true
+  },
+  "oceancolor": {
+    "main": true
+  },
+  "oceans": {
+    "main": true
+  },
+  "oceansdb": {
+    "main": true
+  },
+  "oceanspy": {
+    "main": true
+  },
+  "oceanum": {
+    "main": true
+  },
+  "oceanumlab": {
+    "main": true
+  },
+  "ocetrac": {
+    "main": true
+  },
+  "ocgis": {
+    "main": true
+  },
+  "ocha-anticipy": {
+    "main": true
+  },
+  "oci": {
+    "main": true
+  },
+  "oci-cli": {
+    "main": true
+  },
+  "ocifs": {
+    "main": true
+  },
+  "ocl-icd": {
+    "main": true
+  },
+  "ocl-icd-system": {
+    "main": true
+  },
+  "ocl_icd_wrapper_apple": {
+    "main": true
+  },
+  "oclgrind": {
+    "main": true
+  },
+  "ocp": {
+    "main": true
+  },
+  "ocpsvg": {
+    "main": true
+  },
+  "ocrmypdf": {
+    "main": true
+  },
+  "ocsmesh": {
+    "main": true
+  },
+  "oct-to-tiff": {
+    "main": true
+  },
+  "oct2py": {
+    "main": true
+  },
+  "octave": {
+    "main": true
+  },
+  "octave_kernel": {
+    "main": true
+  },
+  "octokitpy": {
+    "main": true
+  },
+  "octokitpy-routes": {
+    "main": true
+  },
+  "octomap": {
+    "main": true
   }
 }
