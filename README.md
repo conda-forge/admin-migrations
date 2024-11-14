@@ -31,7 +31,7 @@ Items 1-3 are taken care of by the migrations code.
 
 | migrator             | progress                                             | percent                   |
 | -------------------- | ---------------------------------------------------- | ------------------------- |
-| CondaForgeYAMLTest   | always runs                                          |                       n/a |
-| RAutomerge           | always runs                                          |                       n/a |
+| CondaForgeYAMLTest   | *always runs*                                        |                       n/a |
+| RAutomerge           | *always runs*                                        |                       n/a |
 | RotateFeedstockToken | `####                                              ` |           9% (2214/23382) |
-| TeamsCleanup         | always runs                                          |                       n/a |
+| TeamsCleanup         | *always runs*                                        |                       n/a |

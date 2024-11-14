@@ -363,7 +363,7 @@ def _render_readme():
     table = f"| {mg_col_name} | {bar_name} | {pname} |\n"
     table += f"| {'-' * mg_col_name_len} | {'-' * (bar_len+2)} | {'-' * 25} |\n"
 
-    always_runs = "always runs"
+    always_runs = "*always runs*"
     for m in sorted(MIGRATORS, key=lambda x: x.__class__.__name__):
         name = m.__class__.__name__
         done = len(m._done_table)
