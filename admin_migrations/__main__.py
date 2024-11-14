@@ -16,23 +16,17 @@ from requests.exceptions import RequestException
 
 from admin_migrations.defaults import DEBUG, MAX_MIGRATE, MAX_SECONDS, MAX_WORKERS
 from admin_migrations.migrators import (
-    BranchProtection,
     CondaForgeYAMLTest,
     RAutomerge,
-    RemoveAutomergeAndRerender,
     RotateFeedstockToken,
     TeamsCleanup,
-    TraviCINoOSXAMD64,
 )
 
 MIGRATORS = [
     RAutomerge(),
-    TraviCINoOSXAMD64(),
     CondaForgeYAMLTest(),
     RotateFeedstockToken(),
-    BranchProtection(),
     TeamsCleanup(),
-    RemoveAutomergeAndRerender(),
 ]
 
 
