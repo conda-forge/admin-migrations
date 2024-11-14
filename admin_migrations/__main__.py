@@ -377,7 +377,7 @@ def _render_readme():
             table += (
                 f"| {name}{' ' * (mg_col_name_len - len(name))} "
                 f"| {always_runs}{' ' * (bar_len - len(always_runs) + 2)} | "
-                f"{' ' * 22}n/a |\n"
+                f"{' ' * 24}- |\n"
             )
         else:
             table += (
