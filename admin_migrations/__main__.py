@@ -361,7 +361,7 @@ def _render_readme():
     bar_name = bar_name + " " * (bar_len - len(bar_name) + 2)
     pname = "percent" + " " * 18
     table = f"| {mg_col_name} | {bar_name} | {pname} |\n"
-    table += f"| {'-' * mg_col_name_len} | {'-' * (bar_len+2)} | {'-' * 25} |\n"
+    table += f"| {'-' * mg_col_name_len} | {'-' * (bar_len+2)} | :{'-' * 23}: |\n"
 
     always_runs = "*always runs*"
     for m in sorted(MIGRATORS, key=lambda x: x.__class__.__name__):
