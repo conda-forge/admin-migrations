@@ -358,7 +358,7 @@ def _render_readme():
     mg_col_name = mg_col_name + " " * (mg_col_name_len - len(mg_col_name))
 
     bar_name = "progress"
-    bar_seg = 40
+    bar_seg = 50
     bar_len = bar_seg
     bar_name = bar_name + " " * (bar_len - len(bar_name))
     table = f"| {mg_col_name} | {bar_name} | percent |\n"
