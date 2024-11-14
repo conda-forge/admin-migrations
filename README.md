@@ -29,12 +29,9 @@ Items 1-3 are taken care of by the migrations code.
 
 ## Migration Progress
 
-| migrator                   | progress                                 | percent |
-| -------------------------- | ---------------------------------------- | ------- |
-| BranchProtection           | ######################################## |    100% |
-| CondaForgeYAMLTest         | ##                                       |      7% |
-| RAutomerge                 | #####                                    |     14% |
-| RemoveAutomergeAndRerender | #######################################  |     99% |
-| RotateFeedstockToken       | ##                                       |      6% |
-| TeamsCleanup               | n/a                                      |     n/a |
-| TraviCINoOSXAMD64          | ######################################## |    100% |
+| migrator             | progress                                 | percent |
+| -------------------- | ---------------------------------------- | ------- |
+| CondaForgeYAMLTest   | ##                                       |      7% |
+| RAutomerge           | #####                                    |     14% |
+| RotateFeedstockToken | ##                                       |      7% |
+| TeamsCleanup         | n/a                                      |     n/a |

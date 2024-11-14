@@ -5194,5 +5194,308 @@
   },
   "mlapack": {
     "main": true
+  },
+  "mlconjug": {
+    "main": true
+  },
+  "mlconjug3": {
+    "main": true
+  },
+  "mlcroissant": {
+    "main": true
+  },
+  "mleap": {
+    "main": true
+  },
+  "mlens": {
+    "main": true
+  },
+  "mlflow": {
+    "main": true
+  },
+  "mlforecast": {
+    "main": true
+  },
+  "mlgb": {
+    "main": true
+  },
+  "mlinsights": {
+    "main": true
+  },
+  "mlip": {
+    "main": true
+  },
+  "mlir": {
+    "main": true
+  },
+  "mlir-python-bindings": {
+    "main": true
+  },
+  "mljar-mercury": {
+    "main": true
+  },
+  "mljar-scikit-plot": {
+    "main": true
+  },
+  "mljar-supervised": {
+    "main": true
+  },
+  "mlnotify": {
+    "main": true
+  },
+  "mlo-co2": {
+    "main": true
+  },
+  "mlpack": {
+    "main": true
+  },
+  "mlprodict": {
+    "main": true
+  },
+  "mlrose-ky": {
+    "main": true
+  },
+  "mlsauce": {
+    "main": true
+  },
+  "mlt": {
+    "main": true
+  },
+  "mlwc": {
+    "main": true
+  },
+  "mlx": {
+    "main": true
+  },
+  "mlx-ctc": {
+    "main": true
+  },
+  "mlx-image": {
+    "main": true
+  },
+  "mlx-lm": {
+    "main": true
+  },
+  "mlx-vlm": {
+    "main": true
+  },
+  "mlxtend": {
+    "main": true
+  },
+  "mmcif_pdbx": {
+    "main": true
+  },
+  "mmcv-recipe": {
+    "main": true
+  },
+  "mmdet": {
+    "main": true
+  },
+  "mmengine": {
+    "main": true
+  },
+  "mmgp": {
+    "main": true
+  },
+  "mmgsuite": {
+    "main": true
+  },
+  "mmh3": {
+    "main": true
+  },
+  "mmhash3": {
+    "main": true
+  },
+  "mmligner": {
+    "main": true
+  },
+  "mmparse": {
+    "main": true
+  },
+  "mms-python-adapter": {
+    "main": true
+  },
+  "mms-python-client": {
+    "main": true
+  },
+  "mmsegmentation": {
+    "main": true
+  },
+  "mmtf-python": {
+    "main": true
+  },
+  "mmvec": {
+    "main": true
+  },
+  "mne": {
+    "main": true
+  },
+  "mne-ari": {
+    "main": true
+  },
+  "mne-bids": {
+    "main": true
+  },
+  "mne-bids-pipeline": {
+    "main": true
+  },
+  "mne-connectivity": {
+    "main": true
+  },
+  "mne-faster": {
+    "main": true
+  },
+  "mne-features": {
+    "main": true
+  },
+  "mne-gui-addons": {
+    "main": true
+  },
+  "mne-icalabel": {
+    "main": true
+  },
+  "mne-kit-gui": {
+    "main": true
+  },
+  "mne-lsl": {
+    "main": true
+  },
+  "mne-microstates": {
+    "main": true
+  },
+  "mne-nirs": {
+    "main": true
+  },
+  "mne-qt-browser": {
+    "main": true
+  },
+  "mne-realtime": {
+    "main": true
+  },
+  "mne-rsa": {
+    "main": true
+  },
+  "mnelab": {
+    "main": true
+  },
+  "mnemonic": {
+    "main": true
+  },
+  "mnist": {
+    "main": true
+  },
+  "mo-dots": {
+    "main": true
+  },
+  "mo-future": {
+    "main": true
+  },
+  "mo-imports": {
+    "main": true
+  },
+  "mo-kwargs": {
+    "main": true
+  },
+  "mo-logs": {
+    "main": true
+  },
+  "mo_pack": {
+    "main": true
+  },
+  "moab": {
+    "main": true
+  },
+  "moar": {
+    "main": true
+  },
+  "mobie": {
+    "main": true
+  },
+  "mobie_utils": {
+    "main": true
+  },
+  "mock": {
+    "main": true
+  },
+  "mockafka-py": {
+    "main": true
+  },
+  "mockextras": {
+    "main": true
+  },
+  "mockito": {
+    "main": true
+  },
+  "mockmpi": {
+    "main": true
+  },
+  "mockredispy": {
+    "main": true
+  },
+  "mockupdb": {
+    "main": true
+  },
+  "mocpy": {
+    "main": true
+  },
+  "mocsy": {
+    "main": true
+  },
+  "mod_wsgi": {
+    "main": true
+  },
+  "modal": {
+    "main": true
+  },
+  "model-archiver": {
+    "main": true
+  },
+  "model-index": {
+    "main": true
+  },
+  "model_bakery": {
+    "main": true
+  },
+  "model_catalogs": {
+    "main": true
+  },
+  "model_metadata": {
+    "main": true
+  },
+  "modelbase": {
+    "main": true
+  },
+  "modelcards": {
+    "main": true
+  },
+  "modelcif": {
+    "main": true
+  },
+  "modelmimic": {
+    "main": true
+  },
+  "modelparameters": {
+    "main": true
+  },
+  "modelx": {
+    "main": true
+  },
+  "modelx-cython": {
+    "main": true
+  },
+  "modepy": {
+    "main": true
+  },
+  "moderngl": {
+    "main": true
+  },
+  "moderngl-window": {
+    "main": true
+  },
+  "modernize": {
+    "main": true
+  },
+  "modestimage": {
+    "main": true
   }
 }
