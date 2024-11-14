@@ -7174,5 +7174,305 @@
   },
   "napari-patchcreator": {
     "main": true
+  },
+  "napari-pdf-reader": {
+    "main": true
+  },
+  "napari-pdr-reader": {
+    "main": true
+  },
+  "napari-philow": {
+    "main": true
+  },
+  "napari-picasso": {
+    "main": true
+  },
+  "napari-pims-bioformats": {
+    "main": true
+  },
+  "napari-pixel-correction": {
+    "main": true
+  },
+  "napari-plot": {
+    "main": true
+  },
+  "napari-plot-profile": {
+    "main": true
+  },
+  "napari-plugin-engine": {
+    "main": true
+  },
+  "napari-plugin-manager": {
+    "main": true
+  },
+  "napari-plugin-search": {
+    "main": true
+  },
+  "napari-pointslayer-projection": {
+    "main": true
+  },
+  "napari-power-spectrum": {
+    "main": true
+  },
+  "napari-power-widgets": {
+    "main": true
+  },
+  "napari-pram": {
+    "main": true
+  },
+  "napari-process-points-and-surfaces": {
+    "main": true
+  },
+  "napari-proofread-brainbow": {
+    "main": true
+  },
+  "napari-properties-plotter": {
+    "main": true
+  },
+  "napari-properties-viewer": {
+    "main": true
+  },
+  "napari-psf-analysis": {
+    "main": true
+  },
+  "napari-psf-simulator": {
+    "main": true
+  },
+  "napari-pssr": {
+    "main": true
+  },
+  "napari-pyclesperanto-assistant": {
+    "main": true
+  },
+  "napari-pystackreg": {
+    "main": true
+  },
+  "napari-qrcode": {
+    "main": true
+  },
+  "napari-rembg": {
+    "main": true
+  },
+  "napari-result-stack": {
+    "main": true
+  },
+  "napari-rioxarray": {
+    "main": true
+  },
+  "napari-roi": {
+    "main": true
+  },
+  "napari-roi-registration": {
+    "main": true
+  },
+  "napari-sam": {
+    "main": true
+  },
+  "napari-sam4is": {
+    "main": true
+  },
+  "napari-sc3d-viewer": {
+    "main": true
+  },
+  "napari-script-editor": {
+    "main": true
+  },
+  "napari-sdeconv": {
+    "main": true
+  },
+  "napari-seedseg": {
+    "main": true
+  },
+  "napari-segment": {
+    "main": true
+  },
+  "napari-segment-anything": {
+    "main": true
+  },
+  "napari-segment-blobs-and-things-with-membranes": {
+    "main": true
+  },
+  "napari-serialcellpose": {
+    "main": true
+  },
+  "napari-sif-reader": {
+    "main": true
+  },
+  "napari-sift-registration": {
+    "main": true
+  },
+  "napari-signal-selector": {
+    "main": true
+  },
+  "napari-sim-processor": {
+    "main": true
+  },
+  "napari-simpleitk-image-processing": {
+    "main": true
+  },
+  "napari-skimage": {
+    "main": true
+  },
+  "napari-skimage-regionprops": {
+    "main": true
+  },
+  "napari-solarized": {
+    "main": true
+  },
+  "napari-spacetx-explorer": {
+    "main": true
+  },
+  "napari-spatial-omics": {
+    "main": true
+  },
+  "napari-spatialdata": {
+    "main": true
+  },
+  "napari-splinedist": {
+    "main": true
+  },
+  "napari-splineit": {
+    "main": true
+  },
+  "napari-spreadsheet": {
+    "main": true
+  },
+  "napari-stable-diffusion": {
+    "main": true
+  },
+  "napari-steinpose": {
+    "main": true
+  },
+  "napari-stl-exporter": {
+    "main": true
+  },
+  "napari-stracking": {
+    "main": true
+  },
+  "napari-stress": {
+    "main": true
+  },
+  "napari-subboxer": {
+    "main": true
+  },
+  "napari-superres": {
+    "main": true
+  },
+  "napari-svg": {
+    "main": true
+  },
+  "napari-tabu": {
+    "main": true
+  },
+  "napari-text-layer": {
+    "main": true
+  },
+  "napari-threedee": {
+    "main": true
+  },
+  "napari-tiledb-bioimg": {
+    "main": true
+  },
+  "napari-tiler": {
+    "main": true
+  },
+  "napari-time-series-plotter": {
+    "main": true
+  },
+  "napari-time-slicer": {
+    "main": true
+  },
+  "napari-timeseries-opener-plugin": {
+    "main": true
+  },
+  "napari-tissuumaps": {
+    "main": true
+  },
+  "napari-tomocube-data-viewer": {
+    "main": true
+  },
+  "napari-tomoslice": {
+    "main": true
+  },
+  "napari-tomotwin": {
+    "main": true
+  },
+  "napari-tools-menu": {
+    "main": true
+  },
+  "napari-toothfairy-annotator": {
+    "main": true
+  },
+  "napari-trackpy": {
+    "main": true
+  },
+  "napari-tracks-reader": {
+    "main": true
+  },
+  "napari-trait2d": {
+    "main": true
+  },
+  "napari-turing": {
+    "main": true
+  },
+  "napari-tyssue": {
+    "main": true
+  },
+  "napari-ufish": {
+    "main": true
+  },
+  "napari-ui-tracer": {
+    "main": true
+  },
+  "napari-unicell": {
+    "main": true
+  },
+  "napari-validate-random-label-predictions": {
+    "main": true
+  },
+  "napari-vedo-bridge": {
+    "main": true
+  },
+  "napari-vesicles-segmentation": {
+    "main": true
+  },
+  "napari-vodex": {
+    "main": true
+  },
+  "napari-workflow-inspector": {
+    "main": true
+  },
+  "napari-workflow-optimizer": {
+    "main": true
+  },
+  "napari-workflows": {
+    "main": true
+  },
+  "napari-workshop-browser": {
+    "main": true
+  },
+  "napari-wsi": {
+    "main": true
+  },
+  "napari-yapic-prediction": {
+    "main": true
+  },
+  "napari-yolov5": {
+    "main": true
+  },
+  "napari-zelda": {
+    "main": true
+  },
+  "napari-zulip": {
+    "main": true
+  },
+  "napari_video": {
+    "main": true
+  },
+  "napatrackmater": {
+    "main": true
+  },
+  "napkin": {
+    "main": true
   }
 }
