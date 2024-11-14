@@ -370,18 +370,18 @@ def _render_readme():
         frac = done / total
         if frac > 1:
             frac = 1
-        percent = f"{int(frac * 100):-3d}%".replace(" ", nbsp)
+        percent = f"{int(frac * 100):-3d}%"
         progress = int(frac * bar_seg)
         if name in ["TeamsCleanup"]:
             table += (
                 f"| {name}{nbsp * (mg_col_name_len - len(name))} "
-                f"| n/a{nbsp * (bar_len - 3)} | {nbsp * 4}n/a |\n"
+                f"| n/a{nbsp * (bar_len - 3)} | {' ' * 4}n/a |\n"
             )
         else:
             table += (
                 f"| {name}{nbsp * (mg_col_name_len - len(name))} "
                 f"| {'#' * progress}{nbsp * (bar_seg - progress)} | "
-                f"{nbsp * 3}{percent} |\n"
+                f"{' ' * 3}{percent} |\n"
             )
 
     with open("README.md.template") as fp:
