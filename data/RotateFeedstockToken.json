@@ -7720,5 +7720,308 @@
   },
   "ncio": {
     "main": true
+  },
+  "ncl": {
+    "main": true
+  },
+  "nclpy": {
+    "main": true
+  },
+  "nco": {
+    "main": true
+  },
+  "ncompare": {
+    "main": true
+  },
+  "ncplot": {
+    "main": true
+  },
+  "ncpol2sdpa": {
+    "main": true
+  },
+  "ncrystal": {
+    "main": true
+  },
+  "nctoolkit": {
+    "main": true
+  },
+  "ncurses": {
+    "main": true
+  },
+  "ncview": {
+    "main": true
+  },
+  "ncvis": {
+    "main": true
+  },
+  "ncvis-climate": {
+    "main": true
+  },
+  "ncvue": {
+    "main": true
+  },
+  "nd2": {
+    "main": true
+  },
+  "nd2-dask": {
+    "main": true
+  },
+  "nd2reader": {
+    "main": true
+  },
+  "ndarray": {
+    "main": true
+  },
+  "ndarray_listener": {
+    "main": true
+  },
+  "ndbc-api": {
+    "main": true
+  },
+  "ndcctools": {
+    "main": true
+  },
+  "ndcsv": {
+    "main": true
+  },
+  "ndcube": {
+    "main": true
+  },
+  "ndd": {
+    "main": true
+  },
+  "ndf": {
+    "main": true
+  },
+  "ndg-httpsclient": {
+    "main": true
+  },
+  "ndiff": {
+    "main": true
+  },
+  "ndim": {
+    "main": true
+  },
+  "ndindex": {
+    "main": true
+  },
+  "ndonnx": {
+    "main": true
+  },
+  "ndpyramid": {
+    "main": true
+  },
+  "nds2-client": {
+    "main": true
+  },
+  "nds2-client-swig": {
+    "main": true
+  },
+  "ndscope": {
+    "main": true
+  },
+  "ndsplines": {
+    "main": true
+  },
+  "ndtiff": {
+    "main": true
+  },
+  "ndvi2gif": {
+    "main": true
+  },
+  "ndx-pose": {
+    "main": true
+  },
+  "nearpy": {
+    "main": true
+  },
+  "neattext": {
+    "main": true
+  },
+  "nebari": {
+    "main": true
+  },
+  "nebari-dask": {
+    "main": true
+  },
+  "nebula": {
+    "main": true
+  },
+  "nebula3-python": {
+    "main": true
+  },
+  "nectarchain": {
+    "main": true
+  },
+  "negspacy": {
+    "main": true
+  },
+  "neighpy": {
+    "main": true
+  },
+  "nelson-core": {
+    "main": true
+  },
+  "nelson-siegel-svensson": {
+    "main": true
+  },
+  "nemspy": {
+    "main": true
+  },
+  "nene": {
+    "main": true
+  },
+  "nengo": {
+    "main": true
+  },
+  "nengo-dl": {
+    "main": true
+  },
+  "nengo-extras": {
+    "main": true
+  },
+  "nengo-gui": {
+    "main": true
+  },
+  "nengo-loihi": {
+    "main": true
+  },
+  "nengo-ocl": {
+    "main": true
+  },
+  "nengo-spa": {
+    "main": true
+  },
+  "neo4j-connector": {
+    "main": true
+  },
+  "neo4j-python-driver": {
+    "main": true
+  },
+  "neo4jsbml": {
+    "main": true
+  },
+  "neobolt": {
+    "main": true
+  },
+  "neocmakelsp": {
+    "main": true
+  },
+  "neomodel": {
+    "main": true
+  },
+  "neotime": {
+    "main": true
+  },
+  "neovim": {
+    "main": true
+  },
+  "nep29": {
+    "main": true
+  },
+  "neper": {
+    "main": true
+  },
+  "neptune": {
+    "main": true
+  },
+  "neptune-aws": {
+    "main": true
+  },
+  "neptune-client": {
+    "main": true
+  },
+  "neptune-lightgbm": {
+    "main": true
+  },
+  "neptune-notebooks": {
+    "main": true
+  },
+  "neptune-optuna": {
+    "main": true
+  },
+  "neptune-prophet": {
+    "main": true
+  },
+  "neptune-pytorch-lightning": {
+    "main": true
+  },
+  "neptune-sklearn": {
+    "main": true
+  },
+  "neptune-tensorflow-keras": {
+    "main": true
+  },
+  "neptune-xgboost": {
+    "main": true
+  },
+  "nequip": {
+    "main": true
+  },
+  "nerval": {
+    "main": true
+  },
+  "nessai": {
+    "main": true
+  },
+  "nessai-bilby": {
+    "main": true
+  },
+  "nest-asyncio": {
+    "main": true
+  },
+  "nest-desktop": {
+    "main": true
+  },
+  "nest-simulator": {
+    "main": true
+  },
+  "nestcheck": {
+    "main": true
+  },
+  "nestd": {
+    "main": true
+  },
+  "nested-dask": {
+    "main": true
+  },
+  "nested-lookup": {
+    "main": true
+  },
+  "nested-pandas": {
+    "main": true
+  },
+  "nested_dict": {
+    "main": true
+  },
+  "nestedtext": {
+    "main": true
+  },
+  "nestle": {
+    "main": true
+  },
+  "nestly": {
+    "main": true
+  },
+  "nestml": {
+    "main": true
+  },
+  "netaddr": {
+    "main": true
+  },
+  "netatmo-geopy": {
+    "main": true
+  },
+  "netavark": {
+    "main": true
+  },
+  "netcdf-cxx-legacy": {
+    "main": true
+  },
+  "netcdf-cxx4": {
+    "main": true
+  },
+  "netcdf-flattener": {
+    "main": true
   }
 }
