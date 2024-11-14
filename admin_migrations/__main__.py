@@ -346,8 +346,6 @@ def _report_progress(
 
 
 def _render_readme():
-    # nbsp = "\u00a0"
-
     with open("data/all_feedstocks.json") as fp:
         feedstocks = json.load(fp)["active"]
 
@@ -377,7 +375,7 @@ def _render_readme():
         if name in ["TeamsCleanup"]:
             table += (
                 f"| {name}{' ' * (mg_col_name_len - len(name))} "
-                f"| `n/a{' ' * (bar_len - 3)}` | {' ' * 22}n/a |\n"
+                f"| n/a{' ' * (bar_len - 3 + 2)} | {' ' * 22}n/a |\n"
             )
         else:
             table += (
