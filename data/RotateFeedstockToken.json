@@ -6928,5 +6928,251 @@
   },
   "napari-geojson": {
     "main": true
+  },
+  "napari-geoscience-viewer": {
+    "main": true
+  },
+  "napari-graph": {
+    "main": true
+  },
+  "napari-griottes": {
+    "main": true
+  },
+  "napari-gruvbox": {
+    "main": true
+  },
+  "napari-guitils": {
+    "main": true
+  },
+  "napari-h5": {
+    "main": true
+  },
+  "napari-hdf5-labels-io": {
+    "main": true
+  },
+  "napari-hdf5-netcdf-viewer": {
+    "main": true
+  },
+  "napari-help": {
+    "main": true
+  },
+  "napari-hierarchical": {
+    "main": true
+  },
+  "napari-hough-circle-detector": {
+    "main": true
+  },
+  "napari-image-stacker": {
+    "main": true
+  },
+  "napari-imagej": {
+    "main": true
+  },
+  "napari-imaris-loader": {
+    "main": true
+  },
+  "napari-imc": {
+    "main": true
+  },
+  "napari-imsmicrolink": {
+    "main": true
+  },
+  "napari-indices": {
+    "main": true
+  },
+  "napari-input-visualizer": {
+    "main": true
+  },
+  "napari-ip-workflow": {
+    "main": true
+  },
+  "napari-ism": {
+    "main": true
+  },
+  "napari-itk-io": {
+    "main": true
+  },
+  "napari-j": {
+    "main": true
+  },
+  "napari-kics": {
+    "main": true
+  },
+  "napari-label-interpolator": {
+    "main": true
+  },
+  "napari-labelimg4classification": {
+    "main": true
+  },
+  "napari-labeling": {
+    "main": true
+  },
+  "napari-labelling-assistant": {
+    "main": true
+  },
+  "napari-labelprop": {
+    "main": true
+  },
+  "napari-labels-overlap": {
+    "main": true
+  },
+  "napari-laptrack": {
+    "main": true
+  },
+  "napari-large-image-importer": {
+    "main": true
+  },
+  "napari-layer-details-display": {
+    "main": true
+  },
+  "napari-layer-table": {
+    "main": true
+  },
+  "napari-lazy-openslide": {
+    "main": true
+  },
+  "napari-lf": {
+    "main": true
+  },
+  "napari-live-recording": {
+    "main": true
+  },
+  "napari-locan": {
+    "main": true
+  },
+  "napari-locpix": {
+    "main": true
+  },
+  "napari-macrokit": {
+    "main": true
+  },
+  "napari-manual-transforms": {
+    "main": true
+  },
+  "napari-mat-file-reader": {
+    "main": true
+  },
+  "napari-mat-images": {
+    "main": true
+  },
+  "napari-math": {
+    "main": true
+  },
+  "napari-matplotlib": {
+    "main": true
+  },
+  "napari-mclabel": {
+    "main": true
+  },
+  "napari-medical-image-formats": {
+    "main": true
+  },
+  "napari-medical-image-formats-read-write": {
+    "main": true
+  },
+  "napari-melt-pool-tracker": {
+    "main": true
+  },
+  "napari-merge-stardist-masks": {
+    "main": true
+  },
+  "napari-meshio": {
+    "main": true
+  },
+  "napari-metroid": {
+    "main": true
+  },
+  "napari-micromanager": {
+    "main": true
+  },
+  "napari-microscope": {
+    "main": true
+  },
+  "napari-microtubule-analyzer": {
+    "main": true
+  },
+  "napari-molecule-reader": {
+    "main": true
+  },
+  "napari-morphodynamics": {
+    "main": true
+  },
+  "napari-mouse-controls": {
+    "main": true
+  },
+  "napari-mrcfile-handler": {
+    "main": true
+  },
+  "napari-mrcfile-reader": {
+    "main": true
+  },
+  "napari-mri": {
+    "main": true
+  },
+  "napari-multitask": {
+    "main": true
+  },
+  "napari-mzarr": {
+    "main": true
+  },
+  "napari-n2v": {
+    "main": true
+  },
+  "napari-napari": {
+    "main": true
+  },
+  "napari-nasa-samples": {
+    "main": true
+  },
+  "napari-nd-annotator": {
+    "main": true
+  },
+  "napari-nd-cropper": {
+    "main": true
+  },
+  "napari-nd2-folder-viewer": {
+    "main": true
+  },
+  "napari-ndev": {
+    "main": true
+  },
+  "napari-ndtiffs": {
+    "main": true
+  },
+  "napari-nibabel": {
+    "main": true
+  },
+  "napari-nifti": {
+    "main": true
+  },
+  "napari-nikon-nd2": {
+    "main": true
+  },
+  "napari-nlm": {
+    "main": true
+  },
+  "napari-obj": {
+    "main": true
+  },
+  "napari-omaas": {
+    "main": true
+  },
+  "napari-ome-zarr": {
+    "main": true
+  },
+  "napari-omero": {
+    "main": true
+  },
+  "napari-organoid-counter": {
+    "main": true
+  },
+  "napari-owncloud": {
+    "main": true
+  },
+  "napari-parallel": {
+    "main": true
+  },
+  "napari-patchcreator": {
+    "main": true
   }
 }
