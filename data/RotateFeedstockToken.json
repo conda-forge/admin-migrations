@@ -9430,5 +9430,308 @@
   },
   "onnxoptimizer": {
     "main": true
+  },
+  "onnxruntime": {
+    "main": true
+  },
+  "onstove": {
+    "main": true
+  },
+  "onyxgenai": {
+    "main": true
+  },
+  "ood-metrics": {
+    "main": true
+  },
+  "ooipy": {
+    "main": true
+  },
+  "oommf": {
+    "main": true
+  },
+  "oommfc": {
+    "main": true
+  },
+  "oommfodt": {
+    "main": true
+  },
+  "ooouno": {
+    "main": true
+  },
+  "oop-ext": {
+    "main": true
+  },
+  "opa": {
+    "main": true
+  },
+  "opacus": {
+    "main": true
+  },
+  "opam": {
+    "main": true
+  },
+  "opbeat": {
+    "main": true
+  },
+  "opcua": {
+    "main": true
+  },
+  "open-clip-torch": {
+    "main": true
+  },
+  "open-exchange": {
+    "main": true
+  },
+  "open-fonts": {
+    "main": true
+  },
+  "open-notebook": {
+    "main": true
+  },
+  "open-radar-data": {
+    "main": true
+  },
+  "open3d": {
+    "main": true
+  },
+  "open3spn2": {
+    "main": true
+  },
+  "open62541": {
+    "main": true
+  },
+  "openactive": {
+    "main": true
+  },
+  "openai": {
+    "main": true
+  },
+  "openai-clip": {
+    "main": true
+  },
+  "openal-soft": {
+    "main": true
+  },
+  "openalea.deploy": {
+    "main": true
+  },
+  "openamundsen": {
+    "main": true
+  },
+  "openap": {
+    "main": true
+  },
+  "openapi-codec": {
+    "main": true
+  },
+  "openapi-core": {
+    "main": true
+  },
+  "openapi-pydantic": {
+    "main": true
+  },
+  "openapi-python-client": {
+    "main": true
+  },
+  "openapi-schema-pydantic": {
+    "main": true
+  },
+  "openapi-schema-validator": {
+    "main": true
+  },
+  "openapi-spec-validator": {
+    "main": true
+  },
+  "openawsem": {
+    "main": true
+  },
+  "openbabel": {
+    "main": true
+  },
+  "openblas": {
+    "main": true
+  },
+  "opencadd": {
+    "main": true
+  },
+  "opencamlib": {
+    "main": true
+  },
+  "opencensus": {
+    "main": true
+  },
+  "opencensus-context": {
+    "main": true
+  },
+  "opencensus-ext-azure": {
+    "main": true
+  },
+  "opencensus-proto": {
+    "main": true
+  },
+  "openconnect": {
+    "main": true
+  },
+  "openconnect-sso": {
+    "main": true
+  },
+  "opencv": {
+    "main": true
+  },
+  "opendap-protocol": {
+    "main": true
+  },
+  "opendatasets": {
+    "main": true
+  },
+  "opendebugad7": {
+    "main": true
+  },
+  "opendp-smartnoise": {
+    "main": true
+  },
+  "opendp-smartnoise-core": {
+    "main": true
+  },
+  "opendrift": {
+    "main": true
+  },
+  "openeo": {
+    "main": true
+  },
+  "openexr": {
+    "main": true
+  },
+  "openexr-python": {
+    "main": true
+  },
+  "openfast": {
+    "main": true
+  },
+  "openfbx": {
+    "main": true
+  },
+  "openfe": {
+    "main": true
+  },
+  "openfe-analysis": {
+    "main": true
+  },
+  "openfermion": {
+    "main": true
+  },
+  "openfermionpsi4": {
+    "main": true
+  },
+  "openfermionpyscf": {
+    "main": true
+  },
+  "openff-amber-ff-ports": {
+    "main": true
+  },
+  "openff-bespokefit": {
+    "main": true
+  },
+  "openff-evaluator": {
+    "main": true
+  },
+  "openff-forcefields": {
+    "main": true
+  },
+  "openff-fragmenter": {
+    "main": true
+  },
+  "openff-interchange": {
+    "main": true
+  },
+  "openff-models": {
+    "main": true
+  },
+  "openff-nagl": {
+    "main": true
+  },
+  "openff-nagl-models": {
+    "main": true
+  },
+  "openff-qcsubmit": {
+    "main": true
+  },
+  "openff-recharge": {
+    "main": true
+  },
+  "openff-toolkit": {
+    "main": true
+  },
+  "openff-units": {
+    "main": true
+  },
+  "openff-utilities": {
+    "main": true
+  },
+  "openfile": {
+    "main": true
+  },
+  "openfisca-core": {
+    "main": true
+  },
+  "openfisca-france": {
+    "main": true
+  },
+  "openfst": {
+    "main": true
+  },
+  "openglider": {
+    "main": true
+  },
+  "openh264": {
+    "main": true
+  },
+  "openhsi": {
+    "main": true
+  },
+  "openidc_client": {
+    "main": true
+  },
+  "openimageio": {
+    "main": true
+  },
+  "openinference-instrumentation": {
+    "main": true
+  },
+  "openinference-instrumentation-anthropic": {
+    "main": true
+  },
+  "openinference-instrumentation-bedrock": {
+    "main": true
+  },
+  "openinference-instrumentation-dspy": {
+    "main": true
+  },
+  "openinference-instrumentation-haystack": {
+    "main": true
+  },
+  "openinference-instrumentation-langchain": {
+    "main": true
+  },
+  "openinference-instrumentation-llama-index": {
+    "main": true
+  },
+  "openinference-instrumentation-mistralai": {
+    "main": true
+  },
+  "openinference-instrumentation-openai": {
+    "main": true
+  },
+  "openinference-instrumentation-vertexai": {
+    "main": true
+  },
+  "openinference-semantic-conventions": {
+    "main": true
+  },
+  "openjdk": {
+    "main": true
+  },
+  "openjpeg": {
+    "main": true
   }
 }
