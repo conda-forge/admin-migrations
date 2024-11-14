@@ -356,30 +356,34 @@ def _render_readme():
     mg_col_name = mg_col_name + " " * (mg_col_name_len - len(mg_col_name))
 
     bar_name = "progress"
-    bar_seg = 40
+    bar_seg = 50
     bar_len = bar_seg
-    bar_name = bar_name + " " * (bar_len - len(bar_name))
-    table = f"| {mg_col_name} | {bar_name} | percent |\n"
-    table += f"| {'-' * mg_col_name_len} | {'-' * bar_len} | ------- |\n"
+    bar_name = bar_name + " " * (bar_len - len(bar_name) + 2)
+    pname = "percent" + " " * 18
+    table = f"| {mg_col_name} | {bar_name} | {pname} |\n"
+    table += f"| {'-' * mg_col_name_len} | {'-' * (bar_len+2)} | :{'-' * 23}: |\n"
 
+    always_runs = "*always runs*"
     for m in sorted(MIGRATORS, key=lambda x: x.__class__.__name__):
         name = m.__class__.__name__
         done = len(m._done_table)
         frac = done / total
         if frac > 1:
             frac = 1
-        percent = f"{int(frac * 100):-3d}%"
+        percent = f"{int(frac * 100):-3d}%" + f" ({done}/{total})"
+
         progress = int(frac * bar_seg)
-        if name in ["TeamsCleanup"]:
+        if name in ["TeamsCleanup", "CondaForgeYAMLTest", "RAutomerge"]:
             table += (
                 f"| {name}{' ' * (mg_col_name_len - len(name))} "
-                f"| n/a{' ' * (bar_len - 3)} |     n/a |\n"
+                f"| {always_runs}{' ' * (bar_len - len(always_runs) + 2)} | "
+                f"{' ' * 24}- |\n"
             )
         else:
             table += (
                 f"| {name}{' ' * (mg_col_name_len - len(name))} "
-                f"| {'#' * progress}{' ' * (bar_seg - progress)} | "
-                f"   {percent} |\n"
+                f"| `{'#' * progress}{' ' * (bar_seg - progress)}` | "
+                f"{' ' * (25 - len(percent))}{percent} |\n"
             )
 
     with open("README.md.template") as fp:

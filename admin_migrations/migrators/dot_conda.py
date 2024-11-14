@@ -1,3 +1,4 @@
+import functools
 import os
 import subprocess
 
@@ -6,7 +7,10 @@ from ruamel.yaml import YAML
 
 from .base import Migrator
 
-GH = github.Github(os.environ["GITHUB_TOKEN"])
+
+@functools.lru_cache(maxsize=1)
+def _gh():
+    return github.Github(os.environ["GITHUB_TOKEN"])
 
 
 def _read_conda_forge_yaml(yaml):
@@ -33,7 +37,7 @@ def _read_conda_forge_yaml(yaml):
 
 class DotConda(Migrator):
     def migrate(self, feedstock, branch):
-        repo = GH.get_repo("conda-forge/%s-feedstock" % feedstock)
+        repo = _gh().get_repo("conda-forge/%s-feedstock" % feedstock)
         if repo.archived:
             # migration done, make a commit, lots of API calls
             return True, False, False

@@ -1,10 +1,9 @@
+import functools
 import os
 
 import github
 
 from .base import Migrator
-
-GH = github.Github(os.environ["GITHUB_TOKEN"])
 
 BOT_RERUN = (
     "bot-rerun",
@@ -19,12 +18,17 @@ AUTOMERGE = (
 )
 
 
+@functools.lru_cache(maxsize=1)
+def _gh():
+    return github.Github(os.environ["GITHUB_TOKEN"])
+
+
 class AutomergeAndBotRerunLabels(Migrator):
     main_branch_only = True
 
     def migrate(self, feedstock, branch):
         try:
-            repo = GH.get_repo("conda-forge/%s-feedstock" % feedstock)
+            repo = _gh().get_repo("conda-forge/%s-feedstock" % feedstock)
             if repo.archived:
                 return True, False, True
 
