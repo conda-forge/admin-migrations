@@ -10192,5 +10192,302 @@
   },
   "opentelemetry-propagator-aws-xray": {
     "main": true
+  },
+  "opentelemetry-propagator-b3": {
+    "main": true
+  },
+  "opentelemetry-propagator-gcp": {
+    "main": true
+  },
+  "opentelemetry-propagator-jaeger": {
+    "main": true
+  },
+  "opentelemetry-proto": {
+    "main": true
+  },
+  "opentelemetry-resourcedetector-gcp": {
+    "main": true
+  },
+  "opentelemetry-sdk": {
+    "main": true
+  },
+  "opentelemetry-sdk-extension-aws": {
+    "main": true
+  },
+  "opentelemetry-semantic-conventions": {
+    "main": true
+  },
+  "opentelemetry-util-http": {
+    "main": true
+  },
+  "opentile": {
+    "main": true
+  },
+  "opentofu": {
+    "main": true
+  },
+  "opentracing": {
+    "main": true
+  },
+  "opentrons-suite": {
+    "main": true
+  },
+  "opentsne": {
+    "main": true
+  },
+  "openturns": {
+    "main": true
+  },
+  "opentype-sanitizer": {
+    "main": true
+  },
+  "opentypespec": {
+    "main": true
+  },
+  "openvdb": {
+    "main": true
+  },
+  "openvino": {
+    "main": true
+  },
+  "openvino-telemetry": {
+    "main": true
+  },
+  "openvino-tokenizers": {
+    "main": true
+  },
+  "openvisus": {
+    "main": true
+  },
+  "openvscode-server": {
+    "main": true
+  },
+  "openvsp-code-eli": {
+    "main": true
+  },
+  "openxr-sdk": {
+    "main": true
+  },
+  "opera-utils": {
+    "main": true
+  },
+  "ophyd": {
+    "main": true
+  },
+  "opl": {
+    "main": true
+  },
+  "opsdroid": {
+    "main": true
+  },
+  "opsdroid-get-image-size": {
+    "main": true
+  },
+  "opsgenie-sdk": {
+    "main": true
+  },
+  "opt_einsum": {
+    "main": true
+  },
+  "opt_einsum_fx": {
+    "main": true
+  },
+  "optax": {
+    "main": true
+  },
+  "opticalglass": {
+    "main": true
+  },
+  "optics_functions": {
+    "main": true
+  },
+  "optima": {
+    "main": true
+  },
+  "optimade": {
+    "main": true
+  },
+  "optimagic": {
+    "main": true
+  },
+  "optimas": {
+    "main": true
+  },
+  "optimask": {
+    "main": true
+  },
+  "optimistix": {
+    "main": true
+  },
+  "optimix": {
+    "main": true
+  },
+  "optimum": {
+    "main": true
+  },
+  "optimum-graphcore": {
+    "main": true
+  },
+  "optimum-habana": {
+    "main": true
+  },
+  "optional-lite": {
+    "main": true
+  },
+  "optionsfactory": {
+    "main": true
+  },
+  "optking": {
+    "main": true
+  },
+  "optlang": {
+    "main": true
+  },
+  "optodetools": {
+    "main": true
+  },
+  "optophyre": {
+    "main": true
+  },
+  "optparse-pretty": {
+    "main": true
+  },
+  "optpp": {
+    "main": true
+  },
+  "optree": {
+    "main": true
+  },
+  "optuna": {
+    "main": true
+  },
+  "optuna-dashboard": {
+    "main": true
+  },
+  "optuna-integration": {
+    "main": true
+  },
+  "opty": {
+    "main": true
+  },
+  "opus-tools": {
+    "main": true
+  },
+  "opusfile": {
+    "main": true
+  },
+  "opuslib": {
+    "main": true
+  },
+  "opyplus": {
+    "main": true
+  },
+  "opyrator": {
+    "main": true
+  },
+  "oq-engine": {
+    "main": true
+  },
+  "oqpy": {
+    "main": true
+  },
+  "or-datasets": {
+    "main": true
+  },
+  "or-tools": {
+    "main": true
+  },
+  "oracle-ads": {
+    "main": true
+  },
+  "oracle-instant-client": {
+    "main": true
+  },
+  "oracledb": {
+    "main": true
+  },
+  "orange-canvas-core": {
+    "main": true
+  },
+  "orange-spectroscopy": {
+    "main": true
+  },
+  "orange-widget-base": {
+    "main": true
+  },
+  "orange3": {
+    "main": true
+  },
+  "orange3-associate": {
+    "main": true
+  },
+  "orange3-bioinformatics": {
+    "main": true
+  },
+  "orange3-educational": {
+    "main": true
+  },
+  "orange3-explain": {
+    "main": true
+  },
+  "orange3-fairness": {
+    "main": true
+  },
+  "orange3-geo": {
+    "main": true
+  },
+  "orange3-imageanalytics": {
+    "main": true
+  },
+  "orange3-network": {
+    "main": true
+  },
+  "orange3-prototypes": {
+    "main": true
+  },
+  "orange3-singlecell": {
+    "main": true
+  },
+  "orange3-survival-analysis": {
+    "main": true
+  },
+  "orange3-text": {
+    "main": true
+  },
+  "orange3-textable": {
+    "main": true
+  },
+  "orange3-timeseries": {
+    "main": true
+  },
+  "orange3-worldhappiness": {
+    "main": true
+  },
+  "oras": {
+    "main": true
+  },
+  "oras-py": {
+    "main": true
+  },
+  "orator": {
+    "main": true
+  },
+  "orbax-checkpoint": {
+    "main": true
+  },
+  "orbit-ml": {
+    "main": true
+  },
+  "orc": {
+    "main": true
+  },
+  "orca": {
+    "main": true
+  },
+  "orca_test": {
+    "main": true
+  },
+  "orch": {
+    "main": true
   }
 }
