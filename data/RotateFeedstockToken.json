@@ -10489,5 +10489,305 @@
   },
   "orch": {
     "main": true
+  },
+  "ordered-set": {
+    "main": true
+  },
+  "ordered_enum": {
+    "main": true
+  },
+  "orderedmultidict": {
+    "main": true
+  },
+  "orderedset": {
+    "main": true
+  },
+  "orderly-set": {
+    "main": true
+  },
+  "orekit": {
+    "main": true
+  },
+  "orgalorg": {
+    "main": true
+  },
+  "orgparse": {
+    "main": true
+  },
+  "orix": {
+    "main": true
+  },
+  "orjson": {
+    "main": true
+  },
+  "orjsonl": {
+    "main": true
+  },
+  "ormar": {
+    "main": true
+  },
+  "ormdantic": {
+    "main": true
+  },
+  "ormsgpack": {
+    "main": true
+  },
+  "orocos-kdl": {
+    "main": true
+  },
+  "orographic_precipitation": {
+    "main": true
+  },
+  "orsopy": {
+    "main": true
+  },
+  "orthopy": {
+    "main": true
+  },
+  "orthority": {
+    "main": true
+  },
+  "ory-client": {
+    "main": true
+  },
+  "os-client-config": {
+    "main": true
+  },
+  "os-service-types": {
+    "main": true
+  },
+  "os_command_py": {
+    "main": true
+  },
+  "osc-lib": {
+    "main": true
+  },
+  "oscan": {
+    "main": true
+  },
+  "oscars": {
+    "main": true
+  },
+  "oschmod": {
+    "main": true
+  },
+  "oscrypto": {
+    "main": true
+  },
+  "osdatahub": {
+    "main": true
+  },
+  "osdf-client": {
+    "main": true
+  },
+  "oset": {
+    "main": true
+  },
+  "osfclient": {
+    "main": true
+  },
+  "oslash": {
+    "main": true
+  },
+  "oslo.concurrency": {
+    "main": true
+  },
+  "oslo.config": {
+    "main": true
+  },
+  "oslo.context": {
+    "main": true
+  },
+  "oslo.i18n": {
+    "main": true
+  },
+  "oslo.log": {
+    "main": true
+  },
+  "oslo.serialization": {
+    "main": true
+  },
+  "oslo.utils": {
+    "main": true
+  },
+  "osm-flex": {
+    "main": true
+  },
+  "osm2pgrouting": {
+    "main": true
+  },
+  "osmapi": {
+    "main": true
+  },
+  "osmium-tool": {
+    "main": true
+  },
+  "osmnet": {
+    "main": true
+  },
+  "osmnx": {
+    "main": true
+  },
+  "osmpythontools": {
+    "main": true
+  },
+  "oso": {
+    "main": true
+  },
+  "osprofiler": {
+    "main": true
+  },
+  "osqp": {
+    "main": true
+  },
+  "osqp-eigen": {
+    "main": true
+  },
+  "osrf_pycommon": {
+    "main": true
+  },
+  "oss2": {
+    "main": true
+  },
+  "ossfs": {
+    "main": true
+  },
+  "ossindex-lib": {
+    "main": true
+  },
+  "ossuuid": {
+    "main": true
+  },
+  "ostaphep": {
+    "main": true
+  },
+  "ostrich": {
+    "main": true
+  },
+  "osx-sysroot": {
+    "main": true
+  },
+  "osyris": {
+    "main": true
+  },
+  "otagrum": {
+    "main": true
+  },
+  "otbenchmark": {
+    "main": true
+  },
+  "otfftw": {
+    "main": true
+  },
+  "otfmi": {
+    "main": true
+  },
+  "otmixmod": {
+    "main": true
+  },
+  "otmorris": {
+    "main": true
+  },
+  "otpauth": {
+    "main": true
+  },
+  "otpmml": {
+    "main": true
+  },
+  "otpod": {
+    "main": true
+  },
+  "otrobopt": {
+    "main": true
+  },
+  "otsubsetinverse": {
+    "main": true
+  },
+  "otsvm": {
+    "main": true
+  },
+  "ott-jax": {
+    "main": true
+  },
+  "otter-grader": {
+    "main": true
+  },
+  "otter-report": {
+    "main": true
+  },
+  "otumat": {
+    "main": true
+  },
+  "otwrapy": {
+    "main": true
+  },
+  "ouch": {
+    "main": true
+  },
+  "outcome": {
+    "main": true
+  },
+  "outdated": {
+    "main": true
+  },
+  "outlier-utils": {
+    "main": true
+  },
+  "outlines": {
+    "main": true
+  },
+  "output_viewer": {
+    "main": true
+  },
+  "overly": {
+    "main": true
+  },
+  "overpy": {
+    "main": true
+  },
+  "overrides": {
+    "main": true
+  },
+  "overturemaps": {
+    "main": true
+  },
+  "overviewpy": {
+    "main": true
+  },
+  "ovh": {
+    "main": true
+  },
+  "ovito": {
+    "main": true
+  },
+  "owlready2": {
+    "main": true
+  },
+  "owlrl": {
+    "main": true
+  },
+  "owslib": {
+    "main": true
+  },
+  "oxasl": {
+    "main": true
+  },
+  "oxasl_enable": {
+    "main": true
+  },
+  "oxasl_ve": {
+    "main": true
+  },
+  "oxdna-analysis-tools": {
+    "main": true
+  },
+  "oxigraph": {
+    "main": true
+  },
+  "oxipng": {
+    "main": true
+  },
+  "oxli": {
+    "main": true
   }
 }
