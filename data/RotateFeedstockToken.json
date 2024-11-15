@@ -12277,5 +12277,305 @@
   },
   "perl-storable": {
     "main": true
+  },
+  "perl-sub-exporter": {
+    "main": true
+  },
+  "perl-sub-exporter-progressive": {
+    "main": true
+  },
+  "perl-sub-identify": {
+    "main": true
+  },
+  "perl-sub-info": {
+    "main": true
+  },
+  "perl-sub-install": {
+    "main": true
+  },
+  "perl-sub-name": {
+    "main": true
+  },
+  "perl-sub-quote": {
+    "main": true
+  },
+  "perl-sub-uplevel": {
+    "main": true
+  },
+  "perl-svg": {
+    "main": true
+  },
+  "perl-sys-cpu": {
+    "main": true
+  },
+  "perl-termreadkey": {
+    "main": true
+  },
+  "perl-test": {
+    "main": true
+  },
+  "perl-test-base": {
+    "main": true
+  },
+  "perl-test-cleannamespaces": {
+    "main": true
+  },
+  "perl-test-deep": {
+    "main": true
+  },
+  "perl-test-differences": {
+    "main": true
+  },
+  "perl-test-exception": {
+    "main": true
+  },
+  "perl-test-fatal": {
+    "main": true
+  },
+  "perl-test-harness": {
+    "main": true
+  },
+  "perl-test-leaktrace": {
+    "main": true
+  },
+  "perl-test-needs": {
+    "main": true
+  },
+  "perl-test-nowarnings": {
+    "main": true
+  },
+  "perl-test-output": {
+    "main": true
+  },
+  "perl-test-requires": {
+    "main": true
+  },
+  "perl-test-simple": {
+    "main": true
+  },
+  "perl-test-warn": {
+    "main": true
+  },
+  "perl-test-warnings": {
+    "main": true
+  },
+  "perl-test-without-module": {
+    "main": true
+  },
+  "perl-test-yaml": {
+    "main": true
+  },
+  "perl-text-abbrev": {
+    "main": true
+  },
+  "perl-text-csv": {
+    "main": true
+  },
+  "perl-text-diff": {
+    "main": true
+  },
+  "perl-text-levenshtein": {
+    "main": true
+  },
+  "perl-text-levenshteinxs": {
+    "main": true
+  },
+  "perl-text-parsewords": {
+    "main": true
+  },
+  "perl-text-roman": {
+    "main": true
+  },
+  "perl-text-soundex": {
+    "main": true
+  },
+  "perl-text-tabs-wrap": {
+    "main": true
+  },
+  "perl-text-unidecode": {
+    "main": true
+  },
+  "perl-text-wrap": {
+    "main": true
+  },
+  "perl-tie-cache": {
+    "main": true
+  },
+  "perl-tie-cacher": {
+    "main": true
+  },
+  "perl-tie-refhash": {
+    "main": true
+  },
+  "perl-try-tiny": {
+    "main": true
+  },
+  "perl-type-tiny": {
+    "main": true
+  },
+  "perl-unix-processors": {
+    "main": true
+  },
+  "perl-uri": {
+    "main": true
+  },
+  "perl-uri-encode": {
+    "main": true
+  },
+  "perl-uri-query": {
+    "main": true
+  },
+  "perl-variable-magic": {
+    "main": true
+  },
+  "perl-version": {
+    "main": true
+  },
+  "perl-xml-filter-buffertext": {
+    "main": true
+  },
+  "perl-xml-namespacesupport": {
+    "main": true
+  },
+  "perl-xml-parser": {
+    "main": true
+  },
+  "perl-xml-sax": {
+    "main": true
+  },
+  "perl-xml-sax-base": {
+    "main": true
+  },
+  "perl-xml-sax-expat": {
+    "main": true
+  },
+  "perl-xml-xpath": {
+    "main": true
+  },
+  "perl-xsloader": {
+    "main": true
+  },
+  "perl-yaml": {
+    "main": true
+  },
+  "perl-yaml-libyaml": {
+    "main": true
+  },
+  "perl-yaml-tiny": {
+    "main": true
+  },
+  "permamodel": {
+    "main": true
+  },
+  "permission": {
+    "main": true
+  },
+  "perpetual": {
+    "main": true
+  },
+  "perscache": {
+    "main": true
+  },
+  "perses": {
+    "main": true
+  },
+  "persim": {
+    "main": true
+  },
+  "persist_ext": {
+    "main": true
+  },
+  "persistent": {
+    "main": true
+  },
+  "perspective": {
+    "main": true
+  },
+  "perspective_parquet": {
+    "main": true
+  },
+  "pescador": {
+    "main": true
+  },
+  "pesq": {
+    "main": true
+  },
+  "pestpp": {
+    "main": true
+  },
+  "pesummary": {
+    "main": true
+  },
+  "pesviewer": {
+    "main": true
+  },
+  "petl": {
+    "main": true
+  },
+  "petname": {
+    "main": true
+  },
+  "petpvc": {
+    "main": true
+  },
+  "petsc": {
+    "main": true
+  },
+  "petsc4py": {
+    "main": true
+  },
+  "petsird": {
+    "main": true
+  },
+  "pettingzoo": {
+    "main": true
+  },
+  "pex": {
+    "main": true
+  },
+  "pexpect": {
+    "main": true
+  },
+  "pexsi": {
+    "main": true
+  },
+  "pfapack": {
+    "main": true
+  },
+  "pferd": {
+    "main": true
+  },
+  "pfsspy": {
+    "main": true
+  },
+  "pfzy": {
+    "main": true
+  },
+  "pg8000": {
+    "main": true
+  },
+  "pgcli": {
+    "main": true
+  },
+  "pgcolorbar": {
+    "main": true
+  },
+  "pgcopy": {
+    "main": true
+  },
+  "pgdumplib": {
+    "main": true
+  },
+  "pgeocode": {
+    "main": true
+  },
+  "pget": {
+    "main": true
+  },
+  "pgmpy": {
+    "main": true
+  },
+  "pgplot": {
+    "main": true
   }
 }
