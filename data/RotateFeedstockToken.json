@@ -11974,5 +11974,308 @@
   },
   "perl-compress-bgzf": {
     "main": true
+  },
+  "perl-compress-raw-bzip2": {
+    "main": true
+  },
+  "perl-compress-raw-zlib": {
+    "main": true
+  },
+  "perl-config-simple": {
+    "main": true
+  },
+  "perl-config-tiny": {
+    "main": true
+  },
+  "perl-constant": {
+    "main": true
+  },
+  "perl-cpan-meta-check": {
+    "main": true
+  },
+  "perl-cpan-meta-yaml": {
+    "main": true
+  },
+  "perl-data-dumper": {
+    "main": true
+  },
+  "perl-data-dumper-concise": {
+    "main": true
+  },
+  "perl-data-optlist": {
+    "main": true
+  },
+  "perl-data-structure-util": {
+    "main": true
+  },
+  "perl-date-calc": {
+    "main": true
+  },
+  "perl-db_file": {
+    "main": true
+  },
+  "perl-dbi": {
+    "main": true
+  },
+  "perl-devel-assert": {
+    "main": true
+  },
+  "perl-devel-globaldestruction": {
+    "main": true
+  },
+  "perl-devel-nytprof": {
+    "main": true
+  },
+  "perl-devel-overloadinfo": {
+    "main": true
+  },
+  "perl-devel-stacktrace": {
+    "main": true
+  },
+  "perl-digest-crc32": {
+    "main": true
+  },
+  "perl-digest-md5": {
+    "main": true
+  },
+  "perl-dist-checkconflicts": {
+    "main": true
+  },
+  "perl-email-date-format": {
+    "main": true
+  },
+  "perl-encode": {
+    "main": true
+  },
+  "perl-env": {
+    "main": true
+  },
+  "perl-env-path": {
+    "main": true
+  },
+  "perl-eval-closure": {
+    "main": true
+  },
+  "perl-exception-class": {
+    "main": true
+  },
+  "perl-exporter": {
+    "main": true
+  },
+  "perl-exporter-tidy": {
+    "main": true
+  },
+  "perl-exporter-tiny": {
+    "main": true
+  },
+  "perl-extutils-config": {
+    "main": true
+  },
+  "perl-extutils-constant": {
+    "main": true
+  },
+  "perl-extutils-helpers": {
+    "main": true
+  },
+  "perl-extutils-installpaths": {
+    "main": true
+  },
+  "perl-extutils-makemaker": {
+    "main": true
+  },
+  "perl-extutils-pl2bat": {
+    "main": true
+  },
+  "perl-file-chdir": {
+    "main": true
+  },
+  "perl-file-homedir": {
+    "main": true
+  },
+  "perl-file-path": {
+    "main": true
+  },
+  "perl-file-pushd": {
+    "main": true
+  },
+  "perl-file-remove": {
+    "main": true
+  },
+  "perl-file-slurp": {
+    "main": true
+  },
+  "perl-file-tee": {
+    "main": true
+  },
+  "perl-file-temp": {
+    "main": true
+  },
+  "perl-file-which": {
+    "main": true
+  },
+  "perl-hash-merge": {
+    "main": true
+  },
+  "perl-if": {
+    "main": true
+  },
+  "perl-importer": {
+    "main": true
+  },
+  "perl-inc-latest": {
+    "main": true
+  },
+  "perl-io-gzip": {
+    "main": true
+  },
+  "perl-io-null": {
+    "main": true
+  },
+  "perl-io-pager": {
+    "main": true
+  },
+  "perl-io-socket-ssl": {
+    "main": true
+  },
+  "perl-io-stringy": {
+    "main": true
+  },
+  "perl-io-tty": {
+    "main": true
+  },
+  "perl-ipc-system-simple": {
+    "main": true
+  },
+  "perl-iterator-simple": {
+    "main": true
+  },
+  "perl-json-maybexs": {
+    "main": true
+  },
+  "perl-json-pp": {
+    "main": true
+  },
+  "perl-lib": {
+    "main": true
+  },
+  "perl-log-log4perl": {
+    "main": true
+  },
+  "perl-math-random-mt-auto": {
+    "main": true
+  },
+  "perl-math-round": {
+    "main": true
+  },
+  "perl-memoize": {
+    "main": true
+  },
+  "perl-mime-base64": {
+    "main": true
+  },
+  "perl-mime-charset": {
+    "main": true
+  },
+  "perl-module-build": {
+    "main": true
+  },
+  "perl-module-build-tiny": {
+    "main": true
+  },
+  "perl-module-implementation": {
+    "main": true
+  },
+  "perl-module-pluggable": {
+    "main": true
+  },
+  "perl-module-runtime": {
+    "main": true
+  },
+  "perl-module-runtime-conflicts": {
+    "main": true
+  },
+  "perl-mojolicious": {
+    "main": true
+  },
+  "perl-moo": {
+    "main": true
+  },
+  "perl-moose": {
+    "main": true
+  },
+  "perl-mro-compat": {
+    "main": true
+  },
+  "perl-namespace-clean": {
+    "main": true
+  },
+  "perl-net-ssleay": {
+    "main": true
+  },
+  "perl-number-compare": {
+    "main": true
+  },
+  "perl-number-format": {
+    "main": true
+  },
+  "perl-object-insideout": {
+    "main": true
+  },
+  "perl-package-deprecationmanager": {
+    "main": true
+  },
+  "perl-package-stash": {
+    "main": true
+  },
+  "perl-package-stash-xs": {
+    "main": true
+  },
+  "perl-params-util": {
+    "main": true
+  },
+  "perl-parent": {
+    "main": true
+  },
+  "perl-path-tiny": {
+    "main": true
+  },
+  "perl-pathtools": {
+    "main": true
+  },
+  "perl-perl-ostype": {
+    "main": true
+  },
+  "perl-proc-fork": {
+    "main": true
+  },
+  "perl-readonly": {
+    "main": true
+  },
+  "perl-regexp-common": {
+    "main": true
+  },
+  "perl-role-tiny": {
+    "main": true
+  },
+  "perl-scalar-list-utils": {
+    "main": true
+  },
+  "perl-scope-guard": {
+    "main": true
+  },
+  "perl-set-scalar": {
+    "main": true
+  },
+  "perl-sivg": {
+    "main": true
+  },
+  "perl-sort-key": {
+    "main": true
+  },
+  "perl-spiffy": {
+    "main": true
+  },
+  "perl-storable": {
+    "main": true
   }
 }
