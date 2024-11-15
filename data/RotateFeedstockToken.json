@@ -11674,5 +11674,305 @@
   },
   "pdfsyntax": {
     "main": true
+  },
+  "pdftext": {
+    "main": true
+  },
+  "pdftopng": {
+    "main": true
+  },
+  "pdftotext": {
+    "main": true
+  },
+  "pdgraster": {
+    "main": true
+  },
+  "pdgstaging": {
+    "main": true
+  },
+  "pdielec": {
+    "main": true
+  },
+  "pdir2": {
+    "main": true
+  },
+  "pdm": {
+    "main": true
+  },
+  "pdm-backend": {
+    "main": true
+  },
+  "pdm-pep517": {
+    "main": true
+  },
+  "pdoc": {
+    "main": true
+  },
+  "pdoc3": {
+    "main": true
+  },
+  "pdocs": {
+    "main": true
+  },
+  "pdpbox": {
+    "main": true
+  },
+  "pdpipe": {
+    "main": true
+  },
+  "pdpyras": {
+    "main": true
+  },
+  "pdr": {
+    "main": true
+  },
+  "pds4_tools": {
+    "main": true
+  },
+  "pdspy": {
+    "main": true
+  },
+  "pdtable": {
+    "main": true
+  },
+  "pdtypes": {
+    "main": true
+  },
+  "pdvega": {
+    "main": true
+  },
+  "pe-configurator": {
+    "main": true
+  },
+  "peak-finder-app": {
+    "main": true
+  },
+  "peakutils": {
+    "main": true
+  },
+  "pebble": {
+    "main": true
+  },
+  "peccary": {
+    "main": true
+  },
+  "peco": {
+    "main": true
+  },
+  "pecos": {
+    "main": true
+  },
+  "pedantic": {
+    "main": true
+  },
+  "peepdb": {
+    "main": true
+  },
+  "peewee": {
+    "main": true
+  },
+  "pefile": {
+    "main": true
+  },
+  "peft": {
+    "main": true
+  },
+  "pegasus-wms": {
+    "main": true
+  },
+  "pegasus-wms.api": {
+    "main": true
+  },
+  "pegasus-wms.common": {
+    "main": true
+  },
+  "pegasus-wms.dax": {
+    "main": true
+  },
+  "pegasus-wms.worker": {
+    "main": true
+  },
+  "pegen": {
+    "main": true
+  },
+  "pelican": {
+    "main": true
+  },
+  "pelican-bibliography": {
+    "main": true
+  },
+  "pelicanfs": {
+    "main": true
+  },
+  "pelicanplatform": {
+    "main": true
+  },
+  "pem": {
+    "main": true
+  },
+  "pemja": {
+    "main": true
+  },
+  "penaltymodel": {
+    "main": true
+  },
+  "penaltymodel-cache": {
+    "main": true
+  },
+  "penaltymodel-lp": {
+    "main": true
+  },
+  "penaltymodel-mip": {
+    "main": true
+  },
+  "pendulum": {
+    "main": true
+  },
+  "pennylane": {
+    "main": true
+  },
+  "pennylane-cirq": {
+    "main": true
+  },
+  "pennylane-honeywell": {
+    "main": true
+  },
+  "pennylane-lightning": {
+    "main": true
+  },
+  "pennylane-lightning-gpu": {
+    "main": true
+  },
+  "pennylane-lightning-kokkos": {
+    "main": true
+  },
+  "pentapy": {
+    "main": true
+  },
+  "pep440": {
+    "main": true
+  },
+  "pep562": {
+    "main": true
+  },
+  "pep8": {
+    "main": true
+  },
+  "pep8-naming": {
+    "main": true
+  },
+  "pephubclient": {
+    "main": true
+  },
+  "peppy": {
+    "main": true
+  },
+  "pepredicates": {
+    "main": true
+  },
+  "pept": {
+    "main": true
+  },
+  "perceptualdiff": {
+    "main": true
+  },
+  "percy": {
+    "main": true
+  },
+  "perfmetrics": {
+    "main": true
+  },
+  "performance": {
+    "main": true
+  },
+  "performer-pytorch": {
+    "main": true
+  },
+  "perfplot": {
+    "main": true
+  },
+  "periodic-table-plotter": {
+    "main": true
+  },
+  "periodicgw": {
+    "main": true
+  },
+  "periodictable": {
+    "main": true
+  },
+  "periodiq": {
+    "main": true
+  },
+  "periscope": {
+    "main": true
+  },
+  "perl": {
+    "main": true
+  },
+  "perl-algorithm-diff": {
+    "main": true
+  },
+  "perl-apache-test": {
+    "main": true
+  },
+  "perl-app-cpanminus": {
+    "main": true
+  },
+  "perl-b-cow": {
+    "main": true
+  },
+  "perl-b-hooks-endofscope": {
+    "main": true
+  },
+  "perl-base": {
+    "main": true
+  },
+  "perl-bit-vector": {
+    "main": true
+  },
+  "perl-business-isbn": {
+    "main": true
+  },
+  "perl-business-isbn-data": {
+    "main": true
+  },
+  "perl-capture-tiny": {
+    "main": true
+  },
+  "perl-carp": {
+    "main": true
+  },
+  "perl-carp-assert": {
+    "main": true
+  },
+  "perl-carp-clan": {
+    "main": true
+  },
+  "perl-class-data-inheritable": {
+    "main": true
+  },
+  "perl-class-load": {
+    "main": true
+  },
+  "perl-class-load-xs": {
+    "main": true
+  },
+  "perl-class-method-modifiers": {
+    "main": true
+  },
+  "perl-class-trigger": {
+    "main": true
+  },
+  "perl-clone": {
+    "main": true
+  },
+  "perl-clone-choose": {
+    "main": true
+  },
+  "perl-common-sense": {
+    "main": true
+  },
+  "perl-compress-bgzf": {
+    "main": true
   }
 }
