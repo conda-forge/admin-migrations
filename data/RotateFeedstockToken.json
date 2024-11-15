@@ -10069,5 +10069,128 @@
   },
   "opentelemetry-exporter-otlp-proto-grpc": {
     "main": true
+  },
+  "opentelemetry-exporter-otlp-proto-http": {
+    "main": true
+  },
+  "opentelemetry-exporter-prometheus": {
+    "main": true
+  },
+  "opentelemetry-exporter-prometheus-remote-write": {
+    "main": true
+  },
+  "opentelemetry-exporter-zipkin": {
+    "main": true
+  },
+  "opentelemetry-exporter-zipkin-json": {
+    "main": true
+  },
+  "opentelemetry-exporter-zipkin-proto-http": {
+    "main": true
+  },
+  "opentelemetry-instrumentation": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-aiohttp-client": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-aiopg": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-asgi": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-asyncpg": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-boto": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-botocore": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-celery": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-dbapi": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-django": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-elasticsearch": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-falcon": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-fastapi": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-flask": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-grpc": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-httpx": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-jinja2": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-logging": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-mysql": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-psycopg2": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-pymemcache": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-pymongo": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-pymysql": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-pyramid": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-requests": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-sklearn": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-sqlalchemy": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-sqlite3": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-starlette": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-system-metrics": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-tornado": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-urllib": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-urllib3": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-wsgi": {
+    "main": true
+  },
+  "opentelemetry-propagator-aws-xray": {
+    "main": true
   }
 }
