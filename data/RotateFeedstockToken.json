@@ -16984,5 +16984,287 @@
   },
   "pymt_cem": {
     "main": true
+  },
+  "pymt_child": {
+    "main": true
+  },
+  "pymt_dbseabed": {
+    "main": true
+  },
+  "pymt_ecsimplesnow": {
+    "main": true
+  },
+  "pymt_era5": {
+    "main": true
+  },
+  "pymt_geotiff": {
+    "main": true
+  },
+  "pymt_gipl": {
+    "main": true
+  },
+  "pymt_gridmet": {
+    "main": true
+  },
+  "pymt_hydrotrend": {
+    "main": true
+  },
+  "pymt_landlab": {
+    "main": true
+  },
+  "pymt_nwis": {
+    "main": true
+  },
+  "pymt_permamodel": {
+    "main": true
+  },
+  "pymt_rafem": {
+    "main": true
+  },
+  "pymt_roms": {
+    "main": true
+  },
+  "pymt_sedflux": {
+    "main": true
+  },
+  "pymt_soilgrids": {
+    "main": true
+  },
+  "pymt_topography": {
+    "main": true
+  },
+  "pymultinest": {
+    "main": true
+  },
+  "pymumps": {
+    "main": true
+  },
+  "pymunk": {
+    "main": true
+  },
+  "pymuonsuite": {
+    "main": true
+  },
+  "pymupdf": {
+    "main": true
+  },
+  "pymupdf-fonts": {
+    "main": true
+  },
+  "pymvpa2": {
+    "main": true
+  },
+  "pymyami": {
+    "main": true
+  },
+  "pymysql": {
+    "main": true
+  },
+  "pynacl": {
+    "main": true
+  },
+  "pynamical": {
+    "main": true
+  },
+  "pynamodb": {
+    "main": true
+  },
+  "pynamodb-encoder": {
+    "main": true
+  },
+  "pynauty": {
+    "main": true
+  },
+  "pyncml": {
+    "main": true
+  },
+  "pynco": {
+    "main": true
+  },
+  "pyncview": {
+    "main": true
+  },
+  "pyne": {
+    "main": true
+  },
+  "pynecone": {
+    "main": true
+  },
+  "pyneqsys": {
+    "main": true
+  },
+  "pynessie": {
+    "main": true
+  },
+  "pynetdicom": {
+    "main": true
+  },
+  "pynetworktables": {
+    "main": true
+  },
+  "pynfft": {
+    "main": true
+  },
+  "pyngl": {
+    "main": true
+  },
+  "pyngo": {
+    "main": true
+  },
+  "pyngrok": {
+    "main": true
+  },
+  "pynguin": {
+    "main": true
+  },
+  "pynhd": {
+    "main": true
+  },
+  "pynimate": {
+    "main": true
+  },
+  "pynini": {
+    "main": true
+  },
+  "pynisher": {
+    "main": true
+  },
+  "pynldas2": {
+    "main": true
+  },
+  "pynlp-lib": {
+    "main": true
+  },
+  "pynmea2": {
+    "main": true
+  },
+  "pynmeagps": {
+    "main": true
+  },
+  "pynndescent": {
+    "main": true
+  },
+  "pynng": {
+    "main": true
+  },
+  "pynomaly": {
+    "main": true
+  },
+  "pynormaliz": {
+    "main": true
+  },
+  "pynput": {
+    "main": true
+  },
+  "pynput-robocorp-fork": {
+    "main": true
+  },
+  "pynrrd": {
+    "main": true
+  },
+  "pynsee": {
+    "main": true
+  },
+  "pynsid": {
+    "main": true
+  },
+  "pyntacle": {
+    "main": true
+  },
+  "pyntcloud": {
+    "main": true
+  },
+  "pynucastro": {
+    "main": true
+  },
+  "pynucos": {
+    "main": true
+  },
+  "pynufft": {
+    "main": true
+  },
+  "pynumero_libraries": {
+    "main": true
+  },
+  "pynumpress": {
+    "main": true
+  },
+  "pynvim": {
+    "main": true
+  },
+  "pynvml": {
+    "main": true
+  },
+  "pynwb": {
+    "main": true
+  },
+  "pyo-oracle": {
+    "main": true
+  },
+  "pyobis": {
+    "main": true
+  },
+  "pyobjc-core": {
+    "main": true
+  },
+  "pyobjc-framework-applicationservices": {
+    "main": true
+  },
+  "pyobjc-framework-cocoa": {
+    "main": true
+  },
+  "pyobjc-framework-corebluetooth": {
+    "main": true
+  },
+  "pyobjc-framework-coreservices": {
+    "main": true
+  },
+  "pyobjc-framework-coretext": {
+    "main": true
+  },
+  "pyobjc-framework-fsevents": {
+    "main": true
+  },
+  "pyobjc-framework-metal": {
+    "main": true
+  },
+  "pyobjc-framework-quartz": {
+    "main": true
+  },
+  "pyobjc-framework-security": {
+    "main": true
+  },
+  "pyobjc-framework-systemconfiguration": {
+    "main": true
+  },
+  "pyobjc-framework-webkit": {
+    "main": true
+  },
+  "pyobjcryst": {
+    "main": true
+  },
+  "pyobsplot": {
+    "main": true
+  },
+  "pyoccad": {
+    "main": true
+  },
+  "pyocclient": {
+    "main": true
+  },
+  "pyocd": {
+    "main": true
+  },
+  "pyocr": {
+    "main": true
+  },
+  "pyocse": {
+    "main": true
+  },
+  "pyod": {
+    "main": true
+  },
+  "pyodbc": {
+    "main": true
   }
 }
