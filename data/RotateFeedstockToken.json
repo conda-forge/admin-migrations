@@ -18682,5 +18682,302 @@
   },
   "pytest-github-actions-annotate-failures": {
     "main": true
+  },
+  "pytest-golden": {
+    "main": true
+  },
+  "pytest-grpc": {
+    "main": true
+  },
+  "pytest-harvest": {
+    "main": true
+  },
+  "pytest-helpers-namespace": {
+    "main": true
+  },
+  "pytest-html": {
+    "main": true
+  },
+  "pytest-httpserver": {
+    "main": true
+  },
+  "pytest-httpx": {
+    "main": true
+  },
+  "pytest-icdiff": {
+    "main": true
+  },
+  "pytest-ignore-flaky": {
+    "main": true
+  },
+  "pytest-instafail": {
+    "main": true
+  },
+  "pytest-integration": {
+    "main": true
+  },
+  "pytest-json": {
+    "main": true
+  },
+  "pytest-json-report": {
+    "main": true
+  },
+  "pytest-jupyter": {
+    "main": true
+  },
+  "pytest-lazy-fixture": {
+    "main": true
+  },
+  "pytest-lazy-fixtures": {
+    "main": true
+  },
+  "pytest-localftpserver": {
+    "main": true
+  },
+  "pytest-localserver": {
+    "main": true
+  },
+  "pytest-localstack": {
+    "main": true
+  },
+  "pytest-loguru": {
+    "main": true
+  },
+  "pytest-mccabe": {
+    "main": true
+  },
+  "pytest-md": {
+    "main": true
+  },
+  "pytest-memray": {
+    "main": true
+  },
+  "pytest-metadata": {
+    "main": true
+  },
+  "pytest-mock": {
+    "main": true
+  },
+  "pytest-monitor": {
+    "main": true
+  },
+  "pytest-mpi": {
+    "main": true
+  },
+  "pytest-mpl": {
+    "main": true
+  },
+  "pytest-mypy": {
+    "main": true
+  },
+  "pytest-mypy-plugins": {
+    "main": true
+  },
+  "pytest-mypy-testing": {
+    "main": true
+  },
+  "pytest-notebook": {
+    "main": true
+  },
+  "pytest-notification": {
+    "main": true
+  },
+  "pytest-nunit": {
+    "main": true
+  },
+  "pytest-openfiles": {
+    "main": true
+  },
+  "pytest-order": {
+    "main": true
+  },
+  "pytest-ordering": {
+    "main": true
+  },
+  "pytest-parallel": {
+    "main": true
+  },
+  "pytest-pep8": {
+    "main": true
+  },
+  "pytest-picked": {
+    "main": true
+  },
+  "pytest-playwright": {
+    "main": true
+  },
+  "pytest-plus": {
+    "main": true
+  },
+  "pytest-postgresql": {
+    "main": true
+  },
+  "pytest-pretty": {
+    "main": true
+  },
+  "pytest-profiling": {
+    "main": true
+  },
+  "pytest-pudb": {
+    "main": true
+  },
+  "pytest-pycodestyle": {
+    "main": true
+  },
+  "pytest-pylint": {
+    "main": true
+  },
+  "pytest-pythonpath": {
+    "main": true
+  },
+  "pytest-pytorch": {
+    "main": true
+  },
+  "pytest-pyvista": {
+    "main": true
+  },
+  "pytest-qt": {
+    "main": true
+  },
+  "pytest-raises": {
+    "main": true
+  },
+  "pytest-randomly": {
+    "main": true
+  },
+  "pytest-recording": {
+    "main": true
+  },
+  "pytest-redis": {
+    "main": true
+  },
+  "pytest-regressions": {
+    "main": true
+  },
+  "pytest-regtest": {
+    "main": true
+  },
+  "pytest-remote-response": {
+    "main": true
+  },
+  "pytest-remotedata": {
+    "main": true
+  },
+  "pytest-repeat": {
+    "main": true
+  },
+  "pytest-replay": {
+    "main": true
+  },
+  "pytest-reportlog": {
+    "main": true
+  },
+  "pytest-reportportal": {
+    "main": true
+  },
+  "pytest-requires": {
+    "main": true
+  },
+  "pytest-rerunfailures": {
+    "main": true
+  },
+  "pytest-reverse": {
+    "main": true
+  },
+  "pytest-rich": {
+    "main": true
+  },
+  "pytest-robotframework": {
+    "main": true
+  },
+  "pytest-selenium": {
+    "main": true
+  },
+  "pytest-server-fixtures": {
+    "main": true
+  },
+  "pytest-services": {
+    "main": true
+  },
+  "pytest-session2file": {
+    "main": true
+  },
+  "pytest-sftpserver": {
+    "main": true
+  },
+  "pytest-shard": {
+    "main": true
+  },
+  "pytest-shell": {
+    "main": true
+  },
+  "pytest-shutil": {
+    "main": true
+  },
+  "pytest-skip-slow": {
+    "main": true
+  },
+  "pytest-smartcov": {
+    "main": true
+  },
+  "pytest-snapshot": {
+    "main": true
+  },
+  "pytest-socket": {
+    "main": true
+  },
+  "pytest-spec": {
+    "main": true
+  },
+  "pytest-speed": {
+    "main": true
+  },
+  "pytest-split": {
+    "main": true
+  },
+  "pytest-subprocess": {
+    "main": true
+  },
+  "pytest-subtests": {
+    "main": true
+  },
+  "pytest-sugar": {
+    "main": true
+  },
+  "pytest-testinfra": {
+    "main": true
+  },
+  "pytest-testmon": {
+    "main": true
+  },
+  "pytest-timeout": {
+    "main": true
+  },
+  "pytest-tldr": {
+    "main": true
+  },
+  "pytest-tornado": {
+    "main": true
+  },
+  "pytest-tornasync": {
+    "main": true
+  },
+  "pytest-trio": {
+    "main": true
+  },
+  "pytest-twisted": {
+    "main": true
+  },
+  "pytest-unordered": {
+    "main": true
+  },
+  "pytest-update-test-results": {
+    "main": true
+  },
+  "pytest-variables": {
+    "main": true
+  },
+  "pytest-vcr": {
+    "main": true
   }
 }
