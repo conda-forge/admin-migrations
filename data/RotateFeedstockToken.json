@@ -18979,5 +18979,278 @@
   },
   "pytest-vcr": {
     "main": true
+  },
+  "pytest-verbose-parametrize": {
+    "main": true
+  },
+  "pytest-virtualenv": {
+    "main": true
+  },
+  "pytest-watch": {
+    "main": true
+  },
+  "pytest-watcher": {
+    "main": true
+  },
+  "pytest-workflow": {
+    "main": true
+  },
+  "pytest-xdist": {
+    "main": true
+  },
+  "pytest-xflaky": {
+    "main": true
+  },
+  "pytest-xprocess": {
+    "main": true
+  },
+  "pytest-xvfb": {
+    "main": true
+  },
+  "pytest_check": {
+    "main": true
+  },
+  "pytest_parallel_mpi": {
+    "main": true
+  },
+  "pytestify": {
+    "main": true
+  },
+  "pytexit": {
+    "main": true
+  },
+  "pytfa": {
+    "main": true
+  },
+  "pythae": {
+    "main": true
+  },
+  "pythermo": {
+    "main": true
+  },
+  "pythesint": {
+    "main": true
+  },
+  "pythia-datasets": {
+    "main": true
+  },
+  "pythia8": {
+    "main": true
+  },
+  "python": {
+    "main": true
+  },
+  "python-ace": {
+    "main": true
+  },
+  "python-ags4": {
+    "main": true
+  },
+  "python-annoy": {
+    "main": true
+  },
+  "python-arango": {
+    "main": true
+  },
+  "python-asana": {
+    "main": true
+  },
+  "python-attr": {
+    "main": true
+  },
+  "python-augeas": {
+    "main": true
+  },
+  "python-avro": {
+    "main": true
+  },
+  "python-awips": {
+    "main": true
+  },
+  "python-backtrace": {
+    "main": true
+  },
+  "python-barcode": {
+    "main": true
+  },
+  "python-baseconv": {
+    "main": true
+  },
+  "python-batch-runner": {
+    "main": true
+  },
+  "python-benedict": {
+    "main": true
+  },
+  "python-bidi": {
+    "main": true
+  },
+  "python-binance": {
+    "main": true
+  },
+  "python-blosc": {
+    "main": true
+  },
+  "python-blosc2": {
+    "main": true
+  },
+  "python-box": {
+    "main": true
+  },
+  "python-build": {
+    "main": true
+  },
+  "python-calamine": {
+    "main": true
+  },
+  "python-can": {
+    "main": true
+  },
+  "python-cas": {
+    "main": true
+  },
+  "python-casacore": {
+    "main": true
+  },
+  "python-cdo": {
+    "main": true
+  },
+  "python-certifi-win32": {
+    "main": true
+  },
+  "python-chromedriver-binary": {
+    "main": true
+  },
+  "python-cinderclient": {
+    "main": true
+  },
+  "python-cityhash": {
+    "main": true
+  },
+  "python-clingox": {
+    "main": true
+  },
+  "python-cmr": {
+    "main": true
+  },
+  "python-codon-tables": {
+    "main": true
+  },
+  "python-configuration": {
+    "main": true
+  },
+  "python-confluent-kafka": {
+    "main": true
+  },
+  "python-constraint": {
+    "main": true
+  },
+  "python-constraint2": {
+    "main": true
+  },
+  "python-consul2-split": {
+    "main": true
+  },
+  "python-coreapi": {
+    "main": true
+  },
+  "python-coreschema": {
+    "main": true
+  },
+  "python-couchdb": {
+    "main": true
+  },
+  "python-coveralls": {
+    "main": true
+  },
+  "python-cpl": {
+    "main": true
+  },
+  "python-crfsuite": {
+    "main": true
+  },
+  "python-crontab": {
+    "main": true
+  },
+  "python-cudnn-frontend": {
+    "main": true
+  },
+  "python-cufflinks": {
+    "main": true
+  },
+  "python-daemon": {
+    "main": true
+  },
+  "python-dashing": {
+    "main": true
+  },
+  "python-dateutil": {
+    "main": true
+  },
+  "python-debian": {
+    "main": true
+  },
+  "python-decouple": {
+    "main": true
+  },
+  "python-designateclient": {
+    "main": true
+  },
+  "python-devtools": {
+    "main": true
+  },
+  "python-docker": {
+    "main": true
+  },
+  "python-docx": {
+    "main": true
+  },
+  "python-doi": {
+    "main": true
+  },
+  "python-dokuwiki": {
+    "main": true
+  },
+  "python-dotenv": {
+    "main": true
+  },
+  "python-dremio-client": {
+    "main": true
+  },
+  "python-duckdb": {
+    "main": true
+  },
+  "python-dwca-reader": {
+    "main": true
+  },
+  "python-eccodes": {
+    "main": true
+  },
+  "python-editor": {
+    "main": true
+  },
+  "python-elf": {
+    "main": true
+  },
+  "python-embree": {
+    "main": true
+  },
+  "python-engineio": {
+    "main": true
+  },
+  "python-fasthtml": {
+    "main": true
+  },
+  "python-fastjsonschema": {
+    "main": true
+  },
+  "python-fitparse": {
+    "main": true
+  },
+  "python-flair": {
+    "main": true
+  },
+  "python-flatbuffers": {
+    "main": true
   }
 }
