@@ -19468,5 +19468,305 @@
   },
   "python-lsp-jsonrpc": {
     "main": true
+  },
+  "python-lsp-ruff": {
+    "main": true
+  },
+  "python-lsp-server": {
+    "main": true
+  },
+  "python-lzf": {
+    "main": true
+  },
+  "python-lzo": {
+    "main": true
+  },
+  "python-magic": {
+    "main": true
+  },
+  "python-magnumclient": {
+    "main": true
+  },
+  "python-manilaclient": {
+    "main": true
+  },
+  "python-marisa-trie": {
+    "main": true
+  },
+  "python-markdown-math": {
+    "main": true
+  },
+  "python-memcached": {
+    "main": true
+  },
+  "python-mimeparse": {
+    "main": true
+  },
+  "python-minifier": {
+    "main": true
+  },
+  "python-mint": {
+    "main": true
+  },
+  "python-mistralclient": {
+    "main": true
+  },
+  "python-moa": {
+    "main": true
+  },
+  "python-monkey-business": {
+    "main": true
+  },
+  "python-mss": {
+    "main": true
+  },
+  "python-multipart": {
+    "main": true
+  },
+  "python-mumps": {
+    "main": true
+  },
+  "python-neo": {
+    "main": true
+  },
+  "python-neutronclient": {
+    "main": true
+  },
+  "python-node-semver": {
+    "main": true
+  },
+  "python-nomad": {
+    "main": true
+  },
+  "python-novaclient": {
+    "main": true
+  },
+  "python-nvd3": {
+    "main": true
+  },
+  "python-oauth2": {
+    "main": true
+  },
+  "python-octaviaclient": {
+    "main": true
+  },
+  "python-on-whales": {
+    "main": true
+  },
+  "python-openid": {
+    "main": true
+  },
+  "python-openid2": {
+    "main": true
+  },
+  "python-openstackclient": {
+    "main": true
+  },
+  "python-oxmsg": {
+    "main": true
+  },
+  "python-packit": {
+    "main": true
+  },
+  "python-paragraph": {
+    "main": true
+  },
+  "python-patch": {
+    "main": true
+  },
+  "python-pcl": {
+    "main": true
+  },
+  "python-pdal": {
+    "main": true
+  },
+  "python-pdfkit": {
+    "main": true
+  },
+  "python-pegasus-wms": {
+    "main": true
+  },
+  "python-picard": {
+    "main": true
+  },
+  "python-pkcs11": {
+    "main": true
+  },
+  "python-planarity": {
+    "main": true
+  },
+  "python-poppler": {
+    "main": true
+  },
+  "python-pptx": {
+    "main": true
+  },
+  "python-prctl": {
+    "main": true
+  },
+  "python-primesieve": {
+    "main": true
+  },
+  "python-pushover": {
+    "main": true
+  },
+  "python-pypi-mirror": {
+    "main": true
+  },
+  "python-qinlingclient": {
+    "main": true
+  },
+  "python-quickjs": {
+    "main": true
+  },
+  "python-rake": {
+    "main": true
+  },
+  "python-rapidjson": {
+    "main": true
+  },
+  "python-redmine": {
+    "main": true
+  },
+  "python-relion": {
+    "main": true
+  },
+  "python-rex": {
+    "main": true
+  },
+  "python-rocksdb": {
+    "main": true
+  },
+  "python-selinux": {
+    "main": true
+  },
+  "python-semantic-release": {
+    "main": true
+  },
+  "python-simpleconf": {
+    "main": true
+  },
+  "python-slugify": {
+    "main": true
+  },
+  "python-smail": {
+    "main": true
+  },
+  "python-snap": {
+    "main": true
+  },
+  "python-snappy": {
+    "main": true
+  },
+  "python-socketio": {
+    "main": true
+  },
+  "python-socks": {
+    "main": true
+  },
+  "python-sonarqube-api": {
+    "main": true
+  },
+  "python-sounddevice": {
+    "main": true
+  },
+  "python-spake2": {
+    "main": true
+  },
+  "python-spams": {
+    "main": true
+  },
+  "python-sscha": {
+    "main": true
+  },
+  "python-statemachine": {
+    "main": true
+  },
+  "python-stdnum": {
+    "main": true
+  },
+  "python-stratify": {
+    "main": true
+  },
+  "python-substrait": {
+    "main": true
+  },
+  "python-subunit": {
+    "main": true
+  },
+  "python-suitesparse-graphblas": {
+    "main": true
+  },
+  "python-swiftclient": {
+    "main": true
+  },
+  "python-symengine": {
+    "main": true
+  },
+  "python-syringe-pump": {
+    "main": true
+  },
+  "python-systemd": {
+    "main": true
+  },
+  "python-telegram-bot": {
+    "main": true
+  },
+  "python-termstyle": {
+    "main": true
+  },
+  "python-ternary": {
+    "main": true
+  },
+  "python-terraform": {
+    "main": true
+  },
+  "python-troveclient": {
+    "main": true
+  },
+  "python-tsp": {
+    "main": true
+  },
+  "python-twitter": {
+    "main": true
+  },
+  "python-tzdata": {
+    "main": true
+  },
+  "python-u2flib-server": {
+    "main": true
+  },
+  "python-ulid": {
+    "main": true
+  },
+  "python-utilities-jsm": {
+    "main": true
+  },
+  "python-utils": {
+    "main": true
+  },
+  "python-vagrant": {
+    "main": true
+  },
+  "python-vxi11": {
+    "main": true
+  },
+  "python-wasmer-split": {
+    "main": true
+  },
+  "python-wget": {
+    "main": true
+  },
+  "python-xapian": {
+    "main": true
+  },
+  "python-xlib": {
+    "main": true
+  },
+  "python-xxhash": {
+    "main": true
+  },
+  "python-xz": {
+    "main": true
   }
 }
