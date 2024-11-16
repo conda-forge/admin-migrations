@@ -18397,5 +18397,290 @@
   },
   "pyswmm": {
     "main": true
+  },
+  "pysyncrosim": {
+    "main": true
+  },
+  "pysynphot": {
+    "main": true
+  },
+  "pysyntect": {
+    "main": true
+  },
+  "pytables": {
+    "main": true
+  },
+  "pytablewriter": {
+    "main": true
+  },
+  "pytalises": {
+    "main": true
+  },
+  "pytango": {
+    "main": true
+  },
+  "pytango-db": {
+    "main": true
+  },
+  "pytao": {
+    "main": true
+  },
+  "pytask": {
+    "main": true
+  },
+  "pytask-environment": {
+    "main": true
+  },
+  "pytask-julia": {
+    "main": true
+  },
+  "pytask-latex": {
+    "main": true
+  },
+  "pytask-parallel": {
+    "main": true
+  },
+  "pytask-r": {
+    "main": true
+  },
+  "pytask-stata": {
+    "main": true
+  },
+  "pytcs": {
+    "main": true
+  },
+  "pytdc": {
+    "main": true
+  },
+  "pytdigest": {
+    "main": true
+  },
+  "pyte": {
+    "main": true
+  },
+  "pytef": {
+    "main": true
+  },
+  "pytemlib": {
+    "main": true
+  },
+  "pytensor-suite": {
+    "main": true
+  },
+  "pytentiostat": {
+    "main": true
+  },
+  "pyterate": {
+    "main": true
+  },
+  "pytermgui": {
+    "main": true
+  },
+  "pytesseract": {
+    "main": true
+  },
+  "pytest": {
+    "main": true
+  },
+  "pytest-aio": {
+    "main": true
+  },
+  "pytest-aiohttp": {
+    "main": true
+  },
+  "pytest-alembic": {
+    "main": true
+  },
+  "pytest-arraydiff": {
+    "main": true
+  },
+  "pytest-ast-back-to-python": {
+    "main": true
+  },
+  "pytest-astropy": {
+    "main": true
+  },
+  "pytest-astropy-header": {
+    "main": true
+  },
+  "pytest-asyncio": {
+    "main": true
+  },
+  "pytest-asyncio-cooperative": {
+    "main": true
+  },
+  "pytest-attrib": {
+    "main": true
+  },
+  "pytest-azurepipelines": {
+    "main": true
+  },
+  "pytest-bandit": {
+    "main": true
+  },
+  "pytest-bdd": {
+    "main": true
+  },
+  "pytest-beartype": {
+    "main": true
+  },
+  "pytest-benchmark": {
+    "main": true
+  },
+  "pytest-black": {
+    "main": true
+  },
+  "pytest-cache": {
+    "main": true
+  },
+  "pytest-cases": {
+    "main": true
+  },
+  "pytest-catchlog": {
+    "main": true
+  },
+  "pytest-celery": {
+    "main": true
+  },
+  "pytest-chalice": {
+    "main": true
+  },
+  "pytest-check-links": {
+    "main": true
+  },
+  "pytest-clarity": {
+    "main": true
+  },
+  "pytest-click": {
+    "main": true
+  },
+  "pytest-cloud": {
+    "main": true
+  },
+  "pytest-codeblocks": {
+    "main": true
+  },
+  "pytest-codestyle": {
+    "main": true
+  },
+  "pytest-codspeed": {
+    "main": true
+  },
+  "pytest-console-scripts": {
+    "main": true
+  },
+  "pytest-cookies": {
+    "main": true
+  },
+  "pytest-copie": {
+    "main": true
+  },
+  "pytest-cov": {
+    "main": true
+  },
+  "pytest-cpp": {
+    "main": true
+  },
+  "pytest-cram": {
+    "main": true
+  },
+  "pytest-csv": {
+    "main": true
+  },
+  "pytest-custom-exit-code": {
+    "main": true
+  },
+  "pytest-cython": {
+    "main": true
+  },
+  "pytest-datadir": {
+    "main": true
+  },
+  "pytest-datafiles": {
+    "main": true
+  },
+  "pytest-deadfixtures": {
+    "main": true
+  },
+  "pytest-dependency": {
+    "main": true
+  },
+  "pytest-describe": {
+    "main": true
+  },
+  "pytest-django": {
+    "main": true
+  },
+  "pytest-django-haystack": {
+    "main": true
+  },
+  "pytest-doctest-ufunc": {
+    "main": true
+  },
+  "pytest-doctestplus": {
+    "main": true
+  },
+  "pytest-dotenv": {
+    "main": true
+  },
+  "pytest-echo": {
+    "main": true
+  },
+  "pytest-emoji": {
+    "main": true
+  },
+  "pytest-env": {
+    "main": true
+  },
+  "pytest-excel": {
+    "main": true
+  },
+  "pytest-executable": {
+    "main": true
+  },
+  "pytest-factoryboy": {
+    "main": true
+  },
+  "pytest-fail-slow": {
+    "main": true
+  },
+  "pytest-faulthandler": {
+    "main": true
+  },
+  "pytest-filter-subpackage": {
+    "main": true
+  },
+  "pytest-fixture-config": {
+    "main": true
+  },
+  "pytest-flake8": {
+    "main": true
+  },
+  "pytest-flakefinder": {
+    "main": true
+  },
+  "pytest-flakes": {
+    "main": true
+  },
+  "pytest-flask": {
+    "main": true
+  },
+  "pytest-flask-sqlalchemy": {
+    "main": true
+  },
+  "pytest-forked": {
+    "main": true
+  },
+  "pytest-freezegun": {
+    "main": true
+  },
+  "pytest-freezer": {
+    "main": true
+  },
+  "pytest-gee": {
+    "main": true
+  },
+  "pytest-github-actions-annotate-failures": {
+    "main": true
   }
 }
