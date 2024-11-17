@@ -24625,5 +24625,308 @@
   },
   "r-gparotation": {
     "main": true
+  },
+  "r-gpca": {
+    "main": true
+  },
+  "r-gpfit": {
+    "main": true
+  },
+  "r-gpg": {
+    "main": true
+  },
+  "r-gpindex": {
+    "main": true
+  },
+  "r-gplots": {
+    "main": true
+  },
+  "r-gprofiler": {
+    "main": true
+  },
+  "r-gprofiler2": {
+    "main": true
+  },
+  "r-gpseq": {
+    "main": true
+  },
+  "r-gptk": {
+    "main": true
+  },
+  "r-graddescent": {
+    "main": true
+  },
+  "r-grafify": {
+    "main": true
+  },
+  "r-graphicalvar": {
+    "main": true
+  },
+  "r-graphlayouts": {
+    "main": true
+  },
+  "r-graphql": {
+    "main": true
+  },
+  "r-graphtweets": {
+    "main": true
+  },
+  "r-grates": {
+    "main": true
+  },
+  "r-greg": {
+    "main": true
+  },
+  "r-greta": {
+    "main": true
+  },
+  "r-grf": {
+    "main": true
+  },
+  "r-gribr": {
+    "main": true
+  },
+  "r-gridbase": {
+    "main": true
+  },
+  "r-gridextra": {
+    "main": true
+  },
+  "r-gridgraphics": {
+    "main": true
+  },
+  "r-gridpattern": {
+    "main": true
+  },
+  "r-gridsvg": {
+    "main": true
+  },
+  "r-gridtext": {
+    "main": true
+  },
+  "r-grimport": {
+    "main": true
+  },
+  "r-grimport2": {
+    "main": true
+  },
+  "r-grobblr": {
+    "main": true
+  },
+  "r-groupdata2": {
+    "main": true
+  },
+  "r-groupedstats": {
+    "main": true
+  },
+  "r-growthcleanr": {
+    "main": true
+  },
+  "r-grplasso": {
+    "main": true
+  },
+  "r-grpreg": {
+    "main": true
+  },
+  "r-grr": {
+    "main": true
+  },
+  "r-gsa": {
+    "main": true
+  },
+  "r-gsalib": {
+    "main": true
+  },
+  "r-gsdesign": {
+    "main": true
+  },
+  "r-gsignal": {
+    "main": true
+  },
+  "r-gsl": {
+    "main": true
+  },
+  "r-gsmoothr": {
+    "main": true
+  },
+  "r-gson": {
+    "main": true
+  },
+  "r-gss": {
+    "main": true
+  },
+  "r-gstat": {
+    "main": true
+  },
+  "r-gsubfn": {
+    "main": true
+  },
+  "r-gsw": {
+    "main": true
+  },
+  "r-gt": {
+    "main": true
+  },
+  "r-gtable": {
+    "main": true
+  },
+  "r-gtextras": {
+    "main": true
+  },
+  "r-gtools": {
+    "main": true
+  },
+  "r-gtsummary": {
+    "main": true
+  },
+  "r-guilds": {
+    "main": true
+  },
+  "r-gunifrac": {
+    "main": true
+  },
+  "r-gutenbergr": {
+    "main": true
+  },
+  "r-gwasexacthw": {
+    "main": true
+  },
+  "r-gwidgets": {
+    "main": true
+  },
+  "r-gwidgets2": {
+    "main": true
+  },
+  "r-gwidgets2tcltk": {
+    "main": true
+  },
+  "r-gwidgetstcltk": {
+    "main": true
+  },
+  "r-h2o": {
+    "main": true
+  },
+  "r-haplo.stats": {
+    "main": true
+  },
+  "r-hardhat": {
+    "main": true
+  },
+  "r-hardyweinberg": {
+    "main": true
+  },
+  "r-harmonicmeanp": {
+    "main": true
+  },
+  "r-harmony": {
+    "main": true
+  },
+  "r-harrypotter": {
+    "main": true
+  },
+  "r-hash": {
+    "main": true
+  },
+  "r-haven": {
+    "main": true
+  },
+  "r-hdci": {
+    "main": true
+  },
+  "r-hdf5r": {
+    "main": true
+  },
+  "r-hdinterval": {
+    "main": true
+  },
+  "r-hdm": {
+    "main": true
+  },
+  "r-hdrcde": {
+    "main": true
+  },
+  "r-hdtweedie": {
+    "main": true
+  },
+  "r-heatmap.plus": {
+    "main": true
+  },
+  "r-heatmap3": {
+    "main": true
+  },
+  "r-heatmaply": {
+    "main": true
+  },
+  "r-heplots": {
+    "main": true
+  },
+  "r-here": {
+    "main": true
+  },
+  "r-hergm": {
+    "main": true
+  },
+  "r-hexbin": {
+    "main": true
+  },
+  "r-hexview": {
+    "main": true
+  },
+  "r-hgnchelper": {
+    "main": true
+  },
+  "r-hh": {
+    "main": true
+  },
+  "r-hiclimr": {
+    "main": true
+  },
+  "r-hiddenmarkov": {
+    "main": true
+  },
+  "r-hier.part": {
+    "main": true
+  },
+  "r-hierfstat": {
+    "main": true
+  },
+  "r-highcharter": {
+    "main": true
+  },
+  "r-highlight": {
+    "main": true
+  },
+  "r-highr": {
+    "main": true
+  },
+  "r-hillr": {
+    "main": true
+  },
+  "r-histdat": {
+    "main": true
+  },
+  "r-histdata": {
+    "main": true
+  },
+  "r-hive": {
+    "main": true
+  },
+  "r-hiver": {
+    "main": true
+  },
+  "r-hmeasure": {
+    "main": true
+  },
+  "r-hmisc": {
+    "main": true
+  },
+  "r-hms": {
+    "main": true
+  },
+  "r-hmsc": {
+    "main": true
+  },
+  "r-hoardr": {
+    "main": true
   }
 }
