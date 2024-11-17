@@ -27280,5 +27280,257 @@
   },
   "r-paws.application.integration": {
     "main": true
+  },
+  "r-paws.common": {
+    "main": true
+  },
+  "r-paws.compute": {
+    "main": true
+  },
+  "r-paws.cost.management": {
+    "main": true
+  },
+  "r-paws.customer.engagement": {
+    "main": true
+  },
+  "r-paws.database": {
+    "main": true
+  },
+  "r-paws.developer.tools": {
+    "main": true
+  },
+  "r-paws.end.user.computing": {
+    "main": true
+  },
+  "r-paws.machine.learning": {
+    "main": true
+  },
+  "r-paws.management": {
+    "main": true
+  },
+  "r-paws.networking": {
+    "main": true
+  },
+  "r-paws.security.identity": {
+    "main": true
+  },
+  "r-paws.storage": {
+    "main": true
+  },
+  "r-pbapply": {
+    "main": true
+  },
+  "r-pbdzmq": {
+    "main": true
+  },
+  "r-pbivnorm": {
+    "main": true
+  },
+  "r-pbkrtest": {
+    "main": true
+  },
+  "r-pbmcapply": {
+    "main": true
+  },
+  "r-pbs": {
+    "main": true
+  },
+  "r-pca3d": {
+    "main": true
+  },
+  "r-pcadapt": {
+    "main": true
+  },
+  "r-pcamixdata": {
+    "main": true
+  },
+  "r-pcapp": {
+    "main": true
+  },
+  "r-pcict": {
+    "main": true
+  },
+  "r-pcit": {
+    "main": true
+  },
+  "r-pcse": {
+    "main": true
+  },
+  "r-pdc": {
+    "main": true
+  },
+  "r-pdfcluster": {
+    "main": true
+  },
+  "r-pdftools": {
+    "main": true
+  },
+  "r-pdist": {
+    "main": true
+  },
+  "r-pdp": {
+    "main": true
+  },
+  "r-pec": {
+    "main": true
+  },
+  "r-pedquant": {
+    "main": true
+  },
+  "r-pegas": {
+    "main": true
+  },
+  "r-penalized": {
+    "main": true
+  },
+  "r-peptides": {
+    "main": true
+  },
+  "r-performance": {
+    "main": true
+  },
+  "r-performanceanalytics": {
+    "main": true
+  },
+  "r-perm": {
+    "main": true
+  },
+  "r-permute": {
+    "main": true
+  },
+  "r-perry": {
+    "main": true
+  },
+  "r-pgirmess": {
+    "main": true
+  },
+  "r-phangorn": {
+    "main": true
+  },
+  "r-phater": {
+    "main": true
+  },
+  "r-pheatmap": {
+    "main": true
+  },
+  "r-philentropy": {
+    "main": true
+  },
+  "r-phonr": {
+    "main": true
+  },
+  "r-phosphoricons": {
+    "main": true
+  },
+  "r-photobiology": {
+    "main": true
+  },
+  "r-photobiologywavebands": {
+    "main": true
+  },
+  "r-phyclust": {
+    "main": true
+  },
+  "r-phylobase": {
+    "main": true
+  },
+  "r-phylogeneticem": {
+    "main": true
+  },
+  "r-phylogram": {
+    "main": true
+  },
+  "r-phylolm": {
+    "main": true
+  },
+  "r-phyloregion": {
+    "main": true
+  },
+  "r-phylosignal": {
+    "main": true
+  },
+  "r-phylotate": {
+    "main": true
+  },
+  "r-phylotools": {
+    "main": true
+  },
+  "r-phytools": {
+    "main": true
+  },
+  "r-piar": {
+    "main": true
+  },
+  "r-picante": {
+    "main": true
+  },
+  "r-piecewisesem": {
+    "main": true
+  },
+  "r-piggyback": {
+    "main": true
+  },
+  "r-pillar": {
+    "main": true
+  },
+  "r-pim": {
+    "main": true
+  },
+  "r-pinfsc50": {
+    "main": true
+  },
+  "r-pingr": {
+    "main": true
+  },
+  "r-pins": {
+    "main": true
+  },
+  "r-piper": {
+    "main": true
+  },
+  "r-piton": {
+    "main": true
+  },
+  "r-pixmap": {
+    "main": true
+  },
+  "r-pkgbuild": {
+    "main": true
+  },
+  "r-pkgcache": {
+    "main": true
+  },
+  "r-pkgcond": {
+    "main": true
+  },
+  "r-pkgconfig": {
+    "main": true
+  },
+  "r-pkgdepends": {
+    "main": true
+  },
+  "r-pkgdown": {
+    "main": true
+  },
+  "r-pkgfilecache": {
+    "main": true
+  },
+  "r-pkggraphr": {
+    "main": true
+  },
+  "r-pkgload": {
+    "main": true
+  },
+  "r-pkgmaker": {
+    "main": true
+  },
+  "r-pkgnet": {
+    "main": true
+  },
+  "r-pkgsearch": {
+    "main": true
+  },
+  "r-pki": {
+    "main": true
   }
 }
