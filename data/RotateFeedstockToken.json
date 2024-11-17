@@ -24049,5 +24049,308 @@
   },
   "r-genemodel": {
     "main": true
+  },
+  "r-genenet": {
+    "main": true
+  },
+  "r-generalizedhyperbolic": {
+    "main": true
+  },
+  "r-generics": {
+    "main": true
+  },
+  "r-genetics": {
+    "main": true
+  },
+  "r-genie": {
+    "main": true
+  },
+  "r-geniebpc": {
+    "main": true
+  },
+  "r-genieclust": {
+    "main": true
+  },
+  "r-genkern": {
+    "main": true
+  },
+  "r-genlasso": {
+    "main": true
+  },
+  "r-genlib": {
+    "main": true
+  },
+  "r-gensa": {
+    "main": true
+  },
+  "r-geoaxe": {
+    "main": true
+  },
+  "r-geofacet": {
+    "main": true
+  },
+  "r-geogrid": {
+    "main": true
+  },
+  "r-geojson": {
+    "main": true
+  },
+  "r-geojsonio": {
+    "main": true
+  },
+  "r-geojsonlint": {
+    "main": true
+  },
+  "r-geojsonsf": {
+    "main": true
+  },
+  "r-geomap": {
+    "main": true
+  },
+  "r-geomapdata": {
+    "main": true
+  },
+  "r-geometa": {
+    "main": true
+  },
+  "r-geometries": {
+    "main": true
+  },
+  "r-geometry": {
+    "main": true
+  },
+  "r-geomtextpath": {
+    "main": true
+  },
+  "r-geoprocessor": {
+    "main": true
+  },
+  "r-geor": {
+    "main": true
+  },
+  "r-geosphere": {
+    "main": true
+  },
+  "r-gert": {
+    "main": true
+  },
+  "r-getip": {
+    "main": true
+  },
+  "r-getopt": {
+    "main": true
+  },
+  "r-getoptlong": {
+    "main": true
+  },
+  "r-getpass": {
+    "main": true
+  },
+  "r-gfa": {
+    "main": true
+  },
+  "r-gfd": {
+    "main": true
+  },
+  "r-gfdsurv": {
+    "main": true
+  },
+  "r-gfonts": {
+    "main": true
+  },
+  "r-ggalign": {
+    "main": true
+  },
+  "r-ggalluvial": {
+    "main": true
+  },
+  "r-ggally": {
+    "main": true
+  },
+  "r-ggalt": {
+    "main": true
+  },
+  "r-gganimate": {
+    "main": true
+  },
+  "r-ggbeeswarm": {
+    "main": true
+  },
+  "r-ggblanket": {
+    "main": true
+  },
+  "r-ggblend": {
+    "main": true
+  },
+  "r-ggbreak": {
+    "main": true
+  },
+  "r-ggbump": {
+    "main": true
+  },
+  "r-ggchangepoint": {
+    "main": true
+  },
+  "r-ggcharts": {
+    "main": true
+  },
+  "r-ggconf": {
+    "main": true
+  },
+  "r-ggcorrplot": {
+    "main": true
+  },
+  "r-ggcorset": {
+    "main": true
+  },
+  "r-ggdag": {
+    "main": true
+  },
+  "r-ggdark": {
+    "main": true
+  },
+  "r-ggdendro": {
+    "main": true
+  },
+  "r-ggdensity": {
+    "main": true
+  },
+  "r-ggdist": {
+    "main": true
+  },
+  "r-ggdistribute": {
+    "main": true
+  },
+  "r-ggeasy": {
+    "main": true
+  },
+  "r-ggedit": {
+    "main": true
+  },
+  "r-ggeffects": {
+    "main": true
+  },
+  "r-ggextra": {
+    "main": true
+  },
+  "r-ggfittext": {
+    "main": true
+  },
+  "r-ggflowchart": {
+    "main": true
+  },
+  "r-ggfocus": {
+    "main": true
+  },
+  "r-ggforce": {
+    "main": true
+  },
+  "r-ggformula": {
+    "main": true
+  },
+  "r-ggfortify": {
+    "main": true
+  },
+  "r-ggfun": {
+    "main": true
+  },
+  "r-ggfx": {
+    "main": true
+  },
+  "r-gggenes": {
+    "main": true
+  },
+  "r-gggenomes": {
+    "main": true
+  },
+  "r-ggghost": {
+    "main": true
+  },
+  "r-gggibbous": {
+    "main": true
+  },
+  "r-gggrid": {
+    "main": true
+  },
+  "r-ggh4x": {
+    "main": true
+  },
+  "r-gghalves": {
+    "main": true
+  },
+  "r-gghighlight": {
+    "main": true
+  },
+  "r-gghoriplot": {
+    "main": true
+  },
+  "r-ggimage": {
+    "main": true
+  },
+  "r-gginnards": {
+    "main": true
+  },
+  "r-ggiraph": {
+    "main": true
+  },
+  "r-ggjoy": {
+    "main": true
+  },
+  "r-gglasso": {
+    "main": true
+  },
+  "r-gglogo": {
+    "main": true
+  },
+  "r-ggm": {
+    "main": true
+  },
+  "r-ggmap": {
+    "main": true
+  },
+  "r-ggmcmc": {
+    "main": true
+  },
+  "r-ggmice": {
+    "main": true
+  },
+  "r-ggmosaic": {
+    "main": true
+  },
+  "r-ggmuller": {
+    "main": true
+  },
+  "r-ggmulti": {
+    "main": true
+  },
+  "r-ggnetwork": {
+    "main": true
+  },
+  "r-ggnewscale": {
+    "main": true
+  },
+  "r-ggpackets": {
+    "main": true
+  },
+  "r-ggpage": {
+    "main": true
+  },
+  "r-ggparallel": {
+    "main": true
+  },
+  "r-ggparty": {
+    "main": true
+  },
+  "r-ggpattern": {
+    "main": true
+  },
+  "r-ggplate": {
+    "main": true
+  },
+  "r-ggplot.multistats": {
+    "main": true
+  },
+  "r-ggplot2": {
+    "main": true
   }
 }
