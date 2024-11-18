@@ -31747,5 +31747,269 @@
   },
   "rapids": {
     "main": true
+  },
+  "rapidsim": {
+    "main": true
+  },
+  "rapidz": {
+    "main": true
+  },
+  "rarfile": {
+    "main": true
+  },
+  "rasam": {
+    "main": true
+  },
+  "raspa2": {
+    "main": true
+  },
+  "rasterio": {
+    "main": true
+  },
+  "rasterstats": {
+    "main": true
+  },
+  "rastervision-aws-batch": {
+    "main": true
+  },
+  "rastervision-aws-s3": {
+    "main": true
+  },
+  "rastervision-core": {
+    "main": true
+  },
+  "rastervision-gdal-vsi": {
+    "main": true
+  },
+  "rastervision-pipeline": {
+    "main": true
+  },
+  "rat": {
+    "main": true
+  },
+  "ratarmount": {
+    "main": true
+  },
+  "ratarmountcore": {
+    "main": true
+  },
+  "ratelim": {
+    "main": true
+  },
+  "ratelimit": {
+    "main": true
+  },
+  "ratelimiter": {
+    "main": true
+  },
+  "ratemate": {
+    "main": true
+  },
+  "rateslib": {
+    "main": true
+  },
+  "rathole": {
+    "main": true
+  },
+  "ratingcurve": {
+    "main": true
+  },
+  "ratpoints": {
+    "main": true
+  },
+  "rattler-build": {
+    "main": true
+  },
+  "rattler-build-conda-compat": {
+    "main": true
+  },
+  "rauth": {
+    "main": true
+  },
+  "rav1e": {
+    "main": true
+  },
+  "raven": {
+    "main": true
+  },
+  "raven-aiohttp": {
+    "main": true
+  },
+  "raven-hydro": {
+    "main": true
+  },
+  "raven-wps": {
+    "main": true
+  },
+  "ravenpy": {
+    "main": true
+  },
+  "ray-packages": {
+    "main": true
+  },
+  "raydar": {
+    "main": true
+  },
+  "raynest": {
+    "main": true
+  },
+  "rayoptics": {
+    "main": true
+  },
+  "razdel": {
+    "main": true
+  },
+  "rb-activesupport": {
+    "main": true
+  },
+  "rb-addressable": {
+    "main": true
+  },
+  "rb-archive-tar-minitar": {
+    "main": true
+  },
+  "rb-aws-codedeploy-agent": {
+    "main": true
+  },
+  "rb-aws-eventstream": {
+    "main": true
+  },
+  "rb-aws-sdk-core": {
+    "main": true
+  },
+  "rb-aws-sigv4": {
+    "main": true
+  },
+  "rb-bibtex-ruby": {
+    "main": true
+  },
+  "rb-bio": {
+    "main": true
+  },
+  "rb-bond": {
+    "main": true
+  },
+  "rb-bundler": {
+    "main": true
+  },
+  "rb-citeproc": {
+    "main": true
+  },
+  "rb-citeproc-ruby": {
+    "main": true
+  },
+  "rb-coffee-script": {
+    "main": true
+  },
+  "rb-coffee-script-source": {
+    "main": true
+  },
+  "rb-colorator": {
+    "main": true
+  },
+  "rb-commonmarker": {
+    "main": true
+  },
+  "rb-concurrent-ruby": {
+    "main": true
+  },
+  "rb-connection_pool": {
+    "main": true
+  },
+  "rb-cool.io": {
+    "main": true
+  },
+  "rb-csl": {
+    "main": true
+  },
+  "rb-csl-styles": {
+    "main": true
+  },
+  "rb-csvlint": {
+    "main": true
+  },
+  "rb-data_uri": {
+    "main": true
+  },
+  "rb-dig_rb": {
+    "main": true
+  },
+  "rb-dnsruby": {
+    "main": true
+  },
+  "rb-docopt": {
+    "main": true
+  },
+  "rb-dotenv": {
+    "main": true
+  },
+  "rb-em-websocket": {
+    "main": true
+  },
+  "rb-equatable": {
+    "main": true
+  },
+  "rb-escape_utils": {
+    "main": true
+  },
+  "rb-ethon": {
+    "main": true
+  },
+  "rb-eventmachine": {
+    "main": true
+  },
+  "rb-execjs": {
+    "main": true
+  },
+  "rb-faraday": {
+    "main": true
+  },
+  "rb-fast_jsonapi": {
+    "main": true
+  },
+  "rb-ffi": {
+    "main": true
+  },
+  "rb-fluentd": {
+    "main": true
+  },
+  "rb-forwardable-extended": {
+    "main": true
+  },
+  "rb-gemoji": {
+    "main": true
+  },
+  "rb-github-pages": {
+    "main": true
+  },
+  "rb-github-pages-health-check": {
+    "main": true
+  },
+  "rb-gli": {
+    "main": true
+  },
+  "rb-html-pipeline": {
+    "main": true
+  },
+  "rb-html-proofer": {
+    "main": true
+  },
+  "rb-http_parser.rb": {
+    "main": true
+  },
+  "rb-i18n": {
+    "main": true
+  },
+  "rb-jekyll": {
+    "main": true
+  },
+  "rb-jekyll-avatar": {
+    "main": true
+  },
+  "rb-jekyll-coffeescript": {
+    "main": true
+  },
+  "rb-jekyll-commonmark": {
+    "main": true
   }
 }
