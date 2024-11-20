@@ -39553,5 +39553,197 @@
   },
   "terraform-provider-external": {
     "main": true
+  },
+  "terraform-provider-fastly": {
+    "main": true
+  },
+  "terraform-provider-github": {
+    "main": true
+  },
+  "terraform-provider-gitlab": {
+    "main": true
+  },
+  "terraform-provider-grafana": {
+    "main": true
+  },
+  "terraform-provider-helm": {
+    "main": true
+  },
+  "terraform-provider-heroku": {
+    "main": true
+  },
+  "terraform-provider-http": {
+    "main": true
+  },
+  "terraform-provider-icinga2": {
+    "main": true
+  },
+  "terraform-provider-ignition": {
+    "main": true
+  },
+  "terraform-provider-influxdb": {
+    "main": true
+  },
+  "terraform-provider-keycloak": {
+    "main": true
+  },
+  "terraform-provider-kubectl": {
+    "main": true
+  },
+  "terraform-provider-kubernetes": {
+    "main": true
+  },
+  "terraform-provider-librato": {
+    "main": true
+  },
+  "terraform-provider-local": {
+    "main": true
+  },
+  "terraform-provider-logentries": {
+    "main": true
+  },
+  "terraform-provider-logicmonitor": {
+    "main": true
+  },
+  "terraform-provider-mailgun": {
+    "main": true
+  },
+  "terraform-provider-mysql": {
+    "main": true
+  },
+  "terraform-provider-newrelic": {
+    "main": true
+  },
+  "terraform-provider-nomad": {
+    "main": true
+  },
+  "terraform-provider-ns1": {
+    "main": true
+  },
+  "terraform-provider-null": {
+    "main": true
+  },
+  "terraform-provider-oneandone": {
+    "main": true
+  },
+  "terraform-provider-opc": {
+    "main": true
+  },
+  "terraform-provider-opensearch": {
+    "main": true
+  },
+  "terraform-provider-openstack": {
+    "main": true
+  },
+  "terraform-provider-opentelekomcloud": {
+    "main": true
+  },
+  "terraform-provider-opsgenie": {
+    "main": true
+  },
+  "terraform-provider-ovh": {
+    "main": true
+  },
+  "terraform-provider-packet": {
+    "main": true
+  },
+  "terraform-provider-pagerduty": {
+    "main": true
+  },
+  "terraform-provider-panos": {
+    "main": true
+  },
+  "terraform-provider-postgresql": {
+    "main": true
+  },
+  "terraform-provider-powerdns": {
+    "main": true
+  },
+  "terraform-provider-profitbricks": {
+    "main": true
+  },
+  "terraform-provider-rabbitmq": {
+    "main": true
+  },
+  "terraform-provider-rancher": {
+    "main": true
+  },
+  "terraform-provider-rancher2": {
+    "main": true
+  },
+  "terraform-provider-random": {
+    "main": true
+  },
+  "terraform-provider-restapi": {
+    "main": true
+  },
+  "terraform-provider-rundeck": {
+    "main": true
+  },
+  "terraform-provider-scaleway": {
+    "main": true
+  },
+  "terraform-provider-softlayer": {
+    "main": true
+  },
+  "terraform-provider-spotinst": {
+    "main": true
+  },
+  "terraform-provider-statuscake": {
+    "main": true
+  },
+  "terraform-provider-template": {
+    "main": true
+  },
+  "terraform-provider-terraform": {
+    "main": true
+  },
+  "terraform-provider-time": {
+    "main": true
+  },
+  "terraform-provider-tls": {
+    "main": true
+  },
+  "terraform-provider-triton": {
+    "main": true
+  },
+  "terraform-provider-ultradns": {
+    "main": true
+  },
+  "terraform-provider-vault": {
+    "main": true
+  },
+  "terraform-provider-vcd": {
+    "main": true
+  },
+  "terraform-provider-vsphere": {
+    "main": true
+  },
+  "terragrunt": {
+    "main": true
+  },
+  "terrainbento": {
+    "main": true
+  },
+  "tespy": {
+    "main": true
+  },
+  "tesseract": {
+    "main": true
+  },
+  "tesserocr": {
+    "main": true
+  },
+  "tesspy": {
+    "main": true
+  },
+  "testbook": {
+    "main": true
+  },
+  "testcontainers": {
+    "main": true
+  },
+  "testfixtures": {
+    "main": true
   }
 }
