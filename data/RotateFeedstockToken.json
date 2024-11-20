@@ -39331,5 +39331,227 @@
   },
   "tempest-helper": {
     "main": true
+  },
+  "tempest-remap": {
+    "main": true
+  },
+  "tempita": {
+    "main": true
+  },
+  "templ": {
+    "main": true
+  },
+  "templateflow": {
+    "main": true
+  },
+  "tempo2": {
+    "main": true
+  },
+  "tempora": {
+    "main": true
+  },
+  "temporal-cache": {
+    "main": true
+  },
+  "tenacity": {
+    "main": true
+  },
+  "tensap": {
+    "main": true
+  },
+  "tensor-sensor": {
+    "main": true
+  },
+  "tensorboard": {
+    "main": true
+  },
+  "tensorboard-data-server": {
+    "main": true
+  },
+  "tensorboard-plugin-wit": {
+    "main": true
+  },
+  "tensorboardx": {
+    "main": true
+  },
+  "tensordict": {
+    "main": true
+  },
+  "tensorflow": {
+    "main": true
+  },
+  "tensorflow-datasets": {
+    "main": true
+  },
+  "tensorflow-hub": {
+    "main": true
+  },
+  "tensorflow-lattice": {
+    "main": true
+  },
+  "tensorflow-metadata": {
+    "main": true
+  },
+  "tensorflow-probability": {
+    "main": true
+  },
+  "tensorflowonspark": {
+    "main": true
+  },
+  "tensorly": {
+    "main": true
+  },
+  "tensorly-quantum": {
+    "main": true
+  },
+  "tensorly-torch": {
+    "main": true
+  },
+  "tensorpac": {
+    "main": true
+  },
+  "tensorpack": {
+    "main": true
+  },
+  "tensorpotential": {
+    "main": true
+  },
+  "tensorstore": {
+    "main": true
+  },
+  "tensortrade": {
+    "main": true
+  },
+  "tensorwaves": {
+    "main": true
+  },
+  "tephi": {
+    "main": true
+  },
+  "tere": {
+    "main": true
+  },
+  "term-image": {
+    "main": true
+  },
+  "termcolor": {
+    "main": true
+  },
+  "termcolor-cpp": {
+    "main": true
+  },
+  "termcolor2": {
+    "main": true
+  },
+  "termdbms": {
+    "main": true
+  },
+  "termgraph": {
+    "main": true
+  },
+  "terminado": {
+    "main": true
+  },
+  "terminaltables": {
+    "main": true
+  },
+  "terminaltexteffects": {
+    "main": true
+  },
+  "termtosvg": {
+    "main": true
+  },
+  "ternary-diagram": {
+    "main": true
+  },
+  "terracotta": {
+    "main": true
+  },
+  "terraform": {
+    "main": true
+  },
+  "terraform-ls": {
+    "main": true
+  },
+  "terraform-provider-alicloud": {
+    "main": true
+  },
+  "terraform-provider-archive": {
+    "main": true
+  },
+  "terraform-provider-arukas": {
+    "main": true
+  },
+  "terraform-provider-aws": {
+    "main": true
+  },
+  "terraform-provider-azuread": {
+    "main": true
+  },
+  "terraform-provider-azurerm": {
+    "main": true
+  },
+  "terraform-provider-bitbucket": {
+    "main": true
+  },
+  "terraform-provider-chef": {
+    "main": true
+  },
+  "terraform-provider-circonus": {
+    "main": true
+  },
+  "terraform-provider-clc": {
+    "main": true
+  },
+  "terraform-provider-cloudflare": {
+    "main": true
+  },
+  "terraform-provider-cloudinit": {
+    "main": true
+  },
+  "terraform-provider-cloudscale": {
+    "main": true
+  },
+  "terraform-provider-cloudstack": {
+    "main": true
+  },
+  "terraform-provider-cobbler": {
+    "main": true
+  },
+  "terraform-provider-consul": {
+    "main": true
+  },
+  "terraform-provider-credstash": {
+    "main": true
+  },
+  "terraform-provider-databricks": {
+    "main": true
+  },
+  "terraform-provider-datadog": {
+    "main": true
+  },
+  "terraform-provider-digitalocean": {
+    "main": true
+  },
+  "terraform-provider-dme": {
+    "main": true
+  },
+  "terraform-provider-dns": {
+    "main": true
+  },
+  "terraform-provider-dnsimple": {
+    "main": true
+  },
+  "terraform-provider-docker": {
+    "main": true
+  },
+  "terraform-provider-dyn": {
+    "main": true
+  },
+  "terraform-provider-ec": {
+    "main": true
+  },
+  "terraform-provider-external": {
+    "main": true
   }
 }
