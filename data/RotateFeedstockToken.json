@@ -41668,5 +41668,194 @@
   },
   "types-jinja2": {
     "main": true
+  },
+  "types-jsonschema": {
+    "main": true
+  },
+  "types-kazoo": {
+    "main": true
+  },
+  "types-markdown": {
+    "main": true
+  },
+  "types-markupsafe": {
+    "main": true
+  },
+  "types-maxminddb": {
+    "main": true
+  },
+  "types-mock": {
+    "main": true
+  },
+  "types-mypy-extensions": {
+    "main": true
+  },
+  "types-networkx": {
+    "main": true
+  },
+  "types-nmap": {
+    "main": true
+  },
+  "types-openpyxl": {
+    "main": true
+  },
+  "types-orjson": {
+    "main": true
+  },
+  "types-paramiko": {
+    "main": true
+  },
+  "types-pathlib2": {
+    "main": true
+  },
+  "types-pillow": {
+    "main": true
+  },
+  "types-pkg_resources": {
+    "main": true
+  },
+  "types-polib": {
+    "main": true
+  },
+  "types-protobuf": {
+    "main": true
+  },
+  "types-psutil": {
+    "main": true
+  },
+  "types-psycopg2": {
+    "main": true
+  },
+  "types-pyaudio": {
+    "main": true
+  },
+  "types-pycurl": {
+    "main": true
+  },
+  "types-pyfarmhash": {
+    "main": true
+  },
+  "types-pygments": {
+    "main": true
+  },
+  "types-pyjwt": {
+    "main": true
+  },
+  "types-pymssql": {
+    "main": true
+  },
+  "types-pymysql": {
+    "main": true
+  },
+  "types-pyopenssl": {
+    "main": true
+  },
+  "types-pyrfc3339": {
+    "main": true
+  },
+  "types-pysftp": {
+    "main": true
+  },
+  "types-python-dateutil": {
+    "main": true
+  },
+  "types-python-gflags": {
+    "main": true
+  },
+  "types-python-slugify": {
+    "main": true
+  },
+  "types-pytz": {
+    "main": true
+  },
+  "types-pyvmomi": {
+    "main": true
+  },
+  "types-pywin32": {
+    "main": true
+  },
+  "types-pyyaml": {
+    "main": true
+  },
+  "types-redis": {
+    "main": true
+  },
+  "types-requests": {
+    "main": true
+  },
+  "types-retry": {
+    "main": true
+  },
+  "types-routes": {
+    "main": true
+  },
+  "types-s3transfer": {
+    "main": true
+  },
+  "types-tornado": {
+    "main": true
+  },
+  "types-tqdm": {
+    "main": true
+  },
+  "types-typed-ast": {
+    "main": true
+  },
+  "types-tzlocal": {
+    "main": true
+  },
+  "types-ujson": {
+    "main": true
+  },
+  "types-uno-script": {
+    "main": true
+  },
+  "types-unopy": {
+    "main": true
+  },
+  "types-urllib3": {
+    "main": true
+  },
+  "types-waitress": {
+    "main": true
+  },
+  "types-werkzeug": {
+    "main": true
+  },
+  "types-xxhash": {
+    "main": true
+  },
+  "types_toml": {
+    "main": true
+  },
+  "types_typed_ast": {
+    "main": true
+  },
+  "typescript": {
+    "main": true
+  },
+  "typescript-eslint-eslint-plugin": {
+    "main": true
+  },
+  "typescript-eslint-parser": {
+    "main": true
+  },
+  "typeshed-client": {
+    "main": true
+  },
+  "typesystem": {
+    "main": true
+  },
+  "typhos": {
+    "main": true
+  },
+  "typical": {
+    "main": true
+  },
+  "typing": {
+    "main": true
+  },
+  "typing-compat": {
+    "main": true
   }
 }
