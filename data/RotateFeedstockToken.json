@@ -1631,6 +1631,198 @@
   "apache-airflow-providers-http": {
     "main": true
   },
+  "apache-airflow-providers-imap": {
+    "main": true
+  },
+  "apache-airflow-providers-influxdb": {
+    "main": true
+  },
+  "apache-airflow-providers-jdbc": {
+    "main": true
+  },
+  "apache-airflow-providers-jenkins": {
+    "main": true
+  },
+  "apache-airflow-providers-jira": {
+    "main": true
+  },
+  "apache-airflow-providers-microsoft-azure": {
+    "main": true
+  },
+  "apache-airflow-providers-microsoft-mssql": {
+    "main": true
+  },
+  "apache-airflow-providers-microsoft-psrp": {
+    "main": true
+  },
+  "apache-airflow-providers-microsoft-winrm": {
+    "main": true
+  },
+  "apache-airflow-providers-mongo": {
+    "main": true
+  },
+  "apache-airflow-providers-mysql": {
+    "main": true
+  },
+  "apache-airflow-providers-neo4j": {
+    "main": true
+  },
+  "apache-airflow-providers-odbc": {
+    "main": true
+  },
+  "apache-airflow-providers-openfaas": {
+    "main": true
+  },
+  "apache-airflow-providers-openlineage": {
+    "main": true
+  },
+  "apache-airflow-providers-opsgenie": {
+    "main": true
+  },
+  "apache-airflow-providers-oracle": {
+    "main": true
+  },
+  "apache-airflow-providers-pagerduty": {
+    "main": true
+  },
+  "apache-airflow-providers-papermill": {
+    "main": true
+  },
+  "apache-airflow-providers-plexus": {
+    "main": true
+  },
+  "apache-airflow-providers-postgres": {
+    "main": true
+  },
+  "apache-airflow-providers-presto": {
+    "main": true
+  },
+  "apache-airflow-providers-qubole": {
+    "main": true
+  },
+  "apache-airflow-providers-redis": {
+    "main": true
+  },
+  "apache-airflow-providers-salesforce": {
+    "main": true
+  },
+  "apache-airflow-providers-samba": {
+    "main": true
+  },
+  "apache-airflow-providers-segment": {
+    "main": true
+  },
+  "apache-airflow-providers-sendgrid": {
+    "main": true
+  },
+  "apache-airflow-providers-sftp": {
+    "main": true
+  },
+  "apache-airflow-providers-singularity": {
+    "main": true
+  },
+  "apache-airflow-providers-slack": {
+    "main": true
+  },
+  "apache-airflow-providers-smtp": {
+    "main": true
+  },
+  "apache-airflow-providers-snowflake": {
+    "main": true
+  },
+  "apache-airflow-providers-sqlite": {
+    "main": true
+  },
+  "apache-airflow-providers-ssh": {
+    "main": true
+  },
+  "apache-airflow-providers-tableau": {
+    "main": true
+  },
+  "apache-airflow-providers-tabular": {
+    "main": true
+  },
+  "apache-airflow-providers-telegram": {
+    "main": true
+  },
+  "apache-airflow-providers-trino": {
+    "main": true
+  },
+  "apache-airflow-providers-vertica": {
+    "main": true
+  },
+  "apache-airflow-providers-yandex": {
+    "main": true
+  },
+  "apache-airflow-providers-zendesk": {
+    "main": true
+  },
+  "apache-ant": {
+    "main": true
+  },
+  "apache-atlas": {
+    "main": true
+  },
+  "apache-beam": {
+    "main": true
+  },
+  "apache-flink": {
+    "main": true
+  },
+  "apache-flink-libraries": {
+    "main": true
+  },
+  "apache-libcloud": {
+    "main": true
+  },
+  "apache-sedona": {
+    "main": true
+  },
+  "apav": {
+    "main": true
+  },
+  "apbs": {
+    "main": true
+  },
+  "apd": {
+    "main": true
+  },
+  "apeye": {
+    "main": true
+  },
+  "apeye-core": {
+    "main": true
+  },
+  "api-inference-community": {
+    "main": true
+  },
+  "api2db": {
+    "main": true
+  },
+  "apicurio-keycloak-extensions": {
+    "main": true
+  },
+  "apipkg": {
+    "main": true
+  },
+  "apischema": {
+    "main": true
+  },
+  "apispec": {
+    "main": true
+  },
+  "apispec-webframeworks": {
+    "main": true
+  },
+  "apistar": {
+    "main": true
+  },
+  "aplpy": {
+    "main": true
+  },
+  "aplus": {
+    "main": true
+  },
   "kdbusaddons": {
     "main": true
   },
