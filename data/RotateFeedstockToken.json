@@ -3593,6 +3593,207 @@
   "azure-storage-blob": {
     "main": true
   },
+  "azure-storage-blobs-cpp": {
+    "main": true
+  },
+  "azure-storage-common": {
+    "main": true
+  },
+  "azure-storage-common-cpp": {
+    "main": true
+  },
+  "azure-storage-file": {
+    "main": true
+  },
+  "azure-storage-file-datalake": {
+    "main": true
+  },
+  "azure-storage-file-share": {
+    "main": true
+  },
+  "azure-storage-files-datalake-cpp": {
+    "main": true
+  },
+  "azure-storage-files-shares-cpp": {
+    "main": true
+  },
+  "azure-storage-nspkg": {
+    "main": true
+  },
+  "azure-storage-queue": {
+    "main": true
+  },
+  "azure-storage-queues-cpp": {
+    "main": true
+  },
+  "azure-synapse-artifacts": {
+    "main": true
+  },
+  "azure-synapse-nspkg": {
+    "main": true
+  },
+  "azure-synapse-spark": {
+    "main": true
+  },
+  "azure-uamqp-c": {
+    "main": true
+  },
+  "azure-uhttp-c": {
+    "main": true
+  },
+  "azure-umqtt-c": {
+    "main": true
+  },
+  "azureml": {
+    "main": true
+  },
+  "b2sdk": {
+    "main": true
+  },
+  "b3denv": {
+    "main": true
+  },
+  "b3sum": {
+    "main": true
+  },
+  "b4": {
+    "main": true
+  },
+  "b4msa": {
+    "main": true
+  },
+  "baal": {
+    "main": true
+  },
+  "babel": {
+    "main": true
+  },
+  "babelizer": {
+    "main": true
+  },
+  "babeltrace": {
+    "main": true
+  },
+  "backblaze-b2": {
+    "main": true
+  },
+  "backcall": {
+    "main": true
+  },
+  "backends": {
+    "main": true
+  },
+  "backoff": {
+    "main": true
+  },
+  "backpack": {
+    "main": true
+  },
+  "backpack-for-pytorch": {
+    "main": true
+  },
+  "backports": {
+    "main": true
+  },
+  "backports-datetime-fromisoformat": {
+    "main": true
+  },
+  "backports.cached-property": {
+    "main": true
+  },
+  "backports.csv": {
+    "main": true
+  },
+  "backports.entry-points-selectable": {
+    "main": true
+  },
+  "backports.functools_lru_cache": {
+    "main": true
+  },
+  "backports.shutil_get_terminal_size": {
+    "main": true
+  },
+  "backports.shutil_which": {
+    "main": true
+  },
+  "backports.strenum": {
+    "main": true
+  },
+  "backports.tarfile": {
+    "main": true
+  },
+  "backports.tempfile": {
+    "main": true
+  },
+  "backports.test.support": {
+    "main": true
+  },
+  "backports.unittest_mock": {
+    "main": true
+  },
+  "backports.weakref": {
+    "main": true
+  },
+  "backports.zoneinfo": {
+    "main": true
+  },
+  "backports_abc": {
+    "main": true
+  },
+  "backrefs": {
+    "main": true
+  },
+  "backstage": {
+    "main": true
+  },
+  "backtrace": {
+    "main": true
+  },
+  "backward-cpp": {
+    "main": true
+  },
+  "bacon": {
+    "main": true
+  },
+  "badapted": {
+    "main": true
+  },
+  "bader": {
+    "main": true
+  },
+  "badger-opt": {
+    "main": true
+  },
+  "bagit": {
+    "main": true
+  },
+  "bagit-profile": {
+    "main": true
+  },
+  "baikal": {
+    "main": true
+  },
+  "bake": {
+    "main": true
+  },
+  "baked-brie": {
+    "main": true
+  },
+  "balance": {
+    "main": true
+  },
+  "bambi": {
+    "main": true
+  },
+  "bamnostic": {
+    "main": true
+  },
+  "banal": {
+    "main": true
+  },
+  "banana-hep": {
+    "main": true
+  },
   "kdbusaddons": {
     "main": true
   },
