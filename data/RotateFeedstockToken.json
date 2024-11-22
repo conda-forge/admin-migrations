@@ -3419,6 +3419,180 @@
   "azure-c-shared-utility": {
     "main": true
   },
+  "azure-cli-core": {
+    "main": true
+  },
+  "azure-cli-telemetry": {
+    "main": true
+  },
+  "azure-common": {
+    "main": true
+  },
+  "azure-core": {
+    "main": true
+  },
+  "azure-core-cpp": {
+    "main": true
+  },
+  "azure-cosmos": {
+    "main": true
+  },
+  "azure-data-tables": {
+    "main": true
+  },
+  "azure-datalake-store": {
+    "main": true
+  },
+  "azure-devops": {
+    "main": true
+  },
+  "azure-graphrbac": {
+    "main": true
+  },
+  "azure-identity": {
+    "main": true
+  },
+  "azure-identity-cpp": {
+    "main": true
+  },
+  "azure-iot-sdk-c": {
+    "main": true
+  },
+  "azure-keyvault": {
+    "main": true
+  },
+  "azure-keyvault-certificates": {
+    "main": true
+  },
+  "azure-keyvault-keys": {
+    "main": true
+  },
+  "azure-keyvault-secrets": {
+    "main": true
+  },
+  "azure-kusto-data": {
+    "main": true
+  },
+  "azure-macro-utils-c": {
+    "main": true
+  },
+  "azure-mgmt-authorization": {
+    "main": true
+  },
+  "azure-mgmt-batch": {
+    "main": true
+  },
+  "azure-mgmt-common": {
+    "main": true
+  },
+  "azure-mgmt-compute": {
+    "main": true
+  },
+  "azure-mgmt-containerinstance": {
+    "main": true
+  },
+  "azure-mgmt-containerregistry": {
+    "main": true
+  },
+  "azure-mgmt-containerservice": {
+    "main": true
+  },
+  "azure-mgmt-core": {
+    "main": true
+  },
+  "azure-mgmt-cosmosdb": {
+    "main": true
+  },
+  "azure-mgmt-datafactory": {
+    "main": true
+  },
+  "azure-mgmt-datalake-store": {
+    "main": true
+  },
+  "azure-mgmt-dns": {
+    "main": true
+  },
+  "azure-mgmt-keyvault": {
+    "main": true
+  },
+  "azure-mgmt-marketplaceordering": {
+    "main": true
+  },
+  "azure-mgmt-monitor": {
+    "main": true
+  },
+  "azure-mgmt-msi": {
+    "main": true
+  },
+  "azure-mgmt-network": {
+    "main": true
+  },
+  "azure-mgmt-nspkg": {
+    "main": true
+  },
+  "azure-mgmt-redis": {
+    "main": true
+  },
+  "azure-mgmt-resource": {
+    "main": true
+  },
+  "azure-mgmt-sql": {
+    "main": true
+  },
+  "azure-mgmt-storage": {
+    "main": true
+  },
+  "azure-mgmt-subscription": {
+    "main": true
+  },
+  "azure-mgmt-synapse": {
+    "main": true
+  },
+  "azure-mgmt-trafficmanager": {
+    "main": true
+  },
+  "azure-mgmt-web": {
+    "main": true
+  },
+  "azure-nspkg": {
+    "main": true
+  },
+  "azure-purview-account": {
+    "main": true
+  },
+  "azure-purview-administration": {
+    "main": true
+  },
+  "azure-purview-catalog": {
+    "main": true
+  },
+  "azure-purview-nspkg": {
+    "main": true
+  },
+  "azure-purview-scanning": {
+    "main": true
+  },
+  "azure-purview-workflow": {
+    "main": true
+  },
+  "azure-quantum": {
+    "main": true
+  },
+  "azure-search-documents": {
+    "main": true
+  },
+  "azure-servicebus": {
+    "main": true
+  },
+  "azure-servicemanagement-legacy": {
+    "main": true
+  },
+  "azure-storage": {
+    "main": true
+  },
+  "azure-storage-blob": {
+    "main": true
+  },
   "kdbusaddons": {
     "main": true
   },
