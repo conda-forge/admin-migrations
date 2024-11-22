@@ -3179,6 +3179,246 @@
   "aws-cdk.aws-efs": {
     "main": true
   },
+  "aws-cdk.aws-elasticloadbalancing": {
+    "main": true
+  },
+  "aws-cdk.aws-elasticloadbalancingv2": {
+    "main": true
+  },
+  "aws-cdk.aws-events": {
+    "main": true
+  },
+  "aws-cdk.aws-fsx": {
+    "main": true
+  },
+  "aws-cdk.aws-globalaccelerator": {
+    "main": true
+  },
+  "aws-cdk.aws-iam": {
+    "main": true
+  },
+  "aws-cdk.aws-imagebuilder": {
+    "main": true
+  },
+  "aws-cdk.aws-kinesis": {
+    "main": true
+  },
+  "aws-cdk.aws-kms": {
+    "main": true
+  },
+  "aws-cdk.aws-lambda": {
+    "main": true
+  },
+  "aws-cdk.aws-logs": {
+    "main": true
+  },
+  "aws-cdk.aws-route53": {
+    "main": true
+  },
+  "aws-cdk.aws-route53-targets": {
+    "main": true
+  },
+  "aws-cdk.aws-s3": {
+    "main": true
+  },
+  "aws-cdk.aws-s3-assets": {
+    "main": true
+  },
+  "aws-cdk.aws-sam": {
+    "main": true
+  },
+  "aws-cdk.aws-secretsmanager": {
+    "main": true
+  },
+  "aws-cdk.aws-servicediscovery": {
+    "main": true
+  },
+  "aws-cdk.aws-signer": {
+    "main": true
+  },
+  "aws-cdk.aws-sns": {
+    "main": true
+  },
+  "aws-cdk.aws-sns-subscriptions": {
+    "main": true
+  },
+  "aws-cdk.aws-sqs": {
+    "main": true
+  },
+  "aws-cdk.aws-ssm": {
+    "main": true
+  },
+  "aws-cdk.aws-stepfunctions": {
+    "main": true
+  },
+  "aws-cdk.cloud-assembly-schema": {
+    "main": true
+  },
+  "aws-cdk.core": {
+    "main": true
+  },
+  "aws-cdk.custom-resources": {
+    "main": true
+  },
+  "aws-cdk.cx-api": {
+    "main": true
+  },
+  "aws-cdk.region-info": {
+    "main": true
+  },
+  "aws-checksums": {
+    "main": true
+  },
+  "aws-crt-cpp": {
+    "main": true
+  },
+  "aws-embedded-metrics": {
+    "main": true
+  },
+  "aws-encryption-sdk": {
+    "main": true
+  },
+  "aws-error-utils": {
+    "main": true
+  },
+  "aws-glue-sessions": {
+    "main": true
+  },
+  "aws-iam-authenticator": {
+    "main": true
+  },
+  "aws-lambda-powertools": {
+    "main": true
+  },
+  "aws-okta-keyman": {
+    "main": true
+  },
+  "aws-parallelcluster": {
+    "main": true
+  },
+  "aws-request-signer": {
+    "main": true
+  },
+  "aws-requests-auth": {
+    "main": true
+  },
+  "aws-s3-cli": {
+    "main": true
+  },
+  "aws-sam-cli": {
+    "main": true
+  },
+  "aws-sam-translator": {
+    "main": true
+  },
+  "aws-sdk-cpp": {
+    "main": true
+  },
+  "aws-session-manager-plugin": {
+    "main": true
+  },
+  "aws-shell": {
+    "main": true
+  },
+  "aws-sso-credential-process": {
+    "main": true
+  },
+  "aws-sso-lib": {
+    "main": true
+  },
+  "aws-sso-util": {
+    "main": true
+  },
+  "aws-xray-sdk": {
+    "main": true
+  },
+  "aws_lambda_builders": {
+    "main": true
+  },
+  "aws_secretsmanager_caching": {
+    "main": true
+  },
+  "awscli": {
+    "main": true
+  },
+  "awscli-cwlogs": {
+    "main": true
+  },
+  "awscli-local": {
+    "main": true
+  },
+  "awscli2": {
+    "main": true
+  },
+  "awscliv2": {
+    "main": true
+  },
+  "awscrt": {
+    "main": true
+  },
+  "awsebcli": {
+    "main": true
+  },
+  "awsiotpythonsdk": {
+    "main": true
+  },
+  "awslambdaric": {
+    "main": true
+  },
+  "awslimitchecker": {
+    "main": true
+  },
+  "awslogs": {
+    "main": true
+  },
+  "awssert": {
+    "main": true
+  },
+  "awswrangler": {
+    "main": true
+  },
+  "awxkit": {
+    "main": true
+  },
+  "ax-platform": {
+    "main": true
+  },
+  "axe-selenium-python": {
+    "main": true
+  },
+  "axel": {
+    "main": true
+  },
+  "axelrod": {
+    "main": true
+  },
+  "axial-positional-embedding": {
+    "main": true
+  },
+  "axiprop": {
+    "main": true
+  },
+  "axisregistry": {
+    "main": true
+  },
+  "axopy": {
+    "main": true
+  },
+  "azcopy": {
+    "main": true
+  },
+  "azure-ai-documentintelligence": {
+    "main": true
+  },
+  "azure-ai-ml": {
+    "main": true
+  },
+  "azure-batch": {
+    "main": true
+  },
+  "azure-c-shared-utility": {
+    "main": true
+  },
   "kdbusaddons": {
     "main": true
   },
