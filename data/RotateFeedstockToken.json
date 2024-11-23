@@ -7562,6 +7562,222 @@
   "concurrentloghandler": {
     "main": true
   },
+  "conda": {
+    "main": true
+  },
+  "conda-auth": {
+    "main": true
+  },
+  "conda-bash-completion": {
+    "main": true
+  },
+  "conda-build": {
+    "main": true
+  },
+  "conda-build-all": {
+    "main": true
+  },
+  "conda-content-trust": {
+    "main": true
+  },
+  "conda-deny": {
+    "main": true
+  },
+  "conda-devenv": {
+    "main": true
+  },
+  "conda-docker": {
+    "main": true
+  },
+  "conda-ecosystem-user-package-isolation": {
+    "main": true
+  },
+  "conda-env": {
+    "main": true
+  },
+  "conda-env-builder": {
+    "main": true
+  },
+  "conda-exec": {
+    "main": true
+  },
+  "conda-execute": {
+    "main": true
+  },
+  "conda-export": {
+    "main": true
+  },
+  "conda-flow": {
+    "main": true
+  },
+  "conda-forge-ci-setup": {
+    "main": true
+  },
+  "conda-forge-feedstock-check-solvable": {
+    "main": true
+  },
+  "conda-forge-feedstock-ops": {
+    "main": true
+  },
+  "conda-forge-metadata": {
+    "main": true
+  },
+  "conda-forge-pinning": {
+    "main": true
+  },
+  "conda-forge-repodata-patches": {
+    "main": true
+  },
+  "conda-forge-tick": {
+    "main": true
+  },
+  "conda-gitenv": {
+    "main": true
+  },
+  "conda-index": {
+    "main": true
+  },
+  "conda-inject": {
+    "main": true
+  },
+  "conda-libmamba-solver": {
+    "main": true
+  },
+  "conda-lock": {
+    "main": true
+  },
+  "conda-merge": {
+    "main": true
+  },
+  "conda-minify": {
+    "main": true
+  },
+  "conda-mirror": {
+    "main": true
+  },
+  "conda-oci-mirror": {
+    "main": true
+  },
+  "conda-pack": {
+    "main": true
+  },
+  "conda-package-handling": {
+    "main": true
+  },
+  "conda-package-streaming": {
+    "main": true
+  },
+  "conda-poetry-liaison": {
+    "main": true
+  },
+  "conda-prefix-replacement": {
+    "main": true
+  },
+  "conda-press": {
+    "main": true
+  },
+  "conda-project": {
+    "main": true
+  },
+  "conda-protect": {
+    "main": true
+  },
+  "conda-pypi": {
+    "main": true
+  },
+  "conda-recipe-manager": {
+    "main": true
+  },
+  "conda-recipe-v2-schema": {
+    "main": true
+  },
+  "conda-replicate": {
+    "main": true
+  },
+  "conda-smithy": {
+    "main": true
+  },
+  "conda-souschef": {
+    "main": true
+  },
+  "conda-sphinx-theme": {
+    "main": true
+  },
+  "conda-standalone": {
+    "main": true
+  },
+  "conda-store": {
+    "main": true
+  },
+  "conda-suggest": {
+    "main": true
+  },
+  "conda-suggest-conda-forge": {
+    "main": true
+  },
+  "conda-tree": {
+    "main": true
+  },
+  "conda-vendor": {
+    "main": true
+  },
+  "conda-verify": {
+    "main": true
+  },
+  "conda-which": {
+    "main": true
+  },
+  "conda-workon": {
+    "main": true
+  },
+  "conda-wrappers": {
+    "main": true
+  },
+  "conda_deps": {
+    "main": true
+  },
+  "conda_envfile": {
+    "main": true
+  },
+  "conda_subprocess": {
+    "main": true
+  },
+  "condansis": {
+    "main": true
+  },
+  "condastats": {
+    "main": true
+  },
+  "condax": {
+    "main": true
+  },
+  "condorpy": {
+    "main": true
+  },
+  "conduit": {
+    "main": true
+  },
+  "confection": {
+    "main": true
+  },
+  "config": {
+    "main": true
+  },
+  "configargparse": {
+    "main": true
+  },
+  "configobj": {
+    "main": true
+  },
+  "configobj-dev": {
+    "main": true
+  },
+  "configparser": {
+    "main": true
+  },
+  "configs": {
+    "main": true
+  },
   "kdbusaddons": {
     "main": true
   },
