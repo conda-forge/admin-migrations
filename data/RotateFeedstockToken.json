@@ -9419,6 +9419,207 @@
   "dask-core": {
     "main": true
   },
+  "dask-ctl": {
+    "main": true
+  },
+  "dask-cuda": {
+    "main": true
+  },
+  "dask-databricks": {
+    "main": true
+  },
+  "dask-deltatable": {
+    "main": true
+  },
+  "dask-distance": {
+    "main": true
+  },
+  "dask-drmaa": {
+    "main": true
+  },
+  "dask-ee": {
+    "main": true
+  },
+  "dask-expr": {
+    "main": true
+  },
+  "dask-funk": {
+    "main": true
+  },
+  "dask-gateway": {
+    "main": true
+  },
+  "dask-geomodeling": {
+    "main": true
+  },
+  "dask-geopandas": {
+    "main": true
+  },
+  "dask-glm": {
+    "main": true
+  },
+  "dask-histogram": {
+    "main": true
+  },
+  "dask-image": {
+    "main": true
+  },
+  "dask-jobqueue": {
+    "main": true
+  },
+  "dask-kubernetes": {
+    "main": true
+  },
+  "dask-memusage": {
+    "main": true
+  },
+  "dask-ml": {
+    "main": true
+  },
+  "dask-mongo": {
+    "main": true
+  },
+  "dask-mpi": {
+    "main": true
+  },
+  "dask-ms": {
+    "main": true
+  },
+  "dask-searchcv": {
+    "main": true
+  },
+  "dask-snowflake": {
+    "main": true
+  },
+  "dask-sphinx-theme": {
+    "main": true
+  },
+  "dask-sql": {
+    "main": true
+  },
+  "dask-tensorflow": {
+    "main": true
+  },
+  "dask-xgboost": {
+    "main": true
+  },
+  "dask-yarn": {
+    "main": true
+  },
+  "dask_labextension": {
+    "main": true
+  },
+  "dask_traj": {
+    "main": true
+  },
+  "daspy-toolbox": {
+    "main": true
+  },
+  "data-diff": {
+    "main": true
+  },
+  "data-morph-ai": {
+    "main": true
+  },
+  "data-science-types": {
+    "main": true
+  },
+  "data-wizard": {
+    "main": true
+  },
+  "data2rdf": {
+    "main": true
+  },
+  "databases": {
+    "main": true
+  },
+  "databind.core": {
+    "main": true
+  },
+  "databind.json": {
+    "main": true
+  },
+  "databricks-cli": {
+    "main": true
+  },
+  "databricks-sdk": {
+    "main": true
+  },
+  "databricks-sql-connector": {
+    "main": true
+  },
+  "databroker": {
+    "main": true
+  },
+  "databroker-elasticsearch": {
+    "main": true
+  },
+  "databroker-pack": {
+    "main": true
+  },
+  "datacache": {
+    "main": true
+  },
+  "dataclass-csv": {
+    "main": true
+  },
+  "dataclass-wizard": {
+    "main": true
+  },
+  "dataclasses": {
+    "main": true
+  },
+  "dataclasses-avroschema": {
+    "main": true
+  },
+  "dataclasses-json": {
+    "main": true
+  },
+  "dataclasses-jsonschema": {
+    "main": true
+  },
+  "dataclassy": {
+    "main": true
+  },
+  "datacommons": {
+    "main": true
+  },
+  "datacommons_pandas": {
+    "main": true
+  },
+  "datacompy": {
+    "main": true
+  },
+  "dataconf": {
+    "main": true
+  },
+  "datacube": {
+    "main": true
+  },
+  "datacube-compute": {
+    "main": true
+  },
+  "datadog": {
+    "main": true
+  },
+  "datadotworld-py": {
+    "main": true
+  },
+  "dataeval": {
+    "main": true
+  },
+  "dataflows-tabulator": {
+    "main": true
+  },
+  "dataframe_image": {
+    "main": true
+  },
+  "datafusion": {
+    "main": true
+  },
+  "datajoint": {
+    "main": true
+  },
   "kdbusaddons": {
     "main": true
   },
