@@ -16043,6 +16043,75 @@
   "flux-core": {
     "main": true
   },
+  "flux-lsp": {
+    "main": true
+  },
+  "flux-pmix": {
+    "main": true
+  },
+  "flux-restful-client": {
+    "main": true
+  },
+  "flux-sched": {
+    "main": true
+  },
+  "flwr": {
+    "main": true
+  },
+  "flynt": {
+    "main": true
+  },
+  "flyteidl": {
+    "main": true
+  },
+  "flytekit": {
+    "main": true
+  },
+  "flytekitplugins-athena": {
+    "main": true
+  },
+  "flytekitplugins-awsbatch": {
+    "main": true
+  },
+  "flytekitplugins-dask": {
+    "main": true
+  },
+  "flytekitplugins-data-fsspec": {
+    "main": true
+  },
+  "flytekitplugins-modin": {
+    "main": true
+  },
+  "flytekitplugins-pandera": {
+    "main": true
+  },
+  "flytekitplugins-spark": {
+    "main": true
+  },
+  "flytekitplugins-sqlalchemy": {
+    "main": true
+  },
+  "fmi4cpp": {
+    "main": true
+  },
+  "fmilib": {
+    "main": true
+  },
+  "fmipp": {
+    "main": true
+  },
+  "fmjpeg2koj": {
+    "main": true
+  },
+  "fml": {
+    "main": true
+  },
+  "fmpy": {
+    "main": true
+  },
+  "fmrib-unpack": {
+    "main": true
+  },
   "kdbusaddons": {
     "main": true
   },
