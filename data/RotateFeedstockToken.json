@@ -21635,6 +21635,144 @@
   "intake-dynamodb": {
     "main": true
   },
+  "intake-elasticsearch": {
+    "main": true
+  },
+  "intake-erddap": {
+    "main": true
+  },
+  "intake-esgf": {
+    "main": true
+  },
+  "intake-esm": {
+    "main": true
+  },
+  "intake-excel": {
+    "main": true
+  },
+  "intake-geopandas": {
+    "main": true
+  },
+  "intake-hive": {
+    "main": true
+  },
+  "intake-iris": {
+    "main": true
+  },
+  "intake-nested-yaml-catalog": {
+    "main": true
+  },
+  "intake-odbc": {
+    "main": true
+  },
+  "intake-omnisci": {
+    "main": true
+  },
+  "intake-parquet": {
+    "main": true
+  },
+  "intake-salesforce": {
+    "main": true
+  },
+  "intake-satpy": {
+    "main": true
+  },
+  "intake-spark": {
+    "main": true
+  },
+  "intake-sql": {
+    "main": true
+  },
+  "intake-sqlite": {
+    "main": true
+  },
+  "intake-stac": {
+    "main": true
+  },
+  "intake-streamz": {
+    "main": true
+  },
+  "intake-thredds": {
+    "main": true
+  },
+  "intake-xarray": {
+    "main": true
+  },
+  "intake_pattern_catalog": {
+    "main": true
+  },
+  "intbitset": {
+    "main": true
+  },
+  "intel-compiler-repack": {
+    "main": true
+  },
+  "intel-compute-runtime": {
+    "main": true
+  },
+  "intel-gmmlib": {
+    "main": true
+  },
+  "intel-graphics-compiler": {
+    "main": true
+  },
+  "intel-hybrid-driver": {
+    "main": true
+  },
+  "intel-ipp": {
+    "main": true
+  },
+  "intel-media-driver": {
+    "main": true
+  },
+  "intel-opencl-clang": {
+    "main": true
+  },
+  "intel-vaapi-driver": {
+    "main": true
+  },
+  "intel_repack": {
+    "main": true
+  },
+  "intelhex": {
+    "main": true
+  },
+  "intensity-normalization": {
+    "main": true
+  },
+  "interactivefitting": {
+    "main": true
+  },
+  "interchange": {
+    "main": true
+  },
+  "interegular": {
+    "main": true
+  },
+  "interface_meta": {
+    "main": true
+  },
+  "interlap": {
+    "main": true
+  },
+  "interleave": {
+    "main": true
+  },
+  "intermat": {
+    "main": true
+  },
+  "intermol": {
+    "main": true
+  },
+  "intern": {
+    "main": true
+  },
+  "internetarchive": {
+    "main": true
+  },
+  "interpax": {
+    "main": true
+  },
   "kdbusaddons": {
     "main": true
   },
