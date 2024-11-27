@@ -25562,6 +25562,9 @@
   "libcusolver": {
     "main": true
   },
+  "libcusolvermp": {
+    "main": true
+  },
   "libcusparse": {
     "main": true
   },
@@ -25677,6 +25680,9 @@
     "main": true
   },
   "libexif": {
+    "main": true
+  },
+  "libfabric": {
     "main": true
   },
   "libfaketime": {
