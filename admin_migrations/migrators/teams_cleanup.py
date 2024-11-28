@@ -56,5 +56,7 @@ class TeamsCleanup(Migrator):
             rsp.raise_for_status()
             print("    updated team", flush=True)
 
-        # migration done, make a commit, lots of API calls
-        return False, False, True
+            # migration done, make a commit, lots of API calls
+            return False, False, True
+        else:
+            return False, False, False
