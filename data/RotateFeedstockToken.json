@@ -34283,6 +34283,9 @@
   "opentelemetry-instrumentation-pyramid": {
     "main": true
   },
+  "opentelemetry-instrumentation-redis": {
+    "main": true
+  },
   "opentelemetry-instrumentation-requests": {
     "main": true
   },
@@ -34466,6 +34469,9 @@
   "optlang": {
     "main": true
   },
+  "optlang_enumerator": {
+    "main": true
+  },
   "optodetools": {
     "main": true
   },
@@ -34613,6 +34619,9 @@
   "orch": {
     "main": true
   },
+  "orcid": {
+    "main": true
+  },
   "ordered-set": {
     "main": true
   },
@@ -34629,6 +34638,9 @@
     "main": true
   },
   "orekit": {
+    "main": true
+  },
+  "orekit_jpype": {
     "main": true
   },
   "orgalorg": {
@@ -34911,6 +34923,9 @@
     "main": true
   },
   "oxli": {
+    "main": true
+  },
+  "oxlint": {
     "main": true
   },
   "oxrdflib": {
