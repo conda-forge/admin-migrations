@@ -33,5 +33,5 @@ Items 1-3 are taken care of by the migrations code.
 | -------------------- | ---------------------------------------------------- | :-----------------------: |
 | CondaForgeYAMLTest   | *always runs*                                        |                         - |
 | RAutomerge           | *always runs*                                        |                         - |
-| RotateFeedstockToken | `################################################# ` |         98% (23333/23587) |
+| RotateFeedstockToken | `################################################# ` |         98% (23334/23587) |
 | TeamsCleanup         | *always runs*                                        |                         - |
