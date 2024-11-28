@@ -42179,6 +42179,9 @@
   "pyrtcm": {
     "main": true
   },
+  "pyrte_rrtmgp": {
+    "main": true
+  },
   "pyrtf": {
     "main": true
   },
@@ -42245,7 +42248,13 @@
   "pyscf": {
     "main": true
   },
+  "pyscf-dispersion": {
+    "main": true
+  },
   "pyscicat": {
+    "main": true
+  },
+  "pysciencemode": {
     "main": true
   },
   "pyscipopt": {
@@ -42725,6 +42734,9 @@
   "pytest-bandit": {
     "main": true
   },
+  "pytest-base-url": {
+    "main": true
+  },
   "pytest-bdd": {
     "main": true
   },
@@ -43097,6 +43109,9 @@
   "pytest-robotframework": {
     "main": true
   },
+  "pytest-run-parallel": {
+    "main": true
+  },
   "pytest-selenium": {
     "main": true
   },
@@ -43218,6 +43233,9 @@
     "main": true
   },
   "pytest_parallel_mpi": {
+    "main": true
+  },
+  "pytest_ruff": {
     "main": true
   },
   "pytestify": {
