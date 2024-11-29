@@ -497,10 +497,10 @@ def main():
                 num_pushed_or_apied += 1
             finished_feedstocks.append(futs[fut])
             num_done += 1
-    
+
             for _m, _branch in migrations_to_record:
                 _m.record(futs[fut], _branch)
-    
+
             print("\nfinished %s\n" % futs[fut], flush=True)
 
     _report_progress(
