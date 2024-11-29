@@ -30,6 +30,14 @@ MIGRATORS = [
 ]
 
 
+@functools.lru_cache(maxsize=1)
+def _get_max_migrate():
+    ret = MAX_MIGRATE
+    for m in MIGRATORS:
+        ret = min(ret, getattr(m, "max_migrate", MAX_MIGRATE))
+    return ret
+
+
 def _assert_at_0():
     yaml = ruamel.yaml.YAML()
     with open(".github/workflows/migrate.yml") as fp:
@@ -487,7 +495,7 @@ def main():
                 break
 
             # did too many?
-            if num_pushed_or_apied >= MAX_MIGRATE:
+            if num_pushed_or_apied >= _get_max_migrate():
                 break
 
         # clean up

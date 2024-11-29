@@ -37,6 +37,8 @@ def _read_conda_forge_yaml(yaml):
 
 
 class CFEP13TurnOff(Migrator):
+    max_migrate = 200
+
     def migrate(self, feedstock, branch):
         yaml = YAML()
         cfg = _read_conda_forge_yaml(yaml)
@@ -236,6 +238,7 @@ def _register_feedstock_outputs(feedstock):
 
 class CFEP13TokensAndConfig(Migrator):
     max_workers = 1
+    max_migrate = 200
 
     def migrate(self, feedstock, branch):
         yaml = YAML()

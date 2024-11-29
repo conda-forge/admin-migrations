@@ -49,6 +49,7 @@ def _delete_tokens_in_azure(user, project, token_names):
 class CFEP13AzureTokenCleanup(Migrator):
     main_branch_only = True
     max_workers = 1
+    max_migrate = 200
 
     def migrate(self, feedstock, branch):
         user = "conda-forge"

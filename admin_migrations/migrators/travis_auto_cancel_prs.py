@@ -40,6 +40,7 @@ def _travis_reconfigure(user, project):
 class TravisCIAutoCancelPRs(Migrator):
     main_branch_only = True
     max_workers = 1
+    max_migrate = 200
 
     def migrate(self, feedstock, branch):
         user = "conda-forge"
