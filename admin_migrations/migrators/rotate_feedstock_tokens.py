@@ -34,6 +34,7 @@ def _write_travis_token(token_env):
 class RotateFeedstockToken(Migrator):
     main_branch_only = True
     max_processes = 1
+    max_migrate = 200
 
     def migrate(self, feedstock, branch):
         if random.uniform(0, 1) < 0.5:
