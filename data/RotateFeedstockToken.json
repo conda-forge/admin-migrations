@@ -12326,6 +12326,12 @@
   "dotnet-interactive": {
     "main": true
   },
+  "dotnet-monitor": {
+    "main": true
+  },
+  "dotnet-outdated": {
+    "main": true
+  },
   "dotnet-script": {
     "main": true
   },
@@ -12873,6 +12879,9 @@
     "main": true
   },
   "dydx-v4-client-split": {
+    "main": true
+  },
+  "dydx-v4-proto-cpp": {
     "main": true
   },
   "dydxprotocol-v4-proto-js": {
@@ -13739,6 +13748,9 @@
   "enum-extend": {
     "main": true
   },
+  "enum_tools": {
+    "main": true
+  },
   "enumlib": {
     "main": true
   },
@@ -14274,6 +14286,12 @@
     "main": true
   },
   "evtgen": {
+    "main": true
+  },
+  "evv4esm": {
+    "main": true
+  },
+  "ewah-bool-utils": {
     "main": true
   },
   "ewmh": {
