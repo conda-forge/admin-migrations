@@ -14564,6 +14564,9 @@
   "facexlib": {
     "main": true
   },
+  "facility-language-server": {
+    "main": true
+  },
   "facilyst": {
     "main": true
   },
@@ -14622,6 +14625,9 @@
     "main": true
   },
   "fake-useragent": {
+    "main": true
+  },
+  "fakecbed": {
     "main": true
   },
   "fakechroot": {
@@ -15491,6 +15497,9 @@
   "flake8-builtins": {
     "main": true
   },
+  "flake8-class-newline": {
+    "main": true
+  },
   "flake8-cognitive-complexity": {
     "main": true
   },
@@ -16284,6 +16293,9 @@
     "main": true
   },
   "foamlib": {
+    "main": true
+  },
+  "foc": {
     "main": true
   },
   "focal-loss": {
@@ -17123,6 +17135,9 @@
   "gcloud-aio-kms": {
     "main": true
   },
+  "gcloud-aio-pubsub": {
+    "main": true
+  },
   "gcloud-aio-storage": {
     "main": true
   },
@@ -17174,7 +17189,13 @@
   "gdcm": {
     "main": true
   },
+  "gdecomp": {
+    "main": true
+  },
   "gdk-pixbuf": {
+    "main": true
+  },
+  "gdma": {
     "main": true
   },
   "gdown": {
@@ -17279,13 +17300,25 @@
   "geehydro": {
     "main": true
   },
+  "geemap": {
+    "main": true
+  },
+  "geetools": {
+    "main": true
+  },
   "gekko": {
     "main": true
   },
   "gelidum": {
     "main": true
   },
+  "gemgis": {
+    "main": true
+  },
   "gemmi": {
+    "main": true
+  },
+  "gempy": {
     "main": true
   },
   "gems3k": {
@@ -17580,6 +17613,9 @@
     "main": true
   },
   "geoschem-gcpy": {
+    "main": true
+  },
+  "geosci": {
     "main": true
   },
   "geosdemo": {
@@ -19727,6 +19763,9 @@
   "h3pandas": {
     "main": true
   },
+  "h3spark": {
+    "main": true
+  },
   "h5coro": {
     "main": true
   },
@@ -19947,6 +19986,9 @@
     "main": true
   },
   "hatch-jupyter-builder": {
+    "main": true
+  },
+  "hatch-min-requirements": {
     "main": true
   },
   "hatch-mypyc": {
@@ -20732,6 +20774,9 @@
   "htmlmin": {
     "main": true
   },
+  "htmlmin2": {
+    "main": true
+  },
   "htmlq": {
     "main": true
   },
@@ -20834,6 +20879,9 @@
   "hugo": {
     "main": true
   },
+  "human-dynamics-estimation": {
+    "main": true
+  },
   "human-learn": {
     "main": true
   },
@@ -20873,7 +20921,13 @@
   "hurry.filesize": {
     "main": true
   },
+  "husky.net": {
+    "main": true
+  },
   "husl": {
+    "main": true
+  },
+  "hussh": {
     "main": true
   },
   "hvac": {
@@ -21288,6 +21342,9 @@
     "main": true
   },
   "igor2": {
+    "main": true
+  },
+  "igrafx-mining-sdk": {
     "main": true
   },
   "igraph": {
@@ -22463,6 +22520,9 @@
   "itemadapter": {
     "main": true
   },
+  "itemloaders": {
+    "main": true
+  },
   "iteration_utilities": {
     "main": true
   },
@@ -22524,6 +22584,9 @@
     "main": true
   },
   "itt-python": {
+    "main": true
+  },
+  "ittapi": {
     "main": true
   },
   "itunespy": {
@@ -22739,6 +22802,9 @@
   "jaydebeapi": {
     "main": true
   },
+  "jazal": {
+    "main": true
+  },
   "jazz-hands": {
     "main": true
   },
@@ -22784,6 +22850,9 @@
   "jellyfish": {
     "main": true
   },
+  "jemalloc": {
+    "main": true
+  },
   "jenkinsapi": {
     "main": true
   },
@@ -22803,6 +22872,9 @@
     "main": true
   },
   "jftools": {
+    "main": true
+  },
+  "jgit": {
     "main": true
   },
   "jgo": {
@@ -24602,6 +24674,12 @@
   "kosh": {
     "main": true
   },
+  "kotlin": {
+    "main": true
+  },
+  "kotlin-language-server": {
+    "main": true
+  },
   "kotsu": {
     "main": true
   },
@@ -24641,7 +24719,13 @@
   "ktextwidgets": {
     "main": true
   },
+  "ktfmt": {
+    "main": true
+  },
   "kthread": {
+    "main": true
+  },
+  "ktlint": {
     "main": true
   },
   "kubeflow-katib": {
