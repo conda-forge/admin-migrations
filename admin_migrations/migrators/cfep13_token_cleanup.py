@@ -175,6 +175,7 @@ def _cleanup_cfgy(code, top, token_name):
 
 class CFEP13TokenCleanup(Migrator):
     max_workers = 1
+    max_migrate = 200
 
     def migrate(self, feedstock, branch):
         user = "conda-forge"
