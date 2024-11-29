@@ -490,18 +490,18 @@ def main():
             if num_pushed_or_apied >= MAX_MIGRATE:
                 break
 
-    # clean up
-    for fut in as_completed(futs):
-        made_api_call, migrations_to_record = fut.result()
-        if made_api_call:
-            num_pushed_or_apied += 1
-        finished_feedstocks.append(futs[fut])
-        num_done += 1
-
-        for _m, _branch in migrations_to_record:
-            _m.record(futs[fut], _branch)
-
-        print("\nfinished %s\n" % futs[fut], flush=True)
+        # clean up
+        for fut in as_completed(futs):
+            made_api_call, migrations_to_record = fut.result()
+            if made_api_call:
+                num_pushed_or_apied += 1
+            finished_feedstocks.append(futs[fut])
+            num_done += 1
+    
+            for _m, _branch in migrations_to_record:
+                _m.record(futs[fut], _branch)
+    
+            print("\nfinished %s\n" % futs[fut], flush=True)
 
     _report_progress(
         num_done_prev, num_done, feedstocks, num_pushed_or_apied, start_time
@@ -521,6 +521,8 @@ def main():
     with open("data/feedstocks.json", "w") as fp:
         json.dump(feedstocks, fp, indent=2, sort_keys=True)
 
+    for m in MIGRATORS:
+        m._load_done_table()
     _render_readme()
 
     if not DEBUG:
