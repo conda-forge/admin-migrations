@@ -9683,6 +9683,9 @@
   "datacache": {
     "main": true
   },
+  "datachain": {
+    "main": true
+  },
   "dataclass-csv": {
     "main": true
   },
@@ -9876,6 +9879,9 @@
     "main": true
   },
   "datasette-template-sql": {
+    "main": true
+  },
+  "datashader": {
     "main": true
   },
   "datashape": {
@@ -12063,6 +12069,12 @@
     "main": true
   },
   "docformatter": {
+    "main": true
+  },
+  "docfx": {
+    "main": true
+  },
+  "docify": {
     "main": true
   },
   "docite": {
