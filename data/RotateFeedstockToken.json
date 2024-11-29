@@ -563,6 +563,9 @@
   "aiida-wannier90_workflows": {
     "main": true
   },
+  "aiida-workgraph": {
+    "main": true
+  },
   "aiida-yambo": {
     "main": true
   },
@@ -3879,6 +3882,9 @@
     "main": true
   },
   "basedmypy": {
+    "main": true
+  },
+  "basedpyright": {
     "main": true
   },
   "basedtyping": {
@@ -10383,6 +10389,9 @@
     "main": true
   },
   "deepsearch-glm": {
+    "main": true
+  },
+  "deepsearch-toolkit": {
     "main": true
   },
   "deepsmiles": {
