@@ -18,14 +18,12 @@ from admin_migrations.defaults import DEBUG, MAX_MIGRATE, MAX_SECONDS, MAX_WORKE
 from admin_migrations.migrators import (
     CondaForgeYAMLTest,
     RAutomerge,
-    RotateFeedstockToken,
     TeamsCleanup,
 )
 
 MIGRATORS = [
     RAutomerge(),
     CondaForgeYAMLTest(),
-    RotateFeedstockToken(),
     TeamsCleanup(),
 ]
 
