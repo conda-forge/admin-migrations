@@ -338,7 +338,7 @@ def _report_progress(
     )
     print("migrated %d feedstokcs" % num_done, flush=True)
     print(
-        "pushed or made API calls for " "%d feedstocks" % num_pushed_or_apied,
+        "pushed or made API calls for %d feedstocks" % num_pushed_or_apied,
         flush=True,
     )
     elapsed_time = time.time() - start_time
@@ -367,7 +367,7 @@ def _render_readme():
     bar_name = bar_name + " " * (bar_len - len(bar_name) + 2)
     pname = "percent" + " " * 18
     table = f"| {mg_col_name} | {bar_name} | {pname} |\n"
-    table += f"| {'-' * mg_col_name_len} | {'-' * (bar_len+2)} | :{'-' * 23}: |\n"
+    table += f"| {'-' * mg_col_name_len} | {'-' * (bar_len + 2)} | :{'-' * 23}: |\n"
 
     always_runs = "*always runs*"
     for m in sorted(MIGRATORS, key=lambda x: x.__class__.__name__):

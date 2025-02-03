@@ -78,7 +78,7 @@ class AppveyorDelete(Migrator):
         appveyor_name = appveyor_name.replace("_", "-").replace(".", "-")
 
         r = requests.get(
-            "https://ci.appveyor.com/api/projects/" "conda-forge/%s" % appveyor_name,
+            "https://ci.appveyor.com/api/projects/conda-forge/%s" % appveyor_name,
             headers=headers,
         )
 
@@ -155,8 +155,7 @@ class AppveyorForceDelete(Migrator):
             appveyor_name = appveyor_name.replace("_", "-").replace(".", "-")
 
             r = requests.get(
-                "https://ci.appveyor.com/api/projects/"
-                "conda-forge/%s" % appveyor_name,
+                "https://ci.appveyor.com/api/projects/conda-forge/%s" % appveyor_name,
                 headers=headers,
             )
 
