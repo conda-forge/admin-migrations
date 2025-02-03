@@ -139,7 +139,7 @@ def _commit_repo(msg):
             "commit",
             "--allow-empty",
             "-am",
-            "[ci skip] [skip ci] [cf admin skip] " "***NO_CI*** %s" % msg,
+            "[ci skip] [skip ci] [cf admin skip] ***NO_CI*** %s" % msg,
         ]
     )
 
