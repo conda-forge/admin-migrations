@@ -1416,7 +1416,6 @@
     "bcdp",
     "bcj-cffi",
     "bcm2835",
-    "bcolz",
     "bcolz-zipline",
     "bcpandas",
     "bcrypt",
@@ -10436,6 +10435,7 @@
     "mono",
     "monotonic",
     "monotonicnetworks",
+    "monsterui",
     "montepy",
     "montreal-forced-aligner",
     "monty",
@@ -13264,6 +13264,7 @@
     "pp-sketchlib",
     "ppci",
     "ppft",
+    "ppigrf",
     "ppl",
     "pplpy",
     "ppmac",
@@ -24531,7 +24532,6 @@
     "zipfile-deflate64",
     "zipfile2",
     "zipfly",
-    "zipline",
     "zipline-reloaded",
     "zipp",
     "zipstream-new",
@@ -24612,6 +24612,7 @@
     "backports.tempfile",
     "basemap-data-hires",
     "basictools",
+    "bcolz",
     "biggus",
     "bio-embeddings",
     "bio-embeddings-bepler",
@@ -25256,6 +25257,7 @@
     "zfp",
     "zip-cos6-x86_64",
     "zipfile36",
+    "zipline",
     "zwatershed"
   ]
 }
