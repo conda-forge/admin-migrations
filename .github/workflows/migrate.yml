@@ -27,7 +27,7 @@ jobs:
         with:
           token: ${{ secrets.CF_ADMIN_GITHUB_TOKEN }}
 
-      - uses: mamba-org/setup-micromamba@0dea6379afdaffa5d528b3d1dabc45da37f443fc
+      - uses: mamba-org/setup-micromamba@b09ef9b599704322748535812ca03efb2625677b
         with:
           environment-file: environment.yml
           environment-name: cf-admin-migrations
