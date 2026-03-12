@@ -25,8 +25,7 @@ jobs:
 
 class EnableGHAWorkflows(Migrator):
     main_branch_only = True
-    
-    
+
     def migrate(self, feedstock, branch):
         workflows_dir = Path(".github/workflows")
         if list(*workflows_dir.glob("*.yml"), *workflows_dir.glob("*.yaml")):
@@ -50,13 +49,11 @@ class EnableGHAWorkflows(Migrator):
             return True
         if feedstock not in self.feedstocks_to_process:
             return True
-    
+
     @property
     def feedstocks_to_process(self):
         if not getattr(self, "_feedstocks_to_process", None):
             self._feedstocks_to_process = set(
-                json.loads(
-                    Path("data/feedstocks_20241010-20260312.json").read_text()
-                )
+                json.loads(Path("data/feedstocks_20241010-20260312.json").read_text())
             )
         return self._feedstocks_to_process
