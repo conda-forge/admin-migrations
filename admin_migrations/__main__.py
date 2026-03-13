@@ -315,7 +315,6 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                         )
 
                             except Exception as e:
-                                print("caught big exception", flush=True)
                                 worked = False
                                 print("    ERROR:", repr(e), flush=True)
                                 if DEBUG:
