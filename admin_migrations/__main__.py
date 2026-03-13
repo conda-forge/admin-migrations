@@ -331,7 +331,9 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
 
                             if worked:
                                 migrators_to_record.append((m, branch))
-                            else:
+                            elif branch != "test-ci-fail":
+                                # test-ci-fail is a test branch meant to fail,
+                                # do not report as error in CI
                                 exit_code = 1
 
                             print(" ", flush=True)
