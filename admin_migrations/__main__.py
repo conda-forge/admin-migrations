@@ -87,13 +87,12 @@ def pushd(new_dir):
 
 
 def _run_git_command(args, check=True):
-    print(["git"] + args, flush=True)
     s = subprocess.run(
         ["git"] + args,
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
     )
-    if s.returncode != 0:
+    if s.returncode != 0 and not check:
         print(f"    ERROR: {s.stdout.decode('utf-8')}", flush=True)
     if check:
         s.check_returncode()
@@ -316,6 +315,7 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                         )
 
                             except Exception as e:
+                                print("caught big exception", flush=True)
                                 worked = False
                                 print("    ERROR:", repr(e), flush=True)
                                 if DEBUG:
