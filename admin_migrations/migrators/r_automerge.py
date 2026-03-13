@@ -150,6 +150,8 @@ class RAutomerge(Migrator):
     3. uses the {{ cran_mirror }} jinja2 variable or has a cran url
     """
 
+    continual = True
+
     def migrate(self, feedstock, branch):
         print("    r team:", _has_r_team(), flush=True)
         print("    cran url:", _has_cran_url(), flush=True)

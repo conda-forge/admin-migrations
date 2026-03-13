@@ -7,6 +7,7 @@ class Migrator:
     # this can be used for migrations that update CI services used by all branches
     main_branch_only = False
     max_processes = 100000
+    continual = False
 
     def __init__(self):
         self._load_done_table()

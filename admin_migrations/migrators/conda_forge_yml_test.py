@@ -8,6 +8,8 @@ from .base import Migrator
 class CondaForgeYAMLTest(Migrator):
     """Cleanup conda-forge.yml test_on_native_only"""
 
+    continual = True
+
     def migrate(self, feedstock, branch):
         with open("conda-forge.yml") as fp:
             meta_yaml = fp.read()

@@ -6,7 +6,9 @@ import os
 import subprocess
 import tempfile
 import time
+import traceback
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from textwrap import indent
 
 import github
 import requests
@@ -17,14 +19,17 @@ from requests.exceptions import RequestException
 from admin_migrations.defaults import DEBUG, MAX_MIGRATE, MAX_SECONDS, MAX_WORKERS
 from admin_migrations.migrators import (
     CondaForgeYAMLTest,
+    EnableGHAWorkflows,
     RAutomerge,
     TeamsCleanup,
 )
+from admin_migrations.migrators.base import Migrator
 
 MIGRATORS = [
     RAutomerge(),
     CondaForgeYAMLTest(),
     TeamsCleanup(),
+    EnableGHAWorkflows(),
 ]
 
 
@@ -87,7 +92,7 @@ def _run_git_command(args, check=True):
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
     )
-    if s.returncode != 0:
+    if s.returncode != 0 and not check:
         print(f"    ERROR: {s.stdout.decode('utf-8')}", flush=True)
     if check:
         s.check_returncode()
@@ -191,9 +196,9 @@ def _commit_data():
     _run_git_command(["push", "--quiet"])
 
 
-def run_migrators(feedstock, migrators):
+def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]], int]:
     if len(migrators) == 0:
-        return False, []
+        return False, [], 0
 
     print("=" * 80, flush=True)
     print("=" * 80, flush=True)
@@ -215,6 +220,7 @@ def run_migrators(feedstock, migrators):
         )
     )
 
+    exit_code = 0
     with tempfile.TemporaryDirectory() as tmpdir:
         with pushd(tmpdir):
             try:
@@ -314,15 +320,25 @@ def run_migrators(feedstock, migrators):
                             except Exception as e:
                                 worked = False
                                 print("    ERROR:", repr(e), flush=True)
+                                if DEBUG:
+                                    print(
+                                        indent(
+                                            "".join(traceback.format_exception(e)),
+                                            "    ",
+                                        ),
+                                        flush=True,
+                                    )
 
                             if worked:
                                 migrators_to_record.append((m, branch))
+                            elif not m.continual:
+                                exit_code = 1
 
                             print(" ", flush=True)
 
     print("\nmigration took %s seconds\n\n" % (time.time() - _start), flush=True)
 
-    return made_api_calls, migrators_to_record
+    return made_api_calls, migrators_to_record, exit_code
 
 
 def _report_progress(
@@ -379,7 +395,7 @@ def _render_readme():
         percent = f"{int(frac * 100):-3d}%" + f" ({done}/{total})"
 
         progress = int(frac * bar_seg)
-        if name in ["TeamsCleanup", "CondaForgeYAMLTest", "RAutomerge"]:
+        if m.continual:
             table += (
                 f"| {name}{' ' * (mg_col_name_len - len(name))} "
                 f"| {always_runs}{' ' * (bar_len - len(always_runs) + 2)} | "
@@ -401,7 +417,7 @@ def _render_readme():
         fp.write(readme)
 
 
-def main():
+def main() -> int:
     print(" ", flush=True)
 
     feedstocks = _load_feedstock_data()
@@ -443,6 +459,7 @@ def main():
 
     num_done = 0
     num_pushed_or_apied = 0
+    exit_code = 0
     start_time = time.time()
     report_time = time.time()
     futs = {}
@@ -460,11 +477,15 @@ def main():
             )
             if len(futs) >= n_workers:
                 for fut in as_completed(futs):
-                    made_api_call, migrations_to_record = fut.result()
+                    made_api_call, migrations_to_record, migrator_exit_code = (
+                        fut.result()
+                    )
                     if made_api_call:
                         num_pushed_or_apied += 1
                     finished_feedstocks.append(futs[fut])
                     num_done += 1
+                    if migrator_exit_code:
+                        exit_code = 1
 
                     for _m, _branch in migrations_to_record:
                         _m.record(futs[fut], _branch)
@@ -498,11 +519,13 @@ def main():
 
         # clean up
         for fut in as_completed(futs):
-            made_api_call, migrations_to_record = fut.result()
+            made_api_call, migrations_to_record, migrator_exit_code = fut.result()
             if made_api_call:
                 num_pushed_or_apied += 1
             finished_feedstocks.append(futs[fut])
             num_done += 1
+            if migrator_exit_code:
+                exit_code = 1
 
             for _m, _branch in migrations_to_record:
                 _m.record(futs[fut], _branch)
@@ -531,5 +554,10 @@ def main():
         m._load_done_table()
     _render_readme()
 
-    if not DEBUG:
+    if DEBUG:
+        # In debug mode, we want to report errors
+        return exit_code
+    else:
         _commit_data()
+        # In production, we don't report errors
+        return 0
