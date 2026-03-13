@@ -285,7 +285,6 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                     feedstock, branch
                                 )
                                 made_api_calls = made_api_calls or _made_api_calls
-                                print("m|worked:", m, worked, flush=True)
 
                                 if commit_me:
                                     _run_git_command(
@@ -330,7 +329,7 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
 
                             if worked:
                                 migrators_to_record.append((m, branch))
-                            else:
+                            elif not m.continual:
                                 exit_code = 1
 
                             print(" ", flush=True)
