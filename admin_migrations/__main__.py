@@ -262,14 +262,15 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                 print("    branch:", branch, flush=True)
                                 try:
                                     _run_git_command(
-                                        ["checkout", "--track", "origin/" + branch],
+                                        ["switch" + branch],
                                         check=True,
                                     )
                                 except Exception:
                                     ok, e = _run_git_command(
                                         [
                                             "checkout",
-                                            "refs/heads/" + branch,
+                                            "-b",
+                                            branch,
                                             "-t",
                                             "origin/" + branch,
                                         ],
