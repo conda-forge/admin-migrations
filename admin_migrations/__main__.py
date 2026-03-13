@@ -481,6 +481,7 @@ def main() -> int:
                     finished_feedstocks.append(futs[fut])
                     num_done += 1
                     if migrator_exit_code:
+                        print("exit code is 1:", migrations_to_record, flush=True)
                         exit_code = 1
 
                     for _m, _branch in migrations_to_record:
@@ -521,6 +522,7 @@ def main() -> int:
             finished_feedstocks.append(futs[fut])
             num_done += 1
             if migrator_exit_code:
+                print("exit code is 1:", migrations_to_record, flush=True)
                 exit_code = 1
 
             for _m, _branch in migrations_to_record:
