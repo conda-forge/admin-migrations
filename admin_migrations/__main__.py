@@ -87,6 +87,7 @@ def pushd(new_dir):
 
 
 def _run_git_command(args, check=True):
+    print(["git"] + args, flush=True)
     s = subprocess.run(
         ["git"] + args,
         stdout=subprocess.PIPE,
