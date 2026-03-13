@@ -475,11 +475,13 @@ def main() -> int:
             )
             if len(futs) >= n_workers:
                 for fut in as_completed(futs):
-                    made_api_call, migrations_to_record = fut.result()
+                    made_api_call, migrations_to_record, migrator_exit_code = fut.result()
                     if made_api_call:
                         num_pushed_or_apied += 1
                     finished_feedstocks.append(futs[fut])
                     num_done += 1
+                    if migrator_exit_code:
+                        exit_code = 1
 
                     for _m, _branch in migrations_to_record:
                         _m.record(futs[fut], _branch)
