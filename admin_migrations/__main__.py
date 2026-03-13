@@ -269,8 +269,7 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                     ok, e = _run_git_command(
                                         [
                                             "checkout",
-                                            "-b",
-                                            branch,
+                                            "refs/heads/" + branch,
                                             "-t",
                                             "origin/" + branch,
                                         ],
