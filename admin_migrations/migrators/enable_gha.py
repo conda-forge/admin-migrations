@@ -53,7 +53,7 @@ class EnableGHAWorkflows(Migrator):
     @property
     def feedstocks_to_process(self):
         if not getattr(self, "_feedstocks_to_process", None):
-            self._feedstocks_to_process = set(
-                json.loads(Path("data/feedstocks_20241010-20260312.json").read_text())
-            )
+            here = Path(__file__).parent
+            json_path = here / "../../data/feedstocks_20241010-20260312.json"
+            self._feedstocks_to_process = set(json.loads(json_path.read_text()))
         return self._feedstocks_to_process
