@@ -6,7 +6,9 @@ import os
 import subprocess
 import tempfile
 import time
+import traceback
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from textwrap import indent
 
 import github
 import requests
@@ -318,6 +320,14 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                             except Exception as e:
                                 worked = False
                                 print("    ERROR:", repr(e), flush=True)
+                                if DEBUG:
+                                    print(
+                                        indent(
+                                            "".join(traceback.format_exception(e)),
+                                            "    ",
+                                        ),
+                                        flush=True,
+                                    )
 
                             if worked:
                                 migrators_to_record.append((m, branch))
