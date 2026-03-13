@@ -393,7 +393,7 @@ def _render_readme():
         percent = f"{int(frac * 100):-3d}%" + f" ({done}/{total})"
 
         progress = int(frac * bar_seg)
-        if name in ["TeamsCleanup", "CondaForgeYAMLTest", "RAutomerge"]:
+        if m.continual:
             table += (
                 f"| {name}{' ' * (mg_col_name_len - len(name))} "
                 f"| {always_runs}{' ' * (bar_len - len(always_runs) + 2)} | "
@@ -475,7 +475,9 @@ def main() -> int:
             )
             if len(futs) >= n_workers:
                 for fut in as_completed(futs):
-                    made_api_call, migrations_to_record, migrator_exit_code = fut.result()
+                    made_api_call, migrations_to_record, migrator_exit_code = (
+                        fut.result()
+                    )
                     if made_api_call:
                         num_pushed_or_apied += 1
                     finished_feedstocks.append(futs[fut])
