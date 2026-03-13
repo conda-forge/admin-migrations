@@ -1,5 +1,6 @@
 import json
 import subprocess
+from itertools import chain
 from pathlib import Path
 
 from .base import Migrator
@@ -28,7 +29,7 @@ class EnableGHAWorkflows(Migrator):
 
     def migrate(self, feedstock, branch):
         workflows_dir = Path(".github/workflows")
-        if list(*workflows_dir.glob("*.yml"), *workflows_dir.glob("*.yaml")):
+        if list(chain(workflows_dir.glob("*.yml"), workflows_dir.glob("*.yaml"))):
             # Already enabled
             return True, False, False
 
