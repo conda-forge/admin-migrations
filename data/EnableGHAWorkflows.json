@@ -8843,16 +8843,91 @@
   "jsonrpcserver": {
     "main": true
   },
+  "jsons": {
+    "main": true
+  },
+  "jsonschema": {
+    "main": true
+  },
+  "jsonschema-default": {
+    "main": true
+  },
+  "jsonschema-gentypes": {
+    "main": true
+  },
+  "jsonschema-path": {
+    "main": true
+  },
   "jsonschema-rs": {
+    "main": true
+  },
+  "jsonschema-spec": {
+    "main": true
+  },
+  "jsonschema-specifications": {
+    "main": true
+  },
+  "jsonschema2md": {
     "main": true
   },
   "jsonspice": {
     "main": true
   },
+  "jsonsubschema": {
+    "main": true
+  },
+  "jsontableschema": {
+    "main": true
+  },
+  "jsontableschema-pandas": {
+    "main": true
+  },
+  "jsonyx": {
+    "main": true
+  },
+  "jstyleson": {
+    "main": true
+  },
+  "jstz": {
+    "main": true
+  },
+  "jsx-lexer": {
+    "main": true
+  },
+  "jtango": {
+    "main": true
+  },
   "jtd": {
     "main": true
   },
+  "judy": {
+    "main": true
+  },
+  "jug": {
+    "main": true
+  },
   "jujutsu": {
+    "main": true
+  },
+  "julearn": {
+    "main": true
+  },
+  "julia": {
+    "main": true
+  },
+  "julia-conda-packaging": {
+    "main": true
+  },
+  "julia-parsers": {
+    "main": true
+  },
+  "julian": {
+    "main": true
+  },
+  "juliart": {
+    "main": true
+  },
+  "juliaup": {
     "main": true
   },
   "julius": {
@@ -8861,7 +8936,52 @@
   "jumanji": {
     "main": true
   },
+  "jump": {
+    "main": true
+  },
+  "junifer": {
+    "main": true
+  },
   "junifer-data": {
+    "main": true
+  },
+  "junit-xml": {
+    "main": true
+  },
+  "junit2html": {
+    "main": true
+  },
+  "junit5": {
+    "main": true
+  },
+  "junitparser": {
+    "main": true
+  },
+  "jupikchr": {
+    "main": true
+  },
+  "jupitest": {
+    "main": true
+  },
+  "jupyros": {
+    "main": true
+  },
+  "jupysql": {
+    "main": true
+  },
+  "jupysql-plugin": {
+    "main": true
+  },
+  "jupytab": {
+    "main": true
+  },
+  "jupytab-server": {
+    "main": true
+  },
+  "jupyter": {
+    "main": true
+  },
+  "jupyter-ai": {
     "main": true
   },
   "jupyter-ai-litellm": {
@@ -8870,22 +8990,76 @@
   "jupyter-ai-magic-commands": {
     "main": true
   },
+  "jupyter-ai-persona-manager": {
+    "main": true
+  },
   "jupyter-ai-router": {
+    "main": true
+  },
+  "jupyter-archive": {
+    "main": true
+  },
+  "jupyter-black": {
+    "main": true
+  },
+  "jupyter-book": {
+    "main": true
+  },
+  "jupyter-cache": {
+    "main": true
+  },
+  "jupyter-collaboration": {
     "main": true
   },
   "jupyter-collaboration-ui": {
     "main": true
   },
+  "jupyter-containds": {
+    "main": true
+  },
   "jupyter-docprovider": {
+    "main": true
+  },
+  "jupyter-docx-bundler": {
     "main": true
   },
   "jupyter-drives": {
     "main": true
   },
+  "jupyter-forward": {
+    "main": true
+  },
+  "jupyter-fs": {
+    "main": true
+  },
   "jupyter-fsspec": {
     "main": true
   },
+  "jupyter-hdfscm": {
+    "main": true
+  },
+  "jupyter-idle": {
+    "main": true
+  },
+  "jupyter-jaeger": {
+    "main": true
+  },
+  "jupyter-jsmol": {
+    "main": true
+  },
   "jupyter-kernel-client": {
+    "main": true
+  },
+  "jupyter-kernel-provisioner-proxy": {
+    "main": true
+  },
+  "jupyter-kernel-singular": {
+    "main": true
+  },
+  "jupyter-launcher-shortcuts": {
+    "main": true
+  },
+  "jupyter-lsp": {
     "main": true
   },
   "jupyter-marimo-proxy": {
@@ -8897,31 +9071,268 @@
   "jupyter-nbmodel-client": {
     "main": true
   },
+  "jupyter-offlinenotebook": {
+    "main": true
+  },
+  "jupyter-packaging": {
+    "main": true
+  },
+  "jupyter-panel-proxy": {
+    "main": true
+  },
+  "jupyter-pluto-proxy": {
+    "main": true
+  },
+  "jupyter-project": {
+    "main": true
+  },
+  "jupyter-releaser": {
+    "main": true
+  },
   "jupyter-remote-desktop-proxy": {
+    "main": true
+  },
+  "jupyter-repo2docker": {
+    "main": true
+  },
+  "jupyter-resource-usage": {
+    "main": true
+  },
+  "jupyter-rfb": {
+    "main": true
+  },
+  "jupyter-rospkg": {
+    "main": true
+  },
+  "jupyter-rsession-proxy": {
     "main": true
   },
   "jupyter-ruff": {
     "main": true
   },
+  "jupyter-scatter": {
+    "main": true
+  },
   "jupyter-secrets-manager": {
+    "main": true
+  },
+  "jupyter-server-mathjax": {
     "main": true
   },
   "jupyter-server-mcp": {
     "main": true
   },
+  "jupyter-server-proxy": {
+    "main": true
+  },
+  "jupyter-sphinx": {
+    "main": true
+  },
+  "jupyter-sshd-proxy": {
+    "main": true
+  },
+  "jupyter-starters": {
+    "main": true
+  },
+  "jupyter-starters-reinforcement-learning-dennybritz": {
+    "main": true
+  },
   "jupyter-suggestions": {
+    "main": true
+  },
+  "jupyter-syncthing-proxy": {
+    "main": true
+  },
+  "jupyter-sysml-kernel": {
+    "main": true
+  },
+  "jupyter-templates": {
+    "main": true
+  },
+  "jupyter-themer": {
+    "main": true
+  },
+  "jupyter-ui-poll": {
+    "main": true
+  },
+  "jupyter-videochat": {
+    "main": true
+  },
+  "jupyter-vscode-proxy": {
+    "main": true
+  },
+  "jupyter-wxyz": {
+    "main": true
+  },
+  "jupyter_app_launcher": {
+    "main": true
+  },
+  "jupyter_ascending": {
+    "main": true
+  },
+  "jupyter_bokeh": {
+    "main": true
+  },
+  "jupyter_client": {
+    "main": true
+  },
+  "jupyter_cms": {
+    "main": true
+  },
+  "jupyter_conda": {
+    "main": true
+  },
+  "jupyter_console": {
+    "main": true
+  },
+  "jupyter_contrib_core": {
+    "main": true
+  },
+  "jupyter_contrib_nbextensions": {
+    "main": true
+  },
+  "jupyter_core": {
+    "main": true
+  },
+  "jupyter_dashboards": {
+    "main": true
+  },
+  "jupyter_enterprise_gateway": {
+    "main": true
+  },
+  "jupyter_events": {
+    "main": true
+  },
+  "jupyter_full_width": {
+    "main": true
+  },
+  "jupyter_highlight_selected_word": {
     "main": true
   },
   "jupyter_host_file_picker": {
     "main": true
   },
+  "jupyter_innotater": {
+    "main": true
+  },
+  "jupyter_kernel_gateway": {
+    "main": true
+  },
+  "jupyter_kernel_test": {
+    "main": true
+  },
+  "jupyter_latex_envs": {
+    "main": true
+  },
+  "jupyter_nbextensions_configurator": {
+    "main": true
+  },
+  "jupyter_paperboy": {
+    "main": true
+  },
+  "jupyter_pivottablejs": {
+    "main": true
+  },
+  "jupyter_qtconsole_colorschemes": {
+    "main": true
+  },
+  "jupyter_resource_usage_proxy": {
+    "main": true
+  },
+  "jupyter_scheduler": {
+    "main": true
+  },
+  "jupyter_server": {
+    "main": true
+  },
   "jupyter_server_documents": {
+    "main": true
+  },
+  "jupyter_server_fileid": {
+    "main": true
+  },
+  "jupyter_server_terminals": {
+    "main": true
+  },
+  "jupyter_server_terminals_proxy": {
+    "main": true
+  },
+  "jupyter_server_xarray_leaflet": {
+    "main": true
+  },
+  "jupyter_server_ydoc": {
+    "main": true
+  },
+  "jupyter_telemetry": {
+    "main": true
+  },
+  "jupyter_to_medium": {
+    "main": true
+  },
+  "jupyter_ydoc": {
+    "main": true
+  },
+  "jupyterbook-latex": {
+    "main": true
+  },
+  "jupytercad": {
+    "main": true
+  },
+  "jupytercad-freecad": {
+    "main": true
+  },
+  "jupytercad-salome": {
     "main": true
   },
   "jupytercad-urdf": {
     "main": true
   },
+  "jupyterclearcheck": {
+    "main": true
+  },
+  "jupytergis-packages": {
+    "main": true
+  },
+  "jupyterhub": {
+    "main": true
+  },
+  "jupyterhub-idle-culler": {
+    "main": true
+  },
+  "jupyterhub-kubespawner": {
+    "main": true
+  },
+  "jupyterhub-ldapauthenticator": {
+    "main": true
+  },
+  "jupyterhub-systemdspawner": {
+    "main": true
+  },
+  "jupyterhub-terraformspawner": {
+    "main": true
+  },
+  "jupyterhub-traefik-proxy": {
+    "main": true
+  },
+  "jupyterhub-yarnspawner": {
+    "main": true
+  },
+  "jupyterlab": {
+    "main": true
+  },
+  "jupyterlab-accessible-themes": {
+    "main": true
+  },
   "jupyterlab-ai-commands": {
+    "main": true
+  },
+  "jupyterlab-autosave-on-focus-change": {
+    "main": true
+  },
+  "jupyterlab-blockly": {
+    "main": true
+  },
+  "jupyterlab-cell-flash": {
     "main": true
   },
   "jupyterlab-cell-input-footer": {
@@ -8930,10 +9341,28 @@
   "jupyterlab-chat": {
     "main": true
   },
+  "jupyterlab-code-snippets": {
+    "main": true
+  },
   "jupyterlab-commands-toolkit": {
     "main": true
   },
+  "jupyterlab-copy-relative-path": {
+    "main": true
+  },
+  "jupyterlab-daw": {
+    "main": true
+  },
+  "jupyterlab-day": {
+    "main": true
+  },
+  "jupyterlab-deck": {
+    "main": true
+  },
   "jupyterlab-diff": {
+    "main": true
+  },
+  "jupyterlab-drawio": {
     "main": true
   },
   "jupyterlab-dyno": {
@@ -8942,34 +9371,286 @@
   "jupyterlab-eventlistener": {
     "main": true
   },
+  "jupyterlab-fasta": {
+    "main": true
+  },
+  "jupyterlab-favorites": {
+    "main": true
+  },
+  "jupyterlab-fileopen": {
+    "main": true
+  },
+  "jupyterlab-filesystem-access": {
+    "main": true
+  },
+  "jupyterlab-flake8": {
+    "main": true
+  },
+  "jupyterlab-fonts": {
+    "main": true
+  },
   "jupyterlab-gallery": {
     "main": true
   },
   "jupyterlab-gather": {
     "main": true
   },
+  "jupyterlab-geojson": {
+    "main": true
+  },
+  "jupyterlab-gist-it": {
+    "main": true
+  },
+  "jupyterlab-git": {
+    "main": true
+  },
+  "jupyterlab-github": {
+    "main": true
+  },
+  "jupyterlab-graph-lsp": {
+    "main": true
+  },
+  "jupyterlab-gt-coar-theme": {
+    "main": true
+  },
+  "jupyterlab-h5web": {
+    "main": true
+  },
+  "jupyterlab-interactive-dashboard-editor": {
+    "main": true
+  },
   "jupyterlab-js": {
+    "main": true
+  },
+  "jupyterlab-js-logs": {
+    "main": true
+  },
+  "jupyterlab-katex": {
+    "main": true
+  },
+  "jupyterlab-kernelspy": {
+    "main": true
+  },
+  "jupyterlab-language-packs": {
+    "main": true
+  },
+  "jupyterlab-latex": {
     "main": true
   },
   "jupyterlab-launchpad": {
     "main": true
   },
+  "jupyterlab-lego-boost": {
+    "main": true
+  },
+  "jupyterlab-link-share": {
+    "main": true
+  },
   "jupyterlab-logtalk-codemirror-extension": {
+    "main": true
+  },
+  "jupyterlab-markup": {
+    "main": true
+  },
+  "jupyterlab-mathjax2": {
+    "main": true
+  },
+  "jupyterlab-mathjax3": {
+    "main": true
+  },
+  "jupyterlab-mosaic": {
+    "main": true
+  },
+  "jupyterlab-myst": {
+    "main": true
+  },
+  "jupyterlab-night": {
+    "main": true
+  },
+  "jupyterlab-niryo-one": {
     "main": true
   },
   "jupyterlab-notebook-awareness": {
     "main": true
   },
+  "jupyterlab-notifications": {
+    "main": true
+  },
+  "jupyterlab-nvdashboard": {
+    "main": true
+  },
+  "jupyterlab-pioneer": {
+    "main": true
+  },
+  "jupyterlab-plugin-graph": {
+    "main": true
+  },
+  "jupyterlab-pullrequests": {
+    "main": true
+  },
+  "jupyterlab-quickopen": {
+    "main": true
+  },
+  "jupyterlab-recents": {
+    "main": true
+  },
+  "jupyterlab-s3-browser": {
+    "main": true
+  },
+  "jupyterlab-search-replace": {
+    "main": true
+  },
   "jupyterlab-slideshow": {
+    "main": true
+  },
+  "jupyterlab-snippets": {
     "main": true
   },
   "jupyterlab-solarized-light-theme": {
     "main": true
   },
+  "jupyterlab-sos": {
+    "main": true
+  },
+  "jupyterlab-spellchecker": {
+    "main": true
+  },
+  "jupyterlab-spreadsheet-editor": {
+    "main": true
+  },
+  "jupyterlab-stickyland": {
+    "main": true
+  },
+  "jupyterlab-topbar": {
+    "main": true
+  },
+  "jupyterlab-topbar-text": {
+    "main": true
+  },
+  "jupyterlab-tour": {
+    "main": true
+  },
+  "jupyterlab-transient-display-data": {
+    "main": true
+  },
+  "jupyterlab-translate": {
+    "main": true
+  },
+  "jupyterlab-ui-profiler": {
+    "main": true
+  },
+  "jupyterlab-unfold": {
+    "main": true
+  },
+  "jupyterlab-urdf": {
+    "main": true
+  },
+  "jupyterlab-variableinspector": {
+    "main": true
+  },
+  "jupyterlab-vega2": {
+    "main": true
+  },
+  "jupyterlab-vega3": {
+    "main": true
+  },
+  "jupyterlab-vpython": {
+    "main": true
+  },
+  "jupyterlab-webrtc-docprovider": {
+    "main": true
+  },
+  "jupyterlab-wipp": {
+    "main": true
+  },
+  "jupyterlab_autoversion": {
+    "main": true
+  },
+  "jupyterlab_code_formatter": {
+    "main": true
+  },
+  "jupyterlab_commands": {
+    "main": true
+  },
+  "jupyterlab_downloadfolder": {
+    "main": true
+  },
+  "jupyterlab_email": {
+    "main": true
+  },
+  "jupyterlab_execute_time": {
+    "main": true
+  },
+  "jupyterlab_genv": {
+    "main": true
+  },
+  "jupyterlab_iframe": {
+    "main": true
+  },
+  "jupyterlab_launcher": {
+    "main": true
+  },
+  "jupyterlab_miami_nights": {
+    "main": true
+  },
+  "jupyterlab_nbconvert_nocode-meta": {
+    "main": true
+  },
+  "jupyterlab_powerpoint": {
+    "main": true
+  },
+  "jupyterlab_pygments": {
+    "main": true
+  },
+  "jupyterlab_rise": {
+    "main": true
+  },
+  "jupyterlab_robotmode": {
+    "main": true
+  },
+  "jupyterlab_server": {
+    "main": true
+  },
+  "jupyterlab_templates": {
+    "main": true
+  },
+  "jupyterlab_vim": {
+    "main": true
+  },
+  "jupyterlab_widgets": {
+    "main": true
+  },
+  "jupyterlite": {
+    "main": true
+  },
   "jupyterlite-ai": {
     "main": true
   },
+  "jupyterlite-core": {
+    "main": true
+  },
+  "jupyterlite-javascript-kernel": {
+    "main": true
+  },
+  "jupyterlite-pyodide-kernel": {
+    "main": true
+  },
   "jupyterlite-pyodide-lock": {
+    "main": true
+  },
+  "jupyterlite-sphinx": {
+    "main": true
+  },
+  "jupyterlite-terminal": {
+    "main": true
+  },
+  "jupyterlite-xeus": {
+    "main": true
+  },
+  "jupyterlite-xeus-python": {
+    "main": true
+  },
+  "jupyternotify": {
     "main": true
   },
   "jupyterpack": {
@@ -8978,13 +9659,61 @@
   "jupyterquiz": {
     "main": true
   },
+  "jupyterthemes": {
+    "main": true
+  },
+  "jupyterview": {
+    "main": true
+  },
+  "jupytext": {
+    "main": true
+  },
+  "jupyverse": {
+    "main": true
+  },
+  "jupyverse-api": {
+    "main": true
+  },
   "jurigged": {
+    "main": true
+  },
+  "just": {
     "main": true
   },
   "justext": {
     "main": true
   },
+  "justpath": {
+    "main": true
+  },
+  "justpy": {
+    "main": true
+  },
+  "jut": {
+    "main": true
+  },
   "juv": {
+    "main": true
+  },
+  "jwcrypto": {
+    "main": true
+  },
+  "jwskate": {
+    "main": true
+  },
+  "jwt-cpp": {
+    "main": true
+  },
+  "jxlpy": {
+    "main": true
+  },
+  "jxrlib": {
+    "main": true
+  },
+  "jyg": {
+    "main": true
+  },
+  "k3d": {
     "main": true
   },
   "k6": {
@@ -8996,7 +9725,58 @@
   "kadi-apy": {
     "main": true
   },
+  "kafka-python": {
+    "main": true
+  },
+  "kafka-python-ng": {
+    "main": true
+  },
+  "kafkacat": {
+    "main": true
+  },
+  "kafkit": {
+    "main": true
+  },
+  "kaggle": {
+    "main": true
+  },
+  "kaggle-environments": {
+    "main": true
+  },
+  "kagglehub": {
+    "main": true
+  },
   "kagglesdk": {
+    "main": true
+  },
+  "kahip": {
+    "main": true
+  },
+  "kaitaistruct": {
+    "main": true
+  },
+  "kakoune": {
+    "main": true
+  },
+  "kalasiris": {
+    "main": true
+  },
+  "kaldi": {
+    "main": true
+  },
+  "kaldi_io": {
+    "main": true
+  },
+  "kaldiio": {
+    "main": true
+  },
+  "kaleido-core": {
+    "main": true
+  },
+  "kalendar": {
+    "main": true
+  },
+  "kalepy": {
     "main": true
   },
   "kalker": {
@@ -9005,19 +9785,109 @@
   "kalmangrad": {
     "main": true
   },
+  "kalpy": {
+    "main": true
+  },
+  "kanapy": {
+    "main": true
+  },
+  "kanaries-track": {
+    "main": true
+  },
+  "kanban-python": {
+    "main": true
+  },
+  "kanga": {
+    "main": true
+  },
+  "kangas": {
+    "main": true
+  },
+  "kanidm-clients": {
+    "main": true
+  },
   "kantoku": {
+    "main": true
+  },
+  "kaolin": {
+    "main": true
+  },
+  "kapteyn": {
+    "main": true
+  },
+  "karateclub": {
+    "main": true
+  },
+  "karawun": {
     "main": true
   },
   "kariba": {
     "main": true
   },
+  "karilang-kernel": {
+    "main": true
+  },
   "karma": {
+    "main": true
+  },
+  "karn": {
     "main": true
   },
   "karney": {
     "main": true
   },
+  "kartograf": {
+    "main": true
+  },
+  "kartothek": {
+    "main": true
+  },
+  "kastore": {
+    "main": true
+  },
+  "katago": {
+    "main": true
+  },
+  "katex": {
+    "main": true
+  },
+  "kats": {
+    "main": true
+  },
+  "kazoo": {
+    "main": true
+  },
+  "kazu": {
+    "main": true
+  },
+  "kbatch": {
+    "main": true
+  },
+  "kdepy": {
+    "main": true
+  },
+  "kdtree": {
+    "main": true
+  },
+  "kealib": {
+    "main": true
+  },
+  "kedro": {
+    "main": true
+  },
+  "kedro-aim": {
+    "main": true
+  },
+  "kedro-airflow": {
+    "main": true
+  },
+  "kedro-boot": {
+    "main": true
+  },
   "kedro-dagster": {
+    "main": true
+  },
+  "kedro-datasets": {
     "main": true
   },
   "kedro-docker": {
@@ -9026,28 +9896,196 @@
   "kedro-init": {
     "main": true
   },
+  "kedro-light": {
+    "main": true
+  },
+  "kedro-mlflow": {
+    "main": true
+  },
+  "kedro-neptune": {
+    "main": true
+  },
+  "kedro-pack": {
+    "main": true
+  },
+  "kedro-pandera": {
+    "main": true
+  },
+  "kedro-telemetry": {
+    "main": true
+  },
+  "kedro-vertexai": {
+    "main": true
+  },
+  "kedro-viz": {
+    "main": true
+  },
+  "keepalive": {
+    "main": true
+  },
   "keeper-secrets-manager-core": {
+    "main": true
+  },
+  "kegalign": {
     "main": true
   },
   "kelbt": {
     "main": true
   },
+  "kelp-o-matic": {
+    "main": true
+  },
+  "kenjutsu": {
+    "main": true
+  },
+  "kenlm": {
+    "main": true
+  },
+  "kennard-stone": {
+    "main": true
+  },
+  "kent": {
+    "main": true
+  },
+  "kepderiv": {
+    "main": true
+  },
+  "keplergl": {
+    "main": true
+  },
+  "kepmodel": {
+    "main": true
+  },
+  "keras": {
+    "main": true
+  },
+  "keras-applications": {
+    "main": true
+  },
+  "keras-core": {
+    "main": true
+  },
+  "keras-cv": {
+    "main": true
+  },
+  "keras-metrics": {
+    "main": true
+  },
+  "keras-preprocessing": {
+    "main": true
+  },
+  "keras-radam": {
+    "main": true
+  },
+  "keras-resnet": {
+    "main": true
+  },
+  "keras-spiking": {
+    "main": true
+  },
+  "keras-tuner": {
+    "main": true
+  },
+  "keras-unet": {
+    "main": true
+  },
+  "keras2onnx": {
+    "main": true
+  },
+  "keras_mixed_sequence": {
+    "main": true
+  },
+  "kerchunk": {
+    "main": true
+  },
+  "kernax": {
+    "main": true
+  },
+  "kernda": {
+    "main": true
+  },
+  "kernel-tuner": {
+    "main": true
+  },
+  "kernel_driver": {
+    "main": true
+  },
   "kernprof": {
+    "main": true
+  },
+  "kerrgeopy": {
     "main": true
   },
   "kessler": {
     "main": true
   },
+  "keybert": {
+    "main": true
+  },
+  "keyboard": {
+    "main": true
+  },
+  "keycloak-gatekeeper": {
+    "main": true
+  },
   "keygen-py": {
+    "main": true
+  },
+  "keyring": {
     "main": true
   },
   "keyring-pass": {
     "main": true
   },
+  "keyrings.alt": {
+    "main": true
+  },
+  "keyrings.artifacts": {
+    "main": true
+  },
   "keyrings.codeartifact": {
     "main": true
   },
+  "keyrings.google-artifactregistry-auth": {
+    "main": true
+  },
+  "keystoneauth1": {
+    "main": true
+  },
+  "keyutils": {
+    "main": true
+  },
+  "kfac-jax": {
+    "main": true
+  },
+  "kfp": {
+    "main": true
+  },
+  "kfp-notebook": {
+    "main": true
+  },
+  "kfp-pipeline-spec": {
+    "main": true
+  },
+  "kfp-server-api": {
+    "main": true
+  },
+  "kfp-tekton": {
+    "main": true
+  },
+  "kfp-tekton-server-api": {
+    "main": true
+  },
+  "kg4vasp": {
+    "main": true
+  },
   "kgcpy": {
+    "main": true
+  },
+  "kgen": {
+    "main": true
+  },
+  "kguiaddons": {
     "main": true
   },
   "khiops": {
@@ -9065,28 +10103,157 @@
   "khiops-driver-s3": {
     "main": true
   },
+  "khronos-opencl-icd-loader": {
+    "main": true
+  },
+  "kickscore": {
+    "main": true
+  },
+  "kickstart": {
+    "main": true
+  },
+  "kikuchipy": {
+    "main": true
+  },
+  "kim-api": {
+    "main": true
+  },
+  "kim-convergence": {
+    "main": true
+  },
+  "kim-query": {
+    "main": true
+  },
+  "kim_edn": {
+    "main": true
+  },
+  "kim_property": {
+    "main": true
+  },
+  "kimpy": {
+    "main": true
+  },
+  "kinbot": {
+    "main": true
+  },
+  "kineticpredictormodel": {
+    "main": true
+  },
+  "kineticstoolkit": {
+    "main": true
+  },
   "kineticstoolkit_extensions": {
+    "main": true
+  },
+  "kinisi": {
+    "main": true
+  },
+  "kinparse": {
     "main": true
   },
   "kisiac": {
     "main": true
   },
+  "kiss-headers": {
+    "main": true
+  },
   "kissbt": {
+    "main": true
+  },
+  "kissim": {
+    "main": true
+  },
+  "kit4dl": {
+    "main": true
+  },
+  "kitchen": {
     "main": true
   },
   "kite": {
     "main": true
   },
+  "kitemmodels": {
+    "main": true
+  },
+  "kitty": {
+    "main": true
+  },
+  "kitty-themes": {
+    "main": true
+  },
+  "kivy": {
+    "main": true
+  },
+  "kivy-garden": {
+    "main": true
+  },
+  "kivymd": {
+    "main": true
+  },
+  "kiwipy": {
+    "main": true
+  },
+  "kiwisolver": {
+    "main": true
+  },
+  "kkcalc": {
+    "main": true
+  },
+  "klaus": {
+    "main": true
+  },
+  "klepto": {
+    "main": true
+  },
   "klfitter": {
+    "main": true
+  },
+  "klib": {
+    "main": true
+  },
+  "kliff": {
+    "main": true
+  },
+  "klongpy": {
+    "main": true
+  },
+  "km3db": {
+    "main": true
+  },
+  "km3io": {
+    "main": true
+  },
+  "km3pipe": {
+    "main": true
+  },
+  "kmc_smudge_pairs": {
     "main": true
   },
   "kmeans1d": {
     "main": true
   },
+  "kmedoids": {
+    "main": true
+  },
+  "kml2geojson": {
+    "main": true
+  },
+  "kmodes": {
+    "main": true
+  },
   "kmsxx": {
     "main": true
   },
+  "knack": {
+    "main": true
+  },
+  "knapsack": {
+    "main": true
+  },
   "kneebow": {
+    "main": true
+  },
+  "kneed": {
     "main": true
   },
   "knem-headers": {
@@ -9095,10 +10262,88 @@
   "knip": {
     "main": true
   },
+  "knit": {
+    "main": true
+  },
+  "knitty": {
+    "main": true
+  },
+  "knnimpute": {
+    "main": true
+  },
+  "knockknock": {
+    "main": true
+  },
+  "knoten": {
+    "main": true
+  },
+  "knowledge-graph-maker": {
+    "main": true
+  },
   "ko": {
     "main": true
   },
+  "koalas": {
+    "main": true
+  },
+  "koda": {
+    "main": true
+  },
+  "kokkos": {
+    "main": true
+  },
+  "kokkos-kernels": {
+    "main": true
+  },
+  "kombine": {
+    "main": true
+  },
+  "kombu": {
+    "main": true
+  },
   "komplot": {
+    "main": true
+  },
+  "koncept": {
+    "main": true
+  },
+  "kondo": {
+    "main": true
+  },
+  "konfik": {
+    "main": true
+  },
+  "konnektor": {
+    "main": true
+  },
+  "konoha": {
+    "main": true
+  },
+  "konsole": {
+    "main": true
+  },
+  "koolstof": {
+    "main": true
+  },
+  "koopa-viz": {
+    "main": true
+  },
+  "koopmans-kcp": {
+    "main": true
+  },
+  "kopf": {
+    "main": true
+  },
+  "korean_lunar_calendar": {
+    "main": true
+  },
+  "kornia": {
+    "main": true
+  },
+  "kornia-rs": {
+    "main": true
+  },
+  "kosh": {
     "main": true
   },
   "kotlin": {
@@ -9108,6 +10353,15 @@
     "main": true
   },
   "kotlin-language-server": {
+    "main": true
+  },
+  "kotsu": {
+    "main": true
+  },
+  "kr8s": {
+    "main": true
+  },
+  "krb5": {
     "main": true
   },
   "krill-orchestrator": {
