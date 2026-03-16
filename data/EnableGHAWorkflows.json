@@ -29066,10 +29066,79 @@
   "pyjamalib": {
     "main": true
   },
+  "pyjams": {
+    "main": true
+  },
+  "pyjanitor": {
+    "main": true
+  },
+  "pyjarowinkler": {
+    "main": true
+  },
   "pyjelly": {
     "main": true
   },
+  "pyjion": {
+    "main": true
+  },
+  "pyjks": {
+    "main": true
+  },
+  "pyjnius": {
+    "main": true
+  },
+  "pyjokes": {
+    "main": true
+  },
   "pyjpegls": {
+    "main": true
+  },
+  "pyjq": {
+    "main": true
+  },
+  "pyjs_code_runner": {
+    "main": true
+  },
+  "pyjsg": {
+    "main": true
+  },
+  "pyjsg-json": {
+    "main": true
+  },
+  "pyjsparser": {
+    "main": true
+  },
+  "pyjulia": {
+    "main": true
+  },
+  "pyjuliacall": {
+    "main": true
+  },
+  "pyjuliapkg": {
+    "main": true
+  },
+  "pyjuliaup": {
+    "main": true
+  },
+  "pyjwkest": {
+    "main": true
+  },
+  "pyjwt": {
+    "main": true
+  },
+  "pykafka": {
+    "main": true
+  },
+  "pykakasi": {
+    "main": true
+  },
+  "pykalman": {
+    "main": true
+  },
+  "pykdtree": {
+    "main": true
+  },
+  "pyke": {
     "main": true
   },
   "pykeepass": {
@@ -29078,40 +29147,157 @@
   "pykeepass_cache": {
     "main": true
   },
+  "pykep": {
+    "main": true
+  },
+  "pykerberos": {
+    "main": true
+  },
+  "pykerr": {
+    "main": true
+  },
+  "pykicad": {
+    "main": true
+  },
+  "pykmip": {
+    "main": true
+  },
+  "pykml": {
+    "main": true
+  },
   "pyknos": {
+    "main": true
+  },
+  "pykrb5": {
+    "main": true
+  },
+  "pykrige": {
+    "main": true
+  },
+  "pykriging": {
+    "main": true
+  },
+  "pykube": {
+    "main": true
+  },
+  "pykube-ng": {
+    "main": true
+  },
+  "pykwalify": {
     "main": true
   },
   "pylabdd": {
     "main": true
   },
+  "pylabeladjust": {
+    "main": true
+  },
   "pylabfea": {
+    "main": true
+  },
+  "pylablib": {
     "main": true
   },
   "pyladoc": {
     "main": true
   },
+  "pylama": {
+    "main": true
+  },
+  "pylammpsmpi": {
+    "main": true
+  },
+  "pylance": {
+    "main": true
+  },
+  "pylandstats": {
+    "main": true
+  },
   "pylangacq": {
+    "main": true
+  },
+  "pylat": {
     "main": true
   },
   "pylate": {
     "main": true
   },
+  "pylatex": {
+    "main": true
+  },
+  "pylatexenc": {
+    "main": true
+  },
+  "pylatte": {
+    "main": true
+  },
+  "pylbfgs": {
+    "main": true
+  },
+  "pylbl": {
+    "main": true
+  },
+  "pylbm": {
+    "main": true
+  },
   "pylcm": {
+    "main": true
+  },
+  "pyld": {
+    "main": true
+  },
+  "pyldavis": {
     "main": true
   },
   "pyleak": {
     "main": true
   },
+  "pyleco": {
+    "main": true
+  },
   "pylegendmeta": {
+    "main": true
+  },
+  "pyleiden": {
+    "main": true
+  },
+  "pylems": {
+    "main": true
+  },
+  "pylev": {
+    "main": true
+  },
+  "pylexique": {
+    "main": true
+  },
+  "pylgbst": {
     "main": true
   },
   "pylha": {
     "main": true
   },
+  "pylhc_submitter": {
+    "main": true
+  },
+  "pylhe": {
+    "main": true
+  },
   "pylib-essentials": {
     "main": true
   },
+  "pylibacl": {
+    "main": true
+  },
   "pylibczirw": {
+    "main": true
+  },
+  "pylibdmtx": {
+    "main": true
+  },
+  "pylibftdi": {
+    "main": true
+  },
+  "pylibjpeg": {
     "main": true
   },
   "pylibjpeg-libjpeg": {
@@ -29123,40 +29309,304 @@
   "pylibjpeg-rle": {
     "main": true
   },
+  "pylibmc": {
+    "main": true
+  },
+  "pylibscrypt": {
+    "main": true
+  },
   "pylibsrtp": {
+    "main": true
+  },
+  "pylibtiff": {
+    "main": true
+  },
+  "pylinalg": {
+    "main": true
+  },
+  "pylink": {
+    "main": true
+  },
+  "pylink-square": {
+    "main": true
+  },
+  "pylint": {
+    "main": true
+  },
+  "pylint-celery": {
+    "main": true
+  },
+  "pylint-common": {
+    "main": true
+  },
+  "pylint-django": {
+    "main": true
+  },
+  "pylint-flask": {
+    "main": true
+  },
+  "pylint-plugin-utils": {
+    "main": true
+  },
+  "pylint-venv": {
+    "main": true
+  },
+  "pyload-ng": {
+    "main": true
+  },
+  "pyloadprofilegenerator": {
+    "main": true
+  },
+  "pylodstorage": {
+    "main": true
+  },
+  "pylogbeat": {
+    "main": true
+  },
+  "pylogit": {
+    "main": true
+  },
+  "pylons": {
+    "main": true
+  },
+  "pylook": {
+    "main": true
+  },
+  "pylops": {
     "main": true
   },
   "pyloudnorm": {
     "main": true
   },
+  "pylru": {
+    "main": true
+  },
+  "pyls-black": {
+    "main": true
+  },
+  "pyls-flake8": {
+    "main": true
+  },
+  "pyls-isort": {
+    "main": true
+  },
+  "pyls-memestra": {
+    "main": true
+  },
+  "pyls-mypy": {
+    "main": true
+  },
+  "pyls-spyder": {
+    "main": true
+  },
   "pylsp-rope": {
+    "main": true
+  },
+  "pylsqpack": {
     "main": true
   },
   "pylstraight": {
     "main": true
   },
+  "pyluach": {
+    "main": true
+  },
+  "pylustrator": {
+    "main": true
+  },
+  "pylyzer": {
+    "main": true
+  },
+  "pymablock": {
+    "main": true
+  },
+  "pymace": {
+    "main": true
+  },
   "pymaeparser": {
+    "main": true
+  },
+  "pymagej": {
+    "main": true
+  },
+  "pymagewell": {
+    "main": true
+  },
+  "pymagicc": {
+    "main": true
+  },
+  "pymannkendall": {
+    "main": true
+  },
+  "pymap3d": {
+    "main": true
+  },
+  "pymapd": {
+    "main": true
+  },
+  "pymapvbvd": {
     "main": true
   },
   "pymarkovclustering": {
     "main": true
   },
+  "pymartini": {
+    "main": true
+  },
+  "pymatbridge": {
+    "main": true
+  },
+  "pymatgen": {
+    "main": true
+  },
   "pymatgen-analysis-alloys": {
+    "main": true
+  },
+  "pymatgen-analysis-defects": {
+    "main": true
+  },
+  "pymatgen-analysis-diffusion": {
     "main": true
   },
   "pymatgen-core": {
     "main": true
   },
+  "pymatgen-db": {
+    "main": true
+  },
+  "pymatgen-diffusion": {
+    "main": true
+  },
+  "pymatgen-io-fleur": {
+    "main": true
+  },
   "pymatgen-io-validation": {
+    "main": true
+  },
+  "pymatgen-lammps": {
+    "main": true
+  },
+  "pymatnest": {
+    "main": true
+  },
+  "pymatreader": {
+    "main": true
+  },
+  "pymatsolver": {
+    "main": true
+  },
+  "pymatting": {
+    "main": true
+  },
+  "pymatviz": {
+    "main": true
+  },
+  "pymaxflow": {
     "main": true
   },
   "pymaxspots": {
     "main": true
   },
+  "pymbar": {
+    "main": true
+  },
+  "pymbolic": {
+    "main": true
+  },
+  "pymc": {
+    "main": true
+  },
+  "pymc-bart": {
+    "main": true
+  },
   "pymc-extras": {
     "main": true
   },
+  "pymc-marketing": {
+    "main": true
+  },
+  "pymc-sphinx-theme": {
+    "main": true
+  },
+  "pymc3": {
+    "main": true
+  },
+  "pymc3-ext": {
+    "main": true
+  },
+  "pymc3-hmm": {
+    "main": true
+  },
+  "pymca": {
+    "main": true
+  },
+  "pymca-zocalo": {
+    "main": true
+  },
+  "pymcdm": {
+    "main": true
+  },
+  "pymcma": {
+    "main": true
+  },
+  "pymcr": {
+    "main": true
+  },
+  "pymcubes": {
+    "main": true
+  },
+  "pymde": {
+    "main": true
+  },
+  "pymdi": {
+    "main": true
+  },
+  "pymdown-extensions": {
+    "main": true
+  },
+  "pymdwizard": {
+    "main": true
+  },
+  "pymeasure": {
+    "main": true
+  },
+  "pymediainfo": {
+    "main": true
+  },
+  "pymedio": {
+    "main": true
+  },
   "pymedm": {
+    "main": true
+  },
+  "pymedphys": {
+    "main": true
+  },
+  "pymeep": {
+    "main": true
+  },
+  "pymeeus": {
+    "main": true
+  },
+  "pymem3dg": {
+    "main": true
+  },
+  "pymemcache": {
+    "main": true
+  },
+  "pyment": {
+    "main": true
+  },
+  "pymeos": {
+    "main": true
+  },
+  "pymeos-cffi": {
+    "main": true
+  },
+  "pymesh2": {
+    "main": true
+  },
+  "pymeshfix": {
     "main": true
   },
   "pymeshlab": {
@@ -29165,64 +29615,841 @@
   "pymeta3": {
     "main": true
   },
+  "pymetalink": {
+    "main": true
+  },
+  "pymetis": {
+    "main": true
+  },
   "pymicro": {
+    "main": true
+  },
+  "pymiescatt": {
+    "main": true
+  },
+  "pymilvus": {
+    "main": true
+  },
+  "pyminhash": {
+    "main": true
+  },
+  "pyminizip": {
+    "main": true
+  },
+  "pymirc": {
     "main": true
   },
   "pymixbox": {
     "main": true
   },
+  "pymkl": {
+    "main": true
+  },
+  "pymks": {
+    "main": true
+  },
+  "pymmaster": {
+    "main": true
+  },
+  "pymmcore": {
+    "main": true
+  },
+  "pymmcore-plus": {
+    "main": true
+  },
+  "pymmcore-widgets": {
+    "main": true
+  },
+  "pymodbus": {
+    "main": true
+  },
+  "pymodbustcp": {
+    "main": true
+  },
+  "pymodelchecking": {
+    "main": true
+  },
+  "pymodes": {
+    "main": true
+  },
+  "pymodis": {
+    "main": true
+  },
+  "pymodm": {
+    "main": true
+  },
+  "pymodsecurity": {
+    "main": true
+  },
+  "pymodulon": {
+    "main": true
+  },
+  "pymol-open-source": {
+    "main": true
+  },
+  "pymolpro": {
+    "main": true
+  },
+  "pymonctl": {
+    "main": true
+  },
+  "pymonetdb": {
+    "main": true
+  },
+  "pymongo": {
+    "main": true
+  },
+  "pymongo_inmemory": {
+    "main": true
+  },
+  "pymongoarrow": {
+    "main": true
+  },
+  "pymoo": {
+    "main": true
+  },
+  "pymoodef": {
+    "main": true
+  },
+  "pymor": {
+    "main": true
+  },
+  "pymorphy2": {
+    "main": true
+  },
+  "pymorphy2-dicts": {
+    "main": true
+  },
+  "pymorphy2-dicts-ru": {
+    "main": true
+  },
+  "pymorton": {
+    "main": true
+  },
+  "pymov2gif": {
+    "main": true
+  },
+  "pymove": {
+    "main": true
+  },
+  "pymove-osmnx": {
+    "main": true
+  },
+  "pymovements": {
+    "main": true
+  },
+  "pymp-pypi": {
+    "main": true
+  },
+  "pympipool": {
+    "main": true
+  },
+  "pympler": {
+    "main": true
+  },
+  "pymrio": {
+    "main": true
+  },
+  "pymsbuild": {
+    "main": true
+  },
   "pymser": {
+    "main": true
+  },
+  "pymsgbox": {
     "main": true
   },
   "pymsh": {
     "main": true
   },
+  "pymssql": {
+    "main": true
+  },
+  "pymt": {
+    "main": true
+  },
+  "pymt_cem": {
+    "main": true
+  },
+  "pymt_child": {
+    "main": true
+  },
+  "pymt_dbseabed": {
+    "main": true
+  },
+  "pymt_ecsimplesnow": {
+    "main": true
+  },
+  "pymt_era5": {
+    "main": true
+  },
+  "pymt_geotiff": {
+    "main": true
+  },
+  "pymt_gipl": {
+    "main": true
+  },
+  "pymt_gridmet": {
+    "main": true
+  },
+  "pymt_hydrotrend": {
+    "main": true
+  },
+  "pymt_landlab": {
+    "main": true
+  },
+  "pymt_nwis": {
+    "main": true
+  },
+  "pymt_permamodel": {
+    "main": true
+  },
+  "pymt_rafem": {
+    "main": true
+  },
+  "pymt_roms": {
+    "main": true
+  },
+  "pymt_sedflux": {
+    "main": true
+  },
+  "pymt_soilgrids": {
+    "main": true
+  },
+  "pymt_topography": {
+    "main": true
+  },
   "pymultihash": {
+    "main": true
+  },
+  "pymultinest": {
+    "main": true
+  },
+  "pymumps": {
+    "main": true
+  },
+  "pymunk": {
+    "main": true
+  },
+  "pymuonsuite": {
+    "main": true
+  },
+  "pymupdf": {
+    "main": true
+  },
+  "pymupdf-fonts": {
     "main": true
   },
   "pymust": {
     "main": true
   },
+  "pymvpa2": {
+    "main": true
+  },
+  "pymyami": {
+    "main": true
+  },
+  "pymysql": {
+    "main": true
+  },
   "pymzml": {
+    "main": true
+  },
+  "pynacl": {
+    "main": true
+  },
+  "pynamical": {
+    "main": true
+  },
+  "pynamodb": {
+    "main": true
+  },
+  "pynamodb-encoder": {
     "main": true
   },
   "pynanoflann": {
     "main": true
   },
+  "pynauty": {
+    "main": true
+  },
+  "pyncml": {
+    "main": true
+  },
+  "pynco": {
+    "main": true
+  },
+  "pyncview": {
+    "main": true
+  },
+  "pyne": {
+    "main": true
+  },
+  "pynecone": {
+    "main": true
+  },
   "pynemaiqpet": {
+    "main": true
+  },
+  "pyneqsys": {
+    "main": true
+  },
+  "pynessie": {
+    "main": true
+  },
+  "pynetdicom": {
+    "main": true
+  },
+  "pynetworktables": {
+    "main": true
+  },
+  "pynfft": {
+    "main": true
+  },
+  "pyngl": {
+    "main": true
+  },
+  "pyngo": {
+    "main": true
+  },
+  "pyngrok": {
+    "main": true
+  },
+  "pynguin": {
+    "main": true
+  },
+  "pynhd": {
+    "main": true
+  },
+  "pynimate": {
+    "main": true
+  },
+  "pynini": {
+    "main": true
+  },
+  "pynisher": {
+    "main": true
+  },
+  "pynldas2": {
+    "main": true
+  },
+  "pynlp-lib": {
+    "main": true
+  },
+  "pynmea2": {
+    "main": true
+  },
+  "pynmeagps": {
+    "main": true
+  },
+  "pynndescent": {
+    "main": true
+  },
+  "pynng": {
+    "main": true
+  },
+  "pynomaly": {
+    "main": true
+  },
+  "pynormaliz": {
     "main": true
   },
   "pynose": {
     "main": true
   },
+  "pynput": {
+    "main": true
+  },
+  "pynput-robocorp-fork": {
+    "main": true
+  },
+  "pynrrd": {
+    "main": true
+  },
+  "pynsee": {
+    "main": true
+  },
+  "pynsid": {
+    "main": true
+  },
+  "pyntacle": {
+    "main": true
+  },
+  "pyntcloud": {
+    "main": true
+  },
+  "pynucastro": {
+    "main": true
+  },
+  "pynucos": {
+    "main": true
+  },
+  "pynufft": {
+    "main": true
+  },
+  "pynumero_libraries": {
+    "main": true
+  },
+  "pynumpress": {
+    "main": true
+  },
+  "pynvim": {
+    "main": true
+  },
+  "pynvml": {
+    "main": true
+  },
+  "pynwb": {
+    "main": true
+  },
+  "pyo-oracle": {
+    "main": true
+  },
+  "pyobis": {
+    "main": true
+  },
   "pyobistools": {
+    "main": true
+  },
+  "pyobjc-core": {
+    "main": true
+  },
+  "pyobjc-framework-applicationservices": {
+    "main": true
+  },
+  "pyobjc-framework-cocoa": {
+    "main": true
+  },
+  "pyobjc-framework-corebluetooth": {
+    "main": true
+  },
+  "pyobjc-framework-coreservices": {
+    "main": true
+  },
+  "pyobjc-framework-coretext": {
+    "main": true
+  },
+  "pyobjc-framework-fsevents": {
+    "main": true
+  },
+  "pyobjc-framework-metal": {
+    "main": true
+  },
+  "pyobjc-framework-quartz": {
+    "main": true
+  },
+  "pyobjc-framework-security": {
+    "main": true
+  },
+  "pyobjc-framework-systemconfiguration": {
+    "main": true
+  },
+  "pyobjc-framework-webkit": {
+    "main": true
+  },
+  "pyobjcryst": {
+    "main": true
+  },
+  "pyobsplot": {
+    "main": true
+  },
+  "pyoccad": {
+    "main": true
+  },
+  "pyocclient": {
+    "main": true
+  },
+  "pyocd": {
+    "main": true
+  },
+  "pyocr": {
+    "main": true
+  },
+  "pyocse": {
+    "main": true
+  },
+  "pyod": {
+    "main": true
+  },
+  "pyodbc": {
+    "main": true
+  },
+  "pyodc": {
+    "main": true
+  },
+  "pyodeint": {
+    "main": true
+  },
+  "pyodesys": {
+    "main": true
+  },
+  "pyodide-build": {
+    "main": true
+  },
+  "pyodide-cli": {
     "main": true
   },
   "pyodide-http": {
     "main": true
   },
+  "pyodide-lock": {
+    "main": true
+  },
+  "pyodide-py": {
+    "main": true
+  },
   "pyodps": {
+    "main": true
+  },
+  "pyogg": {
+    "main": true
+  },
+  "pyogrio": {
+    "main": true
+  },
+  "pyolog": {
+    "main": true
+  },
+  "pyoma-2": {
+    "main": true
+  },
+  "pyomeca": {
+    "main": true
+  },
+  "pyometiff": {
+    "main": true
+  },
+  "pyomicron": {
+    "main": true
+  },
+  "pyomnisci": {
+    "main": true
+  },
+  "pyomo": {
+    "main": true
+  },
+  "pyomo.extras": {
+    "main": true
+  },
+  "pyomo.solvers": {
     "main": true
   },
   "pyone": {
     "main": true
   },
+  "pyoos": {
+    "main": true
+  },
+  "pyopcode": {
+    "main": true
+  },
+  "pyopenbt": {
+    "main": true
+  },
+  "pyopencl": {
+    "main": true
+  },
+  "pyopengl": {
+    "main": true
+  },
   "pyopengl-accelerate": {
+    "main": true
+  },
+  "pyopenrivercam": {
+    "main": true
+  },
+  "pyopensky": {
+    "main": true
+  },
+  "pyopenssl": {
+    "main": true
+  },
+  "pyophidia": {
+    "main": true
+  },
+  "pyoptsparse": {
+    "main": true
+  },
+  "pyorbital": {
+    "main": true
+  },
+  "pyorc": {
+    "main": true
+  },
+  "pyorerun": {
+    "main": true
+  },
+  "pyorgmode": {
+    "main": true
+  },
+  "pyosf": {
+    "main": true
+  },
+  "pyosp": {
+    "main": true
+  },
+  "pyospackage": {
+    "main": true
+  },
+  "pyotf": {
+    "main": true
+  },
+  "pyotp": {
+    "main": true
+  },
+  "pyout": {
+    "main": true
+  },
+  "pyoutlook": {
     "main": true
   },
   "pyoxipng": {
     "main": true
   },
+  "pypac": {
+    "main": true
+  },
   "pypalettes": {
+    "main": true
+  },
+  "pypandoc": {
+    "main": true
+  },
+  "pypar": {
+    "main": true
+  },
+  "pyparam": {
+    "main": true
+  },
+  "pypardiso": {
+    "main": true
+  },
+  "pyparrm": {
+    "main": true
+  },
+  "pyparsing": {
+    "main": true
+  },
+  "pypcd4": {
+    "main": true
+  },
+  "pypd": {
+    "main": true
+  },
+  "pypdb": {
+    "main": true
+  },
+  "pypdf": {
+    "main": true
+  },
+  "pypdf2": {
+    "main": true
+  },
+  "pypdf2_fields": {
+    "main": true
+  },
+  "pypdf3": {
+    "main": true
+  },
+  "pypdfform": {
+    "main": true
+  },
+  "pypdfium2": {
+    "main": true
+  },
+  "pypeec": {
+    "main": true
+  },
+  "pypeg2": {
+    "main": true
+  },
+  "pypeit": {
+    "main": true
+  },
+  "pypeln": {
+    "main": true
+  },
+  "pyperclip": {
+    "main": true
+  },
+  "pyperf": {
+    "main": true
+  },
+  "pyperformance": {
+    "main": true
+  },
+  "pyperunner": {
+    "main": true
+  },
+  "pypette": {
     "main": true
   },
   "pypfb": {
     "main": true
   },
+  "pyphen": {
+    "main": true
+  },
+  "pypher": {
+    "main": true
+  },
+  "pyphonetics": {
+    "main": true
+  },
+  "pyphysim": {
+    "main": true
+  },
+  "pypickle": {
+    "main": true
+  },
+  "pypif": {
+    "main": true
+  },
+  "pypika": {
+    "main": true
+  },
+  "pypika-gis": {
+    "main": true
+  },
+  "pypika-tortoise": {
+    "main": true
+  },
+  "pypinfo": {
+    "main": true
+  },
+  "pypinyin": {
+    "main": true
+  },
+  "pypiserver": {
+    "main": true
+  },
+  "pypistats": {
+    "main": true
+  },
   "pyplaces": {
     "main": true
   },
+  "pyplif-hippos": {
+    "main": true
+  },
+  "pyplis": {
+    "main": true
+  },
   "pyplusplus": {
+    "main": true
+  },
+  "pypmc": {
+    "main": true
+  },
+  "pypmml": {
+    "main": true
+  },
+  "pypng": {
+    "main": true
+  },
+  "pypolar": {
+    "main": true
+  },
+  "pypolyagamma": {
+    "main": true
+  },
+  "pypolymlp": {
+    "main": true
+  },
+  "pyportfolioopt": {
+    "main": true
+  },
+  "pyposeidon": {
+    "main": true
+  },
+  "pypots": {
+    "main": true
+  },
+  "pyppdf": {
+    "main": true
+  },
+  "pyppeteer": {
+    "main": true
+  },
+  "pyppmd": {
+    "main": true
+  },
+  "pyprctl": {
+    "main": true
+  },
+  "pyprecice": {
+    "main": true
+  },
+  "pyprep": {
+    "main": true
+  },
+  "pypresseportal": {
+    "main": true
+  },
+  "pyprind": {
+    "main": true
+  },
+  "pyprism": {
+    "main": true
+  },
+  "pyprobables": {
+    "main": true
+  },
+  "pyprobe": {
+    "main": true
+  },
+  "pyprocar": {
+    "main": true
+  },
+  "pyprocessmacro": {
+    "main": true
+  },
+  "pyprof2calltree": {
+    "main": true
+  },
+  "pyproj": {
+    "main": true
+  },
+  "pyproject-api": {
+    "main": true
+  },
+  "pyproject-flake8": {
+    "main": true
+  },
+  "pyproject-fmt": {
+    "main": true
+  },
+  "pyproject-fmt-rust": {
+    "main": true
+  },
+  "pyproject-local-kernel": {
+    "main": true
+  },
+  "pyproject-metadata": {
+    "main": true
+  },
+  "pyproject-parser": {
+    "main": true
+  },
+  "pyproject2conda": {
+    "main": true
+  },
+  "pyproject_hooks": {
+    "main": true
+  },
+  "pyprojroot": {
+    "main": true
+  },
+  "pypromice": {
+    "main": true
+  },
+  "pyproprop": {
+    "main": true
+  },
+  "pyproximal": {
+    "main": true
+  },
+  "pypsa": {
     "main": true
   },
   "pypsa-explorer": {
@@ -29231,25 +30458,229 @@
   "pypsa2smspp": {
     "main": true
   },
+  "pypsexec": {
+    "main": true
+  },
+  "pypsrp": {
+    "main": true
+  },
+  "pypubsub": {
+    "main": true
+  },
+  "pypugjs": {
+    "main": true
+  },
+  "pypulse": {
+    "main": true
+  },
   "pypulseq": {
+    "main": true
+  },
+  "pypushflow": {
+    "main": true
+  },
+  "pypy-meta": {
+    "main": true
+  },
+  "pypy2.7": {
+    "main": true
+  },
+  "pypydispatcher": {
+    "main": true
+  },
+  "pypyodbc": {
+    "main": true
+  },
+  "pypyr": {
+    "main": true
+  },
+  "pypythia": {
+    "main": true
+  },
+  "pyqalloy": {
+    "main": true
+  },
+  "pyqg": {
+    "main": true
+  },
+  "pyqg-jax": {
     "main": true
   },
   "pyqgc": {
     "main": true
   },
+  "pyqode.core": {
+    "main": true
+  },
+  "pyqode.python": {
+    "main": true
+  },
+  "pyqode.qt": {
+    "main": true
+  },
+  "pyqparamwidget": {
+    "main": true
+  },
   "pyqrcode": {
+    "main": true
+  },
+  "pyqstem": {
+    "main": true
+  },
+  "pyqstrat": {
+    "main": true
+  },
+  "pyqt": {
+    "main": true
+  },
+  "pyqt-builder": {
+    "main": true
+  },
+  "pyqt-stubs": {
     "main": true
   },
   "pyqt-toast-notification": {
     "main": true
   },
+  "pyqt_distutils": {
+    "main": true
+  },
+  "pyqtads": {
+    "main": true
+  },
+  "pyqtconsole": {
+    "main": true
+  },
+  "pyqtgraph": {
+    "main": true
+  },
+  "pyqtree": {
+    "main": true
+  },
+  "pyqtwebkit": {
+    "main": true
+  },
+  "pyquaternion": {
+    "main": true
+  },
+  "pyquery": {
+    "main": true
+  },
+  "pyquickbench": {
+    "main": true
+  },
+  "pyquickhelper": {
+    "main": true
+  },
+  "pyquicksetup": {
+    "main": true
+  },
+  "pyquil": {
+    "main": true
+  },
+  "pyquokka": {
+    "main": true
+  },
   "pyraat": {
+    "main": true
+  },
+  "pyrad_arm": {
+    "main": true
+  },
+  "pyrad_mch": {
+    "main": true
+  },
+  "pyradios": {
+    "main": true
+  },
+  "pyrage": {
+    "main": true
+  },
+  "pyramid": {
+    "main": true
+  },
+  "pyramid_beaker": {
+    "main": true
+  },
+  "pyramid_debugtoolbar": {
+    "main": true
+  },
+  "pyramid_log": {
+    "main": true
+  },
+  "pyramid_mako": {
+    "main": true
+  },
+  "pyramid_mongodb2": {
+    "main": true
+  },
+  "pyramid_redis": {
+    "main": true
+  },
+  "pyramid_redis_sessions": {
+    "main": true
+  },
+  "pyramid_session_redis": {
+    "main": true
+  },
+  "pyramid_tm": {
+    "main": true
+  },
+  "pyramids": {
+    "main": true
+  },
+  "pyrams": {
+    "main": true
+  },
+  "pyranha": {
+    "main": true
+  },
+  "pyrasa": {
+    "main": true
+  },
+  "pyratbay": {
+    "main": true
+  },
+  "pyrate-limiter": {
+    "main": true
+  },
+  "pyratlib": {
     "main": true
   },
   "pyrattler-recipe-autogen": {
     "main": true
   },
+  "pyrayt": {
+    "main": true
+  },
+  "pyrdfa3": {
+    "main": true
+  },
+  "pyre": {
+    "main": true
+  },
+  "pyre-extensions": {
+    "main": true
+  },
+  "pyre2": {
+    "main": true
+  },
+  "pyreadline": {
+    "main": true
+  },
+  "pyreadline3": {
+    "main": true
+  },
+  "pyreadr": {
+    "main": true
+  },
+  "pyreadstat": {
+    "main": true
+  },
   "pyrecest": {
+    "main": true
+  },
+  "pyrect": {
     "main": true
   },
   "pyrefly": {
@@ -29258,7 +30689,100 @@
   "pyregeon": {
     "main": true
   },
+  "pyregion": {
+    "main": true
+  },
+  "pyremap": {
+    "main": true
+  },
+  "pyremo": {
+    "main": true
+  },
+  "pyrender": {
+    "main": true
+  },
+  "pyrepl": {
+    "main": true
+  },
+  "pyreportjasper": {
+    "main": true
+  },
+  "pyreports": {
+    "main": true
+  },
+  "pyresample": {
+    "main": true
+  },
+  "pyrestcli": {
+    "main": true
+  },
+  "pyresttable": {
+    "main": true
+  },
+  "pyresttest": {
+    "main": true
+  },
+  "pyretis": {
+    "main": true
+  },
+  "pyrfa": {
+    "main": true
+  },
+  "pyrfc3339": {
+    "main": true
+  },
+  "pyrfr": {
+    "main": true
+  },
+  "pyribbit": {
+    "main": true
+  },
+  "pyribs": {
+    "main": true
+  },
+  "pyribs-base": {
+    "main": true
+  },
+  "pyriemann": {
+    "main": true
+  },
+  "pyright": {
+    "main": true
+  },
+  "pyringgw": {
+    "main": true
+  },
+  "pyrms": {
+    "main": true
+  },
+  "pyrmsd": {
+    "main": true
+  },
   "pyrmt": {
+    "main": true
+  },
+  "pyro-api": {
+    "main": true
+  },
+  "pyro-ppl": {
+    "main": true
+  },
+  "pyro4": {
+    "main": true
+  },
+  "pyro5": {
+    "main": true
+  },
+  "pyroaring": {
+    "main": true
+  },
+  "pyrobex": {
+    "main": true
+  },
+  "pyrobuf": {
+    "main": true
+  },
+  "pyrolite": {
     "main": true
   },
   "pyroll": {
@@ -29276,46 +30800,322 @@
   "pyroll-report": {
     "main": true
   },
+  "pyroma": {
+    "main": true
+  },
+  "pyromark": {
+    "main": true
+  },
+  "pyrootutils": {
+    "main": true
+  },
   "pyror": {
+    "main": true
+  },
+  "pyrosar": {
     "main": true
   },
   "pyroscope-io": {
     "main": true
   },
+  "pyrosm": {
+    "main": true
+  },
+  "pyrost": {
+    "main": true
+  },
+  "pyroute2": {
+    "main": true
+  },
+  "pyrovelocity": {
+    "main": true
+  },
+  "pyrr": {
+    "main": true
+  },
+  "pyrser": {
+    "main": true
+  },
+  "pyrserve": {
+    "main": true
+  },
+  "pyrsistent": {
+    "main": true
+  },
+  "pyrsm": {
+    "main": true
+  },
+  "pyrsmq": {
+    "main": true
+  },
+  "pyrsr": {
+    "main": true
+  },
+  "pyrss2gen": {
+    "main": true
+  },
+  "pyrtcm": {
+    "main": true
+  },
   "pyrte_rrtmgp": {
+    "main": true
+  },
+  "pyrtf": {
+    "main": true
+  },
+  "pyrtools": {
+    "main": true
+  },
+  "pyrundeck": {
     "main": true
   },
   "pyrxiv": {
     "main": true
   },
+  "pyrxp": {
+    "main": true
+  },
+  "pys2index": {
+    "main": true
+  },
+  "pysages": {
+    "main": true
+  },
+  "pysal": {
+    "main": true
+  },
+  "pysaml2": {
+    "main": true
+  },
+  "pysbatch": {
+    "main": true
+  },
+  "pysbd": {
+    "main": true
+  },
   "pysbf2": {
+    "main": true
+  },
+  "pysbol2": {
+    "main": true
+  },
+  "pysbol3": {
+    "main": true
+  },
+  "pyscaffold": {
+    "main": true
+  },
+  "pyscaffoldext-dsproject": {
+    "main": true
+  },
+  "pyscaffoldext-markdown": {
+    "main": true
+  },
+  "pyscal": {
+    "main": true
+  },
+  "pyscal-rdf": {
+    "main": true
+  },
+  "pyscal3": {
+    "main": true
+  },
+  "pyscamp-cpu": {
+    "main": true
+  },
+  "pyscamp-gpu": {
+    "main": true
+  },
+  "pyscenarios": {
+    "main": true
+  },
+  "pyscf": {
+    "main": true
+  },
+  "pyscf-dispersion": {
     "main": true
   },
   "pyschism": {
     "main": true
   },
+  "pyscicat": {
+    "main": true
+  },
   "pysciencemode": {
+    "main": true
+  },
+  "pyscipopt": {
+    "main": true
+  },
+  "pyscrap": {
+    "main": true
+  },
+  "pyscreener": {
+    "main": true
+  },
+  "pyscreenshot": {
+    "main": true
+  },
+  "pyscreeze": {
+    "main": true
+  },
+  "pyscript-cli": {
+    "main": true
+  },
+  "pyscss": {
+    "main": true
+  },
+  "pysd": {
     "main": true
   },
   "pysdf": {
     "main": true
   },
+  "pysdl2": {
+    "main": true
+  },
   "pyseas": {
+    "main": true
+  },
+  "pyseaweed": {
+    "main": true
+  },
+  "pysentiment2": {
+    "main": true
+  },
+  "pyseobnr": {
+    "main": true
+  },
+  "pyserde": {
+    "main": true
+  },
+  "pyserial": {
+    "main": true
+  },
+  "pyserial-asyncio": {
     "main": true
   },
   "pyserial-labgrid": {
     "main": true
   },
+  "pyserini": {
+    "main": true
+  },
+  "pyserver": {
+    "main": true
+  },
+  "pysftp": {
+    "main": true
+  },
   "pysgn": {
+    "main": true
+  },
+  "pyshacl": {
+    "main": true
+  },
+  "pyshark": {
+    "main": true
+  },
+  "pysheds": {
+    "main": true
+  },
+  "pyshepseg": {
     "main": true
   },
   "pysher": {
     "main": true
   },
+  "pyshex": {
+    "main": true
+  },
+  "pyshexc": {
+    "main": true
+  },
+  "pyshortcuts": {
+    "main": true
+  },
+  "pyshp": {
+    "main": true
+  },
+  "pyshqg": {
+    "main": true
+  },
+  "pyshtools": {
+    "main": true
+  },
   "pyshtransform": {
     "main": true
   },
+  "pyside2": {
+    "main": true
+  },
+  "pyside6qtads": {
+    "main": true
+  },
+  "pysignal": {
+    "main": true
+  },
+  "pysimdjson": {
+    "main": true
+  },
+  "pysimpleguiqt": {
+    "main": true
+  },
+  "pysimpleguiweb": {
+    "main": true
+  },
+  "pysimpleguiwx": {
+    "main": true
+  },
+  "pysindy": {
+    "main": true
+  },
+  "pysingular": {
+    "main": true
+  },
+  "pysipfenn": {
+    "main": true
+  },
+  "pysis": {
+    "main": true
+  },
+  "pysisso": {
+    "main": true
+  },
+  "pysjef": {
+    "main": true
+  },
+  "pyslalib": {
+    "main": true
+  },
+  "pyslet": {
+    "main": true
+  },
   "pyslha": {
+    "main": true
+  },
+  "pyslice": {
+    "main": true
+  },
+  "pyslim": {
+    "main": true
+  },
+  "pysm3": {
+    "main": true
+  },
+  "pysmartdl": {
+    "main": true
+  },
+  "pysmartdl2": {
+    "main": true
+  },
+  "pysmb": {
+    "main": true
+  },
+  "pysmbclient": {
+    "main": true
+  },
+  "pysmi": {
     "main": true
   },
   "pysmiles": {
@@ -29327,25 +31127,181 @@
   "pysmspp": {
     "main": true
   },
+  "pysmt": {
+    "main": true
+  },
+  "pysnmp": {
+    "main": true
+  },
+  "pysnmpcrypto": {
+    "main": true
+  },
   "pysnom": {
+    "main": true
+  },
+  "pysnooper": {
+    "main": true
+  },
+  "pysocks": {
+    "main": true
+  },
+  "pysolar": {
+    "main": true
+  },
+  "pysolid": {
+    "main": true
+  },
+  "pysolr": {
     "main": true
   },
   "pysonar": {
     "main": true
   },
+  "pysot": {
+    "main": true
+  },
+  "pysoundcard": {
+    "main": true
+  },
+  "pysoundfile": {
+    "main": true
+  },
   "pysox": {
+    "main": true
+  },
+  "pysp2": {
     "main": true
   },
   "pyspainmobility": {
     "main": true
   },
+  "pyspark": {
+    "main": true
+  },
+  "pyspark-asyncactions": {
+    "main": true
+  },
+  "pyspark-flame": {
+    "main": true
+  },
+  "pyspark-test": {
+    "main": true
+  },
+  "pysparkling": {
+    "main": true
+  },
+  "pysparse": {
+    "main": true
+  },
+  "pyspartn": {
+    "main": true
+  },
   "pyspatialstats": {
+    "main": true
+  },
+  "pyspeckit": {
+    "main": true
+  },
+  "pyspeckle": {
+    "main": true
+  },
+  "pyspectral": {
+    "main": true
+  },
+  "pyspellchecker": {
+    "main": true
+  },
+  "pyspelling": {
+    "main": true
+  },
+  "pyspf": {
+    "main": true
+  },
+  "pyspharm": {
+    "main": true
+  },
+  "pyspice": {
+    "main": true
+  },
+  "pyspike": {
+    "main": true
+  },
+  "pyspnego": {
+    "main": true
+  },
+  "pysqa": {
+    "main": true
+  },
+  "pysqlite3": {
     "main": true
   },
   "pysqlscribe": {
     "main": true
   },
+  "pysr": {
+    "main": true
+  },
+  "pystac": {
+    "main": true
+  },
+  "pystac-client": {
+    "main": true
+  },
+  "pystache": {
+    "main": true
+  },
+  "pystack": {
+    "main": true
+  },
+  "pystackreg": {
+    "main": true
+  },
+  "pystan": {
+    "main": true
+  },
+  "pystardb": {
+    "main": true
+  },
+  "pystem": {
+    "main": true
+  },
+  "pystemmer": {
+    "main": true
+  },
+  "pystencils": {
+    "main": true
+  },
+  "pystencils-autodiff": {
+    "main": true
+  },
+  "pystencils-reco": {
+    "main": true
+  },
+  "pystencils-walberla": {
+    "main": true
+  },
+  "pysteps": {
+    "main": true
+  },
+  "pystitcher": {
+    "main": true
+  },
+  "pystoi": {
+    "main": true
+  },
+  "pyston_lite": {
+    "main": true
+  },
+  "pystore": {
+    "main": true
+  },
+  "pystow": {
+    "main": true
+  },
   "pystray": {
+    "main": true
+  },
+  "pystreamer": {
     "main": true
   },
   "pystring": {
@@ -29354,16 +31310,103 @@
   "pystructtype": {
     "main": true
   },
+  "pysubgroup": {
+    "main": true
+  },
+  "pysuerga": {
+    "main": true
+  },
+  "pysumma": {
+    "main": true
+  },
+  "pysumreg": {
+    "main": true
+  },
+  "pysurfer": {
+    "main": true
+  },
+  "pysurvival": {
+    "main": true
+  },
+  "pysvg-py3": {
+    "main": true
+  },
+  "pysw4": {
+    "main": true
+  },
+  "pyswagger": {
+    "main": true
+  },
+  "pyswarms": {
+    "main": true
+  },
+  "pyswashes": {
+    "main": true
+  },
+  "pyswmm": {
+    "main": true
+  },
+  "pysyncrosim": {
+    "main": true
+  },
+  "pysynphot": {
+    "main": true
+  },
+  "pysyntect": {
+    "main": true
+  },
+  "pytables": {
+    "main": true
+  },
+  "pytablewriter": {
+    "main": true
+  },
+  "pytalises": {
+    "main": true
+  },
+  "pytango": {
+    "main": true
+  },
   "pytango-db": {
+    "main": true
+  },
+  "pytao": {
     "main": true
   },
   "pytas": {
     "main": true
   },
+  "pytask": {
+    "main": true
+  },
+  "pytask-environment": {
+    "main": true
+  },
+  "pytask-julia": {
+    "main": true
+  },
+  "pytask-latex": {
+    "main": true
+  },
+  "pytask-parallel": {
+    "main": true
+  },
+  "pytask-r": {
+    "main": true
+  },
+  "pytask-stata": {
+    "main": true
+  },
   "pytcr": {
     "main": true
   },
+  "pytcs": {
+    "main": true
+  },
   "pytcube": {
+    "main": true
+  },
+  "pytdc": {
     "main": true
   },
   "pytdigest": {
@@ -29372,10 +31415,34 @@
   "pytdlm": {
     "main": true
   },
+  "pyte": {
+    "main": true
+  },
+  "pytef": {
+    "main": true
+  },
+  "pytemlib": {
+    "main": true
+  },
   "pytensor-distributions": {
     "main": true
   },
+  "pytensor-suite": {
+    "main": true
+  },
+  "pytentiostat": {
+    "main": true
+  },
   "pyteomics": {
+    "main": true
+  },
+  "pyterate": {
+    "main": true
+  },
+  "pytermgui": {
+    "main": true
+  },
+  "pytesseract": {
     "main": true
   },
   "pytest-asdf-plugin": {
