@@ -23180,7 +23180,46 @@
   "parserutils": {
     "main": true
   },
+  "parsevasp": {
+    "main": true
+  },
+  "parsim": {
+    "main": true
+  },
+  "parsimonious": {
+    "main": true
+  },
+  "parsita": {
+    "main": true
+  },
+  "parsl": {
+    "main": true
+  },
+  "parsley": {
+    "main": true
+  },
+  "parsmurf": {
+    "main": true
+  },
   "parsnip-cif": {
+    "main": true
+  },
+  "parso": {
+    "main": true
+  },
+  "parson": {
+    "main": true
+  },
+  "parsplice": {
+    "main": true
+  },
+  "parsy": {
+    "main": true
+  },
+  "partd": {
+    "main": true
+  },
+  "partial-aligner": {
     "main": true
   },
   "partial-json-parser": {
@@ -23189,19 +23228,142 @@
   "partialjson": {
     "main": true
   },
+  "partialwrap": {
+    "main": true
+  },
+  "particle": {
+    "main": true
+  },
+  "particle-tracking-manager": {
+    "main": true
+  },
+  "particlespy": {
+    "main": true
+  },
+  "particula": {
+    "main": true
+  },
+  "partseg": {
+    "main": true
+  },
+  "partseg-smfish": {
+    "main": true
+  },
+  "partsegcore-compiled-backend": {
+    "main": true
+  },
+  "partsegdata": {
+    "main": true
+  },
+  "partsgenieclient": {
+    "main": true
+  },
+  "pascal-voc-writer": {
+    "main": true
+  },
+  "paseos": {
+    "main": true
+  },
+  "passhash": {
+    "main": true
+  },
   "passhole": {
+    "main": true
+  },
+  "passlib": {
+    "main": true
+  },
+  "password-strength": {
+    "main": true
+  },
+  "passwordless": {
+    "main": true
+  },
+  "pastas": {
+    "main": true
+  },
+  "paste": {
+    "main": true
+  },
+  "pastedeploy": {
+    "main": true
+  },
+  "pastel": {
+    "main": true
+  },
+  "pastescript": {
+    "main": true
+  },
+  "pastix": {
     "main": true
   },
   "patatt": {
     "main": true
   },
+  "patch": {
+    "main": true
+  },
+  "patch-ng": {
+    "main": true
+  },
+  "patchelf": {
+    "main": true
+  },
+  "patchnetvlad": {
+    "main": true
+  },
+  "patchworklib": {
+    "main": true
+  },
+  "patchy": {
+    "main": true
+  },
+  "path": {
+    "main": true
+  },
+  "path-and-address": {
+    "main": true
+  },
   "path-imports": {
+    "main": true
+  },
+  "path.py": {
+    "main": true
+  },
+  "pathable": {
     "main": true
   },
   "pathfinder2e-stats": {
     "main": true
   },
+  "pathlib-abc": {
+    "main": true
+  },
+  "pathlib-mate": {
+    "main": true
+  },
+  "pathlib2": {
+    "main": true
+  },
+  "pathos": {
+    "main": true
+  },
   "pathsim": {
+    "main": true
+  },
+  "pathsimanalysis": {
+    "main": true
+  },
+  "pathspec": {
+    "main": true
+  },
+  "pathtools": {
+    "main": true
+  },
+  "pathvalidate": {
+    "main": true
+  },
+  "pathy": {
     "main": true
   },
   "patiencediff": {
@@ -23210,7 +23372,25 @@
   "patito": {
     "main": true
   },
+  "patool": {
+    "main": true
+  },
+  "patsy": {
+    "main": true
+  },
+  "pattern": {
+    "main": true
+  },
   "pattern-utils": {
+    "main": true
+  },
+  "paver": {
+    "main": true
+  },
+  "pavo": {
+    "main": true
+  },
+  "pawflim": {
     "main": true
   },
   "pax": {
@@ -23219,25 +23399,250 @@
   "pbcuda": {
     "main": true
   },
+  "pbkdf2": {
+    "main": true
+  },
   "pbls": {
+    "main": true
+  },
+  "pbr": {
+    "main": true
+  },
+  "pbs-installer": {
+    "main": true
+  },
+  "pbxproj": {
+    "main": true
+  },
+  "pbzip2": {
+    "main": true
+  },
+  "pc_rasterize": {
     "main": true
   },
   "pca": {
     "main": true
   },
+  "pcaspy": {
+    "main": true
+  },
+  "pcdscalc": {
+    "main": true
+  },
+  "pcdsdevices": {
+    "main": true
+  },
+  "pcdsutils": {
+    "main": true
+  },
+  "pcdswidgets": {
+    "main": true
+  },
+  "pcicrawler": {
+    "main": true
+  },
+  "pcl": {
+    "main": true
+  },
+  "pcmdi_metrics": {
+    "main": true
+  },
+  "pcmsolver-split": {
+    "main": true
+  },
+  "pcodedmp": {
+    "main": true
+  },
+  "pcpp": {
+    "main": true
+  },
+  "pcraster": {
+    "main": true
+  },
+  "pcre": {
+    "main": true
+  },
+  "pcre2": {
+    "main": true
+  },
+  "pcrunch": {
+    "main": true
+  },
+  "pcsclite": {
+    "main": true
+  },
   "pcst-fast": {
+    "main": true
+  },
+  "pdal": {
+    "main": true
+  },
+  "pdal-c": {
+    "main": true
+  },
+  "pdal-parallelizer": {
+    "main": true
+  },
+  "pdal_wrench": {
+    "main": true
+  },
+  "pdata": {
+    "main": true
+  },
+  "pdb-tools": {
+    "main": true
+  },
+  "pdb2pqr": {
+    "main": true
+  },
+  "pdb2pqr_htmd_propka30": {
+    "main": true
+  },
+  "pdb2sql": {
+    "main": true
+  },
+  "pdb_manip_py": {
     "main": true
   },
   "pdbeccdutils": {
     "main": true
   },
+  "pdbfixer": {
+    "main": true
+  },
+  "pdbinf": {
+    "main": true
+  },
+  "pdblp": {
+    "main": true
+  },
+  "pdbpp": {
+    "main": true
+  },
+  "pdbstore": {
+    "main": true
+  },
+  "pdbufr": {
+    "main": true
+  },
+  "pdcifplotter": {
+    "main": true
+  },
+  "pdcurses": {
+    "main": true
+  },
+  "pdemtools": {
+    "main": true
+  },
   "pdf-reports": {
+    "main": true
+  },
+  "pdf2image": {
+    "main": true
+  },
+  "pdf2svg": {
+    "main": true
+  },
+  "pdfcombine": {
     "main": true
   },
   "pdfcpu": {
     "main": true
   },
+  "pdfcrop.pl": {
+    "main": true
+  },
+  "pdfgrep": {
+    "main": true
+  },
+  "pdflatex": {
+    "main": true
+  },
+  "pdfme": {
+    "main": true
+  },
   "pdfminer-six": {
+    "main": true
+  },
+  "pdfminer.six": {
+    "main": true
+  },
+  "pdfminer3k": {
+    "main": true
+  },
+  "pdfmm": {
+    "main": true
+  },
+  "pdfnofonts": {
+    "main": true
+  },
+  "pdfo": {
+    "main": true
+  },
+  "pdfplumber": {
+    "main": true
+  },
+  "pdfrw": {
+    "main": true
+  },
+  "pdfshrink": {
+    "main": true
+  },
+  "pdfstream": {
+    "main": true
+  },
+  "pdfsyntax": {
+    "main": true
+  },
+  "pdftext": {
+    "main": true
+  },
+  "pdftopng": {
+    "main": true
+  },
+  "pdftotext": {
+    "main": true
+  },
+  "pdgraster": {
+    "main": true
+  },
+  "pdgstaging": {
+    "main": true
+  },
+  "pdielec": {
+    "main": true
+  },
+  "pdir2": {
+    "main": true
+  },
+  "pdm": {
+    "main": true
+  },
+  "pdm-backend": {
+    "main": true
+  },
+  "pdm-pep517": {
+    "main": true
+  },
+  "pdoc": {
+    "main": true
+  },
+  "pdoc3": {
+    "main": true
+  },
+  "pdocs": {
+    "main": true
+  },
+  "pdpbox": {
+    "main": true
+  },
+  "pdpipe": {
+    "main": true
+  },
+  "pdpyras": {
+    "main": true
+  },
+  "pdr": {
     "main": true
   },
   "pds.api-client": {
@@ -23246,31 +23651,769 @@
   "pds.peppi": {
     "main": true
   },
+  "pds4_tools": {
+    "main": true
+  },
+  "pdspy": {
+    "main": true
+  },
+  "pdtable": {
+    "main": true
+  },
+  "pdtypes": {
+    "main": true
+  },
+  "pdvega": {
+    "main": true
+  },
+  "pe-configurator": {
+    "main": true
+  },
+  "peak-finder-app": {
+    "main": true
+  },
+  "peakutils": {
+    "main": true
+  },
+  "pebble": {
+    "main": true
+  },
+  "peccary": {
+    "main": true
+  },
+  "peco": {
+    "main": true
+  },
+  "pecos": {
+    "main": true
+  },
+  "pedantic": {
+    "main": true
+  },
+  "peepdb": {
+    "main": true
+  },
+  "peewee": {
+    "main": true
+  },
   "peewee-migrate": {
+    "main": true
+  },
+  "pefile": {
+    "main": true
+  },
+  "peft": {
+    "main": true
+  },
+  "pegasus-wms": {
+    "main": true
+  },
+  "pegasus-wms.api": {
+    "main": true
+  },
+  "pegasus-wms.common": {
+    "main": true
+  },
+  "pegasus-wms.dax": {
+    "main": true
+  },
+  "pegasus-wms.worker": {
+    "main": true
+  },
+  "pegen": {
+    "main": true
+  },
+  "pelican": {
+    "main": true
+  },
+  "pelican-bibliography": {
+    "main": true
+  },
+  "pelicanfs": {
+    "main": true
+  },
+  "pelicanplatform": {
+    "main": true
+  },
+  "pem": {
+    "main": true
+  },
+  "pemja": {
+    "main": true
+  },
+  "penaltymodel": {
+    "main": true
+  },
+  "penaltymodel-cache": {
+    "main": true
+  },
+  "penaltymodel-lp": {
+    "main": true
+  },
+  "penaltymodel-mip": {
+    "main": true
+  },
+  "pendulum": {
     "main": true
   },
   "pengwann": {
     "main": true
   },
+  "pennylane": {
+    "main": true
+  },
+  "pennylane-cirq": {
+    "main": true
+  },
+  "pennylane-honeywell": {
+    "main": true
+  },
+  "pennylane-lightning": {
+    "main": true
+  },
+  "pennylane-lightning-gpu": {
+    "main": true
+  },
+  "pennylane-lightning-kokkos": {
+    "main": true
+  },
+  "pentapy": {
+    "main": true
+  },
+  "pep440": {
+    "main": true
+  },
+  "pep562": {
+    "main": true
+  },
+  "pep8-naming": {
+    "main": true
+  },
   "pephubclient": {
+    "main": true
+  },
+  "peppy": {
+    "main": true
+  },
+  "pepredicates": {
+    "main": true
+  },
+  "pept": {
     "main": true
   },
   "per4m": {
     "main": true
   },
+  "perceptualdiff": {
+    "main": true
+  },
   "percol": {
+    "main": true
+  },
+  "percy": {
+    "main": true
+  },
+  "perfmetrics": {
+    "main": true
+  },
+  "performance": {
+    "main": true
+  },
+  "performer-pytorch": {
+    "main": true
+  },
+  "perfplot": {
+    "main": true
+  },
+  "periodic-table-plotter": {
+    "main": true
+  },
+  "periodicgw": {
+    "main": true
+  },
+  "periodictable": {
+    "main": true
+  },
+  "periodiq": {
+    "main": true
+  },
+  "periscope": {
+    "main": true
+  },
+  "perl-algorithm-diff": {
+    "main": true
+  },
+  "perl-apache-test": {
+    "main": true
+  },
+  "perl-app-cpanminus": {
     "main": true
   },
   "perl-autovivification": {
     "main": true
   },
+  "perl-b-cow": {
+    "main": true
+  },
+  "perl-b-hooks-endofscope": {
+    "main": true
+  },
+  "perl-base": {
+    "main": true
+  },
+  "perl-bit-vector": {
+    "main": true
+  },
+  "perl-business-isbn": {
+    "main": true
+  },
+  "perl-business-isbn-data": {
+    "main": true
+  },
   "perl-business-issn": {
+    "main": true
+  },
+  "perl-capture-tiny": {
+    "main": true
+  },
+  "perl-carp": {
+    "main": true
+  },
+  "perl-carp-assert": {
+    "main": true
+  },
+  "perl-carp-clan": {
+    "main": true
+  },
+  "perl-class-data-inheritable": {
+    "main": true
+  },
+  "perl-class-load": {
+    "main": true
+  },
+  "perl-class-load-xs": {
+    "main": true
+  },
+  "perl-class-method-modifiers": {
+    "main": true
+  },
+  "perl-class-trigger": {
+    "main": true
+  },
+  "perl-clone": {
+    "main": true
+  },
+  "perl-clone-choose": {
+    "main": true
+  },
+  "perl-common-sense": {
+    "main": true
+  },
+  "perl-compress-bgzf": {
+    "main": true
+  },
+  "perl-compress-raw-bzip2": {
+    "main": true
+  },
+  "perl-compress-raw-zlib": {
+    "main": true
+  },
+  "perl-config-simple": {
+    "main": true
+  },
+  "perl-config-tiny": {
+    "main": true
+  },
+  "perl-constant": {
+    "main": true
+  },
+  "perl-cpan-meta-check": {
+    "main": true
+  },
+  "perl-cpan-meta-yaml": {
+    "main": true
+  },
+  "perl-data-dumper": {
+    "main": true
+  },
+  "perl-data-dumper-concise": {
+    "main": true
+  },
+  "perl-data-optlist": {
+    "main": true
+  },
+  "perl-data-structure-util": {
+    "main": true
+  },
+  "perl-date-calc": {
+    "main": true
+  },
+  "perl-db_file": {
+    "main": true
+  },
+  "perl-dbi": {
     "main": true
   },
   "perl-debug-adapter": {
     "main": true
   },
+  "perl-devel-assert": {
+    "main": true
+  },
+  "perl-devel-globaldestruction": {
+    "main": true
+  },
+  "perl-devel-nytprof": {
+    "main": true
+  },
+  "perl-devel-overloadinfo": {
+    "main": true
+  },
+  "perl-devel-stacktrace": {
+    "main": true
+  },
+  "perl-digest-crc32": {
+    "main": true
+  },
+  "perl-digest-md5": {
+    "main": true
+  },
+  "perl-dist-checkconflicts": {
+    "main": true
+  },
+  "perl-email-date-format": {
+    "main": true
+  },
+  "perl-encode": {
+    "main": true
+  },
+  "perl-env": {
+    "main": true
+  },
+  "perl-env-path": {
+    "main": true
+  },
+  "perl-eval-closure": {
+    "main": true
+  },
+  "perl-exception-class": {
+    "main": true
+  },
+  "perl-exporter": {
+    "main": true
+  },
+  "perl-exporter-tidy": {
+    "main": true
+  },
+  "perl-exporter-tiny": {
+    "main": true
+  },
+  "perl-extutils-config": {
+    "main": true
+  },
+  "perl-extutils-constant": {
+    "main": true
+  },
+  "perl-extutils-helpers": {
+    "main": true
+  },
+  "perl-extutils-installpaths": {
+    "main": true
+  },
+  "perl-extutils-makemaker": {
+    "main": true
+  },
+  "perl-extutils-pl2bat": {
+    "main": true
+  },
+  "perl-file-chdir": {
+    "main": true
+  },
+  "perl-file-homedir": {
+    "main": true
+  },
+  "perl-file-path": {
+    "main": true
+  },
+  "perl-file-pushd": {
+    "main": true
+  },
+  "perl-file-remove": {
+    "main": true
+  },
+  "perl-file-slurp": {
+    "main": true
+  },
+  "perl-file-tee": {
+    "main": true
+  },
+  "perl-file-temp": {
+    "main": true
+  },
+  "perl-file-which": {
+    "main": true
+  },
+  "perl-hash-merge": {
+    "main": true
+  },
+  "perl-if": {
+    "main": true
+  },
+  "perl-importer": {
+    "main": true
+  },
+  "perl-inc-latest": {
+    "main": true
+  },
+  "perl-io-gzip": {
+    "main": true
+  },
+  "perl-io-null": {
+    "main": true
+  },
+  "perl-io-pager": {
+    "main": true
+  },
+  "perl-io-socket-ssl": {
+    "main": true
+  },
+  "perl-io-stringy": {
+    "main": true
+  },
+  "perl-io-tty": {
+    "main": true
+  },
+  "perl-ipc-system-simple": {
+    "main": true
+  },
+  "perl-iterator-simple": {
+    "main": true
+  },
+  "perl-json-maybexs": {
+    "main": true
+  },
+  "perl-json-pp": {
+    "main": true
+  },
+  "perl-lib": {
+    "main": true
+  },
+  "perl-log-log4perl": {
+    "main": true
+  },
+  "perl-math-random-mt-auto": {
+    "main": true
+  },
+  "perl-math-round": {
+    "main": true
+  },
+  "perl-memoize": {
+    "main": true
+  },
+  "perl-mime-base64": {
+    "main": true
+  },
+  "perl-mime-charset": {
+    "main": true
+  },
+  "perl-module-build": {
+    "main": true
+  },
+  "perl-module-build-tiny": {
+    "main": true
+  },
+  "perl-module-implementation": {
+    "main": true
+  },
+  "perl-module-pluggable": {
+    "main": true
+  },
+  "perl-module-runtime": {
+    "main": true
+  },
+  "perl-module-runtime-conflicts": {
+    "main": true
+  },
+  "perl-mojolicious": {
+    "main": true
+  },
+  "perl-moo": {
+    "main": true
+  },
+  "perl-moose": {
+    "main": true
+  },
+  "perl-mro-compat": {
+    "main": true
+  },
+  "perl-namespace-clean": {
+    "main": true
+  },
+  "perl-net-ssleay": {
+    "main": true
+  },
+  "perl-number-compare": {
+    "main": true
+  },
+  "perl-number-format": {
+    "main": true
+  },
+  "perl-object-insideout": {
+    "main": true
+  },
+  "perl-package-deprecationmanager": {
+    "main": true
+  },
+  "perl-package-stash": {
+    "main": true
+  },
+  "perl-package-stash-xs": {
+    "main": true
+  },
+  "perl-params-util": {
+    "main": true
+  },
+  "perl-parent": {
+    "main": true
+  },
+  "perl-path-tiny": {
+    "main": true
+  },
+  "perl-pathtools": {
+    "main": true
+  },
+  "perl-perl-ostype": {
+    "main": true
+  },
+  "perl-proc-fork": {
+    "main": true
+  },
+  "perl-readonly": {
+    "main": true
+  },
+  "perl-regexp-common": {
+    "main": true
+  },
+  "perl-role-tiny": {
+    "main": true
+  },
+  "perl-scalar-list-utils": {
+    "main": true
+  },
+  "perl-scope-guard": {
+    "main": true
+  },
+  "perl-set-scalar": {
+    "main": true
+  },
+  "perl-sivg": {
+    "main": true
+  },
+  "perl-sort-key": {
+    "main": true
+  },
+  "perl-spiffy": {
+    "main": true
+  },
+  "perl-storable": {
+    "main": true
+  },
+  "perl-sub-exporter": {
+    "main": true
+  },
+  "perl-sub-exporter-progressive": {
+    "main": true
+  },
+  "perl-sub-identify": {
+    "main": true
+  },
+  "perl-sub-info": {
+    "main": true
+  },
+  "perl-sub-install": {
+    "main": true
+  },
+  "perl-sub-name": {
+    "main": true
+  },
+  "perl-sub-quote": {
+    "main": true
+  },
+  "perl-sub-uplevel": {
+    "main": true
+  },
+  "perl-svg": {
+    "main": true
+  },
+  "perl-sys-cpu": {
+    "main": true
+  },
+  "perl-termreadkey": {
+    "main": true
+  },
+  "perl-test": {
+    "main": true
+  },
+  "perl-test-base": {
+    "main": true
+  },
+  "perl-test-cleannamespaces": {
+    "main": true
+  },
+  "perl-test-deep": {
+    "main": true
+  },
+  "perl-test-differences": {
+    "main": true
+  },
+  "perl-test-exception": {
+    "main": true
+  },
+  "perl-test-fatal": {
+    "main": true
+  },
+  "perl-test-harness": {
+    "main": true
+  },
+  "perl-test-leaktrace": {
+    "main": true
+  },
+  "perl-test-needs": {
+    "main": true
+  },
+  "perl-test-nowarnings": {
+    "main": true
+  },
+  "perl-test-output": {
+    "main": true
+  },
+  "perl-test-requires": {
+    "main": true
+  },
+  "perl-test-simple": {
+    "main": true
+  },
+  "perl-test-warn": {
+    "main": true
+  },
+  "perl-test-warnings": {
+    "main": true
+  },
+  "perl-test-without-module": {
+    "main": true
+  },
+  "perl-test-yaml": {
+    "main": true
+  },
+  "perl-text-abbrev": {
+    "main": true
+  },
+  "perl-text-csv": {
+    "main": true
+  },
+  "perl-text-diff": {
+    "main": true
+  },
+  "perl-text-levenshtein": {
+    "main": true
+  },
+  "perl-text-levenshteinxs": {
+    "main": true
+  },
+  "perl-text-parsewords": {
+    "main": true
+  },
+  "perl-text-roman": {
+    "main": true
+  },
+  "perl-text-soundex": {
+    "main": true
+  },
+  "perl-text-tabs-wrap": {
+    "main": true
+  },
+  "perl-text-unidecode": {
+    "main": true
+  },
+  "perl-text-wrap": {
+    "main": true
+  },
+  "perl-tie-cache": {
+    "main": true
+  },
+  "perl-tie-cacher": {
+    "main": true
+  },
+  "perl-tie-refhash": {
+    "main": true
+  },
+  "perl-try-tiny": {
+    "main": true
+  },
+  "perl-type-tiny": {
+    "main": true
+  },
+  "perl-unicode-linebreak": {
+    "main": true
+  },
+  "perl-unix-processors": {
+    "main": true
+  },
+  "perl-uri": {
+    "main": true
+  },
+  "perl-uri-encode": {
+    "main": true
+  },
+  "perl-uri-query": {
+    "main": true
+  },
+  "perl-variable-magic": {
+    "main": true
+  },
+  "perl-version": {
+    "main": true
+  },
+  "perl-xml-filter-buffertext": {
+    "main": true
+  },
+  "perl-xml-namespacesupport": {
+    "main": true
+  },
+  "perl-xml-parser": {
+    "main": true
+  },
+  "perl-xml-sax": {
+    "main": true
+  },
+  "perl-xml-sax-base": {
+    "main": true
+  },
+  "perl-xml-sax-expat": {
+    "main": true
+  },
+  "perl-xml-xpath": {
+    "main": true
+  },
+  "perl-xsloader": {
+    "main": true
+  },
+  "perl-yaml": {
+    "main": true
+  },
+  "perl-yaml-libyaml": {
+    "main": true
+  },
+  "perl-yaml-tiny": {
+    "main": true
+  },
   "perlnavigator-server": {
+    "main": true
+  },
+  "permamodel": {
+    "main": true
+  },
+  "permission": {
     "main": true
   },
   "perpetual": {
@@ -23279,10 +24422,61 @@
   "perplexityai": {
     "main": true
   },
+  "perscache": {
+    "main": true
+  },
+  "perses": {
+    "main": true
+  },
+  "persim": {
+    "main": true
+  },
+  "persist_ext": {
+    "main": true
+  },
+  "persistent": {
+    "main": true
+  },
+  "perspective": {
+    "main": true
+  },
+  "perspective_parquet": {
+    "main": true
+  },
   "pertpy": {
     "main": true
   },
+  "pescador": {
+    "main": true
+  },
+  "pesq": {
+    "main": true
+  },
   "pest-language-server": {
+    "main": true
+  },
+  "pestpp": {
+    "main": true
+  },
+  "pesummary": {
+    "main": true
+  },
+  "pesviewer": {
+    "main": true
+  },
+  "petl": {
+    "main": true
+  },
+  "petname": {
+    "main": true
+  },
+  "petpvc": {
+    "main": true
+  },
+  "petsc": {
+    "main": true
+  },
+  "petsc4py": {
     "main": true
   },
   "petsird": {
@@ -23294,7 +24488,31 @@
   "peuqse": {
     "main": true
   },
+  "pex": {
+    "main": true
+  },
   "pexec": {
+    "main": true
+  },
+  "pexpect": {
+    "main": true
+  },
+  "pexsi": {
+    "main": true
+  },
+  "pfapack": {
+    "main": true
+  },
+  "pferd": {
+    "main": true
+  },
+  "pfsspy": {
+    "main": true
+  },
+  "pfzy": {
+    "main": true
+  },
+  "pg8000": {
     "main": true
   },
   "pgadmin4-desktop": {
@@ -23303,16 +24521,115 @@
   "pgadmin4-python": {
     "main": true
   },
+  "pgcli": {
+    "main": true
+  },
+  "pgcolorbar": {
+    "main": true
+  },
+  "pgcopy": {
+    "main": true
+  },
+  "pgdumplib": {
+    "main": true
+  },
+  "pgeocode": {
+    "main": true
+  },
+  "pget": {
+    "main": true
+  },
+  "pgmpy": {
+    "main": true
+  },
+  "pgplot": {
+    "main": true
+  },
+  "pgpy": {
+    "main": true
+  },
+  "pgraph-python": {
+    "main": true
+  },
+  "pgrouting": {
+    "main": true
+  },
+  "pgsanity": {
+    "main": true
+  },
+  "pgspecial": {
+    "main": true
+  },
+  "pgsqlite": {
+    "main": true
+  },
+  "pgsu": {
+    "main": true
+  },
+  "pgure-svt": {
+    "main": true
+  },
+  "pgvector": {
+    "main": true
+  },
+  "pgvector-python": {
+    "main": true
+  },
+  "pgzero": {
+    "main": true
+  },
+  "pgzip": {
+    "main": true
+  },
+  "phantomjs": {
+    "main": true
+  },
+  "phasecalculator": {
+    "main": true
+  },
   "phasefieldx": {
     "main": true
   },
   "phasegen": {
     "main": true
   },
+  "phasepy": {
+    "main": true
+  },
+  "phasespace": {
+    "main": true
+  },
+  "phasexmlcreator": {
+    "main": true
+  },
+  "phasexmlparser": {
+    "main": true
+  },
   "phasorpy": {
     "main": true
   },
+  "phconvert": {
+    "main": true
+  },
+  "phe": {
+    "main": true
+  },
+  "pheasant": {
+    "main": true
+  },
   "phelel": {
+    "main": true
+  },
+  "phidata": {
+    "main": true
+  },
+  "phidget22": {
+    "main": true
+  },
+  "phidl": {
+    "main": true
+  },
+  "phik": {
     "main": true
   },
   "phoebusgen": {
@@ -23321,16 +24638,82 @@
   "phonemizer-fork": {
     "main": true
   },
+  "phonenumbers": {
+    "main": true
+  },
+  "phono3py": {
+    "main": true
+  },
+  "phonolammps": {
+    "main": true
+  },
+  "phonon": {
+    "main": true
+  },
+  "phonopy": {
+    "main": true
+  },
+  "phosphor": {
+    "main": true
+  },
+  "photochem": {
+    "main": true
+  },
+  "photochem_clima_data": {
+    "main": true
+  },
+  "photos": {
+    "main": true
+  },
+  "photospline": {
+    "main": true
+  },
+  "photutils": {
+    "main": true
+  },
+  "php": {
+    "main": true
+  },
+  "phpserialize": {
+    "main": true
+  },
+  "phreeqc4rkt": {
+    "main": true
+  },
+  "phreeqcrm": {
+    "main": true
+  },
+  "phreeqpy": {
+    "main": true
+  },
   "phroc": {
     "main": true
   },
   "phx-class-registry": {
     "main": true
   },
+  "physical_validation": {
+    "main": true
+  },
+  "physics-tenpy": {
+    "main": true
+  },
+  "physicsml": {
+    "main": true
+  },
+  "physiocurve": {
+    "main": true
+  },
   "physo": {
     "main": true
   },
+  "phytreeviz": {
+    "main": true
+  },
   "pi-vae-pytorch": {
+    "main": true
+  },
+  "piano_fingering": {
     "main": true
   },
   "picamera2": {
@@ -23339,13 +24722,103 @@
   "picaso": {
     "main": true
   },
+  "piccolo-theme": {
+    "main": true
+  },
+  "picharsso": {
+    "main": true
+  },
+  "pick": {
+    "main": true
+  },
+  "pickle-compat": {
+    "main": true
+  },
+  "pickledb": {
+    "main": true
+  },
   "pickles": {
+    "main": true
+  },
+  "pickleshare": {
+    "main": true
+  },
+  "pickydict": {
+    "main": true
+  },
+  "picmistandard": {
+    "main": true
+  },
+  "picobox": {
+    "main": true
+  },
+  "picojson": {
+    "main": true
+  },
+  "picologging": {
+    "main": true
+  },
+  "piconnect": {
     "main": true
   },
   "picoruby": {
     "main": true
   },
+  "picosdk": {
+    "main": true
+  },
+  "picows": {
+    "main": true
+  },
+  "picwriter": {
+    "main": true
+  },
+  "pidcalib2": {
+    "main": true
+  },
+  "pidgen2": {
+    "main": true
+  },
+  "pidibble": {
+    "main": true
+  },
+  "pidly": {
+    "main": true
+  },
   "pidng": {
+    "main": true
+  },
+  "piecash": {
+    "main": true
+  },
+  "piecewise-regression": {
+    "main": true
+  },
+  "piexif": {
+    "main": true
+  },
+  "piff": {
+    "main": true
+  },
+  "pigar": {
+    "main": true
+  },
+  "pigeon-jupyter": {
+    "main": true
+  },
+  "pigeonxt-jupyter": {
+    "main": true
+  },
+  "pigz": {
+    "main": true
+  },
+  "pika": {
+    "main": true
+  },
+  "pikepdf": {
+    "main": true
+  },
+  "pillow": {
     "main": true
   },
   "pillow-avif-plugin": {
@@ -23354,7 +24827,19 @@
   "pillow-heif": {
     "main": true
   },
+  "pimpmyclass": {
+    "main": true
+  },
+  "pims": {
+    "main": true
+  },
+  "pimsviewer": {
+    "main": true
+  },
   "pinact": {
+    "main": true
+  },
+  "pineappl": {
     "main": true
   },
   "pinecone": {
@@ -23372,7 +24857,94 @@
   "pinentry": {
     "main": true
   },
+  "pingouin": {
+    "main": true
+  },
+  "pinject": {
+    "main": true
+  },
+  "pink": {
+    "main": true
+  },
+  "pinocchio": {
+    "main": true
+  },
+  "pinotdb": {
+    "main": true
+  },
+  "pinout": {
+    "main": true
+  },
+  "pins": {
+    "main": true
+  },
+  "pint": {
+    "main": true
+  },
+  "pint-pal": {
+    "main": true
+  },
+  "pint-pandas": {
+    "main": true
+  },
+  "pint-pulsar": {
+    "main": true
+  },
+  "pint-xarray": {
+    "main": true
+  },
+  "pinttrs": {
+    "main": true
+  },
+  "pinyin": {
+    "main": true
+  },
+  "piou": {
+    "main": true
+  },
+  "pip": {
+    "main": true
+  },
+  "pip-api": {
+    "main": true
+  },
+  "pip-audit": {
+    "main": true
+  },
+  "pip-autoremove": {
+    "main": true
+  },
+  "pip-requirements-parser": {
+    "main": true
+  },
+  "pip-system-certs": {
+    "main": true
+  },
+  "pip-tools": {
+    "main": true
+  },
+  "pip-upgrader": {
+    "main": true
+  },
+  "pip2conda": {
+    "main": true
+  },
+  "pip2pi": {
+    "main": true
+  },
   "pipask": {
+    "main": true
+  },
+  "pipda": {
+    "main": true
+  },
+  "pipdate": {
+    "main": true
+  },
+  "pipdeptree": {
+    "main": true
+  },
+  "pipe": {
     "main": true
   },
   "pipe-operator": {
@@ -23381,7 +24953,28 @@
   "pipe-rename": {
     "main": true
   },
+  "pipefunc": {
+    "main": true
+  },
+  "pipenv": {
+    "main": true
+  },
+  "pipestat": {
+    "main": true
+  },
   "pipettor": {
+    "main": true
+  },
+  "pipfile": {
+    "main": true
+  },
+  "pipreqs": {
+    "main": true
+  },
+  "pipreqsnb": {
+    "main": true
+  },
+  "pipx": {
     "main": true
   },
   "piq": {
@@ -23390,10 +24983,43 @@
   "piqa": {
     "main": true
   },
+  "piqp": {
+    "main": true
+  },
+  "piqs": {
+    "main": true
+  },
+  "piranha": {
+    "main": true
+  },
+  "pisces-db": {
+    "main": true
+  },
+  "piso": {
+    "main": true
+  },
   "pispy-client": {
     "main": true
   },
+  "pit-rift": {
+    "main": true
+  },
+  "pitot": {
+    "main": true
+  },
+  "pivottable": {
+    "main": true
+  },
+  "pivy": {
+    "main": true
+  },
   "pixcdust": {
+    "main": true
+  },
+  "pixell": {
+    "main": true
+  },
+  "pixi": {
     "main": true
   },
   "pixi-assistant": {
@@ -23429,6 +25055,9 @@
   "pixi-diff": {
     "main": true
   },
+  "pixi-diff-to-markdown": {
+    "main": true
+  },
   "pixi-inject": {
     "main": true
   },
@@ -23438,7 +25067,16 @@
   "pixi-install-to-prefix": {
     "main": true
   },
+  "pixi-kernel": {
+    "main": true
+  },
   "pixi-outdated": {
+    "main": true
+  },
+  "pixi-pack": {
+    "main": true
+  },
+  "pixi-pycharm": {
     "main": true
   },
   "pixi-ros": {
@@ -23450,7 +25088,55 @@
   "pixi-to-conda-lock": {
     "main": true
   },
+  "pixiedust": {
+    "main": true
+  },
+  "pixman": {
+    "main": true
+  },
+  "pixmappy": {
+    "main": true
+  },
+  "pixsfm": {
+    "main": true
+  },
+  "pixstem": {
+    "main": true
+  },
+  "pixy": {
+    "main": true
+  },
   "pixz": {
+    "main": true
+  },
+  "pkbar": {
+    "main": true
+  },
+  "pkce": {
+    "main": true
+  },
+  "pkg-about": {
+    "main": true
+  },
+  "pkg-config": {
+    "main": true
+  },
+  "pkgconf": {
+    "main": true
+  },
+  "pkgconfig": {
+    "main": true
+  },
+  "pkginfo": {
+    "main": true
+  },
+  "pkgparser": {
+    "main": true
+  },
+  "pkgutil-resolve-name": {
+    "main": true
+  },
+  "pkgversions": {
     "main": true
   },
   "pkld": {
@@ -23459,10 +25145,40 @@
   "pkn": {
     "main": true
   },
+  "plac": {
+    "main": true
+  },
+  "placekey": {
+    "main": true
+  },
   "placo": {
     "main": true
   },
+  "plaid": {
+    "main": true
+  },
+  "plams": {
+    "main": true
+  },
+  "planarity": {
+    "main": true
+  },
+  "planet": {
+    "main": true
+  },
   "planet-auth": {
+    "main": true
+  },
+  "planetary-computer": {
+    "main": true
+  },
+  "planetary-coverage": {
+    "main": true
+  },
+  "planetaryimage": {
+    "main": true
+  },
+  "planetmapper": {
     "main": true
   },
   "planingfsi": {
@@ -23474,10 +25190,70 @@
   "plant-isce3": {
     "main": true
   },
+  "plant-seg": {
+    "main": true
+  },
+  "plantcv": {
+    "main": true
+  },
+  "plantuml": {
+    "main": true
+  },
+  "plasmaboundaries": {
+    "main": true
+  },
+  "plasmapy": {
+    "main": true
+  },
+  "plaster": {
+    "main": true
+  },
+  "plaster_pastedeploy": {
+    "main": true
+  },
+  "plasticparcels": {
+    "main": true
+  },
+  "plate-model-manager": {
+    "main": true
+  },
   "plate-simulation": {
     "main": true
   },
+  "plateau": {
+    "main": true
+  },
+  "platelet-unet-watershed": {
+    "main": true
+  },
+  "plateletanalysis": {
+    "main": true
+  },
+  "platetectonictools": {
+    "main": true
+  },
+  "platformdirs": {
+    "main": true
+  },
+  "platformio": {
+    "main": true
+  },
+  "platymatch": {
+    "main": true
+  },
+  "platypus-opt": {
+    "main": true
+  },
   "playground": {
+    "main": true
+  },
+  "playsound": {
+    "main": true
+  },
+  "playwright": {
+    "main": true
+  },
+  "playwright-python": {
     "main": true
   },
   "playwright-stealth": {
@@ -23489,22 +25265,130 @@
   "pleiades-neutron": {
     "main": true
   },
+  "plenoptic": {
+    "main": true
+  },
+  "plio": {
+    "main": true
+  },
+  "plip": {
+    "main": true
+  },
+  "plog": {
+    "main": true
+  },
+  "plonk": {
+    "main": true
+  },
+  "ploomber": {
+    "main": true
+  },
+  "ploomber-core": {
+    "main": true
+  },
+  "ploomber-engine": {
+    "main": true
+  },
+  "ploomber-extension": {
+    "main": true
+  },
+  "ploomber-scaffold": {
+    "main": true
+  },
   "plopp": {
+    "main": true
+  },
+  "plot-av": {
+    "main": true
+  },
+  "plot_map": {
+    "main": true
+  },
+  "plotapi": {
     "main": true
   },
   "plotastrodata": {
     "main": true
   },
+  "plotext": {
+    "main": true
+  },
+  "plothist": {
+    "main": true
+  },
   "plothist_utils": {
+    "main": true
+  },
+  "plotille": {
+    "main": true
+  },
+  "plotly": {
+    "main": true
+  },
+  "plotly-ecdf": {
+    "main": true
+  },
+  "plotly-orca": {
+    "main": true
+  },
+  "plotly-resampler": {
+    "main": true
+  },
+  "plotly_express": {
+    "main": true
+  },
+  "plotlydash-tornado-cmd": {
+    "main": true
+  },
+  "plotmol": {
+    "main": true
+  },
+  "plotms": {
+    "main": true
+  },
+  "plotnine": {
     "main": true
   },
   "plotnn": {
     "main": true
   },
+  "plotpy": {
+    "main": true
+  },
+  "plottable": {
+    "main": true
+  },
+  "plottoolbox": {
+    "main": true
+  },
+  "plottr": {
+    "main": true
+  },
+  "plplot": {
+    "main": true
+  },
+  "plpygis": {
+    "main": true
+  },
   "plquery": {
     "main": true
   },
+  "pls": {
+    "main": true
+  },
   "pluck-graphql": {
+    "main": true
+  },
+  "plucky": {
+    "main": true
+  },
+  "plugcli": {
+    "main": true
+  },
+  "pluggy": {
+    "main": true
+  },
+  "pluginbase": {
     "main": true
   },
   "plumbing": {
