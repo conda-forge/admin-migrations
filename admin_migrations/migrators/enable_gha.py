@@ -1,4 +1,3 @@
-import json
 import subprocess
 from itertools import chain
 from pathlib import Path
@@ -45,16 +44,18 @@ class EnableGHAWorkflows(Migrator):
 
         return True, True, False
 
-    def skip(self, feedstock, branch):
-        if super().skip(feedstock, branch):
-            return True
-        if feedstock not in self.feedstocks_to_process:
-            return True
-
-    @property
-    def feedstocks_to_process(self):
-        if not getattr(self, "_feedstocks_to_process", None):
-            here = Path(__file__).parent
-            json_path = here / "../../data/feedstocks_20241010-20260312.json"
-            self._feedstocks_to_process = set(json.loads(json_path.read_text()))
-        return self._feedstocks_to_process
+    # We only used this to prioritize migrating feedstocks created after 2024-11
+    # Once those were processed, we ran the migration for all feedstocks just in case
+    # def skip(self, feedstock, branch):
+    #     if super().skip(feedstock, branch):
+    #         return True
+    #     if feedstock not in self.feedstocks_to_process:
+    #         return True
+    #
+    # @property
+    # def feedstocks_to_process(self):
+    #     if not getattr(self, "_feedstocks_to_process", None):
+    #         here = Path(__file__).parent
+    #         json_path = here / "../../data/feedstocks_20241010-20260312.json"
+    #         self._feedstocks_to_process = set(json.loads(json_path.read_text()))
+    #     return self._feedstocks_to_process
