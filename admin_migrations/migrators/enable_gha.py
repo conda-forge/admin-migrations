@@ -1,4 +1,3 @@
-import json
 import subprocess
 from itertools import chain
 from pathlib import Path
