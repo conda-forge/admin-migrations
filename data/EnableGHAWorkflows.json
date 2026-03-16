@@ -17837,49 +17837,1081 @@
   "napari-bio-sample-data": {
     "main": true
   },
+  "napari-bioformats": {
+    "main": true
+  },
+  "napari-bioimageio": {
+    "main": true
+  },
+  "napari-bleach-correct": {
+    "main": true
+  },
+  "napari-blender-bridge": {
+    "main": true
+  },
+  "napari-blob-detection": {
+    "main": true
+  },
+  "napari-blossom": {
+    "main": true
+  },
+  "napari-boardgame-maker": {
+    "main": true
+  },
+  "napari-boids": {
+    "main": true
+  },
+  "napari-boxmanager": {
+    "main": true
+  },
+  "napari-brainbow-diagnose": {
+    "main": true
+  },
+  "napari-brightness-contrast": {
+    "main": true
+  },
+  "napari-brushsettings": {
+    "main": true
+  },
+  "napari-btrack-reader": {
+    "main": true
+  },
+  "napari-bud-cell-segmenter": {
+    "main": true
+  },
+  "napari-buds": {
+    "main": true
+  },
+  "napari-caphid": {
+    "main": true
+  },
+  "napari-ccp4map": {
+    "main": true
+  },
+  "napari-cell-centroid-annotator": {
+    "main": true
+  },
+  "napari-cellseg3d": {
+    "main": true
+  },
+  "napari-clipboard": {
+    "main": true
+  },
+  "napari-clusters-plotter": {
+    "main": true
+  },
+  "napari-compressed-labels-io": {
+    "main": true
+  },
+  "napari-conidie": {
+    "main": true
+  },
+  "napari-console": {
+    "main": true
+  },
+  "napari-convpaint": {
+    "main": true
+  },
+  "napari-correct-drift": {
+    "main": true
+  },
+  "napari-crop": {
+    "main": true
+  },
+  "napari-cryofibsem-monitor": {
+    "main": true
+  },
+  "napari-cupy-image-processing": {
+    "main": true
+  },
+  "napari-cursor-tracker": {
+    "main": true
+  },
+  "napari-curtain": {
+    "main": true
+  },
+  "napari-czann-segment": {
+    "main": true
+  },
+  "napari-czifile2": {
+    "main": true
+  },
+  "napari-deeplabcut": {
+    "main": true
+  },
+  "napari-deepmeta": {
+    "main": true
+  },
+  "napari-deepspot": {
+    "main": true
+  },
+  "napari-dexp": {
+    "main": true
+  },
+  "napari-dv": {
+    "main": true
+  },
+  "napari-dvid": {
+    "main": true
+  },
+  "napari-dzi-zarr": {
+    "main": true
+  },
+  "napari-elementary-numpy-operations": {
+    "main": true
+  },
+  "napari-em-reader": {
+    "main": true
+  },
+  "napari-emd": {
+    "main": true
+  },
+  "napari-error-reporter": {
+    "main": true
+  },
+  "napari-feature-classifier": {
+    "main": true
+  },
+  "napari-features": {
+    "main": true
+  },
+  "napari-features-selector": {
+    "main": true
+  },
+  "napari-filament-annotator": {
+    "main": true
+  },
+  "napari-filaments": {
+    "main": true
+  },
+  "napari-file-watcher": {
+    "main": true
+  },
+  "napari-folder-browser": {
+    "main": true
+  },
+  "napari-gemspa": {
+    "main": true
+  },
+  "napari-generic-simulator": {
+    "main": true
+  },
+  "napari-geojson": {
+    "main": true
+  },
+  "napari-geoscience-viewer": {
+    "main": true
+  },
+  "napari-graph": {
+    "main": true
+  },
+  "napari-griottes": {
+    "main": true
+  },
+  "napari-gruvbox": {
+    "main": true
+  },
+  "napari-guitils": {
+    "main": true
+  },
+  "napari-h5": {
+    "main": true
+  },
+  "napari-hdf5-labels-io": {
+    "main": true
+  },
+  "napari-hdf5-netcdf-viewer": {
+    "main": true
+  },
+  "napari-help": {
+    "main": true
+  },
+  "napari-hierarchical": {
+    "main": true
+  },
+  "napari-hough-circle-detector": {
+    "main": true
+  },
+  "napari-image-stacker": {
+    "main": true
+  },
+  "napari-imagej": {
+    "main": true
+  },
+  "napari-imaris-loader": {
+    "main": true
+  },
+  "napari-imc": {
+    "main": true
+  },
+  "napari-imsmicrolink": {
+    "main": true
+  },
+  "napari-indices": {
+    "main": true
+  },
+  "napari-input-visualizer": {
+    "main": true
+  },
+  "napari-ip-workflow": {
+    "main": true
+  },
+  "napari-ism": {
+    "main": true
+  },
+  "napari-itk-io": {
+    "main": true
+  },
+  "napari-j": {
+    "main": true
+  },
+  "napari-kics": {
+    "main": true
+  },
+  "napari-label-interpolator": {
+    "main": true
+  },
+  "napari-labelimg4classification": {
+    "main": true
+  },
+  "napari-labeling": {
+    "main": true
+  },
+  "napari-labelling-assistant": {
+    "main": true
+  },
+  "napari-labelprop": {
+    "main": true
+  },
+  "napari-labels-overlap": {
+    "main": true
+  },
+  "napari-laptrack": {
+    "main": true
+  },
+  "napari-large-image-importer": {
+    "main": true
+  },
+  "napari-layer-details-display": {
+    "main": true
+  },
+  "napari-layer-table": {
+    "main": true
+  },
+  "napari-lazy-openslide": {
+    "main": true
+  },
+  "napari-lf": {
+    "main": true
+  },
+  "napari-live-recording": {
+    "main": true
+  },
+  "napari-locan": {
+    "main": true
+  },
+  "napari-locpix": {
+    "main": true
+  },
+  "napari-macrokit": {
+    "main": true
+  },
+  "napari-manual-transforms": {
+    "main": true
+  },
+  "napari-mat-file-reader": {
+    "main": true
+  },
+  "napari-mat-images": {
+    "main": true
+  },
+  "napari-math": {
+    "main": true
+  },
+  "napari-matplotlib": {
+    "main": true
+  },
+  "napari-mclabel": {
+    "main": true
+  },
+  "napari-medical-image-formats": {
+    "main": true
+  },
+  "napari-medical-image-formats-read-write": {
+    "main": true
+  },
+  "napari-melt-pool-tracker": {
+    "main": true
+  },
+  "napari-merge-stardist-masks": {
+    "main": true
+  },
+  "napari-meshio": {
+    "main": true
+  },
   "napari-metadata": {
+    "main": true
+  },
+  "napari-metroid": {
+    "main": true
+  },
+  "napari-micromanager": {
+    "main": true
+  },
+  "napari-microscope": {
+    "main": true
+  },
+  "napari-microtubule-analyzer": {
+    "main": true
+  },
+  "napari-molecule-reader": {
+    "main": true
+  },
+  "napari-morphodynamics": {
+    "main": true
+  },
+  "napari-mouse-controls": {
+    "main": true
+  },
+  "napari-mrcfile-handler": {
+    "main": true
+  },
+  "napari-mrcfile-reader": {
+    "main": true
+  },
+  "napari-mri": {
+    "main": true
+  },
+  "napari-multitask": {
+    "main": true
+  },
+  "napari-mzarr": {
+    "main": true
+  },
+  "napari-n2v": {
+    "main": true
+  },
+  "napari-napari": {
+    "main": true
+  },
+  "napari-nasa-samples": {
+    "main": true
+  },
+  "napari-nd-annotator": {
+    "main": true
+  },
+  "napari-nd-cropper": {
+    "main": true
+  },
+  "napari-nd2-folder-viewer": {
+    "main": true
+  },
+  "napari-ndev": {
+    "main": true
+  },
+  "napari-ndtiffs": {
+    "main": true
+  },
+  "napari-nibabel": {
+    "main": true
+  },
+  "napari-nifti": {
+    "main": true
+  },
+  "napari-nikon-nd2": {
+    "main": true
+  },
+  "napari-nlm": {
     "main": true
   },
   "napari-nyxus": {
     "main": true
   },
+  "napari-obj": {
+    "main": true
+  },
+  "napari-omaas": {
+    "main": true
+  },
+  "napari-ome-zarr": {
+    "main": true
+  },
+  "napari-omero": {
+    "main": true
+  },
+  "napari-organoid-counter": {
+    "main": true
+  },
+  "napari-owncloud": {
+    "main": true
+  },
+  "napari-parallel": {
+    "main": true
+  },
+  "napari-patchcreator": {
+    "main": true
+  },
+  "napari-pdf-reader": {
+    "main": true
+  },
+  "napari-pdr-reader": {
+    "main": true
+  },
+  "napari-philow": {
+    "main": true
+  },
+  "napari-picasso": {
+    "main": true
+  },
+  "napari-pims-bioformats": {
+    "main": true
+  },
+  "napari-pixel-correction": {
+    "main": true
+  },
+  "napari-plot": {
+    "main": true
+  },
+  "napari-plot-profile": {
+    "main": true
+  },
+  "napari-plugin-engine": {
+    "main": true
+  },
+  "napari-plugin-manager": {
+    "main": true
+  },
+  "napari-plugin-search": {
+    "main": true
+  },
+  "napari-pointslayer-projection": {
+    "main": true
+  },
+  "napari-power-spectrum": {
+    "main": true
+  },
+  "napari-power-widgets": {
+    "main": true
+  },
+  "napari-pram": {
+    "main": true
+  },
+  "napari-process-points-and-surfaces": {
+    "main": true
+  },
+  "napari-proofread-brainbow": {
+    "main": true
+  },
+  "napari-properties-plotter": {
+    "main": true
+  },
+  "napari-properties-viewer": {
+    "main": true
+  },
+  "napari-psf-analysis": {
+    "main": true
+  },
+  "napari-psf-simulator": {
+    "main": true
+  },
+  "napari-pssr": {
+    "main": true
+  },
+  "napari-pyclesperanto-assistant": {
+    "main": true
+  },
   "napari-pymeshlab": {
+    "main": true
+  },
+  "napari-pystackreg": {
+    "main": true
+  },
+  "napari-qrcode": {
+    "main": true
+  },
+  "napari-rembg": {
+    "main": true
+  },
+  "napari-result-stack": {
+    "main": true
+  },
+  "napari-rioxarray": {
+    "main": true
+  },
+  "napari-roi": {
+    "main": true
+  },
+  "napari-roi-registration": {
+    "main": true
+  },
+  "napari-sam": {
+    "main": true
+  },
+  "napari-sam4is": {
+    "main": true
+  },
+  "napari-sc3d-viewer": {
+    "main": true
+  },
+  "napari-script-editor": {
+    "main": true
+  },
+  "napari-sdeconv": {
+    "main": true
+  },
+  "napari-seedseg": {
+    "main": true
+  },
+  "napari-segment": {
+    "main": true
+  },
+  "napari-segment-anything": {
+    "main": true
+  },
+  "napari-segment-blobs-and-things-with-membranes": {
+    "main": true
+  },
+  "napari-serialcellpose": {
+    "main": true
+  },
+  "napari-sif-reader": {
+    "main": true
+  },
+  "napari-sift-registration": {
+    "main": true
+  },
+  "napari-signal-selector": {
+    "main": true
+  },
+  "napari-sim-processor": {
+    "main": true
+  },
+  "napari-simpleannotate": {
+    "main": true
+  },
+  "napari-simpleitk-image-processing": {
+    "main": true
+  },
+  "napari-skimage": {
+    "main": true
+  },
+  "napari-skimage-regionprops": {
+    "main": true
+  },
+  "napari-solarized": {
+    "main": true
+  },
+  "napari-spacetx-explorer": {
+    "main": true
+  },
+  "napari-spatial-omics": {
+    "main": true
+  },
+  "napari-spatialdata": {
+    "main": true
+  },
+  "napari-splinedist": {
+    "main": true
+  },
+  "napari-splineit": {
+    "main": true
+  },
+  "napari-spreadsheet": {
+    "main": true
+  },
+  "napari-stable-diffusion": {
+    "main": true
+  },
+  "napari-steinpose": {
+    "main": true
+  },
+  "napari-stl-exporter": {
+    "main": true
+  },
+  "napari-stracking": {
+    "main": true
+  },
+  "napari-stress": {
+    "main": true
+  },
+  "napari-subboxer": {
+    "main": true
+  },
+  "napari-superres": {
+    "main": true
+  },
+  "napari-svg": {
+    "main": true
+  },
+  "napari-tabu": {
+    "main": true
+  },
+  "napari-text-layer": {
+    "main": true
+  },
+  "napari-threedee": {
     "main": true
   },
   "napari-tiff": {
     "main": true
   },
+  "napari-tiledb-bioimg": {
+    "main": true
+  },
+  "napari-tiler": {
+    "main": true
+  },
+  "napari-time-series-plotter": {
+    "main": true
+  },
+  "napari-time-slicer": {
+    "main": true
+  },
+  "napari-timeseries-opener-plugin": {
+    "main": true
+  },
   "napari-timestamper": {
+    "main": true
+  },
+  "napari-tissuumaps": {
+    "main": true
+  },
+  "napari-tomocube-data-viewer": {
+    "main": true
+  },
+  "napari-tomoslice": {
+    "main": true
+  },
+  "napari-tomotwin": {
+    "main": true
+  },
+  "napari-tools-menu": {
+    "main": true
+  },
+  "napari-toothfairy-annotator": {
+    "main": true
+  },
+  "napari-trackpy": {
+    "main": true
+  },
+  "napari-tracks-reader": {
+    "main": true
+  },
+  "napari-trait2d": {
+    "main": true
+  },
+  "napari-turing": {
+    "main": true
+  },
+  "napari-tyssue": {
+    "main": true
+  },
+  "napari-ufish": {
+    "main": true
+  },
+  "napari-ui-tracer": {
+    "main": true
+  },
+  "napari-unicell": {
     "main": true
   },
   "napari-update-checker": {
     "main": true
   },
+  "napari-validate-random-label-predictions": {
+    "main": true
+  },
+  "napari-vedo-bridge": {
+    "main": true
+  },
+  "napari-vesicles-segmentation": {
+    "main": true
+  },
+  "napari-vodex": {
+    "main": true
+  },
+  "napari-workflow-inspector": {
+    "main": true
+  },
+  "napari-workflow-optimizer": {
+    "main": true
+  },
+  "napari-workflows": {
+    "main": true
+  },
+  "napari-workshop-browser": {
+    "main": true
+  },
+  "napari-wsi": {
+    "main": true
+  },
+  "napari-yapic-prediction": {
+    "main": true
+  },
+  "napari-yolov5": {
+    "main": true
+  },
+  "napari-zelda": {
+    "main": true
+  },
+  "napari-zulip": {
+    "main": true
+  },
+  "napari_video": {
+    "main": true
+  },
+  "napatrackmater": {
+    "main": true
+  },
   "napi-rs-cli": {
+    "main": true
+  },
+  "napkin": {
+    "main": true
+  },
+  "nappy": {
+    "main": true
+  },
+  "nardini": {
+    "main": true
+  },
+  "narwhals": {
+    "main": true
+  },
+  "nasdaq-data-link": {
+    "main": true
+  },
+  "nashpy": {
+    "main": true
+  },
+  "nasm": {
+    "main": true
+  },
+  "natari": {
+    "main": true
+  },
+  "natasha": {
+    "main": true
+  },
+  "natcap.invest": {
     "main": true
   },
   "nativefiledialog-extended": {
     "main": true
   },
+  "natpy": {
+    "main": true
+  },
+  "nats-py": {
+    "main": true
+  },
+  "natsort": {
+    "main": true
+  },
+  "natural": {
+    "main": true
+  },
+  "natural-keys": {
+    "main": true
+  },
   "naturalneighbor": {
+    "main": true
+  },
+  "nautilus-sampler": {
+    "main": true
+  },
+  "nauty": {
+    "main": true
+  },
+  "navec": {
     "main": true
   },
   "navi": {
     "main": true
   },
+  "nb-clean": {
+    "main": true
+  },
+  "nb2plots": {
+    "main": true
+  },
+  "nb_anacondacloud": {
+    "main": true
+  },
+  "nb_black": {
+    "main": true
+  },
+  "nb_conda": {
+    "main": true
+  },
+  "nb_conda_kernels": {
+    "main": true
+  },
+  "nb_conda_store_kernels": {
+    "main": true
+  },
+  "nb_cron": {
+    "main": true
+  },
+  "nbappinator": {
+    "main": true
+  },
+  "nbautoexport": {
+    "main": true
+  },
+  "nbbrowserpdf": {
+    "main": true
+  },
+  "nbcelltests": {
+    "main": true
+  },
+  "nbclassic": {
+    "main": true
+  },
+  "nbclient": {
+    "main": true
+  },
+  "nbcommands": {
+    "main": true
+  },
+  "nbconvert": {
+    "main": true
+  },
+  "nbconvert-utils": {
+    "main": true
+  },
+  "nbcx": {
+    "main": true
+  },
+  "nbdev": {
+    "main": true
+  },
+  "nbdime": {
+    "main": true
+  },
   "nbdotrun": {
+    "main": true
+  },
+  "nbfinder": {
+    "main": true
+  },
+  "nbformat": {
+    "main": true
+  },
+  "nbgitpuller": {
+    "main": true
+  },
+  "nbgitpuller-link": {
+    "main": true
+  },
+  "nbgrader": {
+    "main": true
+  },
+  "nbjuniper": {
+    "main": true
+  },
+  "nbmake": {
+    "main": true
+  },
+  "nbmerge": {
+    "main": true
+  },
+  "nbparameterise": {
+    "main": true
+  },
+  "nbpreview": {
+    "main": true
+  },
+  "nbprint": {
+    "main": true
+  },
+  "nbproject": {
+    "main": true
+  },
+  "nbqa": {
     "main": true
   },
   "nbrefactor": {
     "main": true
   },
+  "nbrr": {
+    "main": true
+  },
+  "nbsafety": {
+    "main": true
+  },
+  "nbserverproxy": {
+    "main": true
+  },
+  "nbsmoke": {
+    "main": true
+  },
+  "nbsphinx": {
+    "main": true
+  },
+  "nbsphinx-link": {
+    "main": true
+  },
+  "nbstripout": {
+    "main": true
+  },
+  "nbterm": {
+    "main": true
+  },
+  "nbtutor": {
+    "main": true
+  },
+  "nbval": {
+    "main": true
+  },
+  "nbwipers": {
+    "main": true
+  },
+  "nc2zarr": {
+    "main": true
+  },
+  "nc_time_axis": {
+    "main": true
+  },
+  "ncagg": {
+    "main": true
+  },
+  "ncar-jobqueue": {
+    "main": true
+  },
+  "ncas-amof-netcdf-template": {
+    "main": true
+  },
+  "ncbi-datasets-cli": {
+    "main": true
+  },
   "ncc": {
+    "main": true
+  },
+  "nccl": {
+    "main": true
+  },
+  "nccmp": {
+    "main": true
+  },
+  "nccompare": {
+    "main": true
+  },
+  "ncdata": {
+    "main": true
+  },
+  "ncdu": {
+    "main": true
+  },
+  "ncempy": {
+    "main": true
+  },
+  "ncephes": {
+    "main": true
+  },
+  "nceplibs-bufr": {
+    "main": true
+  },
+  "nceplibs-ip": {
+    "main": true
+  },
+  "nceplibs-sp": {
+    "main": true
+  },
+  "ncflag": {
+    "main": true
+  },
+  "ncio": {
+    "main": true
+  },
+  "ncl": {
+    "main": true
+  },
+  "nclpy": {
+    "main": true
+  },
+  "nco": {
+    "main": true
+  },
+  "ncompare": {
+    "main": true
+  },
+  "ncplot": {
+    "main": true
+  },
+  "ncpol2sdpa": {
+    "main": true
+  },
+  "ncrystal": {
+    "main": true
+  },
+  "nctoolkit": {
+    "main": true
+  },
+  "ncurses": {
+    "main": true
+  },
+  "ncview": {
+    "main": true
+  },
+  "ncvis": {
+    "main": true
+  },
+  "ncvis-climate": {
+    "main": true
+  },
+  "ncvue": {
+    "main": true
+  },
+  "nd2": {
+    "main": true
+  },
+  "nd2-dask": {
+    "main": true
+  },
+  "nd2reader": {
+    "main": true
+  },
+  "ndarray": {
+    "main": true
+  },
+  "ndarray_listener": {
+    "main": true
+  },
+  "ndbc-api": {
     "main": true
   },
   "ndbcrealtime": {
     "main": true
   },
+  "ndcctools": {
+    "main": true
+  },
+  "ndcsv": {
+    "main": true
+  },
+  "ndcube": {
+    "main": true
+  },
   "ndcurves": {
+    "main": true
+  },
+  "ndd": {
+    "main": true
+  },
+  "ndf": {
+    "main": true
+  },
+  "ndg-httpsclient": {
+    "main": true
+  },
+  "ndiff": {
+    "main": true
+  },
+  "ndim": {
+    "main": true
+  },
+  "ndindex": {
     "main": true
   },
   "ndjson": {
@@ -17888,13 +18920,52 @@
   "ndlinear": {
     "main": true
   },
+  "ndonnx": {
+    "main": true
+  },
+  "ndpyramid": {
+    "main": true
+  },
+  "nds2-client": {
+    "main": true
+  },
+  "nds2-client-swig": {
+    "main": true
+  },
+  "ndscope": {
+    "main": true
+  },
+  "ndsplines": {
+    "main": true
+  },
+  "ndtiff": {
+    "main": true
+  },
   "ndv": {
+    "main": true
+  },
+  "ndvi2gif": {
+    "main": true
+  },
+  "ndx-pose": {
     "main": true
   },
   "neapolitan": {
     "main": true
   },
+  "nearpy": {
+    "main": true
+  },
   "neatnet": {
+    "main": true
+  },
+  "neattext": {
+    "main": true
+  },
+  "nebari": {
+    "main": true
+  },
+  "nebari-dask": {
     "main": true
   },
   "nebi": {
@@ -17903,22 +18974,133 @@
   "nebi-desktop": {
     "main": true
   },
+  "nebula": {
+    "main": true
+  },
   "nebula3-python": {
+    "main": true
+  },
+  "nectarchain": {
+    "main": true
+  },
+  "negspacy": {
+    "main": true
+  },
+  "neighpy": {
     "main": true
   },
   "nektar": {
     "main": true
   },
+  "nelson-core": {
+    "main": true
+  },
+  "nelson-siegel-svensson": {
+    "main": true
+  },
+  "nemspy": {
+    "main": true
+  },
+  "nene": {
+    "main": true
+  },
+  "nengo": {
+    "main": true
+  },
+  "nengo-dl": {
+    "main": true
+  },
+  "nengo-extras": {
+    "main": true
+  },
+  "nengo-gui": {
+    "main": true
+  },
+  "nengo-loihi": {
+    "main": true
+  },
+  "nengo-ocl": {
+    "main": true
+  },
+  "nengo-spa": {
+    "main": true
+  },
+  "neo4j-connector": {
+    "main": true
+  },
+  "neo4j-python-driver": {
+    "main": true
+  },
   "neo4j-python-driver-rust-ext": {
+    "main": true
+  },
+  "neo4jsbml": {
+    "main": true
+  },
+  "neobolt": {
+    "main": true
+  },
+  "neocmakelsp": {
+    "main": true
+  },
+  "neomodel": {
     "main": true
   },
   "neonutilities": {
     "main": true
   },
+  "neotime": {
+    "main": true
+  },
+  "neovim": {
+    "main": true
+  },
   "neovim-remote": {
     "main": true
   },
+  "nep29": {
+    "main": true
+  },
+  "neper": {
+    "main": true
+  },
+  "neptune": {
+    "main": true
+  },
+  "neptune-aws": {
+    "main": true
+  },
+  "neptune-client": {
+    "main": true
+  },
+  "neptune-lightgbm": {
+    "main": true
+  },
+  "neptune-notebooks": {
+    "main": true
+  },
+  "neptune-optuna": {
+    "main": true
+  },
+  "neptune-prophet": {
+    "main": true
+  },
+  "neptune-pytorch-lightning": {
+    "main": true
+  },
+  "neptune-sklearn": {
+    "main": true
+  },
+  "neptune-tensorflow-keras": {
+    "main": true
+  },
+  "neptune-xgboost": {
+    "main": true
+  },
   "neqsim": {
+    "main": true
+  },
+  "nequip": {
     "main": true
   },
   "nerfacc": {
@@ -17927,40 +19109,235 @@
   "nerfstudio": {
     "main": true
   },
+  "nerval": {
+    "main": true
+  },
+  "nessai": {
+    "main": true
+  },
+  "nessai-bilby": {
+    "main": true
+  },
   "nessai-gw": {
+    "main": true
+  },
+  "nest-asyncio": {
     "main": true
   },
   "nest-asyncio2": {
     "main": true
   },
+  "nest-desktop": {
+    "main": true
+  },
+  "nest-simulator": {
+    "main": true
+  },
+  "nestcheck": {
+    "main": true
+  },
+  "nestd": {
+    "main": true
+  },
+  "nested-dask": {
+    "main": true
+  },
+  "nested-lookup": {
+    "main": true
+  },
+  "nested-pandas": {
+    "main": true
+  },
+  "nested_dict": {
+    "main": true
+  },
+  "nestedtext": {
+    "main": true
+  },
   "nestjs-cli": {
+    "main": true
+  },
+  "nestle": {
+    "main": true
+  },
+  "nestly": {
+    "main": true
+  },
+  "nestml": {
+    "main": true
+  },
+  "net-snmp": {
+    "main": true
+  },
+  "netaddr": {
+    "main": true
+  },
+  "netatmo-geopy": {
+    "main": true
+  },
+  "netavark": {
     "main": true
   },
   "netbird": {
     "main": true
   },
+  "netcdf-cxx-legacy": {
+    "main": true
+  },
+  "netcdf-cxx4": {
+    "main": true
+  },
+  "netcdf-flattener": {
+    "main": true
+  },
+  "netcdf-fortran": {
+    "main": true
+  },
+  "netcdf-java": {
+    "main": true
+  },
+  "netcdf-scm": {
+    "main": true
+  },
+  "netcdf4": {
+    "main": true
+  },
+  "netgen": {
+    "main": true
+  },
+  "netgraph": {
+    "main": true
+  },
   "nethsm": {
+    "main": true
+  },
+  "netifaces": {
+    "main": true
+  },
+  "netket": {
+    "main": true
+  },
+  "netpbm": {
+    "main": true
+  },
+  "netpbmfile": {
     "main": true
   },
   "netron": {
     "main": true
   },
+  "netsuitesdk": {
+    "main": true
+  },
+  "nettle": {
+    "main": true
+  },
   "nettrustscore": {
+    "main": true
+  },
+  "networkit": {
+    "main": true
+  },
+  "networkx": {
+    "main": true
+  },
+  "networkx-metis": {
     "main": true
   },
   "networkx-temporal": {
     "main": true
   },
+  "neunorm": {
+    "main": true
+  },
+  "neuralcoref": {
+    "main": true
+  },
+  "neuralforecast": {
+    "main": true
+  },
+  "neuralgcm": {
+    "main": true
+  },
   "neuraloperator": {
+    "main": true
+  },
+  "neuralprophet": {
+    "main": true
+  },
+  "neurdflib": {
+    "main": true
+  },
+  "neurodocker": {
+    "main": true
+  },
+  "neurodsp": {
+    "main": true
+  },
+  "neurofire": {
     "main": true
   },
   "neuroglancer": {
     "main": true
   },
+  "neurokit2": {
+    "main": true
+  },
+  "neuromorphic-drivers": {
+    "main": true
+  },
+  "neuron": {
+    "main": true
+  },
+  "neurosynchro": {
+    "main": true
+  },
+  "neurotic": {
+    "main": true
+  },
   "neutcurve": {
     "main": true
   },
+  "neutralnemo": {
+    "main": true
+  },
+  "neutralocean": {
+    "main": true
+  },
+  "neutronics_material_maker": {
+    "main": true
+  },
+  "nevergrad": {
+    "main": true
+  },
+  "new_conda_env": {
+    "main": true
+  },
+  "neworder": {
+    "main": true
+  },
+  "newrelic": {
+    "main": true
+  },
+  "newrelic-telemetry-sdk": {
+    "main": true
+  },
+  "newspaper3k": {
+    "main": true
+  },
+  "newt": {
+    "main": true
+  },
   "newuoa-cpp": {
+    "main": true
+  },
+  "newversion": {
+    "main": true
+  },
+  "nexpy": {
+    "main": true
+  },
+  "nexus": {
     "main": true
   },
   "nexus-rpc": {
@@ -17969,28 +19346,136 @@
   "nexus2srs": {
     "main": true
   },
+  "nexusformat": {
+    "main": true
+  },
+  "nf1": {
+    "main": true
+  },
+  "nfft": {
+    "main": true
+  },
+  "nfinder": {
+    "main": true
+  },
   "nflows": {
+    "main": true
+  },
+  "nfoursid": {
+    "main": true
+  },
+  "ngboost": {
+    "main": true
+  },
+  "nghttp2": {
+    "main": true
+  },
+  "nginx": {
     "main": true
   },
   "nginx-language-server": {
     "main": true
   },
+  "nginx-module-njs": {
+    "main": true
+  },
   "ngio": {
+    "main": true
+  },
+  "nglview": {
+    "main": true
+  },
+  "ngmix": {
+    "main": true
+  },
+  "ngram": {
     "main": true
   },
   "ngsidekick": {
     "main": true
   },
+  "ngspice": {
+    "main": true
+  },
+  "ngspicesimserver": {
+    "main": true
+  },
+  "nh3": {
+    "main": true
+  },
+  "nhs-number": {
+    "main": true
+  },
+  "niacin": {
+    "main": true
+  },
+  "nibabel": {
+    "main": true
+  },
+  "nicegui": {
+    "main": true
+  },
   "nicelib": {
+    "main": true
+  },
+  "nichord": {
     "main": true
   },
   "nickel": {
     "main": true
   },
+  "nidaqmx-python": {
+    "main": true
+  },
+  "nifti-mrs": {
+    "main": true
+  },
+  "nifty": {
+    "main": true
+  },
+  "niftyreg": {
+    "main": true
+  },
+  "nigsp": {
+    "main": true
+  },
+  "nikola": {
+    "main": true
+  },
+  "nilearn": {
+    "main": true
+  },
+  "nim": {
+    "main": true
+  },
+  "nimfa": {
+    "main": true
+  },
+  "nine": {
+    "main": true
+  },
+  "ninja": {
+    "main": true
+  },
   "ninja-hep-ph": {
     "main": true
   },
+  "ninja_syntax": {
+    "main": true
+  },
   "ninjax": {
+    "main": true
+  },
+  "niondata": {
+    "main": true
+  },
+  "nionswift": {
+    "main": true
+  },
+  "nionswift-eels-analysis": {
+    "main": true
+  },
+  "nionswift-experimental": {
     "main": true
   },
   "nitransforms": {
