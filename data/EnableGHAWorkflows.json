@@ -46691,13 +46691,88 @@
   "recordlinkage": {
     "main": true
   },
+  "records": {
+    "main": true
+  },
+  "recordtype": {
+    "main": true
+  },
+  "recordwhat": {
+    "main": true
+  },
+  "rectangle-packer": {
+    "main": true
+  },
+  "rectpack": {
+    "main": true
+  },
+  "recurring-ical-events": {
+    "main": true
+  },
+  "recursive_diff": {
+    "main": true
+  },
+  "recursivenodes": {
+    "main": true
+  },
+  "recycle": {
+    "main": true
+  },
+  "red-black-tree-mod": {
+    "main": true
+  },
+  "red-molsim": {
+    "main": true
+  },
+  "redbaron": {
+    "main": true
+  },
+  "redbiom": {
+    "main": true
+  },
+  "redbird": {
+    "main": true
+  },
+  "redbox": {
+    "main": true
+  },
+  "redcamel": {
+    "main": true
+  },
+  "redengine": {
+    "main": true
+  },
+  "redflag": {
+    "main": true
+  },
+  "redframes": {
+    "main": true
+  },
+  "redis-dict": {
+    "main": true
+  },
+  "redis-json-dict": {
+    "main": true
+  },
   "redis-logs": {
     "main": true
   },
   "redis-om": {
     "main": true
   },
+  "redis-py": {
+    "main": true
+  },
+  "redis-semaphore": {
+    "main": true
+  },
   "redis-sentinel-url": {
+    "main": true
+  },
+  "redis-server": {
+    "main": true
+  },
+  "redisgraph-py": {
     "main": true
   },
   "redistpy": {
@@ -46706,19 +46781,139 @@
   "redisvl": {
     "main": true
   },
+  "redlionfish": {
+    "main": true
+  },
+  "redmail": {
+    "main": true
+  },
+  "redmapper": {
+    "main": true
+  },
+  "rednose": {
+    "main": true
+  },
+  "redo": {
+    "main": true
+  },
+  "redpil": {
+    "main": true
+  },
+  "redshift_connector": {
+    "main": true
+  },
+  "reducer": {
+    "main": true
+  },
+  "redun": {
+    "main": true
+  },
+  "redux": {
+    "main": true
+  },
+  "reedsolo": {
+    "main": true
+  },
+  "reef3d": {
+    "main": true
+  },
+  "reentry": {
+    "main": true
+  },
+  "refactor": {
+    "main": true
+  },
+  "refcount": {
+    "main": true
+  },
+  "reference-handler": {
+    "main": true
+  },
+  "referencing": {
+    "main": true
+  },
+  "refet": {
+    "main": true
+  },
   "refinedev-cli": {
+    "main": true
+  },
+  "refinenet": {
+    "main": true
+  },
+  "refinitiv-data": {
     "main": true
   },
   "refl1d": {
     "main": true
   },
+  "refnx": {
+    "main": true
+  },
+  "refurb": {
+    "main": true
+  },
+  "reg": {
+    "main": true
+  },
+  "regain": {
+    "main": true
+  },
   "regal": {
+    "main": true
+  },
+  "regex": {
+    "main": true
+  },
+  "regi0": {
+    "main": true
+  },
+  "region": {
+    "main": true
+  },
+  "regional-mom6": {
     "main": true
   },
   "regionate": {
     "main": true
   },
+  "regionmask": {
+    "main": true
+  },
+  "regions": {
+    "main": true
+  },
+  "regolith": {
+    "main": true
+  },
   "regols": {
+    "main": true
+  },
+  "regreg": {
+    "main": true
+  },
+  "regress": {
+    "main": true
+  },
+  "regressio": {
+    "main": true
+  },
+  "reikna": {
+    "main": true
+  },
+  "reindent": {
+    "main": true
+  },
+  "rejected": {
+    "main": true
+  },
+  "rejson": {
+    "main": true
+  },
+  "reladiff": {
+    "main": true
+  },
+  "related": {
     "main": true
   },
   "relay": {
@@ -46733,6 +46928,12 @@
   "release-plz": {
     "main": true
   },
+  "releasecmd": {
+    "main": true
+  },
+  "relentless": {
+    "main": true
+  },
   "reloading": {
     "main": true
   },
@@ -46745,13 +46946,43 @@
   "remark-language-server": {
     "main": true
   },
+  "rembg": {
+    "main": true
+  },
+  "remi": {
+    "main": true
+  },
   "remix": {
     "main": true
   },
   "remotebmi": {
     "main": true
   },
+  "remotery-split": {
+    "main": true
+  },
+  "remotezip": {
+    "main": true
+  },
+  "remotior-sensus": {
+    "main": true
+  },
+  "remove_dagmc_tags": {
+    "main": true
+  },
+  "removestar": {
+    "main": true
+  },
+  "rencode": {
+    "main": true
+  },
   "rendercanvas": {
+    "main": true
+  },
+  "renishaw_wire": {
+    "main": true
+  },
+  "reno": {
     "main": true
   },
   "reno-sd": {
@@ -46763,7 +46994,25 @@
   "renode-cores": {
     "main": true
   },
+  "renumerate": {
+    "main": true
+  },
   "reorder_python_imports": {
+    "main": true
+  },
+  "repackage": {
+    "main": true
+  },
+  "repath": {
+    "main": true
+  },
+  "repeated_test": {
+    "main": true
+  },
+  "replicate": {
+    "main": true
+  },
+  "repo-review": {
     "main": true
   },
   "repo2rocrate": {
@@ -46775,25 +47024,229 @@
   "reportgenerator": {
     "main": true
   },
+  "reportlab": {
+    "main": true
+  },
+  "reportportal-client": {
+    "main": true
+  },
+  "reports": {
+    "main": true
+  },
+  "reportseff": {
+    "main": true
+  },
+  "reposurgeon": {
+    "main": true
+  },
+  "repoze.lru": {
+    "main": true
+  },
+  "repoze.who": {
+    "main": true
+  },
+  "repoze.who-friendlyform": {
+    "main": true
+  },
+  "represent": {
+    "main": true
+  },
+  "reprexlite": {
+    "main": true
+  },
+  "reprexpy": {
+    "main": true
+  },
+  "reprimand": {
+    "main": true
+  },
+  "reprit": {
+    "main": true
+  },
+  "repro-tarfile": {
+    "main": true
+  },
+  "repro-zipfile": {
+    "main": true
+  },
+  "reproc": {
+    "main": true
+  },
+  "reproject": {
+    "main": true
+  },
   "reprostim": {
+    "main": true
+  },
+  "reprounzip": {
+    "main": true
+  },
+  "reprounzip-docker": {
+    "main": true
+  },
+  "reprounzip-qt": {
+    "main": true
+  },
+  "reprounzip-vagrant": {
+    "main": true
+  },
+  "reprozip": {
+    "main": true
+  },
+  "reprozip-jupyter": {
     "main": true
   },
   "reptyr": {
     "main": true
   },
+  "repype": {
+    "main": true
+  },
+  "repytah": {
+    "main": true
+  },
+  "request": {
+    "main": true
+  },
+  "requests": {
+    "main": true
+  },
+  "requests-async": {
+    "main": true
+  },
+  "requests-aws4auth": {
+    "main": true
+  },
+  "requests-cache": {
+    "main": true
+  },
+  "requests-ecp": {
+    "main": true
+  },
+  "requests-file": {
+    "main": true
+  },
+  "requests-ftp": {
+    "main": true
+  },
+  "requests-futures": {
+    "main": true
+  },
+  "requests-gracedb": {
+    "main": true
+  },
+  "requests-gssapi": {
+    "main": true
+  },
+  "requests-html": {
+    "main": true
+  },
+  "requests-kerberos": {
+    "main": true
+  },
+  "requests-magpie": {
+    "main": true
+  },
+  "requests-mock": {
+    "main": true
+  },
+  "requests-negotiate-sspi": {
+    "main": true
+  },
+  "requests-oauthlib": {
+    "main": true
+  },
   "requests-pelican": {
+    "main": true
+  },
+  "requests-ratelimiter": {
     "main": true
   },
   "requests-scitokens": {
     "main": true
   },
+  "requests-toolbelt": {
+    "main": true
+  },
+  "requests-unixsocket": {
+    "main": true
+  },
+  "requests-wsgi-adapter": {
+    "main": true
+  },
+  "requests_cache": {
+    "main": true
+  },
+  "requests_ntlm": {
+    "main": true
+  },
+  "requests_oauth2client": {
+    "main": true
+  },
+  "requests_pkcs12": {
+    "main": true
+  },
+  "requestsexceptions": {
+    "main": true
+  },
+  "requirements-detector": {
+    "main": true
+  },
+  "requirements-parser": {
+    "main": true
+  },
   "rerankers": {
+    "main": true
+  },
+  "reretry": {
+    "main": true
+  },
+  "rerun-sdk": {
+    "main": true
+  },
+  "res-mlp-pytorch": {
+    "main": true
+  },
+  "resample": {
+    "main": true
+  },
+  "resampy": {
+    "main": true
+  },
+  "resdk": {
     "main": true
   },
   "researchclaw": {
     "main": true
   },
+  "researchpy": {
+    "main": true
+  },
+  "reskit": {
+    "main": true
+  },
+  "resmda": {
+    "main": true
+  },
   "resolve-robotics-uri-cpp": {
+    "main": true
+  },
+  "resolve-robotics-uri-py": {
+    "main": true
+  },
+  "resolvelib": {
+    "main": true
+  },
+  "resolvo-cpp": {
+    "main": true
+  },
+  "resonance": {
+    "main": true
+  },
+  "resonate": {
+    "main": true
+  },
+  "resource_backed_dask_array": {
     "main": true
   },
   "resourcecode": {
