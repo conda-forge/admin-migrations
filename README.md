@@ -32,6 +32,6 @@ Items 1-3 are taken care of by the migrations code.
 | migrator           | progress                                             | percent                   |
 | ------------------ | ---------------------------------------------------- | :-----------------------: |
 | CondaForgeYAMLTest | *always runs*                                        |                         - |
-| EnableGHAWorkflows | `###################################               ` |         70% (18919/26919) |
+| EnableGHAWorkflows | `####################################              ` |         72% (19425/26919) |
 | RAutomerge         | *always runs*                                        |                         - |
 | TeamsCleanup       | *always runs*                                        |                         - |
