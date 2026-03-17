@@ -57482,37 +57482,388 @@
   "types-annoy": {
     "main": true
   },
+  "types-appdirs": {
+    "main": true
+  },
+  "types-atomicwrites": {
+    "main": true
+  },
+  "types-awscrt": {
+    "main": true
+  },
+  "types-backports": {
+    "main": true
+  },
+  "types-backports_abc": {
+    "main": true
+  },
+  "types-beautifulsoup4": {
+    "main": true
+  },
+  "types-bleach": {
+    "main": true
+  },
+  "types-boto": {
+    "main": true
+  },
   "types-boto3-textract": {
+    "main": true
+  },
+  "types-cachetools": {
+    "main": true
+  },
+  "types-certifi": {
     "main": true
   },
   "types-cffi": {
     "main": true
   },
+  "types-characteristic": {
+    "main": true
+  },
+  "types-chardet": {
+    "main": true
+  },
+  "types-click": {
+    "main": true
+  },
+  "types-click-default-group": {
+    "main": true
+  },
+  "types-click-spinner": {
+    "main": true
+  },
+  "types-colorama": {
+    "main": true
+  },
+  "types-contextvars": {
+    "main": true
+  },
+  "types-croniter": {
+    "main": true
+  },
+  "types-cryptography": {
+    "main": true
+  },
+  "types-dataclasses": {
+    "main": true
+  },
+  "types-dateparser": {
+    "main": true
+  },
+  "types-datetimerange": {
+    "main": true
+  },
+  "types-decorator": {
+    "main": true
+  },
+  "types-deprecated": {
+    "main": true
+  },
   "types-docker": {
+    "main": true
+  },
+  "types-docopt": {
+    "main": true
+  },
+  "types-docutils": {
+    "main": true
+  },
+  "types-editdistance": {
+    "main": true
+  },
+  "types-emoji": {
+    "main": true
+  },
+  "types-enum34": {
     "main": true
   },
   "types-factory-boy": {
     "main": true
   },
+  "types-fb303": {
+    "main": true
+  },
+  "types-filelock": {
+    "main": true
+  },
+  "types-first": {
+    "main": true
+  },
+  "types-flask": {
+    "main": true
+  },
   "types-flask-cors": {
+    "main": true
+  },
+  "types-freezegun": {
+    "main": true
+  },
+  "types-frozendict": {
+    "main": true
+  },
+  "types-futures": {
+    "main": true
+  },
+  "types-geoip2": {
+    "main": true
+  },
+  "types-hdbcli": {
+    "main": true
+  },
+  "types-html5lib": {
+    "main": true
+  },
+  "types-influxdb-client": {
+    "main": true
+  },
+  "types-ipaddress": {
+    "main": true
+  },
+  "types-itsdangerous": {
+    "main": true
+  },
+  "types-jack-client": {
+    "main": true
+  },
+  "types-jinja2": {
+    "main": true
+  },
+  "types-jsonschema": {
+    "main": true
+  },
+  "types-kazoo": {
+    "main": true
+  },
+  "types-lxml": {
+    "main": true
+  },
+  "types-markdown": {
+    "main": true
+  },
+  "types-markupsafe": {
+    "main": true
+  },
+  "types-maxminddb": {
+    "main": true
+  },
+  "types-mock": {
+    "main": true
+  },
+  "types-mypy-extensions": {
+    "main": true
+  },
+  "types-networkx": {
+    "main": true
+  },
+  "types-nmap": {
+    "main": true
+  },
+  "types-openpyxl": {
+    "main": true
+  },
+  "types-orjson": {
+    "main": true
+  },
+  "types-paramiko": {
     "main": true
   },
   "types-parsimonious": {
     "main": true
   },
+  "types-pathlib2": {
+    "main": true
+  },
+  "types-pillow": {
+    "main": true
+  },
+  "types-pkg_resources": {
+    "main": true
+  },
+  "types-polib": {
+    "main": true
+  },
+  "types-protobuf": {
+    "main": true
+  },
+  "types-psutil": {
+    "main": true
+  },
+  "types-psycopg2": {
+    "main": true
+  },
+  "types-pyaudio": {
+    "main": true
+  },
+  "types-pycurl": {
+    "main": true
+  },
+  "types-pyfarmhash": {
+    "main": true
+  },
+  "types-pygments": {
+    "main": true
+  },
+  "types-pyjwt": {
+    "main": true
+  },
+  "types-pymssql": {
+    "main": true
+  },
+  "types-pymysql": {
+    "main": true
+  },
+  "types-pyopenssl": {
+    "main": true
+  },
+  "types-pyrfc3339": {
+    "main": true
+  },
+  "types-pysftp": {
+    "main": true
+  },
+  "types-python-dateutil": {
+    "main": true
+  },
+  "types-python-gflags": {
+    "main": true
+  },
+  "types-python-slugify": {
+    "main": true
+  },
+  "types-pytz": {
+    "main": true
+  },
+  "types-pyvmomi": {
+    "main": true
+  },
+  "types-pywin32": {
+    "main": true
+  },
+  "types-pyyaml": {
+    "main": true
+  },
+  "types-redis": {
+    "main": true
+  },
+  "types-requests": {
+    "main": true
+  },
+  "types-retry": {
+    "main": true
+  },
+  "types-routes": {
+    "main": true
+  },
+  "types-s3transfer": {
+    "main": true
+  },
+  "types-scribe": {
+    "main": true
+  },
+  "types-seaborn": {
+    "main": true
+  },
+  "types-setuptools": {
+    "main": true
+  },
   "types-shapely": {
+    "main": true
+  },
+  "types-simplejson": {
+    "main": true
+  },
+  "types-singledispatch": {
+    "main": true
+  },
+  "types-six": {
+    "main": true
+  },
+  "types-tabulate": {
+    "main": true
+  },
+  "types-termcolor": {
+    "main": true
+  },
+  "types-toml": {
+    "main": true
+  },
+  "types-tornado": {
+    "main": true
+  },
+  "types-tqdm": {
+    "main": true
+  },
+  "types-typed-ast": {
+    "main": true
+  },
+  "types-tzlocal": {
+    "main": true
+  },
+  "types-ujson": {
+    "main": true
+  },
+  "types-uno-script": {
+    "main": true
+  },
+  "types-unopy": {
+    "main": true
+  },
+  "types-urllib3": {
+    "main": true
+  },
+  "types-waitress": {
     "main": true
   },
   "types-webencodings": {
     "main": true
   },
+  "types-werkzeug": {
+    "main": true
+  },
   "types-xmltodict": {
+    "main": true
+  },
+  "types-xxhash": {
+    "main": true
+  },
+  "types_toml": {
+    "main": true
+  },
+  "types_typed_ast": {
+    "main": true
+  },
+  "typescript": {
+    "main": true
+  },
+  "typescript-eslint-eslint-plugin": {
+    "main": true
+  },
+  "typescript-eslint-parser": {
     "main": true
   },
   "typescript-language-server": {
     "main": true
   },
+  "typeshed-client": {
+    "main": true
+  },
   "typespec": {
+    "main": true
+  },
+  "typesystem": {
+    "main": true
+  },
+  "typhos": {
+    "main": true
+  },
+  "typical": {
+    "main": true
+  },
+  "typing": {
+    "main": true
+  },
+  "typing-compat": {
     "main": true
   },
   "typing-inspection": {
@@ -57521,40 +57872,295 @@
   "typing-validation": {
     "main": true
   },
+  "typing_extensions": {
+    "main": true
+  },
+  "typing_inspect": {
+    "main": true
+  },
+  "typing_utils": {
+    "main": true
+  },
+  "typish": {
+    "main": true
+  },
+  "typogrify": {
+    "main": true
+  },
+  "typos": {
+    "main": true
+  },
+  "typos-cli": {
+    "main": true
+  },
+  "typos-lsp": {
+    "main": true
+  },
+  "typst": {
+    "main": true
+  },
+  "typst-lsp": {
+    "main": true
+  },
+  "typst-py": {
+    "main": true
+  },
+  "typstfmt": {
+    "main": true
+  },
+  "typstyle": {
+    "main": true
+  },
+  "tyrannosaurus": {
+    "main": true
+  },
+  "tyro": {
+    "main": true
+  },
+  "tyssue": {
+    "main": true
+  },
   "tytanic": {
+    "main": true
+  },
+  "tzcode": {
+    "main": true
+  },
+  "tzdata": {
+    "main": true
+  },
+  "tzfpy": {
+    "main": true
+  },
+  "tzlocal": {
+    "main": true
+  },
+  "tzwhere": {
+    "main": true
+  },
+  "u-msgpack-python": {
+    "main": true
+  },
+  "u3d": {
+    "main": true
+  },
+  "u8darts": {
+    "main": true
+  },
+  "ua-parser": {
     "main": true
   },
   "ua-parser-builtins": {
     "main": true
   },
+  "uarray": {
+    "main": true
+  },
+  "uassist": {
+    "main": true
+  },
+  "uavro": {
+    "main": true
+  },
+  "ubelt": {
+    "main": true
+  },
+  "ubergauss": {
+    "main": true
+  },
+  "ubermag": {
+    "main": true
+  },
+  "ubermagtable": {
+    "main": true
+  },
+  "ubermagutil": {
+    "main": true
+  },
+  "ubiquerg": {
+    "main": true
+  },
+  "ubtsl": {
+    "main": true
+  },
+  "uc-micro-py": {
+    "main": true
+  },
+  "ucc": {
+    "main": true
+  },
+  "uchardet": {
+    "main": true
+  },
   "ucimlrepo": {
+    "main": true
+  },
+  "ucrt": {
+    "main": true
+  },
+  "ucs-detect": {
+    "main": true
+  },
+  "ucx-split": {
     "main": true
   },
   "uda": {
     "main": true
   },
+  "udatetime": {
+    "main": true
+  },
   "udkm1dsim": {
+    "main": true
+  },
+  "udlai": {
+    "main": true
+  },
+  "udocker": {
+    "main": true
+  },
+  "udsoncan": {
+    "main": true
+  },
+  "udunits2": {
+    "main": true
+  },
+  "uf3": {
+    "main": true
+  },
+  "ufal.udpipe": {
+    "main": true
+  },
+  "ufish": {
     "main": true
   },
   "ufit": {
     "main": true
   },
+  "ufmt": {
+    "main": true
+  },
+  "ufolib2": {
+    "main": true
+  },
+  "ufolint": {
+    "main": true
+  },
   "ufs2arco": {
+    "main": true
+  },
+  "uftp": {
+    "main": true
+  },
+  "uge-drmaa2": {
+    "main": true
+  },
+  "uglify-js": {
+    "main": true
+  },
+  "ugly_csv_generator": {
+    "main": true
+  },
+  "ugrep": {
+    "main": true
+  },
+  "ugrid-checks": {
+    "main": true
+  },
+  "uharfbuzz": {
+    "main": true
+  },
+  "uhd": {
+    "main": true
+  },
+  "uhdm": {
+    "main": true
+  },
+  "uhi": {
+    "main": true
+  },
+  "uhttp": {
+    "main": true
+  },
+  "ui5-cli": {
     "main": true
   },
   "ui5-webcomponents-react-cli": {
     "main": true
   },
+  "uiautomation": {
+    "main": true
+  },
   "uiua": {
+    "main": true
+  },
+  "ujson": {
     "main": true
   },
   "ukb-atlas": {
     "main": true
   },
+  "ukbparse": {
+    "main": true
+  },
+  "ukcensusapi": {
+    "main": true
+  },
+  "ukkonen": {
+    "main": true
+  },
+  "ukpopulation": {
+    "main": true
+  },
+  "uldaq": {
+    "main": true
+  },
+  "ulmo": {
+    "main": true
+  },
+  "ultimate-sitemap-parser": {
+    "main": true
+  },
+  "ultralytics": {
+    "main": true
+  },
+  "ultranest": {
+    "main": true
+  },
   "ultraplot": {
     "main": true
   },
+  "umachine-pyio": {
+    "main": true
+  },
+  "umalqurra": {
+    "main": true
+  },
+  "umami": {
+    "main": true
+  },
+  "umap-learn": {
+    "main": true
+  },
+  "umarkdown": {
+    "main": true
+  },
+  "umetrix": {
+    "main": true
+  },
   "umnn": {
+    "main": true
+  },
+  "umock-c": {
+    "main": true
+  },
+  "umongo": {
+    "main": true
+  },
+  "unasync": {
+    "main": true
+  },
+  "unbaffeld": {
     "main": true
   },
   "uncalled": {
@@ -57563,16 +58169,163 @@
   "uncalled-for": {
     "main": true
   },
+  "uncertainpy": {
+    "main": true
+  },
+  "uncertainties": {
+    "main": true
+  },
   "uncertainty-calibration": {
+    "main": true
+  },
+  "uncertainty-toolbox": {
+    "main": true
+  },
+  "uncommitted": {
     "main": true
   },
   "uncompresspy": {
     "main": true
   },
+  "uncrustify": {
+    "main": true
+  },
+  "uncurl": {
+    "main": true
+  },
+  "undetected-chromedriver": {
+    "main": true
+  },
+  "undoc": {
+    "main": true
+  },
+  "unearth": {
+    "main": true
+  },
+  "unfccc_di_api": {
+    "main": true
+  },
+  "unfold": {
+    "main": true
+  },
+  "unfoldnd": {
+    "main": true
+  },
+  "unibilium": {
+    "main": true
+  },
+  "unicall": {
+    "main": true
+  },
+  "unicaps": {
+    "main": true
+  },
+  "unicloud": {
+    "main": true
+  },
+  "unicode-slugify": {
+    "main": true
+  },
+  "unicodecsv": {
+    "main": true
+  },
+  "unicodedata2": {
+    "main": true
+  },
+  "unicorn": {
+    "main": true
+  },
+  "unicorn-binance-local-depth-cache": {
+    "main": true
+  },
+  "unicorn-binance-rest-api": {
+    "main": true
+  },
+  "unicorn-binance-suite": {
+    "main": true
+  },
+  "unicorn-binance-trailing-stop-loss": {
+    "main": true
+  },
+  "unicorn-binance-websocket-api": {
+    "main": true
+  },
+  "unicorn-fy": {
+    "main": true
+  },
+  "unidecode": {
+    "main": true
+  },
+  "unidep": {
+    "main": true
+  },
+  "unidic-lite": {
+    "main": true
+  },
+  "unidiff": {
+    "main": true
+  },
+  "unidist-packages": {
+    "main": true
+  },
+  "unidock": {
+    "main": true
+  },
+  "unifdef": {
+    "main": true
+  },
+  "unifhy": {
+    "main": true
+  },
+  "unifunc": {
+    "main": true
+  },
+  "unifuncnet": {
+    "main": true
+  },
+  "unify": {
+    "main": true
+  },
+  "unimport": {
+    "main": true
+  },
+  "unionfind": {
+    "main": true
+  },
+  "unionml": {
+    "main": true
+  },
+  "uniplot": {
+    "main": true
+  },
+  "unique-uncertainty": {
+    "main": true
+  },
+  "uniserde": {
+    "main": true
+  },
   "unison": {
     "main": true
   },
+  "unitpackage": {
+    "main": true
+  },
   "unitree-sdk2": {
+    "main": true
+  },
+  "units": {
+    "main": true
+  },
+  "unittest-xml-reporting": {
+    "main": true
+  },
+  "unittest2pytest": {
+    "main": true
+  },
+  "universal-analytics-python3": {
+    "main": true
+  },
+  "universal-ctags": {
     "main": true
   },
   "universal-mcp": {
@@ -57584,7 +58337,25 @@
   "universal-startfile": {
     "main": true
   },
+  "universal_pathlib": {
+    "main": true
+  },
+  "universaltest": {
+    "main": true
+  },
+  "universions": {
+    "main": true
+  },
   "univi": {
+    "main": true
+  },
+  "unix-ar": {
+    "main": true
+  },
+  "unixodbc": {
+    "main": true
+  },
+  "unlzw3": {
     "main": true
   },
   "unocg": {
@@ -57596,43 +58367,307 @@
   "unocss-language-server": {
     "main": true
   },
+  "unordered_dense": {
+    "main": true
+  },
+  "unpaddedbase64": {
+    "main": true
+  },
+  "unpaper": {
+    "main": true
+  },
+  "unpdf-rs": {
+    "main": true
+  },
+  "unrar": {
+    "main": true
+  },
   "unsloth": {
     "main": true
   },
   "unsloth_zoo": {
     "main": true
   },
+  "unstructured": {
+    "main": true
+  },
+  "unstructured-client": {
+    "main": true
+  },
+  "unsync": {
+    "main": true
+  },
+  "untangle": {
+    "main": true
+  },
+  "untokenize": {
+    "main": true
+  },
+  "untwine": {
+    "main": true
+  },
   "unum": {
+    "main": true
+  },
+  "unumpy": {
+    "main": true
+  },
+  "unyt": {
+    "main": true
+  },
+  "unzip": {
+    "main": true
+  },
+  "unzip-http": {
     "main": true
   },
   "up": {
     "main": true
   },
+  "up42-py": {
+    "main": true
+  },
+  "update_checker": {
+    "main": true
+  },
+  "updater": {
+    "main": true
+  },
+  "upf_to_json": {
+    "main": true
+  },
+  "upkie": {
+    "main": true
+  },
+  "upkie_description": {
+    "main": true
+  },
+  "upliftml": {
+    "main": true
+  },
   "uplot-python": {
+    "main": true
+  },
+  "upolygon": {
     "main": true
   },
   "uppasd": {
     "main": true
   },
+  "uproc": {
+    "main": true
+  },
+  "uproot": {
+    "main": true
+  },
+  "uproot-browser": {
+    "main": true
+  },
+  "uproot-methods": {
+    "main": true
+  },
+  "uproot3": {
+    "main": true
+  },
+  "uproot3-methods": {
+    "main": true
+  },
+  "upsetplot": {
+    "main": true
+  },
+  "upsonic": {
+    "main": true
+  },
   "upstage-des": {
+    "main": true
+  },
+  "upstash-ratelimit": {
+    "main": true
+  },
+  "upstash-redis": {
     "main": true
   },
   "upterm": {
     "main": true
   },
+  "uptime": {
+    "main": true
+  },
   "uptrace": {
+    "main": true
+  },
+  "upv": {
+    "main": true
+  },
+  "uqpy": {
+    "main": true
+  },
+  "uranography": {
     "main": true
   },
   "uraster": {
     "main": true
   },
+  "uravu": {
+    "main": true
+  },
+  "urbanaccess": {
+    "main": true
+  },
+  "urbansim": {
+    "main": true
+  },
+  "urbansim_defaults": {
+    "main": true
+  },
+  "urbansim_templates": {
+    "main": true
+  },
+  "urchin": {
+    "main": true
+  },
   "urdf-modifiers": {
+    "main": true
+  },
+  "urdfdom": {
+    "main": true
+  },
+  "urdfdom-py": {
+    "main": true
+  },
+  "urdfdom_headers": {
+    "main": true
+  },
+  "urdfpy": {
+    "main": true
+  },
+  "uri-template": {
+    "main": true
+  },
+  "uriparser": {
+    "main": true
+  },
+  "uritemplate": {
+    "main": true
+  },
+  "uritools": {
+    "main": true
+  },
+  "url-into-images": {
+    "main": true
+  },
+  "url-normalize": {
+    "main": true
+  },
+  "urlchecker": {
     "main": true
   },
   "urljsf": {
     "main": true
   },
+  "urllib3": {
+    "main": true
+  },
+  "urllib3-future": {
+    "main": true
+  },
+  "urllib3-secure-extra": {
+    "main": true
+  },
+  "urlobject": {
+    "main": true
+  },
+  "urlpath": {
+    "main": true
+  },
+  "urlquote": {
+    "main": true
+  },
+  "urlscan": {
+    "main": true
+  },
+  "urwid": {
+    "main": true
+  },
+  "urwid_readline": {
+    "main": true
+  },
+  "us": {
+    "main": true
+  },
+  "usaddress": {
+    "main": true
+  },
+  "usagestats": {
+    "main": true
+  },
+  "useq-schema": {
+    "main": true
+  },
+  "user-agents": {
+    "main": true
+  },
+  "userinput": {
+    "main": true
+  },
+  "userpath": {
+    "main": true
+  },
+  "userspacefs": {
+    "main": true
+  },
+  "usgs": {
+    "main": true
+  },
+  "usgs-strec": {
+    "main": true
+  },
+  "usgscsm": {
+    "main": true
+  },
+  "usort": {
+    "main": true
+  },
+  "ussa1976": {
+    "main": true
+  },
+  "ustrid": {
+    "main": true
+  },
+  "uszipcode": {
+    "main": true
+  },
+  "utfcpp": {
+    "main": true
+  },
+  "utide": {
+    "main": true
+  },
+  "util-linux": {
+    "main": true
+  },
+  "utilsforecast": {
+    "main": true
+  },
+  "utm": {
+    "main": true
+  },
+  "utool": {
+    "main": true
+  },
+  "uuid-utils": {
+    "main": true
+  },
+  "uuid6": {
+    "main": true
+  },
+  "uutils-coreutils": {
+    "main": true
+  },
   "uutils-findutils": {
+    "main": true
+  },
+  "uv": {
     "main": true
   },
   "uv-build": {
@@ -57644,25 +58679,196 @@
   "uv-secure": {
     "main": true
   },
+  "uvicore": {
+    "main": true
+  },
+  "uvicorn": {
+    "main": true
+  },
+  "uvicorn-worker": {
+    "main": true
+  },
+  "uvloop": {
+    "main": true
+  },
   "uvu": {
+    "main": true
+  },
+  "uwsgi": {
+    "main": true
+  },
+  "uwsift": {
+    "main": true
+  },
+  "uxarray": {
+    "main": true
+  },
+  "uxf": {
+    "main": true
+  },
+  "uxsim": {
+    "main": true
+  },
+  "va_am": {
+    "main": true
+  },
+  "vabene": {
+    "main": true
+  },
+  "vacumm-data": {
     "main": true
   },
   "vacuum": {
     "main": true
   },
+  "vadersentiment": {
+    "main": true
+  },
+  "vaex": {
+    "main": true
+  },
+  "vaex-arrow": {
+    "main": true
+  },
+  "vaex-astro": {
+    "main": true
+  },
+  "vaex-core": {
+    "main": true
+  },
+  "vaex-distributed": {
+    "main": true
+  },
+  "vaex-hdf5": {
+    "main": true
+  },
+  "vaex-jupyter": {
+    "main": true
+  },
+  "vaex-ml": {
+    "main": true
+  },
+  "vaex-server": {
+    "main": true
+  },
+  "vaex-ui": {
+    "main": true
+  },
+  "vaex-viz": {
+    "main": true
+  },
+  "vak": {
+    "main": true
+  },
+  "vala": {
+    "main": true
+  },
+  "vale": {
+    "main": true
+  },
+  "vale-ls": {
+    "main": true
+  },
+  "vale-spelling-aoo-mozilla-en-dict": {
+    "main": true
+  },
+  "vale-styles-alex": {
+    "main": true
+  },
+  "vale-styles-google": {
+    "main": true
+  },
+  "vale-styles-joblint": {
+    "main": true
+  },
+  "vale-styles-microsoft": {
+    "main": true
+  },
+  "vale-styles-proselint": {
+    "main": true
+  },
+  "vale-styles-readability": {
+    "main": true
+  },
+  "vale-styles-write-good": {
+    "main": true
+  },
+  "valerius": {
+    "main": true
+  },
+  "valgrind": {
+    "main": true
+  },
+  "valida": {
+    "main": true
+  },
+  "validate-pyproject": {
+    "main": true
+  },
+  "validate_email": {
+    "main": true
+  },
+  "validate_version_code": {
+    "main": true
+  },
+  "validator-collection": {
+    "main": true
+  },
+  "validators": {
+    "main": true
+  },
+  "validictory": {
+    "main": true
+  },
+  "validobj": {
+    "main": true
+  },
   "valkey-py": {
+    "main": true
+  },
+  "valkey-server": {
+    "main": true
+  },
+  "valmix": {
     "main": true
   },
   "vampy": {
     "main": true
   },
+  "vampyr": {
+    "main": true
+  },
   "vape4d": {
+    "main": true
+  },
+  "vapeplot": {
+    "main": true
+  },
+  "vapory": {
+    "main": true
+  },
+  "vapoursynth": {
+    "main": true
+  },
+  "variable_generators": {
     "main": true
   },
   "variable_inspector": {
     "main": true
   },
   "variconfig": {
+    "main": true
+  },
+  "varint": {
+    "main": true
+  },
+  "varlink": {
+    "main": true
+  },
+  "varname": {
+    "main": true
+  },
+  "varys": {
     "main": true
   },
   "vasp": {
@@ -57674,37 +58880,271 @@
   "vaspparser": {
     "main": true
   },
+  "vasppy": {
+    "main": true
+  },
+  "vasprun-xml": {
+    "main": true
+  },
+  "vastdb": {
+    "main": true
+  },
+  "vault": {
+    "main": true
+  },
+  "vbmicrolensing": {
+    "main": true
+  },
+  "vbuild": {
+    "main": true
+  },
+  "vc": {
+    "main": true
+  },
   "vcf-rdfizer": {
+    "main": true
+  },
+  "vcpkg": {
+    "main": true
+  },
+  "vcpkg-tool": {
+    "main": true
+  },
+  "vcrpy": {
+    "main": true
+  },
+  "vcrpy-unittest": {
     "main": true
   },
   "vcs2l": {
     "main": true
   },
+  "vcsh": {
+    "main": true
+  },
+  "vcstool": {
+    "main": true
+  },
+  "vcstools": {
+    "main": true
+  },
+  "vcver": {
+    "main": true
+  },
+  "vcversioner": {
+    "main": true
+  },
+  "vdm": {
+    "main": true
+  },
+  "vdms": {
+    "main": true
+  },
+  "vdom": {
+    "main": true
+  },
+  "vdt": {
+    "main": true
+  },
+  "vecstack": {
+    "main": true
+  },
+  "vector": {
+    "main": true
+  },
+  "vector-classes": {
+    "main": true
+  },
+  "vector-quantize-pytorch": {
+    "main": true
+  },
+  "vector-vis-graph": {
+    "main": true
+  },
+  "vectorbt": {
+    "main": true
+  },
+  "vectormath": {
+    "main": true
+  },
   "vectorscan": {
+    "main": true
+  },
+  "vedo": {
+    "main": true
+  },
+  "veerer": {
     "main": true
   },
   "veg2hab": {
     "main": true
   },
+  "vega": {
+    "main": true
+  },
+  "vega-cli": {
+    "main": true
+  },
+  "vega-lite-cli": {
+    "main": true
+  },
+  "vega-python-sdk": {
+    "main": true
+  },
+  "vega_datasets": {
+    "main": true
+  },
+  "vegafusion": {
+    "main": true
+  },
+  "vegafusion-jupyter": {
+    "main": true
+  },
+  "vegafusion-python-embed": {
+    "main": true
+  },
+  "vegasflow": {
+    "main": true
+  },
+  "vegspec": {
+    "main": true
+  },
   "velocity-profile": {
+    "main": true
+  },
+  "velocypack": {
+    "main": true
+  },
+  "veloxchem": {
+    "main": true
+  },
+  "venn": {
+    "main": true
+  },
+  "venn-abers": {
+    "main": true
+  },
+  "venusian": {
+    "main": true
+  },
+  "venv-kernel": {
+    "main": true
+  },
+  "venv-pack": {
     "main": true
   },
   "venvstacks": {
     "main": true
   },
+  "veracitools": {
+    "main": true
+  },
+  "verapdf": {
+    "main": true
+  },
+  "verboselogs": {
+    "main": true
+  },
   "vercel-cli": {
+    "main": true
+  },
+  "verde": {
+    "main": true
+  },
+  "verible": {
+    "main": true
+  },
+  "verilator": {
     "main": true
   },
   "verilator-python": {
     "main": true
   },
+  "verlib2": {
+    "main": true
+  },
+  "vermouth": {
+    "main": true
+  },
+  "veros": {
+    "main": true
+  },
+  "veros-extra-setups": {
+    "main": true
+  },
+  "verr": {
+    "main": true
+  },
+  "version-parser": {
+    "main": true
+  },
   "version-pioneer": {
+    "main": true
+  },
+  "version_information": {
+    "main": true
+  },
+  "versioned-hdf5": {
+    "main": true
+  },
+  "versioneer": {
+    "main": true
+  },
+  "versionfinder": {
+    "main": true
+  },
+  "versioningit": {
+    "main": true
+  },
+  "versionparsing.jl": {
+    "main": true
+  },
+  "versiontag": {
+    "main": true
+  },
+  "versiontools": {
+    "main": true
+  },
+  "verspec": {
+    "main": true
+  },
+  "verstr": {
+    "main": true
+  },
+  "vertica-python": {
+    "main": true
+  },
+  "vertica_highcharts": {
+    "main": true
+  },
+  "verticalize": {
+    "main": true
+  },
+  "verticapy": {
+    "main": true
+  },
+  "vessel-express-napari": {
+    "main": true
+  },
+  "vet": {
+    "main": true
+  },
+  "vetoperf": {
     "main": true
   },
   "vetur": {
     "main": true
   },
+  "veusz": {
+    "main": true
+  },
   "vexctl": {
+    "main": true
+  },
+  "vharfbuzz": {
+    "main": true
+  },
+  "vhs": {
     "main": true
   },
   "vibegui": {
@@ -57713,10 +59153,37 @@
   "vibehdf5": {
     "main": true
   },
+  "vic": {
+    "main": true
+  },
+  "videogrep": {
+    "main": true
+  },
+  "videohash": {
+    "main": true
+  },
   "videoio": {
     "main": true
   },
   "vidigi": {
+    "main": true
+  },
+  "vidstats": {
+    "main": true
+  },
+  "viewable": {
+    "main": true
+  },
+  "viewstack": {
+    "main": true
+  },
+  "vifm": {
+    "main": true
+  },
+  "vigra": {
+    "main": true
+  },
+  "vim": {
     "main": true
   },
   "vim-language-server": {
@@ -57725,16 +59192,82 @@
   "vim-vint": {
     "main": true
   },
+  "vina": {
+    "main": true
+  },
+  "vine": {
+    "main": true
+  },
+  "vipaccess": {
+    "main": true
+  },
   "vir-simd": {
+    "main": true
+  },
+  "viresclient": {
     "main": true
   },
   "virga-exo": {
     "main": true
   },
+  "virocon": {
+    "main": true
+  },
+  "virtual-glob": {
+    "main": true
+  },
+  "virtual_dataframe": {
+    "main": true
+  },
   "virtualengineering": {
     "main": true
   },
+  "virtualenv": {
+    "main": true
+  },
+  "virtualenv-clone": {
+    "main": true
+  },
+  "virtualizarr": {
+    "main": true
+  },
+  "virtualship": {
+    "main": true
+  },
+  "virtue": {
+    "main": true
+  },
+  "virtuoso-opensource": {
+    "main": true
+  },
+  "virushostinteractionpredictor": {
+    "main": true
+  },
+  "visan": {
+    "main": true
+  },
+  "viscm": {
+    "main": true
+  },
+  "visdcc": {
+    "main": true
+  },
+  "visdom": {
+    "main": true
+  },
+  "vise": {
+    "main": true
+  },
   "viser": {
+    "main": true
+  },
+  "visidata": {
+    "main": true
+  },
+  "vision-explanation-methods": {
+    "main": true
+  },
+  "visions": {
     "main": true
   },
   "visionworkbench": {
@@ -57743,10 +59276,34 @@
   "visisipy": {
     "main": true
   },
+  "visit_struct": {
+    "main": true
+  },
+  "visitor": {
+    "main": true
+  },
   "viskores": {
     "main": true
   },
+  "visp": {
+    "main": true
+  },
+  "vispy": {
+    "main": true
+  },
+  "visualpic": {
+    "main": true
+  },
+  "visvis": {
+    "main": true
+  },
+  "vit-pytorch": {
+    "main": true
+  },
   "vitabel": {
+    "main": true
+  },
+  "vitables": {
     "main": true
   },
   "vitaldb": {
@@ -57755,31 +59312,190 @@
   "viu": {
     "main": true
   },
+  "viv": {
+    "main": true
+  },
+  "vivid": {
+    "main": true
+  },
+  "vizdet": {
+    "main": true
+  },
+  "vizent": {
+    "main": true
+  },
+  "vizlo": {
+    "main": true
+  },
+  "vizro": {
+    "main": true
+  },
   "vizro-ai": {
     "main": true
   },
   "vizro-mcp": {
     "main": true
   },
+  "viztracer": {
+    "main": true
+  },
+  "vl-convert": {
+    "main": true
+  },
+  "vl-convert-python": {
+    "main": true
+  },
+  "vlfeat": {
+    "main": true
+  },
   "vllm": {
+    "main": true
+  },
+  "vmd": {
+    "main": true
+  },
+  "vmd-python": {
+    "main": true
+  },
+  "vmprof": {
+    "main": true
+  },
+  "vmtk": {
+    "main": true
+  },
+  "vmtouch": {
+    "main": true
+  },
+  "vnu-validator": {
+    "main": true
+  },
+  "vobject": {
+    "main": true
+  },
+  "vocalpy": {
+    "main": true
+  },
+  "vodex": {
+    "main": true
+  },
+  "voeventlib": {
+    "main": true
+  },
+  "voici": {
+    "main": true
+  },
+  "voila": {
+    "main": true
+  },
+  "voila-gridstack": {
+    "main": true
+  },
+  "voila-material": {
+    "main": true
+  },
+  "voila-retro": {
+    "main": true
+  },
+  "voila-reveal": {
+    "main": true
+  },
+  "voila-vuetify": {
+    "main": true
+  },
+  "voila_topbar": {
     "main": true
   },
   "vois": {
     "main": true
   },
+  "volatile": {
+    "main": true
+  },
+  "volk": {
+    "main": true
+  },
+  "vollseg": {
+    "main": true
+  },
+  "vollseg-napari": {
+    "main": true
+  },
+  "vollseg-napari-mtrack": {
+    "main": true
+  },
   "volta": {
+    "main": true
+  },
+  "voluptuous": {
+    "main": true
+  },
+  "voluptuous-serialize": {
+    "main": true
+  },
+  "voms": {
+    "main": true
+  },
+  "voms-clients": {
+    "main": true
+  },
+  "voro": {
+    "main": true
+  },
+  "vose-alias-method": {
+    "main": true
+  },
+  "votca": {
     "main": true
   },
   "vouch-feedstock": {
     "main": true
   },
+  "vounwarp": {
+    "main": true
+  },
+  "vowpalwabbit": {
+    "main": true
+  },
+  "voxel51-eta": {
+    "main": true
+  },
+  "voyageai": {
+    "main": true
+  },
+  "vp4jl": {
+    "main": true
+  },
   "vpl-gpu-rt": {
+    "main": true
+  },
+  "vprtempo": {
     "main": true
   },
   "vpselector": {
     "main": true
   },
   "vpype": {
+    "main": true
+  },
+  "vpython": {
+    "main": true
+  },
+  "vrs": {
+    "main": true
+  },
+  "vs2008_express_vc_python_patch": {
+    "main": true
+  },
+  "vs2008_runtime": {
+    "main": true
+  },
+  "vsc-base": {
+    "main": true
+  },
+  "vsc-install": {
+    "main": true
+  },
+  "vsce": {
     "main": true
   },
   "vscode-go-debug-adapter": {
@@ -57806,31 +59522,292 @@
   "vsketch": {
     "main": true
   },
+  "vsts-python-api": {
+    "main": true
+  },
+  "vswhere": {
+    "main": true
+  },
+  "vt-py": {
+    "main": true
+  },
+  "vtable-dumper": {
+    "main": true
+  },
+  "vtk": {
+    "main": true
+  },
+  "vtk-m": {
+    "main": true
+  },
+  "vtkbool": {
+    "main": true
+  },
+  "vtkplotter": {
+    "main": true
+  },
+  "vtkwriters": {
+    "main": true
+  },
   "vtsls": {
+    "main": true
+  },
+  "vue": {
     "main": true
   },
   "vue-language-server": {
     "main": true
   },
+  "vulkan-headers": {
+    "main": true
+  },
+  "vulkan-loader": {
+    "main": true
+  },
+  "vulkan-memory-allocator": {
+    "main": true
+  },
+  "vulkan-tools": {
+    "main": true
+  },
   "vulkan-validation-layers": {
+    "main": true
+  },
+  "vulkan-volk": {
     "main": true
   },
   "vulkanscenegraph": {
     "main": true
   },
+  "vulp": {
+    "main": true
+  },
+  "vulture": {
+    "main": true
+  },
+  "vvm": {
+    "main": true
+  },
+  "vw-executor": {
+    "main": true
+  },
+  "vyper": {
+    "main": true
+  },
+  "w3g": {
+    "main": true
+  },
+  "w3lib": {
+    "main": true
+  },
+  "w3m": {
+    "main": true
+  },
+  "wabisabi": {
+    "main": true
+  },
+  "wabt": {
+    "main": true
+  },
   "wadler-lindig": {
+    "main": true
+  },
+  "waf": {
+    "main": true
+  },
+  "wagtail": {
+    "main": true
+  },
+  "wagtail-ab-testing": {
+    "main": true
+  },
+  "wagtail-accessibility": {
     "main": true
   },
   "wagtail-advanced-form-builder": {
     "main": true
   },
+  "wagtail-ai": {
+    "main": true
+  },
+  "wagtail-app-pages": {
+    "main": true
+  },
+  "wagtail-autocomplete": {
+    "main": true
+  },
+  "wagtail-bakery": {
+    "main": true
+  },
+  "wagtail-blocks": {
+    "main": true
+  },
+  "wagtail-cache": {
+    "main": true
+  },
+  "wagtail-charcount": {
+    "main": true
+  },
+  "wagtail-color-panel": {
+    "main": true
+  },
+  "wagtail-constance": {
+    "main": true
+  },
+  "wagtail-draftail-plugins": {
+    "main": true
+  },
+  "wagtail-dynamic-dropdown": {
+    "main": true
+  },
+  "wagtail-experiments": {
+    "main": true
+  },
+  "wagtail-factories": {
+    "main": true
+  },
+  "wagtail-feedback": {
+    "main": true
+  },
+  "wagtail-flags": {
+    "main": true
+  },
   "wagtail-flexible-forms": {
+    "main": true
+  },
+  "wagtail-font-awesome-svg": {
+    "main": true
+  },
+  "wagtail-footnotes": {
+    "main": true
+  },
+  "wagtail-generic-chooser": {
+    "main": true
+  },
+  "wagtail-grapple": {
+    "main": true
+  },
+  "wagtail-headless-preview": {
+    "main": true
+  },
+  "wagtail-import-export-tool": {
+    "main": true
+  },
+  "wagtail-inventory": {
+    "main": true
+  },
+  "wagtail-json-widget": {
+    "main": true
+  },
+  "wagtail-knowledgebase": {
+    "main": true
+  },
+  "wagtail-linkchecker": {
+    "main": true
+  },
+  "wagtail-live": {
+    "main": true
+  },
+  "wagtail-markdown": {
+    "main": true
+  },
+  "wagtail-meta-preview": {
+    "main": true
+  },
+  "wagtail-metadata": {
+    "main": true
+  },
+  "wagtail-modeladmin": {
+    "main": true
+  },
+  "wagtail-nav-menus": {
+    "main": true
+  },
+  "wagtail-pdf": {
+    "main": true
+  },
+  "wagtail-periodic-review": {
+    "main": true
+  },
+  "wagtail-plotly": {
+    "main": true
+  },
+  "wagtail-rangefilter": {
+    "main": true
+  },
+  "wagtail-resume": {
+    "main": true
+  },
+  "wagtail-review": {
+    "main": true
+  },
+  "wagtail-sb-admin-interface": {
+    "main": true
+  },
+  "wagtail-seo": {
+    "main": true
+  },
+  "wagtail-sharing": {
+    "main": true
+  },
+  "wagtail-storages": {
+    "main": true
+  },
+  "wagtail-surveyjs": {
+    "main": true
+  },
+  "wagtail-tag-manager": {
+    "main": true
+  },
+  "wagtail-taggable": {
+    "main": true
+  },
+  "wagtail-themes": {
     "main": true
   },
   "wagtail-tinytableblock": {
     "main": true
   },
+  "wagtail-transfer": {
+    "main": true
+  },
+  "wagtail-trash": {
+    "main": true
+  },
+  "wagtail-treemodeladmin": {
+    "main": true
+  },
+  "wagtail-word": {
+    "main": true
+  },
+  "wagtailcharts": {
+    "main": true
+  },
   "wagtailextraicons": {
+    "main": true
+  },
+  "wagtailgridder": {
+    "main": true
+  },
+  "wagtailmath": {
+    "main": true
+  },
+  "wagtailmedia": {
+    "main": true
+  },
+  "wagtailmenus": {
+    "main": true
+  },
+  "wagtailnews": {
+    "main": true
+  },
+  "wagtailstreamforms": {
+    "main": true
+  },
+  "wagtailtables": {
+    "main": true
+  },
+  "wagyu": {
     "main": true
   },
   "wails": {
@@ -57839,55 +59816,463 @@
   "wait_for2": {
     "main": true
   },
+  "waiting": {
+    "main": true
+  },
+  "waitress": {
+    "main": true
+  },
+  "wakatime": {
+    "main": true
+  },
+  "wake-t": {
+    "main": true
+  },
+  "wakepy": {
+    "main": true
+  },
+  "wand": {
+    "main": true
+  },
+  "wandb": {
+    "main": true
+  },
+  "wannier90": {
+    "main": true
+  },
+  "wannier90io": {
+    "main": true
+  },
+  "wannierberri": {
+    "main": true
+  },
+  "wapordl": {
+    "main": true
+  },
   "warcio": {
+    "main": true
+  },
+  "ward": {
+    "main": true
+  },
+  "warlock": {
+    "main": true
+  },
+  "warp-lang": {
     "main": true
   },
   "warpfield": {
     "main": true
   },
+  "warpx": {
+    "main": true
+  },
+  "warrant": {
+    "main": true
+  },
+  "warrant-lite": {
+    "main": true
+  },
+  "wasabi": {
+    "main": true
+  },
   "wasm-pack": {
+    "main": true
+  },
+  "wasmer": {
     "main": true
   },
   "wasmtime-py": {
     "main": true
   },
+  "wassima": {
+    "main": true
+  },
+  "wat-inspector": {
+    "main": true
+  },
+  "watchdog": {
+    "main": true
+  },
+  "watchdog-gevent": {
+    "main": true
+  },
   "watchexec": {
+    "main": true
+  },
+  "watchfiles": {
+    "main": true
+  },
+  "watchgha": {
+    "main": true
+  },
+  "watchgod": {
+    "main": true
+  },
+  "watchme": {
+    "main": true
+  },
+  "watchtower": {
+    "main": true
+  },
+  "waterdynamics": {
+    "main": true
+  },
+  "waterfallcharts": {
+    "main": true
+  },
+  "watermark": {
+    "main": true
+  },
+  "waternetworkanalysis": {
+    "main": true
+  },
+  "watex": {
+    "main": true
+  },
+  "watset": {
+    "main": true
+  },
+  "waveorder": {
+    "main": true
+  },
+  "waver": {
+    "main": true
+  },
+  "waves": {
+    "main": true
+  },
+  "wavespectra": {
     "main": true
   },
   "wavyopen": {
     "main": true
   },
+  "waybackpack": {
+    "main": true
+  },
+  "waybackpy": {
+    "main": true
+  },
+  "wayland": {
+    "main": true
+  },
+  "wayland-protocols": {
+    "main": true
+  },
+  "wbgapi": {
+    "main": true
+  },
+  "wbplot": {
+    "main": true
+  },
+  "wcmatch": {
+    "main": true
+  },
+  "wcosmo": {
+    "main": true
+  },
+  "wcslib": {
+    "main": true
+  },
+  "wcstools": {
+    "main": true
+  },
   "wcurl": {
+    "main": true
+  },
+  "wcwidth": {
+    "main": true
+  },
+  "wdiff": {
+    "main": true
+  },
+  "wdl-aid": {
+    "main": true
+  },
+  "wdl-packager": {
+    "main": true
+  },
+  "wdltools": {
+    "main": true
+  },
+  "wdmtoolbox": {
+    "main": true
+  },
+  "weakrefmethod": {
+    "main": true
+  },
+  "weasel": {
+    "main": true
+  },
+  "weasyprint": {
     "main": true
   },
   "weaviate-client": {
     "main": true
   },
+  "web.py": {
+    "main": true
+  },
+  "web3": {
+    "main": true
+  },
+  "webargs": {
+    "main": true
+  },
+  "webassets": {
+    "main": true
+  },
+  "webauthn": {
+    "main": true
+  },
   "webbrowser_open": {
+    "main": true
+  },
+  "webcolors": {
+    "main": true
+  },
+  "webdataset": {
+    "main": true
+  },
+  "webdav4": {
+    "main": true
+  },
+  "webdavclient2": {
+    "main": true
+  },
+  "webdavclient3": {
     "main": true
   },
   "webdiff": {
     "main": true
   },
+  "webdriver-manager": {
+    "main": true
+  },
+  "webdrivermanager": {
+    "main": true
+  },
+  "webencodings": {
+    "main": true
+  },
+  "weberror": {
+    "main": true
+  },
+  "webexteamssdk": {
+    "main": true
+  },
   "webgeocalc": {
+    "main": true
+  },
+  "webgpu-headers": {
+    "main": true
+  },
+  "webhelpers": {
+    "main": true
+  },
+  "webhelpers2": {
+    "main": true
+  },
+  "webio-jupyter-extension": {
     "main": true
   },
   "webkit2gtk4.1": {
     "main": true
   },
+  "weblogo": {
+    "main": true
+  },
+  "webob": {
+    "main": true
+  },
   "webpack-cli": {
+    "main": true
+  },
+  "webrtcvad": {
+    "main": true
+  },
+  "webruntime": {
+    "main": true
+  },
+  "websocket": {
+    "main": true
+  },
+  "websocket-client": {
+    "main": true
+  },
+  "websocket-server": {
+    "main": true
+  },
+  "websocketpp": {
+    "main": true
+  },
+  "websockets": {
+    "main": true
+  },
+  "websockets-cli": {
+    "main": true
+  },
+  "websockify": {
+    "main": true
+  },
+  "webstories": {
+    "main": true
+  },
+  "webtest": {
+    "main": true
+  },
+  "wecopttool": {
+    "main": true
+  },
+  "weightedcalcs": {
+    "main": true
+  },
+  "weightedstats": {
     "main": true
   },
   "weightwatcher": {
     "main": true
   },
+  "weldx": {
+    "main": true
+  },
+  "weldx_widgets": {
+    "main": true
+  },
+  "wellapplication": {
+    "main": true
+  },
+  "welltestpy": {
+    "main": true
+  },
+  "wemake-python-styleguide": {
+    "main": true
+  },
+  "wera2netcdf": {
+    "main": true
+  },
+  "werkzeug": {
+    "main": true
+  },
+  "west": {
+    "main": true
+  },
+  "westpa": {
+    "main": true
+  },
+  "wetterdienst": {
+    "main": true
+  },
+  "wexpect": {
+    "main": true
+  },
+  "wfastcgi": {
+    "main": true
+  },
+  "wfdb": {
+    "main": true
+  },
+  "wflow": {
+    "main": true
+  },
+  "wget": {
+    "main": true
+  },
+  "wgetter": {
+    "main": true
+  },
+  "wgpu-native": {
+    "main": true
+  },
+  "wgpu-py": {
+    "main": true
+  },
+  "wgrib": {
+    "main": true
+  },
+  "wgrib2": {
+    "main": true
+  },
+  "whatrecord": {
+    "main": true
+  },
+  "whatthepatch": {
+    "main": true
+  },
+  "wheel": {
+    "main": true
+  },
+  "wheel-filename": {
+    "main": true
+  },
+  "wheel-inspect": {
+    "main": true
+  },
+  "wheelhouse_uploader": {
+    "main": true
+  },
+  "whenever": {
+    "main": true
+  },
+  "where": {
+    "main": true
+  },
+  "whey": {
+    "main": true
+  },
+  "whey-pth": {
+    "main": true
+  },
+  "which": {
+    "main": true
+  },
+  "whichcraft": {
+    "main": true
+  },
   "whisper.cpp": {
+    "main": true
+  },
+  "whitebox": {
+    "main": true
+  },
+  "whitebox_tools": {
+    "main": true
+  },
+  "whiteboxgui": {
+    "main": true
+  },
+  "whitenoise": {
+    "main": true
+  },
+  "whl2conda": {
+    "main": true
+  },
+  "whois": {
+    "main": true
+  },
+  "wholeslidedata": {
+    "main": true
+  },
+  "whoosh": {
     "main": true
   },
   "whoosh-reloaded": {
     "main": true
   },
+  "whos-there": {
+    "main": true
+  },
+  "whyqd": {
+    "main": true
+  },
   "wibl-python": {
+    "main": true
+  },
+  "widgetsnbextension": {
+    "main": true
+  },
+  "wield.bunch": {
     "main": true
   },
   "wigglystuff": {
