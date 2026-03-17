@@ -11420,10 +11420,61 @@
   "databricks-sdk": {
     "main": true
   },
+  "databricks-sql-connector": {
+    "main": true
+  },
   "databricks-sqlalchemy": {
     "main": true
   },
+  "databroker": {
+    "main": true
+  },
+  "databroker-elasticsearch": {
+    "main": true
+  },
+  "databroker-pack": {
+    "main": true
+  },
+  "datacache": {
+    "main": true
+  },
   "datachain": {
+    "main": true
+  },
+  "dataclass-csv": {
+    "main": true
+  },
+  "dataclass-wizard": {
+    "main": true
+  },
+  "dataclasses": {
+    "main": true
+  },
+  "dataclasses-avroschema": {
+    "main": true
+  },
+  "dataclasses-json": {
+    "main": true
+  },
+  "dataclasses-jsonschema": {
+    "main": true
+  },
+  "dataclassy": {
+    "main": true
+  },
+  "datacommons": {
+    "main": true
+  },
+  "datacommons_pandas": {
+    "main": true
+  },
+  "datacompy": {
+    "main": true
+  },
+  "dataconf": {
+    "main": true
+  },
+  "datacube": {
     "main": true
   },
   "datacube-compute": {
@@ -11432,43 +11483,295 @@
   "datadepot": {
     "main": true
   },
+  "datadog": {
+    "main": true
+  },
+  "datadotworld-py": {
+    "main": true
+  },
+  "dataeval": {
+    "main": true
+  },
   "datafiles": {
     "main": true
   },
   "datafiller": {
     "main": true
   },
+  "dataflows-tabulator": {
+    "main": true
+  },
   "dataframe-timeseries-mon": {
+    "main": true
+  },
+  "dataframe_image": {
     "main": true
   },
   "dataframely": {
     "main": true
   },
+  "datafusion": {
+    "main": true
+  },
+  "datajoint": {
+    "main": true
+  },
+  "datajudge": {
+    "main": true
+  },
+  "datalab": {
+    "main": true
+  },
   "datalab-kernel": {
+    "main": true
+  },
+  "datalabsimpleclient": {
+    "main": true
+  },
+  "datalad": {
     "main": true
   },
   "datalad-cds": {
     "main": true
   },
+  "datalad-container": {
+    "main": true
+  },
+  "datalad-installer": {
+    "main": true
+  },
+  "datamapplot": {
+    "main": true
+  },
+  "datamash": {
+    "main": true
+  },
+  "datamatrix": {
+    "main": true
+  },
+  "datamodel-code-generator": {
+    "main": true
+  },
+  "datamodeldict": {
+    "main": true
+  },
+  "datamol": {
+    "main": true
+  },
+  "datamountaineer-schemaregistry": {
+    "main": true
+  },
+  "datapackage": {
+    "main": true
+  },
+  "datapane": {
+    "main": true
+  },
   "datapi": {
+    "main": true
+  },
+  "dataprep": {
+    "main": true
+  },
+  "dataprofiler": {
+    "main": true
+  },
+  "dataproperty": {
+    "main": true
+  },
+  "datar": {
+    "main": true
+  },
+  "dataretrieval": {
+    "main": true
+  },
+  "datarobot": {
+    "main": true
+  },
+  "datarobot-bp-workshop": {
+    "main": true
+  },
+  "datascience": {
+    "main": true
+  },
+  "dataset": {
+    "main": true
+  },
+  "datasets": {
+    "main": true
+  },
+  "datasette": {
+    "main": true
+  },
+  "datasette-cluster-map": {
+    "main": true
+  },
+  "datasette-configure-fts": {
+    "main": true
+  },
+  "datasette-copyable": {
+    "main": true
+  },
+  "datasette-dashboards": {
+    "main": true
+  },
+  "datasette-edit-schema": {
+    "main": true
+  },
+  "datasette-enrichments": {
+    "main": true
+  },
+  "datasette-graphql": {
+    "main": true
+  },
+  "datasette-gunicorn": {
+    "main": true
+  },
+  "datasette-insert": {
+    "main": true
+  },
+  "datasette-leaflet": {
+    "main": true
+  },
+  "datasette-nteract-data-explorer": {
+    "main": true
+  },
+  "datasette-parquet": {
+    "main": true
+  },
+  "datasette-render-markdown": {
+    "main": true
+  },
+  "datasette-scraper": {
+    "main": true
+  },
+  "datasette-search-all": {
+    "main": true
+  },
+  "datasette-secrets": {
+    "main": true
+  },
+  "datasette-statistics": {
+    "main": true
+  },
+  "datasette-template-sql": {
+    "main": true
+  },
+  "datashader": {
+    "main": true
+  },
+  "datashaper": {
+    "main": true
+  },
+  "datashuttle": {
+    "main": true
+  },
+  "datasketch": {
+    "main": true
+  },
+  "datasketches": {
+    "main": true
+  },
+  "datasloth": {
     "main": true
   },
   "datastar-py": {
     "main": true
   },
+  "datastock": {
+    "main": true
+  },
+  "datatable": {
+    "main": true
+  },
+  "datatables": {
+    "main": true
+  },
+  "datatoolbox": {
+    "main": true
+  },
   "datatrove": {
+    "main": true
+  },
+  "datavzrd": {
     "main": true
   },
   "datazets": {
     "main": true
   },
+  "datefinder": {
+    "main": true
+  },
+  "datefudge": {
+    "main": true
+  },
+  "dateparser": {
+    "main": true
+  },
   "datespan": {
+    "main": true
+  },
+  "datetime-distance": {
+    "main": true
+  },
+  "datetimerange": {
+    "main": true
+  },
+  "datetype": {
+    "main": true
+  },
+  "dateutils": {
+    "main": true
+  },
+  "datreant": {
+    "main": true
+  },
+  "datrie": {
+    "main": true
+  },
+  "datui": {
+    "main": true
+  },
+  "datumgrid": {
     "main": true
   },
   "datview": {
     "main": true
   },
+  "dautilpy": {
+    "main": true
+  },
+  "dav1d": {
+    "main": true
+  },
+  "davix": {
+    "main": true
+  },
+  "dawg": {
+    "main": true
+  },
+  "dawg-python": {
+    "main": true
+  },
   "dayplot": {
+    "main": true
+  },
+  "db-build": {
+    "main": true
+  },
+  "db-dtypes": {
+    "main": true
+  },
+  "db-to-sqlite": {
+    "main": true
+  },
+  "db12": {
+    "main": true
+  },
+  "dbbot": {
+    "main": true
+  },
+  "dbbot-sqlalchemy": {
     "main": true
   },
   "dbcsr": {
@@ -11477,40 +11780,445 @@
   "dbetto": {
     "main": true
   },
+  "dbf": {
+    "main": true
+  },
+  "dbfread": {
+    "main": true
+  },
+  "dbgpy": {
+    "main": true
+  },
+  "dbnomics": {
+    "main": true
+  },
   "dbos": {
+    "main": true
+  },
+  "dbscan": {
     "main": true
   },
   "dbscan1d": {
     "main": true
   },
+  "dbsp_drp": {
+    "main": true
+  },
+  "dbstep": {
+    "main": true
+  },
+  "dbt": {
+    "main": true
+  },
+  "dbt-adapters": {
+    "main": true
+  },
+  "dbt-artifacts-parser": {
+    "main": true
+  },
+  "dbt-athena-adapter": {
+    "main": true
+  },
+  "dbt-athena-community": {
+    "main": true
+  },
+  "dbt-bigquery": {
+    "main": true
+  },
+  "dbt-common": {
+    "main": true
+  },
+  "dbt-databricks": {
+    "main": true
+  },
+  "dbt-dremio": {
+    "main": true
+  },
+  "dbt-duckdb": {
+    "main": true
+  },
+  "dbt-extractor": {
+    "main": true
+  },
+  "dbt-ibis": {
+    "main": true
+  },
+  "dbt-postgres": {
+    "main": true
+  },
   "dbt-protos": {
+    "main": true
+  },
+  "dbt-redshift": {
+    "main": true
+  },
+  "dbt-semantic-interfaces": {
+    "main": true
+  },
+  "dbt-snowflake": {
+    "main": true
+  },
+  "dbt-spark": {
+    "main": true
+  },
+  "dbus": {
+    "main": true
+  },
+  "dbus-cxx": {
+    "main": true
+  },
+  "dbus-fast": {
+    "main": true
+  },
+  "dbus-next": {
+    "main": true
+  },
+  "dbus-python": {
+    "main": true
+  },
+  "dbxfs": {
+    "main": true
+  },
+  "dcap": {
+    "main": true
+  },
+  "dcc": {
     "main": true
   },
   "dccp": {
     "main": true
   },
+  "dcgp-python": {
+    "main": true
+  },
+  "dclab": {
+    "main": true
+  },
+  "dcm2bids": {
+    "main": true
+  },
+  "dcm2niix": {
+    "main": true
+  },
+  "dcmstack": {
+    "main": true
+  },
+  "dcmtk": {
+    "main": true
+  },
+  "dcor": {
+    "main": true
+  },
+  "dctmd": {
+    "main": true
+  },
+  "dcw-gmt": {
+    "main": true
+  },
+  "ddd_subplots": {
+    "main": true
+  },
+  "ddeint": {
+    "main": true
+  },
+  "ddh": {
+    "main": true
+  },
   "ddrescue": {
+    "main": true
+  },
+  "ddsketch": {
+    "main": true
+  },
+  "ddsp": {
+    "main": true
+  },
+  "ddt": {
+    "main": true
+  },
+  "ddtrace": {
+    "main": true
+  },
+  "de-abfallnavi": {
+    "main": true
+  },
+  "de-ausbildungssuche": {
+    "main": true
+  },
+  "de-autobahn": {
+    "main": true
+  },
+  "de-berufssprachkurssuche": {
+    "main": true
+  },
+  "de-bundeshaushalt": {
+    "main": true
+  },
+  "de-bundesrat": {
+    "main": true
+  },
+  "de-bundestag": {
+    "main": true
+  },
+  "de-bundestag-lobbyregister": {
+    "main": true
+  },
+  "de-coachingangebote": {
+    "main": true
+  },
+  "de-dashboarddeutschland": {
+    "main": true
+  },
+  "de-dip-bundestag": {
+    "main": true
+  },
+  "de-dwd": {
+    "main": true
+  },
+  "de-ecovisio": {
+    "main": true
+  },
+  "de-entgeltatlas": {
+    "main": true
+  },
+  "de-feiertage": {
+    "main": true
+  },
+  "de-forcefields": {
+    "main": true
+  },
+  "de-hochwasserzentralen": {
+    "main": true
+  },
+  "de-interpol": {
+    "main": true
+  },
+  "de-jobsuche": {
+    "main": true
+  },
+  "de-ladestationen": {
+    "main": true
+  },
+  "de-marktstammdaten": {
+    "main": true
+  },
+  "de-mudab": {
+    "main": true
+  },
+  "de-nina": {
+    "main": true
+  },
+  "de-pegel-online": {
+    "main": true
+  },
+  "de-pflanzenschutzmittelzulassung": {
+    "main": true
+  },
+  "de-polizei-brandenburg": {
+    "main": true
+  },
+  "de-risikogebiete": {
+    "main": true
+  },
+  "de-smard": {
+    "main": true
+  },
+  "de-strahlenschutz": {
+    "main": true
+  },
+  "de-studiensuche": {
+    "main": true
+  },
+  "de-tagesschau": {
+    "main": true
+  },
+  "de-travelwarning": {
+    "main": true
+  },
+  "de-vag": {
+    "main": true
+  },
+  "de-weiterbildungssuche": {
+    "main": true
+  },
+  "de-zoll": {
+    "main": true
+  },
+  "de2120-barcode-scanner": {
     "main": true
   },
   "dead": {
     "main": true
   },
+  "deadlink": {
+    "main": true
+  },
   "deadnix": {
+    "main": true
+  },
+  "dealii": {
+    "main": true
+  },
+  "deap": {
+    "main": true
+  },
+  "debtcollector": {
+    "main": true
+  },
+  "debug_assert": {
+    "main": true
+  },
+  "debuglater": {
+    "main": true
+  },
+  "debugpy": {
+    "main": true
+  },
+  "dec2": {
+    "main": true
+  },
+  "decasu": {
+    "main": true
+  },
+  "decaylanguage": {
+    "main": true
+  },
+  "declarative": {
+    "main": true
+  },
+  "declare": {
+    "main": true
+  },
+  "decli": {
+    "main": true
+  },
+  "deco": {
+    "main": true
+  },
+  "decopatch": {
+    "main": true
+  },
+  "decorator": {
+    "main": true
+  },
+  "decore": {
+    "main": true
+  },
+  "decorit": {
+    "main": true
+  },
+  "decorrelation": {
+    "main": true
+  },
+  "decoupler-py": {
+    "main": true
+  },
+  "dectate": {
     "main": true
   },
   "dectris-compression": {
     "main": true
   },
+  "dedalus": {
+    "main": true
+  },
+  "dedupe": {
+    "main": true
+  },
+  "dedupe-hcluster": {
+    "main": true
+  },
   "dedupe-levenshtein-search": {
     "main": true
   },
+  "dedupe-variable-datetime": {
+    "main": true
+  },
+  "deduplipy": {
+    "main": true
+  },
+  "deep-labelprop": {
+    "main": true
+  },
+  "deepchecks": {
+    "main": true
+  },
+  "deepchem": {
+    "main": true
+  },
+  "deepcs": {
+    "main": true
+  },
+  "deepdiff": {
+    "main": true
+  },
+  "deepdish": {
+    "main": true
+  },
+  "deepecho": {
+    "main": true
+  },
+  "deepface": {
+    "main": true
+  },
+  "deepforest": {
+    "main": true
+  },
+  "deepgram-sdk": {
+    "main": true
+  },
+  "deepgraph": {
+    "main": true
+  },
+  "deepinv": {
+    "main": true
+  },
+  "deeplabcut": {
+    "main": true
+  },
+  "deeplearnjs": {
+    "main": true
+  },
   "deepmd-gnn": {
+    "main": true
+  },
+  "deepmd-kit": {
+    "main": true
+  },
+  "deepmerge": {
+    "main": true
+  },
+  "deeppurpose": {
+    "main": true
+  },
+  "deeprobust": {
     "main": true
   },
   "deepsearch-glm": {
     "main": true
   },
   "deepsearch-toolkit": {
+    "main": true
+  },
+  "deepsmiles": {
+    "main": true
+  },
+  "deepspeech": {
+    "main": true
+  },
+  "deepspeed": {
+    "main": true
+  },
+  "deeptime": {
+    "main": true
+  },
+  "deepxde": {
+    "main": true
+  },
+  "defaultlist": {
+    "main": true
+  },
+  "defcon": {
     "main": true
   },
   "defectpl": {
@@ -11522,6 +12230,27 @@
   "deffcode": {
     "main": true
   },
+  "defillama-curl": {
+    "main": true
+  },
+  "deflate_dict": {
+    "main": true
+  },
+  "defopt": {
+    "main": true
+  },
+  "defusedxml": {
+    "main": true
+  },
+  "dehinter": {
+    "main": true
+  },
+  "deicode": {
+    "main": true
+  },
+  "deid": {
+    "main": true
+  },
   "deims": {
     "main": true
   },
@@ -11531,34 +12260,325 @@
   "del-cli": {
     "main": true
   },
+  "delabella": {
+    "main": true
+  },
+  "delayed-assert": {
+    "main": true
+  },
+  "delayed_image": {
+    "main": true
+  },
   "delaynet": {
+    "main": true
+  },
+  "delegator": {
+    "main": true
+  },
+  "delft_fiat": {
+    "main": true
+  },
+  "delimited-protobuf": {
+    "main": true
+  },
+  "delocate": {
     "main": true
   },
   "delphes": {
     "main": true
   },
+  "delta": {
+    "main": true
+  },
   "delta-kernel-rust-sharing-wrapper": {
+    "main": true
+  },
+  "delta-sharing-python": {
+    "main": true
+  },
+  "delta-spark": {
+    "main": true
+  },
+  "delta2": {
+    "main": true
+  },
+  "deltadb": {
+    "main": true
+  },
+  "deltalake": {
+    "main": true
+  },
+  "delve": {
+    "main": true
+  },
+  "delvewheel": {
+    "main": true
+  },
+  "dem_stitcher": {
+    "main": true
+  },
+  "demcmc": {
+    "main": true
+  },
+  "demes": {
+    "main": true
+  },
+  "demesdraw": {
+    "main": true
+  },
+  "demjson": {
+    "main": true
+  },
+  "demjson3": {
+    "main": true
+  },
+  "demoji": {
+    "main": true
+  },
+  "demon": {
+    "main": true
+  },
+  "demquery": {
+    "main": true
+  },
+  "demumble": {
+    "main": true
+  },
+  "deno": {
+    "main": true
+  },
+  "deno-dom": {
+    "main": true
+  },
+  "denoptim": {
+    "main": true
+  },
+  "densmap-learn": {
+    "main": true
+  },
+  "deodr": {
+    "main": true
+  },
+  "deon": {
+    "main": true
+  },
+  "dep-logic": {
     "main": true
   },
   "depcheck": {
     "main": true
   },
+  "dependabot-cli": {
+    "main": true
+  },
+  "dependencies": {
+    "main": true
+  },
   "dependency-groups": {
+    "main": true
+  },
+  "dependency_injector": {
+    "main": true
+  },
+  "dependente": {
+    "main": true
+  },
+  "depfinder": {
+    "main": true
+  },
+  "depi": {
+    "main": true
+  },
+  "depinfo": {
     "main": true
   },
   "deply": {
     "main": true
   },
+  "deprecat": {
+    "main": true
+  },
+  "deprecated": {
+    "main": true
+  },
+  "deprecation": {
+    "main": true
+  },
+  "deprecation-alias": {
+    "main": true
+  },
+  "deprecation-factory": {
+    "main": true
+  },
+  "deps": {
+    "main": true
+  },
+  "deptry": {
+    "main": true
+  },
   "depyf": {
+    "main": true
+  },
+  "derivative": {
+    "main": true
+  },
+  "des-desimage": {
+    "main": true
+  },
+  "des-sxdes": {
+    "main": true
+  },
+  "des-y6utils": {
     "main": true
   },
   "desc_bpz": {
     "main": true
   },
+  "descartes": {
+    "main": true
+  },
+  "descarteslabs": {
+    "main": true
+  },
+  "descent": {
+    "main": true
+  },
+  "descriptastorus": {
+    "main": true
+  },
+  "desdeo": {
+    "main": true
+  },
+  "desdeo-vis": {
+    "main": true
+  },
+  "desert": {
+    "main": true
+  },
+  "design-by-contract": {
+    "main": true
+  },
+  "desktop-app": {
+    "main": true
+  },
+  "desktop3": {
+    "main": true
+  },
+  "desres-msys": {
+    "main": true
+  },
+  "dessinemoi": {
+    "main": true
+  },
+  "detect-test-pollution": {
+    "main": true
+  },
+  "detecto": {
+    "main": true
+  },
+  "detectree": {
+    "main": true
+  },
+  "detectron2": {
+    "main": true
+  },
+  "detox": {
+    "main": true
+  },
+  "deutschland": {
+    "main": true
+  },
+  "devbio-napari": {
+    "main": true
+  },
+  "devicely": {
+    "main": true
+  },
+  "devpi-client": {
+    "main": true
+  },
+  "devpi-common": {
+    "main": true
+  },
+  "devpi-process": {
+    "main": true
+  },
+  "devpi-server": {
+    "main": true
+  },
+  "devscripts": {
+    "main": true
+  },
   "devtools": {
     "main": true
   },
+  "dewret": {
+    "main": true
+  },
+  "dex-retargeting": {
+    "main": true
+  },
+  "dexp": {
+    "main": true
+  },
+  "dexplot": {
+    "main": true
+  },
+  "dexpy": {
+    "main": true
+  },
+  "df2gspread": {
+    "main": true
+  },
+  "dfba": {
+    "main": true
+  },
+  "dfo-ls": {
+    "main": true
+  },
+  "dftatom": {
+    "main": true
+  },
+  "dftbplus": {
+    "main": true
+  },
+  "dftbplus-python": {
+    "main": true
+  },
+  "dftbplus-tools": {
+    "main": true
+  },
+  "dftd3-python": {
+    "main": true
+  },
+  "dftd4": {
+    "main": true
+  },
+  "dftd4-python": {
+    "main": true
+  },
+  "dfviz": {
+    "main": true
+  },
+  "dfvue": {
+    "main": true
+  },
   "dg-sqlmesh": {
+    "main": true
+  },
+  "dggrid": {
+    "main": true
+  },
+  "dgl": {
+    "main": true
+  },
+  "dgllife": {
+    "main": true
+  },
+  "dgpsi": {
+    "main": true
+  },
+  "dhall-python": {
     "main": true
   },
   "diagnostic": {
@@ -11567,19 +12587,94 @@
   "diagnostic-languageserver": {
     "main": true
   },
+  "diagrams": {
+    "main": true
+  },
+  "dialectid": {
+    "main": true
+  },
+  "dialite": {
+    "main": true
+  },
   "dialog": {
+    "main": true
+  },
+  "dials": {
+    "main": true
+  },
+  "dials-data": {
+    "main": true
+  },
+  "diazo": {
+    "main": true
+  },
+  "dice-ml": {
+    "main": true
+  },
+  "diceware": {
+    "main": true
+  },
+  "dicfg": {
+    "main": true
+  },
+  "dicom-anonymizer": {
+    "main": true
+  },
+  "dicom2nifti": {
+    "main": true
+  },
+  "dicomifier": {
+    "main": true
+  },
+  "dicomweb-client": {
+    "main": true
+  },
+  "dict-trie": {
+    "main": true
+  },
+  "dict2css": {
     "main": true
   },
   "dict2xml": {
     "main": true
   },
+  "dict_hash": {
+    "main": true
+  },
+  "dictdatabase": {
+    "main": true
+  },
+  "dictdiffer": {
+    "main": true
+  },
   "dictionaryutils": {
+    "main": true
+  },
+  "dictlib": {
+    "main": true
+  },
+  "dictobj": {
+    "main": true
+  },
+  "dictpath": {
+    "main": true
+  },
+  "dicttoxml": {
     "main": true
   },
   "dicttoxml2": {
     "main": true
   },
+  "diff-cover": {
+    "main": true
+  },
+  "diff-match-patch": {
+    "main": true
+  },
   "diffdist": {
+    "main": true
+  },
+  "diffeqpy": {
     "main": true
   },
   "diffhalos": {
@@ -11588,7 +12683,19 @@
   "diffly": {
     "main": true
   },
+  "diffmah": {
+    "main": true
+  },
   "diffnav": {
+    "main": true
+  },
+  "diffoscope": {
+    "main": true
+  },
+  "diffpriv": {
+    "main": true
+  },
+  "diffprivlib": {
     "main": true
   },
   "diffpy.cmi": {
@@ -11597,10 +12704,19 @@
   "diffpy.distanceprinter": {
     "main": true
   },
+  "diffpy.fourigui": {
+    "main": true
+  },
   "diffpy.labpdfproc": {
     "main": true
   },
   "diffpy.morph": {
+    "main": true
+  },
+  "diffpy.pdffit2": {
+    "main": true
+  },
+  "diffpy.pdfgui": {
     "main": true
   },
   "diffpy.srfit": {
