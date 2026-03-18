@@ -63884,6 +63884,12 @@
   "rake_nltk": {
     "main": true
   },
+  "ramp-core": {
+    "main": true
+  },
+  "ramp-endf": {
+    "main": true
+  },
   "ramp-isotopes": {
     "main": true
   },
@@ -65154,6 +65160,9 @@
     "main": true
   },
   "repeated_test": {
+    "main": true
+  },
+  "repl-session": {
     "main": true
   },
   "replicate": {
