@@ -44426,6 +44426,9 @@
   "procs": {
     "main": true
   },
+  "procserv": {
+    "main": true
+  },
   "product-key-memory": {
     "main": true
   },
@@ -49496,6 +49499,9 @@
   "pystore": {
     "main": true
   },
+  "pystormtracker": {
+    "main": true
+  },
   "pystow": {
     "main": true
   },
@@ -52161,6 +52167,9 @@
     "main": true
   },
   "qt6-advanced-docking-system": {
+    "main": true
+  },
+  "qt6-serialport": {
     "main": true
   },
   "qt_epics": {
