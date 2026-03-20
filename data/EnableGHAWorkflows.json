@@ -27839,6 +27839,21 @@
   "jupyverse-api": {
     "main": true
   },
+  "jupyverse-auth": {
+    "main": true
+  },
+  "jupyverse-file-id": {
+    "main": true
+  },
+  "jupyverse-kernel": {
+    "main": true
+  },
+  "jupyverse-yrooms": {
+    "main": true
+  },
+  "jupyverse-ystore": {
+    "main": true
+  },
   "jurigged": {
     "main": true
   },
@@ -30827,6 +30842,9 @@
   "license-expression": {
     "main": true
   },
+  "licensecheck": {
+    "main": true
+  },
   "licensor": {
     "main": true
   },
@@ -31212,6 +31230,9 @@
     "main": true
   },
   "livekit": {
+    "main": true
+  },
+  "livekit-agents": {
     "main": true
   },
   "livekit-api": {
