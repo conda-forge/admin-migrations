@@ -19,7 +19,6 @@ from requests.exceptions import RequestException
 from admin_migrations.defaults import DEBUG, MAX_MIGRATE, MAX_SECONDS, MAX_WORKERS
 from admin_migrations.migrators import (
     CondaForgeYAMLTest,
-    EnableGHAWorkflows,
     RAutomerge,
     TeamsCleanup,
 )
@@ -29,7 +28,6 @@ MIGRATORS = [
     RAutomerge(),
     CondaForgeYAMLTest(),
     TeamsCleanup(),
-    EnableGHAWorkflows(),
 ]
 
 
