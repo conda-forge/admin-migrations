@@ -1192,5 +1192,656 @@
   },
   "r-gsdesign": {
     "main": true
+  },
+  "r-gsignal": {
+    "main": true
+  },
+  "r-gsl": {
+    "main": true
+  },
+  "r-gsmoothr": {
+    "main": true
+  },
+  "r-gson": {
+    "main": true
+  },
+  "r-gss": {
+    "main": true
+  },
+  "r-gstat": {
+    "main": true
+  },
+  "r-gsubfn": {
+    "main": true
+  },
+  "r-gsw": {
+    "main": true
+  },
+  "r-gt": {
+    "main": true
+  },
+  "r-gtable": {
+    "main": true
+  },
+  "r-gtextras": {
+    "main": true
+  },
+  "r-gtools": {
+    "main": true
+  },
+  "r-gtsummary": {
+    "main": true
+  },
+  "r-guilds": {
+    "main": true
+  },
+  "r-gunifrac": {
+    "main": true
+  },
+  "r-gutenbergr": {
+    "main": true
+  },
+  "r-gwasexacthw": {
+    "main": true
+  },
+  "r-gwidgets": {
+    "main": true
+  },
+  "r-gwidgets2": {
+    "main": true
+  },
+  "r-gwidgets2tcltk": {
+    "main": true
+  },
+  "r-gwidgetstcltk": {
+    "main": true
+  },
+  "r-h2o": {
+    "main": true
+  },
+  "r-h3jsr": {
+    "main": true
+  },
+  "r-h5lite": {
+    "main": true
+  },
+  "r-haplo.stats": {
+    "main": true
+  },
+  "r-hardhat": {
+    "main": true
+  },
+  "r-hardyweinberg": {
+    "main": true
+  },
+  "r-harmonicmeanp": {
+    "main": true
+  },
+  "r-harmony": {
+    "main": true
+  },
+  "r-harrypotter": {
+    "main": true
+  },
+  "r-hash": {
+    "main": true
+  },
+  "r-haven": {
+    "main": true
+  },
+  "r-hdanova": {
+    "main": true
+  },
+  "r-hdci": {
+    "main": true
+  },
+  "r-hdf5lib": {
+    "main": true
+  },
+  "r-hdf5r": {
+    "main": true
+  },
+  "r-hdf5r.extra": {
+    "main": true
+  },
+  "r-hdinterval": {
+    "main": true
+  },
+  "r-hdm": {
+    "main": true
+  },
+  "r-hdrcde": {
+    "main": true
+  },
+  "r-hdtweedie": {
+    "main": true
+  },
+  "r-heatmap.plus": {
+    "main": true
+  },
+  "r-heatmap3": {
+    "main": true
+  },
+  "r-heatmaply": {
+    "main": true
+  },
+  "r-henna": {
+    "main": true
+  },
+  "r-heplots": {
+    "main": true
+  },
+  "r-here": {
+    "main": true
+  },
+  "r-hergm": {
+    "main": true
+  },
+  "r-hexbin": {
+    "main": true
+  },
+  "r-hexview": {
+    "main": true
+  },
+  "r-hgnchelper": {
+    "main": true
+  },
+  "r-hh": {
+    "main": true
+  },
+  "r-hiclimr": {
+    "main": true
+  },
+  "r-hiddenmarkov": {
+    "main": true
+  },
+  "r-hier.part": {
+    "main": true
+  },
+  "r-hierfstat": {
+    "main": true
+  },
+  "r-highcharter": {
+    "main": true
+  },
+  "r-highlight": {
+    "main": true
+  },
+  "r-highr": {
+    "main": true
+  },
+  "r-hillr": {
+    "main": true
+  },
+  "r-histdat": {
+    "main": true
+  },
+  "r-histdata": {
+    "main": true
+  },
+  "r-hitandrun": {
+    "main": true
+  },
+  "r-hive": {
+    "main": true
+  },
+  "r-hiver": {
+    "main": true
+  },
+  "r-hmeasure": {
+    "main": true
+  },
+  "r-hmisc": {
+    "main": true
+  },
+  "r-hms": {
+    "main": true
+  },
+  "r-hmsc": {
+    "main": true
+  },
+  "r-hoardr": {
+    "main": true
+  },
+  "r-homologene": {
+    "main": true
+  },
+  "r-homomorpher": {
+    "main": true
+  },
+  "r-horseshoe": {
+    "main": true
+  },
+  "r-hostswitch": {
+    "main": true
+  },
+  "r-hotelling": {
+    "main": true
+  },
+  "r-howmany": {
+    "main": true
+  },
+  "r-hrbrthemes": {
+    "main": true
+  },
+  "r-hrw": {
+    "main": true
+  },
+  "r-hsaur": {
+    "main": true
+  },
+  "r-htm2txt": {
+    "main": true
+  },
+  "r-htmltab": {
+    "main": true
+  },
+  "r-htmltable": {
+    "main": true
+  },
+  "r-htmltools": {
+    "main": true
+  },
+  "r-htmlutils": {
+    "main": true
+  },
+  "r-htmlwidgets": {
+    "main": true
+  },
+  "r-htree": {
+    "main": true
+  },
+  "r-hts": {
+    "main": true
+  },
+  "r-httpcache": {
+    "main": true
+  },
+  "r-httpcode": {
+    "main": true
+  },
+  "r-httpgd": {
+    "main": true
+  },
+  "r-httpuv": {
+    "main": true
+  },
+  "r-httr": {
+    "main": true
+  },
+  "r-httr2": {
+    "main": true
+  },
+  "r-hues": {
+    "main": true
+  },
+  "r-huge": {
+    "main": true
+  },
+  "r-humaniformat": {
+    "main": true
+  },
+  "r-hunspell": {
+    "main": true
+  },
+  "r-huxtable": {
+    "main": true
+  },
+  "r-hwriter": {
+    "main": true
+  },
+  "r-hydrogof": {
+    "main": true
+  },
+  "r-hydrotsm": {
+    "main": true
+  },
+  "r-hyper2": {
+    "main": true
+  },
+  "r-hypergeo": {
+    "main": true
+  },
+  "r-hypetools": {
+    "main": true
+  },
+  "r-ibd": {
+    "main": true
+  },
+  "r-ibreakdown": {
+    "main": true
+  },
+  "r-ic.infer": {
+    "main": true
+  },
+  "r-ic10trainingdata": {
+    "main": true
+  },
+  "r-ica": {
+    "main": true
+  },
+  "r-icarus": {
+    "main": true
+  },
+  "r-iccbeta": {
+    "main": true
+  },
+  "r-icebox": {
+    "main": true
+  },
+  "r-icellr": {
+    "main": true
+  },
+  "r-icenreg": {
+    "main": true
+  },
+  "r-icluster": {
+    "main": true
+  },
+  "r-ics": {
+    "main": true
+  },
+  "r-icsnp": {
+    "main": true
+  },
+  "r-ideafilter": {
+    "main": true
+  },
+  "r-idefix": {
+    "main": true
+  },
+  "r-idm": {
+    "main": true
+  },
+  "r-idpmisc": {
+    "main": true
+  },
+  "r-idr": {
+    "main": true
+  },
+  "r-ids": {
+    "main": true
+  },
+  "r-ieugwasr": {
+    "main": true
+  },
+  "r-ife": {
+    "main": true
+  },
+  "r-igraph": {
+    "main": true
+  },
+  "r-iheatmapr": {
+    "main": true
+  },
+  "r-ijtiff": {
+    "main": true
+  },
+  "r-imager": {
+    "main": true
+  },
+  "r-imbalance": {
+    "main": true
+  },
+  "r-imgur": {
+    "main": true
+  },
+  "r-iml": {
+    "main": true
+  },
+  "r-immunarch": {
+    "main": true
+  },
+  "r-immundata": {
+    "main": true
+  },
+  "r-imp4p": {
+    "main": true
+  },
+  "r-import": {
+    "main": true
+  },
+  "r-inaparc": {
+    "main": true
+  },
+  "r-incadata": {
+    "main": true
+  },
+  "r-inctools": {
+    "main": true
+  },
+  "r-indicspecies": {
+    "main": true
+  },
+  "r-ineq": {
+    "main": true
+  },
+  "r-inext": {
+    "main": true
+  },
+  "r-infer": {
+    "main": true
+  },
+  "r-inflection": {
+    "main": true
+  },
+  "r-influencer": {
+    "main": true
+  },
+  "r-infotheo": {
+    "main": true
+  },
+  "r-infuser": {
+    "main": true
+  },
+  "r-ingredients": {
+    "main": true
+  },
+  "r-ini": {
+    "main": true
+  },
+  "r-inlabru": {
+    "main": true
+  },
+  "r-inline": {
+    "main": true
+  },
+  "r-inlinedocs": {
+    "main": true
+  },
+  "r-insect": {
+    "main": true
+  },
+  "r-insight": {
+    "main": true
+  },
+  "r-inspectdf": {
+    "main": true
+  },
+  "r-installr": {
+    "main": true
+  },
+  "r-intamap": {
+    "main": true
+  },
+  "r-integr": {
+    "main": true
+  },
+  "r-interactions": {
+    "main": true
+  },
+  "r-intergraph": {
+    "main": true
+  },
+  "r-interleave": {
+    "main": true
+  },
+  "r-interp": {
+    "main": true
+  },
+  "r-interpretmsspectrum": {
+    "main": true
+  },
+  "r-interprocess": {
+    "main": true
+  },
+  "r-intervals": {
+    "main": true
+  },
+  "r-intrinsic": {
+    "main": true
+  },
+  "r-intrinsicdimension": {
+    "main": true
+  },
+  "r-inum": {
+    "main": true
+  },
+  "r-invariantcausalprediction": {
+    "main": true
+  },
+  "r-investr": {
+    "main": true
+  },
+  "r-invgamma": {
+    "main": true
+  },
+  "r-iotools": {
+    "main": true
+  },
+  "r-ipaddress": {
+    "main": true
+  },
+  "r-ipflasso": {
+    "main": true
+  },
+  "r-ipmisc": {
+    "main": true
+  },
+  "r-ipred": {
+    "main": true
+  },
+  "r-ips": {
+    "main": true
+  },
+  "r-iptools": {
+    "main": true
+  },
+  "r-irace": {
+    "main": true
+  },
+  "r-irdisplay": {
+    "main": true
+  },
+  "r-irkernel": {
+    "main": true
+  },
+  "r-irlba": {
+    "main": true
+  },
+  "r-irr": {
+    "main": true
+  },
+  "r-isa2": {
+    "main": true
+  },
+  "r-isingfit": {
+    "main": true
+  },
+  "r-isingsampler": {
+    "main": true
+  },
+  "r-islr": {
+    "main": true
+  },
+  "r-islr2": {
+    "main": true
+  },
+  "r-ismev": {
+    "main": true
+  },
+  "r-iso": {
+    "main": true
+  },
+  "r-isoband": {
+    "main": true
+  },
+  "r-isocodes": {
+    "main": true
+  },
+  "r-isotone": {
+    "main": true
+  },
+  "r-isotree": {
+    "main": true
+  },
+  "r-iswr": {
+    "main": true
+  },
+  "r-iterators": {
+    "main": true
+  },
+  "r-iterpc": {
+    "main": true
+  },
+  "r-itertools": {
+    "main": true
+  },
+  "r-ivreg": {
+    "main": true
+  },
+  "r-ivs": {
+    "main": true
+  },
+  "r-jade": {
+    "main": true
+  },
+  "r-janeaustenr": {
+    "main": true
+  },
+  "r-janitor": {
+    "main": true
+  },
+  "r-jbrowser": {
+    "main": true
+  },
+  "r-jcolors": {
+    "main": true
+  },
+  "r-jfa": {
+    "main": true
+  },
+  "r-jinjar": {
+    "main": true
+  },
+  "r-jjb": {
+    "main": true
+  },
+  "r-jmbayes2": {
+    "main": true
+  },
+  "r-jmv": {
+    "main": true
+  },
+  "r-jmvcore": {
+    "main": true
+  },
+  "r-jobqueue": {
+    "main": true
+  },
+  "r-jomo": {
+    "main": true
+  },
+  "r-jose": {
+    "main": true
+  },
+  "r-jpeg": {
+    "main": true
+  },
+  "r-jqr": {
+    "main": true
+  },
+  "r-jquerylib": {
+    "main": true
   }
 }
