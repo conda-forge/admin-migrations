@@ -28,7 +28,9 @@ class WebhookCleanup(Migrator):
 
         for hook in repo.get_hooks():
             if any(domain in hook.config["url"] for domain in domains_to_check):
+                print("    found hook:  ", hook.config["url"], flush=True)
                 hook.delete()
+                print("    deleted hook:", hook.config["url"], flush=True)
 
         # migration done, make a commit, lots of API calls
         return True, False, True
