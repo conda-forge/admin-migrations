@@ -2611,5 +2611,899 @@
   },
   "r-mbess": {
     "main": true
+  },
+  "r-mbest": {
+    "main": true
+  },
+  "r-mblm": {
+    "main": true
+  },
+  "r-mboost": {
+    "main": true
+  },
+  "r-mbsp": {
+    "main": true
+  },
+  "r-mbsts": {
+    "main": true
+  },
+  "r-mc2d": {
+    "main": true
+  },
+  "r-mcbiopi": {
+    "main": true
+  },
+  "r-mccf1": {
+    "main": true
+  },
+  "r-mcgibbsit": {
+    "main": true
+  },
+  "r-mcl": {
+    "main": true
+  },
+  "r-mclogit": {
+    "main": true
+  },
+  "r-mclust": {
+    "main": true
+  },
+  "r-mclustcomp": {
+    "main": true
+  },
+  "r-mcmc": {
+    "main": true
+  },
+  "r-mcmcglmm": {
+    "main": true
+  },
+  "r-mcmcpack": {
+    "main": true
+  },
+  "r-mcmcprecision": {
+    "main": true
+  },
+  "r-mco": {
+    "main": true
+  },
+  "r-mcp": {
+    "main": true
+  },
+  "r-mcpan": {
+    "main": true
+  },
+  "r-mcprogress": {
+    "main": true
+  },
+  "r-mcr": {
+    "main": true
+  },
+  "r-mda": {
+    "main": true
+  },
+  "r-mdmr": {
+    "main": true
+  },
+  "r-mdscore": {
+    "main": true
+  },
+  "r-measurements": {
+    "main": true
+  },
+  "r-measures": {
+    "main": true
+  },
+  "r-medflex": {
+    "main": true
+  },
+  "r-mediation": {
+    "main": true
+  },
+  "r-medicalrisk": {
+    "main": true
+  },
+  "r-medrxivr": {
+    "main": true
+  },
+  "r-mefa": {
+    "main": true
+  },
+  "r-memisc": {
+    "main": true
+  },
+  "r-memoise": {
+    "main": true
+  },
+  "r-memuse": {
+    "main": true
+  },
+  "r-mendelianrandomization": {
+    "main": true
+  },
+  "r-mertools": {
+    "main": true
+  },
+  "r-mess": {
+    "main": true
+  },
+  "r-messydates": {
+    "main": true
+  },
+  "r-meta": {
+    "main": true
+  },
+  "r-metabma": {
+    "main": true
+  },
+  "r-metacore": {
+    "main": true
+  },
+  "r-metacycle": {
+    "main": true
+  },
+  "r-metadat": {
+    "main": true
+  },
+  "r-metafor": {
+    "main": true
+  },
+  "r-metalite": {
+    "main": true
+  },
+  "r-metalite.ae": {
+    "main": true
+  },
+  "r-metamix": {
+    "main": true
+  },
+  "r-metap": {
+    "main": true
+  },
+  "r-metaplus": {
+    "main": true
+  },
+  "r-metarep": {
+    "main": true
+  },
+  "r-metarnaseq": {
+    "main": true
+  },
+  "r-metaskat": {
+    "main": true
+  },
+  "r-metatools": {
+    "main": true
+  },
+  "r-metbrewer": {
+    "main": true
+  },
+  "r-metr": {
+    "main": true
+  },
+  "r-metrica": {
+    "main": true
+  },
+  "r-metrics": {
+    "main": true
+  },
+  "r-mets": {
+    "main": true
+  },
+  "r-metstat": {
+    "main": true
+  },
+  "r-mgc": {
+    "main": true
+  },
+  "r-mgcv": {
+    "main": true
+  },
+  "r-mgcviz": {
+    "main": true
+  },
+  "r-mglm": {
+    "main": true
+  },
+  "r-mgm": {
+    "main": true
+  },
+  "r-mgrs": {
+    "main": true
+  },
+  "r-mgsub": {
+    "main": true
+  },
+  "r-mhadaptive": {
+    "main": true
+  },
+  "r-mhsmm": {
+    "main": true
+  },
+  "r-mi": {
+    "main": true
+  },
+  "r-mice": {
+    "main": true
+  },
+  "r-miceadds": {
+    "main": true
+  },
+  "r-microbenchmark": {
+    "main": true
+  },
+  "r-microbiomestat": {
+    "main": true
+  },
+  "r-micropan": {
+    "main": true
+  },
+  "r-microseq": {
+    "main": true
+  },
+  "r-mikropml": {
+    "main": true
+  },
+  "r-mime": {
+    "main": true
+  },
+  "r-mimic.demo": {
+    "main": true
+  },
+  "r-minerva": {
+    "main": true
+  },
+  "r-minicran": {
+    "main": true
+  },
+  "r-miniui": {
+    "main": true
+  },
+  "r-minpack.lm": {
+    "main": true
+  },
+  "r-minqa": {
+    "main": true
+  },
+  "r-minty": {
+    "main": true
+  },
+  "r-mipfp": {
+    "main": true
+  },
+  "r-mirai": {
+    "main": true
+  },
+  "r-mirt": {
+    "main": true
+  },
+  "r-mirtcat": {
+    "main": true
+  },
+  "r-misc3d": {
+    "main": true
+  },
+  "r-miscf": {
+    "main": true
+  },
+  "r-misctools": {
+    "main": true
+  },
+  "r-missforest": {
+    "main": true
+  },
+  "r-missmda": {
+    "main": true
+  },
+  "r-mitml": {
+    "main": true
+  },
+  "r-mitools": {
+    "main": true
+  },
+  "r-mixedcca": {
+    "main": true
+  },
+  "r-mixlm": {
+    "main": true
+  },
+  "r-mixomics": {
+    "main": true
+  },
+  "r-mixsmsn": {
+    "main": true
+  },
+  "r-mixsqp": {
+    "main": true
+  },
+  "r-mixtools": {
+    "main": true
+  },
+  "r-mlapi": {
+    "main": true
+  },
+  "r-mlbench": {
+    "main": true
+  },
+  "r-mlecens": {
+    "main": true
+  },
+  "r-mlergm": {
+    "main": true
+  },
+  "r-mlflow": {
+    "main": true
+  },
+  "r-mlgt": {
+    "main": true
+  },
+  "r-mlmetrics": {
+    "main": true
+  },
+  "r-mlmrev": {
+    "main": true
+  },
+  "r-mlogit": {
+    "main": true
+  },
+  "r-mlpack": {
+    "main": true
+  },
+  "r-mlr": {
+    "main": true
+  },
+  "r-mlr3": {
+    "main": true
+  },
+  "r-mlr3cluster": {
+    "main": true
+  },
+  "r-mlr3data": {
+    "main": true
+  },
+  "r-mlr3extralearners": {
+    "main": true
+  },
+  "r-mlr3filters": {
+    "main": true
+  },
+  "r-mlr3fselect": {
+    "main": true
+  },
+  "r-mlr3hyperband": {
+    "main": true
+  },
+  "r-mlr3inferr": {
+    "main": true
+  },
+  "r-mlr3learners": {
+    "main": true
+  },
+  "r-mlr3mbo": {
+    "main": true
+  },
+  "r-mlr3measures": {
+    "main": true
+  },
+  "r-mlr3misc": {
+    "main": true
+  },
+  "r-mlr3pipelines": {
+    "main": true
+  },
+  "r-mlr3proba": {
+    "main": true
+  },
+  "r-mlr3tuning": {
+    "main": true
+  },
+  "r-mlr3tuningspaces": {
+    "main": true
+  },
+  "r-mlr3verse": {
+    "main": true
+  },
+  "r-mlr3viz": {
+    "main": true
+  },
+  "r-mlrmbo": {
+    "main": true
+  },
+  "r-mltools": {
+    "main": true
+  },
+  "r-mmand": {
+    "main": true
+  },
+  "r-mmapcharr": {
+    "main": true
+  },
+  "r-mmod": {
+    "main": true
+  },
+  "r-mmrm": {
+    "main": true
+  },
+  "r-mnormt": {
+    "main": true
+  },
+  "r-mockery": {
+    "main": true
+  },
+  "r-mockr": {
+    "main": true
+  },
+  "r-mockthat": {
+    "main": true
+  },
+  "r-modeest": {
+    "main": true
+  },
+  "r-modelbased": {
+    "main": true
+  },
+  "r-modeldata": {
+    "main": true
+  },
+  "r-modeldb": {
+    "main": true
+  },
+  "r-modelenv": {
+    "main": true
+  },
+  "r-modelmetrics": {
+    "main": true
+  },
+  "r-modelr": {
+    "main": true
+  },
+  "r-modelstudio": {
+    "main": true
+  },
+  "r-modelsummary": {
+    "main": true
+  },
+  "r-modeltime": {
+    "main": true
+  },
+  "r-modeltime.ensemble": {
+    "main": true
+  },
+  "r-modeltime.resample": {
+    "main": true
+  },
+  "r-modeltools": {
+    "main": true
+  },
+  "r-modeva": {
+    "main": true
+  },
+  "r-modules": {
+    "main": true
+  },
+  "r-moments": {
+    "main": true
+  },
+  "r-momr": {
+    "main": true
+  },
+  "r-mongolite": {
+    "main": true
+  },
+  "r-monobin": {
+    "main": true
+  },
+  "r-monopoly": {
+    "main": true
+  },
+  "r-monotone": {
+    "main": true
+  },
+  "r-moonbook": {
+    "main": true
+  },
+  "r-mopa": {
+    "main": true
+  },
+  "r-moreparty": {
+    "main": true
+  },
+  "r-mosaic": {
+    "main": true
+  },
+  "r-mosaiccalc": {
+    "main": true
+  },
+  "r-mosaiccore": {
+    "main": true
+  },
+  "r-mosaicdata": {
+    "main": true
+  },
+  "r-mote": {
+    "main": true
+  },
+  "r-mpath": {
+    "main": true
+  },
+  "r-mpinet": {
+    "main": true
+  },
+  "r-mpm": {
+    "main": true
+  },
+  "r-mpmi": {
+    "main": true
+  },
+  "r-mpoly": {
+    "main": true
+  },
+  "r-mppa": {
+    "main": true
+  },
+  "r-mqtl": {
+    "main": true
+  },
+  "r-mratios": {
+    "main": true
+  },
+  "r-mrfdepth": {
+    "main": true
+  },
+  "r-mrgsolve": {
+    "main": true
+  },
+  "r-mrmlm": {
+    "main": true
+  },
+  "r-mrmre": {
+    "main": true
+  },
+  "r-msar": {
+    "main": true
+  },
+  "r-msbox": {
+    "main": true
+  },
+  "r-mschart": {
+    "main": true
+  },
+  "r-msgps": {
+    "main": true
+  },
+  "r-msigdbr": {
+    "main": true
+  },
+  "r-mskcc.oncotree": {
+    "main": true
+  },
+  "r-msm": {
+    "main": true
+  },
+  "r-msos": {
+    "main": true
+  },
+  "r-msqc": {
+    "main": true
+  },
+  "r-mstate": {
+    "main": true
+  },
+  "r-mtlr": {
+    "main": true
+  },
+  "r-muhaz": {
+    "main": true
+  },
+  "r-multbxxc": {
+    "main": true
+  },
+  "r-multcomp": {
+    "main": true
+  },
+  "r-multcompview": {
+    "main": true
+  },
+  "r-multiapply": {
+    "main": true
+  },
+  "r-multiblock": {
+    "main": true
+  },
+  "r-multica": {
+    "main": true
+  },
+  "r-multiclasspairs": {
+    "main": true
+  },
+  "r-multicool": {
+    "main": true
+  },
+  "r-multidplyr": {
+    "main": true
+  },
+  "r-multigroup": {
+    "main": true
+  },
+  "r-multilevel": {
+    "main": true
+  },
+  "r-multilevelmod": {
+    "main": true
+  },
+  "r-multimode": {
+    "main": true
+  },
+  "r-multinet": {
+    "main": true
+  },
+  "r-multipanelfigure": {
+    "main": true
+  },
+  "r-multiroc": {
+    "main": true
+  },
+  "r-multitaper": {
+    "main": true
+  },
+  "r-multiway": {
+    "main": true
+  },
+  "r-mumin": {
+    "main": true
+  },
+  "r-munsell": {
+    "main": true
+  },
+  "r-mustat": {
+    "main": true
+  },
+  "r-mvn": {
+    "main": true
+  },
+  "r-mvnfast": {
+    "main": true
+  },
+  "r-mvnormtest": {
+    "main": true
+  },
+  "r-mvord": {
+    "main": true
+  },
+  "r-mvoutlier": {
+    "main": true
+  },
+  "r-mvr": {
+    "main": true
+  },
+  "r-mvtnorm": {
+    "main": true
+  },
+  "r-mwcsr": {
+    "main": true
+  },
+  "r-mxmmod": {
+    "main": true
+  },
+  "r-mycor": {
+    "main": true
+  },
+  "r-n1qn1": {
+    "main": true
+  },
+  "r-n2r": {
+    "main": true
+  },
+  "r-nabor": {
+    "main": true
+  },
+  "r-nacho": {
+    "main": true
+  },
+  "r-nada": {
+    "main": true
+  },
+  "r-naepirtparams": {
+    "main": true
+  },
+  "r-naepprimer": {
+    "main": true
+  },
+  "r-naivebayes": {
+    "main": true
+  },
+  "r-nam": {
+    "main": true
+  },
+  "r-namedropr": {
+    "main": true
+  },
+  "r-naniar": {
+    "main": true
+  },
+  "r-nanoarrow": {
+    "main": true
+  },
+  "r-nanonext": {
+    "main": true
+  },
+  "r-nanoparquet": {
+    "main": true
+  },
+  "r-nanostringr": {
+    "main": true
+  },
+  "r-nanotime": {
+    "main": true
+  },
+  "r-nardl": {
+    "main": true
+  },
+  "r-narray": {
+    "main": true
+  },
+  "r-nasaaccess": {
+    "main": true
+  },
+  "r-natserv": {
+    "main": true
+  },
+  "r-naturalsort": {
+    "main": true
+  },
+  "r-nbclust": {
+    "main": true
+  },
+  "r-ncar": {
+    "main": true
+  },
+  "r-ncbit": {
+    "main": true
+  },
+  "r-ncdf4": {
+    "main": true
+  },
+  "r-ncdf4.helpers": {
+    "main": true
+  },
+  "r-ncdunnett": {
+    "main": true
+  },
+  "r-ncmeta": {
+    "main": true
+  },
+  "r-ncmisc": {
+    "main": true
+  },
+  "r-ncvreg": {
+    "main": true
+  },
+  "r-ndjson": {
+    "main": true
+  },
+  "r-neldermead": {
+    "main": true
+  },
+  "r-neo4r": {
+    "main": true
+  },
+  "r-neonos": {
+    "main": true
+  },
+  "r-neonutilities": {
+    "main": true
+  },
+  "r-nestcolor": {
+    "main": true
+  },
+  "r-netmeta": {
+    "main": true
+  },
+  "r-netrankr": {
+    "main": true
+  },
+  "r-netrep": {
+    "main": true
+  },
+  "r-network": {
+    "main": true
+  },
+  "r-networkcomparisontest": {
+    "main": true
+  },
+  "r-networkd3": {
+    "main": true
+  },
+  "r-networkdynamic": {
+    "main": true
+  },
+  "r-networklite": {
+    "main": true
+  },
+  "r-networktoolbox": {
+    "main": true
+  },
+  "r-networktools": {
+    "main": true
+  },
+  "r-neuralnet": {
+    "main": true
+  },
+  "r-nglviewer": {
+    "main": true
+  },
+  "r-ngramrr": {
+    "main": true
+  },
+  "r-nhmmfdr": {
+    "main": true
+  },
+  "r-nhpoisson": {
+    "main": true
+  },
+  "r-nimble": {
+    "main": true
+  },
+  "r-nipals": {
+    "main": true
+  },
+  "r-nistunits": {
+    "main": true
+  },
+  "r-nlcoptim": {
+    "main": true
+  },
+  "r-nleqslv": {
+    "main": true
+  },
+  "r-nlme": {
+    "main": true
+  },
+  "r-nlmixr2": {
+    "main": true
+  },
+  "r-nlmixr2data": {
+    "main": true
+  },
+  "r-nlmixr2est": {
+    "main": true
+  },
+  "r-nlmixr2extra": {
+    "main": true
+  },
+  "r-nlmixr2plot": {
+    "main": true
+  },
+  "r-nloptr": {
+    "main": true
+  },
+  "r-nlp": {
+    "main": true
+  },
+  "r-nls2": {
+    "main": true
+  },
+  "r-nlsic": {
+    "main": true
+  },
+  "r-nmf": {
+    "main": true
+  },
+  "r-nmfbin": {
+    "main": true
+  },
+  "r-nmi": {
+    "main": true
+  },
+  "r-nmslibr": {
+    "main": true
+  },
+  "r-nnet": {
+    "main": true
+  },
+  "r-nnlasso": {
+    "main": true
+  },
+  "r-nnls": {
+    "main": true
   }
 }
