@@ -1843,5 +1843,617 @@
   },
   "r-jquerylib": {
     "main": true
+  },
+  "r-jshintr": {
+    "main": true
+  },
+  "r-jskm": {
+    "main": true
+  },
+  "r-jsonify": {
+    "main": true
+  },
+  "r-jsonld": {
+    "main": true
+  },
+  "r-jsonlite": {
+    "main": true
+  },
+  "r-jsonvalidate": {
+    "main": true
+  },
+  "r-jtools": {
+    "main": true
+  },
+  "r-juicyjuice": {
+    "main": true
+  },
+  "r-juliacall": {
+    "main": true
+  },
+  "r-juniperkernel": {
+    "main": true
+  },
+  "r-justifyalpha": {
+    "main": true
+  },
+  "r-kableextra": {
+    "main": true
+  },
+  "r-kaos": {
+    "main": true
+  },
+  "r-kappalab": {
+    "main": true
+  },
+  "r-kde1d": {
+    "main": true
+  },
+  "r-kdecopula": {
+    "main": true
+  },
+  "r-kdetrees": {
+    "main": true
+  },
+  "r-kedd": {
+    "main": true
+  },
+  "r-kendall": {
+    "main": true
+  },
+  "r-keras": {
+    "main": true
+  },
+  "r-kerasformula": {
+    "main": true
+  },
+  "r-kernelknn": {
+    "main": true
+  },
+  "r-kernelshap": {
+    "main": true
+  },
+  "r-kernlab": {
+    "main": true
+  },
+  "r-kernsmooth": {
+    "main": true
+  },
+  "r-kernsmoothirt": {
+    "main": true
+  },
+  "r-kerntools": {
+    "main": true
+  },
+  "r-keyring": {
+    "main": true
+  },
+  "r-keys": {
+    "main": true
+  },
+  "r-kfas": {
+    "main": true
+  },
+  "r-kimisc": {
+    "main": true
+  },
+  "r-kinship2": {
+    "main": true
+  },
+  "r-kit": {
+    "main": true
+  },
+  "r-kknn": {
+    "main": true
+  },
+  "r-klar": {
+    "main": true
+  },
+  "r-km.ci": {
+    "main": true
+  },
+  "r-kmer": {
+    "main": true
+  },
+  "r-kml": {
+    "main": true
+  },
+  "r-kml3d": {
+    "main": true
+  },
+  "r-kmlshape": {
+    "main": true
+  },
+  "r-kmsurv": {
+    "main": true
+  },
+  "r-knitcitations": {
+    "main": true
+  },
+  "r-knitr": {
+    "main": true
+  },
+  "r-knitrbootstrap": {
+    "main": true
+  },
+  "r-knn.covertree": {
+    "main": true
+  },
+  "r-knnmi": {
+    "main": true
+  },
+  "r-knockoff": {
+    "main": true
+  },
+  "r-kohonen": {
+    "main": true
+  },
+  "r-korpus": {
+    "main": true
+  },
+  "r-korpus.lang.en": {
+    "main": true
+  },
+  "r-kpeaks": {
+    "main": true
+  },
+  "r-kpmt": {
+    "main": true
+  },
+  "r-kriging": {
+    "main": true
+  },
+  "r-ks": {
+    "main": true
+  },
+  "r-ksamples": {
+    "main": true
+  },
+  "r-kutils": {
+    "main": true
+  },
+  "r-kvh": {
+    "main": true
+  },
+  "r-kza": {
+    "main": true
+  },
+  "r-l1pack": {
+    "main": true
+  },
+  "r-labdsv": {
+    "main": true
+  },
+  "r-label.switching": {
+    "main": true
+  },
+  "r-labeling": {
+    "main": true
+  },
+  "r-labelled": {
+    "main": true
+  },
+  "r-laeken": {
+    "main": true
+  },
+  "r-laf": {
+    "main": true
+  },
+  "r-lahman": {
+    "main": true
+  },
+  "r-lambda.r": {
+    "main": true
+  },
+  "r-lambertw": {
+    "main": true
+  },
+  "r-laminr": {
+    "main": true
+  },
+  "r-lamw": {
+    "main": true
+  },
+  "r-landscapemetrics": {
+    "main": true
+  },
+  "r-languageserver": {
+    "main": true
+  },
+  "r-laplacesdemon": {
+    "main": true
+  },
+  "r-lars": {
+    "main": true
+  },
+  "r-lasr": {
+    "main": true
+  },
+  "r-lassopv": {
+    "main": true
+  },
+  "r-latentcor": {
+    "main": true
+  },
+  "r-latentnet": {
+    "main": true
+  },
+  "r-later": {
+    "main": true
+  },
+  "r-latex2exp": {
+    "main": true
+  },
+  "r-latexpdf": {
+    "main": true
+  },
+  "r-lattice": {
+    "main": true
+  },
+  "r-latticeextra": {
+    "main": true
+  },
+  "r-lava": {
+    "main": true
+  },
+  "r-lavaan": {
+    "main": true
+  },
+  "r-lazyeval": {
+    "main": true
+  },
+  "r-lbfgs": {
+    "main": true
+  },
+  "r-lbfgsb3c": {
+    "main": true
+  },
+  "r-lcars": {
+    "main": true
+  },
+  "r-lda": {
+    "main": true
+  },
+  "r-ldbounds": {
+    "main": true
+  },
+  "r-ldlinkr": {
+    "main": true
+  },
+  "r-ldrtools": {
+    "main": true
+  },
+  "r-leadercluster": {
+    "main": true
+  },
+  "r-leafem": {
+    "main": true
+  },
+  "r-leafgl": {
+    "main": true
+  },
+  "r-leaflegend": {
+    "main": true
+  },
+  "r-leaflet": {
+    "main": true
+  },
+  "r-leaflet.extras": {
+    "main": true
+  },
+  "r-leaflet.minicharts": {
+    "main": true
+  },
+  "r-leaflet.providers": {
+    "main": true
+  },
+  "r-leafpm": {
+    "main": true
+  },
+  "r-leafpop": {
+    "main": true
+  },
+  "r-leafsync": {
+    "main": true
+  },
+  "r-leaps": {
+    "main": true
+  },
+  "r-learnbayes": {
+    "main": true
+  },
+  "r-learnr": {
+    "main": true
+  },
+  "r-legendry": {
+    "main": true
+  },
+  "r-leiden": {
+    "main": true
+  },
+  "r-leidenalg": {
+    "main": true
+  },
+  "r-leidenbase": {
+    "main": true
+  },
+  "r-lemon": {
+    "main": true
+  },
+  "r-lexicon": {
+    "main": true
+  },
+  "r-lfactors": {
+    "main": true
+  },
+  "r-lfda": {
+    "main": true
+  },
+  "r-lfe": {
+    "main": true
+  },
+  "r-lgr": {
+    "main": true
+  },
+  "r-lhs": {
+    "main": true
+  },
+  "r-libcoin": {
+    "main": true
+  },
+  "r-liblinear": {
+    "main": true
+  },
+  "r-librarian": {
+    "main": true
+  },
+  "r-licors": {
+    "main": true
+  },
+  "r-lidr": {
+    "main": true
+  },
+  "r-lifecontingencies": {
+    "main": true
+  },
+  "r-lifecycle": {
+    "main": true
+  },
+  "r-liftr": {
+    "main": true
+  },
+  "r-lightgbm": {
+    "main": true
+  },
+  "r-lightparser": {
+    "main": true
+  },
+  "r-lim": {
+    "main": true
+  },
+  "r-lime": {
+    "main": true
+  },
+  "r-limsolve": {
+    "main": true
+  },
+  "r-linkcomm": {
+    "main": true
+  },
+  "r-linprog": {
+    "main": true
+  },
+  "r-linselect": {
+    "main": true
+  },
+  "r-lintr": {
+    "main": true
+  },
+  "r-liqueuer": {
+    "main": true
+  },
+  "r-lisreltor": {
+    "main": true
+  },
+  "r-listarrays": {
+    "main": true
+  },
+  "r-listenv": {
+    "main": true
+  },
+  "r-listviewer": {
+    "main": true
+  },
+  "r-litedown": {
+    "main": true
+  },
+  "r-littler": {
+    "main": true
+  },
+  "r-liver": {
+    "main": true
+  },
+  "r-lle": {
+    "main": true
+  },
+  "r-lmds": {
+    "main": true
+  },
+  "r-lme4": {
+    "main": true
+  },
+  "r-lmeinfo": {
+    "main": true
+  },
+  "r-lmertest": {
+    "main": true
+  },
+  "r-lmesplines": {
+    "main": true
+  },
+  "r-lmms": {
+    "main": true
+  },
+  "r-lmodel2": {
+    "main": true
+  },
+  "r-lmom": {
+    "main": true
+  },
+  "r-lmomco": {
+    "main": true
+  },
+  "r-lmoments": {
+    "main": true
+  },
+  "r-lmperm": {
+    "main": true
+  },
+  "r-lmtest": {
+    "main": true
+  },
+  "r-lmtp": {
+    "main": true
+  },
+  "r-lmvar": {
+    "main": true
+  },
+  "r-loader": {
+    "main": true
+  },
+  "r-loader.2nc": {
+    "main": true
+  },
+  "r-loader.ecoms": {
+    "main": true
+  },
+  "r-loader.java": {
+    "main": true
+  },
+  "r-lobstr": {
+    "main": true
+  },
+  "r-locfdr": {
+    "main": true
+  },
+  "r-locfit": {
+    "main": true
+  },
+  "r-locpol": {
+    "main": true
+  },
+  "r-loe": {
+    "main": true
+  },
+  "r-log4r": {
+    "main": true
+  },
+  "r-logger": {
+    "main": true
+  },
+  "r-logging": {
+    "main": true
+  },
+  "r-logicreg": {
+    "main": true
+  },
+  "r-logistf": {
+    "main": true
+  },
+  "r-logitnorm": {
+    "main": true
+  },
+  "r-logitr": {
+    "main": true
+  },
+  "r-lognormreg": {
+    "main": true
+  },
+  "r-logr": {
+    "main": true
+  },
+  "r-logrx": {
+    "main": true
+  },
+  "r-logspline": {
+    "main": true
+  },
+  "r-lokern": {
+    "main": true
+  },
+  "r-longcateda": {
+    "main": true
+  },
+  "r-longitudinal": {
+    "main": true
+  },
+  "r-longitudinaldata": {
+    "main": true
+  },
+  "r-loo": {
+    "main": true
+  },
+  "r-loon": {
+    "main": true
+  },
+  "r-loose.rock": {
+    "main": true
+  },
+  "r-lotri": {
+    "main": true
+  },
+  "r-lpsolve": {
+    "main": true
+  },
+  "r-lpsolveapi": {
+    "main": true
+  },
+  "r-lsa": {
+    "main": true
+  },
+  "r-lsd": {
+    "main": true
+  },
+  "r-lsei": {
+    "main": true
+  },
+  "r-lsmeans": {
+    "main": true
+  },
+  "r-lsoda": {
+    "main": true
+  },
+  "r-lsr": {
+    "main": true
+  },
+  "r-ltmle": {
+    "main": true
+  },
+  "r-lubridate": {
+    "main": true
+  },
+  "r-luminescence": {
+    "main": true
+  },
+  "r-luz": {
+    "main": true
+  },
+  "r-lvm4net": {
+    "main": true
+  },
+  "r-lwgeom": {
+    "main": true
+  },
+  "r-maditr": {
+    "main": true
+  },
+  "r-magic": {
+    "main": true
+  },
+  "r-magicaxis": {
+    "main": true
+  },
+  "r-magick": {
+    "main": true
   }
 }
