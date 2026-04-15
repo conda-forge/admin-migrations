@@ -3505,5 +3505,572 @@
   },
   "r-nnls": {
     "main": true
+  },
+  "r-nntensor": {
+    "main": true
+  },
+  "r-nodbi": {
+    "main": true
+  },
+  "r-nodiv": {
+    "main": true
+  },
+  "r-noisefiltersr": {
+    "main": true
+  },
+  "r-nomclust": {
+    "main": true
+  },
+  "r-nomnoml": {
+    "main": true
+  },
+  "r-noncompart": {
+    "main": true
+  },
+  "r-nor1mix": {
+    "main": true
+  },
+  "r-norm": {
+    "main": true
+  },
+  "r-normallaplace": {
+    "main": true
+  },
+  "r-nortest": {
+    "main": true
+  },
+  "r-nozzle.r1": {
+    "main": true
+  },
+  "r-np": {
+    "main": true
+  },
+  "r-nparcomp": {
+    "main": true
+  },
+  "r-npflow": {
+    "main": true
+  },
+  "r-nplyr": {
+    "main": true
+  },
+  "r-npregfast": {
+    "main": true
+  },
+  "r-npsurv": {
+    "main": true
+  },
+  "r-nsga2r": {
+    "main": true
+  },
+  "r-nsprcomp": {
+    "main": true
+  },
+  "r-nsyllable": {
+    "main": true
+  },
+  "r-numbers": {
+    "main": true
+  },
+  "r-numderiv": {
+    "main": true
+  },
+  "r-nycflights13": {
+    "main": true
+  },
+  "r-oai": {
+    "main": true
+  },
+  "r-oaqc": {
+    "main": true
+  },
+  "r-obistools": {
+    "main": true
+  },
+  "r-objectproperties": {
+    "main": true
+  },
+  "r-objectsignals": {
+    "main": true
+  },
+  "r-oce": {
+    "main": true
+  },
+  "r-oceanview": {
+    "main": true
+  },
+  "r-ocedata": {
+    "main": true
+  },
+  "r-odbc": {
+    "main": true
+  },
+  "r-officedown": {
+    "main": true
+  },
+  "r-officer": {
+    "main": true
+  },
+  "r-olinkanalyze": {
+    "main": true
+  },
+  "r-olsrr": {
+    "main": true
+  },
+  "r-omicnavigator": {
+    "main": true
+  },
+  "r-onehot": {
+    "main": true
+  },
+  "r-oner": {
+    "main": true
+  },
+  "r-onesamplemr": {
+    "main": true
+  },
+  "r-onewaytests": {
+    "main": true
+  },
+  "r-onlinepca": {
+    "main": true
+  },
+  "r-ontologyindex": {
+    "main": true
+  },
+  "r-ontologysimilarity": {
+    "main": true
+  },
+  "r-oompabase": {
+    "main": true
+  },
+  "r-oompadata": {
+    "main": true
+  },
+  "r-ooplah": {
+    "main": true
+  },
+  "r-opdisdownsampling": {
+    "main": true
+  },
+  "r-openair": {
+    "main": true
+  },
+  "r-openalexr": {
+    "main": true
+  },
+  "r-opencpu": {
+    "main": true
+  },
+  "r-openimager": {
+    "main": true
+  },
+  "r-openmx": {
+    "main": true
+  },
+  "r-opennlp": {
+    "main": true
+  },
+  "r-opennlpdata": {
+    "main": true
+  },
+  "r-openssl": {
+    "main": true
+  },
+  "r-openxlsx": {
+    "main": true
+  },
+  "r-openxlsx2": {
+    "main": true
+  },
+  "r-opera": {
+    "main": true
+  },
+  "r-operator.tools": {
+    "main": true
+  },
+  "r-optextras": {
+    "main": true
+  },
+  "r-optimalcutpoints": {
+    "main": true
+  },
+  "r-optimbase": {
+    "main": true
+  },
+  "r-optimparallel": {
+    "main": true
+  },
+  "r-optimr": {
+    "main": true
+  },
+  "r-optimsimplex": {
+    "main": true
+  },
+  "r-optimx": {
+    "main": true
+  },
+  "r-options": {
+    "main": true
+  },
+  "r-optm": {
+    "main": true
+  },
+  "r-optmatch": {
+    "main": true
+  },
+  "r-optparse": {
+    "main": true
+  },
+  "r-orcme": {
+    "main": true
+  },
+  "r-orcutt": {
+    "main": true
+  },
+  "r-ordinal": {
+    "main": true
+  },
+  "r-ordinalnet": {
+    "main": true
+  },
+  "r-ordpens": {
+    "main": true
+  },
+  "r-ore": {
+    "main": true
+  },
+  "r-orgmassspecr": {
+    "main": true
+  },
+  "r-oriclust": {
+    "main": true
+  },
+  "r-origami": {
+    "main": true
+  },
+  "r-oro.nifti": {
+    "main": true
+  },
+  "r-orthopolynom": {
+    "main": true
+  },
+  "r-osd": {
+    "main": true
+  },
+  "r-osfr": {
+    "main": true
+  },
+  "r-osmar": {
+    "main": true
+  },
+  "r-osmclass": {
+    "main": true
+  },
+  "r-osmdata": {
+    "main": true
+  },
+  "r-osqp": {
+    "main": true
+  },
+  "r-otel": {
+    "main": true
+  },
+  "r-ottr": {
+    "main": true
+  },
+  "r-outliers": {
+    "main": true
+  },
+  "r-overviewr": {
+    "main": true
+  },
+  "r-oyster": {
+    "main": true
+  },
+  "r-pack": {
+    "main": true
+  },
+  "r-packcircles": {
+    "main": true
+  },
+  "r-packer": {
+    "main": true
+  },
+  "r-packrat": {
+    "main": true
+  },
+  "r-pacman": {
+    "main": true
+  },
+  "r-paco": {
+    "main": true
+  },
+  "r-pacotest": {
+    "main": true
+  },
+  "r-padr": {
+    "main": true
+  },
+  "r-pafr": {
+    "main": true
+  },
+  "r-pagedown": {
+    "main": true
+  },
+  "r-pagoda2": {
+    "main": true
+  },
+  "r-paintmap": {
+    "main": true
+  },
+  "r-paireddata": {
+    "main": true
+  },
+  "r-pairsd3": {
+    "main": true
+  },
+  "r-pairwisecomparisons": {
+    "main": true
+  },
+  "r-pak": {
+    "main": true
+  },
+  "r-palaeoverse": {
+    "main": true
+  },
+  "r-paletteer": {
+    "main": true
+  },
+  "r-palmerpenguins": {
+    "main": true
+  },
+  "r-palr": {
+    "main": true
+  },
+  "r-pals": {
+    "main": true
+  },
+  "r-pamr": {
+    "main": true
+  },
+  "r-pan": {
+    "main": true
+  },
+  "r-pander": {
+    "main": true
+  },
+  "r-paradox": {
+    "main": true
+  },
+  "r-paralleldist": {
+    "main": true
+  },
+  "r-parallellogger": {
+    "main": true
+  },
+  "r-parallelly": {
+    "main": true
+  },
+  "r-parallelmap": {
+    "main": true
+  },
+  "r-param6": {
+    "main": true
+  },
+  "r-parameters": {
+    "main": true
+  },
+  "r-paramhelpers": {
+    "main": true
+  },
+  "r-params": {
+    "main": true
+  },
+  "r-paran": {
+    "main": true
+  },
+  "r-parcor": {
+    "main": true
+  },
+  "r-parglm": {
+    "main": true
+  },
+  "r-parmigene": {
+    "main": true
+  },
+  "r-parsedate": {
+    "main": true
+  },
+  "r-parsetools": {
+    "main": true
+  },
+  "r-parsnip": {
+    "main": true
+  },
+  "r-partitions": {
+    "main": true
+  },
+  "r-party": {
+    "main": true
+  },
+  "r-partykit": {
+    "main": true
+  },
+  "r-pastclim": {
+    "main": true
+  },
+  "r-pastecs": {
+    "main": true
+  },
+  "r-patchwork": {
+    "main": true
+  },
+  "r-pathdiagram": {
+    "main": true
+  },
+  "r-pathfindr.data": {
+    "main": true
+  },
+  "r-pathmodelfit": {
+    "main": true
+  },
+  "r-patpro": {
+    "main": true
+  },
+  "r-patrick": {
+    "main": true
+  },
+  "r-paws": {
+    "main": true
+  },
+  "r-paws.analytics": {
+    "main": true
+  },
+  "r-paws.application.integration": {
+    "main": true
+  },
+  "r-paws.common": {
+    "main": true
+  },
+  "r-paws.compute": {
+    "main": true
+  },
+  "r-paws.cost.management": {
+    "main": true
+  },
+  "r-paws.customer.engagement": {
+    "main": true
+  },
+  "r-paws.database": {
+    "main": true
+  },
+  "r-paws.developer.tools": {
+    "main": true
+  },
+  "r-paws.end.user.computing": {
+    "main": true
+  },
+  "r-paws.machine.learning": {
+    "main": true
+  },
+  "r-paws.management": {
+    "main": true
+  },
+  "r-paws.networking": {
+    "main": true
+  },
+  "r-paws.security.identity": {
+    "main": true
+  },
+  "r-paws.storage": {
+    "main": true
+  },
+  "r-pbapply": {
+    "main": true
+  },
+  "r-pbdzmq": {
+    "main": true
+  },
+  "r-pbivnorm": {
+    "main": true
+  },
+  "r-pbkrtest": {
+    "main": true
+  },
+  "r-pbmcapply": {
+    "main": true
+  },
+  "r-pbs": {
+    "main": true
+  },
+  "r-pbv": {
+    "main": true
+  },
+  "r-pca3d": {
+    "main": true
+  },
+  "r-pcadapt": {
+    "main": true
+  },
+  "r-pcamixdata": {
+    "main": true
+  },
+  "r-pcapp": {
+    "main": true
+  },
+  "r-pcict": {
+    "main": true
+  },
+  "r-pcit": {
+    "main": true
+  },
+  "r-pcse": {
+    "main": true
+  },
+  "r-pdc": {
+    "main": true
+  },
+  "r-pdfcluster": {
+    "main": true
+  },
+  "r-pdftools": {
+    "main": true
+  },
+  "r-pdist": {
+    "main": true
+  },
+  "r-pdp": {
+    "main": true
+  },
+  "r-pdsce": {
+    "main": true
+  },
+  "r-pdtoolkit": {
+    "main": true
+  },
+  "r-pec": {
+    "main": true
+  },
+  "r-pedquant": {
+    "main": true
+  },
+  "r-pegas": {
+    "main": true
+  },
+  "r-pegboard": {
+    "main": true
+  },
+  "r-penalized": {
+    "main": true
+  },
+  "r-peptides": {
+    "main": true
+  },
+  "r-performance": {
+    "main": true
+  },
+  "r-performanceanalytics": {
+    "main": true
   }
 }
