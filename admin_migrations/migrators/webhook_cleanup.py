@@ -16,7 +16,7 @@ class WebhookCleanup(Migrator):
     max_processes = 1
 
     def migrate(self, feedstock, branch):
-        repo = _gh().get_repo(f"conda-forge/{feedstock}=feedstock")
+        repo = _gh().get_repo(f"conda-forge/{feedstock}-feedstock")
 
         domains_to_check = [
             "conda-forge.herokuapp.com",
