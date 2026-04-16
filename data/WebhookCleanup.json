@@ -24301,5 +24301,842 @@
   },
   "xlrd": {
     "main": true
+  },
+  "xlrd3": {
+    "main": true
+  },
+  "xlsx2csv": {
+    "main": true
+  },
+  "xlsxdatagrid": {
+    "main": true
+  },
+  "xlsxwriter": {
+    "main": true
+  },
+  "xlutils": {
+    "main": true
+  },
+  "xlwings": {
+    "main": true
+  },
+  "xmacis2py": {
+    "main": true
+  },
+  "xmidas": {
+    "main": true
+  },
+  "xmipy": {
+    "main": true
+  },
+  "xmitgcm": {
+    "main": true
+  },
+  "xmldiff": {
+    "main": true
+  },
+  "xmle": {
+    "main": true
+  },
+  "xmlformatter": {
+    "main": true
+  },
+  "xmlhelpy": {
+    "main": true
+  },
+  "xmljson": {
+    "main": true
+  },
+  "xmlplot": {
+    "main": true
+  },
+  "xmlrpc-c": {
+    "main": true
+  },
+  "xmlrunner": {
+    "main": true
+  },
+  "xmlschema": {
+    "main": true
+  },
+  "xmlsec": {
+    "main": true
+  },
+  "xmlstarlet": {
+    "main": true
+  },
+  "xmlstore": {
+    "main": true
+  },
+  "xmltodict": {
+    "main": true
+  },
+  "xmlvalidator": {
+    "main": true
+  },
+  "xmod": {
+    "main": true
+  },
+  "xmodem": {
+    "main": true
+  },
+  "xmovie": {
+    "main": true
+  },
+  "xmpppy": {
+    "main": true
+  },
+  "xmscore": {
+    "main": true
+  },
+  "xmsgrid": {
+    "main": true
+  },
+  "xmsinterp": {
+    "main": true
+  },
+  "xmsmesher": {
+    "main": true
+  },
+  "xmsstamper": {
+    "main": true
+  },
+  "xnat": {
+    "main": true
+  },
+  "xnatutils": {
+    "main": true
+  },
+  "xncml": {
+    "main": true
+  },
+  "xnemogcm": {
+    "main": true
+  },
+  "xnumpy": {
+    "main": true
+  },
+  "xo": {
+    "main": true
+  },
+  "xoa": {
+    "main": true
+  },
+  "xoak": {
+    "main": true
+  },
+  "xojs": {
+    "main": true
+  },
+  "xonsh": {
+    "main": true
+  },
+  "xontrib-argcomplete": {
+    "main": true
+  },
+  "xontrib-kitty": {
+    "main": true
+  },
+  "xontrib-output-search": {
+    "main": true
+  },
+  "xontrib-pipeliner": {
+    "main": true
+  },
+  "xontrib-prompt-bar": {
+    "main": true
+  },
+  "xontrib-readable-traceback": {
+    "main": true
+  },
+  "xontrib-ssh-agent": {
+    "main": true
+  },
+  "xontrib-xlsd": {
+    "main": true
+  },
+  "xopen": {
+    "main": true
+  },
+  "xopt": {
+    "main": true
+  },
+  "xorg-applewmproto": {
+    "main": true
+  },
+  "xorg-bigreqsproto": {
+    "main": true
+  },
+  "xorg-cf-files": {
+    "main": true
+  },
+  "xorg-compositeproto": {
+    "main": true
+  },
+  "xorg-damageproto": {
+    "main": true
+  },
+  "xorg-dmxproto": {
+    "main": true
+  },
+  "xorg-evieext": {
+    "main": true
+  },
+  "xorg-fixesproto": {
+    "main": true
+  },
+  "xorg-font-util": {
+    "main": true
+  },
+  "xorg-fontcacheproto": {
+    "main": true
+  },
+  "xorg-fontsproto": {
+    "main": true
+  },
+  "xorg-gccmakedep": {
+    "main": true
+  },
+  "xorg-glproto": {
+    "main": true
+  },
+  "xorg-imake": {
+    "main": true
+  },
+  "xorg-inputproto": {
+    "main": true
+  },
+  "xorg-kbproto": {
+    "main": true
+  },
+  "xorg-libice": {
+    "main": true
+  },
+  "xorg-libsm": {
+    "main": true
+  },
+  "xorg-libx11": {
+    "main": true
+  },
+  "xorg-libxau": {
+    "main": true
+  },
+  "xorg-libxaw": {
+    "main": true
+  },
+  "xorg-libxaw3d": {
+    "main": true
+  },
+  "xorg-libxcomposite": {
+    "main": true
+  },
+  "xorg-libxcursor": {
+    "main": true
+  },
+  "xorg-libxcvt": {
+    "main": true
+  },
+  "xorg-libxdamage": {
+    "main": true
+  },
+  "xorg-libxdmcp": {
+    "main": true
+  },
+  "xorg-libxext": {
+    "main": true
+  },
+  "xorg-libxfixes": {
+    "main": true
+  },
+  "xorg-libxft": {
+    "main": true
+  },
+  "xorg-libxi": {
+    "main": true
+  },
+  "xorg-libxinerama": {
+    "main": true
+  },
+  "xorg-libxmu": {
+    "main": true
+  },
+  "xorg-libxp": {
+    "main": true
+  },
+  "xorg-libxpm": {
+    "main": true
+  },
+  "xorg-libxrandr": {
+    "main": true
+  },
+  "xorg-libxrender": {
+    "main": true
+  },
+  "xorg-libxres": {
+    "main": true
+  },
+  "xorg-libxscrnsaver": {
+    "main": true
+  },
+  "xorg-libxshmfence": {
+    "main": true
+  },
+  "xorg-libxt": {
+    "main": true
+  },
+  "xorg-libxtst": {
+    "main": true
+  },
+  "xorg-libxv": {
+    "main": true
+  },
+  "xorg-libxxf86dga": {
+    "main": true
+  },
+  "xorg-libxxf86vm": {
+    "main": true
+  },
+  "xorg-makedepend": {
+    "main": true
+  },
+  "xorg-presentproto": {
+    "main": true
+  },
+  "xorg-printproto": {
+    "main": true
+  },
+  "xorg-randrproto": {
+    "main": true
+  },
+  "xorg-recordproto": {
+    "main": true
+  },
+  "xorg-renderproto": {
+    "main": true
+  },
+  "xorg-resourceproto": {
+    "main": true
+  },
+  "xorg-scrnsaverproto": {
+    "main": true
+  },
+  "xorg-trapproto": {
+    "main": true
+  },
+  "xorg-util-macros": {
+    "main": true
+  },
+  "xorg-videoproto": {
+    "main": true
+  },
+  "xorg-windowswmproto": {
+    "main": true
+  },
+  "xorg-xauth": {
+    "main": true
+  },
+  "xorg-xbitmaps": {
+    "main": true
+  },
+  "xorg-xcmiscproto": {
+    "main": true
+  },
+  "xorg-xextproto": {
+    "main": true
+  },
+  "xorg-xf86bigfontproto": {
+    "main": true
+  },
+  "xorg-xf86dgaproto": {
+    "main": true
+  },
+  "xorg-xf86driproto": {
+    "main": true
+  },
+  "xorg-xf86miscproto": {
+    "main": true
+  },
+  "xorg-xf86rushproto": {
+    "main": true
+  },
+  "xorg-xf86vidmodeproto": {
+    "main": true
+  },
+  "xorg-xineramaproto": {
+    "main": true
+  },
+  "xorg-xorgproto": {
+    "main": true
+  },
+  "xorg-xproto": {
+    "main": true
+  },
+  "xorg-xproxymanagementprotocol": {
+    "main": true
+  },
+  "xorg-xtrans": {
+    "main": true
+  },
+  "xorjson": {
+    "main": true
+  },
+  "xover": {
+    "main": true
+  },
+  "xpa": {
+    "main": true
+  },
+  "xpdacq": {
+    "main": true
+  },
+  "xpdan": {
+    "main": true
+  },
+  "xpdconf": {
+    "main": true
+  },
+  "xpdsim": {
+    "main": true
+  },
+  "xpdtools": {
+    "main": true
+  },
+  "xpdview": {
+    "main": true
+  },
+  "xpersist": {
+    "main": true
+  },
+  "xphyle": {
+    "main": true
+  },
+  "xplique": {
+    "main": true
+  },
+  "xplot": {
+    "main": true
+  },
+  "xplr": {
+    "main": true
+  },
+  "xplugin": {
+    "main": true
+  },
+  "xpmem": {
+    "main": true
+  },
+  "xppaut": {
+    "main": true
+  },
+  "xppy": {
+    "main": true
+  },
+  "xpra": {
+    "main": true
+  },
+  "xproj": {
+    "main": true
+  },
+  "xproperty": {
+    "main": true
+  },
+  "xpublish": {
+    "main": true
+  },
+  "xpublish-edr": {
+    "main": true
+  },
+  "xpublish-intake-provider": {
+    "main": true
+  },
+  "xpublish-opendap": {
+    "main": true
+  },
+  "xpublish-wms": {
+    "main": true
+  },
+  "xpystac": {
+    "main": true
+  },
+  "xq": {
+    "main": true
+  },
+  "xradar": {
+    "main": true
+  },
+  "xradarsat2": {
+    "main": true
+  },
+  "xray-vision": {
+    "main": true
+  },
+  "xraydb": {
+    "main": true
+  },
+  "xraylarch": {
+    "main": true
+  },
+  "xraylib": {
+    "main": true
+  },
+  "xrayutilities": {
+    "main": true
+  },
+  "xrd_simulator": {
+    "main": true
+  },
+  "xrf": {
+    "main": true
+  },
+  "xrf-tomo": {
+    "main": true
+  },
+  "xrft": {
+    "main": true
+  },
+  "xrftomo": {
+    "main": true
+  },
+  "xrlint": {
+    "main": true
+  },
+  "xroms": {
+    "main": true
+  },
+  "xrootd": {
+    "main": true
+  },
+  "xrpl-py": {
+    "main": true
+  },
+  "xrst": {
+    "main": true
+  },
+  "xrt": {
+    "main": true
+  },
+  "xrtpy": {
+    "main": true
+  },
+  "xrviz": {
+    "main": true
+  },
+  "xsar": {
+    "main": true
+  },
+  "xsarsea": {
+    "main": true
+  },
+  "xscen": {
+    "main": true
+  },
+  "xsdata": {
+    "main": true
+  },
+  "xsdata-attrs": {
+    "main": true
+  },
+  "xsdata-pydantic": {
+    "main": true
+  },
+  "xsdba": {
+    "main": true
+  },
+  "xsel": {
+    "main": true
+  },
+  "xsgen": {
+    "main": true
+  },
+  "xsimd": {
+    "main": true
+  },
+  "xskillscore": {
+    "main": true
+  },
+  "xsocs": {
+    "main": true
+  },
+  "xstac": {
+    "main": true
+  },
+  "xstate-python": {
+    "main": true
+  },
+  "xstatic": {
+    "main": true
+  },
+  "xstatic-bootstrap": {
+    "main": true
+  },
+  "xstatic-font-awesome": {
+    "main": true
+  },
+  "xstatic-jquery": {
+    "main": true
+  },
+  "xsum": {
+    "main": true
+  },
+  "xsv": {
+    "main": true
+  },
+  "xtal2png": {
+    "main": true
+  },
+  "xtb": {
+    "main": true
+  },
+  "xtb-python": {
+    "main": true
+  },
+  "xtcocotools": {
+    "main": true
+  },
+  "xtensor": {
+    "main": true
+  },
+  "xtensor-blas": {
+    "main": true
+  },
+  "xtensor-fftw": {
+    "main": true
+  },
+  "xtensor-io": {
+    "main": true
+  },
+  "xtensor-julia": {
+    "main": true
+  },
+  "xtensor-python": {
+    "main": true
+  },
+  "xtensor-r": {
+    "main": true
+  },
+  "xtensor-zarr": {
+    "main": true
+  },
+  "xtiff": {
+    "main": true
+  },
+  "xtl": {
+    "main": true
+  },
+  "xtrude": {
+    "main": true
+  },
+  "xugrid": {
+    "main": true
+  },
+  "xvec": {
+    "main": true
+  },
+  "xvega": {
+    "main": true
+  },
+  "xvega-bindings": {
+    "main": true
+  },
+  "xvfbwrapper": {
+    "main": true
+  },
+  "xwebrtc": {
+    "main": true
+  },
+  "xwidgets": {
+    "main": true
+  },
+  "xwmb": {
+    "main": true
+  },
+  "xwmt": {
+    "main": true
+  },
+  "xwrf": {
+    "main": true
+  },
+  "xxh-xxh": {
+    "main": true
+  },
+  "xxhash": {
+    "main": true
+  },
+  "xymol": {
+    "main": true
+  },
+  "xypattern": {
+    "main": true
+  },
+  "xyz2mol": {
+    "main": true
+  },
+  "xyzpy": {
+    "main": true
+  },
+  "xyzservices": {
+    "main": true
+  },
+  "xyzspaces": {
+    "main": true
+  },
+  "xz": {
+    "main": true
+  },
+  "xzarrguard": {
+    "main": true
+  },
+  "yabadaba": {
+    "main": true
+  },
+  "yachalk": {
+    "main": true
+  },
+  "yacman": {
+    "main": true
+  },
+  "yacron": {
+    "main": true
+  },
+  "yacs": {
+    "main": true
+  },
+  "yad": {
+    "main": true
+  },
+  "yaehmop": {
+    "main": true
+  },
+  "yaff": {
+    "main": true
+  },
+  "yagmail": {
+    "main": true
+  },
+  "yahoo-search-py": {
+    "main": true
+  },
+  "yail": {
+    "main": true
+  },
+  "yajl": {
+    "main": true
+  },
+  "yake": {
+    "main": true
+  },
+  "yamale": {
+    "main": true
+  },
+  "yambo": {
+    "main": true
+  },
+  "yaml": {
+    "main": true
+  },
+  "yaml-cpp": {
+    "main": true
+  },
+  "yaml-cpp4rkt": {
+    "main": true
+  },
+  "yaml-language-server": {
+    "main": true
+  },
+  "yaml-lsp": {
+    "main": true
+  },
+  "yaml2cli": {
+    "main": true
+  },
+  "yaml2ncml": {
+    "main": true
+  },
+  "yamlable": {
+    "main": true
+  },
+  "yamldoc": {
+    "main": true
+  },
+  "yamlfix": {
+    "main": true
+  },
+  "yamlfmt": {
+    "main": true
+  },
+  "yamlium": {
+    "main": true
+  },
+  "yamllint": {
+    "main": true
+  },
+  "yamlloader": {
+    "main": true
+  },
+  "yamlns": {
+    "main": true
+  },
+  "yamlordereddictloader": {
+    "main": true
+  },
+  "yamlprocessor": {
+    "main": true
+  },
+  "yandex-query-client": {
+    "main": true
+  },
+  "yandexcloud": {
+    "main": true
+  },
+  "yank": {
+    "main": true
+  },
+  "yaozarrs": {
+    "main": true
+  },
+  "yapf": {
+    "main": true
+  },
+  "yapic": {
+    "main": true
+  },
+  "yapic-io": {
+    "main": true
+  },
+  "yappi": {
+    "main": true
+  },
+  "yapss-feedstock": {
+    "main": true
+  },
+  "yapsy": {
+    "main": true
+  },
+  "yaq-traits": {
+    "main": true
+  },
+  "yaqc": {
+    "main": true
+  },
+  "yaqc-bluesky": {
+    "main": true
+  },
+  "yaqc-qtpy": {
+    "main": true
+  },
+  "yaqd-acton": {
+    "main": true
+  },
+  "yaqd-control": {
+    "main": true
+  },
+  "yaqd-core": {
+    "main": true
+  },
+  "yaqd-dwyer": {
+    "main": true
+  },
+  "yaqd-edaq": {
+    "main": true
   }
 }
