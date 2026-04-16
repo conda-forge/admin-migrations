@@ -22525,5 +22525,773 @@
   },
   "vollseg": {
     "main": true
+  },
+  "vollseg-napari": {
+    "main": true
+  },
+  "vollseg-napari-mtrack": {
+    "main": true
+  },
+  "volta": {
+    "main": true
+  },
+  "voluptuous": {
+    "main": true
+  },
+  "voluptuous-serialize": {
+    "main": true
+  },
+  "voms": {
+    "main": true
+  },
+  "voms-clients": {
+    "main": true
+  },
+  "voro": {
+    "main": true
+  },
+  "vose-alias-method": {
+    "main": true
+  },
+  "votca": {
+    "main": true
+  },
+  "vouch-feedstock": {
+    "main": true
+  },
+  "vounwarp": {
+    "main": true
+  },
+  "vowpalwabbit": {
+    "main": true
+  },
+  "voxel51-eta": {
+    "main": true
+  },
+  "voyageai": {
+    "main": true
+  },
+  "vp4jl": {
+    "main": true
+  },
+  "vpl-gpu-rt": {
+    "main": true
+  },
+  "vprtempo": {
+    "main": true
+  },
+  "vpselector": {
+    "main": true
+  },
+  "vpype": {
+    "main": true
+  },
+  "vpython": {
+    "main": true
+  },
+  "vrs": {
+    "main": true
+  },
+  "vs2008_express_vc_python_patch": {
+    "main": true
+  },
+  "vs2008_runtime": {
+    "main": true
+  },
+  "vsc-base": {
+    "main": true
+  },
+  "vsc-install": {
+    "main": true
+  },
+  "vsce": {
+    "main": true
+  },
+  "vscode-go-debug-adapter": {
+    "main": true
+  },
+  "vscode-langservers-extracted": {
+    "main": true
+  },
+  "vscode-spectral-language-server": {
+    "main": true
+  },
+  "vsg": {
+    "main": true
+  },
+  "vsgimgui": {
+    "main": true
+  },
+  "vsgqt": {
+    "main": true
+  },
+  "vsgxchange": {
+    "main": true
+  },
+  "vsketch": {
+    "main": true
+  },
+  "vsts-python-api": {
+    "main": true
+  },
+  "vswhere": {
+    "main": true
+  },
+  "vt-py": {
+    "main": true
+  },
+  "vtable-dumper": {
+    "main": true
+  },
+  "vtk": {
+    "main": true
+  },
+  "vtk-m": {
+    "main": true
+  },
+  "vtkbool": {
+    "main": true
+  },
+  "vtkplotter": {
+    "main": true
+  },
+  "vtkwriters": {
+    "main": true
+  },
+  "vtsls": {
+    "main": true
+  },
+  "vue": {
+    "main": true
+  },
+  "vue-language-server": {
+    "main": true
+  },
+  "vulkan-headers": {
+    "main": true
+  },
+  "vulkan-loader": {
+    "main": true
+  },
+  "vulkan-memory-allocator": {
+    "main": true
+  },
+  "vulkan-tools": {
+    "main": true
+  },
+  "vulkan-validation-layers": {
+    "main": true
+  },
+  "vulkan-volk": {
+    "main": true
+  },
+  "vulkanscenegraph": {
+    "main": true
+  },
+  "vulp": {
+    "main": true
+  },
+  "vulture": {
+    "main": true
+  },
+  "vvm": {
+    "main": true
+  },
+  "vw-executor": {
+    "main": true
+  },
+  "vyper": {
+    "main": true
+  },
+  "w3g": {
+    "main": true
+  },
+  "w3lib": {
+    "main": true
+  },
+  "w3m": {
+    "main": true
+  },
+  "wabisabi": {
+    "main": true
+  },
+  "wabt": {
+    "main": true
+  },
+  "wadler-lindig": {
+    "main": true
+  },
+  "waf": {
+    "main": true
+  },
+  "wagtail": {
+    "main": true
+  },
+  "wagtail-ab-testing": {
+    "main": true
+  },
+  "wagtail-accessibility": {
+    "main": true
+  },
+  "wagtail-advanced-form-builder": {
+    "main": true
+  },
+  "wagtail-ai": {
+    "main": true
+  },
+  "wagtail-app-pages": {
+    "main": true
+  },
+  "wagtail-autocomplete": {
+    "main": true
+  },
+  "wagtail-bakery": {
+    "main": true
+  },
+  "wagtail-blocks": {
+    "main": true
+  },
+  "wagtail-cache": {
+    "main": true
+  },
+  "wagtail-charcount": {
+    "main": true
+  },
+  "wagtail-color-panel": {
+    "main": true
+  },
+  "wagtail-constance": {
+    "main": true
+  },
+  "wagtail-draftail-plugins": {
+    "main": true
+  },
+  "wagtail-dynamic-dropdown": {
+    "main": true
+  },
+  "wagtail-experiments": {
+    "main": true
+  },
+  "wagtail-factories": {
+    "main": true
+  },
+  "wagtail-feedback": {
+    "main": true
+  },
+  "wagtail-flags": {
+    "main": true
+  },
+  "wagtail-flexible-forms": {
+    "main": true
+  },
+  "wagtail-font-awesome-svg": {
+    "main": true
+  },
+  "wagtail-footnotes": {
+    "main": true
+  },
+  "wagtail-generic-chooser": {
+    "main": true
+  },
+  "wagtail-grapple": {
+    "main": true
+  },
+  "wagtail-headless-preview": {
+    "main": true
+  },
+  "wagtail-import-export-tool": {
+    "main": true
+  },
+  "wagtail-inventory": {
+    "main": true
+  },
+  "wagtail-json-widget": {
+    "main": true
+  },
+  "wagtail-knowledgebase": {
+    "main": true
+  },
+  "wagtail-linkchecker": {
+    "main": true
+  },
+  "wagtail-live": {
+    "main": true
+  },
+  "wagtail-markdown": {
+    "main": true
+  },
+  "wagtail-meta-preview": {
+    "main": true
+  },
+  "wagtail-metadata": {
+    "main": true
+  },
+  "wagtail-modeladmin": {
+    "main": true
+  },
+  "wagtail-nav-menus": {
+    "main": true
+  },
+  "wagtail-pdf": {
+    "main": true
+  },
+  "wagtail-periodic-review": {
+    "main": true
+  },
+  "wagtail-plotly": {
+    "main": true
+  },
+  "wagtail-rangefilter": {
+    "main": true
+  },
+  "wagtail-resume": {
+    "main": true
+  },
+  "wagtail-review": {
+    "main": true
+  },
+  "wagtail-sb-admin-interface": {
+    "main": true
+  },
+  "wagtail-seo": {
+    "main": true
+  },
+  "wagtail-sharing": {
+    "main": true
+  },
+  "wagtail-storages": {
+    "main": true
+  },
+  "wagtail-surveyjs": {
+    "main": true
+  },
+  "wagtail-tag-manager": {
+    "main": true
+  },
+  "wagtail-taggable": {
+    "main": true
+  },
+  "wagtail-themes": {
+    "main": true
+  },
+  "wagtail-tinytableblock": {
+    "main": true
+  },
+  "wagtail-transfer": {
+    "main": true
+  },
+  "wagtail-trash": {
+    "main": true
+  },
+  "wagtail-treemodeladmin": {
+    "main": true
+  },
+  "wagtail-word": {
+    "main": true
+  },
+  "wagtailcharts": {
+    "main": true
+  },
+  "wagtailextraicons": {
+    "main": true
+  },
+  "wagtailgridder": {
+    "main": true
+  },
+  "wagtailmath": {
+    "main": true
+  },
+  "wagtailmedia": {
+    "main": true
+  },
+  "wagtailmenus": {
+    "main": true
+  },
+  "wagtailnews": {
+    "main": true
+  },
+  "wagtailstreamforms": {
+    "main": true
+  },
+  "wagtailtables": {
+    "main": true
+  },
+  "wagyu": {
+    "main": true
+  },
+  "wails": {
+    "main": true
+  },
+  "wait_for2": {
+    "main": true
+  },
+  "waiting": {
+    "main": true
+  },
+  "waitress": {
+    "main": true
+  },
+  "wakatime": {
+    "main": true
+  },
+  "wake-t": {
+    "main": true
+  },
+  "wakepy": {
+    "main": true
+  },
+  "wand": {
+    "main": true
+  },
+  "wandb": {
+    "main": true
+  },
+  "wannier90": {
+    "main": true
+  },
+  "wannier90io": {
+    "main": true
+  },
+  "wannierberri": {
+    "main": true
+  },
+  "wapordl": {
+    "main": true
+  },
+  "warcio": {
+    "main": true
+  },
+  "ward": {
+    "main": true
+  },
+  "warlock": {
+    "main": true
+  },
+  "warp-lang": {
+    "main": true
+  },
+  "warpfield": {
+    "main": true
+  },
+  "warpx": {
+    "main": true
+  },
+  "warrant": {
+    "main": true
+  },
+  "warrant-lite": {
+    "main": true
+  },
+  "wasabi": {
+    "main": true
+  },
+  "wasm-pack": {
+    "main": true
+  },
+  "wasmer": {
+    "main": true
+  },
+  "wasmtime-py": {
+    "main": true
+  },
+  "wassima": {
+    "main": true
+  },
+  "wat-inspector": {
+    "main": true
+  },
+  "watchdog": {
+    "main": true
+  },
+  "watchdog-gevent": {
+    "main": true
+  },
+  "watchexec": {
+    "main": true
+  },
+  "watchfiles": {
+    "main": true
+  },
+  "watchgha": {
+    "main": true
+  },
+  "watchgod": {
+    "main": true
+  },
+  "watchme": {
+    "main": true
+  },
+  "watchtower": {
+    "main": true
+  },
+  "waterdynamics": {
+    "main": true
+  },
+  "waterfallcharts": {
+    "main": true
+  },
+  "watermark": {
+    "main": true
+  },
+  "waternetworkanalysis": {
+    "main": true
+  },
+  "watex": {
+    "main": true
+  },
+  "watset": {
+    "main": true
+  },
+  "waveorder": {
+    "main": true
+  },
+  "waver": {
+    "main": true
+  },
+  "waves": {
+    "main": true
+  },
+  "wavespectra": {
+    "main": true
+  },
+  "wavyopen": {
+    "main": true
+  },
+  "waybackpack": {
+    "main": true
+  },
+  "waybackpy": {
+    "main": true
+  },
+  "wayland": {
+    "main": true
+  },
+  "wayland-protocols": {
+    "main": true
+  },
+  "wbgapi": {
+    "main": true
+  },
+  "wbplot": {
+    "main": true
+  },
+  "wcmatch": {
+    "main": true
+  },
+  "wcosmo": {
+    "main": true
+  },
+  "wcslib": {
+    "main": true
+  },
+  "wcstools": {
+    "main": true
+  },
+  "wcurl": {
+    "main": true
+  },
+  "wcwidth": {
+    "main": true
+  },
+  "wdiff": {
+    "main": true
+  },
+  "wdl-aid": {
+    "main": true
+  },
+  "wdl-packager": {
+    "main": true
+  },
+  "wdltools": {
+    "main": true
+  },
+  "wdmtoolbox": {
+    "main": true
+  },
+  "weakrefmethod": {
+    "main": true
+  },
+  "weasel": {
+    "main": true
+  },
+  "weasyprint": {
+    "main": true
+  },
+  "weaviate-client": {
+    "main": true
+  },
+  "web.py": {
+    "main": true
+  },
+  "web3": {
+    "main": true
+  },
+  "webargs": {
+    "main": true
+  },
+  "webassets": {
+    "main": true
+  },
+  "webauthn": {
+    "main": true
+  },
+  "webbrowser_open": {
+    "main": true
+  },
+  "webcolors": {
+    "main": true
+  },
+  "webdataset": {
+    "main": true
+  },
+  "webdav4": {
+    "main": true
+  },
+  "webdavclient2": {
+    "main": true
+  },
+  "webdavclient3": {
+    "main": true
+  },
+  "webdiff": {
+    "main": true
+  },
+  "webdriver-manager": {
+    "main": true
+  },
+  "webdrivermanager": {
+    "main": true
+  },
+  "webencodings": {
+    "main": true
+  },
+  "weberror": {
+    "main": true
+  },
+  "webexteamssdk": {
+    "main": true
+  },
+  "webgeocalc": {
+    "main": true
+  },
+  "webgpu-headers": {
+    "main": true
+  },
+  "webhelpers": {
+    "main": true
+  },
+  "webhelpers2": {
+    "main": true
+  },
+  "webio-jupyter-extension": {
+    "main": true
+  },
+  "webkit2gtk4.1": {
+    "main": true
+  },
+  "weblogo": {
+    "main": true
+  },
+  "webob": {
+    "main": true
+  },
+  "webpack-cli": {
+    "main": true
+  },
+  "webrtcvad": {
+    "main": true
+  },
+  "webruntime": {
+    "main": true
+  },
+  "websocket": {
+    "main": true
+  },
+  "websocket-client": {
+    "main": true
+  },
+  "websocket-server": {
+    "main": true
+  },
+  "websocketpp": {
+    "main": true
+  },
+  "websockets": {
+    "main": true
+  },
+  "websockets-cli": {
+    "main": true
+  },
+  "websockify": {
+    "main": true
+  },
+  "webstories": {
+    "main": true
+  },
+  "webtest": {
+    "main": true
+  },
+  "wecopttool": {
+    "main": true
+  },
+  "weightedcalcs": {
+    "main": true
+  },
+  "weightedstats": {
+    "main": true
+  },
+  "weightwatcher": {
+    "main": true
+  },
+  "weldx": {
+    "main": true
+  },
+  "weldx_widgets": {
+    "main": true
+  },
+  "wellapplication": {
+    "main": true
+  },
+  "welltestpy": {
+    "main": true
+  },
+  "wemake-python-styleguide": {
+    "main": true
+  },
+  "wera2netcdf": {
+    "main": true
+  },
+  "werkzeug": {
+    "main": true
+  },
+  "west": {
+    "main": true
+  },
+  "westpa": {
+    "main": true
+  },
+  "wetlandmapper": {
+    "main": true
+  },
+  "wetterdienst": {
+    "main": true
+  },
+  "wexpect": {
+    "main": true
+  },
+  "wfastcgi": {
+    "main": true
+  },
+  "wfdb": {
+    "main": true
+  },
+  "wflow": {
+    "main": true
+  },
+  "wget": {
+    "main": true
+  },
+  "wgetter": {
+    "main": true
   }
 }
