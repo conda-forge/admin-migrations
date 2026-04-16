@@ -11518,5 +11518,983 @@
   },
   "s3fs-fuse": {
     "main": true
+  },
+  "s3manager": {
+    "main": true
+  },
+  "s3path": {
+    "main": true
+  },
+  "s3transfer": {
+    "main": true
+  },
+  "s5cmd": {
+    "main": true
+  },
+  "s_gd2": {
+    "main": true
+  },
+  "saa": {
+    "main": true
+  },
+  "sacc": {
+    "main": true
+  },
+  "sacrebleu": {
+    "main": true
+  },
+  "sacred": {
+    "main": true
+  },
+  "sacremoses": {
+    "main": true
+  },
+  "sacroml": {
+    "main": true
+  },
+  "sad": {
+    "main": true
+  },
+  "sadisplay": {
+    "main": true
+  },
+  "safe-mol": {
+    "main": true
+  },
+  "safe-netrc": {
+    "main": true
+  },
+  "safe-publish-latest": {
+    "main": true
+  },
+  "safe-pysha3": {
+    "main": true
+  },
+  "safe-rm": {
+    "main": true
+  },
+  "safehttpx": {
+    "main": true
+  },
+  "safeint": {
+    "main": true
+  },
+  "safer": {
+    "main": true
+  },
+  "safetensors": {
+    "main": true
+  },
+  "safety": {
+    "main": true
+  },
+  "safety-schemas": {
+    "main": true
+  },
+  "saga-python": {
+    "main": true
+  },
+  "sage": {
+    "main": true
+  },
+  "sage-flatsurf": {
+    "main": true
+  },
+  "sagelib": {
+    "main": true
+  },
+  "sagemaker": {
+    "main": true
+  },
+  "sagemaker-chainer-container": {
+    "main": true
+  },
+  "sagemaker-code-editor": {
+    "main": true
+  },
+  "sagemaker-core": {
+    "main": true
+  },
+  "sagemaker-gen-ai-jupyterlab-extension": {
+    "main": true
+  },
+  "sagemaker-headless-execution-driver": {
+    "main": true
+  },
+  "sagemaker-inference-toolkit": {
+    "main": true
+  },
+  "sagemaker-jupyterlab-emr-extension": {
+    "main": true
+  },
+  "sagemaker-jupyterlab-extension": {
+    "main": true
+  },
+  "sagemaker-jupyterlab-extension-common": {
+    "main": true
+  },
+  "sagemaker-kernel-wrapper": {
+    "main": true
+  },
+  "sagemaker-mlflow": {
+    "main": true
+  },
+  "sagemaker-mlops": {
+    "main": true
+  },
+  "sagemaker-mxnet-serving-container": {
+    "main": true
+  },
+  "sagemaker-python-sdk": {
+    "main": true
+  },
+  "sagemaker-pytorch-container": {
+    "main": true
+  },
+  "sagemaker-pytorch-serving-container": {
+    "main": true
+  },
+  "sagemaker-schema-inference-artifacts": {
+    "main": true
+  },
+  "sagemaker-serve": {
+    "main": true
+  },
+  "sagemaker-studio": {
+    "main": true
+  },
+  "sagemaker-studio-analytics-extension": {
+    "main": true
+  },
+  "sagemaker-studio-cli": {
+    "main": true
+  },
+  "sagemaker-studio-dataengineering-extensions": {
+    "main": true
+  },
+  "sagemaker-studio-dataengineering-sessions": {
+    "main": true
+  },
+  "sagemaker-studio-image-build": {
+    "main": true
+  },
+  "sagemaker-studio-sparkmagic-lib": {
+    "main": true
+  },
+  "sagemaker-tensorflow-container": {
+    "main": true
+  },
+  "sagemaker-tensorflow-serving-container": {
+    "main": true
+  },
+  "sagemaker-train": {
+    "main": true
+  },
+  "sagemaker_containers": {
+    "main": true
+  },
+  "sagemaker_mxnet_container": {
+    "main": true
+  },
+  "sagemaker_pyspark": {
+    "main": true
+  },
+  "sagemath-db-combinatorial-designs": {
+    "main": true
+  },
+  "sagemath-db-conway-polynomials": {
+    "main": true
+  },
+  "sagemath-db-elliptic-curves": {
+    "main": true
+  },
+  "sagemath-db-graphs": {
+    "main": true
+  },
+  "sagemath-db-polytopes": {
+    "main": true
+  },
+  "sagenb": {
+    "main": true
+  },
+  "sagetex": {
+    "main": true
+  },
+  "sahi": {
+    "main": true
+  },
+  "sails": {
+    "main": true
+  },
+  "salabim": {
+    "main": true
+  },
+  "salem": {
+    "main": true
+  },
+  "salesforce-merlion": {
+    "main": true
+  },
+  "salib": {
+    "main": true
+  },
+  "salt": {
+    "main": true
+  },
+  "sam-2": {
+    "main": true
+  },
+  "sam2": {
+    "main": true
+  },
+  "sam3": {
+    "main": true
+  },
+  "saml-auth-proxy": {
+    "main": true
+  },
+  "sample": {
+    "main": true
+  },
+  "sampledb": {
+    "main": true
+  },
+  "samplex": {
+    "main": true
+  },
+  "samplomatic": {
+    "main": true
+  },
+  "samply": {
+    "main": true
+  },
+  "samsam": {
+    "main": true
+  },
+  "samsungtvws": {
+    "main": true
+  },
+  "samurai": {
+    "main": true
+  },
+  "sane": {
+    "main": true
+  },
+  "sanic": {
+    "main": true
+  },
+  "sanic-cors": {
+    "main": true
+  },
+  "sanic-ext": {
+    "main": true
+  },
+  "sanic-httpauth": {
+    "main": true
+  },
+  "sanic-plugins-framework": {
+    "main": true
+  },
+  "sanic-routing": {
+    "main": true
+  },
+  "sanic-security": {
+    "main": true
+  },
+  "sanic-testing": {
+    "main": true
+  },
+  "sanitize_ml_labels": {
+    "main": true
+  },
+  "sankee": {
+    "main": true
+  },
+  "sansio-multipart": {
+    "main": true
+  },
+  "sapiens": {
+    "main": true
+  },
+  "saqc": {
+    "main": true
+  },
+  "sardana": {
+    "main": true
+  },
+  "sardana-adlink": {
+    "main": true
+  },
+  "sardana-alba": {
+    "main": true
+  },
+  "sardana-config": {
+    "main": true
+  },
+  "sardana-icepap": {
+    "main": true
+  },
+  "sardana-limaccd": {
+    "main": true
+  },
+  "sardana-linkam": {
+    "main": true
+  },
+  "sardana-ni660x": {
+    "main": true
+  },
+  "sardana-pmac": {
+    "main": true
+  },
+  "sardana-tango": {
+    "main": true
+  },
+  "sardem": {
+    "main": true
+  },
+  "sarge": {
+    "main": true
+  },
+  "sarif-om": {
+    "main": true
+  },
+  "sarif-tools": {
+    "main": true
+  },
+  "sarkit": {
+    "main": true
+  },
+  "sarkit-convert": {
+    "main": true
+  },
+  "sarpy": {
+    "main": true
+  },
+  "sarsen": {
+    "main": true
+  },
+  "sas7bdat": {
+    "main": true
+  },
+  "sas7bdat-converter": {
+    "main": true
+  },
+  "sas_kernel": {
+    "main": true
+  },
+  "sasctl": {
+    "main": true
+  },
+  "sasdata": {
+    "main": true
+  },
+  "sasktran2": {
+    "main": true
+  },
+  "sasl": {
+    "main": true
+  },
+  "sasmodels": {
+    "main": true
+  },
+  "saspy": {
+    "main": true
+  },
+  "sassc": {
+    "main": true
+  },
+  "sasview": {
+    "main": true
+  },
+  "sat-search": {
+    "main": true
+  },
+  "sat-stac": {
+    "main": true
+  },
+  "satchip": {
+    "main": true
+  },
+  "satgen": {
+    "main": true
+  },
+  "satlaspretrain-models": {
+    "main": true
+  },
+  "satmad": {
+    "main": true
+  },
+  "satpy": {
+    "main": true
+  },
+  "saws": {
+    "main": true
+  },
+  "saxon-he": {
+    "main": true
+  },
+  "sb3-contrib": {
+    "main": true
+  },
+  "sbank": {
+    "main": true
+  },
+  "sbb-tui": {
+    "main": true
+  },
+  "sbcl": {
+    "main": true
+  },
+  "sbi": {
+    "main": true
+  },
+  "sbml2sbol": {
+    "main": true
+  },
+  "sbmlmath": {
+    "main": true
+  },
+  "sbol_factory": {
+    "main": true
+  },
+  "sbom2dot": {
+    "main": true
+  },
+  "sbpy": {
+    "main": true
+  },
+  "sbt": {
+    "main": true
+  },
+  "sbtab": {
+    "main": true
+  },
+  "sc-3d": {
+    "main": true
+  },
+  "scala2": {
+    "main": true
+  },
+  "scala3": {
+    "main": true
+  },
+  "scalable-vs-packs": {
+    "main": true
+  },
+  "scalapack": {
+    "main": true
+  },
+  "scalapackfx": {
+    "main": true
+  },
+  "scalariform": {
+    "main": true
+  },
+  "scaleapi": {
+    "main": true
+  },
+  "scalecodec": {
+    "main": true
+  },
+  "scalene": {
+    "main": true
+  },
+  "scaleway-cli": {
+    "main": true
+  },
+  "scanapi": {
+    "main": true
+  },
+  "scandir": {
+    "main": true
+  },
+  "scanf": {
+    "main": true
+  },
+  "scanning_drift_corr": {
+    "main": true
+  },
+  "scanpdf": {
+    "main": true
+  },
+  "scanpy": {
+    "main": true
+  },
+  "scanspec": {
+    "main": true
+  },
+  "scapy": {
+    "main": true
+  },
+  "scarplet": {
+    "main": true
+  },
+  "scatterd": {
+    "main": true
+  },
+  "scattertext": {
+    "main": true
+  },
+  "sccache": {
+    "main": true
+  },
+  "sccoda": {
+    "main": true
+  },
+  "scdoc": {
+    "main": true
+  },
+  "scenepic": {
+    "main": true
+  },
+  "sceptre": {
+    "main": true
+  },
+  "sceptre-file-resolver": {
+    "main": true
+  },
+  "sceua": {
+    "main": true
+  },
+  "scgraph": {
+    "main": true
+  },
+  "schedula": {
+    "main": true
+  },
+  "schedule": {
+    "main": true
+  },
+  "schedulefree": {
+    "main": true
+  },
+  "scheduler": {
+    "main": true
+  },
+  "schedview": {
+    "main": true
+  },
+  "scheil": {
+    "main": true
+  },
+  "schema": {
+    "main": true
+  },
+  "schema-engine-cli": {
+    "main": true
+  },
+  "schema-salad": {
+    "main": true
+  },
+  "schemainspect": {
+    "main": true
+  },
+  "schemaorg": {
+    "main": true
+  },
+  "schemathesis": {
+    "main": true
+  },
+  "schematics": {
+    "main": true
+  },
+  "schematics-cli": {
+    "main": true
+  },
+  "schemdraw": {
+    "main": true
+  },
+  "scherbelberg": {
+    "main": true
+  },
+  "schist": {
+    "main": true
+  },
+  "schnetpack": {
+    "main": true
+  },
+  "scholarly": {
+    "main": true
+  },
+  "scholarpy": {
+    "main": true
+  },
+  "schwifty": {
+    "main": true
+  },
+  "schwimmbad": {
+    "main": true
+  },
+  "sci-fab": {
+    "main": true
+  },
+  "scico": {
+    "main": true
+  },
+  "scicookie": {
+    "main": true
+  },
+  "sciencebasepy": {
+    "main": true
+  },
+  "scienceplots": {
+    "main": true
+  },
+  "scientific-pydantic": {
+    "main": true
+  },
+  "scif": {
+    "main": true
+  },
+  "scifem": {
+    "main": true
+  },
+  "scifireaders": {
+    "main": true
+  },
+  "scijava-jupyter-kernel": {
+    "main": true
+  },
+  "scikeras": {
+    "main": true
+  },
+  "scikit-allel": {
+    "main": true
+  },
+  "scikit-beam": {
+    "main": true
+  },
+  "scikit-bio": {
+    "main": true
+  },
+  "scikit-bio-binaries": {
+    "main": true
+  },
+  "scikit-build": {
+    "main": true
+  },
+  "scikit-build-core": {
+    "main": true
+  },
+  "scikit-criteria": {
+    "main": true
+  },
+  "scikit-cycling": {
+    "main": true
+  },
+  "scikit-datasets": {
+    "main": true
+  },
+  "scikit-digital-health": {
+    "main": true
+  },
+  "scikit-downscale": {
+    "main": true
+  },
+  "scikit-dsp-comm": {
+    "main": true
+  },
+  "scikit-explain": {
+    "main": true
+  },
+  "scikit-fda": {
+    "main": true
+  },
+  "scikit-fdiff": {
+    "main": true
+  },
+  "scikit-fem": {
+    "main": true
+  },
+  "scikit-fmm": {
+    "main": true
+  },
+  "scikit-fuzzy": {
+    "main": true
+  },
+  "scikit-garden": {
+    "main": true
+  },
+  "scikit-geometry": {
+    "main": true
+  },
+  "scikit-gstat": {
+    "main": true
+  },
+  "scikit-hep": {
+    "main": true
+  },
+  "scikit-hep-testdata": {
+    "main": true
+  },
+  "scikit-image": {
+    "main": true
+  },
+  "scikit-learn": {
+    "main": true
+  },
+  "scikit-learn-extra": {
+    "main": true
+  },
+  "scikit-learn-intelex": {
+    "main": true
+  },
+  "scikit-lego": {
+    "main": true
+  },
+  "scikit-mdr": {
+    "main": true
+  },
+  "scikit-misc": {
+    "main": true
+  },
+  "scikit-mobility": {
+    "main": true
+  },
+  "scikit-mol": {
+    "main": true
+  },
+  "scikit-multiflow": {
+    "main": true
+  },
+  "scikit-multilearn": {
+    "main": true
+  },
+  "scikit-network": {
+    "main": true
+  },
+  "scikit-optimize": {
+    "main": true
+  },
+  "scikit-package": {
+    "main": true
+  },
+  "scikit-partial": {
+    "main": true
+  },
+  "scikit-plot": {
+    "main": true
+  },
+  "scikit-plots": {
+    "main": true
+  },
+  "scikit-posthocs": {
+    "main": true
+  },
+  "scikit-procrustes": {
+    "main": true
+  },
+  "scikit-rf": {
+    "main": true
+  },
+  "scikit-sparse": {
+    "main": true
+  },
+  "scikit-spatial": {
+    "main": true
+  },
+  "scikit-surprise": {
+    "main": true
+  },
+  "scikit-survival": {
+    "main": true
+  },
+  "scikit-ued": {
+    "main": true
+  },
+  "scikit-umfpack": {
+    "main": true
+  },
+  "scikit-uplift": {
+    "main": true
+  },
+  "scikit-video": {
+    "main": true
+  },
+  "scikit_sundae": {
+    "main": true
+  },
+  "scikits-bootstrap": {
+    "main": true
+  },
+  "scikits.odes": {
+    "main": true
+  },
+  "scikits_odes_sundials": {
+    "main": true
+  },
+  "scilab": {
+    "main": true
+  },
+  "sciline": {
+    "main": true
+  },
+  "scilogger": {
+    "main": true
+  },
+  "sciluigi": {
+    "main": true
+  },
+  "scine-chemoton": {
+    "main": true
+  },
+  "scine-core": {
+    "main": true
+  },
+  "scine-database": {
+    "main": true
+  },
+  "scine-database-python": {
+    "main": true
+  },
+  "scine-molassembler": {
+    "main": true
+  },
+  "scine-puffin": {
+    "main": true
+  },
+  "scine-readuct": {
+    "main": true
+  },
+  "scine-sparrow": {
+    "main": true
+  },
+  "scine-sparrow-python": {
+    "main": true
+  },
+  "scine-utilities-python": {
+    "main": true
+  },
+  "scine-utilsos": {
+    "main": true
+  },
+  "scine-xtb": {
+    "main": true
+  },
+  "sciplot": {
+    "main": true
+  },
+  "scipoptsuite": {
+    "main": true
+  },
+  "scipp": {
+    "main": true
+  },
+  "scippneutron": {
+    "main": true
+  },
+  "scippnexus": {
+    "main": true
+  },
+  "scipy": {
+    "main": true
+  },
+  "scipy-doctest": {
+    "main": true
+  },
+  "scipy-events": {
+    "main": true
+  },
+  "scipy-stubs": {
+    "main": true
+  },
+  "scipy-sugar": {
+    "main": true
+  },
+  "scipyconference": {
+    "main": true
+  },
+  "scipydepr": {
+    "main": true
+  },
+  "sciris": {
+    "main": true
+  },
+  "scisave": {
+    "main": true
+  },
+  "scisoftpy": {
+    "main": true
+  },
+  "scisweeper": {
+    "main": true
+  },
+  "scitacean": {
+    "main": true
+  },
+  "scitiff": {
+    "main": true
+  },
+  "scitime": {
+    "main": true
+  },
+  "scitokens": {
+    "main": true
+  },
+  "scitokens-cpp": {
+    "main": true
+  },
+  "scitoolsscianalysis": {
+    "main": true
+  },
+  "sciunit": {
+    "main": true
+  },
+  "scmdata": {
+    "main": true
+  },
+  "scmorph": {
+    "main": true
+  },
+  "scmrepo": {
+    "main": true
+  },
+  "scons": {
+    "main": true
+  },
+  "scooby": {
+    "main": true
+  },
+  "scooter": {
+    "main": true
+  },
+  "scope": {
+    "main": true
+  },
+  "scope-bio": {
+    "main": true
+  },
+  "scorec": {
+    "main": true
+  },
+  "scorecard": {
+    "main": true
+  },
+  "scorecardpy": {
+    "main": true
+  },
+  "scores": {
+    "main": true
+  },
+  "scoringrules": {
+    "main": true
+  },
+  "scotch": {
+    "main": true
+  },
+  "scour": {
+    "main": true
+  },
+  "scp": {
+    "main": true
+  },
+  "scqubits": {
+    "main": true
+  },
+  "scramp": {
+    "main": true
+  },
+  "scrape-search-engine": {
+    "main": true
   }
 }
