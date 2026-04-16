@@ -7031,6 +7031,2040 @@
   "cdflib": {
     "main": true
   },
+  "cdislogging": {
+    "main": true
+  },
+  "cditools": {
+    "main": true
+  },
+  "cdk": {
+    "main": true
+  },
+  "cdk8s": {
+    "main": true
+  },
+  "cdlib": {
+    "main": true
+  },
+  "cdo": {
+    "main": true
+  },
+  "cds-crtools": {
+    "main": true
+  },
+  "cdsapi": {
+    "main": true
+  },
+  "cdsdashboards": {
+    "main": true
+  },
+  "cdsetool": {
+    "main": true
+  },
+  "cdshealpix": {
+    "main": true
+  },
+  "cdsodatacli": {
+    "main": true
+  },
+  "cdsswarm": {
+    "main": true
+  },
+  "cdsutils": {
+    "main": true
+  },
+  "cdt": {
+    "main": true
+  },
+  "ceffyl": {
+    "main": true
+  },
+  "cel-expr-python": {
+    "main": true
+  },
+  "cel-python": {
+    "main": true
+  },
+  "cel-spec-proto-python": {
+    "main": true
+  },
+  "celer": {
+    "main": true
+  },
+  "celeri": {
+    "main": true
+  },
+  "celeries": {
+    "main": true
+  },
+  "celerite": {
+    "main": true
+  },
+  "celerite2": {
+    "main": true
+  },
+  "celery": {
+    "main": true
+  },
+  "celery-eternal": {
+    "main": true
+  },
+  "celery-redbeat": {
+    "main": true
+  },
+  "celery-singleton": {
+    "main": true
+  },
+  "celery-types": {
+    "main": true
+  },
+  "celiagg": {
+    "main": true
+  },
+  "cell_tree2d": {
+    "main": true
+  },
+  "cellconstructor": {
+    "main": true
+  },
+  "cellfinder": {
+    "main": true
+  },
+  "cellfinder-core": {
+    "main": true
+  },
+  "cellfinder-napari": {
+    "main": true
+  },
+  "cellhint": {
+    "main": true
+  },
+  "cellpose": {
+    "main": true
+  },
+  "cellpose-napari": {
+    "main": true
+  },
+  "cellpy": {
+    "main": true
+  },
+  "cellrank": {
+    "main": true
+  },
+  "celluloid": {
+    "main": true
+  },
+  "cellxgene-census": {
+    "main": true
+  },
+  "celq": {
+    "main": true
+  },
+  "cem": {
+    "main": true
+  },
+  "cement": {
+    "main": true
+  },
+  "cenpy": {
+    "main": true
+  },
+  "censo": {
+    "main": true
+  },
+  "census": {
+    "main": true
+  },
+  "census-parquet": {
+    "main": true
+  },
+  "centerline": {
+    "main": true
+  },
+  "centrally-managed-conda": {
+    "main": true
+  },
+  "cerbere": {
+    "main": true
+  },
+  "cerberecontrib-ghrsst": {
+    "main": true
+  },
+  "cerberecontrib-s3": {
+    "main": true
+  },
+  "cerberus": {
+    "main": true
+  },
+  "cereal": {
+    "main": true
+  },
+  "ceres-solver": {
+    "main": true
+  },
+  "cerf": {
+    "main": true
+  },
+  "cern-sso-cli": {
+    "main": true
+  },
+  "cernopendata-client": {
+    "main": true
+  },
+  "certbot": {
+    "main": true
+  },
+  "certbot-apache": {
+    "main": true
+  },
+  "certbot-dns-cloudflare": {
+    "main": true
+  },
+  "certbot-dns-digitalocean": {
+    "main": true
+  },
+  "certbot-dns-dnsimple": {
+    "main": true
+  },
+  "certbot-dns-dnsmadeeasy": {
+    "main": true
+  },
+  "certbot-dns-gehirn": {
+    "main": true
+  },
+  "certbot-dns-google": {
+    "main": true
+  },
+  "certbot-dns-linode": {
+    "main": true
+  },
+  "certbot-dns-luadns": {
+    "main": true
+  },
+  "certbot-dns-nsone": {
+    "main": true
+  },
+  "certbot-dns-ovh": {
+    "main": true
+  },
+  "certbot-dns-rfc2136": {
+    "main": true
+  },
+  "certbot-dns-route53": {
+    "main": true
+  },
+  "certbot-dns-sakuracloud": {
+    "main": true
+  },
+  "certbot-nginx": {
+    "main": true
+  },
+  "certifi": {
+    "main": true
+  },
+  "certipy": {
+    "main": true
+  },
+  "cesard": {
+    "main": true
+  },
+  "cesium": {
+    "main": true
+  },
+  "cexprtk": {
+    "main": true
+  },
+  "cf-autotick-bot-test-package": {
+    "main": true
+  },
+  "cf-job-logs": {
+    "main": true
+  },
+  "cf-m2-build-bat": {
+    "main": true
+  },
+  "cf-nvidia-tools": {
+    "main": true
+  },
+  "cf-plot": {
+    "main": true
+  },
+  "cf-python": {
+    "main": true
+  },
+  "cf_pandas": {
+    "main": true
+  },
+  "cf_units": {
+    "main": true
+  },
+  "cf_xarray": {
+    "main": true
+  },
+  "cfanalytics": {
+    "main": true
+  },
+  "cfchecker": {
+    "main": true
+  },
+  "cfdm": {
+    "main": true
+  },
+  "cfenv": {
+    "main": true
+  },
+  "cffconvert": {
+    "main": true
+  },
+  "cffi": {
+    "main": true
+  },
+  "cffi-buildtool": {
+    "main": true
+  },
+  "cffsubr": {
+    "main": true
+  },
+  "cfg": {
+    "main": true
+  },
+  "cfg-cli": {
+    "main": true
+  },
+  "cfgraph": {
+    "main": true
+  },
+  "cfgrib": {
+    "main": true
+  },
+  "cfgv": {
+    "main": true
+  },
+  "cfitsio": {
+    "main": true
+  },
+  "cflow": {
+    "main": true
+  },
+  "cfn-flip": {
+    "main": true
+  },
+  "cfn-lint": {
+    "main": true
+  },
+  "cfncluster": {
+    "main": true
+  },
+  "cfortran-cfitsio": {
+    "main": true
+  },
+  "cfs3": {
+    "main": true
+  },
+  "cftime": {
+    "main": true
+  },
+  "cfunits": {
+    "main": true
+  },
+  "cgal": {
+    "main": true
+  },
+  "cgal-cpp": {
+    "main": true
+  },
+  "cgen": {
+    "main": true
+  },
+  "cget": {
+    "main": true
+  },
+  "cglm": {
+    "main": true
+  },
+  "cgns": {
+    "main": true
+  },
+  "cgroupspy": {
+    "main": true
+  },
+  "cgsi-gsoap": {
+    "main": true
+  },
+  "cgsn_parsers": {
+    "main": true
+  },
+  "cgsn_processing": {
+    "main": true
+  },
+  "chacha20poly1305-reuseable": {
+    "main": true
+  },
+  "chafa": {
+    "main": true
+  },
+  "chafer": {
+    "main": true
+  },
+  "chai": {
+    "main": true
+  },
+  "chainer": {
+    "main": true
+  },
+  "chainladder": {
+    "main": true
+  },
+  "chainlit": {
+    "main": true
+  },
+  "chainmap": {
+    "main": true
+  },
+  "chalice": {
+    "main": true
+  },
+  "chalk": {
+    "main": true
+  },
+  "chalk-diagrams": {
+    "main": true
+  },
+  "chameleon": {
+    "main": true
+  },
+  "champ": {
+    "main": true
+  },
+  "changeforest": {
+    "main": true
+  },
+  "changelist": {
+    "main": true
+  },
+  "changelog-chug": {
+    "main": true
+  },
+  "channelarchiver": {
+    "main": true
+  },
+  "channels": {
+    "main": true
+  },
+  "channels_redis": {
+    "main": true
+  },
+  "chaospy": {
+    "main": true
+  },
+  "charasay": {
+    "main": true
+  },
+  "chardet": {
+    "main": true
+  },
+  "chargemol": {
+    "main": true
+  },
+  "charidotella": {
+    "main": true
+  },
+  "charliecloud": {
+    "main": true
+  },
+  "charls": {
+    "main": true
+  },
+  "chars": {
+    "main": true
+  },
+  "charset-normalizer": {
+    "main": true
+  },
+  "chart-studio": {
+    "main": true
+  },
+  "chart-testing": {
+    "main": true
+  },
+  "chart.js": {
+    "main": true
+  },
+  "chartify": {
+    "main": true
+  },
+  "chartkick": {
+    "main": true
+  },
+  "chartlets": {
+    "main": true
+  },
+  "chartpress": {
+    "main": true
+  },
+  "chatom": {
+    "main": true
+  },
+  "chbshash": {
+    "main": true
+  },
+  "chealpix": {
+    "main": true
+  },
+  "cheap_repr": {
+    "main": true
+  },
+  "cheat": {
+    "main": true
+  },
+  "chebfun": {
+    "main": true
+  },
+  "check": {
+    "main": true
+  },
+  "check-dist": {
+    "main": true
+  },
+  "check-internet-speed": {
+    "main": true
+  },
+  "check-jsonschema": {
+    "main": true
+  },
+  "check-manifest": {
+    "main": true
+  },
+  "check-wheel-contents": {
+    "main": true
+  },
+  "check_shapes": {
+    "main": true
+  },
+  "checklist": {
+    "main": true
+  },
+  "checkmake": {
+    "main": true
+  },
+  "checkmarxpythonsdk": {
+    "main": true
+  },
+  "checkmate": {
+    "main": true
+  },
+  "checkov": {
+    "main": true
+  },
+  "checkstyle": {
+    "main": true
+  },
+  "checksumdir": {
+    "main": true
+  },
+  "cheetah3": {
+    "main": true
+  },
+  "chembl_structure_pipeline": {
+    "main": true
+  },
+  "chembl_webresource_client": {
+    "main": true
+  },
+  "chemcat": {
+    "main": true
+  },
+  "chemcoord": {
+    "main": true
+  },
+  "chemdataextractor": {
+    "main": true
+  },
+  "chemdiagrams": {
+    "main": true
+  },
+  "chemdyg": {
+    "main": true
+  },
+  "chemem": {
+    "main": true
+  },
+  "chemex": {
+    "main": true
+  },
+  "chemfiles": {
+    "main": true
+  },
+  "chemfiles-lib": {
+    "main": true
+  },
+  "chemfiles-python": {
+    "main": true
+  },
+  "chemformula": {
+    "main": true
+  },
+  "chemicalfun": {
+    "main": true
+  },
+  "chemicalite": {
+    "main": true
+  },
+  "chemicals": {
+    "main": true
+  },
+  "chemics": {
+    "main": true
+  },
+  "chemiscope": {
+    "main": true
+  },
+  "chemlite": {
+    "main": true
+  },
+  "chemml": {
+    "main": true
+  },
+  "chemnlp": {
+    "main": true
+  },
+  "chemotools": {
+    "main": true
+  },
+  "chemparse": {
+    "main": true
+  },
+  "chemper": {
+    "main": true
+  },
+  "chemplot": {
+    "main": true
+  },
+  "chemprop": {
+    "main": true
+  },
+  "chempy": {
+    "main": true
+  },
+  "chemsolve": {
+    "main": true
+  },
+  "chemspipy": {
+    "main": true
+  },
+  "cherab": {
+    "main": true
+  },
+  "cherab-imas": {
+    "main": true
+  },
+  "cherab-inversion": {
+    "main": true
+  },
+  "cherab-lhd": {
+    "main": true
+  },
+  "cherab-nagdis": {
+    "main": true
+  },
+  "cheroot": {
+    "main": true
+  },
+  "cherry-picker": {
+    "main": true
+  },
+  "cherrypy": {
+    "main": true
+  },
+  "chess": {
+    "main": true
+  },
+  "chessanalysispipeline": {
+    "main": true
+  },
+  "chessnut": {
+    "main": true
+  },
+  "chest": {
+    "main": true
+  },
+  "chevron": {
+    "main": true
+  },
+  "chex": {
+    "main": true
+  },
+  "chexus": {
+    "main": true
+  },
+  "chezmoi": {
+    "main": true
+  },
+  "chfem": {
+    "main": true
+  },
+  "chgnet": {
+    "main": true
+  },
+  "chi2comb": {
+    "main": true
+  },
+  "chi2comb-py": {
+    "main": true
+  },
+  "chiantipy": {
+    "main": true
+  },
+  "child": {
+    "main": true
+  },
+  "chilife": {
+    "main": true
+  },
+  "chime": {
+    "main": true
+  },
+  "chimes-calculator": {
+    "main": true
+  },
+  "chinese-whispers": {
+    "main": true
+  },
+  "chiral-transfermatrix": {
+    "main": true
+  },
+  "chiscore": {
+    "main": true
+  },
+  "chitra": {
+    "main": true
+  },
+  "chktex": {
+    "main": true
+  },
+  "choclo": {
+    "main": true
+  },
+  "choice-learn": {
+    "main": true
+  },
+  "choicemodels": {
+    "main": true
+  },
+  "choix": {
+    "main": true
+  },
+  "chooch": {
+    "main": true
+  },
+  "choose-rust": {
+    "main": true
+  },
+  "chopin2": {
+    "main": true
+  },
+  "choppa": {
+    "main": true
+  },
+  "choreographer": {
+    "main": true
+  },
+  "chowlk-unofficial-fork": {
+    "main": true
+  },
+  "chroma-hnswlib": {
+    "main": true
+  },
+  "chroma-py": {
+    "main": true
+  },
+  "chromadb": {
+    "main": true
+  },
+  "chromedriver-autoinstaller": {
+    "main": true
+  },
+  "chronic": {
+    "main": true
+  },
+  "chronon-ai": {
+    "main": true
+  },
+  "chrony": {
+    "main": true
+  },
+  "chrpath": {
+    "main": true
+  },
+  "chumpy": {
+    "main": true
+  },
+  "chunky3d": {
+    "main": true
+  },
+  "chxtools": {
+    "main": true
+  },
+  "ci-info": {
+    "main": true
+  },
+  "ci-sdr": {
+    "main": true
+  },
+  "cibots": {
+    "main": true
+  },
+  "cibuildwheel": {
+    "main": true
+  },
+  "ciecplib": {
+    "main": true
+  },
+  "cif2cell": {
+    "main": true
+  },
+  "cif2hkl": {
+    "main": true
+  },
+  "cifkit": {
+    "main": true
+  },
+  "cifti": {
+    "main": true
+  },
+  "cigetcert": {
+    "main": true
+  },
+  "cime_gen_domain": {
+    "main": true
+  },
+  "cimg": {
+    "main": true
+  },
+  "cinemagoer": {
+    "main": true
+  },
+  "cinemagoerng": {
+    "main": true
+  },
+  "cinnabar": {
+    "main": true
+  },
+  "ciocheck": {
+    "main": true
+  },
+  "circle-fit": {
+    "main": true
+  },
+  "circleci": {
+    "main": true
+  },
+  "circleclient": {
+    "main": true
+  },
+  "circlify": {
+    "main": true
+  },
+  "circuitbreaker": {
+    "main": true
+  },
+  "circuitq": {
+    "main": true
+  },
+  "circuits": {
+    "main": true
+  },
+  "circus": {
+    "main": true
+  },
+  "cirpy": {
+    "main": true
+  },
+  "cirq": {
+    "main": true
+  },
+  "cirun": {
+    "main": true
+  },
+  "cis": {
+    "main": true
+  },
+  "cis_interface": {
+    "main": true
+  },
+  "ciso": {
+    "main": true
+  },
+  "ciso8601": {
+    "main": true
+  },
+  "cistern": {
+    "main": true
+  },
+  "citation-compass": {
+    "main": true
+  },
+  "cite": {
+    "main": true
+  },
+  "citeproc-py": {
+    "main": true
+  },
+  "citric": {
+    "main": true
+  },
+  "citrination-client": {
+    "main": true
+  },
+  "city2graph": {
+    "main": true
+  },
+  "cityhash": {
+    "main": true
+  },
+  "civet": {
+    "main": true
+  },
+  "cjdk": {
+    "main": true
+  },
+  "ckan": {
+    "main": true
+  },
+  "ckan-editor-utils": {
+    "main": true
+  },
+  "ckanapi": {
+    "main": true
+  },
+  "ckmeans-1d-dp": {
+    "main": true
+  },
+  "ckmutil": {
+    "main": true
+  },
+  "ckzg": {
+    "main": true
+  },
+  "clad": {
+    "main": true
+  },
+  "clamd": {
+    "main": true
+  },
+  "clang-compiler-activation": {
+    "main": true
+  },
+  "clang-format-docs": {
+    "main": true
+  },
+  "clang-win-activation": {
+    "main": true
+  },
+  "clangdev": {
+    "main": true
+  },
+  "clapack": {
+    "main": true
+  },
+  "clapper": {
+    "main": true
+  },
+  "clarabel": {
+    "main": true
+  },
+  "class-resolver": {
+    "main": true
+  },
+  "classify-imports": {
+    "main": true
+  },
+  "classixclustering": {
+    "main": true
+  },
+  "classproperties": {
+    "main": true
+  },
+  "classy_vision": {
+    "main": true
+  },
+  "classyconf": {
+    "main": true
+  },
+  "claude-agent-acp": {
+    "main": true
+  },
+  "claude-agent-sdk": {
+    "main": true
+  },
+  "claude-code-sdk": {
+    "main": true
+  },
+  "clawpack": {
+    "main": true
+  },
+  "clblas": {
+    "main": true
+  },
+  "clblast": {
+    "main": true
+  },
+  "clcache": {
+    "main": true
+  },
+  "cld2-cffi": {
+    "main": true
+  },
+  "clean-notebook": {
+    "main": true
+  },
+  "clean-text": {
+    "main": true
+  },
+  "cleanco": {
+    "main": true
+  },
+  "cleanlab": {
+    "main": true
+  },
+  "cleantext": {
+    "main": true
+  },
+  "clearml": {
+    "main": true
+  },
+  "clearml-agent": {
+    "main": true
+  },
+  "clease": {
+    "main": true
+  },
+  "clease-gui": {
+    "main": true
+  },
+  "cleo": {
+    "main": true
+  },
+  "cleopatra": {
+    "main": true
+  },
+  "cleverdict": {
+    "main": true
+  },
+  "cleverhans": {
+    "main": true
+  },
+  "clfft": {
+    "main": true
+  },
+  "clhep": {
+    "main": true
+  },
+  "clhpp": {
+    "main": true
+  },
+  "cli-exit-tools": {
+    "main": true
+  },
+  "cli-ui": {
+    "main": true
+  },
+  "cli11": {
+    "main": true
+  },
+  "cli_helpers": {
+    "main": true
+  },
+  "cliche": {
+    "main": true
+  },
+  "click": {
+    "main": true
+  },
+  "click-aliases": {
+    "main": true
+  },
+  "click-completion": {
+    "main": true
+  },
+  "click-configfile": {
+    "main": true
+  },
+  "click-default-group": {
+    "main": true
+  },
+  "click-default-group-wheel": {
+    "main": true
+  },
+  "click-didyoumean": {
+    "main": true
+  },
+  "click-help-colors": {
+    "main": true
+  },
+  "click-log": {
+    "main": true
+  },
+  "click-loglevel": {
+    "main": true
+  },
+  "click-option-group": {
+    "main": true
+  },
+  "click-params": {
+    "main": true
+  },
+  "click-plugins": {
+    "main": true
+  },
+  "click-repl": {
+    "main": true
+  },
+  "click-rich-help": {
+    "main": true
+  },
+  "click-shell": {
+    "main": true
+  },
+  "click-spinner": {
+    "main": true
+  },
+  "click_config_file": {
+    "main": true
+  },
+  "clickclick": {
+    "main": true
+  },
+  "clickhouse-cityhash": {
+    "main": true
+  },
+  "clickhouse-connect": {
+    "main": true
+  },
+  "clickhouse-driver": {
+    "main": true
+  },
+  "clickhouse-odbc": {
+    "main": true
+  },
+  "clickhouse-sqlalchemy": {
+    "main": true
+  },
+  "clickqt": {
+    "main": true
+  },
+  "clickqt-utils": {
+    "main": true
+  },
+  "cliff": {
+    "main": true
+  },
+  "clifford": {
+    "main": true
+  },
+  "cliffordlayers": {
+    "main": true
+  },
+  "cligj": {
+    "main": true
+  },
+  "clikit": {
+    "main": true
+  },
+  "climada": {
+    "main": true
+  },
+  "climada-petals": {
+    "main": true
+  },
+  "climata": {
+    "main": true
+  },
+  "climateclaw": {
+    "main": true
+  },
+  "climatecontrol": {
+    "main": true
+  },
+  "climb-onyx-client": {
+    "main": true
+  },
+  "climepi": {
+    "main": true
+  },
+  "climix": {
+    "main": true
+  },
+  "climkern": {
+    "main": true
+  },
+  "climlab": {
+    "main": true
+  },
+  "climlab-cam3-radiation": {
+    "main": true
+  },
+  "climlab-emanuel-convection": {
+    "main": true
+  },
+  "climlab-rrtmg": {
+    "main": true
+  },
+  "climlab-sbm-convection": {
+    "main": true
+  },
+  "climpred": {
+    "main": true
+  },
+  "clinfo": {
+    "main": true
+  },
+  "cling": {
+    "main": true
+  },
+  "cling-patches": {
+    "main": true
+  },
+  "clingcon": {
+    "main": true
+  },
+  "clingo": {
+    "main": true
+  },
+  "clingo-dl": {
+    "main": true
+  },
+  "clingo-lp": {
+    "main": true
+  },
+  "clingo-lpx": {
+    "main": true
+  },
+  "clint": {
+    "main": true
+  },
+  "clio-tools": {
+    "main": true
+  },
+  "clipboard": {
+    "main": true
+  },
+  "cliquer": {
+    "main": true
+  },
+  "clisops": {
+    "main": true
+  },
+  "clize": {
+    "main": true
+  },
+  "clmm": {
+    "main": true
+  },
+  "clojure": {
+    "main": true
+  },
+  "clorm": {
+    "main": true
+  },
+  "closely": {
+    "main": true
+  },
+  "closure": {
+    "main": true
+  },
+  "cloud-data-connector": {
+    "main": true
+  },
+  "cloud-sql-proxy": {
+    "main": true
+  },
+  "cloud-sql-python-connector": {
+    "main": true
+  },
+  "cloud_sptheme": {
+    "main": true
+  },
+  "cloudant": {
+    "main": true
+  },
+  "clouddrift": {
+    "main": true
+  },
+  "cloudevents": {
+    "main": true
+  },
+  "cloudflare": {
+    "main": true
+  },
+  "cloudml-hypertune": {
+    "main": true
+  },
+  "cloudpathlib": {
+    "main": true
+  },
+  "cloudpickle": {
+    "main": true
+  },
+  "cloudsaga": {
+    "main": true
+  },
+  "cloudsplaining": {
+    "main": true
+  },
+  "cloudstorage": {
+    "main": true
+  },
+  "cloup": {
+    "main": true
+  },
+  "cloupy": {
+    "main": true
+  },
+  "clpeak": {
+    "main": true
+  },
+  "clr_loader": {
+    "main": true
+  },
+  "clrng": {
+    "main": true
+  },
+  "clsparse": {
+    "main": true
+  },
+  "clspv": {
+    "main": true
+  },
+  "cltoolbox": {
+    "main": true
+  },
+  "clumper": {
+    "main": true
+  },
+  "cluster-lensing": {
+    "main": true
+  },
+  "cluster_tools": {
+    "main": true
+  },
+  "clustercleaver": {
+    "main": true
+  },
+  "clustergram": {
+    "main": true
+  },
+  "clusterpilot": {
+    "main": true
+  },
+  "clusterrunner": {
+    "main": true
+  },
+  "clusterscope": {
+    "main": true
+  },
+  "clusterutils": {
+    "main": true
+  },
+  "clusterx": {
+    "main": true
+  },
+  "clyent": {
+    "main": true
+  },
+  "clyngor": {
+    "main": true
+  },
+  "clypi": {
+    "main": true
+  },
+  "cm": {
+    "main": true
+  },
+  "cm-unicode": {
+    "main": true
+  },
+  "cma": {
+    "main": true
+  },
+  "cma-es": {
+    "main": true
+  },
+  "cmaes": {
+    "main": true
+  },
+  "cmake": {
+    "main": true
+  },
+  "cmake-build-extension": {
+    "main": true
+  },
+  "cmake-format": {
+    "main": true
+  },
+  "cmake-js": {
+    "main": true
+  },
+  "cmake-language-server": {
+    "main": true
+  },
+  "cmake-no-system": {
+    "main": true
+  },
+  "cmake-package-check": {
+    "main": true
+  },
+  "cmake_format": {
+    "main": true
+  },
+  "cmakefmt": {
+    "main": true
+  },
+  "cmakelang": {
+    "main": true
+  },
+  "cmakelint": {
+    "main": true
+  },
+  "cmap": {
+    "main": true
+  },
+  "cmaps": {
+    "main": true
+  },
+  "cmapy": {
+    "main": true
+  },
+  "cmark-gfm": {
+    "main": true
+  },
+  "cmarkgfm": {
+    "main": true
+  },
+  "cmasher": {
+    "main": true
+  },
+  "cmcrameri": {
+    "main": true
+  },
+  "cmd2": {
+    "main": true
+  },
+  "cmder": {
+    "main": true
+  },
+  "cmdline_provenance": {
+    "main": true
+  },
+  "cmdstan": {
+    "main": true
+  },
+  "cmdstanpy": {
+    "main": true
+  },
+  "cmec_driver": {
+    "main": true
+  },
+  "cmeutils": {
+    "main": true
+  },
+  "cmigemo": {
+    "main": true
+  },
+  "cmiles": {
+    "main": true
+  },
+  "cminpack": {
+    "main": true
+  },
+  "cmip6_preprocessing": {
+    "main": true
+  },
+  "cmip7-repack": {
+    "main": true
+  },
+  "cml_wd_pytorch": {
+    "main": true
+  },
+  "cmlgenerator": {
+    "main": true
+  },
+  "cmlib": {
+    "main": true
+  },
+  "cmocean": {
+    "main": true
+  },
+  "cmocka": {
+    "main": true
+  },
+  "cmomy": {
+    "main": true
+  },
+  "cmor": {
+    "main": true
+  },
+  "cmpitool": {
+    "main": true
+  },
+  "cmplxfoil": {
+    "main": true
+  },
+  "cmreshandler": {
+    "main": true
+  },
+  "cmrt": {
+    "main": true
+  },
+  "cms-combine": {
+    "main": true
+  },
+  "cms-md5": {
+    "main": true
+  },
+  "cmsis-pack-manager": {
+    "main": true
+  },
+  "cmudict": {
+    "main": true
+  },
+  "cmweather": {
+    "main": true
+  },
+  "cmyt": {
+    "main": true
+  },
+  "cni": {
+    "main": true
+  },
+  "cni-plugins": {
+    "main": true
+  },
+  "cnmaps": {
+    "main": true
+  },
+  "cnmfsns": {
+    "main": true
+  },
+  "cnsr": {
+    "main": true
+  },
+  "cnv-phenopacket": {
+    "main": true
+  },
+  "cnv-vcf2json": {
+    "main": true
+  },
+  "coacd": {
+    "main": true
+  },
+  "coal": {
+    "main": true
+  },
+  "coastal-cascade": {
+    "main": true
+  },
+  "coastal-dune-model": {
+    "main": true
+  },
+  "coastsat-package": {
+    "main": true
+  },
+  "coastseg": {
+    "main": true
+  },
+  "cobble": {
+    "main": true
+  },
+  "cobra": {
+    "main": true
+  },
+  "cobra-component-models": {
+    "main": true
+  },
+  "cobyqa": {
+    "main": true
+  },
+  "cocat": {
+    "main": true
+  },
+  "cocina": {
+    "main": true
+  },
+  "cockroachdb-python": {
+    "main": true
+  },
+  "coco": {
+    "main": true
+  },
+  "coconut": {
+    "main": true
+  },
+  "cocopye": {
+    "main": true
+  },
+  "cocotb": {
+    "main": true
+  },
+  "coda": {
+    "main": true
+  },
+  "codacy-coverage": {
+    "main": true
+  },
+  "code-aster": {
+    "main": true
+  },
+  "code-minimap": {
+    "main": true
+  },
+  "code-notify": {
+    "main": true
+  },
+  "code-server": {
+    "main": true
+  },
+  "code2flow": {
+    "main": true
+  },
+  "codebook-lsp": {
+    "main": true
+  },
+  "codebraid": {
+    "main": true
+  },
+  "codec2": {
+    "main": true
+  },
+  "codecarbon": {
+    "main": true
+  },
+  "codechecker": {
+    "main": true
+  },
+  "codechembook": {
+    "main": true
+  },
+  "codeclimate-test-reporter": {
+    "main": true
+  },
+  "codecov": {
+    "main": true
+  },
+  "coded-flows": {
+    "main": true
+  },
+  "codefind": {
+    "main": true
+  },
+  "codeflash": {
+    "main": true
+  },
+  "codeflash-benchmark": {
+    "main": true
+  },
+  "codeguru_profiler_agent": {
+    "main": true
+  },
+  "codem": {
+    "main": true
+  },
+  "codemodel": {
+    "main": true
+  },
+  "codepy": {
+    "main": true
+  },
+  "coderedcms": {
+    "main": true
+  },
+  "codes-ui": {
+    "main": true
+  },
+  "codespell": {
+    "main": true
+  },
+  "codetiming": {
+    "main": true
+  },
+  "codeval": {
+    "main": true
+  },
+  "codex": {
+    "main": true
+  },
+  "codext": {
+    "main": true
+  },
+  "coexist": {
+    "main": true
+  },
+  "coffea": {
+    "main": true
+  },
+  "coffeescript": {
+    "main": true
+  },
+  "coffeesense-language-server": {
+    "main": true
+  },
+  "cofi": {
+    "main": true
+  },
+  "cog3pio": {
+    "main": true
+  },
+  "cogapp": {
+    "main": true
+  },
+  "cogdl": {
+    "main": true
+  },
+  "cogeo-mosaic": {
+    "main": true
+  },
+  "cogger": {
+    "main": true
+  },
+  "cognite-sdk": {
+    "main": true
+  },
+  "cognitive_complexity": {
+    "main": true
+  },
+  "cogwheel-pe": {
+    "main": true
+  },
+  "cohere": {
+    "main": true
+  },
+  "cohesion": {
+    "main": true
+  },
+  "coiled": {
+    "main": true
+  },
+  "coiled-cloud": {
+    "main": true
+  },
+  "coiled-runtime": {
+    "main": true
+  },
+  "coin-or-cbc": {
+    "main": true
+  },
+  "coin-or-cgl": {
+    "main": true
+  },
+  "coin-or-clp": {
+    "main": true
+  },
+  "coin-or-osi": {
+    "main": true
+  },
+  "coin-or-utils": {
+    "main": true
+  },
+  "coin3d": {
+    "main": true
+  },
+  "coinbase-advanced-py": {
+    "main": true
+  },
+  "coinbonmin": {
+    "main": true
+  },
+  "coincurve": {
+    "main": true
+  },
+  "coinmp": {
+    "main": true
+  },
+  "colander": {
+    "main": true
+  },
+  "colbert-ai": {
+    "main": true
+  },
+  "colcon-argcomplete": {
+    "main": true
+  },
+  "colcon-bash": {
+    "main": true
+  },
+  "colcon-cd": {
+    "main": true
+  },
+  "colcon-cmake": {
+    "main": true
+  },
+  "colcon-common-extensions": {
+    "main": true
+  },
+  "colcon-core": {
+    "main": true
+  },
+  "colcon-defaults": {
+    "main": true
+  },
+  "colcon-devtools": {
+    "main": true
+  },
+  "colcon-library-path": {
+    "main": true
+  },
+  "colcon-metadata": {
+    "main": true
+  },
+  "colcon-mixin": {
+    "main": true
+  },
+  "colcon-notification": {
+    "main": true
+  },
+  "colcon-output": {
+    "main": true
+  },
+  "colcon-package-information": {
+    "main": true
+  },
+  "colcon-package-selection": {
+    "main": true
+  },
+  "colcon-parallel-executor": {
+    "main": true
+  },
+  "colcon-pkg-config": {
+    "main": true
+  },
+  "colcon-powershell": {
+    "main": true
+  },
+  "colcon-python-setup-py": {
+    "main": true
+  },
+  "colcon-recursive-crawl": {
+    "main": true
+  },
+  "colcon-ros": {
+    "main": true
+  },
+  "colcon-ros-domain-id-coordinator": {
+    "main": true
+  },
+  "colcon-test-result": {
+    "main": true
+  },
+  "colcon-zsh": {
+    "main": true
+  },
+  "coldtype": {
+    "main": true
+  },
+  "coldtype-fontgoggles": {
+    "main": true
+  },
+  "colgrep": {
+    "main": true
+  },
+  "colicoords": {
+    "main": true
+  },
+  "colima": {
+    "main": true
+  },
+  "collada-dom": {
+    "main": true
+  },
+  "collate-data-diff": {
+    "main": true
+  },
+  "collate-sqlfluff": {
+    "main": true
+  },
+  "collate-sqllineage": {
+    "main": true
+  },
+  "collatex-python": {
+    "main": true
+  },
+  "collectfast": {
+    "main": true
+  },
+  "collectfasta": {
+    "main": true
+  },
+  "collections-extended": {
+    "main": true
+  },
+  "collections-undo": {
+    "main": true
+  },
+  "collier": {
+    "main": true
+  },
+  "colmap": {
+    "main": true
+  },
+  "colmena": {
+    "main": true
+  },
+  "coloc_sat": {
+    "main": true
+  },
+  "color-operations": {
+    "main": true
+  },
+  "coloraide": {
+    "main": true
+  },
+  "colorama": {
+    "main": true
+  },
+  "colorcet": {
+    "main": true
+  },
+  "colorclass": {
+    "main": true
+  },
+  "colordict": {
+    "main": true
+  },
+  "colordiff": {
+    "main": true
+  },
+  "colored": {
+    "main": true
+  },
+  "colored-traceback": {
+    "main": true
+  },
+  "coloredlogs": {
+    "main": true
+  },
+  "colorful": {
+    "main": true
+  },
+  "colorhash": {
+    "main": true
+  },
+  "colorir": {
+    "main": true
+  },
+  "colorlog": {
+    "main": true
+  },
+  "colorlover": {
+    "main": true
+  },
+  "colormap": {
+    "main": true
+  },
+  "colormaps": {
+    "main": true
+  },
+  "colormath": {
+    "main": true
+  },
+  "colorpedia": {
+    "main": true
+  },
+  "colorspacious": {
+    "main": true
+  },
+  "colour": {
+    "main": true
+  },
+  "colour-checker-detection": {
+    "main": true
+  },
+  "colour-demosaicing": {
+    "main": true
+  },
+  "colour-runner": {
+    "main": true
+  },
+  "colour-science": {
+    "main": true
+  },
+  "colourmap": {
+    "main": true
+  },
+  "colourtime": {
+    "main": true
+  },
+  "colt5-attention": {
+    "main": true
+  },
+  "columnize": {
+    "main": true
+  },
+  "combine": {
+    "main": true
+  },
+  "combo": {
+    "main": true
+  },
+  "comet": {
+    "main": true
+  },
+  "comet-ml": {
+    "main": true
+  },
+  "comlrl": {
+    "main": true
+  },
+  "comm": {
+    "main": true
+  },
+  "command_line_tools": {
+    "main": true
+  },
+  "commanderline": {
+    "main": true
+  },
+  "commandlines": {
+    "main": true
+  },
+  "commentjson": {
+    "main": true
+  },
+  "commit-and-tag-version": {
+    "main": true
+  },
+  "commitizen": {
+    "main": true
+  },
+  "commitlint": {
+    "main": true
+  },
+  "commitlint-rs": {
+    "main": true
+  },
+  "commlib-py": {
+    "main": true
+  },
+  "commonmark": {
+    "main": true
+  },
+  "commonregex": {
+    "main": true
+  },
+  "compact-json": {
+    "main": true
+  },
+  "compaction": {
+    "main": true
+  },
+  "compare-requirements": {
+    "main": true
+  },
+  "compas": {
+    "main": true
+  },
+  "compas-rv2": {
+    "main": true
+  },
   "r-fauxpas": {
     "main": true
   },
