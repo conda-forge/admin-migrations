@@ -3212,6 +3212,2301 @@
   "atomate2": {
     "main": true
   },
+  "atomgpt": {
+    "main": true
+  },
+  "atomic-counter": {
+    "main": true
+  },
+  "atomic-hpc": {
+    "main": true
+  },
+  "atomicfile": {
+    "main": true
+  },
+  "atomicrex": {
+    "main": true
+  },
+  "atomicwrites": {
+    "main": true
+  },
+  "atomistics": {
+    "main": true
+  },
+  "atomium": {
+    "main": true
+  },
+  "atomlite": {
+    "main": true
+  },
+  "atomman": {
+    "main": true
+  },
+  "atomneb": {
+    "main": true
+  },
+  "atompaw": {
+    "main": true
+  },
+  "atomrdf": {
+    "main": true
+  },
+  "atomsk": {
+    "main": true
+  },
+  "atool": {
+    "main": true
+  },
+  "atool2": {
+    "main": true
+  },
+  "atpbar": {
+    "main": true
+  },
+  "atproto": {
+    "main": true
+  },
+  "atpublic": {
+    "main": true
+  },
+  "atsas-pipelines": {
+    "main": true
+  },
+  "atsim-potentials": {
+    "main": true
+  },
+  "attmap": {
+    "main": true
+  },
+  "attr": {
+    "main": true
+  },
+  "attrdict": {
+    "main": true
+  },
+  "attrdict3": {
+    "main": true
+  },
+  "attributedict": {
+    "main": true
+  },
+  "attributes-doc": {
+    "main": true
+  },
+  "attrmap": {
+    "main": true
+  },
+  "attrs": {
+    "main": true
+  },
+  "attrs-sqlalchemy": {
+    "main": true
+  },
+  "attrs-strict": {
+    "main": true
+  },
+  "attune": {
+    "main": true
+  },
+  "atuin": {
+    "main": true
+  },
+  "aubio": {
+    "main": true
+  },
+  "audi": {
+    "main": true
+  },
+  "audio-separator": {
+    "main": true
+  },
+  "audiogrep": {
+    "main": true
+  },
+  "audioop-lts": {
+    "main": true
+  },
+  "audioread": {
+    "main": true
+  },
+  "auditwheel": {
+    "main": true
+  },
+  "auditwheel-emscripten": {
+    "main": true
+  },
+  "augment-nd": {
+    "main": true
+  },
+  "augmentor": {
+    "main": true
+  },
+  "augurs": {
+    "main": true
+  },
+  "aurelia-cli": {
+    "main": true
+  },
+  "aurora": {
+    "main": true
+  },
+  "aurora-ssg": {
+    "main": true
+  },
+  "aurorafusion": {
+    "main": true
+  },
+  "auroris": {
+    "main": true
+  },
+  "austin": {
+    "main": true
+  },
+  "austin-python": {
+    "main": true
+  },
+  "austin-tui": {
+    "main": true
+  },
+  "auth0-python": {
+    "main": true
+  },
+  "authenticatorpy": {
+    "main": true
+  },
+  "authlib": {
+    "main": true
+  },
+  "authres": {
+    "main": true
+  },
+  "authzed-py": {
+    "main": true
+  },
+  "auto-all": {
+    "main": true
+  },
+  "auto-changelog": {
+    "main": true
+  },
+  "auto-dotenv": {
+    "main": true
+  },
+  "auto-intersphinx": {
+    "main": true
+  },
+  "auto-labeling-pipeline": {
+    "main": true
+  },
+  "auto-optional": {
+    "main": true
+  },
+  "auto-round": {
+    "main": true
+  },
+  "auto-sklearn": {
+    "main": true
+  },
+  "auto-ts": {
+    "main": true
+  },
+  "auto3d": {
+    "main": true
+  },
+  "auto_gptq": {
+    "main": true
+  },
+  "auto_rxn": {
+    "main": true
+  },
+  "autobahn": {
+    "main": true
+  },
+  "autoboost": {
+    "main": true
+  },
+  "autobot-ml": {
+    "main": true
+  },
+  "autocfg": {
+    "main": true
+  },
+  "autoclick": {
+    "main": true
+  },
+  "autocnet": {
+    "main": true
+  },
+  "autocombobox": {
+    "main": true
+  },
+  "autocommand": {
+    "main": true
+  },
+  "autoconf": {
+    "main": true
+  },
+  "autoconf-archive": {
+    "main": true
+  },
+  "autocorrect": {
+    "main": true
+  },
+  "autocron": {
+    "main": true
+  },
+  "autodataman": {
+    "main": true
+  },
+  "autode": {
+    "main": true
+  },
+  "autodiff": {
+    "main": true
+  },
+  "autodoc-pydantic": {
+    "main": true
+  },
+  "autodoc-traits": {
+    "main": true
+  },
+  "autodocsumm": {
+    "main": true
+  },
+  "autodynatrace": {
+    "main": true
+  },
+  "autoeft": {
+    "main": true
+  },
+  "autoesda": {
+    "main": true
+  },
+  "autoflake": {
+    "main": true
+  },
+  "autogam": {
+    "main": true
+  },
+  "autogen-agentchat": {
+    "main": true
+  },
+  "autogen-core": {
+    "main": true
+  },
+  "autogluon": {
+    "main": true
+  },
+  "autogluon.common": {
+    "main": true
+  },
+  "autogluon.core": {
+    "main": true
+  },
+  "autogluon.features": {
+    "main": true
+  },
+  "autogluon.multimodal": {
+    "main": true
+  },
+  "autogluon.tabular": {
+    "main": true
+  },
+  "autogluon.text": {
+    "main": true
+  },
+  "autogluon.timeseries": {
+    "main": true
+  },
+  "autogluon.vision": {
+    "main": true
+  },
+  "autograd": {
+    "main": true
+  },
+  "autograd-gamma": {
+    "main": true
+  },
+  "autogrid": {
+    "main": true
+  },
+  "autokeras": {
+    "main": true
+  },
+  "autologging": {
+    "main": true
+  },
+  "automake": {
+    "main": true
+  },
+  "automan": {
+    "main": true
+  },
+  "automap": {
+    "main": true
+  },
+  "automat": {
+    "main": true
+  },
+  "automesh": {
+    "main": true
+  },
+  "autometrics": {
+    "main": true
+  },
+  "autopage": {
+    "main": true
+  },
+  "autopaths": {
+    "main": true
+  },
+  "autopep8": {
+    "main": true
+  },
+  "autopxd2": {
+    "main": true
+  },
+  "autoray": {
+    "main": true
+  },
+  "autoregistry": {
+    "main": true
+  },
+  "autoreject": {
+    "main": true
+  },
+  "autorift": {
+    "main": true
+  },
+  "autoscraper": {
+    "main": true
+  },
+  "autotools-language-server": {
+    "main": true
+  },
+  "autotools_clang_conda": {
+    "main": true
+  },
+  "autots": {
+    "main": true
+  },
+  "autouri": {
+    "main": true
+  },
+  "autoviz": {
+    "main": true
+  },
+  "autovizwidget": {
+    "main": true
+  },
+  "autowrap": {
+    "main": true
+  },
+  "autowrapt": {
+    "main": true
+  },
+  "auxiliary": {
+    "main": true
+  },
+  "av": {
+    "main": true
+  },
+  "av2": {
+    "main": true
+  },
+  "ava": {
+    "main": true
+  },
+  "avahi": {
+    "main": true
+  },
+  "avalanche-lib": {
+    "main": true
+  },
+  "avidaq": {
+    "main": true
+  },
+  "avro": {
+    "main": true
+  },
+  "avro-gen3": {
+    "main": true
+  },
+  "avro-json-serializer": {
+    "main": true
+  },
+  "avro-python3": {
+    "main": true
+  },
+  "avrocpp": {
+    "main": true
+  },
+  "awacs": {
+    "main": true
+  },
+  "awesomeversion": {
+    "main": true
+  },
+  "awex": {
+    "main": true
+  },
+  "awherepy": {
+    "main": true
+  },
+  "awk": {
+    "main": true
+  },
+  "awk-language-server": {
+    "main": true
+  },
+  "awkward": {
+    "main": true
+  },
+  "awkward-cpp": {
+    "main": true
+  },
+  "awkward-pandas": {
+    "main": true
+  },
+  "awkward0": {
+    "main": true
+  },
+  "aws-amicleaner": {
+    "main": true
+  },
+  "aws-c-auth": {
+    "main": true
+  },
+  "aws-c-cal": {
+    "main": true
+  },
+  "aws-c-common": {
+    "main": true
+  },
+  "aws-c-compression": {
+    "main": true
+  },
+  "aws-c-event-stream": {
+    "main": true
+  },
+  "aws-c-http": {
+    "main": true
+  },
+  "aws-c-io": {
+    "main": true
+  },
+  "aws-c-mqtt": {
+    "main": true
+  },
+  "aws-c-s3": {
+    "main": true
+  },
+  "aws-c-sdkutils": {
+    "main": true
+  },
+  "aws-cdk.assets": {
+    "main": true
+  },
+  "aws-cdk.aws-acmpca": {
+    "main": true
+  },
+  "aws-cdk.aws-apigateway": {
+    "main": true
+  },
+  "aws-cdk.aws-applicationautoscaling": {
+    "main": true
+  },
+  "aws-cdk.aws-autoscaling": {
+    "main": true
+  },
+  "aws-cdk.aws-autoscaling-common": {
+    "main": true
+  },
+  "aws-cdk.aws-autoscaling-hooktargets": {
+    "main": true
+  },
+  "aws-cdk.aws-batch": {
+    "main": true
+  },
+  "aws-cdk.aws-certificatemanager": {
+    "main": true
+  },
+  "aws-cdk.aws-cloudformation": {
+    "main": true
+  },
+  "aws-cdk.aws-cloudfront": {
+    "main": true
+  },
+  "aws-cdk.aws-cloudwatch": {
+    "main": true
+  },
+  "aws-cdk.aws-codebuild": {
+    "main": true
+  },
+  "aws-cdk.aws-codecommit": {
+    "main": true
+  },
+  "aws-cdk.aws-codeguruprofiler": {
+    "main": true
+  },
+  "aws-cdk.aws-codestarnotifications": {
+    "main": true
+  },
+  "aws-cdk.aws-cognito": {
+    "main": true
+  },
+  "aws-cdk.aws-dynamodb": {
+    "main": true
+  },
+  "aws-cdk.aws-ec2": {
+    "main": true
+  },
+  "aws-cdk.aws-ecr": {
+    "main": true
+  },
+  "aws-cdk.aws-ecr-assets": {
+    "main": true
+  },
+  "aws-cdk.aws-ecs": {
+    "main": true
+  },
+  "aws-cdk.aws-efs": {
+    "main": true
+  },
+  "aws-cdk.aws-elasticloadbalancing": {
+    "main": true
+  },
+  "aws-cdk.aws-elasticloadbalancingv2": {
+    "main": true
+  },
+  "aws-cdk.aws-events": {
+    "main": true
+  },
+  "aws-cdk.aws-fsx": {
+    "main": true
+  },
+  "aws-cdk.aws-globalaccelerator": {
+    "main": true
+  },
+  "aws-cdk.aws-iam": {
+    "main": true
+  },
+  "aws-cdk.aws-imagebuilder": {
+    "main": true
+  },
+  "aws-cdk.aws-kinesis": {
+    "main": true
+  },
+  "aws-cdk.aws-kms": {
+    "main": true
+  },
+  "aws-cdk.aws-lambda": {
+    "main": true
+  },
+  "aws-cdk.aws-logs": {
+    "main": true
+  },
+  "aws-cdk.aws-route53": {
+    "main": true
+  },
+  "aws-cdk.aws-route53-targets": {
+    "main": true
+  },
+  "aws-cdk.aws-s3": {
+    "main": true
+  },
+  "aws-cdk.aws-s3-assets": {
+    "main": true
+  },
+  "aws-cdk.aws-sam": {
+    "main": true
+  },
+  "aws-cdk.aws-secretsmanager": {
+    "main": true
+  },
+  "aws-cdk.aws-servicediscovery": {
+    "main": true
+  },
+  "aws-cdk.aws-signer": {
+    "main": true
+  },
+  "aws-cdk.aws-sns": {
+    "main": true
+  },
+  "aws-cdk.aws-sns-subscriptions": {
+    "main": true
+  },
+  "aws-cdk.aws-sqs": {
+    "main": true
+  },
+  "aws-cdk.aws-ssm": {
+    "main": true
+  },
+  "aws-cdk.aws-stepfunctions": {
+    "main": true
+  },
+  "aws-cdk.cloud-assembly-schema": {
+    "main": true
+  },
+  "aws-cdk.core": {
+    "main": true
+  },
+  "aws-cdk.custom-resources": {
+    "main": true
+  },
+  "aws-cdk.cx-api": {
+    "main": true
+  },
+  "aws-cdk.region-info": {
+    "main": true
+  },
+  "aws-checksums": {
+    "main": true
+  },
+  "aws-crt-cpp": {
+    "main": true
+  },
+  "aws-durable-execution-sdk-python": {
+    "main": true
+  },
+  "aws-embedded-metrics": {
+    "main": true
+  },
+  "aws-encryption-sdk": {
+    "main": true
+  },
+  "aws-error-utils": {
+    "main": true
+  },
+  "aws-glue-sessions": {
+    "main": true
+  },
+  "aws-iam-authenticator": {
+    "main": true
+  },
+  "aws-lambda-powertools": {
+    "main": true
+  },
+  "aws-lambda-runtime-interface-emulator": {
+    "main": true
+  },
+  "aws-okta-keyman": {
+    "main": true
+  },
+  "aws-parallelcluster": {
+    "main": true
+  },
+  "aws-request-signer": {
+    "main": true
+  },
+  "aws-requests-auth": {
+    "main": true
+  },
+  "aws-s3-access-grants-boto3-plugin": {
+    "main": true
+  },
+  "aws-s3-cli": {
+    "main": true
+  },
+  "aws-sam-cli": {
+    "main": true
+  },
+  "aws-sam-translator": {
+    "main": true
+  },
+  "aws-sdk-cpp": {
+    "main": true
+  },
+  "aws-session-manager-plugin": {
+    "main": true
+  },
+  "aws-shell": {
+    "main": true
+  },
+  "aws-sso-credential-process": {
+    "main": true
+  },
+  "aws-sso-lib": {
+    "main": true
+  },
+  "aws-sso-util": {
+    "main": true
+  },
+  "aws-xray-sdk": {
+    "main": true
+  },
+  "aws_lambda_builders": {
+    "main": true
+  },
+  "aws_secretsmanager_caching": {
+    "main": true
+  },
+  "awscli": {
+    "main": true
+  },
+  "awscli-cwlogs": {
+    "main": true
+  },
+  "awscli-local": {
+    "main": true
+  },
+  "awscli2": {
+    "main": true
+  },
+  "awscliv2": {
+    "main": true
+  },
+  "awscrt": {
+    "main": true
+  },
+  "awsebcli": {
+    "main": true
+  },
+  "awsiotpythonsdk": {
+    "main": true
+  },
+  "awslambdaric": {
+    "main": true
+  },
+  "awslimitchecker": {
+    "main": true
+  },
+  "awslogs": {
+    "main": true
+  },
+  "awssert": {
+    "main": true
+  },
+  "awswrangler": {
+    "main": true
+  },
+  "awxkit": {
+    "main": true
+  },
+  "ax-platform": {
+    "main": true
+  },
+  "axe-selenium-python": {
+    "main": true
+  },
+  "axel": {
+    "main": true
+  },
+  "axelrod": {
+    "main": true
+  },
+  "axial-positional-embedding": {
+    "main": true
+  },
+  "axiprop": {
+    "main": true
+  },
+  "axisregistry": {
+    "main": true
+  },
+  "axopy": {
+    "main": true
+  },
+  "azcopy": {
+    "main": true
+  },
+  "azure-ai-documentintelligence": {
+    "main": true
+  },
+  "azure-ai-inference": {
+    "main": true
+  },
+  "azure-ai-ml": {
+    "main": true
+  },
+  "azure-appconfiguration": {
+    "main": true
+  },
+  "azure-batch": {
+    "main": true
+  },
+  "azure-c-shared-utility": {
+    "main": true
+  },
+  "azure-cli": {
+    "main": true
+  },
+  "azure-cli-core": {
+    "main": true
+  },
+  "azure-cli-telemetry": {
+    "main": true
+  },
+  "azure-common": {
+    "main": true
+  },
+  "azure-core": {
+    "main": true
+  },
+  "azure-core-cpp": {
+    "main": true
+  },
+  "azure-core-tracing-opentelemetry": {
+    "main": true
+  },
+  "azure-cosmos": {
+    "main": true
+  },
+  "azure-data-tables": {
+    "main": true
+  },
+  "azure-datalake-store": {
+    "main": true
+  },
+  "azure-devops": {
+    "main": true
+  },
+  "azure-graphrbac": {
+    "main": true
+  },
+  "azure-identity": {
+    "main": true
+  },
+  "azure-identity-cpp": {
+    "main": true
+  },
+  "azure-iot-sdk-c": {
+    "main": true
+  },
+  "azure-keyvault": {
+    "main": true
+  },
+  "azure-keyvault-administration": {
+    "main": true
+  },
+  "azure-keyvault-certificates": {
+    "main": true
+  },
+  "azure-keyvault-keys": {
+    "main": true
+  },
+  "azure-keyvault-secrets": {
+    "main": true
+  },
+  "azure-keyvault-securitydomain": {
+    "main": true
+  },
+  "azure-kusto-data": {
+    "main": true
+  },
+  "azure-macro-utils-c": {
+    "main": true
+  },
+  "azure-mgmt-advisor": {
+    "main": true
+  },
+  "azure-mgmt-apimanagement": {
+    "main": true
+  },
+  "azure-mgmt-appconfiguration": {
+    "main": true
+  },
+  "azure-mgmt-appcontainers": {
+    "main": true
+  },
+  "azure-mgmt-applicationinsights": {
+    "main": true
+  },
+  "azure-mgmt-authorization": {
+    "main": true
+  },
+  "azure-mgmt-batch": {
+    "main": true
+  },
+  "azure-mgmt-batchai": {
+    "main": true
+  },
+  "azure-mgmt-billing": {
+    "main": true
+  },
+  "azure-mgmt-botservice": {
+    "main": true
+  },
+  "azure-mgmt-cdn": {
+    "main": true
+  },
+  "azure-mgmt-cognitiveservices": {
+    "main": true
+  },
+  "azure-mgmt-common": {
+    "main": true
+  },
+  "azure-mgmt-compute": {
+    "main": true
+  },
+  "azure-mgmt-containerinstance": {
+    "main": true
+  },
+  "azure-mgmt-containerregistry": {
+    "main": true
+  },
+  "azure-mgmt-containerservice": {
+    "main": true
+  },
+  "azure-mgmt-core": {
+    "main": true
+  },
+  "azure-mgmt-cosmosdb": {
+    "main": true
+  },
+  "azure-mgmt-databoxedge": {
+    "main": true
+  },
+  "azure-mgmt-datafactory": {
+    "main": true
+  },
+  "azure-mgmt-datalake-store": {
+    "main": true
+  },
+  "azure-mgmt-datamigration": {
+    "main": true
+  },
+  "azure-mgmt-dns": {
+    "main": true
+  },
+  "azure-mgmt-eventgrid": {
+    "main": true
+  },
+  "azure-mgmt-eventhub": {
+    "main": true
+  },
+  "azure-mgmt-extendedlocation": {
+    "main": true
+  },
+  "azure-mgmt-hdinsight": {
+    "main": true
+  },
+  "azure-mgmt-imagebuilder": {
+    "main": true
+  },
+  "azure-mgmt-iotcentral": {
+    "main": true
+  },
+  "azure-mgmt-iothub": {
+    "main": true
+  },
+  "azure-mgmt-iothubprovisioningservices": {
+    "main": true
+  },
+  "azure-mgmt-keyvault": {
+    "main": true
+  },
+  "azure-mgmt-loganalytics": {
+    "main": true
+  },
+  "azure-mgmt-managementgroups": {
+    "main": true
+  },
+  "azure-mgmt-maps": {
+    "main": true
+  },
+  "azure-mgmt-marketplaceordering": {
+    "main": true
+  },
+  "azure-mgmt-media": {
+    "main": true
+  },
+  "azure-mgmt-monitor": {
+    "main": true
+  },
+  "azure-mgmt-msi": {
+    "main": true
+  },
+  "azure-mgmt-mysqlflexibleservers": {
+    "main": true
+  },
+  "azure-mgmt-netapp": {
+    "main": true
+  },
+  "azure-mgmt-network": {
+    "main": true
+  },
+  "azure-mgmt-nspkg": {
+    "main": true
+  },
+  "azure-mgmt-policyinsights": {
+    "main": true
+  },
+  "azure-mgmt-postgresqlflexibleservers": {
+    "main": true
+  },
+  "azure-mgmt-privatedns": {
+    "main": true
+  },
+  "azure-mgmt-rdbms": {
+    "main": true
+  },
+  "azure-mgmt-recoveryservices": {
+    "main": true
+  },
+  "azure-mgmt-recoveryservicesbackup": {
+    "main": true
+  },
+  "azure-mgmt-redhatopenshift": {
+    "main": true
+  },
+  "azure-mgmt-redis": {
+    "main": true
+  },
+  "azure-mgmt-resource": {
+    "main": true
+  },
+  "azure-mgmt-search": {
+    "main": true
+  },
+  "azure-mgmt-security": {
+    "main": true
+  },
+  "azure-mgmt-servicebus": {
+    "main": true
+  },
+  "azure-mgmt-servicefabric": {
+    "main": true
+  },
+  "azure-mgmt-servicefabricmanagedclusters": {
+    "main": true
+  },
+  "azure-mgmt-servicelinker": {
+    "main": true
+  },
+  "azure-mgmt-signalr": {
+    "main": true
+  },
+  "azure-mgmt-sql": {
+    "main": true
+  },
+  "azure-mgmt-sqlvirtualmachine": {
+    "main": true
+  },
+  "azure-mgmt-storage": {
+    "main": true
+  },
+  "azure-mgmt-subscription": {
+    "main": true
+  },
+  "azure-mgmt-synapse": {
+    "main": true
+  },
+  "azure-mgmt-trafficmanager": {
+    "main": true
+  },
+  "azure-mgmt-web": {
+    "main": true
+  },
+  "azure-monitor-opentelemetry": {
+    "main": true
+  },
+  "azure-monitor-opentelemetry-exporter": {
+    "main": true
+  },
+  "azure-monitor-query": {
+    "main": true
+  },
+  "azure-multiapi-storage": {
+    "main": true
+  },
+  "azure-nspkg": {
+    "main": true
+  },
+  "azure-pipelines-language-server": {
+    "main": true
+  },
+  "azure-purview-account": {
+    "main": true
+  },
+  "azure-purview-administration": {
+    "main": true
+  },
+  "azure-purview-catalog": {
+    "main": true
+  },
+  "azure-purview-nspkg": {
+    "main": true
+  },
+  "azure-purview-scanning": {
+    "main": true
+  },
+  "azure-purview-workflow": {
+    "main": true
+  },
+  "azure-quantum": {
+    "main": true
+  },
+  "azure-search-documents": {
+    "main": true
+  },
+  "azure-servicebus": {
+    "main": true
+  },
+  "azure-servicemanagement-legacy": {
+    "main": true
+  },
+  "azure-storage": {
+    "main": true
+  },
+  "azure-storage-blob": {
+    "main": true
+  },
+  "azure-storage-blobs-cpp": {
+    "main": true
+  },
+  "azure-storage-common": {
+    "main": true
+  },
+  "azure-storage-common-cpp": {
+    "main": true
+  },
+  "azure-storage-file": {
+    "main": true
+  },
+  "azure-storage-file-datalake": {
+    "main": true
+  },
+  "azure-storage-file-share": {
+    "main": true
+  },
+  "azure-storage-files-datalake-cpp": {
+    "main": true
+  },
+  "azure-storage-files-shares-cpp": {
+    "main": true
+  },
+  "azure-storage-nspkg": {
+    "main": true
+  },
+  "azure-storage-queue": {
+    "main": true
+  },
+  "azure-storage-queues-cpp": {
+    "main": true
+  },
+  "azure-synapse-accesscontrol": {
+    "main": true
+  },
+  "azure-synapse-artifacts": {
+    "main": true
+  },
+  "azure-synapse-managedprivateendpoints": {
+    "main": true
+  },
+  "azure-synapse-nspkg": {
+    "main": true
+  },
+  "azure-synapse-spark": {
+    "main": true
+  },
+  "azure-uamqp-c": {
+    "main": true
+  },
+  "azure-uhttp-c": {
+    "main": true
+  },
+  "azure-umqtt-c": {
+    "main": true
+  },
+  "azureml": {
+    "main": true
+  },
+  "b2sdk": {
+    "main": true
+  },
+  "b3denv": {
+    "main": true
+  },
+  "b3sum": {
+    "main": true
+  },
+  "b4": {
+    "main": true
+  },
+  "b4msa": {
+    "main": true
+  },
+  "baal": {
+    "main": true
+  },
+  "babel": {
+    "main": true
+  },
+  "babel-cli": {
+    "main": true
+  },
+  "babelizer": {
+    "main": true
+  },
+  "babeltrace": {
+    "main": true
+  },
+  "babylon": {
+    "main": true
+  },
+  "bacdive": {
+    "main": true
+  },
+  "backblaze-b2": {
+    "main": true
+  },
+  "backcall": {
+    "main": true
+  },
+  "backends": {
+    "main": true
+  },
+  "backoff": {
+    "main": true
+  },
+  "backpack": {
+    "main": true
+  },
+  "backpack-for-pytorch": {
+    "main": true
+  },
+  "backports": {
+    "main": true
+  },
+  "backports-datetime-fromisoformat": {
+    "main": true
+  },
+  "backports.asyncio.runner": {
+    "main": true
+  },
+  "backports.cached-property": {
+    "main": true
+  },
+  "backports.csv": {
+    "main": true
+  },
+  "backports.entry-points-selectable": {
+    "main": true
+  },
+  "backports.functools_lru_cache": {
+    "main": true
+  },
+  "backports.shutil_get_terminal_size": {
+    "main": true
+  },
+  "backports.shutil_which": {
+    "main": true
+  },
+  "backports.strenum": {
+    "main": true
+  },
+  "backports.tarfile": {
+    "main": true
+  },
+  "backports.test.support": {
+    "main": true
+  },
+  "backports.unittest_mock": {
+    "main": true
+  },
+  "backports.weakref": {
+    "main": true
+  },
+  "backports.zoneinfo": {
+    "main": true
+  },
+  "backports.zstd": {
+    "main": true
+  },
+  "backports_abc": {
+    "main": true
+  },
+  "backrefs": {
+    "main": true
+  },
+  "backstage": {
+    "main": true
+  },
+  "backtrace": {
+    "main": true
+  },
+  "backward-cpp": {
+    "main": true
+  },
+  "bacon": {
+    "main": true
+  },
+  "bacon-ls": {
+    "main": true
+  },
+  "badapted": {
+    "main": true
+  },
+  "bader": {
+    "main": true
+  },
+  "baderkit": {
+    "main": true
+  },
+  "badger-opt": {
+    "main": true
+  },
+  "bagels": {
+    "main": true
+  },
+  "bagit": {
+    "main": true
+  },
+  "bagit-profile": {
+    "main": true
+  },
+  "bagofholding": {
+    "main": true
+  },
+  "bahamas": {
+    "main": true
+  },
+  "baikal": {
+    "main": true
+  },
+  "bake": {
+    "main": true
+  },
+  "baked-brie": {
+    "main": true
+  },
+  "bakelite": {
+    "main": true
+  },
+  "balance": {
+    "main": true
+  },
+  "bambi": {
+    "main": true
+  },
+  "baml-py": {
+    "main": true
+  },
+  "bamnostic": {
+    "main": true
+  },
+  "banal": {
+    "main": true
+  },
+  "banana-hep": {
+    "main": true
+  },
+  "bandit": {
+    "main": true
+  },
+  "banks": {
+    "main": true
+  },
+  "bar_chart_race": {
+    "main": true
+  },
+  "bareditor": {
+    "main": true
+  },
+  "barfi": {
+    "main": true
+  },
+  "bargeparse": {
+    "main": true
+  },
+  "barnaba": {
+    "main": true
+  },
+  "baron": {
+    "main": true
+  },
+  "barrier3d": {
+    "main": true
+  },
+  "barril": {
+    "main": true
+  },
+  "bartib": {
+    "main": true
+  },
+  "barvinok": {
+    "main": true
+  },
+  "basal-and-bark": {
+    "main": true
+  },
+  "base36": {
+    "main": true
+  },
+  "base58": {
+    "main": true
+  },
+  "base58check": {
+    "main": true
+  },
+  "base64io": {
+    "main": true
+  },
+  "baseband": {
+    "main": true
+  },
+  "based58": {
+    "main": true
+  },
+  "basedmypy": {
+    "main": true
+  },
+  "basedpyright": {
+    "main": true
+  },
+  "basedtyping": {
+    "main": true
+  },
+  "basemap": {
+    "main": true
+  },
+  "baseopt": {
+    "main": true
+  },
+  "bases": {
+    "main": true
+  },
+  "bash": {
+    "main": true
+  },
+  "bash-completion": {
+    "main": true
+  },
+  "bash-language-server": {
+    "main": true
+  },
+  "bash_kernel": {
+    "main": true
+  },
+  "bashlex": {
+    "main": true
+  },
+  "bashplotlib": {
+    "main": true
+  },
+  "basicauth": {
+    "main": true
+  },
+  "basis_set_exchange": {
+    "main": true
+  },
+  "basisgen": {
+    "main": true
+  },
+  "basswood-av": {
+    "main": true
+  },
+  "basyx-python-sdk": {
+    "main": true
+  },
+  "bat": {
+    "main": true
+  },
+  "bat-extras": {
+    "main": true
+  },
+  "batanalysis": {
+    "main": true
+  },
+  "batchcrop": {
+    "main": true
+  },
+  "batched": {
+    "main": true
+  },
+  "batchgenerators": {
+    "main": true
+  },
+  "batchgeneratorsv2": {
+    "main": true
+  },
+  "batchspawner": {
+    "main": true
+  },
+  "batchstats": {
+    "main": true
+  },
+  "bathyreq": {
+    "main": true
+  },
+  "batman": {
+    "main": true
+  },
+  "batman-package": {
+    "main": true
+  },
+  "batoid": {
+    "main": true
+  },
+  "batoid-rubin": {
+    "main": true
+  },
+  "batoms": {
+    "main": true
+  },
+  "batoms-api": {
+    "main": true
+  },
+  "batrachian-toad": {
+    "main": true
+  },
+  "bats-core": {
+    "main": true
+  },
+  "baumwelch": {
+    "main": true
+  },
+  "baybe": {
+    "main": true
+  },
+  "baycomp": {
+    "main": true
+  },
+  "bayes-filters-lib": {
+    "main": true
+  },
+  "bayesbay": {
+    "main": true
+  },
+  "bayesfilter": {
+    "main": true
+  },
+  "bayesian-analysis-toolkit": {
+    "main": true
+  },
+  "bayesian-filters": {
+    "main": true
+  },
+  "bayesian-optimization": {
+    "main": true
+  },
+  "bayesianbandits": {
+    "main": true
+  },
+  "bayesmbar": {
+    "main": true
+  },
+  "bayesopt": {
+    "main": true
+  },
+  "bayespy": {
+    "main": true
+  },
+  "bayeswave": {
+    "main": true
+  },
+  "bazel": {
+    "main": true
+  },
+  "bazel-toolchain": {
+    "main": true
+  },
+  "bazel_buildozer": {
+    "main": true
+  },
+  "bbf": {
+    "main": true
+  },
+  "bbhash": {
+    "main": true
+  },
+  "bbii-decon": {
+    "main": true
+  },
+  "bblean": {
+    "main": true
+  },
+  "bc": {
+    "main": true
+  },
+  "bc-detect-secrets": {
+    "main": true
+  },
+  "bc-jsonpath-ng": {
+    "main": true
+  },
+  "bc-python-hcl2": {
+    "main": true
+  },
+  "bcdoc": {
+    "main": true
+  },
+  "bcdp": {
+    "main": true
+  },
+  "bcj-cffi": {
+    "main": true
+  },
+  "bcm2835": {
+    "main": true
+  },
+  "bcolz-zipline": {
+    "main": true
+  },
+  "bcpandas": {
+    "main": true
+  },
+  "bcrypt": {
+    "main": true
+  },
+  "bctpy": {
+    "main": true
+  },
+  "bdbag": {
+    "main": true
+  },
+  "bdsim": {
+    "main": true
+  },
+  "bdsim-g4": {
+    "main": true
+  },
+  "bdw-gc": {
+    "main": true
+  },
+  "beads": {
+    "main": true
+  },
+  "beaker": {
+    "main": true
+  },
+  "beaker-py": {
+    "main": true
+  },
+  "beakerx": {
+    "main": true
+  },
+  "beamf": {
+    "main": true
+  },
+  "beamfit": {
+    "main": true
+  },
+  "beamngpy": {
+    "main": true
+  },
+  "beancount": {
+    "main": true
+  },
+  "beangulp": {
+    "main": true
+  },
+  "beanie": {
+    "main": true
+  },
+  "beanie-batteries-queue": {
+    "main": true
+  },
+  "beanquery": {
+    "main": true
+  },
+  "bear": {
+    "main": true
+  },
+  "beartype": {
+    "main": true
+  },
+  "beaupy": {
+    "main": true
+  },
+  "beautifulsoup4": {
+    "main": true
+  },
+  "beautifultable": {
+    "main": true
+  },
+  "beautysh": {
+    "main": true
+  },
+  "beavers": {
+    "main": true
+  },
+  "bech32": {
+    "main": true
+  },
+  "beckhoff-ads": {
+    "main": true
+  },
+  "bed-reader": {
+    "main": true
+  },
+  "bedrock-agentcore": {
+    "main": true
+  },
+  "beem": {
+    "main": true
+  },
+  "beetcamp": {
+    "main": true
+  },
+  "beetlesafari": {
+    "main": true
+  },
+  "beets": {
+    "main": true
+  },
+  "begins": {
+    "main": true
+  },
+  "behave": {
+    "main": true
+  },
+  "behave-django": {
+    "main": true
+  },
+  "behave-html-formatter": {
+    "main": true
+  },
+  "behave-html-pretty-formatter": {
+    "main": true
+  },
+  "behave-pandas": {
+    "main": true
+  },
+  "behresp": {
+    "main": true
+  },
+  "belay": {
+    "main": true
+  },
+  "belt": {
+    "main": true
+  },
+  "bempp-cl": {
+    "main": true
+  },
+  "benchling-api-client": {
+    "main": true
+  },
+  "benchling-sdk": {
+    "main": true
+  },
+  "benchmark": {
+    "main": true
+  },
+  "benchmark-4dn": {
+    "main": true
+  },
+  "benchpots": {
+    "main": true
+  },
+  "beniget": {
+    "main": true
+  },
+  "benten": {
+    "main": true
+  },
+  "bentoml": {
+    "main": true
+  },
+  "berglas": {
+    "main": true
+  },
+  "bermuda": {
+    "main": true
+  },
+  "bert-extractive-summarizer": {
+    "main": true
+  },
+  "bert-tensorflow": {
+    "main": true
+  },
+  "bert_score": {
+    "main": true
+  },
+  "bertha": {
+    "main": true
+  },
+  "bertopic": {
+    "main": true
+  },
+  "bespon": {
+    "main": true
+  },
+  "betacal": {
+    "main": true
+  },
+  "betamax": {
+    "main": true
+  },
+  "betamax-matchers": {
+    "main": true
+  },
+  "betfairlightweight": {
+    "main": true
+  },
+  "betse": {
+    "main": true
+  },
+  "betsee": {
+    "main": true
+  },
+  "better-exceptions": {
+    "main": true
+  },
+  "better-optimize": {
+    "main": true
+  },
+  "better-setuptools-git-version": {
+    "main": true
+  },
+  "better_exceptions_fork": {
+    "main": true
+  },
+  "bettercam": {
+    "main": true
+  },
+  "bettermap": {
+    "main": true
+  },
+  "betterproto": {
+    "main": true
+  },
+  "bevy_brp_mcp": {
+    "main": true
+  },
+  "bewegung": {
+    "main": true
+  },
+  "beziers": {
+    "main": true
+  },
+  "bfee2": {
+    "main": true
+  },
+  "bffile": {
+    "main": true
+  },
+  "bfg": {
+    "main": true
+  },
+  "bfio": {
+    "main": true
+  },
+  "bfiocpp": {
+    "main": true
+  },
+  "bg-atlasapi": {
+    "main": true
+  },
+  "bg-mpl-stylesheets": {
+    "main": true
+  },
+  "bg-space": {
+    "main": true
+  },
+  "bgcargo": {
+    "main": true
+  },
+  "bgcargodmqc": {
+    "main": true
+  },
+  "bgen": {
+    "main": true
+  },
+  "bgen-reader": {
+    "main": true
+  },
+  "bgenix": {
+    "main": true
+  },
+  "bgslibrary": {
+    "main": true
+  },
+  "bhklab-project-template": {
+    "main": true
+  },
+  "bhmm": {
+    "main": true
+  },
+  "biapy": {
+    "main": true
+  },
+  "bias_correction": {
+    "main": true
+  },
+  "bibclean": {
+    "main": true
+  },
+  "bibmanager": {
+    "main": true
+  },
+  "bibmon": {
+    "main": true
+  },
+  "bibparse": {
+    "main": true
+  },
+  "bibtex-tidy": {
+    "main": true
+  },
+  "bibtex-updater": {
+    "main": true
+  },
+  "bibtexparser": {
+    "main": true
+  },
+  "bicep": {
+    "main": true
+  },
+  "bicycleparameters": {
+    "main": true
+  },
+  "bidict": {
+    "main": true
+  },
+  "bids-validator": {
+    "main": true
+  },
+  "bidsschematools": {
+    "main": true
+  },
+  "big-fish": {
+    "main": true
+  },
+  "bigbrother": {
+    "main": true
+  },
+  "bigdft-suite": {
+    "main": true
+  },
+  "bigearthnet-common": {
+    "main": true
+  },
+  "bigearthnet-encoder": {
+    "main": true
+  },
+  "bigearthnet-gdf-builder": {
+    "main": true
+  },
+  "bigearthnet-patch-interface": {
+    "main": true
+  },
+  "bigframes": {
+    "main": true
+  },
+  "bigquery-magics": {
+    "main": true
+  },
+  "bigtree": {
+    "main": true
+  },
+  "bilby": {
+    "main": true
+  },
+  "bilby.cython": {
+    "main": true
+  },
+  "bilby_pipe": {
+    "main": true
+  },
+  "bilby_tgr": {
+    "main": true
+  },
+  "billiard": {
+    "main": true
+  },
+  "billingegroup": {
+    "main": true
+  },
+  "bimlpa": {
+    "main": true
+  },
+  "binapy": {
+    "main": true
+  },
+  "binary": {
+    "main": true
+  },
+  "binaryen": {
+    "main": true
+  },
+  "binaryornot": {
+    "main": true
+  },
+  "binarytree": {
+    "main": true
+  },
+  "bincopy": {
+    "main": true
+  },
+  "bindensity": {
+    "main": true
+  },
+  "bindsnet": {
+    "main": true
+  },
+  "bingrep": {
+    "main": true
+  },
+  "binlets": {
+    "main": true
+  },
+  "binpacking": {
+    "main": true
+  },
+  "binpickle": {
+    "main": true
+  },
+  "binsider": {
+    "main": true
+  },
+  "bintrees": {
+    "main": true
+  },
+  "binutils": {
+    "main": true
+  },
+  "binwalk": {
+    "main": true
+  },
+  "bio-embeddings-deepblast": {
+    "main": true
+  },
+  "bio-embeddings-esm": {
+    "main": true
+  },
+  "bio-pyvol": {
+    "main": true
+  },
+  "bioat": {
+    "main": true
+  },
+  "biobear": {
+    "main": true
+  },
+  "biobox": {
+    "main": true
+  },
+  "biobuddy": {
+    "main": true
+  },
+  "biofilm": {
+    "main": true
+  },
+  "bioformats_jar": {
+    "main": true
+  },
+  "biogeme": {
+    "main": true
+  },
+  "biogeme-optimization": {
+    "main": true
+  },
+  "bioimageio.core": {
+    "main": true
+  },
+  "bioimageio.spec": {
+    "main": true
+  },
+  "bioio": {
+    "main": true
+  },
+  "bioio-base": {
+    "main": true
+  },
+  "bioio-conversion": {
+    "main": true
+  },
+  "bioio-lif": {
+    "main": true
+  },
+  "bioio-ome-tiff": {
+    "main": true
+  },
+  "bioio-ome-zarr": {
+    "main": true
+  },
+  "bioio-tifffile": {
+    "main": true
+  },
+  "biolmai": {
+    "main": true
+  },
+  "biom-format": {
+    "main": true
+  },
+  "biomart": {
+    "main": true
+  },
+  "biomcp": {
+    "main": true
+  },
+  "biome": {
+    "main": true
+  },
+  "biomechanical-analysis-framework": {
+    "main": true
+  },
+  "bionc": {
+    "main": true
+  },
+  "bionty": {
+    "main": true
+  },
+  "biopandas": {
+    "main": true
+  },
+  "bioptim": {
+    "main": true
+  },
+  "biopython": {
+    "main": true
+  },
+  "biorbd": {
+    "main": true
+  },
+  "biorbd-viz": {
+    "main": true
+  },
+  "bioregistry": {
+    "main": true
+  },
+  "bioservices": {
+    "main": true
+  },
+  "biosiglive": {
+    "main": true
+  },
+  "biosphere": {
+    "main": true
+  },
+  "biothings_client": {
+    "main": true
+  },
+  "biotite": {
+    "main": true
+  },
+  "biotraj": {
+    "main": true
+  },
+  "bip-utils": {
+    "main": true
+  },
+  "bip32": {
+    "main": true
+  },
+  "bipedal-locomotion-framework": {
+    "main": true
+  },
+  "birch": {
+    "main": true
+  },
+  "birdsong-recognition-dataset": {
+    "main": true
+  },
+  "birdy": {
+    "main": true
+  },
+  "birka": {
+    "main": true
+  },
+  "bison": {
+    "main": true
+  },
+  "bisonpp": {
+    "main": true
+  },
+  "bit-git": {
+    "main": true
+  },
+  "bitarray": {
+    "main": true
+  },
+  "bitmagic": {
+    "main": true
+  },
+  "bitmath": {
+    "main": true
+  },
+  "bitsandbytes": {
+    "main": true
+  },
+  "bitsets": {
+    "main": true
+  },
+  "bitshuffle": {
+    "main": true
+  },
+  "bitstring": {
+    "main": true
+  },
+  "bitstruct": {
+    "main": true
+  },
+  "bitvector": {
+    "main": true
+  },
+  "bivario": {
+    "main": true
+  },
+  "bjoern": {
+    "main": true
+  },
+  "bkt": {
+    "main": true
+  },
+  "black": {
+    "main": true
+  },
+  "blackbook": {
+    "main": true
+  },
+  "blackboxauditing": {
+    "main": true
+  },
+  "blackcellmagic": {
+    "main": true
+  },
+  "blackdoc": {
+    "main": true
+  },
+  "blacken-docs": {
+    "main": true
+  },
+  "blackjax": {
+    "main": true
+  },
+  "blackrenderer": {
+    "main": true
+  },
+  "blacktex": {
+    "main": true
+  },
+  "bladerf": {
+    "main": true
+  },
+  "blake256": {
+    "main": true
+  },
+  "blake3": {
+    "main": true
+  },
+  "blandify": {
+    "main": true
+  },
+  "blark": {
+    "main": true
+  },
+  "blas": {
+    "main": true
+  },
+  "blasfeo": {
+    "main": true
+  },
+  "blaspp": {
+    "main": true
+  },
+  "blast-codes": {
+    "main": true
+  },
+  "blaupause": {
+    "main": true
+  },
+  "bleach": {
+    "main": true
+  },
   "r-fauxpas": {
     "main": true
   },
