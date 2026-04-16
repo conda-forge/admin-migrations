@@ -20377,5 +20377,590 @@
   },
   "twisted-iocpsupport": {
     "main": true
+  },
+  "twitchapi": {
+    "main": true
+  },
+  "twofish": {
+    "main": true
+  },
+  "twython": {
+    "main": true
+  },
+  "txaio": {
+    "main": true
+  },
+  "txl": {
+    "main": true
+  },
+  "txl-cell": {
+    "main": true
+  },
+  "txl-console": {
+    "main": true
+  },
+  "txl-editors": {
+    "main": true
+  },
+  "txl-file-browser": {
+    "main": true
+  },
+  "txl-image-viewer": {
+    "main": true
+  },
+  "txl-jpterm": {
+    "main": true
+  },
+  "txl-kernel": {
+    "main": true
+  },
+  "txl-launcher": {
+    "main": true
+  },
+  "txl-local-contents": {
+    "main": true
+  },
+  "txl-local-kernels": {
+    "main": true
+  },
+  "txl-local-terminals": {
+    "main": true
+  },
+  "txl-markdown-viewer": {
+    "main": true
+  },
+  "txl-notebook-editor": {
+    "main": true
+  },
+  "txl-remote-contents": {
+    "main": true
+  },
+  "txl-remote-kernels": {
+    "main": true
+  },
+  "txl-remote-terminals": {
+    "main": true
+  },
+  "txl-terminal": {
+    "main": true
+  },
+  "txl-text-editor": {
+    "main": true
+  },
+  "txl-widgets": {
+    "main": true
+  },
+  "txm_sandbox": {
+    "main": true
+  },
+  "txmongo": {
+    "main": true
+  },
+  "txrm2tiff": {
+    "main": true
+  },
+  "txtai": {
+    "main": true
+  },
+  "txtorcon": {
+    "main": true
+  },
+  "ty": {
+    "main": true
+  },
+  "typdiff": {
+    "main": true
+  },
+  "type-lens": {
+    "main": true
+  },
+  "type_safe": {
+    "main": true
+  },
+  "typechecks": {
+    "main": true
+  },
+  "typed-argument-parser": {
+    "main": true
+  },
+  "typed-ast": {
+    "main": true
+  },
+  "typed-configparser": {
+    "main": true
+  },
+  "typed-settings": {
+    "main": true
+  },
+  "typedframe": {
+    "main": true
+  },
+  "typedload": {
+    "main": true
+  },
+  "typedoc": {
+    "main": true
+  },
+  "typedpy": {
+    "main": true
+  },
+  "typedunits": {
+    "main": true
+  },
+  "typeguard": {
+    "main": true
+  },
+  "typenames": {
+    "main": true
+  },
+  "typepigeon": {
+    "main": true
+  },
+  "typepy": {
+    "main": true
+  },
+  "typer": {
+    "main": true
+  },
+  "types-aioboto3": {
+    "main": true
+  },
+  "types-aiobotocore": {
+    "main": true
+  },
+  "types-aiobotocore-batch": {
+    "main": true
+  },
+  "types-aiobotocore-cloudformation": {
+    "main": true
+  },
+  "types-aiobotocore-dynamodb": {
+    "main": true
+  },
+  "types-aiobotocore-ec2": {
+    "main": true
+  },
+  "types-aiobotocore-lambda": {
+    "main": true
+  },
+  "types-aiobotocore-logs": {
+    "main": true
+  },
+  "types-aiobotocore-rds": {
+    "main": true
+  },
+  "types-aiobotocore-redshift-data": {
+    "main": true
+  },
+  "types-aiobotocore-s3": {
+    "main": true
+  },
+  "types-aiobotocore-sqs": {
+    "main": true
+  },
+  "types-aiofiles": {
+    "main": true
+  },
+  "types-annoy": {
+    "main": true
+  },
+  "types-appdirs": {
+    "main": true
+  },
+  "types-atomicwrites": {
+    "main": true
+  },
+  "types-awscrt": {
+    "main": true
+  },
+  "types-backports": {
+    "main": true
+  },
+  "types-backports_abc": {
+    "main": true
+  },
+  "types-beautifulsoup4": {
+    "main": true
+  },
+  "types-bleach": {
+    "main": true
+  },
+  "types-boto": {
+    "main": true
+  },
+  "types-boto3-textract": {
+    "main": true
+  },
+  "types-cachetools": {
+    "main": true
+  },
+  "types-certifi": {
+    "main": true
+  },
+  "types-cffi": {
+    "main": true
+  },
+  "types-characteristic": {
+    "main": true
+  },
+  "types-chardet": {
+    "main": true
+  },
+  "types-click": {
+    "main": true
+  },
+  "types-click-default-group": {
+    "main": true
+  },
+  "types-click-spinner": {
+    "main": true
+  },
+  "types-colorama": {
+    "main": true
+  },
+  "types-contextvars": {
+    "main": true
+  },
+  "types-croniter": {
+    "main": true
+  },
+  "types-cryptography": {
+    "main": true
+  },
+  "types-dataclasses": {
+    "main": true
+  },
+  "types-dateparser": {
+    "main": true
+  },
+  "types-datetimerange": {
+    "main": true
+  },
+  "types-decorator": {
+    "main": true
+  },
+  "types-deprecated": {
+    "main": true
+  },
+  "types-docker": {
+    "main": true
+  },
+  "types-docopt": {
+    "main": true
+  },
+  "types-docutils": {
+    "main": true
+  },
+  "types-editdistance": {
+    "main": true
+  },
+  "types-emoji": {
+    "main": true
+  },
+  "types-enum34": {
+    "main": true
+  },
+  "types-factory-boy": {
+    "main": true
+  },
+  "types-fb303": {
+    "main": true
+  },
+  "types-filelock": {
+    "main": true
+  },
+  "types-first": {
+    "main": true
+  },
+  "types-flask": {
+    "main": true
+  },
+  "types-flask-cors": {
+    "main": true
+  },
+  "types-freezegun": {
+    "main": true
+  },
+  "types-frozendict": {
+    "main": true
+  },
+  "types-futures": {
+    "main": true
+  },
+  "types-geoip2": {
+    "main": true
+  },
+  "types-geopandas": {
+    "main": true
+  },
+  "types-hdbcli": {
+    "main": true
+  },
+  "types-html5lib": {
+    "main": true
+  },
+  "types-influxdb-client": {
+    "main": true
+  },
+  "types-ipaddress": {
+    "main": true
+  },
+  "types-itsdangerous": {
+    "main": true
+  },
+  "types-jack-client": {
+    "main": true
+  },
+  "types-jinja2": {
+    "main": true
+  },
+  "types-jsonschema": {
+    "main": true
+  },
+  "types-kazoo": {
+    "main": true
+  },
+  "types-lxml": {
+    "main": true
+  },
+  "types-markdown": {
+    "main": true
+  },
+  "types-markupsafe": {
+    "main": true
+  },
+  "types-maxminddb": {
+    "main": true
+  },
+  "types-mock": {
+    "main": true
+  },
+  "types-mypy-extensions": {
+    "main": true
+  },
+  "types-networkx": {
+    "main": true
+  },
+  "types-nmap": {
+    "main": true
+  },
+  "types-openpyxl": {
+    "main": true
+  },
+  "types-orjson": {
+    "main": true
+  },
+  "types-paramiko": {
+    "main": true
+  },
+  "types-parsimonious": {
+    "main": true
+  },
+  "types-pathlib2": {
+    "main": true
+  },
+  "types-pillow": {
+    "main": true
+  },
+  "types-pkg_resources": {
+    "main": true
+  },
+  "types-polib": {
+    "main": true
+  },
+  "types-protobuf": {
+    "main": true
+  },
+  "types-psutil": {
+    "main": true
+  },
+  "types-psycopg2": {
+    "main": true
+  },
+  "types-pyaudio": {
+    "main": true
+  },
+  "types-pycurl": {
+    "main": true
+  },
+  "types-pyfarmhash": {
+    "main": true
+  },
+  "types-pygments": {
+    "main": true
+  },
+  "types-pyjwt": {
+    "main": true
+  },
+  "types-pymssql": {
+    "main": true
+  },
+  "types-pymysql": {
+    "main": true
+  },
+  "types-pyopenssl": {
+    "main": true
+  },
+  "types-pyrfc3339": {
+    "main": true
+  },
+  "types-pysftp": {
+    "main": true
+  },
+  "types-python-dateutil": {
+    "main": true
+  },
+  "types-python-gflags": {
+    "main": true
+  },
+  "types-python-slugify": {
+    "main": true
+  },
+  "types-pytz": {
+    "main": true
+  },
+  "types-pyvmomi": {
+    "main": true
+  },
+  "types-pywin32": {
+    "main": true
+  },
+  "types-pyyaml": {
+    "main": true
+  },
+  "types-redis": {
+    "main": true
+  },
+  "types-requests": {
+    "main": true
+  },
+  "types-retry": {
+    "main": true
+  },
+  "types-routes": {
+    "main": true
+  },
+  "types-s3transfer": {
+    "main": true
+  },
+  "types-scribe": {
+    "main": true
+  },
+  "types-seaborn": {
+    "main": true
+  },
+  "types-setuptools": {
+    "main": true
+  },
+  "types-shapely": {
+    "main": true
+  },
+  "types-simplejson": {
+    "main": true
+  },
+  "types-singledispatch": {
+    "main": true
+  },
+  "types-six": {
+    "main": true
+  },
+  "types-tabulate": {
+    "main": true
+  },
+  "types-termcolor": {
+    "main": true
+  },
+  "types-toml": {
+    "main": true
+  },
+  "types-tornado": {
+    "main": true
+  },
+  "types-tqdm": {
+    "main": true
+  },
+  "types-typed-ast": {
+    "main": true
+  },
+  "types-tzlocal": {
+    "main": true
+  },
+  "types-ujson": {
+    "main": true
+  },
+  "types-uno-script": {
+    "main": true
+  },
+  "types-unopy": {
+    "main": true
+  },
+  "types-urllib3": {
+    "main": true
+  },
+  "types-waitress": {
+    "main": true
+  },
+  "types-webencodings": {
+    "main": true
+  },
+  "types-werkzeug": {
+    "main": true
+  },
+  "types-xmltodict": {
+    "main": true
+  },
+  "types-xxhash": {
+    "main": true
+  },
+  "types_toml": {
+    "main": true
+  },
+  "types_typed_ast": {
+    "main": true
+  },
+  "typescript": {
+    "main": true
+  },
+  "typescript-eslint-eslint-plugin": {
+    "main": true
+  },
+  "typescript-eslint-parser": {
+    "main": true
+  },
+  "typescript-language-server": {
+    "main": true
+  },
+  "typeshed-client": {
+    "main": true
+  },
+  "typespec": {
+    "main": true
+  },
+  "typesystem": {
+    "main": true
+  },
+  "typhos": {
+    "main": true
+  },
+  "typical": {
+    "main": true
+  },
+  "typing": {
+    "main": true
+  },
+  "typing-compat": {
+    "main": true
+  },
+  "typing-inspection": {
+    "main": true
+  },
+  "typing-validation": {
+    "main": true
+  },
+  "typing_extensions": {
+    "main": true
+  },
+  "typing_inspect": {
+    "main": true
   }
 }
