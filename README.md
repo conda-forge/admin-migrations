@@ -34,4 +34,4 @@ Items 1-3 are taken care of by the migrations code.
 | CondaForgeYAMLTest | *always runs*                                        |                         - |
 | RAutomerge         | *always runs*                                        |                         - |
 | TeamsCleanup       | *always runs*                                        |                         - |
-| WebhookCleanup     | `###############                                   ` |          31% (8458/27191) |
+| WebhookCleanup     | `###############                                   ` |          31% (8592/27191) |
