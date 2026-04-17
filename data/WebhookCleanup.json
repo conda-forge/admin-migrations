@@ -9323,6 +9323,1041 @@
   "conda-package-handling": {
     "main": true
   },
+  "conda-package-streaming": {
+    "main": true
+  },
+  "conda-poetry-liaison": {
+    "main": true
+  },
+  "conda-prefix-replacement": {
+    "main": true
+  },
+  "conda-press": {
+    "main": true
+  },
+  "conda-project": {
+    "main": true
+  },
+  "conda-protect": {
+    "main": true
+  },
+  "conda-pypi": {
+    "main": true
+  },
+  "conda-rattler-solver": {
+    "main": true
+  },
+  "conda-recipe-manager": {
+    "main": true
+  },
+  "conda-recipe-v2-schema": {
+    "main": true
+  },
+  "conda-replicate": {
+    "main": true
+  },
+  "conda-self": {
+    "main": true
+  },
+  "conda-smithy": {
+    "main": true
+  },
+  "conda-souschef": {
+    "main": true
+  },
+  "conda-spawn": {
+    "main": true
+  },
+  "conda-sphinx-theme": {
+    "main": true
+  },
+  "conda-standalone": {
+    "main": true
+  },
+  "conda-store": {
+    "main": true
+  },
+  "conda-suggest": {
+    "main": true
+  },
+  "conda-suggest-conda-forge": {
+    "main": true
+  },
+  "conda-tree": {
+    "main": true
+  },
+  "conda-vendor": {
+    "main": true
+  },
+  "conda-verify": {
+    "main": true
+  },
+  "conda-which": {
+    "main": true
+  },
+  "conda-workon": {
+    "main": true
+  },
+  "conda-workspaces": {
+    "main": true
+  },
+  "conda-wrappers": {
+    "main": true
+  },
+  "conda_curation": {
+    "main": true
+  },
+  "conda_deps": {
+    "main": true
+  },
+  "conda_envfile": {
+    "main": true
+  },
+  "conda_subprocess": {
+    "main": true
+  },
+  "condansis": {
+    "main": true
+  },
+  "condastats": {
+    "main": true
+  },
+  "condax": {
+    "main": true
+  },
+  "condeltri": {
+    "main": true
+  },
+  "condense-json": {
+    "main": true
+  },
+  "condorpy": {
+    "main": true
+  },
+  "conduit": {
+    "main": true
+  },
+  "confection": {
+    "main": true
+  },
+  "config": {
+    "main": true
+  },
+  "configargparse": {
+    "main": true
+  },
+  "configmypy": {
+    "main": true
+  },
+  "configobj": {
+    "main": true
+  },
+  "configobj-dev": {
+    "main": true
+  },
+  "configparser": {
+    "main": true
+  },
+  "configs": {
+    "main": true
+  },
+  "configspace": {
+    "main": true
+  },
+  "configupdater": {
+    "main": true
+  },
+  "configurable-http-proxy": {
+    "main": true
+  },
+  "configurator": {
+    "main": true
+  },
+  "confingy": {
+    "main": true
+  },
+  "conflowgen": {
+    "main": true
+  },
+  "confluence-markdown-exporter": {
+    "main": true
+  },
+  "confluence-publisher": {
+    "main": true
+  },
+  "conftest": {
+    "main": true
+  },
+  "conftrak": {
+    "main": true
+  },
+  "confusable-homoglyphs": {
+    "main": true
+  },
+  "confuse": {
+    "main": true
+  },
+  "confz": {
+    "main": true
+  },
+  "conjure-python-client": {
+    "main": true
+  },
+  "conllu": {
+    "main": true
+  },
+  "conmon": {
+    "main": true
+  },
+  "connected-components-3d": {
+    "main": true
+  },
+  "connection_pool": {
+    "main": true
+  },
+  "connectome-workbench-split": {
+    "main": true
+  },
+  "connectorx": {
+    "main": true
+  },
+  "connexion": {
+    "main": true
+  },
+  "conquest": {
+    "main": true
+  },
+  "cons": {
+    "main": true
+  },
+  "conservedwatersearch": {
+    "main": true
+  },
+  "console_bridge": {
+    "main": true
+  },
+  "consolekit": {
+    "main": true
+  },
+  "consolemd": {
+    "main": true
+  },
+  "conspire": {
+    "main": true
+  },
+  "constantdict": {
+    "main": true
+  },
+  "constantly": {
+    "main": true
+  },
+  "constrainmol": {
+    "main": true
+  },
+  "construct": {
+    "main": true
+  },
+  "construct-typing": {
+    "main": true
+  },
+  "constructive_geometries": {
+    "main": true
+  },
+  "constructor": {
+    "main": true
+  },
+  "constructs": {
+    "main": true
+  },
+  "constyle": {
+    "main": true
+  },
+  "consul": {
+    "main": true
+  },
+  "consul-template": {
+    "main": true
+  },
+  "contact_map": {
+    "main": true
+  },
+  "container-diff": {
+    "main": true
+  },
+  "containerpilot": {
+    "main": true
+  },
+  "containers-common": {
+    "main": true
+  },
+  "containers-sugar": {
+    "main": true
+  },
+  "contexter": {
+    "main": true
+  },
+  "contextily": {
+    "main": true
+  },
+  "contextlib2": {
+    "main": true
+  },
+  "contextvars": {
+    "main": true
+  },
+  "continuedev": {
+    "main": true
+  },
+  "contourpy": {
+    "main": true
+  },
+  "contrastive-learner": {
+    "main": true
+  },
+  "contrib_colormaps": {
+    "main": true
+  },
+  "control": {
+    "main": true
+  },
+  "contur": {
+    "main": true
+  },
+  "convco": {
+    "main": true
+  },
+  "convcolors": {
+    "main": true
+  },
+  "convert3d": {
+    "main": true
+  },
+  "convertdate": {
+    "main": true
+  },
+  "conway-polynomials": {
+    "main": true
+  },
+  "cookiecutter": {
+    "main": true
+  },
+  "cookiecutter-data-science": {
+    "main": true
+  },
+  "cookiecutter-django-core": {
+    "main": true
+  },
+  "cookiecutter_project_upgrader": {
+    "main": true
+  },
+  "cookieninja": {
+    "main": true
+  },
+  "cookies": {
+    "main": true
+  },
+  "cool_maps": {
+    "main": true
+  },
+  "coolname": {
+    "main": true
+  },
+  "coolprop": {
+    "main": true
+  },
+  "coordinatesconverter": {
+    "main": true
+  },
+  "copc-lib": {
+    "main": true
+  },
+  "copernicusmarine": {
+    "main": true
+  },
+  "copier": {
+    "main": true
+  },
+  "copier-template-extensions": {
+    "main": true
+  },
+  "copilotkit": {
+    "main": true
+  },
+  "coppeliasim-zmqremoteapi-client": {
+    "main": true
+  },
+  "copulae": {
+    "main": true
+  },
+  "copulas": {
+    "main": true
+  },
+  "copybara": {
+    "main": true
+  },
+  "copyfiles": {
+    "main": true
+  },
+  "copykitten": {
+    "main": true
+  },
+  "copyparty": {
+    "main": true
+  },
+  "coq": {
+    "main": true
+  },
+  "coq-jupyter": {
+    "main": true
+  },
+  "coqpit": {
+    "main": true
+  },
+  "coqui-trainer": {
+    "main": true
+  },
+  "cordova-js": {
+    "main": true
+  },
+  "core-js": {
+    "main": true
+  },
+  "coreapi": {
+    "main": true
+  },
+  "coredis": {
+    "main": true
+  },
+  "coredns": {
+    "main": true
+  },
+  "coredumpy": {
+    "main": true
+  },
+  "coreforecast": {
+    "main": true
+  },
+  "coremltools": {
+    "main": true
+  },
+  "coreos-installer": {
+    "main": true
+  },
+  "coreschema": {
+    "main": true
+  },
+  "coretran": {
+    "main": true
+  },
+  "coreutils": {
+    "main": true
+  },
+  "cornac": {
+    "main": true
+  },
+  "corner": {
+    "main": true
+  },
+  "cornice": {
+    "main": true
+  },
+  "correctionlib": {
+    "main": true
+  },
+  "correlate": {
+    "main": true
+  },
+  "corrfunc": {
+    "main": true
+  },
+  "corrosion": {
+    "main": true
+  },
+  "corsikaio": {
+    "main": true
+  },
+  "cortecs": {
+    "main": true
+  },
+  "cosapp": {
+    "main": true
+  },
+  "cosapp_lab": {
+    "main": true
+  },
+  "coscine": {
+    "main": true
+  },
+  "cosign": {
+    "main": true
+  },
+  "cosmic_profiles": {
+    "main": true
+  },
+  "cosmix": {
+    "main": true
+  },
+  "cosmolopy": {
+    "main": true
+  },
+  "cosmopharm": {
+    "main": true
+  },
+  "cosmopower": {
+    "main": true
+  },
+  "cosmopy": {
+    "main": true
+  },
+  "cosmosis": {
+    "main": true
+  },
+  "cosmosis-build-standard-library": {
+    "main": true
+  },
+  "cosmotransitions": {
+    "main": true
+  },
+  "cosolvkit": {
+    "main": true
+  },
+  "cost733class": {
+    "main": true
+  },
+  "costa_variants": {
+    "main": true
+  },
+  "cotede": {
+    "main": true
+  },
+  "cotengra": {
+    "main": true
+  },
+  "cothread": {
+    "main": true
+  },
+  "cotire": {
+    "main": true
+  },
+  "couchdb": {
+    "main": true
+  },
+  "couchdb-python": {
+    "main": true
+  },
+  "countest": {
+    "main": true
+  },
+  "country_converter": {
+    "main": true
+  },
+  "courlan": {
+    "main": true
+  },
+  "coursera-dl": {
+    "main": true
+  },
+  "courtana": {
+    "main": true
+  },
+  "cov-core": {
+    "main": true
+  },
+  "covalent": {
+    "main": true
+  },
+  "covdefaults": {
+    "main": true
+  },
+  "covdrugsim": {
+    "main": true
+  },
+  "coverage": {
+    "main": true
+  },
+  "coverage-badge": {
+    "main": true
+  },
+  "coverage-conditional-plugin": {
+    "main": true
+  },
+  "coverage-fixpaths": {
+    "main": true
+  },
+  "coverage-lcov": {
+    "main": true
+  },
+  "coveralls": {
+    "main": true
+  },
+  "coverlet": {
+    "main": true
+  },
+  "covid-sim-suite": {
+    "main": true
+  },
+  "covseisnet": {
+    "main": true
+  },
+  "cowpy": {
+    "main": true
+  },
+  "cox": {
+    "main": true
+  },
+  "coxeter": {
+    "main": true
+  },
+  "cp2k": {
+    "main": true
+  },
+  "cp2k-input-tools": {
+    "main": true
+  },
+  "cp2k-output-tools": {
+    "main": true
+  },
+  "cp2kdata": {
+    "main": true
+  },
+  "cpcm-x": {
+    "main": true
+  },
+  "cpd": {
+    "main": true
+  },
+  "cpio": {
+    "main": true
+  },
+  "cpl": {
+    "main": true
+  },
+  "cplot": {
+    "main": true
+  },
+  "cpnest": {
+    "main": true
+  },
+  "cpp-argparse": {
+    "main": true
+  },
+  "cpp-expected": {
+    "main": true
+  },
+  "cpp-filesystem": {
+    "main": true
+  },
+  "cpp-half": {
+    "main": true
+  },
+  "cpp-hmm": {
+    "main": true
+  },
+  "cpp-opentelemetry-sdk": {
+    "main": true
+  },
+  "cpp-tabulate": {
+    "main": true
+  },
+  "cpp-terminal": {
+    "main": true
+  },
+  "cpp_comment_format": {
+    "main": true
+  },
+  "cppad": {
+    "main": true
+  },
+  "cppad-mixed": {
+    "main": true
+  },
+  "cppadcodegen": {
+    "main": true
+  },
+  "cppast": {
+    "main": true
+  },
+  "cppbktree": {
+    "main": true
+  },
+  "cppbmad": {
+    "main": true
+  },
+  "cppcheck": {
+    "main": true
+  },
+  "cppcheck-codequality": {
+    "main": true
+  },
+  "cppcolormap": {
+    "main": true
+  },
+  "cppe": {
+    "main": true
+  },
+  "cppheaderparser": {
+    "main": true
+  },
+  "cppi": {
+    "main": true
+  },
+  "cppimport": {
+    "main": true
+  },
+  "cppinterop": {
+    "main": true
+  },
+  "cppitertools": {
+    "main": true
+  },
+  "cpplint": {
+    "main": true
+  },
+  "cpppath": {
+    "main": true
+  },
+  "cpppo": {
+    "main": true
+  },
+  "cpprate": {
+    "main": true
+  },
+  "cpprb": {
+    "main": true
+  },
+  "cpptango": {
+    "main": true
+  },
+  "cpptrace": {
+    "main": true
+  },
+  "cppunit": {
+    "main": true
+  },
+  "cpputest": {
+    "main": true
+  },
+  "cppy": {
+    "main": true
+  },
+  "cppyy": {
+    "main": true
+  },
+  "cppyy-backend": {
+    "main": true
+  },
+  "cppyy-cling": {
+    "main": true
+  },
+  "cppyythonizations": {
+    "main": true
+  },
+  "cppzmq": {
+    "main": true
+  },
+  "cpr": {
+    "main": true
+  },
+  "cprnc": {
+    "main": true
+  },
+  "cptec-model": {
+    "main": true
+  },
+  "cptec-sazonal": {
+    "main": true
+  },
+  "cptec-subsaz": {
+    "main": true
+  },
+  "cpu_features": {
+    "main": true
+  },
+  "cpuid": {
+    "main": true
+  },
+  "cpuid-native": {
+    "main": true
+  },
+  "cpulimit": {
+    "main": true
+  },
+  "cpycppyy": {
+    "main": true
+  },
+  "cql2": {
+    "main": true
+  },
+  "cqrlib": {
+    "main": true
+  },
+  "cquadpack": {
+    "main": true
+  },
+  "crabz": {
+    "main": true
+  },
+  "craftr": {
+    "main": true
+  },
+  "cram": {
+    "main": true
+  },
+  "cramjam": {
+    "main": true
+  },
+  "crane": {
+    "main": true
+  },
+  "crashtest": {
+    "main": true
+  },
+  "crawl4ai": {
+    "main": true
+  },
+  "crawlerdetect": {
+    "main": true
+  },
+  "crayons": {
+    "main": true
+  },
+  "crbeam": {
+    "main": true
+  },
+  "crc32c": {
+    "main": true
+  },
+  "crc64iso": {
+    "main": true
+  },
+  "crccheck": {
+    "main": true
+  },
+  "crcmod": {
+    "main": true
+  },
+  "create-forwarder-dll": {
+    "main": true
+  },
+  "create-jest": {
+    "main": true
+  },
+  "create-qwik": {
+    "main": true
+  },
+  "create-rslib": {
+    "main": true
+  },
+  "createrepo_c": {
+    "main": true
+  },
+  "creationism": {
+    "main": true
+  },
+  "credible": {
+    "main": true
+  },
+  "credstash": {
+    "main": true
+  },
+  "creme": {
+    "main": true
+  },
+  "creoleparser": {
+    "main": true
+  },
+  "creosote": {
+    "main": true
+  },
+  "crepe": {
+    "main": true
+  },
+  "crepes": {
+    "main": true
+  },
+  "crest": {
+    "main": true
+  },
+  "crest4": {
+    "main": true
+  },
+  "crick": {
+    "main": true
+  },
+  "crispy": {
+    "main": true
+  },
+  "crispy-bootstrap4": {
+    "main": true
+  },
+  "crispy-bootstrap5": {
+    "main": true
+  },
+  "critiplot": {
+    "main": true
+  },
+  "crlibm": {
+    "main": true
+  },
+  "croaring": {
+    "main": true
+  },
+  "croc": {
+    "main": true
+  },
+  "crochet": {
+    "main": true
+  },
+  "crocoddyl": {
+    "main": true
+  },
+  "cromwell": {
+    "main": true
+  },
+  "cron-descriptor": {
+    "main": true
+  },
+  "croniter": {
+    "main": true
+  },
+  "cronodump": {
+    "main": true
+  },
+  "cronsim": {
+    "main": true
+  },
+  "crontab": {
+    "main": true
+  },
+  "cross-python": {
+    "main": true
+  },
+  "cross-web": {
+    "main": true
+  },
+  "cross_cal_resourcesat": {
+    "main": true
+  },
+  "crossenv": {
+    "main": true
+  },
+  "crosshair": {
+    "main": true
+  },
+  "crossplane": {
+    "main": true
+  },
+  "crossref_commons_py": {
+    "main": true
+  },
+  "crosstool-ng": {
+    "main": true
+  },
+  "crowdin-api-client": {
+    "main": true
+  },
+  "crowdin-cli": {
+    "main": true
+  },
+  "crowdsourcephoto": {
+    "main": true
+  },
+  "crowsetta": {
+    "main": true
+  },
+  "cruft": {
+    "main": true
+  },
+  "crun": {
+    "main": true
+  },
+  "crunchflow": {
+    "main": true
+  },
+  "crush": {
+    "main": true
+  },
+  "cryohub": {
+    "main": true
+  },
+  "cryoswath": {
+    "main": true
+  },
+  "cryotypes": {
+    "main": true
+  },
+  "crypten": {
+    "main": true
+  },
+  "cryptlib": {
+    "main": true
+  },
+  "cryptoauthlib": {
+    "main": true
+  },
+  "cryptocode": {
+    "main": true
+  },
+  "cryptography": {
+    "main": true
+  },
+  "cryptominisat": {
+    "main": true
+  },
+  "cryptopp": {
+    "main": true
+  },
+  "cryspy": {
+    "main": true
+  },
+  "crystal-toolkit": {
+    "main": true
+  },
+  "crystalmapping": {
+    "main": true
+  },
+  "crystalpytools": {
+    "main": true
+  },
+  "crystals": {
+    "main": true
+  },
+  "crystaltoolkit-extension": {
+    "main": true
+  },
+  "crystmatch": {
+    "main": true
+  },
+  "csa": {
+    "main": true
+  },
+  "csaps": {
+    "main": true
+  },
+  "csbdeep": {
+    "main": true
+  },
+  "csbschema": {
+    "main": true
+  },
+  "cset": {
+    "main": true
+  },
+  "csharpier": {
+    "main": true
+  },
+  "csm": {
+    "main": true
+  },
+  "csmapi": {
+    "main": true
+  },
+  "cson": {
+    "main": true
+  },
+  "csp": {
+    "main": true
+  },
   "r-fauxpas": {
     "main": true
   },
