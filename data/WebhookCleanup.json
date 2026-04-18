@@ -50366,6 +50366,1284 @@
   "pytest-httpserver": {
     "main": true
   },
+  "pytest-httpx": {
+    "main": true
+  },
+  "pytest-icdiff": {
+    "main": true
+  },
+  "pytest-ignore-flaky": {
+    "main": true
+  },
+  "pytest-instafail": {
+    "main": true
+  },
+  "pytest-integration": {
+    "main": true
+  },
+  "pytest-json": {
+    "main": true
+  },
+  "pytest-json-report": {
+    "main": true
+  },
+  "pytest-jupyter": {
+    "main": true
+  },
+  "pytest-lazy-fixture": {
+    "main": true
+  },
+  "pytest-lazy-fixtures": {
+    "main": true
+  },
+  "pytest-localftpserver": {
+    "main": true
+  },
+  "pytest-localserver": {
+    "main": true
+  },
+  "pytest-localstack": {
+    "main": true
+  },
+  "pytest-loguru": {
+    "main": true
+  },
+  "pytest-lsp": {
+    "main": true
+  },
+  "pytest-mccabe": {
+    "main": true
+  },
+  "pytest-md": {
+    "main": true
+  },
+  "pytest-memray": {
+    "main": true
+  },
+  "pytest-metadata": {
+    "main": true
+  },
+  "pytest-mock": {
+    "main": true
+  },
+  "pytest-mockito": {
+    "main": true
+  },
+  "pytest-monitor": {
+    "main": true
+  },
+  "pytest-mpi": {
+    "main": true
+  },
+  "pytest-mpl": {
+    "main": true
+  },
+  "pytest-mypy": {
+    "main": true
+  },
+  "pytest-mypy-plugins": {
+    "main": true
+  },
+  "pytest-mypy-testing": {
+    "main": true
+  },
+  "pytest-notebook": {
+    "main": true
+  },
+  "pytest-notification": {
+    "main": true
+  },
+  "pytest-nunit": {
+    "main": true
+  },
+  "pytest-openfiles": {
+    "main": true
+  },
+  "pytest-order": {
+    "main": true
+  },
+  "pytest-ordering": {
+    "main": true
+  },
+  "pytest-parallel": {
+    "main": true
+  },
+  "pytest-pep8": {
+    "main": true
+  },
+  "pytest-picked": {
+    "main": true
+  },
+  "pytest-playwright": {
+    "main": true
+  },
+  "pytest-plus": {
+    "main": true
+  },
+  "pytest-postgresql": {
+    "main": true
+  },
+  "pytest-pretty": {
+    "main": true
+  },
+  "pytest-profiling": {
+    "main": true
+  },
+  "pytest-pudb": {
+    "main": true
+  },
+  "pytest-pycodestyle": {
+    "main": true
+  },
+  "pytest-pylint": {
+    "main": true
+  },
+  "pytest-pythonpath": {
+    "main": true
+  },
+  "pytest-pytorch": {
+    "main": true
+  },
+  "pytest-pyvista": {
+    "main": true
+  },
+  "pytest-qt": {
+    "main": true
+  },
+  "pytest-raises": {
+    "main": true
+  },
+  "pytest-randomly": {
+    "main": true
+  },
+  "pytest-recording": {
+    "main": true
+  },
+  "pytest-redis": {
+    "main": true
+  },
+  "pytest-regressions": {
+    "main": true
+  },
+  "pytest-regtest": {
+    "main": true
+  },
+  "pytest-remote-response": {
+    "main": true
+  },
+  "pytest-remotedata": {
+    "main": true
+  },
+  "pytest-repeat": {
+    "main": true
+  },
+  "pytest-replay": {
+    "main": true
+  },
+  "pytest-reportlog": {
+    "main": true
+  },
+  "pytest-reportportal": {
+    "main": true
+  },
+  "pytest-requires": {
+    "main": true
+  },
+  "pytest-reraise": {
+    "main": true
+  },
+  "pytest-rerunfailures": {
+    "main": true
+  },
+  "pytest-retry": {
+    "main": true
+  },
+  "pytest-reverse": {
+    "main": true
+  },
+  "pytest-rich": {
+    "main": true
+  },
+  "pytest-robotframework": {
+    "main": true
+  },
+  "pytest-run-parallel": {
+    "main": true
+  },
+  "pytest-selenium": {
+    "main": true
+  },
+  "pytest-server-fixtures": {
+    "main": true
+  },
+  "pytest-services": {
+    "main": true
+  },
+  "pytest-session2file": {
+    "main": true
+  },
+  "pytest-sftpserver": {
+    "main": true
+  },
+  "pytest-shard": {
+    "main": true
+  },
+  "pytest-shell": {
+    "main": true
+  },
+  "pytest-shutil": {
+    "main": true
+  },
+  "pytest-skip-slow": {
+    "main": true
+  },
+  "pytest-snapshot": {
+    "main": true
+  },
+  "pytest-socket": {
+    "main": true
+  },
+  "pytest-spec": {
+    "main": true
+  },
+  "pytest-speed": {
+    "main": true
+  },
+  "pytest-sphinx": {
+    "main": true
+  },
+  "pytest-split": {
+    "main": true
+  },
+  "pytest-subprocess": {
+    "main": true
+  },
+  "pytest-subtests": {
+    "main": true
+  },
+  "pytest-sugar": {
+    "main": true
+  },
+  "pytest-testinfra": {
+    "main": true
+  },
+  "pytest-testmon": {
+    "main": true
+  },
+  "pytest-textual-snapshot": {
+    "main": true
+  },
+  "pytest-timeout": {
+    "main": true
+  },
+  "pytest-tldr": {
+    "main": true
+  },
+  "pytest-tornado": {
+    "main": true
+  },
+  "pytest-tornasync": {
+    "main": true
+  },
+  "pytest-trio": {
+    "main": true
+  },
+  "pytest-twisted": {
+    "main": true
+  },
+  "pytest-unordered": {
+    "main": true
+  },
+  "pytest-update-test-results": {
+    "main": true
+  },
+  "pytest-variables": {
+    "main": true
+  },
+  "pytest-vcr": {
+    "main": true
+  },
+  "pytest-verbose-parametrize": {
+    "main": true
+  },
+  "pytest-virtualenv": {
+    "main": true
+  },
+  "pytest-watch": {
+    "main": true
+  },
+  "pytest-watcher": {
+    "main": true
+  },
+  "pytest-workflow": {
+    "main": true
+  },
+  "pytest-xdist": {
+    "main": true
+  },
+  "pytest-xflaky": {
+    "main": true
+  },
+  "pytest-xprocess": {
+    "main": true
+  },
+  "pytest-xvfb": {
+    "main": true
+  },
+  "pytest_check": {
+    "main": true
+  },
+  "pytest_parallel_mpi": {
+    "main": true
+  },
+  "pytest_ruff": {
+    "main": true
+  },
+  "pytestify": {
+    "main": true
+  },
+  "pytexit": {
+    "main": true
+  },
+  "pytextgrid": {
+    "main": true
+  },
+  "pytextrank": {
+    "main": true
+  },
+  "pytfa": {
+    "main": true
+  },
+  "pythae": {
+    "main": true
+  },
+  "pythainlp": {
+    "main": true
+  },
+  "pythermo": {
+    "main": true
+  },
+  "pythesint": {
+    "main": true
+  },
+  "pythia-datasets": {
+    "main": true
+  },
+  "pythia8": {
+    "main": true
+  },
+  "pythialabelgenerator": {
+    "main": true
+  },
+  "python": {
+    "main": true
+  },
+  "python-a2a": {
+    "main": true
+  },
+  "python-abi3": {
+    "main": true
+  },
+  "python-ace": {
+    "main": true
+  },
+  "python-ags4": {
+    "main": true
+  },
+  "python-annoy": {
+    "main": true
+  },
+  "python-ar": {
+    "main": true
+  },
+  "python-arango": {
+    "main": true
+  },
+  "python-arrakis-schema": {
+    "main": true
+  },
+  "python-art": {
+    "main": true
+  },
+  "python-asana": {
+    "main": true
+  },
+  "python-attr": {
+    "main": true
+  },
+  "python-augeas": {
+    "main": true
+  },
+  "python-avro": {
+    "main": true
+  },
+  "python-awips": {
+    "main": true
+  },
+  "python-backtrace": {
+    "main": true
+  },
+  "python-barcode": {
+    "main": true
+  },
+  "python-baseconv": {
+    "main": true
+  },
+  "python-batch-runner": {
+    "main": true
+  },
+  "python-benedict": {
+    "main": true
+  },
+  "python-bidi": {
+    "main": true
+  },
+  "python-binance": {
+    "main": true
+  },
+  "python-bioc": {
+    "main": true
+  },
+  "python-blockbuster": {
+    "main": true
+  },
+  "python-blosc": {
+    "main": true
+  },
+  "python-blosc2": {
+    "main": true
+  },
+  "python-box": {
+    "main": true
+  },
+  "python-build": {
+    "main": true
+  },
+  "python-calamine": {
+    "main": true
+  },
+  "python-can": {
+    "main": true
+  },
+  "python-cas": {
+    "main": true
+  },
+  "python-casacore": {
+    "main": true
+  },
+  "python-cdo": {
+    "main": true
+  },
+  "python-certifi-win32": {
+    "main": true
+  },
+  "python-chromedriver-binary": {
+    "main": true
+  },
+  "python-cinderclient": {
+    "main": true
+  },
+  "python-cityhash": {
+    "main": true
+  },
+  "python-clingox": {
+    "main": true
+  },
+  "python-cmr": {
+    "main": true
+  },
+  "python-code-minimap": {
+    "main": true
+  },
+  "python-codon-tables": {
+    "main": true
+  },
+  "python-configuration": {
+    "main": true
+  },
+  "python-confluent-kafka": {
+    "main": true
+  },
+  "python-constraint": {
+    "main": true
+  },
+  "python-constraint2": {
+    "main": true
+  },
+  "python-consul2-split": {
+    "main": true
+  },
+  "python-coreapi": {
+    "main": true
+  },
+  "python-coreschema": {
+    "main": true
+  },
+  "python-couchdb": {
+    "main": true
+  },
+  "python-coveralls": {
+    "main": true
+  },
+  "python-cpl": {
+    "main": true
+  },
+  "python-crfsuite": {
+    "main": true
+  },
+  "python-crontab": {
+    "main": true
+  },
+  "python-cudnn-frontend": {
+    "main": true
+  },
+  "python-cufflinks": {
+    "main": true
+  },
+  "python-cvmfsutils": {
+    "main": true
+  },
+  "python-daemon": {
+    "main": true
+  },
+  "python-dashing": {
+    "main": true
+  },
+  "python-datauri": {
+    "main": true
+  },
+  "python-dateutil": {
+    "main": true
+  },
+  "python-debian": {
+    "main": true
+  },
+  "python-decouple": {
+    "main": true
+  },
+  "python-designateclient": {
+    "main": true
+  },
+  "python-devtools": {
+    "main": true
+  },
+  "python-digitalocean": {
+    "main": true
+  },
+  "python-discovery": {
+    "main": true
+  },
+  "python-docker": {
+    "main": true
+  },
+  "python-docs-theme": {
+    "main": true
+  },
+  "python-docx": {
+    "main": true
+  },
+  "python-doi": {
+    "main": true
+  },
+  "python-dokuwiki": {
+    "main": true
+  },
+  "python-dotenv": {
+    "main": true
+  },
+  "python-dremio-client": {
+    "main": true
+  },
+  "python-duckdb": {
+    "main": true
+  },
+  "python-dwca-reader": {
+    "main": true
+  },
+  "python-eccodes": {
+    "main": true
+  },
+  "python-editor": {
+    "main": true
+  },
+  "python-elf": {
+    "main": true
+  },
+  "python-embree": {
+    "main": true
+  },
+  "python-engineio": {
+    "main": true
+  },
+  "python-exif": {
+    "main": true
+  },
+  "python-fasthtml": {
+    "main": true
+  },
+  "python-fastjsonschema": {
+    "main": true
+  },
+  "python-fitparse": {
+    "main": true
+  },
+  "python-flair": {
+    "main": true
+  },
+  "python-flatbuffers": {
+    "main": true
+  },
+  "python-flint": {
+    "main": true
+  },
+  "python-fmask": {
+    "main": true
+  },
+  "python-forge": {
+    "main": true
+  },
+  "python-fpe": {
+    "main": true
+  },
+  "python-frontmatter": {
+    "main": true
+  },
+  "python-fsutil": {
+    "main": true
+  },
+  "python-generic": {
+    "main": true
+  },
+  "python-geohash": {
+    "main": true
+  },
+  "python-geotiepoints": {
+    "main": true
+  },
+  "python-geotiff": {
+    "main": true
+  },
+  "python-gfal2": {
+    "main": true
+  },
+  "python-gflags": {
+    "main": true
+  },
+  "python-ghostscript": {
+    "main": true
+  },
+  "python-gilt": {
+    "main": true
+  },
+  "python-gist": {
+    "main": true
+  },
+  "python-gitlab": {
+    "main": true
+  },
+  "python-glanceclient": {
+    "main": true
+  },
+  "python-gmail": {
+    "main": true
+  },
+  "python-gnupg": {
+    "main": true
+  },
+  "python-graphblas": {
+    "main": true
+  },
+  "python-graphviz": {
+    "main": true
+  },
+  "python-gssapi": {
+    "main": true
+  },
+  "python-hcl2": {
+    "main": true
+  },
+  "python-hdfs": {
+    "main": true
+  },
+  "python-help2man": {
+    "main": true
+  },
+  "python-highcharts": {
+    "main": true
+  },
+  "python-hookman": {
+    "main": true
+  },
+  "python-hostlist": {
+    "main": true
+  },
+  "python-hyperscan": {
+    "main": true
+  },
+  "python-icc": {
+    "main": true
+  },
+  "python-idzip": {
+    "main": true
+  },
+  "python-igraph": {
+    "main": true
+  },
+  "python-infomap": {
+    "main": true
+  },
+  "python-installer": {
+    "main": true
+  },
+  "python-int-nomax-str-digits": {
+    "main": true
+  },
+  "python-interface": {
+    "main": true
+  },
+  "python-io-wrapper": {
+    "main": true
+  },
+  "python-ipware": {
+    "main": true
+  },
+  "python-irodsclient": {
+    "main": true
+  },
+  "python-ironicclient": {
+    "main": true
+  },
+  "python-isal": {
+    "main": true
+  },
+  "python-iso639": {
+    "main": true
+  },
+  "python-javabridge": {
+    "main": true
+  },
+  "python-jenkins": {
+    "main": true
+  },
+  "python-jose": {
+    "main": true
+  },
+  "python-jose-cryptodome": {
+    "main": true
+  },
+  "python-jsii": {
+    "main": true
+  },
+  "python-json-logger": {
+    "main": true
+  },
+  "python-jsonpath": {
+    "main": true
+  },
+  "python-jsonrpc-server": {
+    "main": true
+  },
+  "python-kaleido": {
+    "main": true
+  },
+  "python-kasa": {
+    "main": true
+  },
+  "python-kerberos": {
+    "main": true
+  },
+  "python-keycloak": {
+    "main": true
+  },
+  "python-keystoneclient": {
+    "main": true
+  },
+  "python-kubernetes": {
+    "main": true
+  },
+  "python-lambda-4dn": {
+    "main": true
+  },
+  "python-language-server": {
+    "main": true
+  },
+  "python-ldap": {
+    "main": true
+  },
+  "python-leveldb": {
+    "main": true
+  },
+  "python-levenshtein": {
+    "main": true
+  },
+  "python-libaio": {
+    "main": true
+  },
+  "python-libarchive-c": {
+    "main": true
+  },
+  "python-libdiscid": {
+    "main": true
+  },
+  "python-librt": {
+    "main": true
+  },
+  "python-libsbml": {
+    "main": true
+  },
+  "python-libsbml-experimental": {
+    "main": true
+  },
+  "python-libxdo": {
+    "main": true
+  },
+  "python-ligo-lw": {
+    "main": true
+  },
+  "python-liquid": {
+    "main": true
+  },
+  "python-lmdb": {
+    "main": true
+  },
+  "python-localvenv-kernel": {
+    "main": true
+  },
+  "python-logging-rabbitmq": {
+    "main": true
+  },
+  "python-logstash": {
+    "main": true
+  },
+  "python-logstash-async": {
+    "main": true
+  },
+  "python-louvain": {
+    "main": true
+  },
+  "python-lsp-black": {
+    "main": true
+  },
+  "python-lsp-jsonrpc": {
+    "main": true
+  },
+  "python-lsp-ruff": {
+    "main": true
+  },
+  "python-lsp-server": {
+    "main": true
+  },
+  "python-lzf": {
+    "main": true
+  },
+  "python-lzo": {
+    "main": true
+  },
+  "python-magic": {
+    "main": true
+  },
+  "python-magnumclient": {
+    "main": true
+  },
+  "python-manilaclient": {
+    "main": true
+  },
+  "python-marisa-trie": {
+    "main": true
+  },
+  "python-markdown-math": {
+    "main": true
+  },
+  "python-memcached": {
+    "main": true
+  },
+  "python-metatensor-core": {
+    "main": true
+  },
+  "python-metatensor-learn": {
+    "main": true
+  },
+  "python-metatensor-operations": {
+    "main": true
+  },
+  "python-metatensor-torch": {
+    "main": true
+  },
+  "python-metatomic-torch": {
+    "main": true
+  },
+  "python-mimeparse": {
+    "main": true
+  },
+  "python-minifier": {
+    "main": true
+  },
+  "python-mint": {
+    "main": true
+  },
+  "python-miranda": {
+    "main": true
+  },
+  "python-mistralclient": {
+    "main": true
+  },
+  "python-moa": {
+    "main": true
+  },
+  "python-monkey-business": {
+    "main": true
+  },
+  "python-msilib": {
+    "main": true
+  },
+  "python-mss": {
+    "main": true
+  },
+  "python-multipart": {
+    "main": true
+  },
+  "python-mumps": {
+    "main": true
+  },
+  "python-neo": {
+    "main": true
+  },
+  "python-neutronclient": {
+    "main": true
+  },
+  "python-node-semver": {
+    "main": true
+  },
+  "python-nomad": {
+    "main": true
+  },
+  "python-novaclient": {
+    "main": true
+  },
+  "python-nvd3": {
+    "main": true
+  },
+  "python-oauth2": {
+    "main": true
+  },
+  "python-octaviaclient": {
+    "main": true
+  },
+  "python-on-whales": {
+    "main": true
+  },
+  "python-openid": {
+    "main": true
+  },
+  "python-openid2": {
+    "main": true
+  },
+  "python-openstackclient": {
+    "main": true
+  },
+  "python-oxmsg": {
+    "main": true
+  },
+  "python-packit": {
+    "main": true
+  },
+  "python-pam": {
+    "main": true
+  },
+  "python-paragraph": {
+    "main": true
+  },
+  "python-patch": {
+    "main": true
+  },
+  "python-pcl": {
+    "main": true
+  },
+  "python-pdal": {
+    "main": true
+  },
+  "python-pdfkit": {
+    "main": true
+  },
+  "python-pegasus-wms": {
+    "main": true
+  },
+  "python-picard": {
+    "main": true
+  },
+  "python-pkcs11": {
+    "main": true
+  },
+  "python-planarity": {
+    "main": true
+  },
+  "python-poppler": {
+    "main": true
+  },
+  "python-pptx": {
+    "main": true
+  },
+  "python-prctl": {
+    "main": true
+  },
+  "python-primesieve": {
+    "main": true
+  },
+  "python-pushover": {
+    "main": true
+  },
+  "python-pyper": {
+    "main": true
+  },
+  "python-pypi-mirror": {
+    "main": true
+  },
+  "python-qinlingclient": {
+    "main": true
+  },
+  "python-quickjs": {
+    "main": true
+  },
+  "python-rake": {
+    "main": true
+  },
+  "python-rapidjson": {
+    "main": true
+  },
+  "python-redmine": {
+    "main": true
+  },
+  "python-relion": {
+    "main": true
+  },
+  "python-rex": {
+    "main": true
+  },
+  "python-rocksdb": {
+    "main": true
+  },
+  "python-selinux": {
+    "main": true
+  },
+  "python-semantic-release": {
+    "main": true
+  },
+  "python-simpleconf": {
+    "main": true
+  },
+  "python-slugify": {
+    "main": true
+  },
+  "python-smail": {
+    "main": true
+  },
+  "python-snap": {
+    "main": true
+  },
+  "python-snappy": {
+    "main": true
+  },
+  "python-socketio": {
+    "main": true
+  },
+  "python-socks": {
+    "main": true
+  },
+  "python-sonarqube-api": {
+    "main": true
+  },
+  "python-sounddevice": {
+    "main": true
+  },
+  "python-spake2": {
+    "main": true
+  },
+  "python-spams": {
+    "main": true
+  },
+  "python-sscha": {
+    "main": true
+  },
+  "python-statemachine": {
+    "main": true
+  },
+  "python-stdnum": {
+    "main": true
+  },
+  "python-stratify": {
+    "main": true
+  },
+  "python-substrait": {
+    "main": true
+  },
+  "python-subunit": {
+    "main": true
+  },
+  "python-suitesparse-graphblas": {
+    "main": true
+  },
+  "python-swiftclient": {
+    "main": true
+  },
+  "python-symengine": {
+    "main": true
+  },
+  "python-syringe-pump": {
+    "main": true
+  },
+  "python-systemd": {
+    "main": true
+  },
+  "python-taplo": {
+    "main": true
+  },
+  "python-tds": {
+    "main": true
+  },
+  "python-telegram-bot": {
+    "main": true
+  },
+  "python-termstyle": {
+    "main": true
+  },
+  "python-ternary": {
+    "main": true
+  },
+  "python-terraform": {
+    "main": true
+  },
+  "python-to-yaml-dag-converter-mwaa-serverless": {
+    "main": true
+  },
+  "python-toon": {
+    "main": true
+  },
+  "python-troveclient": {
+    "main": true
+  },
+  "python-tsp": {
+    "main": true
+  },
+  "python-twitter": {
+    "main": true
+  },
+  "python-twitter-v2": {
+    "main": true
+  },
+  "python-tzdata": {
+    "main": true
+  },
+  "python-u2flib-server": {
+    "main": true
+  },
+  "python-ulid": {
+    "main": true
+  },
+  "python-utilities-jsm": {
+    "main": true
+  },
+  "python-utils": {
+    "main": true
+  },
+  "python-uv": {
+    "main": true
+  },
+  "python-vagrant": {
+    "main": true
+  },
+  "python-vesin": {
+    "main": true
+  },
+  "python-vxi11": {
+    "main": true
+  },
+  "python-wasmer-split": {
+    "main": true
+  },
+  "python-wget": {
+    "main": true
+  },
+  "python-workflow-definition": {
+    "main": true
+  },
+  "python-xapian": {
+    "main": true
+  },
+  "python-xlib": {
+    "main": true
+  },
+  "python-xxhash": {
+    "main": true
+  },
+  "python-xz": {
+    "main": true
+  },
+  "python-yakh": {
+    "main": true
+  },
+  "python-zlib-ng": {
+    "main": true
+  },
+  "python-zstd": {
+    "main": true
+  },
+  "python.app": {
+    "main": true
+  },
+  "python2-secrets": {
+    "main": true
+  },
+  "python3-discogs-client": {
+    "main": true
+  },
+  "python3-openid": {
+    "main": true
+  },
+  "python3-saml": {
+    "main": true
+  },
+  "python_abi": {
+    "main": true
+  },
+  "python_cmethods": {
+    "main": true
+  },
+  "python_http_client": {
+    "main": true
+  },
+  "python_jsonschema_objects": {
+    "main": true
+  },
+  "python_version": {
+    "main": true
+  },
+  "pythonds": {
+    "main": true
+  },
+  "pythonfinder": {
+    "main": true
+  },
+  "pythonfmu": {
+    "main": true
+  },
+  "pythonfmu3": {
+    "main": true
+  },
+  "pythonicdisort": {
+    "main": true
+  },
+  "pythonji": {
+    "main": true
+  },
+  "pythonji-2": {
+    "main": true
+  },
+  "pythonnet": {
+    "main": true
+  },
+  "pythonocc-core": {
+    "main": true
+  },
   "r-fauxpas": {
     "main": true
   },
