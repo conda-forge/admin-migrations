@@ -39725,6 +39725,1200 @@
   "openexr": {
     "main": true
   },
+  "openexr-python": {
+    "main": true
+  },
+  "openfast": {
+    "main": true
+  },
+  "openfbx": {
+    "main": true
+  },
+  "openfe": {
+    "main": true
+  },
+  "openfe-analysis": {
+    "main": true
+  },
+  "openfermion": {
+    "main": true
+  },
+  "openfermionpsi4": {
+    "main": true
+  },
+  "openfermionpyscf": {
+    "main": true
+  },
+  "openff-amber-ff-ports": {
+    "main": true
+  },
+  "openff-bespokefit": {
+    "main": true
+  },
+  "openff-evaluator": {
+    "main": true
+  },
+  "openff-forcefields": {
+    "main": true
+  },
+  "openff-fragmenter": {
+    "main": true
+  },
+  "openff-interchange": {
+    "main": true
+  },
+  "openff-models": {
+    "main": true
+  },
+  "openff-nagl": {
+    "main": true
+  },
+  "openff-nagl-models": {
+    "main": true
+  },
+  "openff-packmol": {
+    "main": true
+  },
+  "openff-qcsubmit": {
+    "main": true
+  },
+  "openff-recharge": {
+    "main": true
+  },
+  "openff-toolkit": {
+    "main": true
+  },
+  "openff-units": {
+    "main": true
+  },
+  "openff-utilities": {
+    "main": true
+  },
+  "openfile": {
+    "main": true
+  },
+  "openfisca-core": {
+    "main": true
+  },
+  "openfisca-france": {
+    "main": true
+  },
+  "openfl": {
+    "main": true
+  },
+  "openfoam": {
+    "main": true
+  },
+  "openfpgaloader": {
+    "main": true
+  },
+  "openfst": {
+    "main": true
+  },
+  "opengeotech": {
+    "main": true
+  },
+  "openglider": {
+    "main": true
+  },
+  "openh264": {
+    "main": true
+  },
+  "openhsi": {
+    "main": true
+  },
+  "openidc_client": {
+    "main": true
+  },
+  "openimageio": {
+    "main": true
+  },
+  "openinference-instrumentation": {
+    "main": true
+  },
+  "openinference-instrumentation-anthropic": {
+    "main": true
+  },
+  "openinference-instrumentation-bedrock": {
+    "main": true
+  },
+  "openinference-instrumentation-dspy": {
+    "main": true
+  },
+  "openinference-instrumentation-haystack": {
+    "main": true
+  },
+  "openinference-instrumentation-langchain": {
+    "main": true
+  },
+  "openinference-instrumentation-llama-index": {
+    "main": true
+  },
+  "openinference-instrumentation-mistralai": {
+    "main": true
+  },
+  "openinference-instrumentation-openai": {
+    "main": true
+  },
+  "openinference-instrumentation-openai-agents": {
+    "main": true
+  },
+  "openinference-instrumentation-vertexai": {
+    "main": true
+  },
+  "openinference-semantic-conventions": {
+    "main": true
+  },
+  "opening-hours-py": {
+    "main": true
+  },
+  "openjdk": {
+    "main": true
+  },
+  "openjpeg": {
+    "main": true
+  },
+  "openjph": {
+    "main": true
+  },
+  "openkim-models": {
+    "main": true
+  },
+  "openkimmodels": {
+    "main": true
+  },
+  "openlb": {
+    "main": true
+  },
+  "openldap": {
+    "main": true
+  },
+  "openlibm": {
+    "main": true
+  },
+  "openlineage-airflow": {
+    "main": true
+  },
+  "openlineage-dbt": {
+    "main": true
+  },
+  "openlineage-integration-common": {
+    "main": true
+  },
+  "openlineage-python": {
+    "main": true
+  },
+  "openlineage-sql": {
+    "main": true
+  },
+  "openllm": {
+    "main": true
+  },
+  "openllm-client": {
+    "main": true
+  },
+  "openllm-core": {
+    "main": true
+  },
+  "openllm-playground": {
+    "main": true
+  },
+  "openmatrix": {
+    "main": true
+  },
+  "openmc": {
+    "main": true
+  },
+  "openmc-plotter": {
+    "main": true
+  },
+  "openmdao": {
+    "main": true
+  },
+  "openmeeg": {
+    "main": true
+  },
+  "openmesh": {
+    "main": true
+  },
+  "openmesh-python": {
+    "main": true
+  },
+  "openmetadata-airflow-managed-apis": {
+    "main": true
+  },
+  "openmetadata-ingestion": {
+    "main": true
+  },
+  "openmetadata-managed-apis": {
+    "main": true
+  },
+  "openmetadata-sqllineage": {
+    "main": true
+  },
+  "openmeteo-sdk": {
+    "main": true
+  },
+  "openmeteo_requests": {
+    "main": true
+  },
+  "openmichrom": {
+    "main": true
+  },
+  "openmim": {
+    "main": true
+  },
+  "openml": {
+    "main": true
+  },
+  "openmm": {
+    "main": true
+  },
+  "openmm-dlext": {
+    "main": true
+  },
+  "openmm-hip": {
+    "main": true
+  },
+  "openmm-ml": {
+    "main": true
+  },
+  "openmm-nonbonded-slicing": {
+    "main": true
+  },
+  "openmm-plumed": {
+    "main": true
+  },
+  "openmm-setup": {
+    "main": true
+  },
+  "openmm-torch": {
+    "main": true
+  },
+  "openmm-xtb": {
+    "main": true
+  },
+  "openmmdl": {
+    "main": true
+  },
+  "openmmforcefields": {
+    "main": true
+  },
+  "openmmgridforce": {
+    "main": true
+  },
+  "openmmtools": {
+    "main": true
+  },
+  "openmmtorchplugin": {
+    "main": true
+  },
+  "openmoltools": {
+    "main": true
+  },
+  "openmotif": {
+    "main": true
+  },
+  "openmp": {
+    "main": true
+  },
+  "openmpi": {
+    "main": true
+  },
+  "opennavsurf-bag": {
+    "main": true
+  },
+  "opennb": {
+    "main": true
+  },
+  "openneuro-py": {
+    "main": true
+  },
+  "openonload": {
+    "main": true
+  },
+  "openorb": {
+    "main": true
+  },
+  "openorb-data": {
+    "main": true
+  },
+  "openorb-data-bc430": {
+    "main": true
+  },
+  "openorb-data-de405": {
+    "main": true
+  },
+  "openorb-data-de430": {
+    "main": true
+  },
+  "openorb-eph-builder": {
+    "main": true
+  },
+  "openorbitaloptimizer": {
+    "main": true
+  },
+  "openpatchminer": {
+    "main": true
+  },
+  "openpathsampling": {
+    "main": true
+  },
+  "openpathsampling-cli": {
+    "main": true
+  },
+  "openphase": {
+    "main": true
+  },
+  "openpisco-split": {
+    "main": true
+  },
+  "openpiv": {
+    "main": true
+  },
+  "openpmd-api": {
+    "main": true
+  },
+  "openpmd-beamphysics": {
+    "main": true
+  },
+  "openpmd-validator": {
+    "main": true
+  },
+  "openpmd-viewer": {
+    "main": true
+  },
+  "openpmix": {
+    "main": true
+  },
+  "openpnm": {
+    "main": true
+  },
+  "openpulse": {
+    "main": true
+  },
+  "openpyxl": {
+    "main": true
+  },
+  "openqasm3": {
+    "main": true
+  },
+  "openqcm": {
+    "main": true
+  },
+  "openqdc": {
+    "main": true
+  },
+  "openquake.engine": {
+    "main": true
+  },
+  "openraft": {
+    "main": true
+  },
+  "openrefine": {
+    "main": true
+  },
+  "openresponses-python": {
+    "main": true
+  },
+  "openresponses-types": {
+    "main": true
+  },
+  "opensarlab-profile-label": {
+    "main": true
+  },
+  "opensarlab_lib": {
+    "main": true
+  },
+  "openscenegraph": {
+    "main": true
+  },
+  "openscenegraph-osgqt": {
+    "main": true
+  },
+  "openscienceplot_matplotlib": {
+    "main": true
+  },
+  "openscm-runner": {
+    "main": true
+  },
+  "openscm-twolayermodel": {
+    "main": true
+  },
+  "openscm-units": {
+    "main": true
+  },
+  "opensearch": {
+    "main": true
+  },
+  "opensearch-dsl": {
+    "main": true
+  },
+  "opensearch-protobufs": {
+    "main": true
+  },
+  "opensearch-py": {
+    "main": true
+  },
+  "opensees": {
+    "main": true
+  },
+  "openseppo": {
+    "main": true
+  },
+  "openseries": {
+    "main": true
+  },
+  "opensesame": {
+    "main": true
+  },
+  "openshift-cli": {
+    "main": true
+  },
+  "opensimplex": {
+    "main": true
+  },
+  "openskill": {
+    "main": true
+  },
+  "openslide": {
+    "main": true
+  },
+  "openslide-python": {
+    "main": true
+  },
+  "opensmog": {
+    "main": true
+  },
+  "opensource": {
+    "main": true
+  },
+  "openspec": {
+    "main": true
+  },
+  "openspecfun": {
+    "main": true
+  },
+  "openspoor": {
+    "main": true
+  },
+  "openssh": {
+    "main": true
+  },
+  "openssl": {
+    "main": true
+  },
+  "openstacksdk": {
+    "main": true
+  },
+  "openstep-parser": {
+    "main": true
+  },
+  "openstep-plist": {
+    "main": true
+  },
+  "opensubdiv": {
+    "main": true
+  },
+  "opentelemac": {
+    "main": true
+  },
+  "opentelemetry-api": {
+    "main": true
+  },
+  "opentelemetry-distro": {
+    "main": true
+  },
+  "opentelemetry-exporter-datadog": {
+    "main": true
+  },
+  "opentelemetry-exporter-gcp-monitoring": {
+    "main": true
+  },
+  "opentelemetry-exporter-gcp-trace": {
+    "main": true
+  },
+  "opentelemetry-exporter-google-cloud": {
+    "main": true
+  },
+  "opentelemetry-exporter-jaeger": {
+    "main": true
+  },
+  "opentelemetry-exporter-jaeger-proto-grpc": {
+    "main": true
+  },
+  "opentelemetry-exporter-jaeger-thrift": {
+    "main": true
+  },
+  "opentelemetry-exporter-opencensus": {
+    "main": true
+  },
+  "opentelemetry-exporter-otlp": {
+    "main": true
+  },
+  "opentelemetry-exporter-otlp-proto-common": {
+    "main": true
+  },
+  "opentelemetry-exporter-otlp-proto-grpc": {
+    "main": true
+  },
+  "opentelemetry-exporter-otlp-proto-http": {
+    "main": true
+  },
+  "opentelemetry-exporter-prometheus": {
+    "main": true
+  },
+  "opentelemetry-exporter-prometheus-remote-write": {
+    "main": true
+  },
+  "opentelemetry-exporter-zipkin": {
+    "main": true
+  },
+  "opentelemetry-exporter-zipkin-json": {
+    "main": true
+  },
+  "opentelemetry-exporter-zipkin-proto-http": {
+    "main": true
+  },
+  "opentelemetry-instrumentation": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-agno": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-aiohttp-client": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-aiopg": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-alephalpha": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-anthropic": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-asgi": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-asyncio": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-asyncpg": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-bedrock": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-boto": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-boto3sqs": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-botocore": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-celery": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-chromadb": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-click": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-cohere": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-confluent-kafka": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-crewai": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-dbapi": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-django": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-elasticsearch": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-falcon": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-fastapi": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-flask": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-google-generativeai": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-groq": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-grpc": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-haystack": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-httpx": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-jinja2": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-kafka-python": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-lancedb": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-langchain": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-llamaindex": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-logging": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-marqo": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-mcp": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-milvus": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-mistralai": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-mysql": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-ollama": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-openai": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-openai-agents": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-pinecone": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-psycopg2": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-pymemcache": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-pymongo": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-pymysql": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-pyramid": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-qdrant": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-redis": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-replicate": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-requests": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-sagemaker": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-sklearn": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-sqlalchemy": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-sqlite3": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-starlette": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-system-metrics": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-threading": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-together": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-tornado": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-tortoiseorm": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-transformers": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-urllib": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-urllib3": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-vertexai": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-voyageai": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-watsonx": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-weaviate": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-writer": {
+    "main": true
+  },
+  "opentelemetry-instrumentation-wsgi": {
+    "main": true
+  },
+  "opentelemetry-propagator-aws-xray": {
+    "main": true
+  },
+  "opentelemetry-propagator-b3": {
+    "main": true
+  },
+  "opentelemetry-propagator-gcp": {
+    "main": true
+  },
+  "opentelemetry-propagator-jaeger": {
+    "main": true
+  },
+  "opentelemetry-proto": {
+    "main": true
+  },
+  "opentelemetry-resource-detector-azure": {
+    "main": true
+  },
+  "opentelemetry-resourcedetector-gcp": {
+    "main": true
+  },
+  "opentelemetry-sdk": {
+    "main": true
+  },
+  "opentelemetry-sdk-extension-aws": {
+    "main": true
+  },
+  "opentelemetry-semantic-conventions": {
+    "main": true
+  },
+  "opentelemetry-semantic-conventions-ai": {
+    "main": true
+  },
+  "opentelemetry-util-http": {
+    "main": true
+  },
+  "opentile": {
+    "main": true
+  },
+  "opentofu": {
+    "main": true
+  },
+  "opentracing": {
+    "main": true
+  },
+  "opentrons-suite": {
+    "main": true
+  },
+  "opentrustregion": {
+    "main": true
+  },
+  "opentsne": {
+    "main": true
+  },
+  "openturns": {
+    "main": true
+  },
+  "opentype-sanitizer": {
+    "main": true
+  },
+  "opentypespec": {
+    "main": true
+  },
+  "openusd": {
+    "main": true
+  },
+  "openvdb": {
+    "main": true
+  },
+  "openvino": {
+    "main": true
+  },
+  "openvino-telemetry": {
+    "main": true
+  },
+  "openvino-tokenizers": {
+    "main": true
+  },
+  "openvisus": {
+    "main": true
+  },
+  "openvscode-server": {
+    "main": true
+  },
+  "openvsp-code-eli": {
+    "main": true
+  },
+  "openxr-sdk": {
+    "main": true
+  },
+  "opera-utils": {
+    "main": true
+  },
+  "ophyd": {
+    "main": true
+  },
+  "ophyd-async": {
+    "main": true
+  },
+  "opl": {
+    "main": true
+  },
+  "opsdroid": {
+    "main": true
+  },
+  "opsdroid-get-image-size": {
+    "main": true
+  },
+  "opsgenie-sdk": {
+    "main": true
+  },
+  "opt_einsum": {
+    "main": true
+  },
+  "opt_einsum_fx": {
+    "main": true
+  },
+  "optax": {
+    "main": true
+  },
+  "opticalglass": {
+    "main": true
+  },
+  "optics_functions": {
+    "main": true
+  },
+  "optiland": {
+    "main": true
+  },
+  "optima": {
+    "main": true
+  },
+  "optimade": {
+    "main": true
+  },
+  "optimagic": {
+    "main": true
+  },
+  "optimas": {
+    "main": true
+  },
+  "optimask": {
+    "main": true
+  },
+  "optimistix": {
+    "main": true
+  },
+  "optimix": {
+    "main": true
+  },
+  "optimum": {
+    "main": true
+  },
+  "optimum-graphcore": {
+    "main": true
+  },
+  "optimum-habana": {
+    "main": true
+  },
+  "optional-lite": {
+    "main": true
+  },
+  "optionsfactory": {
+    "main": true
+  },
+  "optiwindnet": {
+    "main": true
+  },
+  "optking": {
+    "main": true
+  },
+  "optlang": {
+    "main": true
+  },
+  "optlang_enumerator": {
+    "main": true
+  },
+  "optmagic": {
+    "main": true
+  },
+  "optodetools": {
+    "main": true
+  },
+  "optophyre": {
+    "main": true
+  },
+  "optparse-pretty": {
+    "main": true
+  },
+  "optpp": {
+    "main": true
+  },
+  "optree": {
+    "main": true
+  },
+  "optuna": {
+    "main": true
+  },
+  "optuna-dashboard": {
+    "main": true
+  },
+  "optuna-integration": {
+    "main": true
+  },
+  "optunahub": {
+    "main": true
+  },
+  "opty": {
+    "main": true
+  },
+  "optype": {
+    "main": true
+  },
+  "opus-tools": {
+    "main": true
+  },
+  "opusfile": {
+    "main": true
+  },
+  "opuslib": {
+    "main": true
+  },
+  "opyplus": {
+    "main": true
+  },
+  "opyrator": {
+    "main": true
+  },
+  "oq-engine": {
+    "main": true
+  },
+  "oqpy": {
+    "main": true
+  },
+  "or-tools": {
+    "main": true
+  },
+  "oracle-ads": {
+    "main": true
+  },
+  "oracle-instant-client": {
+    "main": true
+  },
+  "oracledb": {
+    "main": true
+  },
+  "orange-canvas-core": {
+    "main": true
+  },
+  "orange-spectroscopy": {
+    "main": true
+  },
+  "orange-widget-base": {
+    "main": true
+  },
+  "orange3": {
+    "main": true
+  },
+  "orange3-associate": {
+    "main": true
+  },
+  "orange3-bioinformatics": {
+    "main": true
+  },
+  "orange3-educational": {
+    "main": true
+  },
+  "orange3-explain": {
+    "main": true
+  },
+  "orange3-fairness": {
+    "main": true
+  },
+  "orange3-geo": {
+    "main": true
+  },
+  "orange3-imageanalytics": {
+    "main": true
+  },
+  "orange3-network": {
+    "main": true
+  },
+  "orange3-prototypes": {
+    "main": true
+  },
+  "orange3-singlecell": {
+    "main": true
+  },
+  "orange3-survival-analysis": {
+    "main": true
+  },
+  "orange3-text": {
+    "main": true
+  },
+  "orange3-textable": {
+    "main": true
+  },
+  "orange3-timeseries": {
+    "main": true
+  },
+  "orange3-worldhappiness": {
+    "main": true
+  },
+  "oras": {
+    "main": true
+  },
+  "oras-py": {
+    "main": true
+  },
+  "orator": {
+    "main": true
+  },
+  "orb-models": {
+    "main": true
+  },
+  "orbax-checkpoint": {
+    "main": true
+  },
+  "orbit-ml": {
+    "main": true
+  },
+  "orbit-nrel": {
+    "main": true
+  },
+  "orc": {
+    "main": true
+  },
+  "orca": {
+    "main": true
+  },
+  "orca-pi": {
+    "main": true
+  },
+  "orca_test": {
+    "main": true
+  },
+  "orcestra-downloader": {
+    "main": true
+  },
+  "orch": {
+    "main": true
+  },
+  "orcid": {
+    "main": true
+  },
+  "ordered-set": {
+    "main": true
+  },
+  "ordered_enum": {
+    "main": true
+  },
+  "orderedmultidict": {
+    "main": true
+  },
+  "orderedset": {
+    "main": true
+  },
+  "orderly-set": {
+    "main": true
+  },
+  "orekit": {
+    "main": true
+  },
+  "orekit_jpype": {
+    "main": true
+  },
+  "orgalorg": {
+    "main": true
+  },
+  "organizeit2": {
+    "main": true
+  },
+  "orgparse": {
+    "main": true
+  },
+  "orix": {
+    "main": true
+  },
+  "orjson": {
+    "main": true
+  },
+  "orjsonl": {
+    "main": true
+  },
+  "ormar": {
+    "main": true
+  },
+  "ormdantic": {
+    "main": true
+  },
+  "ormsgpack": {
+    "main": true
+  },
+  "ornax": {
+    "main": true
+  },
+  "orocos-kdl": {
+    "main": true
+  },
+  "orographic_precipitation": {
+    "main": true
+  },
+  "orsopy": {
+    "main": true
+  },
+  "orthopy": {
+    "main": true
+  },
+  "orthority": {
+    "main": true
+  },
+  "ory-client": {
+    "main": true
+  },
+  "os-client-config": {
+    "main": true
+  },
+  "os-service-types": {
+    "main": true
+  },
   "r-fauxpas": {
     "main": true
   },
