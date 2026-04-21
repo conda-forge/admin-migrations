@@ -161,7 +161,7 @@ class Username2IDMapping(Migrator):
                 if maint not in uname2id_mapping:
                     maint_to_remove.add(maint)
 
-        maint_to_add = {}
+        maint_to_add = set()
         for maint in uname2id_mapping:
             if maint not in recipe_maintainers:
                 maint_to_add.add(maint)
