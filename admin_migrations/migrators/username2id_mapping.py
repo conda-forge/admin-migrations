@@ -184,7 +184,7 @@ class Username2IDMapping(Migrator):
             new_lines = recipe_content.splitlines()
             for maint in maint_to_remove:
                 new_lines = _add_remove_user(new_lines, maint, "remove")
-            for maint in maint_to_remove:
+            for maint in maint_to_add:
                 new_lines = _add_remove_user(new_lines, maint, "add")
 
             wrote = False
