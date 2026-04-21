@@ -21,12 +21,10 @@ from admin_migrations.migrators import (
     CondaForgeYAMLTest,
     RAutomerge,
     TeamsCleanup,
-    WebhookCleanup,
 )
 from admin_migrations.migrators.base import Migrator
 
 MIGRATORS = [
-    WebhookCleanup(),
     RAutomerge(),
     CondaForgeYAMLTest(),
     TeamsCleanup(),
