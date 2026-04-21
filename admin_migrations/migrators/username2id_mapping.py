@@ -59,6 +59,42 @@ def _get_recipe_dummy_meta(recipe_content):
     return DummyMeta("\n".join(keep_lines))
 
 
+def _add_remove_user(lines, user, action):
+    assert action in ["add", "remove"]
+
+    new_lines = []
+    found_extra = False
+    found_rm = False
+    updated_user = False
+    for line in lines:
+        if line.strip().startswith("extra:"):
+            found_extra = True
+            new_lines.append(line)
+        elif line.strip().startswith("recipe-maintainers:"):
+            found_rm = True
+            new_lines.append(line)
+            default_head = line[: len(line) - len(line.lstrip())]
+        elif found_extra and found_rm and not updated_user:
+            dashind = line.find("-")
+            if dashind == -1:
+                head = default_head + "  "
+            else:
+                head = line[:dashind]
+
+            if action == "add":
+                new_lines.append(head + "- " + user)
+                updated_user = True
+            elif user.lower() in [word.lower() for word in line.split()]:
+                updated_user = True
+                continue  # skip line == remove user
+
+            new_lines.append(line)
+        else:
+            new_lines.append(line)
+
+    return new_lines
+
+
 class Username2IDMapping(Migrator):
     main_branch_only = True
     max_processes = 1
@@ -125,17 +161,31 @@ class Username2IDMapping(Migrator):
                 if maint not in uname2id_mapping:
                     maint_to_remove.add(maint)
 
-        if maint_to_remove:
-            print("    found maintainers to remove from the recipe", flush=True)
-            new_lines = []
-            for line in recipe_content.splitlines():
-                remove_line = False
-                for maint in maint_to_remove:
-                    if line.lstrip().startswith(f"- {maint}"):
-                        remove_line = True
+        maint_to_add = {}
+        for maint in uname2id_mapping:
+            if maint not in recipe_maintainers:
+                maint_to_add.add(maint)
 
-                if not remove_line:
-                    new_lines.append(line)
+        if maint_to_remove or maint_to_add:
+            if maint_to_remove:
+                print(
+                    "    found maintainers to remove from the recipe:",
+                    maint_to_remove,
+                    flush=True,
+                )
+
+            if maint_to_add:
+                print(
+                    "    found maintainers to add to the recipe:",
+                    maint_to_add,
+                    flush=True,
+                )
+
+            new_lines = recipe_content.splitlines()
+            for maint in maint_to_remove:
+                new_lines = _add_remove_user(new_lines, maint, "remove")
+            for maint in maint_to_remove:
+                new_lines = _add_remove_user(new_lines, maint, "add")
 
             wrote = False
             for pth in ["recipe/meta.yaml", "recipe/recipe.yaml"]:
