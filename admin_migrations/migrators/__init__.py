@@ -20,3 +20,4 @@ from .branch_protection import BranchProtection
 from .remove_automerge_and_rerender import RemoveAutomergeAndRerender
 from .enable_gha import EnableGHAWorkflows
 from .webhook_cleanup import WebhookCleanup
+from .username2id_mapping import Username2IDMapping
