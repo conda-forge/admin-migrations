@@ -92,6 +92,9 @@ def _add_remove_user(lines, user, action):
         else:
             new_lines.append(line)
 
+    if not updated_user and action == "add":
+        new_lines.append(default_head + "- " + user)
+
     return new_lines
 
 
@@ -184,8 +187,11 @@ class Username2IDMapping(Migrator):
             new_lines = recipe_content.splitlines()
             for maint in maint_to_remove:
                 new_lines = _add_remove_user(new_lines, maint, "remove")
+            print("    removed maintainers from the recipe", flush=True)
+
             for maint in maint_to_add:
                 new_lines = _add_remove_user(new_lines, maint, "add")
+            print("    added maintainers from the recipe", flush=True)
 
             wrote = False
             for pth in ["recipe/meta.yaml", "recipe/recipe.yaml"]:
@@ -201,7 +207,7 @@ class Username2IDMapping(Migrator):
                     break
 
             assert wrote, "Could not write new recipe!"
-            print("    removed maintainers from the recipe", flush=True)
+            print("    wrote recipe to repo", flush=True)
 
         # migration done, make a commit, lots of API calls
         return True, True, True
