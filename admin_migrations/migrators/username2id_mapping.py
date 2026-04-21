@@ -93,7 +93,7 @@ def _add_remove_user(lines, user, action):
             new_lines.append(line)
 
     if not updated_user and action == "add":
-        new_lines.append(default_head + "- " + user)
+        new_lines.append(default_head + "  - " + user)
 
     return new_lines
 
