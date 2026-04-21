@@ -81,14 +81,6 @@ class Username2IDMapping(Migrator):
         fs_team = org.get_team_by_slug(feedstock)
         maintainers = {e.login.lower() for e in fs_team.get_members()}
 
-        # DO NOT USE THIS CODE
-        # recipe_content = _get_recipe_contents()
-        # meta = _get_recipe_dummy_meta(recipe_content)
-        # maintainers = set(meta.meta.get("extra", {}).get("recipe-maintainers", []))
-        # maintainers = {maintainer.lower() for maintainer in maintainers}
-        # maintainers = {m for m in maintainers if "/" not in m}
-        # END OF CODE TO NOT USE
-
         uname2id_mapping = {}
         for uname in maintainers:
             try:
@@ -113,6 +105,53 @@ class Username2IDMapping(Migrator):
         )
 
         print("    wrote username to id mapping file", flush=True)
+
+        # now we remove any user in a recipe who does not exist
+        print("    looking for maintainers to remove from the recipe", flush=True)
+
+        # DO NOT USE THIS CODE TO SET IDs
+        recipe_content = _get_recipe_contents()
+        meta = _get_recipe_dummy_meta(recipe_content)
+        recipe_maintainers = set(
+            meta.meta.get("extra", {}).get("recipe-maintainers", []) or []
+        )
+        recipe_maintainers = {m.lower() for m in recipe_maintainers}
+        recipe_maintainers = {m for m in recipe_maintainers if "/" not in m}
+        maint_to_remove = set()
+        for maint in recipe_maintainers:
+            try:
+                gh.get_user(maint)
+            except Exception:
+                if maint not in uname2id_mapping:
+                    maint_to_remove.add(maint)
+
+        if maint_to_remove:
+            print("    found maintainers to remove from the recipe", flush=True)
+            new_lines = []
+            for line in recipe_content.splitlines():
+                remove_line = False
+                for maint in maint_to_remove:
+                    if line.lstrip().startswith(f"- {maint}"):
+                        remove_line = True
+
+                if not remove_line:
+                    new_lines.append(line)
+
+            wrote = False
+            for pth in ["recipe/meta.yaml", "recipe/recipe.yaml"]:
+                if os.path.exists(pth):
+                    with open(pth, "w") as fp:
+                        fp.write("\n".join(new_lines))
+
+                    subprocess.run(
+                        ["git", "add", "-f", pth],
+                        check=True,
+                    )
+                    wrote = True
+                    break
+
+            assert wrote, "Could not write new recipe!"
+            print("    removed maintainers from the recipe", flush=True)
 
         # migration done, make a commit, lots of API calls
         return True, True, True
