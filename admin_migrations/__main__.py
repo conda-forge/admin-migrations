@@ -47,7 +47,7 @@ def _assert_at_0():
         _cfg = yaml.load(fp.read())
     if "schedule" in _cfg["on"]:
         ctab = _cfg["on"]["schedule"][0]["cron"]
-        assert ctab == "0 * * * *", "Wrong cron tab %s for GHA!" % ctab
+        assert ctab == "0 */2 * * *", "Wrong cron tab %s for GHA!" % ctab
 
 
 _assert_at_0()
@@ -151,7 +151,7 @@ def _get_all_feedstocks():
 def _load_feedstock_data():
     curr_hour = datetime.datetime.utcnow().hour
     if (
-        curr_hour % 4 == 0 or not os.path.exists("data/all_feedstocks.json")
+        curr_hour % 6 == 0 or not os.path.exists("data/all_feedstocks.json")
     ) and not DEBUG:
         dt = time.time()
         all_feedstocks = _get_all_feedstocks()
