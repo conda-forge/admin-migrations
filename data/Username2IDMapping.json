@@ -2698,5 +2698,269 @@
   },
   "libabseil-bazel-systemlib": {
     "main": true
+  },
+  "libacl": {
+    "main": true
+  },
+  "libad9361-iio": {
+    "main": true
+  },
+  "libadjoint": {
+    "main": true
+  },
+  "libadwaita": {
+    "main": true
+  },
+  "libaec": {
+    "main": true
+  },
+  "libaio": {
+    "main": true
+  },
+  "libao": {
+    "main": true
+  },
+  "libapparmor": {
+    "main": true
+  },
+  "libarchive": {
+    "main": true
+  },
+  "libass": {
+    "main": true
+  },
+  "libassuan": {
+    "main": true
+  },
+  "libastra": {
+    "main": true
+  },
+  "libatomic_ops": {
+    "main": true
+  },
+  "libaugeas-split": {
+    "main": true
+  },
+  "libavif": {
+    "main": true
+  },
+  "libbezier": {
+    "main": true
+  },
+  "libbip3x": {
+    "main": true
+  },
+  "libblitz": {
+    "main": true
+  },
+  "libblst": {
+    "main": true
+  },
+  "libboost-mpi": {
+    "main": true
+  },
+  "libbraiding": {
+    "main": true
+  },
+  "libbsc": {
+    "main": true
+  },
+  "libbson": {
+    "main": true
+  },
+  "libcaer": {
+    "main": true
+  },
+  "libcamera": {
+    "main": true
+  },
+  "libcanberra": {
+    "main": true
+  },
+  "libcap": {
+    "main": true
+  },
+  "libcbor": {
+    "main": true
+  },
+  "libccd": {
+    "main": true
+  },
+  "libcds": {
+    "main": true
+  },
+  "libcflib": {
+    "main": true
+  },
+  "libcint": {
+    "main": true
+  },
+  "libclc": {
+    "main": true
+  },
+  "libcloudspawner": {
+    "main": true
+  },
+  "libcmaes": {
+    "main": true
+  },
+  "libcnpy": {
+    "main": true
+  },
+  "libcomcat": {
+    "main": true
+  },
+  "libconeangle": {
+    "main": true
+  },
+  "libconfig": {
+    "main": true
+  },
+  "libcorrect": {
+    "main": true
+  },
+  "libcpucycles": {
+    "main": true
+  },
+  "libcramjam": {
+    "main": true
+  },
+  "libcrc32c": {
+    "main": true
+  },
+  "libcroco": {
+    "main": true
+  },
+  "libcst": {
+    "main": true
+  },
+  "libctl": {
+    "main": true
+  },
+  "libcuba": {
+    "main": true
+  },
+  "libcublas": {
+    "main": true
+  },
+  "libcublasmp": {
+    "main": true
+  },
+  "libcudla": {
+    "main": true
+  },
+  "libcudss": {
+    "main": true
+  },
+  "libcufft": {
+    "main": true
+  },
+  "libcufftmp": {
+    "main": true
+  },
+  "libcufile": {
+    "main": true
+  },
+  "libcuobjclient": {
+    "main": true
+  },
+  "libcups": {
+    "main": true
+  },
+  "libcurand": {
+    "main": true
+  },
+  "libcusolver": {
+    "main": true
+  },
+  "libcusolvermp": {
+    "main": true
+  },
+  "libcusparse": {
+    "main": true
+  },
+  "libcvcuda": {
+    "main": true
+  },
+  "libcxx": {
+    "main": true
+  },
+  "libcxx-testing": {
+    "main": true
+  },
+  "libcxxwrap-julia": {
+    "main": true
+  },
+  "libdaemon": {
+    "main": true
+  },
+  "libdap4": {
+    "main": true
+  },
+  "libdate": {
+    "main": true
+  },
+  "libdazzle": {
+    "main": true
+  },
+  "libdb": {
+    "main": true
+  },
+  "libdc1394": {
+    "main": true
+  },
+  "libde265": {
+    "main": true
+  },
+  "libdecor": {
+    "main": true
+  },
+  "libdeflate": {
+    "main": true
+  },
+  "libdevmapper": {
+    "main": true
+  },
+  "libdicom": {
+    "main": true
+  },
+  "libdiffpy": {
+    "main": true
+  },
+  "libdiscid": {
+    "main": true
+  },
+  "libdispatch": {
+    "main": true
+  },
+  "libdlf": {
+    "main": true
+  },
+  "libdlfind": {
+    "main": true
+  },
+  "libdrm": {
+    "main": true
+  },
+  "libdwarf": {
+    "main": true
+  },
+  "libebm": {
+    "main": true
+  },
+  "libecpint": {
+    "main": true
+  },
+  "libedit": {
+    "main": true
+  },
+  "libefp": {
+    "main": true
+  },
+  "libensemble": {
+    "main": true
+  },
+  "libertem": {
+    "main": true
   }
 }
