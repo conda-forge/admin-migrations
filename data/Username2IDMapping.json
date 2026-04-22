@@ -10057,5 +10057,419 @@
   },
   "nbparameterise": {
     "main": true
+  },
+  "nbpreview": {
+    "main": true
+  },
+  "nbprint": {
+    "main": true
+  },
+  "nbproject": {
+    "main": true
+  },
+  "nbqa": {
+    "main": true
+  },
+  "nbrefactor": {
+    "main": true
+  },
+  "nbrr": {
+    "main": true
+  },
+  "nbsafety": {
+    "main": true
+  },
+  "nbserverproxy": {
+    "main": true
+  },
+  "nbsmoke": {
+    "main": true
+  },
+  "nbsphinx": {
+    "main": true
+  },
+  "nbsphinx-link": {
+    "main": true
+  },
+  "nbstripout": {
+    "main": true
+  },
+  "nbterm": {
+    "main": true
+  },
+  "nbtutor": {
+    "main": true
+  },
+  "nbval": {
+    "main": true
+  },
+  "nbwipers": {
+    "main": true
+  },
+  "nc2zarr": {
+    "main": true
+  },
+  "nc_time_axis": {
+    "main": true
+  },
+  "ncagg": {
+    "main": true
+  },
+  "ncar-jobqueue": {
+    "main": true
+  },
+  "ncas-amof-netcdf-template": {
+    "main": true
+  },
+  "ncbi-datasets-cli": {
+    "main": true
+  },
+  "ncc": {
+    "main": true
+  },
+  "nccl": {
+    "main": true
+  },
+  "nccmp": {
+    "main": true
+  },
+  "nccompare": {
+    "main": true
+  },
+  "ncdata": {
+    "main": true
+  },
+  "ncdu": {
+    "main": true
+  },
+  "ncempy": {
+    "main": true
+  },
+  "ncephes": {
+    "main": true
+  },
+  "nceplibs-bufr": {
+    "main": true
+  },
+  "nceplibs-ip": {
+    "main": true
+  },
+  "nceplibs-sp": {
+    "main": true
+  },
+  "ncflag": {
+    "main": true
+  },
+  "ncio": {
+    "main": true
+  },
+  "ncl": {
+    "main": true
+  },
+  "nclpy": {
+    "main": true
+  },
+  "nco": {
+    "main": true
+  },
+  "ncompare": {
+    "main": true
+  },
+  "ncplot": {
+    "main": true
+  },
+  "ncpol2sdpa": {
+    "main": true
+  },
+  "ncrystal": {
+    "main": true
+  },
+  "nctoolkit": {
+    "main": true
+  },
+  "ncurses": {
+    "main": true
+  },
+  "ncview": {
+    "main": true
+  },
+  "ncvis": {
+    "main": true
+  },
+  "ncvis-climate": {
+    "main": true
+  },
+  "ncvue": {
+    "main": true
+  },
+  "nd2": {
+    "main": true
+  },
+  "nd2-dask": {
+    "main": true
+  },
+  "nd2reader": {
+    "main": true
+  },
+  "ndarray": {
+    "main": true
+  },
+  "ndarray_listener": {
+    "main": true
+  },
+  "ndbc-api": {
+    "main": true
+  },
+  "ndbcrealtime": {
+    "main": true
+  },
+  "ndcctools": {
+    "main": true
+  },
+  "ndcsv": {
+    "main": true
+  },
+  "ndcube": {
+    "main": true
+  },
+  "ndcurves": {
+    "main": true
+  },
+  "ndd": {
+    "main": true
+  },
+  "ndf": {
+    "main": true
+  },
+  "ndg-httpsclient": {
+    "main": true
+  },
+  "ndiff": {
+    "main": true
+  },
+  "ndim": {
+    "main": true
+  },
+  "ndindex": {
+    "main": true
+  },
+  "ndjson": {
+    "main": true
+  },
+  "ndlinear": {
+    "main": true
+  },
+  "ndonnx": {
+    "main": true
+  },
+  "ndpyramid": {
+    "main": true
+  },
+  "nds2-client": {
+    "main": true
+  },
+  "nds2-client-swig": {
+    "main": true
+  },
+  "ndscope": {
+    "main": true
+  },
+  "ndsplines": {
+    "main": true
+  },
+  "ndtiff": {
+    "main": true
+  },
+  "ndv": {
+    "main": true
+  },
+  "ndvi2gif": {
+    "main": true
+  },
+  "ndx-pose": {
+    "main": true
+  },
+  "neapolitan": {
+    "main": true
+  },
+  "nearpy": {
+    "main": true
+  },
+  "neatnet": {
+    "main": true
+  },
+  "neattext": {
+    "main": true
+  },
+  "nebari": {
+    "main": true
+  },
+  "nebari-dask": {
+    "main": true
+  },
+  "nebi": {
+    "main": true
+  },
+  "nebula": {
+    "main": true
+  },
+  "nebula3-python": {
+    "main": true
+  },
+  "nectarchain": {
+    "main": true
+  },
+  "negspacy": {
+    "main": true
+  },
+  "neighpy": {
+    "main": true
+  },
+  "nektar": {
+    "main": true
+  },
+  "nelson-core": {
+    "main": true
+  },
+  "nelson-siegel-svensson": {
+    "main": true
+  },
+  "nemspy": {
+    "main": true
+  },
+  "nene": {
+    "main": true
+  },
+  "nengo": {
+    "main": true
+  },
+  "nengo-dl": {
+    "main": true
+  },
+  "nengo-extras": {
+    "main": true
+  },
+  "nengo-gui": {
+    "main": true
+  },
+  "nengo-loihi": {
+    "main": true
+  },
+  "nengo-ocl": {
+    "main": true
+  },
+  "nengo-spa": {
+    "main": true
+  },
+  "neo4j-connector": {
+    "main": true
+  },
+  "neo4j-python-driver": {
+    "main": true
+  },
+  "neo4j-python-driver-rust-ext": {
+    "main": true
+  },
+  "neo4jsbml": {
+    "main": true
+  },
+  "neobolt": {
+    "main": true
+  },
+  "neocmakelsp": {
+    "main": true
+  },
+  "neomodel": {
+    "main": true
+  },
+  "neonutilities": {
+    "main": true
+  },
+  "neotime": {
+    "main": true
+  },
+  "neovim": {
+    "main": true
+  },
+  "neovim-remote": {
+    "main": true
+  },
+  "nep29": {
+    "main": true
+  },
+  "neper": {
+    "main": true
+  },
+  "neptune": {
+    "main": true
+  },
+  "neptune-aws": {
+    "main": true
+  },
+  "neptune-client": {
+    "main": true
+  },
+  "neptune-lightgbm": {
+    "main": true
+  },
+  "neptune-notebooks": {
+    "main": true
+  },
+  "neptune-optuna": {
+    "main": true
+  },
+  "neptune-prophet": {
+    "main": true
+  },
+  "neptune-pytorch-lightning": {
+    "main": true
+  },
+  "neptune-sklearn": {
+    "main": true
+  },
+  "neptune-tensorflow-keras": {
+    "main": true
+  },
+  "neptune-xgboost": {
+    "main": true
+  },
+  "neqsim": {
+    "main": true
+  },
+  "nequip": {
+    "main": true
+  },
+  "nerfacc": {
+    "main": true
+  },
+  "nerfstudio": {
+    "main": true
+  },
+  "nerval": {
+    "main": true
+  },
+  "nessai": {
+    "main": true
+  },
+  "nessai-bilby": {
+    "main": true
+  },
+  "nessai-gw": {
+    "main": true
+  },
+  "nest-asyncio": {
+    "main": true
+  },
+  "nest-asyncio2": {
+    "main": true
+  },
+  "nest-desktop": {
+    "main": true
+  },
+  "nest-simulator": {
+    "main": true
+  },
+  "nestcheck": {
+    "main": true
   }
 }
