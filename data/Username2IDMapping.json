@@ -2962,5 +2962,644 @@
   },
   "libertem": {
     "main": true
+  },
+  "libertem-asi-tpx3": {
+    "main": true
+  },
+  "libertem-blobfinder": {
+    "main": true
+  },
+  "libertem-dectris": {
+    "main": true
+  },
+  "libertem-holo": {
+    "main": true
+  },
+  "libertem-live": {
+    "main": true
+  },
+  "libertem-qd-mpx": {
+    "main": true
+  },
+  "libestools": {
+    "main": true
+  },
+  "libev": {
+    "main": true
+  },
+  "libevalhyd": {
+    "main": true
+  },
+  "libevent": {
+    "main": true
+  },
+  "libexif": {
+    "main": true
+  },
+  "libfabric": {
+    "main": true
+  },
+  "libfaketime": {
+    "main": true
+  },
+  "libffi": {
+    "main": true
+  },
+  "libfido2": {
+    "main": true
+  },
+  "libfilepattern": {
+    "main": true
+  },
+  "libflac": {
+    "main": true
+  },
+  "libflint": {
+    "main": true
+  },
+  "libframe": {
+    "main": true
+  },
+  "libfranka": {
+    "main": true
+  },
+  "libftdi": {
+    "main": true
+  },
+  "libfuse": {
+    "main": true
+  },
+  "libfyaml": {
+    "main": true
+  },
+  "libgap": {
+    "main": true
+  },
+  "libgcrypt": {
+    "main": true
+  },
+  "libgd": {
+    "main": true
+  },
+  "libgdsii": {
+    "main": true
+  },
+  "libgit2": {
+    "main": true
+  },
+  "libglu": {
+    "main": true
+  },
+  "libglvnd": {
+    "main": true
+  },
+  "libgpg-error": {
+    "main": true
+  },
+  "libgpiod-split": {
+    "main": true
+  },
+  "libgpuarray": {
+    "main": true
+  },
+  "libgraphene": {
+    "main": true
+  },
+  "libgravatar": {
+    "main": true
+  },
+  "libgsasl": {
+    "main": true
+  },
+  "libgsf": {
+    "main": true
+  },
+  "libgumbo": {
+    "main": true
+  },
+  "libgxrio": {
+    "main": true
+  },
+  "libharu": {
+    "main": true
+  },
+  "libhdbpp": {
+    "main": true
+  },
+  "libhdbpp-timescale": {
+    "main": true
+  },
+  "libheif": {
+    "main": true
+  },
+  "libhidapi": {
+    "main": true
+  },
+  "libhiredis": {
+    "main": true
+  },
+  "libholoscan": {
+    "main": true
+  },
+  "libhomfly": {
+    "main": true
+  },
+  "libhugetlbfs": {
+    "main": true
+  },
+  "libhwloc": {
+    "main": true
+  },
+  "libhwy": {
+    "main": true
+  },
+  "libhxl": {
+    "main": true
+  },
+  "libi2c": {
+    "main": true
+  },
+  "libical": {
+    "main": true
+  },
+  "libiconv": {
+    "main": true
+  },
+  "libics": {
+    "main": true
+  },
+  "libid3tag": {
+    "main": true
+  },
+  "libidn11": {
+    "main": true
+  },
+  "libidn2": {
+    "main": true
+  },
+  "libiges": {
+    "main": true
+  },
+  "libignition-cmake0": {
+    "main": true
+  },
+  "libignition-common": {
+    "main": true
+  },
+  "libignition-fuel-tools": {
+    "main": true
+  },
+  "libignition-gazebo": {
+    "main": true
+  },
+  "libignition-gui": {
+    "main": true
+  },
+  "libignition-launch": {
+    "main": true
+  },
+  "libignition-math4": {
+    "main": true
+  },
+  "libignition-msgs1": {
+    "main": true
+  },
+  "libignition-physics": {
+    "main": true
+  },
+  "libignition-plugin": {
+    "main": true
+  },
+  "libignition-rendering4": {
+    "main": true
+  },
+  "libignition-sensors": {
+    "main": true
+  },
+  "libignition-tools": {
+    "main": true
+  },
+  "libignition-transport4": {
+    "main": true
+  },
+  "libignition-utils": {
+    "main": true
+  },
+  "libiio": {
+    "main": true
+  },
+  "libimagequant": {
+    "main": true
+  },
+  "libint": {
+    "main": true
+  },
+  "libipld": {
+    "main": true
+  },
+  "libitk": {
+    "main": true
+  },
+  "libjaylink": {
+    "main": true
+  },
+  "libjpeg-turbo": {
+    "main": true
+  },
+  "libjxl-split": {
+    "main": true
+  },
+  "libkml": {
+    "main": true
+  },
+  "libksba": {
+    "main": true
+  },
+  "liblbfgs": {
+    "main": true
+  },
+  "libleidenalg": {
+    "main": true
+  },
+  "liblie-group-controllers": {
+    "main": true
+  },
+  "liblsl": {
+    "main": true
+  },
+  "liblzf": {
+    "main": true
+  },
+  "libm2k": {
+    "main": true
+  },
+  "libmad": {
+    "main": true
+  },
+  "libmagma": {
+    "main": true
+  },
+  "libmathdx": {
+    "main": true
+  },
+  "libmatio": {
+    "main": true
+  },
+  "libmatio-cpp": {
+    "main": true
+  },
+  "libmaxminddb": {
+    "main": true
+  },
+  "libmbd": {
+    "main": true
+  },
+  "libmcfp": {
+    "main": true
+  },
+  "libmd": {
+    "main": true
+  },
+  "libmed": {
+    "main": true
+  },
+  "libmediainfo": {
+    "main": true
+  },
+  "libmemcached": {
+    "main": true
+  },
+  "libmetatensor": {
+    "main": true
+  },
+  "libmetatensor-torch": {
+    "main": true
+  },
+  "libmetatomic-torch": {
+    "main": true
+  },
+  "libmetgem": {
+    "main": true
+  },
+  "libmgui": {
+    "main": true
+  },
+  "libmicrohttpd": {
+    "main": true
+  },
+  "libmirisdr": {
+    "main": true
+  },
+  "libmixmod": {
+    "main": true
+  },
+  "libml_dtypes-headers": {
+    "main": true
+  },
+  "libmms": {
+    "main": true
+  },
+  "libmo_unpack": {
+    "main": true
+  },
+  "libmobility": {
+    "main": true
+  },
+  "libmodplug": {
+    "main": true
+  },
+  "libmodulemd": {
+    "main": true
+  },
+  "libmongoc": {
+    "main": true
+  },
+  "libmongocxx": {
+    "main": true
+  },
+  "libmpack-lua": {
+    "main": true
+  },
+  "libnacl-python-bindings": {
+    "main": true
+  },
+  "libnegf": {
+    "main": true
+  },
+  "libnetcdf": {
+    "main": true
+  },
+  "libnetworkit": {
+    "main": true
+  },
+  "libneuroml": {
+    "main": true
+  },
+  "libnfs": {
+    "main": true
+  },
+  "libnl": {
+    "main": true
+  },
+  "libnpp": {
+    "main": true
+  },
+  "libnsl": {
+    "main": true
+  },
+  "libntlm": {
+    "main": true
+  },
+  "libnvcomp": {
+    "main": true
+  },
+  "libnvfatbin": {
+    "main": true
+  },
+  "libnvimgcodec": {
+    "main": true
+  },
+  "libnvjitlink": {
+    "main": true
+  },
+  "libnvjpeg": {
+    "main": true
+  },
+  "libnvjpeg2k-split": {
+    "main": true
+  },
+  "libnvpl": {
+    "main": true
+  },
+  "libnvpl-blas": {
+    "main": true
+  },
+  "libnvpl-common": {
+    "main": true
+  },
+  "libnvpl-fft": {
+    "main": true
+  },
+  "libnvpl-lapack": {
+    "main": true
+  },
+  "libnvpl-rand": {
+    "main": true
+  },
+  "libnvpl-scalapack": {
+    "main": true
+  },
+  "libnvpl-sparse": {
+    "main": true
+  },
+  "libnvpl-tensor": {
+    "main": true
+  },
+  "libnvshmem": {
+    "main": true
+  },
+  "libnvtiff": {
+    "main": true
+  },
+  "libobjcryst": {
+    "main": true
+  },
+  "libode": {
+    "main": true
+  },
+  "libogg": {
+    "main": true
+  },
+  "libomm": {
+    "main": true
+  },
+  "libopus": {
+    "main": true
+  },
+  "libopusenc": {
+    "main": true
+  },
+  "libosmium": {
+    "main": true
+  },
+  "libosmo-dsp": {
+    "main": true
+  },
+  "libosqp": {
+    "main": true
+  },
+  "libosxunwind": {
+    "main": true
+  },
+  "libpano13": {
+    "main": true
+  },
+  "libparallelproj": {
+    "main": true
+  },
+  "libpass": {
+    "main": true
+  },
+  "libpcap": {
+    "main": true
+  },
+  "libpcapplusplus-split": {
+    "main": true
+  },
+  "libpciaccess": {
+    "main": true
+  },
+  "libpdal": {
+    "main": true
+  },
+  "libpeas": {
+    "main": true
+  },
+  "libpgmath": {
+    "main": true
+  },
+  "libpinch": {
+    "main": true
+  },
+  "libpisp": {
+    "main": true
+  },
+  "libplacebo": {
+    "main": true
+  },
+  "libplanc": {
+    "main": true
+  },
+  "libpmi2": {
+    "main": true
+  },
+  "libpnetcdf": {
+    "main": true
+  },
+  "libpng": {
+    "main": true
+  },
+  "libpninexus": {
+    "main": true
+  },
+  "libpostal": {
+    "main": true
+  },
+  "libpqxx": {
+    "main": true
+  },
+  "libprotobuf": {
+    "main": true
+  },
+  "libprotobuf-bazel-systemlib": {
+    "main": true
+  },
+  "libpsl": {
+    "main": true
+  },
+  "libpulsar": {
+    "main": true
+  },
+  "libpysal": {
+    "main": true
+  },
+  "libpython": {
+    "main": true
+  },
+  "libpyvinyl": {
+    "main": true
+  },
+  "libqdldl": {
+    "main": true
+  },
+  "libqglviewer": {
+    "main": true
+  },
+  "libqrencode": {
+    "main": true
+  },
+  "libquickfix": {
+    "main": true
+  },
+  "librabbitmq": {
+    "main": true
+  },
+  "libradolan": {
+    "main": true
+  },
+  "libraw": {
+    "main": true
+  },
+  "librdkafka": {
+    "main": true
+  },
+  "librealsense": {
+    "main": true
+  },
+  "libredwg": {
+    "main": true
+  },
+  "librepo": {
+    "main": true
+  },
+  "librerun-sdk": {
+    "main": true
+  },
+  "librobometry": {
+    "main": true
+  },
+  "librosa": {
+    "main": true
+  },
+  "librsvg": {
+    "main": true
+  },
+  "librsync": {
+    "main": true
+  },
+  "librttopo": {
+    "main": true
+  },
+  "libsakura": {
+    "main": true
+  },
+  "libsass": {
+    "main": true
+  },
+  "libsass-native": {
+    "main": true
+  },
+  "libsbml": {
+    "main": true
+  },
+  "libsc": {
+    "main": true
+  },
+  "libscrypt": {
+    "main": true
+  },
+  "libsdformat": {
+    "main": true
+  },
+  "libsecp256k1": {
+    "main": true
+  },
+  "libsecp256k1-py-bindings": {
+    "main": true
+  },
+  "libsecret": {
+    "main": true
+  },
+  "libsemigroups": {
+    "main": true
+  },
+  "libsemigroups_pybind11": {
+    "main": true
+  },
+  "libsharp": {
+    "main": true
+  },
+  "libshumate": {
+    "main": true
   }
 }
