@@ -151,7 +151,7 @@ def _get_all_feedstocks():
 def _load_feedstock_data():
     curr_hour = datetime.datetime.utcnow().hour
     if (
-        curr_hour % 2 == 0 or not os.path.exists("data/all_feedstocks.json")
+        curr_hour % 4 == 0 or not os.path.exists("data/all_feedstocks.json")
     ) and not DEBUG:
         dt = time.time()
         all_feedstocks = _get_all_feedstocks()
