@@ -32,7 +32,7 @@ class DummyMeta:
 
 class TeamsCleanup(Migrator):
     main_branch_only = True
-    max_processes = 1
+    max_processes = 2
     continual = True
 
     def migrate(self, feedstock, branch):
