@@ -60,12 +60,23 @@ class TeamsCleanup(Migrator):
             return
 
         if self._should_migrate() or "DEBUG_ADMIN_MIGRATIONS" in os.environ:
-            rsp = requests.post(
-                "https://conda-forge.herokuapp.com/conda-forge-teams/update",
-                headers={"CF_WEBSERVICES_TOKEN": os.environ["CF_WEBSERVICES_TOKEN"]},
-                json={"feedstock": repo_name},
-            )
-            rsp.raise_for_status()
+            # we fire off this request and then do not bother
+            # to check the return value. the webservices will
+            # handle it eventually.
+            # see https://stackoverflow.com/a/78879266
+            try:
+                rsp = requests.post(
+                    "https://conda-forge.herokuapp.com/conda-forge-teams/update",
+                    headers={
+                        "CF_WEBSERVICES_TOKEN": os.environ["CF_WEBSERVICES_TOKEN"]
+                    },
+                    json={"feedstock": repo_name},
+                    timeout=(None, 0.00001),
+                )
+                rsp.raise_for_status()
+            except requests.exceptions.ReadTimeout:
+                pass
+
             print("    updated team", flush=True)
 
             # migration done, make a commit, lots of API calls
