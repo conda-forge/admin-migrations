@@ -60,6 +60,7 @@ class TeamsCleanup(Migrator):
             return
 
         if self._should_migrate() or "DEBUG_ADMIN_MIGRATIONS" in os.environ:
+            # see https://stackoverflow.com/a/78879266
             try:
                 rsp = requests.post(
                     "https://conda-forge.herokuapp.com/conda-forge-teams/update",
