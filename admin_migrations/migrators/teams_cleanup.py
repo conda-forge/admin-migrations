@@ -1,12 +1,25 @@
 import os
-import time
+import random
 
 import requests
 from ruamel.yaml import YAML
 
+from admin_migrations.defaults import MAX_MIGRATE
+
 from .base import Migrator
 
-MAX_PER_HOUR = 50
+RNG = random.SystemRandom()
+
+
+def _get_random_frac():
+    # We do 100 per run of the code.
+    # this should be roughly 50 per hour.
+    if MAX_MIGRATE > 0:
+        frac = 100 / MAX_MIGRATE
+    else:
+        frac = 1
+
+    return frac
 
 
 class DummyMeta:
@@ -24,27 +37,10 @@ class TeamsCleanup(Migrator):
     continual = True
 
     def _should_migrate(self):
-        if not hasattr(self, "_time_between"):
-            # we do 50 an hour
-            self._time_between = 60.0 * 60.0 / MAX_PER_HOUR
-
-            # prevent a circular import by doing this here
-            from admin_migrations.__main__ import N_WORKERS
-
-            # if we have more than one process, that time gets longer
-            self._time_between = self._time_between * N_WORKERS
-
-        now = time.time()
-
-        if not hasattr(self, "_time_of_last_migration"):
-            self._time_of_last_migration = now
+        if RNG.random() < _get_random_frac():
             return True
-
-        if now - self._time_of_last_migration > self._time_between:
-            self._time_of_last_migration = now
-            return True
-
-        return False
+        else:
+            return False
 
     def migrate(self, feedstock, branch):
         repo_name = "%s-feedstock" % feedstock
