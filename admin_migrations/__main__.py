@@ -31,6 +31,7 @@ MIGRATORS = [
     CondaForgeYAMLTest(),
     TeamsCleanup(),
 ]
+N_WORKERS = None
 
 
 @functools.lru_cache(maxsize=1)
@@ -418,6 +419,8 @@ def _render_readme():
 
 
 def main() -> int:
+    global N_WORKERS
+
     print(" ", flush=True)
 
     feedstocks = _load_feedstock_data()
@@ -456,6 +459,8 @@ def main() -> int:
 
     if n_workers > MAX_WORKERS:
         n_workers = MAX_WORKERS
+
+    N_WORKERS = n_workers
 
     num_done = 0
     num_pushed_or_apied = 0
