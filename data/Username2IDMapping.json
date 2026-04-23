@@ -1,4 +1,4813 @@
 {
+  "21cmfast": {
+    "main": true
+  },
+  "2dfatmic": {
+    "main": true
+  },
+  "4ti2": {
+    "main": true
+  },
+  "7za": {
+    "main": true
+  },
+  "7zip": {
+    "main": true
+  },
+  "Iris-Codec": {
+    "main": true
+  },
+  "_current_repodata_hack": {
+    "main": true
+  },
+  "_go_select": {
+    "main": true
+  },
+  "_libarchive_static_for_cph": {
+    "main": true
+  },
+  "_libgcc_mutex": {
+    "main": true
+  },
+  "_numpy_rc": {
+    "main": true
+  },
+  "_openmp_mutex": {
+    "main": true
+  },
+  "_python_rc": {
+    "main": true
+  },
+  "_r-mutex": {
+    "main": true
+  },
+  "a2a-sdk": {
+    "main": true
+  },
+  "a2wsgi": {
+    "main": true
+  },
+  "aab": {
+    "main": true
+  },
+  "aabbtree": {
+    "main": true
+  },
+  "aadict": {
+    "main": true
+  },
+  "aalto-boss": {
+    "main": true
+  },
+  "aardvark-dns": {
+    "main": true
+  },
+  "aark": {
+    "main": true
+  },
+  "abacus": {
+    "main": true
+  },
+  "abacusutils": {
+    "main": true
+  },
+  "abc-classroom": {
+    "main": true
+  },
+  "abess": {
+    "main": true
+  },
+  "abi-compliance-checker": {
+    "main": true
+  },
+  "abi-dumper": {
+    "main": true
+  },
+  "abi3audit": {
+    "main": true
+  },
+  "abi3info": {
+    "main": true
+  },
+  "abicheck": {
+    "main": true
+  },
+  "abinit": {
+    "main": true
+  },
+  "abinit-data": {
+    "main": true
+  },
+  "abipy": {
+    "main": true
+  },
+  "ablang": {
+    "main": true
+  },
+  "ablang2": {
+    "main": true
+  },
+  "ablog": {
+    "main": true
+  },
+  "about-time": {
+    "main": true
+  },
+  "abqpy": {
+    "main": true
+  },
+  "abscab-cpp": {
+    "main": true
+  },
+  "abseil-cpp": {
+    "main": true
+  },
+  "absl-py": {
+    "main": true
+  },
+  "absolufy-imports": {
+    "main": true
+  },
+  "absolv": {
+    "main": true
+  },
+  "abtem": {
+    "main": true
+  },
+  "abydos": {
+    "main": true
+  },
+  "acachecontrol": {
+    "main": true
+  },
+  "academic": {
+    "main": true
+  },
+  "accelerate": {
+    "main": true
+  },
+  "accelerator-toolbox": {
+    "main": true
+  },
+  "access": {
+    "main": true
+  },
+  "accessible-pygments": {
+    "main": true
+  },
+  "accimage": {
+    "main": true
+  },
+  "acctaudem": {
+    "main": true
+  },
+  "ace": {
+    "main": true
+  },
+  "acgc": {
+    "main": true
+  },
+  "acme": {
+    "main": true
+  },
+  "acme-tiny": {
+    "main": true
+  },
+  "acor": {
+    "main": true
+  },
+  "acorns": {
+    "main": true
+  },
+  "acp-mcp-server": {
+    "main": true
+  },
+  "acpica-tools": {
+    "main": true
+  },
+  "acpype": {
+    "main": true
+  },
+  "acquifer": {
+    "main": true
+  },
+  "acquifer-napari": {
+    "main": true
+  },
+  "acres": {
+    "main": true
+  },
+  "acro": {
+    "main": true
+  },
+  "acrv_datasets": {
+    "main": true
+  },
+  "acryl-datahub": {
+    "main": true
+  },
+  "acsconv": {
+    "main": true
+  },
+  "acstools": {
+    "main": true
+  },
+  "act": {
+    "main": true
+  },
+  "act-atmos": {
+    "main": true
+  },
+  "actflow": {
+    "main": true
+  },
+  "actinia-python-client": {
+    "main": true
+  },
+  "actionlint": {
+    "main": true
+  },
+  "actions-includes": {
+    "main": true
+  },
+  "actions-runner": {
+    "main": true
+  },
+  "actions-toolkit": {
+    "main": true
+  },
+  "activemq-cpp": {
+    "main": true
+  },
+  "activity-browser": {
+    "main": true
+  },
+  "activitysim": {
+    "main": true
+  },
+  "acts": {
+    "main": true
+  },
+  "acwater": {
+    "main": true
+  },
+  "ad3-cpp": {
+    "main": true
+  },
+  "ada-cpp": {
+    "main": true
+  },
+  "ada-py": {
+    "main": true
+  },
+  "adaflow": {
+    "main": true
+  },
+  "adagio": {
+    "main": true
+  },
+  "adal": {
+    "main": true
+  },
+  "adam-assist": {
+    "main": true
+  },
+  "adam-robotics": {
+    "main": true
+  },
+  "adam_core": {
+    "main": true
+  },
+  "adani": {
+    "main": true
+  },
+  "adaptive": {
+    "main": true
+  },
+  "adaptive-scheduler": {
+    "main": true
+  },
+  "adaptivecpp": {
+    "main": true
+  },
+  "adaptivetesting": {
+    "main": true
+  },
+  "adb": {
+    "main": true
+  },
+  "adb-shell": {
+    "main": true
+  },
+  "adc-streaming": {
+    "main": true
+  },
+  "adcc": {
+    "main": true
+  },
+  "addfips": {
+    "main": true
+  },
+  "addict": {
+    "main": true
+  },
+  "addicty": {
+    "main": true
+  },
+  "addr2line-rust": {
+    "main": true
+  },
+  "adept": {
+    "main": true
+  },
+  "adf2dms": {
+    "main": true
+  },
+  "adios": {
+    "main": true
+  },
+  "adios-python": {
+    "main": true
+  },
+  "adios2": {
+    "main": true
+  },
+  "adios4dolfinx": {
+    "main": true
+  },
+  "adios_db": {
+    "main": true
+  },
+  "adjfind": {
+    "main": true
+  },
+  "adjusttext": {
+    "main": true
+  },
+  "adk-agui-middleware": {
+    "main": true
+  },
+  "adl2pydm": {
+    "main": true
+  },
+  "adlfs": {
+    "main": true
+  },
+  "adonisjs": {
+    "main": true
+  },
+  "adorn": {
+    "main": true
+  },
+  "adrt": {
+    "main": true
+  },
+  "ads": {
+    "main": true
+  },
+  "ads-async": {
+    "main": true
+  },
+  "ads2inspire": {
+    "main": true
+  },
+  "adsorption-file-parser": {
+    "main": true
+  },
+  "adstex": {
+    "main": true
+  },
+  "adtk": {
+    "main": true
+  },
+  "advanced-alchemy": {
+    "main": true
+  },
+  "advbumpversion": {
+    "main": true
+  },
+  "advection": {
+    "main": true
+  },
+  "adversarial-robustness-toolbox": {
+    "main": true
+  },
+  "adwaita-icon-theme": {
+    "main": true
+  },
+  "adwaita-qt": {
+    "main": true
+  },
+  "aedat": {
+    "main": true
+  },
+  "aegypti": {
+    "main": true
+  },
+  "aehmc": {
+    "main": true
+  },
+  "aemcmc": {
+    "main": true
+  },
+  "aenum": {
+    "main": true
+  },
+  "aeolus": {
+    "main": true
+  },
+  "aeon": {
+    "main": true
+  },
+  "aeon-neuro": {
+    "main": true
+  },
+  "aeppl": {
+    "main": true
+  },
+  "aerc": {
+    "main": true
+  },
+  "aerobulk-python": {
+    "main": true
+  },
+  "aesara-theano-fallback": {
+    "main": true
+  },
+  "aestream": {
+    "main": true
+  },
+  "aeventkit": {
+    "main": true
+  },
+  "afar": {
+    "main": true
+  },
+  "affinder": {
+    "main": true
+  },
+  "affine": {
+    "main": true
+  },
+  "affinegap": {
+    "main": true
+  },
+  "affogato": {
+    "main": true
+  },
+  "aflow": {
+    "main": true
+  },
+  "afni": {
+    "main": true
+  },
+  "afscgap": {
+    "main": true
+  },
+  "afterimage": {
+    "main": true
+  },
+  "afwizard": {
+    "main": true
+  },
+  "afwizard-library": {
+    "main": true
+  },
+  "ag-ui-langgraph": {
+    "main": true
+  },
+  "ag-ui-protocol": {
+    "main": true
+  },
+  "agate": {
+    "main": true
+  },
+  "agate-dbf": {
+    "main": true
+  },
+  "agate-excel": {
+    "main": true
+  },
+  "agate-lookup": {
+    "main": true
+  },
+  "agate-remote": {
+    "main": true
+  },
+  "agate-sql": {
+    "main": true
+  },
+  "agate-stats": {
+    "main": true
+  },
+  "age": {
+    "main": true
+  },
+  "agemo": {
+    "main": true
+  },
+  "agent-browser": {
+    "main": true
+  },
+  "agent-client-protocol": {
+    "main": true
+  },
+  "agentarium": {
+    "main": true
+  },
+  "agg-regrid": {
+    "main": true
+  },
+  "aggdraw": {
+    "main": true
+  },
+  "aggregate": {
+    "main": true
+  },
+  "aghast": {
+    "main": true
+  },
+  "agilent-format": {
+    "main": true
+  },
+  "agnpy": {
+    "main": true
+  },
+  "agntcy-acp": {
+    "main": true
+  },
+  "ago": {
+    "main": true
+  },
+  "agox": {
+    "main": true
+  },
+  "agriculture-vlab": {
+    "main": true
+  },
+  "aha": {
+    "main": true
+  },
+  "ahead_python": {
+    "main": true
+  },
+  "ahlive": {
+    "main": true
+  },
+  "ai-traineree": {
+    "main": true
+  },
+  "ai2-olmo": {
+    "main": true
+  },
+  "ai2-olmo-core": {
+    "main": true
+  },
+  "ai2-olmo-eval": {
+    "main": true
+  },
+  "ai21": {
+    "main": true
+  },
+  "ai21-tokenizer": {
+    "main": true
+  },
+  "ai2thor": {
+    "main": true
+  },
+  "ai4s-jobq": {
+    "main": true
+  },
+  "ai4ts": {
+    "main": true
+  },
+  "aia-chaser": {
+    "main": true
+  },
+  "aiapy": {
+    "main": true
+  },
+  "aichat": {
+    "main": true
+  },
+  "aicsimageio": {
+    "main": true
+  },
+  "aicspylibczi": {
+    "main": true
+  },
+  "aicssegmentation": {
+    "main": true
+  },
+  "aida": {
+    "main": true
+  },
+  "aider": {
+    "main": true
+  },
+  "aider-chat": {
+    "main": true
+  },
+  "aif360": {
+    "main": true
+  },
+  "aihwkit-gpu": {
+    "main": true
+  },
+  "aiida-abinit": {
+    "main": true
+  },
+  "aiida-bigdft": {
+    "main": true
+  },
+  "aiida-castep": {
+    "main": true
+  },
+  "aiida-core": {
+    "main": true
+  },
+  "aiida-cp2k": {
+    "main": true
+  },
+  "aiida-crystal17": {
+    "main": true
+  },
+  "aiida-cusp": {
+    "main": true
+  },
+  "aiida-dataframe": {
+    "main": true
+  },
+  "aiida-fans": {
+    "main": true
+  },
+  "aiida-fleur": {
+    "main": true
+  },
+  "aiida-gaussian": {
+    "main": true
+  },
+  "aiida-gaussian-datatypes": {
+    "main": true
+  },
+  "aiida-nwchem": {
+    "main": true
+  },
+  "aiida-optimize": {
+    "main": true
+  },
+  "aiida-orca": {
+    "main": true
+  },
+  "aiida-pseudo": {
+    "main": true
+  },
+  "aiida-pythonjob": {
+    "main": true
+  },
+  "aiida-quantumespresso": {
+    "main": true
+  },
+  "aiida-shell": {
+    "main": true
+  },
+  "aiida-siesta": {
+    "main": true
+  },
+  "aiida-tools": {
+    "main": true
+  },
+  "aiida-vasp": {
+    "main": true
+  },
+  "aiida-wannier90": {
+    "main": true
+  },
+  "aiida-wannier90_workflows": {
+    "main": true
+  },
+  "aiida-workgraph": {
+    "main": true
+  },
+  "aiida-yambo": {
+    "main": true
+  },
+  "aiidalab": {
+    "main": true
+  },
+  "aiidalab-widgets-base": {
+    "main": true
+  },
+  "aim": {
+    "main": true
+  },
+  "aim-ui": {
+    "main": true
+  },
+  "aimodelshare": {
+    "main": true
+  },
+  "aimrecords": {
+    "main": true
+  },
+  "aimrocks": {
+    "main": true
+  },
+  "aimsgb": {
+    "main": true
+  },
+  "aimsim": {
+    "main": true
+  },
+  "aimz": {
+    "main": true
+  },
+  "aio-executor": {
+    "main": true
+  },
+  "aio-pika": {
+    "main": true
+  },
+  "aioboto3": {
+    "main": true
+  },
+  "aiobotocore": {
+    "main": true
+  },
+  "aioca": {
+    "main": true
+  },
+  "aiocache": {
+    "main": true
+  },
+  "aiochclient": {
+    "main": true
+  },
+  "aiocircuitbreaker": {
+    "main": true
+  },
+  "aioconsole": {
+    "main": true
+  },
+  "aiocontextvars": {
+    "main": true
+  },
+  "aiocron": {
+    "main": true
+  },
+  "aiocsv": {
+    "main": true
+  },
+  "aiodataloader": {
+    "main": true
+  },
+  "aiodns": {
+    "main": true
+  },
+  "aioeasywebdav": {
+    "main": true
+  },
+  "aiofile": {
+    "main": true
+  },
+  "aiofiles": {
+    "main": true
+  },
+  "aioftp": {
+    "main": true
+  },
+  "aioguest": {
+    "main": true
+  },
+  "aiohappyeyeballs": {
+    "main": true
+  },
+  "aiohttp": {
+    "main": true
+  },
+  "aiohttp-asgi-connector": {
+    "main": true
+  },
+  "aiohttp-client-cache": {
+    "main": true
+  },
+  "aiohttp-cors": {
+    "main": true
+  },
+  "aiohttp-debugtoolbar": {
+    "main": true
+  },
+  "aiohttp-devtools": {
+    "main": true
+  },
+  "aiohttp-graphql": {
+    "main": true
+  },
+  "aiohttp-jinja2": {
+    "main": true
+  },
+  "aiohttp-retry": {
+    "main": true
+  },
+  "aiohttp-security": {
+    "main": true
+  },
+  "aiohttp-session": {
+    "main": true
+  },
+  "aiohttp-socks": {
+    "main": true
+  },
+  "aiohttp-sse": {
+    "main": true
+  },
+  "aiohttp-sse-client": {
+    "main": true
+  },
+  "aiohttp-xmlrpc": {
+    "main": true
+  },
+  "aiohue": {
+    "main": true
+  },
+  "aioice": {
+    "main": true
+  },
+  "aioinflux": {
+    "main": true
+  },
+  "aioitertools": {
+    "main": true
+  },
+  "aiokafka": {
+    "main": true
+  },
+  "aiolimiter": {
+    "main": true
+  },
+  "aiologic": {
+    "main": true
+  },
+  "aiomcache": {
+    "main": true
+  },
+  "aiomoto": {
+    "main": true
+  },
+  "aiomqtt": {
+    "main": true
+  },
+  "aiomultiprocess": {
+    "main": true
+  },
+  "aiomysql": {
+    "main": true
+  },
+  "aionotify": {
+    "main": true
+  },
+  "aioopenssl": {
+    "main": true
+  },
+  "aiooss2": {
+    "main": true
+  },
+  "aiopeewee": {
+    "main": true
+  },
+  "aioprocessing": {
+    "main": true
+  },
+  "aioprometheus": {
+    "main": true
+  },
+  "aioquic": {
+    "main": true
+  },
+  "aioredis": {
+    "main": true
+  },
+  "aioresponses": {
+    "main": true
+  },
+  "aioresult": {
+    "main": true
+  },
+  "aioretry": {
+    "main": true
+  },
+  "aiormq": {
+    "main": true
+  },
+  "aiortc": {
+    "main": true
+  },
+  "aiorun": {
+    "main": true
+  },
+  "aiorwlock": {
+    "main": true
+  },
+  "aiosasl": {
+    "main": true
+  },
+  "aioserial": {
+    "main": true
+  },
+  "aioshutil": {
+    "main": true
+  },
+  "aiosignal": {
+    "main": true
+  },
+  "aioslacker": {
+    "main": true
+  },
+  "aiosmtpd": {
+    "main": true
+  },
+  "aiosmtplib": {
+    "main": true
+  },
+  "aiosqlite": {
+    "main": true
+  },
+  "aiostream": {
+    "main": true
+  },
+  "aiotube": {
+    "main": true
+  },
+  "aiounittest": {
+    "main": true
+  },
+  "aiowebdav2": {
+    "main": true
+  },
+  "aioxmpp": {
+    "main": true
+  },
+  "aiozmq": {
+    "main": true
+  },
+  "aipy": {
+    "main": true
+  },
+  "air": {
+    "main": true
+  },
+  "airbyte-api": {
+    "main": true
+  },
+  "airflow": {
+    "main": true
+  },
+  "airflow-balancer": {
+    "main": true
+  },
+  "airflow-code-editor": {
+    "main": true
+  },
+  "airflow-common": {
+    "main": true
+  },
+  "airflow-common-operators": {
+    "main": true
+  },
+  "airflow-config": {
+    "main": true
+  },
+  "airflow-dbt": {
+    "main": true
+  },
+  "airflow-ha": {
+    "main": true
+  },
+  "airflow-laminar": {
+    "main": true
+  },
+  "airflow-priority": {
+    "main": true
+  },
+  "airflow-provider-great-expectations": {
+    "main": true
+  },
+  "airflow-provider-xlsx": {
+    "main": true
+  },
+  "airflow-pydantic": {
+    "main": true
+  },
+  "airflow-supervisor": {
+    "main": true
+  },
+  "airfly": {
+    "main": true
+  },
+  "airium": {
+    "main": true
+  },
+  "airportsdata": {
+    "main": true
+  },
+  "airspy": {
+    "main": true
+  },
+  "airspyhf": {
+    "main": true
+  },
+  "airss": {
+    "main": true
+  },
+  "airtrafficsim": {
+    "main": true
+  },
+  "airy": {
+    "main": true
+  },
+  "aisim": {
+    "main": true
+  },
+  "aisuite": {
+    "main": true
+  },
+  "aitch": {
+    "main": true
+  },
+  "aixd": {
+    "main": true
+  },
+  "aixd_ara": {
+    "main": true
+  },
+  "ajc27-freemocap-blender-addon": {
+    "main": true
+  },
+  "ajsonrpc": {
+    "main": true
+  },
+  "akamai": {
+    "main": true
+  },
+  "akernel": {
+    "main": true
+  },
+  "akismet": {
+    "main": true
+  },
+  "alabaster": {
+    "main": true
+  },
+  "alacritty": {
+    "main": true
+  },
+  "alacritty-graphics": {
+    "main": true
+  },
+  "alamode": {
+    "main": true
+  },
+  "alang": {
+    "main": true
+  },
+  "albucore": {
+    "main": true
+  },
+  "album": {
+    "main": true
+  },
+  "album-distributed": {
+    "main": true
+  },
+  "album-docker": {
+    "main": true
+  },
+  "album-environments": {
+    "main": true
+  },
+  "album-gui": {
+    "main": true
+  },
+  "album-package": {
+    "main": true
+  },
+  "album-runner": {
+    "main": true
+  },
+  "album-solution-api": {
+    "main": true
+  },
+  "alchemical-analysis": {
+    "main": true
+  },
+  "alchemiscale": {
+    "main": true
+  },
+  "alchemlyb": {
+    "main": true
+  },
+  "aldjemy": {
+    "main": true
+  },
+  "ale": {
+    "main": true
+  },
+  "ale-py": {
+    "main": true
+  },
+  "alembic": {
+    "main": true
+  },
+  "alembic-postgresql-enum": {
+    "main": true
+  },
+  "alembic-utils": {
+    "main": true
+  },
+  "aleph-alpha-client": {
+    "main": true
+  },
+  "alex": {
+    "main": true
+  },
+  "alfasim-sdk": {
+    "main": true
+  },
+  "algopy": {
+    "main": true
+  },
+  "algorithms": {
+    "main": true
+  },
+  "algotom": {
+    "main": true
+  },
+  "algotree": {
+    "main": true
+  },
+  "algviz": {
+    "main": true
+  },
+  "alibabacloud-adb20211201": {
+    "main": true
+  },
+  "alibabacloud-credentials": {
+    "main": true
+  },
+  "alibabacloud-endpoint-util": {
+    "main": true
+  },
+  "alibabacloud-gateway-spi": {
+    "main": true
+  },
+  "alibabacloud-openapi-util": {
+    "main": true
+  },
+  "alibabacloud-tea": {
+    "main": true
+  },
+  "alibabacloud-tea-openapi": {
+    "main": true
+  },
+  "alibabacloud-tea-util": {
+    "main": true
+  },
+  "alibabacloud-tea-xml": {
+    "main": true
+  },
+  "alibabacloud_credentials_api": {
+    "main": true
+  },
+  "alibi": {
+    "main": true
+  },
+  "alibi-detect": {
+    "main": true
+  },
+  "aligator": {
+    "main": true
+  },
+  "alignn": {
+    "main": true
+  },
+  "alive-progress": {
+    "main": true
+  },
+  "aliyun-python-sdk-core": {
+    "main": true
+  },
+  "aliyun-python-sdk-core-v3": {
+    "main": true
+  },
+  "aliyun-python-sdk-kms": {
+    "main": true
+  },
+  "allagash": {
+    "main": true
+  },
+  "allantools": {
+    "main": true
+  },
+  "allennlp": {
+    "main": true
+  },
+  "allennlp-models": {
+    "main": true
+  },
+  "allennlp-optuna": {
+    "main": true
+  },
+  "allennlp-semparse": {
+    "main": true
+  },
+  "allennlp-server": {
+    "main": true
+  },
+  "allensdk": {
+    "main": true
+  },
+  "allpairspy": {
+    "main": true
+  },
+  "allthekernels": {
+    "main": true
+  },
+  "allure-python": {
+    "main": true
+  },
+  "alm": {
+    "main": true
+  },
+  "almosthere": {
+    "main": true
+  },
+  "aloe": {
+    "main": true
+  },
+  "alpaca-py": {
+    "main": true
+  },
+  "alpenglow": {
+    "main": true
+  },
+  "alpha-shapes": {
+    "main": true
+  },
+  "alpha_vantage": {
+    "main": true
+  },
+  "alphacsc": {
+    "main": true
+  },
+  "alphalens": {
+    "main": true
+  },
+  "alphalens-reloaded": {
+    "main": true
+  },
+  "alphashape": {
+    "main": true
+  },
+  "alphatwirl": {
+    "main": true
+  },
+  "alsa-lib": {
+    "main": true
+  },
+  "alsa-plugins": {
+    "main": true
+  },
+  "alt-profanity-check": {
+    "main": true
+  },
+  "altair": {
+    "main": true
+  },
+  "altair-aitools-devkit": {
+    "main": true
+  },
+  "altair-aitools-runtime": {
+    "main": true
+  },
+  "altair-transform": {
+    "main": true
+  },
+  "altair_data_server": {
+    "main": true
+  },
+  "altair_saver": {
+    "main": true
+  },
+  "altair_tiles": {
+    "main": true
+  },
+  "altair_viewer": {
+    "main": true
+  },
+  "altdphi": {
+    "main": true
+  },
+  "alteryx-open-src-update-checker": {
+    "main": true
+  },
+  "altgraph": {
+    "main": true
+  },
+  "altimetry-downloader-aviso": {
+    "main": true
+  },
+  "altimetry-io": {
+    "main": true
+  },
+  "alto-dev": {
+    "main": true
+  },
+  "alveoleye": {
+    "main": true
+  },
+  "am3": {
+    "main": true
+  },
+  "amaranth": {
+    "main": true
+  },
+  "amazon-braket-default-simulator": {
+    "main": true
+  },
+  "amazon-braket-ocean-plugin": {
+    "main": true
+  },
+  "amazon-braket-schemas": {
+    "main": true
+  },
+  "amazon-braket-sdk": {
+    "main": true
+  },
+  "amazon-codewhisperer-jupyterlab-ext": {
+    "main": true
+  },
+  "amazon-q-developer-jupyterlab-ext": {
+    "main": true
+  },
+  "amazon-sagemaker-hyperpod": {
+    "main": true
+  },
+  "amazon-sagemaker-jupyter-ai-q-developer": {
+    "main": true
+  },
+  "amazon-sagemaker-jupyter-scheduler": {
+    "main": true
+  },
+  "amazon-sagemaker-sql-editor": {
+    "main": true
+  },
+  "amazon-sagemaker-sql-execution": {
+    "main": true
+  },
+  "amazon-sagemaker-sql-magic": {
+    "main": true
+  },
+  "amazon-textract-caller": {
+    "main": true
+  },
+  "amazon-textract-response-parser": {
+    "main": true
+  },
+  "amazon-textract-textractor": {
+    "main": true
+  },
+  "amazon-transcribe": {
+    "main": true
+  },
+  "ambertools": {
+    "main": true
+  },
+  "ambiance": {
+    "main": true
+  },
+  "ambit": {
+    "main": true
+  },
+  "amep": {
+    "main": true
+  },
+  "ammonite-repl": {
+    "main": true
+  },
+  "amn": {
+    "main": true
+  },
+  "amorphouspy": {
+    "main": true
+  },
+  "amostra": {
+    "main": true
+  },
+  "amp": {
+    "main": true
+  },
+  "amp-atomistics": {
+    "main": true
+  },
+  "amp-rsl-rl": {
+    "main": true
+  },
+  "ampform": {
+    "main": true
+  },
+  "ampform-dpd": {
+    "main": true
+  },
+  "ampl-asl": {
+    "main": true
+  },
+  "ampl-mp": {
+    "main": true
+  },
+  "amplication-cli": {
+    "main": true
+  },
+  "amplitude-analytics": {
+    "main": true
+  },
+  "amplpy": {
+    "main": true
+  },
+  "amply": {
+    "main": true
+  },
+  "amptools": {
+    "main": true
+  },
+  "amqp": {
+    "main": true
+  },
+  "amrex": {
+    "main": true
+  },
+  "amset": {
+    "main": true
+  },
+  "amundsen-common": {
+    "main": true
+  },
+  "amundsen-databuilder": {
+    "main": true
+  },
+  "amundsen-metadata": {
+    "main": true
+  },
+  "amundsen-rds": {
+    "main": true
+  },
+  "amundsen-search": {
+    "main": true
+  },
+  "amzn-sagemaker-aiops-jupyterlab-extension": {
+    "main": true
+  },
+  "anacal": {
+    "main": true
+  },
+  "anaconda-ai": {
+    "main": true
+  },
+  "anaconda-anon-usage": {
+    "main": true
+  },
+  "anaconda-assistant-conda": {
+    "main": true
+  },
+  "anaconda-assistant-sdk": {
+    "main": true
+  },
+  "anaconda-auth": {
+    "main": true
+  },
+  "anaconda-catalogs": {
+    "main": true
+  },
+  "anaconda-clean": {
+    "main": true
+  },
+  "anaconda-cli-base": {
+    "main": true
+  },
+  "anaconda-client": {
+    "main": true
+  },
+  "anaconda-cloud": {
+    "main": true
+  },
+  "anaconda-cloud-auth": {
+    "main": true
+  },
+  "anaconda-cloud-cli": {
+    "main": true
+  },
+  "anaconda-project": {
+    "main": true
+  },
+  "anaconda-verify": {
+    "main": true
+  },
+  "anaflow": {
+    "main": true
+  },
+  "anakin-language-server": {
+    "main": true
+  },
+  "analisi": {
+    "main": true
+  },
+  "analogjs-language-server": {
+    "main": true
+  },
+  "analphipy": {
+    "main": true
+  },
+  "analysisstore": {
+    "main": true
+  },
+  "analytics-python": {
+    "main": true
+  },
+  "anarcii": {
+    "main": true
+  },
+  "anchor-annotator": {
+    "main": true
+  },
+  "anchor-droplet-chip": {
+    "main": true
+  },
+  "anchor-exp": {
+    "main": true
+  },
+  "anchorboosting": {
+    "main": true
+  },
+  "andes": {
+    "main": true
+  },
+  "anemoi-datasets": {
+    "main": true
+  },
+  "anemoi-graphs": {
+    "main": true
+  },
+  "anemoi-inference": {
+    "main": true
+  },
+  "anemoi-models": {
+    "main": true
+  },
+  "anemoi-registry": {
+    "main": true
+  },
+  "anemoi-training": {
+    "main": true
+  },
+  "anemoi-transform": {
+    "main": true
+  },
+  "anemoi-utils": {
+    "main": true
+  },
+  "anesthetic": {
+    "main": true
+  },
+  "angelcommunity": {
+    "main": true
+  },
+  "angle-grinder": {
+    "main": true
+  },
+  "angreal": {
+    "main": true
+  },
+  "angular-cli": {
+    "main": true
+  },
+  "anidms": {
+    "main": true
+  },
+  "animatplot": {
+    "main": true
+  },
+  "animatplot-ng": {
+    "main": true
+  },
+  "aniso8601": {
+    "main": true
+  },
+  "ann": {
+    "main": true
+  },
+  "anndata": {
+    "main": true
+  },
+  "annexremote": {
+    "main": true
+  },
+  "annotated-doc": {
+    "main": true
+  },
+  "annotated-types": {
+    "main": true
+  },
+  "annsel": {
+    "main": true
+  },
+  "ansi": {
+    "main": true
+  },
+  "ansi2html": {
+    "main": true
+  },
+  "ansible": {
+    "main": true
+  },
+  "ansible-base": {
+    "main": true
+  },
+  "ansible-bender": {
+    "main": true
+  },
+  "ansible-bundler": {
+    "main": true
+  },
+  "ansible-compat": {
+    "main": true
+  },
+  "ansible-core": {
+    "main": true
+  },
+  "ansible-kernel": {
+    "main": true
+  },
+  "ansible-lint": {
+    "main": true
+  },
+  "ansible-runner": {
+    "main": true
+  },
+  "ansible-vault": {
+    "main": true
+  },
+  "ansicolor": {
+    "main": true
+  },
+  "ansicolors": {
+    "main": true
+  },
+  "ansicon": {
+    "main": true
+  },
+  "ansifilter": {
+    "main": true
+  },
+  "ansimarkup": {
+    "main": true
+  },
+  "ansitable": {
+    "main": true
+  },
+  "ansiwrap": {
+    "main": true
+  },
+  "ansys-api-dbu": {
+    "main": true
+  },
+  "ansys-api-discovery": {
+    "main": true
+  },
+  "ansys-api-edb": {
+    "main": true
+  },
+  "ansys-api-geometry": {
+    "main": true
+  },
+  "ansys-api-mapdl-v0": {
+    "main": true
+  },
+  "ansys-api-mechanical": {
+    "main": true
+  },
+  "ansys-api-platform-instancemanagement": {
+    "main": true
+  },
+  "ansys-edb-core": {
+    "main": true
+  },
+  "ansys-geometry-core": {
+    "main": true
+  },
+  "ansys-mapdl-reader": {
+    "main": true
+  },
+  "ansys-mechanical-env": {
+    "main": true
+  },
+  "ansys-platform-instancemanagement": {
+    "main": true
+  },
+  "ansys-pythonnet": {
+    "main": true
+  },
+  "ansys-rocky-core": {
+    "main": true
+  },
+  "ansys-tools-common": {
+    "main": true
+  },
+  "ansys-tools-path": {
+    "main": true
+  },
+  "ansys-tools-visualization-interface": {
+    "main": true
+  },
+  "ansys_tools_protoc_helper": {
+    "main": true
+  },
+  "antares-client": {
+    "main": true
+  },
+  "anthropic": {
+    "main": true
+  },
+  "antiberty": {
+    "main": true
+  },
+  "antic": {
+    "main": true
+  },
+  "antimeridian": {
+    "main": true
+  },
+  "antio": {
+    "main": true
+  },
+  "antitesting": {
+    "main": true
+  },
+  "antlr": {
+    "main": true
+  },
+  "antlr-cpp-runtime": {
+    "main": true
+  },
+  "antlr-python-runtime": {
+    "main": true
+  },
+  "antlr4-cli": {
+    "main": true
+  },
+  "antlr4-tools": {
+    "main": true
+  },
+  "antmocdata": {
+    "main": true
+  },
+  "antropy": {
+    "main": true
+  },
+  "ants": {
+    "main": true
+  },
+  "antspyx": {
+    "main": true
+  },
+  "anuga": {
+    "main": true
+  },
+  "any-llm-sdk": {
+    "main": true
+  },
+  "anyascii": {
+    "main": true
+  },
+  "anybadge": {
+    "main": true
+  },
+  "anychange": {
+    "main": true
+  },
+  "anyconfig": {
+    "main": true
+  },
+  "anycorn": {
+    "main": true
+  },
+  "anyio": {
+    "main": true
+  },
+  "anyioutils": {
+    "main": true
+  },
+  "anyjson": {
+    "main": true
+  },
+  "anymap": {
+    "main": true
+  },
+  "anymap-ts": {
+    "main": true
+  },
+  "anypytools": {
+    "main": true
+  },
+  "anyqt": {
+    "main": true
+  },
+  "anys": {
+    "main": true
+  },
+  "anyscale": {
+    "main": true
+  },
+  "anysqlite": {
+    "main": true
+  },
+  "anytree": {
+    "main": true
+  },
+  "anywidget": {
+    "main": true
+  },
+  "aocl-blas": {
+    "main": true
+  },
+  "aodhclient": {
+    "main": true
+  },
+  "aoe2netwrapper": {
+    "main": true
+  },
+  "aom": {
+    "main": true
+  },
+  "aospy": {
+    "main": true
+  },
+  "ap_features": {
+    "main": true
+  },
+  "apache-airflow-backport-providers-cncf-kubernetes": {
+    "main": true
+  },
+  "apache-airflow-core-split": {
+    "main": true
+  },
+  "apache-airflow-providers-airbyte": {
+    "main": true
+  },
+  "apache-airflow-providers-alibaba": {
+    "main": true
+  },
+  "apache-airflow-providers-amazon": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-beam": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-cassandra": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-drill": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-druid": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-flink": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-hdfs": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-hive": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-iceberg": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-impala": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-kafka": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-kylin": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-livy": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-pig": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-pinot": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-spark": {
+    "main": true
+  },
+  "apache-airflow-providers-apache-sqoop": {
+    "main": true
+  },
+  "apache-airflow-providers-apprise": {
+    "main": true
+  },
+  "apache-airflow-providers-arangodb": {
+    "main": true
+  },
+  "apache-airflow-providers-asana": {
+    "main": true
+  },
+  "apache-airflow-providers-atlassian-jira": {
+    "main": true
+  },
+  "apache-airflow-providers-celery": {
+    "main": true
+  },
+  "apache-airflow-providers-cloudant": {
+    "main": true
+  },
+  "apache-airflow-providers-cncf-kubernetes": {
+    "main": true
+  },
+  "apache-airflow-providers-common-compat": {
+    "main": true
+  },
+  "apache-airflow-providers-common-io": {
+    "main": true
+  },
+  "apache-airflow-providers-common-messaging": {
+    "main": true
+  },
+  "apache-airflow-providers-common-sql": {
+    "main": true
+  },
+  "apache-airflow-providers-daskexecutor": {
+    "main": true
+  },
+  "apache-airflow-providers-databricks": {
+    "main": true
+  },
+  "apache-airflow-providers-datadog": {
+    "main": true
+  },
+  "apache-airflow-providers-dbt-cloud": {
+    "main": true
+  },
+  "apache-airflow-providers-dingding": {
+    "main": true
+  },
+  "apache-airflow-providers-discord": {
+    "main": true
+  },
+  "apache-airflow-providers-docker": {
+    "main": true
+  },
+  "apache-airflow-providers-edge3": {
+    "main": true
+  },
+  "apache-airflow-providers-elasticsearch": {
+    "main": true
+  },
+  "apache-airflow-providers-exasol": {
+    "main": true
+  },
+  "apache-airflow-providers-fab": {
+    "main": true
+  },
+  "apache-airflow-providers-facebook": {
+    "main": true
+  },
+  "apache-airflow-providers-ftp": {
+    "main": true
+  },
+  "apache-airflow-providers-git": {
+    "main": true
+  },
+  "apache-airflow-providers-github": {
+    "main": true
+  },
+  "apache-airflow-providers-google": {
+    "main": true
+  },
+  "apache-airflow-providers-grpc": {
+    "main": true
+  },
+  "apache-airflow-providers-hashicorp": {
+    "main": true
+  },
+  "apache-airflow-providers-http": {
+    "main": true
+  },
+  "apache-airflow-providers-imap": {
+    "main": true
+  },
+  "apache-airflow-providers-influxdb": {
+    "main": true
+  },
+  "apache-airflow-providers-jdbc": {
+    "main": true
+  },
+  "apache-airflow-providers-jenkins": {
+    "main": true
+  },
+  "apache-airflow-providers-jira": {
+    "main": true
+  },
+  "apache-airflow-providers-microsoft-azure": {
+    "main": true
+  },
+  "apache-airflow-providers-microsoft-mssql": {
+    "main": true
+  },
+  "apache-airflow-providers-microsoft-psrp": {
+    "main": true
+  },
+  "apache-airflow-providers-microsoft-winrm": {
+    "main": true
+  },
+  "apache-airflow-providers-mongo": {
+    "main": true
+  },
+  "apache-airflow-providers-mysql": {
+    "main": true
+  },
+  "apache-airflow-providers-neo4j": {
+    "main": true
+  },
+  "apache-airflow-providers-odbc": {
+    "main": true
+  },
+  "apache-airflow-providers-openai": {
+    "main": true
+  },
+  "apache-airflow-providers-openfaas": {
+    "main": true
+  },
+  "apache-airflow-providers-openlineage": {
+    "main": true
+  },
+  "apache-airflow-providers-opensearch": {
+    "main": true
+  },
+  "apache-airflow-providers-opsgenie": {
+    "main": true
+  },
+  "apache-airflow-providers-oracle": {
+    "main": true
+  },
+  "apache-airflow-providers-pagerduty": {
+    "main": true
+  },
+  "apache-airflow-providers-papermill": {
+    "main": true
+  },
+  "apache-airflow-providers-pgvector": {
+    "main": true
+  },
+  "apache-airflow-providers-pinecone": {
+    "main": true
+  },
+  "apache-airflow-providers-plexus": {
+    "main": true
+  },
+  "apache-airflow-providers-postgres": {
+    "main": true
+  },
+  "apache-airflow-providers-presto": {
+    "main": true
+  },
+  "apache-airflow-providers-qdrant": {
+    "main": true
+  },
+  "apache-airflow-providers-qubole": {
+    "main": true
+  },
+  "apache-airflow-providers-redis": {
+    "main": true
+  },
+  "apache-airflow-providers-salesforce": {
+    "main": true
+  },
+  "apache-airflow-providers-samba": {
+    "main": true
+  },
+  "apache-airflow-providers-segment": {
+    "main": true
+  },
+  "apache-airflow-providers-sendgrid": {
+    "main": true
+  },
+  "apache-airflow-providers-sftp": {
+    "main": true
+  },
+  "apache-airflow-providers-singularity": {
+    "main": true
+  },
+  "apache-airflow-providers-slack": {
+    "main": true
+  },
+  "apache-airflow-providers-smtp": {
+    "main": true
+  },
+  "apache-airflow-providers-snowflake": {
+    "main": true
+  },
+  "apache-airflow-providers-sqlite": {
+    "main": true
+  },
+  "apache-airflow-providers-ssh": {
+    "main": true
+  },
+  "apache-airflow-providers-standard": {
+    "main": true
+  },
+  "apache-airflow-providers-tableau": {
+    "main": true
+  },
+  "apache-airflow-providers-tabular": {
+    "main": true
+  },
+  "apache-airflow-providers-telegram": {
+    "main": true
+  },
+  "apache-airflow-providers-trino": {
+    "main": true
+  },
+  "apache-airflow-providers-vertica": {
+    "main": true
+  },
+  "apache-airflow-providers-weaviate": {
+    "main": true
+  },
+  "apache-airflow-providers-yandex": {
+    "main": true
+  },
+  "apache-airflow-providers-ydb": {
+    "main": true
+  },
+  "apache-airflow-providers-zendesk": {
+    "main": true
+  },
+  "apache-airflow-task-sdk": {
+    "main": true
+  },
+  "apache-ant": {
+    "main": true
+  },
+  "apache-atlas": {
+    "main": true
+  },
+  "apache-beam": {
+    "main": true
+  },
+  "apache-flink": {
+    "main": true
+  },
+  "apache-flink-libraries": {
+    "main": true
+  },
+  "apache-libcloud": {
+    "main": true
+  },
+  "apache-sedona": {
+    "main": true
+  },
+  "apache-solr": {
+    "main": true
+  },
+  "apache-tvm-ffi": {
+    "main": true
+  },
+  "apav": {
+    "main": true
+  },
+  "apbs": {
+    "main": true
+  },
+  "apd": {
+    "main": true
+  },
+  "apeye": {
+    "main": true
+  },
+  "apeye-core": {
+    "main": true
+  },
+  "api-inference-community": {
+    "main": true
+  },
+  "api2db": {
+    "main": true
+  },
+  "api_dock": {
+    "main": true
+  },
+  "apicurio-keycloak-extensions": {
+    "main": true
+  },
+  "apify_fingerprint_datapoints": {
+    "main": true
+  },
+  "apipkg": {
+    "main": true
+  },
+  "apischema": {
+    "main": true
+  },
+  "apispec": {
+    "main": true
+  },
+  "apispec-webframeworks": {
+    "main": true
+  },
+  "apistar": {
+    "main": true
+  },
+  "apitally": {
+    "main": true
+  },
+  "aplpy": {
+    "main": true
+  },
+  "aplus": {
+    "main": true
+  },
+  "apm-cli": {
+    "main": true
+  },
+  "apng": {
+    "main": true
+  },
+  "apoc-backend": {
+    "main": true
+  },
+  "apollinaire": {
+    "main": true
+  },
+  "app-model": {
+    "main": true
+  },
+  "app-pass": {
+    "main": true
+  },
+  "appdirs": {
+    "main": true
+  },
+  "apphb": {
+    "main": true
+  },
+  "appimage-updater-bridge": {
+    "main": true
+  },
+  "appium-python-client": {
+    "main": true
+  },
+  "applaunchservices": {
+    "main": true
+  },
+  "applicationinsights": {
+    "main": true
+  },
+  "appligator": {
+    "main": true
+  },
+  "apply_defaults": {
+    "main": true
+  },
+  "appmap": {
+    "main": true
+  },
+  "appmar": {
+    "main": true
+  },
+  "appmode": {
+    "main": true
+  },
+  "appnope": {
+    "main": true
+  },
+  "appose": {
+    "main": true
+  },
+  "apprise": {
+    "main": true
+  },
+  "approval-utilities": {
+    "main": true
+  },
+  "approvaltests": {
+    "main": true
+  },
+  "approxposterior": {
+    "main": true
+  },
+  "appscript": {
+    "main": true
+  },
+  "appstream": {
+    "main": true
+  },
+  "apptainer": {
+    "main": true
+  },
+  "apptools": {
+    "main": true
+  },
+  "apr": {
+    "main": true
+  },
+  "apricot-select": {
+    "main": true
+  },
+  "apriltag": {
+    "main": true
+  },
+  "aproc": {
+    "main": true
+  },
+  "apscheduler": {
+    "main": true
+  },
+  "apsg": {
+    "main": true
+  },
+  "apstools": {
+    "main": true
+  },
+  "apsw": {
+    "main": true
+  },
+  "apswutils": {
+    "main": true
+  },
+  "aptools": {
+    "main": true
+  },
+  "apyxl": {
+    "main": true
+  },
+  "aqme": {
+    "main": true
+  },
+  "aqua": {
+    "main": true
+  },
+  "arabic_reshaper": {
+    "main": true
+  },
+  "arabica": {
+    "main": true
+  },
+  "arb": {
+    "main": true
+  },
+  "arbalister": {
+    "main": true
+  },
+  "arbol": {
+    "main": true
+  },
+  "arborx": {
+    "main": true
+  },
+  "arby": {
+    "main": true
+  },
+  "arc3o": {
+    "main": true
+  },
+  "arccommander": {
+    "main": true
+  },
+  "arch-py": {
+    "main": true
+  },
+  "archapp": {
+    "main": true
+  },
+  "archinfo": {
+    "main": true
+  },
+  "architect-cli": {
+    "main": true
+  },
+  "architector": {
+    "main": true
+  },
+  "archive-path": {
+    "main": true
+  },
+  "archspec": {
+    "main": true
+  },
+  "arcjetcv": {
+    "main": true
+  },
+  "arcos-gui": {
+    "main": true
+  },
+  "arcos4py": {
+    "main": true
+  },
+  "arcosparse": {
+    "main": true
+  },
+  "arcp": {
+    "main": true
+  },
+  "arcplot": {
+    "main": true
+  },
+  "arcsi": {
+    "main": true
+  },
+  "arctic": {
+    "main": true
+  },
+  "arcticdb": {
+    "main": true
+  },
+  "arcx": {
+    "main": true
+  },
+  "area": {
+    "main": true
+  },
+  "area-detector-handlers": {
+    "main": true
+  },
+  "arelle-release": {
+    "main": true
+  },
+  "arethetypeswrong-cli": {
+    "main": true
+  },
+  "argbash": {
+    "main": true
+  },
+  "argcomplete": {
+    "main": true
+  },
+  "argh": {
+    "main": true
+  },
+  "argilla": {
+    "main": true
+  },
+  "argo-cli": {
+    "main": true
+  },
+  "argo-models": {
+    "main": true
+  },
+  "argo-workflows": {
+    "main": true
+  },
+  "argocd-cli": {
+    "main": true
+  },
+  "argon2-cffi-bindings": {
+    "main": true
+  },
+  "argon2_cffi": {
+    "main": true
+  },
+  "argopandas": {
+    "main": true
+  },
+  "argopt": {
+    "main": true
+  },
+  "argopy": {
+    "main": true
+  },
+  "argos": {
+    "main": true
+  },
+  "argp-standalone": {
+    "main": true
+  },
+  "argparse-addons": {
+    "main": true
+  },
+  "argparse-dataclass": {
+    "main": true
+  },
+  "argparse-manpage": {
+    "main": true
+  },
+  "argparse-manpage-birdtools": {
+    "main": true
+  },
+  "args": {
+    "main": true
+  },
+  "argtable2": {
+    "main": true
+  },
+  "arguably": {
+    "main": true
+  },
+  "argutils": {
+    "main": true
+  },
+  "aria-tools": {
+    "main": true
+  },
+  "aria2": {
+    "main": true
+  },
+  "aria2p": {
+    "main": true
+  },
+  "ariadne": {
+    "main": true
+  },
+  "ariadne-codegen": {
+    "main": true
+  },
+  "aris_lite": {
+    "main": true
+  },
+  "arize": {
+    "main": true
+  },
+  "arize-phoenix": {
+    "main": true
+  },
+  "arize-phoenix-client": {
+    "main": true
+  },
+  "arize-phoenix-evals": {
+    "main": true
+  },
+  "arize-phoenix-otel": {
+    "main": true
+  },
+  "ark": {
+    "main": true
+  },
+  "arlpy": {
+    "main": true
+  },
+  "arm-mango": {
+    "main": true
+  },
+  "arm-test-data": {
+    "main": true
+  },
+  "arm-variant": {
+    "main": true
+  },
+  "arm_pyart": {
+    "main": true
+  },
+  "armadillo": {
+    "main": true
+  },
+  "arn": {
+    "main": true
+  },
+  "arosics": {
+    "main": true
+  },
+  "arpack": {
+    "main": true
+  },
+  "arpackpp": {
+    "main": true
+  },
+  "arpeggio": {
+    "main": true
+  },
+  "arq": {
+    "main": true
+  },
+  "arrakis-python": {
+    "main": true
+  },
+  "array-api-compat": {
+    "main": true
+  },
+  "array-api-extra": {
+    "main": true
+  },
+  "array-api-strict": {
+    "main": true
+  },
+  "array-record": {
+    "main": true
+  },
+  "array-to-latex": {
+    "main": true
+  },
+  "array2gif": {
+    "main": true
+  },
+  "array_split": {
+    "main": true
+  },
+  "arraykit": {
+    "main": true
+  },
+  "arraylake": {
+    "main": true
+  },
+  "arraylake-client": {
+    "main": true
+  },
+  "arraylias": {
+    "main": true
+  },
+  "arraymap": {
+    "main": true
+  },
+  "arrest": {
+    "main": true
+  },
+  "arro3-core": {
+    "main": true
+  },
+  "arrow": {
+    "main": true
+  },
+  "arrow-adbc-split": {
+    "main": true
+  },
+  "arrow-c-glib": {
+    "main": true
+  },
+  "arrow-cpp": {
+    "main": true
+  },
+  "arrow_odbc": {
+    "main": true
+  },
+  "arsenic": {
+    "main": true
+  },
+  "artem": {
+    "main": true
+  },
+  "arti": {
+    "main": true
+  },
+  "artifacts-keyring": {
+    "main": true
+  },
+  "artificial-adversary": {
+    "main": true
+  },
+  "artview": {
+    "main": true
+  },
+  "aruco": {
+    "main": true
+  },
+  "arviz": {
+    "main": true
+  },
+  "arviz-base": {
+    "main": true
+  },
+  "arviz-plots": {
+    "main": true
+  },
+  "arviz-stats": {
+    "main": true
+  },
+  "arvpyf": {
+    "main": true
+  },
+  "arxiv": {
+    "main": true
+  },
+  "arxiv-collector": {
+    "main": true
+  },
+  "arxiv-latex-cleaner": {
+    "main": true
+  },
+  "arxiv-miner": {
+    "main": true
+  },
+  "arxiv2bib": {
+    "main": true
+  },
+  "as-tree": {
+    "main": true
+  },
+  "asammdf": {
+    "main": true
+  },
+  "asap": {
+    "main": true
+  },
+  "asap3": {
+    "main": true
+  },
+  "asapdiscovery": {
+    "main": true
+  },
+  "asaplib": {
+    "main": true
+  },
+  "ascii-art": {
+    "main": true
+  },
+  "ascii_graph": {
+    "main": true
+  },
+  "ascii_magic": {
+    "main": true
+  },
+  "asciichartpy": {
+    "main": true
+  },
+  "asciidoc": {
+    "main": true
+  },
+  "asciidoctor": {
+    "main": true
+  },
+  "asciietch": {
+    "main": true
+  },
+  "asciimatics": {
+    "main": true
+  },
+  "asciinema": {
+    "main": true
+  },
+  "asciinema-agg": {
+    "main": true
+  },
+  "asciiquarium": {
+    "main": true
+  },
+  "asciistuff": {
+    "main": true
+  },
+  "asciitree": {
+    "main": true
+  },
+  "asdf": {
+    "main": true
+  },
+  "asdf-astropy": {
+    "main": true
+  },
+  "asdf-coordinates-schemas": {
+    "main": true
+  },
+  "asdf-standard": {
+    "main": true
+  },
+  "asdf-transform-schemas": {
+    "main": true
+  },
+  "asdf-unit-schemas": {
+    "main": true
+  },
+  "asdf-wcs-schemas": {
+    "main": true
+  },
+  "asdfghjkl": {
+    "main": true
+  },
+  "ase": {
+    "main": true
+  },
+  "ase-db-backends": {
+    "main": true
+  },
+  "ase-notebook": {
+    "main": true
+  },
+  "ase2sprkkr": {
+    "main": true
+  },
+  "asebytes": {
+    "main": true
+  },
+  "asesurfacefinder": {
+    "main": true
+  },
+  "asf_enumeration": {
+    "main": true
+  },
+  "asf_search": {
+    "main": true
+  },
+  "asf_tools": {
+    "main": true
+  },
+  "asfsmd": {
+    "main": true
+  },
+  "asgi-correlation-id": {
+    "main": true
+  },
+  "asgi-csrf": {
+    "main": true
+  },
+  "asgi-lifespan": {
+    "main": true
+  },
+  "asgi-logger": {
+    "main": true
+  },
+  "asgiref": {
+    "main": true
+  },
+  "asimov": {
+    "main": true
+  },
+  "asimov-gwdata": {
+    "main": true
+  },
+  "asimtools": {
+    "main": true
+  },
+  "asio": {
+    "main": true
+  },
+  "asitop": {
+    "main": true
+  },
+  "askbot": {
+    "main": true
+  },
+  "asks": {
+    "main": true
+  },
+  "asm-lsp": {
+    "main": true
+  },
+  "asn1": {
+    "main": true
+  },
+  "asn1crypto": {
+    "main": true
+  },
+  "asp-plot": {
+    "main": true
+  },
+  "aspell": {
+    "main": true
+  },
+  "asphalt": {
+    "main": true
+  },
+  "asphalt-exceptions": {
+    "main": true
+  },
+  "asphalt-mailer": {
+    "main": true
+  },
+  "asphalt-mongodb": {
+    "main": true
+  },
+  "asphalt-py4j": {
+    "main": true
+  },
+  "asphalt-redis": {
+    "main": true
+  },
+  "asphalt-serialization": {
+    "main": true
+  },
+  "asphalt-sqlalchemy": {
+    "main": true
+  },
+  "asphalt-templating": {
+    "main": true
+  },
+  "asphalt-web": {
+    "main": true
+  },
+  "aspy": {
+    "main": true
+  },
+  "asr": {
+    "main": true
+  },
+  "assembly_stats": {
+    "main": true
+  },
+  "assertpy": {
+    "main": true
+  },
+  "asset": {
+    "main": true
+  },
+  "assetid": {
+    "main": true
+  },
+  "assimp": {
+    "main": true
+  },
+  "assimulo": {
+    "main": true
+  },
+  "assist": {
+    "main": true
+  },
+  "assist-adam-fork": {
+    "main": true
+  },
+  "assyst": {
+    "main": true
+  },
+  "ast-decompiler": {
+    "main": true
+  },
+  "ast-grep": {
+    "main": true
+  },
+  "ast-grep-py": {
+    "main": true
+  },
+  "ast-selector": {
+    "main": true
+  },
+  "ast2json": {
+    "main": true
+  },
+  "astartes": {
+    "main": true
+  },
+  "astcheck": {
+    "main": true
+  },
+  "asteval": {
+    "main": true
+  },
+  "astmonkey": {
+    "main": true
+  },
+  "astor": {
+    "main": true
+  },
+  "astpretty": {
+    "main": true
+  },
+  "astra-toolbox": {
+    "main": true
+  },
+  "astral": {
+    "main": true
+  },
+  "astro-datalab": {
+    "main": true
+  },
+  "astro-ls": {
+    "main": true
+  },
+  "astroalign": {
+    "main": true
+  },
+  "astrocats": {
+    "main": true
+  },
+  "astroedu": {
+    "main": true
+  },
+  "astroglue": {
+    "main": true
+  },
+  "astroid": {
+    "main": true
+  },
+  "astrolink": {
+    "main": true
+  },
+  "astromatic-psfex": {
+    "main": true
+  },
+  "astromatic-scamp": {
+    "main": true
+  },
+  "astromatic-skymaker": {
+    "main": true
+  },
+  "astromatic-source-extractor": {
+    "main": true
+  },
+  "astromatic-stiff": {
+    "main": true
+  },
+  "astromatic-swarp": {
+    "main": true
+  },
+  "astrometry": {
+    "main": true
+  },
+  "astroml": {
+    "main": true
+  },
+  "astromodels": {
+    "main": true
+  },
+  "astronomia": {
+    "main": true
+  },
+  "astroplan": {
+    "main": true
+  },
+  "astropy": {
+    "main": true
+  },
+  "astropy-healpix": {
+    "main": true
+  },
+  "astropy-helpers": {
+    "main": true
+  },
+  "astropy-iers-data": {
+    "main": true
+  },
+  "astropy-sphinx-theme": {
+    "main": true
+  },
+  "astroquery": {
+    "main": true
+  },
+  "astroscrappy": {
+    "main": true
+  },
+  "astrowidgets": {
+    "main": true
+  },
+  "astsearch": {
+    "main": true
+  },
+  "asttokens": {
+    "main": true
+  },
+  "asttrs": {
+    "main": true
+  },
+  "astunparse": {
+    "main": true
+  },
+  "asv": {
+    "main": true
+  },
+  "asv_bench_memray": {
+    "main": true
+  },
+  "asv_runner": {
+    "main": true
+  },
+  "async-dsmz": {
+    "main": true
+  },
+  "async-exit-stack": {
+    "main": true
+  },
+  "async-interrupt": {
+    "main": true
+  },
+  "async-lru": {
+    "main": true
+  },
+  "async-property": {
+    "main": true
+  },
+  "async-tiff": {
+    "main": true
+  },
+  "async-timeout": {
+    "main": true
+  },
+  "async_generator": {
+    "main": true
+  },
+  "async_retriever": {
+    "main": true
+  },
+  "asyncache": {
+    "main": true
+  },
+  "asyncclick": {
+    "main": true
+  },
+  "asyncer": {
+    "main": true
+  },
+  "asyncinit": {
+    "main": true
+  },
+  "asyncinotify": {
+    "main": true
+  },
+  "asyncio-atexit": {
+    "main": true
+  },
+  "asyncio-helpers": {
+    "main": true
+  },
+  "asyncio-throttle": {
+    "main": true
+  },
+  "asyncio_extras": {
+    "main": true
+  },
+  "asyncmock": {
+    "main": true
+  },
+  "asyncpg": {
+    "main": true
+  },
+  "asyncpg-listen": {
+    "main": true
+  },
+  "asyncpg-stubs": {
+    "main": true
+  },
+  "asyncqt": {
+    "main": true
+  },
+  "asyncssh": {
+    "main": true
+  },
+  "asyncstdlib": {
+    "main": true
+  },
+  "asynctest": {
+    "main": true
+  },
+  "asyncua": {
+    "main": true
+  },
+  "at-cascade": {
+    "main": true
+  },
+  "at-spi2-atk": {
+    "main": true
+  },
+  "at-spi2-core": {
+    "main": true
+  },
+  "atap_widgets": {
+    "main": true
+  },
+  "atari_py": {
+    "main": true
+  },
+  "atdict": {
+    "main": true
+  },
+  "atef": {
+    "main": true
+  },
+  "atheris": {
+    "main": true
+  },
+  "atk": {
+    "main": true
+  },
+  "atkmm": {
+    "main": true
+  },
+  "atlantis": {
+    "main": true
+  },
+  "atlas-mc-scanner": {
+    "main": true
+  },
+  "atlas-schema": {
+    "main": true
+  },
+  "atlasclient": {
+    "main": true
+  },
+  "atlasgo": {
+    "main": true
+  },
+  "atlasopenmagic": {
+    "main": true
+  },
+  "atlassian-python-api": {
+    "main": true
+  },
+  "atlite": {
+    "main": true
+  },
+  "atmosphere-virtual-lab": {
+    "main": true
+  },
+  "atom": {
+    "main": true
+  },
+  "atom-ml": {
+    "main": true
+  },
+  "atomai": {
+    "main": true
+  },
+  "atomap": {
+    "main": true
+  },
+  "atomate": {
+    "main": true
+  },
+  "atomate2": {
+    "main": true
+  },
+  "atomgpt": {
+    "main": true
+  },
+  "atomic-counter": {
+    "main": true
+  },
+  "atomic-hpc": {
+    "main": true
+  },
+  "atomicfile": {
+    "main": true
+  },
+  "atomicrex": {
+    "main": true
+  },
+  "atomicwrites": {
+    "main": true
+  },
+  "atomistics": {
+    "main": true
+  },
+  "atomium": {
+    "main": true
+  },
+  "atomlite": {
+    "main": true
+  },
+  "atomman": {
+    "main": true
+  },
+  "atomneb": {
+    "main": true
+  },
+  "atompaw": {
+    "main": true
+  },
+  "atomrdf": {
+    "main": true
+  },
+  "atomsk": {
+    "main": true
+  },
+  "atool": {
+    "main": true
+  },
+  "atool2": {
+    "main": true
+  },
+  "atpbar": {
+    "main": true
+  },
+  "atproto": {
+    "main": true
+  },
+  "atpublic": {
+    "main": true
+  },
+  "atsas-pipelines": {
+    "main": true
+  },
+  "atsim-potentials": {
+    "main": true
+  },
+  "attmap": {
+    "main": true
+  },
+  "attr": {
+    "main": true
+  },
+  "attrdict": {
+    "main": true
+  },
+  "attrdict3": {
+    "main": true
+  },
+  "attributedict": {
+    "main": true
+  },
+  "attributes-doc": {
+    "main": true
+  },
+  "attrmap": {
+    "main": true
+  },
+  "attrs": {
+    "main": true
+  },
+  "attrs-sqlalchemy": {
+    "main": true
+  },
+  "attrs-strict": {
+    "main": true
+  },
+  "attune": {
+    "main": true
+  },
+  "atuin": {
+    "main": true
+  },
+  "aubio": {
+    "main": true
+  },
+  "audi": {
+    "main": true
+  },
+  "audio-separator": {
+    "main": true
+  },
+  "audiogrep": {
+    "main": true
+  },
+  "audioop-lts": {
+    "main": true
+  },
+  "audioread": {
+    "main": true
+  },
+  "auditwheel": {
+    "main": true
+  },
+  "auditwheel-emscripten": {
+    "main": true
+  },
+  "augment-nd": {
+    "main": true
+  },
+  "augmentor": {
+    "main": true
+  },
+  "augurs": {
+    "main": true
+  },
+  "aurelia-cli": {
+    "main": true
+  },
+  "aurora": {
+    "main": true
+  },
+  "aurora-ssg": {
+    "main": true
+  },
+  "aurorafusion": {
+    "main": true
+  },
+  "auroris": {
+    "main": true
+  },
+  "austin": {
+    "main": true
+  },
+  "austin-python": {
+    "main": true
+  },
+  "austin-tui": {
+    "main": true
+  },
+  "auth0-python": {
+    "main": true
+  },
+  "authenticatorpy": {
+    "main": true
+  },
+  "authlib": {
+    "main": true
+  },
+  "authres": {
+    "main": true
+  },
+  "authzed-py": {
+    "main": true
+  },
+  "auto-all": {
+    "main": true
+  },
+  "auto-changelog": {
+    "main": true
+  },
+  "auto-dotenv": {
+    "main": true
+  },
+  "auto-intersphinx": {
+    "main": true
+  },
+  "auto-labeling-pipeline": {
+    "main": true
+  },
+  "auto-optional": {
+    "main": true
+  },
+  "auto-round": {
+    "main": true
+  },
+  "auto-sklearn": {
+    "main": true
+  },
+  "auto-ts": {
+    "main": true
+  },
+  "auto3d": {
+    "main": true
+  },
+  "auto_gptq": {
+    "main": true
+  },
+  "auto_rxn": {
+    "main": true
+  },
+  "autobahn": {
+    "main": true
+  },
+  "autoboost": {
+    "main": true
+  },
+  "autobot-ml": {
+    "main": true
+  },
+  "autocfg": {
+    "main": true
+  },
+  "autoclick": {
+    "main": true
+  },
+  "autocnet": {
+    "main": true
+  },
+  "autocombobox": {
+    "main": true
+  },
+  "autocommand": {
+    "main": true
+  },
+  "autoconf": {
+    "main": true
+  },
+  "autoconf-archive": {
+    "main": true
+  },
+  "autocorrect": {
+    "main": true
+  },
+  "autocron": {
+    "main": true
+  },
+  "autodataman": {
+    "main": true
+  },
+  "autode": {
+    "main": true
+  },
+  "autodiff": {
+    "main": true
+  },
+  "autodoc-pydantic": {
+    "main": true
+  },
+  "autodoc-traits": {
+    "main": true
+  },
+  "autodocsumm": {
+    "main": true
+  },
+  "autodynatrace": {
+    "main": true
+  },
+  "autoeft": {
+    "main": true
+  },
+  "autoesda": {
+    "main": true
+  },
+  "autoflake": {
+    "main": true
+  },
+  "autogam": {
+    "main": true
+  },
+  "autogen-agentchat": {
+    "main": true
+  },
+  "autogen-core": {
+    "main": true
+  },
+  "autogluon": {
+    "main": true
+  },
+  "autograd": {
+    "main": true
+  },
+  "autograd-gamma": {
+    "main": true
+  },
+  "autogrid": {
+    "main": true
+  },
+  "autokeras": {
+    "main": true
+  },
+  "autologging": {
+    "main": true
+  },
+  "automake": {
+    "main": true
+  },
+  "automan": {
+    "main": true
+  },
+  "automap": {
+    "main": true
+  },
+  "automat": {
+    "main": true
+  },
+  "automesh": {
+    "main": true
+  },
+  "autometrics": {
+    "main": true
+  },
+  "autopage": {
+    "main": true
+  },
+  "autopaths": {
+    "main": true
+  },
+  "autopep8": {
+    "main": true
+  },
+  "autopxd2": {
+    "main": true
+  },
+  "autoray": {
+    "main": true
+  },
+  "autoregistry": {
+    "main": true
+  },
+  "autoreject": {
+    "main": true
+  },
+  "autorift": {
+    "main": true
+  },
+  "autoscraper": {
+    "main": true
+  },
+  "autotools-language-server": {
+    "main": true
+  },
+  "autotools_clang_conda": {
+    "main": true
+  },
+  "autots": {
+    "main": true
+  },
+  "autouri": {
+    "main": true
+  },
+  "autoviz": {
+    "main": true
+  },
+  "autovizwidget": {
+    "main": true
+  },
+  "autowrap": {
+    "main": true
+  },
+  "autowrapt": {
+    "main": true
+  },
+  "auxiliary": {
+    "main": true
+  },
+  "av": {
+    "main": true
+  },
+  "av2": {
+    "main": true
+  },
+  "ava": {
+    "main": true
+  },
+  "avahi": {
+    "main": true
+  },
+  "avalanche-lib": {
+    "main": true
+  },
+  "avidaq": {
+    "main": true
+  },
+  "avro": {
+    "main": true
+  },
+  "avro-gen3": {
+    "main": true
+  },
+  "avro-json-serializer": {
+    "main": true
+  },
+  "avro-python3": {
+    "main": true
+  },
+  "avrocpp": {
+    "main": true
+  },
+  "awacs": {
+    "main": true
+  },
+  "awesomeversion": {
+    "main": true
+  },
+  "awex": {
+    "main": true
+  },
+  "awherepy": {
+    "main": true
+  },
+  "awk": {
+    "main": true
+  },
+  "awk-language-server": {
+    "main": true
+  },
+  "awkward": {
+    "main": true
+  },
+  "awkward-cpp": {
+    "main": true
+  },
+  "awkward-pandas": {
+    "main": true
+  },
+  "awkward0": {
+    "main": true
+  },
+  "aws-amicleaner": {
+    "main": true
+  },
+  "aws-c-auth": {
+    "main": true
+  },
+  "aws-c-cal": {
+    "main": true
+  },
+  "aws-c-common": {
+    "main": true
+  },
+  "aws-c-compression": {
+    "main": true
+  },
+  "aws-c-event-stream": {
+    "main": true
+  },
+  "aws-c-http": {
+    "main": true
+  },
+  "aws-c-io": {
+    "main": true
+  },
+  "aws-c-mqtt": {
+    "main": true
+  },
+  "aws-c-s3": {
+    "main": true
+  },
+  "aws-c-sdkutils": {
+    "main": true
+  },
+  "aws-checksums": {
+    "main": true
+  },
+  "aws-crt-cpp": {
+    "main": true
+  },
+  "aws-durable-execution-sdk-python": {
+    "main": true
+  },
+  "aws-embedded-metrics": {
+    "main": true
+  },
+  "aws-encryption-sdk": {
+    "main": true
+  },
+  "aws-error-utils": {
+    "main": true
+  },
+  "aws-glue-sessions": {
+    "main": true
+  },
+  "aws-iam-authenticator": {
+    "main": true
+  },
+  "aws-lambda-powertools": {
+    "main": true
+  },
+  "aws-lambda-runtime-interface-emulator": {
+    "main": true
+  },
+  "aws-okta-keyman": {
+    "main": true
+  },
+  "aws-parallelcluster": {
+    "main": true
+  },
+  "aws-request-signer": {
+    "main": true
+  },
+  "aws-requests-auth": {
+    "main": true
+  },
+  "aws-s3-access-grants-boto3-plugin": {
+    "main": true
+  },
+  "aws-s3-cli": {
+    "main": true
+  },
+  "aws-sam-cli": {
+    "main": true
+  },
+  "aws-sam-translator": {
+    "main": true
+  },
+  "aws-sdk-cpp": {
+    "main": true
+  },
+  "aws-session-manager-plugin": {
+    "main": true
+  },
+  "aws-shell": {
+    "main": true
+  },
+  "aws-sso-credential-process": {
+    "main": true
+  },
+  "aws-sso-lib": {
+    "main": true
+  },
+  "aws-sso-util": {
+    "main": true
+  },
+  "aws-vault": {
+    "main": true
+  },
+  "aws-xray-sdk": {
+    "main": true
+  },
+  "aws_lambda_builders": {
+    "main": true
+  },
+  "aws_secretsmanager_caching": {
+    "main": true
+  },
+  "awscli": {
+    "main": true
+  },
+  "awscli-cwlogs": {
+    "main": true
+  },
+  "awscli-local": {
+    "main": true
+  },
+  "awscli2": {
+    "main": true
+  },
+  "awscliv2": {
+    "main": true
+  },
+  "awscrt": {
+    "main": true
+  },
+  "awsebcli": {
+    "main": true
+  },
+  "awsiotpythonsdk": {
+    "main": true
+  },
+  "awslambdaric": {
+    "main": true
+  },
+  "awslimitchecker": {
+    "main": true
+  },
+  "awslogs": {
+    "main": true
+  },
+  "awssert": {
+    "main": true
+  },
+  "awswrangler": {
+    "main": true
+  },
+  "awxkit": {
+    "main": true
+  },
+  "ax-platform": {
+    "main": true
+  },
+  "axe-selenium-python": {
+    "main": true
+  },
+  "axel": {
+    "main": true
+  },
+  "axelrod": {
+    "main": true
+  },
+  "axial-positional-embedding": {
+    "main": true
+  },
+  "axiprop": {
+    "main": true
+  },
+  "axisregistry": {
+    "main": true
+  },
+  "axopy": {
+    "main": true
+  },
+  "azcopy": {
+    "main": true
+  },
+  "azure-ai-documentintelligence": {
+    "main": true
+  },
+  "azure-ai-inference": {
+    "main": true
+  },
+  "azure-ai-ml": {
+    "main": true
+  },
+  "azure-appconfiguration": {
+    "main": true
+  },
+  "azure-batch": {
+    "main": true
+  },
+  "azure-c-shared-utility": {
+    "main": true
+  },
+  "azure-cli": {
+    "main": true
+  },
+  "azure-cli-core": {
+    "main": true
+  },
+  "azure-cli-telemetry": {
+    "main": true
+  },
+  "azure-common": {
+    "main": true
+  },
+  "azure-core": {
+    "main": true
+  },
+  "azure-core-cpp": {
+    "main": true
+  },
+  "azure-core-tracing-opentelemetry": {
+    "main": true
+  },
+  "azure-cosmos": {
+    "main": true
+  },
+  "azure-data-tables": {
+    "main": true
+  },
+  "azure-datalake-store": {
+    "main": true
+  },
+  "azure-devops": {
+    "main": true
+  },
+  "azure-graphrbac": {
+    "main": true
+  },
+  "azure-identity": {
+    "main": true
+  },
+  "azure-identity-cpp": {
+    "main": true
+  },
+  "azure-iot-sdk-c": {
+    "main": true
+  },
+  "azure-keyvault": {
+    "main": true
+  },
+  "azure-keyvault-administration": {
+    "main": true
+  },
+  "azure-keyvault-certificates": {
+    "main": true
+  },
+  "azure-keyvault-keys": {
+    "main": true
+  },
+  "azure-keyvault-secrets": {
+    "main": true
+  },
+  "azure-keyvault-securitydomain": {
+    "main": true
+  },
+  "azure-kusto-data": {
+    "main": true
+  },
+  "azure-macro-utils-c": {
+    "main": true
+  },
+  "azure-mgmt-advisor": {
+    "main": true
+  },
+  "azure-mgmt-apimanagement": {
+    "main": true
+  },
+  "azure-mgmt-appconfiguration": {
+    "main": true
+  },
+  "azure-mgmt-appcontainers": {
+    "main": true
+  },
+  "azure-mgmt-applicationinsights": {
+    "main": true
+  },
+  "azure-mgmt-authorization": {
+    "main": true
+  },
+  "azure-mgmt-batch": {
+    "main": true
+  },
+  "azure-mgmt-batchai": {
+    "main": true
+  },
+  "azure-mgmt-billing": {
+    "main": true
+  },
+  "azure-mgmt-botservice": {
+    "main": true
+  },
+  "azure-mgmt-cdn": {
+    "main": true
+  },
+  "azure-mgmt-cognitiveservices": {
+    "main": true
+  },
+  "azure-mgmt-common": {
+    "main": true
+  },
+  "azure-mgmt-compute": {
+    "main": true
+  },
+  "azure-mgmt-containerinstance": {
+    "main": true
+  },
+  "azure-mgmt-containerregistry": {
+    "main": true
+  },
+  "azure-mgmt-containerservice": {
+    "main": true
+  },
+  "azure-mgmt-core": {
+    "main": true
+  },
+  "azure-mgmt-cosmosdb": {
+    "main": true
+  },
+  "azure-mgmt-databoxedge": {
+    "main": true
+  },
+  "azure-mgmt-datafactory": {
+    "main": true
+  },
+  "azure-mgmt-datalake-store": {
+    "main": true
+  },
+  "azure-mgmt-datamigration": {
+    "main": true
+  },
+  "azure-mgmt-dns": {
+    "main": true
+  },
+  "azure-mgmt-eventgrid": {
+    "main": true
+  },
+  "azure-mgmt-eventhub": {
+    "main": true
+  },
+  "azure-mgmt-extendedlocation": {
+    "main": true
+  },
+  "azure-mgmt-hdinsight": {
+    "main": true
+  },
+  "azure-mgmt-imagebuilder": {
+    "main": true
+  },
+  "azure-mgmt-iotcentral": {
+    "main": true
+  },
+  "azure-mgmt-iothub": {
+    "main": true
+  },
+  "azure-mgmt-iothubprovisioningservices": {
+    "main": true
+  },
+  "azure-mgmt-keyvault": {
+    "main": true
+  },
+  "azure-mgmt-loganalytics": {
+    "main": true
+  },
+  "azure-mgmt-managementgroups": {
+    "main": true
+  },
+  "azure-mgmt-maps": {
+    "main": true
+  },
+  "azure-mgmt-marketplaceordering": {
+    "main": true
+  },
+  "azure-mgmt-media": {
+    "main": true
+  },
+  "azure-mgmt-monitor": {
+    "main": true
+  },
+  "azure-mgmt-msi": {
+    "main": true
+  },
+  "azure-mgmt-mysqlflexibleservers": {
+    "main": true
+  },
+  "azure-mgmt-netapp": {
+    "main": true
+  },
+  "azure-mgmt-network": {
+    "main": true
+  },
+  "azure-mgmt-nspkg": {
+    "main": true
+  },
+  "azure-mgmt-policyinsights": {
+    "main": true
+  },
+  "azure-mgmt-postgresqlflexibleservers": {
+    "main": true
+  },
+  "azure-mgmt-privatedns": {
+    "main": true
+  },
+  "azure-mgmt-rdbms": {
+    "main": true
+  },
+  "azure-mgmt-recoveryservices": {
+    "main": true
+  },
+  "azure-mgmt-recoveryservicesbackup": {
+    "main": true
+  },
+  "azure-mgmt-redhatopenshift": {
+    "main": true
+  },
+  "azure-mgmt-redis": {
+    "main": true
+  },
+  "azure-mgmt-resource": {
+    "main": true
+  },
+  "azure-mgmt-search": {
+    "main": true
+  },
+  "azure-mgmt-security": {
+    "main": true
+  },
+  "azure-mgmt-servicebus": {
+    "main": true
+  },
+  "azure-mgmt-servicefabric": {
+    "main": true
+  },
+  "azure-mgmt-servicefabricmanagedclusters": {
+    "main": true
+  },
+  "azure-mgmt-servicelinker": {
+    "main": true
+  },
+  "azure-mgmt-signalr": {
+    "main": true
+  },
+  "azure-mgmt-sql": {
+    "main": true
+  },
+  "azure-mgmt-sqlvirtualmachine": {
+    "main": true
+  },
+  "azure-mgmt-storage": {
+    "main": true
+  },
+  "azure-mgmt-subscription": {
+    "main": true
+  },
+  "azure-mgmt-synapse": {
+    "main": true
+  },
+  "azure-mgmt-trafficmanager": {
+    "main": true
+  },
+  "azure-mgmt-web": {
+    "main": true
+  },
+  "azure-monitor-opentelemetry": {
+    "main": true
+  },
+  "azure-monitor-opentelemetry-exporter": {
+    "main": true
+  },
+  "azure-monitor-query": {
+    "main": true
+  },
+  "azure-multiapi-storage": {
+    "main": true
+  },
+  "azure-nspkg": {
+    "main": true
+  },
+  "azure-pipelines-language-server": {
+    "main": true
+  },
+  "azure-purview-account": {
+    "main": true
+  },
+  "azure-purview-administration": {
+    "main": true
+  },
+  "azure-purview-catalog": {
+    "main": true
+  },
+  "azure-purview-nspkg": {
+    "main": true
+  },
+  "azure-purview-scanning": {
+    "main": true
+  },
+  "azure-purview-workflow": {
+    "main": true
+  },
+  "azure-quantum": {
+    "main": true
+  },
+  "azure-search-documents": {
+    "main": true
+  },
+  "azure-servicebus": {
+    "main": true
+  },
+  "azure-servicemanagement-legacy": {
+    "main": true
+  },
+  "azure-storage": {
+    "main": true
+  },
+  "azure-storage-blob": {
+    "main": true
+  },
+  "azure-storage-blobs-cpp": {
+    "main": true
+  },
+  "azure-storage-common": {
+    "main": true
+  },
+  "azure-storage-common-cpp": {
+    "main": true
+  },
+  "azure-storage-file": {
+    "main": true
+  },
+  "azure-storage-file-datalake": {
+    "main": true
+  },
+  "azure-storage-file-share": {
+    "main": true
+  },
+  "azure-storage-files-datalake-cpp": {
+    "main": true
+  },
+  "azure-storage-files-shares-cpp": {
+    "main": true
+  },
+  "azure-storage-nspkg": {
+    "main": true
+  },
+  "azure-storage-queue": {
+    "main": true
+  },
+  "azure-storage-queues-cpp": {
+    "main": true
+  },
+  "azure-synapse-accesscontrol": {
+    "main": true
+  },
+  "azure-synapse-artifacts": {
+    "main": true
+  },
+  "azure-synapse-managedprivateendpoints": {
+    "main": true
+  },
+  "azure-synapse-nspkg": {
+    "main": true
+  },
+  "azure-synapse-spark": {
+    "main": true
+  },
+  "azure-uamqp-c": {
+    "main": true
+  },
+  "azure-uhttp-c": {
+    "main": true
+  },
+  "azure-umqtt-c": {
+    "main": true
+  },
+  "azureml": {
+    "main": true
+  },
+  "b2sdk": {
+    "main": true
+  },
+  "b3denv": {
+    "main": true
+  },
+  "b3sum": {
+    "main": true
+  },
+  "b4": {
+    "main": true
+  },
+  "b4msa": {
+    "main": true
+  },
+  "baal": {
+    "main": true
+  },
+  "babel": {
+    "main": true
+  },
+  "babel-cli": {
+    "main": true
+  },
+  "babelizer": {
+    "main": true
+  },
+  "babeltrace": {
+    "main": true
+  },
+  "babylon": {
+    "main": true
+  },
+  "bacdive": {
+    "main": true
+  },
+  "backblaze-b2": {
+    "main": true
+  },
+  "backcall": {
+    "main": true
+  },
+  "backends": {
+    "main": true
+  },
+  "backoff": {
+    "main": true
+  },
+  "backpack": {
+    "main": true
+  },
+  "backpack-for-pytorch": {
+    "main": true
+  },
+  "backports": {
+    "main": true
+  },
+  "backports-datetime-fromisoformat": {
+    "main": true
+  },
+  "backports_abc": {
+    "main": true
+  },
+  "backrefs": {
+    "main": true
+  },
+  "backstage": {
+    "main": true
+  },
+  "backtrace": {
+    "main": true
+  },
+  "backward-cpp": {
+    "main": true
+  },
+  "bacon": {
+    "main": true
+  },
+  "bacon-ls": {
+    "main": true
+  },
+  "badapted": {
+    "main": true
+  },
+  "bader": {
+    "main": true
+  },
+  "baderkit": {
+    "main": true
+  },
+  "badger-opt": {
+    "main": true
+  },
+  "bagels": {
+    "main": true
+  },
+  "bagit": {
+    "main": true
+  },
+  "bagit-profile": {
+    "main": true
+  },
+  "bagofholding": {
+    "main": true
+  },
+  "bahamas": {
+    "main": true
+  },
+  "baikal": {
+    "main": true
+  },
+  "bake": {
+    "main": true
+  },
+  "baked-brie": {
+    "main": true
+  },
+  "bakelite": {
+    "main": true
+  },
+  "balance": {
+    "main": true
+  },
+  "bambi": {
+    "main": true
+  },
+  "baml-py": {
+    "main": true
+  },
+  "bamnostic": {
+    "main": true
+  },
+  "banal": {
+    "main": true
+  },
+  "banana-hep": {
+    "main": true
+  },
+  "bandit": {
+    "main": true
+  },
+  "banks": {
+    "main": true
+  },
+  "bar_chart_race": {
+    "main": true
+  },
+  "bareditor": {
+    "main": true
+  },
+  "barfi": {
+    "main": true
+  },
+  "bargeparse": {
+    "main": true
+  },
+  "barnaba": {
+    "main": true
+  },
+  "baron": {
+    "main": true
+  },
+  "barrier3d": {
+    "main": true
+  },
+  "barril": {
+    "main": true
+  },
+  "bartib": {
+    "main": true
+  },
+  "barvinok": {
+    "main": true
+  },
+  "basal-and-bark": {
+    "main": true
+  },
+  "base36": {
+    "main": true
+  },
+  "base58": {
+    "main": true
+  },
+  "base58check": {
+    "main": true
+  },
+  "base64io": {
+    "main": true
+  },
+  "baseband": {
+    "main": true
+  },
+  "based58": {
+    "main": true
+  },
+  "basedmypy": {
+    "main": true
+  },
+  "basedpyright": {
+    "main": true
+  },
+  "basedtyping": {
+    "main": true
+  },
+  "basemap": {
+    "main": true
+  },
+  "baseopt": {
+    "main": true
+  },
+  "bases": {
+    "main": true
+  },
+  "bash": {
+    "main": true
+  },
+  "bash-completion": {
+    "main": true
+  },
+  "bash-language-server": {
+    "main": true
+  },
+  "bash_kernel": {
+    "main": true
+  },
+  "bashlex": {
+    "main": true
+  },
+  "bashplotlib": {
+    "main": true
+  },
+  "basicauth": {
+    "main": true
+  },
+  "basis_set_exchange": {
+    "main": true
+  },
+  "basisgen": {
+    "main": true
+  },
+  "basswood-av": {
+    "main": true
+  },
+  "basyx-python-sdk": {
+    "main": true
+  },
+  "bat": {
+    "main": true
+  },
+  "bat-extras": {
+    "main": true
+  },
+  "batanalysis": {
+    "main": true
+  },
+  "batchcrop": {
+    "main": true
+  },
+  "batched": {
+    "main": true
+  },
+  "batchgenerators": {
+    "main": true
+  },
+  "batchgeneratorsv2": {
+    "main": true
+  },
+  "batchspawner": {
+    "main": true
+  },
+  "batchstats": {
+    "main": true
+  },
+  "bathyreq": {
+    "main": true
+  },
+  "batman": {
+    "main": true
+  },
+  "batman-package": {
+    "main": true
+  },
+  "batoid": {
+    "main": true
+  },
+  "batoid-rubin": {
+    "main": true
+  },
+  "batoms": {
+    "main": true
+  },
+  "batoms-api": {
+    "main": true
+  },
+  "batrachian-toad": {
+    "main": true
+  },
+  "bats-core": {
+    "main": true
+  },
+  "baumwelch": {
+    "main": true
+  },
+  "baybe": {
+    "main": true
+  },
+  "baycomp": {
+    "main": true
+  },
+  "bayes-filters-lib": {
+    "main": true
+  },
+  "bayesbay": {
+    "main": true
+  },
+  "bayesfilter": {
+    "main": true
+  },
+  "bayesian-analysis-toolkit": {
+    "main": true
+  },
+  "bayesian-filters": {
+    "main": true
+  },
+  "bayesian-optimization": {
+    "main": true
+  },
+  "bayesianbandits": {
+    "main": true
+  },
+  "bayesmbar": {
+    "main": true
+  },
+  "bayesopt": {
+    "main": true
+  },
+  "bayespy": {
+    "main": true
+  },
+  "bayeswave": {
+    "main": true
+  },
+  "bazel": {
+    "main": true
+  },
+  "bazel-toolchain": {
+    "main": true
+  },
+  "bazel_buildozer": {
+    "main": true
+  },
+  "bbf": {
+    "main": true
+  },
+  "bbhash": {
+    "main": true
+  },
+  "bbii-decon": {
+    "main": true
+  },
+  "bblean": {
+    "main": true
+  },
+  "bc": {
+    "main": true
+  },
+  "bc-detect-secrets": {
+    "main": true
+  },
+  "bc-jsonpath-ng": {
+    "main": true
+  },
+  "bc-python-hcl2": {
+    "main": true
+  },
+  "bcdoc": {
+    "main": true
+  },
+  "bcdp": {
+    "main": true
+  },
+  "bcj-cffi": {
+    "main": true
+  },
+  "bcm2835": {
+    "main": true
+  },
+  "bcolz-zipline": {
+    "main": true
+  },
+  "bcpandas": {
+    "main": true
+  },
+  "bcrypt": {
+    "main": true
+  },
+  "bctpy": {
+    "main": true
+  },
+  "bdbag": {
+    "main": true
+  },
+  "bdsim": {
+    "main": true
+  },
+  "bdsim-g4": {
+    "main": true
+  },
+  "bdw-gc": {
+    "main": true
+  },
+  "beads": {
+    "main": true
+  },
+  "beaker": {
+    "main": true
+  },
+  "beaker-py": {
+    "main": true
+  },
+  "beakerx": {
+    "main": true
+  },
+  "beamf": {
+    "main": true
+  },
+  "beamfit": {
+    "main": true
+  },
+  "beamngpy": {
+    "main": true
+  },
+  "beancount": {
+    "main": true
+  },
+  "beangulp": {
+    "main": true
+  },
+  "beanie": {
+    "main": true
+  },
+  "beanie-batteries-queue": {
+    "main": true
+  },
+  "beanquery": {
+    "main": true
+  },
+  "bear": {
+    "main": true
+  },
+  "beartype": {
+    "main": true
+  },
+  "beaupy": {
+    "main": true
+  },
+  "beautifulsoup4": {
+    "main": true
+  },
+  "beautifultable": {
+    "main": true
+  },
+  "beautysh": {
+    "main": true
+  },
+  "beavers": {
+    "main": true
+  },
+  "bech32": {
+    "main": true
+  },
+  "beckhoff-ads": {
+    "main": true
+  },
+  "bed-reader": {
+    "main": true
+  },
+  "bedrock-agentcore": {
+    "main": true
+  },
+  "beem": {
+    "main": true
+  },
+  "beetcamp": {
+    "main": true
+  },
+  "beetlesafari": {
+    "main": true
+  },
+  "beets": {
+    "main": true
+  },
+  "begins": {
+    "main": true
+  },
+  "behave": {
+    "main": true
+  },
+  "behave-django": {
+    "main": true
+  },
+  "behave-html-formatter": {
+    "main": true
+  },
+  "behave-html-pretty-formatter": {
+    "main": true
+  },
+  "behave-pandas": {
+    "main": true
+  },
+  "behresp": {
+    "main": true
+  },
+  "belay": {
+    "main": true
+  },
+  "belt": {
+    "main": true
+  },
+  "bempp-cl": {
+    "main": true
+  },
+  "benchling-api-client": {
+    "main": true
+  },
+  "benchling-sdk": {
+    "main": true
+  },
+  "benchmark": {
+    "main": true
+  },
+  "benchmark-4dn": {
+    "main": true
+  },
+  "benchpots": {
+    "main": true
+  },
+  "beniget": {
+    "main": true
+  },
+  "benten": {
+    "main": true
+  },
+  "bentoml": {
+    "main": true
+  },
+  "berglas": {
+    "main": true
+  },
+  "bermuda": {
+    "main": true
+  },
+  "bert-extractive-summarizer": {
+    "main": true
+  },
+  "bert-tensorflow": {
+    "main": true
+  },
+  "bert_score": {
+    "main": true
+  },
   "jsonpath": {
     "main": true
   },
