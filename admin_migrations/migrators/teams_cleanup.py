@@ -60,6 +60,9 @@ class TeamsCleanup(Migrator):
             return
 
         if self._should_migrate() or "DEBUG_ADMIN_MIGRATIONS" in os.environ:
+            # we fire off this request and then do not bother
+            # to check the return value. the webservices will
+            # handle it eventually.
             # see https://stackoverflow.com/a/78879266
             try:
                 rsp = requests.post(
