@@ -29822,6 +29822,9 @@
   "openal-soft": {
     "main": true
   },
+  "openalea.deploy": {
+    "main": true
+  },
   "openamundsen": {
     "main": true
   },
@@ -30209,6 +30212,9 @@
   "openmmtorchplugin": {
     "main": true
   },
+  "openmodelica": {
+    "main": true
+  },
   "openmoltools": {
     "main": true
   },
@@ -30303,6 +30309,9 @@
     "main": true
   },
   "openqdc": {
+    "main": true
+  },
+  "openquake.engine": {
     "main": true
   },
   "openraft": {
@@ -31155,6 +31164,27 @@
     "main": true
   },
   "oslex": {
+    "main": true
+  },
+  "oslo.concurrency": {
+    "main": true
+  },
+  "oslo.config": {
+    "main": true
+  },
+  "oslo.context": {
+    "main": true
+  },
+  "oslo.i18n": {
+    "main": true
+  },
+  "oslo.log": {
+    "main": true
+  },
+  "oslo.serialization": {
+    "main": true
+  },
+  "oslo.utils": {
     "main": true
   },
   "osm-flex": {
@@ -32135,6 +32165,9 @@
   "path-imports": {
     "main": true
   },
+  "path.py": {
+    "main": true
+  },
   "pathable": {
     "main": true
   },
@@ -32354,6 +32387,9 @@
   "pdfcpu": {
     "main": true
   },
+  "pdfcrop.pl": {
+    "main": true
+  },
   "pdfgrep": {
     "main": true
   },
@@ -32364,6 +32400,9 @@
     "main": true
   },
   "pdfminer-six": {
+    "main": true
+  },
+  "pdfminer.six": {
     "main": true
   },
   "pdfminer3k": {
@@ -32444,6 +32483,12 @@
   "pdr": {
     "main": true
   },
+  "pds.api-client": {
+    "main": true
+  },
+  "pds.peppi": {
+    "main": true
+  },
   "pds4_tools": {
     "main": true
   },
@@ -32499,6 +32544,18 @@
     "main": true
   },
   "pegasus-wms": {
+    "main": true
+  },
+  "pegasus-wms.api": {
+    "main": true
+  },
+  "pegasus-wms.common": {
+    "main": true
+  },
+  "pegasus-wms.dax": {
+    "main": true
+  },
+  "pegasus-wms.worker": {
     "main": true
   },
   "pegen": {
@@ -35069,6 +35126,9 @@
   "proj-data": {
     "main": true
   },
+  "proj.4": {
+    "main": true
+  },
   "project_name": {
     "main": true
   },
@@ -36015,6 +36075,15 @@
     "main": true
   },
   "pyan3": {
+    "main": true
+  },
+  "pyannote.core": {
+    "main": true
+  },
+  "pyannote.database": {
+    "main": true
+  },
+  "pyannote.metrics": {
     "main": true
   },
   "pyapacheatlas": {
@@ -38939,6 +39008,12 @@
   "pyomo": {
     "main": true
   },
+  "pyomo.extras": {
+    "main": true
+  },
+  "pyomo.solvers": {
+    "main": true
+  },
   "pyone": {
     "main": true
   },
@@ -39296,6 +39371,9 @@
   "pypy-meta": {
     "main": true
   },
+  "pypy2.7": {
+    "main": true
+  },
   "pypydispatcher": {
     "main": true
   },
@@ -39318,6 +39396,15 @@
     "main": true
   },
   "pyqgc": {
+    "main": true
+  },
+  "pyqode.core": {
+    "main": true
+  },
+  "pyqode.python": {
+    "main": true
+  },
+  "pyqode.qt": {
     "main": true
   },
   "pyqparamwidget": {
@@ -41705,6 +41792,9 @@
   "python-zstd": {
     "main": true
   },
+  "python.app": {
+    "main": true
+  },
   "python2-secrets": {
     "main": true
   },
@@ -42470,6 +42560,9 @@
   "qemu-execve": {
     "main": true
   },
+  "qemu.qmp": {
+    "main": true
+  },
   "qetpy": {
     "main": true
   },
@@ -42771,6 +42864,9 @@
     "main": true
   },
   "qt-webengine": {
+    "main": true
+  },
+  "qt.py": {
     "main": true
   },
   "qt5reactor": {
@@ -43337,6 +43433,9 @@
   "r-arm": {
     "main": true
   },
+  "r-aroma.apd": {
+    "main": true
+  },
   "r-arrangements": {
     "main": true
   },
@@ -43377,6 +43476,51 @@
     "main": true
   },
   "r-assertive": {
+    "main": true
+  },
+  "r-assertive.base": {
+    "main": true
+  },
+  "r-assertive.code": {
+    "main": true
+  },
+  "r-assertive.data": {
+    "main": true
+  },
+  "r-assertive.data.uk": {
+    "main": true
+  },
+  "r-assertive.data.us": {
+    "main": true
+  },
+  "r-assertive.datetimes": {
+    "main": true
+  },
+  "r-assertive.files": {
+    "main": true
+  },
+  "r-assertive.matrices": {
+    "main": true
+  },
+  "r-assertive.models": {
+    "main": true
+  },
+  "r-assertive.numbers": {
+    "main": true
+  },
+  "r-assertive.properties": {
+    "main": true
+  },
+  "r-assertive.reflection": {
+    "main": true
+  },
+  "r-assertive.sets": {
+    "main": true
+  },
+  "r-assertive.strings": {
+    "main": true
+  },
+  "r-assertive.types": {
     "main": true
   },
   "r-assertr": {
@@ -43421,6 +43565,9 @@
   "r-autoshiny": {
     "main": true
   },
+  "r-autoslider.core": {
+    "main": true
+  },
   "r-autostats": {
     "main": true
   },
@@ -43434,6 +43581,15 @@
     "main": true
   },
   "r-aws": {
+    "main": true
+  },
+  "r-aws.ec2metadata": {
+    "main": true
+  },
+  "r-aws.s3": {
+    "main": true
+  },
+  "r-aws.signature": {
     "main": true
   },
   "r-awsmethods": {
@@ -43697,6 +43853,9 @@
   "r-bigmemory": {
     "main": true
   },
+  "r-bigmemory.sri": {
+    "main": true
+  },
   "r-bigparallelr": {
     "main": true
   },
@@ -43868,6 +44027,12 @@
   "r-box": {
     "main": true
   },
+  "r-box.linters": {
+    "main": true
+  },
+  "r-box.lsp": {
+    "main": true
+  },
   "r-bpca": {
     "main": true
   },
@@ -43905,6 +44070,12 @@
     "main": true
   },
   "r-broom": {
+    "main": true
+  },
+  "r-broom.helpers": {
+    "main": true
+  },
+  "r-broom.mixed": {
     "main": true
   },
   "r-broomextra": {
@@ -44165,6 +44336,9 @@
   "r-changepoint": {
     "main": true
   },
+  "r-changepoint.np": {
+    "main": true
+  },
   "r-changepoints": {
     "main": true
   },
@@ -44249,6 +44423,9 @@
   "r-citation": {
     "main": true
   },
+  "r-ckmeans.1d.dp": {
+    "main": true
+  },
   "r-clarify": {
     "main": true
   },
@@ -44277,6 +44454,27 @@
     "main": true
   },
   "r-climate4r": {
+    "main": true
+  },
+  "r-climate4r.climdex": {
+    "main": true
+  },
+  "r-climate4r.datasets": {
+    "main": true
+  },
+  "r-climate4r.hub": {
+    "main": true
+  },
+  "r-climate4r.indices": {
+    "main": true
+  },
+  "r-climate4r.udg": {
+    "main": true
+  },
+  "r-climate4r.value": {
+    "main": true
+  },
+  "r-climdex.pcic": {
     "main": true
   },
   "r-climprojdiags": {
@@ -44501,6 +44699,9 @@
   "r-comprehenr": {
     "main": true
   },
+  "r-compute.es": {
+    "main": true
+  },
   "r-concaveman": {
     "main": true
   },
@@ -44514,6 +44715,9 @@
     "main": true
   },
   "r-condvis": {
+    "main": true
+  },
+  "r-conf.design": {
     "main": true
   },
   "r-config": {
@@ -44654,6 +44858,9 @@
   "r-crew": {
     "main": true
   },
+  "r-crew.cluster": {
+    "main": true
+  },
   "r-crochet": {
     "main": true
   },
@@ -44759,7 +44966,19 @@
   "r-dapr": {
     "main": true
   },
+  "r-dartr.data": {
+    "main": true
+  },
   "r-dashboardthemes": {
+    "main": true
+  },
+  "r-data.table": {
+    "main": true
+  },
+  "r-data.tree": {
+    "main": true
+  },
+  "r-data.validator": {
     "main": true
   },
   "r-datacomparer": {
@@ -44939,6 +45158,9 @@
   "r-dgeobj": {
     "main": true
   },
+  "r-dgeobj.utils": {
+    "main": true
+  },
   "r-dggridr": {
     "main": true
   },
@@ -45053,6 +45275,9 @@
   "r-discriminer": {
     "main": true
   },
+  "r-disk.frame": {
+    "main": true
+  },
   "r-dismo": {
     "main": true
   },
@@ -45158,6 +45383,9 @@
   "r-docxtractr": {
     "main": true
   },
+  "r-doe.base": {
+    "main": true
+  },
   "r-dofuture": {
     "main": true
   },
@@ -45198,6 +45426,9 @@
     "main": true
   },
   "r-downscaler": {
+    "main": true
+  },
+  "r-downscaler.keras": {
     "main": true
   },
   "r-dparser": {
@@ -45290,6 +45521,9 @@
   "r-dunlin": {
     "main": true
   },
+  "r-dunn.test": {
+    "main": true
+  },
   "r-dupree": {
     "main": true
   },
@@ -45309,6 +45543,9 @@
     "main": true
   },
   "r-earth": {
+    "main": true
+  },
+  "r-easy.utils": {
     "main": true
   },
   "r-easycsv": {
@@ -45386,6 +45623,9 @@
   "r-egg": {
     "main": true
   },
+  "r-eicu.demo": {
+    "main": true
+  },
   "r-eigenmodel": {
     "main": true
   },
@@ -45411,6 +45651,9 @@
     "main": true
   },
   "r-ellmer": {
+    "main": true
+  },
+  "r-elpigraph.r": {
     "main": true
   },
   "r-elsa": {
@@ -45519,6 +45762,12 @@
     "main": true
   },
   "r-ergm": {
+    "main": true
+  },
+  "r-ergm.count": {
+    "main": true
+  },
+  "r-ergm.multi": {
     "main": true
   },
   "r-erify": {
@@ -45836,6 +46085,9 @@
   "r-firedanger": {
     "main": true
   },
+  "r-fit.models": {
+    "main": true
+  },
   "r-fitdistrplus": {
     "main": true
   },
@@ -45977,6 +46229,9 @@
   "r-formula": {
     "main": true
   },
+  "r-formula.tools": {
+    "main": true
+  },
   "r-fossil": {
     "main": true
   },
@@ -46070,7 +46325,22 @@
   "r-fusen": {
     "main": true
   },
+  "r-futile.logger": {
+    "main": true
+  },
+  "r-futile.options": {
+    "main": true
+  },
   "r-future": {
+    "main": true
+  },
+  "r-future.apply": {
+    "main": true
+  },
+  "r-future.batchtools": {
+    "main": true
+  },
+  "r-future.callr": {
     "main": true
   },
   "r-fuzzyjoin": {
@@ -46097,10 +46367,19 @@
   "r-gamlss": {
     "main": true
   },
+  "r-gamlss.data": {
+    "main": true
+  },
+  "r-gamlss.dist": {
+    "main": true
+  },
   "r-gamm4": {
     "main": true
   },
   "r-gap": {
+    "main": true
+  },
+  "r-gap.datasets": {
     "main": true
   },
   "r-gapminder": {
@@ -46161,6 +46440,9 @@
     "main": true
   },
   "r-geiger": {
+    "main": true
+  },
+  "r-genabel.data": {
     "main": true
   },
   "r-genalg": {
@@ -46479,6 +46761,9 @@
     "main": true
   },
   "r-ggplate": {
+    "main": true
+  },
+  "r-ggplot.multistats": {
     "main": true
   },
   "r-ggplot2": {
@@ -46958,6 +47243,9 @@
   "r-h5lite": {
     "main": true
   },
+  "r-haplo.stats": {
+    "main": true
+  },
   "r-hardhat": {
     "main": true
   },
@@ -46991,6 +47279,9 @@
   "r-hdf5r": {
     "main": true
   },
+  "r-hdf5r.extra": {
+    "main": true
+  },
   "r-hdinterval": {
     "main": true
   },
@@ -47001,6 +47292,9 @@
     "main": true
   },
   "r-hdtweedie": {
+    "main": true
+  },
+  "r-heatmap.plus": {
     "main": true
   },
   "r-heatmap3": {
@@ -47037,6 +47331,9 @@
     "main": true
   },
   "r-hiddenmarkov": {
+    "main": true
+  },
+  "r-hier.part": {
     "main": true
   },
   "r-hierfstat": {
@@ -47187,6 +47484,9 @@
     "main": true
   },
   "r-ibreakdown": {
+    "main": true
+  },
+  "r-ic.infer": {
     "main": true
   },
   "r-ic10trainingdata": {
@@ -47624,6 +47924,9 @@
   "r-klar": {
     "main": true
   },
+  "r-km.ci": {
+    "main": true
+  },
   "r-kmer": {
     "main": true
   },
@@ -47648,6 +47951,9 @@
   "r-knitrbootstrap": {
     "main": true
   },
+  "r-knn.covertree": {
+    "main": true
+  },
   "r-knnmi": {
     "main": true
   },
@@ -47658,6 +47964,9 @@
     "main": true
   },
   "r-korpus": {
+    "main": true
+  },
+  "r-korpus.lang.en": {
     "main": true
   },
   "r-kpeaks": {
@@ -47690,6 +47999,9 @@
   "r-labdsv": {
     "main": true
   },
+  "r-label.switching": {
+    "main": true
+  },
   "r-labeling": {
     "main": true
   },
@@ -47703,6 +48015,9 @@
     "main": true
   },
   "r-lahman": {
+    "main": true
+  },
+  "r-lambda.r": {
     "main": true
   },
   "r-lambertw": {
@@ -47796,6 +48111,15 @@
     "main": true
   },
   "r-leaflet": {
+    "main": true
+  },
+  "r-leaflet.extras": {
+    "main": true
+  },
+  "r-leaflet.minicharts": {
+    "main": true
+  },
+  "r-leaflet.providers": {
     "main": true
   },
   "r-leafpm": {
@@ -47972,6 +48296,15 @@
   "r-loader": {
     "main": true
   },
+  "r-loader.2nc": {
+    "main": true
+  },
+  "r-loader.ecoms": {
+    "main": true
+  },
+  "r-loader.java": {
+    "main": true
+  },
   "r-lobstr": {
     "main": true
   },
@@ -48036,6 +48369,9 @@
     "main": true
   },
   "r-loon": {
+    "main": true
+  },
+  "r-loose.rock": {
     "main": true
   },
   "r-lotri": {
@@ -48204,6 +48540,9 @@
     "main": true
   },
   "r-matrix": {
+    "main": true
+  },
+  "r-matrix.utils": {
     "main": true
   },
   "r-matrixcalc": {
@@ -48386,6 +48725,9 @@
   "r-metalite": {
     "main": true
   },
+  "r-metalite.ae": {
+    "main": true
+  },
   "r-metamix": {
     "main": true
   },
@@ -48479,6 +48821,9 @@
   "r-mime": {
     "main": true
   },
+  "r-mimic.demo": {
+    "main": true
+  },
   "r-minerva": {
     "main": true
   },
@@ -48486,6 +48831,9 @@
     "main": true
   },
   "r-miniui": {
+    "main": true
+  },
+  "r-minpack.lm": {
     "main": true
   },
   "r-minqa": {
@@ -48692,6 +49040,12 @@
   "r-modeltime": {
     "main": true
   },
+  "r-modeltime.ensemble": {
+    "main": true
+  },
+  "r-modeltime.resample": {
+    "main": true
+  },
   "r-modeltools": {
     "main": true
   },
@@ -48792,6 +49146,9 @@
     "main": true
   },
   "r-msigdbr": {
+    "main": true
+  },
+  "r-mskcc.oncotree": {
     "main": true
   },
   "r-msm": {
@@ -48980,6 +49337,9 @@
   "r-ncdf4": {
     "main": true
   },
+  "r-ncdf4.helpers": {
+    "main": true
+  },
   "r-ncdunnett": {
     "main": true
   },
@@ -49154,6 +49514,9 @@
   "r-nortest": {
     "main": true
   },
+  "r-nozzle.r1": {
+    "main": true
+  },
   "r-np": {
     "main": true
   },
@@ -49298,6 +49661,9 @@
   "r-opera": {
     "main": true
   },
+  "r-operator.tools": {
+    "main": true
+  },
   "r-optextras": {
     "main": true
   },
@@ -49356,6 +49722,9 @@
     "main": true
   },
   "r-origami": {
+    "main": true
+  },
+  "r-oro.nifti": {
     "main": true
   },
   "r-orthopolynom": {
@@ -49535,6 +49904,9 @@
   "r-pathdiagram": {
     "main": true
   },
+  "r-pathfindr.data": {
+    "main": true
+  },
   "r-pathmodelfit": {
     "main": true
   },
@@ -49545,6 +49917,48 @@
     "main": true
   },
   "r-paws": {
+    "main": true
+  },
+  "r-paws.analytics": {
+    "main": true
+  },
+  "r-paws.application.integration": {
+    "main": true
+  },
+  "r-paws.common": {
+    "main": true
+  },
+  "r-paws.compute": {
+    "main": true
+  },
+  "r-paws.cost.management": {
+    "main": true
+  },
+  "r-paws.customer.engagement": {
+    "main": true
+  },
+  "r-paws.database": {
+    "main": true
+  },
+  "r-paws.developer.tools": {
+    "main": true
+  },
+  "r-paws.end.user.computing": {
+    "main": true
+  },
+  "r-paws.machine.learning": {
+    "main": true
+  },
+  "r-paws.management": {
+    "main": true
+  },
+  "r-paws.networking": {
+    "main": true
+  },
+  "r-paws.security.identity": {
+    "main": true
+  },
+  "r-paws.storage": {
     "main": true
   },
   "r-pbapply": {
@@ -50201,6 +50615,9 @@
   "r-publish": {
     "main": true
   },
+  "r-pubmed.miner": {
+    "main": true
+  },
   "r-pubmedr": {
     "main": true
   },
@@ -50333,6 +50750,15 @@
   "r-quanteda": {
     "main": true
   },
+  "r-quanteda.textmodels": {
+    "main": true
+  },
+  "r-quanteda.textplots": {
+    "main": true
+  },
+  "r-quanteda.textstats": {
+    "main": true
+  },
   "r-quantmod": {
     "main": true
   },
@@ -50363,7 +50789,43 @@
   "r-qvcalc": {
     "main": true
   },
+  "r-r.cache": {
+    "main": true
+  },
+  "r-r.devices": {
+    "main": true
+  },
+  "r-r.filesets": {
+    "main": true
+  },
+  "r-r.huge": {
+    "main": true
+  },
+  "r-r.matlab": {
+    "main": true
+  },
+  "r-r.methodss3": {
+    "main": true
+  },
+  "r-r.oo": {
+    "main": true
+  },
+  "r-r.rsp": {
+    "main": true
+  },
+  "r-r.utils": {
+    "main": true
+  },
   "r-r2d3": {
+    "main": true
+  },
+  "r-r2dii.analysis": {
+    "main": true
+  },
+  "r-r2dii.data": {
+    "main": true
+  },
+  "r-r2dii.match": {
     "main": true
   },
   "r-r2html": {
@@ -50394,6 +50856,9 @@
     "main": true
   },
   "r-radarchart": {
+    "main": true
+  },
+  "r-radiant.data": {
     "main": true
   },
   "r-radix": {
@@ -50451,6 +50916,9 @@
     "main": true
   },
   "r-rann": {
+    "main": true
+  },
+  "r-rann.l1": {
     "main": true
   },
   "r-rapiclient": {
@@ -50778,6 +51246,18 @@
     "main": true
   },
   "r-rebus": {
+    "main": true
+  },
+  "r-rebus.base": {
+    "main": true
+  },
+  "r-rebus.datetimes": {
+    "main": true
+  },
+  "r-rebus.numbers": {
+    "main": true
+  },
+  "r-rebus.unicode": {
     "main": true
   },
   "r-recipes": {
@@ -51257,6 +51737,15 @@
   "r-roi": {
     "main": true
   },
+  "r-roi.plugin.glpk": {
+    "main": true
+  },
+  "r-roi.plugin.lpsolve": {
+    "main": true
+  },
+  "r-roi.plugin.quadprog": {
+    "main": true
+  },
   "r-roloc": {
     "main": true
   },
@@ -51294,6 +51783,9 @@
     "main": true
   },
   "r-rpart": {
+    "main": true
+  },
+  "r-rpart.plot": {
     "main": true
   },
   "r-rpf": {
@@ -51447,6 +51939,9 @@
     "main": true
   },
   "r-rtables": {
+    "main": true
+  },
+  "r-rtables.officer": {
     "main": true
   },
   "r-rtensor": {
@@ -51683,6 +52178,9 @@
   "r-sdmpredictors": {
     "main": true
   },
+  "r-sdtm.oak": {
+    "main": true
+  },
   "r-sdtmchecks": {
     "main": true
   },
@@ -51732,6 +52230,9 @@
     "main": true
   },
   "r-sem": {
+    "main": true
+  },
+  "r-semantic.assets": {
     "main": true
   },
   "r-semaphore": {
@@ -51867,6 +52368,21 @@
     "main": true
   },
   "r-shiny": {
+    "main": true
+  },
+  "r-shiny.blueprint": {
+    "main": true
+  },
+  "r-shiny.fluent": {
+    "main": true
+  },
+  "r-shiny.react": {
+    "main": true
+  },
+  "r-shiny.router": {
+    "main": true
+  },
+  "r-shiny.semantic": {
     "main": true
   },
   "r-shinyace": {
