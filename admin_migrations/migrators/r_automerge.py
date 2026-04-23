@@ -153,6 +153,10 @@ class RAutomerge(Migrator):
     continual = True
 
     def migrate(self, feedstock, branch):
+        if not (feedstock.startswith("r-") and feedstock != "r-base"):
+            # no migration, no commit needs to be made, no api calls
+            return False, False, False
+
         has_r_team = _has_r_team() or _has_r_team_rattler_build()
         has_cran_url = _has_cran_url() or _has_cran_url_rattler_build()
 
