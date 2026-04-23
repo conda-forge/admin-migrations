@@ -117,7 +117,17 @@ class Username2IDMapping(Migrator):
         # and properly retained permissions for people who have changed their
         # username. We want to write the IDs of the people on the feedstock
         # as it should be if we had done the same.
-        fs_team = org.get_team_by_slug(feedstock)
+        current_maintainer_teams = list(
+            org.get_repo(f"{feedstock}-feedstock").get_teams()
+        )
+        fs_team = next(
+            (team for team in current_maintainer_teams if team.name == feedstock),
+            None,
+        )
+        if fs_team is None:
+            # migration done, make a commit, lots of API calls
+            return False, False, True
+
         maintainers = {e.login.lower() for e in fs_team.get_members()}
 
         uname2id_mapping = {}
