@@ -100,7 +100,7 @@ def _add_remove_user(lines, user, action):
 
 class Username2IDMapping(Migrator):
     main_branch_only = True
-    max_processes = 2
+    max_processes = 1
 
     def migrate(self, feedstock, branch):
         if os.path.exists(UNAME2ID_FILE):

@@ -20,7 +20,7 @@ class DummyMeta:
 
 class TeamsCleanup(Migrator):
     main_branch_only = True
-    max_processes = 2
+    max_processes = 1
     continual = True
 
     def _should_migrate(self):
@@ -28,8 +28,11 @@ class TeamsCleanup(Migrator):
             # we do 50 an hour
             self._time_between = 60.0 * 60.0 / MAX_PER_HOUR
 
+            # prevent a circular import by doing this here
+            from admin_migrations.__main__ import N_WORKERS
+
             # if we have more than one process, that time gets longer
-            self._time_between = self._time_between * self.max_processes
+            self._time_between = self._time_between * N_WORKERS
 
         now = time.time()
 
