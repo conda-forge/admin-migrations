@@ -153,15 +153,18 @@ class RAutomerge(Migrator):
     continual = True
 
     def migrate(self, feedstock, branch):
-        print("    r team:", _has_r_team(), flush=True)
-        print("    cran url:", _has_cran_url(), flush=True)
+        has_r_team = _has_r_team() or _has_r_team_rattler_build()
+        has_cran_url = _has_cran_url() or _has_cran_url_rattler_build()
 
         if (
             feedstock.startswith("r-")
             and feedstock != "r-base"
-            and (_has_r_team() or _has_r_team_rattler_build())
-            and (_has_cran_url() or _has_cran_url_rattler_build())
+            and has_r_team
+            and has_cran_url
         ):
+            print("    r team:", has_r_team, flush=True)
+            print("    cran url:", has_cran_url, flush=True)
+
             with Path("conda-forge.yml").open("r") as fp:
                 meta_yaml = fp.read()
 
