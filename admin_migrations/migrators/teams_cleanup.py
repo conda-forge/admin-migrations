@@ -1,24 +1,12 @@
 import os
-import random
+import time
 
 import requests
 from ruamel.yaml import YAML
 
-from admin_migrations.defaults import MAX_MIGRATE
-
 from .base import Migrator
 
-RND = random.SystemRandom()
-
-
-def _get_random_frac():
-    """We do 50 per hour no matter what."""
-    if MAX_MIGRATE > 0:
-        frac = 50 / MAX_MIGRATE
-    else:
-        frac = 1
-
-    return frac
+MAX_PER_HOUR = 50
 
 
 class DummyMeta:
@@ -35,6 +23,26 @@ class TeamsCleanup(Migrator):
     max_processes = 2
     continual = True
 
+    def _should_migrate(self):
+        if not hasattr(self, "_time_between"):
+            # we do 50 an hour
+            self._time_between = 60.0 * 60.0 / MAX_PER_HOUR
+
+            # if we have more than one process, that time gets longer
+            self._time_between = self._time_between * self.max_processes
+
+        now = time.time()
+
+        if not hasattr(self, "_time_of_last_migration"):
+            self._time_of_last_migration = now
+            return True
+
+        if now - self._time_of_last_migration > self._time_between:
+            self._time_of_last_migration = now
+            return True
+
+        return False
+
     def migrate(self, feedstock, branch):
         repo_name = "%s-feedstock" % feedstock
 
@@ -48,7 +56,7 @@ class TeamsCleanup(Migrator):
         ] or team_name.startswith("help-"):
             return
 
-        if RND.random() < _get_random_frac() or "DEBUG_ADMIN_MIGRATIONS" in os.environ:
+        if self._should_migrate() or "DEBUG_ADMIN_MIGRATIONS" in os.environ:
             rsp = requests.post(
                 "https://conda-forge.herokuapp.com/conda-forge-teams/update",
                 headers={"CF_WEBSERVICES_TOKEN": os.environ["CF_WEBSERVICES_TOKEN"]},
