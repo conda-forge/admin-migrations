@@ -25475,7 +25475,712 @@
   "ingeoml": {
     "main": true
   },
+  "iniconfig": {
+    "main": true
+  },
+  "inifile": {
+    "main": true
+  },
+  "inifix": {
+    "main": true
+  },
+  "inja": {
+    "main": true
+  },
+  "inject": {
+    "main": true
+  },
+  "inject-markdown": {
+    "main": true
+  },
+  "injective-py": {
+    "main": true
+  },
+  "injector": {
+    "main": true
+  },
+  "inkex": {
+    "main": true
+  },
   "inko": {
+    "main": true
+  },
+  "inkscape": {
+    "main": true
+  },
+  "inline-html": {
+    "main": true
+  },
+  "inline-model-metrics": {
+    "main": true
+  },
+  "inline-snapshot": {
+    "main": true
+  },
+  "inline-sql": {
+    "main": true
+  },
+  "inn-interface": {
+    "main": true
+  },
+  "innerscope": {
+    "main": true
+  },
+  "inotify": {
+    "main": true
+  },
+  "inotify-tools": {
+    "main": true
+  },
+  "inotify_simple": {
+    "main": true
+  },
+  "inplace-abn": {
+    "main": true
+  },
+  "inpoly": {
+    "main": true
+  },
+  "input4mips-validation": {
+    "main": true
+  },
+  "inputimeout": {
+    "main": true
+  },
+  "inputs": {
+    "main": true
+  },
+  "inquirer": {
+    "main": true
+  },
+  "inquirerpy": {
+    "main": true
+  },
+  "insarhub": {
+    "main": true
+  },
+  "insarscript": {
+    "main": true
+  },
+  "insert-license-header": {
+    "main": true
+  },
+  "insightface": {
+    "main": true
+  },
+  "inspecta": {
+    "main": true
+  },
+  "inspectds": {
+    "main": true
+  },
+  "inspectrum": {
+    "main": true
+  },
+  "inspiral-range": {
+    "main": true
+  },
+  "inspyred": {
+    "main": true
+  },
+  "install-jdk": {
+    "main": true
+  },
+  "install-locked-env": {
+    "main": true
+  },
+  "instaloader": {
+    "main": true
+  },
+  "instantclient-basiclite": {
+    "main": true
+  },
+  "instapush": {
+    "main": true
+  },
+  "instaseis": {
+    "main": true
+  },
+  "instructor": {
+    "main": true
+  },
+  "instructorembedding": {
+    "main": true
+  },
+  "intake": {
+    "main": true
+  },
+  "intake-accumulo": {
+    "main": true
+  },
+  "intake-astro": {
+    "main": true
+  },
+  "intake-avro": {
+    "main": true
+  },
+  "intake-axds": {
+    "main": true
+  },
+  "intake-cmip": {
+    "main": true
+  },
+  "intake-dataframe-catalog": {
+    "main": true
+  },
+  "intake-dremio": {
+    "main": true
+  },
+  "intake-duckdb": {
+    "main": true
+  },
+  "intake-dynamodb": {
+    "main": true
+  },
+  "intake-elasticsearch": {
+    "main": true
+  },
+  "intake-erddap": {
+    "main": true
+  },
+  "intake-esgf": {
+    "main": true
+  },
+  "intake-esm": {
+    "main": true
+  },
+  "intake-excel": {
+    "main": true
+  },
+  "intake-geopandas": {
+    "main": true
+  },
+  "intake-hive": {
+    "main": true
+  },
+  "intake-iris": {
+    "main": true
+  },
+  "intake-nested-yaml-catalog": {
+    "main": true
+  },
+  "intake-odbc": {
+    "main": true
+  },
+  "intake-omnisci": {
+    "main": true
+  },
+  "intake-parquet": {
+    "main": true
+  },
+  "intake-salesforce": {
+    "main": true
+  },
+  "intake-satpy": {
+    "main": true
+  },
+  "intake-spark": {
+    "main": true
+  },
+  "intake-sql": {
+    "main": true
+  },
+  "intake-sqlite": {
+    "main": true
+  },
+  "intake-stac": {
+    "main": true
+  },
+  "intake-streamz": {
+    "main": true
+  },
+  "intake-thredds": {
+    "main": true
+  },
+  "intake-xarray": {
+    "main": true
+  },
+  "intake_pattern_catalog": {
+    "main": true
+  },
+  "intbitset": {
+    "main": true
+  },
+  "integratorxx": {
+    "main": true
+  },
+  "intel-compiler-repack": {
+    "main": true
+  },
+  "intel-compute-runtime": {
+    "main": true
+  },
+  "intel-gmmlib": {
+    "main": true
+  },
+  "intel-graphics-compiler": {
+    "main": true
+  },
+  "intel-hybrid-driver": {
+    "main": true
+  },
+  "intel-ipp": {
+    "main": true
+  },
+  "intel-media-driver": {
+    "main": true
+  },
+  "intel-opencl-clang": {
+    "main": true
+  },
+  "intel-vaapi-driver": {
+    "main": true
+  },
+  "intel_repack": {
+    "main": true
+  },
+  "intelhex": {
+    "main": true
+  },
+  "intensity-normalization": {
+    "main": true
+  },
+  "interactivefitting": {
+    "main": true
+  },
+  "interchange": {
+    "main": true
+  },
+  "interegular": {
+    "main": true
+  },
+  "interface_meta": {
+    "main": true
+  },
+  "interlap": {
+    "main": true
+  },
+  "interleave": {
+    "main": true
+  },
+  "intermat": {
+    "main": true
+  },
+  "intermol": {
+    "main": true
+  },
+  "intern": {
+    "main": true
+  },
+  "internetarchive": {
+    "main": true
+  },
+  "interpax": {
+    "main": true
+  },
+  "interpolation": {
+    "main": true
+  },
+  "interpret": {
+    "main": true
+  },
+  "interpret-community": {
+    "main": true
+  },
+  "interpret-core": {
+    "main": true
+  },
+  "interrogate": {
+    "main": true
+  },
+  "intersphinx-registry": {
+    "main": true
+  },
+  "interval_tree": {
+    "main": true
+  },
+  "intervals": {
+    "main": true
+  },
+  "intervaltree": {
+    "main": true
+  },
+  "intervalues": {
+    "main": true
+  },
+  "intervalxt": {
+    "main": true
+  },
+  "intltool": {
+    "main": true
+  },
+  "intreehooks": {
+    "main": true
+  },
+  "introspection": {
+    "main": true
+  },
+  "intspan": {
+    "main": true
+  },
+  "invagination": {
+    "main": true
+  },
+  "invariant-point-attention": {
+    "main": true
+  },
+  "invert4geom": {
+    "main": true
+  },
+  "invest-ucm-calibration": {
+    "main": true
+  },
+  "invoke": {
+    "main": true
+  },
+  "involucro": {
+    "main": true
+  },
+  "iohexperimenter": {
+    "main": true
+  },
+  "iohub": {
+    "main": true
+  },
+  "iommi": {
+    "main": true
+  },
+  "ionic-cli": {
+    "main": true
+  },
+  "ioos_metrics": {
+    "main": true
+  },
+  "ioos_qartod": {
+    "main": true
+  },
+  "ioos_qc": {
+    "main": true
+  },
+  "ioos_tools": {
+    "main": true
+  },
+  "iopath": {
+    "main": true
+  },
+  "ioproc": {
+    "main": true
+  },
+  "iosacal": {
+    "main": true
+  },
+  "iosbackup": {
+    "main": true
+  },
+  "iota": {
+    "main": true
+  },
+  "iotaa": {
+    "main": true
+  },
+  "iotop": {
+    "main": true
+  },
+  "iowait": {
+    "main": true
+  },
+  "ipaddress": {
+    "main": true
+  },
+  "ipannotoryous": {
+    "main": true
+  },
+  "ipart": {
+    "main": true
+  },
+  "ipcoal": {
+    "main": true
+  },
+  "ipdb": {
+    "main": true
+  },
+  "ipe": {
+    "main": true
+  },
+  "ipecharts": {
+    "main": true
+  },
+  "iperf": {
+    "main": true
+  },
+  "ipfn": {
+    "main": true
+  },
+  "ipfshttpclient": {
+    "main": true
+  },
+  "ipfsspec": {
+    "main": true
+  },
+  "ipopt": {
+    "main": true
+  },
+  "iprogress": {
+    "main": true
+  },
+  "iprpy": {
+    "main": true
+  },
+  "iprpy-data": {
+    "main": true
+  },
+  "ipserver": {
+    "main": true
+  },
+  "ipsurv": {
+    "main": true
+  },
+  "ipsw": {
+    "main": true
+  },
+  "iptcinfo3": {
+    "main": true
+  },
+  "ipumspy": {
+    "main": true
+  },
+  "ipy": {
+    "main": true
+  },
+  "ipyaggrid": {
+    "main": true
+  },
+  "ipyaladin": {
+    "main": true
+  },
+  "ipyautoui": {
+    "main": true
+  },
+  "ipybertin": {
+    "main": true
+  },
+  "ipycache": {
+    "main": true
+  },
+  "ipycanvas": {
+    "main": true
+  },
+  "ipychart": {
+    "main": true
+  },
+  "ipycytoscape": {
+    "main": true
+  },
+  "ipydagred3": {
+    "main": true
+  },
+  "ipydatagrid": {
+    "main": true
+  },
+  "ipydatawidgets": {
+    "main": true
+  },
+  "ipydatetime": {
+    "main": true
+  },
+  "ipydrawio": {
+    "main": true
+  },
+  "ipyelk": {
+    "main": true
+  },
+  "ipyevents": {
+    "main": true
+  },
+  "ipyfastscape": {
+    "main": true
+  },
+  "ipyfilechooser": {
+    "main": true
+  },
+  "ipyflex": {
+    "main": true
+  },
+  "ipyflow": {
+    "main": true
+  },
+  "ipyflow-core": {
+    "main": true
+  },
+  "ipyforcegraph": {
+    "main": true
+  },
+  "ipygany": {
+    "main": true
+  },
+  "ipygraphql": {
+    "main": true
+  },
+  "ipyigv": {
+    "main": true
+  },
+  "ipykernel": {
+    "main": true
+  },
+  "ipylab": {
+    "main": true
+  },
+  "ipylayout": {
+    "main": true
+  },
+  "ipyleaflet": {
+    "main": true
+  },
+  "ipyleaflet-gl-vector-layer-plugin": {
+    "main": true
+  },
+  "ipymarkup": {
+    "main": true
+  },
+  "ipymaterialui": {
+    "main": true
+  },
+  "ipymesh": {
+    "main": true
+  },
+  "ipymidicontrols": {
+    "main": true
+  },
+  "ipympl": {
+    "main": true
+  },
+  "ipynao": {
+    "main": true
+  },
+  "ipynb-py-convert": {
+    "main": true
+  },
+  "ipynbname": {
+    "main": true
+  },
+  "ipyopt": {
+    "main": true
+  },
+  "ipyparallel": {
+    "main": true
+  },
+  "ipypivot": {
+    "main": true
+  },
+  "ipypublish": {
+    "main": true
+  },
+  "ipyradiant": {
+    "main": true
+  },
+  "ipyreact": {
+    "main": true
+  },
+  "ipyregulartable": {
+    "main": true
+  },
+  "ipysankeywidget": {
+    "main": true
+  },
+  "ipyscales": {
+    "main": true
+  },
+  "ipysheet": {
+    "main": true
+  },
+  "ipyslides": {
+    "main": true
+  },
+  "ipyslurm": {
+    "main": true
+  },
+  "ipyspin": {
+    "main": true
+  },
+  "ipytablewidgets": {
+    "main": true
+  },
+  "ipytest": {
+    "main": true
+  },
+  "ipython": {
+    "main": true
+  },
+  "ipython-autotime": {
+    "main": true
+  },
+  "ipython-sql": {
+    "main": true
+  },
+  "ipython_genutils": {
+    "main": true
+  },
+  "ipython_memory_usage": {
+    "main": true
+  },
+  "ipython_pygments_lexers": {
+    "main": true
+  },
+  "ipython_unittest": {
+    "main": true
+  },
+  "ipytone": {
+    "main": true
+  },
+  "ipytree": {
+    "main": true
+  },
+  "ipyurl": {
+    "main": true
+  },
+  "ipyvizzu": {
+    "main": true
+  },
+  "ipyvizzu-story": {
+    "main": true
+  },
+  "ipyvolume": {
+    "main": true
+  },
+  "ipyvtklink": {
+    "main": true
+  },
+  "ipyvue": {
+    "main": true
+  },
+  "ipyvuedraggable": {
+    "main": true
+  },
+  "ipyvuetify": {
+    "main": true
+  },
+  "ipywe": {
+    "main": true
+  },
+  "ipywebrtc": {
+    "main": true
+  },
+  "ipywidgets": {
+    "main": true
+  },
+  "ipywidgets-bokeh": {
+    "main": true
+  },
+  "ipywidgets-jsonschema": {
+    "main": true
+  },
+  "ipyx": {
+    "main": true
+  },
+  "ipyxact": {
+    "main": true
+  },
+  "iqplot": {
     "main": true
   },
   "ira": {
