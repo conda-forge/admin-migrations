@@ -34,4 +34,4 @@ Items 1-3 are taken care of by the migrations code.
 | CondaForgeYAMLTest | *always runs*                                        |                         - |
 | RAutomerge         | *always runs*                                        |                         - |
 | TeamsCleanup       | *always runs*                                        |                         - |
-| Username2IDMapping | `##########################################        ` |         85% (23238/27246) |
+| Username2IDMapping | `###########################################       ` |         87% (23817/27247) |

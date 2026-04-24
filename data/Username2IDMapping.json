@@ -69701,16 +69701,1753 @@
   "types-xmltodict": {
     "main": true
   },
+  "types-xxhash": {
+    "main": true
+  },
+  "types_toml": {
+    "main": true
+  },
+  "types_typed_ast": {
+    "main": true
+  },
+  "typescript": {
+    "main": true
+  },
+  "typescript-eslint-eslint-plugin": {
+    "main": true
+  },
+  "typescript-eslint-parser": {
+    "main": true
+  },
+  "typescript-language-server": {
+    "main": true
+  },
+  "typeshed-client": {
+    "main": true
+  },
+  "typespec": {
+    "main": true
+  },
+  "typesystem": {
+    "main": true
+  },
+  "typhos": {
+    "main": true
+  },
+  "typical": {
+    "main": true
+  },
+  "typing": {
+    "main": true
+  },
+  "typing-compat": {
+    "main": true
+  },
+  "typing-inspection": {
+    "main": true
+  },
+  "typing-validation": {
+    "main": true
+  },
+  "typing_extensions": {
+    "main": true
+  },
+  "typing_inspect": {
+    "main": true
+  },
+  "typing_utils": {
+    "main": true
+  },
+  "typish": {
+    "main": true
+  },
+  "typogrify": {
+    "main": true
+  },
+  "typos": {
+    "main": true
+  },
+  "typos-cli": {
+    "main": true
+  },
+  "typos-lsp": {
+    "main": true
+  },
+  "typst": {
+    "main": true
+  },
+  "typst-lsp": {
+    "main": true
+  },
+  "typst-py": {
+    "main": true
+  },
+  "typstfmt": {
+    "main": true
+  },
+  "typstyle": {
+    "main": true
+  },
+  "tyrannosaurus": {
+    "main": true
+  },
+  "tyro": {
+    "main": true
+  },
+  "tyssue": {
+    "main": true
+  },
+  "tytanic": {
+    "main": true
+  },
+  "tzcode": {
+    "main": true
+  },
+  "tzdata": {
+    "main": true
+  },
+  "tzfpy": {
+    "main": true
+  },
+  "tzlocal": {
+    "main": true
+  },
+  "tzwhere": {
+    "main": true
+  },
+  "u-msgpack-python": {
+    "main": true
+  },
+  "u3d": {
+    "main": true
+  },
+  "u8darts": {
+    "main": true
+  },
+  "ua-parser": {
+    "main": true
+  },
+  "ua-parser-builtins": {
+    "main": true
+  },
+  "uarray": {
+    "main": true
+  },
+  "uassist": {
+    "main": true
+  },
+  "uavro": {
+    "main": true
+  },
+  "ubelt": {
+    "main": true
+  },
+  "ubergauss": {
+    "main": true
+  },
+  "ubermag": {
+    "main": true
+  },
+  "ubermagtable": {
+    "main": true
+  },
+  "ubermagutil": {
+    "main": true
+  },
+  "ubiquerg": {
+    "main": true
+  },
+  "ubtsl": {
+    "main": true
+  },
+  "uc-micro-py": {
+    "main": true
+  },
+  "ucc": {
+    "main": true
+  },
+  "uchardet": {
+    "main": true
+  },
+  "ucimlrepo": {
+    "main": true
+  },
+  "ucrt": {
+    "main": true
+  },
+  "ucs-detect": {
+    "main": true
+  },
+  "ucx-split": {
+    "main": true
+  },
+  "uda": {
+    "main": true
+  },
+  "udapi": {
+    "main": true
+  },
+  "udatetime": {
+    "main": true
+  },
+  "udkm1dsim": {
+    "main": true
+  },
+  "udlai": {
+    "main": true
+  },
+  "udocker": {
+    "main": true
+  },
+  "udsoncan": {
+    "main": true
+  },
+  "udtools": {
+    "main": true
+  },
+  "udunits2": {
+    "main": true
+  },
+  "uf3": {
+    "main": true
+  },
+  "ufal.udpipe": {
+    "main": true
+  },
+  "ufish": {
+    "main": true
+  },
+  "ufit": {
+    "main": true
+  },
+  "ufmt": {
+    "main": true
+  },
+  "ufolib2": {
+    "main": true
+  },
+  "ufolint": {
+    "main": true
+  },
+  "ufs2arco": {
+    "main": true
+  },
+  "uftp": {
+    "main": true
+  },
+  "uge-drmaa2": {
+    "main": true
+  },
+  "uglify-js": {
+    "main": true
+  },
+  "ugly_csv_generator": {
+    "main": true
+  },
+  "ugrep": {
+    "main": true
+  },
+  "ugrid-checks": {
+    "main": true
+  },
+  "uharfbuzz": {
+    "main": true
+  },
+  "uhd": {
+    "main": true
+  },
+  "uhdm": {
+    "main": true
+  },
+  "uhi": {
+    "main": true
+  },
+  "uhttp": {
+    "main": true
+  },
+  "ui5-cli": {
+    "main": true
+  },
+  "ui5-webcomponents-react-cli": {
+    "main": true
+  },
+  "uiautomation": {
+    "main": true
+  },
+  "uiua": {
+    "main": true
+  },
+  "ujson": {
+    "main": true
+  },
+  "ukb-atlas": {
+    "main": true
+  },
+  "ukbparse": {
+    "main": true
+  },
+  "ukcensusapi": {
+    "main": true
+  },
+  "ukkonen": {
+    "main": true
+  },
+  "ukpopulation": {
+    "main": true
+  },
+  "uldaq": {
+    "main": true
+  },
+  "ulmo": {
+    "main": true
+  },
+  "ultimate-sitemap-parser": {
+    "main": true
+  },
+  "ultralytics": {
+    "main": true
+  },
+  "ultralytics-thop": {
+    "main": true
+  },
+  "ultranest": {
+    "main": true
+  },
+  "ultraplot": {
+    "main": true
+  },
+  "umachine-pyio": {
+    "main": true
+  },
+  "umalqurra": {
+    "main": true
+  },
+  "umami": {
+    "main": true
+  },
+  "umap-learn": {
+    "main": true
+  },
+  "umarkdown": {
+    "main": true
+  },
+  "umetrix": {
+    "main": true
+  },
+  "umnn": {
+    "main": true
+  },
+  "umock-c": {
+    "main": true
+  },
+  "umongo": {
+    "main": true
+  },
+  "unasync": {
+    "main": true
+  },
+  "unbaffeld": {
+    "main": true
+  },
+  "uncalled": {
+    "main": true
+  },
+  "uncalled-for": {
+    "main": true
+  },
+  "uncertainpy": {
+    "main": true
+  },
+  "uncertainties": {
+    "main": true
+  },
+  "uncertainty-calibration": {
+    "main": true
+  },
+  "uncertainty-toolbox": {
+    "main": true
+  },
+  "uncommitted": {
+    "main": true
+  },
+  "uncompresspy": {
+    "main": true
+  },
+  "uncrustify": {
+    "main": true
+  },
+  "uncurl": {
+    "main": true
+  },
+  "undetected-chromedriver": {
+    "main": true
+  },
+  "undoc": {
+    "main": true
+  },
+  "unearth": {
+    "main": true
+  },
+  "unfccc_di_api": {
+    "main": true
+  },
+  "unfold": {
+    "main": true
+  },
+  "unfoldnd": {
+    "main": true
+  },
+  "unibilium": {
+    "main": true
+  },
+  "unicall": {
+    "main": true
+  },
+  "unicaps": {
+    "main": true
+  },
+  "unicloud": {
+    "main": true
+  },
+  "unicode-slugify": {
+    "main": true
+  },
+  "unicodecsv": {
+    "main": true
+  },
+  "unicodedata2": {
+    "main": true
+  },
+  "unicorn": {
+    "main": true
+  },
+  "unicorn-binance-local-depth-cache": {
+    "main": true
+  },
+  "unicorn-binance-rest-api": {
+    "main": true
+  },
+  "unicorn-binance-suite": {
+    "main": true
+  },
+  "unicorn-binance-trailing-stop-loss": {
+    "main": true
+  },
+  "unicorn-binance-websocket-api": {
+    "main": true
+  },
+  "unicorn-fy": {
+    "main": true
+  },
+  "unidecode": {
+    "main": true
+  },
+  "unidep": {
+    "main": true
+  },
+  "unidic-lite": {
+    "main": true
+  },
+  "unidiff": {
+    "main": true
+  },
+  "unidist-packages": {
+    "main": true
+  },
+  "unidock": {
+    "main": true
+  },
+  "unifdef": {
+    "main": true
+  },
+  "unifhy": {
+    "main": true
+  },
+  "unifunc": {
+    "main": true
+  },
+  "unifuncnet": {
+    "main": true
+  },
+  "unify": {
+    "main": true
+  },
+  "unimport": {
+    "main": true
+  },
+  "unionfind": {
+    "main": true
+  },
+  "unionml": {
+    "main": true
+  },
+  "uniplot": {
+    "main": true
+  },
+  "unique-uncertainty": {
+    "main": true
+  },
+  "uniserde": {
+    "main": true
+  },
+  "unison": {
+    "main": true
+  },
+  "unitpackage": {
+    "main": true
+  },
+  "unitree-sdk2": {
+    "main": true
+  },
+  "units": {
+    "main": true
+  },
+  "unittest-xml-reporting": {
+    "main": true
+  },
+  "unittest2pytest": {
+    "main": true
+  },
+  "universal-analytics-python3": {
+    "main": true
+  },
+  "universal-ctags": {
+    "main": true
+  },
+  "universal-mcp": {
+    "main": true
+  },
+  "universal-mcp-markitdown": {
+    "main": true
+  },
+  "universal-startfile": {
+    "main": true
+  },
+  "universal_pathlib": {
+    "main": true
+  },
+  "universaltest": {
+    "main": true
+  },
+  "universions": {
+    "main": true
+  },
+  "univi": {
+    "main": true
+  },
+  "unix-ar": {
+    "main": true
+  },
+  "unixodbc": {
+    "main": true
+  },
+  "unlzw3": {
+    "main": true
+  },
+  "unocg": {
+    "main": true
+  },
+  "unocss": {
+    "main": true
+  },
+  "unocss-language-server": {
+    "main": true
+  },
+  "unordered_dense": {
+    "main": true
+  },
+  "unpaddedbase64": {
+    "main": true
+  },
+  "unpaper": {
+    "main": true
+  },
+  "unpdf-rs": {
+    "main": true
+  },
+  "unrar": {
+    "main": true
+  },
+  "unsloth": {
+    "main": true
+  },
+  "unsloth_zoo": {
+    "main": true
+  },
+  "unstructured": {
+    "main": true
+  },
+  "unstructured-client": {
+    "main": true
+  },
+  "unsync": {
+    "main": true
+  },
+  "untangle": {
+    "main": true
+  },
+  "untokenize": {
+    "main": true
+  },
+  "untwine": {
+    "main": true
+  },
+  "unum": {
+    "main": true
+  },
+  "unumpy": {
+    "main": true
+  },
+  "unyt": {
+    "main": true
+  },
   "unyts": {
+    "main": true
+  },
+  "unzip": {
+    "main": true
+  },
+  "unzip-http": {
+    "main": true
+  },
+  "up": {
+    "main": true
+  },
+  "up42-py": {
+    "main": true
+  },
+  "update_checker": {
+    "main": true
+  },
+  "updater": {
+    "main": true
+  },
+  "upf_to_json": {
+    "main": true
+  },
+  "upkie": {
+    "main": true
+  },
+  "upkie_description": {
+    "main": true
+  },
+  "upliftml": {
+    "main": true
+  },
+  "uplot-python": {
+    "main": true
+  },
+  "upolygon": {
+    "main": true
+  },
+  "uppasd": {
+    "main": true
+  },
+  "uproc": {
+    "main": true
+  },
+  "uproot": {
+    "main": true
+  },
+  "uproot-browser": {
+    "main": true
+  },
+  "uproot-methods": {
+    "main": true
+  },
+  "uproot3": {
+    "main": true
+  },
+  "uproot3-methods": {
+    "main": true
+  },
+  "upsetplot": {
+    "main": true
+  },
+  "upsonic": {
+    "main": true
+  },
+  "upstage-des": {
+    "main": true
+  },
+  "upstash-ratelimit": {
+    "main": true
+  },
+  "upstash-redis": {
+    "main": true
+  },
+  "upterm": {
+    "main": true
+  },
+  "uptime": {
+    "main": true
+  },
+  "uptrace": {
+    "main": true
+  },
+  "upv": {
+    "main": true
+  },
+  "uqpy": {
+    "main": true
+  },
+  "uranography": {
+    "main": true
+  },
+  "uraster": {
+    "main": true
+  },
+  "uravu": {
+    "main": true
+  },
+  "urbanaccess": {
+    "main": true
+  },
+  "urbansim": {
+    "main": true
+  },
+  "urbansim_defaults": {
+    "main": true
+  },
+  "urbansim_templates": {
+    "main": true
+  },
+  "urchin": {
+    "main": true
+  },
+  "urdf-modifiers": {
+    "main": true
+  },
+  "urdf-usd-converter": {
+    "main": true
+  },
+  "urdfdom": {
+    "main": true
+  },
+  "urdfdom-py": {
+    "main": true
+  },
+  "urdfdom_headers": {
+    "main": true
+  },
+  "urdfpy": {
+    "main": true
+  },
+  "uri-template": {
+    "main": true
+  },
+  "uriparser": {
+    "main": true
+  },
+  "uritemplate": {
+    "main": true
+  },
+  "uritools": {
+    "main": true
+  },
+  "url-into-images": {
+    "main": true
+  },
+  "url-normalize": {
+    "main": true
+  },
+  "urlchecker": {
+    "main": true
+  },
+  "urljsf": {
+    "main": true
+  },
+  "urllib3": {
+    "main": true
+  },
+  "urllib3-future": {
+    "main": true
+  },
+  "urllib3-secure-extra": {
+    "main": true
+  },
+  "urlobject": {
+    "main": true
+  },
+  "urlpath": {
+    "main": true
+  },
+  "urlquote": {
+    "main": true
+  },
+  "urlscan": {
+    "main": true
+  },
+  "urwid": {
+    "main": true
+  },
+  "urwid_readline": {
+    "main": true
+  },
+  "us": {
+    "main": true
+  },
+  "usaddress": {
+    "main": true
+  },
+  "usagestats": {
+    "main": true
+  },
+  "usd-exchange": {
     "main": true
   },
   "usearch-python": {
     "main": true
   },
+  "useq-schema": {
+    "main": true
+  },
+  "user-agents": {
+    "main": true
+  },
+  "userinput": {
+    "main": true
+  },
+  "userpath": {
+    "main": true
+  },
+  "userspacefs": {
+    "main": true
+  },
+  "usgs": {
+    "main": true
+  },
+  "usgs-strec": {
+    "main": true
+  },
+  "usgscsm": {
+    "main": true
+  },
+  "usort": {
+    "main": true
+  },
+  "ussa1976": {
+    "main": true
+  },
+  "ustrid": {
+    "main": true
+  },
+  "uszipcode": {
+    "main": true
+  },
+  "utfcpp": {
+    "main": true
+  },
+  "utide": {
+    "main": true
+  },
+  "util-linux": {
+    "main": true
+  },
+  "utilsforecast": {
+    "main": true
+  },
+  "utm": {
+    "main": true
+  },
+  "utool": {
+    "main": true
+  },
+  "uuid-utils": {
+    "main": true
+  },
+  "uuid6": {
+    "main": true
+  },
+  "uutils-coreutils": {
+    "main": true
+  },
+  "uutils-findutils": {
+    "main": true
+  },
+  "uv": {
+    "main": true
+  },
+  "uv-build": {
+    "main": true
+  },
+  "uv-dynamic-versioning": {
+    "main": true
+  },
+  "uv-secure": {
+    "main": true
+  },
+  "uvicore": {
+    "main": true
+  },
+  "uvicorn": {
+    "main": true
+  },
+  "uvicorn-worker": {
+    "main": true
+  },
+  "uvloop": {
+    "main": true
+  },
+  "uvu": {
+    "main": true
+  },
+  "uwsgi": {
+    "main": true
+  },
+  "uwsift": {
+    "main": true
+  },
+  "uxarray": {
+    "main": true
+  },
+  "uxf": {
+    "main": true
+  },
+  "uxsim": {
+    "main": true
+  },
+  "va_am": {
+    "main": true
+  },
+  "vabene": {
+    "main": true
+  },
+  "vacumm-data": {
+    "main": true
+  },
+  "vacuum": {
+    "main": true
+  },
+  "vadersentiment": {
+    "main": true
+  },
+  "vaex": {
+    "main": true
+  },
+  "vaex-arrow": {
+    "main": true
+  },
+  "vaex-astro": {
+    "main": true
+  },
+  "vaex-core": {
+    "main": true
+  },
+  "vaex-distributed": {
+    "main": true
+  },
+  "vaex-hdf5": {
+    "main": true
+  },
+  "vaex-jupyter": {
+    "main": true
+  },
+  "vaex-ml": {
+    "main": true
+  },
+  "vaex-server": {
+    "main": true
+  },
+  "vaex-ui": {
+    "main": true
+  },
+  "vaex-viz": {
+    "main": true
+  },
+  "vak": {
+    "main": true
+  },
+  "vala": {
+    "main": true
+  },
+  "vale": {
+    "main": true
+  },
+  "vale-ls": {
+    "main": true
+  },
+  "vale-spelling-aoo-mozilla-en-dict": {
+    "main": true
+  },
+  "vale-styles-alex": {
+    "main": true
+  },
+  "vale-styles-google": {
+    "main": true
+  },
+  "vale-styles-joblint": {
+    "main": true
+  },
+  "vale-styles-microsoft": {
+    "main": true
+  },
+  "vale-styles-proselint": {
+    "main": true
+  },
+  "vale-styles-readability": {
+    "main": true
+  },
+  "vale-styles-write-good": {
+    "main": true
+  },
+  "valerius": {
+    "main": true
+  },
+  "valgrind": {
+    "main": true
+  },
+  "valida": {
+    "main": true
+  },
+  "validate-pyproject": {
+    "main": true
+  },
+  "validate_email": {
+    "main": true
+  },
+  "validate_version_code": {
+    "main": true
+  },
+  "validatedata": {
+    "main": true
+  },
+  "validator-collection": {
+    "main": true
+  },
+  "validators": {
+    "main": true
+  },
+  "validictory": {
+    "main": true
+  },
+  "validobj": {
+    "main": true
+  },
+  "valkey-py": {
+    "main": true
+  },
+  "valkey-server": {
+    "main": true
+  },
+  "valmix": {
+    "main": true
+  },
+  "vampy": {
+    "main": true
+  },
+  "vampyr": {
+    "main": true
+  },
+  "vape4d": {
+    "main": true
+  },
+  "vapeplot": {
+    "main": true
+  },
+  "vapory": {
+    "main": true
+  },
+  "vapoursynth": {
+    "main": true
+  },
+  "variable_generators": {
+    "main": true
+  },
+  "variable_inspector": {
+    "main": true
+  },
+  "variconfig": {
+    "main": true
+  },
+  "varint": {
+    "main": true
+  },
+  "varlink": {
+    "main": true
+  },
+  "varname": {
+    "main": true
+  },
+  "varys": {
+    "main": true
+  },
+  "vasp": {
+    "main": true
+  },
+  "vasp-ase": {
+    "main": true
+  },
+  "vaspparser": {
+    "main": true
+  },
+  "vasppy": {
+    "main": true
+  },
+  "vasprun-xml": {
+    "main": true
+  },
+  "vastdb": {
+    "main": true
+  },
+  "vault": {
+    "main": true
+  },
+  "vbmicrolensing": {
+    "main": true
+  },
+  "vbuild": {
+    "main": true
+  },
+  "vc": {
+    "main": true
+  },
+  "vcf-rdfizer": {
+    "main": true
+  },
+  "vcpkg": {
+    "main": true
+  },
+  "vcpkg-tool": {
+    "main": true
+  },
+  "vcrpy": {
+    "main": true
+  },
+  "vcrpy-unittest": {
+    "main": true
+  },
+  "vcs2l": {
+    "main": true
+  },
   "vcs_versioning": {
     "main": true
   },
+  "vcsh": {
+    "main": true
+  },
+  "vcstool": {
+    "main": true
+  },
+  "vcstools": {
+    "main": true
+  },
+  "vcver": {
+    "main": true
+  },
+  "vcversioner": {
+    "main": true
+  },
+  "vdm": {
+    "main": true
+  },
+  "vdms": {
+    "main": true
+  },
+  "vdom": {
+    "main": true
+  },
+  "vdt": {
+    "main": true
+  },
+  "vecstack": {
+    "main": true
+  },
+  "vector": {
+    "main": true
+  },
+  "vector-classes": {
+    "main": true
+  },
+  "vector-quantize-pytorch": {
+    "main": true
+  },
+  "vector-vis-graph": {
+    "main": true
+  },
+  "vectorbt": {
+    "main": true
+  },
+  "vectormath": {
+    "main": true
+  },
+  "vectorscan": {
+    "main": true
+  },
+  "vedo": {
+    "main": true
+  },
+  "veerer": {
+    "main": true
+  },
+  "veg2hab": {
+    "main": true
+  },
+  "vega": {
+    "main": true
+  },
+  "vega-cli": {
+    "main": true
+  },
+  "vega-lite-cli": {
+    "main": true
+  },
+  "vega-python-sdk": {
+    "main": true
+  },
+  "vega_datasets": {
+    "main": true
+  },
+  "vegafusion": {
+    "main": true
+  },
+  "vegafusion-jupyter": {
+    "main": true
+  },
+  "vegafusion-python-embed": {
+    "main": true
+  },
+  "vegasflow": {
+    "main": true
+  },
+  "vegspec": {
+    "main": true
+  },
+  "velocity-profile": {
+    "main": true
+  },
+  "velocypack": {
+    "main": true
+  },
+  "veloxchem": {
+    "main": true
+  },
+  "venn": {
+    "main": true
+  },
+  "venn-abers": {
+    "main": true
+  },
+  "venusian": {
+    "main": true
+  },
+  "venv-kernel": {
+    "main": true
+  },
+  "venv-pack": {
+    "main": true
+  },
+  "venvstacks": {
+    "main": true
+  },
+  "veracitools": {
+    "main": true
+  },
+  "verapdf": {
+    "main": true
+  },
+  "verboselogs": {
+    "main": true
+  },
+  "vercel-cli": {
+    "main": true
+  },
+  "verde": {
+    "main": true
+  },
+  "verible": {
+    "main": true
+  },
+  "verilator": {
+    "main": true
+  },
+  "verilator-python": {
+    "main": true
+  },
+  "verlib2": {
+    "main": true
+  },
+  "vermin": {
+    "main": true
+  },
+  "vermouth": {
+    "main": true
+  },
+  "veros": {
+    "main": true
+  },
+  "veros-extra-setups": {
+    "main": true
+  },
+  "verr": {
+    "main": true
+  },
+  "version-parser": {
+    "main": true
+  },
+  "version-pioneer": {
+    "main": true
+  },
+  "version_information": {
+    "main": true
+  },
+  "versioned-hdf5": {
+    "main": true
+  },
+  "versioneer": {
+    "main": true
+  },
+  "versionfinder": {
+    "main": true
+  },
+  "versioningit": {
+    "main": true
+  },
+  "versionparsing.jl": {
+    "main": true
+  },
+  "versiontag": {
+    "main": true
+  },
+  "versiontools": {
+    "main": true
+  },
+  "verspec": {
+    "main": true
+  },
+  "verstr": {
+    "main": true
+  },
+  "vertica-python": {
+    "main": true
+  },
+  "vertica_highcharts": {
+    "main": true
+  },
+  "verticalize": {
+    "main": true
+  },
+  "verticapy": {
+    "main": true
+  },
+  "vessel-express-napari": {
+    "main": true
+  },
+  "vet": {
+    "main": true
+  },
+  "vetoperf": {
+    "main": true
+  },
+  "vetur": {
+    "main": true
+  },
+  "veusz": {
+    "main": true
+  },
+  "vexctl": {
+    "main": true
+  },
+  "vharfbuzz": {
+    "main": true
+  },
+  "vhs": {
+    "main": true
+  },
+  "vibegui": {
+    "main": true
+  },
+  "vibehdf5": {
+    "main": true
+  },
+  "vic": {
+    "main": true
+  },
+  "videogrep": {
+    "main": true
+  },
+  "videohash": {
+    "main": true
+  },
+  "videoio": {
+    "main": true
+  },
+  "vidigi": {
+    "main": true
+  },
+  "vidstats": {
+    "main": true
+  },
+  "viewable": {
+    "main": true
+  },
+  "viewstack": {
+    "main": true
+  },
+  "vifm": {
+    "main": true
+  },
+  "vigra": {
+    "main": true
+  },
+  "vim": {
+    "main": true
+  },
+  "vim-language-server": {
+    "main": true
+  },
+  "vim-vint": {
+    "main": true
+  },
+  "vina": {
+    "main": true
+  },
+  "vine": {
+    "main": true
+  },
+  "vipaccess": {
+    "main": true
+  },
+  "vir-simd": {
+    "main": true
+  },
+  "viresclient": {
+    "main": true
+  },
+  "virga-exo": {
+    "main": true
+  },
+  "virocon": {
+    "main": true
+  },
+  "virtual-glob": {
+    "main": true
+  },
+  "virtual_dataframe": {
+    "main": true
+  },
+  "virtualengineering": {
+    "main": true
+  },
+  "virtualenv": {
+    "main": true
+  },
+  "virtualenv-clone": {
+    "main": true
+  },
+  "virtualizarr": {
+    "main": true
+  },
+  "virtualship": {
+    "main": true
+  },
+  "virtue": {
+    "main": true
+  },
+  "virtuoso-opensource": {
+    "main": true
+  },
+  "virushostinteractionpredictor": {
+    "main": true
+  },
+  "visan": {
+    "main": true
+  },
+  "viscm": {
+    "main": true
+  },
+  "visdcc": {
+    "main": true
+  },
+  "visdom": {
+    "main": true
+  },
+  "vise": {
+    "main": true
+  },
+  "viser": {
+    "main": true
+  },
+  "visidata": {
+    "main": true
+  },
+  "vision-explanation-methods": {
+    "main": true
+  },
+  "visions": {
+    "main": true
+  },
+  "visionworkbench": {
+    "main": true
+  },
+  "visisipy": {
+    "main": true
+  },
+  "visit_struct": {
+    "main": true
+  },
+  "visitor": {
+    "main": true
+  },
+  "viskores": {
+    "main": true
+  },
+  "visp": {
+    "main": true
+  },
+  "vispy": {
+    "main": true
+  },
+  "visualpic": {
+    "main": true
+  },
+  "visvis": {
+    "main": true
+  },
+  "vit-pytorch": {
+    "main": true
+  },
+  "vitabel": {
+    "main": true
+  },
+  "vitables": {
+    "main": true
+  },
+  "vitaldb": {
+    "main": true
+  },
+  "viu": {
+    "main": true
+  },
+  "viv": {
+    "main": true
+  },
+  "vivid": {
+    "main": true
+  },
+  "vizdet": {
+    "main": true
+  },
+  "vizent": {
+    "main": true
+  },
+  "vizlo": {
+    "main": true
+  },
+  "vizro": {
+    "main": true
+  },
+  "vizro-ai": {
+    "main": true
+  },
+  "vizro-dash-components": {
+    "main": true
+  },
+  "vizro-mcp": {
+    "main": true
+  },
+  "viztracer": {
+    "main": true
+  },
+  "vl-convert": {
+    "main": true
+  },
+  "vl-convert-python": {
+    "main": true
+  },
+  "vlfeat": {
+    "main": true
+  },
+  "vllm": {
+    "main": true
+  },
+  "vmd": {
+    "main": true
+  },
+  "vmd-python": {
+    "main": true
+  },
+  "vmprof": {
+    "main": true
+  },
+  "vmtk": {
+    "main": true
+  },
+  "vmtouch": {
+    "main": true
+  },
+  "vnu-validator": {
+    "main": true
+  },
+  "vobject": {
+    "main": true
+  },
+  "vocalpy": {
+    "main": true
+  },
+  "vodex": {
+    "main": true
+  },
+  "voeventlib": {
+    "main": true
+  },
+  "voici": {
+    "main": true
+  },
+  "voila": {
+    "main": true
+  },
+  "voila-gridstack": {
+    "main": true
+  },
+  "voila-material": {
+    "main": true
+  },
+  "voila-retro": {
+    "main": true
+  },
+  "voila-reveal": {
+    "main": true
+  },
+  "voila-vuetify": {
+    "main": true
+  },
+  "voila_topbar": {
+    "main": true
+  },
+  "vois": {
+    "main": true
+  },
+  "volatile": {
+    "main": true
+  },
+  "volk": {
+    "main": true
+  },
+  "vollseg": {
+    "main": true
+  },
+  "vollseg-napari": {
+    "main": true
+  },
+  "vollseg-napari-mtrack": {
+    "main": true
+  },
+  "volta": {
+    "main": true
+  },
+  "voluptuous": {
+    "main": true
+  },
+  "voluptuous-serialize": {
+    "main": true
+  },
+  "voms": {
+    "main": true
+  },
+  "voms-clients": {
+    "main": true
+  },
   "voms-lsc": {
+    "main": true
+  },
+  "voro": {
+    "main": true
+  },
+  "vose-alias-method": {
+    "main": true
+  },
+  "votca": {
+    "main": true
+  },
+  "vouch-feedstock": {
+    "main": true
+  },
+  "vounwarp": {
+    "main": true
+  },
+  "vowpalwabbit": {
+    "main": true
+  },
+  "voxel51-eta": {
+    "main": true
+  },
+  "voyageai": {
+    "main": true
+  },
+  "vp4jl": {
+    "main": true
+  },
+  "vpl-gpu-rt": {
+    "main": true
+  },
+  "vprtempo": {
+    "main": true
+  },
+  "vpselector": {
+    "main": true
+  },
+  "vpype": {
+    "main": true
+  },
+  "vpython": {
+    "main": true
+  },
+  "vrs": {
+    "main": true
+  },
+  "vs2008_express_vc_python_patch": {
+    "main": true
+  },
+  "vs2008_runtime": {
+    "main": true
+  },
+  "vsc-base": {
+    "main": true
+  },
+  "vsc-install": {
+    "main": true
+  },
+  "vsce": {
+    "main": true
+  },
+  "vscode-go-debug-adapter": {
+    "main": true
+  },
+  "vscode-langservers-extracted": {
+    "main": true
+  },
+  "vscode-spectral-language-server": {
+    "main": true
+  },
+  "vsg": {
+    "main": true
+  },
+  "vsgimgui": {
+    "main": true
+  },
+  "vsgqt": {
+    "main": true
+  },
+  "vsgxchange": {
+    "main": true
+  },
+  "vsketch": {
+    "main": true
+  },
+  "vsts-python-api": {
+    "main": true
+  },
+  "vswhere": {
+    "main": true
+  },
+  "vt-py": {
+    "main": true
+  },
+  "vtable-dumper": {
+    "main": true
+  },
+  "watertap-solvers": {
     "main": true
   }
 }
