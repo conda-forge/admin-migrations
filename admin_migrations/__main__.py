@@ -496,10 +496,6 @@ def main() -> int:
                 continue
 
             # migrate
-            print(
-                "\n# of feedstocks running|n_workers: %s|%s\n" % (len(futs), n_workers),
-                flush=True,
-            )
             if len(futs) >= n_workers:
                 for fut in as_completed(futs):
                     made_api_call, migrations_to_record, migrator_exit_code = (
@@ -515,8 +511,6 @@ def main() -> int:
                     for _m, _branch in migrations_to_record:
                         _m.record(futs[fut], _branch)
 
-                    print("\nfinished %s\n" % futs[fut], flush=True)
-
                     if time.time() - report_time > 10:
                         report_time = time.time()
                         _report_progress(
@@ -525,6 +519,11 @@ def main() -> int:
                             feedstocks,
                             num_pushed_or_apied,
                             start_time,
+                        )
+                        print(
+                            "\n# of feedstocks running|n_workers: %s|%s\n"
+                            % (len(futs), n_workers),
+                            flush=True,
                         )
 
                     break
@@ -554,8 +553,6 @@ def main() -> int:
 
             for _m, _branch in migrations_to_record:
                 _m.record(futs[fut], _branch)
-
-            print("\nfinished %s\n" % futs[fut], flush=True)
 
     _report_progress(
         num_done_prev, num_done, feedstocks, num_pushed_or_apied, start_time
