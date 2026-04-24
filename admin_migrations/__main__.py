@@ -321,14 +321,17 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                             except Exception as e:
                                 worked = False
                                 print("    ERROR:", repr(e), flush=True)
-                                if DEBUG:
-                                    print(
-                                        indent(
-                                            "".join(traceback.format_exception(e)),
-                                            "    ",
+                                print(
+                                    indent(
+                                        "".join(
+                                            traceback.format_exception(
+                                                e, limit=None if DEBUG else -1
+                                            )
                                         ),
-                                        flush=True,
-                                    )
+                                        "    ",
+                                    ),
+                                    flush=True,
+                                )
 
                             if worked:
                                 migrators_to_record.append((m, branch))

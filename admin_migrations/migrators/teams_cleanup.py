@@ -56,6 +56,8 @@ class TeamsCleanup(Migrator):
             return
 
         if self._should_migrate() or "DEBUG_ADMIN_MIGRATIONS" in os.environ:
+            print("    updating team", flush=True)
+
             # we fire off this request and then do not bother
             # to check the return value. the webservices will
             # handle it eventually.
@@ -72,8 +74,6 @@ class TeamsCleanup(Migrator):
                 rsp.raise_for_status()
             except requests.exceptions.ReadTimeout:
                 pass
-
-            print("    updated team", flush=True)
 
             # migration done, make a commit, lots of API calls
             return False, False, True
