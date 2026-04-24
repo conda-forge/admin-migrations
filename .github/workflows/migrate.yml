@@ -67,3 +67,10 @@ jobs:
           AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
           STAGING_BINSTAR_TOKEN: ${{ secrets.STAGING_BINSTAR_TOKEN }}
           CF_WEBSERVICES_TOKEN: ${{ secrets.CF_WEBSERVICES_TOKEN }}
+
+      - name: trigger next job
+        uses: benc-uk/workflow-dispatch@7a027648b88c2413826b6ddd6c76114894dc5ec4 # v1.3.1
+        if: github.ref == 'refs/heads/main' && ! cancelled() && ! failure()
+        with:
+          workflow: migrate
+          token: ${{ secrets.CF_ADMIN_GITHUB_TOKEN }}
