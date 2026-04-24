@@ -325,7 +325,7 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                     indent(
                                         "".join(
                                             traceback.format_exception(
-                                                e, limit=None if DEBUG else -1
+                                                e,
                                             )
                                         ),
                                         "    ",
