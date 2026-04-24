@@ -48,7 +48,7 @@ def _assert_at_0():
         _cfg = yaml.load(fp.read())
     if "schedule" in _cfg["on"]:
         ctab = _cfg["on"]["schedule"][0]["cron"]
-        assert ctab == "0 */2 * * *", "Wrong cron tab %s for GHA!" % ctab
+        assert ctab == "0 * * * *", "Wrong cron tab %s for GHA!" % ctab
 
 
 _assert_at_0()

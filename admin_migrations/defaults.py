@@ -6,18 +6,13 @@ DEBUG = "DEBUG_ADMIN_MIGRATIONS" in os.environ
 
 def _compute_max_migrate_minutes():
     now = datetime.datetime.now(datetime.UTC)
-    if now.hour % 2 == 0:
-        even_hour_offset = 60
-    else:
-        even_hour_offset = 0
-
-    max_mins = even_hour_offset + 60 - now.minute - 6
+    max_mins = 60 - now.minute - 6
 
     if max_mins < 0:
         max_mins = 0
 
-    if max_mins > 110:
-        max_mins = 110
+    if max_mins > 50:
+        max_mins = 50
 
     return max_mins
 
