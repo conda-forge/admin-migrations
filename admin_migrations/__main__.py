@@ -261,7 +261,7 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                     branches = _get_branches(default_branch)
 
                     for m in migrators:
-                        print("\nmigrator %s" % m.__class__.__name__, flush=True)
+                        print("migrator %s" % m.__class__.__name__, flush=True)
 
                         for branch in branches:
                             if branch != default_branch and m.main_branch_only:
@@ -352,9 +352,7 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                 print_buff = True
                                 exit_code = 1
 
-                            print(" ", flush=True)
-
-        print("\nmigration took %s seconds\n\n" % (time.time() - _start), flush=True)
+        print("migration took %s seconds\n" % (time.time() - _start), flush=True)
 
     if print_buff:
         print(buff.getvalue(), flush=True)
