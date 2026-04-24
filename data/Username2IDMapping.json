@@ -21230,16 +21230,4249 @@
   "gitdb2": {
     "main": true
   },
+  "gitea": {
+    "main": true
+  },
+  "gitflow": {
+    "main": true
+  },
+  "gitflow-analytics": {
+    "main": true
+  },
+  "gitflow-studio": {
+    "main": true
+  },
+  "github-action-utils": {
+    "main": true
+  },
+  "github-activity": {
+    "main": true
+  },
+  "github-copilot-sdk": {
+    "main": true
+  },
+  "github-release": {
+    "main": true
+  },
+  "github-ssh-auth": {
+    "main": true
+  },
+  "github-to-sqlite": {
+    "main": true
+  },
+  "github-webhook": {
+    "main": true
+  },
+  "github3.py": {
+    "main": true
+  },
+  "gitignore-parser": {
+    "main": true
+  },
+  "gitlab-ci-ls": {
+    "main": true
+  },
+  "gitlab-runner": {
+    "main": true
+  },
+  "gitlab-runner-api": {
+    "main": true
+  },
+  "gitlint-core": {
+    "main": true
+  },
+  "gitman": {
+    "main": true
+  },
+  "gitmodules": {
+    "main": true
+  },
+  "gitoxide": {
+    "main": true
+  },
+  "gitpython": {
+    "main": true
+  },
+  "gitql": {
+    "main": true
+  },
+  "gitsummary": {
+    "main": true
+  },
+  "gitui": {
+    "main": true
+  },
+  "giturlparse": {
+    "main": true
+  },
+  "giturlparse.py": {
+    "main": true
+  },
+  "givaro": {
+    "main": true
+  },
+  "giza": {
+    "main": true
+  },
+  "gjf": {
+    "main": true
+  },
+  "gklib": {
+    "main": true
+  },
+  "gl2ps": {
+    "main": true
+  },
+  "glab": {
+    "main": true
+  },
+  "glacier": {
+    "main": true
+  },
+  "glacier_lengths": {
+    "main": true
+  },
+  "glad": {
+    "main": true
+  },
+  "gladier": {
+    "main": true
+  },
+  "gladier-tools": {
+    "main": true
+  },
+  "gladtex": {
+    "main": true
+  },
+  "glaes": {
+    "main": true
+  },
+  "glances": {
+    "main": true
+  },
+  "glasbey": {
+    "main": true
+  },
+  "glasflow": {
+    "main": true
+  },
+  "glass": {
+    "main": true
+  },
+  "glasspy": {
+    "main": true
+  },
+  "glcontext": {
+    "main": true
+  },
+  "gleam": {
+    "main": true
+  },
+  "glew": {
+    "main": true
+  },
+  "glfw": {
+    "main": true
+  },
+  "glib": {
+    "main": true
+  },
+  "glib-networking": {
+    "main": true
+  },
+  "glibmm": {
+    "main": true
+  },
+  "gliderpy": {
+    "main": true
+  },
+  "glidertest": {
+    "main": true
+  },
+  "glidertools": {
+    "main": true
+  },
+  "glimix-core": {
+    "main": true
+  },
+  "glimpse": {
+    "main": true
+  },
+  "gliner": {
+    "main": true
+  },
+  "glinfo-rs": {
+    "main": true
+  },
+  "glint": {
+    "main": true
+  },
+  "glm": {
+    "main": true
+  },
+  "glmnet": {
+    "main": true
+  },
+  "glmnet_py": {
+    "main": true
+  },
+  "glob2": {
+    "main": true
+  },
+  "global": {
+    "main": true
+  },
+  "global-chem": {
+    "main": true
+  },
+  "globalign": {
+    "main": true
+  },
+  "globalwarmingpotentials": {
+    "main": true
+  },
+  "globcat": {
+    "main": true
+  },
+  "globre": {
+    "main": true
+  },
+  "globus-automate-client": {
+    "main": true
+  },
+  "globus-cli": {
+    "main": true
+  },
+  "globus-compute-common-split": {
+    "main": true
+  },
+  "globus-compute-endpoint": {
+    "main": true
+  },
+  "globus-compute-sdk": {
+    "main": true
+  },
+  "globus-identity-mapping": {
+    "main": true
+  },
+  "globus-nexus-client": {
+    "main": true
+  },
+  "globus-sdk": {
+    "main": true
+  },
+  "glodap": {
+    "main": true
+  },
+  "gloe": {
+    "main": true
+  },
+  "glog": {
+    "main": true
+  },
+  "glom": {
+    "main": true
+  },
+  "glomap": {
+    "main": true
+  },
+  "glow": {
+    "main": true
+  },
+  "glow-md": {
+    "main": true
+  },
+  "glpk": {
+    "main": true
+  },
+  "glslang": {
+    "main": true
+  },
+  "gltflib": {
+    "main": true
+  },
+  "glue-astronomy": {
+    "main": true
+  },
+  "glue-core": {
+    "main": true
+  },
+  "glue-geospatial": {
+    "main": true
+  },
+  "glue-jupyter": {
+    "main": true
+  },
+  "glue-medical": {
+    "main": true
+  },
+  "glue-plotly": {
+    "main": true
+  },
+  "glue-qt": {
+    "main": true
+  },
+  "glue-samp": {
+    "main": true
+  },
+  "glue-vispy-viewers": {
+    "main": true
+  },
+  "glue-wwt": {
+    "main": true
+  },
+  "gluepyter": {
+    "main": true
+  },
+  "glueviz": {
+    "main": true
+  },
+  "glum": {
+    "main": true
+  },
+  "gluoncv": {
+    "main": true
+  },
+  "gluonts": {
+    "main": true
+  },
+  "glymur": {
+    "main": true
+  },
+  "glyphx": {
+    "main": true
+  },
+  "gmailsorter": {
+    "main": true
+  },
+  "gmaps": {
+    "main": true
+  },
+  "gmatelastic": {
+    "main": true
+  },
+  "gmatelastoplastic": {
+    "main": true
+  },
+  "gmatelastoplasticfinitestrainsimo": {
+    "main": true
+  },
+  "gmatelastoplasticqpot": {
+    "main": true
+  },
+  "gmatnonlinearelastic": {
+    "main": true
+  },
+  "gmattensor": {
+    "main": true
+  },
+  "gmm": {
+    "main": true
+  },
+  "gmmx": {
+    "main": true
+  },
+  "gmp": {
+    "main": true
+  },
+  "gmpacket": {
+    "main": true
+  },
+  "gmprocess": {
+    "main": true
+  },
+  "gmpxxll": {
+    "main": true
+  },
+  "gmpxxyy": {
+    "main": true
+  },
+  "gmpy2": {
+    "main": true
+  },
+  "gmpyinfr_amqp": {
+    "main": true
+  },
+  "gmpyinfr_dbutils": {
+    "main": true
+  },
+  "gmpyinfr_log": {
+    "main": true
+  },
+  "gmpyinfr_telegram": {
+    "main": true
+  },
+  "gms_preprocessing": {
+    "main": true
+  },
+  "gmsh": {
+    "main": true
+  },
+  "gmshmodel": {
+    "main": true
+  },
+  "gmso": {
+    "main": true
+  },
+  "gmt": {
+    "main": true
+  },
+  "gmx_mmpbsa": {
+    "main": true
+  },
+  "gn": {
+    "main": true
+  },
+  "gnome-themes-standard": {
+    "main": true
+  },
+  "gnss-sdr": {
+    "main": true
+  },
+  "gnu-units": {
+    "main": true
+  },
+  "gnuastro": {
+    "main": true
+  },
+  "gnucobol": {
+    "main": true
+  },
+  "gnuconfig": {
+    "main": true
+  },
+  "gnumpy": {
+    "main": true
+  },
+  "gnupg": {
+    "main": true
+  },
+  "gnupg-py": {
+    "main": true
+  },
+  "gnuplot": {
+    "main": true
+  },
+  "gnuradio": {
+    "main": true
+  },
+  "gnuradio-funcube": {
+    "main": true
+  },
+  "gnuradio-iqbalance": {
+    "main": true
+  },
+  "gnuradio-iridium": {
+    "main": true
+  },
+  "gnuradio-m2k": {
+    "main": true
+  },
+  "gnuradio-osmosdr": {
+    "main": true
+  },
+  "gnuradio-satellites": {
+    "main": true
+  },
+  "gnureadline": {
+    "main": true
+  },
+  "gnutls": {
+    "main": true
+  },
+  "go": {
+    "main": true
+  },
+  "go-activation": {
+    "main": true
+  },
+  "go-archiver": {
+    "main": true
+  },
+  "go-bindata": {
+    "main": true
+  },
+  "go-bindata-assetfs": {
+    "main": true
+  },
+  "go-ccat": {
+    "main": true
+  },
+  "go-cockroach": {
+    "main": true
+  },
+  "go-dep": {
+    "main": true
+  },
+  "go-eclint": {
+    "main": true
+  },
+  "go-ghq": {
+    "main": true
+  },
+  "go-git": {
+    "main": true
+  },
+  "go-glide": {
+    "main": true
+  },
+  "go-gox": {
+    "main": true
+  },
+  "go-grip": {
+    "main": true
+  },
+  "go-gum": {
+    "main": true
+  },
+  "go-gvisor": {
+    "main": true
+  },
+  "go-jsonnet": {
+    "main": true
+  },
+  "go-lab": {
+    "main": true
+  },
+  "go-licenses": {
+    "main": true
+  },
+  "go-md2man": {
+    "main": true
+  },
+  "go-shfmt": {
+    "main": true
+  },
+  "go-sops": {
+    "main": true
+  },
+  "go-spatial": {
+    "main": true
+  },
+  "go-spr": {
+    "main": true
+  },
+  "go-sqlcmd": {
+    "main": true
+  },
+  "go-task": {
+    "main": true
+  },
+  "go-terraform-docs": {
+    "main": true
+  },
+  "go-tools": {
+    "main": true
+  },
+  "go-waitforit": {
+    "main": true
+  },
+  "go-yq": {
+    "main": true
+  },
+  "go2": {
+    "main": true
+  },
+  "go4": {
+    "main": true
+  },
+  "goaccess": {
+    "main": true
+  },
+  "goatools": {
+    "main": true
+  },
+  "goawk": {
+    "main": true
+  },
+  "gobject-introspection": {
+    "main": true
+  },
+  "gocart": {
+    "main": true
+  },
+  "gocommands": {
+    "main": true
+  },
+  "gocryptfs": {
+    "main": true
+  },
+  "godale": {
+    "main": true
+  },
+  "godoctor": {
+    "main": true
+  },
+  "godu": {
+    "main": true
+  },
+  "goes2go": {
+    "main": true
+  },
+  "gofit": {
+    "main": true
+  },
+  "goftests": {
+    "main": true
+  },
+  "gofumpt": {
+    "main": true
+  },
+  "goimports-reviser": {
+    "main": true
+  },
+  "gojq": {
+    "main": true
+  },
+  "golangci-lint": {
+    "main": true
+  },
+  "golangci-lint-langserver": {
+    "main": true
+  },
+  "golines": {
+    "main": true
+  },
+  "gomi": {
+    "main": true
+  },
+  "gomodifytags": {
+    "main": true
+  },
+  "goodtables": {
+    "main": true
+  },
+  "goodtables-pandas-py": {
+    "main": true
+  },
+  "goodvibes": {
+    "main": true
+  },
+  "gooey": {
+    "main": true
+  },
+  "goofit-split": {
+    "main": true
+  },
+  "google-adk": {
+    "main": true
+  },
+  "google-ads": {
+    "main": true
+  },
+  "google-ai-generativelanguage": {
+    "main": true
+  },
+  "google-analytics-admin": {
+    "main": true
+  },
+  "google-api-core": {
+    "main": true
+  },
+  "google-api-python-client": {
+    "main": true
+  },
+  "google-apitools": {
+    "main": true
+  },
+  "google-auth": {
+    "main": true
+  },
+  "google-auth-httplib2": {
+    "main": true
+  },
+  "google-auth-oauthlib": {
+    "main": true
+  },
+  "google-cloud-aiplatform": {
+    "main": true
+  },
+  "google-cloud-alloydb": {
+    "main": true
+  },
+  "google-cloud-appengine-logging": {
+    "main": true
+  },
+  "google-cloud-artifact-registry": {
+    "main": true
+  },
+  "google-cloud-audit-log": {
+    "main": true
+  },
+  "google-cloud-automl": {
+    "main": true
+  },
+  "google-cloud-batch": {
+    "main": true
+  },
+  "google-cloud-bigquery": {
+    "main": true
+  },
+  "google-cloud-bigquery-connection": {
+    "main": true
+  },
+  "google-cloud-bigquery-datatransfer": {
+    "main": true
+  },
+  "google-cloud-bigquery-storage": {
+    "main": true
+  },
+  "google-cloud-bigtable": {
+    "main": true
+  },
+  "google-cloud-billing": {
+    "main": true
+  },
+  "google-cloud-billing-budgets": {
+    "main": true
+  },
+  "google-cloud-build": {
+    "main": true
+  },
+  "google-cloud-compute": {
+    "main": true
+  },
+  "google-cloud-container": {
+    "main": true
+  },
+  "google-cloud-containeranalysis": {
+    "main": true
+  },
+  "google-cloud-core": {
+    "main": true
+  },
+  "google-cloud-cpp": {
+    "main": true
+  },
+  "google-cloud-cpp-ai": {
+    "main": true
+  },
+  "google-cloud-cpp-bigquery": {
+    "main": true
+  },
+  "google-cloud-cpp-compute": {
+    "main": true
+  },
+  "google-cloud-cpp-core": {
+    "main": true
+  },
+  "google-cloud-datacatalog": {
+    "main": true
+  },
+  "google-cloud-dataflow-client": {
+    "main": true
+  },
+  "google-cloud-dataform": {
+    "main": true
+  },
+  "google-cloud-dataplex": {
+    "main": true
+  },
+  "google-cloud-dataproc": {
+    "main": true
+  },
+  "google-cloud-dataproc-metastore": {
+    "main": true
+  },
+  "google-cloud-datastore": {
+    "main": true
+  },
+  "google-cloud-dlp": {
+    "main": true
+  },
+  "google-cloud-dns": {
+    "main": true
+  },
+  "google-cloud-documentai": {
+    "main": true
+  },
+  "google-cloud-error-reporting": {
+    "main": true
+  },
+  "google-cloud-firestore": {
+    "main": true
+  },
+  "google-cloud-functions": {
+    "main": true
+  },
+  "google-cloud-iam": {
+    "main": true
+  },
+  "google-cloud-iot": {
+    "main": true
+  },
+  "google-cloud-kms": {
+    "main": true
+  },
+  "google-cloud-language": {
+    "main": true
+  },
+  "google-cloud-life-sciences": {
+    "main": true
+  },
+  "google-cloud-logging": {
+    "main": true
+  },
+  "google-cloud-managedkafka": {
+    "main": true
+  },
+  "google-cloud-memcache": {
+    "main": true
+  },
+  "google-cloud-monitoring": {
+    "main": true
+  },
+  "google-cloud-monitoring-dashboards": {
+    "main": true
+  },
+  "google-cloud-ndb": {
+    "main": true
+  },
+  "google-cloud-orchestration-airflow": {
+    "main": true
+  },
+  "google-cloud-os-login": {
+    "main": true
+  },
+  "google-cloud-phishing-protection": {
+    "main": true
+  },
+  "google-cloud-pubsub": {
+    "main": true
+  },
+  "google-cloud-pubsublite": {
+    "main": true
+  },
+  "google-cloud-recommendations-ai": {
+    "main": true
+  },
+  "google-cloud-recommender": {
+    "main": true
+  },
+  "google-cloud-redis": {
+    "main": true
+  },
+  "google-cloud-resource-manager": {
+    "main": true
+  },
+  "google-cloud-run": {
+    "main": true
+  },
+  "google-cloud-runtimeconfig": {
+    "main": true
+  },
+  "google-cloud-scheduler": {
+    "main": true
+  },
+  "google-cloud-sdk": {
+    "main": true
+  },
+  "google-cloud-secret-manager": {
+    "main": true
+  },
+  "google-cloud-securitycenter": {
+    "main": true
+  },
+  "google-cloud-spanner": {
+    "main": true
+  },
+  "google-cloud-speech": {
+    "main": true
+  },
+  "google-cloud-storage": {
+    "main": true
+  },
+  "google-cloud-storage-control": {
+    "main": true
+  },
+  "google-cloud-storage-transfer": {
+    "main": true
+  },
+  "google-cloud-talent": {
+    "main": true
+  },
+  "google-cloud-tasks": {
+    "main": true
+  },
+  "google-cloud-texttospeech": {
+    "main": true
+  },
+  "google-cloud-trace": {
+    "main": true
+  },
+  "google-cloud-translate": {
+    "main": true
+  },
+  "google-cloud-videointelligence": {
+    "main": true
+  },
+  "google-cloud-vision": {
+    "main": true
+  },
+  "google-cloud-webrisk": {
+    "main": true
+  },
+  "google-cloud-websecurityscanner": {
+    "main": true
+  },
+  "google-cloud-workflows": {
+    "main": true
+  },
+  "google-colab": {
+    "main": true
+  },
+  "google-compute-engine": {
+    "main": true
+  },
+  "google-crc32c": {
+    "main": true
+  },
+  "google-drive": {
+    "main": true
+  },
+  "google-genai": {
+    "main": true
+  },
+  "google-generativeai": {
+    "main": true
+  },
+  "google-geo-type": {
+    "main": true
+  },
+  "google-java-format": {
+    "main": true
+  },
+  "google-maps-routing": {
+    "main": true
+  },
+  "google-pasta": {
+    "main": true
+  },
+  "google-re2": {
+    "main": true
+  },
+  "google-re2-stubs": {
+    "main": true
+  },
+  "google-reauth": {
+    "main": true
+  },
+  "google-resumable-media": {
+    "main": true
+  },
+  "googleapis-common-protos": {
+    "main": true
+  },
+  "googledrivedownloader": {
+    "main": true
+  },
+  "googlemaps": {
+    "main": true
+  },
+  "googlesearch": {
+    "main": true
+  },
+  "googletrans": {
+    "main": true
+  },
+  "goosebib": {
+    "main": true
+  },
+  "gooseepm-split": {
+    "main": true
+  },
+  "gooseeye": {
+    "main": true
+  },
+  "goosefem": {
+    "main": true
+  },
+  "goosehdf5": {
+    "main": true
+  },
+  "goosempl": {
+    "main": true
+  },
+  "gooseslurm": {
+    "main": true
+  },
+  "gopass": {
+    "main": true
+  },
+  "gopherjs": {
+    "main": true
+  },
+  "gopls": {
+    "main": true
+  },
+  "gordias": {
+    "main": true
+  },
+  "goreleaser": {
+    "main": true
+  },
+  "gorilla": {
+    "main": true
+  },
+  "gorilla-cli": {
+    "main": true
+  },
+  "gospel": {
+    "main": true
+  },
+  "gosu": {
+    "main": true
+  },
+  "gotenberg-client": {
+    "main": true
+  },
+  "gotm": {
+    "main": true
+  },
+  "gotop": {
+    "main": true
+  },
+  "gotran": {
+    "main": true
+  },
+  "gotranx": {
+    "main": true
+  },
+  "gotrue": {
+    "main": true
+  },
+  "gp-tempest": {
+    "main": true
+  },
+  "gpaw": {
+    "main": true
+  },
+  "gpaw-data": {
+    "main": true
+  },
+  "gpcam": {
+    "main": true
+  },
+  "gperf": {
+    "main": true
+  },
+  "gperftools": {
+    "main": true
+  },
+  "gpflow": {
+    "main": true
+  },
+  "gpg-tui": {
+    "main": true
+  },
+  "gpgme": {
+    "main": true
+  },
+  "gpi": {
+    "main": true
+  },
+  "gpi_core": {
+    "main": true
+  },
+  "gpjax": {
+    "main": true
+  },
+  "gpkgstatus": {
+    "main": true
+  },
+  "gplately": {
+    "main": true
+  },
+  "gplearn": {
+    "main": true
+  },
+  "gpm-api": {
+    "main": true
+  },
+  "gpp-client": {
+    "main": true
+  },
+  "gprof2dot": {
+    "main": true
+  },
+  "gps-timemachine": {
+    "main": true
+  },
+  "gpsd": {
+    "main": true
+  },
+  "gpstime": {
+    "main": true
+  },
+  "gptcache": {
+    "main": true
+  },
+  "gptfdisk": {
+    "main": true
+  },
+  "gptools": {
+    "main": true
+  },
+  "gpustat": {
+    "main": true
+  },
+  "gputil": {
+    "main": true
+  },
+  "gputools": {
+    "main": true
+  },
+  "gpx": {
+    "main": true
+  },
+  "gpxpy": {
+    "main": true
+  },
+  "gpy": {
+    "main": true
+  },
+  "gpyconform": {
+    "main": true
+  },
+  "gpyopt": {
+    "main": true
+  },
+  "gpyreg": {
+    "main": true
+  },
+  "gpytorch": {
+    "main": true
+  },
+  "gql": {
+    "main": true
+  },
+  "gqrx": {
+    "main": true
+  },
+  "graalpy": {
+    "main": true
+  },
+  "grabber-ift": {
+    "main": true
+  },
+  "grace-tensorpotential": {
+    "main": true
+  },
+  "gracedb-sdk": {
+    "main": true
+  },
+  "grad-cam": {
+    "main": true
+  },
+  "gradescope-utils": {
+    "main": true
+  },
+  "gradient-agreement-filtering": {
+    "main": true
+  },
+  "gradient-aware-harmonisation": {
+    "main": true
+  },
+  "gradientai": {
+    "main": true
+  },
+  "gradio": {
+    "main": true
+  },
+  "gradio-client": {
+    "main": true
+  },
+  "gradle": {
+    "main": true
+  },
+  "gradle-language-server": {
+    "main": true
+  },
+  "gradsflow": {
+    "main": true
+  },
+  "grafana-client": {
+    "main": true
+  },
+  "grafana_api": {
+    "main": true
+  },
+  "grafeas": {
+    "main": true
+  },
+  "graiax-silkcoder": {
+    "main": true
+  },
+  "grain": {
+    "main": true
+  },
+  "grakel": {
+    "main": true
+  },
+  "grand": {
+    "main": true
+  },
+  "grandalf": {
+    "main": true
+  },
+  "granian": {
+    "main": true
+  },
   "granted": {
+    "main": true
+  },
+  "granular": {
+    "main": true
+  },
+  "grape": {
+    "main": true
+  },
+  "grapes": {
+    "main": true
+  },
+  "graph": {
+    "main": true
+  },
+  "graph-pes": {
+    "main": true
+  },
+  "graph-tool": {
+    "main": true
+  },
+  "grapharray": {
+    "main": true
+  },
+  "graphblas": {
+    "main": true
+  },
+  "graphblas-algorithms": {
+    "main": true
+  },
+  "graphbrain": {
+    "main": true
+  },
+  "graphdatascience": {
+    "main": true
+  },
+  "grapheme": {
+    "main": true
+  },
+  "graphemeu": {
+    "main": true
+  },
+  "graphene": {
+    "main": true
+  },
+  "graphene-directives": {
+    "main": true
+  },
+  "graphene-django": {
+    "main": true
+  },
+  "graphene-federation": {
+    "main": true
+  },
+  "graphene-mongo": {
+    "main": true
+  },
+  "graphene-sqlalchemy": {
+    "main": true
+  },
+  "graphene-tornado": {
+    "main": true
+  },
+  "graphframes": {
+    "main": true
+  },
+  "graphicsmagick": {
+    "main": true
+  },
+  "graphistry": {
+    "main": true
+  },
+  "graphite2": {
+    "main": true
+  },
+  "graphium": {
+    "main": true
+  },
+  "graphlib-backport": {
+    "main": true
+  },
+  "graphormer-pretrained": {
+    "main": true
+  },
+  "graphpro": {
+    "main": true
+  },
+  "graphql-core": {
+    "main": true
+  },
+  "graphql-language-service-cli": {
+    "main": true
+  },
+  "graphql-relay": {
+    "main": true
+  },
+  "graphql-server-core": {
+    "main": true
+  },
+  "graphql-ws": {
+    "main": true
+  },
+  "graphrag": {
+    "main": true
+  },
+  "graphriccicurvature": {
+    "main": true
+  },
+  "graphtools": {
+    "main": true
+  },
+  "graphvite": {
+    "main": true
+  },
+  "graphviz": {
+    "main": true
+  },
+  "graphviz-anywidget": {
+    "main": true
+  },
+  "graphviz2drawio": {
+    "main": true
+  },
+  "graphysio": {
+    "main": true
+  },
+  "graspologic": {
+    "main": true
+  },
+  "graspologic-native": {
+    "main": true
+  },
+  "graspy": {
+    "main": true
+  },
+  "grass": {
+    "main": true
+  },
+  "grave": {
+    "main": true
+  },
+  "gravelamps": {
+    "main": true
+  },
+  "gravis": {
+    "main": true
+  },
+  "gravitools": {
+    "main": true
+  },
+  "gravity-toolkit": {
+    "main": true
+  },
+  "graylint": {
+    "main": true
+  },
+  "graypy": {
+    "main": true
+  },
+  "grayskull": {
+    "main": true
+  },
+  "grblogtools": {
+    "main": true
+  },
+  "great-expectations": {
+    "main": true
+  },
+  "great_tables": {
+    "main": true
+  },
+  "greedy": {
+    "main": true
+  },
+  "greedyreg": {
+    "main": true
+  },
+  "green": {
+    "main": true
+  },
+  "greenback": {
+    "main": true
+  },
+  "greenery": {
+    "main": true
+  },
+  "greenlearning": {
+    "main": true
+  },
+  "greenlet": {
+    "main": true
+  },
+  "greenletio": {
     "main": true
   },
   "gregor": {
     "main": true
   },
+  "gremlinpython": {
+    "main": true
+  },
+  "grep": {
+    "main": true
+  },
+  "grep-ast": {
+    "main": true
+  },
+  "grequests": {
+    "main": true
+  },
+  "grex": {
+    "main": true
+  },
+  "greykite": {
+    "main": true
+  },
+  "grheat": {
+    "main": true
+  },
+  "grib2io": {
+    "main": true
+  },
+  "grib2io-interp": {
+    "main": true
+  },
+  "grid-strategy": {
+    "main": true
+  },
+  "griddataformats": {
+    "main": true
+  },
+  "gridded": {
+    "main": true
+  },
+  "gridemissions": {
+    "main": true
+  },
+  "gridfill": {
+    "main": true
+  },
+  "gridgen": {
+    "main": true
+  },
+  "gridgeo": {
+    "main": true
+  },
+  "gridit": {
+    "main": true
+  },
+  "gridmap": {
+    "main": true
+  },
+  "gridmarthe": {
+    "main": true
+  },
+  "gridmet_bmi": {
+    "main": true
+  },
+  "gridspec": {
+    "main": true
+  },
+  "gridtest": {
+    "main": true
+  },
+  "gridtk": {
+    "main": true
+  },
+  "gridutils": {
+    "main": true
+  },
+  "griffe": {
+    "main": true
+  },
+  "griffe-inherited-docstrings": {
+    "main": true
+  },
+  "griffe-pydantic": {
+    "main": true
+  },
+  "grimoirelab-toolkit": {
+    "main": true
+  },
+  "grimp": {
+    "main": true
+  },
+  "grin": {
+    "main": true
+  },
+  "griottes": {
+    "main": true
+  },
+  "grip": {
+    "main": true
+  },
+  "grip-nulling": {
+    "main": true
+  },
+  "grits": {
+    "main": true
+  },
+  "grizzly": {
+    "main": true
+  },
+  "groclient": {
+    "main": true
+  },
+  "groff": {
+    "main": true
+  },
+  "gromacs": {
+    "main": true
+  },
+  "gromacswrapper": {
+    "main": true
+  },
+  "gron": {
+    "main": true
+  },
+  "groovy": {
+    "main": true
+  },
+  "groovy-python": {
+    "main": true
+  },
+  "groq": {
+    "main": true
+  },
+  "groundingdino-py": {
+    "main": true
+  },
+  "grouper": {
+    "main": true
+  },
+  "grove": {
+    "main": true
+  },
+  "grpc-bazel-rules": {
+    "main": true
+  },
+  "grpc-cpp": {
+    "main": true
+  },
+  "grpc-google-iam-v1": {
+    "main": true
+  },
+  "grpc-interceptor": {
+    "main": true
+  },
+  "grpc-stubs": {
+    "main": true
+  },
+  "grpc_java_plugin": {
+    "main": true
+  },
+  "grpcio-gcp": {
+    "main": true
+  },
+  "grpcio-health-checking": {
+    "main": true
+  },
+  "grpcio-reflection": {
+    "main": true
+  },
+  "grpcio-status": {
+    "main": true
+  },
+  "grpclib": {
+    "main": true
+  },
+  "grpcui": {
+    "main": true
+  },
+  "grpcurl": {
+    "main": true
+  },
+  "grplot": {
+    "main": true
+  },
+  "grunnur": {
+    "main": true
+  },
+  "grunt": {
+    "main": true
+  },
+  "gruut": {
+    "main": true
+  },
+  "gruut-ipa": {
+    "main": true
+  },
+  "gruut-lang-en": {
+    "main": true
+  },
+  "grwham": {
+    "main": true
+  },
+  "gryds": {
+    "main": true
+  },
+  "grype": {
+    "main": true
+  },
+  "gs-quant": {
+    "main": true
+  },
+  "gsbatch": {
+    "main": true
+  },
+  "gsd": {
+    "main": true
+  },
+  "gsee": {
+    "main": true
+  },
+  "gsettings-desktop-schemas": {
+    "main": true
+  },
+  "gsffile": {
+    "main": true
+  },
+  "gsheetsdb": {
+    "main": true
+  },
+  "gshhg-gmt": {
+    "main": true
+  },
+  "gsl": {
+    "main": true
+  },
+  "gsl-lite": {
+    "main": true
+  },
+  "gslides": {
+    "main": true
+  },
+  "gsoap": {
+    "main": true
+  },
+  "gsplat": {
+    "main": true
+  },
+  "gspread": {
+    "main": true
+  },
+  "gspread-dataframe": {
+    "main": true
+  },
+  "gspread-pandas": {
+    "main": true
+  },
+  "gsshapy": {
+    "main": true
+  },
+  "gsshapyorm": {
+    "main": true
+  },
+  "gst-libav": {
+    "main": true
+  },
+  "gst-orc": {
+    "main": true
+  },
+  "gst-plugins-bad": {
+    "main": true
+  },
+  "gst-plugins-ugly": {
+    "main": true
+  },
+  "gst-python": {
+    "main": true
+  },
+  "gst-rtsp-server": {
+    "main": true
+  },
+  "gstlal": {
+    "main": true
+  },
+  "gstlal-burst": {
+    "main": true
+  },
+  "gstlal-calibration": {
+    "main": true
+  },
+  "gstlal-inspiral": {
+    "main": true
+  },
+  "gstlal-ugly": {
+    "main": true
+  },
+  "gstools": {
+    "main": true
+  },
+  "gstools-cython": {
+    "main": true
+  },
+  "gstreamer": {
+    "main": true
+  },
+  "gstreamer-orc": {
+    "main": true
+  },
+  "gsutil": {
+    "main": true
+  },
+  "gsw": {
+    "main": true
+  },
+  "gsw-xarray": {
+    "main": true
+  },
+  "gtabview": {
+    "main": true
+  },
+  "gtdb_validation_tk": {
+    "main": true
+  },
+  "gtdownloader": {
+    "main": true
+  },
+  "gtest": {
+    "main": true
+  },
+  "gtk-4-fortran": {
+    "main": true
+  },
+  "gtk2": {
+    "main": true
+  },
+  "gtk3": {
+    "main": true
+  },
+  "gtk4": {
+    "main": true
+  },
+  "gtk4-layer-shell": {
+    "main": true
+  },
+  "gtkmm": {
+    "main": true
+  },
+  "gtksourceview": {
+    "main": true
+  },
+  "gtkwave": {
+    "main": true
+  },
+  "gto": {
+    "main": true
+  },
+  "gtop": {
+    "main": true
+  },
+  "gts": {
+    "main": true
+  },
+  "gtsam": {
+    "main": true
+  },
+  "gtsjs": {
+    "main": true
+  },
+  "gtts": {
+    "main": true
+  },
+  "guacamol": {
+    "main": true
+  },
+  "guanine-crystal-analysis": {
+    "main": true
+  },
+  "guard-core": {
+    "main": true
+  },
+  "guardian": {
+    "main": true
+  },
+  "gudhi": {
+    "main": true
+  },
+  "gufe": {
+    "main": true
+  },
+  "guidance": {
+    "main": true
+  },
+  "guidance-stitch": {
+    "main": true
+  },
+  "guidata": {
+    "main": true
+  },
+  "guietta": {
+    "main": true
+  },
+  "guile": {
+    "main": true
+  },
+  "guiqwt": {
+    "main": true
+  },
+  "gulp": {
+    "main": true
+  },
+  "gulp-cli": {
+    "main": true
+  },
+  "gulp-util": {
+    "main": true
+  },
+  "gulpio": {
+    "main": true
+  },
+  "gunicorn": {
+    "main": true
+  },
+  "gunpowder": {
+    "main": true
+  },
+  "guppy3": {
+    "main": true
+  },
+  "gurobi-logtools": {
+    "main": true
+  },
+  "gvproxy": {
+    "main": true
+  },
+  "gw-dsl-parser": {
+    "main": true
+  },
+  "gw-sklearn-xarray": {
+    "main": true
+  },
+  "gw_eccentricity": {
+    "main": true
+  },
+  "gwcelery": {
+    "main": true
+  },
+  "gwcosmo": {
+    "main": true
+  },
+  "gwcs": {
+    "main": true
+  },
+  "gwdatafind": {
+    "main": true
+  },
+  "gwdetchar": {
+    "main": true
+  },
+  "gwemopt": {
+    "main": true
+  },
+  "gwframe": {
+    "main": true
+  },
+  "gwinc": {
+    "main": true
+  },
+  "gwlearn": {
+    "main": true
+  },
+  "gwmemory": {
+    "main": true
+  },
+  "gwollum": {
+    "main": true
+  },
+  "gwosc": {
+    "main": true
+  },
+  "gwpopulation": {
+    "main": true
+  },
+  "gwpopulation-pipe": {
+    "main": true
+  },
+  "gwpy": {
+    "main": true
+  },
+  "gws": {
+    "main": true
+  },
+  "gwsumm": {
+    "main": true
+  },
+  "gwsurrogate": {
+    "main": true
+  },
+  "gwtc-tools": {
+    "main": true
+  },
+  "gwtc_analysis": {
+    "main": true
+  },
+  "gwtools": {
+    "main": true
+  },
+  "gwtrigfind": {
+    "main": true
+  },
+  "gwvet": {
+    "main": true
+  },
+  "gwyfile": {
+    "main": true
+  },
+  "gym-aloha": {
+    "main": true
+  },
+  "gym-ignition-models": {
+    "main": true
+  },
+  "gym-notices": {
+    "main": true
+  },
+  "gym-pusht": {
+    "main": true
+  },
+  "gym-saturation": {
+    "main": true
+  },
+  "gym-xarm": {
+    "main": true
+  },
+  "gymnasium": {
+    "main": true
+  },
+  "gymnasium-notices": {
+    "main": true
+  },
+  "gymnasium-robotics": {
+    "main": true
+  },
+  "gyptis": {
+    "main": true
+  },
+  "gz-cmake": {
+    "main": true
+  },
+  "gz-common": {
+    "main": true
+  },
+  "gz-fuel-tools": {
+    "main": true
+  },
+  "gz-gui": {
+    "main": true
+  },
+  "gz-launch": {
+    "main": true
+  },
+  "gz-math": {
+    "main": true
+  },
+  "gz-msgs": {
+    "main": true
+  },
+  "gz-physics": {
+    "main": true
+  },
+  "gz-plugin": {
+    "main": true
+  },
+  "gz-rendering": {
+    "main": true
+  },
+  "gz-sensors": {
+    "main": true
+  },
+  "gz-sim": {
+    "main": true
+  },
+  "gz-sim-yarp-plugins": {
+    "main": true
+  },
+  "gz-tools2": {
+    "main": true
+  },
+  "gz-transport": {
+    "main": true
+  },
+  "gz-utils": {
+    "main": true
+  },
+  "gzip": {
+    "main": true
+  },
+  "h11": {
+    "main": true
+  },
+  "h2": {
+    "main": true
+  },
+  "h2mm-c": {
+    "main": true
+  },
+  "h2o-lightwave-web": {
+    "main": true
+  },
+  "h2o-py": {
+    "main": true
+  },
+  "h2o-wave": {
+    "main": true
+  },
+  "h3": {
+    "main": true
+  },
+  "h3-py": {
+    "main": true
+  },
+  "h3-pyspark": {
+    "main": true
+  },
+  "h3pandas": {
+    "main": true
+  },
+  "h3ronpy": {
+    "main": true
+  },
+  "h3spark": {
+    "main": true
+  },
+  "h5coro": {
+    "main": true
+  },
+  "h5cpp": {
+    "main": true
+  },
+  "h5glance": {
+    "main": true
+  },
+  "h5grove": {
+    "main": true
+  },
+  "h5io": {
+    "main": true
+  },
+  "h5io_browser": {
+    "main": true
+  },
+  "h5netcdf": {
+    "main": true
+  },
+  "h5pickle": {
+    "main": true
+  },
+  "h5pulsar": {
+    "main": true
+  },
+  "h5py": {
+    "main": true
+  },
+  "h5pyd": {
+    "main": true
+  },
+  "h5pywrappers": {
+    "main": true
+  },
+  "h5utils": {
+    "main": true
+  },
+  "habanero": {
+    "main": true
+  },
+  "hachoir-subfile": {
+    "main": true
+  },
+  "hackernote": {
+    "main": true
+  },
+  "hackrf": {
+    "main": true
+  },
+  "hadoop-test-cluster": {
+    "main": true
+  },
+  "haesleinhuepf-pyqode.core": {
+    "main": true
+  },
+  "haesleinhuepf-pyqode.python": {
+    "main": true
+  },
+  "hagerstrand": {
+    "main": true
+  },
+  "halide": {
+    "main": true
+  },
+  "halideir": {
+    "main": true
+  },
+  "hallelujah": {
+    "main": true
+  },
+  "halo": {
+    "main": true
+  },
+  "halotools": {
+    "main": true
+  },
+  "hamilflow": {
+    "main": true
+  },
+  "hamlib": {
+    "main": true
+  },
+  "hammer": {
+    "main": true
+  },
+  "handcalcs": {
+    "main": true
+  },
+  "handout": {
+    "main": true
+  },
+  "handy-archives": {
+    "main": true
+  },
+  "hangar": {
+    "main": true
+  },
+  "hankel": {
+    "main": true
+  },
+  "hanta": {
+    "main": true
+  },
+  "hapi": {
+    "main": true
+  },
+  "hapiclient": {
+    "main": true
+  },
+  "happi": {
+    "main": true
+  },
+  "happly": {
+    "main": true
+  },
+  "happy": {
+    "main": true
+  },
+  "happybase": {
+    "main": true
+  },
+  "happymath": {
+    "main": true
+  },
+  "hapsira": {
+    "main": true
+  },
+  "harbor": {
+    "main": true
+  },
+  "harfbuzz": {
+    "main": true
+  },
+  "harfile": {
+    "main": true
+  },
+  "harissa": {
+    "main": true
+  },
+  "harlequin": {
+    "main": true
+  },
+  "harlequin-bigquery": {
+    "main": true
+  },
+  "harlequin-databricks": {
+    "main": true
+  },
+  "harlequin-mysql": {
+    "main": true
+  },
+  "harlequin-odbc": {
+    "main": true
+  },
+  "harlequin-postgres": {
+    "main": true
+  },
+  "harlequin-trino": {
+    "main": true
+  },
+  "harminv": {
+    "main": true
+  },
+  "harmonica": {
+    "main": true
+  },
+  "harmony-py": {
+    "main": true
+  },
+  "harp": {
+    "main": true
+  },
+  "harper": {
+    "main": true
+  },
+  "hart-protocol": {
+    "main": true
+  },
+  "hasasia": {
+    "main": true
+  },
+  "hashdeep": {
+    "main": true
+  },
+  "hashids": {
+    "main": true
+  },
+  "hashio": {
+    "main": true
+  },
+  "hashquery": {
+    "main": true
+  },
+  "hatch": {
+    "main": true
+  },
+  "hatch-argparse-manpage": {
+    "main": true
+  },
+  "hatch-build": {
+    "main": true
+  },
+  "hatch-build-scripts": {
+    "main": true
+  },
+  "hatch-ci": {
+    "main": true
+  },
+  "hatch-conda": {
+    "main": true
+  },
+  "hatch-cpp": {
+    "main": true
+  },
+  "hatch-cython": {
+    "main": true
+  },
+  "hatch-deps-selector": {
+    "main": true
+  },
+  "hatch-docstring-description": {
+    "main": true
+  },
+  "hatch-fancy-pypi-readme": {
+    "main": true
+  },
+  "hatch-javascript": {
+    "main": true
+  },
+  "hatch-js": {
+    "main": true
+  },
+  "hatch-jupyter-builder": {
+    "main": true
+  },
+  "hatch-min-requirements": {
+    "main": true
+  },
+  "hatch-mkdocs": {
+    "main": true
+  },
+  "hatch-multi": {
+    "main": true
+  },
+  "hatch-mypyc": {
+    "main": true
+  },
+  "hatch-nodejs-version": {
+    "main": true
+  },
+  "hatch-regex-commit": {
+    "main": true
+  },
+  "hatch-requirements-txt": {
+    "main": true
+  },
+  "hatch-rs": {
+    "main": true
+  },
+  "hatch-rust": {
+    "main": true
+  },
+  "hatch-semver": {
+    "main": true
+  },
+  "hatch-sphinx": {
+    "main": true
+  },
+  "hatch-vcs": {
+    "main": true
+  },
+  "hatchling": {
+    "main": true
+  },
+  "haven-conf": {
+    "main": true
+  },
+  "haversine": {
+    "main": true
+  },
+  "hayagriva": {
+    "main": true
+  },
+  "haystack-ai": {
+    "main": true
+  },
+  "haystack-bm25": {
+    "main": true
+  },
+  "haystack-experimental": {
+    "main": true
+  },
+  "hazardous": {
+    "main": true
+  },
+  "hazelbean": {
+    "main": true
+  },
+  "hazm": {
+    "main": true
+  },
+  "hboard": {
+    "main": true
+  },
+  "hboard-widget": {
+    "main": true
+  },
+  "hbreader": {
+    "main": true
+  },
+  "hcephes": {
+    "main": true
+  },
+  "hcipy": {
+    "main": true
+  },
+  "hck": {
+    "main": true
+  },
+  "hcl2json": {
+    "main": true
+  },
+  "hclfmt": {
+    "main": true
+  },
+  "hcloud": {
+    "main": true
+  },
+  "hcp": {
+    "main": true
+  },
+  "hcrystalball": {
+    "main": true
+  },
+  "hda": {
+    "main": true
+  },
+  "hdbpp-cm": {
+    "main": true
+  },
+  "hdbpp-es": {
+    "main": true
+  },
+  "hdbscan": {
+    "main": true
+  },
+  "hddm-wfpt": {
+    "main": true
+  },
+  "hdf4": {
+    "main": true
+  },
+  "hdf5": {
+    "main": true
+  },
+  "hdf5-external-filter-plugins": {
+    "main": true
+  },
+  "hdf5plugin": {
+    "main": true
+  },
+  "hdf5storage": {
+    "main": true
+  },
+  "hdf5tools": {
+    "main": true
+  },
+  "hdfeos2": {
+    "main": true
+  },
+  "hdfeos5": {
+    "main": true
+  },
+  "hdfmap": {
+    "main": true
+  },
+  "hdijupyterutils": {
+    "main": true
+  },
+  "hdlib": {
+    "main": true
+  },
+  "hdmedians": {
+    "main": true
+  },
+  "hdmf": {
+    "main": true
+  },
+  "hdmf_zarr": {
+    "main": true
+  },
+  "hdpws": {
+    "main": true
+  },
+  "hdrhistogram-c": {
+    "main": true
+  },
+  "hdwallets": {
+    "main": true
+  },
+  "hdx-python-api": {
+    "main": true
+  },
+  "hdx-python-country": {
+    "main": true
+  },
+  "hdx-python-utilities": {
+    "main": true
+  },
+  "hdxms-datasets": {
+    "main": true
+  },
+  "hdxrate": {
+    "main": true
+  },
+  "headerparser": {
+    "main": true
+  },
+  "healpix": {
+    "main": true
+  },
+  "healpix-geo": {
+    "main": true
+  },
+  "healpix_cxx": {
+    "main": true
+  },
+  "healpy": {
+    "main": true
+  },
+  "healsparse": {
+    "main": true
+  },
+  "heapdict": {
+    "main": true
+  },
+  "heaptrack": {
+    "main": true
+  },
+  "heart-library": {
+    "main": true
+  },
+  "heartrate": {
+    "main": true
+  },
+  "heat": {
+    "main": true
+  },
+  "heatrapy": {
+    "main": true
+  },
+  "heatseeker": {
+    "main": true
+  },
+  "heavyai": {
+    "main": true
+  },
+  "hecss": {
+    "main": true
+  },
+  "hedtools": {
+    "main": true
+  },
+  "heffte": {
+    "main": true
+  },
+  "heksa": {
+    "main": true
+  },
+  "helanal": {
+    "main": true
+  },
+  "heliclockter": {
+    "main": true
+  },
+  "helics": {
+    "main": true
+  },
+  "heligeo": {
+    "main": true
+  },
+  "heliolinx": {
+    "main": true
+  },
+  "helios": {
+    "main": true
+  },
+  "helios-menuinst": {
+    "main": true
+  },
+  "helix": {
+    "main": true
+  },
+  "hello": {
+    "main": true
+  },
+  "helm-docs": {
+    "main": true
+  },
+  "helm-ls": {
+    "main": true
+  },
+  "helmeos": {
+    "main": true
+  },
+  "help2man": {
+    "main": true
+  },
+  "helpdev": {
+    "main": true
+  },
+  "helper": {
+    "main": true
+  },
+  "helpme": {
+    "main": true
+  },
+  "hendrics": {
+    "main": true
+  },
+  "hep_ml": {
+    "main": true
+  },
+  "hepconvert": {
+    "main": true
+  },
+  "hepdata-lib": {
+    "main": true
+  },
+  "hepdata-validator": {
+    "main": true
+  },
+  "hepmc2": {
+    "main": true
+  },
+  "hepmc3": {
+    "main": true
+  },
+  "heppdt": {
+    "main": true
+  },
+  "hepstats": {
+    "main": true
+  },
+  "hepunits": {
+    "main": true
+  },
+  "hera-workflows": {
+    "main": true
+  },
+  "herbie-data": {
+    "main": true
+  },
+  "here-location-services": {
+    "main": true
+  },
+  "here-map-widget-for-jupyter": {
+    "main": true
+  },
+  "hereby": {
+    "main": true
+  },
+  "herepy": {
+    "main": true
+  },
+  "heroicons": {
+    "main": true
+  },
+  "hesperos": {
+    "main": true
+  },
+  "heudiconv": {
+    "main": true
+  },
+  "hexalattice": {
+    "main": true
+  },
+  "hexbytes": {
+    "main": true
+  },
+  "hexdump": {
+    "main": true
+  },
+  "hexer": {
+    "main": true
+  },
+  "hexo": {
+    "main": true
+  },
+  "hextools": {
+    "main": true
+  },
+  "hexwatershed": {
+    "main": true
+  },
+  "hexyl": {
+    "main": true
+  },
+  "heyoka": {
+    "main": true
+  },
+  "heyoka.py": {
+    "main": true
+  },
+  "hf-gradio": {
+    "main": true
+  },
+  "hf-mount": {
+    "main": true
+  },
+  "hf-transfer": {
+    "main": true
+  },
+  "hf-xet": {
+    "main": true
+  },
+  "hffix": {
+    "main": true
+  },
+  "hfradarpy": {
+    "main": true
+  },
+  "hg-evolve": {
+    "main": true
+  },
+  "hg-git": {
+    "main": true
+  },
+  "hg-setup": {
+    "main": true
+  },
+  "hgdl": {
+    "main": true
+  },
+  "hickle": {
+    "main": true
+  },
+  "hiclass": {
+    "main": true
+  },
+  "hicolor-icon-theme": {
+    "main": true
+  },
+  "hicsv-python": {
+    "main": true
+  },
+  "hidapi": {
+    "main": true
+  },
+  "hide_code": {
+    "main": true
+  },
+  "hidefix": {
+    "main": true
+  },
+  "hierarchicalforecast": {
+    "main": true
+  },
+  "hierarchicalsoftmax": {
+    "main": true
+  },
+  "highdicom": {
+    "main": true
+  },
+  "higher": {
+    "main": true
+  },
+  "highered": {
+    "main": true
+  },
+  "highfive": {
+    "main": true
+  },
+  "highlight_text": {
+    "main": true
+  },
+  "highs": {
+    "main": true
+  },
+  "highspy": {
+    "main": true
+  },
+  "hightime": {
+    "main": true
+  },
+  "higra": {
+    "main": true
+  },
+  "hijri-converter": {
+    "main": true
+  },
+  "hijridate": {
+    "main": true
+  },
+  "hilbertcurve": {
+    "main": true
+  },
+  "hillmaker": {
+    "main": true
+  },
+  "hilltop-py": {
+    "main": true
+  },
+  "himalaya": {
+    "main": true
+  },
+  "hip": {
+    "main": true
+  },
+  "hipace": {
+    "main": true
+  },
+  "hipcc": {
+    "main": true
+  },
+  "hipfft": {
+    "main": true
+  },
+  "hiphive": {
+    "main": true
+  },
+  "hiplot": {
+    "main": true
+  },
+  "hippogriffe": {
+    "main": true
+  },
+  "hippynn": {
+    "main": true
+  },
+  "hiproc": {
+    "main": true
+  },
+  "hiredis": {
+    "main": true
+  },
+  "hishel": {
+    "main": true
+  },
+  "hist": {
+    "main": true
+  },
+  "histfitter": {
+    "main": true
+  },
+  "histogrammar": {
+    "main": true
+  },
+  "histolab": {
+    "main": true
+  },
+  "histoprint": {
+    "main": true
+  },
+  "historydag": {
+    "main": true
+  },
+  "historydict": {
+    "main": true
+  },
+  "histserv": {
+    "main": true
+  },
+  "hiveplot": {
+    "main": true
+  },
+  "hiyapyco": {
+    "main": true
+  },
+  "hjson-py": {
+    "main": true
+  },
+  "hkdf": {
+    "main": true
+  },
+  "hkl": {
+    "main": true
+  },
+  "hklpy": {
+    "main": true
+  },
+  "hklpy2": {
+    "main": true
+  },
+  "hll": {
+    "main": true
+  },
+  "hloc": {
+    "main": true
+  },
+  "hls4ml": {
+    "main": true
+  },
+  "hmat-oss": {
+    "main": true
+  },
+  "hmmlearn": {
+    "main": true
+  },
+  "hmsclient": {
+    "main": true
+  },
+  "hnswlib": {
+    "main": true
+  },
+  "hockey_rink": {
+    "main": true
+  },
+  "hofstadtertools": {
+    "main": true
+  },
+  "hoggorm": {
+    "main": true
+  },
+  "hoggormplot": {
+    "main": true
+  },
+  "hole-filling-liepa": {
+    "main": true
+  },
+  "hole2": {
+    "main": true
+  },
+  "holidays": {
+    "main": true
+  },
+  "holidays-ext": {
+    "main": true
+  },
+  "holm": {
+    "main": true
+  },
+  "holodeck-gw": {
+    "main": true
+  },
+  "hologram": {
+    "main": true
+  },
+  "hologridgen": {
+    "main": true
+  },
+  "hololinked": {
+    "main": true
+  },
+  "holonote": {
+    "main": true
+  },
+  "holopy": {
+    "main": true
+  },
+  "holoscan": {
+    "main": true
+  },
+  "holospy": {
+    "main": true
+  },
+  "holoviews": {
+    "main": true
+  },
+  "homeassistant": {
+    "main": true
+  },
+  "homebase": {
+    "main": true
+  },
+  "homebrew-pypi-poet": {
+    "main": true
+  },
+  "homeharvest": {
+    "main": true
+  },
+  "homonim": {
+    "main": true
+  },
+  "homura": {
+    "main": true
+  },
+  "honcho": {
+    "main": true
+  },
+  "honto": {
+    "main": true
+  },
+  "hookee": {
+    "main": true
+  },
+  "hooking": {
+    "main": true
+  },
+  "hoomd": {
+    "main": true
+  },
+  "hoomd-dlext": {
+    "main": true
+  },
+  "hop-client": {
+    "main": true
+  },
+  "hopcroftkarp": {
+    "main": true
+  },
+  "hopfield4py": {
+    "main": true
+  },
+  "horovod": {
+    "main": true
+  },
+  "horton": {
+    "main": true
+  },
+  "hostess": {
+    "main": true
+  },
+  "hover": {
+    "main": true
+  },
+  "howardhinnant_date": {
+    "main": true
+  },
+  "hpack": {
+    "main": true
+  },
+  "hpc": {
+    "main": true
+  },
+  "hpc05": {
+    "main": true
+  },
+  "hpccm": {
+    "main": true
+  },
+  "hpcflow": {
+    "main": true
+  },
+  "hpfrec": {
+    "main": true
+  },
+  "hpgeom": {
+    "main": true
+  },
+  "hpp-constraints": {
+    "main": true
+  },
+  "hpp-corbaserver": {
+    "main": true
+  },
+  "hpp-core": {
+    "main": true
+  },
+  "hpp-doc": {
+    "main": true
+  },
+  "hpp-environments": {
+    "main": true
+  },
+  "hpp-fcl": {
+    "main": true
+  },
+  "hpp-gepetto-viewer": {
+    "main": true
+  },
+  "hpp-gui": {
+    "main": true
+  },
+  "hpp-manipulation": {
+    "main": true
+  },
+  "hpp-manipulation-corba": {
+    "main": true
+  },
+  "hpp-manipulation-urdf": {
+    "main": true
+  },
+  "hpp-pinocchio": {
+    "main": true
+  },
+  "hpp-plot": {
+    "main": true
+  },
+  "hpp-practicals": {
+    "main": true
+  },
+  "hpp-python": {
+    "main": true
+  },
+  "hpp-statistics": {
+    "main": true
+  },
+  "hpp-template-corba": {
+    "main": true
+  },
+  "hpp-tutorial": {
+    "main": true
+  },
+  "hpp-util": {
+    "main": true
+  },
+  "hptt": {
+    "main": true
+  },
+  "hpv-kite": {
+    "main": true
+  },
+  "hpx": {
+    "main": true
+  },
+  "hrds": {
+    "main": true
+  },
+  "hs-process": {
+    "main": true
+  },
+  "hs_restclient": {
+    "main": true
+  },
+  "hsd-python": {
+    "main": true
+  },
+  "hsluv": {
+    "main": true
+  },
+  "hsmfile": {
+    "main": true
+  },
+  "hsp2": {
+    "main": true
+  },
+  "hspf_reader": {
+    "main": true
+  },
+  "hspf_utils": {
+    "main": true
+  },
+  "hspfbintoolbox": {
+    "main": true
+  },
+  "hssm": {
+    "main": true
+  },
+  "hstcal": {
+    "main": true
+  },
+  "hstr": {
+    "main": true
+  },
+  "hstream": {
+    "main": true
+  },
+  "hstspreload": {
+    "main": true
+  },
+  "ht": {
+    "main": true
+  },
+  "htbuilder": {
+    "main": true
+  },
+  "htchirp": {
+    "main": true
+  },
+  "htcondor": {
+    "main": true
+  },
+  "htgettoken": {
+    "main": true
+  },
+  "htm-pytorch": {
+    "main": true
+  },
+  "htmap": {
+    "main": true
+  },
+  "htmd": {
+    "main": true
+  },
+  "htmd-pdb2pqr": {
+    "main": true
+  },
+  "html-json-forms": {
+    "main": true
+  },
+  "html-sanitizer": {
+    "main": true
+  },
+  "html-tag-names": {
+    "main": true
+  },
+  "html-text": {
+    "main": true
+  },
+  "html-to-markdown": {
+    "main": true
+  },
+  "html-void-elements": {
+    "main": true
+  },
+  "html2image": {
+    "main": true
+  },
+  "html2text": {
+    "main": true
+  },
+  "html5-parser": {
+    "main": true
+  },
+  "html5lib": {
+    "main": true
+  },
+  "html5lib-modern": {
+    "main": true
+  },
+  "html5rdf": {
+    "main": true
+  },
+  "html5tagger": {
+    "main": true
+  },
+  "htmlark": {
+    "main": true
+  },
+  "htmldate": {
+    "main": true
+  },
+  "htmldocx": {
+    "main": true
+  },
+  "htmlgen": {
+    "main": true
+  },
+  "htmllistparse": {
+    "main": true
+  },
+  "htmlmin": {
+    "main": true
+  },
+  "htmlmin2": {
+    "main": true
+  },
+  "htmlq": {
+    "main": true
+  },
+  "htmx-flask": {
+    "main": true
+  },
+  "htmx-lsp": {
+    "main": true
+  },
+  "htmy": {
+    "main": true
+  },
+  "htop": {
+    "main": true
+  },
+  "htpolynet": {
+    "main": true
+  },
+  "httm": {
+    "main": true
+  },
+  "httmock": {
+    "main": true
+  },
+  "http-ece": {
+    "main": true
+  },
+  "http3": {
+    "main": true
+  },
+  "httpagentparser": {
+    "main": true
+  },
+  "httpauth": {
+    "main": true
+  },
+  "httpcore": {
+    "main": true
+  },
+  "httpdbg": {
+    "main": true
+  },
+  "httpie": {
+    "main": true
+  },
+  "httplib2": {
+    "main": true
+  },
+  "httplib2shim": {
+    "main": true
+  },
+  "httpretty": {
+    "main": true
+  },
+  "httpstan": {
+    "main": true
+  },
+  "httptap": {
+    "main": true
+  },
+  "httptools": {
+    "main": true
+  },
+  "httpx": {
+    "main": true
+  },
+  "httpx-aiohttp": {
+    "main": true
+  },
+  "httpx-cache": {
+    "main": true
+  },
+  "httpx-gssapi": {
+    "main": true
+  },
+  "httpx-negotiate-sspi": {
+    "main": true
+  },
+  "httpx-ntlm": {
+    "main": true
+  },
+  "httpx-oauth": {
+    "main": true
+  },
+  "httpx-retries": {
+    "main": true
+  },
+  "httpx-sse": {
+    "main": true
+  },
+  "httpx-ws": {
+    "main": true
+  },
+  "httpxthrottlecache": {
+    "main": true
+  },
+  "hub": {
+    "main": true
+  },
+  "hubspot-api-client": {
+    "main": true
+  },
+  "hubstore": {
+    "main": true
+  },
+  "huey": {
+    "main": true
+  },
+  "hug": {
+    "main": true
+  },
+  "huggingface_hub": {
+    "main": true
+  },
+  "hugin": {
+    "main": true
+  },
+  "hugo": {
+    "main": true
+  },
+  "human-dynamics-estimation": {
+    "main": true
+  },
+  "human-learn": {
+    "main": true
+  },
+  "human_readable": {
+    "main": true
+  },
+  "humanfriendly": {
+    "main": true
+  },
+  "humanize": {
+    "main": true
+  },
+  "humap": {
+    "main": true
+  },
+  "humbug": {
+    "main": true
+  },
+  "hummingbird-ml": {
+    "main": true
+  },
+  "humre": {
+    "main": true
+  },
+  "hunspell": {
+    "main": true
+  },
+  "hunspell-en": {
+    "main": true
+  },
+  "hunter": {
+    "main": true
+  },
+  "hupper": {
+    "main": true
+  },
+  "huracanpy": {
+    "main": true
+  },
+  "hurl": {
+    "main": true
+  },
+  "hurry.filesize": {
+    "main": true
+  },
+  "husky": {
+    "main": true
+  },
+  "husky.net": {
+    "main": true
+  },
+  "husl": {
+    "main": true
+  },
+  "hussh": {
+    "main": true
+  },
+  "huxt": {
+    "main": true
+  },
+  "hvac": {
+    "main": true
+  },
+  "hvala": {
+    "main": true
+  },
+  "hveto": {
+    "main": true
+  },
+  "hvplot": {
+    "main": true
+  },
+  "hvpy": {
+    "main": true
+  },
+  "hvsampledata": {
+    "main": true
+  },
+  "hwatch": {
+    "main": true
+  },
+  "hwinfo": {
+    "main": true
+  },
+  "hwm": {
+    "main": true
+  },
+  "hws": {
+    "main": true
+  },
+  "hxnfly": {
+    "main": true
+  },
+  "hxntools": {
+    "main": true
+  },
+  "hy": {
+    "main": true
+  },
+  "hyalo": {
+    "main": true
+  },
+  "hybgensea": {
+    "main": true
+  },
+  "hybridcontents": {
+    "main": true
+  },
+  "hydra-colorlog": {
+    "main": true
+  },
+  "hydra-core": {
+    "main": true
+  },
   "hydra-image-processor": {
     "main": true
   },
+  "hydra-joblib-launcher": {
+    "main": true
+  },
+  "hydra-lsp": {
+    "main": true
+  },
+  "hydra-python": {
+    "main": true
+  },
+  "hydra-submitit-launcher": {
+    "main": true
+  },
+  "hydra-zen": {
+    "main": true
+  },
+  "hydrampp": {
+    "main": true
+  },
+  "hydride": {
+    "main": true
+  },
+  "hydrodata": {
+    "main": true
+  },
+  "hydroerr": {
+    "main": true
+  },
+  "hydrofunctions": {
+    "main": true
+  },
+  "hydromt": {
+    "main": true
+  },
+  "hydromt_delwaq": {
+    "main": true
+  },
+  "hydromt_sfincs": {
+    "main": true
+  },
+  "hydromt_wflow": {
+    "main": true
+  },
+  "hydrosar": {
+    "main": true
+  },
+  "hydrosignatures": {
+    "main": true
+  },
+  "hydrostats": {
+    "main": true
+  },
+  "hydrotoolbox": {
+    "main": true
+  },
+  "hydrotrend": {
+    "main": true
+  },
+  "hyfetch": {
+    "main": true
+  },
+  "hygeos-core": {
+    "main": true
+  },
+  "hyp3_sdk": {
+    "main": true
+  },
+  "hyp3lib": {
+    "main": true
+  },
+  "hyper": {
+    "main": true
+  },
+  "hyper-connections": {
+    "main": true
+  },
+  "hyperas": {
+    "main": true
+  },
+  "hyperbox-brain": {
+    "main": true
+  },
+  "hypercoast": {
+    "main": true
+  },
+  "hypercorn": {
+    "main": true
+  },
+  "hyperdiv": {
+    "main": true
+  },
+  "hyperelastic": {
+    "main": true
+  },
+  "hyperfine": {
+    "main": true
+  },
+  "hyperframe": {
+    "main": true
+  },
+  "hypergas": {
+    "main": true
+  },
+  "hypergbm": {
+    "main": true
+  },
+  "hyperion": {
+    "main": true
+  },
+  "hyperion-fortran": {
+    "main": true
+  },
+  "hyperlib": {
+    "main": true
+  },
+  "hyperlink": {
+    "main": true
+  },
+  "hypernets": {
+    "main": true
+  },
+  "hyperopt": {
+    "main": true
+  },
+  "hyperscript": {
+    "main": true
+  },
+  "hypersolver": {
+    "main": true
+  },
+  "hyperspy": {
+    "main": true
+  },
+  "hyperspy-gui-ipywidgets": {
+    "main": true
+  },
+  "hyperspy-gui-traitsui": {
+    "main": true
+  },
+  "hyperspyui": {
+    "main": true
+  },
+  "hypertab": {
+    "main": true
+  },
+  "hypertemp": {
+    "main": true
+  },
+  "hypertransform": {
+    "main": true
+  },
+  "hyperts": {
+    "main": true
+  },
+  "hyphen": {
+    "main": true
+  },
+  "hypnotoad": {
+    "main": true
+  },
+  "hypofuzz": {
+    "main": true
+  },
+  "hypothesis": {
+    "main": true
+  },
+  "hypothesis-awkward": {
+    "main": true
+  },
+  "hypothesis-graphql": {
+    "main": true
+  },
+  "hypothesis-jsonschema": {
+    "main": true
+  },
+  "hypothesis-networkx": {
+    "main": true
+  },
+  "hypothesis-rdkit": {
+    "main": true
+  },
+  "hypothesize": {
+    "main": true
+  },
+  "hypothesmith": {
+    "main": true
+  },
+  "hyppo": {
+    "main": true
+  },
+  "hypre": {
+    "main": true
+  },
+  "hypso": {
+    "main": true
+  },
+  "hypsoreader": {
+    "main": true
+  },
+  "hyram": {
+    "main": true
+  },
+  "hysetter": {
+    "main": true
+  },
+  "i-pi": {
+    "main": true
+  },
+  "i18nice": {
+    "main": true
+  },
+  "iacs-ipac-reader": {
+    "main": true
+  },
+  "iadpython": {
+    "main": true
+  },
+  "iam-units": {
+    "main": true
+  },
+  "iamb": {
+    "main": true
+  },
+  "iapws": {
+    "main": true
+  },
+  "ib-insync": {
+    "main": true
+  },
+  "ib_async": {
+    "main": true
+  },
+  "ibex": {
+    "main": true
+  },
+  "ibis-framework": {
+    "main": true
+  },
+  "ibis-heavyai": {
+    "main": true
+  },
+  "ibis-ml": {
+    "main": true
+  },
+  "ibis-mssql": {
+    "main": true
+  },
+  "ibis-omniscidb": {
+    "main": true
+  },
+  "ibis-substrait": {
+    "main": true
+  },
+  "ibis-vega-transform": {
+    "main": true
+  },
+  "ibm-cloud-sdk-core": {
+    "main": true
+  },
+  "ibm-platform-services": {
+    "main": true
+  },
+  "ibm-quantum-schemas": {
+    "main": true
+  },
+  "ibm-watson": {
+    "main": true
+  },
+  "ibm_db": {
+    "main": true
+  },
+  "ibm_db_django": {
+    "main": true
+  },
+  "ibm_db_sa": {
+    "main": true
+  },
+  "ibmcloudant": {
+    "main": true
+  },
+  "ibmpairs": {
+    "main": true
+  },
+  "icalendar": {
+    "main": true
+  },
+  "icalendar-searcher": {
+    "main": true
+  },
+  "icartt": {
+    "main": true
+  },
+  "icclim": {
+    "main": true
+  },
+  "icdiff": {
+    "main": true
+  },
+  "icechart": {
+    "main": true
+  },
+  "icechunk": {
+    "main": true
+  },
+  "icecream": {
+    "main": true
+  },
+  "iceoryx": {
+    "main": true
+  },
+  "iceoryx2": {
+    "main": true
+  },
+  "icepap": {
+    "main": true
+  },
+  "icepapcms": {
+    "main": true
+  },
+  "icepaposc": {
+    "main": true
+  },
+  "icepyx": {
+    "main": true
+  },
+  "icet": {
+    "main": true
+  },
+  "icfree": {
+    "main": true
+  },
+  "icmplib": {
+    "main": true
+  },
+  "icnsutil": {
+    "main": true
+  },
+  "icon": {
+    "main": true
+  },
+  "icon_font_to_png": {
+    "main": true
+  },
+  "icontract": {
+    "main": true
+  },
+  "ics": {
+    "main": true
+  },
+  "icu": {
+    "main": true
+  },
+  "icub-firmware-shared": {
+    "main": true
+  },
+  "icub-main": {
+    "main": true
+  },
+  "icub-models": {
+    "main": true
+  },
+  "id": {
+    "main": true
+  },
+  "idaes-pse": {
+    "main": true
+  },
+  "idds-client": {
+    "main": true
+  },
+  "idds-common": {
+    "main": true
+  },
+  "idds-doma": {
+    "main": true
+  },
+  "idds-workflow": {
+    "main": true
+  },
+  "identify": {
+    "main": true
+  },
+  "idiap-devtools": {
+    "main": true
+  },
+  "idna": {
+    "main": true
+  },
+  "idna_ssl": {
+    "main": true
+  },
+  "idq": {
+    "main": true
+  },
+  "idt": {
+    "main": true
+  },
+  "idtrackerai": {
+    "main": true
+  },
+  "idyntree": {
+    "main": true
+  },
+  "iembot": {
+    "main": true
+  },
+  "ifaddr": {
+    "main": true
+  },
+  "ifcfg": {
+    "main": true
+  },
+  "ifcopenshell": {
+    "main": true
+  },
+  "ifermi": {
+    "main": true
+  },
+  "ifes-apt-tc-data-modeling": {
+    "main": true
+  },
+  "ifitpy": {
+    "main": true
+  },
+  "igl": {
+    "main": true
+  },
+  "igor": {
+    "main": true
+  },
+  "igor2": {
+    "main": true
+  },
+  "igorwriter": {
+    "main": true
+  },
+  "igrafx-mining-sdk": {
+    "main": true
+  },
+  "igraph": {
+    "main": true
+  },
+  "igwn-alert": {
+    "main": true
+  },
+  "igwn-archive": {
+    "main": true
+  },
+  "igwn-auth-utils": {
+    "main": true
+  },
+  "igwn-cmake-macros": {
+    "main": true
+  },
+  "igwn-ligolw": {
+    "main": true
+  },
+  "igwn-lldd-common": {
+    "main": true
+  },
+  "igwn-lldd-fdio": {
+    "main": true
+  },
+  "igwn-lldd-lsmp": {
+    "main": true
+  },
+  "igwn-robot-auth": {
+    "main": true
+  },
+  "igwn-segments": {
+    "main": true
+  },
+  "ihm": {
+    "main": true
+  },
+  "ijar": {
+    "main": true
+  },
+  "ijava": {
+    "main": true
+  },
+  "ijroi": {
+    "main": true
+  },
+  "ijson": {
+    "main": true
+  },
+  "ilamb": {
+    "main": true
+  },
+  "ilastik-feature-selection": {
+    "main": true
+  },
+  "ilastik-napari": {
+    "main": true
+  },
+  "iliasqc": {
+    "main": true
+  },
+  "illustrate": {
+    "main": true
+  },
+  "ilmbase": {
+    "main": true
+  },
+  "ilpy": {
+    "main": true
+  },
+  "im-pipelines-utils": {
+    "main": true
+  },
+  "im-pipelines-utils-rdkit": {
+    "main": true
+  },
+  "image-composer": {
+    "main": true
+  },
+  "image-meta-tag": {
+    "main": true
+  },
+  "image-part-selecter": {
+    "main": true
+  },
+  "image-quality": {
+    "main": true
+  },
   "image-registration": {
+    "main": true
+  },
+  "imageai": {
+    "main": true
+  },
+  "imagecodecs": {
+    "main": true
+  },
+  "imagecodecs-lite": {
+    "main": true
+  },
+  "imagedataextractor": {
+    "main": true
+  },
+  "imagededup": {
+    "main": true
+  },
+  "imagedominantcolor": {
+    "main": true
+  },
+  "imagehash": {
+    "main": true
+  },
+  "imageio": {
+    "main": true
+  },
+  "imageio-ffmpeg": {
+    "main": true
+  },
+  "imagemagick": {
+    "main": true
+  },
+  "imagepy": {
+    "main": true
+  },
+  "images-into-array": {
+    "main": true
+  },
+  "imagesize": {
+    "main": true
+  },
+  "imaginairy": {
+    "main": true
+  },
+  "imagingreso": {
+    "main": true
+  },
+  "imantics": {
+    "main": true
+  },
+  "imap-tools": {
+    "main": true
+  },
+  "imapclient": {
+    "main": true
+  },
+  "imaplib2": {
+    "main": true
+  },
+  "imaris-ims-file-reader": {
+    "main": true
+  },
+  "imas-data-dictionaries": {
+    "main": true
+  },
+  "imas-python": {
+    "main": true
+  },
+  "imas_composer": {
+    "main": true
+  },
+  "imate": {
+    "main": true
+  },
+  "imath": {
+    "main": true
+  },
+  "imaxt-image": {
+    "main": true
+  },
+  "imaxt-multiscale-plugin": {
+    "main": true
+  },
+  "imbalanced-learn": {
+    "main": true
+  },
+  "imdclient": {
+    "main": true
+  },
+  "imexam": {
+    "main": true
+  },
+  "imf-reader": {
+    "main": true
+  },
+  "img2pdf": {
+    "main": true
+  },
+  "imgaug": {
+    "main": true
+  },
+  "imglyb": {
+    "main": true
+  },
+  "imgroi": {
+    "main": true
+  },
+  "imgui": {
+    "main": true
+  },
+  "imgui-bundle": {
+    "main": true
+  },
+  "imgurpython": {
+    "main": true
+  },
+  "imgviz": {
+    "main": true
+  },
+  "imia": {
+    "main": true
+  },
+  "iminuit": {
+    "main": true
+  },
+  "imio": {
+    "main": true
+  },
+  "iml": {
+    "main": true
+  },
+  "imlib": {
+    "main": true
+  },
+  "immutabledict": {
+    "main": true
+  },
+  "immutables": {
+    "main": true
+  },
+  "imod": {
+    "main": true
+  },
+  "imodels": {
+    "main": true
+  },
+  "imodmodel": {
+    "main": true
+  },
+  "imp": {
+    "main": true
+  },
+  "impact-t": {
+    "main": true
+  },
+  "impact-z": {
+    "main": true
+  },
+  "impactx": {
+    "main": true
+  },
+  "impl": {
+    "main": true
+  },
+  "implicit": {
+    "main": true
+  },
+  "implot": {
+    "main": true
+  },
+  "import-linter": {
+    "main": true
+  },
+  "importhook": {
+    "main": true
+  },
+  "importlab": {
+    "main": true
+  },
+  "importlib_metadata": {
+    "main": true
+  },
+  "importlib_resources": {
+    "main": true
+  },
+  "importnb": {
+    "main": true
+  },
+  "importrosbag": {
+    "main": true
+  },
+  "importscan": {
+    "main": true
+  },
+  "improver": {
+    "main": true
+  },
+  "impunity": {
+    "main": true
+  },
+  "impyla": {
+    "main": true
+  },
+  "imread": {
+    "main": true
+  },
+  "imreg_dft": {
+    "main": true
+  },
+  "imutils": {
+    "main": true
+  },
+  "imy": {
+    "main": true
+  },
+  "in-n-out": {
+    "main": true
+  },
+  "in-silico-fate-mapping": {
+    "main": true
+  },
+  "in_place": {
+    "main": true
+  },
+  "inaspeechsegmenter": {
+    "main": true
+  },
+  "inchi": {
+    "main": true
+  },
+  "include-what-you-use": {
+    "main": true
+  },
+  "incognita": {
+    "main": true
+  },
+  "incqueryserver-api-python-client": {
+    "main": true
+  },
+  "incqueryserver-jupyter": {
+    "main": true
+  },
+  "incremental": {
+    "main": true
+  },
+  "indent": {
+    "main": true
+  },
+  "indexclient": {
+    "main": true
+  },
+  "indexed_bzip2": {
+    "main": true
+  },
+  "indexed_gzip": {
+    "main": true
+  },
+  "indexed_zstd": {
+    "main": true
+  },
+  "indexedconv": {
+    "main": true
+  },
+  "indicators": {
+    "main": true
+  },
+  "inept": {
+    "main": true
+  },
+  "inequality": {
+    "main": true
+  },
+  "inertia-django": {
+    "main": true
+  },
+  "inetutils": {
+    "main": true
+  },
+  "inference-server": {
+    "main": true
+  },
+  "inference-tools": {
+    "main": true
+  },
+  "inferno": {
+    "main": true
+  },
+  "infinite-sets": {
+    "main": true
+  },
+  "infinity": {
+    "main": true
+  },
+  "inflate64": {
+    "main": true
+  },
+  "inflect": {
+    "main": true
+  },
+  "inflection": {
+    "main": true
+  },
+  "influx-cli": {
+    "main": true
+  },
+  "influxdb": {
+    "main": true
+  },
+  "influxdb-client": {
+    "main": true
+  },
+  "infomap": {
+    "main": true
+  },
+  "infomeasure": {
+    "main": true
+  },
+  "inform": {
+    "main": true
+  },
+  "infrared": {
+    "main": true
+  },
+  "ingeoml": {
     "main": true
   },
   "inko": {

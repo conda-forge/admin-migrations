@@ -55,7 +55,7 @@ def _get_recipe_dummy_meta(recipe_content):
             skip += 1
         if skip > 0:
             keep_lines.append(_filter_jinja2(line))
-    assert skip == 1, "team update failed due to > 1 'extra:' sections"
+    assert skip == 1, f"team update failed due to finding {skip} 'extra:' sections"
     return DummyMeta("\n".join(keep_lines))
 
 
