@@ -55532,6 +55532,9 @@
   "r-sparklyr": {
     "main": true
   },
+  "r-sparklyr.nested": {
+    "main": true
+  },
   "r-sparkr": {
     "main": true
   },
@@ -55605,6 +55608,33 @@
     "main": true
   },
   "r-spatstat": {
+    "main": true
+  },
+  "r-spatstat.data": {
+    "main": true
+  },
+  "r-spatstat.explore": {
+    "main": true
+  },
+  "r-spatstat.geom": {
+    "main": true
+  },
+  "r-spatstat.linnet": {
+    "main": true
+  },
+  "r-spatstat.model": {
+    "main": true
+  },
+  "r-spatstat.random": {
+    "main": true
+  },
+  "r-spatstat.sparse": {
+    "main": true
+  },
+  "r-spatstat.univar": {
+    "main": true
+  },
+  "r-spatstat.utils": {
     "main": true
   },
   "r-spbayes": {
@@ -55788,6 +55818,9 @@
     "main": true
   },
   "r-statnet": {
+    "main": true
+  },
+  "r-statnet.common": {
     "main": true
   },
   "r-statsexpressions": {
@@ -56006,6 +56039,9 @@
   "r-sylly": {
     "main": true
   },
+  "r-sylly.en": {
+    "main": true
+  },
   "r-symengine": {
     "main": true
   },
@@ -56117,6 +56153,15 @@
   "r-teachingdemos": {
     "main": true
   },
+  "r-teal.code": {
+    "main": true
+  },
+  "r-teal.data": {
+    "main": true
+  },
+  "r-teal.logger": {
+    "main": true
+  },
   "r-teamr": {
     "main": true
   },
@@ -56219,6 +56264,9 @@
   "r-tgp": {
     "main": true
   },
+  "r-th.data": {
+    "main": true
+  },
   "r-thankr": {
     "main": true
   },
@@ -56235,6 +56283,9 @@
     "main": true
   },
   "r-thinkr": {
+    "main": true
+  },
+  "r-this.path": {
     "main": true
   },
   "r-threebrain": {
@@ -56478,6 +56529,9 @@
     "main": true
   },
   "r-trackdown": {
+    "main": true
+  },
+  "r-tractor.base": {
     "main": true
   },
   "r-traits": {
@@ -57209,6 +57263,9 @@
   "r-yr": {
     "main": true
   },
+  "r-yulab.utils": {
+    "main": true
+  },
   "r-yyjsonr": {
     "main": true
   },
@@ -57248,6 +57305,12 @@
   "r5py": {
     "main": true
   },
+  "r5py.sampledata.helsinki": {
+    "main": true
+  },
+  "r5py.sampledata.sao_paulo": {
+    "main": true
+  },
   "r_clang_activation": {
     "main": true
   },
@@ -57279,6 +57342,24 @@
     "main": true
   },
   "radiant-mlhub": {
+    "main": true
+  },
+  "radical.analytics": {
+    "main": true
+  },
+  "radical.entk": {
+    "main": true
+  },
+  "radical.gtod": {
+    "main": true
+  },
+  "radical.pilot": {
+    "main": true
+  },
+  "radical.saga": {
+    "main": true
+  },
+  "radical.utils": {
     "main": true
   },
   "radicli": {
@@ -57686,6 +57767,9 @@
   "rb-connection_pool": {
     "main": true
   },
+  "rb-cool.io": {
+    "main": true
+  },
   "rb-csl": {
     "main": true
   },
@@ -57765,6 +57849,9 @@
     "main": true
   },
   "rb-html-proofer": {
+    "main": true
+  },
+  "rb-http_parser.rb": {
     "main": true
   },
   "rb-i18n": {
@@ -58010,6 +58097,9 @@
   "rb-public_suffix": {
     "main": true
   },
+  "rb-pygments.rb": {
+    "main": true
+  },
   "rb-rack": {
     "main": true
   },
@@ -58140,6 +58230,9 @@
     "main": true
   },
   "rbspy": {
+    "main": true
+  },
+  "rc.process": {
     "main": true
   },
   "rcat": {
@@ -58692,6 +58785,15 @@
     "main": true
   },
   "reposurgeon": {
+    "main": true
+  },
+  "repoze.lru": {
+    "main": true
+  },
+  "repoze.who": {
+    "main": true
+  },
+  "repoze.who-friendlyform": {
     "main": true
   },
   "represent": {
@@ -59897,6 +59999,15 @@
   "ruamel-yaml-line-info": {
     "main": true
   },
+  "ruamel.yaml": {
+    "main": true
+  },
+  "ruamel.yaml.clib": {
+    "main": true
+  },
+  "ruamel.yaml.jinja2": {
+    "main": true
+  },
   "ruamel_yaml": {
     "main": true
   },
@@ -59919,6 +60030,9 @@
     "main": true
   },
   "rubin-sim": {
+    "main": true
+  },
+  "rubin.citsci": {
     "main": true
   },
   "rubinenv": {
@@ -60960,6 +61074,9 @@
     "main": true
   },
   "scikits-bootstrap": {
+    "main": true
+  },
+  "scikits.odes": {
     "main": true
   },
   "scikits_odes_sundials": {
@@ -66560,7 +66677,967 @@
   "telepath": {
     "main": true
   },
+  "television": {
+    "main": true
+  },
+  "telingo": {
+    "main": true
+  },
+  "telluric": {
+    "main": true
+  },
+  "telnetlib3": {
+    "main": true
+  },
+  "temmeta": {
+    "main": true
+  },
+  "tempdir": {
+    "main": true
+  },
+  "tempeh": {
+    "main": true
+  },
+  "tempest-extremes": {
+    "main": true
+  },
+  "tempest-helper": {
+    "main": true
+  },
+  "tempest-remap": {
+    "main": true
+  },
+  "tempita": {
+    "main": true
+  },
+  "templ": {
+    "main": true
+  },
+  "templateflow": {
+    "main": true
+  },
+  "tempo2": {
+    "main": true
+  },
+  "tempora": {
+    "main": true
+  },
+  "temporal-cache": {
+    "main": true
+  },
+  "temporalio": {
+    "main": true
+  },
+  "temporalio-cli": {
+    "main": true
+  },
+  "tenacity": {
+    "main": true
+  },
+  "teneto": {
+    "main": true
+  },
+  "tensap": {
+    "main": true
+  },
+  "tensor-sensor": {
+    "main": true
+  },
+  "tensorboard": {
+    "main": true
+  },
+  "tensorboard-data-server": {
+    "main": true
+  },
+  "tensorboard-plugin-wit": {
+    "main": true
+  },
+  "tensorboardx": {
+    "main": true
+  },
+  "tensordict": {
+    "main": true
+  },
+  "tensorflow": {
+    "main": true
+  },
+  "tensorflow-datasets": {
+    "main": true
+  },
+  "tensorflow-hub": {
+    "main": true
+  },
+  "tensorflow-lattice": {
+    "main": true
+  },
+  "tensorflow-metadata": {
+    "main": true
+  },
+  "tensorflow-privacy": {
+    "main": true
+  },
+  "tensorflow-probability": {
+    "main": true
+  },
+  "tensorflowonspark": {
+    "main": true
+  },
+  "tensorizer": {
+    "main": true
+  },
+  "tensorly": {
+    "main": true
+  },
+  "tensorly-quantum": {
+    "main": true
+  },
+  "tensorly-torch": {
+    "main": true
+  },
+  "tensorpac": {
+    "main": true
+  },
+  "tensorpack": {
+    "main": true
+  },
+  "tensorpotential": {
+    "main": true
+  },
+  "tensorstore": {
+    "main": true
+  },
+  "tensortrade": {
+    "main": true
+  },
+  "tensorwaves": {
+    "main": true
+  },
+  "teos10": {
+    "main": true
+  },
+  "tephi": {
+    "main": true
+  },
+  "tere": {
+    "main": true
+  },
+  "term-image": {
+    "main": true
+  },
+  "termcolor": {
+    "main": true
+  },
+  "termcolor-cpp": {
+    "main": true
+  },
+  "termcolor2": {
+    "main": true
+  },
+  "termdbms": {
+    "main": true
+  },
+  "termgraph": {
+    "main": true
+  },
+  "terminado": {
+    "main": true
+  },
+  "terminaltables": {
+    "main": true
+  },
+  "terminaltexteffects": {
+    "main": true
+  },
+  "termtosvg": {
+    "main": true
+  },
+  "ternary-diagram": {
+    "main": true
+  },
+  "terracotta": {
+    "main": true
+  },
+  "terraform": {
+    "main": true
+  },
+  "terraform-ls": {
+    "main": true
+  },
+  "terraform-provider-alicloud": {
+    "main": true
+  },
+  "terraform-provider-archive": {
+    "main": true
+  },
+  "terraform-provider-arukas": {
+    "main": true
+  },
+  "terraform-provider-aws": {
+    "main": true
+  },
+  "terraform-provider-azuread": {
+    "main": true
+  },
+  "terraform-provider-azurerm": {
+    "main": true
+  },
+  "terraform-provider-bitbucket": {
+    "main": true
+  },
+  "terraform-provider-chef": {
+    "main": true
+  },
+  "terraform-provider-circonus": {
+    "main": true
+  },
+  "terraform-provider-clc": {
+    "main": true
+  },
+  "terraform-provider-cloudflare": {
+    "main": true
+  },
+  "terraform-provider-cloudinit": {
+    "main": true
+  },
+  "terraform-provider-cloudscale": {
+    "main": true
+  },
+  "terraform-provider-cloudstack": {
+    "main": true
+  },
+  "terraform-provider-cobbler": {
+    "main": true
+  },
+  "terraform-provider-consul": {
+    "main": true
+  },
+  "terraform-provider-credstash": {
+    "main": true
+  },
+  "terraform-provider-databricks": {
+    "main": true
+  },
+  "terraform-provider-datadog": {
+    "main": true
+  },
+  "terraform-provider-digitalocean": {
+    "main": true
+  },
+  "terraform-provider-dme": {
+    "main": true
+  },
+  "terraform-provider-dns": {
+    "main": true
+  },
+  "terraform-provider-dnsimple": {
+    "main": true
+  },
+  "terraform-provider-docker": {
+    "main": true
+  },
+  "terraform-provider-dyn": {
+    "main": true
+  },
+  "terraform-provider-ec": {
+    "main": true
+  },
+  "terraform-provider-external": {
+    "main": true
+  },
+  "terraform-provider-fastly": {
+    "main": true
+  },
+  "terraform-provider-github": {
+    "main": true
+  },
+  "terraform-provider-gitlab": {
+    "main": true
+  },
+  "terraform-provider-google": {
+    "main": true
+  },
+  "terraform-provider-grafana": {
+    "main": true
+  },
+  "terraform-provider-helm": {
+    "main": true
+  },
+  "terraform-provider-heroku": {
+    "main": true
+  },
+  "terraform-provider-http": {
+    "main": true
+  },
+  "terraform-provider-icinga2": {
+    "main": true
+  },
+  "terraform-provider-ignition": {
+    "main": true
+  },
+  "terraform-provider-influxdb": {
+    "main": true
+  },
+  "terraform-provider-keycloak": {
+    "main": true
+  },
+  "terraform-provider-kubectl": {
+    "main": true
+  },
+  "terraform-provider-kubernetes": {
+    "main": true
+  },
+  "terraform-provider-librato": {
+    "main": true
+  },
+  "terraform-provider-local": {
+    "main": true
+  },
+  "terraform-provider-logentries": {
+    "main": true
+  },
+  "terraform-provider-logicmonitor": {
+    "main": true
+  },
+  "terraform-provider-mailgun": {
+    "main": true
+  },
+  "terraform-provider-mysql": {
+    "main": true
+  },
+  "terraform-provider-newrelic": {
+    "main": true
+  },
+  "terraform-provider-nomad": {
+    "main": true
+  },
+  "terraform-provider-ns1": {
+    "main": true
+  },
+  "terraform-provider-null": {
+    "main": true
+  },
+  "terraform-provider-oci": {
+    "main": true
+  },
+  "terraform-provider-oneandone": {
+    "main": true
+  },
+  "terraform-provider-opc": {
+    "main": true
+  },
+  "terraform-provider-opensearch": {
+    "main": true
+  },
+  "terraform-provider-openstack": {
+    "main": true
+  },
+  "terraform-provider-opentelekomcloud": {
+    "main": true
+  },
+  "terraform-provider-opsgenie": {
+    "main": true
+  },
+  "terraform-provider-ovh": {
+    "main": true
+  },
+  "terraform-provider-packet": {
+    "main": true
+  },
+  "terraform-provider-pagerduty": {
+    "main": true
+  },
+  "terraform-provider-panos": {
+    "main": true
+  },
+  "terraform-provider-postgresql": {
+    "main": true
+  },
+  "terraform-provider-powerdns": {
+    "main": true
+  },
+  "terraform-provider-profitbricks": {
+    "main": true
+  },
+  "terraform-provider-rabbitmq": {
+    "main": true
+  },
+  "terraform-provider-rancher": {
+    "main": true
+  },
+  "terraform-provider-rancher2": {
+    "main": true
+  },
+  "terraform-provider-random": {
+    "main": true
+  },
+  "terraform-provider-restapi": {
+    "main": true
+  },
+  "terraform-provider-rundeck": {
+    "main": true
+  },
+  "terraform-provider-scaleway": {
+    "main": true
+  },
+  "terraform-provider-softlayer": {
+    "main": true
+  },
+  "terraform-provider-spotinst": {
+    "main": true
+  },
+  "terraform-provider-sshtunnel": {
+    "main": true
+  },
+  "terraform-provider-statuscake": {
+    "main": true
+  },
+  "terraform-provider-template": {
+    "main": true
+  },
+  "terraform-provider-terraform": {
+    "main": true
+  },
+  "terraform-provider-time": {
+    "main": true
+  },
+  "terraform-provider-tls": {
+    "main": true
+  },
+  "terraform-provider-triton": {
+    "main": true
+  },
+  "terraform-provider-ultradns": {
+    "main": true
+  },
+  "terraform-provider-vault": {
+    "main": true
+  },
+  "terraform-provider-vcd": {
+    "main": true
+  },
+  "terraform-provider-vsphere": {
+    "main": true
+  },
+  "terragrunt": {
+    "main": true
+  },
+  "terrainbento": {
+    "main": true
+  },
+  "terratorch": {
+    "main": true
+  },
+  "tespy": {
+    "main": true
+  },
+  "tesseract": {
+    "main": true
+  },
+  "tesserocr": {
+    "main": true
+  },
+  "tesspy": {
+    "main": true
+  },
+  "test-drive": {
+    "main": true
+  },
+  "testbook": {
+    "main": true
+  },
+  "testcontainers": {
+    "main": true
+  },
+  "testfixtures": {
+    "main": true
+  },
+  "testflo": {
+    "main": true
+  },
+  "testflows.asserts": {
+    "main": true
+  },
+  "testgres": {
+    "main": true
+  },
+  "testinfra": {
+    "main": true
+  },
+  "testmsm": {
+    "main": true
+  },
+  "testpath": {
+    "main": true
+  },
+  "testscenarios": {
+    "main": true
+  },
+  "testslide": {
+    "main": true
+  },
+  "testtools": {
+    "main": true
+  },
+  "tetgen": {
+    "main": true
+  },
+  "tethys-data-models": {
+    "main": true
+  },
+  "tethys-platform": {
+    "main": true
+  },
+  "tethys_dask_scheduler": {
+    "main": true
+  },
+  "tethys_dataset_services": {
+    "main": true
+  },
+  "tetra": {
+    "main": true
+  },
+  "tetraframework": {
+    "main": true
+  },
+  "tex-fmt": {
+    "main": true
+  },
+  "tex2pix": {
+    "main": true
+  },
+  "tex2py": {
+    "main": true
+  },
+  "texext": {
+    "main": true
+  },
+  "texify": {
+    "main": true
+  },
+  "texinfo": {
+    "main": true
+  },
+  "texlab": {
+    "main": true
+  },
+  "texlive-core": {
+    "main": true
+  },
+  "texmaker": {
+    "main": true
+  },
+  "texplain": {
+    "main": true
+  },
+  "texsoup": {
+    "main": true
+  },
+  "text-encrypt-decrypt": {
+    "main": true
+  },
+  "text-generation": {
+    "main": true
+  },
+  "text-unidecode": {
+    "main": true
+  },
+  "text2emotion": {
+    "main": true
+  },
+  "text_extensions_for_pandas": {
+    "main": true
+  },
+  "text_models": {
+    "main": true
+  },
+  "textacy": {
+    "main": true
+  },
+  "textadapter": {
+    "main": true
+  },
+  "textalloc": {
+    "main": true
+  },
+  "textattack": {
+    "main": true
+  },
+  "textblob": {
+    "main": true
+  },
+  "textcase": {
+    "main": true
+  },
+  "textdistance": {
+    "main": true
+  },
+  "textgrad": {
+    "main": true
+  },
+  "textgrid": {
+    "main": true
+  },
+  "texthero": {
+    "main": true
+  },
+  "textidote": {
+    "main": true
+  },
+  "textlint": {
+    "main": true
+  },
+  "textnets": {
+    "main": true
+  },
+  "textract": {
+    "main": true
+  },
+  "textstat": {
+    "main": true
+  },
+  "texttable": {
+    "main": true
+  },
+  "textual": {
+    "main": true
+  },
+  "textual-autocomplete": {
+    "main": true
+  },
+  "textual-dev": {
+    "main": true
+  },
   "textual-diff-view": {
+    "main": true
+  },
+  "textual-fastdatatable": {
+    "main": true
+  },
+  "textual-image": {
+    "main": true
+  },
+  "textual-imageview": {
+    "main": true
+  },
+  "textual-paint": {
+    "main": true
+  },
+  "textual-plotext": {
+    "main": true
+  },
+  "textual-serve": {
+    "main": true
+  },
+  "textual-speedups": {
+    "main": true
+  },
+  "textual-textarea": {
+    "main": true
+  },
+  "textwrap3": {
+    "main": true
+  },
+  "textx": {
+    "main": true
+  },
+  "tf-keras": {
+    "main": true
+  },
+  "tf-playwright-stealth": {
+    "main": true
+  },
+  "tf-slim": {
+    "main": true
+  },
+  "tf2-gnn": {
+    "main": true
+  },
+  "tf2onnx": {
+    "main": true
+  },
+  "tf_object_detection": {
+    "main": true
+  },
+  "tfcausalimpact": {
+    "main": true
+  },
+  "tflint": {
+    "main": true
+  },
+  "tfs-pandas": {
+    "main": true
+  },
+  "tftest": {
+    "main": true
+  },
+  "tfv": {
+    "main": true
+  },
+  "tfv_get_tools": {
+    "main": true
+  },
+  "thalassa": {
+    "main": true
+  },
+  "thatool": {
+    "main": true
+  },
+  "the-segmentation-game": {
+    "main": true
+  },
+  "the-way": {
+    "main": true
+  },
+  "the_silver_searcher": {
+    "main": true
+  },
+  "theanolm": {
+    "main": true
+  },
+  "thechopper": {
+    "main": true
+  },
+  "thefuzz": {
+    "main": true
+  },
+  "theme-darcula": {
+    "main": true
+  },
+  "theme-material-darcula": {
+    "main": true
+  },
+  "thepipe": {
+    "main": true
+  },
+  "thermo": {
+    "main": true
+  },
+  "thermoextrap": {
+    "main": true
+  },
+  "thermofun": {
+    "main": true
+  },
+  "thermohubclient": {
+    "main": true
+  },
+  "thermostate": {
+    "main": true
+  },
+  "thermotools": {
+    "main": true
+  },
+  "theseus": {
+    "main": true
+  },
+  "theseus-ai": {
+    "main": true
+  },
+  "thevenin": {
+    "main": true
+  },
+  "thewalrus": {
+    "main": true
+  },
+  "thinc": {
+    "main": true
+  },
+  "things_eeg2_dataset": {
+    "main": true
+  },
+  "thinkx": {
+    "main": true
+  },
+  "thorlabs-apt-protocol": {
+    "main": true
+  },
+  "thrax": {
+    "main": true
+  },
+  "threadloop": {
+    "main": true
+  },
+  "threadom": {
+    "main": true
+  },
+  "threadpoolctl": {
+    "main": true
+  },
+  "threddsclient": {
+    "main": true
+  },
+  "three-merge": {
+    "main": true
+  },
+  "three.js": {
+    "main": true
+  },
+  "threedigrid": {
+    "main": true
+  },
+  "threeml": {
+    "main": true
+  },
+  "threey": {
+    "main": true
+  },
+  "thresholdclustering": {
+    "main": true
+  },
+  "thrift": {
+    "main": true
+  },
+  "thrift-cpp": {
+    "main": true
+  },
+  "thrift-ls": {
+    "main": true
+  },
+  "thrift_sasl": {
+    "main": true
+  },
+  "thriftpy2": {
+    "main": true
+  },
+  "throttled-py": {
+    "main": true
+  },
+  "throttler": {
+    "main": true
+  },
+  "thucyd": {
+    "main": true
+  },
+  "thunder-python": {
+    "main": true
+  },
+  "thunder-registration": {
+    "main": true
+  },
+  "thztools": {
+    "main": true
+  },
+  "tianshou": {
+    "main": true
+  },
+  "tiara": {
+    "main": true
+  },
+  "tiatoolbox": {
+    "main": true
+  },
+  "tibanna": {
+    "main": true
+  },
+  "tibi": {
+    "main": true
+  },
+  "tibs": {
+    "main": true
+  },
+  "ticcltools": {
+    "main": true
+  },
+  "ticcutils": {
+    "main": true
+  },
+  "ticker": {
+    "main": true
+  },
+  "ticlib": {
+    "main": true
+  },
+  "tico": {
+    "main": true
+  },
+  "ticoi": {
+    "main": true
+  },
+  "tidalpy": {
+    "main": true
+  },
+  "tidb-vector": {
+    "main": true
+  },
+  "tidy-html5": {
+    "main": true
+  },
+  "tidy-viewer": {
+    "main": true
+  },
+  "tidy_headers": {
+    "main": true
+  },
+  "tidynamics": {
+    "main": true
+  },
+  "tidypandas": {
+    "main": true
+  },
+  "tidypolars": {
+    "main": true
+  },
+  "tierpsy": {
+    "main": true
+  },
+  "ties20": {
+    "main": true
+  },
+  "ties_md": {
+    "main": true
+  },
+  "tifffile": {
+    "main": true
+  },
+  "tifffolder": {
+    "main": true
+  },
+  "tiffslide": {
+    "main": true
+  },
+  "tifftools": {
+    "main": true
+  },
+  "tig": {
+    "main": true
+  },
+  "tigernet": {
+    "main": true
+  },
+  "tight-inclusion": {
+    "main": true
+  },
+  "tigramite": {
+    "main": true
+  },
+  "tika": {
+    "main": true
+  },
+  "tika-client": {
+    "main": true
+  },
+  "tike": {
+    "main": true
+  },
+  "tiktoken": {
+    "main": true
+  },
+  "tikzmagic": {
+    "main": true
+  },
+  "tikzplotlib": {
+    "main": true
+  },
+  "tile_mate": {
+    "main": true
+  },
+  "tiled-suite": {
+    "main": true
+  },
+  "tiledb": {
+    "main": true
+  },
+  "tiledb-bioimg": {
     "main": true
   },
   "tofu-ls": {
