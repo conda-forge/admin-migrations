@@ -156,7 +156,7 @@ class Username2IDMapping(Migrator):
         print("    wrote username to id mapping file", flush=True)
 
         # now we remove any user in a recipe who does not exist
-        print("    looking for maintainers to remove from the recipe", flush=True)
+        print("    looking for maintainers to add/remove from the recipe", flush=True)
 
         # DO NOT USE THIS CODE TO SET IDs
         recipe_content = _get_recipe_contents()
@@ -201,7 +201,7 @@ class Username2IDMapping(Migrator):
 
             for maint in maint_to_add:
                 new_lines = _add_remove_user(new_lines, maint, "add")
-            print("    added maintainers from the recipe", flush=True)
+            print("    added maintainers to the recipe", flush=True)
 
             wrote = False
             for pth in ["recipe/meta.yaml", "recipe/recipe.yaml"]:
