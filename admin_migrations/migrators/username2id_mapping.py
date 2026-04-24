@@ -137,6 +137,8 @@ class Username2IDMapping(Migrator):
             except Exception:
                 uid = None
 
+            assert False
+
             uname2id_mapping[uname] = uid
 
         if any(val is None for val in uname2id_mapping.values()):

@@ -321,6 +321,14 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                             except Exception as e:
                                 worked = False
                                 print("    ERROR:", repr(e), flush=True)
+                                print(
+                                    indent(
+                                        "".join(traceback.format_exception(e, limit=1)),
+                                        "    ",
+                                    ),
+                                    flush=True,
+                                )
+
                                 if DEBUG:
                                     print(
                                         indent(
