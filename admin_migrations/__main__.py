@@ -323,7 +323,7 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                 print("    ERROR:", repr(e), flush=True)
                                 print(
                                     indent(
-                                        "".join(traceback.format_exception(e, limit=1)),
+                                        "".join(traceback.format_exception(e, limit=-1)),
                                         "    ",
                                     ),
                                     flush=True,
