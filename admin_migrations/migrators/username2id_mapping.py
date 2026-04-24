@@ -125,99 +125,113 @@ class Username2IDMapping(Migrator):
             None,
         )
         if fs_team is None:
-            # migration done, make a commit, lots of API calls
-            return False, False, True
+            print(
+                "    could not find maintainer team - writing empty ID mapping",
+                flush=True,
+            )
 
-        maintainers = {e.login.lower() for e in fs_team.get_members()}
+            with open(UNAME2ID_FILE, "w") as fp:
+                fp.write("{}")
 
-        uname2id_mapping = {}
-        for uname in maintainers:
-            try:
-                uid = gh.get_user(uname).id
-            except Exception:
-                uid = None
+            subprocess.run(
+                ["git", "add", "-f", UNAME2ID_FILE],
+                check=True,
+            )
 
-            uname2id_mapping[uname] = uid
+            print("    wrote username to id mapping file", flush=True)
+        else:
+            maintainers = {e.login.lower() for e in fs_team.get_members()}
 
-        if any(val is None for val in uname2id_mapping.values()):
-            # migration done, make a commit, lots of API calls
-            return False, False, True
+            uname2id_mapping = {}
+            for uname in maintainers:
+                try:
+                    uid = gh.get_user(uname).id
+                except Exception:
+                    uid = None
 
-        print("    got username to id mapping", flush=True)
+                uname2id_mapping[uname] = uid
 
-        with open(UNAME2ID_FILE, "w") as fp:
-            fp.write(json.dumps(uname2id_mapping, sort_keys=True, indent=2))
+            if any(val is None for val in uname2id_mapping.values()):
+                # migration done, make a commit, lots of API calls
+                return False, False, True
 
-        subprocess.run(
-            ["git", "add", "-f", UNAME2ID_FILE],
-            check=True,
-        )
+            print("    got username to id mapping", flush=True)
 
-        print("    wrote username to id mapping file", flush=True)
+            with open(UNAME2ID_FILE, "w") as fp:
+                fp.write(json.dumps(uname2id_mapping, sort_keys=True, indent=2))
 
-        # now we remove any user in a recipe who does not exist
-        print("    looking for maintainers to add/remove from the recipe", flush=True)
+            subprocess.run(
+                ["git", "add", "-f", UNAME2ID_FILE],
+                check=True,
+            )
 
-        # DO NOT USE THIS CODE TO SET IDs
-        recipe_content = _get_recipe_contents()
-        meta = _get_recipe_dummy_meta(recipe_content)
-        recipe_maintainers = set(
-            meta.meta.get("extra", {}).get("recipe-maintainers", []) or []
-        )
-        recipe_maintainers = {m.lower() for m in recipe_maintainers}
-        recipe_maintainers = {m for m in recipe_maintainers if "/" not in m}
-        maint_to_remove = set()
-        for maint in recipe_maintainers:
-            try:
-                gh.get_user(maint)
-            except Exception:
-                if maint not in uname2id_mapping:
-                    maint_to_remove.add(maint)
+            print("    wrote username to id mapping file", flush=True)
 
-        maint_to_add = set()
-        for maint in uname2id_mapping:
-            if maint not in recipe_maintainers:
-                maint_to_add.add(maint)
+            # now we remove any user in a recipe who does not exist
+            print(
+                "    looking for maintainers to add/remove from the recipe", flush=True
+            )
 
-        if maint_to_remove or maint_to_add:
-            if maint_to_remove:
-                print(
-                    "    found maintainers to remove from the recipe:",
-                    maint_to_remove,
-                    flush=True,
-                )
+            # DO NOT USE THIS CODE TO SET IDs
+            recipe_content = _get_recipe_contents()
+            meta = _get_recipe_dummy_meta(recipe_content)
+            recipe_maintainers = set(
+                meta.meta.get("extra", {}).get("recipe-maintainers", []) or []
+            )
+            recipe_maintainers = {m.lower() for m in recipe_maintainers}
+            recipe_maintainers = {m for m in recipe_maintainers if "/" not in m}
+            maint_to_remove = set()
+            for maint in recipe_maintainers:
+                try:
+                    gh.get_user(maint)
+                except Exception:
+                    if maint not in uname2id_mapping:
+                        maint_to_remove.add(maint)
 
-            if maint_to_add:
-                print(
-                    "    found maintainers to add to the recipe:",
-                    maint_to_add,
-                    flush=True,
-                )
+            maint_to_add = set()
+            for maint in uname2id_mapping:
+                if maint not in recipe_maintainers:
+                    maint_to_add.add(maint)
 
-            new_lines = recipe_content.splitlines()
-            for maint in maint_to_remove:
-                new_lines = _add_remove_user(new_lines, maint, "remove")
-            print("    removed maintainers from the recipe", flush=True)
-
-            for maint in maint_to_add:
-                new_lines = _add_remove_user(new_lines, maint, "add")
-            print("    added maintainers to the recipe", flush=True)
-
-            wrote = False
-            for pth in ["recipe/meta.yaml", "recipe/recipe.yaml"]:
-                if os.path.exists(pth):
-                    with open(pth, "w") as fp:
-                        fp.write("\n".join(new_lines))
-
-                    subprocess.run(
-                        ["git", "add", "-f", pth],
-                        check=True,
+            if maint_to_remove or maint_to_add:
+                if maint_to_remove:
+                    print(
+                        "    found maintainers to remove from the recipe:",
+                        maint_to_remove,
+                        flush=True,
                     )
-                    wrote = True
-                    break
 
-            assert wrote, "Could not write new recipe!"
-            print("    wrote recipe to repo", flush=True)
+                if maint_to_add:
+                    print(
+                        "    found maintainers to add to the recipe:",
+                        maint_to_add,
+                        flush=True,
+                    )
+
+                new_lines = recipe_content.splitlines()
+                for maint in maint_to_remove:
+                    new_lines = _add_remove_user(new_lines, maint, "remove")
+                print("    removed maintainers from the recipe", flush=True)
+
+                for maint in maint_to_add:
+                    new_lines = _add_remove_user(new_lines, maint, "add")
+                print("    added maintainers to the recipe", flush=True)
+
+                wrote = False
+                for pth in ["recipe/meta.yaml", "recipe/recipe.yaml"]:
+                    if os.path.exists(pth):
+                        with open(pth, "w") as fp:
+                            fp.write("\n".join(new_lines))
+
+                        subprocess.run(
+                            ["git", "add", "-f", pth],
+                            check=True,
+                        )
+                        wrote = True
+                        break
+
+                assert wrote, "Could not write new recipe!"
+                print("    wrote recipe to repo", flush=True)
 
         # migration done, make a commit, lots of API calls
         return True, True, True
