@@ -19064,13 +19064,1594 @@
   "flowtorch": {
     "main": true
   },
+  "flox": {
+    "main": true
+  },
+  "flt": {
+    "main": true
+  },
+  "fltk": {
+    "main": true
+  },
+  "fludashboard": {
+    "main": true
+  },
+  "fluent-logger": {
+    "main": true
+  },
+  "flufl.enum": {
+    "main": true
+  },
+  "flufl.lock": {
+    "main": true
+  },
+  "fluiddyn": {
+    "main": true
+  },
+  "fluidfft": {
+    "main": true
+  },
+  "fluidfft-builder": {
+    "main": true
+  },
+  "fluidfft-fftw": {
+    "main": true
+  },
+  "fluidfft-fftwmpi": {
+    "main": true
+  },
+  "fluidfft-mpi_with_fftw": {
+    "main": true
+  },
+  "fluidfoam": {
+    "main": true
+  },
+  "fluidimage": {
+    "main": true
+  },
+  "fluids": {
+    "main": true
+  },
+  "fluidsim": {
+    "main": true
+  },
+  "fluidsim-core": {
+    "main": true
+  },
+  "fluidsynth": {
+    "main": true
+  },
+  "fluoriclogppka": {
+    "main": true
+  },
+  "flup": {
+    "main": true
+  },
+  "fluprodia": {
+    "main": true
+  },
+  "flupy": {
+    "main": true
+  },
+  "flux": {
+    "main": true
+  },
+  "flux-core": {
+    "main": true
+  },
+  "flux-lsp": {
+    "main": true
+  },
+  "flux-pmix": {
+    "main": true
+  },
+  "flux-restful-client": {
+    "main": true
+  },
+  "flux-sched": {
+    "main": true
+  },
+  "fluxfootprints": {
+    "main": true
+  },
+  "flwr": {
+    "main": true
+  },
   "flyctl": {
+    "main": true
+  },
+  "flynt": {
+    "main": true
+  },
+  "flyr": {
+    "main": true
+  },
+  "flyteidl": {
+    "main": true
+  },
+  "flytekit": {
+    "main": true
+  },
+  "flytekitplugins-athena": {
+    "main": true
+  },
+  "flytekitplugins-awsbatch": {
+    "main": true
+  },
+  "flytekitplugins-dask": {
+    "main": true
+  },
+  "flytekitplugins-data-fsspec": {
+    "main": true
+  },
+  "flytekitplugins-modin": {
+    "main": true
+  },
+  "flytekitplugins-pandera": {
+    "main": true
+  },
+  "flytekitplugins-spark": {
+    "main": true
+  },
+  "flytekitplugins-sqlalchemy": {
+    "main": true
+  },
+  "fmi4cpp": {
+    "main": true
+  },
+  "fmilib": {
+    "main": true
+  },
+  "fmipp": {
+    "main": true
+  },
+  "fmjpeg2koj": {
+    "main": true
+  },
+  "fml": {
+    "main": true
+  },
+  "fmodpy": {
+    "main": true
+  },
+  "fmpy": {
+    "main": true
+  },
+  "fmrib-unpack": {
+    "main": true
+  },
+  "fmrib-unpack-fmrib-config": {
+    "main": true
+  },
+  "fmt": {
+    "main": true
+  },
+  "fn": {
+    "main": true
+  },
+  "fnc": {
+    "main": true
+  },
+  "fnm": {
+    "main": true
+  },
+  "foam_ct_phantom": {
+    "main": true
+  },
+  "foamalgo": {
+    "main": true
+  },
+  "foamlib": {
+    "main": true
+  },
+  "foc": {
+    "main": true
+  },
+  "focal-loss": {
+    "main": true
+  },
+  "focal-stats": {
+    "main": true
+  },
+  "fofx": {
+    "main": true
+  },
+  "folium": {
+    "main": true
+  },
+  "folium-pmtiles": {
+    "main": true
+  },
+  "folktables": {
+    "main": true
+  },
+  "folly": {
+    "main": true
+  },
+  "folx": {
+    "main": true
+  },
+  "fonduer": {
+    "main": true
+  },
+  "font-otf-fontawesome": {
+    "main": true
+  },
+  "font-ttf-dejavu": {
+    "main": true
+  },
+  "font-ttf-dejavu-sans-mono": {
+    "main": true
+  },
+  "font-ttf-ibm-plex-sans": {
+    "main": true
+  },
+  "font-ttf-inconsolata": {
+    "main": true
+  },
+  "font-ttf-noto": {
+    "main": true
+  },
+  "font-ttf-noto-cjk": {
+    "main": true
+  },
+  "font-ttf-noto-emoji": {
+    "main": true
+  },
+  "font-ttf-opensans": {
+    "main": true
+  },
+  "font-ttf-roboto": {
+    "main": true
+  },
+  "font-ttf-rubik": {
+    "main": true
+  },
+  "font-ttf-source-code-pro": {
+    "main": true
+  },
+  "font-ttf-twemoji": {
+    "main": true
+  },
+  "font-ttf-ubuntu": {
+    "main": true
+  },
+  "font-v": {
+    "main": true
+  },
+  "fontconfig": {
+    "main": true
+  },
+  "fonticon-fontawesome5": {
+    "main": true
+  },
+  "fonticon-fontawesome6": {
+    "main": true
+  },
+  "fonticon-materialdesignicons6": {
+    "main": true
+  },
+  "fonticon-materialdesignicons7": {
+    "main": true
+  },
+  "fontmath": {
+    "main": true
+  },
+  "fontparts": {
+    "main": true
+  },
+  "fontpens": {
+    "main": true
+  },
+  "fonts-conda-ecosystem": {
+    "main": true
+  },
+  "fonts-conda-forge": {
+    "main": true
+  },
+  "fonttools": {
+    "main": true
+  },
+  "foolbox": {
+    "main": true
+  },
+  "foonathan-memory": {
+    "main": true
+  },
+  "fooof": {
+    "main": true
+  },
+  "forallpeople": {
+    "main": true
+  },
+  "forbiddenfruit": {
+    "main": true
+  },
+  "force-delete-win": {
+    "main": true
+  },
+  "forcebalance": {
+    "main": true
+  },
+  "forcefield-utilities": {
+    "main": true
+  },
+  "ford": {
+    "main": true
+  },
+  "forest": {
+    "main": true
+  },
+  "forest_lite": {
+    "main": true
+  },
+  "forestci": {
+    "main": true
+  },
+  "forestopenfermion": {
+    "main": true
+  },
+  "forestplot": {
+    "main": true
+  },
+  "fork-cleaner": {
+    "main": true
+  },
+  "fork-purger": {
+    "main": true
+  },
+  "formencode": {
+    "main": true
+  },
+  "formlayout": {
+    "main": true
+  },
+  "formulae": {
+    "main": true
+  },
+  "formulaic": {
+    "main": true
+  },
+  "formulas": {
+    "main": true
+  },
+  "formulate": {
+    "main": true
+  },
+  "forte": {
+    "main": true
+  },
+  "forte2": {
+    "main": true
+  },
+  "fortecubeview": {
+    "main": true
+  },
+  "fortio": {
+    "main": true
+  },
+  "fortls": {
+    "main": true
+  },
+  "fortnet": {
+    "main": true
+  },
+  "fortran-binary": {
+    "main": true
+  },
+  "fortran-language-server": {
+    "main": true
+  },
+  "fortran-magic": {
+    "main": true
+  },
+  "fortran_kernel": {
+    "main": true
+  },
+  "fortran_stdlib": {
+    "main": true
+  },
+  "fortranformat": {
+    "main": true
+  },
+  "fortuno": {
+    "main": true
+  },
+  "fossil": {
+    "main": true
+  },
+  "foundation-sites": {
+    "main": true
+  },
+  "foundry-compute-modules": {
+    "main": true
+  },
+  "foundry-dev-tools": {
+    "main": true
+  },
+  "foundry-dev-tools-transforms": {
+    "main": true
+  },
+  "foundry-platform-sdk": {
+    "main": true
+  },
+  "foundry_ml": {
+    "main": true
+  },
+  "fox": {
+    "main": true
+  },
+  "foxes": {
+    "main": true
+  },
+  "foxes-opt": {
+    "main": true
+  },
+  "foxplainer": {
+    "main": true
+  },
+  "foyer": {
+    "main": true
+  },
+  "fparser": {
+    "main": true
+  },
+  "fpart": {
+    "main": true
+  },
+  "fpdf": {
+    "main": true
+  },
+  "fpdf2": {
+    "main": true
+  },
+  "fplll": {
+    "main": true
+  },
+  "fpm": {
+    "main": true
+  },
+  "fpm-metadata": {
+    "main": true
+  },
+  "fpocket": {
+    "main": true
+  },
+  "fprettify": {
+    "main": true
+  },
+  "fps": {
+    "main": true
+  },
+  "fps-akernel-task": {
+    "main": true
+  },
+  "fps-auth": {
+    "main": true
+  },
+  "fps-auth-base": {
+    "main": true
+  },
+  "fps-auth-fief": {
+    "main": true
+  },
+  "fps-auth-jupyterhub": {
+    "main": true
+  },
+  "fps-contents": {
+    "main": true
+  },
+  "fps-file-id": {
+    "main": true
+  },
+  "fps-file-watcher": {
+    "main": true
+  },
+  "fps-file-watcher-poll": {
+    "main": true
+  },
+  "fps-frontend": {
+    "main": true
+  },
+  "fps-jupyter-server": {
+    "main": true
+  },
+  "fps-jupyterlab": {
+    "main": true
+  },
+  "fps-jupyterlab-git": {
+    "main": true
+  },
+  "fps-jupyterlab-lsp": {
+    "main": true
+  },
+  "fps-kernel-subprocess": {
+    "main": true
+  },
+  "fps-kernels": {
+    "main": true
+  },
+  "fps-lab": {
+    "main": true
+  },
+  "fps-login": {
+    "main": true
+  },
+  "fps-nbconvert": {
+    "main": true
+  },
+  "fps-noauth": {
+    "main": true
+  },
+  "fps-notebook": {
+    "main": true
+  },
+  "fps-resource-usage": {
+    "main": true
+  },
+  "fps-retrolab": {
+    "main": true
+  },
+  "fps-terminals": {
+    "main": true
+  },
+  "fps-uvicorn": {
+    "main": true
+  },
+  "fps-yjs": {
+    "main": true
+  },
+  "fps-yrooms": {
+    "main": true
+  },
+  "fps-ystore-sqlite": {
+    "main": true
+  },
+  "fpsample": {
+    "main": true
+  },
+  "fpsim2": {
+    "main": true
+  },
+  "fpylll": {
+    "main": true
+  },
+  "fpyutils": {
+    "main": true
+  },
+  "fq": {
+    "main": true
+  },
+  "fqdn": {
+    "main": true
+  },
+  "fqe": {
+    "main": true
+  },
+  "fractal-client": {
+    "main": true
+  },
+  "fractal-server": {
+    "main": true
+  },
+  "fractal-task-tools": {
+    "main": true
+  },
+  "fractal-tasks-core": {
     "main": true
   },
   "fractal-tasks-utils": {
     "main": true
   },
+  "fractopo": {
+    "main": true
+  },
+  "fragmenstein": {
+    "main": true
+  },
+  "framel": {
+    "main": true
+  },
+  "framework7-cli": {
+    "main": true
+  },
+  "fredapi": {
+    "main": true
+  },
+  "free-proxy": {
+    "main": true
+  },
+  "freecad": {
+    "main": true
+  },
+  "freediscovery": {
+    "main": true
+  },
+  "freefem": {
+    "main": true
+  },
+  "freegenes": {
+    "main": true
+  },
+  "freeglut": {
+    "main": true
+  },
+  "freeimage": {
+    "main": true
+  },
+  "freephil": {
+    "main": true
+  },
+  "freeqdsk": {
+    "main": true
+  },
+  "freesas": {
+    "main": true
+  },
+  "freesasa": {
+    "main": true
+  },
+  "freesasa-c": {
+    "main": true
+  },
+  "freetds": {
+    "main": true
+  },
+  "freetype": {
+    "main": true
+  },
+  "freetype-py": {
+    "main": true
+  },
+  "freexl": {
+    "main": true
+  },
+  "freeze": {
+    "main": true
+  },
+  "freeze-core": {
+    "main": true
+  },
+  "freezegun": {
+    "main": true
+  },
+  "frelatage": {
+    "main": true
+  },
+  "french-cities": {
+    "main": true
+  },
+  "fresh-editor": {
+    "main": true
+  },
+  "freshwater": {
+    "main": true
+  },
+  "fresnel": {
+    "main": true
+  },
+  "fretbursts": {
+    "main": true
+  },
+  "fretraj": {
+    "main": true
+  },
+  "frettipy": {
+    "main": true
+  },
+  "freud": {
+    "main": true
+  },
+  "freva": {
+    "main": true
+  },
+  "freva-client": {
+    "main": true
+  },
+  "freva-rest-server": {
+    "main": true
+  },
+  "fribidi": {
+    "main": true
+  },
+  "fricas": {
+    "main": true
+  },
+  "frictionless": {
+    "main": true
+  },
+  "frictionless-ckan-mapper": {
+    "main": true
+  },
+  "frictionqpotfem": {
+    "main": true
+  },
+  "frictionqpotspringblock": {
+    "main": true
+  },
+  "friendli-client": {
+    "main": true
+  },
+  "friendly": {
+    "main": true
+  },
+  "friendly-styles": {
+    "main": true
+  },
+  "friendly-traceback": {
+    "main": true
+  },
+  "frilouz": {
+    "main": true
+  },
+  "frogress": {
+    "main": true
+  },
+  "frosted": {
+    "main": true
+  },
+  "frozen-flask": {
+    "main": true
+  },
+  "frozendict": {
+    "main": true
+  },
+  "frozenlist": {
+    "main": true
+  },
+  "frugally-deep": {
+    "main": true
+  },
+  "frustratometer": {
+    "main": true
+  },
+  "frv": {
+    "main": true
+  },
+  "fs": {
+    "main": true
+  },
+  "fs-azureblob": {
+    "main": true
+  },
+  "fs-gcsfs": {
+    "main": true
+  },
+  "fs-s3fs": {
+    "main": true
+  },
+  "fs.dropboxfs": {
+    "main": true
+  },
+  "fs.googledrivefs": {
+    "main": true
+  },
+  "fs.onedatarestfs": {
+    "main": true
+  },
+  "fs.smbfs": {
+    "main": true
+  },
+  "fs.sshfs": {
+    "main": true
+  },
+  "fs.webdavfs": {
+    "main": true
+  },
+  "fs_filepicker": {
+    "main": true
+  },
+  "fsautocomplete": {
+    "main": true
+  },
+  "fscacher": {
+    "main": true
+  },
+  "fscan": {
+    "main": true
+  },
+  "fsdgenfsd": {
+    "main": true
+  },
+  "fselect": {
+    "main": true
+  },
+  "fsfe-reuse": {
+    "main": true
+  },
+  "fsharplint": {
+    "main": true
+  },
+  "fsl-pipe": {
+    "main": true
+  },
+  "fsl-pipe-gui": {
+    "main": true
+  },
+  "fsl-sub": {
+    "main": true
+  },
+  "fsl-sub-plugin-sge": {
+    "main": true
+  },
+  "fsl-sub-plugin-slurm": {
+    "main": true
+  },
+  "fsleyes": {
+    "main": true
+  },
+  "fsleyes-plugin-mrs": {
+    "main": true
+  },
+  "fsleyes-props": {
+    "main": true
+  },
+  "fsleyes-widgets": {
+    "main": true
+  },
+  "fslpy": {
+    "main": true
+  },
+  "fsspec-reference-maker": {
+    "main": true
+  },
+  "fsspec-rs": {
+    "main": true
+  },
+  "fsspec-xrootd": {
+    "main": true
+  },
+  "fst-pso": {
+    "main": true
+  },
   "fsvisual": {
+    "main": true
+  },
+  "fswatch": {
+    "main": true
+  },
+  "ftd2xx": {
+    "main": true
+  },
+  "ftfy": {
+    "main": true
+  },
+  "ftgl": {
+    "main": true
+  },
+  "ftpretty": {
+    "main": true
+  },
+  "ftputil": {
+    "main": true
+  },
+  "fts-rest": {
+    "main": true
+  },
+  "ftservo-python-sdk": {
+    "main": true
+  },
+  "fugue": {
+    "main": true
+  },
+  "fugue-sql-antlr": {
+    "main": true
+  },
+  "full-fred": {
+    "main": true
+  },
+  "func-adl": {
+    "main": true
+  },
+  "func-adl-xaod": {
+    "main": true
+  },
+  "func_adl_servicex_xaodr25": {
+    "main": true
+  },
+  "func_timeout": {
+    "main": true
+  },
+  "funcargparse": {
+    "main": true
+  },
+  "funcparserlib": {
+    "main": true
+  },
+  "funcsigs": {
+    "main": true
+  },
+  "functime": {
+    "main": true
+  },
+  "functional_algorithms": {
+    "main": true
+  },
+  "functionali": {
+    "main": true
+  },
+  "functionalplus": {
+    "main": true
+  },
+  "functions-framework": {
+    "main": true
+  },
+  "functorch": {
+    "main": true
+  },
+  "funcx": {
+    "main": true
+  },
+  "funcx-common": {
+    "main": true
+  },
+  "funcy": {
+    "main": true
+  },
+  "fundamentals": {
+    "main": true
+  },
+  "funlib.geometry": {
+    "main": true
+  },
+  "funsor": {
+    "main": true
+  },
+  "furl": {
+    "main": true
+  },
+  "furo": {
+    "main": true
+  },
+  "furones": {
+    "main": true
+  },
+  "fury": {
+    "main": true
+  },
+  "fuse-overlayfs": {
+    "main": true
+  },
+  "fusepy": {
+    "main": true
+  },
+  "fusepyng": {
+    "main": true
+  },
+  "fusesoc": {
+    "main": true
+  },
+  "future": {
+    "main": true
+  },
+  "future-annotations": {
+    "main": true
+  },
+  "future_fstrings": {
+    "main": true
+  },
+  "future_typing": {
+    "main": true
+  },
+  "fuzy-jon": {
+    "main": true
+  },
+  "fuzzy-rough-learn": {
+    "main": true
+  },
+  "fuzzymatcher": {
+    "main": true
+  },
+  "fuzzysearch": {
+    "main": true
+  },
+  "fuzzytm": {
+    "main": true
+  },
+  "fuzzywuzzy": {
+    "main": true
+  },
+  "fv3grid": {
+    "main": true
+  },
+  "fvcore": {
+    "main": true
+  },
+  "fvdb-core": {
+    "main": true
+  },
+  "fvgp": {
+    "main": true
+  },
+  "fx": {
+    "main": true
+  },
+  "fx-gltf": {
+    "main": true
+  },
+  "fypp": {
+    "main": true
+  },
+  "fzf": {
+    "main": true
+  },
+  "fzy": {
+    "main": true
+  },
+  "g2aero": {
+    "main": true
+  },
+  "g2clib": {
+    "main": true
+  },
+  "g2o": {
+    "main": true
+  },
+  "g2p-en": {
+    "main": true
+  },
+  "gaiaxpy": {
+    "main": true
+  },
+  "gaitpy": {
+    "main": true
+  },
+  "gaitsetpy": {
+    "main": true
+  },
+  "gala": {
+    "main": true
+  },
+  "galario": {
+    "main": true
+  },
+  "galaxy-containers": {
+    "main": true
+  },
+  "galaxy-tool-util": {
+    "main": true
+  },
+  "galaxy-tool-util-models": {
+    "main": true
+  },
+  "galaxy-util": {
+    "main": true
+  },
+  "galeodes": {
+    "main": true
+  },
+  "galgebra": {
+    "main": true
+  },
+  "galois": {
+    "main": true
+  },
+  "galore-torch": {
+    "main": true
+  },
+  "galpy": {
+    "main": true
+  },
+  "galsim": {
+    "main": true
+  },
+  "galsim_extra": {
+    "main": true
+  },
+  "gama": {
+    "main": true
+  },
+  "gammapy": {
+    "main": true
+  },
+  "gammaray": {
+    "main": true
+  },
+  "gammasimtools": {
+    "main": true
+  },
+  "gandlf": {
+    "main": true
+  },
+  "gap": {
+    "main": true
+  },
+  "gaphas": {
+    "main": true
+  },
+  "gaphor": {
+    "main": true
+  },
+  "garage": {
+    "main": true
+  },
+  "gargs": {
+    "main": true
+  },
+  "garnett": {
+    "main": true
+  },
+  "gars_field": {
+    "main": true
+  },
+  "gaspium": {
+    "main": true
+  },
+  "gaspype": {
+    "main": true
+  },
+  "gast": {
+    "main": true
+  },
+  "gatiab": {
+    "main": true
+  },
+  "gatsby-cli": {
+    "main": true
+  },
+  "gatspy": {
+    "main": true
+  },
+  "gau2grid": {
+    "main": true
+  },
+  "gauche": {
+    "main": true
+  },
+  "gauxc": {
+    "main": true
+  },
+  "gavicore": {
+    "main": true
+  },
+  "gawk": {
+    "main": true
+  },
+  "gazar": {
+    "main": true
+  },
+  "gaze": {
+    "main": true
+  },
+  "gazebo": {
+    "main": true
+  },
+  "gazebo-yarp-plugins": {
+    "main": true
+  },
+  "gazpacho": {
+    "main": true
+  },
+  "gb-code": {
+    "main": true
+  },
+  "gbquality": {
+    "main": true
+  },
+  "gcab": {
+    "main": true
+  },
+  "gcal": {
+    "main": true
+  },
+  "gcem": {
+    "main": true
+  },
+  "gcld3": {
+    "main": true
+  },
+  "gcloud-aio-auth": {
+    "main": true
+  },
+  "gcloud-aio-bigquery": {
+    "main": true
+  },
+  "gcloud-aio-datastore": {
+    "main": true
+  },
+  "gcloud-aio-kms": {
+    "main": true
+  },
+  "gcloud-aio-pubsub": {
+    "main": true
+  },
+  "gcloud-aio-storage": {
+    "main": true
+  },
+  "gcloud-aio-taskqueue": {
+    "main": true
+  },
+  "gcm_filters": {
+    "main": true
+  },
+  "gcn-kafka": {
+    "main": true
+  },
+  "gcovr": {
+    "main": true
+  },
+  "gcp-correction": {
+    "main": true
+  },
+  "gcr": {
+    "main": true
+  },
+  "gcs-oauth2-boto-plugin": {
+    "main": true
+  },
+  "gcsfs": {
+    "main": true
+  },
+  "gcsfuse": {
+    "main": true
+  },
+  "gct": {
+    "main": true
+  },
+  "gctree": {
+    "main": true
+  },
+  "gdal": {
+    "main": true
+  },
+  "gdal-csharp": {
+    "main": true
+  },
+  "gdb": {
+    "main": true
+  },
+  "gdbm": {
+    "main": true
+  },
+  "gdcm": {
+    "main": true
+  },
+  "gdecomp": {
+    "main": true
+  },
+  "gdk-pixbuf": {
+    "main": true
+  },
+  "gdma": {
+    "main": true
+  },
+  "gdown": {
+    "main": true
+  },
+  "gdptools": {
+    "main": true
+  },
+  "gdpx": {
+    "main": true
+  },
+  "gdrive": {
+    "main": true
+  },
+  "gds": {
+    "main": true
+  },
+  "gds-dmt": {
+    "main": true
+  },
+  "gds-frameio": {
+    "main": true
+  },
+  "gds-gui": {
+    "main": true
+  },
+  "gds-lowlatency-tools": {
+    "main": true
+  },
+  "gds-lsmp": {
+    "main": true
+  },
+  "gds-monitor-apps": {
+    "main": true
+  },
+  "gds-root-extensions": {
+    "main": true
+  },
+  "gds-sigp": {
+    "main": true
+  },
+  "gds-swig": {
+    "main": true
+  },
+  "gdsfactory": {
+    "main": true
+  },
+  "gdstk": {
+    "main": true
+  },
+  "gdtchron": {
+    "main": true
+  },
+  "gdu": {
+    "main": true
+  },
+  "geant4": {
+    "main": true
+  },
+  "geant4-data-abla": {
+    "main": true
+  },
+  "geant4-data-channeling": {
+    "main": true
+  },
+  "geant4-data-emlow": {
+    "main": true
+  },
+  "geant4-data-ensdfstate": {
+    "main": true
+  },
+  "geant4-data-incl": {
+    "main": true
+  },
+  "geant4-data-ndl": {
+    "main": true
+  },
+  "geant4-data-particlexs": {
+    "main": true
+  },
+  "geant4-data-photonevaporation": {
+    "main": true
+  },
+  "geant4-data-pii": {
+    "main": true
+  },
+  "geant4-data-radioactivedecay": {
+    "main": true
+  },
+  "geant4-data-realsurface": {
+    "main": true
+  },
+  "geant4-data-saiddata": {
+    "main": true
+  },
+  "geckodriver": {
+    "main": true
+  },
+  "geconpy": {
+    "main": true
+  },
+  "gecos": {
+    "main": true
+  },
+  "geeadd": {
+    "main": true
+  },
+  "geedim": {
+    "main": true
+  },
+  "geeet": {
+    "main": true
+  },
+  "geehydro": {
+    "main": true
+  },
+  "geemap": {
+    "main": true
+  },
+  "geetools": {
+    "main": true
+  },
+  "geff": {
+    "main": true
+  },
+  "geff-spec": {
+    "main": true
+  },
+  "gekko": {
+    "main": true
+  },
+  "gel-python": {
+    "main": true
+  },
+  "gelidum": {
+    "main": true
+  },
+  "gemgis": {
+    "main": true
+  },
+  "gemmi": {
+    "main": true
+  },
+  "gempy": {
+    "main": true
+  },
+  "gempy-engine": {
+    "main": true
+  },
+  "gems3k": {
+    "main": true
+  },
+  "gemseo": {
+    "main": true
+  },
+  "gemspa-spt": {
+    "main": true
+  },
+  "gemviz": {
+    "main": true
+  },
+  "gen3": {
+    "main": true
+  },
+  "gen3-client": {
+    "main": true
+  },
+  "gen3dictionary": {
+    "main": true
+  },
+  "gen3users": {
+    "main": true
+  },
+  "genai": {
+    "main": true
+  },
+  "genai-prices": {
+    "main": true
+  },
+  "genanki": {
+    "main": true
+  },
+  "gendef": {
+    "main": true
+  },
+  "gender-guesser": {
+    "main": true
+  },
+  "general_robotics_toolbox": {
+    "main": true
+  },
+  "generalisedformanricci": {
+    "main": true
+  },
+  "generate-dense-patches": {
+    "main": true
+  },
+  "generic_parser": {
+    "main": true
+  },
+  "genericache": {
+    "main": true
+  },
+  "genes2doe": {
+    "main": true
+  },
+  "genesis-pyapi": {
+    "main": true
+  },
+  "genesis2": {
+    "main": true
+  },
+  "genesis4": {
+    "main": true
+  },
+  "genespeak": {
+    "main": true
+  },
+  "genestboost": {
+    "main": true
+  },
+  "gengetopt": {
+    "main": true
+  },
+  "genno": {
+    "main": true
+  },
+  "genomekit": {
+    "main": true
+  },
+  "genozip": {
+    "main": true
+  },
+  "genpy": {
+    "main": true
+  },
+  "genshi": {
+    "main": true
+  },
+  "gensim": {
+    "main": true
+  },
+  "genson": {
+    "main": true
+  },
+  "genutcstamp": {
+    "main": true
+  },
+  "genv": {
+    "main": true
+  },
+  "genversion": {
+    "main": true
+  },
+  "geo-parameters": {
+    "main": true
+  },
+  "geo-skeletons": {
+    "main": true
+  },
+  "geoagent": {
+    "main": true
+  },
+  "geoai-py": {
+    "main": true
+  },
+  "geoalchemy-odm2": {
+    "main": true
+  },
+  "geoalchemy2": {
+    "main": true
+  },
+  "geoana": {
+    "main": true
+  },
+  "geoapis": {
+    "main": true
+  },
+  "geoapps-utils": {
+    "main": true
+  },
+  "geoarray": {
+    "main": true
+  },
+  "geoarrow-c": {
+    "main": true
+  },
+  "geoarrow-pyarrow": {
+    "main": true
+  },
+  "geoarrow-rust-python": {
+    "main": true
+  },
+  "geoarrow-types": {
+    "main": true
+  },
+  "geobuf": {
+    "main": true
+  },
+  "geocat-comp": {
+    "main": true
+  },
+  "geocat-datafiles": {
+    "main": true
+  },
+  "geocat-f2py": {
+    "main": true
+  },
+  "geocat-viz": {
+    "main": true
+  },
+  "geoclide": {
+    "main": true
+  },
+  "geocoder": {
+    "main": true
+  },
+  "geocube": {
+    "main": true
+  },
+  "geodata-harvester": {
+    "main": true
+  },
+  "geodatasets": {
+    "main": true
+  },
+  "geodatatool": {
+    "main": true
+  },
+  "geodemo": {
+    "main": true
+  },
+  "geodemo_zw": {
+    "main": true
+  },
+  "geodemora": {
+    "main": true
+  },
+  "geofabrics": {
     "main": true
   },
   "granted": {
