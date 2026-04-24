@@ -12,7 +12,7 @@ RNG = random.SystemRandom()
 
 
 def _get_random_frac():
-    # We do 20 per run of the code.
+    # We do 20 per run of the code per process.
     if MAX_MIGRATE > 0:
         frac = 20 / MAX_MIGRATE
     else:
@@ -32,7 +32,7 @@ class DummyMeta:
 
 class TeamsCleanup(Migrator):
     main_branch_only = True
-    max_processes = 1
+    max_processes = 2
     continual = True
 
     def _should_migrate(self):
