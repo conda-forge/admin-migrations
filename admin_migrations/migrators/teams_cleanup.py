@@ -12,12 +12,11 @@ RNG = random.SystemRandom()
 
 
 def _get_random_frac():
-    # We do 100 per run of the code.
-    # this should be roughly 50 per hour.
+    # We do 20 per run of the code.
     if MAX_MIGRATE > 0:
-        frac = 100 / MAX_MIGRATE
+        frac = 20 / MAX_MIGRATE
     else:
-        frac = 1
+        frac = 0.01
 
     return frac
 
