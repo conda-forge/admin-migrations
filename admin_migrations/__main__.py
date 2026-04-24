@@ -352,9 +352,7 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                 print_buff = True
                                 exit_code = 1
 
-                            print(" ", flush=True)
-
-        print("\nmigration took %s seconds\n\n" % (time.time() - _start), flush=True)
+        print("migration took %s seconds\n" % (time.time() - _start), flush=True)
 
     if print_buff:
         print(buff.getvalue(), flush=True)
