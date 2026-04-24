@@ -103,9 +103,6 @@ class Username2IDMapping(Migrator):
     max_processes = 1
 
     def migrate(self, feedstock, branch):
-
-        assert False
-
         if os.path.exists(UNAME2ID_FILE):
             print("    username to id mapping already exists!", flush=True)
             # migration done, make a commit, lots of API calls

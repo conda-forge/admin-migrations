@@ -323,20 +323,15 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                 print("    ERROR:", repr(e), flush=True)
                                 print(
                                     indent(
-                                        "".join(traceback.format_exception(e, limit=-1)),
+                                        "".join(
+                                            traceback.format_exception(
+                                                e, limit=None if DEBUG else -1
+                                            )
+                                        ),
                                         "    ",
                                     ),
                                     flush=True,
                                 )
-
-                                if DEBUG:
-                                    print(
-                                        indent(
-                                            "".join(traceback.format_exception(e)),
-                                            "    ",
-                                        ),
-                                        flush=True,
-                                    )
 
                             if worked:
                                 migrators_to_record.append((m, branch))
