@@ -383,8 +383,6 @@ def _report_progress(
         flush=True,
     )
 
-    print(" ", flush=True)
-
 
 def _render_readme():
     with open("data/all_feedstocks.json") as fp:
@@ -519,7 +517,7 @@ def main() -> int:
                             start_time,
                         )
                         print(
-                            "\n# of feedstocks running|n_workers: %s|%s\n"
+                            "# of feedstocks running|n_workers: %s|%s\n"
                             % (len(futs), n_workers),
                             flush=True,
                         )
@@ -555,6 +553,7 @@ def main() -> int:
     _report_progress(
         num_done_prev, num_done, feedstocks, num_pushed_or_apied, start_time
     )
+    print(" ", flush=True)
 
     finished_feedstocks = sorted(finished_feedstocks)
     feedstocks["current_feedstock"] = finished_feedstocks[-1]
