@@ -261,7 +261,7 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                     branches = _get_branches(default_branch)
 
                     for m in migrators:
-                        print("\nmigrator %s" % m.__class__.__name__, flush=True)
+                        print("migrator %s" % m.__class__.__name__, flush=True)
 
                         for branch in branches:
                             if branch != default_branch and m.main_branch_only:
