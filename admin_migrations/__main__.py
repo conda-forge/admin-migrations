@@ -517,7 +517,7 @@ def main() -> int:
                             start_time,
                         )
                         print(
-                            "# of feedstocks running|n_workers: %s|%s\n"
+                            "# of feedstocks running|n_workers: %s|%s\n\n"
                             % (len(futs), n_workers),
                             flush=True,
                         )
