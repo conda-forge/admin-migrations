@@ -352,7 +352,8 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                 print_buff = True
                                 exit_code = 1
 
-        print("migration took %s seconds\n\n" % (time.time() - _start), flush=True)
+        print("migration took %s seconds" % (time.time() - _start), flush=True)
+        print(" ", flush=True)
 
     if print_buff:
         print(buff.getvalue(), flush=True)
@@ -517,10 +518,11 @@ def main() -> int:
                             start_time,
                         )
                         print(
-                            "# of feedstocks running|n_workers: %s|%s\n\n"
+                            "# of feedstocks running|n_workers: %s|%s"
                             % (len(futs), n_workers),
                             flush=True,
                         )
+                        print(" ", flush=True)
 
                     break
 
