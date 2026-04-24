@@ -1,6 +1,7 @@
 import contextlib
 import datetime
 import functools
+import io
 import json
 import os
 import subprocess
@@ -201,11 +202,6 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
     if len(migrators) == 0:
         return False, [], 0
 
-    print("=" * 80, flush=True)
-    print("=" * 80, flush=True)
-    print("=" * 80, flush=True)
-    print("migrating %s" % feedstock, flush=True)
-
     _start = time.time()
 
     made_api_calls = False
@@ -221,8 +217,20 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
         )
     )
 
+    buff = io.StringIO()
+    print_buff = False
+
     exit_code = 0
-    with tempfile.TemporaryDirectory() as tmpdir:
+    with (
+        tempfile.TemporaryDirectory() as tmpdir,
+        contextlib.redirect_stdout(buff),
+        contextlib.redirect_stderr(buff),
+    ):
+        print("=" * 80, flush=True)
+        print("=" * 80, flush=True)
+        print("=" * 80, flush=True)
+        print("migrating %s" % feedstock, flush=True)
+
         with pushd(tmpdir):
             try:
                 # use a full depth clone since some migrators rely on
@@ -291,6 +299,8 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                 made_api_calls = made_api_calls or _made_api_calls
 
                                 if commit_me:
+                                    print_buff = True
+
                                     _run_git_command(
                                         [
                                             "commit",
@@ -319,6 +329,8 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                         )
 
                             except Exception as e:
+                                print_buff = True
+
                                 worked = False
                                 print("    ERROR:", repr(e), flush=True)
                                 print(
@@ -334,13 +346,18 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                                 )
 
                             if worked:
+                                print_buff = True
                                 migrators_to_record.append((m, branch))
                             elif not m.continual:
+                                print_buff = True
                                 exit_code = 1
 
                             print(" ", flush=True)
 
-    print("\nmigration took %s seconds\n\n" % (time.time() - _start), flush=True)
+        print("\nmigration took %s seconds\n\n" % (time.time() - _start), flush=True)
+
+    if print_buff:
+        print(buff.getvalue(), flush=True)
 
     return made_api_calls, migrators_to_record, exit_code
 
