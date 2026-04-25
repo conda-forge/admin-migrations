@@ -141,6 +141,8 @@ class Username2IDMapping(Migrator):
             print("    wrote username to id mapping file", flush=True)
         else:
             maintainers = {e.login.lower() for e in fs_team.get_members()}
+            maint_to_remove = set()
+            maint_to_add = set()
 
             uname2id_mapping = {}
             for uname in maintainers:
@@ -148,12 +150,9 @@ class Username2IDMapping(Migrator):
                     uid = gh.get_user(uname).id
                 except Exception:
                     uid = None
+                print("    {uname}: {uid}", flush=True)
 
                 uname2id_mapping[uname] = uid
-
-            if any(val is None for val in uname2id_mapping.values()):
-                # migration done, make a commit, lots of API calls
-                return False, False, True
 
             print("    got username to id mapping", flush=True)
 
@@ -180,7 +179,6 @@ class Username2IDMapping(Migrator):
             )
             recipe_maintainers = {m.lower() for m in recipe_maintainers}
             recipe_maintainers = {m for m in recipe_maintainers if "/" not in m}
-            maint_to_remove = set()
             for maint in recipe_maintainers:
                 try:
                     gh.get_user(maint)
@@ -188,7 +186,6 @@ class Username2IDMapping(Migrator):
                     if maint not in uname2id_mapping:
                         maint_to_remove.add(maint)
 
-            maint_to_add = set()
             for maint in uname2id_mapping:
                 if maint not in recipe_maintainers:
                     maint_to_add.add(maint)
