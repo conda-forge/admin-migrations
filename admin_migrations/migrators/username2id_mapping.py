@@ -148,10 +148,8 @@ class Username2IDMapping(Migrator):
             for uname in maintainers:
                 try:
                     uid = gh.get_user(uname).id
-                except Exception as e:
+                except github.GithubException.UnknownObjectException:
                     print(f"    null user id for {uname}", flush=True)
-                    print(f"    {repr(e)}", flush=True)
-                    assert False
                     uid = None
                     maint_to_remove.add(uname)
 
@@ -186,7 +184,7 @@ class Username2IDMapping(Migrator):
             for maint in recipe_maintainers:
                 try:
                     gh.get_user(maint)
-                except Exception:
+                except github.GithubException.UnknownObjectException:
                     if maint not in uname2id_mapping:
                         maint_to_remove.add(maint)
 
