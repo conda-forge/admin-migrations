@@ -444,7 +444,8 @@ def main() -> int:
 
     if DEBUG:
         # set DEBUG_ADMIN_MIGRATIONS in your env to enable this
-        all_feedstocks = ["cf-autotick-bot-test-package"]
+        # all_feedstocks = ["cf-autotick-bot-test-package"]
+        all_feedstocks = ["placekey"]
         feedstocks["feedstocks"] = all_feedstocks
         feedstocks["current_feedstock"] = "a"
         assert feedstocks["feedstocks"][0] > feedstocks["current_feedstock"]
