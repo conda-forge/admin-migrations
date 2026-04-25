@@ -22,12 +22,10 @@ from admin_migrations.migrators import (
     CondaForgeYAMLTest,
     RAutomerge,
     TeamsCleanup,
-    Username2IDMapping,
 )
 from admin_migrations.migrators.base import Migrator
 
 MIGRATORS = [
-    Username2IDMapping(),
     RAutomerge(),
     CondaForgeYAMLTest(),
     TeamsCleanup(),
