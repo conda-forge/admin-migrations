@@ -148,11 +148,15 @@ class Username2IDMapping(Migrator):
             for uname in maintainers:
                 try:
                     uid = gh.get_user(uname).id
-                except Exception:
+                except Exception as e:
+                    print(f"    null user id for {uname}", flush=True)
+                    print(f"    {repr(e)}", flush=True)
+                    assert False
                     uid = None
-                print("    {uname}: {uid}", flush=True)
+                    maint_to_remove.add(uname)
 
-                uname2id_mapping[uname] = uid
+                if uid is not None:
+                    uname2id_mapping[uname] = uid
 
             print("    got username to id mapping", flush=True)
 
