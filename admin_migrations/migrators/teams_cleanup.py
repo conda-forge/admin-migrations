@@ -12,11 +12,11 @@ RNG = random.SystemRandom()
 
 
 def _get_random_frac():
-    # We do 20 per run of the code per process.
+    # We do 10 per run of the code per process.
     if MAX_MIGRATE > 0:
-        frac = 20 / MAX_MIGRATE
+        frac = 10 / MAX_MIGRATE
     else:
-        frac = 0.01
+        frac = 0.005
 
     return frac
 
