@@ -236,7 +236,7 @@ def run_migrators(feedstock, migrators) -> tuple[bool, list[tuple[Migrator, str]
                 _run_git_command(["clone", "--quiet", feedstock_http])
             except subprocess.CalledProcessError:
                 print("    clone failed!", flush=True)
-                return made_api_calls, migrators_to_record
+                return made_api_calls, migrators_to_record, 1
 
             with pushd("%s-feedstock" % feedstock):
                 if (
