@@ -187,7 +187,6 @@ class CFEP13TokenCleanup(Migrator):
             # put the staging token into BINSTAR_TOKEN
             # subprocess.run(
             #     "conda smithy update-binstar-token "
-            #     "--without-appveyor --without-azure "
             #     "--token_name BINSTAR_TOKEN",
             #     shell=True,
             #     check=True
@@ -197,7 +196,6 @@ class CFEP13TokenCleanup(Migrator):
             # put the staging token into STAGING_BINSTAR_TOKEN
             # subprocess.run(
             #     "conda smithy update-binstar-token "
-            #     "--without-appveyor --without-azure "
             #     "--token_name STAGING_BINSTAR_TOKEN",
             #     shell=True,
             #     check=True
