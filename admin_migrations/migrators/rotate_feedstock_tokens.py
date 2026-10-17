@@ -80,8 +80,6 @@ class RotateFeedstockToken(Migrator):
                 str(int(6.5 * 60 * 60)),  # 6.5 hours
                 "--feedstock_directory",
                 feedstock_dir,
-                "--without-circle",
-                "--without-drone",
             ]
             + owner_info
             + [
