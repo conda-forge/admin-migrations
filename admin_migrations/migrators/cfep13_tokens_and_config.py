@@ -262,8 +262,7 @@ class CFEP13TokensAndConfig(Migrator):
 
             # register the staging binstar token
             subprocess.run(
-                "conda smithy update-binstar-token "
-                "--without-appveyor --token_name STAGING_BINSTAR_TOKEN",
+                "conda smithy update-binstar-token --token_name STAGING_BINSTAR_TOKEN",
                 shell=True,
                 check=True,
             )
