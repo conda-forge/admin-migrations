@@ -7,7 +7,7 @@ from .conda_forge_automerge import CondaForgeAutomerge, CondaForgeAutomergeUpdat
 from .teams_cleanup import TeamsCleanup
 from .cfep13_token_cleanup import CFEP13TokenCleanup
 from .cfep13_azure_token_cleanup import CFEP13AzureTokenCleanup
-from .rotate_feedstock_tokens import RotateFeedstockToken
+from .rotate_feedstock_tokens import RotateFeedstockTokenV2
 from .rotate_cf_staging_token import RotateCFStagingToken
 from .main_default_branch import CondaForgeGHAWithMain, CondaForgeMasterToMain
 from .feedstocks_service_update import FeedstocksServiceUpdate

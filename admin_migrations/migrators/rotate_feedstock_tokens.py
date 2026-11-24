@@ -3,7 +3,6 @@ import random
 import subprocess
 
 import requests
-from conda_smithy.ci_register import travis_get_repo_info
 
 from .base import Migrator
 
@@ -22,36 +21,12 @@ def _feedstock_token_exists(name):
         return True
 
 
-def _write_travis_token(token_env):
-    smithy_conf = os.path.expanduser("~/.conda-smithy")
-    if not os.path.exists(smithy_conf):
-        os.mkdir(smithy_conf)
-
-    with open(os.path.join(smithy_conf, "travis.token"), "w") as fh:
-        fh.write(os.environ[token_env])
-
-
-class RotateFeedstockToken(Migrator):
+class RotateFeedstockTokenV2(Migrator):
     main_branch_only = True
     max_processes = 1
     max_migrate = 200
 
     def migrate(self, feedstock, branch):
-        if random.uniform(0, 1) < 0.5:
-            _write_travis_token("TRAVIS_TOKEN_A")
-        else:
-            _write_travis_token("TRAVIS_TOKEN_B")
-
-        # test to make sure travis ci api is working
-        # if not skip migration
-        repo_info = travis_get_repo_info("conda-forge", feedstock + "-feedstock")
-        if not repo_info:
-            print(
-                "    travis-ci API not working - skipping migration for now",
-                flush=True,
-            )
-            return False, False, True
-
         feedstock_dir = "../%s-feedstock" % feedstock
         owner_info = ["--organization", "conda-forge"]
 
@@ -63,6 +38,9 @@ class RotateFeedstockToken(Migrator):
                 "generate-feedstock-token",
                 "--unique-token-per-provider",
                 "--feedstock_directory",
+                "--without-all",
+                "--with-azure",
+                "--with-github-actions",
                 feedstock_dir,
             ]
             + owner_info

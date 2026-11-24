@@ -22,6 +22,7 @@ from admin_migrations.migrators import (
     CondaForgeYAMLTest,
     RAutomerge,
     TeamsCleanup,
+    RotateFeedstockTokenV2,
 )
 from admin_migrations.migrators.base import Migrator
 
@@ -29,6 +30,7 @@ MIGRATORS = [
     RAutomerge(),
     CondaForgeYAMLTest(),
     TeamsCleanup(),
+    RotateFeedstockTokenV2(),
 ]
 N_WORKERS = None
 
