@@ -1,7 +1,6 @@
 import subprocess
 from pathlib import Path
 
-from rattler_build_conda_compat.recipe_sources import get_all_url_sources
 from ruamel.yaml import YAML
 
 from .base import Migrator
@@ -122,6 +121,7 @@ def _has_cran_url_rattler_build():
 
     Outputs can have similar sources as well
     """
+    from rattler_build_conda_compat.recipe_sources import get_all_url_sources
 
     yaml = YAML()
     recipe_location = _get_rattler_build_recipe_location()

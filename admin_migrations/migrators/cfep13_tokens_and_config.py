@@ -4,14 +4,18 @@ import os
 import subprocess
 
 import conda_build
-from conda_smithy.feedstock_tokens import feedstock_token_exists
-from rattler_build_conda_compat.render import render_recipe as render_rattler_build
 from ruamel.yaml import YAML
 
 from .base import Migrator
 
 TOKENS_REPO = "https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-tokens.git"
 OUTPUTS_REPO = "https://${GITHUB_TOKEN}@github.com/conda-forge/feedstock-outputs.git"
+
+
+def feedstock_token_exists(*args, **kwargs):
+    from conda_smithy.feedstock_tokens import feedstock_token_exists as func
+
+    return func(*args, **kwargs)
 
 
 def _read_conda_forge_yaml(yaml):
@@ -112,6 +116,8 @@ def _get_sharded_path(output):
 
 
 def _register_feedstock_outputs(feedstock):
+    from rattler_build_conda_compat.render import render_recipe as render_rattler_build
+
     unames = set()
 
     is_rattler_build = False

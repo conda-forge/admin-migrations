@@ -2,8 +2,6 @@ import os
 import random
 import subprocess
 
-from conda_smithy.ci_register import travis_get_repo_info
-
 from .base import Migrator
 
 
@@ -22,6 +20,9 @@ class RotateCFStagingToken(Migrator):
     max_migrate = 200
 
     def migrate(self, feedstock, branch):
+        # Deprecated; needs conda-smithy<2026.10
+        from conda_smithy.ci_register import travis_get_repo_info
+
         if random.uniform(0, 1) < 0.5:
             _write_travis_token("TRAVIS_TOKEN_A")
         else:
